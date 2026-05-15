@@ -201,16 +201,16 @@ def main():
         muc_do_emoji = '🔴' if muc_do == 'CAO' else '🟡'
 
         msg = '\n'.join([
-            f'{muc_do_emoji} <b>CANH BAO HANG HOA — {muc_do}</b>',
+            f'{muc_do_emoji} <b>CẢNH BÁO HÀNG HÓA — {muc_do}</b>',
             '',
             f'📰 <b>{a["source"]}</b>: {parsed.get("TIEU_DE", a["title"])}',
             '',
-            f'🎯 Hang hoa: <b>{parsed.get("HANG_HOA", "?")}</b>',
-            f'{huong_emoji} Huong gia: <b>{huong}</b>',
+            f'🎯 Hàng hóa: <b>{parsed.get("HANG_HOA", "?")}</b>',
+            f'{huong_emoji} Hướng giá: <b>{huong}</b>',
             f'📋 {parsed.get("TAC_DONG", "")}',
             '',
             f'🔗 {a["link"]}',
-            f'⏱ {now_vn.strftime("%d/%m/%Y %H:%M")} (Gio VN)',
+            f'⏱ {now_vn.strftime("%d/%m/%Y %H:%M")} (Giờ VN)',
         ])
 
         if send_telegram(msg):
