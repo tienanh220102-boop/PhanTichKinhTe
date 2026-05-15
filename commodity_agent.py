@@ -16,7 +16,7 @@ TELEGRAM_CHAT  = os.environ.get('TELEGRAM_CHAT',  '')
 GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY', '')
 STATE_FILE     = 'last_commodity_news.json'
 VN_TZ          = timezone(timedelta(hours=7))
-MAX_ARTICLES   = 5   # So bai phan tich toi da moi lan chay (tranh vuot rate limit)
+MAX_ARTICLES   = 2   # So bai phan tich toi da moi lan chay (Gemini free tier: 20 RPD)
 
 RSS_FEEDS = [
     ('Reuters Business', 'https://feeds.reuters.com/reuters/businessNews'),
@@ -75,7 +75,7 @@ def is_commodity_related(title, desc):
 def analyze_with_gemini(title, desc):
     url = (
         'https://generativelanguage.googleapis.com/v1beta/models/'
-        f'gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}'
+        f'gemini-2.5-flash-lite:generateContent?key={GEMINI_API_KEY}'
     )
     prompt = f"""Ban la chuyen gia phan tich chuoi cung ung hang hoa toan cau.
 Phan tich su kien sau va danh gia tac dong len hang hoa the gioi:
@@ -99,6 +99,10 @@ Neu su kien KHONG co lien quan gi den hang hoa, chi tra loi mot dong: KHONG_LIEN
         r = requests.post(url, json=payload, timeout=15)
         data = r.json()
         if 'candidates' not in data:
+            err = data.get('error', {})
+            if err.get('code') == 429:
+                print(f'  Gemini het quota hom nay (429), dung goi them.')
+                return 'QUOTA_EXCEEDED'
             print(f'  Loi Gemini API: {data}')
             return None
         return data['candidates'][0]['content']['parts'][0]['text'].strip()
@@ -166,7 +170,10 @@ def main():
     sent = 0
     for a in new_articles[:MAX_ARTICLES]:
         print(f'Phan tich: {a["title"][:70]}...', end=' ', flush=True)
-        raw    = analyze_with_gemini(a['title'], a['desc'])
+        raw = analyze_with_gemini(a['title'], a['desc'])
+        if raw == 'QUOTA_EXCEEDED':
+            print('Dung do het quota Gemini hom nay.')
+            break
         parsed = parse_response(raw)
         seen.add(a['id'])
 
