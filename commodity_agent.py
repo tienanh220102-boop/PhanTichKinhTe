@@ -83,17 +83,18 @@ Phan tich su kien sau va danh gia tac dong len hang hoa the gioi:
 Tieu de: {title}
 Mo ta: {desc}
 
-Tra loi NGAN GON theo dung dinh dang nay (khong them bat cu thu gi ngoai 4 dong):
+Tra loi NGAN GON theo dung dinh dang nay (khong them bat cu thu gi ngoai 5 dong, viet bang TIENG VIET):
+TIEU_DE: [dich tieu de bai bao sang tieng Viet]
 HANG_HOA: [ten hang hoa bi anh huong, cach nhau bang dau phay]
 MUC_DO: [CAO / TRUNG_BINH / THAP]
-TAC_DONG: [1 cau ngan gon mo ta tac dong thuc te]
+TAC_DONG: [1 cau ngan gon mo ta tac dong thuc te bang tieng Viet]
 HUONG: [TANG / GIAM / KHONG_RO]
 
 Neu su kien KHONG co lien quan gi den hang hoa, chi tra loi mot dong: KHONG_LIEN_QUAN"""
 
     payload = {
         'contents': [{'parts': [{'text': prompt}]}],
-        'generationConfig': {'temperature': 0.1, 'maxOutputTokens': 150},
+        'generationConfig': {'temperature': 0.1, 'maxOutputTokens': 250},
     }
     try:
         r = requests.post(url, json=payload, timeout=15)
@@ -118,7 +119,7 @@ def parse_response(text):
         if ':' in line:
             key, _, val = line.partition(':')
             result[key.strip()] = val.strip()
-    if not all(k in result for k in ('MUC_DO', 'TAC_DONG', 'HANG_HOA')):
+    if not all(k in result for k in ('MUC_DO', 'TAC_DONG', 'HANG_HOA', 'TIEU_DE')):
         return None
     return result
 
@@ -195,7 +196,7 @@ def main():
         msg = '\n'.join([
             f'{muc_do_emoji} <b>CANH BAO HANG HOA — {muc_do}</b>',
             '',
-            f'📰 <b>{a["source"]}</b>: {a["title"]}',
+            f'📰 <b>{a["source"]}</b>: {parsed.get("TIEU_DE", a["title"])}',
             '',
             f'🎯 Hang hoa: <b>{parsed.get("HANG_HOA", "?")}</b>',
             f'{huong_emoji} Huong gia: <b>{huong}</b>',
