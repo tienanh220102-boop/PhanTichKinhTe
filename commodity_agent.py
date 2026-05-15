@@ -75,7 +75,7 @@ def is_commodity_related(title, desc):
 def analyze_with_gemini(title, desc):
     url = (
         'https://generativelanguage.googleapis.com/v1beta/models/'
-        f'gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}'
+        f'gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}'
     )
     prompt = f"""Ban la chuyen gia phan tich chuoi cung ung hang hoa toan cau.
 Phan tich su kien sau va danh gia tac dong len hang hoa the gioi:
@@ -98,6 +98,9 @@ Neu su kien KHONG co lien quan gi den hang hoa, chi tra loi mot dong: KHONG_LIEN
     try:
         r = requests.post(url, json=payload, timeout=15)
         data = r.json()
+        if 'candidates' not in data:
+            print(f'  Loi Gemini API: {data}')
+            return None
         return data['candidates'][0]['content']['parts'][0]['text'].strip()
     except Exception as e:
         print(f'  Loi Gemini: {e}')
