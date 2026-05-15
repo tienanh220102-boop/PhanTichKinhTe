@@ -19,7 +19,7 @@ VN_TZ          = timezone(timedelta(hours=7))
 MAX_ARTICLES   = 2   # So bai phan tich toi da moi lan chay (Gemini free tier: 20 RPD)
 
 RSS_FEEDS = [
-    ('Reuters Business', 'https://feeds.reuters.com/reuters/businessNews'),
+    ('MarketWatch',      'https://feeds.content.dowjones.io/public/rss/mw_topstories'),
     ('BBC Business',     'http://feeds.bbci.co.uk/news/business/rss.xml'),
     ('CNBC Commodities', 'https://www.cnbc.com/id/10000664/device/rss/rss.html'),
 ]
