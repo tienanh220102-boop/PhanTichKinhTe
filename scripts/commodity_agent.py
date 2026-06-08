@@ -7,7 +7,7 @@ Commodity Market Report Agent
 - Báo cáo: phân tích vĩ mô, tín hiệu giao dịch, mức giá, rủi ro
 - Tổng kết tuần vào thứ 6 sau 20:00
 """
-import json, os, time, hashlib
+import json, os, time, hashlib, logging
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
@@ -24,6 +24,17 @@ VN_TZ               = timezone(timedelta(hours=7))
 MORNING_REPORT_HOUR = 7   # 7:00 VN — trước phiên Á
 EVENING_REPORT_HOUR = 20  # 20:00 VN — trước phiên Mỹ
 MAX_ARTICLES        = 40  # tối đa bài đưa vào một báo cáo
+
+# 1 lượng vàng nhẫn = 37.5g; 1 chỉ = 3.75g; 1 troy oz = 31.1035g
+TROY_OZ_PER_LUONG = 37.5 / 31.1035
+TROY_OZ_PER_CHI   = 3.75 / 31.1035
+
+_log = logging.getLogger('commodity')
+_log.setLevel(logging.INFO)
+_log.propagate = False
+_fh = logging.FileHandler(str(_ROOT / 'data' / 'decisions.log'), encoding='utf-8')
+_fh.setFormatter(logging.Formatter('%(asctime)s %(message)s', datefmt='%Y-%m-%d %H:%M'))
+_log.addHandler(_fh)
 
 RSS_FEEDS = [
     ('MarketWatch',       'https://feeds.content.dowjones.io/public/rss/mw_topstories'),
@@ -92,6 +103,35 @@ def is_commodity_related(title, desc):
     text = (title + ' ' + desc).lower()
     return any(kw in text for kw in COMMODITY_KEYWORDS)
 
+def _matched_kw(title, desc):
+    text = (title + ' ' + desc).lower()
+    return [kw for kw in COMMODITY_KEYWORDS if kw in text]
+
+# ── Price Conversion ──────────────────────────────────────────
+def get_usd_vnd_rate():
+    try:
+        r = requests.get('https://open.er-api.com/v6/latest/USD', timeout=8)
+        return float(r.json()['rates']['VND'])
+    except Exception:
+        return None
+
+def get_gold_spot_usd():
+    try:
+        r = requests.get('https://api.metals.live/v1/spot/gold', timeout=8)
+        return float(r.json()[0]['gold'])
+    except Exception:
+        return None
+
+def build_gold_vnd_line(xau_usd, usd_vnd):
+    if not xau_usd or not usd_vnd:
+        return None
+    luong_vnd = xau_usd * TROY_OZ_PER_LUONG * usd_vnd
+    chi_vnd   = luong_vnd / 10
+    return (
+        f"💱 XAU/USD ${xau_usd:,.0f} | USD/VND {usd_vnd:,.0f} "
+        f"→ 🇻🇳 ~{luong_vnd / 1_000_000:.2f} tr/lượng | {chi_vnd / 1_000_000:.2f} tr/chỉ"
+    )
+
 # ── Gemini ────────────────────────────────────────────────────
 def call_gemini(prompt, max_tokens=1500):
     url = (
@@ -109,15 +149,17 @@ def call_gemini(prompt, max_tokens=1500):
             err = data.get('error', {})
             if err.get('code') == 429:
                 print('  Gemini hết quota hôm nay (429).')
+                _log.info('GEMINI QUOTA_EXCEEDED')
                 return 'QUOTA_EXCEEDED'
             print(f'  Lỗi Gemini API: {data}')
+            _log.info('GEMINI ERROR %s', data.get('error', {}).get('message', 'unknown'))
             return None
         return data['candidates'][0]['content']['parts'][0]['text'].strip()
     except Exception as e:
         print(f'  Lỗi Gemini: {e}')
         return None
 
-def build_session_report_prompt(articles, session, date_str):
+def build_session_report_prompt(articles, session, date_str, gold_vnd_line=None):
     articles_text = '\n'.join([
         f'{i+1}. [{a["source"]}] {a["title"]}\n   {a["desc"][:300]}'
         for i, a in enumerate(articles[:MAX_ARTICLES])
@@ -125,8 +167,15 @@ def build_session_report_prompt(articles, session, date_str):
     context = 'tin tức qua đêm và đầu phiên Á' if session == 'morning' else 'tin tức trong ngày và đầu phiên Mỹ'
     session_vn = 'PHIÊN SÁ (07:00 VN)' if session == 'morning' else 'PHIÊN MỸ (20:00 VN)'
 
+    vnd_note = ''
+    if gold_vnd_line:
+        vnd_note = (
+            f"\nTỶ GIÁ HIỆN TẠI (tự động lấy): {gold_vnd_line}\n"
+            "→ Khi đề cập giá vàng trong mục KIM LOẠI QUÝ, hãy thêm mức tương đương VND (triệu/lượng, triệu/chỉ).\n"
+        )
+
     return f"""Bạn là chuyên gia phân tích thị trường hàng hóa toàn cầu với kinh nghiệm giao dịch thực tế.
-Dưới đây là {len(articles)} {context} ngày {date_str}:
+Dưới đây là {len(articles)} {context} ngày {date_str}:{vnd_note}
 
 {articles_text}
 
@@ -171,10 +220,10 @@ Rủi ro: [rủi ro chính cần theo dõi]
 
 Lưu ý: Nếu không đủ tin về một nhóm, đánh giá dựa trên bối cảnh thị trường chung. Viết ngắn gọn, rõ ràng, chuyên nghiệp."""
 
-def generate_session_report(articles, session, date_str):
+def generate_session_report(articles, session, date_str, gold_vnd_line=None):
     if not articles:
         return None
-    prompt = build_session_report_prompt(articles, session, date_str)
+    prompt = build_session_report_prompt(articles, session, date_str, gold_vnd_line)
     return call_gemini(prompt, max_tokens=1600)
 
 def generate_weekly_report(weekly_reports, week_str):
@@ -223,6 +272,7 @@ def try_send_session_report(state, now_vn, session):
     state_key = f'last_{session}_report'
 
     if state.get(state_key) == today_str:
+        _log.info('SKIP_%s already_sent date=%s', session.upper(), today_str)
         return
     hour = now_vn.hour
     if session == 'morning' and hour < MORNING_REPORT_HOUR:
@@ -238,26 +288,40 @@ def try_send_session_report(state, now_vn, session):
 
     if not articles:
         print('Không có tin tức tích lũy, bỏ qua.')
+        _log.info('SKIP_%s no_articles date=%s', session.upper(), today_str)
         state[state_key] = today_str
         return
 
-    text = generate_session_report(articles, session, today_str)
+    # Fetch tỷ giá & giá vàng để tính VND/lượng, VND/chỉ
+    xau_usd  = get_gold_spot_usd()
+    usd_vnd  = get_usd_vnd_rate()
+    gold_vnd = build_gold_vnd_line(xau_usd, usd_vnd)
+    if gold_vnd:
+        print(f'  {gold_vnd}')
+    else:
+        print('  Không lấy được tỷ giá/giá vàng, bỏ qua phần VND.')
+
+    text = generate_session_report(articles, session, today_str, gold_vnd)
     if text == 'QUOTA_EXCEEDED':
         print('Hết quota Gemini, bỏ qua báo cáo.')
+        _log.info('SKIP_%s quota_exceeded date=%s', session.upper(), today_str)
         return
     if not text:
         print('Gemini không trả về kết quả.')
+        _log.info('SKIP_%s gemini_no_result date=%s', session.upper(), today_str)
         return
 
+    gold_line_html = f'\n{gold_vnd}' if gold_vnd else ''
     header = (
         f'{emoji} <b>BÁO CÁO {session_vn.upper()} — {now_vn.strftime("%d/%m/%Y")}</b>\n'
         f'📰 Tổng hợp {min(len(articles), MAX_ARTICLES)} tin tức | '
-        f'⏱ {now_vn.strftime("%H:%M")} (Giờ VN)\n\n'
+        f'⏱ {now_vn.strftime("%H:%M")} (Giờ VN){gold_line_html}\n\n'
     )
     msg = header + text
 
     if send_telegram(msg):
         print(f'Gửi báo cáo {session_vn} OK')
+        _log.info('SENT_%s articles=%d date=%s', session.upper(), min(len(articles), MAX_ARTICLES), today_str)
         state[state_key] = today_str
         save_report_file(text, session, today_str)
 
@@ -278,6 +342,7 @@ def try_send_session_report(state, now_vn, session):
             print('Cả hai báo cáo hôm nay đã gửi → xóa pending_articles')
     else:
         print(f'Lỗi gửi báo cáo {session_vn}')
+        _log.info('FAIL_%s telegram_error date=%s', session.upper(), today_str)
 
 def try_send_weekly_summary(state, now_vn):
     if now_vn.weekday() != 4:  # Thứ 6
@@ -348,6 +413,8 @@ def main():
                 continue
             if not is_commodity_related(a['title'], a['desc']):
                 continue
+            matched = _matched_kw(a['title'], a['desc'])
+            _log.info('ACCEPT [%s] "%s" | kw:%s', source, a['title'][:70], ','.join(matched[:3]))
             seen.add(aid)
             state['pending_articles'].append({
                 'id':           aid,
