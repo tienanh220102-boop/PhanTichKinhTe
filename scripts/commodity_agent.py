@@ -25,9 +25,6 @@ MORNING_REPORT_HOUR = 7   # 7:00 VN — trước phiên Á
 EVENING_REPORT_HOUR = 20  # 20:00 VN — trước phiên Mỹ
 MAX_ARTICLES        = 40  # tối đa bài đưa vào một báo cáo
 
-# 1 lượng vàng nhẫn = 37.5g; 1 chỉ = 3.75g; 1 troy oz = 31.1035g
-TROY_OZ_PER_LUONG = 37.5 / 31.1035
-TROY_OZ_PER_CHI   = 3.75 / 31.1035
 
 _log = logging.getLogger('commodity')
 _log.setLevel(logging.INFO)
@@ -107,29 +104,38 @@ def _matched_kw(title, desc):
     text = (title + ' ' + desc).lower()
     return [kw for kw in COMMODITY_KEYWORDS if kw in text]
 
-# ── Price Conversion ──────────────────────────────────────────
-def get_usd_vnd_rate():
+# ── Giá vàng Việt Nam (SJC) ───────────────────────────────────
+def get_vn_gold_price():
+    """
+    Fetch giá vàng nhẫn tức thời từ SJC XML.
+    Returns {'name': str, 'buy_tr': float, 'sell_tr': float} triệu VND/lượng, hoặc None.
+    """
     try:
-        r = requests.get('https://open.er-api.com/v6/latest/USD', timeout=8)
-        return float(r.json()['rates']['VND'])
+        r = requests.get('https://sjc.com.vn/xml/tygia.xml', timeout=10,
+                         headers={'User-Agent': 'Mozilla/5.0'})
+        root = ET.fromstring(r.content)
+        for item in root.iter('item'):
+            name = item.findtext('n', '').strip()
+            if 'nhẫn' in name.lower():
+                buy_raw  = item.findtext('m', '').replace(',', '').strip()
+                sell_raw = item.findtext('h', '').replace(',', '').strip()
+                if buy_raw and sell_raw:
+                    buy  = float(buy_raw)
+                    sell = float(sell_raw)
+                    # SJC XML: giá trong nghìn VND (vd: 120000 = 120 tr/lượng)
+                    factor = 1_000_000 if buy > 1_000_000 else 1_000
+                    return {'name': name, 'buy_tr': buy / factor, 'sell_tr': sell / factor}
+        return None
     except Exception:
         return None
 
-def get_gold_spot_usd():
-    try:
-        r = requests.get('https://api.metals.live/v1/spot/gold', timeout=8)
-        return float(r.json()[0]['gold'])
-    except Exception:
+def build_gold_vnd_line(vn_gold):
+    if not vn_gold:
         return None
-
-def build_gold_vnd_line(xau_usd, usd_vnd):
-    if not xau_usd or not usd_vnd:
-        return None
-    luong_vnd = xau_usd * TROY_OZ_PER_LUONG * usd_vnd
-    chi_vnd   = luong_vnd / 10
+    buy, sell  = vn_gold['buy_tr'], vn_gold['sell_tr']
     return (
-        f"💱 XAU/USD ${xau_usd:,.0f} | USD/VND {usd_vnd:,.0f} "
-        f"→ 🇻🇳 ~{luong_vnd / 1_000_000:.2f} tr/lượng | {chi_vnd / 1_000_000:.2f} tr/chỉ"
+        f"🇻🇳 Vàng nhẫn SJC — Mua {buy:.2f} tr | Bán {sell:.2f} tr /lượng "
+        f"({buy/10:.2f} tr | {sell/10:.2f} tr /chỉ)"
     )
 
 # ── Gemini ────────────────────────────────────────────────────
@@ -170,8 +176,8 @@ def build_session_report_prompt(articles, session, date_str, gold_vnd_line=None)
     vnd_note = ''
     if gold_vnd_line:
         vnd_note = (
-            f"\nTỶ GIÁ HIỆN TẠI (tự động lấy): {gold_vnd_line}\n"
-            "→ Khi đề cập giá vàng trong mục KIM LOẠI QUÝ, hãy thêm mức tương đương VND (triệu/lượng, triệu/chỉ).\n"
+            f"\nGIÁ VÀNG VIỆT NAM HIỆN TẠI: {gold_vnd_line}\n"
+            "→ Khi phân tích mục KIM LOẠI QUÝ, đề cập thêm giá vàng nhẫn trong nước để người đọc dễ hình dung.\n"
         )
 
     return f"""Bạn là chuyên gia phân tích thị trường hàng hóa toàn cầu với kinh nghiệm giao dịch thực tế.
@@ -292,10 +298,8 @@ def try_send_session_report(state, now_vn, session):
         state[state_key] = today_str
         return
 
-    # Fetch tỷ giá & giá vàng để tính VND/lượng, VND/chỉ
-    xau_usd  = get_gold_spot_usd()
-    usd_vnd  = get_usd_vnd_rate()
-    gold_vnd = build_gold_vnd_line(xau_usd, usd_vnd)
+    # Fetch giá vàng nhẫn Việt Nam tức thời (SJC)
+    gold_vnd = build_gold_vnd_line(get_vn_gold_price())
     if gold_vnd:
         print(f'  {gold_vnd}')
     else:
