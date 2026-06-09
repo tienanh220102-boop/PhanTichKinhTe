@@ -20,6 +20,7 @@ GEMINI_API_KEY      = os.environ.get('GEMINI_API_KEY', '')
 ALPHAVANTAGE_KEY    = os.environ.get('ALPHAVANTAGE_API_KEY', '')
 TWELVEDATA_KEY      = os.environ.get('TWELVEDATA_API_KEY', '')
 FRED_API_KEY        = os.environ.get('FRED_API_KEY', '')
+EIA_API_KEY         = os.environ.get('EIA_API_KEY', '')
 STATE_FILE          = str(_ROOT / 'data' / 'last_commodity_news.json')
 OUTPUT_DIR          = _ROOT / 'outputs'
 VN_TZ               = timezone(timedelta(hours=7))
@@ -144,6 +145,13 @@ FRED_MACRO_SERIES = {
     'DEXUSEU':  'USD/EUR',
 }
 
+# EIA Weekly Petroleum Status Report (ra mỗi thứ 4)
+EIA_PETROLEUM_SERIES = {
+    'WCRSTUS1': ('Tồn kho dầu thô', 'kb'),
+    'WGRSTUS1': ('Tồn kho xăng',    'kb'),
+    'WDISTUS1': ('Tồn kho diesel',  'kb'),
+}
+
 
 def fetch_prices_yfinance():
     """Giá + kỹ thuật từ Yahoo Finance: current price, Δ1D%, 5D range (High/Low), MA20."""
@@ -259,6 +267,56 @@ def fetch_macro_fred():
     return macro
 
 
+def fetch_eia_petroleum():
+    """
+    EIA Weekly Petroleum Status Report — tồn kho dầu thô/xăng/diesel Mỹ, ra mỗi thứ 4.
+    Trả về dict với change WoW và 10W average để đánh giá supply/demand thực tế.
+    Cần EIA_API_KEY (đăng ký miễn phí tại eia.gov/opendata).
+    """
+    if not EIA_API_KEY:
+        return {}
+    facets = '&'.join(f'facets[series][]={s}' for s in EIA_PETROLEUM_SERIES)
+    url = (
+        f'https://api.eia.gov/v2/petroleum/stoc/wstk/data/'
+        f'?api_key={EIA_API_KEY}&frequency=weekly&data[0]=value'
+        f'&{facets}'
+        f'&sort[0][column]=period&sort[0][direction]=desc&length=30'
+    )
+    try:
+        r = requests.get(url, timeout=15)
+        rows = r.json().get('response', {}).get('data', [])
+    except Exception as e:
+        print(f'  EIA lỗi: {e}')
+        return {}
+
+    # Group by series ID
+    grouped = {}
+    for row in rows:
+        sid = row.get('series')
+        if sid and row.get('value') is not None:
+            grouped.setdefault(sid, []).append({
+                'period': row['period'],
+                'value':  float(row['value']),
+            })
+
+    result = {}
+    for sid, (label, unit) in EIA_PETROLEUM_SERIES.items():
+        obs = grouped.get(sid, [])
+        if len(obs) >= 2:
+            cur, prev = obs[0]['value'], obs[1]['value']
+            avg10 = sum(o['value'] for o in obs[:10]) / min(10, len(obs))
+            result[sid] = {
+                'label':   label,
+                'unit':    unit,
+                'period':  obs[0]['period'],
+                'value':   cur,
+                'chg_wow': round(cur - prev, 0),
+                'avg10w':  round(avg10, 0),
+            }
+    print(f'  EIA: {len(result)}/{len(EIA_PETROLEUM_SERIES)} series OK')
+    return result
+
+
 def build_price_snapshot():
     """
     Gộp giá từ 4 nguồn. Thứ tự ưu tiên: yfinance → twelvedata → alphavantage.
@@ -288,8 +346,8 @@ def build_price_snapshot():
     return combined, macro
 
 
-def format_price_for_prompt(prices, macro):
-    """Block giá kỹ thuật đầy đủ: current, Δ1D%, 5D range, MA20 (↑/↓ so với MA)."""
+def format_price_for_prompt(prices, macro, eia=None):
+    """Block giá kỹ thuật + EIA supply chain đầy đủ cho Gemini prompt."""
 
     def line(name, label, pfmt='.2f', unit=''):
         e = prices.get(name)
@@ -336,6 +394,19 @@ def format_price_for_prompt(prices, macro):
         if sid in macro:
             d = macro[sid]
             out.append(f'  {d["label"]}: {d["value"]} ({d["date"]})')
+    if eia:
+        latest_period = max(d['period'] for d in eia.values())
+        out.append(f'[EIA WEEKLY PETROLEUM — {latest_period}]')
+        for sid, d in eia.items():
+            chg = d['chg_wow']
+            direction = 'BUILD ▲' if chg > 0 else 'DRAW ▼'
+            signal    = 'bearish (cung dư)' if chg > 0 else 'bullish (cung thắt)'
+            out.append(
+                f'  {d["label"]}: {d["value"]:,.0f} {d["unit"]}  '
+                f'({direction} {abs(chg):,.0f} {d["unit"]} | 10W avg: {d["avg10w"]:,.0f} {d["unit"]}) → {signal}'
+            )
+        out.append('→ So sánh tồn kho dầu thô vs 10W avg để xác định cung đang thắt hay dư.')
+
     out.append('→ Hỗ trợ = đáy 5D hoặc MA20 (lấy số cao hơn); Kháng cự = đỉnh 5D; ↑ = trên MA20, ↓ = dưới MA20')
     out.append('---')
     return '\n'.join(out)
@@ -450,7 +521,8 @@ Hãy viết BÁO CÁO PHÂN TÍCH {session_vn} bằng TIẾNG VIỆT theo đúng
 Xu hướng: [TĂNG / GIẢM / SIDEWAY]
 Tín hiệu: [MUA / BÁN / GIỮ]
 Ngưỡng giá: Hỗ trợ [đáy 5D hoặc MA20 từ bảng giá — dùng số cụ thể] | Kháng cự [đỉnh 5D từ bảng giá — dùng số cụ thể]
-Phân tích: [2-3 câu phân tích dựa trên tin tức]
+EIA Inventory: [nêu draw/build dầu thô từ bảng EIA nếu có, và hàm ý bullish/bearish — nếu không có dữ liệu ghi "N/A"]
+Phân tích: [2-3 câu kết hợp tin tức + tín hiệu EIA inventory]
 Rủi ro: [rủi ro chính cần theo dõi]
 
 🥇 KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc
@@ -554,9 +626,10 @@ def try_send_session_report(state, now_vn, session):
         state[state_key] = today_str
         return
 
-    # Fetch giá thị trường (4 nguồn) + vàng nhẫn SJC
+    # Fetch giá thị trường (4 nguồn) + EIA supply chain + vàng nhẫn SJC
     prices, macro = build_price_snapshot()
-    price_block   = format_price_for_prompt(prices, macro) if prices or macro else None
+    eia           = fetch_eia_petroleum()
+    price_block   = format_price_for_prompt(prices, macro, eia) if prices or macro or eia else None
     price_line    = format_price_for_telegram(prices, macro)
     gold_vnd      = build_gold_vnd_line(get_vn_gold_price())
     if gold_vnd:
