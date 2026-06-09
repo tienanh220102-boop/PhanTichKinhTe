@@ -146,18 +146,32 @@ FRED_MACRO_SERIES = {
 
 
 def fetch_prices_yfinance():
-    """Giá futures hàng hóa từ Yahoo Finance (~15 min delay, không giới hạn)."""
+    """Giá + kỹ thuật từ Yahoo Finance: current price, Δ1D%, 5D range (High/Low), MA20."""
     try:
         import yfinance as yf
         symbols = list(YFINANCE_SYMBOLS.values())
-        raw = yf.download(symbols, period='5d', progress=False, auto_adjust=True)
+        raw = yf.download(symbols, period='1mo', progress=False, auto_adjust=True)
         prices = {}
         for name, sym in YFINANCE_SYMBOLS.items():
             try:
-                col = ('Close', sym) if ('Close', sym) in raw.columns else sym
-                series = raw[col].dropna()
-                if not series.empty:
-                    prices[name] = round(float(series.iloc[-1]), 4)
+                def _col(field):
+                    return raw[(field, sym)].dropna() if (field, sym) in raw.columns else raw[field].dropna()
+                close = _col('Close')
+                high  = _col('High')
+                low   = _col('Low')
+                if len(close) < 2:
+                    continue
+                cur  = float(close.iloc[-1])
+                prev = float(close.iloc[-2])
+                n5   = min(5, len(close))
+                n20  = min(20, len(close))
+                prices[name] = {
+                    'value':   round(cur, 4),
+                    'chg_pct': round((cur - prev) / prev * 100, 2),
+                    'low5d':   round(float(low.iloc[-n5:].min()), 4),
+                    'high5d':  round(float(high.iloc[-n5:].max()), 4),
+                    'ma20':    round(float(close.iloc[-n20:].mean()), 4),
+                }
             except Exception:
                 pass
         print(f'  yfinance: {len(prices)}/{len(YFINANCE_SYMBOLS)} symbols OK')
@@ -258,56 +272,87 @@ def build_price_snapshot():
     macro      = fetch_macro_fred()
 
     combined = {}
+    seen = set()
     for name in list(YFINANCE_SYMBOLS.keys()) + list(AV_COMMODITY_FUNCS.keys()) + list(TD_SYMBOLS.keys()):
-        if name in combined:
+        if name in seen:
             continue
+        seen.add(name)
         if name in yf_prices:
-            combined[name] = {'value': yf_prices[name], 'src': 'yf'}
+            combined[name] = {**yf_prices[name], 'src': 'yf'}  # rich: value+chg_pct+5D+ma20
         elif name in td_prices:
             combined[name] = {'value': td_prices[name], 'src': 'td'}
         elif name in av_prices:
             combined[name] = {'value': av_prices[name], 'src': 'av'}
 
-    covered = len([k for k in combined if combined[k]['src'] != 'N/A'])
-    print(f'  Tổng hợp: {covered} symbols có giá | {len(macro)} macro series')
+    print(f'  Tổng hợp: {len(combined)} symbols | {len(macro)} macro series')
     return combined, macro
 
 
-def _p(prices, name, fmt='.2f', unit=''):
-    entry = prices.get(name)
-    if not entry:
-        return 'N/A'
-    return f"${entry['value']:{fmt}}{unit}"
-
-
 def format_price_for_prompt(prices, macro):
-    """Block giá đưa vào Gemini prompt để tham khảo khi tính ngưỡng hỗ trợ/kháng cự."""
-    lines = [
-        '--- GIÁ THỊ TRƯỜNG THỰC TẾ (dùng làm cơ sở tính ngưỡng hỗ trợ/kháng cự) ---',
-        f'Năng lượng:  WTI {_p(prices,"WTI")}/bbl  |  Brent {_p(prices,"Brent")}/bbl  |  Khí TN {_p(prices,"NatGas",".3f")}/MMBtu',
-        f'Kim loại QUÝ: Vàng {_p(prices,"Gold",".2f")}/oz  |  Bạc {_p(prices,"Silver",".3f")}/oz',
-        f'Kim loại CN:  Đồng {_p(prices,"Copper",".4f")}/lb',
-        f'Nông sản:    Ngô {_p(prices,"Corn")}/bushel  |  Lúa mì {_p(prices,"Wheat")}/bushel  |  ĐTương {_p(prices,"Soybean")}/bushel',
-    ]
-    macro_parts = []
-    if 'DXY' in prices:
-        macro_parts.append(f'DXY: {prices["DXY"]["value"]:.2f}')
+    """Block giá kỹ thuật đầy đủ: current, Δ1D%, 5D range, MA20 (↑/↓ so với MA)."""
+
+    def line(name, label, pfmt='.2f', unit=''):
+        e = prices.get(name)
+        if not e:
+            return f'  {label}: N/A'
+        v   = e['value']
+        chg = e.get('chg_pct')
+        l5, h5, ma = e.get('low5d'), e.get('high5d'), e.get('ma20')
+        s = f'  {label}: ${v:{pfmt}}{unit}'
+        if chg is not None:
+            s += f' ({chg:+.2f}%)'
+        if l5 and h5:
+            s += f'  |  5D: ${l5:{pfmt}}–${h5:{pfmt}}'
+        if ma:
+            arrow = '↑' if v > ma else '↓'
+            s += f'  |  MA20: ${ma:{pfmt}} {arrow}'
+        return s
+
+    out = ['--- GIÁ THỊ TRƯỜNG THỰC TẾ ---']
+    out.append('[NĂNG LƯỢNG]')
+    out.append(line('WTI',    'Dầu WTI    ', '.2f', '/bbl'))
+    out.append(line('Brent',  'Dầu Brent  ', '.2f', '/bbl'))
+    out.append(line('NatGas', 'Khí TN     ', '.3f', '/MMBtu'))
+    out.append('[KIM LOẠI QUÝ]')
+    out.append(line('Gold',   'Vàng       ', '.2f', '/oz'))
+    out.append(line('Silver', 'Bạc        ', '.3f', '/oz'))
+    out.append('[KIM LOẠI CÔNG NGHIỆP]')
+    out.append(line('Copper', 'Đồng       ', '.4f', '/lb'))
+    out.append('[NÔNG SẢN]')
+    out.append(line('Corn',    'Ngô        ', '.2f', '/bushel'))
+    out.append(line('Wheat',   'Lúa mì     ', '.2f', '/bushel'))
+    out.append(line('Soybean', 'Đậu tương  ', '.2f', '/bushel'))
+    out.append('[VĨ MÔ]')
+    dxy = prices.get('DXY')
+    if dxy:
+        v, chg, ma = dxy['value'], dxy.get('chg_pct'), dxy.get('ma20')
+        s = f'  DXY: {v:.2f}'
+        if chg is not None:
+            s += f' ({chg:+.2f}%)'
+        if ma:
+            s += f'  |  MA20: {ma:.2f} {"↑" if v > ma else "↓"}'
+        out.append(s)
     for sid in ['DGS10', 'CPIAUCSL', 'DEXUSEU']:
         if sid in macro:
             d = macro[sid]
-            macro_parts.append(f'{d["label"]}: {d["value"]} ({d["date"]})')
-    if macro_parts:
-        lines.append('Vĩ mô:       ' + '  |  '.join(macro_parts))
-    lines.append('---')
-    return '\n'.join(lines)
+            out.append(f'  {d["label"]}: {d["value"]} ({d["date"]})')
+    out.append('→ Hỗ trợ = đáy 5D hoặc MA20 (lấy số cao hơn); Kháng cự = đỉnh 5D; ↑ = trên MA20, ↓ = dưới MA20')
+    out.append('---')
+    return '\n'.join(out)
 
 
 def format_price_for_telegram(prices, macro):
-    """Dòng tóm tắt giá ngắn gọn cho Telegram header."""
+    """Dòng tóm tắt giá + % thay đổi ngắn gọn cho Telegram header."""
     parts = []
-    for name, emoji, fmt in [('WTI','🛢',',.1f'), ('Gold','🥇',',.0f'), ('Copper','🔩','.3f')]:
-        if name in prices:
-            parts.append(f'{emoji}{name}:${prices[name]["value"]:{fmt}}')
+    for name, emoji, pfmt in [('WTI','🛢',',.1f'), ('Gold','🥇',',.0f'), ('Copper','🔩','.3f')]:
+        e = prices.get(name)
+        if not e:
+            continue
+        chg = e.get('chg_pct')
+        s = f'{emoji}{name}:${e["value"]:{pfmt}}'
+        if chg is not None:
+            s += f'({chg:+.1f}%)'
+        parts.append(s)
     if 'DGS10' in macro:
         parts.append(f'📈10Y:{macro["DGS10"]["value"]}%')
     return '  '.join(parts)
@@ -404,28 +449,28 @@ Hãy viết BÁO CÁO PHÂN TÍCH {session_vn} bằng TIẾNG VIỆT theo đúng
 🛢️ NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên
 Xu hướng: [TĂNG / GIẢM / SIDEWAY]
 Tín hiệu: [MUA / BÁN / GIỮ]
-Ngưỡng giá: Hỗ trợ [...] | Kháng cự [...] (tính từ giá thực tế ở trên)
+Ngưỡng giá: Hỗ trợ [đáy 5D hoặc MA20 từ bảng giá — dùng số cụ thể] | Kháng cự [đỉnh 5D từ bảng giá — dùng số cụ thể]
 Phân tích: [2-3 câu phân tích dựa trên tin tức]
 Rủi ro: [rủi ro chính cần theo dõi]
 
 🥇 KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc
 Xu hướng: [TĂNG / GIẢM / SIDEWAY]
 Tín hiệu: [MUA / BÁN / GIỮ]
-Ngưỡng giá: Hỗ trợ [...] | Kháng cự [...] (tính từ giá thực tế ở trên)
+Ngưỡng giá: Hỗ trợ [đáy 5D hoặc MA20 từ bảng giá — dùng số cụ thể] | Kháng cự [đỉnh 5D từ bảng giá — dùng số cụ thể]
 Phân tích: [2-3 câu phân tích dựa trên tin tức]
 Rủi ro: [rủi ro chính cần theo dõi]
 
 🌾 NÔNG SẢN — Ngô, Đậu tương, Lúa mì
 Xu hướng: [TĂNG / GIẢM / SIDEWAY]
 Tín hiệu: [MUA / BÁN / GIỮ]
-Ngưỡng giá: [mức giá quan trọng nếu có — dựa trên giá thực tế ở trên, nếu không có ghi "N/A"]
+Ngưỡng giá: [đáy/đỉnh 5D từ bảng giá nếu có, nếu không có dữ liệu ghi "N/A"]
 Phân tích: [2-3 câu phân tích dựa trên tin tức]
 Rủi ro: [rủi ro chính cần theo dõi]
 
 🔩 KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken
 Xu hướng: [TĂNG / GIẢM / SIDEWAY]
 Tín hiệu: [MUA / BÁN / GIỮ]
-Ngưỡng giá: [mức giá quan trọng nếu có — dựa trên giá thực tế ở trên, nếu không có ghi "N/A"]
+Ngưỡng giá: [đáy/đỉnh 5D từ bảng giá nếu có, nếu không có dữ liệu ghi "N/A"]
 Phân tích: [2-3 câu phân tích dựa trên tin tức]
 Rủi ro: [rủi ro chính cần theo dõi]
 
