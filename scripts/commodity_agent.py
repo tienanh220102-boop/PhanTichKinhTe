@@ -17,6 +17,9 @@ _ROOT               = Path(__file__).parent.parent
 TELEGRAM_TOKEN      = os.environ.get('TELEGRAM_TOKEN', '')
 TELEGRAM_CHAT       = os.environ.get('TELEGRAM_CHAT', '')
 GEMINI_API_KEY      = os.environ.get('GEMINI_API_KEY', '')
+ALPHAVANTAGE_KEY    = os.environ.get('ALPHAVANTAGE_API_KEY', '')
+TWELVEDATA_KEY      = os.environ.get('TWELVEDATA_API_KEY', '')
+FRED_API_KEY        = os.environ.get('FRED_API_KEY', '')
 STATE_FILE          = str(_ROOT / 'data' / 'last_commodity_news.json')
 OUTPUT_DIR          = _ROOT / 'outputs'
 VN_TZ               = timezone(timedelta(hours=7))
@@ -104,6 +107,212 @@ def _matched_kw(title, desc):
     text = (title + ' ' + desc).lower()
     return [kw for kw in COMMODITY_KEYWORDS if kw in text]
 
+# ── Market Data: 4 nguồn giá ──────────────────────────────────
+
+YFINANCE_SYMBOLS = {
+    'WTI':     'CL=F',
+    'Brent':   'BZ=F',
+    'NatGas':  'NG=F',
+    'Gold':    'GC=F',
+    'Silver':  'SI=F',
+    'Copper':  'HG=F',
+    'Corn':    'ZC=F',
+    'Wheat':   'ZW=F',
+    'Soybean': 'ZS=F',
+    'DXY':     'DX-Y.NYB',
+}
+
+AV_COMMODITY_FUNCS = {
+    'WTI':    'WTI',
+    'Brent':  'BRENT',
+    'NatGas': 'NATURAL_GAS',
+    'Copper': 'COPPER',
+    'Wheat':  'WHEAT',
+    'Corn':   'CORN',
+}
+
+TD_SYMBOLS = {
+    'WTI':    'WTI/USD',
+    'Gold':   'XAU/USD',
+    'Silver': 'XAG/USD',
+    'Copper': 'XCU/USD',
+}
+
+FRED_MACRO_SERIES = {
+    'DGS10':    '10Y Treasury Yield (%)',
+    'CPIAUCSL': 'CPI (US)',
+    'DEXUSEU':  'USD/EUR',
+}
+
+
+def fetch_prices_yfinance():
+    """Giá futures hàng hóa từ Yahoo Finance (~15 min delay, không giới hạn)."""
+    try:
+        import yfinance as yf
+        symbols = list(YFINANCE_SYMBOLS.values())
+        raw = yf.download(symbols, period='5d', progress=False, auto_adjust=True)
+        prices = {}
+        for name, sym in YFINANCE_SYMBOLS.items():
+            try:
+                col = ('Close', sym) if ('Close', sym) in raw.columns else sym
+                series = raw[col].dropna()
+                if not series.empty:
+                    prices[name] = round(float(series.iloc[-1]), 4)
+            except Exception:
+                pass
+        print(f'  yfinance: {len(prices)}/{len(YFINANCE_SYMBOLS)} symbols OK')
+        return prices
+    except ImportError:
+        print('  yfinance chưa install — pip install yfinance')
+        return {}
+    except Exception as e:
+        print(f'  yfinance lỗi: {e}')
+        return {}
+
+
+def fetch_prices_alphavantage():
+    """Giá daily chính thức từ Alpha Vantage (25 req/ngày free). Chỉ fill gap của yfinance."""
+    if not ALPHAVANTAGE_KEY:
+        return {}
+    prices = {}
+    for name, func in AV_COMMODITY_FUNCS.items():
+        try:
+            r = requests.get(
+                f'https://www.alphavantage.co/query?function={func}&interval=daily&apikey={ALPHAVANTAGE_KEY}',
+                timeout=10,
+            )
+            series = r.json().get('data', [])
+            if series:
+                prices[name] = round(float(series[0]['value']), 4)
+        except Exception:
+            pass
+        time.sleep(0.3)
+    print(f'  Alpha Vantage: {len(prices)}/{len(AV_COMMODITY_FUNCS)} symbols OK')
+    return prices
+
+
+def fetch_prices_twelvedata():
+    """Giá near-realtime từ Twelve Data (~1 min delay, 800 req/ngày free). Chỉ fill gap."""
+    if not TWELVEDATA_KEY:
+        return {}
+    try:
+        symbols_str = ','.join(TD_SYMBOLS.values())
+        r = requests.get(
+            f'https://api.twelvedata.com/price?symbol={symbols_str}&apikey={TWELVEDATA_KEY}',
+            timeout=10,
+        )
+        data = r.json()
+        sym_to_name = {v: k for k, v in TD_SYMBOLS.items()}
+        prices = {}
+        for sym, val in data.items():
+            if isinstance(val, dict) and 'price' in val:
+                name = sym_to_name.get(sym, sym)
+                prices[name] = round(float(val['price']), 4)
+        print(f'  Twelve Data: {len(prices)}/{len(TD_SYMBOLS)} symbols OK')
+        return prices
+    except Exception as e:
+        print(f'  Twelve Data lỗi: {e}')
+        return {}
+
+
+def fetch_macro_fred():
+    """Macro indicators từ FRED (miễn phí, không cần key)."""
+    macro = {}
+    for series_id, label in FRED_MACRO_SERIES.items():
+        try:
+            if FRED_API_KEY:
+                r = requests.get(
+                    f'https://api.stlouisfed.org/fred/series/observations'
+                    f'?series_id={series_id}&sort_order=desc&limit=3'
+                    f'&file_type=json&api_key={FRED_API_KEY}',
+                    timeout=10,
+                )
+                obs = [o for o in r.json().get('observations', []) if o['value'] != '.']
+            else:
+                r = requests.get(
+                    f'https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}',
+                    timeout=15,
+                )
+                rows = r.text.strip().split('\n')[1:]
+                valid = [l for l in rows if ',' in l and not l.split(',')[1].strip() == '.']
+                obs = [{'date': l.split(',')[0], 'value': l.split(',')[1].strip()} for l in valid[-3:]]
+                obs.reverse()
+            if obs:
+                macro[series_id] = {'label': label, 'value': obs[0]['value'], 'date': obs[0]['date']}
+        except Exception as e:
+            print(f'  FRED {series_id} lỗi: {e}')
+    print(f'  FRED: {len(macro)}/{len(FRED_MACRO_SERIES)} series OK')
+    return macro
+
+
+def build_price_snapshot():
+    """
+    Gộp giá từ 4 nguồn. Thứ tự ưu tiên: yfinance → twelvedata → alphavantage.
+    FRED là additive (macro, không trùng với giá futures).
+    Returns (prices_dict, macro_dict).
+    """
+    print('Fetching giá thị trường (4 nguồn)...')
+    yf_prices = fetch_prices_yfinance()
+    av_prices  = fetch_prices_alphavantage()
+    td_prices  = fetch_prices_twelvedata()
+    macro      = fetch_macro_fred()
+
+    combined = {}
+    for name in list(YFINANCE_SYMBOLS.keys()) + list(AV_COMMODITY_FUNCS.keys()) + list(TD_SYMBOLS.keys()):
+        if name in combined:
+            continue
+        if name in yf_prices:
+            combined[name] = {'value': yf_prices[name], 'src': 'yf'}
+        elif name in td_prices:
+            combined[name] = {'value': td_prices[name], 'src': 'td'}
+        elif name in av_prices:
+            combined[name] = {'value': av_prices[name], 'src': 'av'}
+
+    covered = len([k for k in combined if combined[k]['src'] != 'N/A'])
+    print(f'  Tổng hợp: {covered} symbols có giá | {len(macro)} macro series')
+    return combined, macro
+
+
+def _p(prices, name, fmt='.2f', unit=''):
+    entry = prices.get(name)
+    if not entry:
+        return 'N/A'
+    return f"${entry['value']:{fmt}}{unit}"
+
+
+def format_price_for_prompt(prices, macro):
+    """Block giá đưa vào Gemini prompt để tham khảo khi tính ngưỡng hỗ trợ/kháng cự."""
+    lines = [
+        '--- GIÁ THỊ TRƯỜNG THỰC TẾ (dùng làm cơ sở tính ngưỡng hỗ trợ/kháng cự) ---',
+        f'Năng lượng:  WTI {_p(prices,"WTI")}/bbl  |  Brent {_p(prices,"Brent")}/bbl  |  Khí TN {_p(prices,"NatGas",".3f")}/MMBtu',
+        f'Kim loại QUÝ: Vàng {_p(prices,"Gold",".2f")}/oz  |  Bạc {_p(prices,"Silver",".3f")}/oz',
+        f'Kim loại CN:  Đồng {_p(prices,"Copper",".4f")}/lb',
+        f'Nông sản:    Ngô {_p(prices,"Corn")}/bushel  |  Lúa mì {_p(prices,"Wheat")}/bushel  |  ĐTương {_p(prices,"Soybean")}/bushel',
+    ]
+    macro_parts = []
+    if 'DXY' in prices:
+        macro_parts.append(f'DXY: {prices["DXY"]["value"]:.2f}')
+    for sid in ['DGS10', 'CPIAUCSL', 'DEXUSEU']:
+        if sid in macro:
+            d = macro[sid]
+            macro_parts.append(f'{d["label"]}: {d["value"]} ({d["date"]})')
+    if macro_parts:
+        lines.append('Vĩ mô:       ' + '  |  '.join(macro_parts))
+    lines.append('---')
+    return '\n'.join(lines)
+
+
+def format_price_for_telegram(prices, macro):
+    """Dòng tóm tắt giá ngắn gọn cho Telegram header."""
+    parts = []
+    for name, emoji, fmt in [('WTI','🛢',',.1f'), ('Gold','🥇',',.0f'), ('Copper','🔩','.3f')]:
+        if name in prices:
+            parts.append(f'{emoji}{name}:${prices[name]["value"]:{fmt}}')
+    if 'DGS10' in macro:
+        parts.append(f'📈10Y:{macro["DGS10"]["value"]}%')
+    return '  '.join(parts)
+
+
 # ── Giá vàng Việt Nam (SJC) ───────────────────────────────────
 def get_vn_gold_price():
     """
@@ -165,13 +374,15 @@ def call_gemini(prompt, max_tokens=1500):
         print(f'  Lỗi Gemini: {e}')
         return None
 
-def build_session_report_prompt(articles, session, date_str, gold_vnd_line=None):
+def build_session_report_prompt(articles, session, date_str, gold_vnd_line=None, price_block=None):
     articles_text = '\n'.join([
         f'{i+1}. [{a["source"]}] {a["title"]}\n   {a["desc"][:300]}'
         for i, a in enumerate(articles[:MAX_ARTICLES])
     ])
     context = 'tin tức qua đêm và đầu phiên Á' if session == 'morning' else 'tin tức trong ngày và đầu phiên Mỹ'
     session_vn = 'PHIÊN SÁ (07:00 VN)' if session == 'morning' else 'PHIÊN MỸ (20:00 VN)'
+
+    price_note = f'\n{price_block}\n' if price_block else ''
 
     vnd_note = ''
     if gold_vnd_line:
@@ -181,7 +392,7 @@ def build_session_report_prompt(articles, session, date_str, gold_vnd_line=None)
         )
 
     return f"""Bạn là chuyên gia phân tích thị trường hàng hóa toàn cầu với kinh nghiệm giao dịch thực tế.
-Dưới đây là {len(articles)} {context} ngày {date_str}:{vnd_note}
+Dưới đây là {len(articles)} {context} ngày {date_str}:{price_note}{vnd_note}
 
 {articles_text}
 
@@ -193,28 +404,28 @@ Hãy viết BÁO CÁO PHÂN TÍCH {session_vn} bằng TIẾNG VIỆT theo đúng
 🛢️ NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên
 Xu hướng: [TĂNG / GIẢM / SIDEWAY]
 Tín hiệu: [MUA / BÁN / GIỮ]
-Ngưỡng giá: Hỗ trợ [...] | Kháng cự [...]
+Ngưỡng giá: Hỗ trợ [...] | Kháng cự [...] (tính từ giá thực tế ở trên)
 Phân tích: [2-3 câu phân tích dựa trên tin tức]
 Rủi ro: [rủi ro chính cần theo dõi]
 
 🥇 KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc
 Xu hướng: [TĂNG / GIẢM / SIDEWAY]
 Tín hiệu: [MUA / BÁN / GIỮ]
-Ngưỡng giá: Hỗ trợ [...] | Kháng cự [...]
+Ngưỡng giá: Hỗ trợ [...] | Kháng cự [...] (tính từ giá thực tế ở trên)
 Phân tích: [2-3 câu phân tích dựa trên tin tức]
 Rủi ro: [rủi ro chính cần theo dõi]
 
 🌾 NÔNG SẢN — Ngô, Đậu tương, Lúa mì
 Xu hướng: [TĂNG / GIẢM / SIDEWAY]
 Tín hiệu: [MUA / BÁN / GIỮ]
-Ngưỡng giá: [mức giá quan trọng nếu có trong tin, nếu không ghi "N/A"]
+Ngưỡng giá: [mức giá quan trọng nếu có — dựa trên giá thực tế ở trên, nếu không có ghi "N/A"]
 Phân tích: [2-3 câu phân tích dựa trên tin tức]
 Rủi ro: [rủi ro chính cần theo dõi]
 
 🔩 KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken
 Xu hướng: [TĂNG / GIẢM / SIDEWAY]
 Tín hiệu: [MUA / BÁN / GIỮ]
-Ngưỡng giá: [mức giá quan trọng nếu có trong tin, nếu không ghi "N/A"]
+Ngưỡng giá: [mức giá quan trọng nếu có — dựa trên giá thực tế ở trên, nếu không có ghi "N/A"]
 Phân tích: [2-3 câu phân tích dựa trên tin tức]
 Rủi ro: [rủi ro chính cần theo dõi]
 
@@ -226,10 +437,10 @@ Rủi ro: [rủi ro chính cần theo dõi]
 
 Lưu ý: Nếu không đủ tin về một nhóm, đánh giá dựa trên bối cảnh thị trường chung. Viết ngắn gọn, rõ ràng, chuyên nghiệp."""
 
-def generate_session_report(articles, session, date_str, gold_vnd_line=None):
+def generate_session_report(articles, session, date_str, gold_vnd_line=None, price_block=None):
     if not articles:
         return None
-    prompt = build_session_report_prompt(articles, session, date_str, gold_vnd_line)
+    prompt = build_session_report_prompt(articles, session, date_str, gold_vnd_line, price_block)
     return call_gemini(prompt, max_tokens=1600)
 
 def generate_weekly_report(weekly_reports, week_str):
@@ -298,14 +509,15 @@ def try_send_session_report(state, now_vn, session):
         state[state_key] = today_str
         return
 
-    # Fetch giá vàng nhẫn Việt Nam tức thời (SJC)
-    gold_vnd = build_gold_vnd_line(get_vn_gold_price())
+    # Fetch giá thị trường (4 nguồn) + vàng nhẫn SJC
+    prices, macro = build_price_snapshot()
+    price_block   = format_price_for_prompt(prices, macro) if prices or macro else None
+    price_line    = format_price_for_telegram(prices, macro)
+    gold_vnd      = build_gold_vnd_line(get_vn_gold_price())
     if gold_vnd:
         print(f'  {gold_vnd}')
-    else:
-        print('  Không lấy được tỷ giá/giá vàng, bỏ qua phần VND.')
 
-    text = generate_session_report(articles, session, today_str, gold_vnd)
+    text = generate_session_report(articles, session, today_str, gold_vnd, price_block)
     if text == 'QUOTA_EXCEEDED':
         print('Hết quota Gemini, bỏ qua báo cáo.')
         _log.info('SKIP_%s quota_exceeded date=%s', session.upper(), today_str)
@@ -316,10 +528,11 @@ def try_send_session_report(state, now_vn, session):
         return
 
     gold_line_html = f'\n{gold_vnd}' if gold_vnd else ''
+    price_line_html = f'\n💹 {price_line}' if price_line else ''
     header = (
         f'{emoji} <b>BÁO CÁO {session_vn.upper()} — {now_vn.strftime("%d/%m/%Y")}</b>\n'
         f'📰 Tổng hợp {min(len(articles), MAX_ARTICLES)} tin tức | '
-        f'⏱ {now_vn.strftime("%H:%M")} (Giờ VN){gold_line_html}\n\n'
+        f'⏱ {now_vn.strftime("%H:%M")} (Giờ VN){gold_line_html}{price_line_html}\n\n'
     )
     msg = header + text
 
