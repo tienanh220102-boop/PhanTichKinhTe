@@ -144,6 +144,85 @@ FRED_MACRO_SERIES = {
     'DEXUSEU':  'USD/EUR',
 }
 
+SEASONAL_CONTEXT = {
+    1: [
+        "Năng lượng: Nhu cầu sưởi ấm đỉnh điểm (Đông Bắc Á, Đông Âu) → hỗ trợ NatGas/heating oil",
+        "Kim loại: Trung Quốc pre-stocking trước Tết Nguyên Đán → đồng/thép có thể tăng cầu",
+        "Nông sản: Nam Mỹ (soy/corn) đang giai đoạn sinh trưởng → thời tiết La Niña là rủi ro chính",
+    ],
+    2: [
+        "Năng lượng: Cuối mùa sưởi ấm → NatGas dần yếu; refinery maintenance bắt đầu",
+        "Kim loại: Tuần Tết Nguyên Đán → cầu kim loại Trung Quốc chậm lại 1-2 tuần",
+        "Nông sản: Brazil soybean harvest bắt đầu → áp lực giá đậu tương; Argentina corn thu hoạch",
+    ],
+    3: [
+        "Năng lượng: Shoulder season NatGas (nhu cầu sưởi giảm, chưa vào điều hòa) → NatGas yếu nhất năm",
+        "Nông sản: Brazil soybean harvest đỉnh điểm → áp lực cung lớn nhất; USDA Prospective Plantings report",
+        "Kim loại: Trung Quốc mở cửa sau Tết → cầu đồng/thép phục hồi; mùa xây dựng bắt đầu",
+    ],
+    4: [
+        "Năng lượng: US driving season bắt đầu (Memorial Day build-up) → nhu cầu xăng/WTI tăng dần",
+        "Nông sản: US planting season bắt đầu → weather premium vào corn/soy; theo dõi tiến độ gieo trồng USDA",
+        "Kim loại: Mùa xây dựng Trung Quốc peak → đồng/thép/nickel hưởng lợi",
+    ],
+    5: [
+        "Năng lượng: Driving season tăng tốc; refinery runs tối đa để tích xăng hè",
+        "Nông sản: US planting đỉnh điểm → mưa/lũ miền Trung Tây là rủi ro lớn nhất; Brazil safrinha corn thu hoạch",
+        "Kim loại: Mùa xây dựng tiếp tục; nhu cầu đồng từ lưới điện tái tạo thường tăng Q2",
+    ],
+    6: [
+        "Năng lượng: US driving season peak; OPEC+ thường họp tháng 6 để quyết định quota H2",
+        "Nông sản: US corn pollination bắt đầu (critical weather window); USDA WASDE tháng 6 quan trọng",
+        "Kim loại: Nhu cầu điện điều hòa Trung Quốc → đồng hưởng lợi; mùa mưa Ấn Độ ảnh hưởng nhu cầu nông nghiệp",
+    ],
+    7: [
+        "Năng lượng: Driving season peak; hurricane season Gulf of Mexico — rủi ro gián đoạn sản xuất",
+        "Nông sản: US corn pollination đỉnh điểm → 'weather market' volatile nhất năm; lúa mì Bắc Bán Cầu thu hoạch",
+        "Kim loại: Nhu cầu điều hòa Trung Quốc cao → đồng tích cực; mùa xây dựng vẫn mạnh",
+    ],
+    8: [
+        "Năng lượng: Driving season kết thúc cuối tháng → gasoline crack spread yếu dần; hurricane risk cao nhất",
+        "Nông sản: US corn/soy filling → cửa sổ thời tiết cuối cùng; USDA August WASDE cập nhật yield quan trọng",
+        "Kim loại: Trung Quốc kiểm tra môi trường mùa hè → sản xuất thép/nhôm có thể bị cắt giảm",
+    ],
+    9: [
+        "Năng lượng: Driving season kết thúc → gasoline demand giảm; bắt đầu tích NatGas cho mùa đông",
+        "Nông sản: US corn/soy harvest bắt đầu → áp lực cung; Brazil soybean planting bắt đầu",
+        "Kim loại: Trung Quốc Golden Week cuối tháng → cầu giảm 1 tuần trước kỳ nghỉ",
+    ],
+    10: [
+        "Năng lượng: Heating season bắt đầu Bắc Bán Cầu → NatGas/heating oil tăng cầu; refinery switch sang heating oil",
+        "Nông sản: US harvest đỉnh điểm (corn, soy) → áp lực giá lớn nhất; Brazil planting tiến độ là focus mới",
+        "Kim loại: Sau Golden Week → cầu Trung Quốc phục hồi; mùa xây dựng bắt đầu chậm lại",
+    ],
+    11: [
+        "Năng lượng: Heating season build-up; OPEC+ họp thường niên → quyết định quota năm tới",
+        "Nông sản: Brazil soybean planting đỉnh điểm → thời tiết Nam Mỹ là rủi ro chính; US harvest gần xong",
+        "Kim loại: Nhu cầu xây dựng Trung Quốc chậm lại theo mùa đông; đồng thường yếu tháng 11-12",
+    ],
+    12: [
+        "Năng lượng: Đỉnh nhu cầu sưởi ấm; thin liquidity cuối năm → volatility tăng đột biến có thể xảy ra",
+        "Nông sản: Brazil soybean growth stage → La Niña/El Niño là yếu tố quyết định vụ năm sau",
+        "Kim loại: Year-end position squaring → fund outflows tạo áp lực; Trung Quốc thường công bố kích thích kinh tế Q1",
+    ],
+}
+
+
+def get_seasonal_context(month):
+    factors = SEASONAL_CONTEXT.get(month, [])
+    if not factors:
+        return ''
+    month_name = {
+        1:'Tháng 1',2:'Tháng 2',3:'Tháng 3',4:'Tháng 4',
+        5:'Tháng 5',6:'Tháng 6',7:'Tháng 7',8:'Tháng 8',
+        9:'Tháng 9',10:'Tháng 10',11:'Tháng 11',12:'Tháng 12',
+    }[month]
+    lines = [f'[NGỮ CẢNH MÙA VỤ — {month_name.upper()}]']
+    for f in factors:
+        lines.append(f'• {f}')
+    lines.append('→ Tích hợp các yếu tố mùa vụ trên vào phân tích khi liên quan đến nhóm hàng hóa tương ứng.')
+    return '\n'.join(lines)
+
 
 def fetch_prices_yfinance():
     """Giá + kỹ thuật từ Yahoo Finance: current price, Δ1D%, 5D range (High/Low), MA20."""
@@ -420,7 +499,7 @@ def call_gemini(prompt, max_tokens=1500):
         print(f'  Lỗi Gemini: {e}')
         return None
 
-def build_session_report_prompt(articles, session, date_str, gold_vnd_line=None, price_block=None):
+def build_session_report_prompt(articles, session, date_str, month, gold_vnd_line=None, price_block=None):
     articles_text = '\n'.join([
         f'{i+1}. [{a["source"]}] {a["title"]}\n   {a["desc"][:300]}'
         for i, a in enumerate(articles[:MAX_ARTICLES])
@@ -437,8 +516,11 @@ def build_session_report_prompt(articles, session, date_str, gold_vnd_line=None,
             "→ Khi phân tích mục KIM LOẠI QUÝ, đề cập thêm giá vàng nhẫn trong nước để người đọc dễ hình dung.\n"
         )
 
+    seasonal = get_seasonal_context(month)
+    seasonal_note = f'\n{seasonal}\n' if seasonal else ''
+
     return f"""Bạn là chuyên gia phân tích thị trường hàng hóa toàn cầu với kinh nghiệm giao dịch thực tế.
-Dưới đây là {len(articles)} {context} ngày {date_str}:{price_note}{vnd_note}
+Dưới đây là {len(articles)} {context} ngày {date_str}:{price_note}{vnd_note}{seasonal_note}
 
 {articles_text}
 
@@ -483,10 +565,10 @@ Rủi ro: [rủi ro chính cần theo dõi]
 
 Lưu ý: Nếu không đủ tin về một nhóm, đánh giá dựa trên bối cảnh thị trường chung. Viết ngắn gọn, rõ ràng, chuyên nghiệp."""
 
-def generate_session_report(articles, session, date_str, gold_vnd_line=None, price_block=None):
+def generate_session_report(articles, session, date_str, month, gold_vnd_line=None, price_block=None):
     if not articles:
         return None
-    prompt = build_session_report_prompt(articles, session, date_str, gold_vnd_line, price_block)
+    prompt = build_session_report_prompt(articles, session, date_str, month, gold_vnd_line, price_block)
     return call_gemini(prompt, max_tokens=1600)
 
 def generate_weekly_report(weekly_reports, week_str):
@@ -563,7 +645,7 @@ def try_send_session_report(state, now_vn, session):
     if gold_vnd:
         print(f'  {gold_vnd}')
 
-    text = generate_session_report(articles, session, today_str, gold_vnd, price_block)
+    text = generate_session_report(articles, session, today_str, now_vn.month, gold_vnd, price_block)
     if text == 'QUOTA_EXCEEDED':
         print('Hết quota Gemini, bỏ qua báo cáo.')
         _log.info('SKIP_%s quota_exceeded date=%s', session.upper(), today_str)
