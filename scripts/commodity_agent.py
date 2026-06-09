@@ -32,9 +32,7 @@ MAX_ARTICLES        = 40  # tối đa bài đưa vào một báo cáo
 _log = logging.getLogger('commodity')
 _log.setLevel(logging.INFO)
 _log.propagate = False
-_fh = logging.FileHandler(str(_ROOT / 'data' / 'decisions.log'), encoding='utf-8')
-_fh.setFormatter(logging.Formatter('%(asctime)s %(message)s', datefmt='%Y-%m-%d %H:%M'))
-_log.addHandler(_fh)
+# FileHandler được khởi tạo trong main() sau khi data/ đã được đảm bảo tồn tại
 
 RSS_FEEDS = [
     ('MarketWatch',       'https://feeds.content.dowjones.io/public/rss/mw_topstories'),
@@ -798,6 +796,12 @@ def main():
     if not TELEGRAM_TOKEN or not TELEGRAM_CHAT or not GEMINI_API_KEY:
         print('Thiếu biến môi trường: TELEGRAM_TOKEN / TELEGRAM_CHAT / GEMINI_API_KEY')
         return
+
+    (_ROOT / 'data').mkdir(parents=True, exist_ok=True)
+    if not _log.handlers:
+        _fh = logging.FileHandler(str(_ROOT / 'data' / 'decisions.log'), encoding='utf-8')
+        _fh.setFormatter(logging.Formatter('%(asctime)s %(message)s', datefmt='%Y-%m-%d %H:%M'))
+        _log.addHandler(_fh)
 
     now_vn = datetime.now(timezone.utc).astimezone(VN_TZ)
     state  = load_state()
