@@ -207,10 +207,76 @@ SEASONAL_CONTEXT = {
     ],
 }
 
+# Yếu tố mùa vụ đặc thù ảnh hưởng tới thị trường Việt Nam
+# Cấu trúc mỗi tháng: [xuất khẩu chính, nhập khẩu/đầu vào, nội địa/thời tiết]
+VIETNAM_SEASONAL_CONTEXT = {
+    1: [
+        "Xuất khẩu: Cà phê Robusta (Tây Nguyên) đang thu hoạch → nếu giá ICE London cao, nhà xuất khẩu đẩy bán; theo dõi lượng tồn kho tại cảng TP.HCM",
+        "Nhập khẩu: Giá dầu thô ảnh hưởng trực tiếp giá xăng trong nước (điều chỉnh 2 tuần/lần); LPG tăng do nhu cầu nấu ăn cuối năm",
+        "Nội địa: Vụ Đông Xuân đang sinh trưởng ở ĐBSCL → hạn hán, xâm nhập mặn (El Niño) là rủi ro chính; xây dựng chạy nước rút trước Tết → cầu thép tốt",
+    ],
+    2: [
+        "Xuất khẩu: Cà phê xuất khẩu gián đoạn tuần Tết; sau Tết nhà xuất khẩu quay lại thị trường cùng lúc → có thể tạo áp lực giá ngắn hạn",
+        "Nhập khẩu: LPG/gas nấu ăn tăng đột biến dịp Tết; ngô + đậu tương nhập khẩu cho thức ăn chăn nuôi (chuẩn bị nguồn thịt Tết)",
+        "Nội địa: Tết Nguyên Đán — xây dựng dừng hoàn toàn ~2 tuần → cầu thép, xi măng giảm; sau Tết mùa xây dựng bật lại mạnh",
+    ],
+    3: [
+        "Xuất khẩu: Gạo vụ Đông Xuân bắt đầu thu hoạch (Mar-May) → cung gạo XK tăng; hạt điều harvest bắt đầu (Bình Phước, Đắk Lắk) — VN là XK điều #1 thế giới",
+        "Nhập khẩu: Phân bón (urea từ Trung Đông/Nga) cho vụ Hè Thu sắp tới; giá urea thế giới ảnh hưởng chi phí nông dân ĐBSCL",
+        "Nội địa: Cao su bắt đầu mùa cạo mủ (Mar-Nov) → sản lượng VN tăng; cầu đồng từ Trung Quốc quyết định giá cao su thiên nhiên; mùa xây dựng phục hồi sau Tết → thép tăng cầu",
+    ],
+    4: [
+        "Xuất khẩu: Gạo Đông Xuân thu hoạch đỉnh điểm → cung dồi dào, giá gạo XK VN thường cạnh tranh nhất Q2; hồ tiêu harvest bắt đầu — VN là XK hồ tiêu #1 thế giới",
+        "Nhập khẩu: Than nhiệt điện nhập khẩu tăng (bắt đầu mùa nóng, nhu cầu điện tăng); giá than Indonesia/Australia ảnh hưởng chi phí điện",
+        "Nội địa: Nhu cầu xăng tăng dịp lễ 30/4–1/5; miền Nam bắt đầu nóng → cầu điện tăng; xây dựng peak trước mùa mưa",
+    ],
+    5: [
+        "Xuất khẩu: Hồ tiêu thu hoạch đỉnh điểm; gạo Hè Thu bắt đầu gieo cấy → nhu cầu phân bón, thuốc BVTV tăng",
+        "Nhập khẩu: Ngô + đậu tương nhập mạnh cho thức ăn chăn nuôi (vụ nuôi tôm hè); urea chuẩn bị vụ Hè Thu",
+        "Nội địa: Mùa mưa Nam Bộ bắt đầu → xây dựng chậm lại ở phía Nam; miền Bắc mưa giông → cầu điện cao; cao su cạo mủ chính vụ",
+    ],
+    6: [
+        "Xuất khẩu: Tôm hè bắt đầu thu hoạch (ĐBSCL) → xuất khẩu thủy sản tăng; giá thức ăn tôm (đậu tương, bột cá) ảnh hưởng lợi nhuận người nuôi",
+        "Nhập khẩu: Than nhiệt điện nhập khẩu cao nhất năm (điều hòa mùa hè); dầu DO cho máy phát điện khu công nghiệp",
+        "Nội địa: Mưa đầy đủ Nam Bộ → xây dựng chậm, cầu thép/xi măng giảm theo mùa; miền Bắc nắng nóng → nguy cơ thiếu điện, cầu than tăng đột biến",
+    ],
+    7: [
+        "Xuất khẩu: Gạo Hè Thu bắt đầu thu hoạch (Jul-Sep) ở ĐBSCL → đỉnh xuất khẩu gạo năm; tôm vụ 1 thu hoạch → xuất khẩu thủy sản peak",
+        "Nhập khẩu: Cầu than nhiệt điện cực đại (điều hòa); ngô/đậu tương cho thức ăn chăn nuôi vụ 2",
+        "Nội địa: Mùa bão bắt đầu (Jun-Nov) → rủi ro gián đoạn cảng biển miền Trung, thiệt hại nông nghiệp; cao su cạo mủ chính vụ",
+    ],
+    8: [
+        "Xuất khẩu: Gạo Hè Thu thu hoạch đỉnh → VN tăng cung ra thị trường thế giới tháng 8-9, ảnh hưởng giá gạo Thái Lan/Ấn Độ cạnh tranh",
+        "Nhập khẩu: Phân bón chuẩn bị vụ Thu Đông và Đông Xuân (nhập trước 2-3 tháng); giá urea/DAP thế giới là chi phí trực tiếp",
+        "Nội địa: Bão miền Trung rủi ro cao → thiệt hại nông nghiệp, nuôi trồng thủy sản; xây dựng Nam Bộ vẫn chậm do mưa",
+    ],
+    9: [
+        "Xuất khẩu: Gạo cung dồi dào nhất năm (Hè Thu xong) → nếu giá quốc tế tốt, VN đẩy mạnh xuất khẩu; cao su xuất khẩu ổn định",
+        "Nhập khẩu: Nhập khẩu ngô/đậu tương cho vụ nuôi tôm vụ 2; than nhiệt điện bắt đầu giảm (cuối mùa hè)",
+        "Nội địa: Vụ Thu Đông ĐBSCL gieo cấy (Sep-Oct) → cần phân bón; lũ miền Trung bắt đầu (Sep-Nov) → rủi ro nông nghiệp, giao thông",
+    ],
+    10: [
+        "Xuất khẩu: Cà phê Robusta bắt đầu thu hoạch (Oct-Jan) → giá ICE London Robusta là chỉ số theo dõi trực tiếp; nếu El Niño → hạn hán Tây Nguyên, sản lượng giảm → giá tăng",
+        "Nhập khẩu: Than nhập khẩu chuẩn bị cho mùa đông miền Bắc; dầu heating oil tăng theo mùa sưởi toàn cầu → chi phí nhập khẩu năng lượng tăng",
+        "Nội địa: Lũ miền Trung đỉnh điểm (Oct-Nov) → thiệt hại nông nghiệp, cảng biển Đà Nẵng/Quy Nhơn có thể gián đoạn; Nam Bộ cuối mùa mưa → xây dựng chuẩn bị bật lại",
+    ],
+    11: [
+        "Xuất khẩu: Cà phê thu hoạch đỉnh điểm → xuất khẩu Robusta tăng mạnh; VN cung cấp chủ yếu cho Nestlé, JDE — nếu tồn kho thấp, giá ICE tăng mạnh",
+        "Nhập khẩu: Phân bón nhập cho vụ Đông Xuân (vụ chính năm sau); ngô/đậu tương cho chuỗi chăn nuôi lợn/gà Tết",
+        "Nội địa: Nam Bộ mùa khô bắt đầu → xây dựng bật lại mạnh, cầu thép/xi măng tăng; miền Trung vẫn còn lũ",
+    ],
+    12: [
+        "Xuất khẩu: Cà phê xuất khẩu đỉnh (nhà thu mua quốc tế đẩy mạnh mua trước năm mới); gạo Đông Xuân chuẩn bị gieo cấy",
+        "Nhập khẩu: LPG tăng mạnh chuẩn bị Tết; ngô/đậu tương nhập khẩu tăng để đảm bảo nguồn thịt dịp Tết",
+        "Nội địa: Cao điểm xây dựng trước Tết → cầu thép nội địa tốt nhất năm; miền Bắc lạnh → cầu than sưởi tăng; thin liquidity cuối năm trên sàn hàng hóa VN",
+    ],
+}
+
 
 def get_seasonal_context(month):
-    factors = SEASONAL_CONTEXT.get(month, [])
-    if not factors:
+    global_factors = SEASONAL_CONTEXT.get(month, [])
+    vn_factors = VIETNAM_SEASONAL_CONTEXT.get(month, [])
+    if not global_factors and not vn_factors:
         return ''
     month_name = {
         1:'Tháng 1',2:'Tháng 2',3:'Tháng 3',4:'Tháng 4',
@@ -218,9 +284,14 @@ def get_seasonal_context(month):
         9:'Tháng 9',10:'Tháng 10',11:'Tháng 11',12:'Tháng 12',
     }[month]
     lines = [f'[NGỮ CẢNH MÙA VỤ — {month_name.upper()}]']
-    for f in factors:
+    for f in global_factors:
         lines.append(f'• {f}')
     lines.append('→ Tích hợp các yếu tố mùa vụ trên vào phân tích khi liên quan đến nhóm hàng hóa tương ứng.')
+    if vn_factors:
+        lines.append(f'[ẢNH HƯỞNG TỚI VIỆT NAM — {month_name.upper()}]')
+        for f in vn_factors:
+            lines.append(f'• {f}')
+        lines.append('→ Liên hệ tác động của giá hàng hóa thế giới tới xuất khẩu, nhập khẩu và nội địa Việt Nam khi phân tích.')
     return '\n'.join(lines)
 
 
