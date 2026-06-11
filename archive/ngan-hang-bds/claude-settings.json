@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python banking_realestate_agent.py*)",
+      "Bash(pytest*)",
+      "Bash(pip install*)",
+      "Bash(pip list*)",
+      "Bash(git status*)",
+      "Bash(git log*)",
+      "Bash(git diff*)"
+    ],
+    "deny": []
+  }
+}
