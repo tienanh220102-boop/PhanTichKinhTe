@@ -34,12 +34,27 @@ jobs:
           FRED_API_KEY:         ${{ secrets.FRED_API_KEY }}
         run: python scripts/commodity_agent.py
 
+      - name: Run Banking & BDS Agent (gop tu repo NganHangBDS)
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT:  ${{ secrets.TELEGRAM_CHAT }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/main_agent.py --banking-only
+
       - name: Save state
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/last_commodity_news.json
+          git add data/last_banking_news.json
           git add outputs/ 2>/dev/null || true
           git diff --staged --quiet || git commit -m "chore: update commodity state [skip ci]"
           git pull --rebase -X theirs
           git push
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_TOKEN }}/sendMessage" \
+            -d chat_id="${{ secrets.TELEGRAM_CHAT }}" \
+            -d text="🚨 Commodity/Banking workflow FAILED — kiem tra: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true

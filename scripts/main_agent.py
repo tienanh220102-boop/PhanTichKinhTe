@@ -643,18 +643,24 @@ def main():
         print('Thiếu TELEGRAM_TOKEN hoặc TELEGRAM_CHAT')
         return
 
+    # --banking-only: chi chay mang Ngan Hang & BDS. Dung trong GitHub Actions
+    # (workflow chay commodity_agent.py rieng — ban co FRED/quant moi hon
+    # phan commodity trong file nay; chay ca hai se trung tin + hong state)
+    banking_only = '--banking-only' in sys.argv
+
     now_vn = datetime.now(timezone.utc).astimezone(VN_TZ)
     print(f'=== Unified Market Agent — {now_vn.strftime("%Y-%m-%d %H:%M")} (Giờ VN) ===')
 
-    # ── Mảng 1: Giao Dịch Hàng Hóa ───────────────────────────────────────────
-    print('\n── Hàng Hóa Quốc Tế ─────────────────────────────────────────────')
-    c_state = load_state(COMMODITY_STATE_FILE, COMMODITY_STATE_DEFAULT)
-    c_state['weekly_reports'] = c_state.get('weekly_reports', [])[-14:]
-    collect_commodity(c_state, now_vn)
-    send_commodity_session_report(c_state, now_vn, 'morning')
-    send_commodity_session_report(c_state, now_vn, 'evening')
-    send_commodity_weekly(c_state, now_vn)
-    save_state(COMMODITY_STATE_FILE, c_state)
+    if not banking_only:
+        # ── Mảng 1: Giao Dịch Hàng Hóa ───────────────────────────────────────
+        print('\n── Hàng Hóa Quốc Tế ─────────────────────────────────────────────')
+        c_state = load_state(COMMODITY_STATE_FILE, COMMODITY_STATE_DEFAULT)
+        c_state['weekly_reports'] = c_state.get('weekly_reports', [])[-14:]
+        collect_commodity(c_state, now_vn)
+        send_commodity_session_report(c_state, now_vn, 'morning')
+        send_commodity_session_report(c_state, now_vn, 'evening')
+        send_commodity_weekly(c_state, now_vn)
+        save_state(COMMODITY_STATE_FILE, c_state)
 
     # ── Mảng 2: Ngân Hàng & BĐS ───────────────────────────────────────────────
     print('\n── Ngân Hàng & BĐS Phía Nam ─────────────────────────────────────')
