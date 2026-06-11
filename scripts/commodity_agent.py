@@ -958,7 +958,53 @@ def generate_session_report(articles, session, date_str, month, gold_vnd_line=No
     prompt = build_session_report_prompt(articles, session, date_str, month, gold_vnd_line, price_block, prices)
     return call_gemini(prompt, max_tokens=1600)
 
-def generate_weekly_report(weekly_reports, week_str, perf_block=None):
+# ── World Bank Open Data (REST, khong can key) ───────────────
+# Du lieu ANNUAL (tre ~1 nam) → chi dung lam boi canh nen, cache 30 ngay.
+# Goi thang REST bang requests (nhu FRED/AlphaVantage) — khong them dependency.
+
+def _wb_fetch_series(countries, indicator, mrv=2):
+    """World Bank API v2. Tra ve {iso3: (nam, gia_tri)} — gia tri non-null moi nhat."""
+    c = ';'.join(countries) if isinstance(countries, list) else countries
+    url = f'https://api.worldbank.org/v2/country/{c}/indicator/{indicator}?format=json&mrv={mrv}'
+    r = requests.get(url, timeout=20)
+    data = r.json()
+    out = {}
+    if len(data) < 2 or not data[1]:
+        return out
+    for row in data[1]:                      # rows: moi nhat truoc, theo tung nuoc
+        iso = row.get('countryiso3code') or ''
+        if row.get('value') is None or iso in out:
+            continue
+        out[iso] = (row.get('date'), row['value'])
+    return out
+
+
+def fetch_wb_global_context(state):
+    """Khoi boi canh tang truong toan cau cho bao cao tuan — cache 30 ngay trong state."""
+    cache = state.get('wb_context', {})
+    now_ts = time.time()
+    if cache.get('block') and (now_ts - cache.get('fetched_ts', 0)) < 30 * 86400:
+        return cache['block']
+    try:
+        gdp = _wb_fetch_series(['CHN', 'USA', 'IND', 'EUU', 'WLD'],
+                               'NY.GDP.MKTP.KD.ZG', mrv=2)
+        if not gdp:
+            return cache.get('block')
+        names = {'CHN': 'Trung Quốc', 'USA': 'Mỹ', 'IND': 'Ấn Độ',
+                 'EUU': 'EU', 'WLD': 'Thế giới'}
+        parts = [f'{names[k]} {v[1]:+.1f}% ({v[0]})'
+                 for k, v in gdp.items() if k in names]
+        block = ('TĂNG TRƯỞNG GDP — nền cầu hàng hóa (World Bank, năm gần nhất): '
+                 + ' | '.join(parts))
+        state['wb_context'] = {'fetched_ts': now_ts, 'block': block}
+        _log.info('WB_CONTEXT refreshed')
+        return block
+    except Exception as e:
+        print(f'  World Bank API lỗi: {e}')
+        return cache.get('block')
+
+
+def generate_weekly_report(weekly_reports, week_str, perf_block=None, wb_block=None):
     if not weekly_reports:
         return None
     reports_text = '\n\n'.join([
@@ -966,8 +1012,10 @@ def generate_weekly_report(weekly_reports, week_str, perf_block=None):
         for r in weekly_reports[-14:]
     ])
     perf_note = f'\nHIỆU SUẤT THỰC TẾ TÍNH TỪ DỮ LIỆU GIÁ (không phải ước lượng):\n{perf_block}\n' if perf_block else ''
+    wb_note = (f'\n{wb_block}\n→ Dùng làm bối cảnh CẦU dài hạn khi dự báo xu hướng '
+               f'(Trung Quốc/Ấn Độ là biên cầu chính của năng lượng & kim loại).\n') if wb_block else ''
     prompt = f"""Bạn là chuyên gia phân tích thị trường hàng hóa toàn cầu.
-Dưới đây là các báo cáo phiên trong tuần {week_str}:{perf_note}
+Dưới đây là các báo cáo phiên trong tuần {week_str}:{perf_note}{wb_note}
 
 {reports_text}
 
@@ -1118,8 +1166,9 @@ def try_send_weekly_summary(state, now_vn):
     # Hiệu suất tuần thực tính từ dữ liệu giá (cache — không fetch lại nếu đã có)
     prices, _ = build_price_snapshot()
     perf_block = build_weekly_perf_block(prices)
+    wb_block   = fetch_wb_global_context(state)
 
-    text = generate_weekly_report(weekly_reports, week_str, perf_block)
+    text = generate_weekly_report(weekly_reports, week_str, perf_block, wb_block)
     if text == 'QUOTA_EXCEEDED':
         print('Hết quota Gemini, bỏ qua tổng kết tuần.')
         return

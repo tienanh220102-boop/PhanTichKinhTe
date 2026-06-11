@@ -462,14 +462,64 @@ def collect_banking(state, now_vn):
     print(f'  [Ngân hàng] +{new_count} mới | Tổng pending: {len(state["pending_articles"])}')
     return state
 
-def _banking_report_prompt(articles, date_str):
+# ── World Bank Open Data (REST, khong can key) ───────────────
+# Du lieu ANNUAL → chi lam boi canh vi mo nen cho bao cao 17h, cache 30 ngay.
+
+_WB_VN_INDICATORS = [
+    ('NY.GDP.MKTP.KD.ZG',    'Tăng trưởng GDP'),
+    ('FP.CPI.TOTL.ZG',       'Lạm phát CPI'),
+    ('BX.KLT.DINV.WD.GD.ZS', 'FDI vào (%GDP)'),
+    ('FR.INR.LEND',          'Lãi suất cho vay'),
+    ('FS.AST.PRVT.GD.ZS',    'Tín dụng tư nhân (%GDP)'),
+]
+
+
+def fetch_wb_vn_context(state):
+    """Khoi vi mo VN tu World Bank — cache 30 ngay trong banking state."""
+    import time as _time
+    cache = state.get('wb_context', {})
+    now_ts = _time.time()
+    if cache.get('block') and (now_ts - cache.get('fetched_ts', 0)) < 30 * 86400:
+        return cache['block']
+    try:
+        # 1 request duy nhat cho ca 5 chi so (multi-indicator can source=2)
+        # — goi tung cai mot la 5 lan rui ro timeout (WB API cham)
+        codes = ';'.join(c for c, _ in _WB_VN_INDICATORS)
+        url = (f'https://api.worldbank.org/v2/country/VNM/indicator/{codes}'
+               f'?source=2&format=json&mrv=3&per_page=60')
+        data = requests.get(url, timeout=30).json()
+        if len(data) < 2 or not data[1]:
+            return cache.get('block')
+        latest = {}   # indicator id → row non-null moi nhat (rows da sap moi truoc)
+        for row in data[1]:
+            ind = (row.get('indicator') or {}).get('id', '')
+            if row.get('value') is not None and ind not in latest:
+                latest[ind] = row
+        parts = []
+        for code, label in _WB_VN_INDICATORS:
+            row = latest.get(code)
+            if row:
+                parts.append(f'{label}: {row["value"]:.1f}% (năm {row["date"]})')
+        if not parts:
+            return cache.get('block')
+        block = 'BỐI CẢNH VĨ MÔ VIỆT NAM (World Bank, số liệu năm gần nhất có): ' + ' | '.join(parts)
+        state['wb_context'] = {'fetched_ts': now_ts, 'block': block}
+        return block
+    except Exception as e:
+        print(f'  [Ngân hàng] World Bank API lỗi: {e}')
+        return cache.get('block')
+
+
+def _banking_report_prompt(articles, date_str, wb_block=None):
     articles_text = '\n'.join([
         f'{i+1}. [{a["source"]}] {a["title"]}\n   {a["desc"][:300]}'
         for i, a in enumerate(articles[:MAX_ARTICLES])
     ])
+    wb_note = (f'\n{wb_block}\n→ Dùng làm nền so sánh: tin tức hôm nay đang cải thiện '
+               f'hay xấu đi so với mặt bằng vĩ mô này.\n') if wb_block else ''
     return f"""Bạn là chuyên gia phân tích thị trường ngân hàng và bất động sản Việt Nam, tập trung khu vực phía Nam (TP.HCM, Bình Dương, Đồng Nai, Long An, Bà Rịa-Vũng Tàu).
 
-Dưới đây là {len(articles)} tin tức ngày {date_str}:
+Dưới đây là {len(articles)} tin tức ngày {date_str}:{wb_note}
 
 {articles_text}
 
@@ -571,7 +621,8 @@ def send_banking_daily_report(state, now_vn):
         state['last_daily_report'] = today
         return
 
-    text = call_gemini(_banking_report_prompt(articles, today))
+    wb_block = fetch_wb_vn_context(state)
+    text = call_gemini(_banking_report_prompt(articles, today, wb_block))
     if text == 'QUOTA_EXCEEDED':
         return
     if not text:
