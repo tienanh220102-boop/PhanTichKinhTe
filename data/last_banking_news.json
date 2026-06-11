@@ -1,6 +1,1916 @@
 {
-  "seen": [],
-  "pending_articles": [],
+  "seen": [
+    "1d65b710b4da",
+    "87519e6569e8",
+    "0fad05ff0403",
+    "6d8f527dc5c1",
+    "9429788c3a74",
+    "4dfb09065adf",
+    "3dfa5379ca7b",
+    "568801e21e0b",
+    "be2c0528f40d",
+    "825b48c14b09",
+    "751ace8b1f72",
+    "12ea5136f493",
+    "2edc991f1f2d",
+    "b0e119cb408f",
+    "24087627595a",
+    "ede297bbfdb2",
+    "e862443ab2fd",
+    "bd14c26c2806",
+    "42f399bae0a7",
+    "44776fb45916",
+    "7b220024e4c0",
+    "e3d0ca8dc52a",
+    "d930893bd70d",
+    "0f1932331021",
+    "e5a5dfe7629e",
+    "cdbe8b2c75cd",
+    "5c1963ba8228",
+    "dfa1e6fbd7f5",
+    "642e47158a64",
+    "e15952aa504f",
+    "43c1ca780369",
+    "d54b54fc0297",
+    "4f8e06652c9a",
+    "6b4ec11bef76",
+    "e1d83c0f596d",
+    "8815ea6a2902",
+    "611e83bacf71",
+    "dbc531f4bbc1",
+    "e4e2fd3cdfcc",
+    "03a46c501f86",
+    "6a8495463f4b",
+    "5689a68e5b65",
+    "e400e7c401e8",
+    "dd55515568f5",
+    "b389ba9eb8c7",
+    "65f89ac1c314",
+    "581bfa9faef6",
+    "b462425a241a",
+    "4fcfd4e610b4",
+    "ef5c7bb0c46e",
+    "07f199e1fae9",
+    "5f0412cfc527",
+    "2f8d2c16221a",
+    "f4acb0d954e9",
+    "0f73538b3f4f",
+    "22724f5e7a23",
+    "405775ff4ab8",
+    "26a838101fa5",
+    "d6614498a78b",
+    "628c1c95fd87",
+    "5d40d04a61b2",
+    "e6b814bce194",
+    "a72cef0e3feb",
+    "306fe57298dc",
+    "33d9457198bb",
+    "752d14686b38",
+    "430b860fe0c4",
+    "b93e990681b4",
+    "f0f55109cd21",
+    "a621aa65c400",
+    "f0e1879a6ece",
+    "31491405d690",
+    "eb9f45f804c3",
+    "4d59c84c0e44",
+    "73613abd65e7",
+    "db19232b6884",
+    "bc40723a855b",
+    "184595ed7e04",
+    "47cd22e7f10b",
+    "9b2d63cffc5c",
+    "2eac80308cc7",
+    "f5528a82ab95",
+    "9a67e9c57fb8",
+    "f21d60f76c9f",
+    "82f7fcb52755",
+    "00475f5f7333",
+    "ce0a898cad35",
+    "5fdf29d0132d",
+    "868117204296",
+    "6585aa43f3d2",
+    "52873910cade",
+    "67faba8dc668",
+    "79dd2b7c9571",
+    "d316105e3468",
+    "7a0118ef127f",
+    "3c662daf4ec7",
+    "9b3fe6511a56",
+    "40e1e603b189",
+    "614b8951c415",
+    "51ccb8e4619d",
+    "19c14fe5d66b",
+    "4bb1de3533e3",
+    "3b461afdd7a6",
+    "5c7e48905550",
+    "ef45d3741ae7",
+    "491c1f874e11",
+    "e8221901eeda",
+    "e5d21e6ff4f7",
+    "58a8efeea7f3",
+    "c28cc16ad871",
+    "22a2225e5cef",
+    "e06325ecff8e",
+    "87a163d302ef",
+    "66cd2742112c",
+    "aa58f0ebd5b0",
+    "8cfb0684fd8e",
+    "33319482d874",
+    "7453480cc684",
+    "d58ba30cf52c",
+    "a38f0efe524e",
+    "ade852869fe9",
+    "3bd25bc1bae0",
+    "111add23fd1a",
+    "d79c7fddd603",
+    "7082cc222215",
+    "ae80b82bb6a8",
+    "7e5b022c4f17",
+    "7b7a04a4ac11",
+    "67184aefde85",
+    "70478c27ca95",
+    "78c4f0cc74ff",
+    "67450d6a67a7",
+    "cb7e5658ef9a",
+    "60bfea6930b8",
+    "54f2608b98a6",
+    "57b3cbaa4a70",
+    "370d2c8b8902",
+    "eee42c0f7521",
+    "3e9de605db38",
+    "bc1195a99911",
+    "ce56e203b307",
+    "5fd00a295d9a",
+    "c7509669b231",
+    "01de26df5c47",
+    "fbb7a5083d40",
+    "b3488f4731fc",
+    "4e79cd3d02fd",
+    "b0ff0dd9c001",
+    "e3424e75c03e",
+    "df17d9be63a3",
+    "aaf15fa87bf6",
+    "48a16fc06108",
+    "3a55eea72b92",
+    "665a34009503",
+    "7c0e3e9166cb",
+    "12904a2ffc62",
+    "04b6c8a2be52",
+    "81ffd4ad1216",
+    "21a53ccc8bec",
+    "2f752e7e20c6",
+    "b9fb05fc2c3c",
+    "147ce6e58143",
+    "ab4070c9876b",
+    "c7d4f9c689b0",
+    "db76dd194d29",
+    "fb96fbe66527",
+    "29ebf08fa7e5",
+    "6bf2520be092",
+    "d9387d914a81",
+    "c95df5706e34",
+    "4a740d0effd0",
+    "1626360a00cb",
+    "1271c908210f",
+    "d4ba4d2d8242",
+    "40d75f09c319",
+    "4b3e49859b5b",
+    "63ca082d0e48",
+    "ec9997f70d65",
+    "73b243b9a6d1",
+    "a4116b6d5834",
+    "eb3edd30cbc7",
+    "32ae654c4889",
+    "cc5e976cf60f",
+    "dda3b5abde6c",
+    "5965753310a9",
+    "d8321b51cbac",
+    "9829dc0ed5a0",
+    "19fe128ce684",
+    "afc273dae980",
+    "74f882ff6048",
+    "f5968c5bd920",
+    "86b97a6ed562",
+    "24fd2fc98125",
+    "dcc8fb8e7cf3",
+    "8b51c18fd9b5",
+    "0062058cc158",
+    "1258b045d072",
+    "f7a8ece1249f",
+    "b7033b30d5a2",
+    "41d4526a079d",
+    "0b2f121c78a1",
+    "de91f7686c63",
+    "d5e3faba237b",
+    "a8a52fb88858",
+    "d8663de6787b",
+    "5e26c254fc6f",
+    "ef2c6b6e5a0b",
+    "ce08a19b7d11",
+    "2bc10d68dc17",
+    "39063cb3872c",
+    "4af800d542c1",
+    "1029fb32077b"
+  ],
+  "pending_articles": [
+    {
+      "id": "7c0e3e9166cb",
+      "source": "VnExpress Kinh tế",
+      "title": "Vải không hạt giá 800.000 đồng một kg vẫn không đủ hàng bán",
+      "desc": "<a href=\"https://vnexpress.net/vai-khong-hat-gia-800-000-dong-mot-kg-van-khong-du-hang-ban-5084154.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/06/10/vai-1781080193-6203-1781080267.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=kQVSilqltU3NAXf-TiKdCQ\"></a></br>Giá vải không hạt tại TP HCM tăng gần gấp đôi năm ngoái, lên khoảng 800.000 đồng một kg, nhưng nguồn cung vẫn khan hiếm do mất mùa nghiêm",
+      "link": "https://vnexpress.net/vai-khong-hat-gia-800-000-dong-mot-kg-van-khong-du-hang-ban-5084154.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "fb96fbe66527",
+      "source": "VnExpress Kinh tế",
+      "title": "Tiền mặt dần lên ngôi",
+      "desc": "<a href=\"https://vnexpress.net/tien-mat-dan-len-ngoi-5084084.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/06/10/huy-1781066672-1755-1781066716.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=SygiVV0xQNEeuLkpPTxA0Q\"></a></br>Khi chứng khoán, bất động sản, vàng và tiền số đều gặp khó, tâm lý chuộng nắm giữ tiền mặt được dự báo lan rộng trong giới đầu tư.",
+      "link": "https://vnexpress.net/tien-mat-dan-len-ngoi-5084084.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "dd55515568f5",
+      "source": "VnExpress Kinh tế",
+      "title": "Hòa Phát vượt Vietcombank, VPBank, đứng đầu sàn chứng khoán về vốn điều lệ",
+      "desc": "<a href=\"https://vnexpress.net/hoa-phat-vuot-vietcombank-vpbank-dung-dau-san-chung-khoan-ve-von-dieu-le-5084310.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/06/11/z6786104479692a1922bb6618b273d-8992-6945-1781116245.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=cMCkJIejvNAvPlS0Uk_9Xg\"></a></br>Sau khi hoàn tất phát hành hơn 767 triệu cổ phiếu để trả cổ tức, vốn điều lệ của Hòa Phát đạt 84.430 tỷ",
+      "link": "https://vnexpress.net/hoa-phat-vuot-vietcombank-vpbank-dung-dau-san-chung-khoan-ve-von-dieu-le-5084310.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "7e5b022c4f17",
+      "source": "VnExpress Kinh tế",
+      "title": "Giá USD tự do về thấp hơn ngân hàng",
+      "desc": "<a href=\"https://vnexpress.net/gia-usd-tu-do-ve-thap-hon-ngan-hang-5084217.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/06/10/vpb-jpg-1781085619-3728-1781085797.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=DZOJwtIeqGXM8Bv1h1KJxw\"></a></br>Giá USD tại các ngân hàng hôm nay nhích nhẹ lên mức trần 26.410 đồng, cao hơn so với đôla Mỹ giao dịch trên thị trường tự do.",
+      "link": "https://vnexpress.net/gia-usd-tu-do-ve-thap-hon-ngan-hang-5084217.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "73613abd65e7",
+      "source": "VnExpress Kinh tế",
+      "title": "Thủ tướng giao tiến độ gỡ vướng các dự án bất động sản tồn đọng",
+      "desc": "<a href=\"https://vnexpress.net/thu-tuong-giao-tien-do-go-vuong-cac-du-an-bat-dong-san-ton-dong-5084031.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/06/10/dji202606061548040681d-1781062-4870-8859-1781062825.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=d6Q2NcDVCiqyvRpyqAvtTg\"></a></br>Thủ tướng yêu cầu hoàn thành loạt văn bản hướng dẫn ngay trong tháng 7 và 8 để xử lý các dự án bất động sản, sử ",
+      "link": "https://vnexpress.net/thu-tuong-giao-tien-do-go-vuong-cac-du-an-bat-dong-san-ton-dong-5084031.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "ede297bbfdb2",
+      "source": "VnExpress Kinh tế",
+      "title": "PGBank đồng hành Cục Thuế hỗ trợ hộ kinh doanh chuyển đổi số",
+      "desc": "<a href=\"https://vnexpress.net/pgbank-dong-hanh-cuc-thue-ho-tro-ho-kinh-doanh-chuyen-doi-so-5084238.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/06/10/a-nh-cho-n-1781088975-7878-1781089043.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=vel0GVmzQrU2aQ9mld9ccw\"></a></br>Ngân hàng TMCP Thịnh Vượng và Phát triển (PGBank) ký hợp tác với Cục Thuế, nhằm triển khai các chương trình hỗ trợ hộ kinh doanh,",
+      "link": "https://vnexpress.net/pgbank-dong-hanh-cuc-thue-ho-tro-ho-kinh-doanh-chuyen-doi-so-5084238.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "b7033b30d5a2",
+      "source": "VnExpress Kinh tế",
+      "title": "VN-Index đảo chiều sau nhịp giảm sốc",
+      "desc": "<a href=\"https://vnexpress.net/vn-index-dao-chieu-sau-nhip-giam-soc-5083737.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/06/09/233A7334-6291-1780994239.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=4sGfzM3PEObrk9UAdqLv2A\"></a></br>VN-Index tăng nhẹ và áp sát ngưỡng tâm lý 1.800 điểm nhờ lực đỡ của cổ phiếu ngân hàng, thép, bù cho áp lực xả hàng kéo dài ở nhóm Vingroup.",
+      "link": "https://vnexpress.net/vn-index-dao-chieu-sau-nhip-giam-soc-5083737.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "ef45d3741ae7",
+      "source": "VnExpress Kinh tế",
+      "title": "Lý do thanh khoản chứng khoán giảm sâu",
+      "desc": "<a href=\"https://vnexpress.net/ly-do-thanh-khoan-chung-khoan-giam-sau-5083413.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/06/08/233a7456-1780937028-5760-1780937036.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=GRtsE_glGVIqA4QZFeVJUw\"></a></br>Lo ngại lạm phát, lãi suất cao khiến thanh khoản chứng khoán đầu tháng 6 giảm sâu so với quý I.",
+      "link": "https://vnexpress.net/ly-do-thanh-khoan-chung-khoan-giam-sau-5083413.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "d58ba30cf52c",
+      "source": "VnExpress Kinh tế",
+      "title": "Nghiên cứu ưu đãi đất đai, tín dụng để phát triển nhà ở cho thuê giá rẻ",
+      "desc": "<a href=\"https://vnexpress.net/nghien-cuu-uu-dai-dat-dai-tin-dung-de-phat-trien-nha-o-cho-thue-gia-re-5083380.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/06/08/hoangthuhang178090684959518060-7610-3766-1780926640.webp?w=1200&h=0&q=100&dpr=1&fit=crop&s=WqUgr_9eJe5dL9XpNjpYyw\"></a></br>Bộ Xây dựng đang nghiên cứu các chính sách ưu đãi về đất đai, thuế và tín dụng để khuyến khích phát triể",
+      "link": "https://vnexpress.net/nghien-cuu-uu-dai-dat-dai-tin-dung-de-phat-trien-nha-o-cho-thue-gia-re-5083380.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "0fad05ff0403",
+      "source": "VnExpress Kinh tế",
+      "title": "Ba thành viên HĐQT Eximbank từ nhiệm",
+      "desc": "<a href=\"https://vnexpress.net/ba-thanh-vien-hdqt-eximbank-tu-nhiem-5083338.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/06/08/ba93c7215c412740bc906c70eb6b19-2448-6451-1780932329.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=fPvMNKyHAvVt2ClmANDSDA\"></a></br>Ông Phạm Tuấn Anh, Nguyễn Trí Trung và Nguyễn Trọng Hiền xin từ nhiệm thành viên Hội đồng quản trị Eximbank.",
+      "link": "https://vnexpress.net/ba-thanh-vien-hdqt-eximbank-tu-nhiem-5083338.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "cdbe8b2c75cd",
+      "source": "VnExpress Kinh tế",
+      "title": "Nhiều gia đình 'thắt lưng buộc bụng' nhưng hóa đơn vẫn phình to",
+      "desc": "<a href=\"https://vnexpress.net/nhieu-gia-dinh-that-lung-buoc-bung-nhung-hoa-don-van-phinh-to-5082400.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/06/05/hinh-1780668537-2410-1780669440.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=r9jQXpwNHCgioHwv8OqFLQ\"></a></br>Tiền nhà, thực phẩm, học phí và lãi vay đồng loạt tăng khiến nhiều hộ gia đình phải co kéo chi tiêu, trong khi khoản tiền để dành ngày",
+      "link": "https://vnexpress.net/nhieu-gia-dinh-that-lung-buoc-bung-nhung-hoa-don-van-phinh-to-5082400.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "4b3e49859b5b",
+      "source": "VnExpress Kinh tế",
+      "title": "Hai con ông Nguyễn Đức Thụy gia nhập Sacombank",
+      "desc": "<a href=\"https://vnexpress.net/hai-con-ong-nguyen-duc-thuy-gia-nhap-sacombank-5082944.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/06/07/sacombank-1780824279-7129-1780824342.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=MMeRK_J5R-kfZK7wP0nQlw\"></a></br>Con trai và con gái của Phó chủ tịch thường trực Sacombank Nguyễn Đức Thụy lần lượt được bổ nhiệm làm trợ lý cho Hội đồng quản trị và Tổng giám ",
+      "link": "https://vnexpress.net/hai-con-ong-nguyen-duc-thuy-gia-nhap-sacombank-5082944.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "d79c7fddd603",
+      "source": "VnExpress Kinh tế",
+      "title": "Sẽ ban hành cơ chế tín dụng, đặt hàng 1.000 doanh nghiệp tiên phong",
+      "desc": "<a href=\"https://vnexpress.net/se-ban-hanh-co-che-tin-dung-dat-hang-1-000-doanh-nghiep-tien-phong-5082762.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/06/06/lq-1780743418-3300-1780743454.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=toJIEOwrB_kZ5gReQ0_T5g\"></a></br>Bộ Tài chính dự kiến ban hành thông tư về chương trình hỗ trợ 1.000 doanh nghiệp tiên phong - nhóm có khả năng dẫn dắt, lan tỏa côn",
+      "link": "https://vnexpress.net/se-ban-hanh-co-che-tin-dung-dat-hang-1-000-doanh-nghiep-tien-phong-5082762.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "4bb1de3533e3",
+      "source": "VnExpress Kinh tế",
+      "title": "Ông Lê Hồng Minh: 'Cổ phiếu VNG chưa phản ánh đúng giá trị thực'",
+      "desc": "<a href=\"https://vnexpress.net/ong-le-hong-minh-co-phieu-vng-chua-phan-anh-dung-gia-tri-thuc-5082728.html\"><img src=\"https://vcdn1-kinhdoanh.vnecdn.net/2026/06/06/minh-vng-1780734046-9053-1780734078.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=1mZTWyOu35932pU1q5I0hg\"></a></br>Ông Lê Hồng Minh cho rằng giá lẫn thanh khoản của VNG chưa phản ánh đúng giá trị do khối lượng lên sàn ít và ban lãnh đạo \"không h",
+      "link": "https://vnexpress.net/ong-le-hong-minh-co-phieu-vng-chua-phan-anh-dung-gia-tri-thuc-5082728.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "5689a68e5b65",
+      "source": "VnExpress BĐS",
+      "title": "Hơn 800 căn nhà xã hội của Lideco ở Hạ Long có giá từ 1,1 tỷ đồng",
+      "desc": "<a href=\"https://vnexpress.net/hon-800-can-nha-xa-hoi-cua-lideco-o-ha-long-co-gia-tu-1-1-ty-dong-5084378.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/11/qn-1781145915-9998-1781146213.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=jbbEeD59l1wXhz66yozAJA\"></a></br>Khu nhà ở xã hội tại phường Cao Xanh và Hà Lầm chuẩn bị mở bán với giá 21,4 triệu đồng một m2, tương đương từ 1,1 tỷ đồng một căn.",
+      "link": "https://vnexpress.net/hon-800-can-nha-xa-hoi-cua-lideco-o-ha-long-co-gia-tu-1-1-ty-dong-5084378.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "628c1c95fd87",
+      "source": "VnExpress BĐS",
+      "title": "The Privé quy hoạch theo kiến trúc 'dòng chảy'",
+      "desc": "<a href=\"https://vnexpress.net/the-prive-quy-hoach-theo-kien-truc-dong-chay-5084525.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/11/thep-1781157202-7325-1781157292.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=681phBhjsQzjwoObJEiEXg\"></a></br>Căn hộ The Privé thiết kế để ánh sáng, không khí \"chảy\" qua một cách tự nhiên, đi cùng hệ cảnh quan, tiện ích đa tầng tối ưu tiện ích từ trong nhà đến ",
+      "link": "https://vnexpress.net/the-prive-quy-hoach-theo-kien-truc-dong-chay-5084525.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "00475f5f7333",
+      "source": "VnExpress BĐS",
+      "title": "Vlasta - Thủy Nguyên sắp khởi công 4 tòa căn hộ cao tầng",
+      "desc": "<a href=\"https://vnexpress.net/vlasta-thuy-nguyen-sap-khoi-cong-4-toa-can-ho-cao-tang-5084461.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/11/1-1781149215-9425-1781149374.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=OrNuI7KoTkN5v7UWOp5qiQ\"></a></br>Văn Phú dự kiến triển khai 4 tòa căn hộ cao tầng với gần 1.000 sản phẩm tại Vlasta - Thủy Nguyên, góp phần mở rộng quy mô dân cư và hoàn thiện h",
+      "link": "https://vnexpress.net/vlasta-thuy-nguyen-sap-khoi-cong-4-toa-can-ho-cao-tang-5084461.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "c7d4f9c689b0",
+      "source": "VnExpress BĐS",
+      "title": "Sun Property ra mắt tổ hợp căn hộ The Fest tại Nam Nha Trang",
+      "desc": "<a href=\"https://vnexpress.net/sun-property-ra-mat-to-hop-can-ho-the-fest-tai-nam-nha-trang-5084273.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/10/phoi-canh-festival-island-1781-1634-5482-1781101826.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=fREYLq_2ACDGwyDYuc2NXA\"></a></br>Sun Property, thành viên Tập đoàn Sun Group, ra mắt tổ hợp căn hộ thương mại dịch vụ The Fest thuộc đại đô thị Char",
+      "link": "https://vnexpress.net/sun-property-ra-mat-to-hop-can-ho-the-fest-tai-nam-nha-trang-5084273.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "db76dd194d29",
+      "source": "VnExpress BĐS",
+      "title": "Izumi City hưởng lợi từ trục phát triển đô thị TP HCM - Đồng Nai",
+      "desc": "<a href=\"https://vnexpress.net/izumi-city-huong-loi-tu-truc-phat-trien-do-thi-tp-hcm-dong-nai-5082241.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/10/a1-thumb-izumi-1781053145-5756-1781053525.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=xxRfuCoZLGQNF6S5rXkONg\"></a></br>Hạ tầng trọng điểm như sân bay Long Thành, Vành đai 3, 4 đang định hình trục phát triển mới giữa TP HCM và Đồng Nai, tạo lợ",
+      "link": "https://vnexpress.net/izumi-city-huong-loi-tu-truc-phat-trien-do-thi-tp-hcm-dong-nai-5082241.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "6b4ec11bef76",
+      "source": "VnExpress BĐS",
+      "title": "TP HCM tìm nhà đầu tư cho ba khu đô thị gần 2,5 tỷ USD",
+      "desc": "<a href=\"https://vnexpress.net/tp-hcm-tim-nha-dau-tu-cho-ba-khu-do-thi-gan-2-5-ty-usd-5084030.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/10/DJI-20260527103734-0857-D-2-6798-1781062922.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=3bcZ98VVXL0MdvARsbzkvw\"></a></br>TP HCM đang kêu gọi đầu tư ba khu đô thị mới tại phường Tân Đông Hiệp với tổng diện tích gần 61 ha và tổng vốn dự kiến hơn 64.000",
+      "link": "https://vnexpress.net/tp-hcm-tim-nha-dau-tu-cho-ba-khu-do-thi-gan-2-5-ty-usd-5084030.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "491c1f874e11",
+      "source": "VnExpress BĐS",
+      "title": "Biệt thự phố ở TP HCM đưa hồ bơi lên tầng 4",
+      "desc": "<a href=\"https://vnexpress.net/biet-thu-pho-o-tp-hcm-dua-ho-boi-len-tang-4-5080634.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/01/avavava-1780301300.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=vTVjc0R-cEcRcD7vRrtRuQ\"></a></br>Công trình tổ chức hồ bơi trong nhà trên cao để bổ sung trải nghiệm nghỉ dưỡng giữa đô thị.",
+      "link": "https://vnexpress.net/biet-thu-pho-o-tp-hcm-dua-ho-boi-len-tang-4-5080634.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "33d9457198bb",
+      "source": "VnExpress BĐS",
+      "title": "Nhà đất có thể gặp áp lực giảm giá trong nửa cuối năm",
+      "desc": "<a href=\"https://vnexpress.net/nha-dat-co-the-gap-ap-luc-giam-gia-trong-nua-cuoi-nam-5083643.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/09/1-of-1780997573-2468-1780998238.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=9V0FqsClMNi-sRNJgMteWw\"></a></br>Lãi suất neo cao tiếp tục gây áp lực lên thanh khoản, có thể khiến giá nhà trên cả thị trường sơ cấp và chuyển nhượng điều chỉnh giảm, theo SS",
+      "link": "https://vnexpress.net/nha-dat-co-the-gap-ap-luc-giam-gia-trong-nua-cuoi-nam-5083643.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "611e83bacf71",
+      "source": "VnExpress BĐS",
+      "title": "Du lịch, hạ tầng đô thị 'tiếp sức' cho địa ốc Đà Nẵng",
+      "desc": "<a href=\"https://vnexpress.net/du-lich-ha-tang-do-thi-tiep-suc-cho-dia-oc-da-nang-5083135.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/10/11-1781063249-6664-1781065255.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=sd1CTcEyuUQWfKkxcdwcFg\"></a></br>Gần 6 triệu lượt khách trong 4 tháng đầu năm cùng đà tăng của dòng vốn đầu tư đang tạo thêm nguồn cầu cho thị trường bất động sản Đà Nẵng.",
+      "link": "https://vnexpress.net/du-lich-ha-tang-do-thi-tiep-suc-cho-dia-oc-da-nang-5083135.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "fbb7a5083d40",
+      "source": "VnExpress BĐS",
+      "title": "Lợi thế đầu tư kép tại căn hộ phía Tây Hải Phòng",
+      "desc": "<a href=\"https://vnexpress.net/loi-the-dau-tu-kep-tai-can-ho-phia-tay-hai-phong-5084033.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/10/1-1781082555-1905-1781083102.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=VGjmEDl_KDOBHzLCE4OyQg\"></a></br>The Zenith Hải Phòng tạo sức hút nhờ vị trí tại phía Tây Hải Phòng, chính sách thanh toán linh hoạt và khả năng đáp ứng nhu cầu thuê từ nhiều nhóm khá",
+      "link": "https://vnexpress.net/loi-the-dau-tu-kep-tai-can-ho-phia-tay-hai-phong-5084033.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "e400e7c401e8",
+      "source": "VnExpress BĐS",
+      "title": "Căn hộ ven sông Hàn đón dư địa tăng trưởng từ nhu cầu lưu trú",
+      "desc": "<a href=\"https://vnexpress.net/can-ho-ven-song-han-don-du-dia-tang-truong-tu-nhu-cau-luu-tru-5084156.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/10/4-sun-symphony-residence-17810-4996-5044-1781079565.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=t6SyzZOjfYfVaRsw-ezZdQ\"></a></br>Đà Nẵng đón 7,74 triệu lượt khách lưu trú trong 5 tháng đầu năm, tăng 20,9% so với cùng kỳ, góp phần thúc đẩy nhu ",
+      "link": "https://vnexpress.net/can-ho-ven-song-han-don-du-dia-tang-truong-tu-nhu-cau-luu-tru-5084156.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "b0e119cb408f",
+      "source": "VnExpress BĐS",
+      "title": "Căn hộ bên sông tại Đồng Nai đón nhu cầu ở thực và đầu tư",
+      "desc": "<a href=\"https://vnexpress.net/can-ho-ben-song-tai-dong-nai-don-nhu-cau-o-thuc-va-dau-tu-5083906.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/10/1-1781056224-5003-1781058100.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=nv4x7FIPDFm8NxAF1XXjhQ\"></a></br>Dự án Fresia Riverside tọa lạc tại khu trung tâm tài chính Biên Hòa, kết nối thuận tiện với TP HCM, đáp ứng nhu cầu an cư kết hợp đầu tư.",
+      "link": "https://vnexpress.net/can-ho-ben-song-tai-dong-nai-don-nhu-cau-o-thuc-va-dau-tu-5083906.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "2edc991f1f2d",
+      "source": "VnExpress BĐS",
+      "title": "Tiềm năng bất động sản tại Vịnh Cửa Lục",
+      "desc": "<a href=\"https://vnexpress.net/tiem-nang-bat-dong-san-tai-vinh-cua-luc-5083817.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/10/1anh-thumb-1781057756-2442-1781057776.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=YrQx338CowNoKKLSpxYSeg\"></a></br>Vịnh Cửa Lục được chú ý nhờ vai trò kết nối hai bờ thành phố, hạ tầng giao thông đang hoàn thiện và định hướng hình thành không gian đô thị mới phía B",
+      "link": "https://vnexpress.net/tiem-nang-bat-dong-san-tai-vinh-cua-luc-5083817.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "a4116b6d5834",
+      "source": "VnExpress BĐS",
+      "title": "Nhà cho thuê - bài toán an cư của hàng triệu công nhân đô thị",
+      "desc": "<a href=\"https://vnexpress.net/nha-cho-thue-bai-toan-an-cu-cua-hang-trieu-cong-nhan-do-thi-5083203.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/08/cg2a8513-1780901285-7149-1780901620.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=w2RBSBd5T71JFT5vzfk3QA\"></a></br>Gần 7 năm làm việc tại một nhà máy sản xuất linh kiện điện tử ở TP HCM, anh Phạm Thanh Hiếu (quê Phú Yên) vẫn chưa thể rời căn phòng",
+      "link": "https://vnexpress.net/nha-cho-thue-bai-toan-an-cu-cua-hang-trieu-cong-nhan-do-thi-5083203.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "ce08a19b7d11",
+      "source": "VnExpress BĐS",
+      "title": "Vingroup sẽ phát triển 4.500 căn nhà ở cho thuê tại TP HCM",
+      "desc": "<a href=\"https://vnexpress.net/vingroup-se-phat-trien-4-500-can-nha-o-cho-thue-tai-tp-hcm-5083723.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/09/1-1780993643-6468-1780993728.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=f5KOY0b-8eGfe9PR6WqXqA\"></a></br>Vingroup dự kiến xây loạt căn nhà ở cho thuê nhằm phục vụ nhu cầu của người lao động, sinh viên và cư dân thu nhập thấp tại khu vực Tây Bắc ",
+      "link": "https://vnexpress.net/vingroup-se-phat-trien-4-500-can-nha-o-cho-thue-tai-tp-hcm-5083723.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "db19232b6884",
+      "source": "VnExpress BĐS",
+      "title": "Hạ tầng liên vùng tạo lực đẩy cho đô thị cửa ngõ Tây TP HCM",
+      "desc": "<a href=\"https://vnexpress.net/ha-tang-lien-vung-tao-luc-day-cho-do-thi-cua-ngo-tay-tp-hcm-5083582.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/09/dtn-1780980085-4471-1780980181.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=P71co8_inwfAmLKZ09Qrxw\"></a></br>Các trục giao thông lớn giúp kéo gần khoảng cách giữa cửa ngõ và trung tâm, mở ra dư địa cho các dự án phục vụ nhu cầu ở thực như Destino",
+      "link": "https://vnexpress.net/ha-tang-lien-vung-tao-luc-day-cho-do-thi-cua-ngo-tay-tp-hcm-5083582.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "ade852869fe9",
+      "source": "VnExpress BĐS",
+      "title": "Nobu Danang phát triển căn hộ gắn với trải nghiệm lễ hội",
+      "desc": "<a href=\"https://vnexpress.net/nobu-danang-phat-trien-can-ho-gan-voi-trai-nghiem-le-hoi-5083379.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/08/cvf-1780927262-3058-1780927282.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=fA0XiWYgvFWguKz904HFhg\"></a></br>Nobu Danang phát triển theo định hướng phong cách sống toàn cầu: kết hợp không gian ven biển, trải nghiệm nghỉ dưỡng, gắn với các sự kiện vă",
+      "link": "https://vnexpress.net/nobu-danang-phat-trien-can-ho-gan-voi-trai-nghiem-le-hoi-5083379.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "de91f7686c63",
+      "source": "VnExpress BĐS",
+      "title": "'Làn sóng' trả mặt bằng kéo giá thuê nhà phố TP HCM lao dốc",
+      "desc": "<a href=\"https://vnexpress.net/lan-song-tra-mat-bang-keo-gia-thue-nha-pho-tp-hcm-lao-doc-5082897.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/08/z7910421741947-b37167f262e7503-1933-5746-1780884138.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=XOrNcwNo9YyNhVELEPoXAA\"></a></br>Làn sóng đóng cửa, trả mặt bằng lan rộng tại nhiều tuyến phố thương mại của TP HCM, kéo giá thuê phân khúc này tiếp tụ",
+      "link": "https://vnexpress.net/lan-song-tra-mat-bang-keo-gia-thue-nha-pho-tp-hcm-lao-doc-5082897.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "0f1932331021",
+      "source": "VnExpress BĐS",
+      "title": "IHG Hotels & Resort vận hành hai dự án nghỉ dưỡng tại TP HCM",
+      "desc": "<a href=\"https://vnexpress.net/ihg-hotels-resort-van-hanh-hai-du-an-nghi-duong-tai-tp-hcm-5083373.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/08/igh-1780924494-1416-1780924954.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=wRQpxq2Ron0ArdLg6c-kew\"></a></br>Meraki Land hợp tác IHG Hotels & Resort phát triển hai dự án khách sạn, nghỉ dưỡng gồm Crowne Plaza Saigon Binh Duong và Regent Ho Tram & ",
+      "link": "https://vnexpress.net/ihg-hotels-resort-van-hanh-hai-du-an-nghi-duong-tai-tp-hcm-5083373.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "3c662daf4ec7",
+      "source": "VnExpress BĐS",
+      "title": "Metro Hưng Nhơn - Tân An tạo sức bật cho địa ốc Tây Nam TP HCM",
+      "desc": "<a href=\"https://vnexpress.net/metro-hung-nhon-tan-an-tao-suc-bat-cho-dia-oc-tay-nam-tp-hcm-5083237.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/08/2604282x802-1780904642-9250-1780904730.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=5KRMxoCj9ktj1FeSpR2e2A\"></a></br>Đường sắt đô thị Hưng Nhơn - Tân An được đưa vào quy hoạch, dự kiến đi học quốc lộ 1A, tạo cơ sở để Tây Ninh phát triển các mô h",
+      "link": "https://vnexpress.net/metro-hung-nhon-tan-an-tao-suc-bat-cho-dia-oc-tay-nam-tp-hcm-5083237.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "ec9997f70d65",
+      "source": "VnExpress BĐS",
+      "title": "Căn hộ Sun Group Bãi Cháy đón xu hướng sống giữa tâm điểm du lịch",
+      "desc": "<a href=\"https://vnexpress.net/can-ho-sun-group-bai-chay-don-xu-huong-song-giua-tam-diem-du-lich-5082778.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/06/1-phao-hoa-sun-elite-city6-178-6381-1619-1780748342.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=xo19ViYOFCNLz5SCI_Q-CA\"></a></br>Sun Festo Town thuộc Sun Elite City được phát triển trong hệ sinh thái vui chơi, lễ hội và dịch vụ du lịch tại",
+      "link": "https://vnexpress.net/can-ho-sun-group-bai-chay-don-xu-huong-song-giua-tam-diem-du-lich-5082778.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "d4ba4d2d8242",
+      "source": "VnExpress BĐS",
+      "title": "Lỗ tiền tỷ vì FOMO trả hàng trăm triệu mua chênh chung cư",
+      "desc": "<a href=\"https://vnexpress.net/lo-tien-ty-vi-fomo-tra-hang-tram-trieu-mua-chenh-chung-cu-5082804.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/07/dji-d-enhanced-nr-copy-1780765-7860-3679-1780767132.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=kDTHilvNF4pghYq4Of6K9w\"></a></br>Từng FOMO (sợ bị bỏ lỡ), anh Tuấn đã trả chênh 350 triệu đồng để mua căn hộ ở xã Gia Lâm trong cơn \"sốt giá\", nay phải",
+      "link": "https://vnexpress.net/lo-tien-ty-vi-fomo-tra-hang-tram-trieu-mua-chenh-chung-cu-5082804.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "8cfb0684fd8e",
+      "source": "VnExpress BĐS",
+      "title": "Khu chung cư thiết kế cắt vát 'ôm' lấy thung lũng xanh",
+      "desc": "<a href=\"https://vnexpress.net/khu-chung-cu-thiet-ke-cat-vat-om-lay-thung-lung-xanh-5082547.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/05/1-1780671062.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=_lpvbfCUetU3srDzv4Ms6Q\"></a></br>Công trình tổ chức 70 căn hộ bao quanh sân trong hình tròn, phủ cây từ tầng trệt lên đến các tầng cao.",
+      "link": "https://vnexpress.net/khu-chung-cu-thiet-ke-cat-vat-om-lay-thung-lung-xanh-5082547.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "19c14fe5d66b",
+      "source": "VnExpress BĐS",
+      "title": "'Nhà đầu tư bất động sản sợ mua sai thay vì FOMO như trước'",
+      "desc": "<a href=\"https://vnexpress.net/nha-dau-tu-bat-dong-san-so-mua-sai-thay-vi-fomo-nhu-truoc-5082719.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/06/pham-thi-mine-1780735111-9431-1780735141.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=We6ro-JVDDhOH7gcWZL4fQ\"></a></br>Theo chuyên gia, từ đầu 2026 đến nay, nhà đầu tư bất động sản không còn bị dẫn dắt bởi tâm lý sợ bỏ lỡ (FOMO), rất thận trọng khi",
+      "link": "https://vnexpress.net/nha-dau-tu-bat-dong-san-so-mua-sai-thay-vi-fomo-nhu-truoc-5082719.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "ef2c6b6e5a0b",
+      "source": "VnExpress BĐS",
+      "title": "Liên doanh Việt Nam - Nhật Bản - Singapore làm hơn 1.400 căn hộ tại Nhà Bè",
+      "desc": "<a href=\"https://vnexpress.net/lien-doanh-viet-nam-nhat-ban-singapore-lam-hon-1-400-can-ho-tai-nha-be-5082168.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/05/lodiencubattaycua5liendoanhquo-6231-8355-1780618773.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=sxsMPXKJxZ6UFSHkvDhEjQ\"></a></br>TT Capital cùng các đối tác Nhật Bản và Singapore vừa thành lập liên doanh để phát triển dự án căn hộ TT ",
+      "link": "https://vnexpress.net/lien-doanh-viet-nam-nhat-ban-singapore-lam-hon-1-400-can-ho-tai-nha-be-5082168.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "9429788c3a74",
+      "source": "VnExpress BĐS",
+      "title": "Nhà 466 m2 tại TP HCM thiết kế 'ngoài đóng, trong mở'",
+      "desc": "<a href=\"https://vnexpress.net/nha-466-m2-tai-tp-hcm-thiet-ke-ngoai-dong-trong-mo-5081507.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/03/7-1780462838.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=AVAhyWg5xbFLL15RzTMMHA\"></a></br>Công trình dùng lớp vỏ kín, khoảng thông tầng, giếng trời và vườn trong nhà để tăng riêng tư, ánh sáng tự nhiên.",
+      "link": "https://vnexpress.net/nha-466-m2-tai-tp-hcm-thiet-ke-ngoai-dong-trong-mo-5081507.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "6585aa43f3d2",
+      "source": "VnExpress BĐS",
+      "title": "Nhà riêng, nhà phố TP HCM giảm giá vì khó bán",
+      "desc": "<a href=\"https://vnexpress.net/nha-rieng-nha-pho-tp-hcm-giam-gia-vi-kho-ban-5081131.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/05/12aoboqblwmtlhjx50fnfogfubiyzw-6651-1299-1780634002.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=wgvzCapqU0PNodpTDDowuA\"></a></br>Phân khúc nhà riêng, nhà phố tại TP HCM ghi nhận xu hướng giảm giá bán trong bối cảnh thanh khoản thị trường suy yếu, người mua thậ",
+      "link": "https://vnexpress.net/nha-rieng-nha-pho-tp-hcm-giam-gia-vi-kho-ban-5081131.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "dbc531f4bbc1",
+      "source": "VnExpress BĐS",
+      "title": "Tổ hợp nhà ở, thương mại The Esme hơn 4,3 ha phía Đông TP HCM",
+      "desc": "<a href=\"https://vnexpress.net/to-hop-nha-o-thuong-mai-the-esme-hon-4-3-ha-phia-dong-tp-hcm-5082416.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/05/1-1780648987-8880-1780649085.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=_A4qX8VZxd_8SxIv08_dKw\"></a></br>Nằm trên Quốc lộ 1K, quy mô hơn 4,3 ha, trong đó có khối thương mại hơn 22.000 m2, The Esme định hướng phát triển thành tổ hợp đô thị tích",
+      "link": "https://vnexpress.net/to-hop-nha-o-thuong-mai-the-esme-hon-4-3-ha-phia-dong-tp-hcm-5082416.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "81ffd4ad1216",
+      "source": "VnExpress BĐS",
+      "title": "Ba động lực thúc đẩy sức hút của Vinhomes Golden City",
+      "desc": "<a href=\"https://vnexpress.net/ba-dong-luc-thuc-day-suc-hut-cua-vinhomes-golden-city-5082217.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/05/a1-1780631292-7993-1780631405.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Sx0HM6dLjjtvhL6MjC_KkQ\"></a></br>Sự phát triển của hạ tầng giao thông, khu công nghiệp và cảng biển tại Nam Hải Phòng tạo thêm dư địa cho thị trường bất động sản khu vực, trong ",
+      "link": "https://vnexpress.net/ba-dong-luc-thuc-day-suc-hut-cua-vinhomes-golden-city-5082217.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "87a163d302ef",
+      "source": "VnExpress BĐS",
+      "title": "Lợi thế từ quỹ đất ven sông của nhà phố Van Phuc City",
+      "desc": "<a href=\"https://vnexpress.net/loi-the-tu-quy-dat-ven-song-cua-nha-pho-van-phuc-city-5081830.html\"><img src=\"https://vcdn1-vnexpress.vnecdn.net/2026/06/04/hinh-1780580220-5115-1780580348.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=W93AwAXrxk9ZK4r-CnEwZw\"></a></br>Nhà phố ven sông tại Van Phuc City sở hữu lợi thế từ quỹ đất khan hiếm, hệ sinh thái mặt nước quy mô lớn và hạ tầng khu Đông TP HCM ngày càng ",
+      "link": "https://vnexpress.net/loi-the-tu-quy-dat-ven-song-cua-nha-pho-van-phuc-city-5081830.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "7453480cc684",
+      "source": "Thanh Niên KT",
+      "title": "Halong Marina: Từ đô thị đáng sống đến hệ sinh thái tạo dòng tiền",
+      "desc": "<a href=\"https://thanhnien.vn/halong-marina-tu-do-thi-dang-song-den-he-sinh-thai-tao-dong-tien-18526061109512666.htm\"><img src=\"https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/6/11/prima-bayv050advfacadehiresfn-17811458587281413370698-0-0-3198-5117-crop-17811458811581493186852.jpg\"></a> Dòng tiền bất động sản du lịch bắt đầu từ một câu hỏi thực tế: hôm nay có bao nhiêu người đến,",
+      "link": "https://thanhnien.vn/halong-marina-tu-do-thi-dang-song-den-he-sinh-thai-tao-dong-tien-18526061109512666.htm",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "d8321b51cbac",
+      "source": "Thanh Niên KT",
+      "title": "TP.HCM tốc lực mở đường kết nối liên vùng",
+      "desc": "<a href=\"https://thanhnien.vn/tphcm-toc-luc-mo-duong-ket-noi-lien-vung-185260610214541749.htm\"><img src=\"https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/6/10/1-cau-nhon-trachanh-gia-khanh-1781102577513693545343-253-0-1853-2560-crop-1781102597720750196471.jpg\"></a> Định hướng phát triển theo mô hình siêu đô thị đa tâm của TP.HCM đang đặt áp lực cực lớn lên hệ thống hạ tầng giao th",
+      "link": "https://thanhnien.vn/tphcm-toc-luc-mo-duong-ket-noi-lien-vung-185260610214541749.htm",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "e8221901eeda",
+      "source": "Thanh Niên KT",
+      "title": "Cà Mau quy định ngưỡng diện tích đấu thầu các dự án bất động sản mới",
+      "desc": "<a href=\"https://thanhnien.vn/ca-mau-quy-dinh-nguong-dien-tich-dau-thau-cac-du-an-bat-dong-san-moi-185260610122949007.htm\"><img src=\"https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/6/10/de55989c-0e26-49c8-aa79-f8b176557432-17810692425731597956516-27-0-987-1536-crop-1781069363415921581080.png\"></a> HĐND tỉnh Cà Mau vừa thông qua nghị quyết quy định tiêu chí đấu thầu lựa chọn nhà đ",
+      "link": "https://thanhnien.vn/ca-mau-quy-dinh-nguong-dien-tich-dau-thau-cac-du-an-bat-dong-san-moi-185260610122949007.htm",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "40e1e603b189",
+      "source": "Thanh Niên KT",
+      "title": "23 thủ tục đất đai nộp trực tuyến, nhận kết quả sau 2 giờ",
+      "desc": "<a href=\"https://thanhnien.vn/23-thu-tuc-dat-dai-nop-truc-tuyen-nhan-ket-qua-sau-2-gio-185260610091729464.htm\"><img src=\"https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/6/10/img-4908-178105789712474750678-0-0-1250-2000-crop-17810579043761586041322.jpg\"></a> Thay vì phải nộp hồ sơ trực tiếp, từ nay người dân có nhà đất tại TP.HCM có thể ngồi ở nhà nộp hồ sơ trực tuyến toàn trình t",
+      "link": "https://thanhnien.vn/23-thu-tuc-dat-dai-nop-truc-tuyen-nhan-ket-qua-sau-2-gio-185260610091729464.htm",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "2f752e7e20c6",
+      "source": "Thanh Niên KT",
+      "title": "Nghiên cứu mở rộng cầu Nhơn Trạch nối TP.HCM - Đồng Nai lên 8 làn xe",
+      "desc": "<a href=\"https://thanhnien.vn/nghien-cuu-mo-rong-cau-nhon-trach-noi-tphcm-dong-nai-len-8-lan-xe-185260610090019395.htm\"><img src=\"https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/6/10/nt-1755622383640462291139-17810567118101575750913-63-0-463-640-crop-1781056759494928795251.jpg\"></a> Ban Quản lý dự án (QLDA) Mỹ Thuận vừa trình Bộ Xây dựng hồ sơ Báo cáo nghiên cứu khả thi điều chỉn",
+      "link": "https://thanhnien.vn/nghien-cuu-mo-rong-cau-nhon-trach-noi-tphcm-dong-nai-len-8-lan-xe-185260610090019395.htm",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "4af800d542c1",
+      "source": "Thanh Niên KT",
+      "title": "Cách Green Skyline hút giao dịch nhờ 3 lớp giá trị tiện ích",
+      "desc": "<a href=\"https://thanhnien.vn/cach-green-skyline-hut-giao-dich-nho-3-lop-gia-tri-tien-ich-185260609180749214.htm\"><img src=\"https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/6/9/1-17810027849991348307034-58-0-925-1387-crop-17810031853961030401145.jpg\"></a> Ra mắt giai đoạn 2 từ đầu tháng 6.2026, Green Skyline xuất hiện đúng thời điểm thị trường khu đông TP.HCM chứng kiến nguồn cung",
+      "link": "https://thanhnien.vn/cach-green-skyline-hut-giao-dich-nho-3-lop-gia-tri-tien-ich-185260609180749214.htm",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "4a740d0effd0",
+      "source": "Thanh Niên KT",
+      "title": "Hai lực đẩy mới của bất động sản Đà Nẵng",
+      "desc": "<a href=\"https://thanhnien.vn/hai-luc-day-moi-cua-bat-dong-san-da-nang-185260609175127183.htm\"><img src=\"https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/6/9/1-17810019256821510245601-0-0-603-965-crop-1781002119129108872926.jpg\"></a> Du lịch khởi sắc từ đầu năm 2026, cùng việc Trung tâm Tài chính quốc tế đi vào hoạt động, đang mở thêm dư địa cho bất động sản Đà Nẵng.",
+      "link": "https://thanhnien.vn/hai-luc-day-moi-cua-bat-dong-san-da-nang-185260609175127183.htm",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "c95df5706e34",
+      "source": "Thanh Niên KT",
+      "title": "KCN Rạch Bắp hướng đến khu công nghiệp xanh, thông minh",
+      "desc": "<a href=\"https://thanhnien.vn/kcn-rach-bap-huong-den-khu-cong-nghiep-xanh-thong-minh-185260609173814371.htm\"><img src=\"https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/6/9/a1-kcn-rach-bap-1781001219193335846596-0-0-1600-2560-crop-1781001336434810544136.jpg\"></a> Sau hơn 20 năm hình thành và phát triển, Khu công nghiệp Rạch Bắp do Công ty CP Công nghiệp An Điền làm chủ đầu tư đang ",
+      "link": "https://thanhnien.vn/kcn-rach-bap-huong-den-khu-cong-nghiep-xanh-thong-minh-185260609173814371.htm",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "568801e21e0b",
+      "source": "Thanh Niên KT",
+      "title": "Căn hộ resort compound: Nâng tầm trải nghiệm sống đa thế hệ",
+      "desc": "<a href=\"https://thanhnien.vn/can-ho-resort-compound-nang-tam-trai-nghiem-song-da-the-he-185260609150413612.htm\"><img src=\"https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/6/9/tn2vathumbe806f06a-39b3-4bd2-b82a-7f2f69e7934d-1780991884157886790485-0-0-1440-2304-crop-1780992100364126218119.jpg\"></a> Khi chất lượng sống càng được đề cao, các gia đình đa thế hệ kỳ vọng nhiều hơn vào tổ",
+      "link": "https://thanhnien.vn/can-ho-resort-compound-nang-tam-trai-nghiem-song-da-the-he-185260609150413612.htm",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "147ce6e58143",
+      "source": "Thanh Niên KT",
+      "title": "Van Phuc City định vị lại bản đồ bất động sản sức khỏe",
+      "desc": "<a href=\"https://thanhnien.vn/van-phuc-city-dinh-vi-lai-ban-do-bat-dong-san-suc-khoe-185260609142645929.htm\"><img src=\"https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/6/9/1-17809896554021843057474-0-63-891-1489-crop-1780989882651993961819.png\"></a> Khi khói bụi, tiếng ồn và áp lực giao thông trở thành 'vấn nạn' của đô thị hiện đại, giới tinh hoa khao khát tìm kiếm một không gian ",
+      "link": "https://thanhnien.vn/van-phuc-city-dinh-vi-lai-ban-do-bat-dong-san-suc-khoe-185260609142645929.htm",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "be2c0528f40d",
+      "source": "Thanh Niên KT",
+      "title": "TP.HCM dồn nguồn lực làm nhà cho thuê",
+      "desc": "<a href=\"https://thanhnien.vn/tphcm-don-nguon-luc-lam-nha-cho-thue-185260609205244089.htm\"><img src=\"https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/6/9/a1-17810136039941087818633-86-0-1686-2560-crop-1781013614462640870579.jpg\"></a> Tại hội nghị triển khai, xúc tiến đầu tư và phát triển nhà ở cho thuê trên địa bàn TP.HCM do Sở Xây dựng TP.HCM phối hợp Hội Khoa học kỹ thuật xây dự",
+      "link": "https://thanhnien.vn/tphcm-don-nguon-luc-lam-nha-cho-thue-185260609205244089.htm",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "8b51c18fd9b5",
+      "source": "Thanh Niên KT",
+      "title": "TP.HCM sẽ siết chặt quản lý điện chiếu sáng quảng cáo và trang trí",
+      "desc": "<a href=\"https://thanhnien.vn/tphcm-se-siet-chat-quan-ly-dien-chieu-sang-quang-cao-va-trang-tri-185260609211354839.htm\"><img src=\"https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/6/9/dien-mat-troi-mai-nha-nhat-thinh-2-17790761856221256046574-45-0-1645-2560-crop-1781014372475780779077.jpg\"></a> UBND TP.HCM vừa ban hành Kế hoạch 239, triển khai thực hiện Chỉ thị số 10 của Thủ tướng ",
+      "link": "https://thanhnien.vn/tphcm-se-siet-chat-quan-ly-dien-chieu-sang-quang-cao-va-trang-tri-185260609211354839.htm",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "9a67e9c57fb8",
+      "source": "Thanh Niên KT",
+      "title": "Cổ đông Novaland, Vinhomes sắp được chia cổ tức",
+      "desc": "<a href=\"https://thanhnien.vn/co-dong-novaland-vinhomes-sap-duoc-chia-co-tuc-185260609175603256.htm\"><img src=\"https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/6/9/edit-hinh-1-ngan-hang-moi-ngoc-thang-16750091378201273779097-0-0-1250-2000-crop-17810025461602023926240.png\"></a> Nhiều doanh nghiệp bất động sản như Vinhomes, Novaland, Nam Long sẽ thực hiện chia cổ tức năm 2025 cho cổ",
+      "link": "https://thanhnien.vn/co-dong-novaland-vinhomes-sap-duoc-chia-co-tuc-185260609175603256.htm",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "2f8d2c16221a",
+      "source": "Thanh Niên KT",
+      "title": "TP.HCM sẽ xây dựng 50.000 căn nhà ở xã hội cho thuê từ 2026- 2030",
+      "desc": "<a href=\"https://thanhnien.vn/tphcm-se-xay-dung-50000-can-nha-o-xa-hoi-cho-thue-den-nam-2030-185260609170739713.htm\"><img src=\"https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/6/9/chu-tich-thanh-pho-1780999649871680282878-0-0-1250-2000-crop-17809996555621378280303.jpg\"></a> Đó là phát biểu của ông Nguyễn Văn Được, Chủ tịch UBND TP.HCM tại hội nghị triển khai, xúc tiến đầu tư và ph",
+      "link": "https://thanhnien.vn/tphcm-se-xay-dung-50000-can-nha-o-xa-hoi-cho-thue-den-nam-2030-185260609170739713.htm",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "df17d9be63a3",
+      "source": "Thanh Niên KT",
+      "title": "TP.HCM trở thành 'hạt nhân' tăng trưởng của vùng",
+      "desc": "<a href=\"https://thanhnien.vn/tphcm-tro-thanh-hat-nhan-tang-truong-cua-vung-185260609105117688.htm\"><img src=\"https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/6/9/1-1780976857819259511430-0-0-800-1280-crop-1780976948575574027094.jpg\"></a> Đây là nhận định của chuyên gia kinh tế TS Trần Du Lịch tại Diễn đàn Kinh tế Việt Nam 2026 lần thứ II với chủ đề \"Vùng kinh tế phía nam - động l",
+      "link": "https://thanhnien.vn/tphcm-tro-thanh-hat-nhan-tang-truong-cua-vung-185260609105117688.htm",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "5e26c254fc6f",
+      "source": "Thanh Niên KT",
+      "title": "Chuyên gia hiến kế làm nhà cho thuê",
+      "desc": "<a href=\"https://thanhnien.vn/chuyen-gia-hien-ke-lam-nha-cho-thue-185260609120410679.htm\"><img src=\"https://images2.thanhnien.vn/zoom/600_315/528068263637045248/2026/6/9/img-0066-17809815363701425008712-0-0-1250-2000-crop-17809815424611419491745.jpeg\"></a> Hiệp hội Bất động sản TP.HCM (HoREA) đã kiến nghị hàng chục giải giải pháp, cơ chế phát triển nhà ở cho thuê giá phù hợp với khả năng chi trả c",
+      "link": "https://thanhnien.vn/chuyen-gia-hien-ke-lam-nha-cho-thue-185260609120410679.htm",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "d5e3faba237b",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 11/6/2026: Tăng mạnh ở tất cả kỳ hạn gửi trực tuyến",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-11-6-2026-tang-manh-o-tat-ca-ky-han-gui-truc-tuyen-2524856.html\"><img alt=\"Lãi suất ngân hàng hôm nay 11/6/2026: Tăng mạnh ở tất cả kỳ hạn gửi trực tuyến\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/11/2026-tang-manh-o-tat-ca-ky-han-gui-truc-tuyen-532.jpg?width=0&s=Bwrbd7lVawS3gknAGuas4Q\" ></a></br>Lãi suất",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-11-6-2026-tang-manh-o-tat-ca-ky-han-gui-truc-tuyen-2524856.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "3b461afdd7a6",
+      "source": "VietnamNet KT",
+      "title": "Tại sao gửi tiền ngân hàng trả lãi suất cao vót 8%/năm dù kỳ hạn chỉ 1 tháng?",
+      "desc": "<a href=\"https://vietnamnet.vn/tai-sao-gui-tien-lai-suat-cao-chot-vot-8-nam-du-ky-han-chi-1-thang-2524495.html\"><img alt=\"Tại sao gửi tiền ngân hàng trả lãi suất cao vót 8%/năm dù kỳ hạn chỉ 1 tháng?\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/10/nam-du-ky-han-chi-1-thang-2946.jpg?width=0&s=P5S6ErmbqEKKrdw9AxQ-gg\" ></a></br>Tiền gửi kỳ hạn ngắn 1-3 tháng đang đượ",
+      "link": "https://vietnamnet.vn/tai-sao-gui-tien-lai-suat-cao-chot-vot-8-nam-du-ky-han-chi-1-thang-2524495.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "9b3fe6511a56",
+      "source": "VietnamNet KT",
+      "title": "Ngân hàng chuẩn bị đấu giá dự án khu nghỉ mát Malibu tại Đà Nẵng",
+      "desc": "<a href=\"https://vietnamnet.vn/ngan-hang-chuan-bi-dau-gia-du-an-khu-nghi-mat-malibu-tai-da-nang-2524307.html\"><img alt=\"Ngân hàng chuẩn bị đấu giá dự án khu nghỉ mát Malibu tại Đà Nẵng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/10/ngan-hang-chuan-bi-dau-gia-du-an-khu-nghi-mat-malibu-tai-da-nang-1524.jpg?width=0&s=qqx5aJpROdQJ8wMmLtb6Vg\" ></a></br>Dự án khu nghỉ ",
+      "link": "https://vietnamnet.vn/ngan-hang-chuan-bi-dau-gia-du-an-khu-nghi-mat-malibu-tai-da-nang-2524307.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "3e9de605db38",
+      "source": "VietnamNet KT",
+      "title": "Hộ kinh doanh lưu ý hạn thông báo tài khoản ngân hàng và khai thuế quý II",
+      "desc": "<a href=\"https://vietnamnet.vn/ho-kinh-doanh-luu-y-han-thong-bao-tai-khoan-ngan-hang-va-khai-thue-quy-ii-2524327.html\"><img alt=\"Hộ kinh doanh lưu ý hạn thông báo tài khoản ngân hàng và khai thuế quý II\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/10/ho-kinh-doanh-luu-y-han-thong-bao-tai-khoan-ngan-hang-va-khai-thue-quy-ii-1440.jpg?width=0&s=DmJAeVXIEl9siC2qzHyh8w",
+      "link": "https://vietnamnet.vn/ho-kinh-doanh-luu-y-han-thong-bao-tai-khoan-ngan-hang-va-khai-thue-quy-ii-2524327.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "370d2c8b8902",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 10/6/2026: Big4 đồng loạt niêm yết cao nhất 6,8%/năm",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-10-6-2026-big4-dong-loat-niem-yet-cao-nhat-6-8-nam-2524460.html\"><img alt=\"Lãi suất ngân hàng hôm nay 10/6/2026: Big4 đồng loạt niêm yết cao nhất 6,8%/năm\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/10/nam-413.jpg?width=0&s=206B0atCbjoheBrGkpFLrg\" ></a></br>Lãi suất ngân hàng hôm nay, 10/6/2026, lãi suất h",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-10-6-2026-big4-dong-loat-niem-yet-cao-nhat-6-8-nam-2524460.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "ae80b82bb6a8",
+      "source": "VietnamNet KT",
+      "title": "Đề xuất hỗ trợ lãi suất 2% cho doanh nghiệp thực hiện dự án xanh",
+      "desc": "<a href=\"https://vietnamnet.vn/de-xuat-ho-tro-lai-suat-2-cho-doanh-nghiep-thuc-hien-du-an-xanh-2524342.html\"><img alt=\"Đề xuất hỗ trợ lãi suất 2% cho doanh nghiệp thực hiện dự án xanh\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/9/de-xuat-ho-tro-lai-suat-2-cho-doanh-nghiep-thuc-hien-du-an-xanh-2757.jpg?width=0&s=V50TTmswEaAPUM3qQ9qFYw\" ></a></br>Ngân hàng Nhà nước",
+      "link": "https://vietnamnet.vn/de-xuat-ho-tro-lai-suat-2-cho-doanh-nghiep-thuc-hien-du-an-xanh-2524342.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "c28cc16ad871",
+      "source": "VietnamNet KT",
+      "title": "Chiến lược tái định vị ngân hàng - Từ xu hướng toàn cầu đến thị trường Việt Nam",
+      "desc": "<a href=\"https://vietnamnet.vn/chien-luoc-tai-dinh-vi-ngan-hang-tu-xu-huong-toan-cau-den-thi-truong-viet-nam-2524223.html\"><img alt=\"Chiến lược tái định vị ngân hàng - Từ xu hướng toàn cầu đến thị trường Việt Nam\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/9/chien-luoc-tai-dinh-vi-ngan-hang-tu-xu-huong-toan-cau-den-thi-truong-viet-nam-1421.jpg?width=0&s=ca8QdXhq0",
+      "link": "https://vietnamnet.vn/chien-luoc-tai-dinh-vi-ngan-hang-tu-xu-huong-toan-cau-den-thi-truong-viet-nam-2524223.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "67184aefde85",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 9/6/2026: Vừa tăng hôm qua, &apos;ông lớn&apos; bất ngờ quay xe",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-9-6-2026-vua-tang-hom-qua-ong-lon-bat-ngo-quay-xe-2523982.html\"><img alt=\"Lãi suất ngân hàng hôm nay 9/6/2026: Vừa tăng hôm qua, &apos;ông lớn&apos; bất ngờ quay xe\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/9/2026-vua-tang-hom-qua-ong-lon-bat-ngo-quay-xe-381.jpg?width=0&s=KYnQ7VtsBb2Vt3YSRfXVGg\" ></a></b",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-9-6-2026-vua-tang-hom-qua-ong-lon-bat-ngo-quay-xe-2523982.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "5c1963ba8228",
+      "source": "VietnamNet KT",
+      "title": "Thẻ tín dụng giữ trong ví, vẫn có thể bị rút sạch tiền",
+      "desc": "<a href=\"https://vietnamnet.vn/the-tin-dung-van-trong-vi-van-co-the-bi-rut-sach-tien-2523844.html\"><img alt=\"Thẻ tín dụng giữ trong ví, vẫn có thể bị rút sạch tiền\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/9/the-tin-dung-van-trong-vi-van-co-the-bi-rut-sach-tien-257.jpg?width=0&s=Aqr7kMpJ0aU6Nbzeex23Tg\" ></a></br>Nhiều người cho rằng chỉ khi bị mất thẻ tín dụng ",
+      "link": "https://vietnamnet.vn/the-tin-dung-van-trong-vi-van-co-the-bi-rut-sach-tien-2523844.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "21a53ccc8bec",
+      "source": "VietnamNet KT",
+      "title": "Hướng đi mới cho cà phê Việt",
+      "desc": "<a href=\"https://vietnamnet.vn/huong-di-moi-cho-ca-phe-viet-2524160.html\"><img alt=\"Hướng đi mới cho cà phê Việt\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/9/huong-di-moi-cho-ca-phe-viet-938.png?width=0&s=6k7Acb3RE1lKdI9gIGxBsg\" ></a></br>Trong bối cảnh ‘sản lượng tăng, kim ngạch giảm’ của ngành cà phê, những sáng kiến như thành lập Liên minh Cà phê Toàn cầu hay",
+      "link": "https://vietnamnet.vn/huong-di-moi-cho-ca-phe-viet-2524160.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "63ca082d0e48",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 8/6/2026: Một số ngân hàng tăng lãi suất",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-8-6-2026-ong-lon-2-lan-tang-lien-tiep-dan-dau-big4-2523667.html\"><img alt=\"Lãi suất ngân hàng hôm nay 8/6/2026: Một số ngân hàng tăng lãi suất\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/8/2026-ong-lon-2-lan-tang-lien-tiep-dan-dau-big4-560.jpg?width=0&s=6ih8OE0-MTrlYZhUmEKD1Q\" ></a></br>Lãi suất ngân hàng ",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-8-6-2026-ong-lon-2-lan-tang-lien-tiep-dan-dau-big4-2523667.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "752d14686b38",
+      "source": "VietnamNet KT",
+      "title": "EVN nói rõ về khoản tiền 152.000 tỷ đồng gửi ngân hàng",
+      "desc": "<a href=\"https://vietnamnet.vn/evn-noi-ro-ve-khoan-tien-152-000-ty-dong-dang-gui-ngan-hang-2523610.html\"><img alt=\"EVN nói rõ về khoản tiền 152.000 tỷ đồng gửi ngân hàng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/7/evn-noi-ro-ve-khoan-tien-152-1955.png?width=0&s=hylzs0JnHrmjHXlxdCuQ3w\" ></a></br>Tối ngày 7/6, Tập đoàn Điện lực Việt Nam (EVN) phát đi thông cáo về",
+      "link": "https://vietnamnet.vn/evn-noi-ro-ve-khoan-tien-152-000-ty-dong-dang-gui-ngan-hang-2523610.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "dda3b5abde6c",
+      "source": "VietnamNet KT",
+      "title": "Nhận cảnh báo rủi ro, khách hàng hủy giao dịch hơn 5.000 tỷ đồng",
+      "desc": "<a href=\"https://vietnamnet.vn/nhan-canh-bao-rui-ro-khach-hang-huy-giao-dich-hon-5-000-ty-dong-2523292.html\"><img alt=\"Nhận cảnh báo rủi ro, khách hàng hủy giao dịch hơn 5.000 tỷ đồng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/6/nhan-canh-bao-rui-ro-khach-hang-huy-giao-dich-hon-5-1412.jpg?width=0&s=FEtL9v3B2YHRsxZ9ov6W8g\" ></a></br>NHNN khẳng định sẽ tăng cường ",
+      "link": "https://vietnamnet.vn/nhan-canh-bao-rui-ro-khach-hang-huy-giao-dich-hon-5-000-ty-dong-2523292.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "7a0118ef127f",
+      "source": "VietnamNet KT",
+      "title": "Ngân hàng lại tặng ô tô tiền tỷ, xe máy điện: Có nơi trả lãi tới 9%/năm",
+      "desc": "<a href=\"https://vietnamnet.vn/ngan-hang-lai-tang-o-to-tien-ty-xe-may-dien-co-noi-tra-lai-toi-9-nam-2523205.html\"><img alt=\"Ngân hàng lại tặng ô tô tiền tỷ, xe máy điện: Có nơi trả lãi tới 9%/năm\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/6/nam-744.jpg?width=0&s=yzj7VXedbuvRteNwfthThw\" ></a></br>Sau thời gian trầm lắng, nhiều ngân hàng đồng loạt tung chương trìn",
+      "link": "https://vietnamnet.vn/ngan-hang-lai-tang-o-to-tien-ty-xe-may-dien-co-noi-tra-lai-toi-9-nam-2523205.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "825b48c14b09",
+      "source": "VietnamNet KT",
+      "title": "Từ ngân hàng đến bảo hiểm: Khi những banker chọn ‘rẽ hướng’",
+      "desc": "<a href=\"https://vietnamnet.vn/tu-ngan-hang-den-bao-hiem-khi-nhung-banker-chon-re-huong-2523056.html\"><img alt=\"Từ ngân hàng đến bảo hiểm: Khi những banker chọn ‘rẽ hướng’\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/5/tu-ngan-hang-den-bao-hiem-khi-nhung-banker-chon-re-huong-1438.png?width=0&s=pQlmSsuXGEfTKzFu-rjSPQ\" ></a></br>Họ từng có công việc ổn định, môi trư",
+      "link": "https://vietnamnet.vn/tu-ngan-hang-den-bao-hiem-khi-nhung-banker-chon-re-huong-2523056.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "e862443ab2fd",
+      "source": "VietnamNet KT",
+      "title": "Ngân hàng lựa chọn đơn vị bán đấu giá khoản nợ hơn 730 tỷ của chủ đầu tư một bệnh viện lớn",
+      "desc": "<a href=\"https://vietnamnet.vn/ngan-hang-rao-ban-khoan-no-hon-730-ty-cua-chu-dau-tu-mot-benh-vien-lon-2519294.html\"><img alt=\"Ngân hàng lựa chọn đơn vị bán đấu giá khoản nợ hơn 730 tỷ của chủ đầu tư một bệnh viện lớn\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/5/ngan-hang-rao-ban-khoan-no-hon-730-ty-cua-chu-dau-tu-mot-benh-vien-lon-1430.jpg?width=0&s=Bd-NAQ5U6bgu",
+      "link": "https://vietnamnet.vn/ngan-hang-rao-ban-khoan-no-hon-730-ty-cua-chu-dau-tu-mot-benh-vien-lon-2519294.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "4fcfd4e610b4",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 5/6/2026: Nhiều nơi trả trên 8%/năm dù niêm yết 7%",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-5-6-2026-nhieu-noi-tra-tren-8-nam-du-niem-yet-7-2522891.html\"><img alt=\"Lãi suất ngân hàng hôm nay 5/6/2026: Nhiều nơi trả trên 8%/năm dù niêm yết 7%\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/5/nam-du-niem-yet-7-530.jpg?width=0&s=lLqXbCq5gbPVc1N8l2X1aw\" ></a></br>Lãi suất ngân hàng hôm nay, 5/6/2026, lãi",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-5-6-2026-nhieu-noi-tra-tren-8-nam-du-niem-yet-7-2522891.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "e5a5dfe7629e",
+      "source": "VietnamNet KT",
+      "title": "‘Ngân hàng cho con’ VIB: Đồng hành cùng trẻ trong hành trình tài chính đầu đời",
+      "desc": "<a href=\"https://vietnamnet.vn/ngan-hang-cho-con-vib-dong-hanh-cung-tre-trong-hanh-trinh-tai-chinh-dau-doi-2522799.html\"><img alt=\"‘Ngân hàng cho con’ VIB: Đồng hành cùng trẻ trong hành trình tài chính đầu đời\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/4/ngan-hang-cho-con-vib-dong-hanh-cung-tre-trong-hanh-trinh-tai-chinh-dau-doi-2270.jpg?width=0&s=HDVrKBecJ25Ggi",
+      "link": "https://vietnamnet.vn/ngan-hang-cho-con-vib-dong-hanh-cung-tre-trong-hanh-trinh-tai-chinh-dau-doi-2522799.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "54f2608b98a6",
+      "source": "VietnamNet KT",
+      "title": "Tập đoàn BRG ghi dấu ấn tại giải thưởng Quốc gia Bất động sản Việt Nam",
+      "desc": "<a href=\"https://vietnamnet.vn/tap-doan-brg-ghi-dau-an-tai-giai-thuong-quoc-gia-bat-dong-san-viet-nam-2522662.html\"><img alt=\"Tập đoàn BRG ghi dấu ấn tại giải thưởng Quốc gia Bất động sản Việt Nam\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/4/tap-doan-brg-ghi-dau-an-tai-giai-thuong-quoc-gia-bat-dong-san-viet-nam-1137.jpg?width=0&s=-iFWccIboNbNl_tgVXkmrQ\" ></a></b",
+      "link": "https://vietnamnet.vn/tap-doan-brg-ghi-dau-an-tai-giai-thuong-quoc-gia-bat-dong-san-viet-nam-2522662.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "4d59c84c0e44",
+      "source": "VietnamNet KT",
+      "title": "Tập đoàn Việt từng sở hữu ngân hàng, bị thu hồi 2 dự án đất vàng liên tiếp, giờ ra sao?",
+      "desc": "<a href=\"https://vietnamnet.vn/lien-tiep-mat-2-du-an-dat-vang-ocean-group-gio-ra-sao-sau-bien-co-ha-van-tham-2522529.html\"><img alt=\"Tập đoàn Việt từng sở hữu ngân hàng, bị thu hồi 2 dự án đất vàng liên tiếp, giờ ra sao?\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/4/du-an-25-tran-khanh-du-1-535.jpg?width=0&s=W1NsTWjzX5Iqf4oxm7TURg\" ></a></br>Liên tiếp bị thu hồi ",
+      "link": "https://vietnamnet.vn/lien-tiep-mat-2-du-an-dat-vang-ocean-group-gio-ra-sao-sau-bien-co-ha-van-tham-2522529.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "7b220024e4c0",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 4/6/2026: Bất ngờ tăng, chạm mức tối đa 4,75%/năm",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-4-6-2026-bat-ngo-tang-cham-muc-toi-da-4-75-nam-2522516.html\"><img alt=\"Lãi suất ngân hàng hôm nay 4/6/2026: Bất ngờ tăng, chạm mức tối đa 4,75%/năm\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/4/nam-265.jpg?width=0&s=tUtwFGzcXaTi8Pc7lNExRA\" ></a></br>Lãi suất ngân hàng hôm nay, 4/6/2026, ghi nhận mức tăng ở",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-4-6-2026-bat-ngo-tang-cham-muc-toi-da-4-75-nam-2522516.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "f4acb0d954e9",
+      "source": "VietnamNet KT",
+      "title": "7 ngân hàng sở hữu tài sản trên 1 triệu tỷ đồng, 2 nhà băng &apos;bám đuổi&apos; áp sát",
+      "desc": "<a href=\"https://vietnamnet.vn/7-ngan-hang-so-huu-tai-san-tren-1-trieu-ty-dong-2-nha-bang-ap-sat-trieu-ty-2522271.html\"><img alt=\"7 ngân hàng sở hữu tài sản trên 1 triệu tỷ đồng, 2 nhà băng &apos;bám đuổi&apos; áp sát\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/3/7-ngan-hang-so-huu-tai-san-tren-1-trieu-ty-dong-2-nha-bang-ap-sat-trieu-ty-2859.jpg?width=0&s=CrG6jms",
+      "link": "https://vietnamnet.vn/7-ngan-hang-so-huu-tai-san-tren-1-trieu-ty-dong-2-nha-bang-ap-sat-trieu-ty-2522271.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "d316105e3468",
+      "source": "VietnamNet KT",
+      "title": "Vietjet tiếp tục mở rộng mạng bay ASEAN với đường bay thẳng TP.HCM - Cebu",
+      "desc": "<a href=\"https://vietnamnet.vn/vietjet-tiep-tuc-mo-rong-mang-bay-asean-voi-duong-bay-thang-tp-hcm-cebu-2522350.html\"><img alt=\"Vietjet tiếp tục mở rộng mạng bay ASEAN với đường bay thẳng TP.HCM - Cebu\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/3/vietjet-tiep-tuc-mo-rong-mang-bay-asean-voi-duong-bay-thang-tp-1844.jpg?width=0&s=Yta0ASHXwbkiQEmxl2I8Og\" ></a></br>Vi",
+      "link": "https://vietnamnet.vn/vietjet-tiep-tuc-mo-rong-mang-bay-asean-voi-duong-bay-thang-tp-hcm-cebu-2522350.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "b0ff0dd9c001",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 3/6/2026: Giảm với cả khách hàng ưu tiên",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-3-6-2026-giam-voi-ca-khach-hang-uu-tien-2522142.html\"><img alt=\"Lãi suất ngân hàng hôm nay 3/6/2026: Giảm với cả khách hàng ưu tiên\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/3/2026-giam-voi-ca-khach-hang-uu-tien-458.jpg?width=0&s=RVDlEMnR3DE4APX3WDxSAw\" ></a></br>Lãi suất ngân hàng hôm nay, 3/6/2026, LPB",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-3-6-2026-giam-voi-ca-khach-hang-uu-tien-2522142.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "58a8efeea7f3",
+      "source": "VietnamNet KT",
+      "title": "Nhiệt điện Bà Rịa đảm bảo vận hành, sẵn sàng cung ứng điện mùa cao điểm",
+      "desc": "<a href=\"https://vietnamnet.vn/nhiet-dien-ba-ria-dam-bao-van-hanh-san-sang-cung-ung-dien-mua-cao-diem-2522139.html\"><img alt=\"Nhiệt điện Bà Rịa đảm bảo vận hành, sẵn sàng cung ứng điện mùa cao điểm\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/3/nhiet-dien-ba-ria-dam-bao-van-hanh-san-sang-cung-ung-dien-mua-cao-diem-287.jpg?width=0&s=O4JusEGzDF5NNrsB2F8YPw\" ></a></b",
+      "link": "https://vietnamnet.vn/nhiet-dien-ba-ria-dam-bao-van-hanh-san-sang-cung-ung-dien-mua-cao-diem-2522139.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "78c4f0cc74ff",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 2/6/2026: Gửi tiền Big4 vẫn nhận lãi suất 7,4%/năm",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-2-6-2026-gui-tien-big4-van-nhan-lai-suat-7-4-nam-2521760.html\"><img alt=\"Lãi suất ngân hàng hôm nay 2/6/2026: Gửi tiền Big4 vẫn nhận lãi suất 7,4%/năm\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/2/nam-482.jpg?width=0&s=Gxg4AMk3RxsmNsoacQmJog\" ></a></br>Lãi suất ngân hàng hôm nay, 2/6/2026 ghi nhận lãi suất",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-2-6-2026-gui-tien-big4-van-nhan-lai-suat-7-4-nam-2521760.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "82f7fcb52755",
+      "source": "VietnamNet KT",
+      "title": "CEO Techcombank: Tái định nghĩa lợi thế cạnh tranh nhờ chiến lược ‘AI-first’",
+      "desc": "<a href=\"https://vietnamnet.vn/ceo-techcombank-tai-dinh-nghia-loi-the-canh-tranh-nho-chien-luoc-ai-first-2521621.html\"><img alt=\"CEO Techcombank: Tái định nghĩa lợi thế cạnh tranh nhờ chiến lược ‘AI-first’\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/1/ceo-techcombank-tai-dinh-nghia-loi-the-canh-tranh-nho-chien-luoc-ai-first-2740.jpg?width=0&s=Nb09es67ALlCzTRB5oJL",
+      "link": "https://vietnamnet.vn/ceo-techcombank-tai-dinh-nghia-loi-the-canh-tranh-nho-chien-luoc-ai-first-2521621.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "c7509669b231",
+      "source": "VietnamNet KT",
+      "title": "Vì sao nhân sự bất động sản, ngân hàng lâu năm… chuyển sang tư vấn bảo hiểm?",
+      "desc": "<a href=\"https://vietnamnet.vn/vi-sao-nhan-su-bat-dong-san-ngan-hang-lau-nam-chuyen-sang-tu-van-bao-hiem-2521409.html\"><img alt=\"Vì sao nhân sự bất động sản, ngân hàng lâu năm… chuyển sang tư vấn bảo hiểm?\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/1/vi-sao-nhan-su-bat-dong-san-ngan-hang-lau-nam-chuyen-sang-tu-van-bao-hiem-438.jpeg?width=0&s=0s2hfQSso90NXM9XJmmh",
+      "link": "https://vietnamnet.vn/vi-sao-nhan-su-bat-dong-san-ngan-hang-lau-nam-chuyen-sang-tu-van-bao-hiem-2521409.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "5965753310a9",
+      "source": "VietnamNet KT",
+      "title": "MSB chuyển địa điểm hoạt động phòng giao dịch Óc Eo",
+      "desc": "<a href=\"https://vietnamnet.vn/msb-chuyen-dia-diem-hoat-dong-phong-giao-dich-oc-eo-2521420.html\"><img alt=\"MSB chuyển địa điểm hoạt động phòng giao dịch Óc Eo\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/1/msb-chuyen-dia-diem-hoat-dong-phong-giao-dich-oc-eo-565.jpg?width=0&s=7Xxlh3LY4HGjJF-yRVjZog\" ></a></br>Ngân hàng TMCP Hàng Hải Việt Nam (MSB) thông báo chuyển ",
+      "link": "https://vietnamnet.vn/msb-chuyen-dia-diem-hoat-dong-phong-giao-dich-oc-eo-2521420.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "3bd25bc1bae0",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 1/6/2026: &apos;Ông lớn&apos; Big4 tăng mạnh lãi suất huy động từ 6 tháng",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-1-6-2026-ong-lon-big4-tang-manh-o-nhieu-ky-han-2521386.html\"><img alt=\"Lãi suất ngân hàng hôm nay 1/6/2026: &apos;Ông lớn&apos; Big4 tăng mạnh lãi suất huy động từ 6 tháng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/6/1/2026-ong-lon-big4-tang-manh-o-nhieu-ky-han-406.jpg?width=0&s=zEEZxdPV-GYgIwCI3pIgVA\" ></a",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-1-6-2026-ong-lon-big4-tang-manh-o-nhieu-ky-han-2521386.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "e3424e75c03e",
+      "source": "VietnamNet KT",
+      "title": "Sự thật việc nợ thuế 15.000 đồng bị tạm hoãn xuất cảnh; dùng vàng giao dịch nhà đất",
+      "desc": "<a href=\"https://vietnamnet.vn/su-that-viec-no-thue-15-000-dong-bi-hoan-xuat-canh-dung-vang-giao-dich-nha-dat-2521173.html\"><img alt=\"Sự thật việc nợ thuế 15.000 đồng bị tạm hoãn xuất cảnh; dùng vàng giao dịch nhà đất\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/31/su-that-viec-no-thue-15-906.jpg?width=0&s=b1f9UvIB8koFEWA0HeI3_w\" ></a></br>Tiền gửi dân cư lập kỷ l",
+      "link": "https://vietnamnet.vn/su-that-viec-no-thue-15-000-dong-bi-hoan-xuat-canh-dung-vang-giao-dich-nha-dat-2521173.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "19fe128ce684",
+      "source": "VietnamNet KT",
+      "title": "Ngân hàng Nhà nước đề xuất loạt thay đổi lớn với thị trường vàng",
+      "desc": "<a href=\"https://vietnamnet.vn/ngan-hang-nha-nuoc-de-xuat-loat-thay-doi-lon-voi-thi-truong-vang-2520901.html\"><img alt=\"Ngân hàng Nhà nước đề xuất loạt thay đổi lớn với thị trường vàng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/31/ngan-hang-nha-nuoc-de-xuat-loat-thay-doi-lon-voi-thi-truong-vang-696.jpg?width=0&s=pyejFvMLeSiR9ecZwQyFRg\" ></a></br>Theo dự thảo sửa",
+      "link": "https://vietnamnet.vn/ngan-hang-nha-nuoc-de-xuat-loat-thay-doi-lon-voi-thi-truong-vang-2520901.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "0f73538b3f4f",
+      "source": "VietnamNet KT",
+      "title": "Giá xăng dầu hôm nay 31/5: Dầu thế giới lao dốc, ngày mai bán đại trà xăng E10",
+      "desc": "<a href=\"https://vietnamnet.vn/gia-xang-dau-hom-nay-31-5-dau-the-gioi-lao-doc-ngay-mai-ban-dai-tra-xang-e10-2521162.html\"><img alt=\"Giá xăng dầu hôm nay 31/5: Dầu thế giới lao dốc, ngày mai bán đại trà xăng E10\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/31/5-dau-the-gioi-lao-doc-ngay-mai-ban-dai-tra-xang-e10-689.jpg?width=0&s=Cmw75TCVIbHdqsU4RksR3w\" ></a></br>Gi",
+      "link": "https://vietnamnet.vn/gia-xang-dau-hom-nay-31-5-dau-the-gioi-lao-doc-ngay-mai-ban-dai-tra-xang-e10-2521162.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "d930893bd70d",
+      "source": "VietnamNet KT",
+      "title": "NHNN ưu tiên việc đổ vốn cho nhà ở xã hội, 25 ngân hàng có cơ hội rót tiền",
+      "desc": "<a href=\"https://vietnamnet.vn/nhnn-uu-tien-von-cho-nha-o-xa-hoi-25-ngan-hang-co-them-du-dia-cho-vay-2521043.html\"><img alt=\"NHNN ưu tiên việc đổ vốn cho nhà ở xã hội, 25 ngân hàng có cơ hội rót tiền\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/30/chi-tiet-25-ngan-hang-duoc-noi-room-cho-vay-bat-dong-san-2175.jpeg?width=0&s=Y9-1rGjoBYQ4Vj5TGqa3wg\" ></a></br>Ngân hà",
+      "link": "https://vietnamnet.vn/nhnn-uu-tien-von-cho-nha-o-xa-hoi-25-ngan-hang-co-them-du-dia-cho-vay-2521043.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "f21d60f76c9f",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 30/5/2026: Đà giảm bất ngờ chững lại trong tháng 5",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-30-5-2026-da-giam-bat-ngo-chung-lai-trong-thang-5-2520726.html\"><img alt=\"Lãi suất ngân hàng hôm nay 30/5/2026: Đà giảm bất ngờ chững lại trong tháng 5\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/30/2026-da-giam-bat-ngo-chung-lai-trong-thang-5-332.jpg?width=0&s=xvNY6zwhPIK4al30cRGZPQ\" ></a></br>Lãi suất ng",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-30-5-2026-da-giam-bat-ngo-chung-lai-trong-thang-5-2520726.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "306fe57298dc",
+      "source": "VietnamNet KT",
+      "title": "NHNN lên tiếng về chương trình dùng vàng để giao dịch bất động sản",
+      "desc": "<a href=\"https://vietnamnet.vn/nhnn-len-tieng-ve-chuong-trinh-dung-vang-de-giao-dich-bat-dong-san-2520808.html\"><img alt=\"NHNN lên tiếng về chương trình dùng vàng để giao dịch bất động sản\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/29/nhnn-len-tieng-ve-chuong-trinh-dung-vang-de-giao-dich-bat-dong-san-2920.jpg?width=0&s=xU10Ol5KtbxUpnwQ9zASkg\" ></a></br>Liên quan",
+      "link": "https://vietnamnet.vn/nhnn-len-tieng-ve-chuong-trinh-dung-vang-de-giao-dich-bat-dong-san-2520808.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "24087627595a",
+      "source": "VietnamNet KT",
+      "title": "MB ghi dấu ấn với 5 giải thưởng Sao Khuê 2026",
+      "desc": "<a href=\"https://vietnamnet.vn/mb-ghi-dau-an-voi-5-giai-thuong-sao-khue-2026-2520637.html\"><img alt=\"MB ghi dấu ấn với 5 giải thưởng Sao Khuê 2026\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/29/mb-ghi-dau-an-voi-5-giai-thuong-sao-khue-2026-1620.jpg?width=0&s=4UScUKCv7ZfO8rlFAwnT5Q\" ></a></br>Ngân hàng TMCP Quân đội (MB) tiếp tục khẳng định dấu ấn trong hành trình",
+      "link": "https://vietnamnet.vn/mb-ghi-dau-an-voi-5-giai-thuong-sao-khue-2026-2520637.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "ef5c7bb0c46e",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 29/5/2026: Mức 7%/năm tái xuất đi kèm nhiều điều kiện",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-29-5-2026-muc-7-nam-tai-xuat-di-kem-nhieu-dieu-kien-2520516.html\"><img alt=\"Lãi suất ngân hàng hôm nay 29/5/2026: Mức 7%/năm tái xuất đi kèm nhiều điều kiện\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/29/nam-tai-xuat-di-kem-nhieu-dieu-kien-345.jpg?width=0&s=fmgFUwfvKj_uVlX3nlfbKQ\" ></a></br>Lãi suất ngân h",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-29-5-2026-muc-7-nam-tai-xuat-di-kem-nhieu-dieu-kien-2520516.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "52873910cade",
+      "source": "VietnamNet KT",
+      "title": "Ngân hàng đấu giá khoản nợ 136 tỷ đồng, thế chấp cả nhà máy thủy điện",
+      "desc": "<a href=\"https://vietnamnet.vn/ngan-hang-dau-gia-khoan-no-136-ty-dong-the-chap-ca-nha-may-thuy-dien-2519930.html\"><img alt=\"Ngân hàng đấu giá khoản nợ 136 tỷ đồng, thế chấp cả nhà máy thủy điện\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/29/ngan-hang-dau-gia-khoan-no-136-ty-dong-the-chap-ca-nha-may-thuy-dien-223.jpg?width=0&s=L94jY81VcBuwnj8ra4savA\" ></a></br>Vie",
+      "link": "https://vietnamnet.vn/ngan-hang-dau-gia-khoan-no-136-ty-dong-the-chap-ca-nha-may-thuy-dien-2519930.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "e1d83c0f596d",
+      "source": "VietnamNet KT",
+      "title": "Vietnam Airlines công bố đường bay thẳng TP.HCM - Phuket",
+      "desc": "<a href=\"https://vietnamnet.vn/vietnam-airlines-cong-bo-duong-bay-thang-tp-hcm-phuket-2520408.html\"><img alt=\"Vietnam Airlines công bố đường bay thẳng TP.HCM - Phuket\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/28/vietnam-airlines-cong-bo-duong-bay-thang-tp-3742.jpg?width=0&s=9ctoA1o4cyDZt5s66Dav6Q\" ></a></br>Vietnam Airlines vừa công bố khai trương đường bay thẳ",
+      "link": "https://vietnamnet.vn/vietnam-airlines-cong-bo-duong-bay-thang-tp-hcm-phuket-2520408.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "67faba8dc668",
+      "source": "VietnamNet KT",
+      "title": "Kết luận thanh tra của Ngân hàng Nhà nước đối với Vikki bank",
+      "desc": "<a href=\"https://vietnamnet.vn/thanh-tra-nhnn-vikki-bank-chiu-tac-dong-nang-ne-tu-dai-an-donga-bank-2520234.html\"><img alt=\"Kết luận thanh tra của Ngân hàng Nhà nước đối với Vikki bank\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/28/thanh-tra-nhnn-vikki-bank-chiu-tac-dong-nang-ne-tu-dai-an-donga-bank-2917.jpg?width=0&s=hSj4BekBsuZXqCUKB8zWwg\" ></a></br>Tác động từ",
+      "link": "https://vietnamnet.vn/thanh-tra-nhnn-vikki-bank-chiu-tac-dong-nang-ne-tu-dai-an-donga-bank-2520234.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "74f882ff6048",
+      "source": "VietnamNet KT",
+      "title": "Quy hoạch ven sông Hồng tái định hình bản đồ giá trị bất động sản Hà Nội",
+      "desc": "<a href=\"https://vietnamnet.vn/quy-hoach-ven-song-hong-tai-dinh-hinh-ban-do-gia-tri-bat-dong-san-ha-noi-2520303.html\"><img alt=\"Quy hoạch ven sông Hồng tái định hình bản đồ giá trị bất động sản Hà Nội\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/28/quy-hoach-ven-song-hong-tai-dinh-hinh-ban-do-gia-tri-bat-dong-san-ha-noi-2860.jpg?width=0&s=Yxn15KwpZKFmu_1SKN2JMg\" >",
+      "link": "https://vietnamnet.vn/quy-hoach-ven-song-hong-tai-dinh-hinh-ban-do-gia-tri-bat-dong-san-ha-noi-2520303.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "07f199e1fae9",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 28/5/2026: Hai nhà băng nhập cuộc giảm lãi suất",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-28-5-2026-hai-nha-bang-nhap-cuoc-giam-lai-suat-2520067.html\"><img alt=\"Lãi suất ngân hàng hôm nay 28/5/2026: Hai nhà băng nhập cuộc giảm lãi suất\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/28/2026-hai-nha-bang-nhap-cuoc-giam-lai-suat-1437.jpg?width=0&s=p2VcdQLp878AmDRBnZYt6g\" ></a></br>Lãi suất ngân hàng ",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-28-5-2026-hai-nha-bang-nhap-cuoc-giam-lai-suat-2520067.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "d9387d914a81",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 27/5/2026: Đà giảm tiếp diễn ở kỳ hạn ngắn",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-27-5-2026-da-giam-tiep-dien-o-ky-han-ngan-2519729.html\"><img alt=\"Lãi suất ngân hàng hôm nay 27/5/2026: Đà giảm tiếp diễn ở kỳ hạn ngắn\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/27/2026-da-giam-tiep-dien-o-ky-han-ngan-628.jpg?width=0&s=XXy5uQaqWAT1dffSj2IX5A\" ></a></br>Lãi suất ngân hàng hôm nay, 27/5/20",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-27-5-2026-da-giam-tiep-dien-o-ky-han-ngan-2519729.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "e6b814bce194",
+      "source": "VietnamNet KT",
+      "title": "Lộ diện 35 nơi làm việc xuất sắc hàng đầu Việt Nam 2026",
+      "desc": "<a href=\"https://vietnamnet.vn/lo-dien-35-noi-lam-viec-xuat-sac-hang-dau-viet-nam-2026-2519679.html\"><img alt=\"Lộ diện 35 nơi làm việc xuất sắc hàng đầu Việt Nam 2026\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/26/lo-dien-35-noi-lam-viec-xuat-sac-hang-dau-viet-nam-2026-3342.jpg?width=0&s=TZk_bpP102QOycjTyLaYFw\" ></a></br>Ngày 26/5, tại TP.HCM, Great Place To Work",
+      "link": "https://vietnamnet.vn/lo-dien-35-noi-lam-viec-xuat-sac-hang-dau-viet-nam-2026-2519679.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "03a46c501f86",
+      "source": "VietnamNet KT",
+      "title": "Bị ngân hàng thu giữ nhà, làm gì để chứng minh &apos;chỗ ở duy nhất’ để nhận hỗ trợ?",
+      "desc": "<a href=\"https://vietnamnet.vn/bi-ngan-hang-thu-giu-nha-lam-sao-chung-minh-la-cho-o-duy-nhat-de-nhan-ho-tro-2519099.html\"><img alt=\"Bị ngân hàng thu giữ nhà, làm gì để chứng minh &apos;chỗ ở duy nhất’ để nhận hỗ trợ?\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/26/bi-ngan-hang-thu-giu-nha-lam-sao-chung-minh-la-cho-o-duy-nhat-de-nhan-ho-tro-3347.jpg?width=0&s=NRSnE",
+      "link": "https://vietnamnet.vn/bi-ngan-hang-thu-giu-nha-lam-sao-chung-minh-la-cho-o-duy-nhat-de-nhan-ho-tro-2519099.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "2bc10d68dc17",
+      "source": "VietnamNet KT",
+      "title": "Cảnh báo lừa đảo hơn 4.500 tỷ đồng, hệ thống của NHNN mới có 12 ngân hàng tham gia",
+      "desc": "<a href=\"https://vietnamnet.vn/canh-bao-lua-dao-hon-4-500-ty-dong-he-thong-simo-moi-co-12-ngan-hang-tham-gia-2519576.html\"><img alt=\"Cảnh báo lừa đảo hơn 4.500 tỷ đồng, hệ thống của NHNN mới có 12 ngân hàng tham gia\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/26/canh-bao-lua-dao-hon-4-3067.jpg?width=0&s=o20jnpY6qpeLwj_WXp8JRQ\" ></a></br>Hệ thống SIMO đã cảnh báo ",
+      "link": "https://vietnamnet.vn/canh-bao-lua-dao-hon-4-500-ty-dong-he-thong-simo-moi-co-12-ngan-hang-tham-gia-2519576.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "3a55eea72b92",
+      "source": "VietnamNet KT",
+      "title": "Lợi thế cạnh tranh của ngành ngân hàng trong kỷ nguyên AI và dữ liệu",
+      "desc": "<a href=\"https://vietnamnet.vn/loi-the-canh-tranh-cua-nganh-ngan-hang-trong-ky-nguyen-ai-va-du-lieu-2519547.html\"><img alt=\"Lợi thế cạnh tranh của ngành ngân hàng trong kỷ nguyên AI và dữ liệu\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/26/loi-the-canh-tranh-cua-nganh-ngan-hang-trong-ky-nguyen-ai-va-du-lieu-2143.jpg?width=0&s=AxHWi2S89cAfH4TX8mM2VQ\" ></a></br>Tại",
+      "link": "https://vietnamnet.vn/loi-the-canh-tranh-cua-nganh-ngan-hang-trong-ky-nguyen-ai-va-du-lieu-2519547.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "ce56e203b307",
+      "source": "VietnamNet KT",
+      "title": "Agribank ký hợp đồng tín dụng hạn mức tài chính khí hậu với AFD",
+      "desc": "<a href=\"https://vietnamnet.vn/agribank-ky-hop-dong-tin-dung-han-muc-tai-chinh-khi-hau-voi-afd-2519396.html\"><img alt=\"Agribank ký hợp đồng tín dụng hạn mức tài chính khí hậu với AFD\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/26/agribank-ky-hop-dong-tin-dung-han-muc-tai-chinh-khi-hau-voi-afd-971.jpeg?width=0&s=k1TsFK02D58A6OpHgHX4eA\" ></a></br>Ngày 25/5 tại Hà N",
+      "link": "https://vietnamnet.vn/agribank-ky-hop-dong-tin-dung-han-muc-tai-chinh-khi-hau-voi-afd-2519396.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "79dd2b7c9571",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 26/5/2026: Ông lớn hạ lãi suất, mức 7,2%/năm biến mất",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-26-5-2026-ong-lon-ha-lai-suat-muc-7-2-nam-bien-mat-2519321.html\"><img alt=\"Lãi suất ngân hàng hôm nay 26/5/2026: Ông lớn hạ lãi suất, mức 7,2%/năm biến mất\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/26/nam-bien-mat-401.jpg?width=0&s=OxYKHXid1E8GygitZnyglg\" ></a></br>Lãi suất ngân hàng hôm nay, 26/5/2026, ",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-26-5-2026-ong-lon-ha-lai-suat-muc-7-2-nam-bien-mat-2519321.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "4dfb09065adf",
+      "source": "VietnamNet KT",
+      "title": "Ngân hàng bán đấu giá xe chở tiền, giá khởi điểm từ 61 triệu đồng",
+      "desc": "<a href=\"https://vietnamnet.vn/ngan-hang-ban-dau-gia-xe-cho-tien-gia-khoi-diem-tu-61-trieu-dong-2519186.html\"><img alt=\"Ngân hàng bán đấu giá xe chở tiền, giá khởi điểm từ 61 triệu đồng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/25/ngan-hang-ban-dau-gia-xe-cho-tien-gia-khoi-diem-tu-61-trieu-dong-3112.jpg?width=0&s=y0GBrZY-UpxDlYgiw8OXRQ\" ></a></br>VietinBank Tây",
+      "link": "https://vietnamnet.vn/ngan-hang-ban-dau-gia-xe-cho-tien-gia-khoi-diem-tu-61-trieu-dong-2519186.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "66cd2742112c",
+      "source": "VietnamNet KT",
+      "title": "Tiền gửi dân cư lập kỷ lục mới, vượt 10,38 triệu tỷ đồng",
+      "desc": "<a href=\"https://vietnamnet.vn/tien-gui-dan-cu-lap-ky-luc-moi-vuot-10-38-trieu-ty-dong-2519119.html\"><img alt=\"Tiền gửi dân cư lập kỷ lục mới, vượt 10,38 triệu tỷ đồng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/25/tien-gui-dan-cu-lap-ky-luc-moi-vuot-1038-trieu-ty-dong-2798.jpg?width=0&s=Pu5EPeCmpF6nm4rey6PJ0A\" ></a></br>Tiền gửi của người dân vẫn đều đặn chảy và",
+      "link": "https://vietnamnet.vn/tien-gui-dan-cu-lap-ky-luc-moi-vuot-10-38-trieu-ty-dong-2519119.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "bc1195a99911",
+      "source": "VietnamNet KT",
+      "title": "Bỏ đề xuất ngân hàng cung cấp thông tin tài khoản thanh toán của người nộp thuế",
+      "desc": "<a href=\"https://vietnamnet.vn/bo-de-xuat-ngan-hang-cung-cap-thong-tin-tai-khoan-thanh-toan-cua-nguoi-nop-thue-2519149.html\"><img alt=\"Bỏ đề xuất ngân hàng cung cấp thông tin tài khoản thanh toán của người nộp thuế\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/25/bo-de-xuat-ngan-hang-cung-cap-thong-tin-tai-khoan-thanh-toan-cua-nguoi-nop-thue-1918.jpeg?width=0&s=Jc0",
+      "link": "https://vietnamnet.vn/bo-de-xuat-ngan-hang-cung-cap-thong-tin-tai-khoan-thanh-toan-cua-nguoi-nop-thue-2519149.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "642e47158a64",
+      "source": "VietnamNet KT",
+      "title": "Mở tài khoản Hộ kinh doanh online trên VietinBank iPay Mobile",
+      "desc": "<a href=\"https://vietnamnet.vn/mo-tai-khoan-ho-kinh-doanh-online-tren-vietinbank-ipay-mobile-2519098.html\"><img alt=\"Mở tài khoản Hộ kinh doanh online trên VietinBank iPay Mobile\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/25/mo-tai-khoan-ho-kinh-doanh-online-tren-vietinbank-ipay-mobile-1568.jpg?width=0&s=vvhtDTadSk_SHNj_hTRY5g\" ></a></br>Từ ngày 22/4/2026, Vieti",
+      "link": "https://vietnamnet.vn/mo-tai-khoan-ho-kinh-doanh-online-tren-vietinbank-ipay-mobile-2519098.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "e15952aa504f",
+      "source": "VietnamNet KT",
+      "title": "ACB Leadership Summit 2026: ‘Không bám cứng vào một kế hoạch cố định’",
+      "desc": "<a href=\"https://vietnamnet.vn/acb-leadership-summit-2026-khong-bam-cung-vao-mot-ke-hoach-co-dinh-2519029.html\"><img alt=\"ACB Leadership Summit 2026: ‘Không bám cứng vào một kế hoạch cố định’\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/25/acb-leadership-summit-2026-khong-bam-cung-vao-mot-ke-hoach-co-dinh-1028.jpeg?width=0&s=PxyC-3pZFBUcNGm0u6q0Vw\" ></a></br>Tại A",
+      "link": "https://vietnamnet.vn/acb-leadership-summit-2026-khong-bam-cung-vao-mot-ke-hoach-co-dinh-2519029.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "47cd22e7f10b",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 25/5/2026 tăng mạnh, có kỳ hạn lên tới 6,9%/năm",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-25-5-2026-tang-manh-co-ky-han-len-toi-6-9-nam-2518961.html\"><img alt=\"Lãi suất ngân hàng hôm nay 25/5/2026 tăng mạnh, có kỳ hạn lên tới 6,9%/năm\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/25/nam-804.jpg?width=0&s=k-obTeyhFhgKAGp-v7bR-w\" ></a></br>Lãi suất ngân hàng hôm nay 25/5/2026, một ngân hàng bất ngờ",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-25-5-2026-tang-manh-co-ky-han-len-toi-6-9-nam-2518961.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "01de26df5c47",
+      "source": "VietnamNet KT",
+      "title": "Vinhomes triển khai chương trình chuyển đổi vàng để mua bất động sản",
+      "desc": "<a href=\"https://vietnamnet.vn/vinhomes-trien-khai-chuong-trinh-chuyen-doi-vang-de-mua-bat-dong-san-2518947.html\"><img alt=\"Vinhomes triển khai chương trình chuyển đổi vàng để mua bất động sản\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/25/a1hfsghshsh-24.jpg?width=0&s=0Dxc6uEsEmP16LLR85AXUQ\" ></a></br>Vinhomes thông báo triển khai chương trình hỗ trợ khách hàng c",
+      "link": "https://vietnamnet.vn/vinhomes-trien-khai-chuong-trinh-chuyen-doi-vang-de-mua-bat-dong-san-2518947.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "1626360a00cb",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất cho vay đang diễn biến ra sao?",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-cho-vay-bat-ngo-nhich-len-tai-nhieu-ngan-hang-2518547.html\"><img alt=\"Lãi suất cho vay đang diễn biến ra sao?\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/24/lai-suat-cho-vay-da-nhich-len-tai-nhieu-ngan-hang-2192.jpg?width=0&s=DVXP-UBnarblUa4e1seTWw\" ></a></br>Lãi suất cho vay bình quân tại nhiều ngân hàng đã nhích lên trong",
+      "link": "https://vietnamnet.vn/lai-suat-cho-vay-bat-ngo-nhich-len-tai-nhieu-ngan-hang-2518547.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "430b860fe0c4",
+      "source": "VietnamNet KT",
+      "title": "Loạt lãnh đạo ngành điện bị khởi tố; chỉ đạo mới nhất về giảm lãi suất",
+      "desc": "<a href=\"https://vietnamnet.vn/loat-lanh-dao-nganh-dien-bi-khoi-to-chi-dao-moi-nhat-ve-giam-lai-suat-2518750.html\"><img alt=\"Loạt lãnh đạo ngành điện bị khởi tố; chỉ đạo mới nhất về giảm lãi suất\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/24/loat-lanh-dao-nganh-dien-bi-khoi-to-chi-dao-moi-nhat-ve-giam-lai-suat-544.webp?width=0&s=ozvrU7s2rSUcLSG9hqQ0_w\" ></a></br",
+      "link": "https://vietnamnet.vn/loat-lanh-dao-nganh-dien-bi-khoi-to-chi-dao-moi-nhat-ve-giam-lai-suat-2518750.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "2eac80308cc7",
+      "source": "VietnamNet KT",
+      "title": "Chuyển đổi số không chỉ là số hoá các quy trình trong ngân hàng",
+      "desc": "<a href=\"https://vietnamnet.vn/chuyen-doi-so-khong-chi-la-so-hoa-cac-quy-trinh-trong-ngan-hang-2518329.html\"><img alt=\"Chuyển đổi số không chỉ là số hoá các quy trình trong ngân hàng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/22/chuyen-doi-so-khong-chi-la-so-hoa-cac-quy-trinh-trong-ngan-hang-1956.jpg?width=0&s=ompWQkJq4XZNsQBO5Swx8w\" ></a></br>Ngân hàng Nhà nước",
+      "link": "https://vietnamnet.vn/chuyen-doi-so-khong-chi-la-so-hoa-cac-quy-trinh-trong-ngan-hang-2518329.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "1d65b710b4da",
+      "source": "VietnamNet KT",
+      "title": "NHNN yêu cầu kiểm tra việc giảm lãi suất tại các ngân hàng thương mại",
+      "desc": "<a href=\"https://vietnamnet.vn/nhnn-yeu-cau-kiem-tra-viec-giam-lai-suat-tai-cac-ngan-hang-thuong-mai-2518305.html\"><img alt=\"NHNN yêu cầu kiểm tra việc giảm lãi suất tại các ngân hàng thương mại\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/22/nhnn-yeu-cau-kiem-tra-viec-giam-lai-suat-tai-cac-ngan-hang-thuong-mai-1626.jpg?width=0&s=yJdngUyKJwq9Epc2JvA1TQ\" ></a></br>",
+      "link": "https://vietnamnet.vn/nhnn-yeu-cau-kiem-tra-viec-giam-lai-suat-tai-cac-ngan-hang-thuong-mai-2518305.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "cc5e976cf60f",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 22/5/2026: Nhà băng âm thầm ưu đãi cao hơn niêm yết",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-22-5-2026-nha-bang-moi-lai-suat-cao-hon-niem-yet-2518124.html\"><img alt=\"Lãi suất ngân hàng hôm nay 22/5/2026: Nhà băng âm thầm ưu đãi cao hơn niêm yết\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/22/2026-nha-bang-am-tham-uu-dai-cao-hon-niem-yet-527.jpg?width=0&s=BmAebq6wH7pPILa8e-u9-w\" ></a></br>Lãi suất n",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-22-5-2026-nha-bang-moi-lai-suat-cao-hon-niem-yet-2518124.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "eee42c0f7521",
+      "source": "VietnamNet KT",
+      "title": "Tài chính Mirae Asset và Trusting Social triển khai tín dụng số EVO Money",
+      "desc": "<a href=\"https://vietnamnet.vn/tai-chinh-mirae-asset-va-trusting-social-trien-khai-tin-dung-so-evo-money-2518146.html\"><img alt=\"Tài chính Mirae Asset và Trusting Social triển khai tín dụng số EVO Money\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/22/tai-chinh-mirae-asset-va-trusting-social-trien-khai-tin-dung-so-evo-money-496.jpg?width=0&s=AmgJVy-CZFsF4epLYhkmqQ\"",
+      "link": "https://vietnamnet.vn/tai-chinh-mirae-asset-va-trusting-social-trien-khai-tin-dung-so-evo-money-2518146.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "1258b045d072",
+      "source": "VietnamNet KT",
+      "title": "Rao bán 11 lần bất thành, ngân hàng tiếp tục đấu giá khoản nợ 356 tỷ",
+      "desc": "<a href=\"https://vietnamnet.vn/rao-ban-11-lan-bat-thanh-ngan-hang-tiep-tuc-dau-gia-khoan-no-356-ty-2518093.html\"><img alt=\"Rao bán 11 lần bất thành, ngân hàng tiếp tục đấu giá khoản nợ 356 tỷ\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/21/rao-ban-11-lan-bat-thanh-ngan-hang-tiep-tuc-dau-gia-khoan-no-356-ty-3744.jpg?width=0&s=OZ8f3Wl6MenoJNXTjXHmXA\" ></a></br>Sau n",
+      "link": "https://vietnamnet.vn/rao-ban-11-lan-bat-thanh-ngan-hang-tiep-tuc-dau-gia-khoan-no-356-ty-2518093.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "12ea5136f493",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 21/5/2026: Nhà băng bất ngờ hạ sâu kỳ hạn 6-12 tháng",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-21-5-2026-bat-ngo-giam-sau-ky-han-6-12-thang-2517798.html\"><img alt=\"Lãi suất ngân hàng hôm nay 21/5/2026: Nhà băng bất ngờ hạ sâu kỳ hạn 6-12 tháng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/21/2026-nha-bang-bat-ngo-ha-sau-ky-han-6-12-thang-788.jpg?width=0&s=_y2gy7w3OmfOzeB7DcWYTA\" ></a></br>Lãi suất ngâ",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-21-5-2026-bat-ngo-giam-sau-ky-han-6-12-thang-2517798.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "29ebf08fa7e5",
+      "source": "VietnamNet KT",
+      "title": "Một chi nhánh ngân hàng bị yêu cầu tăng kiểm soát rủi ro cho vay",
+      "desc": "<a href=\"https://vietnamnet.vn/mot-chi-nhanh-ngan-hang-bi-yeu-cau-tang-kiem-soat-rui-ro-cho-vay-2517748.html\"><img alt=\"Một chi nhánh ngân hàng bị yêu cầu tăng kiểm soát rủi ro cho vay\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/20/mot-chi-nhanh-ngan-hang-bi-yeu-cau-tang-kiem-soat-rui-ro-cho-vay-3032.jpg?width=0&s=paTXzLSCJsr5iitxJr-_cw\" ></a></br>Thanh tra NHNN ",
+      "link": "https://vietnamnet.vn/mot-chi-nhanh-ngan-hang-bi-yeu-cau-tang-kiem-soat-rui-ro-cho-vay-2517748.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "868117204296",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 20/5/2026: Nhà băng nào trả cao nhất kỳ hạn 3 tháng?",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-20-5-2026-nha-bang-nao-tra-cao-nhat-ky-han-3-thang-2517471.html\"><img alt=\"Lãi suất ngân hàng hôm nay 20/5/2026: Nhà băng nào trả cao nhất kỳ hạn 3 tháng?\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/20/2026-nha-bang-nao-tra-cao-nhat-ky-han-3-thang-641.jpg?width=0&s=ZV2jLmTEF68LBo1ihk9guA\" ></a></br>Lãi suấ",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-20-5-2026-nha-bang-nao-tra-cao-nhat-ky-han-3-thang-2517471.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "f5528a82ab95",
+      "source": "VietnamNet KT",
+      "title": "Ngân hàng VDB - Hành trình 20 năm kiến tạo động lực tăng trưởng",
+      "desc": "<a href=\"https://vietnamnet.vn/ngan-hang-vdb-hanh-trinh-20-nam-kien-tao-dong-luc-tang-truong-2517247.html\"><img alt=\"Ngân hàng VDB - Hành trình 20 năm kiến tạo động lực tăng trưởng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/19/ngan-hang-vdb-hanh-trinh-20-nam-kien-tao-dong-luc-tang-truong-1702.jpg?width=0&s=IRKed_3uluBfK4mFJPtxKw\" ></a></br>Đến năm 2025, tổng tài",
+      "link": "https://vietnamnet.vn/ngan-hang-vdb-hanh-trinh-20-nam-kien-tao-dong-luc-tang-truong-2517247.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "b3488f4731fc",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 19/5/2026: Niêm yết 10%/năm cho tiền gửi &apos;siêu to&apos;",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-19-5-2026-niem-yet-10-7-nam-cho-tien-gui-sieu-to-2517126.html\"><img alt=\"Lãi suất ngân hàng hôm nay 19/5/2026: Niêm yết 10%/năm cho tiền gửi &apos;siêu to&apos;\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/19/nam-cho-tien-gui-sieu-to-1452.jpg?width=0&s=KcHo_t_8_2jqdPbvtF1xSQ\" ></a></br>Lãi suất ngân hàng hô",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-19-5-2026-niem-yet-10-7-nam-cho-tien-gui-sieu-to-2517126.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "41d4526a079d",
+      "source": "VietnamNet KT",
+      "title": "20.000 việc làm từ Vingroup - tạo sinh kế cho hàng vạn gia đình phía nam Thủ đô",
+      "desc": "<a href=\"https://vietnamnet.vn/20-000-viec-lam-tu-vingroup-tao-sinh-ke-cho-hang-van-gia-dinh-phia-nam-thu-do-2516875.html\"><img alt=\"20.000 việc làm từ Vingroup - tạo sinh kế cho hàng vạn gia đình phía nam Thủ đô\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/18/20-1252.jpg?width=0&s=VxRn4vZxfF7jv7MII9um8g\" ></a></br>Hàng chục nghìn người dân tại các xã phía Nam Hà ",
+      "link": "https://vietnamnet.vn/20-000-viec-lam-tu-vingroup-tao-sinh-ke-cho-hang-van-gia-dinh-phia-nam-thu-do-2516875.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "73b243b9a6d1",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 18/5/2026 giảm mạnh, mức cao nhất không còn 8%",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-18-5-2026-giam-manh-muc-cao-nhat-khong-con-8-2516736.html\"><img alt=\"Lãi suất ngân hàng hôm nay 18/5/2026 giảm mạnh, mức cao nhất không còn 8%\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/18/2026-giam-manh-muc-cao-nhat-khong-con-8-289.jpg?width=0&s=SJfr94LtQDotP2KwnlSVqQ\" ></a></br>Lãi suất ngân hàng hôm na",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-18-5-2026-giam-manh-muc-cao-nhat-khong-con-8-2516736.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "0b2f121c78a1",
+      "source": "VietnamNet KT",
+      "title": "Nhà đất đang thế chấp ngân hàng bị giải phóng mặt bằng, giải quyết nợ ra sao?",
+      "desc": "<a href=\"https://vietnamnet.vn/nha-dat-dang-the-chap-ngan-hang-bi-giai-phong-mat-bang-nghia-vu-no-ra-sao-2516309.html\"><img alt=\"Nhà đất đang thế chấp ngân hàng bị giải phóng mặt bằng, giải quyết nợ ra sao?\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/17/nha-dat-dang-the-chap-ngan-hang-bi-giai-phong-mat-bang-nghia-vu-no-ra-sao-2081.jpg?width=0&s=78jmT37fSxgDnHsscF",
+      "link": "https://vietnamnet.vn/nha-dat-dang-the-chap-ngan-hang-bi-giai-phong-mat-bang-nghia-vu-no-ra-sao-2516309.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "ce0a898cad35",
+      "source": "VietnamNet KT",
+      "title": "VIB hợp tác cùng Visa, đưa chủ thẻ đến concert của BTS tại Mỹ",
+      "desc": "<a href=\"https://vietnamnet.vn/vib-hop-tac-cung-visa-dua-chu-the-den-concert-cua-bts-tai-my-2516439.html\"><img alt=\"VIB hợp tác cùng Visa, đưa chủ thẻ đến concert của BTS tại Mỹ\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/16/vib-hop-tac-cung-visa-dua-chu-the-den-concert-cua-bts-tai-my-1282.jpg?width=0&s=dFJyloTh3M7tv0qgxMH4Uw\" ></a></br>VIB phối hợp cùng Visa tri",
+      "link": "https://vietnamnet.vn/vib-hop-tac-cung-visa-dua-chu-the-den-concert-cua-bts-tai-my-2516439.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "67450d6a67a7",
+      "source": "VietnamNet KT",
+      "title": "Ngân hàng cảnh báo thủ đoạn lừa đảo qua cuộc gọi mạo danh",
+      "desc": "<a href=\"https://vietnamnet.vn/ngan-hang-canh-bao-thu-doan-lua-dao-qua-cuoc-goi-mao-danh-2513959.html\"><img alt=\"Ngân hàng cảnh báo thủ đoạn lừa đảo qua cuộc gọi mạo danh\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/16/ngan-hang-canh-bao-thu-doan-lua-dao-qua-cuoc-goi-mao-danh-1007.jpg?width=0&s=daQ0Dt3jxRCe1hVoX7CyWw\" ></a></br>Kẻ gian thực hiện hành vi mạo danh s",
+      "link": "https://vietnamnet.vn/ngan-hang-canh-bao-thu-doan-lua-dao-qua-cuoc-goi-mao-danh-2513959.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "dcc8fb8e7cf3",
+      "source": "VietnamNet KT",
+      "title": "Xe cấp cứu chở người bệnh nặng vào ngân hàng rút tiền",
+      "desc": "<a href=\"https://vietnamnet.vn/xon-xao-clip-khach-hang-duoc-xe-cap-cuu-cho-den-ngan-hang-rut-tien-2516212.html\"><img alt=\"Xe cấp cứu chở người bệnh nặng vào ngân hàng rút tiền\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/15/xe-cap-cuu-cho-nguoi-benh-nang-vao-ngan-hang-rut-tien-3040.jpg?width=0&s=vrgSVU9oTXtqOEGrf-d8hQ\" ></a></br>Clip xe cấp cứu chở người bệnh chạy",
+      "link": "https://vietnamnet.vn/xon-xao-clip-khach-hang-duoc-xe-cap-cuu-cho-den-ngan-hang-rut-tien-2516212.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "5d40d04a61b2",
+      "source": "VietnamNet KT",
+      "title": "Ngân hàng VDB tăng tốc bứt phá, quyết tâm thực hiện thắng lợi Nghị quyết 79",
+      "desc": "<a href=\"https://vietnamnet.vn/ngan-hang-vdb-tang-toc-but-pha-quyet-tam-thuc-hien-thang-loi-nghi-quyet-79-2516192.html\"><img alt=\"Ngân hàng VDB tăng tốc bứt phá, quyết tâm thực hiện thắng lợi Nghị quyết 79\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/15/ngan-hang-vdb-tang-toc-but-pha-quyet-tam-thuc-hien-thang-loi-nghi-quyet-79-2044.jpg?width=0&s=B6ErjupIbeogjIaQfB",
+      "link": "https://vietnamnet.vn/ngan-hang-vdb-tang-toc-but-pha-quyet-tam-thuc-hien-thang-loi-nghi-quyet-79-2516192.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "dfa1e6fbd7f5",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 15/5/2026: Kỳ hạn 36 tháng cao nhất lên tới 8%/năm",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-15-5-2026-ky-han-36-thang-cao-nhat-len-toi-8-nam-2515993.html\"><img alt=\"Lãi suất ngân hàng hôm nay 15/5/2026: Kỳ hạn 36 tháng cao nhất lên tới 8%/năm\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/15/nam-579.jpg?width=0&s=6BLclOw1hyONSAkf3xWExA\" ></a></br>Lãi suất ngân hàng hôm nay, 15/5/2026, lãi suất huy đ",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-15-5-2026-ky-han-36-thang-cao-nhat-len-toi-8-nam-2515993.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "48a16fc06108",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 14/5/2026: Mốc 7% &apos;rụng&apos; dần, gửi ở đâu tới 7,7%/năm?",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-14-5-2026-moc-7-rung-dan-gui-o-dau-toi-7-7-nam-2515629.html\"><img alt=\"Lãi suất ngân hàng hôm nay 14/5/2026: Mốc 7% &apos;rụng&apos; dần, gửi ở đâu tới 7,7%/năm?\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/14/nam-1366.jpg?width=0&s=5N13E0YV1t6H5EJmzne_vw\" ></a></br>Lãi suất ngân hàng hôm nay, 14/5/2026, nh",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-14-5-2026-moc-7-rung-dan-gui-o-dau-toi-7-7-nam-2515629.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "751ace8b1f72",
+      "source": "VietnamNet KT",
+      "title": "Tiền gửi rời khỏi 13 ngân hàng, nhà băng lớn sững sờ hụt hàng chục nghìn tỷ",
+      "desc": "<a href=\"https://vietnamnet.vn/tien-gui-roi-khoi-13-ngan-hang-nha-bang-lon-sung-so-hut-hang-chuc-nghin-ty-2515385.html\"><img alt=\"Tiền gửi rời khỏi 13 ngân hàng, nhà băng lớn sững sờ hụt hàng chục nghìn tỷ\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/13/tien-gui-roi-khoi-13-ngan-hang-nha-bang-lon-sung-so-hut-hang-chuc-nghin-ty-3340.jpg?width=0&s=iOe-h1jcq5mZzuSZ-y",
+      "link": "https://vietnamnet.vn/tien-gui-roi-khoi-13-ngan-hang-nha-bang-lon-sung-so-hut-hang-chuc-nghin-ty-2515385.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "5c7e48905550",
+      "source": "VietnamNet KT",
+      "title": "Ngân hàng rao bán nhà máy hơn 1.200 tỷ đồng liên quan bà Trương Mỹ Lan",
+      "desc": "<a href=\"https://vietnamnet.vn/ngan-hang-rao-ban-nha-may-hon-1-200-ty-dong-lien-quan-ba-truong-my-lan-2515326.html\"><img alt=\"Ngân hàng rao bán nhà máy hơn 1.200 tỷ đồng liên quan bà Trương Mỹ Lan\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/13/ngan-hang-rao-ban-nha-may-hon-1-2927.jpg?width=0&s=j2kKln8OIEF5AdBy-GrZuQ\" ></a></br>VietinBank Chi nhánh Tây Ninh vừa th",
+      "link": "https://vietnamnet.vn/ngan-hang-rao-ban-nha-may-hon-1-200-ty-dong-lien-quan-ba-truong-my-lan-2515326.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "87519e6569e8",
+      "source": "VietnamNet KT",
+      "title": "VietinBank ưu đãi lớn dành riêng khách hàng doanh nghiệp SME mới",
+      "desc": "<a href=\"https://vietnamnet.vn/vietinbank-uu-dai-lon-danh-rieng-khach-hang-doanh-nghiep-sme-moi-2515297.html\"><img alt=\"VietinBank ưu đãi lớn dành riêng khách hàng doanh nghiệp SME mới\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/13/vietinbank-uu-dai-lon-danh-rieng-khach-hang-doanh-nghiep-sme-moi-1182.jpg?width=0&s=H0hibZ6XWLgTh7il4rUZuQ\" ></a></br>Chào đón các kh",
+      "link": "https://vietnamnet.vn/vietinbank-uu-dai-lon-danh-rieng-khach-hang-doanh-nghiep-sme-moi-2515297.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "111add23fd1a",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 13/5/2026 tăng mạnh, cao nhất lên tới 8%/năm",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-13-5-2026-tang-manh-cao-nhat-len-toi-8-nam-2515198.html\"><img alt=\"Lãi suất ngân hàng hôm nay 13/5/2026 tăng mạnh, cao nhất lên tới 8%/năm\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/13/nam-437.jpg?width=0&s=ixXMgIDoBi7M7RKZKBXDPg\" ></a></br>Lãi suất ngân hàng hôm nay, 13/5/2026, sau OCB, một ngân hàng khá",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-13-5-2026-tang-manh-cao-nhat-len-toi-8-nam-2515198.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "44776fb45916",
+      "source": "VietnamNet KT",
+      "title": "Nhân viên một ngân hàng nhận trung bình gần 69 triệu đồng/tháng, cao nhất hệ thống",
+      "desc": "<a href=\"https://vietnamnet.vn/nhan-vien-tpbank-bat-ngo-nhan-gan-69-trieu-dong-thang-cao-nhat-he-thong-2514853.html\"><img alt=\"Nhân viên một ngân hàng nhận trung bình gần 69 triệu đồng/tháng, cao nhất hệ thống\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/12/thang-cao-nhat-he-thong-2341.jpg?width=0&s=4eSM4LL9uDo6eeRFarnPTw\" ></a></br>Trong khi thu nhập bình quân tạ",
+      "link": "https://vietnamnet.vn/nhan-vien-tpbank-bat-ngo-nhan-gan-69-trieu-dong-thang-cao-nhat-he-thong-2514853.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "bd14c26c2806",
+      "source": "VietnamNet KT",
+      "title": "Nhân viên ngân hàng mất ngủ vì trúng độc đắc Vietlott hơn 23 tỷ đồng",
+      "desc": "<a href=\"https://vietnamnet.vn/banker-gen-z-mat-ngu-vi-trung-doc-dac-vietlott-hon-23-ty-dong-2515018.html\"><img alt=\"Nhân viên ngân hàng mất ngủ vì trúng độc đắc Vietlott hơn 23 tỷ đồng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/12/nhan-vien-ngan-hang-mat-ngu-vi-trung-doc-dac-vietlott-hon-23-ty-dong-1580.jpg?width=0&s=vRCSB4hiIwuwio8oAG_Riw\" ></a></br>Một nam nh",
+      "link": "https://vietnamnet.vn/banker-gen-z-mat-ngu-vi-trung-doc-dac-vietlott-hon-23-ty-dong-2515018.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "ab4070c9876b",
+      "source": "VietnamNet KT",
+      "title": "Quý I/2026, ngân hàng SHB báo lãi trước thuế 4.656 tỷ đồng",
+      "desc": "<a href=\"https://vietnamnet.vn/quy-i-2026-ngan-hang-shb-bao-lai-truoc-thue-4-656-ty-dong-2515004.html\"><img alt=\"Quý I/2026, ngân hàng SHB báo lãi trước thuế 4.656 tỷ đồng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/12/2026-ngan-hang-shb-bao-lai-truoc-thue-4-1753.png?width=0&s=GL_YddcXtwneBw-b0c-xag\" ></a></br>Ngân hàng Sài Gòn - Hà Nội (SHB) công bố kết quả kinh",
+      "link": "https://vietnamnet.vn/quy-i-2026-ngan-hang-shb-bao-lai-truoc-thue-4-656-ty-dong-2515004.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "26a838101fa5",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 12/5/2026: Bất ngờ tăng kỳ hạn dài, cao nhất 7,3%/năm",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-12-5-2026-bat-ngo-tang-ky-han-dai-cao-nhat-7-3-nam-2514820.html\"><img alt=\"Lãi suất ngân hàng hôm nay 12/5/2026: Bất ngờ tăng kỳ hạn dài, cao nhất 7,3%/năm\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/12/nam-457.jpg?width=0&s=sqX24S40fgy5FYXrklwLHA\" ></a></br>Lãi suất ngân hàng hôm nay, 12/5/2026, một ngân ",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-12-5-2026-bat-ngo-tang-ky-han-dai-cao-nhat-7-3-nam-2514820.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "31491405d690",
+      "source": "VietnamNet KT",
+      "title": "28 ngân hàng cắt giảm 3.000 nhân sự, riêng Sacombank chiếm gần 85%",
+      "desc": "<a href=\"https://vietnamnet.vn/ngan-hang-cat-giam-hon-3-000-nhan-su-trong-quy-i-sacombank-chiem-gan-85-2514555.html\"><img alt=\"28 ngân hàng cắt giảm 3.000 nhân sự, riêng Sacombank chiếm gần 85%\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/11/ngan-hang-cat-giam-hon-3-2924.jpg?width=0&s=NqBOIgpRHqt85gyivA1mGg\" ></a></br>Báo cáo tài chính quý I/2026 của 28 ngân hàng ",
+      "link": "https://vietnamnet.vn/ngan-hang-cat-giam-hon-3-000-nhan-su-trong-quy-i-sacombank-chiem-gan-85-2514555.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "9829dc0ed5a0",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 11/5/2026: &apos;Ông lớn&apos; hạ hàng loạt, xuống dưới 6%/năm",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-11-5-2026-ong-lon-ha-hang-loat-xuong-duoi-6-nam-2514453.html\"><img alt=\"Lãi suất ngân hàng hôm nay 11/5/2026: &apos;Ông lớn&apos; hạ hàng loạt, xuống dưới 6%/năm\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/11/nam-832.jpg?width=0&s=yBDAMvTRUsEF94ZwyToG7g\" ></a></br>Lãi suất ngân hàng hôm nay 11/5/2026, VPBa",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-11-5-2026-ong-lon-ha-hang-loat-xuong-duoi-6-nam-2514453.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "8815ea6a2902",
+      "source": "VietnamNet KT",
+      "title": "Đại gia điện tái tạo chật vật: Nợ lớn, lãi vay cao, lợi nhuận phân hóa",
+      "desc": "<a href=\"https://vietnamnet.vn/dai-gia-dien-tai-tao-chat-vat-no-lon-lai-vay-cao-loi-nhuan-phan-hoa-2514119.html\"><img alt=\"Đại gia điện tái tạo chật vật: Nợ lớn, lãi vay cao, lợi nhuận phân hóa\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/10/dai-gia-dien-tai-tao-chat-vat-no-lon-lai-vay-cao-loi-nhuan-phan-hoa-1973.jpg?width=0&s=Qw1z2L0sLw-lUs2FiXFtNA\" ></a></br>Sau",
+      "link": "https://vietnamnet.vn/dai-gia-dien-tai-tao-chat-vat-no-lon-lai-vay-cao-loi-nhuan-phan-hoa-2514119.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "f5968c5bd920",
+      "source": "VietnamNet KT",
+      "title": "UAV vượt biển Cần Giờ - Vũng Tàu chỉ 15 phút, hé lộ thị trường nghìn tỷ USD cho Việt Nam",
+      "desc": "<a href=\"https://vietnamnet.vn/uav-vuot-bien-can-gio-vung-tau-chi-15-phut-he-lo-thi-truong-nghin-ty-usd-2511870.html\"><img alt=\"UAV vượt biển Cần Giờ - Vũng Tàu chỉ 15 phút, hé lộ thị trường nghìn tỷ USD cho Việt Nam\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/9/uav-vuot-bien-can-gio-vung-tau-chi-15-phut-he-lo-thi-truong-nghin-ty-usd-cho-viet-nam-1239.jpg?width=0",
+      "link": "https://vietnamnet.vn/uav-vuot-bien-can-gio-vung-tau-chi-15-phut-he-lo-thi-truong-nghin-ty-usd-2511870.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "b93e990681b4",
+      "source": "VietnamNet KT",
+      "title": "Vietjet mở đường bay đầu tiên đến Sri Lanka",
+      "desc": "<a href=\"https://vietnamnet.vn/vietjet-mo-duong-bay-dau-tien-den-sri-lanka-2514027.html\"><img alt=\"Vietjet mở đường bay đầu tiên đến Sri Lanka\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/9/vietjet-mo-duong-bay-dau-tien-den-sri-lanka-662.jpg?width=0&s=MjU92Niyo5wPiFYTi0Seig\" ></a></br>Hãng hàng không Vietjet đã công bố đường bay thẳng giữa TP.HCM và Colombo tại Di",
+      "link": "https://vietnamnet.vn/vietjet-mo-duong-bay-dau-tien-den-sri-lanka-2514027.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "a621aa65c400",
+      "source": "VietnamNet KT",
+      "title": "Ngân hàng đồng loạt thanh lý xe chở tiền, giá chỉ từ 30 triệu đồng",
+      "desc": "<a href=\"https://vietnamnet.vn/ngan-hang-dong-loat-thanh-ly-xe-cho-tien-gia-chi-tu-30-trieu-dong-2513855.html\"><img alt=\"Ngân hàng đồng loạt thanh lý xe chở tiền, giá chỉ từ 30 triệu đồng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/8/ngan-hang-dong-loat-thanh-ly-xe-cho-tien-gia-chi-tu-30-trieu-dong-2702.jpg?width=0&s=WyXCYvb--5pH1Cfy9jFytw\" ></a></br>Hàng loạt xe",
+      "link": "https://vietnamnet.vn/ngan-hang-dong-loat-thanh-ly-xe-cho-tien-gia-chi-tu-30-trieu-dong-2513855.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "cb7e5658ef9a",
+      "source": "VietnamNet KT",
+      "title": "Thanh tra NHNN công bố kết luận thanh tra tại loạt chi nhánh ngân hàng",
+      "desc": "<a href=\"https://vietnamnet.vn/thanh-tra-nhnn-cong-bo-ket-luan-thanh-tra-tai-loat-chi-nhanh-ngan-hang-2513884.html\"><img alt=\"Thanh tra NHNN công bố kết luận thanh tra tại loạt chi nhánh ngân hàng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/8/thanh-tra-nhnn-cong-bo-ket-luan-thanh-tra-tai-loat-chi-nhanh-ngan-hang-2397.jpeg?width=0&s=T1FgKWbyCsJN6dJqDnMUUw\" ></a></",
+      "link": "https://vietnamnet.vn/thanh-tra-nhnn-cong-bo-ket-luan-thanh-tra-tai-loat-chi-nhanh-ngan-hang-2513884.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "b389ba9eb8c7",
+      "source": "VietnamNet KT",
+      "title": "Hải quan bắt tay 4 ngân hàng ngoại, mở rộng hệ sinh thái nộp thuế điện tử",
+      "desc": "<a href=\"https://vietnamnet.vn/hai-quan-bat-tay-4-ngan-hang-ngoai-mo-rong-he-sinh-thai-nop-thue-dien-tu-2514643.html\"><img alt=\"Hải quan bắt tay 4 ngân hàng ngoại, mở rộng hệ sinh thái nộp thuế điện tử\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/11/hai-quan-bat-tay-4-ngan-hang-ngoai-mo-rong-he-sinh-thai-nop-thue-dien-tu-1890.jpg?width=0&s=wgDJsNlXcW0mwZ7nopKFwA\" ",
+      "link": "https://vietnamnet.vn/hai-quan-bat-tay-4-ngan-hang-ngoai-mo-rong-he-sinh-thai-nop-thue-dien-tu-2514643.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "9b2d63cffc5c",
+      "source": "VietnamNet KT",
+      "title": "C.P. Việt Nam đồng hành cùng hoạt động cộng đồng tại Đồng Nai",
+      "desc": "<a href=\"https://vietnamnet.vn/c-p-viet-nam-dong-hanh-cung-hoat-dong-cong-dong-tai-dong-nai-2513838.html\"><img alt=\"C.P. Việt Nam đồng hành cùng hoạt động cộng đồng tại Đồng Nai\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/8/cp-1521.png?width=0&s=FG2MOeHfp3bjvlEhrXNkng\" ></a></br>Trong khuôn khổ chương trình giao lưu nhân dân chào mừng kỷ niệm 50 năm thiết lập qua",
+      "link": "https://vietnamnet.vn/c-p-viet-nam-dong-hanh-cung-hoat-dong-cong-dong-tai-dong-nai-2513838.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "581bfa9faef6",
+      "source": "VietnamNet KT",
+      "title": "Tín dụng tăng tốc, dư nợ toàn hệ thống vượt 19,4 triệu tỷ",
+      "desc": "<a href=\"https://vietnamnet.vn/tin-dung-tang-toc-du-no-toan-he-thong-vuot-19-4-trieu-ty-2513731.html\"><img alt=\"Tín dụng tăng tốc, dư nợ toàn hệ thống vượt 19,4 triệu tỷ\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/8/pho-thong-doc-nhnn-tin-dung-tang-toc-du-no-toan-he-thong-vuot-194-trieu-ty-1274.jpg?width=0&s=gk97TxFfXm_dnju22pODdA\" ></a></br>Tín dụng toàn nền kin",
+      "link": "https://vietnamnet.vn/tin-dung-tang-toc-du-no-toan-he-thong-vuot-19-4-trieu-ty-2513731.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "7082cc222215",
+      "source": "VietnamNet KT",
+      "title": "TNEX lọt Top 100 Ngân hàng số toàn cầu 2026",
+      "desc": "<a href=\"https://vietnamnet.vn/tnex-lot-top-100-ngan-hang-so-toan-cau-2026-2513688.html\"><img alt=\"TNEX lọt Top 100 Ngân hàng số toàn cầu 2026\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/8/tnex-lot-top-100-ngan-hang-so-toan-cau-2026-276.jpg?width=0&s=6h6q8us5S2ja1eWqaQZozA\" ></a></br>TNEX vừa ghi danh tại vị trí 65 trong bảng xếp hạng World’s Top 100 Digital Bank",
+      "link": "https://vietnamnet.vn/tnex-lot-top-100-ngan-hang-so-toan-cau-2026-2513688.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "0062058cc158",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 8/5/2026: Bất ngờ tăng mạnh lên 7,9%/năm",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-8-5-2026-bat-ngo-tang-manh-len-7-9-nam-2513663.html\"><img alt=\"Lãi suất ngân hàng hôm nay 8/5/2026: Bất ngờ tăng mạnh lên 7,9%/năm\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/8/nam-263.jpg?width=0&s=kUhNdqV0aV1M2xuZPhxWBQ\" ></a></br>Lãi suất ngân hàng ngày 8/5/2026 ghi nhận ngân hàng đầu tiên điều chỉnh lã",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-8-5-2026-bat-ngo-tang-manh-len-7-9-nam-2513663.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "7b7a04a4ac11",
+      "source": "VietnamNet KT",
+      "title": "Hai ô tô của nhóm lừa đảo 318 tỷ đồng bị ngân hàng mang ra đấu giá",
+      "desc": "<a href=\"https://vietnamnet.vn/hai-o-to-cua-nhom-lua-dao-318-ty-dong-bi-ngan-hang-mang-ra-dau-gia-2513508.html\"><img alt=\"Hai ô tô của nhóm lừa đảo 318 tỷ đồng bị ngân hàng mang ra đấu giá\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/7/hai-o-to-cua-nhom-lua-dao-318-ty-dong-bi-ngan-hang-mang-ra-dau-gia-3224.jpg?width=0&s=NmrmmErD3I-9mIKD6o5L4g\" ></a></br>Một chi nh",
+      "link": "https://vietnamnet.vn/hai-o-to-cua-nhom-lua-dao-318-ty-dong-bi-ngan-hang-mang-ra-dau-gia-2513508.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "a38f0efe524e",
+      "source": "VietnamNet KT",
+      "title": "Cuộc đua vốn nghìn tỷ nóng rực: 5 ngân hàng Việt sắp vượt mốc 100.000 tỷ đồng",
+      "desc": "<a href=\"https://vietnamnet.vn/cuoc-dua-von-nghin-ty-nong-ruc-5-ngan-hang-viet-sap-vuot-moc-100-000-ty-dong-2513363.html\"><img alt=\"Cuộc đua vốn nghìn tỷ nóng rực: 5 ngân hàng Việt sắp vượt mốc 100.000 tỷ đồng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/8/cuoc-dua-von-nghin-ty-nong-ruc-5-ngan-hang-viet-sap-vuot-moc-100-236.jpg?width=0&s=lKZw5_xJvHnZHlo0XQIE9A\" ><",
+      "link": "https://vietnamnet.vn/cuoc-dua-von-nghin-ty-nong-ruc-5-ngan-hang-viet-sap-vuot-moc-100-000-ty-dong-2513363.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "6bf2520be092",
+      "source": "VietnamNet KT",
+      "title": "HDBank tung gói tín dụng ‘SME Linh hoạt’ quy mô 30.000 tỷ đồng",
+      "desc": "<a href=\"https://vietnamnet.vn/hdbank-tung-goi-tin-dung-sme-linh-hoat-quy-mo-30-000-ty-dong-2513534.html\"><img alt=\"HDBank tung gói tín dụng ‘SME Linh hoạt’ quy mô 30.000 tỷ đồng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/7/hdbank-tung-goi-tin-dung-sme-linh-hoat-quy-mo-30-2830.jpeg?width=0&s=KeuVFp7puoSrBj_B0vpsBQ\" ></a></br>Nhằm đồng hành và tháo gỡ rào cản tiế",
+      "link": "https://vietnamnet.vn/hdbank-tung-goi-tin-dung-sme-linh-hoat-quy-mo-30-000-ty-dong-2513534.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "f7a8ece1249f",
+      "source": "VietnamNet KT",
+      "title": "Moody’s nâng triển vọng xếp hạng của Agribank từ ‘Ổn định’ lên ‘Tích cực’",
+      "desc": "<a href=\"https://vietnamnet.vn/moody-s-nang-trien-vong-xep-hang-cua-agribank-tu-on-dinh-len-tich-cuc-2513367.html\"><img alt=\"Moody’s nâng triển vọng xếp hạng của Agribank từ ‘Ổn định’ lên ‘Tích cực’\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/7/moodys-nang-trien-vong-xep-hang-cua-agribank-tu-on-dinh-len-tich-cuc-1496.jpg?width=0&s=fRRdks-u1ebvbFbr9r_bLQ\" ></a></b",
+      "link": "https://vietnamnet.vn/moody-s-nang-trien-vong-xep-hang-cua-agribank-tu-on-dinh-len-tich-cuc-2513367.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "f0e1879a6ece",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 7/5/2026: Thanh khoản bớt nóng nhưng chưa &apos;dễ thở&apos;",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-7-5-2026-thanh-khoan-bot-nong-nhung-chua-de-tho-2513302.html\"><img alt=\"Lãi suất ngân hàng hôm nay 7/5/2026: Thanh khoản bớt nóng nhưng chưa &apos;dễ thở&apos;\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/7/2026-thanh-khoan-bot-nong-nhung-chua-de-tho-981.jpg?width=0&s=NrjF4T9DwdB98Q1rnG--SA\" ></a></br>Lãi s",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-7-5-2026-thanh-khoan-bot-nong-nhung-chua-de-tho-2513302.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "42f399bae0a7",
+      "source": "VietnamNet KT",
+      "title": "Biệt thự &apos;triệu đô không nói chuyện&apos; ở Linh Đàm bị ngân hàng rao bán 27 tỷ",
+      "desc": "<a href=\"https://vietnamnet.vn/ngan-hang-rao-ban-biet-thu-ban-dao-linh-dam-gia-khoi-diem-27-ty-dong-2513132.html\"><img alt=\"Biệt thự &apos;triệu đô không nói chuyện&apos; ở Linh Đàm bị ngân hàng rao bán 27 tỷ\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/6/biet-thu-trieu-do-khong-noi-chuyen-o-linh-dam-bi-ngan-hang-rao-ban-27-ty-3657.jpg?width=0&s=9uwMKS0eX735IpjtsH",
+      "link": "https://vietnamnet.vn/ngan-hang-rao-ban-biet-thu-ban-dao-linh-dam-gia-khoi-diem-27-ty-dong-2513132.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "665a34009503",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 6/5/2026: Mức 7%/năm gần biến mất ở kỳ hạn 6 tháng",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-6-5-2026-muc-7-nam-gan-bien-mat-o-ky-han-6-thang-2512913.html\"><img alt=\"Lãi suất ngân hàng hôm nay 6/5/2026: Mức 7%/năm gần biến mất ở kỳ hạn 6 tháng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/6/nam-gan-bien-mat-o-ky-han-6-thang-613.jpg?width=0&s=ySi9-8NwN4YW5WR4xiSNqg\" ></a></br>Lãi suất ngân hàng hôm n",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-6-5-2026-muc-7-nam-gan-bien-mat-o-ky-han-6-thang-2512913.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "d8663de6787b",
+      "source": "VietnamNet KT",
+      "title": "MB - Ngân hàng top đầu cấp vốn lưu động cho doanh nghiệp SME ngành trọng điểm",
+      "desc": "<a href=\"https://vietnamnet.vn/mb-ngan-hang-top-dau-cap-von-luu-dong-cho-doanh-nghiep-sme-nganh-trong-diem-2512785.html\"><img alt=\"MB - Ngân hàng top đầu cấp vốn lưu động cho doanh nghiệp SME ngành trọng điểm\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/5/ngan-hang-mb-1041-2093.jpg?width=0&s=3D9O95VjcaK7xjZTxx-6zg\" ></a></br>Ngân hàng TMCP Quân đội (MB) ghi nhận v",
+      "link": "https://vietnamnet.vn/mb-ngan-hang-top-dau-cap-von-luu-dong-cho-doanh-nghiep-sme-nganh-trong-diem-2512785.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "5f0412cfc527",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 5/5/2026: Ồ ạt giảm, riêng 1 kỳ hạn vẫn kịch trần",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-5-5-2026-o-at-giam-rieng-1-ky-han-van-kich-tran-2512535.html\"><img alt=\"Lãi suất ngân hàng hôm nay 5/5/2026: Ồ ạt giảm, riêng 1 kỳ hạn vẫn kịch trần\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/5/2026-o-at-giam-rieng-1-ky-han-van-kich-tran-489.jpg?width=0&s=U8wBdJBUv9WriHzlrtLQsg\" ></a></br>Lãi suất ngân hà",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-5-5-2026-o-at-giam-rieng-1-ky-han-van-kich-tran-2512535.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "86b97a6ed562",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 4/5/2026: Big4 bất ngờ xuất hiện mức 7,4%/năm",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-4-5-2026-big4-bat-ngo-xuat-hien-muc-7-4-nam-2512233.html\"><img alt=\"Lãi suất ngân hàng hôm nay 4/5/2026: Big4 bất ngờ xuất hiện mức 7,4%/năm\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/4/nam-1122.jpg?width=0&s=10AZQ1AtNEZrCX0gedHGwg\" ></a></br>Lãi suất ngân hàng hôm nay 4/5/2026, mức lãi suất cao nhất tại ",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-4-5-2026-big4-bat-ngo-xuat-hien-muc-7-4-nam-2512233.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "afc273dae980",
+      "source": "VietnamNet KT",
+      "title": "Thẻ tín dụng là gì? Lợi ích và cách sử dụng thẻ tín dụng hiệu quả năm 2026",
+      "desc": "<a href=\"https://vietnamnet.vn/the-tin-dung-la-gi-loi-ich-va-cach-su-dung-the-tin-dung-hieu-qua-nam-2026-2511199.html\"><img alt=\"Thẻ tín dụng là gì? Lợi ích và cách sử dụng thẻ tín dụng hiệu quả năm 2026\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/3/the-tin-dung-la-gi-loi-ich-va-cach-su-dung-the-tin-dung-hieu-qua-nam-2026-1906.jpg?width=0&s=OFRCeNy_F4mAUEotXXCkFA",
+      "link": "https://vietnamnet.vn/the-tin-dung-la-gi-loi-ich-va-cach-su-dung-the-tin-dung-hieu-qua-nam-2026-2511199.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "3dfa5379ca7b",
+      "source": "VietnamNet KT",
+      "title": "6 hành vi bị cấm trong hoạt động thanh toán ngân hàng",
+      "desc": "<a href=\"https://vietnamnet.vn/6-hanh-vi-bi-cam-trong-hoat-dong-thanh-toan-ngan-hang-2509333.html\"><img alt=\"6 hành vi bị cấm trong hoạt động thanh toán ngân hàng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/3/6-hanh-vi-bi-cam-trong-hoat-dong-thanh-toan-ngan-hang-1912.jpg?width=0&s=mIdshYHdqiGPMhC4LiHJPw\" ></a></br>Các ngân hàng cảnh báo 6 hành vi bị nghiêm cấm tr",
+      "link": "https://vietnamnet.vn/6-hanh-vi-bi-cam-trong-hoat-dong-thanh-toan-ngan-hang-2509333.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "70478c27ca95",
+      "source": "VietnamNet KT",
+      "title": "Sếp các ngân hàng nói gì về lãi suất huy động: Giảm rồi có tăng lại ngay?",
+      "desc": "<a href=\"https://vietnamnet.vn/sep-cac-ngan-hang-noi-gi-ve-lai-suat-huy-dong-giam-roi-lieu-co-tang-2511421.html\"><img alt=\"Sếp các ngân hàng nói gì về lãi suất huy động: Giảm rồi có tăng lại ngay?\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/2/sep-cac-ngan-hang-noi-gi-ve-lai-suat-huy-dong-giam-roi-lieu-co-tang-1646.jpg?width=0&s=3-DNnmkQzQh01efjG6CwwQ\" ></a></br>L",
+      "link": "https://vietnamnet.vn/sep-cac-ngan-hang-noi-gi-ve-lai-suat-huy-dong-giam-roi-lieu-co-tang-2511421.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "1029fb32077b",
+      "source": "VietnamNet KT",
+      "title": "HDBank quý 1: CAR 16,2%, LDR 70%, lợi nhuận 6.107 tỷ, Moody’s đánh giá Tích cực",
+      "desc": "<a href=\"https://vietnamnet.vn/hdbank-quy-1-car-16-2-ldr-70-loi-nhuan-6-107-ty-moody-s-danh-gia-tich-cuc-2511782.html\"><img alt=\"HDBank quý 1: CAR 16,2%, LDR 70%, lợi nhuận 6.107 tỷ, Moody’s đánh giá Tích cực\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/1/hdbank-quy-1-car-162-ldr-70-loi-nhuan-6-1543.jpeg?width=0&s=tcCG6zq-7XUUnwpWihx0lQ\" ></a></br>Ngân hàng TMCP P",
+      "link": "https://vietnamnet.vn/hdbank-quy-1-car-16-2-ldr-70-loi-nhuan-6-107-ty-moody-s-danh-gia-tich-cuc-2511782.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "aa58f0ebd5b0",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất giảm, ngân hàng đua tặng ô tô, iPhone để hút tiền gửi",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-giam-ngan-hang-dua-tang-o-to-iphone-de-hut-tien-gui-2510524.html\"><img alt=\"Lãi suất giảm, ngân hàng đua tặng ô tô, iPhone để hút tiền gửi\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/5/1/lai-suat-giam-ngan-hang-dua-tang-o-to-iphone-de-hut-tien-gui-667.jpg?width=0&s=td6hsRH4YdSE8f--P_yRMQ\" ></a></br>Thay vì chạy đua tăng lãi s",
+      "link": "https://vietnamnet.vn/lai-suat-giam-ngan-hang-dua-tang-o-to-iphone-de-hut-tien-gui-2510524.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "e3d0ca8dc52a",
+      "source": "VietnamNet KT",
+      "title": "Cho thuê nhà có phải báo tài khoản ngân hàng với cơ quan thuế?",
+      "desc": "<a href=\"https://vietnamnet.vn/cho-thue-nha-co-phai-bao-tai-khoan-ngan-hang-voi-co-quan-thue-2511274.html\"><img alt=\"Cho thuê nhà có phải báo tài khoản ngân hàng với cơ quan thuế?\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/29/cho-thue-nha-co-phai-bao-tai-khoan-ngan-hang-voi-co-quan-thue-3385.jpeg?width=0&s=-PyHjPiKlNFUVWSGH-OjBA\" ></a></br>Người nộp thuế chỉ có ",
+      "link": "https://vietnamnet.vn/cho-thue-nha-co-phai-bao-tai-khoan-ngan-hang-voi-co-quan-thue-2511274.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "e4e2fd3cdfcc",
+      "source": "VietnamNet KT",
+      "title": "VietinBank ưu đãi ‘Gửi tiết kiệm - Mở kho báu - Đón Lễ lớn’ mừng 30/4 - 1/5",
+      "desc": "<a href=\"https://vietnamnet.vn/vietinbank-uu-dai-gui-tiet-kiem-mo-kho-bau-don-le-lon-mung-30-4-1-5-2511282.html\"><img alt=\"VietinBank ưu đãi ‘Gửi tiết kiệm - Mở kho báu - Đón Lễ lớn’ mừng 30/4 - 1/5\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/29/anh-ava-2663.jpg?width=0&s=e0kGhqHWoYLTH1rITTYDxQ\" ></a></br>Nhằm gia tăng trải nghiệm khách hàng trong mùa cao điểm du",
+      "link": "https://vietnamnet.vn/vietinbank-uu-dai-gui-tiet-kiem-mo-kho-bau-don-le-lon-mung-30-4-1-5-2511282.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "a8a52fb88858",
+      "source": "VietnamNet KT",
+      "title": "Ngân hàng VIB: Lợi nhuận quý 1 vượt 2.800 tỷ đồng, ra mắt Privilege Banking",
+      "desc": "<a href=\"https://vietnamnet.vn/ngan-hang-vib-loi-nhuan-quy-1-vuot-2-800-ty-dong-ra-mat-privilege-banking-2511289.html\"><img alt=\"Ngân hàng VIB: Lợi nhuận quý 1 vượt 2.800 tỷ đồng, ra mắt Privilege Banking\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/29/ngan-hang-vib-loi-nhuan-quy-1-vuot-2-2738.jpeg?width=0&s=P8EanHtJdedN9Zzz3Z-a5Q\" ></a></br>Ngân hàng VIB công bố ",
+      "link": "https://vietnamnet.vn/ngan-hang-vib-loi-nhuan-quy-1-vuot-2-800-ty-dong-ra-mat-privilege-banking-2511289.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "39063cb3872c",
+      "source": "VietnamNet KT",
+      "title": "Dịch vụ thông tin tín dụng không được gián đoạn quá 4 giờ",
+      "desc": "<a href=\"https://vietnamnet.vn/dich-vu-thong-tin-tin-dung-khong-duoc-gian-doan-qua-4-gio-2511055.html\"><img alt=\"Dịch vụ thông tin tín dụng không được gián đoạn quá 4 giờ\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/29/dich-vu-thong-tin-tin-dung-khong-duoc-gian-doan-qua-4-gio-1135.jpg?width=0&s=tElCcxI-V3IA88Fh7wJngw\" ></a></br>Công ty thông tin tín dụng có phương",
+      "link": "https://vietnamnet.vn/dich-vu-thong-tin-tin-dung-khong-duoc-gian-doan-qua-4-gio-2511055.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "eb9f45f804c3",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 29/4/2026: Quay đầu giảm hàng loạt, hạ tới gần 1%/năm",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-29-4-2026-quay-dau-giam-hang-loat-ha-toi-gan-1-nam-2511029.html\"><img alt=\"Lãi suất ngân hàng hôm nay 29/4/2026: Quay đầu giảm hàng loạt, hạ tới gần 1%/năm\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/29/nam-751.jpg?width=0&s=DECZElsXTxVJ1JBPyPrh5Q\" ></a></br>Lãi suất ngân hàng hôm nay 29/4/2026, có tới 33 ",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-29-4-2026-quay-dau-giam-hang-loat-ha-toi-gan-1-nam-2511029.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "a72cef0e3feb",
+      "source": "VietnamNet KT",
+      "title": "T&amp;T Group và hướng đi khác biệt trong phát triển bất động sản",
+      "desc": "<a href=\"https://vietnamnet.vn/t-t-group-va-huong-di-khac-biet-trong-phat-trien-bat-dong-san-2510921.html\"><img alt=\"T&amp;T Group và hướng đi khác biệt trong phát triển bất động sản\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/28/tt-group-va-huong-di-khac-biet-trong-phat-trien-bat-dong-san-2157.jpg?width=0&s=mpxTNjCmsJ-m_weRvc9yjw\" ></a></br>Sau gần hai thập kỷ t",
+      "link": "https://vietnamnet.vn/t-t-group-va-huong-di-khac-biet-trong-phat-trien-bat-dong-san-2510921.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "f0f55109cd21",
+      "source": "VietnamNet KT",
+      "title": "Chia cổ tức tiền mặt 30%, cổ đông lo LPBank hụt hơi trong cuộc đua tăng vốn",
+      "desc": "<a href=\"https://vietnamnet.vn/chia-co-tuc-tien-mat-30-co-dong-lo-lpbank-hut-hoi-trong-cuoc-dua-tang-von-2510758.html\"><img alt=\"Chia cổ tức tiền mặt 30%, cổ đông lo LPBank hụt hơi trong cuộc đua tăng vốn\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/28/chia-co-tuc-tien-mat-30-co-dong-lo-lpbank-hut-hoi-trong-cuoc-dua-tang-von-1039.jpg?width=0&s=qMRWGtTzuMvGfc1VHSEW",
+      "link": "https://vietnamnet.vn/chia-co-tuc-tien-mat-30-co-dong-lo-lpbank-hut-hoi-trong-cuoc-dua-tang-von-2510758.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "24fd2fc98125",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 28/4/2026: Một nhà băng đồng loạt giảm tất cả kỳ hạn",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-28-4-2026-mot-nha-bang-dong-loat-giam-tat-ca-ky-han-2510635.html\"><img alt=\"Lãi suất ngân hàng hôm nay 28/4/2026: Một nhà băng đồng loạt giảm tất cả kỳ hạn\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/28/2026-mot-nha-bang-dong-loat-giam-tat-ca-ky-han-457.jpg?width=0&s=_iKP4q2GISybiJk4I9IPAQ\" ></a></br>Lãi s",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-28-4-2026-mot-nha-bang-dong-loat-giam-tat-ca-ky-han-2510635.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "e5d21e6ff4f7",
+      "source": "VietnamNet KT",
+      "title": "Cách tính lãi suất tiền gửi tiết kiệm ngân hàng chính xác nhất để không bị thiệt",
+      "desc": "<a href=\"https://vietnamnet.vn/cach-tinh-lai-suat-tien-gui-tiet-kiem-ngan-hang-chinh-xac-nhat-2509811.html\"><img alt=\"Cách tính lãi suất tiền gửi tiết kiệm ngân hàng chính xác nhất để không bị thiệt\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/27/cach-tinh-lai-suat-tien-gui-tiet-kiem-ngan-hang-chinh-xac-nhat-de-khong-bi-thiet-1413.jpg?width=0&s=8XWR9Gev8kCKlg-PqSl",
+      "link": "https://vietnamnet.vn/cach-tinh-lai-suat-tien-gui-tiet-kiem-ngan-hang-chinh-xac-nhat-2509811.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "bc40723a855b",
+      "source": "VietnamNet KT",
+      "title": "Điểm danh loạt ngân hàng chuyển trụ sở chính",
+      "desc": "<a href=\"https://vietnamnet.vn/diem-danh-loat-ngan-hang-chuyen-tru-so-chinh-2509364.html\"><img alt=\"Điểm danh loạt ngân hàng chuyển trụ sở chính\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/27/diem-danh-loat-ngan-hang-chuyen-tru-so-chinh-1196.jpg?width=0&s=JmsfIQsNP02i03X2Gva7-g\" ></a></br>Việc dịch chuyển trụ sở chính trong ngành ngân hàng đang gia tăng, khi nhiề",
+      "link": "https://vietnamnet.vn/diem-danh-loat-ngan-hang-chuyen-tru-so-chinh-2509364.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "1271c908210f",
+      "source": "VietnamNet KT",
+      "title": "Gửi tiết kiệm các ngân hàng nào lãi suất cao nhất hơn 7% thời điểm này?",
+      "desc": "<a href=\"https://vietnamnet.vn/gui-tiet-kiem-o-dau-de-co-lai-suat-tren-7-nam-2510363.html\"><img alt=\"Gửi tiết kiệm các ngân hàng nào lãi suất cao nhất hơn 7% thời điểm này?\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/26/gui-tiet-kiem-cac-ngan-hang-nao-co-loi-nhat-lai-suat-cao-nhat-thoi-diem-nay-2157.jpg?width=0&s=FkBF_Kupvq9As56N8iOt2w\" ></a></br>Làn sóng giảm lã",
+      "link": "https://vietnamnet.vn/gui-tiet-kiem-o-dau-de-co-lai-suat-tren-7-nam-2510363.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "b462425a241a",
+      "source": "VietnamNet KT",
+      "title": "Vay thẻ tín dụng, nợ ‘đội’ từ 11 triệu lên 188 triệu đồng",
+      "desc": "<a href=\"https://vietnamnet.vn/vay-the-tin-dung-no-doi-tu-11-trieu-len-188-trieu-dong-2509881.html\"><img alt=\"Vay thẻ tín dụng, nợ ‘đội’ từ 11 triệu lên 188 triệu đồng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/25/vay-the-tin-dung-no-doi-tu-11-trieu-len-188-trieu-dong-2803.jpg?width=0&s=UQNJkxYZt5naZGAiah2LRw\" ></a></br>Ban đầu chỉ là khoản nợ hơn 11 triệu đồng,",
+      "link": "https://vietnamnet.vn/vay-the-tin-dung-no-doi-tu-11-trieu-len-188-trieu-dong-2509881.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "4f8e06652c9a",
+      "source": "VietnamNet KT",
+      "title": "Chủ tịch Hồ Hùng Anh nói rõ về cho vay bất động sản",
+      "desc": "<a href=\"https://vietnamnet.vn/chu-tich-ho-hung-anh-noi-ro-ve-cho-vay-bat-dong-san-2510097.html\"><img alt=\"Chủ tịch Hồ Hùng Anh nói rõ về cho vay bất động sản\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/25/chu-tich-ho-hung-anh-noi-ro-ve-cho-vay-bat-dong-san-1064.jpg?width=0&s=MjG3zopylCaF68BzPF-ELg\" ></a></br>Đánh giá về tiềm năng của thị trường bất động sản, ông",
+      "link": "https://vietnamnet.vn/chu-tich-ho-hung-anh-noi-ro-ve-cho-vay-bat-dong-san-2510097.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "4e79cd3d02fd",
+      "source": "VietnamNet KT",
+      "title": "Chiến lược ‘đường dài’ trong đầu tư bất động sản của T&amp;T Group",
+      "desc": "<a href=\"https://vietnamnet.vn/chien-luoc-duong-dai-trong-dau-tu-bat-dong-san-cua-t-t-group-2510085.html\"><img alt=\"Chiến lược ‘đường dài’ trong đầu tư bất động sản của T&amp;T Group\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/25/chien-luoc-duong-dai-trong-dau-tu-bat-dong-san-cua-tt-group-754.jpg?width=0&s=97PfEnQI-RwIj67tpVmXdw\" ></a></br>Hai thập kỷ tham gia và",
+      "link": "https://vietnamnet.vn/chien-luoc-duong-dai-trong-dau-tu-bat-dong-san-cua-t-t-group-2510085.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "aaf15fa87bf6",
+      "source": "VietnamNet KT",
+      "title": "SHB ra mắt nhận diện thương hiệu mới, kiến tạo hệ sinh thái tài chính hiện đại",
+      "desc": "<a href=\"https://vietnamnet.vn/shb-ra-mat-nhan-dien-thuong-hieu-moi-kien-tao-he-sinh-thai-tai-chinh-hien-dai-2510068.html\"><img alt=\"SHB ra mắt nhận diện thương hiệu mới, kiến tạo hệ sinh thái tài chính hiện đại\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/25/shb-ra-mat-nhan-dien-thuong-hieu-moi-kien-tao-he-sinh-thai-tai-chinh-hien-dai-597.jpg?width=0&s=tLlbOFEue5",
+      "link": "https://vietnamnet.vn/shb-ra-mat-nhan-dien-thuong-hieu-moi-kien-tao-he-sinh-thai-tai-chinh-hien-dai-2510068.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "6d8f527dc5c1",
+      "source": "VietnamNet KT",
+      "title": "Ngân hàng bán khoản nợ hơn 400 tỷ của công ty thức ăn chăn nuôi",
+      "desc": "<a href=\"https://vietnamnet.vn/ngan-hang-ban-khoan-no-hon-400-ty-cua-cong-ty-thuc-an-chan-nuoi-2509328.html\"><img alt=\"Ngân hàng bán khoản nợ hơn 400 tỷ của công ty thức ăn chăn nuôi\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/25/ngan-hang-ban-khoan-no-hon-400-ty-cua-cong-ty-thuc-an-chan-nuoi-495.jpg?width=0&s=mHo1_4g7aMmNe-BY3twOyQ\" ></a></br>BIDV thông báo đấu ",
+      "link": "https://vietnamnet.vn/ngan-hang-ban-khoan-no-hon-400-ty-cua-cong-ty-thuc-an-chan-nuoi-2509328.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "51ccb8e4619d",
+      "source": "VietnamNet KT",
+      "title": "Năm 2026, HDBank nhắm đích lợi nhuận tăng 41%, quy mô tiệm cận 1,2 triệu tỷ đồng",
+      "desc": "<a href=\"https://vietnamnet.vn/nam-2026-hdbank-nham-dich-loi-nhuan-tang-41-quy-mo-tiem-can-1-2-trieu-ty-dong-2509946.html\"><img alt=\"Năm 2026, HDBank nhắm đích lợi nhuận tăng 41%, quy mô tiệm cận 1,2 triệu tỷ đồng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/24/nam-2026-hdbank-nham-dich-loi-nhuan-tang-41-quy-mo-tiem-can-12-trieu-ty-dong-2891.jpg?width=0&s=E8aj2d8B",
+      "link": "https://vietnamnet.vn/nam-2026-hdbank-nham-dich-loi-nhuan-tang-41-quy-mo-tiem-can-1-2-trieu-ty-dong-2509946.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "22a2225e5cef",
+      "source": "VietnamNet KT",
+      "title": "Agribank tham gia Diễn đàn Kinh tế Việt Nam - Hàn Quốc",
+      "desc": "<a href=\"https://vietnamnet.vn/agribank-tham-gia-dien-dan-kinh-te-viet-nam-han-quoc-2509821.html\"><img alt=\"Agribank tham gia Diễn đàn Kinh tế Việt Nam - Hàn Quốc\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/24/agribank-tham-gia-dien-dan-kinh-te-viet-nam-han-quoc-1599.jpeg?width=0&s=oFMbN2XBuysUdG7cOEJHdw\" ></a></br>Tham dự Diễn đàn Kinh tế Việt Nam - Hàn Quốc, Ag",
+      "link": "https://vietnamnet.vn/agribank-tham-gia-dien-dan-kinh-te-viet-nam-han-quoc-2509821.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "04b6c8a2be52",
+      "source": "VietnamNet KT",
+      "title": "Tỷ phú Nguyễn Thị Phương Thảo nói về tiếp nhận chuyển giao ngân hàng Đông Á",
+      "desc": "<a href=\"https://vietnamnet.vn/ty-phu-nguyen-thi-phuong-thao-noi-ve-tiep-nhan-chuyen-giao-ngan-hang-dong-a-2509763.html\"><img alt=\"Tỷ phú Nguyễn Thị Phương Thảo nói về tiếp nhận chuyển giao ngân hàng Đông Á\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/24/ty-phu-nguyen-thi-phuong-thao-noi-ve-tiep-nhan-chuyen-giao-ngan-hang-dong-a-1502.jpg?width=0&s=_sw8KHpoNKnh3KqE",
+      "link": "https://vietnamnet.vn/ty-phu-nguyen-thi-phuong-thao-noi-ve-tiep-nhan-chuyen-giao-ngan-hang-dong-a-2509763.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "6a8495463f4b",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 24/4/2026: Giảm mạnh trước kỳ nghỉ lễ Giỗ Tổ",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-24-4-2026-giam-manh-truoc-ky-nghi-le-gio-to-2509650.html\"><img alt=\"Lãi suất ngân hàng hôm nay 24/4/2026: Giảm mạnh trước kỳ nghỉ lễ Giỗ Tổ\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/24/2026-giam-manh-truoc-ky-nghi-le-gio-to-1033.jpg?width=0&s=l3-htC12pWC378C34TwTFA\" ></a></br>Lãi suất ngân hàng hôm nay 2",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-24-4-2026-giam-manh-truoc-ky-nghi-le-gio-to-2509650.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "d6614498a78b",
+      "source": "VietnamNet KT",
+      "title": "Ngân hàng nghỉ lễ Giỗ tổ, 30/4 và 1/5: Lưu ý chuyển khoản liên ngân hàng",
+      "desc": "<a href=\"https://vietnamnet.vn/lich-nghi-le-gio-to-hung-vuong-va-ngay-30-4-1-5-cua-cac-ngan-hang-2509348.html\"><img alt=\"Ngân hàng nghỉ lễ Giỗ tổ, 30/4 và 1/5: Lưu ý chuyển khoản liên ngân hàng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/24/5-luu-y-chuyen-khoan-lien-ngan-hang-262.jpg?width=0&s=T75-r87lSqq3p5lklQk1dw\" ></a></br>Các ngân hàng thông báo lịch nghỉ lễ",
+      "link": "https://vietnamnet.vn/lich-nghi-le-gio-to-hung-vuong-va-ngay-30-4-1-5-cua-cac-ngan-hang-2509348.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "e06325ecff8e",
+      "source": "VietnamNet KT",
+      "title": "Ngân hàng thu giữ loạt xe điện của một doanh nghiệp taxi",
+      "desc": "<a href=\"https://vietnamnet.vn/nam-a-bank-thu-giu-5-xe-dien-vinfast-cua-mai-linh-lao-cai-2509413.html\"><img alt=\"Ngân hàng thu giữ loạt xe điện của một doanh nghiệp taxi\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/23/ngan-hang-thu-giu-loat-xe-dien-cua-mai-linh-lao-cai-3148.jpg?width=0&s=DZ9Q1wzmGcMBR3FulN5bZw\" ></a></br>Ngân hàng TMCP Nam Á (Nam A Bank) thông báo",
+      "link": "https://vietnamnet.vn/nam-a-bank-thu-giu-5-xe-dien-vinfast-cua-mai-linh-lao-cai-2509413.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "22724f5e7a23",
+      "source": "VietnamNet KT",
+      "title": "ĐHĐCĐ SHB lập kỷ lục cổ đông tham dự - động lực bứt phá trong kỷ nguyên mới",
+      "desc": "<a href=\"https://vietnamnet.vn/dhdcd-shb-lap-ky-luc-co-dong-tham-du-dong-luc-but-pha-trong-ky-nguyen-moi-2509530.html\"><img alt=\"ĐHĐCĐ SHB lập kỷ lục cổ đông tham dự - động lực bứt phá trong kỷ nguyên mới\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/23/dhdcd-shb-lap-ky-luc-co-dong-tham-du-dong-luc-but-pha-trong-ky-nguyen-moi-2533.jpg?width=0&s=vgfG9i6JUBtOGn1F1NKI",
+      "link": "https://vietnamnet.vn/dhdcd-shb-lap-ky-luc-co-dong-tham-du-dong-luc-but-pha-trong-ky-nguyen-moi-2509530.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "65f89ac1c314",
+      "source": "VietnamNet KT",
+      "title": "Vincom Retail đặt mục tiêu trở thành nhà quản lý BĐS bán lẻ hàng đầu châu Á",
+      "desc": "<a href=\"https://vietnamnet.vn/vincom-retail-dat-muc-tieu-tro-thanh-nha-quan-ly-bds-ban-le-hang-dau-chau-a-2509514.html\"><img alt=\"Vincom Retail đặt mục tiêu trở thành nhà quản lý BĐS bán lẻ hàng đầu châu Á\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/23/vincom-retail-dat-muc-tieu-tro-thanh-nha-quan-ly-bds-ban-le-hang-dau-chau-a-2411.jpg?width=0&s=wOD1sd6eU-r4qHJo",
+      "link": "https://vietnamnet.vn/vincom-retail-dat-muc-tieu-tro-thanh-nha-quan-ly-bds-ban-le-hang-dau-chau-a-2509514.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "33319482d874",
+      "source": "VietnamNet KT",
+      "title": "HDBank tài trợ theo chuỗi: Tín chấp đến 5 tỷ, tỷ lệ tài trợ đến 100%",
+      "desc": "<a href=\"https://vietnamnet.vn/hdbank-tai-tro-theo-chuoi-tin-chap-den-5-ty-ty-le-tai-tro-den-100-2509268.html\"><img alt=\"HDBank tài trợ theo chuỗi: Tín chấp đến 5 tỷ, tỷ lệ tài trợ đến 100%\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/23/hdbank-tai-tro-theo-chuoi-tin-chap-den-5-ty-ty-le-tai-tro-den-100-822.jpg?width=0&s=8muhGhFGbq3v-9DRr3PSaQ\" ></a></br>HDBank đẩy",
+      "link": "https://vietnamnet.vn/hdbank-tai-tro-theo-chuoi-tin-chap-den-5-ty-ty-le-tai-tro-den-100-2509268.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "5fd00a295d9a",
+      "source": "VietnamNet KT",
+      "title": "Chiêu thức lừa đảo mới: Mời nhận tiền khi tải app ngân hàng",
+      "desc": "<a href=\"https://vietnamnet.vn/chieu-thuc-lua-dao-moi-moi-nhan-tien-khi-tai-app-ngan-hang-2507708.html\"><img alt=\"Chiêu thức lừa đảo mới: Mời nhận tiền khi tải app ngân hàng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/23/chieu-thuc-lua-dao-moi-moi-nhan-tien-khi-tai-app-ngan-hang-666.jpg?width=0&s=UoPT_FRbIfHajJtQpjP4hA\" ></a></br>Người dùng được mời nhận ưu đãi k",
+      "link": "https://vietnamnet.vn/chieu-thuc-lua-dao-moi-moi-nhan-tien-khi-tai-app-ngan-hang-2507708.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "5fdf29d0132d",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 23/4: Lãi suất nhà giàu cũng hạ",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-23-4-lai-suat-vip-giam-theo-lai-suat-thong-thuong-2509207.html\"><img alt=\"Lãi suất ngân hàng hôm nay 23/4: Lãi suất nhà giàu cũng hạ\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/23/4-lai-suat-vip-giam-theo-lai-suat-thong-thuong-650.jpg?width=0&s=FDvjNbwNetvwW_pX3A6qHg\" ></a></br>Lãi suất ngân hàng hôm nay 2",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-23-4-lai-suat-vip-giam-theo-lai-suat-thong-thuong-2509207.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "40d75f09c319",
+      "source": "VietnamNet KT",
+      "title": "Cán bộ ngân hàng tiết lộ lý do rót tiền mạnh cho chủ một loại tài sản",
+      "desc": "<a href=\"https://vietnamnet.vn/vi-sao-ngan-hang-uu-tien-tai-san-bao-dam-la-bat-dong-san-2508770.html\"><img alt=\"Cán bộ ngân hàng tiết lộ lý do rót tiền mạnh cho chủ một loại tài sản\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/21/can-bo-ngan-hang-tiet-lo-chuyen-uu-tien-the-chap-mot-loai-tai-san-gay-tranh-cai-2956.jpg?width=0&s=dRSkh8oZyYw9G4pMx1W1Cw\" ></a></br>11 ",
+      "link": "https://vietnamnet.vn/vi-sao-ngan-hang-uu-tien-tai-san-bao-dam-la-bat-dong-san-2508770.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "57b3cbaa4a70",
+      "source": "VietnamNet KT",
+      "title": "Chủ tịch SHB nói thẳng về dư nợ bất động sản, chọn rể và tái định vị",
+      "desc": "<a href=\"https://vietnamnet.vn/chu-tich-shb-noi-thang-ve-du-no-bat-dong-san-chon-re-cho-shb-va-tai-dinh-vi-2508933.html\"><img alt=\"Chủ tịch SHB nói thẳng về dư nợ bất động sản, chọn rể và tái định vị\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/22/chu-tich-shb-noi-thang-ve-du-no-bat-dong-san-chon-re-va-tai-dinh-vi-2814.jpg?width=0&s=zGI_KK9amuW9AmV27ISkow\" ></a></",
+      "link": "https://vietnamnet.vn/chu-tich-shb-noi-thang-ve-du-no-bat-dong-san-chon-re-cho-shb-va-tai-dinh-vi-2508933.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "32ae654c4889",
+      "source": "VietnamNet KT",
+      "title": "Tổng Giám đốc VPBank nói gì về xu hướng lãi suất?",
+      "desc": "<a href=\"https://vietnamnet.vn/tong-giam-doc-vpbank-lai-suat-huy-dong-se-tiep-tuc-cao-thoi-gian-nua-2509056.html\"><img alt=\"Tổng Giám đốc VPBank nói gì về xu hướng lãi suất?\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/22/tong-giam-doc-vpbank-lai-suat-huy-dong-se-tiep-tuc-cao-thoi-gian-nua-2099.jpg?width=0&s=blUSn3qJwYsf0XhUHcmoaw\" ></a></br>Ông Nguyễn Đức Vinh ch",
+      "link": "https://vietnamnet.vn/tong-giam-doc-vpbank-lai-suat-huy-dong-se-tiep-tuc-cao-thoi-gian-nua-2509056.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "184595ed7e04",
+      "source": "VietnamNet KT",
+      "title": "Có thể cần thêm vài năm để xử lý 32,5% cổ phần của ông Trầm Bê tại Sacombank",
+      "desc": "<a href=\"https://vietnamnet.vn/co-the-can-them-vai-nam-de-xu-ly-32-5-co-phan-cua-ong-tram-be-tai-sacombank-2508943.html\"><img alt=\"Có thể cần thêm vài năm để xử lý 32,5% cổ phần của ông Trầm Bê tại Sacombank\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/22/co-the-can-them-vai-nam-de-xu-ly-325-co-phan-cua-ong-tram-be-tai-sacombank-1414.jpg?width=0&s=nsx2aFPCRzQOR8Qy",
+      "link": "https://vietnamnet.vn/co-the-can-them-vai-nam-de-xu-ly-32-5-co-phan-cua-ong-tram-be-tai-sacombank-2508943.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "614b8951c415",
+      "source": "VietnamNet KT",
+      "title": "Giải mã ‘công thức’ tăng trưởng 22,6% của Techcombank",
+      "desc": "<a href=\"https://vietnamnet.vn/giai-ma-cong-thuc-tang-truong-22-6-cua-techcombank-2508864.html\"><img alt=\"Giải mã ‘công thức’ tăng trưởng 22,6% của Techcombank\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/22/giai-ma-cong-thuc-tang-truong-226-cua-techcombank-636.jpg?width=0&s=WnTiUimAuL-F3vOAaC66Ew\" ></a></br>Với lợi nhuận trước thuế bứt phá 22,6% cùng những dấu ấn",
+      "link": "https://vietnamnet.vn/giai-ma-cong-thuc-tang-truong-22-6-cua-techcombank-2508864.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "eb3edd30cbc7",
+      "source": "VietnamNet KT",
+      "title": "Ký kết hợp đồng cấp tín dụng Dự án đầu tư xây dựng cao tốc Ninh Bình-Hải Phòng",
+      "desc": "<a href=\"https://vietnamnet.vn/ky-ket-hop-dong-cap-tin-dung-du-an-dau-tu-xay-dung-cao-toc-ninh-binh-hai-phong-2508841.html\"><img alt=\"Ký kết hợp đồng cấp tín dụng Dự án đầu tư xây dựng cao tốc Ninh Bình-Hải Phòng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/22/ky-ket-hop-dong-cap-tin-dung-du-an-dau-tu-xay-dung-cao-toc-ninh-binh-hai-phong-404.jpg?width=0&s=ynbTXxWc",
+      "link": "https://vietnamnet.vn/ky-ket-hop-dong-cap-tin-dung-du-an-dau-tu-xay-dung-cao-toc-ninh-binh-hai-phong-2508841.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "d54b54fc0297",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 22/4: Mức cao nhất vẫn lên tới 10,7%/năm",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-22-4-muc-cao-nhat-van-len-toi-10-7-nam-2508778.html\"><img alt=\"Lãi suất ngân hàng hôm nay 22/4: Mức cao nhất vẫn lên tới 10,7%/năm\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/22/nam-265.jpg?width=0&s=dzcYVx8n2qM6cgx6JqHuyA\" ></a></br>Lãi suất ngân hàng hôm nay 22/4/2026 ghi nhận lãi suất huy động cao nhất ",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-22-4-muc-cao-nhat-van-len-toi-10-7-nam-2508778.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "43c1ca780369",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 21/4/2026: Lãi suất tiết kiệm tiếp tục đi xuống",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-21-4-2026-lai-suat-tiet-kiem-tiep-tuc-di-xuong-2508416.html\"><img alt=\"Lãi suất ngân hàng hôm nay 21/4/2026: Lãi suất tiết kiệm tiếp tục đi xuống\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/21/2026-lai-suat-tiet-kiem-tiep-tuc-di-xuong-370.jpg?width=0&s=zm_XgNcGjP0zRAZxhhd4nA\" ></a></br>Lãi suất ngân hàng h",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-21-4-2026-lai-suat-tiet-kiem-tiep-tuc-di-xuong-2508416.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "12904a2ffc62",
+      "source": "VietnamNet KT",
+      "title": "Agribank lan tỏa dòng vốn giá rẻ, tạo động lực mới cho tăng trưởng",
+      "desc": "<a href=\"https://vietnamnet.vn/agribank-lan-toa-dong-von-gia-re-tao-dong-luc-moi-cho-tang-truong-2508128.html\"><img alt=\"Agribank lan tỏa dòng vốn giá rẻ, tạo động lực mới cho tăng trưởng\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/20/agribank-lan-toa-dong-von-gia-re-tao-dong-luc-moi-cho-tang-truong-916.jpg?width=0&s=AITYCSNgwwBH7P7bvVCyQw\" ></a></br>Chủ động giả",
+      "link": "https://vietnamnet.vn/agribank-lan-toa-dong-von-gia-re-tao-dong-luc-moi-cho-tang-truong-2508128.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "b9fb05fc2c3c",
+      "source": "VietnamNet KT",
+      "title": "ACB tung gói ưu đãi ‘khủng’ cho hộ kinh doanh",
+      "desc": "<a href=\"https://vietnamnet.vn/acb-tung-goi-uu-dai-khung-cho-ho-kinh-doanh-2508166.html\"><img alt=\"ACB tung gói ưu đãi ‘khủng’ cho hộ kinh doanh\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/20/acb-tung-goi-uu-dai-khung-cho-ho-kinh-doanh-1106.jpeg?width=0&s=IR8AyOfovrSSgzr66e9f-Q\" ></a></br>ACB triển khai gói ưu đãi tổng trị giá lên đến 30 triệu đồng, không chỉ hỗ ",
+      "link": "https://vietnamnet.vn/acb-tung-goi-uu-dai-khung-cho-ho-kinh-doanh-2508166.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "405775ff4ab8",
+      "source": "VietnamNet KT",
+      "title": "Lãi suất ngân hàng hôm nay 20/4/2026: Nhà băng thứ 30 giảm lãi suất, hạ 0,5%/năm",
+      "desc": "<a href=\"https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-20-4-2026-nha-bang-thu-30-giam-lai-suat-ha-0-5-nam-2508062.html\"><img alt=\"Lãi suất ngân hàng hôm nay 20/4/2026: Nhà băng thứ 30 giảm lãi suất, hạ 0,5%/năm\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/20/nam-382.jpg?width=0&s=Jlcdl8qX_Iv3hsHy2Ypgsw\" ></a></br>Lãi suất ngân hàng hôm nay, 20/4/2026, làn sóng ",
+      "link": "https://vietnamnet.vn/lai-suat-ngan-hang-hom-nay-20-4-2026-nha-bang-thu-30-giam-lai-suat-ha-0-5-nam-2508062.html",
+      "collected_at": "2026-06-11 14:23"
+    },
+    {
+      "id": "60bfea6930b8",
+      "source": "VietnamNet KT",
+      "title": "Cho mượn tài khoản ngân hàng, rủi ro ‘ôm’ nợ xấu",
+      "desc": "<a href=\"https://vietnamnet.vn/cho-muon-tai-khoan-ngan-hang-rui-ro-om-no-xau-2507703.html\"><img alt=\"Cho mượn tài khoản ngân hàng, rủi ro ‘ôm’ nợ xấu\" src=\"https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/4/19/cho-muon-tai-khoan-ngan-hang-rui-ro-om-no-xau-969.jpg?width=0&s=hWakpl24VsZ4bSdzrSlMJA\" ></a></br>Việc nhận tiền chuyển khoản dưới với nội dung như “giúp đỡ”, “ủy quyền",
+      "link": "https://vietnamnet.vn/cho-muon-tai-khoan-ngan-hang-rui-ro-om-no-xau-2507703.html",
+      "collected_at": "2026-06-11 14:23"
+    }
+  ],
   "last_daily_report": "",
   "last_weekly_summary": "",
   "weekly_reports": []
