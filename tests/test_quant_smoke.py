@@ -23,6 +23,20 @@ def main():
         assert key in sample, f'thieu chi bao: {key}'
     print(f'OK — {len(prices)} symbols, sample keys: {sorted(sample.keys())}')
 
+    n_vol = sum(1 for e in prices.values() if e.get('vol_ratio') is not None)
+    assert n_vol >= 5, f'qua it symbol co vol_ratio: {n_vol}'
+    vol_line = ca.build_volume_alert_line(prices)
+    print(f'Vol ratio: {n_vol}/{len(prices)} symbols | Alert: {vol_line or "(khong co bat thuong)"}')
+
+    print('=== 1b. FRED macro (6 series, khong can key) ===')
+    macro = ca.fetch_macro_fred()
+    assert len(macro) >= 4, f'FRED chi tra ve {len(macro)}/6 series — kiem tra throttle/timeout'
+    for sid in ('DFII10', 'T5YIE', 'VIXCLS'):
+        if sid not in macro:
+            print(f'  WARN: thieu series moi {sid} (co the do mang)')
+    for sid, d in macro.items():
+        print(f'  {d["label"]}: {d["value"]} ({d["date"]})')
+
     print('=== 2. Tin hieu rule-based ===')
     for name, e in prices.items():
         trend, signal = ca.classify_trend_signal(e)
@@ -56,7 +70,7 @@ def main():
     fake_articles = [{'source': 'Test', 'title': 'Oil prices rise on OPEC cut', 'desc': 'crude supply'}]
     prompt = ca.build_session_report_prompt(
         fake_articles, 'morning', '2026-06-11', 6,
-        price_block=ca.format_price_for_prompt(prices, {}, cot),
+        price_block=ca.format_price_for_prompt(prices, macro, cot),
         prices=prices,
     )
     assert 'TÍNH SẴN' in prompt and 'RSI' in prompt

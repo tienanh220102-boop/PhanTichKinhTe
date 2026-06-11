@@ -141,6 +141,9 @@ TD_SYMBOLS = {
 
 FRED_MACRO_SERIES = {
     'DGS10':    '10Y Treasury Yield (%)',
+    'DFII10':   'Real Yield 10Y TIPS (%)',    # lợi suất thực — biến số quan trọng nhất với vàng
+    'T5YIE':    '5Y Breakeven Inflation (%)',  # kỳ vọng lạm phát
+    'VIXCLS':   'VIX',                         # risk-on/off, đối chiếu tỷ lệ Đồng/Vàng
     'CPIAUCSL': 'CPI (US)',
     'DEXUSEU':  'USD/EUR',
 }
@@ -362,6 +365,22 @@ def fetch_prices_yfinance():
                 if hi52 > lo52:
                     e['pos52w'] = round((cur - lo52) / (hi52 - lo52) * 100, 1)
 
+                # Volume phiên ĐÃ ĐÓNG gần nhất so với median 20 phiên trước đó.
+                # Bar cuối của yfinance là phiên đang chạy (volume chưa đủ) nên dùng iloc[-2];
+                # median + lọc ngày volume=0 để tránh nhiễu do contract roll của futures.
+                try:
+                    vol = _col('Volume')
+                    if len(vol) >= 25:
+                        last_closed = float(vol.iloc[-2])
+                        base = [float(x) for x in vol.iloc[-22:-2] if float(x) > 0]
+                        if last_closed > 0 and len(base) >= 10:
+                            base.sort()
+                            med = base[len(base) // 2]
+                            if med > 0:
+                                e['vol_ratio'] = round(min(last_closed / med, 99.0), 2)
+                except Exception:
+                    pass
+
                 prices[name] = e
             except Exception:
                 pass
@@ -495,6 +514,22 @@ def build_cross_asset_lines(prices):
     return lines
 
 
+def build_volume_alert_line(prices):
+    """Liệt kê symbols có volume phiên đóng gần nhất ≥1.5× median 20 phiên.
+    Chỉ cảnh báo phía cao — volume cao xác nhận biến động giá là thật;
+    phía thấp không dùng vì volume futures Yahoo hay thiếu/trễ."""
+    hot = []
+    for name in YFINANCE_SYMBOLS:
+        e = prices.get(name)
+        if not e or e.get('vol_ratio') is None:
+            continue
+        if e['vol_ratio'] >= 1.5:
+            hot.append(f'{VN_NAMES.get(name, name)} {e["vol_ratio"]:.1f}×')
+    if not hot:
+        return None
+    return '📊 Volume cao bất thường (phiên đóng gần nhất so median 20 phiên): ' + ', '.join(hot)
+
+
 def build_cot_block(state):
     """Vị thế quỹ đầu cơ CFTC COT + thay đổi so với tuần trước (lưu trong state)."""
     cot = fetch_cftc_cot_structured()
@@ -580,8 +615,10 @@ def fetch_prices_twelvedata():
 
 
 def fetch_macro_fred():
-    """Macro indicators từ FRED (miễn phí, không cần key)."""
+    """Macro indicators từ FRED (miễn phí, không cần key).
+    Keyless dùng fredgraph.csv giới hạn 90 ngày (cosd) — tải full history dễ timeout."""
     macro = {}
+    start = (datetime.now(timezone.utc) - timedelta(days=90)).strftime('%Y-%m-%d')
     for series_id, label in FRED_MACRO_SERIES.items():
         try:
             if FRED_API_KEY:
@@ -594,13 +631,14 @@ def fetch_macro_fred():
                 obs = [o for o in r.json().get('observations', []) if o['value'] != '.']
             else:
                 r = requests.get(
-                    f'https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}',
-                    timeout=15,
+                    f'https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}&cosd={start}',
+                    timeout=30,
                 )
                 rows = r.text.strip().split('\n')[1:]
                 valid = [l for l in rows if ',' in l and not l.split(',')[1].strip() == '.']
                 obs = [{'date': l.split(',')[0], 'value': l.split(',')[1].strip()} for l in valid[-3:]]
                 obs.reverse()
+                time.sleep(0.5)  # tránh bị FRED throttle khi gọi nhiều series liên tiếp
             if obs:
                 macro[series_id] = {'label': label, 'value': obs[0]['value'], 'date': obs[0]['date']}
         except Exception as e:
@@ -671,6 +709,8 @@ def format_price_for_prompt(prices, macro, cot_block=None):
             s += f'  |  ATR: {e["atr_pct"]:.1f}%/ngày'
         if e.get('pos52w') is not None:
             s += f'  |  52W: {e["pos52w"]:.0f}% ({e["low52w"]:{pfmt}}–{e["high52w"]:{pfmt}})'
+        if e.get('vol_ratio') is not None:
+            s += f'  |  Vol: {e["vol_ratio"]:.1f}× median20'
         return s
 
     out = ['--- GIÁ THỊ TRƯỜNG THỰC TẾ ---']
@@ -699,7 +739,7 @@ def format_price_for_prompt(prices, macro, cot_block=None):
         if dxy.get('rsi14') is not None:
             s += f'  |  RSI14: {dxy["rsi14"]:.0f}'
         out.append(s)
-    for sid in ['DGS10', 'CPIAUCSL', 'DEXUSEU']:
+    for sid in FRED_MACRO_SERIES:
         if sid in macro:
             d = macro[sid]
             out.append(f'  {d["label"]}: {d["value"]} ({d["date"]})')
@@ -712,7 +752,8 @@ def format_price_for_prompt(prices, macro, cot_block=None):
     if cot_block:
         out.append(cot_block)
 
-    out.append('→ ↑/↓ = trên/dưới MA20; RSI>70 quá mua, RSI<30 quá bán; 52W = vị trí % trong dải 52 tuần')
+    out.append('→ ↑/↓ = trên/dưới MA20; RSI>70 quá mua, RSI<30 quá bán; 52W = vị trí % trong dải 52 tuần; '
+               'Vol ≥1.5× median20 = động lượng được volume xác nhận; real yield giảm = hỗ trợ vàng; VIX cao = risk-off')
     out.append('---')
     return '\n'.join(out)
 
@@ -851,7 +892,7 @@ QUAN TRỌNG:
 - Nếu tín hiệu định lượng mâu thuẫn với tin tức, nêu rõ mâu thuẫn đó trong phần Rủi ro.
 
 🌍 VĨ MÔ & TIN TỨC NỔI BẬT
-[2-3 yếu tố vĩ mô quan trọng nhất, mỗi yếu tố gắn với số liệu từ bảng dữ liệu (DXY, 10Y yield, CPI...) nếu liên quan]
+[2-3 yếu tố vĩ mô quan trọng nhất, mỗi yếu tố gắn với số liệu từ bảng dữ liệu (DXY, 10Y yield, real yield TIPS, breakeven inflation, VIX, CPI...) nếu liên quan]
 
 🛢️ NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên
 Xu hướng: {energy[0]}
@@ -988,13 +1029,15 @@ def try_send_session_report(state, now_vn, session):
     # Bảng số liệu thuần (deterministic) — luôn đứng trước phần phân tích LLM
     quant_table = build_quant_table(prices)
     table_html  = f'<pre>{quant_table}</pre>\n\n' if quant_table else ''
+    vol_alert   = build_volume_alert_line(prices)
+    vol_html    = f'{vol_alert}\n\n' if vol_alert else ''
 
     header = (
         f'{emoji} <b>BÁO CÁO {session_vn.upper()} — {now_vn.strftime("%d/%m/%Y")}</b>\n'
         f'📰 {len(articles)}/{len(all_pending)} tin chọn lọc | '
         f'⏱ {now_vn.strftime("%H:%M")} (Giờ VN){gold_line_html}{price_line_html}\n\n'
     )
-    msg = header + table_html + text
+    msg = header + table_html + vol_html + text
 
     if send_telegram(msg):
         print(f'Gửi báo cáo {session_vn} OK')
@@ -1006,6 +1049,8 @@ def try_send_session_report(state, now_vn, session):
         file_parts  = []
         if quant_table:
             file_parts.append('[BẢNG SỐ LIỆU]\n' + quant_table)
+        if vol_alert:
+            file_parts.append(vol_alert)
         if cross_lines:
             file_parts.append('[LIÊN THỊ TRƯỜNG]\n' + '\n'.join(f'  {c}' for c in cross_lines))
         if cot_block:
