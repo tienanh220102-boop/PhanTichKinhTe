@@ -1,0 +1,12 @@
+EVENT STUDY: fomc_20260429
+Ngay chay: 2026-06-11 | Su kien: 2026-04-29 | y=ICLN | x=SPY,XLE
+Ghi chu: FOMC giu lai suat 8-4 dissent (lan dau 4 phieu chong tu 1992)
+
+=== Event Impact: ICLN | su kien 2026-04-29 ===
+Pre: 171 phien | Post: 30 phien | covariates: SPY, XLE
+Lech thuc te vs counterfactual tai ngay cuoi: -1.02%  (CI95: -13.46% .. +11.42%)
+Ket luan thong ke: KHONG vuot CI 95% — co the la noise
+Luu y: day la phan ung BAT THUONG so voi covariates (relative event
+study) — khong tach duoc kenh tac dong neu su kien anh huong ca covariates.
+
+(Model: statsmodels UnobservedComponents local-level + regression, fit MLE tren pre-period — xem analysis/event_impact.py)

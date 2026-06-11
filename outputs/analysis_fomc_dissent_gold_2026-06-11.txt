@@ -1,0 +1,11 @@
+EVENT STUDY: fomc_dissent_gold
+Ngay chay: 2026-06-11 | Su kien: 2026-04-29 | y=GC=F | x=DX-Y.NYB,TLT
+
+=== Event Impact: GC=F | su kien 2026-04-29 ===
+Pre: 171 phien | Post: 30 phien | covariates: DX-Y.NYB, TLT
+Lech thuc te vs counterfactual tai ngay cuoi: -5.43%  (CI95: -23.25% .. +12.39%)
+Ket luan thong ke: KHONG vuot CI 95% — co the la noise
+Luu y: day la phan ung BAT THUONG so voi covariates (relative event
+study) — khong tach duoc kenh tac dong neu su kien anh huong ca covariates.
+
+(Model: statsmodels UnobservedComponents local-level + regression, fit MLE tren pre-period — xem analysis/event_impact.py)

@@ -44,15 +44,12 @@ if not wb.empty:
     print(dag.sign_checks(wb).to_string(index=False))
 print()
 
-print('=== 3. Event Impact: FOMC 2026-04-29 ===')
-for y_name, tk in [('ICLN (clean energy)', 'ICLN'), ('ESGU (MSCI USA ESG)', 'ESGU')]:
-    df = pipe.fetch_market(
-        {y_name.split()[0]: tk, 'SPY': 'SPY', 'XLE': 'XLE'},
-        start=PRE_START,
-    )
+print('=== 3. Event Impact: FOMC 2026-04-29 (luu vao outputs/) ===')
+from run_event import run_and_save
+for name, tk in [('fomc_dissent_icln', 'ICLN'), ('fomc_dissent_esgu', 'ESGU')]:
     try:
-        ei = EventImpact(df, EVENT)
-        print(ei.report(y_name))
+        run_and_save(name, EVENT, tk, 'SPY,XLE',
+                     note='FOMC giu lai suat 8-4 dissent — lan dau 4 phieu chong tu 1992')
     except Exception as e:
-        print(f'{y_name}: loi — {e}')
+        print(f'{tk}: loi — {e}')
     print()

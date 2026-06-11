@@ -10,7 +10,8 @@ KHÔNG nằm trong workflow cron (nặng + không cần mỗi 30 phút).
 | `data_pipeline.py` | `DataPipeline`: fetch WB annual (REST keyless) + yfinance daily; `align()` resample M/Q; `impute()` ffill/interpolate | Thêm nguồn (GSO, IMF) → thêm method fetch mới |
 | `causal_dag.py` | `CausalDAG`: đồ thị giả định lãi suất/FDI/ESG/GDP/cú sốc năng lượng; xuất GML (DoWhy-ready); `sign_checks()` smell-test | Đổi giả định → sửa `EDGES` |
 | `event_impact.py` | `EventImpact`: counterfactual kiểu CausalImpact bằng statsmodels UnobservedComponents (local level + covariates) | Cần full Bayesian → thay ruột `fit()` bằng tfcausalimpact, interface giữ nguyên |
-| `run_fomc_20260429.py` | Ví dụ hoàn chỉnh: FOMC 29/04/2026 (hold 8-4 dissent) → ICLN/ESGU | Sự kiện mới → copy file, đổi EVENT + tickers |
+| `run_event.py` | **CLI tổng quát** cho mọi sự kiện (Fed/OPEC+/địa chính trị); tự lưu `outputs/analysis_<tên>_<ngày>.txt` → tích lũy thư viện event study | Sự kiện mới = 1 lệnh, không cần code |
+| `run_fomc_20260429.py` | Demo hoàn chỉnh: DAG + smell test + FOMC 29/04/2026 → ICLN/ESGU | — |
 
 ## Quyết định thiết kế (so với blueprint gốc)
 
@@ -32,8 +33,17 @@ pip install statsmodels   # duy nhất; pandas/numpy/yfinance/requests đã có
 ## Chạy
 
 ```bash
+# Sự kiện bất kỳ (ví dụ OPEC+ → WTI, kiểm soát SPY + DXY):
+python analysis/run_event.py --name opec_cut --event 2026-06-01 --y CL=F --x SPY,DX-Y.NYB
+
+# Preset có sẵn:
+python analysis/run_event.py --preset fomc_20260429
+
+# Demo đầy đủ (DAG + smell test + event study):
 python analysis/run_fomc_20260429.py
 ```
+
+Gợi ý y/covariates theo loại sự kiện: xem docstring đầu `run_event.py`.
 
 Kết quả lần chạy 11/06/2026: cả ICLN lẫn ESGU **không phản ứng bất thường
 có ý nghĩa** với FOMC dissent 29/04 sau khi kiểm soát SPY+XLE

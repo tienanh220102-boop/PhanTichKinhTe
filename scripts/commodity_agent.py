@@ -872,7 +872,7 @@ def select_top_articles(articles, limit=MAX_ARTICLES):
     return ranked[:limit]
 
 
-def build_session_report_prompt(articles, session, date_str, month, gold_vnd_line=None, price_block=None, prices=None):
+def build_session_report_prompt(articles, session, date_str, month, gold_vnd_line=None, price_block=None, prices=None, wb_block=None):
     articles_text = '\n'.join([
         f'{i+1}. [{a["source"]} — {SOURCE_ORIGIN.get(a["source"], "?")}] {a["title"]}\n   {a["desc"][:300]}'
         for i, a in enumerate(articles[:MAX_ARTICLES])
@@ -892,6 +892,9 @@ def build_session_report_prompt(articles, session, date_str, month, gold_vnd_lin
     seasonal = get_seasonal_context(month)
     seasonal_note = f'\n{seasonal}\n' if seasonal else ''
 
+    wb_note = (f'\n{wb_block}\n→ Nền cầu dài hạn — dùng đối chiếu trong mục VĨ MÔ '
+               f'khi tin tức nói về nhu cầu Trung Quốc/Ấn Độ.\n') if wb_block else ''
+
     # Tín hiệu đã tính sẵn bằng quy tắc định lượng — LLM không được tự quyết
     sig = build_group_signals(prices or {})
     na3 = ('N/A', 'N/A', 'N/A')
@@ -899,7 +902,7 @@ def build_session_report_prompt(articles, session, date_str, month, gold_vnd_lin
     agri, industrial = sig.get('agri', na3),   sig.get('industrial', na3)
 
     return f"""Bạn là chuyên gia phân tích thị trường hàng hóa toàn cầu với kinh nghiệm giao dịch thực tế.
-Dưới đây là {len(articles)} {context} ngày {date_str}:{price_note}{vnd_note}{seasonal_note}
+Dưới đây là {len(articles)} {context} ngày {date_str}:{price_note}{vnd_note}{seasonal_note}{wb_note}
 
 {articles_text}
 
@@ -952,10 +955,10 @@ Rủi ro: [rủi ro chính cần theo dõi]
 
 Lưu ý: Nếu không đủ tin về một nhóm, phân tích dựa trên số liệu kỹ thuật và bối cảnh mùa vụ. Viết ngắn gọn, rõ ràng, chuyên nghiệp."""
 
-def generate_session_report(articles, session, date_str, month, gold_vnd_line=None, price_block=None, prices=None):
+def generate_session_report(articles, session, date_str, month, gold_vnd_line=None, price_block=None, prices=None, wb_block=None):
     if not articles:
         return None
-    prompt = build_session_report_prompt(articles, session, date_str, month, gold_vnd_line, price_block, prices)
+    prompt = build_session_report_prompt(articles, session, date_str, month, gold_vnd_line, price_block, prices, wb_block)
     return call_gemini(prompt, max_tokens=1600)
 
 # ── World Bank Open Data (REST, khong can key) ───────────────
@@ -1083,7 +1086,8 @@ def try_send_session_report(state, now_vn, session):
     if gold_vnd:
         print(f'  {gold_vnd}')
 
-    text = generate_session_report(articles, session, today_str, now_vn.month, gold_vnd, price_block, prices)
+    wb_block = fetch_wb_global_context(state)
+    text = generate_session_report(articles, session, today_str, now_vn.month, gold_vnd, price_block, prices, wb_block)
     if text == 'QUOTA_EXCEEDED':
         print('Hết quota Gemini, bỏ qua báo cáo.')
         _log.info('SKIP_%s quota_exceeded date=%s', session.upper(), today_str)
