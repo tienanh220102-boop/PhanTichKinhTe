@@ -51,18 +51,16 @@ _COT_MARKETS = {
 }
 
 
-def fetch_cftc_cot() -> 'str | None':
+def fetch_cftc_cot_structured() -> 'dict | None':
     """
-    Tải và phân tích báo cáo COT mới nhất từ CFTC (không cần API key).
-    File: https://www.cftc.gov/dea/newcot/deafut.txt (cập nhật mỗi thứ Sáu).
-
-    Trả về chuỗi tóm tắt vị thế Non-Commercial (quỹ đầu cơ/hedge fund) cho
-    7 mặt hàng: Dầu WTI, Vàng, Bạc, Đồng, Đậu tương, Ngô, Lúa mì.
+    Tải báo cáo COT mới nhất từ CFTC (không cần API key) và trả về dạng số:
+      {'date': 'YYYY-MM-DD', 'markets': {'Dầu WTI': net, 'Vàng XAU': net, ...}}
+    net = NonCommercial Long − NonCommercial Short (vị thế ròng quỹ đầu cơ).
     Trả về None nếu không kết nối được hoặc parse thất bại.
 
     Ý nghĩa trading:
-      NET LONG  → quỹ đang đặt cược giá tăng (bullish signal)
-      NET SHORT → quỹ đang đặt cược giá giảm (bearish signal)
+      net > 0 (NET LONG)  → quỹ đang đặt cược giá tăng (bullish signal)
+      net < 0 (NET SHORT) → quỹ đang đặt cược giá giảm (bearish signal)
     """
     try:
         r = requests.get(
@@ -71,9 +69,9 @@ def fetch_cftc_cot() -> 'str | None':
         )
         r.raise_for_status()
 
-        reader     = csv.reader(io.StringIO(r.text))
-        results    = []
-        report_date = ''
+        reader       = csv.reader(io.StringIO(r.text))
+        markets      = {}
+        report_date  = ''
         seen_markets = set()
 
         for row in reader:
@@ -93,24 +91,34 @@ def fetch_cftc_cot() -> 'str | None':
                     try:
                         nc_long  = int(row[_COT_NC_LONG_IDX].strip().replace(' ', ''))
                         nc_short = int(row[_COT_NC_SHORT_IDX].strip().replace(' ', ''))
-                        net      = nc_long - nc_short
-                        direction = 'NET LONG ↑' if net > 0 else 'NET SHORT ↓'
-                        results.append(f'{vn_name}: {direction} ({net:+,.0f})')
+                        markets[vn_name] = nc_long - nc_short
                     except (ValueError, IndexError):
                         pass
                     break
 
-        if results:
-            date_tag = f' | Tuần {report_date}' if report_date else ''
-            return (
-                f'📊 VỊ THẾ QUỸ ĐẦU CƠ — CFTC COT{date_tag}\n'
-                + '\n'.join(f'  • {item}' for item in results)
-            )
+        if markets:
+            return {'date': report_date, 'markets': markets}
 
     except Exception as e:
-        print(f'  [COT] Không lấy được dữ liệu CFTC: {e}')
+        print(f'  [COT] Khong lay duoc du lieu CFTC: {e}')
 
     return None
+
+
+def fetch_cftc_cot() -> 'str | None':
+    """Chuỗi tóm tắt COT (giữ tương thích với main_agent.py)."""
+    cot = fetch_cftc_cot_structured()
+    if not cot:
+        return None
+    results = []
+    for vn_name, net in cot['markets'].items():
+        direction = 'NET LONG ↑' if net > 0 else 'NET SHORT ↓'
+        results.append(f'{vn_name}: {direction} ({net:+,.0f})')
+    date_tag = f' | Tuần {cot["date"]}' if cot['date'] else ''
+    return (
+        f'📊 VỊ THẾ QUỸ ĐẦU CƠ — CFTC COT{date_tag}\n'
+        + '\n'.join(f'  • {item}' for item in results)
+    )
 
 
 # ── EIA Inventory (placeholder — cần EIA_API_KEY) ────────────────────────────

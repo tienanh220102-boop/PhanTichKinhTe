@@ -14,7 +14,12 @@
 ## Quirks quan trọng
 
 - **Không có .bat file** — người dùng chạy tay hoặc qua GitHub Actions (mỗi 30 phút)
-- **`MAX_ARTICLES = 40`** — tối đa bài đưa vào một báo cáo
+- **`MAX_ARTICLES = 20`** — chọn lọc theo điểm keyword (`select_top_articles`, title=3đ desc=1đ), không phải first-N
+- **Tín hiệu Xu hướng/MUA-BÁN là rule-based** (`classify_trend_signal`: MA20/MA50 + RSI14) — Gemini KHÔNG được quyết, prompt prefill sẵn và yêu cầu giữ nguyên
+- **Quant engine**: yfinance period='1y' → RSI14 (Wilder), ATR14%, MA20/50, dải 52W; bảng số liệu `<pre>` đứng trước phân tích LLM trong Telegram
+- **CFTC COT**: `market_data.fetch_cftc_cot_structured()` — vị thế ròng quỹ đầu cơ + Δ tuần (lưu `cot_history` trong state, giữ 4 tuần)
+- **Nông sản CME niêm yết cent/bushel** (không phải USD) — đơn vị trong prompt là ¢/bushel
+- **Smoke test**: `python tests/test_quant_smoke.py` — cần mạng, không cần key
 - **RSS feeds tiếng Anh** (MarketWatch, BBC, AP, Guardian, Al Jazeera, CNBC, OilPrice, Mining.com) — khác với banking dùng RSS tiếng Việt
 - **Thực tế khả dụng**: CNBC (403), AP Business (blocked), The Guardian (blocked) thường không fetch được; OilPrice + Mining.com + BBC là nguồn chính
 - **Summary tuần**: có logic `last_weekly_summary` để gửi tổng kết cuối tuần
@@ -35,3 +40,4 @@ File: `.github/workflows/main.yml` — chạy mỗi 30 phút.
 - 2026-06: Chuyển `commodity_agent.py` từ root sang `scripts/`; `STATE_FILE` → `data/`; thêm `from pathlib import Path`
 - 2026-06: Thêm `mkdir(parents=True, exist_ok=True)` vào `save_state()` để tránh lỗi khi `data/` chưa tồn tại
 - 2026-06: commit e7a8c2d — fix workflow: `python scripts/commodity_agent.py` + `git add data/last_commodity_news.json` (sau refactor commit 1094437 làm fail toàn bộ Actions runs)
+- 2026-06-11: Nâng cấp thành dự án phân tích định lượng — quant engine (RSI14/ATR/MA50/52W), tín hiệu rule-based thay LLM tự quyết, bảng số liệu + liên thị trường (Brent−WTI, Vàng/Bạc, Đồng/Vàng) + CFTC COT vào báo cáo, hiệu suất tuần tính từ giá thực, MAX_ARTICLES 40→20 có chấm điểm

@@ -7,11 +7,14 @@ Commodity Market Report Agent
 - Báo cáo: phân tích vĩ mô, tín hiệu giao dịch, mức giá, rủi ro
 - Tổng kết tuần vào thứ 6 sau 20:00
 """
-import json, os, time, hashlib, logging
+import json, os, sys, time, hashlib, logging
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from market_data import fetch_cftc_cot_structured
 
 _ROOT               = Path(__file__).parent.parent
 TELEGRAM_TOKEN      = os.environ.get('TELEGRAM_TOKEN', '')
@@ -26,7 +29,7 @@ VN_TZ               = timezone(timedelta(hours=7))
 
 MORNING_REPORT_HOUR = 7   # 7:00 VN — trước phiên Á
 EVENING_REPORT_HOUR = 20  # 20:00 VN — trước phiên Mỹ
-MAX_ARTICLES        = 40  # tối đa bài đưa vào một báo cáo
+MAX_ARTICLES        = 20  # tối đa bài đưa vào một báo cáo (chọn lọc theo điểm liên quan)
 
 
 _log = logging.getLogger('commodity')
@@ -294,11 +297,16 @@ def get_seasonal_context(month):
 
 
 def fetch_prices_yfinance():
-    """Giá + kỹ thuật từ Yahoo Finance: current price, Δ1D%, 5D range (High/Low), MA20."""
+    """Giá + chỉ báo kỹ thuật từ Yahoo Finance (1 năm dữ liệu daily).
+
+    Mỗi symbol: value, chg_pct (1D), chg_5d, chg_1m, low5d/high5d, ma20, ma50,
+    rsi14 (Wilder), atr_pct (ATR14/giá), low52w/high52w, pos52w (% vị trí trong dải 52 tuần).
+    """
     try:
         import yfinance as yf
+        import pandas as pd
         symbols = list(YFINANCE_SYMBOLS.values())
-        raw = yf.download(symbols, period='1mo', progress=False, auto_adjust=True)
+        raw = yf.download(symbols, period='1y', progress=False, auto_adjust=True)
         prices = {}
         for name, sym in YFINANCE_SYMBOLS.items():
             try:
@@ -313,13 +321,48 @@ def fetch_prices_yfinance():
                 prev = float(close.iloc[-2])
                 n5   = min(5, len(close))
                 n20  = min(20, len(close))
-                prices[name] = {
+                n50  = min(50, len(close))
+                e = {
                     'value':   round(cur, 4),
                     'chg_pct': round((cur - prev) / prev * 100, 2),
                     'low5d':   round(float(low.iloc[-n5:].min()), 4),
                     'high5d':  round(float(high.iloc[-n5:].max()), 4),
                     'ma20':    round(float(close.iloc[-n20:].mean()), 4),
+                    'ma50':    round(float(close.iloc[-n50:].mean()), 4),
                 }
+                if len(close) >= 6:
+                    e['chg_5d'] = round((cur / float(close.iloc[-6]) - 1) * 100, 2)
+                if len(close) >= 22:
+                    e['chg_1m']     = round((cur / float(close.iloc[-22]) - 1) * 100, 2)
+                    e['val_1m_ago'] = round(float(close.iloc[-22]), 4)
+
+                # RSI14 — Wilder smoothing (ewm alpha=1/14)
+                delta = close.diff()
+                gain  = delta.clip(lower=0).ewm(alpha=1/14, adjust=False).mean()
+                loss  = (-delta.clip(upper=0)).ewm(alpha=1/14, adjust=False).mean()
+                rs    = gain / loss.replace(0, float('nan'))
+                rsi   = (100 - 100 / (1 + rs)).iloc[-1]
+                if pd.notna(rsi):
+                    e['rsi14'] = round(float(rsi), 1)
+
+                # ATR14 dưới dạng % giá — đo biến động trung bình ngày
+                prev_close = close.shift(1)
+                tr = pd.concat([
+                    high - low,
+                    (high - prev_close).abs(),
+                    (low - prev_close).abs(),
+                ], axis=1).max(axis=1)
+                atr = tr.ewm(alpha=1/14, adjust=False).mean().iloc[-1]
+                if pd.notna(atr) and cur:
+                    e['atr_pct'] = round(float(atr) / cur * 100, 2)
+
+                # Dải 52 tuần
+                lo52, hi52 = float(low.min()), float(high.max())
+                e['low52w'], e['high52w'] = round(lo52, 4), round(hi52, 4)
+                if hi52 > lo52:
+                    e['pos52w'] = round((cur - lo52) / (hi52 - lo52) * 100, 1)
+
+                prices[name] = e
             except Exception:
                 pass
         print(f'  yfinance: {len(prices)}/{len(YFINANCE_SYMBOLS)} symbols OK')
@@ -330,6 +373,165 @@ def fetch_prices_yfinance():
     except Exception as e:
         print(f'  yfinance lỗi: {e}')
         return {}
+
+
+# ── Quant engine: tín hiệu rule-based (deterministic) ─────────
+
+VN_NAMES = {
+    'WTI': 'WTI', 'Brent': 'Brent', 'NatGas': 'Khí TN', 'Gold': 'Vàng',
+    'Silver': 'Bạc', 'Copper': 'Đồng', 'Corn': 'Ngô', 'Wheat': 'Lúa mì',
+    'Soybean': 'Đậu t.', 'DXY': 'DXY',
+}
+
+SYMBOL_GROUPS = {
+    'energy':     [('WTI', 'WTI'), ('Brent', 'Brent'), ('NatGas', 'Khí TN')],
+    'precious':   [('Gold', 'Vàng'), ('Silver', 'Bạc')],
+    'agri':       [('Corn', 'Ngô'), ('Wheat', 'Lúa mì'), ('Soybean', 'Đậu tương')],
+    'industrial': [('Copper', 'Đồng')],
+}
+
+
+def classify_trend_signal(e):
+    """Quy tắc cố định — cùng dữ liệu luôn ra cùng tín hiệu:
+    Xu hướng: close>MA20>MA50 → TĂNG; close<MA20<MA50 → GIẢM; còn lại SIDEWAY
+    Tín hiệu: TĂNG + RSI<70 → MUA; TĂNG + RSI≥70 → GIỮ (quá mua)
+              GIẢM + RSI>30 → BÁN; GIẢM + RSI≤30 → GIỮ (quá bán); SIDEWAY → GIỮ
+    """
+    v, ma20, ma50 = e.get('value'), e.get('ma20'), e.get('ma50')
+    rsi = e.get('rsi14')
+    if not (v and ma20 and ma50):
+        return 'SIDEWAY', 'GIỮ'
+    if v > ma20 > ma50:
+        trend = 'TĂNG'
+    elif v < ma20 < ma50:
+        trend = 'GIẢM'
+    else:
+        trend = 'SIDEWAY'
+    if trend == 'TĂNG':
+        signal = 'MUA' if (rsi is None or rsi < 70) else 'GIỮ (quá mua)'
+    elif trend == 'GIẢM':
+        signal = 'BÁN' if (rsi is None or rsi > 30) else 'GIỮ (quá bán)'
+    else:
+        signal = 'GIỮ'
+    return trend, signal
+
+
+def support_resistance(e):
+    """Hỗ trợ = max(đáy 5D, MA20 nếu MA20 < giá); Kháng cự = đỉnh 5D."""
+    v, lo5, hi5, ma20 = e.get('value'), e.get('low5d'), e.get('high5d'), e.get('ma20')
+    if not (v and lo5 and hi5):
+        return None, None
+    sup = max(lo5, ma20) if (ma20 and ma20 < v) else lo5
+    return sup, hi5
+
+
+def _fmt_price(v):
+    return f'{v:,.2f}' if abs(v) >= 10 else f'{v:,.3f}'
+
+
+def build_group_signals(prices):
+    """Tín hiệu tính sẵn theo nhóm cho prompt: {group: (xu hướng, tín hiệu, ngưỡng giá)}."""
+    out = {}
+    for group, syms in SYMBOL_GROUPS.items():
+        trends, signals, levels = [], [], []
+        for key, label in syms:
+            e = prices.get(key)
+            if not e:
+                continue
+            t, s = classify_trend_signal(e)
+            trends.append(f'{label} {t}')
+            signals.append(f'{label} {s}')
+            sup, res = support_resistance(e)
+            if sup and res:
+                levels.append(f'{label} {_fmt_price(sup)}–{_fmt_price(res)}')
+        out[group] = (
+            ' | '.join(trends)  or 'N/A',
+            ' | '.join(signals) or 'N/A',
+            ' | '.join(levels)  or 'N/A',
+        )
+    return out
+
+
+def build_quant_table(prices):
+    """Bảng số liệu thuần (không qua LLM) cho Telegram <pre> và file báo cáo."""
+    rows = [f'{"":7}{"Giá":>9}{"1D%":>7}{"5D%":>7}{"RSI":>5}']
+    for name in YFINANCE_SYMBOLS:
+        e = prices.get(name)
+        if not e:
+            continue
+        label = VN_NAMES.get(name, name)[:7]
+        v  = _fmt_price(e['value'])
+        c1 = f'{e["chg_pct"]:+.1f}' if e.get('chg_pct') is not None else '-'
+        c5 = f'{e["chg_5d"]:+.1f}' if e.get('chg_5d') is not None else '-'
+        ri = f'{e["rsi14"]:.0f}'   if e.get('rsi14')   is not None else '-'
+        rows.append(f'{label:7}{v:>9}{c1:>7}{c5:>7}{ri:>5}')
+    return '\n'.join(rows) if len(rows) > 1 else ''
+
+
+def build_cross_asset_lines(prices):
+    """Chỉ số liên thị trường: Brent−WTI spread, tỷ lệ Vàng/Bạc, Đồng/Vàng."""
+    lines = []
+    wti, brent = prices.get('WTI'), prices.get('Brent')
+    if wti and brent:
+        spread = brent['value'] - wti['value']
+        s = f'Brent−WTI: ${spread:.2f}'
+        if wti.get('val_1m_ago') and brent.get('val_1m_ago'):
+            s += f' (1 tháng trước: ${brent["val_1m_ago"] - wti["val_1m_ago"]:.2f})'
+        lines.append(s + ' — spread rộng = cung WTI dồi dào tương đối')
+    gold, silver = prices.get('Gold'), prices.get('Silver')
+    if gold and silver and silver['value']:
+        ratio = gold['value'] / silver['value']
+        s = f'Vàng/Bạc: {ratio:.1f}'
+        if gold.get('val_1m_ago') and silver.get('val_1m_ago'):
+            s += f' (1 tháng trước: {gold["val_1m_ago"] / silver["val_1m_ago"]:.1f})'
+        lines.append(s + ' — tỷ lệ cao = bạc rẻ tương đối so với vàng')
+    copper = prices.get('Copper')
+    if copper and gold and gold['value']:
+        ratio = copper['value'] / gold['value'] * 1000
+        s = f'Đồng/Vàng (×1000): {ratio:.2f}'
+        if copper.get('val_1m_ago') and gold.get('val_1m_ago'):
+            s += f' (1 tháng trước: {copper["val_1m_ago"] / gold["val_1m_ago"] * 1000:.2f})'
+        lines.append(s + ' — tăng = risk-on/kỳ vọng tăng trưởng')
+    return lines
+
+
+def build_cot_block(state):
+    """Vị thế quỹ đầu cơ CFTC COT + thay đổi so với tuần trước (lưu trong state)."""
+    cot = fetch_cftc_cot_structured()
+    hist = state.get('cot_history', [])
+    if cot:
+        if not hist or hist[-1].get('date') != cot['date']:
+            hist.append(cot)
+            state['cot_history'] = hist[-4:]
+    elif hist:
+        cot = hist[-1]  # fallback: dùng dữ liệu tuần gần nhất đã lưu
+    if not cot:
+        return None
+    prev = next((h for h in reversed(hist) if h.get('date', '') < cot['date']), None)
+    lines = [f'[VỊ THẾ QUỸ ĐẦU CƠ — CFTC COT tuần {cot["date"]}]']
+    for mk, net in cot['markets'].items():
+        s = f'  {mk}: {"NET LONG" if net > 0 else "NET SHORT"} {net:+,}'
+        if prev and mk in prev.get('markets', {}):
+            s += f' (Δ tuần: {net - prev["markets"][mk]:+,})'
+        lines.append(s)
+    lines.append('→ NET LONG = quỹ đặt cược giá tăng; Δ dương = dòng tiền đầu cơ đang vào')
+    return '\n'.join(lines)
+
+
+def build_weekly_perf_block(prices):
+    """Bảng hiệu suất tuần thực (% thay đổi 5 phiên), sắp xếp giảm dần."""
+    entries = [
+        (VN_NAMES.get(n, n), e['chg_5d'])
+        for n, e in prices.items() if e.get('chg_5d') is not None
+    ]
+    if not entries:
+        return None
+    entries.sort(key=lambda x: -x[1])
+    lines = ['[HIỆU SUẤT TUẦN — % thay đổi 5 phiên]']
+    for label, c in entries:
+        lines.append(f'  {label}: {c:+.1f}%')
+    lines.append(f'→ Tốt nhất: {entries[0][0]} {entries[0][1]:+.1f}% | Kém nhất: {entries[-1][0]} {entries[-1][1]:+.1f}%')
+    return '\n'.join(lines)
 
 
 def fetch_prices_alphavantage():
@@ -407,12 +609,16 @@ def fetch_macro_fred():
     return macro
 
 
+_PRICE_CACHE = {}
+
 def build_price_snapshot():
     """
     Gộp giá từ 4 nguồn. Thứ tự ưu tiên: yfinance → twelvedata → alphavantage.
     FRED là additive (macro, không trùng với giá futures).
-    Returns (prices_dict, macro_dict).
+    Returns (prices_dict, macro_dict). Cache trong 1 lần chạy (báo cáo tối + tuần dùng chung).
     """
+    if 'prices' in _PRICE_CACHE:
+        return _PRICE_CACHE['prices'], _PRICE_CACHE['macro']
     print('Fetching giá thị trường (4 nguồn)...')
     yf_prices = fetch_prices_yfinance()
     av_prices  = fetch_prices_alphavantage()
@@ -433,27 +639,38 @@ def build_price_snapshot():
             combined[name] = {'value': av_prices[name], 'src': 'av'}
 
     print(f'  Tổng hợp: {len(combined)} symbols | {len(macro)} macro series')
+    _PRICE_CACHE['prices'], _PRICE_CACHE['macro'] = combined, macro
     return combined, macro
 
 
-def format_price_for_prompt(prices, macro):
-    """Block giá kỹ thuật + EIA supply chain đầy đủ cho Gemini prompt."""
+def format_price_for_prompt(prices, macro, cot_block=None):
+    """Block giá + chỉ báo kỹ thuật + liên thị trường + COT đầy đủ cho Gemini prompt."""
 
-    def line(name, label, pfmt='.2f', unit=''):
+    def line(name, label, pfmt='.2f', unit='', cur='$'):
         e = prices.get(name)
         if not e:
             return f'  {label}: N/A'
         v   = e['value']
         chg = e.get('chg_pct')
         l5, h5, ma = e.get('low5d'), e.get('high5d'), e.get('ma20')
-        s = f'  {label}: ${v:{pfmt}}{unit}'
+        s = f'  {label}: {cur}{v:{pfmt}}{unit}'
         if chg is not None:
             s += f' ({chg:+.2f}%)'
+        if e.get('chg_5d') is not None:
+            s += f'  |  5 phiên: {e["chg_5d"]:+.1f}%'
         if l5 and h5:
-            s += f'  |  5D: ${l5:{pfmt}}–${h5:{pfmt}}'
+            s += f'  |  5D: {l5:{pfmt}}–{h5:{pfmt}}'
         if ma:
             arrow = '↑' if v > ma else '↓'
-            s += f'  |  MA20: ${ma:{pfmt}} {arrow}'
+            s += f'  |  MA20: {ma:{pfmt}} {arrow}'
+        if e.get('ma50'):
+            s += f'  |  MA50: {e["ma50"]:{pfmt}}'
+        if e.get('rsi14') is not None:
+            s += f'  |  RSI14: {e["rsi14"]:.0f}'
+        if e.get('atr_pct') is not None:
+            s += f'  |  ATR: {e["atr_pct"]:.1f}%/ngày'
+        if e.get('pos52w') is not None:
+            s += f'  |  52W: {e["pos52w"]:.0f}% ({e["low52w"]:{pfmt}}–{e["high52w"]:{pfmt}})'
         return s
 
     out = ['--- GIÁ THỊ TRƯỜNG THỰC TẾ ---']
@@ -466,10 +683,10 @@ def format_price_for_prompt(prices, macro):
     out.append(line('Silver', 'Bạc        ', '.3f', '/oz'))
     out.append('[KIM LOẠI CÔNG NGHIỆP]')
     out.append(line('Copper', 'Đồng       ', '.4f', '/lb'))
-    out.append('[NÔNG SẢN]')
-    out.append(line('Corn',    'Ngô        ', '.2f', '/bushel'))
-    out.append(line('Wheat',   'Lúa mì     ', '.2f', '/bushel'))
-    out.append(line('Soybean', 'Đậu tương  ', '.2f', '/bushel'))
+    out.append('[NÔNG SẢN]  (giá CME tính bằng cent/bushel)')
+    out.append(line('Corn',    'Ngô        ', '.2f', '¢/bushel', cur=''))
+    out.append(line('Wheat',   'Lúa mì     ', '.2f', '¢/bushel', cur=''))
+    out.append(line('Soybean', 'Đậu tương  ', '.2f', '¢/bushel', cur=''))
     out.append('[VĨ MÔ]')
     dxy = prices.get('DXY')
     if dxy:
@@ -479,13 +696,23 @@ def format_price_for_prompt(prices, macro):
             s += f' ({chg:+.2f}%)'
         if ma:
             s += f'  |  MA20: {ma:.2f} {"↑" if v > ma else "↓"}'
+        if dxy.get('rsi14') is not None:
+            s += f'  |  RSI14: {dxy["rsi14"]:.0f}'
         out.append(s)
     for sid in ['DGS10', 'CPIAUCSL', 'DEXUSEU']:
         if sid in macro:
             d = macro[sid]
             out.append(f'  {d["label"]}: {d["value"]} ({d["date"]})')
 
-    out.append('→ Hỗ trợ = đáy 5D hoặc MA20 (lấy số cao hơn); Kháng cự = đỉnh 5D; ↑ = trên MA20, ↓ = dưới MA20')
+    cross = build_cross_asset_lines(prices)
+    if cross:
+        out.append('[LIÊN THỊ TRƯỜNG]')
+        out.extend(f'  {c}' for c in cross)
+
+    if cot_block:
+        out.append(cot_block)
+
+    out.append('→ ↑/↓ = trên/dưới MA20; RSI>70 quá mua, RSI<30 quá bán; 52W = vị trí % trong dải 52 tuần')
     out.append('---')
     return '\n'.join(out)
 
@@ -568,13 +795,31 @@ def call_gemini(prompt, max_tokens=1500):
         print(f'  Lỗi Gemini: {e}')
         return None
 
-def build_session_report_prompt(articles, session, date_str, month, gold_vnd_line=None, price_block=None):
+def select_top_articles(articles, limit=MAX_ARTICLES):
+    """Chọn bài liên quan nhất theo điểm keyword (deterministic):
+    keyword trong title = 3 điểm, trong desc = 1 điểm; hòa điểm → bài mới hơn trước."""
+    def score(a):
+        title = a.get('title', '').lower()
+        desc  = a.get('desc', '').lower()
+        s = 0
+        for kw in COMMODITY_KEYWORDS:
+            if kw in title:
+                s += 3
+            elif kw in desc:
+                s += 1
+        return s
+    ranked = sorted(articles, key=lambda a: a.get('collected_at', ''), reverse=True)
+    ranked.sort(key=score, reverse=True)  # stable sort: giữ thứ tự mới-trước khi hòa điểm
+    return ranked[:limit]
+
+
+def build_session_report_prompt(articles, session, date_str, month, gold_vnd_line=None, price_block=None, prices=None):
     articles_text = '\n'.join([
         f'{i+1}. [{a["source"]}] {a["title"]}\n   {a["desc"][:300]}'
         for i, a in enumerate(articles[:MAX_ARTICLES])
     ])
     context = 'tin tức qua đêm và đầu phiên Á' if session == 'morning' else 'tin tức trong ngày và đầu phiên Mỹ'
-    session_vn = 'PHIÊN SÁ (07:00 VN)' if session == 'morning' else 'PHIÊN MỸ (20:00 VN)'
+    session_vn = 'PHIÊN SÁNG (07:00 VN)' if session == 'morning' else 'PHIÊN MỸ (20:00 VN)'
 
     price_note = f'\n{price_block}\n' if price_block else ''
 
@@ -588,73 +833,84 @@ def build_session_report_prompt(articles, session, date_str, month, gold_vnd_lin
     seasonal = get_seasonal_context(month)
     seasonal_note = f'\n{seasonal}\n' if seasonal else ''
 
+    # Tín hiệu đã tính sẵn bằng quy tắc định lượng — LLM không được tự quyết
+    sig = build_group_signals(prices or {})
+    na3 = ('N/A', 'N/A', 'N/A')
+    energy, precious = sig.get('energy', na3), sig.get('precious', na3)
+    agri, industrial = sig.get('agri', na3),   sig.get('industrial', na3)
+
     return f"""Bạn là chuyên gia phân tích thị trường hàng hóa toàn cầu với kinh nghiệm giao dịch thực tế.
 Dưới đây là {len(articles)} {context} ngày {date_str}:{price_note}{vnd_note}{seasonal_note}
 
 {articles_text}
 
-Hãy viết BÁO CÁO PHÂN TÍCH {session_vn} bằng TIẾNG VIỆT theo đúng cấu trúc sau (không thêm gì ngoài cấu trúc này):
+Hãy viết BÁO CÁO PHÂN TÍCH {session_vn} bằng TIẾNG VIỆT theo đúng cấu trúc sau (không thêm gì ngoài cấu trúc này).
+QUAN TRỌNG:
+- Các dòng "Xu hướng / Tín hiệu / Ngưỡng giá" ĐÃ ĐƯỢC TÍNH SẴN bằng quy tắc định lượng (giá so MA20/MA50 + RSI14) — GIỮ NGUYÊN Y HỆT, không sửa, không thêm bớt.
+- Phần "Phân tích" BẮT BUỘC trích dẫn số liệu cụ thể từ bảng dữ liệu phía trên (% thay đổi, RSI, vị trí 52W, spread, vị thế COT) và giải thích tín hiệu định lượng bằng tin tức. KHÔNG viết chung chung kiểu "giá chịu áp lực" mà không có con số.
+- Nếu tín hiệu định lượng mâu thuẫn với tin tức, nêu rõ mâu thuẫn đó trong phần Rủi ro.
 
 🌍 VĨ MÔ & TIN TỨC NỔI BẬT
-[Tóm tắt 2-3 yếu tố vĩ mô/địa chính trị quan trọng nhất tác động đến thị trường hàng hóa hôm nay]
+[2-3 yếu tố vĩ mô quan trọng nhất, mỗi yếu tố gắn với số liệu từ bảng dữ liệu (DXY, 10Y yield, CPI...) nếu liên quan]
 
 🛢️ NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên
-Xu hướng: [TĂNG / GIẢM / SIDEWAY]
-Tín hiệu: [MUA / BÁN / GIỮ]
-Ngưỡng giá: Hỗ trợ [đáy 5D hoặc MA20 từ bảng giá — dùng số cụ thể] | Kháng cự [đỉnh 5D từ bảng giá — dùng số cụ thể]
-Phân tích: [2-3 câu phân tích dựa trên tin tức và dữ liệu kỹ thuật]
+Xu hướng: {energy[0]}
+Tín hiệu: {energy[1]}
+Ngưỡng giá: {energy[2]}
+Phân tích: [2-3 câu — bắt buộc nêu % thay đổi, RSI, vị trí 52W và liên hệ tin tức + COT]
 Rủi ro: [rủi ro chính cần theo dõi]
 
 🥇 KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc
-Xu hướng: [TĂNG / GIẢM / SIDEWAY]
-Tín hiệu: [MUA / BÁN / GIỮ]
-Ngưỡng giá: Hỗ trợ [đáy 5D hoặc MA20 từ bảng giá — dùng số cụ thể] | Kháng cự [đỉnh 5D từ bảng giá — dùng số cụ thể]
-Phân tích: [2-3 câu phân tích dựa trên tin tức]
+Xu hướng: {precious[0]}
+Tín hiệu: {precious[1]}
+Ngưỡng giá: {precious[2]}
+Phân tích: [2-3 câu — bắt buộc nêu số liệu (%, RSI, tỷ lệ Vàng/Bạc, DXY) và liên hệ tin tức]
 Rủi ro: [rủi ro chính cần theo dõi]
 
 🌾 NÔNG SẢN — Ngô, Đậu tương, Lúa mì
-Xu hướng: [TĂNG / GIẢM / SIDEWAY]
-Tín hiệu: [MUA / BÁN / GIỮ]
-Ngưỡng giá: [đáy/đỉnh 5D từ bảng giá nếu có, nếu không có dữ liệu ghi "N/A"]
-Phân tích: [2-3 câu phân tích dựa trên tin tức]
+Xu hướng: {agri[0]}
+Tín hiệu: {agri[1]}
+Ngưỡng giá: {agri[2]}
+Phân tích: [2-3 câu — bắt buộc nêu số liệu (% thay đổi, RSI, COT) kết hợp yếu tố mùa vụ]
 Rủi ro: [rủi ro chính cần theo dõi]
 
 🔩 KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken
-Xu hướng: [TĂNG / GIẢM / SIDEWAY]
-Tín hiệu: [MUA / BÁN / GIỮ]
-Ngưỡng giá: [đáy/đỉnh 5D từ bảng giá nếu có, nếu không có dữ liệu ghi "N/A"]
-Phân tích: [2-3 câu phân tích dựa trên tin tức]
+Xu hướng: {industrial[0]}
+Tín hiệu: {industrial[1]}
+Ngưỡng giá: {industrial[2]}
+Phân tích: [2-3 câu — bắt buộc nêu số liệu (% thay đổi, RSI, tỷ lệ Đồng/Vàng, COT) và liên hệ tin tức]
 Rủi ro: [rủi ro chính cần theo dõi]
 
 📋 KHUYẾN NGHỊ PHIÊN
-[2-3 khuyến nghị cụ thể, actionable cho phiên giao dịch này — ưu tiên thực tế]
+[2-3 khuyến nghị cụ thể kèm mức giá vào lệnh/cắt lỗ tham chiếu từ ngưỡng hỗ trợ-kháng cự đã tính]
 
 ⚠️ THEO DÕI PHIÊN
 [2-3 sự kiện/dữ liệu quan trọng cần theo dõi trong phiên]
 
-Lưu ý: Nếu không đủ tin về một nhóm, đánh giá dựa trên bối cảnh thị trường chung. Viết ngắn gọn, rõ ràng, chuyên nghiệp."""
+Lưu ý: Nếu không đủ tin về một nhóm, phân tích dựa trên số liệu kỹ thuật và bối cảnh mùa vụ. Viết ngắn gọn, rõ ràng, chuyên nghiệp."""
 
-def generate_session_report(articles, session, date_str, month, gold_vnd_line=None, price_block=None):
+def generate_session_report(articles, session, date_str, month, gold_vnd_line=None, price_block=None, prices=None):
     if not articles:
         return None
-    prompt = build_session_report_prompt(articles, session, date_str, month, gold_vnd_line, price_block)
+    prompt = build_session_report_prompt(articles, session, date_str, month, gold_vnd_line, price_block, prices)
     return call_gemini(prompt, max_tokens=1600)
 
-def generate_weekly_report(weekly_reports, week_str):
+def generate_weekly_report(weekly_reports, week_str, perf_block=None):
     if not weekly_reports:
         return None
     reports_text = '\n\n'.join([
         f'--- {r["date"]} ({r["session"]}) ---\n{r["summary"]}'
         for r in weekly_reports[-14:]
     ])
+    perf_note = f'\nHIỆU SUẤT THỰC TẾ TÍNH TỪ DỮ LIỆU GIÁ (không phải ước lượng):\n{perf_block}\n' if perf_block else ''
     prompt = f"""Bạn là chuyên gia phân tích thị trường hàng hóa toàn cầu.
-Dưới đây là các báo cáo phiên trong tuần {week_str}:
+Dưới đây là các báo cáo phiên trong tuần {week_str}:{perf_note}
 
 {reports_text}
 
 Viết BÁO CÁO TỔNG KẾT TUẦN thị trường hàng hóa bằng TIẾNG VIỆT, gồm:
 1. Sự kiện & xu hướng nổi bật nhất tuần (3-4 điểm)
-2. Hiệu suất từng nhóm: Năng lượng, Kim loại quý, Nông sản, Kim loại công nghiệp
+2. Hiệu suất từng nhóm: Năng lượng, Kim loại quý, Nông sản, Kim loại công nghiệp — BẮT BUỘC dùng đúng con số % trong bảng HIỆU SUẤT THỰC TẾ ở trên, không tự bịa số
 3. Yếu tố rủi ro lớn nhất tuần tới
 4. Dự báo xu hướng ngắn hạn theo nhóm
 
@@ -694,11 +950,12 @@ def try_send_session_report(state, now_vn, session):
     if session == 'evening' and hour < EVENING_REPORT_HOUR:
         return
 
-    articles = state.get('pending_articles', [])
+    all_pending = state.get('pending_articles', [])
+    articles    = select_top_articles(all_pending)
     session_vn = 'SÁNG (Phiên Á)' if session == 'morning' else 'CHIỀU (Phiên Mỹ)'
     emoji = '🌅' if session == 'morning' else '🌆'
 
-    print(f'Tạo báo cáo {session_vn} {today_str} ({len(articles)} tin tích lũy)...')
+    print(f'Tạo báo cáo {session_vn} {today_str} ({len(articles)}/{len(all_pending)} tin chọn lọc)...')
 
     if not articles:
         print('Không có tin tức tích lũy, bỏ qua.')
@@ -706,15 +963,16 @@ def try_send_session_report(state, now_vn, session):
         state[state_key] = today_str
         return
 
-    # Fetch giá thị trường (4 nguồn) + vàng nhẫn SJC
+    # Fetch giá thị trường (4 nguồn) + COT + vàng nhẫn SJC
     prices, macro = build_price_snapshot()
-    price_block   = format_price_for_prompt(prices, macro) if prices or macro else None
+    cot_block     = build_cot_block(state)
+    price_block   = format_price_for_prompt(prices, macro, cot_block) if prices or macro else None
     price_line    = format_price_for_telegram(prices, macro)
     gold_vnd      = build_gold_vnd_line(get_vn_gold_price())
     if gold_vnd:
         print(f'  {gold_vnd}')
 
-    text = generate_session_report(articles, session, today_str, now_vn.month, gold_vnd, price_block)
+    text = generate_session_report(articles, session, today_str, now_vn.month, gold_vnd, price_block, prices)
     if text == 'QUOTA_EXCEEDED':
         print('Hết quota Gemini, bỏ qua báo cáo.')
         _log.info('SKIP_%s quota_exceeded date=%s', session.upper(), today_str)
@@ -726,18 +984,34 @@ def try_send_session_report(state, now_vn, session):
 
     gold_line_html = f'\n{gold_vnd}' if gold_vnd else ''
     price_line_html = f'\n💹 {price_line}' if price_line else ''
+
+    # Bảng số liệu thuần (deterministic) — luôn đứng trước phần phân tích LLM
+    quant_table = build_quant_table(prices)
+    table_html  = f'<pre>{quant_table}</pre>\n\n' if quant_table else ''
+
     header = (
         f'{emoji} <b>BÁO CÁO {session_vn.upper()} — {now_vn.strftime("%d/%m/%Y")}</b>\n'
-        f'📰 Tổng hợp {min(len(articles), MAX_ARTICLES)} tin tức | '
+        f'📰 {len(articles)}/{len(all_pending)} tin chọn lọc | '
         f'⏱ {now_vn.strftime("%H:%M")} (Giờ VN){gold_line_html}{price_line_html}\n\n'
     )
-    msg = header + text
+    msg = header + table_html + text
 
     if send_telegram(msg):
         print(f'Gửi báo cáo {session_vn} OK')
-        _log.info('SENT_%s articles=%d date=%s', session.upper(), min(len(articles), MAX_ARTICLES), today_str)
+        _log.info('SENT_%s articles=%d date=%s', session.upper(), len(articles), today_str)
         state[state_key] = today_str
-        save_report_file(text, session, today_str)
+
+        # File báo cáo đầy đủ: bảng số liệu + liên thị trường + COT + phân tích
+        cross_lines = build_cross_asset_lines(prices)
+        file_parts  = []
+        if quant_table:
+            file_parts.append('[BẢNG SỐ LIỆU]\n' + quant_table)
+        if cross_lines:
+            file_parts.append('[LIÊN THỊ TRƯỜNG]\n' + '\n'.join(f'  {c}' for c in cross_lines))
+        if cot_block:
+            file_parts.append(cot_block)
+        file_parts.append(text)
+        save_report_file('\n\n'.join(file_parts), session, today_str)
 
         # Lưu tóm tắt để dùng cho báo cáo tuần
         if 'weekly_reports' not in state:
@@ -774,20 +1048,26 @@ def try_send_weekly_summary(state, now_vn):
         state['last_weekly_summary'] = week_str
         return
 
-    text = generate_weekly_report(weekly_reports, week_str)
+    # Hiệu suất tuần thực tính từ dữ liệu giá (cache — không fetch lại nếu đã có)
+    prices, _ = build_price_snapshot()
+    perf_block = build_weekly_perf_block(prices)
+
+    text = generate_weekly_report(weekly_reports, week_str, perf_block)
     if text == 'QUOTA_EXCEEDED':
         print('Hết quota Gemini, bỏ qua tổng kết tuần.')
         return
     if text:
+        perf_html = f'<pre>{perf_block}</pre>\n\n' if perf_block else ''
         msg = (
             f'🗓 <b>TỔNG KẾT THỊ TRƯỜNG HÀNG HÓA TUẦN {week_str}</b>\n\n'
-            f'{text}\n\n'
+            f'{perf_html}{text}\n\n'
             f'⏱ {now_vn.strftime("%d/%m/%Y %H:%M")} (Giờ VN)'
         )
         if send_telegram(msg):
             print('Gửi tổng kết tuần OK')
             state['last_weekly_summary'] = week_str
-            save_report_file(text, 'weekly', now_vn.strftime('%Y-%m-%d'))
+            file_text = (perf_block + '\n\n' + text) if perf_block else text
+            save_report_file(file_text, 'weekly', now_vn.strftime('%Y-%m-%d'))
         else:
             print('Lỗi gửi tổng kết tuần')
 
