@@ -49,7 +49,8 @@ def article_id(title, link):
 
 def fetch_rss(url, unescape=False):
     try:
-        r = requests.get(url, timeout=10, headers={'User-Agent': 'Mozilla/5.0'})
+        # timeout 20s: feed Sputnik VN ~140KB phan hoi cham, 10s hay bi timeout
+        r = requests.get(url, timeout=20, headers={'User-Agent': 'Mozilla/5.0'})
         root = ET.fromstring(r.content)
         items = []
         for item in root.iter('item'):
@@ -388,6 +389,9 @@ BANKING_FEEDS = [
     ('Thanh Niên KT',     'https://thanhnien.vn/rss/kinh-te.rss'),
     ('VietnamNet KT',     'https://vietnamnet.vn/rss/kinh-doanh.rss'),
     ('VOV Kinh tế',       'https://vov.vn/rss/kinh-te.rss'),
+    # Sputnik VN: state media Nga ban tieng Viet — goc nhin ben ngoai de doi
+    # chieu voi bao trong nuoc; prompt bao cao se danh gia xung dot nguon
+    ('Sputnik VN (Nga)',  'https://sputniknews.vn/export/rss2/archive/index.xml'),
 ]
 
 BANKING_KEYWORDS = [
@@ -487,6 +491,9 @@ Rủi ro: [rủi ro chính cần theo dõi]
 
 📋 KHUYẾN NGHỊ NHÀ ĐẦU TƯ BĐS PHÍA NAM
 [2-3 khuyến nghị cụ thể, actionable dựa trên tin tức hôm nay]
+
+🔀 ĐỐI CHIẾU NGUỒN TIN
+[Nguồn "Sputnik VN (Nga)" là state media Nga bản tiếng Việt — góc nhìn bên ngoài, KHÔNG mặc định là sự thật khách quan. Nếu Sputnik VN và báo trong nước (VnExpress/Thanh Niên/VietnamNet/VOV) đưa tin TRÁI NGƯỢC hoặc nhấn mạnh khác hẳn nhau về cùng chủ đề kinh tế VN, nêu rõ "Nguồn A nói X, nguồn B nói Y" + đánh giá bên nào có căn cứ hơn. Nếu không có xung đột, ghi đúng 1 câu: "Không phát hiện xung đột đáng kể giữa các nguồn."]
 
 ⚠️ THEO DÕI & RỦI RO
 [2-3 điểm cần chú ý trong thời gian tới]

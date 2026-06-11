@@ -46,7 +46,24 @@ RSS_FEEDS = [
     ('CNBC Commodities',  'https://www.cnbc.com/id/10000664/device/rss/rss.html'),
     ('OilPrice.com',      'https://oilprice.com/rss/main'),
     ('Mining.com',        'https://www.mining.com/feed/'),
+    # Sputnik: state media Nga — them de doi chieu goc nhin (Nga = nha cung
+    # dau/khi/kim loai lon). Tin tu day la TIN HIEU LAP TRUONG cua Nga,
+    # khong phai su that khach quan — prompt se doi chieu xung dot nguon.
+    ('Sputnik (Nga)',     'https://sputnikglobe.com/export/rss2/archive/index.xml'),
 ]
+
+# Xuat xu / goc nhin cua tung nguon — dua vao prompt de LLM danh gia xung dot
+SOURCE_ORIGIN = {
+    'MarketWatch':      'Mỹ',
+    'BBC Business':     'Anh',
+    'AP Business':      'Mỹ',
+    'The Guardian Biz': 'Anh',
+    'Al Jazeera':       'Trung Đông',
+    'CNBC Commodities': 'Mỹ',
+    'OilPrice.com':     'báo ngành năng lượng',
+    'Mining.com':       'báo ngành khai khoáng',
+    'Sputnik (Nga)':    'Nga — state media',
+}
 
 COMMODITY_KEYWORDS = [
     'oil', 'crude', 'opec', 'petroleum', 'gas', 'lng', 'fuel', 'brent', 'wti',
@@ -86,7 +103,8 @@ def article_id(title, link):
 # ── RSS ───────────────────────────────────────────────────────
 def fetch_rss(url):
     try:
-        r = requests.get(url, timeout=10, headers={'User-Agent': 'Mozilla/5.0'})
+        # timeout 20s: feed Sputnik ~120KB phan hoi cham, 10s hay bi timeout
+        r = requests.get(url, timeout=20, headers={'User-Agent': 'Mozilla/5.0'})
         root = ET.fromstring(r.content)
         articles = []
         for item in root.iter('item'):
@@ -856,7 +874,7 @@ def select_top_articles(articles, limit=MAX_ARTICLES):
 
 def build_session_report_prompt(articles, session, date_str, month, gold_vnd_line=None, price_block=None, prices=None):
     articles_text = '\n'.join([
-        f'{i+1}. [{a["source"]}] {a["title"]}\n   {a["desc"][:300]}'
+        f'{i+1}. [{a["source"]} — {SOURCE_ORIGIN.get(a["source"], "?")}] {a["title"]}\n   {a["desc"][:300]}'
         for i, a in enumerate(articles[:MAX_ARTICLES])
     ])
     context = 'tin tức qua đêm và đầu phiên Á' if session == 'morning' else 'tin tức trong ngày và đầu phiên Mỹ'
@@ -890,6 +908,10 @@ QUAN TRỌNG:
 - Các dòng "Xu hướng / Tín hiệu / Ngưỡng giá" ĐÃ ĐƯỢC TÍNH SẴN bằng quy tắc định lượng (giá so MA20/MA50 + RSI14) — GIỮ NGUYÊN Y HỆT, không sửa, không thêm bớt.
 - Phần "Phân tích" BẮT BUỘC trích dẫn số liệu cụ thể từ bảng dữ liệu phía trên (% thay đổi, RSI, vị trí 52W, spread, vị thế COT) và giải thích tín hiệu định lượng bằng tin tức. KHÔNG viết chung chung kiểu "giá chịu áp lực" mà không có con số.
 - Nếu tín hiệu định lượng mâu thuẫn với tin tức, nêu rõ mâu thuẫn đó trong phần Rủi ro.
+- ĐỐI CHIẾU NGUỒN: mỗi tin có ghi xuất xứ trong ngoặc [nguồn — góc nhìn]. "Sputnik (Nga)" là state media của Nga — coi tin từ đó là TÍN HIỆU LẬP TRƯỜNG của Nga (điều Nga muốn thị trường tin, nhất là về dầu khí/cấm vận/OPEC+), KHÔNG mặc định là sự thật khách quan. Khi Sputnik và nguồn phương Tây đưa tin TRÁI NGƯỢC về cùng chủ đề, đó chính là thông tin có giá trị — nêu rõ trong mục 🔀.
+
+🔀 ĐỐI CHIẾU NGUỒN TIN
+[So sánh các nguồn về CÙNG một chủ đề: nếu có mâu thuẫn (ví dụ Sputnik nói nguồn cung ổn định nhưng Reuters/BBC nói gián đoạn), nêu rõ "Nguồn A nói X, nguồn B nói Y" + hàm ý cho trader (xung đột nguồn về nguồn cung dầu = biến động sắp tới). Nếu không có xung đột đáng kể, ghi đúng 1 câu: "Không phát hiện xung đột đáng kể giữa các nguồn trong phiên này."]
 
 🌍 VĨ MÔ & TIN TỨC NỔI BẬT
 [2-3 yếu tố vĩ mô quan trọng nhất, mỗi yếu tố gắn với số liệu từ bảng dữ liệu (DXY, 10Y yield, real yield TIPS, breakeven inflation, VIX, CPI...) nếu liên quan]
