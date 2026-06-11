@@ -1,6 +1,10 @@
-# Giao Dịch Hàng Hóa
+# Phân tích Kinh tế
 
-Agent theo dõi giá & tin tức thị trường hàng hóa → phân tích AI → tín hiệu giao dịch.
+Dự án hợp nhất 2 mảng (gộp từ Giao Dịch Hàng Hóa + Ngân Hàng BĐS, 11/06/2026):
+- 🛢️ **Hàng hóa quốc tế**: giá + tin tức → phân tích AI → tín hiệu (`scripts/commodity_agent.py`)
+- 🏦 **Ngân hàng & BĐS phía Nam VN**: tin tức → báo cáo 17h + weekly (`scripts/main_agent.py --banking-only`)
+
+Tài liệu dự án Ngân Hàng BĐS cũ: [archive/ngan-hang-bds/](archive/ngan-hang-bds/)
 
 > Mới bắt đầu? Đọc [HUONG-DAN.md](HUONG-DAN.md). Tra lệnh? Xem [LENH.md](LENH.md).
 

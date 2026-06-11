@@ -1,4 +1,4 @@
-# Giao Dịch Hàng Hóa — Hướng dẫn vận hành cho Agent
+# Phân tích Kinh tế — Hướng dẫn vận hành cho Agent
 
 Dự án tích hợp 2 mảng: **Giao Dịch Hàng Hóa Quốc Tế** + **Ngân Hàng & BĐS Phía Nam VN** — cùng kênh Telegram, báo cáo tách biệt.
 

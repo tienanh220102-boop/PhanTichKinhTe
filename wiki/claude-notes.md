@@ -20,6 +20,8 @@
 - **CFTC COT**: `market_data.fetch_cftc_cot_structured()` — vị thế ròng quỹ đầu cơ + Δ tuần (lưu `cot_history` trong state, giữ 4 tuần)
 - **Nông sản CME niêm yết cent/bushel** (không phải USD) — đơn vị trong prompt là ¢/bushel
 - **Smoke test**: `python tests/test_quant_smoke.py` — cần mạng, không cần key
+- **FRED 6 series** (DGS10, DFII10 real yield, T5YIE breakeven, VIXCLS, CPIAUCSL, DEXUSEU) — keyless phải có `cosd` 90 ngày + sleep 0.5s, nếu không bị timeout/throttle
+- **Volume futures Yahoo**: bar cuối là phiên ĐANG chạy (volume thiếu) → `vol_ratio` dùng phiên đã đóng `iloc[-2]` so **median** 20 phiên khác 0; mean sẽ bị nhiễu bởi contract roll (đã gặp: Bạc ratio ảo 65.8×)
 - **RSS feeds tiếng Anh** (MarketWatch, BBC, AP, Guardian, Al Jazeera, CNBC, OilPrice, Mining.com) — khác với banking dùng RSS tiếng Việt
 - **Thực tế khả dụng**: CNBC (403), AP Business (blocked), The Guardian (blocked) thường không fetch được; OilPrice + Mining.com + BBC là nguồn chính
 - **Summary tuần**: có logic `last_weekly_summary` để gửi tổng kết cuối tuần
