@@ -47,3 +47,15 @@
 2026-06-12 10:47 ACCEPT [OilPrice.com] "Oil Prices Tumble 4% on Iran Peace Optimism" | kw:oil,crude,brent
 2026-06-12 10:47 ACCEPT [OilPrice.com] "India Caps Fuel Sales to Avoid Shortages" | kw:gas,fuel,shortage
 2026-06-12 10:47 SKIP_MORNING already_sent date=2026-06-12
+2026-06-12 13:58 ACCEPT [MarketWatch] "Global oil prices drop to $88 a barrel on hopes for an Iran peace deal" | kw:oil,crude,brent
+2026-06-12 13:58 ACCEPT [MarketWatch] "If an Iran peace deal is agreed, these are the assets investors should" | kw:rice,inflation
+2026-06-12 13:58 ACCEPT [MarketWatch] "JPMorgan says investors are overlooking the upside to Wall Street bank" | kw:gold
+2026-06-12 13:58 ACCEPT [BBC Business] "UK signals it may block payout to British Steel owner" | kw:steel
+2026-06-12 13:58 ACCEPT [The Guardian Biz] "SpaceX makes $1.77tn stock market debut with Elon Musk likely to becom" | kw:rice
+2026-06-12 13:58 ACCEPT [OilPrice.com] "Russian Governors Rush to Deny Fuel Crisis as Rationing Spreads" | kw:fuel,shortage
+2026-06-12 13:58 ACCEPT [OilPrice.com] "Norway Pitches Arctic Resources as Key to EU Energy Security" | kw:oil,gas,lng
+2026-06-12 13:58 ACCEPT [OilPrice.com] "India Accuses West of Double Standards Over U.S. Russia Oil Sanctions" | kw:oil,sanction
+2026-06-12 13:58 ACCEPT [OilPrice.com] "Oil Prices Slide as Traders Bet on Diplomacy" | kw:oil,crude,wti
+2026-06-12 13:58 ACCEPT [OilPrice.com] "Oil Market Volatility Masks a Shifting Reality in the Middle East" | kw:oil
+2026-06-12 13:59 SKIP_MORNING already_sent date=2026-06-12
+2026-06-12 13:59 SENT_EVENING articles=20 date=2026-06-12

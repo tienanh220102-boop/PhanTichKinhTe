@@ -1,0 +1,73 @@
+[BẢNG SỐ LIỆU]
+             Giá    1D%    5D%  RSI
+WTI        86.51   -1.4   -4.5   40
+Brent      89.36   -1.1   -4.0   38
+Khí TN     3.093   +0.2   -4.2   52
+Vàng    4,207.30   +2.9   -3.0   35
+Bạc        66.50   +4.1   -3.5   36
+Đồng       6.397   +2.2   +2.1   54
+Ngô       416.75   +1.2   -0.2   32
+Lúa mì    594.00   +1.2   +2.4   43
+Đậu t.  1,118.75   +0.3   -0.2   34
+DXY        99.81   -0.1   -0.3   60
+
+[LIÊN THỊ TRƯỜNG]
+  Brent−WTI: $2.85 (1 tháng trước: $4.61) — spread rộng = cung WTI dồi dào tương đối
+  Vàng/Bạc: 63.3 (1 tháng trước: 52.8) — tỷ lệ cao = bạc rẻ tương đối so với vàng
+  Đồng/Vàng (×1000): 1.52 (1 tháng trước: 1.41) — tăng = risk-on/kỳ vọng tăng trưởng
+
+[VỊ THẾ QUỸ ĐẦU CƠ — CFTC COT tuần 2026-06-02]
+  Lúa mì (SRW): NET SHORT -40,762
+  Ngô: NET LONG +199,942
+  Đậu tương: NET LONG +187,784
+  Dầu WTI: NET SHORT -7,851
+  Bạc: NET LONG +23,926
+  Đồng: NET LONG +78,833
+  Vàng XAU: NET LONG +176,020
+→ NET LONG = quỹ đặt cược giá tăng; Δ dương = dòng tiền đầu cơ đang vào
+
+🔀 ĐỐI CHIẾU NGUỒNG TIN
+Không phát hiện xung đột đáng kể giữa các nguồn trong phiên này.
+
+🌍 VĨ MÔ & TIN TỨC NỔI BẬT
+- **DXY giảm nhẹ (-0.05%) về 99.81, RSI 60:** Cho thấy đồng USD đang có xu hướng giảm nhẹ, có thể hỗ trợ giá hàng hóa.
+- **Lợi suất trái phiếu Kho bạc 10 năm Mỹ ở mức 4.55% (ngày 10/06):** Lợi suất vẫn ở mức tương đối cao, có thể gây áp lực lên các tài sản rủi ro.
+- **VIX ở mức 19.44 (ngày 11/06):** Chỉ số biến động ở mức trung bình, cho thấy tâm lý thị trường không quá hoảng loạn.
+
+🛢️ NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên
+Xu hướng: WTI GIẢM | Brent GIẢM | Khí TN SIDEWAY
+Tín hiệu: WTI BÁN | Brent BÁN | Khí TN GIỮ
+Ngưỡng giá: WTI 83.20–95.47 | Brent 85.80–98.05 | Khí TN 3.031–3.249
+Phân tích: Dầu WTI giảm 1.37% xuống $86.51/bbl và Brent giảm 1.13% xuống $89.36/bbl, đều nằm dưới MA20 và có RSI lần lượt là 40 và 38, cho thấy xu hướng giảm giá đang chiếm ưu thế. Vị thế Short ròng của quỹ đầu cơ đối với WTI (-7,851) cũng xác nhận tâm lý tiêu cực. Tin tức về khả năng đạt được thỏa thuận hòa bình Iran và việc Mỹ dỡ bỏ lệnh trừng phạt đã làm giảm bớt lo ngại về gián đoạn nguồn cung, đẩy giá dầu đi xuống. Goldman Sachs cắt giảm ước tính giá dầu năm 2027 do lo ngại về nhu cầu và nguồn cung mạnh hơn.
+Rủi ro: Bất kỳ diễn biến địa chính trị nào liên quan đến Iran hoặc các quyết định của OPEC+ có thể gây biến động mạnh.
+
+🥇 KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc
+Xu hướng: Vàng GIẢM | Bạc GIẢM
+Tín hiệu: Vàng BÁN | Bạc BÁN
+Ngưỡng giá: Vàng 4,031.00–4,344.50 | Bạc 63.74–68.81
+Phân tích: Vàng giảm 3.0% trong 5 phiên, hiện giao dịch ở $4207.30/oz với RSI 35 và nằm dưới MA20, cho thấy áp lực bán đang gia tăng. Bạc cũng giảm 3.5% trong 5 phiên, với RSI 36 và nằm dưới MA20. Tỷ lệ Vàng/Bạc tăng lên 63.3, cho thấy bạc đang tương đối rẻ so với vàng. Mặc dù có lo ngại về lạm phát, việc lợi suất trái phiếu Kho bạc 10 năm Mỹ ở mức 4.55% và DXY ổn định đang gây áp lực lên vàng. Vị thế Long ròng của quỹ đầu cơ đối với Vàng (+176,020) và Bạc (+23,926) cho thấy sự mâu thuẫn giữa hành động của quỹ và diễn biến giá.
+Rủi ro: Bất kỳ dấu hiệu nào cho thấy lạm phát tăng mạnh hoặc lợi suất trái phiếu giảm có thể thúc đẩy dòng tiền quay trở lại vàng.
+
+🌾 NÔNG SẢN — Ngô, Đậu tương, Lúa mì
+Xu hướng: Ngô GIẢM | Lúa mì SIDEWAY | Đậu tương GIẢM
+Tín hiệu: Ngô BÁN | Lúa mì GIỮ | Đậu tương BÁN
+Ngưỡng giá: Ngô 408.50–425.75 | Lúa mì 574.75–600.25 | Đậu tương 1,108.25–1,129.75
+Phân tích: Ngô giảm 0.2% trong 5 phiên, Lúa mì tăng 2.4%, và Đậu tương giảm 0.2%. Cả ba đều có RSI dưới 50 và nằm dưới MA20, cho thấy xu hướng giảm giá hoặc đi ngang đang chiếm ưu thế. Vị thế Long ròng lớn của quỹ đầu cơ đối với Ngô (+199,942) và Đậu tương (+187,784) trái ngược với diễn biến giá hiện tại, có thể là tín hiệu cho thấy khả năng phục hồi nếu các yếu tố cơ bản thay đổi. Mùa vụ quan trọng cho ngô đang đến gần, và báo cáo WASDE của USDA vào tháng 6 sẽ là yếu tố quan trọng.
+Rủi ro: Thời tiết bất lợi trong giai đoạn thụ phấn của ngô hoặc các báo cáo mùa vụ bất ngờ có thể gây biến động mạnh.
+
+🔩 KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken
+Xu hướng: Đồng TĂNG
+Tín hiệu: Đồng MUA
+Ngưỡng giá: Đồng 6.348–6.446
+Phân tích: Đồng tăng 2.1% trong 5 phiên, hiện giao dịch ở $6.3970/lb, nằm trên MA20 và có RSI 54, cho thấy tín hiệu tích cực. Tỷ lệ Đồng/Vàng tăng lên 1.52, cho thấy tâm lý "risk-on" và kỳ vọng tăng trưởng. Vị thế Long ròng của quỹ đầu cơ đối với Đồng (+78,833) xác nhận xu hướng tăng giá. Nhu cầu từ Trung Quốc và các nền kinh tế đang phát triển có thể tiếp tục hỗ trợ giá đồng.
+Rủi ro: Bất kỳ dấu hiệu suy giảm kinh tế toàn cầu hoặc căng thẳng thương mại gia tăng có thể ảnh hưởng tiêu cực đến nhu cầu đồng.
+
+📋 KHUYẾN NGHỊ PHIÊN
+- **Bán Dầu WTI:** Vào lệnh bán quanh $87.00, cắt lỗ tại $88.50, mục tiêu $84.00.
+- **Bán Vàng:** Vào lệnh bán quanh $4220, cắt lỗ tại $4250, mục tiêu $4150.
+- **Mua Đồng:** Vào lệnh mua quanh $6.3800, cắt lỗ tại $6.3000, mục tiêu $6.5500.
+
+⚠️ THEO DÕI PHIÊN
+- **Diễn biến địa chính trị tại Trung Đông:** Đặc biệt là các thông tin liên quan đến Iran và khả năng dỡ bỏ lệnh trừng phạt.
+- **Báo cáo kinh tế Mỹ:** Các dữ liệu về lạm phát, việc làm và chi tiêu tiêu dùng có thể ảnh hưởng đến chính sách tiền tệ của Fed.
+- **Báo cáo mùa vụ nông sản:** Đặc biệt là các thông tin về
