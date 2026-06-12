@@ -35,3 +35,6 @@
 2026-06-12 01:42 ACCEPT [Mining.com] "Indonesia raids gold company in $1.4B laundering probe" | kw:gold
 2026-06-12 01:42 ACCEPT [Mining.com] "Canada risks losing critical minerals infrastructure race, PwC warns" | kw:gdp
 2026-06-12 01:43 SKIP_MORNING already_sent date=2026-06-12
+2026-06-12 06:26 ACCEPT [BBC Business] "Why the economics make this the craziest World Cup ever" | kw:rice,trade war
+2026-06-12 06:26 ACCEPT [OilPrice.com] "Goldman Sachs Cuts 2027 Oil Price Estimate on Demand Uncertainty" | kw:oil,crude,opec
+2026-06-12 06:26 SKIP_MORNING already_sent date=2026-06-12
