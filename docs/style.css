@@ -1,0 +1,30 @@
+
+:root { --bg:#0f1419; --card:#1a2129; --border:#2a3441; --text:#d8dee6;
+        --muted:#8a96a3; --accent:#4fc3f7; --buy:#26a69a; --sell:#ef5350; --hold:#ffa726; }
+* { box-sizing:border-box; margin:0; padding:0; }
+body { background:var(--bg); color:var(--text); font-family:'Segoe UI',system-ui,sans-serif;
+       line-height:1.6; padding:16px; max-width:860px; margin:0 auto; }
+a { color:var(--accent); text-decoration:none; }
+a:hover { text-decoration:underline; }
+header { margin-bottom:24px; }
+header h1 { font-size:1.5rem; }
+header .sub { color:var(--muted); font-size:.85rem; }
+.card { background:var(--card); border:1px solid var(--border); border-radius:10px;
+        padding:18px; margin-bottom:18px; }
+.card h2 { font-size:1.05rem; margin-bottom:10px; color:var(--accent); }
+.badge { display:inline-block; padding:1px 10px; border-radius:12px; font-size:.8rem;
+         font-weight:600; color:#fff; }
+.badge.buy { background:var(--buy); } .badge.sell { background:var(--sell); }
+.badge.hold { background:var(--hold); color:#222; } .badge.na { background:var(--border); }
+.field { margin:2px 0; }
+.field .k { color:var(--muted); }
+ul { padding-left:20px; margin:6px 0; }
+table { width:100%; border-collapse:collapse; font-size:.88rem; }
+th, td { padding:6px 8px; text-align:left; border-bottom:1px solid var(--border); }
+th { color:var(--muted); font-weight:600; }
+.archive li { margin:4px 0; }
+.archive .tag { color:var(--muted); font-size:.82rem; }
+footer { color:var(--muted); font-size:.78rem; text-align:center; margin-top:28px; }
+.back { display:inline-block; margin-bottom:14px; }
+pre.raw { white-space:pre-wrap; font-family:inherit; }
+@media (max-width:600px) { body { padding:10px; } th, td { padding:5px 4px; } }
