@@ -73,3 +73,7 @@
 2026-06-12 16:01 ACCEPT [OilPrice.com] "A War of Words Sends Brent Crude to a Two-Month Low" | kw:oil,crude,fuel
 2026-06-12 16:01 SKIP_MORNING already_sent date=2026-06-12
 2026-06-12 16:01 SKIP_EVENING already_sent date=2026-06-12
+2026-06-12 16:30 ACCEPT [The Guardian Biz] "US consumer sentiment improves in June due to easing gas prices" | kw:gas,rice,inflation
+2026-06-12 16:30 ACCEPT [OilPrice.com] "U.S. Military Helping Move 7 Million Bpd Out of Persian Gulf, Wright S" | kw:oil,crude,brent
+2026-06-12 16:31 SKIP_MORNING already_sent date=2026-06-12
+2026-06-12 16:31 SKIP_EVENING already_sent date=2026-06-12
