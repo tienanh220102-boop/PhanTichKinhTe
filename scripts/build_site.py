@@ -38,8 +38,9 @@ CATEGORIES = [
 ]
 
 CSS = '''
-:root { --bg:#0f1419; --card:#1a2129; --border:#2a3441; --text:#d8dee6;
-        --muted:#8a96a3; --accent:#4fc3f7; --buy:#26a69a; --sell:#ef5350; --hold:#ffa726; }
+:root { --bg:#0b1017; --card:#161e29; --border:#33415280; --text:#e8eef5;
+        --muted:#9fb0c3; --accent:#5cc8ff; --buy:#16a34a; --sell:#dc2626; --hold:#f59e0b;
+        --pos:#4ade80; --neg:#fb7185; --thead:#1e2937; }
 * { box-sizing:border-box; margin:0; padding:0; }
 body { background:var(--bg); color:var(--text); font-family:'Segoe UI',system-ui,sans-serif;
        line-height:1.6; padding:16px; max-width:860px; margin:0 auto; }
@@ -48,33 +49,57 @@ a:hover { text-decoration:underline; }
 header { margin-bottom:24px; }
 header h1 { font-size:1.5rem; }
 header .sub { color:var(--muted); font-size:.85rem; }
-.card { background:var(--card); border:1px solid var(--border); border-radius:10px;
-        padding:18px; margin-bottom:18px; }
-.card h2 { font-size:1.05rem; margin-bottom:10px; color:var(--accent); }
-.badge { display:inline-block; padding:1px 10px; border-radius:12px; font-size:.8rem;
-         font-weight:600; color:#fff; }
+.card { background:var(--card); border:1px solid var(--border); border-radius:12px;
+        padding:18px 20px; margin-bottom:18px; box-shadow:0 2px 10px rgba(0,0,0,.35); }
+.card h2 { font-size:1.02rem; margin-bottom:12px; color:var(--accent);
+           padding-bottom:8px; border-bottom:1px solid var(--border); }
+.badge { display:inline-block; padding:1px 12px; border-radius:12px; font-size:.8rem;
+         font-weight:700; color:#fff; letter-spacing:.3px; }
 .badge.buy { background:var(--buy); } .badge.sell { background:var(--sell); }
-.badge.hold { background:var(--hold); color:#222; } .badge.na { background:var(--border); }
+.badge.hold { background:var(--hold); color:#1a1205; } .badge.na { background:#334152; }
 .field { margin:2px 0; }
 .field .k { color:var(--muted); }
 ul { padding-left:20px; margin:6px 0; }
 table { width:100%; border-collapse:collapse; font-size:.88rem; }
-th, td { padding:6px 8px; text-align:left; border-bottom:1px solid var(--border); }
-th { color:var(--muted); font-weight:600; }
-table.grid { width:auto; min-width:60%; }
-table.grid th, table.grid td { border:1px solid var(--border); padding:6px 12px; }
-table.grid td.num, table.grid th.num { text-align:right;
-  font-variant-numeric:tabular-nums; }
-table.grid td.pos { color:var(--buy); font-weight:600; }
-table.grid td.neg { color:var(--sell); font-weight:600; }
-table.grid tr:nth-child(even) td { background:rgba(255,255,255,.025); }
+th, td { padding:7px 10px; text-align:center; border-bottom:1px solid var(--border); }
+th { background:var(--thead); color:var(--muted); font-weight:700; font-size:.8rem;
+     text-transform:uppercase; letter-spacing:.6px; }
+table.grid { width:auto; min-width:70%; margin:4px auto; }
+table.grid th, table.grid td { border:1px solid #3b4a5e; padding:7px 16px; }
+table.grid td { font-variant-numeric:tabular-nums; }
+table.grid td:first-child { font-weight:600; }
+td.pos { color:var(--pos); font-weight:700; }
+td.neg { color:var(--neg); font-weight:700; }
+table.grid tr:nth-child(even) td, table.cot tr:nth-child(even) td
+  { background:rgba(255,255,255,.03); }
+table.grid tr:hover td, table.cot tr:hover td { background:rgba(92,200,255,.07); }
+table.cot { width:auto; min-width:70%; margin:4px auto; }
+table.cot th, table.cot td { border:1px solid #3b4a5e; padding:7px 16px; }
+table.cot td:first-child { text-align:left; font-weight:600; }
+.net { display:inline-block; padding:2px 12px; border-radius:6px; font-weight:700;
+       font-size:.8rem; white-space:nowrap; letter-spacing:.4px; }
+.net.long { background:rgba(34,197,94,.16); color:var(--pos);
+            border:1px solid rgba(74,222,128,.5); }
+.net.short { background:rgba(220,38,38,.18); color:var(--neg);
+             border:1px solid rgba(251,113,133,.5); }
+.note { color:var(--muted); font-size:.78rem; margin-top:10px; text-align:center; }
 .archive li { margin:4px 0; }
 .archive .tag { color:var(--muted); font-size:.82rem; }
 footer { color:var(--muted); font-size:.78rem; text-align:center; margin-top:28px; }
 .back { display:inline-block; margin-bottom:14px; }
 pre.raw { white-space:pre-wrap; font-family:inherit; }
-@media (max-width:600px) { body { padding:10px; } th, td { padding:5px 4px; } }
+@media (max-width:600px) { body { padding:10px; }
+  th, td { padding:5px 6px; }
+  table.grid, table.cot { width:100%; min-width:0; }
+  table.grid th, table.grid td, table.cot th, table.cot td { padding:5px 8px; } }
 '''
+
+# Icon cho bang vi the dau co (match theo keyword thuong, khong dau cung duoc)
+COT_ICONS = [
+    ('lúa mì', '\U0001F33E'), ('ngô', '\U0001F33D'), ('đậu', '\U0001F331'),
+    ('dầu', '\U0001F6E2️'), ('khí', '\U0001F525'), ('vàng', '\U0001F947'),
+    ('bạc', '\U0001F948'), ('đồng', '\U0001F949'),
+]
 
 
 def esc(s):
@@ -140,6 +165,46 @@ def render_grid_table(title, parsed):
             '<tr>%s</tr>%s</table>' % (esc(title), ths, ''.join(body)))
 
 
+def parse_cot_rows(rows):
+    """Tach khoi vi the dau co: 'Ten: NET LONG/SHORT +/-so'. Tra ve (rows, footnotes)."""
+    parsed, notes = [], []
+    for r in rows:
+        m = re.match(r'^(.+?):\s*NET (LONG|SHORT)\s*([+-][\d,.]+)\s*$', r.strip())
+        if m:
+            parsed.append((m.group(1).strip(), m.group(2), m.group(3)))
+        else:
+            notes.append(r.strip())
+    if len(parsed) < 2:
+        return None, None
+    return parsed, notes
+
+
+def cot_icon(name):
+    low = name.lower()
+    for kw, icon in COT_ICONS:
+        if kw in low:
+            return icon
+    return '\U0001F4E6'
+
+
+def render_cot_table(title, parsed, notes):
+    """Bang vi the quy dau co: icon + ten | pill NET LONG/SHORT | so HD rong."""
+    body = []
+    for name, side, qty in parsed:
+        side_cls = 'long' if side == 'LONG' else 'short'
+        arrow = '▲' if side == 'LONG' else '▼'
+        qty_cls = 'pos' if qty.startswith('+') else 'neg'
+        body.append(
+            '<tr><td>%s %s</td>'
+            '<td><span class="net %s">%s NET %s</span></td>'
+            '<td class="%s">%s</td></tr>'
+            % (cot_icon(name), esc(name), side_cls, arrow, side, qty_cls, esc(qty)))
+    note_html = ''.join('<div class="note">%s</div>' % inline_md(n) for n in notes)
+    return ('</div><div class="card"><h2>%s</h2><table class="cot">'
+            '<tr><th>Hàng hóa</th><th>Vị thế</th><th>Hợp đồng ròng</th></tr>'
+            '%s</table>%s' % (esc(title), ''.join(body), note_html))
+
+
 def render_txt_report(text):
     """Chuyen report .txt thanh HTML: header emoji -> h2, field -> styled row, * -> li."""
     out, in_list = [], False
@@ -165,13 +230,19 @@ def render_txt_report(text):
             j = i
             while j < len(lines) and lines[j].strip():
                 j += 1
-            parsed = parse_grid_rows(lines[i:j])
+            block = lines[i:j]
             close_list()
+            parsed = parse_grid_rows(block)
             if parsed:
                 out.append(render_grid_table(m.group(1), parsed))
                 i = j
-            else:
-                out.append('</div><div class="card"><h2>%s</h2>' % esc(m.group(1)))
+                continue
+            cot, notes = parse_cot_rows(block)
+            if cot:
+                out.append(render_cot_table(m.group(1), cot, notes))
+                i = j
+                continue
+            out.append('</div><div class="card"><h2>%s</h2>' % esc(m.group(1)))
             continue
         if is_section_header(line):
             close_list()
