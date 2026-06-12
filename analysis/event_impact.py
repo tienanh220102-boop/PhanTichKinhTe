@@ -123,4 +123,6 @@ class EventImpact:
             f'Ket luan thong ke: {sig}',
             'Luu y: day la phan ung BAT THUONG so voi covariates (relative event',
             'study) — khong tach duoc kenh tac dong neu su kien anh huong ca covariates.',
+            'CI gia dinh Gaussian — daily returns co fat tails + volatility clustering',
+            'nen CI THAT rong hon con so in ra; doc CI nay nhu CAN DUOI cua bat dinh.',
         ])

@@ -466,6 +466,26 @@ def _fmt_price(v):
     return f'{v:,.2f}' if abs(v) >= 10 else f'{v:,.3f}'
 
 
+def quiet_groups(prices):
+    """Nhom 'yen' = moi symbol co du lieu deu bien dong < 0.5x ATR ngay.
+    Bao cao duoc phep noi 'trong bien do binh thuong' thay vi ep giai thich
+    noise (narrative fallacy — rui ro chinh khi bao cao tan suat ngay)."""
+    out = []
+    for group, syms in SYMBOL_GROUPS.items():
+        checked = quiet = 0
+        for key, _ in syms:
+            e = prices.get(key) or {}
+            chg, atr_p = e.get('chg_pct'), e.get('atr_pct')
+            if chg is None or not atr_p:
+                continue
+            checked += 1
+            if abs(chg) < 0.5 * atr_p:
+                quiet += 1
+        if checked and quiet == checked:
+            out.append(group)
+    return out
+
+
 def build_group_signals(prices):
     """Tín hiệu tính sẵn theo nhóm cho prompt: {group: (xu hướng, tín hiệu, ngưỡng giá)}."""
     out = {}
@@ -901,6 +921,19 @@ def build_session_report_prompt(articles, session, date_str, month, gold_vnd_lin
     energy, precious = sig.get('energy', na3), sig.get('precious', na3)
     agri, industrial = sig.get('agri', na3),   sig.get('industrial', na3)
 
+    # Noise budget: nhom bien dong < 0.5x ATR — cho phep "khong co gi de noi"
+    _GROUP_VN = {'energy': 'NĂNG LƯỢNG', 'precious': 'KIM LOẠI QUÝ',
+                 'agri': 'NÔNG SẢN', 'industrial': 'KIM LOẠI CÔNG NGHIỆP'}
+    quiet = [_GROUP_VN[g] for g in quiet_groups(prices or {}) if g in _GROUP_VN]
+    quiet_note = ''
+    if quiet:
+        quiet_note = (
+            f'\n- NHÓM DAO ĐỘNG TRONG BIÊN ĐỘ BÌNH THƯỜNG (biến động < 0.5×ATR ngày): '
+            f'{", ".join(quiet)}. Với các nhóm này, nếu KHÔNG có tin mới đáng kể, phần '
+            f'"Phân tích" chỉ cần đúng 1 câu: "Dao động trong biên độ bình thường, không có '
+            f'driver rõ rệt" — TRUNG THỰC hơn là gượng ép tìm lý do cho dao động ngẫu nhiên.'
+        )
+
     return f"""Bạn là chuyên gia phân tích thị trường hàng hóa toàn cầu với kinh nghiệm giao dịch thực tế.
 Dưới đây là {len(articles)} {context} ngày {date_str}:{price_note}{vnd_note}{seasonal_note}{wb_note}
 
@@ -911,6 +944,11 @@ QUAN TRỌNG:
 - Các dòng "Xu hướng / Tín hiệu / Ngưỡng giá" ĐÃ ĐƯỢC TÍNH SẴN bằng quy tắc định lượng (giá so MA20/MA50 + RSI14) — GIỮ NGUYÊN Y HỆT, không sửa, không thêm bớt.
 - Phần "Phân tích" BẮT BUỘC trích dẫn số liệu cụ thể từ bảng dữ liệu phía trên (% thay đổi, RSI, vị trí 52W, spread, vị thế COT) và giải thích tín hiệu định lượng bằng tin tức. KHÔNG viết chung chung kiểu "giá chịu áp lực" mà không có con số.
 - Nếu tín hiệu định lượng mâu thuẫn với tin tức, nêu rõ mâu thuẫn đó trong phần Rủi ro.
+- TẦNG DỮ LIỆU: khối "TĂNG TRƯỞNG GDP" (World Bank) và ngữ cảnh mùa vụ là MẶT BẰNG —
+  chúng KHÔNG ĐỔI giữa hôm qua và hôm nay nên KHÔNG BAO GIỜ được dùng làm lý do giải thích
+  biến động trong ngày/phiên. Biến động phiên chỉ được giải thích bằng tin tức MỚI + chỉ số
+  daily (DXY, yields, VIX, COT). Mặt bằng chỉ xuất hiện ở thì "bối cảnh dài hạn", và KHÔNG
+  được viện dẫn trong mục KHUYẾN NGHỊ PHIÊN.{quiet_note}
 - ĐỐI CHIẾU NGUỒN: mỗi tin có ghi xuất xứ trong ngoặc [nguồn — góc nhìn]. "Sputnik (Nga)" là state media của Nga — coi tin từ đó là TÍN HIỆU LẬP TRƯỜNG của Nga (điều Nga muốn thị trường tin, nhất là về dầu khí/cấm vận/OPEC+), KHÔNG mặc định là sự thật khách quan. Khi Sputnik và nguồn phương Tây đưa tin TRÁI NGƯỢC về cùng chủ đề, đó chính là thông tin có giá trị — nêu rõ trong mục 🔀.
 
 🔀 ĐỐI CHIẾU NGUỒN TIN

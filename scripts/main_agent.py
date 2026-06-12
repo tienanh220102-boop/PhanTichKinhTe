@@ -515,8 +515,10 @@ def _banking_report_prompt(articles, date_str, wb_block=None):
         f'{i+1}. [{a["source"]}] {a["title"]}\n   {a["desc"][:300]}'
         for i, a in enumerate(articles[:MAX_ARTICLES])
     ])
-    wb_note = (f'\n{wb_block}\n→ Dùng làm nền so sánh: tin tức hôm nay đang cải thiện '
-               f'hay xấu đi so với mặt bằng vĩ mô này.\n') if wb_block else ''
+    wb_note = (f'\n{wb_block}\n→ Đây là MẶT BẰNG (số liệu năm, không đổi giữa các ngày) — '
+               f'chỉ dùng để đối chiếu tin hôm nay đang cải thiện hay xấu đi so với nền. '
+               f'KHÔNG dùng làm lý do cho diễn biến trong ngày, KHÔNG viện dẫn trong mục '
+               f'KHUYẾN NGHỊ.\n') if wb_block else ''
     return f"""Bạn là chuyên gia phân tích thị trường ngân hàng và bất động sản Việt Nam, tập trung khu vực phía Nam (TP.HCM, Bình Dương, Đồng Nai, Long An, Bà Rịa-Vũng Tàu).
 
 Dưới đây là {len(articles)} tin tức ngày {date_str}:{wb_note}
