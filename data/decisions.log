@@ -83,3 +83,4 @@
 2026-06-12 16:45 SKIP_MORNING already_sent date=2026-06-12
 2026-06-12 16:45 SKIP_EVENING already_sent date=2026-06-12
 2026-06-12 17:01 ACCEPT [MarketWatch] "U.S. oil prices drop to $84 a barrel after Pakistan says a U.S.-Iran p" | kw:oil,crude,brent
+2026-06-12 17:30 ACCEPT [OilPrice.com] "Pace of US Oil Drilling Inches Up" | kw:oil,gas
