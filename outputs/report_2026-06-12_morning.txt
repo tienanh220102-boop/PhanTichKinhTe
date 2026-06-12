@@ -1,0 +1,75 @@
+[BẢNG SỐ LIỆU]
+             Giá    1D%    5D%  RSI
+WTI        86.69   -3.7   -6.8   40
+Brent      89.40   -4.0   -5.9   38
+Khí TN     3.075   -3.5   -7.8   51
+Vàng    4,209.90   +2.5   -5.9   34
+Bạc        66.92   +3.6   -9.3   36
+Đồng       6.383   +2.1   -2.0   54
+Ngô       413.00   -1.4   -2.7   27
+Lúa mì    590.25   +0.5   +1.5   40
+Đậu t.  1,114.00   -0.8   -1.4   31
+DXY        99.81   -0.1   +0.4   60
+
+📊 Volume cao bất thường (phiên đóng gần nhất so median 20 phiên): Vàng 1.6×
+
+[LIÊN THỊ TRƯỜNG]
+  Brent−WTI: $2.71 (1 tháng trước: $5.59) — spread rộng = cung WTI dồi dào tương đối
+  Vàng/Bạc: 62.9 (1 tháng trước: 54.9) — tỷ lệ cao = bạc rẻ tương đối so với vàng
+  Đồng/Vàng (×1000): 1.52 (1 tháng trước: 1.39) — tăng = risk-on/kỳ vọng tăng trưởng
+
+[VỊ THẾ QUỸ ĐẦU CƠ — CFTC COT tuần 2026-06-02]
+  Lúa mì (SRW): NET SHORT -40,762
+  Ngô: NET LONG +199,942
+  Đậu tương: NET LONG +187,784
+  Dầu WTI: NET SHORT -7,851
+  Bạc: NET LONG +23,926
+  Đồng: NET LONG +78,833
+  Vàng XAU: NET LONG +176,020
+→ NET LONG = quỹ đặt cược giá tăng; Δ dương = dòng tiền đầu cơ đang vào
+
+🔀 ĐỐI CHIẾU NGUỒN TIN
+Không phát hiện xung đột đáng kể giữa các nguồn trong phiên này.
+
+🌍 VĨ MÔ & TIN TỨC NỔI BẬT
+- Lạm phát Mỹ tăng lên mức cao nhất trong 3 năm (4.2% YoY, tin 17), gây lo ngại về lãi suất. DXY giảm nhẹ (-0.14%) về 99.81, cho thấy đồng USD có thể đang chịu áp lực từ kỳ vọng lãi suất.
+- Giá năng lượng tăng vọt do căng thẳng địa chính trị ở Trung Đông (Iran đóng eo biển Hormuz, tin 4, 17), đẩy CPI Mỹ tăng.
+- VIX ở mức 22.22 cho thấy tâm lý thị trường đang có phần bất ổn.
+
+🛢️ NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên
+Xu hướng: WTI GIẢM | Brent GIẢM | Khí TN SIDEWAY
+Tín hiệu: WTI BÁN | Brent BÁN | Khí TN GIỮ
+Ngưỡng giá: WTI 85.13–95.47 | Brent 87.54–98.05 | Khí TN 3.072–3.365
+Phân tích: Dầu WTI và Brent giảm mạnh lần lượt -3.71% và -3.97%, với RSI lần lượt là 40 và 38, cho thấy áp lực bán đang gia tăng. Giá dầu đang ở mức thấp hơn MA20 (WTI 94.74, Brent 98.71). Tuy nhiên, tin tức về việc Iran đóng eo biển Hormuz (tin 4) và căng thẳng địa chính trị ở Trung Đông đã đẩy giá dầu tăng vọt trước đó, nhưng dữ liệu thực tế cho thấy giá đang giảm. Vị thế COT của WTI là NET SHORT -7,851, cho thấy các quỹ đang đặt cược vào xu hướng giảm.
+Rủi ro: Sự leo thang căng thẳng địa chính trị ở Trung Đông có thể đảo ngược xu hướng giảm giá dầu.
+
+🥇 KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc
+Xu hướng: Vàng GIẢM | Bạc GIẢM
+Tín hiệu: Vàng BÁN | Bạc BÁN
+Ngưỡng giá: Vàng 4,100.00–4,472.30 | Bạc 63.74–72.73
+Phân tích: Vàng giảm 2.48% xuống $4209.90/oz và Bạc giảm 3.59% xuống $66.920/oz, với RSI lần lượt là 34 và 36, cho thấy cả hai kim loại quý đang trong vùng quá bán. Giá vàng đang ở dưới MA20 (4451.02) và MA50 (4601.52). Tỷ lệ Vàng/Bạc tăng lên 62.9, cho thấy bạc đang rẻ tương đối so với vàng. Vị thế COT của Vàng là NET LONG +176,020, cho thấy các quỹ vẫn đang giữ vị thế mua ròng.
+Rủi ro: Lạm phát tăng cao và lo ngại về lãi suất có thể tiếp tục gây áp lực lên vàng, bất chấp vị thế mua ròng của các quỹ.
+
+🌾 NÔNG SẢN — Ngô, Đậu tương, Lúa mì
+Xu hướng: Ngô GIẢM | Lúa mì SIDEWAY | Đậu tương GIẢM
+Tín hiệu: Ngô GIỮ (quá bán) | Lúa mì GIỮ | Đậu tương BÁN
+Ngưỡng giá: Ngô 411.25–425.75 | Lúa mì 574.75–600.25 | Đậu tương 1,110.25–1,132.25
+Phân tích: Ngô giảm 1.43% xuống 413.00¢/bushel và Đậu tương giảm 0.80% xuống 1114.00¢/bushel. RSI của Ngô là 27 (quá bán) và Đậu tương là 31. Cả hai đều đang dưới MA20 (Ngô 444.57, Đậu tương 1166.72). Lúa mì tăng nhẹ 0.47% lên 590.25¢/bushel với RSI 40. Vị thế COT của Ngô là NET LONG +199,942 và Đậu tương là NET LONG +187,784, cho thấy các quỹ vẫn đang giữ vị thế mua ròng.
+Rủi ro: Thời tiết bất lợi trong giai đoạn thụ phấn của ngô (tháng 6) có thể tạo ra biến động mạnh.
+
+🔩 KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken
+Xu hướng: Đồng TĂNG
+Tín hiệu: Đồng MUA
+Ngưỡng giá: Đồng 6.363–6.417
+Phân tích: Đồng tăng 2.14% lên $6.3830/lb, với RSI 54 và đang nằm trên MA20 (6.3630). Tỷ lệ Đồng/Vàng tăng lên 1.52, cho thấy tâm lý "risk-on" đang gia tăng. Vị thế COT của Đồng là NET LONG +78,833, cho thấy các quỹ đang tích cực mua vào.
+Rủi ro: Sự suy giảm của các thị trường năng lượng và kim loại quý có thể ảnh hưởng tiêu cực đến tâm lý chung đối với các kim loại công nghiệp.
+
+📋 KHUYẾN NGHỊ PHIÊN
+- Bán khống Dầu WTI tại mức giá hiện tại, cắt lỗ tại $95.47, mục tiêu $85.13.
+- Bán khống Dầu Brent tại mức giá hiện tại, cắt lỗ tại $98.05, mục tiêu $87.54.
+- Mua khống Đồng tại mức giá hiện tại, cắt lỗ tại $6.2490, mục tiêu $6.4165.
+
+⚠️ THEO DÕI PHIÊN
+- Diễn biến căng thẳng địa chính trị ở Trung Đông và tác động đến nguồn cung dầu.
+- Dữ liệu kinh tế Mỹ và các phát biểu từ Fed về chính sách lãi suất.
+- Tình hình thời tiết tại các vùng trồng trọt chính của Mỹ.
