@@ -84,3 +84,27 @@
 2026-06-12 16:45 SKIP_EVENING already_sent date=2026-06-12
 2026-06-12 17:01 ACCEPT [MarketWatch] "U.S. oil prices drop to $84 a barrel after Pakistan says a U.S.-Iran p" | kw:oil,crude,brent
 2026-06-12 17:30 ACCEPT [OilPrice.com] "Pace of US Oil Drilling Inches Up" | kw:oil,gas
+2026-06-12 18:01 ACCEPT [BBC Business] "India's 'blue gold' starts a new drinks industry" | kw:gold
+2026-06-12 18:01 ACCEPT [BBC Business] "Trump says 'I love the inflation' as US prices rise at fastest rate in" | kw:rice,inflation
+2026-06-12 18:01 ACCEPT [BBC Business] "The threat to summer holidays looming from jet fuel shortages" | kw:fuel,shortage
+2026-06-12 18:01 ACCEPT [The Guardian Biz] "US consumer sentiment improves in June due to easing gas prices" | kw:gas,rice,inflation
+2026-06-12 18:01 ACCEPT [The Guardian Biz] "AI wealth boom sending San Francisco home prices surging: ‘It’s ridicu" | kw:rice
+2026-06-12 18:01 ACCEPT [The Guardian Biz] "China’s BYD aims to be world’s biggest car firm within five years" | kw:oil,rice
+2026-06-12 18:01 ACCEPT [The Guardian Biz] "Has the US really carried out a secret mission to get oil through Horm" | kw:oil
+2026-06-12 18:01 ACCEPT [The Guardian Biz] "What Albania teaches us about Kushner's real estate tactics – video ex" | kw:iron
+2026-06-12 18:01 ACCEPT [CNBC Commodities] "Gold slumps to 6-month low even as inflation fears rise. Here's why bu" | kw:gold,rice,inflation
+2026-06-12 18:01 ACCEPT [OilPrice.com] "Nigeria's Crude Oil Production Hits 15-Month High" | kw:oil,crude,opec
+2026-06-12 18:01 ACCEPT [OilPrice.com] "Russian Governors Rush to Deny Fuel Crisis as Rationing Spreads" | kw:fuel,shortage
+2026-06-12 18:01 ACCEPT [OilPrice.com] "Oil Market Volatility Masks a Shifting Reality in the Middle East" | kw:oil
+2026-06-12 18:01 ACCEPT [OilPrice.com] "India Set to Miss Budget Deficit Target as Oil Shock Strains Public Fi" | kw:oil,crude
+2026-06-12 18:01 ACCEPT [Mining.com] "Glencore to resume emissions spending at Quebec smelter" | kw:iron
+2026-06-12 18:01 ACCEPT [Mining.com] "PeaceGold, SigraFi sign responsible artisanal gold supply deal in DRC" | kw:gold
+2026-06-12 18:01 ACCEPT [Mining.com] "Op-Ed: Volatility in markets has not changed positive outlook for gold" | kw:gold
+2026-06-12 18:01 ACCEPT [Mining.com] "Conflict coltan from Congo linked to Sony, Microsoft, Nvidia supply ch" | kw:supply chain
+2026-06-12 18:01 ACCEPT [Mining.com] "Indonesia raids gold company in $1.4B laundering probe" | kw:gold
+2026-06-12 18:01 ACCEPT [Mining.com] "Illegal mining gangs implicated in South Africa massacre that killed 1" | kw:gold
+2026-06-12 18:01 ACCEPT [Mining.com] "Central Asia Metals’ copper-zinc production outpaces last year" | kw:copper,zinc,rice
+2026-06-12 18:01 ACCEPT [Mining.com] "Ero Copper sees resource growth potential in Brazil" | kw:copper
+2026-06-12 18:01 ACCEPT [Mining.com] "Meteorite may have ‘rained gold’ on Australia" | kw:gold
+2026-06-12 18:01 ACCEPT [Mining.com] "Larvotto Resources inks gold offtake deal with Glencore" | kw:gold
+2026-06-12 18:01 ACCEPT [Mining.com] "Debt cycle points to stronger case for gold price: Sprott" | kw:gold,rice
