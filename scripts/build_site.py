@@ -61,6 +61,13 @@ ul { padding-left:20px; margin:6px 0; }
 table { width:100%; border-collapse:collapse; font-size:.88rem; }
 th, td { padding:6px 8px; text-align:left; border-bottom:1px solid var(--border); }
 th { color:var(--muted); font-weight:600; }
+table.grid { width:auto; min-width:60%; }
+table.grid th, table.grid td { border:1px solid var(--border); padding:6px 12px; }
+table.grid td.num, table.grid th.num { text-align:right;
+  font-variant-numeric:tabular-nums; }
+table.grid td.pos { color:var(--buy); font-weight:600; }
+table.grid td.neg { color:var(--sell); font-weight:600; }
+table.grid tr:nth-child(even) td { background:rgba(255,255,255,.025); }
 .archive li { margin:4px 0; }
 .archive .tag { color:var(--muted); font-size:.82rem; }
 footer { color:var(--muted); font-size:.78rem; text-align:center; margin-top:28px; }
@@ -94,6 +101,45 @@ def is_section_header(line):
     return ord(first) > 0x2000 and not first.isalnum()
 
 
+def parse_grid_rows(rows):
+    """Tach cac dong cot can le (>=2 spaces giua cot) thanh list cell.
+
+    Tra ve None neu khong giong bang (it dong, hoac dong khong du cot).
+    """
+    if len(rows) < 3:
+        return None
+    parsed = [re.split(r'\s{2,}', r.strip()) for r in rows]
+    if any(len(cells) < 3 for cells in parsed):
+        return None
+    return parsed
+
+
+def render_grid_table(title, parsed):
+    """Render bang ke o: dong dau = header, cell +x/-x to mau."""
+    ncols = max(len(c) for c in parsed)
+    head = parsed[0]
+    if len(head) < ncols:  # header thieu cot ten (dong dau can le bang space)
+        head = [''] * (ncols - len(head)) + head
+    ths = ''.join('<th%s>%s</th>' % (' class="num"' if i else '', esc(c))
+                  for i, c in enumerate(head))
+    body = []
+    for cells in parsed[1:]:
+        tds = []
+        for i, c in enumerate(cells):
+            cls = []
+            if i:
+                cls.append('num')
+                if c.startswith('+'):
+                    cls.append('pos')
+                elif c.startswith('-'):
+                    cls.append('neg')
+            tds.append('<td%s>%s</td>'
+                       % (' class="%s"' % ' '.join(cls) if cls else '', esc(c)))
+        body.append('<tr>%s</tr>' % ''.join(tds))
+    return ('</div><div class="card"><h2>%s</h2><table class="grid">'
+            '<tr>%s</tr>%s</table>' % (esc(title), ths, ''.join(body)))
+
+
 def render_txt_report(text):
     """Chuyen report .txt thanh HTML: header emoji -> h2, field -> styled row, * -> li."""
     out, in_list = [], False
@@ -104,10 +150,28 @@ def render_txt_report(text):
             out.append('</ul>')
             in_list = False
 
-    for raw in text.splitlines():
+    lines = text.splitlines()
+    i = 0
+    while i < len(lines):
+        raw = lines[i]
+        i += 1
         line = raw.strip()
         if not line:
             close_list()
+            continue
+        m = re.match(r'^\[(.+)\]$', line)
+        if m:
+            # Khoi [TIEU DE]: gom cac dong lien tiep, neu can le cot -> bang ke o
+            j = i
+            while j < len(lines) and lines[j].strip():
+                j += 1
+            parsed = parse_grid_rows(lines[i:j])
+            close_list()
+            if parsed:
+                out.append(render_grid_table(m.group(1), parsed))
+                i = j
+            else:
+                out.append('</div><div class="card"><h2>%s</h2>' % esc(m.group(1)))
             continue
         if is_section_header(line):
             close_list()

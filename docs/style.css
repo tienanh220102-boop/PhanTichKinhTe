@@ -22,6 +22,13 @@ ul { padding-left:20px; margin:6px 0; }
 table { width:100%; border-collapse:collapse; font-size:.88rem; }
 th, td { padding:6px 8px; text-align:left; border-bottom:1px solid var(--border); }
 th { color:var(--muted); font-weight:600; }
+table.grid { width:auto; min-width:60%; }
+table.grid th, table.grid td { border:1px solid var(--border); padding:6px 12px; }
+table.grid td.num, table.grid th.num { text-align:right;
+  font-variant-numeric:tabular-nums; }
+table.grid td.pos { color:var(--buy); font-weight:600; }
+table.grid td.neg { color:var(--sell); font-weight:600; }
+table.grid tr:nth-child(even) td { background:rgba(255,255,255,.025); }
 .archive li { margin:4px 0; }
 .archive .tag { color:var(--muted); font-size:.82rem; }
 footer { color:var(--muted); font-size:.78rem; text-align:center; margin-top:28px; }
