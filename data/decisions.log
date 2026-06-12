@@ -67,3 +67,6 @@
 2026-06-12 14:31 SKIP_EVENING already_sent date=2026-06-12
 2026-06-12 15:01 SKIP_MORNING already_sent date=2026-06-12
 2026-06-12 15:01 SKIP_EVENING already_sent date=2026-06-12
+2026-06-12 15:31 ACCEPT [OilPrice.com] "Europe Wary Of Too Much Dependence on U.S. LNG" | kw:gas,lng
+2026-06-12 15:31 SKIP_MORNING already_sent date=2026-06-12
+2026-06-12 15:31 SKIP_EVENING already_sent date=2026-06-12
