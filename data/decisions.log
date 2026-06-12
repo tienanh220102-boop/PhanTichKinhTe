@@ -59,3 +59,6 @@
 2026-06-12 13:58 ACCEPT [OilPrice.com] "Oil Market Volatility Masks a Shifting Reality in the Middle East" | kw:oil
 2026-06-12 13:59 SKIP_MORNING already_sent date=2026-06-12
 2026-06-12 13:59 SENT_EVENING articles=20 date=2026-06-12
+2026-06-12 14:14 ACCEPT [MarketWatch] "These are the assets investors should buy if a peace deal with Iran ha" | kw:rice,inflation
+2026-06-12 14:14 SKIP_MORNING already_sent date=2026-06-12
+2026-06-12 14:14 SKIP_EVENING already_sent date=2026-06-12
