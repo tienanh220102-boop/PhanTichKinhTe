@@ -39,3 +39,11 @@
 2026-06-12 06:26 ACCEPT [OilPrice.com] "Goldman Sachs Cuts 2027 Oil Price Estimate on Demand Uncertainty" | kw:oil,crude,opec
 2026-06-12 06:26 SKIP_MORNING already_sent date=2026-06-12
 2026-06-12 06:52 SKIP_MORNING already_sent date=2026-06-12
+2026-06-12 10:47 ACCEPT [The Guardian Biz] "Elon Musk on track to become world’s first trillionaire today as Space" | kw:rice
+2026-06-12 10:47 ACCEPT [The Guardian Biz] "Has the US really carried out a secret mission to get oil through Horm" | kw:oil
+2026-06-12 10:47 ACCEPT [Al Jazeera] "Family mourn Indian sailor killed in US strike on oil tanker" | kw:oil
+2026-06-12 10:47 ACCEPT [Al Jazeera] "Is Israel’s ‘buffer zone’ inside Lebanon an attempt to grab gas reserv" | kw:gas
+2026-06-12 10:47 ACCEPT [OilPrice.com] "India Set to Miss Budget Deficit Target as Oil Shock Strains Public Fi" | kw:oil,crude
+2026-06-12 10:47 ACCEPT [OilPrice.com] "Oil Prices Tumble 4% on Iran Peace Optimism" | kw:oil,crude,brent
+2026-06-12 10:47 ACCEPT [OilPrice.com] "India Caps Fuel Sales to Avoid Shortages" | kw:gas,fuel,shortage
+2026-06-12 10:47 SKIP_MORNING already_sent date=2026-06-12
