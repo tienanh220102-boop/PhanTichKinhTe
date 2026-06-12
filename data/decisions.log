@@ -77,3 +77,8 @@
 2026-06-12 16:30 ACCEPT [OilPrice.com] "U.S. Military Helping Move 7 Million Bpd Out of Persian Gulf, Wright S" | kw:oil,crude,brent
 2026-06-12 16:31 SKIP_MORNING already_sent date=2026-06-12
 2026-06-12 16:31 SKIP_EVENING already_sent date=2026-06-12
+2026-06-12 16:45 ACCEPT [Mining.com] "Triple Flag buys gold stream on Ravenswood mine for $440M" | kw:gold
+2026-06-12 16:45 ACCEPT [Mining.com] "China’s gold market cools amid ETF outflows: report" | kw:gold
+2026-06-12 16:45 ACCEPT [Mining.com] "Norsk Hydro hit by second aluminum supply crisis" | kw:oil,aluminum
+2026-06-12 16:45 SKIP_MORNING already_sent date=2026-06-12
+2026-06-12 16:45 SKIP_EVENING already_sent date=2026-06-12
