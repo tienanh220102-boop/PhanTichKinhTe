@@ -24,3 +24,14 @@
 2026-06-12 01:30 WB_CONTEXT refreshed
 2026-06-12 01:30 SENT_MORNING articles=20 date=2026-06-12
 2026-06-12 01:34 SKIP_MORNING already_sent date=2026-06-12
+2026-06-12 01:42 ACCEPT [Mining.com] "Glencore to resume emissions spending at Quebec smelter" | kw:iron
+2026-06-12 01:42 ACCEPT [Mining.com] "PeaceGold, SigraFi sign responsible artisanal gold supply deal in DRC" | kw:gold
+2026-06-12 01:42 ACCEPT [Mining.com] "Troilus drills shallow gold, boosts Quebec satellite case" | kw:oil,gold
+2026-06-12 01:42 ACCEPT [Mining.com] "Larvotto buys Hammer Metals to expand copper holding in Queensland" | kw:copper
+2026-06-12 01:42 ACCEPT [Mining.com] "Energy Fuels expects to hit 2026 uranium guidance by midyear" | kw:fuel
+2026-06-12 01:42 ACCEPT [Mining.com] "Op-Ed: Volatility in markets has not changed positive outlook for gold" | kw:gold
+2026-06-12 01:42 ACCEPT [Mining.com] "GoldMining PEA outlines $532M value, 10-year life for São Jorge projec" | kw:gold,rice
+2026-06-12 01:42 ACCEPT [Mining.com] "Conflict coltan from Congo linked to Sony, Microsoft, Nvidia supply ch" | kw:supply chain
+2026-06-12 01:42 ACCEPT [Mining.com] "Indonesia raids gold company in $1.4B laundering probe" | kw:gold
+2026-06-12 01:42 ACCEPT [Mining.com] "Canada risks losing critical minerals infrastructure race, PwC warns" | kw:gdp
+2026-06-12 01:43 SKIP_MORNING already_sent date=2026-06-12
