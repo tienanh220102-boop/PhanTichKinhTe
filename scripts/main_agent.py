@@ -510,6 +510,27 @@ def fetch_wb_vn_context(state):
         return cache.get('block')
 
 
+def select_banking_articles(articles, limit=MAX_ARTICLES):
+    """Chọn bài cho báo cáo (deterministic): ưu tiên NGÀY MỚI NHẤT trước —
+    khi pending tồn backlog nhiều ngày (run trước fail, state không được xả),
+    lấy danh sách theo thứ tự gốc sẽ chỉ ra toàn bài cũ và bỏ hết tin hôm nay
+    (sự cố báo cáo 12/06/2026). Trong cùng ngày: điểm keyword như
+    commodity_agent (title=3đ, desc=1đ; hòa điểm → bài mới hơn trước)."""
+    def score(a):
+        title = a.get('title', '').lower()
+        desc  = a.get('desc', '').lower()
+        s = 0
+        for kw in BANKING_KEYWORDS:
+            if kw in title:
+                s += 3
+            elif kw in desc:
+                s += 1
+        return s
+    ranked = sorted(articles, key=lambda a: a.get('collected_at', ''), reverse=True)
+    ranked.sort(key=score, reverse=True)                                   # stable: hòa điểm → mới trước
+    ranked.sort(key=lambda a: a.get('collected_at', '')[:10], reverse=True)  # stable: ngày mới đè điểm
+    return ranked[:limit]
+
 def _banking_report_prompt(articles, date_str, wb_block=None):
     articles_text = '\n'.join([
         f'{i+1}. [{a["source"]}] {a["title"]}\n   {a["desc"][:300]}'
@@ -616,8 +637,9 @@ def send_banking_daily_report(state, now_vn):
     if now_vn.hour < BANKING_DAILY_HOUR:
         return
 
-    articles = state.get('pending_articles', [])
-    print(f'\n[Ngân hàng] Tạo báo cáo ngày ({len(articles)} tin tích lũy)...')
+    pending  = state.get('pending_articles', [])
+    articles = select_banking_articles(pending)
+    print(f'\n[Ngân hàng] Tạo báo cáo ngày ({len(pending)} tin tích lũy → chọn {len(articles)})...')
     if not articles:
         print('[Ngân hàng] Không có tin, đánh dấu đã gửi.')
         state['last_daily_report'] = today
