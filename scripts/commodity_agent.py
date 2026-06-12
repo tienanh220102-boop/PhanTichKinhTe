@@ -1236,8 +1236,18 @@ def main():
         return
 
     (_ROOT / 'data').mkdir(parents=True, exist_ok=True)
+    # Trim log TRUOC khi mo handler — file duoc commit moi run (tracked tu
+    # 11/06/2026) nen phai chan tang truong vo han (~giu 1 thang)
+    _logf = _ROOT / 'data' / 'decisions.log'
+    try:
+        if _logf.exists():
+            _lines = _logf.read_text(encoding='utf-8', errors='replace').splitlines(keepends=True)
+            if len(_lines) > 20000:
+                _logf.write_text(''.join(_lines[-20000:]), encoding='utf-8')
+    except Exception:
+        pass
     if not _log.handlers:
-        _fh = logging.FileHandler(str(_ROOT / 'data' / 'decisions.log'), encoding='utf-8')
+        _fh = logging.FileHandler(str(_logf), encoding='utf-8')
         _fh.setFormatter(logging.Formatter('%(asctime)s %(message)s', datefmt='%Y-%m-%d %H:%M'))
         _log.addHandler(_fh)
 
