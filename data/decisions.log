@@ -182,3 +182,6 @@
 2026-06-13 21:01 ACCEPT [OilPrice.com] "Fuel Tax Changes Hit Six States As Energy Inflation Accelerates" | kw:oil,crude,fuel
 2026-06-14 00:02 SENT_MORNING articles=7 date=2026-06-14
 2026-06-14 00:31 SKIP_MORNING already_sent date=2026-06-14
+2026-06-14 01:01 ACCEPT [MarketWatch] "My plumber charged $160 to fix the cistern on my toilet — but created " | kw:oil
+2026-06-14 01:01 ACCEPT [The Guardian Biz] "Australia is facing a shortage of critical lubricants. How do we stop " | kw:fuel,shortage
+2026-06-14 01:01 SKIP_MORNING already_sent date=2026-06-14
