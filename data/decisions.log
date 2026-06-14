@@ -232,3 +232,7 @@
 2026-06-14 15:31 ACCEPT [OilPrice.com] "Fiji Blocks Controversial Australian-Backed Waste Incinerator Project" | kw:iron
 2026-06-14 15:31 SKIP_MORNING already_sent date=2026-06-14
 2026-06-14 15:31 SKIP_EVENING already_sent date=2026-06-14
+2026-06-14 16:01 ACCEPT [The Guardian Biz] "How Brexit has made Britain poorer – in charts" | kw:treasury
+2026-06-14 16:01 ACCEPT [Al Jazeera] "UK forces seize suspected Russian oil tanker accused of funding Ukrain" | kw:oil,sanction
+2026-06-14 16:01 SKIP_MORNING already_sent date=2026-06-14
+2026-06-14 16:01 SKIP_EVENING already_sent date=2026-06-14
