@@ -1,0 +1,73 @@
+[BẢNG SỐ LIỆU]
+             Giá    1D%    5D%  RSI
+WTI        84.88   -3.2   -6.2   38
+Brent      87.33   -3.4   -6.2   36
+Khí TN     3.120   +1.1   -3.4   53
+Vàng    4,238.80   +3.6   -2.3   37
+Bạc        67.97   +6.4   -1.4   40
+Đồng       6.445   +3.0   +2.9   56
+Ngô       412.75   +0.2   -1.1   27
+Lúa mì    584.50   -0.4   +0.8   37
+Đậu t.  1,132.00   +1.5   +0.9   40
+DXY        99.75   -0.1   -0.3   59
+
+📊 Volume cao bất thường (phiên đóng gần nhất so median 20 phiên): Vàng 2.3×
+
+[LIÊN THỊ TRƯỜNG]
+  Brent−WTI: $2.45 (1 tháng trước: $4.61) — spread rộng = cung WTI dồi dào tương đối
+  Vàng/Bạc: 62.4 (1 tháng trước: 52.8) — tỷ lệ cao = bạc rẻ tương đối so với vàng
+  Đồng/Vàng (×1000): 1.52 (1 tháng trước: 1.41) — tăng = risk-on/kỳ vọng tăng trưởng
+
+[VỊ THẾ QUỸ ĐẦU CƠ — CFTC COT tuần 2026-06-09]
+  Lúa mì (SRW): NET SHORT -57,853 (Δ tuần: -17,091)
+  Ngô: NET LONG +103,559 (Δ tuần: -96,383)
+  Đậu tương: NET LONG +150,463 (Δ tuần: -37,321)
+  Dầu WTI: NET LONG +3,379 (Δ tuần: +11,230)
+  Bạc: NET LONG +22,214 (Δ tuần: -1,712)
+  Đồng: NET LONG +74,450 (Δ tuần: -4,383)
+  Vàng XAU: NET LONG +173,837 (Δ tuần: -2,183)
+→ NET LONG = quỹ đặt cược giá tăng; Δ dương = dòng tiền đầu cơ đang vào
+
+🔀 ĐỐI CHIẾU NGUỒN TIN
+Không phát hiện xung đột đáng kể giữa các nguồn trong phiên này.
+
+🌍 VĨ MÔ & TIN TỨC NỔI BẬT
+*   **DXY giảm nhẹ (-0.11%) xuống 99.75**: Cho thấy đồng USD có dấu hiệu hạ nhiệt, có thể hỗ trợ các tài sản định giá bằng USD như vàng.
+*   **Lợi suất trái phiếu Kho bạc 10 năm Mỹ ở mức 4.45%**: Mức lợi suất này vẫn duy trì ở mức tương đối cao, có thể tạo áp lực lên các tài sản rủi ro hơn.
+*   **VIX ở mức 19.44**: Cho thấy tâm lý thị trường đang ở mức trung bình, không quá hoảng loạn nhưng cũng không quá lạc quan.
+
+🛢️ NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên
+Xu hướng: WTI GIẢM | Brent GIẢM | Khí TN TĂNG
+Tín hiệu: WTI BÁN | Brent BÁN | Khí TN MUA
+Ngưỡng giá: WTI 83.20–95.47 | Brent 85.80–98.05 | Khí TN 3.117–3.249
+Phân tích: Dầu WTI và Brent giảm mạnh lần lượt -3.23% và -3.37% trong phiên, với RSI14 lần lượt là 38 và 36, đều dưới ngưỡng 50 và đang hướng về vùng quá bán. Vị trí 52 tuần của WTI là 46% và Brent là 42%, cho thấy giá đang ở nửa dưới của kênh giao dịch 52 tuần. Tin tức từ OilPrice.com cho biết giá dầu giảm sau tuyên bố của Tổng thống Trump về khả năng đạt thỏa thuận hòa bình với Iran, làm giảm lo ngại về căng thẳng địa chính trị. Vị thế COT của WTI là NET LONG +3,379, tuy nhiên có sự gia tăng vị thế mua ròng tuần qua (+11,230), cho thấy các quỹ đầu cơ vẫn đang đặt cược vào khả năng tăng giá trong dài hạn. Khí tự nhiên tăng nhẹ +1.07% với RSI14 là 53, cho thấy lực cầu đang dần hồi phục.
+Rủi ro: Căng thẳng địa chính trị leo thang bất ngờ tại Trung Đông có thể đẩy giá dầu tăng trở lại.
+
+🥇 KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc
+Xu hướng: Vàng GIẢM | Bạc GIẢM
+Tín hiệu: Vàng BÁN | Bạc BÁN
+Ngưỡng giá: Vàng 4,031.00–4,344.50 | Bạc 63.74–68.81
+Phân tích: Vàng giảm mạnh -3.63% với RSI14 là 37, cho thấy áp lực bán đang gia tăng và giá đang tiến gần vùng quá bán. Bạc cũng giảm -6.40% với RSI14 là 40. Tỷ lệ Vàng/Bạc tăng lên 62.4 (từ 52.8 tháng trước), cho thấy bạc đang rẻ tương đối so với vàng. Tin tức từ Al Jazeera và MarketWatch cho rằng vàng không còn là kênh trú ẩn an toàn hiệu quả trong bối cảnh chiến tranh, khi giá đã giảm kể từ khi cuộc chiến với Iran bắt đầu. Vị thế COT của Vàng là NET LONG +173,837, tuy nhiên có sự giảm nhẹ vị thế mua ròng tuần qua (-2,183).
+Rủi ro: Bất kỳ diễn biến địa chính trị bất ngờ nào cũng có thể kích hoạt dòng tiền trú ẩn vào vàng, đảo ngược xu hướng giảm hiện tại.
+
+🌾 NÔNG SẢN — Ngô, Đậu tương, Lúa mì
+Xu hướng: Ngô GIẢM | Lúa mì SIDEWAY | Đậu tương GIẢM
+Tín hiệu: Ngô GIỮ (quá bán) | Lúa mì GIỮ | Đậu tương BÁN
+Ngưỡng giá: Ngô 408.50–425.75 | Lúa mì 574.75–600.25 | Đậu tương 1,108.25–1,137.25
+Phân tích: Ngô giảm nhẹ -0.24% với RSI14 là 27, cho thấy đã ở vùng quá bán và có thể có lực cầu bắt đáy. Lúa mì giảm -0.38% với RSI14 là 37. Đậu tương giảm -1.52% với RSI14 là 40. Vị thế COT của Ngô là NET LONG +103,559 nhưng có sự giảm mạnh vị thế mua ròng tuần qua (-96,383). Đậu tương có vị thế NET LONG +150,463, cũng giảm vị thế mua ròng tuần qua (-37,321). Yếu tố mùa vụ quan trọng là giai đoạn thụ phấn của ngô tại Mỹ đang bắt đầu, đây là cửa sổ thời tiết quan trọng.
+Rủi ro: Thời tiết khắc nghiệt bất thường tại các vùng trồng trọt chính có thể đẩy giá nông sản tăng mạnh.
+
+🔩 KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken
+Xu hướng: Đồng TĂNG
+Tín hiệu: Đồng MUA
+Ngưỡng giá: Đồng 6.351–6.496
+Phân tích: Đồng tăng +2.97% với RSI14 là 56, cho thấy lực cầu đang mạnh lên và giá đang tiến gần vùng trung lập. Tỷ lệ Đồng/Vàng tăng lên 1.52 (từ 1.41 tháng trước), cho thấy tâm lý "risk-on" và kỳ vọng tăng trưởng đang gia tăng. Vị thế COT của Đồng là NET LONG +74,450, tuy nhiên có sự giảm nhẹ vị thế mua ròng tuần qua (-4,383). Tin tức từ Mining.com cho biết Hertha Metals đang nhắm tới việc thu hẹp khoảng cách cung cấp nam châm đất hiếm với nhà máy sắt tinh khiết tại Texas, cho thấy nhu cầu về các kim loại công nghiệp liên quan đến sản xuất công nghệ cao vẫn đang được quan tâm.
+Rủi ro: Sự suy giảm kinh tế toàn cầu hoặc các biện pháp thắt chặt tiền tệ có thể làm giảm nhu cầu đối với đồng.
+
+📋 KHUYẾN NGHỊ PHIÊN
+*   **Dầu WTI/Brent**: Bán quanh mức 84.88/87.33, cắt lỗ tại 86.50/89.00.
+*   **Vàng**: Bán quanh mức 4238.80, cắt lỗ tại 4280.
+*   **Đậu tương**: Bán quanh mức 1132.00, cắt lỗ tại 1145.
+
+⚠️ THEO DÕI PHIÊN
+*   Dữ liệu kinh tế Mỹ công bố trong phiên.
