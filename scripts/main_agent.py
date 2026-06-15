@@ -26,6 +26,7 @@ from market_data import fetch_cftc_cot
 # ── Cấu hình chung ────────────────────────────────────────────────────────────
 _ROOT          = Path(__file__).parent.parent
 GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY', '')
+GEMINI_MODEL   = os.environ.get('GEMINI_MODEL', 'gemini-2.5-pro')
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN', '')
 TELEGRAM_CHAT  = os.environ.get('TELEGRAM_CHAT', '')
 OUTPUT_DIR     = _ROOT / 'outputs'
@@ -70,7 +71,7 @@ def fetch_rss(url, unescape=False):
 def call_gemini(prompt, max_tokens=1600):
     url = (
         'https://generativelanguage.googleapis.com/v1beta/models/'
-        f'gemini-2.5-flash-lite:generateContent?key={GEMINI_API_KEY}'
+        f'{GEMINI_MODEL}:generateContent?key={GEMINI_API_KEY}'
     )
     payload = {
         'contents': [{'parts': [{'text': prompt}]}],

@@ -7,7 +7,7 @@ Commodity Market Report Agent
 - Báo cáo: phân tích vĩ mô, tín hiệu giao dịch, mức giá, rủi ro
 - Tổng kết tuần vào thứ 6 sau 20:00
 """
-import json, os, sys, time, hashlib, logging
+import json, os, re, sys, time, hashlib, logging
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
@@ -20,6 +20,10 @@ _ROOT               = Path(__file__).parent.parent
 TELEGRAM_TOKEN      = os.environ.get('TELEGRAM_TOKEN', '')
 TELEGRAM_CHAT       = os.environ.get('TELEGRAM_CHAT', '')
 GEMINI_API_KEY      = os.environ.get('GEMINI_API_KEY', '')
+# Model phân tích — đổi qua biến môi trường GEMINI_MODEL nếu cần.
+# gemini-2.5-pro : suy luận tốt nhất, ít sai dấu số liệu — hợp cho báo cáo (≈3-5 call/ngày).
+# gemini-2.5-flash : cân bằng tốc độ/chi phí. gemini-2.5-flash-lite : rẻ nhất, dễ sai dấu.
+GEMINI_MODEL        = os.environ.get('GEMINI_MODEL', 'gemini-2.5-pro')
 ALPHAVANTAGE_KEY    = os.environ.get('ALPHAVANTAGE_API_KEY', '')
 TWELVEDATA_KEY      = os.environ.get('TWELVEDATA_API_KEY', '')
 FRED_API_KEY        = os.environ.get('FRED_API_KEY', '')
@@ -509,6 +513,106 @@ def build_group_signals(prices):
     return out
 
 
+def _dir_word(pct):
+    """Từ hướng theo dấu % — ngưỡng ±0.05% để bỏ nhiễu làm tròn."""
+    if pct is None:
+        return '—'
+    if pct > 0.05:
+        return 'TĂNG'
+    if pct < -0.05:
+        return 'GIẢM'
+    return 'ĐI NGANG'
+
+
+def build_movement_facts(prices):
+    """[Fix 1] Mô tả biến động ĐÃ CHỐT cho từng mặt hàng để khóa cứng số liệu.
+
+    LLM phải dùng nguyên văn HƯỚNG (tăng/giảm) và % theo dòng này — không tự
+    tính lại, không đảo dấu. Tách bạch 3 khung dễ bị nhầm:
+      • biến động PHIÊN (1D%)  • biến động 5 PHIÊN (5D%)  • xu hướng trung hạn (theo MA)
+    Đây chính là nơi lỗi 'Vàng +3.6% nhưng prose ghi giảm 3.66%' bị chặn từ gốc.
+    """
+    lines = ['[MÔ TẢ BIẾN ĐỘNG ĐÃ CHỐT — BẮT BUỘC dùng NGUYÊN VĂN hướng & % bên dưới, '
+             'TUYỆT ĐỐI không tự tính lại hay đảo dấu]']
+    for _group, syms in SYMBOL_GROUPS.items():
+        for key, label in syms:
+            e = prices.get(key)
+            if not e:
+                continue
+            chg, c5, rsi = e.get('chg_pct'), e.get('chg_5d'), e.get('rsi14')
+            v, ma20 = e.get('value'), e.get('ma20')
+            trend, _ = classify_trend_signal(e)
+            parts = [f'phiên {chg:+.2f}% ({_dir_word(chg)})' if chg is not None else 'phiên N/A']
+            if c5 is not None:
+                parts.append(f'5 phiên {c5:+.2f}% ({_dir_word(c5)})')
+            if rsi is not None:
+                parts.append(f'RSI {rsi:.0f}')
+            if v and ma20:
+                parts.append(f"giá {'trên' if v > ma20 else 'dưới'} MA20")
+            parts.append(f'xu hướng trung hạn {trend}')
+            lines.append(f'• {label}: ' + ' | '.join(parts))
+    return '\n'.join(lines)
+
+
+# Tên mặt hàng có thể xuất hiện trong phần văn bản → key trong `prices`.
+_PROSE_ALIASES = {
+    'WTI': 'WTI', 'brent': 'Brent', 'khí tn': 'NatGas', 'khí tự nhiên': 'NatGas',
+    'vàng': 'Gold', 'bạc': 'Silver', 'đồng': 'Copper',
+    'ngô': 'Corn', 'lúa mì': 'Wheat', 'đậu tương': 'Soybean', 'đậu t.': 'Soybean',
+}
+
+
+def validate_report_directions(text, prices):
+    """[Fix 2] Hậu kiểm chặn LLM đảo dấu khi thuật lại %.
+
+    Với mỗi cụm '(tăng|giảm) X%' trong báo cáo: tìm mặt hàng gần nhất phía trước
+    (≤60 ký tự), đối chiếu X với |1D%| hoặc |5D%| của mặt hàng đó. Nếu KHỚP độ lớn
+    nhưng SAI dấu → sửa từ hướng cho khớp số liệu gốc. Khớp theo độ lớn (±0.2) nên
+    chỉ sửa khi chắc chắn con số ứng với mặt hàng nào — tránh false positive.
+    Trả về (text_đã_sửa, danh_sách_sửa).
+    """
+    if not text or not prices:
+        return text, []
+    fixes = []
+
+    def _repl(m):
+        word, num_s = m.group('dir'), m.group('num').replace(',', '.')
+        try:
+            num = float(num_s)
+        except ValueError:
+            return m.group(0)
+        before = text[max(0, m.start() - 60):m.start()].lower()
+        sym, pos = None, -1
+        for alias, key in _PROSE_ALIASES.items():
+            i = before.rfind(alias)
+            if i > pos:
+                pos, sym = i, key
+        e = prices.get(sym) if sym else None
+        if not e:
+            return m.group(0)
+        true_sign = None
+        for metric in ('chg_pct', 'chg_5d'):
+            val = e.get(metric)
+            if val is not None and abs(abs(val) - num) <= 0.2:
+                true_sign = 1 if val > 0.05 else (-1 if val < -0.05 else 0)
+                break
+        if true_sign is None or true_sign == 0:
+            return m.group(0)
+        stated = 1 if word.lower() == 'tăng' else -1
+        if stated != true_sign:
+            correct = 'tăng' if true_sign > 0 else 'giảm'
+            fixes.append(f'{sym}: "{word} {m.group("num")}%" → "{correct} {m.group("num")}%"')
+            return m.group(0).replace(word, correct, 1)
+        return m.group(0)
+
+    pattern = re.compile(r'(?P<dir>tăng|giảm)\s+(?P<num>\d+(?:[.,]\d+)?)\s*%', re.IGNORECASE)
+    new_text = pattern.sub(_repl, text)
+    for f in fixes:
+        _log.info('DIRECTION_FIX %s', f)
+        print(f'  [validate] direction fixed: {f}')
+    return new_text, fixes
+
+
 def build_quant_table(prices):
     """Bảng số liệu thuần (không qua LLM) cho Telegram <pre> và file báo cáo."""
     rows = [f'{"":7}{"Giá":>9}{"1D%":>7}{"5D%":>7}{"RSI":>5}']
@@ -851,7 +955,7 @@ def build_gold_vnd_line(vn_gold):
 def call_gemini(prompt, max_tokens=1500):
     url = (
         'https://generativelanguage.googleapis.com/v1beta/models/'
-        f'gemini-2.5-flash-lite:generateContent?key={GEMINI_API_KEY}'
+        f'{GEMINI_MODEL}:generateContent?key={GEMINI_API_KEY}'
     )
     payload = {
         'contents': [{'parts': [{'text': prompt}]}],
@@ -917,6 +1021,7 @@ def build_session_report_prompt(articles, session, date_str, month, gold_vnd_lin
 
     # Tín hiệu đã tính sẵn bằng quy tắc định lượng — LLM không được tự quyết
     sig = build_group_signals(prices or {})
+    movement_block = build_movement_facts(prices or {})
     na3 = ('N/A', 'N/A', 'N/A')
     energy, precious = sig.get('energy', na3), sig.get('precious', na3)
     agri, industrial = sig.get('agri', na3),   sig.get('industrial', na3)
@@ -937,12 +1042,17 @@ def build_session_report_prompt(articles, session, date_str, month, gold_vnd_lin
     return f"""Bạn là chuyên gia phân tích thị trường hàng hóa toàn cầu với kinh nghiệm giao dịch thực tế.
 Dưới đây là {len(articles)} {context} ngày {date_str}:{price_note}{vnd_note}{seasonal_note}{wb_note}
 
+{movement_block}
+
 {articles_text}
 
 Hãy viết BÁO CÁO PHÂN TÍCH {session_vn} bằng TIẾNG VIỆT theo đúng cấu trúc sau (không thêm gì ngoài cấu trúc này).
 QUAN TRỌNG:
 - Các dòng "Xu hướng / Tín hiệu / Ngưỡng giá" ĐÃ ĐƯỢC TÍNH SẴN bằng quy tắc định lượng (giá so MA20/MA50 + RSI14) — GIỮ NGUYÊN Y HỆT, không sửa, không thêm bớt.
-- Phần "Phân tích" BẮT BUỘC trích dẫn số liệu cụ thể từ bảng dữ liệu phía trên (% thay đổi, RSI, vị trí 52W, spread, vị thế COT) và giải thích tín hiệu định lượng bằng tin tức. KHÔNG viết chung chung kiểu "giá chịu áp lực" mà không có con số.
+- CHỐT SỐ LIỆU (chống đảo dấu): mọi con số % và từ hướng (tăng/giảm) PHẢI lấy ĐÚNG từ khối "MÔ TẢ BIẾN ĐỘNG ĐÃ CHỐT" ở trên. TUYỆT ĐỐI không tự tính lại, không đảo dấu. Nếu số liệu ghi "phiên +3.60% (TĂNG)" thì phải viết "tăng 3,6%", KHÔNG được viết "giảm".
+- PHÂN BIỆT 3 KHUNG THỜI GIAN, luôn ghi rõ khung khi nêu %: (1) "phiên" = 1D%; (2) "5 phiên" = 5D%; (3) "xu hướng trung hạn" = vị trí so MA20/MA50. Một mặt hàng có thể TĂNG trong phiên nhưng xu hướng trung hạn vẫn GIẢM (giá nảy lên nhưng còn dưới MA20) — đây KHÔNG phải mâu thuẫn, phải diễn giải đúng như vậy thay vì gộp làm một.
+- Phần "Phân tích" BẮT BUỘC trích dẫn số liệu cụ thể từ bảng dữ liệu phía trên (% thay đổi kèm khung thời gian, RSI, vị trí 52W, spread, vị thế COT) và giải thích tín hiệu định lượng bằng tin tức. KHÔNG viết chung chung kiểu "giá chịu áp lực" mà không có con số.
+- ĐỊNH DẠNG: phần "Phân tích" và "Rủi ro" trình bày dưới dạng GẠCH ĐẦU DÒNG (mỗi ý 1 dòng bắt đầu bằng "• "), không viết thành đoạn văn dài.
 - Nếu tín hiệu định lượng mâu thuẫn với tin tức, nêu rõ mâu thuẫn đó trong phần Rủi ro.
 - TẦNG DỮ LIỆU: khối "TĂNG TRƯỞNG GDP" (World Bank) và ngữ cảnh mùa vụ là MẶT BẰNG —
   chúng KHÔNG ĐỔI giữa hôm qua và hôm nay nên KHÔNG BAO GIỜ được dùng làm lý do giải thích
@@ -961,29 +1071,41 @@ QUAN TRỌNG:
 Xu hướng: {energy[0]}
 Tín hiệu: {energy[1]}
 Ngưỡng giá: {energy[2]}
-Phân tích: [2-3 câu — bắt buộc nêu % thay đổi, RSI, vị trí 52W và liên hệ tin tức + COT]
-Rủi ro: [rủi ro chính cần theo dõi]
+Phân tích:
+• [luận điểm — nêu % (ghi rõ phiên/5 phiên), RSI, vị trí 52W + liên hệ tin tức/COT]
+• [luận điểm bổ sung nếu có]
+Rủi ro:
+• [rủi ro chính cần theo dõi]
 
 🥇 KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc
 Xu hướng: {precious[0]}
 Tín hiệu: {precious[1]}
 Ngưỡng giá: {precious[2]}
-Phân tích: [2-3 câu — bắt buộc nêu số liệu (%, RSI, tỷ lệ Vàng/Bạc, DXY) và liên hệ tin tức]
-Rủi ro: [rủi ro chính cần theo dõi]
+Phân tích:
+• [luận điểm — nêu % (ghi rõ phiên/5 phiên), RSI, tỷ lệ Vàng/Bạc, DXY + liên hệ tin tức]
+• [luận điểm bổ sung nếu có]
+Rủi ro:
+• [rủi ro chính cần theo dõi]
 
 🌾 NÔNG SẢN — Ngô, Đậu tương, Lúa mì
 Xu hướng: {agri[0]}
 Tín hiệu: {agri[1]}
 Ngưỡng giá: {agri[2]}
-Phân tích: [2-3 câu — bắt buộc nêu số liệu (% thay đổi, RSI, COT) kết hợp yếu tố mùa vụ]
-Rủi ro: [rủi ro chính cần theo dõi]
+Phân tích:
+• [luận điểm — nêu % (ghi rõ phiên/5 phiên), RSI, COT + yếu tố mùa vụ]
+• [luận điểm bổ sung nếu có]
+Rủi ro:
+• [rủi ro chính cần theo dõi]
 
 🔩 KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken
 Xu hướng: {industrial[0]}
 Tín hiệu: {industrial[1]}
 Ngưỡng giá: {industrial[2]}
-Phân tích: [2-3 câu — bắt buộc nêu số liệu (% thay đổi, RSI, tỷ lệ Đồng/Vàng, COT) và liên hệ tin tức]
-Rủi ro: [rủi ro chính cần theo dõi]
+Phân tích:
+• [luận điểm — nêu % (ghi rõ phiên/5 phiên), RSI, tỷ lệ Đồng/Vàng, COT + liên hệ tin tức]
+• [luận điểm bổ sung nếu có]
+Rủi ro:
+• [rủi ro chính cần theo dõi]
 
 📋 KHUYẾN NGHỊ PHIÊN
 [2-3 khuyến nghị cụ thể kèm mức giá vào lệnh/cắt lỗ tham chiếu từ ngưỡng hỗ trợ-kháng cự đã tính]
@@ -997,7 +1119,14 @@ def generate_session_report(articles, session, date_str, month, gold_vnd_line=No
     if not articles:
         return None
     prompt = build_session_report_prompt(articles, session, date_str, month, gold_vnd_line, price_block, prices, wb_block)
-    return call_gemini(prompt, max_tokens=1600)
+    text = call_gemini(prompt, max_tokens=1600)
+    if text and text != 'QUOTA_EXCEEDED':
+        text, fixes = validate_report_directions(text, prices or {})
+        if fixes:
+            text += ('\n\n⚙️ Ghi chú hệ thống: đã tự hiệu chỉnh '
+                     f'{len(fixes)} mô tả hướng giá cho khớp số liệu gốc. '
+                     'Nên kiểm tra lại các câu liên quan (có thể còn từ "lên/xuống" chưa đồng bộ).')
+    return text
 
 # ── World Bank Open Data (REST, khong can key) ───────────────
 # Du lieu ANNUAL (tre ~1 nam) → chi dung lam boi canh nen, cache 30 ngay.
