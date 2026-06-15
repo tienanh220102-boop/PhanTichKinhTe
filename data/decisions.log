@@ -247,3 +247,6 @@
 2026-06-14 23:01 ACCEPT [MarketWatch] "Stock futures jump, oil prices fall as Trump says U.S. has reached pea" | kw:oil,rice
 2026-06-14 23:01 ACCEPT [Al Jazeera] "US-Iran ceasefire deal announced, Trump says Strait of Hormuz reopenin" | kw:shipping
 2026-06-14 23:31 ACCEPT [BBC Business] "Millions of people can get discounts on their bills - here's how" | kw:tariff
+2026-06-15 00:01 ACCEPT [BBC Business] "Oil prices slide after Pakistan announces deal between US and Iran" | kw:oil,rice
+2026-06-15 00:01 ACCEPT [Al Jazeera] "US-Iran ‘peace deal’ announced; Trump says Strait of Hormuz reopening" | kw:shipping
+2026-06-15 00:02 SENT_MORNING articles=13 date=2026-06-15
