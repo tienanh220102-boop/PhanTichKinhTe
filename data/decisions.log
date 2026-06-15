@@ -274,3 +274,5 @@
 2026-06-15 07:01 ACCEPT [Al Jazeera] "Stock markets soar, oil falls as US and Iran announce framework to end" | kw:oil
 2026-06-15 07:01 SKIP_MORNING already_sent date=2026-06-15
 2026-06-15 07:31 SKIP_MORNING already_sent date=2026-06-15
+2026-06-15 08:01 ACCEPT [BBC Business] "Oil prices fall and shares jump after US-Iran deal announced" | kw:oil,rice
+2026-06-15 08:01 SKIP_MORNING already_sent date=2026-06-15
