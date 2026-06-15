@@ -296,3 +296,7 @@
 2026-06-15 11:31 SKIP_MORNING already_sent date=2026-06-15
 2026-06-15 12:01 ACCEPT [Al Jazeera] "‘Island surrounded by war’: Crimeans panic amid Ukrainian attacks" | kw:fuel,shortage
 2026-06-15 12:01 SKIP_MORNING already_sent date=2026-06-15
+2026-06-15 12:31 ACCEPT [MarketWatch] "Oil prices slump to three-month lows after U.S. and Iran agree to fram" | kw:oil,crude,brent
+2026-06-15 12:31 ACCEPT [MarketWatch] "Gold’s correction could lead to a rebound. Barclays recommends these s" | kw:gold,rice
+2026-06-15 12:31 ACCEPT [OilPrice.com] "90% of Global Businesses Expect to Electrify Operations by 2035" | kw:fuel,rice
+2026-06-15 12:31 SKIP_MORNING already_sent date=2026-06-15
