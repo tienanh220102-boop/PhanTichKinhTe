@@ -300,3 +300,7 @@
 2026-06-15 12:31 ACCEPT [MarketWatch] "Gold’s correction could lead to a rebound. Barclays recommends these s" | kw:gold,rice
 2026-06-15 12:31 ACCEPT [OilPrice.com] "90% of Global Businesses Expect to Electrify Operations by 2035" | kw:fuel,rice
 2026-06-15 12:31 SKIP_MORNING already_sent date=2026-06-15
+2026-06-15 13:01 ACCEPT [BBC Business] "What's happening to UK petrol and diesel prices now the US and Iran ha" | kw:fuel,rice
+2026-06-15 13:01 ACCEPT [The Guardian Biz] "Oil prices hit three-month low and markets rally amid Iran deal breakt" | kw:oil,crude,brent
+2026-06-15 13:01 SKIP_MORNING already_sent date=2026-06-15
+2026-06-15 13:02 SENT_EVENING articles=20 date=2026-06-15
