@@ -318,3 +318,7 @@
 2026-06-15 14:57 ACCEPT [BBC Business] "How could the US-Iran deal affect oil prices and the cost of food?" | kw:oil,rice
 2026-06-15 14:57 SKIP_MORNING already_sent date=2026-06-15
 2026-06-15 14:57 SKIP_EVENING already_sent date=2026-06-15
+2026-06-15 15:01 ACCEPT [MarketWatch] "Here’s when gas prices will go down now that there’s a deal to end the" | kw:gas,rice
+2026-06-15 15:01 ACCEPT [The Guardian Biz] "Oil and gas unlikely to return to prewar prices for months even if Hor" | kw:oil,crude,gas
+2026-06-15 15:01 SKIP_MORNING already_sent date=2026-06-15
+2026-06-15 15:01 SKIP_EVENING already_sent date=2026-06-15
