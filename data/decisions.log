@@ -251,3 +251,5 @@
 2026-06-15 00:01 ACCEPT [Al Jazeera] "US-Iran ‘peace deal’ announced; Trump says Strait of Hormuz reopening" | kw:shipping
 2026-06-15 00:02 SENT_MORNING articles=13 date=2026-06-15
 2026-06-15 00:31 SKIP_MORNING already_sent date=2026-06-15
+2026-06-15 01:01 ACCEPT [Al Jazeera] "Stock markets soar, oil falls as US, Iran confirm deal to end war" | kw:oil
+2026-06-15 01:02 SKIP_MORNING already_sent date=2026-06-15
