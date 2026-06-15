@@ -307,3 +307,8 @@
 2026-06-15 13:31 ACCEPT [OilPrice.com] "First LNG Tanker Clears Hormuz After U.S.-Iran Deal Announcement" | kw:lng
 2026-06-15 13:31 SKIP_MORNING already_sent date=2026-06-15
 2026-06-15 13:31 SKIP_EVENING already_sent date=2026-06-15
+2026-06-15 14:01 ACCEPT [MarketWatch] "Oil prices retreat to $80 a barrel after U.S. and Iran agree to a fram" | kw:oil,gas,rice
+2026-06-15 14:01 ACCEPT [The Guardian Biz] "Return to pre-crisis oil and gas supplies months away even if strait o" | kw:oil,crude,gas
+2026-06-15 14:01 ACCEPT [OilPrice.com] "Britain Intercepts Russian Oil Tanker Linked to Shadow Fleet" | kw:oil
+2026-06-15 14:01 SKIP_MORNING already_sent date=2026-06-15
+2026-06-15 14:01 SKIP_EVENING already_sent date=2026-06-15
