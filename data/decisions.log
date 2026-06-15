@@ -337,8 +337,9 @@
 2026-06-15 17:01 ACCEPT [Mining.com] "Montage Gold boosts Koné resources by 58%" | kw:gold
 2026-06-15 17:01 ACCEPT [Mining.com] "UBS sees gold price falling further, but remains long-term bullish" | kw:gold,rice
 2026-06-15 18:01 ACCEPT [Mining.com] "Ucore, Sumitomo team up on rare earth supply chain development" | kw:supply chain
-2026-06-15 19:01 ACCEPT [Al Jazeera] "EU fails to agree on sanctions for far-right Israeli minister Ben-Gvir" | kw:sanction
-2026-06-15 19:01 ACCEPT [Al Jazeera] "Tunisia sack boss Sabri Lamouchi after World Cup thrashing by Sweden" | kw:rice
-2026-06-15 19:01 ACCEPT [OilPrice.com] "From Hormuz to Houston: The U.S. Takeover of Global Energy Flows Ramps" | kw:oil,crude
-2026-06-15 19:01 ACCEPT [OilPrice.com] "Danish Energy Trader Eyes U.S. Gas Markets After Trading Profits Colla" | kw:gas,gold,commodities
-2026-06-15 19:01 ACCEPT [OilPrice.com] "European Gas Prices Tumble 6% On US-Iran Peace Deal" | kw:gas,rice
+2026-06-15 19:02 ACCEPT [Al Jazeera] "EU fails to agree on sanctions for far-right Israeli minister Ben-Gvir" | kw:sanction
+2026-06-15 19:02 ACCEPT [Al Jazeera] "Tunisia sack boss Sabri Lamouchi after World Cup thrashing by Sweden" | kw:rice
+2026-06-15 19:02 ACCEPT [OilPrice.com] "From Hormuz to Houston: The U.S. Takeover of Global Energy Flows Ramps" | kw:oil,crude
+2026-06-15 19:02 ACCEPT [OilPrice.com] "Danish Energy Trader Eyes U.S. Gas Markets After Trading Profits Colla" | kw:gas,gold,commodities
+2026-06-15 19:02 ACCEPT [OilPrice.com] "European Gas Prices Tumble 6% On US-Iran Peace Deal" | kw:gas,rice
+2026-06-15 19:02 ACCEPT [Mining.com] "AbraSilver’s copper-gold results suggest district scale potential at L" | kw:gold,silver,copper
