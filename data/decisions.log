@@ -332,3 +332,7 @@
 2026-06-15 16:31 ACCEPT [MarketWatch] "Here are 20 growth stocks you can buy at ‘value’ prices" | kw:rice
 2026-06-15 16:31 SKIP_MORNING already_sent date=2026-06-15
 2026-06-15 16:31 SKIP_EVENING already_sent date=2026-06-15
+2026-06-15 17:01 ACCEPT [OilPrice.com] "Ukraine’s New Refinery Tactic Is Fueling Russia’s Gasoline Crisis" | kw:oil,gas,fuel
+2026-06-15 17:01 ACCEPT [Mining.com] "Surge Copper’s Berg pre-feasibility outlines 28-year, $4.7B mine in BC" | kw:copper
+2026-06-15 17:01 ACCEPT [Mining.com] "Montage Gold boosts Koné resources by 58%" | kw:gold
+2026-06-15 17:01 ACCEPT [Mining.com] "UBS sees gold price falling further, but remains long-term bullish" | kw:gold,rice
