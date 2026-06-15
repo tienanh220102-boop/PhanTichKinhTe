@@ -322,3 +322,7 @@
 2026-06-15 15:01 ACCEPT [The Guardian Biz] "Oil and gas unlikely to return to prewar prices for months even if Hor" | kw:oil,crude,gas
 2026-06-15 15:01 SKIP_MORNING already_sent date=2026-06-15
 2026-06-15 15:01 SKIP_EVENING already_sent date=2026-06-15
+2026-06-15 15:31 ACCEPT [MarketWatch] "Rocket Lab’s stock rebounds, as one analyst says the SpaceX-fueled sel" | kw:fuel
+2026-06-15 15:31 ACCEPT [OilPrice.com] "The $42 Trillion Oil Opportunity Hiding in Plain Sight" | kw:oil,crude,rice
+2026-06-15 15:31 SKIP_MORNING already_sent date=2026-06-15
+2026-06-15 15:31 SKIP_EVENING already_sent date=2026-06-15
