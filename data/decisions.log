@@ -291,3 +291,6 @@
 2026-06-15 10:31 ACCEPT [MarketWatch] "Oil prices slump to three-month low after U.S. and Iran agree to frame" | kw:oil,crude,brent
 2026-06-15 10:31 SKIP_MORNING already_sent date=2026-06-15
 2026-06-15 11:01 SKIP_MORNING already_sent date=2026-06-15
+2026-06-15 11:31 ACCEPT [MarketWatch] "The stock market is poised to go crazy if Warsh gives it the go-ahead," | kw:inflation
+2026-06-15 11:31 ACCEPT [OilPrice.com] "China’s Return to the Oil Market Could Boost Inflation" | kw:oil,crude,inflation
+2026-06-15 11:31 SKIP_MORNING already_sent date=2026-06-15
