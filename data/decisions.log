@@ -304,3 +304,6 @@
 2026-06-15 13:01 ACCEPT [The Guardian Biz] "Oil prices hit three-month low and markets rally amid Iran deal breakt" | kw:oil,crude,brent
 2026-06-15 13:01 SKIP_MORNING already_sent date=2026-06-15
 2026-06-15 13:02 SENT_EVENING articles=20 date=2026-06-15
+2026-06-15 13:31 ACCEPT [OilPrice.com] "First LNG Tanker Clears Hormuz After U.S.-Iran Deal Announcement" | kw:lng
+2026-06-15 13:31 SKIP_MORNING already_sent date=2026-06-15
+2026-06-15 13:31 SKIP_EVENING already_sent date=2026-06-15
