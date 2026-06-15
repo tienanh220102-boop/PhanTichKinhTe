@@ -281,3 +281,8 @@
 2026-06-15 08:31 SKIP_MORNING already_sent date=2026-06-15
 2026-06-15 08:51 SKIP_MORNING already_sent date=2026-06-15
 2026-06-15 09:01 SKIP_MORNING already_sent date=2026-06-15
+2026-06-15 09:31 ACCEPT [MarketWatch] "Oil prices decline after U.S.-Iran agree to framework of peace deal" | kw:oil,crude,brent
+2026-06-15 09:31 ACCEPT [Al Jazeera] "How Trump is relaunching a tariff war citing ‘forced labour’ concerns" | kw:tariff
+2026-06-15 09:31 ACCEPT [OilPrice.com] "U.S.-Iran Deal Doesn’t Mean a Swift Return of Oil and Gas Flows" | kw:oil,gas
+2026-06-15 09:31 ACCEPT [OilPrice.com] "Japanese Shipping Companies Hold Back Despite Hormuz Deal" | kw:lng,shipping
+2026-06-15 09:31 SKIP_MORNING already_sent date=2026-06-15
