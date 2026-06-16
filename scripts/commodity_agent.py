@@ -634,18 +634,19 @@ def validate_report_directions(text, prices):
 
 
 def build_quant_table(prices):
-    """Bảng số liệu thuần (không qua LLM) cho Telegram <pre> và file báo cáo."""
-    rows = [f'{"":7}{"Giá":>9}{"1D%":>7}{"5D%":>7}{"RSI":>5}']
+    """Bảng giá gọn (không qua LLM) cho Telegram <pre> và file báo cáo.
+    Bỏ cột kỹ thuật (RSI) — người đọc chỉ cần giá + mức biến động; kết luận
+    (xu hướng/tín hiệu) đã có ở phần phân tích."""
+    rows = [f'{"":8}{"Giá":>10}{"Phiên":>8}{"5 phiên":>9}']
     for name in YFINANCE_SYMBOLS:
         e = prices.get(name)
         if not e:
             continue
-        label = VN_NAMES.get(name, name)[:7]
+        label = VN_NAMES.get(name, name)[:8]
         v  = _fmt_price(e['value'])
-        c1 = f'{e["chg_pct"]:+.1f}' if e.get('chg_pct') is not None else '-'
-        c5 = f'{e["chg_5d"]:+.1f}' if e.get('chg_5d') is not None else '-'
-        ri = f'{e["rsi14"]:.0f}'   if e.get('rsi14')   is not None else '-'
-        rows.append(f'{label:7}{v:>9}{c1:>7}{c5:>7}{ri:>5}')
+        c1 = f'{e["chg_pct"]:+.1f}%' if e.get('chg_pct') is not None else '-'
+        c5 = f'{e["chg_5d"]:+.1f}%' if e.get('chg_5d') is not None else '-'
+        rows.append(f'{label:8}{v:>10}{c1:>8}{c5:>9}')
     return '\n'.join(rows) if len(rows) > 1 else ''
 
 
@@ -1104,7 +1105,14 @@ QUAN TRỌNG:
 - Các dòng "Xu hướng / Tín hiệu / Ngưỡng giá" ĐÃ ĐƯỢC TÍNH SẴN bằng quy tắc định lượng (giá so MA20/MA50 + RSI14) — GIỮ NGUYÊN Y HỆT, không sửa, không thêm bớt.
 - CHỐT SỐ LIỆU (chống đảo dấu): mọi con số % và từ hướng (tăng/giảm) PHẢI lấy ĐÚNG từ khối "MÔ TẢ BIẾN ĐỘNG ĐÃ CHỐT" ở trên. TUYỆT ĐỐI không tự tính lại, không đảo dấu. Nếu số liệu ghi "phiên +3.60% (TĂNG)" thì phải viết "tăng 3,6%", KHÔNG được viết "giảm".
 - PHÂN BIỆT 3 KHUNG THỜI GIAN, luôn ghi rõ khung khi nêu %: (1) "phiên" = 1D%; (2) "5 phiên" = 5D%; (3) "xu hướng trung hạn" = vị trí so MA20/MA50. Một mặt hàng có thể TĂNG trong phiên nhưng xu hướng trung hạn vẫn GIẢM (giá nảy lên nhưng còn dưới MA20) — đây KHÔNG phải mâu thuẫn, phải diễn giải đúng như vậy thay vì gộp làm một.
-- Phần "Phân tích" BẮT BUỘC trích dẫn số liệu cụ thể từ bảng dữ liệu phía trên (% thay đổi kèm khung thời gian, RSI, vị trí 52W, spread, vị thế COT) và giải thích tín hiệu định lượng bằng tin tức. KHÔNG viết chung chung kiểu "giá chịu áp lực" mà không có con số.
+- VIẾT CHO NGƯỜI ĐỌC KHÔNG CHUYÊN — KẾT LUẬN, KHÔNG JARGON: phần "Phân tích" và "Rủi ro" TUYỆT ĐỐI không nhắc tên chỉ báo kỹ thuật (RSI, MA20, MA50, ATR, Bollinger, Wilder, "52 tuần"...). Dùng các chỉ báo đó để RÚT RA kết luận rồi chỉ viết kết luận dễ hiểu. Quy đổi:
+  • "RSI quá bán/thấp" → "đã giảm khá sâu, có thể sắp chững lại/bật lên"
+  • "RSI quá mua/cao" → "đã tăng nóng, dễ điều chỉnh"
+  • "giá dưới MA20/MA50" → "vẫn trong xu hướng giảm ngắn/trung hạn"
+  • "giá trên MA20" → "đang trong xu hướng tăng"
+  • "ATR cao" → "biến động mạnh bất thường"
+  • vị thế COT → "các quỹ lớn đang đặt cược giá tăng/giảm"; tỷ lệ Vàng/Bạc → "bạc đang rẻ/đắt tương đối so vàng"
+  ĐƯỢC PHÉP nêu % thay đổi và mức giá (số dễ hiểu, ai cũng đọc được). KHÔNG viết chung chung "giá chịu áp lực" mà thiếu lý do/con số.
 - ĐỊNH DẠNG: phần "Phân tích" và "Rủi ro" trình bày dưới dạng GẠCH ĐẦU DÒNG (mỗi ý 1 dòng bắt đầu bằng "• "), không viết thành đoạn văn dài.
 - KHÔNG BỊA SỰ KIỆN: chỉ được nêu sự kiện địa chính trị/kinh tế (thỏa thuận, lệnh trừng phạt, quyết định OPEC/Fed...) NẾU nó xuất hiện trong các tin được cung cấp ở trên. Nếu chỉ là suy đoán hoặc tin chưa được xác nhận, BẮT BUỘC ghi rõ "(tin chưa kiểm chứng)" — tuyệt đối không trình bày như sự thật đã xảy ra.
 - Nếu tín hiệu định lượng mâu thuẫn với tin tức, nêu rõ mâu thuẫn đó trong phần Rủi ro.
@@ -1119,47 +1127,47 @@ QUAN TRỌNG:
 [So sánh các nguồn về CÙNG một chủ đề: nếu có mâu thuẫn (ví dụ Sputnik nói nguồn cung ổn định nhưng Reuters/BBC nói gián đoạn), nêu rõ "Nguồn A nói X, nguồn B nói Y" + hàm ý cho trader (xung đột nguồn về nguồn cung dầu = biến động sắp tới). Nếu không có xung đột đáng kể, ghi đúng 1 câu: "Không phát hiện xung đột đáng kể giữa các nguồn trong phiên này."]
 
 🌍 VĨ MÔ & TIN TỨC NỔI BẬT
-[2-3 yếu tố vĩ mô quan trọng nhất, mỗi yếu tố gắn với số liệu từ bảng dữ liệu (DXY, 10Y yield, real yield TIPS, breakeven inflation, VIX, CPI...) nếu liên quan]
+[2-3 yếu tố vĩ mô quan trọng nhất, diễn đạt dễ hiểu: đồng USD mạnh/yếu, lãi suất, lạm phát, tâm lý lo ngại của thị trường... — nói tác động tới hàng hóa, KHÔNG dùng tên viết tắt khó hiểu (DXY/TIPS/breakeven...). Vd: "đồng USD yếu đi → hỗ trợ giá vàng"]
 
 🛢️ NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên
 Xu hướng: {energy[0]}
 Tín hiệu: {energy[1]}
 Ngưỡng giá: {energy[2]}
 Phân tích:
-• [luận điểm — nêu % (ghi rõ phiên/5 phiên), RSI, vị trí 52W + liên hệ tin tức/COT]
+• [dầu/khí đang tăng/giảm bao nhiêu % (phiên & 5 phiên), đang ở xu hướng gì và VÌ SAO — gắn tin tức; quỹ lớn đang đặt cược tăng hay giảm. Diễn đạt dễ hiểu, không jargon]
 • [luận điểm bổ sung nếu có]
 Rủi ro:
-• [rủi ro chính cần theo dõi]
+• [rủi ro chính cần theo dõi, nói dễ hiểu]
 
 🥇 KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc
 Xu hướng: {precious[0]}
 Tín hiệu: {precious[1]}
 Ngưỡng giá: {precious[2]}
 Phân tích:
-• [luận điểm — nêu % (ghi rõ phiên/5 phiên), RSI, tỷ lệ Vàng/Bạc, DXY + liên hệ tin tức]
+• [vàng/bạc tăng/giảm bao nhiêu % (phiên & 5 phiên), xu hướng và VÌ SAO — gắn tin tức + tác động đồng USD; bạc đang rẻ hay đắt tương đối so vàng. Diễn đạt dễ hiểu, không jargon]
 • [luận điểm bổ sung nếu có]
 Rủi ro:
-• [rủi ro chính cần theo dõi]
+• [rủi ro chính cần theo dõi, nói dễ hiểu]
 
 🌾 NÔNG SẢN — Ngô, Đậu tương, Lúa mì
 Xu hướng: {agri[0]}
 Tín hiệu: {agri[1]}
 Ngưỡng giá: {agri[2]}
 Phân tích:
-• [luận điểm — nêu % (ghi rõ phiên/5 phiên), RSI, COT + yếu tố mùa vụ]
+• [ngô/đậu tương/lúa mì tăng/giảm bao nhiêu % (phiên & 5 phiên), xu hướng và VÌ SAO — gắn tin tức + thời tiết/mùa vụ; quỹ lớn đang đặt cược tăng hay giảm. Diễn đạt dễ hiểu, không jargon]
 • [luận điểm bổ sung nếu có]
 Rủi ro:
-• [rủi ro chính cần theo dõi]
+• [rủi ro chính cần theo dõi, nói dễ hiểu]
 
 🔩 KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken
 Xu hướng: {industrial[0]}
 Tín hiệu: {industrial[1]}
 Ngưỡng giá: {industrial[2]}
 Phân tích:
-• [luận điểm — nêu % (ghi rõ phiên/5 phiên), RSI, tỷ lệ Đồng/Vàng, COT + liên hệ tin tức]
+• [đồng tăng/giảm bao nhiêu % (phiên & 5 phiên), xu hướng và VÌ SAO — gắn tin tức; tín hiệu thị trường đang "ưa rủi ro" hay "phòng thủ"; quỹ lớn đặt cược gì. Diễn đạt dễ hiểu, không jargon]
 • [luận điểm bổ sung nếu có]
 Rủi ro:
-• [rủi ro chính cần theo dõi]
+• [rủi ro chính cần theo dõi, nói dễ hiểu]
 
 📋 KHUYẾN NGHỊ PHIÊN
 [2-3 khuyến nghị cụ thể kèm mức giá vào lệnh/cắt lỗ tham chiếu từ ngưỡng hỗ trợ-kháng cự đã tính]
