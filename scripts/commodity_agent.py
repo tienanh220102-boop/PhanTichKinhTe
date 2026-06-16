@@ -24,6 +24,9 @@ GEMINI_API_KEY      = os.environ.get('GEMINI_API_KEY', '')
 # gemini-2.5-pro : suy luận tốt nhất, ít sai dấu số liệu — hợp cho báo cáo (≈3-5 call/ngày).
 # gemini-2.5-flash : cân bằng tốc độ/chi phí. gemini-2.5-flash-lite : rẻ nhất, dễ sai dấu.
 GEMINI_MODEL        = os.environ.get('GEMINI_MODEL', 'gemini-2.5-pro')
+# Model dự phòng — khi model chính lỗi/timeout/trả rỗng (vd pro chưa bật trên key,
+# hoặc thinking ăn hết budget) thì tự hạ xuống đây để KHÔNG mất báo cáo.
+GEMINI_FALLBACK_MODEL = os.environ.get('GEMINI_FALLBACK_MODEL', 'gemini-2.5-flash')
 ALPHAVANTAGE_KEY    = os.environ.get('ALPHAVANTAGE_API_KEY', '')
 TWELVEDATA_KEY      = os.environ.get('TWELVEDATA_API_KEY', '')
 FRED_API_KEY        = os.environ.get('FRED_API_KEY', '')
@@ -952,31 +955,55 @@ def build_gold_vnd_line(vn_gold):
     )
 
 # ── Gemini ────────────────────────────────────────────────────
-def call_gemini(prompt, max_tokens=1500):
-    url = (
-        'https://generativelanguage.googleapis.com/v1beta/models/'
-        f'{GEMINI_MODEL}:generateContent?key={GEMINI_API_KEY}'
-    )
+def _gemini_request(model, prompt, max_tokens):
+    """Gọi 1 model. Trả về (text|None, code). code: None=OK, 429=quota,
+    'EMPTY'=không có text (vd thinking ăn hết budget / bị chặn), 'ERR'=lỗi khác."""
+    url = ('https://generativelanguage.googleapis.com/v1beta/models/'
+           f'{model}:generateContent?key={GEMINI_API_KEY}')
     payload = {
         'contents': [{'parts': [{'text': prompt}]}],
         'generationConfig': {'temperature': 0.2, 'maxOutputTokens': max_tokens},
     }
     try:
-        r = requests.post(url, json=payload, timeout=60)
+        # timeout 90s: gemini-2.5-pro bật 'thinking' nên chậm hơn flash-lite
+        r = requests.post(url, json=payload, timeout=90)
         data = r.json()
         if 'candidates' not in data:
-            err = data.get('error', {})
-            if err.get('code') == 429:
-                print('  Gemini hết quota hôm nay (429).')
-                _log.info('GEMINI QUOTA_EXCEEDED')
-                return 'QUOTA_EXCEEDED'
-            print(f'  Lỗi Gemini API: {data}')
-            _log.info('GEMINI ERROR %s', data.get('error', {}).get('message', 'unknown'))
-            return None
-        return data['candidates'][0]['content']['parts'][0]['text'].strip()
+            code = data.get('error', {}).get('code')
+            if code == 429:
+                return None, 429
+            _log.info('GEMINI ERROR %s %s', model, data.get('error', {}).get('message', 'unknown'))
+            return None, 'ERR'
+        try:
+            return data['candidates'][0]['content']['parts'][0]['text'].strip(), None
+        except (KeyError, IndexError):
+            _log.info('GEMINI EMPTY %s finish=%s', model,
+                      data['candidates'][0].get('finishReason', '?'))
+            return None, 'EMPTY'
     except Exception as e:
-        print(f'  Lỗi Gemini: {e}')
-        return None
+        print(f'  Loi goi {model}: {e}')
+        return None, 'ERR'
+
+
+def call_gemini(prompt, max_tokens=1500):
+    """Gọi model chính; lỗi/timeout/rỗng (trừ hết quota) thì tự fallback sang
+    model nhẹ hơn để không mất báo cáo. 429 cả hai → QUOTA_EXCEEDED."""
+    text, code = _gemini_request(GEMINI_MODEL, prompt, max_tokens)
+    if text:
+        return text
+    if GEMINI_FALLBACK_MODEL and GEMINI_FALLBACK_MODEL != GEMINI_MODEL:
+        print(f'  {GEMINI_MODEL} loi ({code}) -> fallback {GEMINI_FALLBACK_MODEL}')
+        _log.info('GEMINI FALLBACK %s->%s code=%s', GEMINI_MODEL, GEMINI_FALLBACK_MODEL, code)
+        ftext, fcode = _gemini_request(GEMINI_FALLBACK_MODEL, prompt, max_tokens)
+        if ftext:
+            return ftext
+        code = fcode if fcode == 429 else code
+    if code == 429:
+        print('  Gemini het quota (429).')
+        _log.info('GEMINI QUOTA_EXCEEDED')
+        return 'QUOTA_EXCEEDED'
+    print(f'  Gemini khong tra ve ket qua (code={code}).')
+    return None
 
 def select_top_articles(articles, limit=MAX_ARTICLES):
     """Chọn bài liên quan nhất theo điểm keyword (deterministic):
@@ -1053,6 +1080,7 @@ QUAN TRỌNG:
 - PHÂN BIỆT 3 KHUNG THỜI GIAN, luôn ghi rõ khung khi nêu %: (1) "phiên" = 1D%; (2) "5 phiên" = 5D%; (3) "xu hướng trung hạn" = vị trí so MA20/MA50. Một mặt hàng có thể TĂNG trong phiên nhưng xu hướng trung hạn vẫn GIẢM (giá nảy lên nhưng còn dưới MA20) — đây KHÔNG phải mâu thuẫn, phải diễn giải đúng như vậy thay vì gộp làm một.
 - Phần "Phân tích" BẮT BUỘC trích dẫn số liệu cụ thể từ bảng dữ liệu phía trên (% thay đổi kèm khung thời gian, RSI, vị trí 52W, spread, vị thế COT) và giải thích tín hiệu định lượng bằng tin tức. KHÔNG viết chung chung kiểu "giá chịu áp lực" mà không có con số.
 - ĐỊNH DẠNG: phần "Phân tích" và "Rủi ro" trình bày dưới dạng GẠCH ĐẦU DÒNG (mỗi ý 1 dòng bắt đầu bằng "• "), không viết thành đoạn văn dài.
+- KHÔNG BỊA SỰ KIỆN: chỉ được nêu sự kiện địa chính trị/kinh tế (thỏa thuận, lệnh trừng phạt, quyết định OPEC/Fed...) NẾU nó xuất hiện trong các tin được cung cấp ở trên. Nếu chỉ là suy đoán hoặc tin chưa được xác nhận, BẮT BUỘC ghi rõ "(tin chưa kiểm chứng)" — tuyệt đối không trình bày như sự thật đã xảy ra.
 - Nếu tín hiệu định lượng mâu thuẫn với tin tức, nêu rõ mâu thuẫn đó trong phần Rủi ro.
 - TẦNG DỮ LIỆU: khối "TĂNG TRƯỞNG GDP" (World Bank) và ngữ cảnh mùa vụ là MẶT BẰNG —
   chúng KHÔNG ĐỔI giữa hôm qua và hôm nay nên KHÔNG BAO GIỜ được dùng làm lý do giải thích
@@ -1196,7 +1224,13 @@ Viết BÁO CÁO TỔNG KẾT TUẦN thị trường hàng hóa bằng TIẾNG V
 4. Dự báo xu hướng ngắn hạn theo nhóm
 
 Khoảng 250-300 từ, rõ ràng, chuyên nghiệp. KHÔNG thêm lời dẫn hay kết luận thừa."""
-    return call_gemini(prompt, max_tokens=1200)
+    text = call_gemini(prompt, max_tokens=1200)
+    if text and text != 'QUOTA_EXCEEDED':
+        text, fixes = validate_report_directions(text, _PRICE_CACHE.get('prices', {}))
+        if fixes:
+            text += (f'\n\n⚙️ Ghi chú hệ thống: đã hiệu chỉnh {len(fixes)} mô tả hướng giá '
+                     'cho khớp số liệu gốc.')
+    return text
 
 # ── Output ────────────────────────────────────────────────────
 def save_report_file(text, session, date_str):

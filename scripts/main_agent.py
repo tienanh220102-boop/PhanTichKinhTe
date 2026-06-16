@@ -27,6 +27,7 @@ from market_data import fetch_cftc_cot
 _ROOT          = Path(__file__).parent.parent
 GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY', '')
 GEMINI_MODEL   = os.environ.get('GEMINI_MODEL', 'gemini-2.5-pro')
+GEMINI_FALLBACK_MODEL = os.environ.get('GEMINI_FALLBACK_MODEL', 'gemini-2.5-flash')
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN', '')
 TELEGRAM_CHAT  = os.environ.get('TELEGRAM_CHAT', '')
 OUTPUT_DIR     = _ROOT / 'outputs'
@@ -68,29 +69,47 @@ def fetch_rss(url, unescape=False):
         print(f'  Lỗi RSS {url}: {e}')
         return []
 
-def call_gemini(prompt, max_tokens=1600):
-    url = (
-        'https://generativelanguage.googleapis.com/v1beta/models/'
-        f'{GEMINI_MODEL}:generateContent?key={GEMINI_API_KEY}'
-    )
+def _gemini_request(model, prompt, max_tokens):
+    """Gọi 1 model. Trả về (text|None, code): None=OK, 429=quota, 'EMPTY'/'ERR'=lỗi."""
+    url = ('https://generativelanguage.googleapis.com/v1beta/models/'
+           f'{model}:generateContent?key={GEMINI_API_KEY}')
     payload = {
         'contents': [{'parts': [{'text': prompt}]}],
         'generationConfig': {'temperature': 0.2, 'maxOutputTokens': max_tokens},
     }
     try:
-        r = requests.post(url, json=payload, timeout=60)
+        r = requests.post(url, json=payload, timeout=90)
         data = r.json()
         if 'candidates' not in data:
-            err = data.get('error', {})
-            if err.get('code') == 429:
-                print('  Gemini hết quota hôm nay (429).')
-                return 'QUOTA_EXCEEDED'
-            print(f'  Lỗi Gemini API: {data}')
-            return None
-        return data['candidates'][0]['content']['parts'][0]['text'].strip()
+            if data.get('error', {}).get('code') == 429:
+                return None, 429
+            print(f'  Lỗi Gemini API ({model}): {data.get("error", {}).get("message", data)}')
+            return None, 'ERR'
+        try:
+            return data['candidates'][0]['content']['parts'][0]['text'].strip(), None
+        except (KeyError, IndexError):
+            return None, 'EMPTY'
     except Exception as e:
-        print(f'  Lỗi Gemini: {e}')
-        return None
+        print(f'  Loi goi {model}: {e}')
+        return None, 'ERR'
+
+
+def call_gemini(prompt, max_tokens=1600):
+    """Model chính lỗi/timeout/rỗng (trừ hết quota) → fallback model nhẹ hơn."""
+    text, code = _gemini_request(GEMINI_MODEL, prompt, max_tokens)
+    if text:
+        return text
+    if GEMINI_FALLBACK_MODEL and GEMINI_FALLBACK_MODEL != GEMINI_MODEL:
+        print(f'  {GEMINI_MODEL} loi ({code}) -> fallback {GEMINI_FALLBACK_MODEL}')
+        ftext, fcode = _gemini_request(GEMINI_FALLBACK_MODEL, prompt, max_tokens)
+        if ftext:
+            return ftext
+        code = fcode if fcode == 429 else code
+    if code == 429:
+        print('  Gemini het quota (429).')
+        return 'QUOTA_EXCEEDED'
+    print(f'  Gemini khong tra ve ket qua (code={code}).')
+    return None
 
 def send_telegram(msg):
     if not TELEGRAM_TOKEN or not TELEGRAM_CHAT:
@@ -735,15 +754,13 @@ def main():
     print(f'=== Unified Market Agent — {now_vn.strftime("%Y-%m-%d %H:%M")} (Giờ VN) ===')
 
     if not banking_only:
-        # ── Mảng 1: Giao Dịch Hàng Hóa ───────────────────────────────────────
-        print('\n── Hàng Hóa Quốc Tế ─────────────────────────────────────────────')
-        c_state = load_state(COMMODITY_STATE_FILE, COMMODITY_STATE_DEFAULT)
-        c_state['weekly_reports'] = c_state.get('weekly_reports', [])[-14:]
-        collect_commodity(c_state, now_vn)
-        send_commodity_session_report(c_state, now_vn, 'morning')
-        send_commodity_session_report(c_state, now_vn, 'evening')
-        send_commodity_weekly(c_state, now_vn)
-        save_state(COMMODITY_STATE_FILE, c_state)
+        # ⚠️ Mảng HÀNG HÓA đã tách hẳn sang scripts/commodity_agent.py (bản quant mới hơn:
+        # RSI/ATR/COT/movement-facts/validator). Code hàng hóa cũ bên dưới trong FILE NÀY
+        # KHÔNG còn chạy production — chặn ở đây để tránh chạy nhầm (trùng tin + hỏng state)
+        # và để báo rõ: sửa logic hàng hóa phải vào commodity_agent.py, KHÔNG sửa ở đây.
+        print('⚠️  main_agent.py chỉ phụ trách mảng NGÂN HÀNG & BĐS (chạy với --banking-only).')
+        print('    Mảng HÀNG HÓA: chạy  python scripts/commodity_agent.py')
+        return
 
     # ── Mảng 2: Ngân Hàng & BĐS ───────────────────────────────────────────────
     print('\n── Ngân Hàng & BĐS Phía Nam ─────────────────────────────────────')

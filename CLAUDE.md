@@ -13,7 +13,7 @@ Dự án tích hợp 2 mảng: **Giao Dịch Hàng Hóa Quốc Tế** + **Ngân 
 | User muốn | Agent làm gì |
 |---|---|
 | "chạy agent hàng hóa" | `python scripts/commodity_agent.py` |
-| "chạy agent ngân hàng" | `python scripts/main_agent.py --banking-only` |
+| "chạy agent ngân hàng" | `python scripts/main_agent.py --banking-only` (chạy thiếu cờ sẽ bị từ chối + nhắc dùng commodity_agent.py) |
 | "xem pending hàng hóa" | Đọc `data/last_commodity_news.json` → trường `pending_articles` |
 | "xem pending ngân hàng" | Đọc `data/last_banking_news.json` → trường `pending_articles` |
 | "xem báo cáo hàng hóa" | `outputs/report_YYYY-MM-DD_morning.txt` hoặc `_evening.txt` |
@@ -22,7 +22,7 @@ Dự án tích hợp 2 mảng: **Giao Dịch Hàng Hóa Quốc Tế** + **Ngân 
 | "đổi giờ báo cáo ngân hàng" | `BANKING_DAILY_HOUR` trong `main_agent.py` |
 | "đổi prompt hàng hóa" | `build_session_report_prompt()` trong `commodity_agent.py` |
 | "đổi prompt ngân hàng" | `_banking_report_prompt()` trong `main_agent.py` |
-| "đổi model Gemini" | Secret/env `GEMINI_MODEL` (mặc định `gemini-2.5-pro`) — không cần sửa code |
+| "đổi model Gemini" | Secret/env `GEMINI_MODEL` (mặc định `gemini-2.5-pro`); `GEMINI_FALLBACK_MODEL` (mặc định `gemini-2.5-flash`) tự dùng khi model chính lỗi/timeout/rỗng — không cần sửa code |
 | "thêm nguồn RSS hàng hóa" | `RSS_FEEDS` trong `commodity_agent.py` |
 | "thêm nguồn RSS ngân hàng" | `BANKING_FEEDS` trong `main_agent.py` |
 | "chạy test" | `pytest tests/` |
