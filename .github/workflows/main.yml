@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '*/30 * * * *'   # Chay moi 30 phut
   workflow_dispatch:          # Cho phep chay thu cong
+    inputs:
+      force_report:
+        description: 'Gửi báo cáo test ngay (bất kể giờ)? Bình thường để TẮT — chỉ thu thập tin.'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -32,9 +37,10 @@ jobs:
           ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY }}
           TWELVEDATA_API_KEY:   ${{ secrets.TWELVEDATA_API_KEY }}
           FRED_API_KEY:         ${{ secrets.FRED_API_KEY }}
-        # Bấm "Run workflow" (thủ công) → thêm --force để tạo báo cáo test ngay,
-        # bất kể giờ. Cron tự động (schedule) chạy bình thường, tự gate theo giờ.
-        run: python scripts/commodity_agent.py ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
+        # Bình thường (cron + chạy tay): chỉ thu thập tin, GỬI báo cáo đúng 2 khung
+        # giờ 7:00 & 20:00 (script tự gate). Chỉ khi bấm Run workflow và TICK ô
+        # force_report mới gửi báo cáo test ngay (--force).
+        run: python scripts/commodity_agent.py ${{ inputs.force_report && '--force' || '' }}
 
       - name: Run Banking & BDS Agent (gop tu repo NganHangBDS)
         env:
