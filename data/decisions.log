@@ -648,3 +648,16 @@
 2026-06-16 05:31 ACCEPT [Google News CB] "Japan's Nikkei hits 70,000 as BOJ rate hike sparks rally - Nikkei Asia" | kw:rate hike,boj
 2026-06-16 05:31 ACCEPT [Google News CB] "Asian shares are mostly higher and Japan's Nikkei tops 70,000 before B" | kw:rate hike,boj
 2026-06-16 05:31 SKIP_MORNING already_sent date=2026-06-16
+2026-06-16 06:01 ACCEPT [OilPrice.com] "China’s Refinery Runs Hit Four-Year Low as Crude Imports Collapse" | kw:crude
+2026-06-16 06:01 ACCEPT [Google News KL] "Tether Gold now has a dedicated options market on Bybit - CoinDesk" | kw:gold
+2026-06-16 06:01 ACCEPT [Google News CB] "BOJ Raises Rate to 31-Year High, Plans to Stop Paring Bond Buys - Bloo" | kw:boj
+2026-06-16 06:01 ACCEPT [Google News CB] "Bank of Japan raises its key interest rate to a three-decade high of 1" | kw:inflation,interest rate,bank of japan
+2026-06-16 06:01 ACCEPT [Google News CB] "Eyes turn to Fed chair Kevin Warsh and his first moves on interest rat" | kw:interest rate
+2026-06-16 06:01 ACCEPT [Google News CB] "Yen Pares Gains Versus Dollar After BOJ Hikes Key Rate to 1%: JPY/USD " | kw:boj
+2026-06-16 06:01 ACCEPT [Google News CB] "Bank of Japan raises rates to 1% for first time since 1995 - Financial" | kw:bank of japan
+2026-06-16 06:01 ACCEPT [Google News CB] "BOJ Policy Architect Uchida to Take Spotlight on Rates Guidance - Bloo" | kw:boj
+2026-06-16 06:01 ACCEPT [Google News CB] "Dollar at 10-day lows, no respite for yen after BOJ hikes as expected " | kw:boj
+2026-06-16 06:01 ACCEPT [Google News CB] "Asian shares are mostly higher and Japan's Nikkei tops 70,000 before B" | kw:rate hike,boj
+2026-06-16 06:01 ACCEPT [Google News CB] "Watch Bank of Japan Raises Benchmark Interest Rate to 1% - Bloomberg" | kw:wti,interest rate,bank of japan
+2026-06-16 06:01 ACCEPT [Google News CB] "Asian shares are mostly higher and Japan's Nikkei tops 70,000 before B" | kw:rate hike,boj
+2026-06-16 06:01 SKIP_MORNING already_sent date=2026-06-16
