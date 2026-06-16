@@ -677,3 +677,21 @@
 2026-06-16 06:31 ACCEPT [Google News CB] "Crypto Overview: Bitcoin weighs BOJ hikes interest rate to 1%, Uniswap" | kw:interest rate,boj
 2026-06-16 06:31 ACCEPT [Google News CB] "The Fed should stop making excuses for inflation - AFR" | kw:inflation
 2026-06-16 06:31 SKIP_MORNING already_sent date=2026-06-16
+2026-06-16 07:01 ACCEPT [Google News HH] "Petrobras ADRs Slide as Crude Oil Drops on Middle East De-escalation H" | kw:oil,crude
+2026-06-16 07:01 ACCEPT [Google News HH] "Higher prices for gas, groceries and flights will outlast the Iran war" | kw:gas,rice
+2026-06-16 07:01 ACCEPT [Google News KL] "Gold drifts higher as Iran, US agree to halt war - Reuters" | kw:gold
+2026-06-16 07:01 ACCEPT [Google News KL] "Gold’s Slide May Spell Opportunity With GDMN - ETF Trends" | kw:gold
+2026-06-16 07:01 ACCEPT [Google News KL] "Majestic Gold Corp. Responds to Shareholder Requisition and Announces " | kw:gold
+2026-06-16 07:01 ACCEPT [Google News KL] "Air Jordan 10 ‘Double Nickel’ 45-Stitched, Madison Square Garden Class" | kw:nickel
+2026-06-16 07:01 ACCEPT [Google News NS] "Ukrainian corn is losing ground in export markets - ua.news" | kw:corn
+2026-06-16 07:01 ACCEPT [Google News CB] "Bank of Japan hikes rates to 1%, highest since 1995, as yen and inflat" | kw:inflation,bank of japan
+2026-06-16 07:01 ACCEPT [Google News CB] "All eyes turn to Fed chair Kevin Warsh and his first moves on interest" | kw:interest rate
+2026-06-16 07:01 ACCEPT [Google News CB] "Australia central bank keeps rates steady at 4.35% as inflation remain" | kw:inflation,central bank
+2026-06-16 07:01 ACCEPT [Google News CB] "BOJ Deputy Governor Uchida's comments at news conference - Reuters" | kw:boj
+2026-06-16 07:01 ACCEPT [Google News CB] "BOJ likely to have a tightening bias for the foreseeable future: Analy" | kw:boj,tightening
+2026-06-16 07:01 ACCEPT [Google News CB] "Japanese Yen gives up some gains against Euro as BoJ hikes rates by 25" | kw:boj
+2026-06-16 07:01 ACCEPT [Google News CB] "USD/JPY Outlook: BOJ sticks to the script as Nikkei rips to record hig" | kw:boj
+2026-06-16 07:01 ACCEPT [Google News CB] "Australia central bank holds rates, warns hikes might not be over - Ya" | kw:central bank
+2026-06-16 07:01 ACCEPT [Google News CB] "Asian shares are mostly higher and Japan's Nikkei tops 70,000 before B" | kw:rate hike,boj
+2026-06-16 07:01 ACCEPT [Google News CB] "BREAKING NEWS: BOJ to hike rate to stably achieve 2% inflation target:" | kw:inflation,boj
+2026-06-16 07:01 SKIP_MORNING already_sent date=2026-06-16
