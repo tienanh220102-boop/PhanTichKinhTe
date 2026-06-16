@@ -62,11 +62,11 @@ RSS_FEEDS = [
     ('Google News HH',    'https://news.google.com/rss/search?q=commodities+OR+OPEC+OR+%22crude+oil%22+OR+%22gold+price%22+when:1d&hl=en-US&gl=US&ceid=US:en'),
     ('Google News KL',    'https://news.google.com/rss/search?q=(gold+OR+silver+OR+copper+OR+nickel)+price+when:1d&hl=en-US&gl=US&ceid=US:en'),
     ('Google News NS',    'https://news.google.com/rss/search?q=(wheat+OR+corn+OR+soybean+OR+grain)+market+when:1d&hl=en-US&gl=US&ceid=US:en'),
-    # Sputnik: state media Nga — them de doi chieu goc nhin (Nga = nha cung
-    # dau/khi/kim loai lon). Tin tu day la TIN HIEU LAP TRUONG cua Nga,
-    # khong phai su that khach quan — prompt se doi chieu xung dot nguon.
-    # (Chập chờn từ mạng VN, hay timeout — giữ vì fail-safe, runner US ổn hơn.)
-    ('Sputnik (Nga)',     'https://sputnikglobe.com/export/rss2/archive/index.xml'),
+    # RT Business: state media Nga — doi chieu goc nhin (Nga = nha cung dau/khi/
+    # kim loai lon). Tin = TIN HIEU LAP TRUONG cua Nga, khong phai su that khach
+    # quan; prompt se doi chieu xung dot nguon. Thay Sputnik global (feed do timeout
+    # ~76s/run tren GitHub runner); RT nhanh ~2s, ~18 bai hang-hoa/lan.
+    ('RT Business',       'https://www.rt.com/rss/business/'),
 ]
 
 # Xuat xu / goc nhin cua tung nguon — dua vao prompt de LLM danh gia xung dot
@@ -84,7 +84,7 @@ SOURCE_ORIGIN = {
     'Google News HH':   'tổng hợp đa nguồn',
     'Google News KL':   'tổng hợp đa nguồn',
     'Google News NS':   'tổng hợp đa nguồn',
-    'Sputnik (Nga)':    'Nga — state media',
+    'RT Business':      'Nga — state media',
 }
 
 COMMODITY_KEYWORDS = [
@@ -1113,7 +1113,7 @@ QUAN TRỌNG:
   biến động trong ngày/phiên. Biến động phiên chỉ được giải thích bằng tin tức MỚI + chỉ số
   daily (DXY, yields, VIX, COT). Mặt bằng chỉ xuất hiện ở thì "bối cảnh dài hạn", và KHÔNG
   được viện dẫn trong mục KHUYẾN NGHỊ PHIÊN.{quiet_note}
-- ĐỐI CHIẾU NGUỒN: mỗi tin có ghi xuất xứ trong ngoặc [nguồn — góc nhìn]. "Sputnik (Nga)" là state media của Nga — coi tin từ đó là TÍN HIỆU LẬP TRƯỜNG của Nga (điều Nga muốn thị trường tin, nhất là về dầu khí/cấm vận/OPEC+), KHÔNG mặc định là sự thật khách quan. Khi Sputnik và nguồn phương Tây đưa tin TRÁI NGƯỢC về cùng chủ đề, đó chính là thông tin có giá trị — nêu rõ trong mục 🔀.
+- ĐỐI CHIẾU NGUỒN: mỗi tin có ghi xuất xứ trong ngoặc [nguồn — góc nhìn]. "RT Business" là state media của Nga — coi tin từ đó là TÍN HIỆU LẬP TRƯỜNG của Nga (điều Nga muốn thị trường tin, nhất là về dầu khí/cấm vận/OPEC+), KHÔNG mặc định là sự thật khách quan. Khi nguồn Nga và nguồn phương Tây đưa tin TRÁI NGƯỢC về cùng chủ đề, đó chính là thông tin có giá trị — nêu rõ trong mục 🔀.
 
 🔀 ĐỐI CHIẾU NGUỒN TIN
 [So sánh các nguồn về CÙNG một chủ đề: nếu có mâu thuẫn (ví dụ Sputnik nói nguồn cung ổn định nhưng Reuters/BBC nói gián đoạn), nêu rõ "Nguồn A nói X, nguồn B nói Y" + hàm ý cho trader (xung đột nguồn về nguồn cung dầu = biến động sắp tới). Nếu không có xung đột đáng kể, ghi đúng 1 câu: "Không phát hiện xung đột đáng kể giữa các nguồn trong phiên này."]
