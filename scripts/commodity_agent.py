@@ -1262,18 +1262,21 @@ def send_telegram(msg):
         return False
 
 # ── Report logic ──────────────────────────────────────────────
-def try_send_session_report(state, now_vn, session):
+def try_send_session_report(state, now_vn, session, force=False):
     today_str = now_vn.strftime('%Y-%m-%d')
     state_key = f'last_{session}_report'
 
-    if state.get(state_key) == today_str:
-        _log.info('SKIP_%s already_sent date=%s', session.upper(), today_str)
-        return
-    hour = now_vn.hour
-    if session == 'morning' and hour < MORNING_REPORT_HOUR:
-        return
-    if session == 'evening' and hour < EVENING_REPORT_HOUR:
-        return
+    # force=True (chạy tay để test): bỏ qua check đã-gửi + gate giờ, và KHÔNG
+    # ghi state đã-gửi / không xóa pending → không ảnh hưởng lịch chạy thật.
+    if not force:
+        if state.get(state_key) == today_str:
+            _log.info('SKIP_%s already_sent date=%s', session.upper(), today_str)
+            return
+        hour = now_vn.hour
+        if session == 'morning' and hour < MORNING_REPORT_HOUR:
+            return
+        if session == 'evening' and hour < EVENING_REPORT_HOUR:
+            return
 
     all_pending = state.get('pending_articles', [])
     articles    = select_top_articles(all_pending)
@@ -1285,7 +1288,8 @@ def try_send_session_report(state, now_vn, session):
     if not articles:
         print('Không có tin tức tích lũy, bỏ qua.')
         _log.info('SKIP_%s no_articles date=%s', session.upper(), today_str)
-        state[state_key] = today_str
+        if not force:
+            state[state_key] = today_str
         return
 
     # Fetch giá thị trường (4 nguồn) + COT + vàng nhẫn SJC
@@ -1325,9 +1329,9 @@ def try_send_session_report(state, now_vn, session):
     msg = header + table_html + vol_html + text
 
     if send_telegram(msg):
-        print(f'Gửi báo cáo {session_vn} OK')
-        _log.info('SENT_%s articles=%d date=%s', session.upper(), len(articles), today_str)
-        state[state_key] = today_str
+        tag = ' [FORCE/test]' if force else ''
+        print(f'Gửi báo cáo {session_vn} OK{tag}')
+        _log.info('SENT_%s articles=%d date=%s force=%s', session.upper(), len(articles), today_str, force)
 
         # File báo cáo đầy đủ: bảng số liệu + liên thị trường + COT + phân tích
         cross_lines = build_cross_asset_lines(prices)
@@ -1343,21 +1347,24 @@ def try_send_session_report(state, now_vn, session):
         file_parts.append(text)
         save_report_file('\n\n'.join(file_parts), session, today_str)
 
-        # Lưu tóm tắt để dùng cho báo cáo tuần
-        if 'weekly_reports' not in state:
-            state['weekly_reports'] = []
-        state['weekly_reports'].append({
-            'date':    today_str,
-            'session': session,
-            'summary': text[:700],
-        })
-        state['weekly_reports'] = state['weekly_reports'][-14:]
+        # force=test: KHÔNG ghi state đã-gửi, KHÔNG lưu weekly, KHÔNG xóa pending
+        if not force:
+            state[state_key] = today_str
+            # Lưu tóm tắt để dùng cho báo cáo tuần
+            if 'weekly_reports' not in state:
+                state['weekly_reports'] = []
+            state['weekly_reports'].append({
+                'date':    today_str,
+                'session': session,
+                'summary': text[:700],
+            })
+            state['weekly_reports'] = state['weekly_reports'][-14:]
 
-        # Xóa pending sau khi cả hai báo cáo trong ngày đã gửi
-        other_key = 'last_evening_report' if session == 'morning' else 'last_morning_report'
-        if state.get(other_key) == today_str:
-            state['pending_articles'] = []
-            print('Cả hai báo cáo hôm nay đã gửi → xóa pending_articles')
+            # Xóa pending sau khi cả hai báo cáo trong ngày đã gửi
+            other_key = 'last_evening_report' if session == 'morning' else 'last_morning_report'
+            if state.get(other_key) == today_str:
+                state['pending_articles'] = []
+                print('Cả hai báo cáo hôm nay đã gửi → xóa pending_articles')
     else:
         print(f'Lỗi gửi báo cáo {session_vn}')
         _log.info('FAIL_%s telegram_error date=%s', session.upper(), today_str)
@@ -1471,11 +1478,16 @@ def main():
     print(f'Thu thập xong: +{new_count} bài mới | Tổng pending: {len(state["pending_articles"])}')
 
     # Kiểm tra và gửi báo cáo phiên
-    try_send_session_report(state, now_vn, 'morning')
-    try_send_session_report(state, now_vn, 'evening')
-
-    # Tổng kết tuần (thứ 6 sau 20:00)
-    try_send_weekly_summary(state, now_vn)
+    if '--force' in sys.argv:
+        # Chạy tay để test: tạo ngay 1 báo cáo (chọn phiên theo giờ), không đụng lịch
+        fsession = 'morning' if now_vn.hour < 13 else 'evening'
+        print(f'[--force] Tạo báo cáo {fsession} NGAY để test (không ghi state, không đụng lịch chạy thật)')
+        try_send_session_report(state, now_vn, fsession, force=True)
+    else:
+        try_send_session_report(state, now_vn, 'morning')
+        try_send_session_report(state, now_vn, 'evening')
+        # Tổng kết tuần (thứ 6 sau 20:00)
+        try_send_weekly_summary(state, now_vn)
 
     state['seen'] = list(seen)
     save_state(state)
