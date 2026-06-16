@@ -67,6 +67,14 @@ RSS_FEEDS = [
     # quan; prompt se doi chieu xung dot nguon. Thay Sputnik global (feed do timeout
     # ~76s/run tren GitHub runner); RT nhanh ~2s, ~18 bai hang-hoa/lan.
     ('RT Business',       'https://www.rt.com/rss/business/'),
+    # ── NHTW lon dieu chinh chinh sach tien te (tang "Vi mo & Dong tien") ──
+    # Quyet dinh lai suat/QE cua Fed/ECB/BOJ/BOE/PBOC chi phoi DXY, loi suat
+    # Treasury, dong tien vao vang & hang hoa. Fed + ECB = nguon chinh thong
+    # (.gov/.org), thuc te chi tang giay quyet dinh chinh sach. Google News CB
+    # phu phan con lai (BOJ/BOE/PBOC/SNB + moi rate decision toan cau).
+    ('Fed Monetary',      'https://www.federalreserve.gov/feeds/press_monetary.xml'),
+    ('ECB Press',         'https://www.ecb.europa.eu/rss/press.html'),
+    ('Google News CB',    'https://news.google.com/rss/search?q=(Fed+OR+ECB+OR+BOJ+OR+%22central+bank%22+OR+%22interest+rate%22+OR+%22monetary+policy%22)+when:1d&hl=en-US&gl=US&ceid=US:en'),
 ]
 
 # Xuat xu / goc nhin cua tung nguon — dua vao prompt de LLM danh gia xung dot
@@ -85,6 +93,9 @@ SOURCE_ORIGIN = {
     'Google News KL':   'tổng hợp đa nguồn',
     'Google News NS':   'tổng hợp đa nguồn',
     'RT Business':      'Nga — state media',
+    'Fed Monetary':     'Mỹ — Cục Dự trữ Liên bang (.gov), chính thống',
+    'ECB Press':        'EU — Ngân hàng TW châu Âu (.org), chính thống',
+    'Google News CB':   'tổng hợp đa nguồn — NHTW toàn cầu',
 }
 
 COMMODITY_KEYWORDS = [
@@ -95,6 +106,11 @@ COMMODITY_KEYWORDS = [
     'trade war', 'shortage', 'export ban', 'freight', 'shipping',
     'harvest', 'drought', 'flood', 'embargo', 'inflation', 'fed rate',
     'dollar index', 'treasury', 'china economy', 'gdp',
+    # Chính sách NHTW lớn — chi phối DXY, lãi suất, dòng tiền vào hàng hóa/vàng
+    'central bank', 'monetary policy', 'interest rate', 'rate cut', 'rate hike',
+    'rate decision', 'federal reserve', 'fomc', 'ecb', 'boj',
+    'bank of japan', 'bank of england', 'pboc', 'quantitative', 'policy rate',
+    'basis point', 'rate pause', 'easing', 'tightening',
 ]
 
 # ── State ─────────────────────────────────────────────────────
@@ -1128,7 +1144,7 @@ QUAN TRỌNG:
 [So sánh các nguồn về CÙNG một chủ đề: nếu có mâu thuẫn (ví dụ Sputnik nói nguồn cung ổn định nhưng Reuters/BBC nói gián đoạn), nêu rõ "Nguồn A nói X, nguồn B nói Y" + hàm ý cho trader (xung đột nguồn về nguồn cung dầu = biến động sắp tới). Nếu không có xung đột đáng kể, ghi đúng 1 câu: "Không phát hiện xung đột đáng kể giữa các nguồn trong phiên này."]
 
 🌍 VĨ MÔ & TIN TỨC NỔI BẬT
-[2-3 yếu tố vĩ mô quan trọng nhất, diễn đạt dễ hiểu: đồng USD mạnh/yếu, lãi suất, lạm phát, tâm lý lo ngại của thị trường... — nói tác động tới hàng hóa, KHÔNG dùng tên viết tắt khó hiểu (DXY/TIPS/breakeven...). Vd: "đồng USD yếu đi → hỗ trợ giá vàng"]
+[2-3 yếu tố vĩ mô quan trọng nhất, diễn đạt dễ hiểu: đồng USD mạnh/yếu, lãi suất, lạm phát, tâm lý lo ngại của thị trường... — nói tác động tới hàng hóa, KHÔNG dùng tên viết tắt khó hiểu (DXY/TIPS/breakeven...). Vd: "đồng USD yếu đi → hỗ trợ giá vàng". Nếu trong tin có QUYẾT ĐỊNH CHÍNH SÁCH của NHTW lớn (Fed/ECB/BOJ/BOE/PBOC: tăng/giảm/giữ lãi suất, đổi định hướng) → ưu tiên nêu, vì chi phối trực tiếp đồng USD, dòng tiền vào vàng và hàng hóa. Phân biệt rõ "đã quyết định" với "kỳ vọng/đồn đoán".]
 
 🛢️ NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên
 Xu hướng: {energy[0]}

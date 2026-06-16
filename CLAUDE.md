@@ -37,8 +37,10 @@ Dự án tích hợp 2 mảng: **Giao Dịch Hàng Hóa Quốc Tế** + **Ngân 
 ## Kiến trúc pipeline
 
 ```
-┌── RSS Quốc tế (8 nguồn) ───────────────────────────────────────────────┐
-│   MarketWatch, BBC, AP, Guardian, Al Jazeera, CNBC, OilPrice, Mining   │
+┌── RSS Quốc tế (hàng hóa + NHTW) ───────────────────────────────────────┐
+│   MarketWatch, BBC, Guardian, Al Jazeera, CNBC, OilPrice, Mining, EIA, │
+│   NASDAQ, RT, Google News (HH/KL/NS)                                   │
+│   + Chính sách NHTW: Fed Monetary, ECB Press, Google News CB           │
 └────────────────────────────────────────────────────────────────────────┘
          │
          ▼
@@ -99,6 +101,7 @@ Dự án tích hợp 2 mảng: **Giao Dịch Hàng Hóa Quốc Tế** + **Ngân 
 |---|---|---|---|
 | Vĩ mô & Dòng tiền | CFTC | COT Report — vị thế đầu cơ | `market_data.fetch_cftc_cot()` — tự động, không cần key |
 | Vĩ mô & Dòng tiền | FRED (St. Louis Fed) | DXY, lãi suất Treasury | `FRED_API_KEY` tùy chọn |
+| Vĩ mô & Dòng tiền | Fed / ECB / NHTW lớn | Quyết định lãi suất & chính sách tiền tệ (chi phối DXY, vàng, dòng tiền hàng hóa) | RSS feed: `Fed Monetary` (.gov), `ECB Press` (.org), `Google News CB` (BOJ/BOE/PBOC + global) |
 | Năng lượng | EIA (.gov) | Tồn kho dầu thô, sản lượng | RSS feed + `EIA_API_KEY` tùy chọn |
 | Nông sản | USDA (.gov) | WASDE, tiến độ mùa vụ | RSS feed (keyword: `wasde`) |
 | Kim loại quý | WGC (.org) | Cầu vàng, ETF flows, NHTW | RSS feed `WGC Gold Insights` |
