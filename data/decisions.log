@@ -910,3 +910,16 @@
 2026-06-16 14:01 ACCEPT [Google News CB] "ECB's Lane says oil prices closer to baseline scenario after Iran deal" | kw:oil,rice,ecb
 2026-06-16 14:01 SKIP_MORNING already_sent date=2026-06-16
 2026-06-16 14:01 SKIP_EVENING already_sent date=2026-06-16
+2026-06-16 14:31 ACCEPT [MarketWatch] "Tesla booted from the ‘Magnificent Seven’ by a top fund manager. Here " | kw:rice
+2026-06-16 14:31 ACCEPT [MarketWatch] "I’m 20, and I’ll be watching Kevin Warsh and the Fed this week. Here’s" | kw:rate decision
+2026-06-16 14:31 ACCEPT [The Guardian Biz] "Brent crude falls to three-month low below $80 as Iranian oil tankers " | kw:oil,crude,brent
+2026-06-16 14:31 ACCEPT [CNBC Commodities] "The new oil? Inside the effort to turn AI computing power into a trade" | kw:oil,commodity
+2026-06-16 14:31 ACCEPT [OilPrice.com] "Australian LNG Strike Threatens Global Gas Supply as Qatar Recovery La" | kw:gas,lng
+2026-06-16 14:31 ACCEPT [Google News HH] "Brent crude oil falls below $80 per barrel; WTI continues to decline -" | kw:oil,crude,brent
+2026-06-16 14:31 ACCEPT [Google News HH] "Crude oil prices fall again, while US stocks drift near their all-time" | kw:oil,crude,rice
+2026-06-16 14:31 ACCEPT [Google News KL] "When will silver hit $100 again? Experts weigh in - USA Today" | kw:silver
+2026-06-16 14:31 ACCEPT [Google News KL] "Gold rises over 1% as US-Iran peace deal optimism eases rate hike bets" | kw:gold,rate hike
+2026-06-16 14:31 ACCEPT [Google News NS] "December corn futures settle at $4.40 as drought concerns clash with a" | kw:corn,drought
+2026-06-16 14:31 ACCEPT [Google News CB] "ECB’s Lane Says Inflation Is in the Pipeline Despite Iran Deal - Bloom" | kw:inflation,ecb
+2026-06-16 14:31 SKIP_MORNING already_sent date=2026-06-16
+2026-06-16 14:31 SKIP_EVENING already_sent date=2026-06-16
