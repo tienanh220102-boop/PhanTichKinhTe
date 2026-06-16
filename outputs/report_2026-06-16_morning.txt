@@ -1,0 +1,33 @@
+[BẢNG SỐ LIỆU]
+             Giá    1D%    5D%  RSI
+WTI        81.05   -4.5  -11.2   34
+Brent      83.38   -4.5  -11.5   32
+Khí TN     3.150   +1.0   +0.1   55
+Vàng    4,339.00   +2.9   +0.1   44
+Bạc        69.81   +2.9   +2.0   44
+Đồng       6.471   +0.6   +2.2   57
+Ngô       413.50   +0.2   -1.2   28
+Lúa mì    586.25   +0.3   +0.5   38
+Đậu t.  1,129.75   +1.5   +1.2   40
+DXY        99.65   -0.1   -0.4   57
+
+📊 Volume cao bất thường (phiên đóng gần nhất so median 20 phiên): Vàng 2.2×
+
+[LIÊN THỊ TRƯỜNG]
+  Brent−WTI: $2.33 (1 tháng trước: $4.55) — spread rộng = cung WTI dồi dào tương đối
+  Vàng/Bạc: 62.2 (1 tháng trước: 55.1) — tỷ lệ cao = bạc rẻ tương đối so với vàng
+  Đồng/Vàng (×1000): 1.49 (1 tháng trước: 1.40) — tăng = risk-on/kỳ vọng tăng trưởng
+
+[VỊ THẾ QUỸ ĐẦU CƠ — CFTC COT tuần 2026-06-09]
+  Lúa mì (SRW): NET SHORT -57,853 (Δ tuần: -17,091)
+  Ngô: NET LONG +103,559 (Δ tuần: -96,383)
+  Đậu tương: NET LONG +150,463 (Δ tuần: -37,321)
+  Dầu WTI: NET LONG +3,379 (Δ tuần: +11,230)
+  Bạc: NET LONG +22,214 (Δ tuần: -1,712)
+  Đồng: NET LONG +74,450 (Δ tuần: -4,383)
+  Vàng XAU: NET LONG +173,837 (Δ tuần: -2,183)
+→ NET LONG = quỹ đặt cược giá tăng; Δ dương = dòng tiền đầu cơ đang vào
+
+**BÁO CÁO PHÂN TÍCH THỊ TRƯỜNG HÀNG HÓA PHIÊN SÁNG 2026-06-16**
+
+🔀 **ĐỐI CHIẾU NGUỒN TIN**
