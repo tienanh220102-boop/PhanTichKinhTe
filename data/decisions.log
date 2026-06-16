@@ -695,3 +695,17 @@
 2026-06-16 07:01 ACCEPT [Google News CB] "Asian shares are mostly higher and Japan's Nikkei tops 70,000 before B" | kw:rate hike,boj
 2026-06-16 07:01 ACCEPT [Google News CB] "BREAKING NEWS: BOJ to hike rate to stably achieve 2% inflation target:" | kw:inflation,boj
 2026-06-16 07:01 SKIP_MORNING already_sent date=2026-06-16
+2026-06-16 07:31 ACCEPT [OilPrice.com] "ConocoPhillips Set to Become First U.S. Major to Sign Post-War Syria G" | kw:gas
+2026-06-16 07:31 ACCEPT [Google News HH] "When Gold’s Price “Goes Up,” You’re Reading It Backward - GoldSilver" | kw:gold,silver,rice
+2026-06-16 07:31 ACCEPT [Google News HH] "ICE cotton rises on weaker dollar, optimism from easing crude oil - Fi" | kw:oil,crude,cotton
+2026-06-16 07:31 ACCEPT [Google News HH] "Trump Says Iran Deal Is 'All Signed,' But Key Questions Remain As Stra" | kw:oil,crude
+2026-06-16 07:31 ACCEPT [Google News KL] "Gold edges higher as US-Iran peace deal eases rate hike concerns - Reu" | kw:gold,rate hike
+2026-06-16 07:31 ACCEPT [Google News KL] "Brent, gold and silver forecasts shift as oil outlook weakens and meta" | kw:oil,brent,gold
+2026-06-16 07:31 ACCEPT [Google News CB] "BoJ hikes interest rate by 25 bps to 1% as expected - FXStreet" | kw:interest rate,boj
+2026-06-16 07:31 ACCEPT [Google News CB] "Warsh’s debut Fed press conference may reveal his strategy for inflati" | kw:inflation
+2026-06-16 07:31 ACCEPT [Google News CB] "USD/JPY Outlook: BOJ sticks to the script as Nikkei rips to record hig" | kw:boj
+2026-06-16 07:31 ACCEPT [Google News CB] "Watch Bank of Japan Raises Benchmark Interest Rate to 1% - Bloomberg.c" | kw:wti,interest rate,bank of japan
+2026-06-16 07:31 ACCEPT [Google News CB] "BREAKING NEWS: BOJ to monitor currency moves' impact on prices: deputy" | kw:rice,boj
+2026-06-16 07:31 ACCEPT [Google News CB] "Watch Stock Rally Cools Ahead of BOJ, RBA Decisions | The Asia Trade 6" | kw:boj
+2026-06-16 07:31 ACCEPT [Google News CB] "Asian shares are mostly higher and Japan's Nikkei tops 70,000 before B" | kw:rate hike,boj
+2026-06-16 07:31 SKIP_MORNING already_sent date=2026-06-16
