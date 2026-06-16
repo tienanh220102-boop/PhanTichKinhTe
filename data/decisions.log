@@ -854,3 +854,26 @@
 2026-06-16 12:31 ACCEPT [Google News CB] "Will interest rates be lowered? New Fed chair Kevin Warsh is likely to" | kw:interest rate
 2026-06-16 12:31 ACCEPT [Google News CB] "Bank of Japan raises interest rates to 31-year high … of 1% - The Guar" | kw:interest rate,bank of japan
 2026-06-16 12:31 SKIP_MORNING already_sent date=2026-06-16
+2026-06-16 13:01 ACCEPT [The Guardian Biz] "Brent crude falls to three-month low below $80 as Iranian oil tankers " | kw:oil,crude,brent
+2026-06-16 13:01 ACCEPT [Google News HH] "Crude oil is cheaper as markets embrace news of a U.S.-Iran deal - NPR" | kw:oil,crude
+2026-06-16 13:01 ACCEPT [Google News HH] "UAE’s Adnoc Hires Oil Veteran to Lead Trading Unit’s Expansion - Bloom" | kw:oil
+2026-06-16 13:01 ACCEPT [Google News HH] "Gold, Silver and Oil: Commodities Market Alert and Key Levels - Invest" | kw:oil,gold,silver
+2026-06-16 13:01 ACCEPT [Google News HH] "Brent Crude oil drops to three-month low of $81.73 - grafa.com" | kw:oil,crude,brent
+2026-06-16 13:01 ACCEPT [Google News HH] "Gold Price Analysis – Gold Continues to Move on Rates - FXEmpire" | kw:gold,rice
+2026-06-16 13:01 ACCEPT [Google News KL] "Current price of silver as of Tuesday, June 16, 2026 - Fortune" | kw:silver,rice
+2026-06-16 13:01 ACCEPT [Google News KL] "Silver Price Today on June 16, 2026 - USA Today" | kw:silver,rice
+2026-06-16 13:01 ACCEPT [Google News KL] "Gold could attracting modes safe-haven bid as U.S. housing constructio" | kw:gold
+2026-06-16 13:01 ACCEPT [Google News KL] "Silver Price Analysis – Silver Continues to See Buyers Underneath - FX" | kw:silver,rice
+2026-06-16 13:01 ACCEPT [Google News KL] "Fed Fears? Gold, Silver Prices See No Major Breakout Despite Oil Slump" | kw:oil,gold,silver
+2026-06-16 13:01 ACCEPT [Google News KL] "Gold and silver steady in India amid global uncertainty - MSN" | kw:gold,silver
+2026-06-16 13:01 ACCEPT [Google News NS] "Illinois bets on biodiesel: Expanding the market for domestic soybeans" | kw:soybean
+2026-06-16 13:01 ACCEPT [Google News NS] "Corn prices continue to decline in Ukraine – APK-Inform - АПК-Інформ" | kw:corn,rice
+2026-06-16 13:01 ACCEPT [Google News CB] "All eyes turn to Fed chair Kevin Warsh and his first moves on interest" | kw:interest rate
+2026-06-16 13:01 ACCEPT [Google News CB] "Dollar steady, no respite for yen after BOJ hikes rates as expected - " | kw:boj
+2026-06-16 13:01 ACCEPT [Google News CB] "Kevin Warsh's Fed debut comes at a pivotal moment for global monetary " | kw:monetary policy
+2026-06-16 13:01 ACCEPT [Google News CB] "Gold Edges Higher as Markets Assess Iran Agreement and Central Bank De" | kw:gold,central bank
+2026-06-16 13:01 ACCEPT [Google News CB] "ECB’s Escriva Says Energy Disruption Will Persist Despite Deal - Bloom" | kw:ecb
+2026-06-16 13:01 SKIP_MORNING already_sent date=2026-06-16
+2026-06-16 13:02 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-06-16 13:02 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
+2026-06-16 13:02 SENT_EVENING articles=20 date=2026-06-16 force=False
