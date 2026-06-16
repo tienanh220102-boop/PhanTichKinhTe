@@ -70,12 +70,16 @@ def fetch_rss(url, unescape=False):
         return []
 
 def _gemini_request(model, prompt, max_tokens):
-    """Gọi 1 model. Trả về (text|None, code): None=OK, 429=quota, 'EMPTY'/'ERR'=lỗi."""
+    """Gọi 1 model. Trả về (text|None, code): None=OK, 429=quota,
+    'TRUNC'=bị cắt (MAX_TOKENS), 'EMPTY'/'ERR'=lỗi."""
     url = ('https://generativelanguage.googleapis.com/v1beta/models/'
            f'{model}:generateContent?key={GEMINI_API_KEY}')
+    # model 2.5 'thinking' (pro) tính token suy nghĩ vào maxOutputTokens → nới sàn 8192
+    # để thinking không ăn hết budget làm cắt cụt phần trả lời.
+    budget = max(max_tokens, 8192)
     payload = {
         'contents': [{'parts': [{'text': prompt}]}],
-        'generationConfig': {'temperature': 0.2, 'maxOutputTokens': max_tokens},
+        'generationConfig': {'temperature': 0.2, 'maxOutputTokens': budget},
     }
     try:
         r = requests.post(url, json=payload, timeout=90)
@@ -85,10 +89,15 @@ def _gemini_request(model, prompt, max_tokens):
                 return None, 429
             print(f'  Lỗi Gemini API ({model}): {data.get("error", {}).get("message", data)}')
             return None, 'ERR'
+        cand = data['candidates'][0]
+        finish = cand.get('finishReason', '')
         try:
-            return data['candidates'][0]['content']['parts'][0]['text'].strip(), None
+            text = cand['content']['parts'][0]['text'].strip()
         except (KeyError, IndexError):
-            return None, 'EMPTY'
+            text = ''
+        if not text or finish == 'MAX_TOKENS':
+            return None, ('TRUNC' if finish == 'MAX_TOKENS' else 'EMPTY')
+        return text, None
     except Exception as e:
         print(f'  Loi goi {model}: {e}')
         return None, 'ERR'

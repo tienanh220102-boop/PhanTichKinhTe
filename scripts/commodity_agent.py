@@ -957,12 +957,16 @@ def build_gold_vnd_line(vn_gold):
 # ── Gemini ────────────────────────────────────────────────────
 def _gemini_request(model, prompt, max_tokens):
     """Gọi 1 model. Trả về (text|None, code). code: None=OK, 429=quota,
-    'EMPTY'=không có text (vd thinking ăn hết budget / bị chặn), 'ERR'=lỗi khác."""
+    'TRUNC'=bị cắt (MAX_TOKENS), 'EMPTY'=không có text, 'ERR'=lỗi khác."""
     url = ('https://generativelanguage.googleapis.com/v1beta/models/'
            f'{model}:generateContent?key={GEMINI_API_KEY}')
+    # CỰC QUAN TRỌNG: model 2.5 'thinking' (pro) tính TOKEN SUY NGHĨ vào maxOutputTokens.
+    # Budget thấp → thinking ăn hết, phần trả lời bị cắt cụt (đã gặp: report sáng 16/06
+    # với pro chỉ ra tới header rồi đứt). Nới sàn 8192 để chứa cả thinking + output.
+    budget = max(max_tokens, 8192)
     payload = {
         'contents': [{'parts': [{'text': prompt}]}],
-        'generationConfig': {'temperature': 0.2, 'maxOutputTokens': max_tokens},
+        'generationConfig': {'temperature': 0.2, 'maxOutputTokens': budget},
     }
     try:
         # timeout 90s: gemini-2.5-pro bật 'thinking' nên chậm hơn flash-lite
@@ -974,12 +978,17 @@ def _gemini_request(model, prompt, max_tokens):
                 return None, 429
             _log.info('GEMINI ERROR %s %s', model, data.get('error', {}).get('message', 'unknown'))
             return None, 'ERR'
+        cand = data['candidates'][0]
+        finish = cand.get('finishReason', '')
         try:
-            return data['candidates'][0]['content']['parts'][0]['text'].strip(), None
+            text = cand['content']['parts'][0]['text'].strip()
         except (KeyError, IndexError):
-            _log.info('GEMINI EMPTY %s finish=%s', model,
-                      data['candidates'][0].get('finishReason', '?'))
-            return None, 'EMPTY'
+            text = ''
+        # MAX_TOKENS = bị cắt giữa chừng → coi là lỗi để fallback (tránh báo cáo cụt)
+        if not text or finish == 'MAX_TOKENS':
+            _log.info('GEMINI INCOMPLETE %s finish=%s len=%d', model, finish, len(text))
+            return None, ('TRUNC' if finish == 'MAX_TOKENS' else 'EMPTY')
+        return text, None
     except Exception as e:
         print(f'  Loi goi {model}: {e}')
         return None, 'ERR'
