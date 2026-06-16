@@ -933,3 +933,23 @@
 2026-06-16 15:01 ACCEPT [Google News CB] "US Federal Reserve kicks off first meeting with Warsh as chair - Franc" | kw:federal reserve
 2026-06-16 15:01 SKIP_MORNING already_sent date=2026-06-16
 2026-06-16 15:01 SKIP_EVENING already_sent date=2026-06-16
+2026-06-16 15:31 ACCEPT [Al Jazeera] "FBI says it foiled ‘planned attacks’ targeting White House UFC event" | kw:oil
+2026-06-16 15:31 ACCEPT [Google News HH] "Crude oil prices fall again, while US stocks drift near their all-time" | kw:oil,crude,rice
+2026-06-16 15:31 ACCEPT [Google News HH] "Crude oil down sharply and tests a swing area target. - investingLive" | kw:oil,crude
+2026-06-16 15:31 ACCEPT [Google News HH] "WTI Crude Oil (USO) Prices Drop to Two-Month Lows - GuruFocus" | kw:oil,crude,wti
+2026-06-16 15:31 ACCEPT [Google News HH] "Crude oil prices fall again, while US stocks drift near their all-time" | kw:oil,crude,rice
+2026-06-16 15:31 ACCEPT [Google News HH] "Analysts See U.S. Crude Oil Stockpiles Extending Decline - marketscree" | kw:oil,crude
+2026-06-16 15:31 ACCEPT [Google News HH] "Brent Crude Oil Falls Below $80 on US-Iran Strait of Hormuz Reopening " | kw:oil,crude,brent
+2026-06-16 15:31 ACCEPT [Google News HH] "Crude Oil Prices Ease On US-Iran Peace Dividend - MarketForces Africa" | kw:oil,crude,rice
+2026-06-16 15:31 ACCEPT [Google News HH] "Brent crude oil futures prices fell below USD 80. - 富途牛牛" | kw:oil,crude,brent
+2026-06-16 15:31 ACCEPT [Google News KL] "Gold Holds at $4,347 While Stocks Hit All-Time Highs. Here’s Why. - Go" | kw:gold,silver
+2026-06-16 15:31 ACCEPT [Google News KL] "Why Is Silver Up Today? The Iran Deal Changed the Fed Math - GoldSilve" | kw:gold,silver
+2026-06-16 15:31 ACCEPT [Google News NS] "Hormuz shipping resumes, adding bearish tone to grain markets - Brownf" | kw:shipping
+2026-06-16 15:31 ACCEPT [Google News NS] "Soybeans Up Nearly 20¢ | Tuesday, June 16, 2026 - Successful Farming" | kw:soybean
+2026-06-16 15:31 ACCEPT [Google News CB] "ECB May Raise Key Rate Again if Evidence Supports, Chief Economist Say" | kw:ecb
+2026-06-16 15:31 ACCEPT [Google News CB] "ECB will be proactive against high inflation even after Iran deal, Lan" | kw:inflation,ecb
+2026-06-16 15:31 ACCEPT [Google News CB] "Finally, an interest rate reprieve – but a ceasefire in the Middle Eas" | kw:interest rate
+2026-06-16 15:31 ACCEPT [Google News CB] "Stocks rally as oil prices slide, easing inflation fears ahead of Fed " | kw:oil,rice,inflation
+2026-06-16 15:31 ACCEPT [Google News CB] "Oil prices fall back to $80 per barrel, while US stocks drift - AP New" | kw:oil,rice
+2026-06-16 15:31 SKIP_MORNING already_sent date=2026-06-16
+2026-06-16 15:31 SKIP_EVENING already_sent date=2026-06-16
