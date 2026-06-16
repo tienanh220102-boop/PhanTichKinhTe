@@ -1114,6 +1114,7 @@ QUAN TRỌNG:
   • vị thế COT → "các quỹ lớn đang đặt cược giá tăng/giảm"; tỷ lệ Vàng/Bạc → "bạc đang rẻ/đắt tương đối so vàng"
   ĐƯỢC PHÉP nêu % thay đổi và mức giá (số dễ hiểu, ai cũng đọc được). KHÔNG viết chung chung "giá chịu áp lực" mà thiếu lý do/con số.
 - ĐỊNH DẠNG: phần "Phân tích" và "Rủi ro" trình bày dưới dạng GẠCH ĐẦU DÒNG (mỗi ý 1 dòng bắt đầu bằng "• "), không viết thành đoạn văn dài.
+- NGẮN GỌN: mỗi mục "Phân tích" TỐI ĐA 3 gạch đầu dòng, "Rủi ro" TỐI ĐA 2 — chọn ý quan trọng nhất, mỗi ý ≤2 câu, không liệt kê lan man. 🔀/🌍 mỗi mục ≤3 ý.
 - KHÔNG BỊA SỰ KIỆN: chỉ được nêu sự kiện địa chính trị/kinh tế (thỏa thuận, lệnh trừng phạt, quyết định OPEC/Fed...) NẾU nó xuất hiện trong các tin được cung cấp ở trên. Nếu chỉ là suy đoán hoặc tin chưa được xác nhận, BẮT BUỘC ghi rõ "(tin chưa kiểm chứng)" — tuyệt đối không trình bày như sự thật đã xảy ra.
 - Nếu tín hiệu định lượng mâu thuẫn với tin tức, nêu rõ mâu thuẫn đó trong phần Rủi ro.
 - TẦNG DỮ LIỆU: khối "TĂNG TRƯỞNG GDP" (World Bank) và ngữ cảnh mùa vụ là MẶT BẰNG —
@@ -1274,16 +1275,49 @@ def save_report_file(text, session, date_str):
     print(f'Lưu báo cáo → outputs/{filename}')
 
 # ── Telegram ──────────────────────────────────────────────────
-def send_telegram(msg):
+def _tg_send_one(text):
     url = f'https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage'
-    if len(msg) > 4000:
-        msg = msg[:3950] + '\n\n[...báo cáo đầy đủ trong outputs/]'
-    payload = {'chat_id': TELEGRAM_CHAT, 'text': msg, 'parse_mode': 'HTML'}
+    payload = {'chat_id': TELEGRAM_CHAT, 'text': text, 'parse_mode': 'HTML'}
     try:
         r = requests.post(url, json=payload, timeout=10)
         return r.json().get('ok', False)
     except Exception:
         return False
+
+
+def _split_for_telegram(msg, limit=3800):
+    """Chia tin theo ranh giới đoạn (\\n\\n) để KHÔNG mất chữ và không cắt giữa
+    khối <pre> (bảng) làm vỡ HTML. Đoạn đơn lẻ quá dài thì mới cắt cứng."""
+    chunks, cur = [], ''
+    for p in msg.split('\n\n'):
+        if len(p) > limit:                       # đoạn lẻ quá dài (hiếm)
+            if cur:
+                chunks.append(cur); cur = ''
+            for i in range(0, len(p), limit):
+                chunks.append(p[i:i+limit])
+            continue
+        if cur and len(cur) + 2 + len(p) > limit:
+            chunks.append(cur); cur = p
+        else:
+            cur = f'{cur}\n\n{p}' if cur else p
+    if cur:
+        chunks.append(cur)
+    return chunks
+
+
+def send_telegram(msg):
+    """Gửi 1 báo cáo: tự chia nhiều tin nếu vượt giới hạn 4096 ký tự/tin của
+    Telegram (trước đây cắt cụt mất nội dung) → đảm bảo đầy đủ thông tin."""
+    chunks = _split_for_telegram(msg)
+    n = len(chunks)
+    ok = True
+    for i, chunk in enumerate(chunks):
+        if n > 1:
+            chunk = f'{chunk}\n\n— phần {i+1}/{n} —'
+        ok = _tg_send_one(chunk) and ok
+        if n > 1:
+            time.sleep(0.4)   # tránh rate-limit khi gửi liên tiếp
+    return ok
 
 # ── Report logic ──────────────────────────────────────────────
 def try_send_session_report(state, now_vn, session, force=False):
