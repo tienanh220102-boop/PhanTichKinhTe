@@ -633,3 +633,18 @@
 2026-06-16 05:01 ACCEPT [Google News CB] "Bitcoin rises after Bank of Japan hikes interest rates to a 31-year hi" | kw:interest rate,bank of japan
 2026-06-16 05:01 ACCEPT [Google News CB] "Economists bet on higher rates as Kevin Warsh takes reins at the Fed -" | kw:lng
 2026-06-16 05:01 SKIP_MORNING already_sent date=2026-06-16
+2026-06-16 05:31 ACCEPT [Al Jazeera] "US stock market jumps as US-Iran deal stirs hopes for end to energy tu" | kw:oil
+2026-06-16 05:31 ACCEPT [Google News HH] "Fitch: If a U.S.-Iran deal is reached, crude oil could face renewed ov" | kw:oil,crude,rice
+2026-06-16 05:31 ACCEPT [Google News HH] "Gold price in Saudi Arabia: Rates on June 16 - FXStreet" | kw:gold,rice
+2026-06-16 05:31 ACCEPT [Google News HH] "FTSE 100 Looks Set To Dip As Commodities Split - Finimize" | kw:commodities
+2026-06-16 05:31 ACCEPT [Google News KL] "Gold sell-off was a 'reset,' says Barclays — and these mining stocks c" | kw:gold
+2026-06-16 05:31 ACCEPT [Google News KL] "Gold price in Philippines: Rates on June 16 - FXStreet" | kw:gold,rice
+2026-06-16 05:31 ACCEPT [Google News KL] "Gold steady as investors await details of US-Iran peace deal - CNBC" | kw:gold
+2026-06-16 05:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD edges lower below $70.00 as bearish bia" | kw:silver,rice
+2026-06-16 05:31 ACCEPT [Google News KL] "Gold edges higher as US-Iran peace deal eases rate-hike fears - Reuter" | kw:gold
+2026-06-16 05:31 ACCEPT [Google News KL] "Former Bank of America Analyst: US-Iran Agreement Not a Victory, Gold " | kw:gold,rice
+2026-06-16 05:31 ACCEPT [Google News KL] "Gold prices rise 0.2 percent to $4,315 as U.S.-Iran peace agreement ke" | kw:gold,rice
+2026-06-16 05:31 ACCEPT [Google News CB] "All eyes turn to Fed chair Kevin Warsh and his first moves on interest" | kw:interest rate
+2026-06-16 05:31 ACCEPT [Google News CB] "Japan's Nikkei hits 70,000 as BOJ rate hike sparks rally - Nikkei Asia" | kw:rate hike,boj
+2026-06-16 05:31 ACCEPT [Google News CB] "Asian shares are mostly higher and Japan's Nikkei tops 70,000 before B" | kw:rate hike,boj
+2026-06-16 05:31 SKIP_MORNING already_sent date=2026-06-16
