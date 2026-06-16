@@ -969,3 +969,21 @@
 2026-06-16 16:01 ACCEPT [Google News CB] "Will credit card interest rates drop after this week's Fed meeting? - " | kw:interest rate
 2026-06-16 16:01 SKIP_MORNING already_sent date=2026-06-16
 2026-06-16 16:01 SKIP_EVENING already_sent date=2026-06-16
+2026-06-16 16:31 ACCEPT [BBC Business] "Musk's SpaceX overtakes Amazon to become world's fifth most valuable f" | kw:rice
+2026-06-16 16:31 ACCEPT [The Guardian Biz] "SpaceX to buy AI coding firm Anysphere for $60bn and passes Amazon val" | kw:rice
+2026-06-16 16:31 ACCEPT [OilPrice.com] "Hormuz Reopens as Traders Price Out the War Premium" | kw:oil,crude,rice
+2026-06-16 16:31 ACCEPT [Mining.com] "Barclays sees gold pullback as ‘reset’, keeps bullish outlook" | kw:gold
+2026-06-16 16:31 ACCEPT [Mining.com] "Poland bets on copper boom as Lumina eyes new mines" | kw:copper
+2026-06-16 16:31 ACCEPT [Google News HH] "Gold's Rebound Stalls as Analysts Cut Crude Oil Forecasts - BullionVau" | kw:oil,crude,gold
+2026-06-16 16:31 ACCEPT [Google News HH] "Crude Oil Down 5%; John Wiley & Sons Shares Fall After Q4 Results - Be" | kw:oil,crude
+2026-06-16 16:31 ACCEPT [Google News HH] "UAE’s Adnoc Hires Oil Veteran to Lead Trading Unit’s Expansion - Bloom" | kw:oil
+2026-06-16 16:31 ACCEPT [Google News KL] "Gold Rally Supported by US-Iran Deal & Fed Outlook, Still at Risk as H" | kw:gold
+2026-06-16 16:31 ACCEPT [Google News NS] "Corn Prices Struggle as South American Harvests Grow and U.S. Crop Con" | kw:corn,rice,harvest
+2026-06-16 16:31 ACCEPT [Google News CB] "Treasury yields are little changed as Fed begins monetary policy meeti" | kw:treasury,monetary policy
+2026-06-16 16:31 ACCEPT [Google News CB] "All eyes turn to Fed chair Kevin Warsh and his first moves on interest" | kw:interest rate
+2026-06-16 16:31 ACCEPT [Google News CB] "ECB’s Lane Says Inflation Is in the Pipeline Despite Iran Deal - Bloom" | kw:inflation,ecb
+2026-06-16 16:31 ACCEPT [Google News CB] "Banks, fintechs sue Oregon over interest rate opt-out law - American B" | kw:interest rate
+2026-06-16 16:31 ACCEPT [Google News CB] "Inside Warsh's first FOMC: Hawks on the offensive and Wall Street keen" | kw:fomc
+2026-06-16 16:31 ACCEPT [Google News CB] "What Happens to Stocks if the Fed’s Warsh Even Hints at a Rate Hike - " | kw:rate hike
+2026-06-16 16:31 SKIP_MORNING already_sent date=2026-06-16
+2026-06-16 16:31 SKIP_EVENING already_sent date=2026-06-16
