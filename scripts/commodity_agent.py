@@ -48,15 +48,24 @@ _log.propagate = False
 RSS_FEEDS = [
     ('MarketWatch',       'https://feeds.content.dowjones.io/public/rss/mw_topstories'),
     ('BBC Business',      'http://feeds.bbci.co.uk/news/business/rss.xml'),
-    ('AP Business',       'https://feeds.apnews.com/rss/apf-business'),
     ('The Guardian Biz',  'https://www.theguardian.com/business/rss'),
     ('Al Jazeera',        'https://www.aljazeera.com/xml/rss/all.xml'),
     ('CNBC Commodities',  'https://www.cnbc.com/id/10000664/device/rss/rss.html'),
+    ('CNBC Economy',      'https://www.cnbc.com/id/20910258/device/rss/rss.html'),
     ('OilPrice.com',      'https://oilprice.com/rss/main'),
     ('Mining.com',        'https://www.mining.com/feed/'),
+    # EIA: cơ quan năng lượng Mỹ (.gov) — nguồn cung-cầu/tồn kho dầu khí thẩm quyền
+    ('EIA Energy',        'https://www.eia.gov/rss/todayinenergy.xml'),
+    ('NASDAQ Commod',     'https://www.nasdaq.com/feed/rssoutbound?category=Commodities'),
+    # Google News (tổng hợp đa nguồn, lọc theo chủ đề + when:1d cho tin mới): độ phủ
+    # cao nhất, đã test ~97-99% bài liên quan hàng hóa. fetch_rss cap 40 bài/nguồn.
+    ('Google News HH',    'https://news.google.com/rss/search?q=commodities+OR+OPEC+OR+%22crude+oil%22+OR+%22gold+price%22+when:1d&hl=en-US&gl=US&ceid=US:en'),
+    ('Google News KL',    'https://news.google.com/rss/search?q=(gold+OR+silver+OR+copper+OR+nickel)+price+when:1d&hl=en-US&gl=US&ceid=US:en'),
+    ('Google News NS',    'https://news.google.com/rss/search?q=(wheat+OR+corn+OR+soybean+OR+grain)+market+when:1d&hl=en-US&gl=US&ceid=US:en'),
     # Sputnik: state media Nga — them de doi chieu goc nhin (Nga = nha cung
     # dau/khi/kim loai lon). Tin tu day la TIN HIEU LAP TRUONG cua Nga,
     # khong phai su that khach quan — prompt se doi chieu xung dot nguon.
+    # (Chập chờn từ mạng VN, hay timeout — giữ vì fail-safe, runner US ổn hơn.)
     ('Sputnik (Nga)',     'https://sputnikglobe.com/export/rss2/archive/index.xml'),
 ]
 
@@ -64,12 +73,17 @@ RSS_FEEDS = [
 SOURCE_ORIGIN = {
     'MarketWatch':      'Mỹ',
     'BBC Business':     'Anh',
-    'AP Business':      'Mỹ',
     'The Guardian Biz': 'Anh',
     'Al Jazeera':       'Trung Đông',
     'CNBC Commodities': 'Mỹ',
+    'CNBC Economy':     'Mỹ',
     'OilPrice.com':     'báo ngành năng lượng',
     'Mining.com':       'báo ngành khai khoáng',
+    'EIA Energy':       'Mỹ — cơ quan năng lượng (.gov)',
+    'NASDAQ Commod':    'Mỹ — sàn giao dịch',
+    'Google News HH':   'tổng hợp đa nguồn',
+    'Google News KL':   'tổng hợp đa nguồn',
+    'Google News NS':   'tổng hợp đa nguồn',
     'Sputnik (Nga)':    'Nga — state media',
 }
 
@@ -121,7 +135,9 @@ def fetch_rss(url):
             desc  = item.findtext('description', '').strip()
             if title:
                 articles.append({'title': title, 'link': link, 'desc': desc[:400]})
-        return articles
+        # Cap 40 bài mới nhất/nguồn: feed RSS xếp mới→cũ, chặn nguồn lớn (Google News
+        # ~100 bài) làm phình pending + thrash seen-set. Lọc keyword + chọn top sau.
+        return articles[:40]
     except Exception as e:
         print(f'  Lỗi RSS {url}: {e}')
         return []
@@ -1435,8 +1451,10 @@ def main():
     state  = load_state()
     seen   = set(state.get('seen', []))
 
-    if len(seen) > 500:
-        seen = set(list(seen)[-300:])
+    # Trần seen cao hơn vì đã thêm nhiều nguồn (Google News volume lớn) — tránh
+    # trim quá thường khiến bài cũ lọt lại thành trùng.
+    if len(seen) > 2000:
+        seen = set(list(seen)[-1500:])
 
     # Giữ pending_articles trong 48 giờ gần nhất
     cutoff_str = (now_vn - timedelta(hours=48)).strftime('%Y-%m-%d %H:%M')
