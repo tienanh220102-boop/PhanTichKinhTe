@@ -44,8 +44,9 @@ Dự án tích hợp 2 mảng: **Giao Dịch Hàng Hóa Quốc Tế** + **Ngân 
 └────────────────────────────────────────────────────────────────────────┘
          │
          ▼
-┌── RSS Việt Nam (5 nguồn) ──────────────────────────────────────────────┐
-│   VnExpress KT, VnExpress BĐS, Thanh Niên, VietnamNet, VOV            │
+┌── RSS Việt Nam (ngân hàng & BĐS) ──────────────────────────────────────┐
+│   VnExpress KT, VnExpress BĐS, Thanh Niên, VietnamNet, VOV, Sputnik VN │
+│   + Chính sách NHTW thế giới (báo Việt): Google News NHTW TG           │
 └────────────────────────────────────────────────────────────────────────┘
          │
          ▼

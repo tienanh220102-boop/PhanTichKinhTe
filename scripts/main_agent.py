@@ -421,6 +421,10 @@ BANKING_FEEDS = [
     # Sputnik VN: state media Nga ban tieng Viet — goc nhin ben ngoai de doi
     # chieu voi bao trong nuoc; prompt bao cao se danh gia xung dot nguon
     ('Sputnik VN (Nga)',  'https://sputniknews.vn/export/rss2/archive/index.xml'),
+    # NHTW the gioi (Fed/ECB...) qua bao Viet — chinh sach lai suat quoc te tac
+    # dong ty gia USD/VND → ap luc len NHNN & mat bang lai suat trong nuoc. Dung
+    # Google News tieng Viet de tin co san dien giai tac dong toi VN, hop NDT Nam.
+    ('Google News NHTW TG', 'https://news.google.com/rss/search?q=(Fed+OR+ECB+OR+%22ng%C3%A2n+h%C3%A0ng+trung+%C6%B0%C6%A1ng%22)+(l%C3%A3i+su%E1%BA%A5t+OR+%22ch%C3%ADnh+s%C3%A1ch+ti%E1%BB%81n+t%E1%BB%87%22)+when:2d&hl=vi&gl=VN&ceid=VN:vi'),
 ]
 
 BANKING_KEYWORDS = [
@@ -429,6 +433,8 @@ BANKING_KEYWORDS = [
     'lãi huy động', 'lãi cho vay', 'tín dụng', 'room tín dụng', 'hạn mức',
     'tăng trưởng tín dụng', 'siết tín dụng', 'nới tín dụng',
     'chính sách tiền tệ', 'nhnn', 'ngân hàng nhà nước',
+    # NHTW thế giới — tác động tỷ giá USD/VND & mặt bằng lãi suất trong nước
+    'fed', 'ecb', 'ngân hàng trung ương', 'cục dự trữ liên bang', 'fomc',
     # Ngân hàng thương mại
     'ngân hàng', 'bidv', 'vietcombank', 'vietinbank', 'agribank',
     'techcombank', 'vpbank', 'mbbank', 'acb', 'sacombank', 'tpbank',
@@ -579,7 +585,7 @@ Viết BÁO CÁO NGÂN HÀNG & BĐS PHÍA NAM bằng TIẾNG VIỆT theo đúng 
 
 💰 LÃI SUẤT & CHÍNH SÁCH TIỀN TỆ
 Xu hướng: [TĂNG / GIẢM / ỔN ĐỊNH]
-Phân tích: [2-3 câu về diễn biến lãi suất và chính sách NHNN]
+Phân tích: [2-3 câu về diễn biến lãi suất và chính sách NHNN. Nếu trong tin có quyết định/định hướng của NHTW lớn thế giới (Fed/ECB tăng-giảm-giữ lãi suất), nêu mạch tác động: lãi suất Fed/ECB → tỷ giá USD/VND → áp lực lên điều hành NHNN & mặt bằng lãi suất trong nước. Phân biệt "đã quyết định" với "kỳ vọng/đồn đoán".]
 Tác động NĐT: [ý nghĩa thực tế với nhà đầu tư BĐS phía Nam]
 
 🏗️ BĐS PHÍA NAM — TP.HCM, Bình Dương, Đồng Nai, Long An
