@@ -805,3 +805,15 @@
 2026-06-16 10:31 ACCEPT [Google News CB] "Warsh’s debut Fed press conference may reveal his strategy for inflati" | kw:inflation
 2026-06-16 10:31 ACCEPT [Google News CB] "Bank of Japan raises its key interest rate to a three-decade high of 1" | kw:inflation,interest rate,bank of japan
 2026-06-16 10:31 SKIP_MORNING already_sent date=2026-06-16
+2026-06-16 11:01 ACCEPT [NASDAQ Commod] "Gold Inches Higher As Oil Extends Slide On Iran Deal" | kw:oil,gold,rice
+2026-06-16 11:01 ACCEPT [Google News KL] "Gold prices today, Tuesday, June 16: Prices firming ahead of Fed meeti" | kw:gold,rice
+2026-06-16 11:01 ACCEPT [Google News KL] "Silver price forecast: can XAG/USD rebound as Fed rate bets shift? - C" | kw:silver,rice,fed rate
+2026-06-16 11:01 ACCEPT [Google News KL] "Gold Investors Are Likely Confused - Investing.com" | kw:gold
+2026-06-16 11:01 ACCEPT [Google News NS] "India's rice stocks climb to record high; wheat inventories at five-ye" | kw:wheat,rice
+2026-06-16 11:01 ACCEPT [Google News NS] "Markets Slip as Corn Hits New Lows While Wheat Shows Strength - Farms." | kw:wheat,corn
+2026-06-16 11:01 ACCEPT [Google News NS] "Market Plus with Mark Gold - Farms.com" | kw:gold
+2026-06-16 11:01 ACCEPT [Google News CB] "The Evolution of Milton Friedman’s Legacy for Monetary Policy - promar" | kw:monetary policy
+2026-06-16 11:01 ACCEPT [Google News CB] "The Prospect of a Quieter Fed Could Roil Bond Prices - Bloomberg" | kw:oil,rice
+2026-06-16 11:01 ACCEPT [Google News CB] "Nikkei 225 Strength Challenges the BOJ Tightening Narrative - StoneX" | kw:boj,tightening
+2026-06-16 11:01 ACCEPT [Google News CB] "Bank of Japan raises rates to 31-year high, flags more to come - Reute" | kw:bank of japan
+2026-06-16 11:01 SKIP_MORNING already_sent date=2026-06-16
