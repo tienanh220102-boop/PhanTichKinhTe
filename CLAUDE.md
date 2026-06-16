@@ -22,7 +22,7 @@ Dự án tích hợp 2 mảng: **Giao Dịch Hàng Hóa Quốc Tế** + **Ngân 
 | "đổi giờ báo cáo ngân hàng" | `BANKING_DAILY_HOUR` trong `main_agent.py` |
 | "đổi prompt hàng hóa" | `build_session_report_prompt()` trong `commodity_agent.py` |
 | "đổi prompt ngân hàng" | `_banking_report_prompt()` trong `main_agent.py` |
-| "đổi model Gemini" | Secret/env `GEMINI_MODEL` (mặc định `gemini-2.5-pro`); `GEMINI_FALLBACK_MODEL` (mặc định `gemini-2.5-flash`) tự dùng khi model chính lỗi/timeout/rỗng — không cần sửa code |
+| "đổi model Gemini" | Secret/env `GEMINI_MODEL` (mặc định `gemini-2.5-flash`); `GEMINI_FALLBACK_MODEL` (mặc định `gemini-2.5-flash-lite`) tự dùng khi model chính lỗi/timeout/cắt cụt — không cần sửa code. Tránh `pro`: 'thinking' tính vào maxOutputTokens dễ cắt cụt + chậm |
 | "thêm nguồn RSS hàng hóa" | `RSS_FEEDS` trong `commodity_agent.py` |
 | "thêm nguồn RSS ngân hàng" | `BANKING_FEEDS` trong `main_agent.py` |
 | "chạy test" | `pytest tests/` |

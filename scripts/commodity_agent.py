@@ -21,12 +21,13 @@ TELEGRAM_TOKEN      = os.environ.get('TELEGRAM_TOKEN', '')
 TELEGRAM_CHAT       = os.environ.get('TELEGRAM_CHAT', '')
 GEMINI_API_KEY      = os.environ.get('GEMINI_API_KEY', '')
 # Model phân tích — đổi qua biến môi trường GEMINI_MODEL nếu cần.
-# gemini-2.5-pro : suy luận tốt nhất, ít sai dấu số liệu — hợp cho báo cáo (≈3-5 call/ngày).
-# gemini-2.5-flash : cân bằng tốc độ/chi phí. gemini-2.5-flash-lite : rẻ nhất, dễ sai dấu.
-GEMINI_MODEL        = os.environ.get('GEMINI_MODEL', 'gemini-2.5-pro')
-# Model dự phòng — khi model chính lỗi/timeout/trả rỗng (vd pro chưa bật trên key,
-# hoặc thinking ăn hết budget) thì tự hạ xuống đây để KHÔNG mất báo cáo.
-GEMINI_FALLBACK_MODEL = os.environ.get('GEMINI_FALLBACK_MODEL', 'gemini-2.5-flash')
+# Mặc định gemini-2.5-flash: nhanh + ổn định, không bị 'thinking' cắt cụt như pro.
+# Lỗi đảo dấu đã chặn bằng movement-facts + validator nên không cần pro để đúng số.
+# (gemini-2.5-pro: suy luận mạnh nhất nhưng chậm + dễ cắt cụt; flash-lite: rẻ nhất.)
+GEMINI_MODEL        = os.environ.get('GEMINI_MODEL', 'gemini-2.5-flash')
+# Model dự phòng — khi model chính lỗi/timeout/cắt cụt thì tự hạ xuống đây để
+# KHÔNG mất báo cáo.
+GEMINI_FALLBACK_MODEL = os.environ.get('GEMINI_FALLBACK_MODEL', 'gemini-2.5-flash-lite')
 ALPHAVANTAGE_KEY    = os.environ.get('ALPHAVANTAGE_API_KEY', '')
 TWELVEDATA_KEY      = os.environ.get('TWELVEDATA_API_KEY', '')
 FRED_API_KEY        = os.environ.get('FRED_API_KEY', '')

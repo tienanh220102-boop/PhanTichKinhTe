@@ -26,8 +26,8 @@ from market_data import fetch_cftc_cot
 # ── Cấu hình chung ────────────────────────────────────────────────────────────
 _ROOT          = Path(__file__).parent.parent
 GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY', '')
-GEMINI_MODEL   = os.environ.get('GEMINI_MODEL', 'gemini-2.5-pro')
-GEMINI_FALLBACK_MODEL = os.environ.get('GEMINI_FALLBACK_MODEL', 'gemini-2.5-flash')
+GEMINI_MODEL   = os.environ.get('GEMINI_MODEL', 'gemini-2.5-flash')
+GEMINI_FALLBACK_MODEL = os.environ.get('GEMINI_FALLBACK_MODEL', 'gemini-2.5-flash-lite')
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN', '')
 TELEGRAM_CHAT  = os.environ.get('TELEGRAM_CHAT', '')
 OUTPUT_DIR     = _ROOT / 'outputs'
