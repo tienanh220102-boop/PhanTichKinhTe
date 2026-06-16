@@ -953,3 +953,19 @@
 2026-06-16 15:31 ACCEPT [Google News CB] "Oil prices fall back to $80 per barrel, while US stocks drift - AP New" | kw:oil,rice
 2026-06-16 15:31 SKIP_MORNING already_sent date=2026-06-16
 2026-06-16 15:31 SKIP_EVENING already_sent date=2026-06-16
+2026-06-16 16:01 ACCEPT [MarketWatch] "Oil may move through the Strait of Hormuz first, leaving fertilizer su" | kw:oil,crude
+2026-06-16 16:01 ACCEPT [OilPrice.com] "The $10 Billion Energy Corridor That Could Bypass Hormuz" | kw:shipping
+2026-06-16 16:01 ACCEPT [Google News HH] "Why Gas Prices Won’t Be Lower for the July 4th Holiday Even After an I" | kw:gas,rice
+2026-06-16 16:01 ACCEPT [Google News HH] "Crude Oil Prices Tumble as End of US-Iran War Set to Boost Oil Supplie" | kw:oil,crude,rice
+2026-06-16 16:01 ACCEPT [Google News HH] "Crude oil prices fall again, while US stocks drift near their all-time" | kw:oil,crude,rice
+2026-06-16 16:01 ACCEPT [Google News HH] "ADNOC taps industry veteran to lead trading arm expansion - World Oil" | kw:oil
+2026-06-16 16:01 ACCEPT [Google News HH] "Barclays: Gold Price Decline Is a Market Reset, Not a Fundamental Shif" | kw:gold,rice
+2026-06-16 16:01 ACCEPT [Google News KL] "Barclays sees gold hitting $4,791 in 2026, $4,900 in 2027 as Iran corr" | kw:gold
+2026-06-16 16:01 ACCEPT [Google News KL] "Central Banks Eye Gold as Dollar Outlook Wanes - Investing News Networ" | kw:gold,central bank
+2026-06-16 16:01 ACCEPT [Google News KL] "Gold price falls below 200-day moving average, Federal Reserve decisio" | kw:gold,rice,federal reserve
+2026-06-16 16:01 ACCEPT [Google News KL] "World Nickel-Iron Permalloy - Market Analysis, Forecast, Size, Trends " | kw:iron,nickel
+2026-06-16 16:01 ACCEPT [Google News KL] "Silver rises on US Dollar weakness as markets eye Fed decision - FXStr" | kw:silver
+2026-06-16 16:01 ACCEPT [Google News CB] "Will interest rates change? What to expect from June's Fed meeting - U" | kw:interest rate
+2026-06-16 16:01 ACCEPT [Google News CB] "Will credit card interest rates drop after this week's Fed meeting? - " | kw:interest rate
+2026-06-16 16:01 SKIP_MORNING already_sent date=2026-06-16
+2026-06-16 16:01 SKIP_EVENING already_sent date=2026-06-16
