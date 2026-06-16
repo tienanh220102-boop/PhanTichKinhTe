@@ -687,10 +687,10 @@ def build_volume_alert_line(prices):
         if not e or e.get('vol_ratio') is None:
             continue
         if e['vol_ratio'] >= 1.5:
-            hot.append(f'{VN_NAMES.get(name, name)} {e["vol_ratio"]:.1f}×')
+            hot.append(f'{VN_NAMES.get(name, name)} {e["vol_ratio"]:.1f}× bình thường')
     if not hot:
         return None
-    return '📊 Volume cao bất thường (phiên đóng gần nhất so median 20 phiên): ' + ', '.join(hot)
+    return '📊 Khối lượng giao dịch cao bất thường (dòng tiền đang chú ý): ' + ', '.join(hot)
 
 
 def build_cot_block(state):
