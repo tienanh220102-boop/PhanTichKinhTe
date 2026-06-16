@@ -758,3 +758,12 @@
 2026-06-16 09:01 ACCEPT [Google News CB] "Bank of Japan raises interest rates to 31-year high amid Iran war infl" | kw:inflation,interest rate,bank of japan
 2026-06-16 09:01 ACCEPT [Google News CB] "Wow! The Probability of an Interest Rate Hike in 2026 Has Soared Over " | kw:interest rate,rate hike
 2026-06-16 09:01 SKIP_MORNING already_sent date=2026-06-16
+2026-06-16 09:31 ACCEPT [MarketWatch] "The peace deal is in the price: Goldman Sachs lowers its oil-price tar" | kw:oil,gold,rice
+2026-06-16 09:31 ACCEPT [Google News HH] "China’s independent refiners step up crude inquiries after US-Iran pea" | kw:crude
+2026-06-16 09:31 ACCEPT [Google News HH] "SunSirs: Progress in US-Iran Talks Drags Crude Oil Prices Down Over 3%" | kw:oil,crude,rice
+2026-06-16 09:31 ACCEPT [Google News HH] "Crude oil futures fall amid weak global trends - Deccan Herald" | kw:oil,crude
+2026-06-16 09:31 ACCEPT [Google News KL] "UBS Cuts Near-Term Gold Forecast to $3,850–$4,000 per Ounce | Market A" | kw:gold
+2026-06-16 09:31 ACCEPT [Google News CB] "Japan raises interest rate to highest for 31 years - BBC" | kw:interest rate
+2026-06-16 09:31 ACCEPT [Google News CB] "Fed set to make interest rate decision as inflation hits 3-year high -" | kw:inflation,interest rate,rate decision
+2026-06-16 09:31 ACCEPT [Google News CB] "Bank of Japan raises its key interest rate to a three-decade high - Eu" | kw:interest rate,bank of japan
+2026-06-16 09:31 SKIP_MORNING already_sent date=2026-06-16
