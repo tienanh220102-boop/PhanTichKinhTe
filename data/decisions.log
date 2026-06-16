@@ -749,3 +749,12 @@
 2026-06-16 08:40 ACCEPT [Google News CB] "Asian Shares Are Mostly Higher and Japan's Nikkei Tops 70,000 Before B" | kw:rate hike,boj
 2026-06-16 08:40 ACCEPT [Google News CB] "Japanese Yen remains stronger as BoJ delivers a rate hike - FXStreet" | kw:rate hike,boj
 2026-06-16 08:40 SKIP_MORNING already_sent date=2026-06-16
+2026-06-16 09:01 ACCEPT [Google News HH] "Oil prices extend losses and target pre-war levels amid expectations o" | kw:oil,rice
+2026-06-16 09:01 ACCEPT [Google News HH] "Crude Oil Futures Fall Amid Weak Global Trends - Rediff MoneyWiz" | kw:oil,crude
+2026-06-16 09:01 ACCEPT [Google News KL] "Gold gains as US-Iran peace deal eases rate hike concerns - Reuters" | kw:gold,rate hike
+2026-06-16 09:01 ACCEPT [Google News KL] "Gold edges higher as US-Iran peace deal eases rate-hike fears - Yahoo " | kw:gold
+2026-06-16 09:01 ACCEPT [Google News CB] "Central Bank Gold Reserves Survey 2026 - World Gold Council" | kw:gold,central bank
+2026-06-16 09:01 ACCEPT [Google News CB] "Kevin Warsh will soon oversee his first interest rate decision as Fed " | kw:interest rate,rate decision
+2026-06-16 09:01 ACCEPT [Google News CB] "Bank of Japan raises interest rates to 31-year high amid Iran war infl" | kw:inflation,interest rate,bank of japan
+2026-06-16 09:01 ACCEPT [Google News CB] "Wow! The Probability of an Interest Rate Hike in 2026 Has Soared Over " | kw:interest rate,rate hike
+2026-06-16 09:01 SKIP_MORNING already_sent date=2026-06-16
