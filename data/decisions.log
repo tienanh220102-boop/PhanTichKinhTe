@@ -534,3 +534,5 @@
 2026-06-16 02:31 ACCEPT [RT Business] "OPEC loses key member: Will the oil bloc survive?" | kw:oil,opec
 2026-06-16 02:31 ACCEPT [RT Business] "Key OPEC member to leave bloc" | kw:oil,opec
 2026-06-16 02:32 SENT_MORNING articles=20 date=2026-06-16 force=True
+2026-06-16 02:52 ACCEPT [Google News KL] "Gold Price Today: Gold Rises 2.87% on June 15, 2026 - USA Today" | kw:gold,rice
+2026-06-16 02:52 SKIP_MORNING already_sent date=2026-06-16
