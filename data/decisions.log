@@ -817,3 +817,13 @@
 2026-06-16 11:01 ACCEPT [Google News CB] "Nikkei 225 Strength Challenges the BOJ Tightening Narrative - StoneX" | kw:boj,tightening
 2026-06-16 11:01 ACCEPT [Google News CB] "Bank of Japan raises rates to 31-year high, flags more to come - Reute" | kw:bank of japan
 2026-06-16 11:01 SKIP_MORNING already_sent date=2026-06-16
+2026-06-16 11:31 ACCEPT [MarketWatch] "SpaceX overtakes Amazon as America’s fifth-largest company via overnig" | kw:rice
+2026-06-16 11:31 ACCEPT [OilPrice.com] "India’s ONGC Considers Resuming Venezuela Oil Operations" | kw:oil,crude,gas
+2026-06-16 11:31 ACCEPT [Google News HH] "Commodities: Oil Falls Further - Seeking Alpha" | kw:oil,commodities
+2026-06-16 11:31 ACCEPT [Google News HH] "From Global Commodities to Local Impacts: Environmental Rights in Braz" | kw:iron,commodities
+2026-06-16 11:31 ACCEPT [Google News HH] "Rupee Extends Rally, Closes At 94.53 Against US Dollar As Crude Oil Pr" | kw:oil,crude,rice
+2026-06-16 11:31 ACCEPT [Google News KL] "Silver prices today, Tuesday, June 16: Best opening price in over a we" | kw:silver,rice
+2026-06-16 11:31 ACCEPT [Google News KL] "Gold Price Forecast: $4,365 Range Ceiling Eyes Policy Breakout as Wars" | kw:gold,rice,fomc
+2026-06-16 11:31 ACCEPT [Google News NS] "Rapid US wheat harvest fails to move prices - DCA Market Intelligence" | kw:wheat,rice,harvest
+2026-06-16 11:31 ACCEPT [Google News NS] "Corn Bounces Off Lows - Can $4.50 Open the Door for More Relief? - Bar" | kw:corn
+2026-06-16 11:31 SKIP_MORNING already_sent date=2026-06-16
