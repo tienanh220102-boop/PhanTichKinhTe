@@ -369,3 +369,142 @@
 2026-06-16 02:02 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
 2026-06-16 02:02 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
 2026-06-16 02:02 SENT_MORNING articles=20 date=2026-06-16 force=True
+2026-06-16 02:05 ACCEPT [CNBC Economy] "UK economy shrank 0.1% in April as Iran conflict weighed on growth" | kw:gdp
+2026-06-16 02:05 ACCEPT [CNBC Economy] "Wholesale prices rose 1.1% in May, more than expected, on surge in ene" | kw:rice
+2026-06-16 02:05 ACCEPT [CNBC Economy] "ECB hikes interest rates for first time since 2023 as Iran war ramps u" | kw:inflation
+2026-06-16 02:05 ACCEPT [CNBC Economy] "Consumer prices rose 4.2% annually in May, highest in three years" | kw:rice
+2026-06-16 02:05 ACCEPT [CNBC Economy] "Energy prices take center stage as the ECB prepares to decide on rates" | kw:rice,inflation
+2026-06-16 02:05 ACCEPT [CNBC Economy] "The May inflation numbers are due out Wednesday morning. Here's what t" | kw:rice,inflation
+2026-06-16 02:05 ACCEPT [CNBC Economy] "Household worries over finances hit highest level since July 2022, New" | kw:inflation
+2026-06-16 02:05 ACCEPT [CNBC Economy] "U.S. proposes fresh tariffs on 60 economies over forced labor trade pr" | kw:tariff
+2026-06-16 02:05 ACCEPT [CNBC Economy] "Inflation hits 3.2% in the euro zone as Iran war pushes energy costs h" | kw:inflation
+2026-06-16 02:05 ACCEPT [CNBC Economy] "Iran war cost: Average U.S. household paying $450 more on gas and ener" | kw:gas
+2026-06-16 02:05 ACCEPT [CNBC Economy] "How the ‘double scar’ of past inflation woes and geopolitical shocks a" | kw:rice,inflation
+2026-06-16 02:05 ACCEPT [CNBC Economy] "Core inflation hit an annual rate of 3.3% in April, as expected, Fed’s" | kw:rice,inflation
+2026-06-16 02:05 ACCEPT [CNBC Economy] "Energy inflation has been more persistent than expected, Fed's Goolsbe" | kw:oil,rice,inflation
+2026-06-16 02:05 ACCEPT [CNBC Economy] "Fed’s Kashkari tells CNBC that inflation fight takes priority as labor" | kw:inflation
+2026-06-16 02:05 ACCEPT [CNBC Economy] "ECB 'will do what is necessary' to tame inflation, Bank of France gove" | kw:inflation
+2026-06-16 02:05 ACCEPT [CNBC Economy] "Americans are feeling inflation's pinch into the holiday weekend. Here" | kw:rice,inflation
+2026-06-16 02:05 ACCEPT [CNBC Economy] "Consumer sentiment hits fresh record low in May as Iran war fuels infl" | kw:oil,fuel,rice
+2026-06-16 02:05 ACCEPT [CNBC Economy] "Putin-Xi talks revive stalled Russian gas pipeline as Iran war rattles" | kw:gas
+2026-06-16 02:05 ACCEPT [CNBC Economy] "Traders now see next Fed interest rate move as a hike following inflat" | kw:inflation
+2026-06-16 02:05 ACCEPT [CNBC Economy] "Inflation rate projected to hit 6% in the second quarter, top economic" | kw:inflation
+2026-06-16 02:05 ACCEPT [EIA Energy] "Higher blending targets drive RIN prices close to record highs" | kw:gas,fuel,rice
+2026-06-16 02:05 ACCEPT [EIA Energy] "U.S. jet fuel production rises after prices doubled in March" | kw:oil,crude,fuel
+2026-06-16 02:05 ACCEPT [EIA Energy] "U.S. natural gas storage capacity increased slightly in 2025" | kw:gas
+2026-06-16 02:05 ACCEPT [EIA Energy] "California natural gas prices reach historic lows in early 2026" | kw:gas,rice
+2026-06-16 02:05 ACCEPT [EIA Energy] "Natural gas for power generation flat this summer, record high expecte" | kw:gas
+2026-06-16 02:05 ACCEPT [EIA Energy] "The United States is a major energy exporter and importer, especially " | kw:petroleum
+2026-06-16 02:05 ACCEPT [EIA Energy] "Most planned natural gas pipeline capacity additions in 2026 and 2027 " | kw:gas
+2026-06-16 02:05 ACCEPT [EIA Energy] "The regional differences in gasoline prices this Memorial Day" | kw:gas,fuel,rice
+2026-06-16 02:05 ACCEPT [EIA Energy] "Coal remains competitive for power generation in the central United St" | kw:gas,fuel,rice
+2026-06-16 02:05 ACCEPT [EIA Energy] "U.S. industrial natural gas consumption expected to hit records in 202" | kw:gas
+2026-06-16 02:05 ACCEPT [EIA Energy] "The United States set record energy production in 2025, again" | kw:oil,crude,gas
+2026-06-16 02:05 ACCEPT [EIA Energy] "One-fifth of U.S. renewable diesel and SAF production was exported in " | kw:fuel
+2026-06-16 02:05 ACCEPT [NASDAQ Commod] "WPM Makes Bullish Cross Above Critical Moving Average" | kw:wheat
+2026-06-16 02:05 ACCEPT [NASDAQ Commod] "Crude Oil Nosedives As U.S., Iran Agree To Sign Preliminary Deal On Fr" | kw:oil,crude,rice
+2026-06-16 02:05 ACCEPT [NASDAQ Commod] "Gold Soars After U.S., Iran Confirm Reaching An Agreement To End Hosti" | kw:oil,crude,gold
+2026-06-16 02:05 ACCEPT [NASDAQ Commod] "Analyst Favorites: Gold Fields Ranks As a Top Metals Pick" | kw:gold
+2026-06-16 02:05 ACCEPT [NASDAQ Commod] "Gold Hovers Near One-week High As Geopolitical Tensions Ease" | kw:gold,rice,inflation
+2026-06-16 02:05 ACCEPT [NASDAQ Commod] "Oil Prices Hit Three-month Low On US-Iran Deal" | kw:oil,rice
+2026-06-16 02:05 ACCEPT [NASDAQ Commod] "Steve Barton: Gold, Silver Price Drop — What Happened, What I'm Buying" | kw:gold,silver,rice
+2026-06-16 02:05 ACCEPT [NASDAQ Commod] "Top 5 ASX Copper Stocks in 2026" | kw:copper,rice,supply chain
+2026-06-16 02:05 ACCEPT [NASDAQ Commod] "Crude Oil Plunges Amid Prospects Of U.S.-Iran Deal, Reopening Of Hormu" | kw:oil,crude,rice
+2026-06-16 02:05 ACCEPT [NASDAQ Commod] "Gold Surges As Optimism On U.S.-Iran Deal Increases" | kw:gold,rice
+2026-06-16 02:05 ACCEPT [NASDAQ Commod] "Brent Crude Oil Prices May Climb 36% In 2026 On Middle East Conflict: " | kw:oil,crude,brent
+2026-06-16 02:05 ACCEPT [Google News HH] "Crude oil prices - LAist" | kw:oil,crude,rice
+2026-06-16 02:05 ACCEPT [Google News HH] "After the Bell | Corn, soybeans shrug off lower crude oil prices - Pro" | kw:oil,crude,corn
+2026-06-16 02:05 ACCEPT [Google News HH] "When will falling crude oil costs provide financial relief at the gas " | kw:oil,crude,gas
+2026-06-16 02:05 ACCEPT [Google News HH] "Semitruck rollover causes crude oil spill in Indian Canyon - KSL News" | kw:oil,crude
+2026-06-16 02:05 ACCEPT [Google News HH] "The Vanishing Spread — Houston vs. Midland Crude Oil Price Differentia" | kw:oil,crude,rice
+2026-06-16 02:05 ACCEPT [Google News HH] "Gas Prices Won’t Fall as Fast as Crude Oil. What to Expect for the Jul" | kw:oil,crude,gas
+2026-06-16 02:05 ACCEPT [Google News HH] "Weakness in Crude Oil Weighs on Sugar Prices - Yahoo Finance" | kw:oil,crude,rice
+2026-06-16 02:05 ACCEPT [Google News HH] "Gold and Silver Leap as Crude Oil Sinks on Trump's Deal with Iran - Bu" | kw:oil,crude,gold
+2026-06-16 02:05 ACCEPT [Google News HH] "How will the Iran conflict impact commodities? - UBS" | kw:commodities
+2026-06-16 02:05 ACCEPT [Google News HH] "Crude oil futures drop after Trump promises an Iran deal will be signe" | kw:oil,crude
+2026-06-16 02:05 ACCEPT [Google News HH] "Gold (XAU/USD) Price Forecast for Today, Tomorrow, Next Week, and the " | kw:gold,rice
+2026-06-16 02:05 ACCEPT [Google News HH] "Crude Oil Prices Sink on Deal to Reopen Strait of Hormuz - Barchart.co" | kw:oil,crude,rice
+2026-06-16 02:05 ACCEPT [Google News HH] "U.S. crude oil stocks hit historic low since 1983 - Qazinform" | kw:oil,crude,lng
+2026-06-16 02:05 ACCEPT [Google News HH] "Cushing-bound Basin crude oil pipe flows at highest since 2024 - Quant" | kw:oil,crude,commodity
+2026-06-16 02:05 ACCEPT [Google News HH] "Crude Oil Flow Improvers (COFI) Market Forecast Points Higher Toward 2" | kw:oil,crude
+2026-06-16 02:05 ACCEPT [Google News HH] "Turn Me Loose – Alberta’s Oil Sands Producers Poised to Significantly " | kw:oil,crude
+2026-06-16 02:05 ACCEPT [Google News HH] "First Thing Today | Grain markets sink as crude oil sells off on U.S.-" | kw:oil,crude
+2026-06-16 02:05 ACCEPT [Google News HH] "Corn Posting Monday AM Losses on Following Crude Oil Pressure - Barcha" | kw:oil,crude,corn
+2026-06-16 02:05 ACCEPT [Google News HH] "Phillips 66 falls as crude oil drops sharply on U.S.-Iran deal optimis" | kw:oil,crude
+2026-06-16 02:05 ACCEPT [Google News HH] "Commodities intraday targets/key levels - TradingView" | kw:commodities
+2026-06-16 02:05 ACCEPT [Google News HH] "Petrobras ADRs slide as crude oil drops on Middle East de-escalation h" | kw:oil,crude
+2026-06-16 02:05 ACCEPT [Google News HH] "Crude Oil Futures Drop Nearly 5% Amid U.S.-Iran Deal - GuruFocus" | kw:oil,crude
+2026-06-16 02:05 ACCEPT [Google News HH] "Gold price jumps after US and Iran reach deal to reopen Hormuz Strait " | kw:gold,rice
+2026-06-16 02:05 ACCEPT [Google News HH] "Sugar Prices Undercut as Crude Oil Sinks - Yahoo Finance" | kw:oil,crude,rice
+2026-06-16 02:05 ACCEPT [Google News HH] "Here’s when energy experts say gas prices could return to normal after" | kw:gas,rice
+2026-06-16 02:05 ACCEPT [Google News HH] "Crude oil futures drop after Trump promises an Iran deal will be signe" | kw:oil,crude
+2026-06-16 02:05 ACCEPT [Google News HH] "UBS sees gold price falling further, but remains long-term bullish - M" | kw:gold,rice
+2026-06-16 02:05 ACCEPT [Google News HH] "Crude oil sets the topside risk with the run lower today - investingLi" | kw:oil,crude
+2026-06-16 02:05 ACCEPT [Google News HH] "Georgia gas prices continue to fall as crude oil stays below $100 - Co" | kw:oil,crude,gas
+2026-06-16 02:05 ACCEPT [Google News HH] "US Equity Indexes Soar, Crude Oil Sinks as Iran Agreement Poised to Re" | kw:oil,crude
+2026-06-16 02:05 ACCEPT [Google News HH] "UBS sees gold price falling, but still long-term bullish - The Norther" | kw:gold,rice
+2026-06-16 02:05 ACCEPT [Google News HH] "Crude oil futures drop after Trump promises an Iran deal will be signe" | kw:oil,crude
+2026-06-16 02:05 ACCEPT [Google News HH] "Crude oil prices drop to three-month low after Trump announces Iran de" | kw:oil,crude,rice
+2026-06-16 02:05 ACCEPT [Google News HH] "US wholesale: Week 25 ‘market pulse’ updates available on key seafood " | kw:commodities
+2026-06-16 02:05 ACCEPT [Google News HH] "Crude Oil Continues to Decline, Metals Show Mixed Performance, LME Alu" | kw:oil,crude,gold
+2026-06-16 02:05 ACCEPT [Google News HH] "Oil News: Crude Oil Analysis: Hormuz Deal Sends Futures Into Key Value" | kw:oil,crude
+2026-06-16 02:05 ACCEPT [Google News HH] "Citi Shifts Oil Forecasts Down, Upgrades 0–3-Month Gold Price Forecast" | kw:oil,gold,rice
+2026-06-16 02:05 ACCEPT [Google News HH] "Elon Musk Grok AI Predicts Staggering Gold Price by End of 2026 - Cryp" | kw:gold,rice
+2026-06-16 02:05 ACCEPT [Google News HH] "Watch This is what brings about a lower price for crude oil - FNC - FO" | kw:oil,crude,rice
+2026-06-16 02:05 ACCEPT [Google News KL] "Current price of silver as of Monday, June 15, 2026 - Fortune" | kw:silver,rice
+2026-06-16 02:05 ACCEPT [Google News KL] "Silver Price Outlook June 2026: The Correction Was the Setup - GoldSil" | kw:lng,gold,silver
+2026-06-16 02:05 ACCEPT [Google News KL] "Freeport-McMoRan (FCX) Has a By-Product Cash Engine Bigger Than a Simp" | kw:copper,rice
+2026-06-16 02:05 ACCEPT [Google News KL] "Silver Price Forecast: XAG reclaims 200-day SMA as double bottom forms" | kw:silver,rice
+2026-06-16 02:05 ACCEPT [Google News KL] "Gold, silver selloff may be a ‘gift’, but investors should wait for co" | kw:gold,silver
+2026-06-16 02:05 ACCEPT [Google News KL] "Silver prices today, Monday, June 15, 2026: Silver prices moving up fo" | kw:silver,rice
+2026-06-16 02:05 ACCEPT [Google News KL] "Gold’s Slide May Spell Opportunity With GDMN - ETF Trends" | kw:gold
+2026-06-16 02:05 ACCEPT [Google News KL] "UBS gold price downgrade: planning assumptions and risks for mine proj" | kw:gold,rice
+2026-06-16 02:05 ACCEPT [Google News KL] "Silver Price Today: Silver Rises, Tracking Broader Precious Metals Str" | kw:silver,rice
+2026-06-16 02:05 ACCEPT [Google News KL] "Gold and mining shares rise as U.S.-Iran deal eases rate-hike fears (G" | kw:gold
+2026-06-16 02:05 ACCEPT [Google News KL] "Current price of gold as of June 15, 2026 - Fortune" | kw:gold,rice
+2026-06-16 02:05 ACCEPT [Google News KL] "Gold prices holding near session highs as Empire State Survey falls to" | kw:gold,rice
+2026-06-16 02:05 ACCEPT [Google News KL] "Gold prices today, Monday, June 15: Gold moves higher following U.S., " | kw:gold,rice
+2026-06-16 02:05 ACCEPT [Google News KL] "Gold clears $4,300 as Hormuz deal cuts oil, yield pressure - Kitco PM " | kw:oil,gold
+2026-06-16 02:05 ACCEPT [Google News KL] "Gold, silver rally as Hormuz risk shifts from oil shock to rate relief" | kw:oil,gold,silver
+2026-06-16 02:05 ACCEPT [Google News KL] "Gold and silver rally after Iran-U.S. deal, but face headwinds from ra" | kw:gold,silver
+2026-06-16 02:05 ACCEPT [Google News KL] "New Price Target for Freeport-McMoRan as Iran Deal Boosts Copper - The" | kw:copper,rice
+2026-06-16 02:05 ACCEPT [Google News KL] "Gold Up 3%, Silver Up 4.7%: Five Forces Driving Metals Higher Today - " | kw:gold,silver
+2026-06-16 02:05 ACCEPT [Google News KL] "India Gold Price Today: Gold Rises as Global Markets Show Mixed Signal" | kw:gold,rice
+2026-06-16 02:05 ACCEPT [Google News KL] "Gold jumps on Iran peace deal - KITCO" | kw:gold
+2026-06-16 02:05 ACCEPT [Google News KL] "SIL: The Real Silver Nugget Is Here (NYSEARCA:SIL) - Seeking Alpha" | kw:silver
+2026-06-16 02:05 ACCEPT [Google News KL] "IRNA: Dollar and Gold Prices Plunge Following Iran-U.S. Agreement - Ir" | kw:gold,rice
+2026-06-16 02:05 ACCEPT [Google News KL] "Gold, silver prices steady as traders eye global cues - MSN" | kw:gold,silver,rice
+2026-06-16 02:05 ACCEPT [Google News KL] "Gold rallies above $4,350 as oil prices tumble, but analysts say recov" | kw:oil,gold,rice
+2026-06-16 02:05 ACCEPT [Google News KL] "Oil and Gold: Price review for the week ahead - FXStreet" | kw:oil,gold,rice
+2026-06-16 02:05 ACCEPT [Google News KL] "Gold Price Forecasts: Analysts Weigh In on Potential Rally and Risks |" | kw:gold,rice
+2026-06-16 02:05 ACCEPT [Google News KL] "/C O R R E C T I O N -- Kootenay Silver Inc./ - PR Newswire" | kw:silver
+2026-06-16 02:05 ACCEPT [Google News KL] "Gold Trading Alert: Gold price soars past $4,300! Unexpected ceasefire" | kw:gold,rice
+2026-06-16 02:05 ACCEPT [Google News KL] "Gold Prices Surge Amid US-Iran Agreement, Influencing Market Tre - Gur" | kw:gold,rice
+2026-06-16 02:05 ACCEPT [Google News KL] "Gold steady as investors await details of US-Iran peace deal - Yahoo N" | kw:gold
+2026-06-16 02:05 ACCEPT [Google News KL] "Space trade hype sends gold price crashing back to earth - AFR" | kw:gold,rice
+2026-06-16 02:05 ACCEPT [Google News KL] "Torex Gold: From Capex-Heavy To Free Cash Powerhouse (OTCMKTS:TORXF) -" | kw:gold
+2026-06-16 02:05 ACCEPT [Google News KL] "Barclays sees gold hitting $4,900 as Iran-driven correction fades - in" | kw:wti,gold
+2026-06-16 02:05 ACCEPT [Google News NS] "Storms, flooding test corn and soybean farmers - Farm Progress" | kw:corn,soybean,flood
+2026-06-16 02:05 ACCEPT [Google News NS] "USW Summer Board Meeting to Highlight Market Challenges, Export Succes" | kw:wheat
+2026-06-16 02:05 ACCEPT [Google News NS] "Rain in the Plains Make Grain, So Bears Are in Control of Corn, Soybea" | kw:wheat,corn,soybean
+2026-06-16 02:05 ACCEPT [Google News NS] "Markets Slip as Corn Hits New Lows While Wheat Shows Strength - Farms." | kw:wheat,corn
+2026-06-16 02:05 ACCEPT [Google News NS] "Wheat growers struggle with negative margins, market volatility - Tri-" | kw:wheat
+2026-06-16 02:05 ACCEPT [Google News NS] "Corn and Soybeans Close Up 2¢ | Monday, June 15, 2026 - Successful Far" | kw:corn,soybean
+2026-06-16 02:05 ACCEPT [Google News NS] "Could U.S. Soybean Yields Surprise Markets in 2026? - Agrolatam" | kw:soybean
+2026-06-16 02:05 ACCEPT [Google News NS] "Crops Analysis | Cotton scores third consecutive up day - Pro Farmer" | kw:cotton
+2026-06-16 02:05 ACCEPT [Google News NS] "Corn Bounces Off Lows - Can $4.50 Open the Door for More Relief? - Bar" | kw:corn
+2026-06-16 02:05 ACCEPT [Google News NS] "Corn Growers Need USMCA - Western Ag Network" | kw:corn
+2026-06-16 02:05 ACCEPT [Google News NS] "USDA Grain Bids Report June 15, 2026: Cash Prices, Basis Levels, and E" | kw:rice
+2026-06-16 02:05 ACCEPT [Google News NS] "Nibulon ranks seventh among Ukraine exporters - World-Grain.com" | kw:gdp
+2026-06-16 02:05 ACCEPT [Google News NS] "IMO sets carbon footprint for Brazilian corn ethanol and opens shippin" | kw:fuel,corn,shipping
+2026-06-16 02:05 ACCEPT [Google News NS] "Peace Deal Shakes Agriculture Markets as Grain Prices Slide - Agrolata" | kw:rice
+2026-06-16 02:05 ACCEPT [Google News NS] "Corn, soybeans slip after USDA raises stock estimates - agronews.com" | kw:corn,soybean
+2026-06-16 02:05 ACCEPT [Google News NS] "Weaponized waterways unsettle grain freight - World-Grain.com" | kw:freight
+2026-06-16 02:05 ACCEPT [Google News NS] "Corn hits nine-month low as US–Iran peace deal pressures grain markets" | kw:corn
+2026-06-16 02:05 ACCEPT [Google News NS] "North Korea’s grain stores look more stable, but a good harvest deserv" | kw:harvest
+2026-06-16 02:05 ACCEPT [Google News NS] "USDA Chief Economist Provides Forecast for Winter Wheat Production - S" | kw:wheat
+2026-06-16 02:05 ACCEPT [Google News NS] "India's Ethanol Boom Could Open New Markets for U.S. Corn - StoneX" | kw:corn
+2026-06-16 02:05 ACCEPT [Google News NS] "Global market pressures on Ukrainian soybean export prices – APK-Infor" | kw:soybean,rice
+2026-06-16 02:05 ACCEPT [Google News NS] "CM orders crackdown on wheat hoarding - The Express Tribune" | kw:wheat
+2026-06-16 02:05 ACCEPT [Google News NS] "Afex: Grain prices to remain elevated in coming months - CNBC Africa" | kw:rice
+2026-06-16 02:07 SENT_MORNING articles=20 date=2026-06-16 force=True
