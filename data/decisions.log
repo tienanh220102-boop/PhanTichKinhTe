@@ -551,3 +551,63 @@
 2026-06-16 03:31 ACCEPT [Google News KL] "Copper, the gold of 2026 - odaily.news" | kw:gold,copper
 2026-06-16 03:31 SKIP_MORNING already_sent date=2026-06-16
 2026-06-16 04:01 SKIP_MORNING already_sent date=2026-06-16
+2026-06-16 04:31 ACCEPT [BBC Business] "Japan raises interest rate to highest since 1995" | kw:interest rate,bank of japan
+2026-06-16 04:31 ACCEPT [BBC Business] "Morocco wants tourists to visit Western Sahara. Some say it's tighteni" | kw:tightening
+2026-06-16 04:31 ACCEPT [The Guardian Biz] "Diane Keaton’s nail clippers for $960: what’s behind the new boom in c" | kw:easing
+2026-06-16 04:31 ACCEPT [CNBC Commodities] "Hot jobs report puts Fed cuts further out of reach as Chair Warsh face" | kw:interest rate,rate cut
+2026-06-16 04:31 ACCEPT [CNBC Economy] "Kevin Warsh to be sworn in as Federal Reserve chair on Friday" | kw:federal reserve
+2026-06-16 04:31 ACCEPT [CNBC Economy] "The Fed will have to raise interest rates in July to appease 'bond vig" | kw:interest rate,federal reserve
+2026-06-16 04:31 ACCEPT [EIA Energy] "Data center server energy use grows across the commercial building sto" | kw:easing
+2026-06-16 04:31 ACCEPT [NASDAQ Commod] "Top 5 Canadian Mining Stocks This Week: Arras Minerals Swings With 69 " | kw:central bank,interest rate
+2026-06-16 04:31 ACCEPT [NASDAQ Commod] "Canadian Stocks Advance After Trump Announces U.S.-Iran Deal Signing B" | kw:easing
+2026-06-16 04:31 ACCEPT [Google News HH] "Gold Price on 15 June 2026 - Gold Price" | kw:gold,rice
+2026-06-16 04:31 ACCEPT [Google News HH] "Supplies of Crude Oil and Naphtha:How can Japan reduce their dependenc" | kw:oil,crude
+2026-06-16 04:31 ACCEPT [Google News HH] "Here's Why BP Stands to Gain From Strong Crude Oil Prices - Yahoo Fina" | kw:oil,crude,rice
+2026-06-16 04:31 ACCEPT [Google News KL] "Gold steady as investors await details of US-Iran peace deal - Reuters" | kw:gold
+2026-06-16 04:31 ACCEPT [Google News NS] "Wheat Closes with Mixed Trade on Monday - Barchart.com" | kw:lng,wheat
+2026-06-16 04:31 ACCEPT [RT Business] "Why the ECB may be forced to raise rates despite weak EU economy" | kw:central bank,interest rate,ecb
+2026-06-16 04:31 ACCEPT [RT Business] "EU ‘not competitive’ – Belgian central bank chief" | kw:central bank
+2026-06-16 04:31 ACCEPT [Fed Monetary] "Federal Reserve issues FOMC statement" | kw:federal reserve,fomc
+2026-06-16 04:31 ACCEPT [Fed Monetary] "Federal Reserve issues FOMC statement" | kw:federal reserve,fomc
+2026-06-16 04:31 ACCEPT [Fed Monetary] "Federal Reserve Board and Federal Open Market Committee release econom" | kw:federal reserve,fomc
+2026-06-16 04:31 ACCEPT [Fed Monetary] "Federal Reserve issues FOMC statement" | kw:federal reserve,fomc
+2026-06-16 04:31 ACCEPT [Fed Monetary] "Federal Open Market Committee reaffirms its "Statement on Longer-Run G" | kw:monetary policy
+2026-06-16 04:31 ACCEPT [Fed Monetary] "Federal Reserve issues FOMC statement" | kw:federal reserve,fomc
+2026-06-16 04:31 ACCEPT [Fed Monetary] "Federal Reserve Board and Federal Open Market Committee release econom" | kw:federal reserve,fomc
+2026-06-16 04:31 ACCEPT [ECB Press] "Carbon emissions of ECB and Eurosystem portfolios continue to decline" | kw:ecb
+2026-06-16 04:31 ACCEPT [ECB Press] "Decisions taken by the Governing Council of the ECB (in addition to de" | kw:interest rate,ecb
+2026-06-16 04:31 ACCEPT [ECB Press] "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)" | kw:monetary policy
+2026-06-16 04:31 ACCEPT [ECB Press] "Monetary policy decisions" | kw:monetary policy
+2026-06-16 04:31 ACCEPT [ECB Press] "ECB announces main milestones for roll-out of Integrated Reporting Fra" | kw:ecb
+2026-06-16 04:31 ACCEPT [ECB Press] "ECB Consumer Expectations Survey results – April 2026" | kw:ecb
+2026-06-16 04:31 ACCEPT [ECB Press] "Isabel Schnabel: From money market funds to stablecoins: lessons for c" | kw:central bank
+2026-06-16 04:31 ACCEPT [Google News CB] "Japan raises interest rate to highest since 1995 - BBC" | kw:interest rate
+2026-06-16 04:31 ACCEPT [Google News CB] "BOJ raises interest rates to 31-year high in widely expected move - Re" | kw:interest rate,boj
+2026-06-16 04:31 ACCEPT [Google News CB] "Bank of Japan hikes rates to highest since 1995 as yen languishes at h" | kw:bank of japan
+2026-06-16 04:31 ACCEPT [Google News CB] "BOJ hikes rates to highest level since 1995 - Nikkei Asia" | kw:boj
+2026-06-16 04:31 ACCEPT [Google News CB] "Will the BoJ’s expected rate hike strengthen the Yen? - FXStreet" | kw:rate hike,boj
+2026-06-16 04:31 ACCEPT [Google News CB] "US Bonds Rally as Traders Trim Fed Rate-Hike Bets on Iran Deal - Yahoo" | kw:fed rate
+2026-06-16 04:31 ACCEPT [Google News CB] "BOJ Raises Rate to 31-Year High, Plans to Stop Paring Bond Buys - Bloo" | kw:boj
+2026-06-16 04:31 ACCEPT [Google News CB] "Kevin Warsh steps into Fed Chair role amid spiky inflation and politic" | kw:inflation
+2026-06-16 04:31 ACCEPT [Google News CB] "Bank of Japan raises rates to 1% for first time in three decades - Fin" | kw:bank of japan
+2026-06-16 04:31 ACCEPT [Google News CB] "BOJ set to hit 1% but vote split, bond taper pause and July signals ar" | kw:boj
+2026-06-16 04:31 ACCEPT [Google News CB] "Bank of Japan raises its key interest rate to a three-decade high of 1" | kw:inflation,interest rate,bank of japan
+2026-06-16 04:31 ACCEPT [Google News CB] "Bank of Japan set to raise rates to 31-year high, vow further increase" | kw:bank of japan
+2026-06-16 04:31 ACCEPT [Google News CB] "Trump trusts Fed Chair Kevin Warsh. It matters for more than interest " | kw:interest rate
+2026-06-16 04:31 ACCEPT [Google News CB] "Japanese Yen gives up some gains as BoJ hikes interest rates by 25 bps" | kw:interest rate,boj
+2026-06-16 04:31 ACCEPT [Google News CB] "Yen Pares Gains Versus Dollar After BOJ Hikes Key Rate to 1%: JPY/USD " | kw:boj
+2026-06-16 04:31 ACCEPT [Google News CB] "Dollar sways near 10-day lows as attention turns to BOJ and RBA - CNBC" | kw:boj
+2026-06-16 04:31 ACCEPT [Google News CB] "BOJ Policy Architect Uchida to Take Spotlight on Rates Guidance - Bloo" | kw:boj
+2026-06-16 04:31 ACCEPT [Google News CB] "Asia markets temper Iran deal optimism, BOJ hikes rates - Reuters" | kw:boj
+2026-06-16 04:31 ACCEPT [Google News CB] "Asia FX Talk - BOJ and RBA kick off central bank week - MUFG Research" | kw:central bank,boj
+2026-06-16 04:31 ACCEPT [Google News CB] "The Fed's Kevin Warsh faces first dilemma: cut rates to please Donald " | kw:inflation
+2026-06-16 04:31 ACCEPT [Google News CB] "USD/JPY Outlook: Beyond the BOJ Hike - FOREX.com" | kw:boj
+2026-06-16 04:31 ACCEPT [Google News CB] "BOJ's June Rate Hike Looms: Two Key Indicators for Analyzing Carry Tra" | kw:rate hike,boj
+2026-06-16 04:31 ACCEPT [Google News CB] "Take Two: ECB raises rates and cuts growth forecast - BNP Paribas Asse" | kw:ecb
+2026-06-16 04:31 ACCEPT [Google News CB] "Warsh's debut Fed press conference may reveal his strategy for inflati" | kw:inflation
+2026-06-16 04:31 ACCEPT [Google News CB] "BOJ BOARD RAISES OVERNIGHT INTEREST RATE TARGET TO 1% FROM 0.75%, 1ST " | kw:interest rate,boj,basis point
+2026-06-16 04:31 ACCEPT [Google News CB] "BOJ Decides to Raise Policy Rate to 31-Year High of 1 Pct - nippon.com" | kw:boj,policy rate
+2026-06-16 04:31 ACCEPT [Google News CB] "Take Two: ECB raises rates and cuts growth forecast - US Intermediary " | kw:ecb
+2026-06-16 04:31 ACCEPT [Google News CB] "All eyes turn to Fed chair Kevin Warsh and his first moves on interest" | kw:interest rate
+2026-06-16 04:31 ACCEPT [Google News CB] "US | Fed set to drop easing bias as inflation returns to top priority " | kw:inflation,easing
+2026-06-16 04:31 SKIP_MORNING already_sent date=2026-06-16
