@@ -541,3 +541,12 @@
 2026-06-16 03:01 ACCEPT [Google News KL] "Newmont Refreshes Its C-Suite As Gold Prices Stay High - Finimize" | kw:gold,rice
 2026-06-16 03:01 ACCEPT [Google News KL] "Gold Trading Alert: Gold Price Surges Past $4,300! US-Iran Suddenly Ce" | kw:gold,rice
 2026-06-16 03:02 SENT_MORNING articles=20 date=2026-06-16 force=True
+2026-06-16 03:31 ACCEPT [Google News HH] "Semitruck rollover causes crude oil spill in Indian Canyon; drinking w" | kw:oil,crude
+2026-06-16 03:31 ACCEPT [Google News HH] "Goldman Sachs lowers Q4 2026 average Brent crude oil price forecast to" | kw:oil,crude,brent
+2026-06-16 03:31 ACCEPT [Google News HH] "Crude Oil Prices Sink on Deal to Reopen Strait of Hormuz - TradingView" | kw:oil,crude,rice
+2026-06-16 03:31 ACCEPT [Google News HH] "Here's Why BP Stands to Gain From Strong Crude Oil Prices - Zacks Inve" | kw:oil,crude,rice
+2026-06-16 03:31 ACCEPT [Google News KL] "Gold steady as investors await details of US-Iran peace deal - CNBC" | kw:gold
+2026-06-16 03:31 ACCEPT [Google News KL] "Gold holds near recent highs as US Iran preliminary deal spurs buying " | kw:gold
+2026-06-16 03:31 ACCEPT [Google News KL] "Copper: The Gold of 2026 - odaily.news" | kw:gold,copper
+2026-06-16 03:31 ACCEPT [Google News KL] "Copper, the gold of 2026 - odaily.news" | kw:gold,copper
+2026-06-16 03:31 SKIP_MORNING already_sent date=2026-06-16
