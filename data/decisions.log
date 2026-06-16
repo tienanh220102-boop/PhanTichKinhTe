@@ -355,3 +355,5 @@
 2026-06-15 23:01 ACCEPT [MarketWatch] "Here’s when gas prices will come down if the U.S. deal to end the Iran" | kw:gas,rice
 2026-06-15 23:01 ACCEPT [OilPrice.com] "An Oil Deal That Ended a War Nobody Won" | kw:oil
 2026-06-15 23:31 ACCEPT [BBC Business] "Thames Water moves step closer to nationalisation after government obj" | kw:iron
+2026-06-16 00:02 GEMINI QUOTA_EXCEEDED
+2026-06-16 00:02 SKIP_MORNING quota_exceeded date=2026-06-16
