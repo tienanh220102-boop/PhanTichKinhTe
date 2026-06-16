@@ -896,3 +896,17 @@
 2026-06-16 13:31 ACCEPT [Google News CB] "Treasury yields fall ahead of Kevin Warsh's first Fed meeting - CNBC" | kw:treasury
 2026-06-16 13:31 SKIP_MORNING already_sent date=2026-06-16
 2026-06-16 13:31 SKIP_EVENING already_sent date=2026-06-16
+2026-06-16 14:01 ACCEPT [MarketWatch] "This is as good as it gets for gas prices, new Goldman Sachs oil analy" | kw:oil,gas,gold
+2026-06-16 14:01 ACCEPT [Google News HH] "Crude oil prices fall again, while US stocks drift near their all-time" | kw:oil,crude,rice
+2026-06-16 14:01 ACCEPT [Google News HH] "Crude oil prices fall again, while US stocks drift near their all-time" | kw:oil,crude,rice
+2026-06-16 14:01 ACCEPT [Google News HH] "Crude Oil Prices Rise on Supply Disruption Concerns - EDNEWS" | kw:oil,crude,rice
+2026-06-16 14:01 ACCEPT [Google News HH] "Brent crude oil falls below $80 for the first time in three months as " | kw:oil,crude,brent
+2026-06-16 14:01 ACCEPT [Google News NS] "June Crop Production and WASDE Reports Review: Weak Prices Persist Des" | kw:wheat,rice
+2026-06-16 14:01 ACCEPT [Google News NS] "US freight market faces volatility - Baking Business" | kw:freight
+2026-06-16 14:01 ACCEPT [Google News NS] "Wheat Closes with Mixed Trade on Monday - Yahoo Finance" | kw:wheat
+2026-06-16 14:01 ACCEPT [Google News CB] "The Dot Plot Remains the Fed's Most Powerful Market Signal - StoneX" | kw:gdp
+2026-06-16 14:01 ACCEPT [Google News CB] "ECB May yet Raise Key Rate Again if Evidence Points to Inflation Conce" | kw:inflation,ecb
+2026-06-16 14:01 ACCEPT [Google News CB] "ECB will continue to be proactive in fight against high inflation, Lan" | kw:inflation,ecb
+2026-06-16 14:01 ACCEPT [Google News CB] "ECB's Lane says oil prices closer to baseline scenario after Iran deal" | kw:oil,rice,ecb
+2026-06-16 14:01 SKIP_MORNING already_sent date=2026-06-16
+2026-06-16 14:01 SKIP_EVENING already_sent date=2026-06-16
