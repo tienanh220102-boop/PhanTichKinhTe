@@ -840,3 +840,17 @@
 2026-06-16 12:01 ACCEPT [Google News NS] "Corn, soybean crop ratings improve; wheat harvest 25% done - Farm Prog" | kw:wheat,corn,soybean
 2026-06-16 12:01 ACCEPT [Google News CB] "Fed set to make interest rate decision as inflation hits 3-year high -" | kw:inflation,interest rate,rate decision
 2026-06-16 12:01 SKIP_MORNING already_sent date=2026-06-16
+2026-06-16 12:31 ACCEPT [MarketWatch] "Chip index’s climb is giving fund managers a fear of heights, Bank of " | kw:inflation
+2026-06-16 12:31 ACCEPT [Al Jazeera] "Gaza children running out of time to treat blast-induced hearing loss" | kw:easing
+2026-06-16 12:31 ACCEPT [OilPrice.com] "Qatar Eyes Quick LNG Restart Once Hormuz Reopens" | kw:gas,lng
+2026-06-16 12:31 ACCEPT [Google News HH] "Gold Price Today on June 16, 2026 - USA Today" | kw:gold,rice
+2026-06-16 12:31 ACCEPT [Google News HH] "Crude Oil Prices Sink on Deal to Reopen Strait of Hormuz - Yahoo Finan" | kw:oil,crude,rice
+2026-06-16 12:31 ACCEPT [Google News KL] "Gold Co. Unveils Robust PEA for Massive Brazil Gold Project - Streetwi" | kw:gold
+2026-06-16 12:31 ACCEPT [Google News KL] "World Copper Busbar Assemblies - Market Analysis, Forecast, Size, Tren" | kw:copper
+2026-06-16 12:31 ACCEPT [Google News KL] "The war is 'over'—why is gold rising instead? - Moomoo" | kw:gold
+2026-06-16 12:31 ACCEPT [Google News KL] "Air Jordan 10 'Double Nickel': Price And Where To Buy - AOL.com" | kw:nickel,rice
+2026-06-16 12:31 ACCEPT [Google News NS] "India builds record grain reserves as El Nino returns: Rice stocks hit" | kw:wheat,rice
+2026-06-16 12:31 ACCEPT [Google News CB] "The Prospect of a Quieter Fed Could Roil Bond Prices - Bloomberg.com" | kw:oil,rice
+2026-06-16 12:31 ACCEPT [Google News CB] "Will interest rates be lowered? New Fed chair Kevin Warsh is likely to" | kw:interest rate
+2026-06-16 12:31 ACCEPT [Google News CB] "Bank of Japan raises interest rates to 31-year high … of 1% - The Guar" | kw:interest rate,bank of japan
+2026-06-16 12:31 SKIP_MORNING already_sent date=2026-06-16
