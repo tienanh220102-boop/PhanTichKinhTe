@@ -611,3 +611,25 @@
 2026-06-16 04:31 ACCEPT [Google News CB] "All eyes turn to Fed chair Kevin Warsh and his first moves on interest" | kw:interest rate
 2026-06-16 04:31 ACCEPT [Google News CB] "US | Fed set to drop easing bias as inflation returns to top priority " | kw:inflation,easing
 2026-06-16 04:31 SKIP_MORNING already_sent date=2026-06-16
+2026-06-16 05:01 ACCEPT [Google News HH] "Higher prices for gas, groceries and flights will outlast the Iran war" | kw:gas,rice
+2026-06-16 05:01 ACCEPT [Google News HH] "Gold price in India: Rates on June 16 - FXStreet" | kw:gold,rice
+2026-06-16 05:01 ACCEPT [Google News KL] "Gold and silver prices today, 16 June: Check retail rates of 24K, 22K " | kw:gold,silver,rice
+2026-06-16 05:01 ACCEPT [Google News KL] "Details of the US-Iran peace agreement remain unclear, gold price cons" | kw:gold,rice
+2026-06-16 05:01 ACCEPT [Google News NS] "Corn Starch Market Set to Nearly Double by 2034 as Demand Surges Acros" | kw:corn
+2026-06-16 05:01 ACCEPT [Google News NS] "ADM Stock: UBS raises its price target as analysts revisit grain-marke" | kw:rice
+2026-06-16 05:01 ACCEPT [Google News NS] "Grain LNG launches Expression of Interest for 2029 capacity and consul" | kw:lng
+2026-06-16 05:01 ACCEPT [Google News CB] "Bank of Japan raises its key interest rate to a three-decade high of 1" | kw:inflation,interest rate,bank of japan
+2026-06-16 05:01 ACCEPT [Google News CB] "Bank of Japan raises interest rates to 31-year high - Reuters" | kw:interest rate,bank of japan
+2026-06-16 05:01 ACCEPT [Google News CB] "Bank of Japan hikes interest rate by 25 bps to 1% as expected - FXStre" | kw:interest rate,bank of japan
+2026-06-16 05:01 ACCEPT [Google News CB] "JGB Futures Edge Lower Ahead of BOJ’s Rate Decision - WSJ" | kw:rate decision,boj
+2026-06-16 05:01 ACCEPT [Google News CB] "Australia central bank keeps rates steady at 4.35% as inflation remain" | kw:inflation,central bank
+2026-06-16 05:01 ACCEPT [Google News CB] "Australia central bank holds rates, warns hikes might not be over - Re" | kw:central bank
+2026-06-16 05:01 ACCEPT [Google News CB] "Dollar near 10-day lows, no respite for yen after BOJ hikes as expecte" | kw:boj
+2026-06-16 05:01 ACCEPT [Google News CB] "Asian shares are mostly higher and Japan's Nikkei tops 70,000 before B" | kw:rate hike,boj
+2026-06-16 05:01 ACCEPT [Google News CB] "Fed's 2026 rate path is underpriced by markets if this PGIM call is ri" | kw:rice
+2026-06-16 05:01 ACCEPT [Google News CB] "All eyes turn to Fed chair Kevin Warsh and his first moves on interest" | kw:interest rate
+2026-06-16 05:01 ACCEPT [Google News CB] "Nikkei Average touches 70,000 yen! Despite BoJ meeting and rate hike, " | kw:rate hike,boj
+2026-06-16 05:01 ACCEPT [Google News CB] "Monetary Policy Radar preview: BoE’s June meeting - Financial Times" | kw:monetary policy
+2026-06-16 05:01 ACCEPT [Google News CB] "Bitcoin rises after Bank of Japan hikes interest rates to a 31-year hi" | kw:interest rate,bank of japan
+2026-06-16 05:01 ACCEPT [Google News CB] "Economists bet on higher rates as Kevin Warsh takes reins at the Fed -" | kw:lng
+2026-06-16 05:01 SKIP_MORNING already_sent date=2026-06-16
