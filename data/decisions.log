@@ -987,3 +987,18 @@
 2026-06-16 16:31 ACCEPT [Google News CB] "What Happens to Stocks if the Fed’s Warsh Even Hints at a Rate Hike - " | kw:rate hike
 2026-06-16 16:31 SKIP_MORNING already_sent date=2026-06-16
 2026-06-16 16:31 SKIP_EVENING already_sent date=2026-06-16
+2026-06-16 17:01 ACCEPT [MarketWatch] "Global oil prices break below $80 for the first time since the Iran wa" | kw:oil,rice,shipping
+2026-06-16 17:01 ACCEPT [OilPrice.com] "Falling Oil Prices Could Ease Pressure on India’s Trade Deficit" | kw:oil,crude,petroleum
+2026-06-16 17:01 ACCEPT [Google News HH] "Stocks Supported by Lower Crude Oil Prices and Bond Yields - Barchart." | kw:oil,crude,rice
+2026-06-16 17:01 ACCEPT [Google News HH] "Brent Crude Oil is down by 5.02% - TradingView" | kw:oil,crude,brent
+2026-06-16 17:01 ACCEPT [Google News HH] "Crude Oil sells the Iran peace deal sight unseen, WTI hits 15-week low" | kw:oil,crude,wti
+2026-06-16 17:01 ACCEPT [Google News HH] "Semitruck rollover causes crude oil spill in Indian Canyon; drinking w" | kw:oil,crude
+2026-06-16 17:01 ACCEPT [Google News HH] "Citi revamps oil price target as Hormuz fears ease - thestreet.com" | kw:oil,rice
+2026-06-16 17:01 ACCEPT [Google News HH] "⚫Brent Crude Oil Below $80! - XTB.com" | kw:oil,crude,brent
+2026-06-16 17:01 ACCEPT [Google News HH] "Crude oil prices hit lowest point in three months - marketscreener.com" | kw:oil,crude,rice
+2026-06-16 17:01 ACCEPT [Google News HH] "Oil News: War Premium Evaporates but Inventory Damage Remains - FXEmpi" | kw:oil
+2026-06-16 17:01 ACCEPT [Google News NS] "Illinois bets on biodiesel by expanding the market for domestic soybea" | kw:soybean
+2026-06-16 17:01 ACCEPT [Google News NS] "Will Corn Prices Rebound This Summer? History Says No - Agrolatam" | kw:corn,rice
+2026-06-16 17:01 ACCEPT [Google News CB] "Where markets think Fed chairman Warsh is taking interest rates - CNBC" | kw:interest rate
+2026-06-16 17:01 ACCEPT [Google News CB] "Price pressures may linger due to damaged energy assets, ECB's Makhlou" | kw:rice,ecb
+2026-06-16 17:01 ACCEPT [Google News CB] "The New Fed Chair Hinted at Rate Cuts. Wall Street Is Betting He Does " | kw:rate cut
