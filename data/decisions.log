@@ -661,3 +661,19 @@
 2026-06-16 06:01 ACCEPT [Google News CB] "Watch Bank of Japan Raises Benchmark Interest Rate to 1% - Bloomberg" | kw:wti,interest rate,bank of japan
 2026-06-16 06:01 ACCEPT [Google News CB] "Asian shares are mostly higher and Japan's Nikkei tops 70,000 before B" | kw:rate hike,boj
 2026-06-16 06:01 SKIP_MORNING already_sent date=2026-06-16
+2026-06-16 06:31 ACCEPT [Google News HH] "Higher prices for gas, groceries and flights will outlast the Iran war" | kw:gas,rice
+2026-06-16 06:31 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD holds gains above $4,300 amid cautious ma" | kw:gold,rice
+2026-06-16 06:31 ACCEPT [Google News HH] "Gold price prediction today: Will gold prices rise substantially from " | kw:gold,rice
+2026-06-16 06:31 ACCEPT [Google News KL] "Record 45% of central banks plan to increase gold holdings, WGC survey" | kw:gold,central bank
+2026-06-16 06:31 ACCEPT [Google News KL] "Gabelli Gold Fund, Inc. Q1 2026 Commentary - Seeking Alpha" | kw:gold
+2026-06-16 06:31 ACCEPT [Google News KL] "LIVE | Tornado Watch Issued For All Of Northeast Ohio Gold Price In In" | kw:gold,rice
+2026-06-16 06:31 ACCEPT [Google News NS] "Grain Markets Feeling Some Pressure as South American Harvests a Big C" | kw:harvest
+2026-06-16 06:31 ACCEPT [Google News NS] "Ukrainian corn is losing ground in export markets - UA.NEWS" | kw:corn
+2026-06-16 06:31 ACCEPT [Google News CB] "Australia’s Central Bank Holds Interest Rates, Warns More Hikes May Co" | kw:central bank,interest rate
+2026-06-16 06:31 ACCEPT [Google News CB] "All eyes turn to Fed chair Kevin Warsh and his first moves on interest" | kw:interest rate
+2026-06-16 06:31 ACCEPT [Google News CB] "ECB hikes interest rates for first time since 2023 - Euractiv" | kw:interest rate,ecb
+2026-06-16 06:31 ACCEPT [Google News CB] "Australia Central Bank Holds Rates, Warns Hikes Might Not Be Over - U." | kw:central bank
+2026-06-16 06:31 ACCEPT [Google News CB] "Bullock Speech: RBA Governor addresses press conference after pausing " | kw:interest rate,rate hike
+2026-06-16 06:31 ACCEPT [Google News CB] "Crypto Overview: Bitcoin weighs BOJ hikes interest rate to 1%, Uniswap" | kw:interest rate,boj
+2026-06-16 06:31 ACCEPT [Google News CB] "The Fed should stop making excuses for inflation - AFR" | kw:inflation
+2026-06-16 06:31 SKIP_MORNING already_sent date=2026-06-16
