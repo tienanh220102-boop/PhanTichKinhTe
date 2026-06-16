@@ -1,20 +1,20 @@
 [BẢNG SỐ LIỆU]
-             Giá    1D%    5D%  RSI
-WTI        80.92   -4.7  -11.4   34
-Brent      83.32   -4.6  -11.6   32
-Khí TN     3.149   +0.9   +0.1   55
-Vàng    4,333.60   +2.8   -0.1   44
-Bạc        69.36   +2.2   +1.4   43
-Đồng       6.441   +0.2   +1.8   56
-Ngô       414.00   +0.3   -1.1   29
-Lúa mì    586.50   +0.3   +0.6   39
-Đậu t.  1,130.75   +1.6   +1.3   40
-DXY        99.67   -0.1   -0.4   57
+               Giá   Phiên  5 phiên
+WTI          80.84   -4.8%   -11.5%
+Brent        83.25   -4.7%   -11.7%
+Khí TN       3.148   +0.9%    +0.0%
+Vàng      4,331.00   +2.8%    -0.1%
+Bạc          69.28   +2.1%    +1.2%
+Đồng         6.436   +0.1%    +1.7%
+Ngô         413.50   +0.2%    -1.2%
+Lúa mì      585.75   +0.2%    +0.4%
+Đậu t.    1,129.75   +1.5%    +1.2%
+DXY          99.72   -0.0%    -0.3%
 
 📊 Volume cao bất thường (phiên đóng gần nhất so median 20 phiên): Vàng 2.2×
 
 [LIÊN THỊ TRƯỜNG]
-  Brent−WTI: $2.40 (1 tháng trước: $4.55) — spread rộng = cung WTI dồi dào tương đối
+  Brent−WTI: $2.41 (1 tháng trước: $4.55) — spread rộng = cung WTI dồi dào tương đối
   Vàng/Bạc: 62.5 (1 tháng trước: 55.1) — tỷ lệ cao = bạc rẻ tương đối so với vàng
   Đồng/Vàng (×1000): 1.49 (1 tháng trước: 1.40) — tăng = risk-on/kỳ vọng tăng trưởng
 
@@ -28,75 +28,84 @@ DXY        99.67   -0.1   -0.4   57
   Vàng XAU: NET LONG +173,837 (Δ tuần: -2,183)
 → NET LONG = quỹ đặt cược giá tăng; Δ dương = dòng tiền đầu cơ đang vào
 
-Dưới đây là báo cáo phân tích thị trường hàng hóa phiên sáng ngày 2026-06-16:
+Dưới đây là báo cáo phân tích thị trường hàng hóa toàn cầu phiên sáng ngày 2026-06-16:
 
 ---
-**BÁO CÁO PHÂN TÍCH THỊ TRƯỜNG HÀNG HÓA PHIÊN SÁNG 2026-06-16**
+**BÁO CÁO PHÂN TÍCH THỊ TRƯỜNG HÀNG HÓA PHIÊN SÁNG (07:00 VN) 2026-06-16**
 
-**🔀 ĐỐI CHIẾU NGUỒN TIN**
-• Nhiều nguồn tin (The Guardian, Barchart.com, Washington Examiner, BullionVault) đồng loạt xác nhận giá dầu thô giảm mạnh do tin tức về thỏa thuận giữa Mỹ và Iran cùng kỳ vọng mở lại Eo biển Hormuz. Trong khi đó, Ngân hàng Thế giới (NASDAQ Commod) vẫn duy trì dự báo giá dầu Brent có thể tăng 36% trong năm 2026 do xung đột ở Trung Đông, cho thấy sự khác biệt giữa triển vọng ngắn hạn và dài hạn.
-• Không phát hiện xung đột đáng kể giữa các nguồn trong phiên này về các chủ đề khác.
+🔀 **ĐỐI CHIẾU NGUỒN TIN**
+• Ngân hàng Thế giới dự báo giá dầu Brent có thể tăng 36% trong năm 2026 do xung đột kéo dài ở Trung Đông và việc đóng cửa eo biển Hormuz. Tuy nhiên, nhiều nguồn tin khác lại cho biết giá dầu thô giảm mạnh trong phiên do thông tin về thỏa thuận giữa Mỹ và Iran, dẫn đến kỳ vọng eo biển Hormuz sẽ được mở lại. Đây là mâu thuẫn lớn giữa một dự báo dài hạn dựa trên giả định xung đột tiếp diễn và diễn biến thị trường ngắn hạn phản ứng với thông tin hòa giải.
 
-**🌍 VĨ MÔ & TIN TỨC NỔI BẬT**
-• **Thỏa thuận Iran-Mỹ:** Tin tức về thỏa thuận giữa Mỹ và Iran, cùng với kỳ vọng mở lại Eo biển Hormuz, đã gây áp lực giảm mạnh lên giá dầu thô toàn cầu (WTI giảm 4.67%, Brent giảm 4.59% trong phiên).
-• **DXY và Lợi suất:** Chỉ số DXY giảm nhẹ 0.09%, hỗ trợ một phần cho kim loại quý. Lợi suất thực 10 năm TIPS duy trì ở mức 2.17% (2026-06-12), vẫn là một yếu tố cần theo dõi cho vàng.
-• **Tâm lý thị trường:** Tỷ lệ Đồng/Vàng tăng lên 1.49 từ 1.40 một tháng trước, cho thấy tâm lý "risk-on" đang quay trở lại, mặc dù giá dầu giảm mạnh.
+🌍 **VĨ MÔ & TIN TỨC NỔI BẬT**
+• Thông tin về thỏa thuận giữa Mỹ và Iran, cùng với kỳ vọng mở lại eo biển Hormuz, là yếu tố vĩ mô địa chính trị quan trọng nhất trong phiên, gây áp lực giảm mạnh lên giá dầu thô.
+• Báo cáo của Ngân hàng Thế giới dự báo giá dầu Brent tăng mạnh trong năm 2026 do xung đột kéo dài ở Trung Đông, tạo ra sự không chắc chắn về triển vọng dài hạn so với diễn biến ngắn hạn.
+• Tỷ lệ Đồng/Vàng tăng cho thấy tâm lý thị trường đang "ưa rủi ro" và kỳ vọng tăng trưởng kinh tế, phù hợp với việc giảm căng thẳng địa chính trị.
 
-**🛢️ NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên**
+🛢️ **NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên**
 Xu hướng: WTI GIẢM | Brent GIẢM | Khí TN TĂNG
 Tín hiệu: WTI BÁN | Brent BÁN | Khí TN MUA
-Ngưỡng giá: WTI 80.84–93.64 | Brent 83.18–96.36 | Khí TN 3.126–3.249
+Ngưỡng giá: WTI 80.75–93.64 | Brent 83.15–96.36 | Khí TN 3.126–3.249
 Phân tích:
-• Dầu WTI giảm 4.67% và Brent giảm 4.59% trong phiên, kéo dài đà GIẢM 5 phiên lên lần lượt 11.37% và 11.60%, do tin tức về thỏa thuận giữa Mỹ và Iran cùng kỳ vọng mở lại Eo biển Hormuz (News 6, 17, 20). Cả hai loại dầu đều đang giao dịch dưới MA20 và có RSI ở mức quá bán (WTI 34, Brent 32), cho thấy áp lực giảm giá mạnh.
-• Spread Brent-WTI thu hẹp còn $2.40 so với $4.55 một tháng trước, cho thấy nguồn cung WTI tương đối dồi dào hơn.
-• Giá dầu WTI và Brent giảm mạnh có thể giúp giảm chi phí nhập khẩu dầu DO cho các nhà máy điện và khu công nghiệp tại Việt Nam, đặc biệt trong bối cảnh mùa hè nhu cầu điện tăng cao.
-• Khí tự nhiên TĂNG 0.93% trong phiên và TĂNG 0.06% trong 5 phiên, duy trì trên MA20 với RSI 55, cho thấy xu hướng trung hạn TĂNG.
+• Dầu WTI giảm 4,76% và dầu Brent giảm 4,67% trong phiên, kéo dài đà giảm trong 5 phiên gần nhất với mức giảm lần lượt là 11,46% và 11,67%. Cả hai loại dầu đều đang trong xu hướng giảm trung hạn và đã giảm khá sâu.
+• Nguyên nhân chính là thông tin về thỏa thuận giữa Mỹ và Iran, dẫn đến kỳ vọng eo biển Hormuz được mở lại, giảm bớt lo ngại về nguồn cung dầu toàn cầu.
+• Giá xăng dầu tại Mỹ được dự báo sẽ không giảm nhanh như giá dầu thô.
+• Nga đã nới lỏng các quy định môi trường cho nhiên liệu trong nước nhằm giải quyết tình trạng thiếu hụt, nhưng tác động này không đủ để bù đắp áp lực giảm giá từ thỏa thuận Iran.
+• Khí tự nhiên tăng 0,90% trong phiên và đi ngang trong 5 phiên, đang trong xu hướng tăng trung hạn, cho thấy sự tách biệt khỏi đà giảm của dầu thô.
+• Các quỹ lớn đã tăng vị thế đặt cược giá tăng đối với dầu WTI trong tuần trước, có thể bị bất ngờ trước đà giảm mạnh này.
 Rủi ro:
-• Mặc dù giá dầu giảm mạnh trong ngắn hạn, Ngân hàng Thế giới (World Bank) vẫn dự báo giá dầu Brent có thể tăng 36% trong năm 2026 do xung đột ở Trung Đông (News 3), tạo ra rủi ro tăng giá dài hạn.
-• Vị thế COT của WTI cho thấy các quỹ đầu cơ đã tăng vị thế NET LONG thêm 11,230 hợp đồng vào tuần trước (tổng +3,379), điều này mâu thuẫn với đà giảm giá mạnh hiện tại và có thể dẫn đến một đợt bán tháo nếu các quỹ này đóng vị thế.
+• Mâu thuẫn giữa dự báo dài hạn của Ngân hàng Thế giới (giá Brent tăng 36% trong năm 2026 do xung đột kéo dài) và diễn biến giá giảm mạnh trong ngắn hạn do thỏa thuận Iran.
+• Khả năng biến động mạnh nếu thông tin về thỏa thuận Iran hoặc việc mở lại eo biển Hormuz không diễn ra như kỳ vọng hoặc có diễn biến mới.
 
-**🥇 KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc**
+🥇 **KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc**
 Xu hướng: Vàng GIẢM | Bạc GIẢM
 Tín hiệu: Vàng BÁN | Bạc BÁN
 Ngưỡng giá: Vàng 4,031.00–4,346.80 | Bạc 63.74–70.19
 Phân tích:
-• Vàng TĂNG 2.81% và Bạc TĂNG 2.21% trong phiên, được hỗ trợ bởi sự sụt giảm của giá dầu thô sau thỏa thuận Iran-Mỹ và DXY giảm nhẹ 0.09% (News 6).
-• Mặc dù TĂNG trong phiên, Vàng vẫn ĐI NGANG trong 5 phiên (-0.05%) và Bạc TĂNG 1.37%, cả hai đều đang giao dịch dưới MA20 với RSI ở mức 44 và 43, cho thấy xu hướng trung hạn vẫn là GIẢM.
-• Tỷ lệ Vàng/Bạc ở mức 62.5, cao hơn đáng kể so với 55.1 một tháng trước, cho thấy Bạc đang rẻ tương đối so với Vàng.
+• Vàng tăng 2,75% và Bạc tăng 2,09% trong phiên. Vàng giảm nhẹ 0,11% trong 5 phiên gần nhất, trong khi Bạc tăng 1,24%. Cả hai kim loại quý đều đang trong xu hướng giảm trung hạn.
+• Sự tăng giá này diễn ra khi giá dầu thô giảm mạnh do thỏa thuận Iran, điều này có thể cho thấy một sự chuyển dịch dòng tiền hoặc phản ứng phức tạp của thị trường.
+• Giá vàng và bạc đã giảm trong tuần trước, được xem là cơ hội để mua vào.
+• Tỷ lệ Vàng/Bạc ở mức 62.5, cho thấy bạc đang rẻ tương đối so với vàng.
+• Các quỹ lớn đã giảm nhẹ vị thế đặt cược giá tăng đối với cả vàng và bạc trong tuần trước.
 Rủi ro:
-• Vị thế COT cho thấy các quỹ đầu cơ đã giảm nhẹ vị thế NET LONG đối với Vàng (-2,183 hợp đồng) và Bạc (-1,712 hợp đồng) vào tuần trước, cho thấy dòng tiền đầu cơ đang rút ra khỏi kim loại quý.
+• Lý do tăng giá của vàng và bạc trong bối cảnh giá dầu giảm do thỏa thuận hòa bình chưa thực sự rõ ràng, có thể là do chốt lời ở các tài sản khác hoặc một đợt phục hồi ngắn hạn.
+• Mặc dù tăng trong phiên, cả hai kim loại quý vẫn đang trong xu hướng giảm trung hạn, tiềm ẩn rủi ro điều chỉnh.
 
-**🌾 NÔNG SẢN — Ngô, Đậu tương, Lúa mì**
+🌾 **NÔNG SẢN — Ngô, Đậu tương, Lúa mì**
 Xu hướng: Ngô GIẢM | Lúa mì SIDEWAY | Đậu tương GIẢM
 Tín hiệu: Ngô GIỮ (quá bán) | Lúa mì GIỮ | Đậu tương BÁN
 Ngưỡng giá: Ngô 408.50–425.75 | Lúa mì 579.75–600.25 | Đậu tương 1,108.25–1,136.25
 Phân tích:
-• Ngô TĂNG 0.30% trong phiên nhưng GIẢM 1.13% trong 5 phiên, với RSI 29 cho thấy tình trạng quá bán. Giá đang dưới MA20. Tin tức về mưa ở các vùng đồng bằng Mỹ ("Rain in the Plains Make Grain") đang tạo áp lực giảm giá cho Ngô (News 9).
-• Lúa mì TĂNG 0.34% trong phiên và TĂNG 0.56% trong 5 phiên, nhưng vẫn dưới MA20 với RSI 39. Tin tức về mưa ở các vùng đồng bằng Mỹ cũng ảnh hưởng đến Lúa mì (News 9).
-• Đậu tương TĂNG 1.55% trong phiên và TĂNG 1.34% trong 5 phiên, nhưng vẫn dưới MA20 với RSI 40. Tin tức về mưa ở các vùng đồng bằng Mỹ cũng tạo áp lực giảm giá cho Đậu tương (News 9).
-• Vị thế COT cho thấy các quỹ đầu cơ đã giảm mạnh vị thế NET LONG của Ngô (-96,383 hợp đồng) và Đậu tương (-37,321 hợp đồng) vào tuần trước, đồng thời tăng vị thế NET SHORT của Lúa mì (-17,091 hợp đồng), phản ánh tâm lý bi quan về triển vọng giá nông sản.
-• Ngữ cảnh mùa vụ tháng 6 cho thấy đây là giai đoạn thụ phấn quan trọng của ngô ở Mỹ, thời tiết thuận lợi (mưa) có thể củng cố nguồn cung.
-• Giá đậu tương TĂNG 1.55% trong phiên có thể làm tăng chi phí thức ăn chăn nuôi, ảnh hưởng đến lợi nhuận của người nuôi tôm tại Đồng bằng sông Cửu Long, vốn đang vào mùa thu hoạch hè.
+• Ngô tăng 0,18%, lúa mì tăng 0,21% và đậu tương tăng 1,46% trong phiên. Đậu tương cũng tăng 1,25% trong 5 phiên gần nhất.
+• Ngô và đậu tương đã bỏ qua áp lực giảm giá từ dầu thô, cho thấy các yếu tố cung cầu nội tại của nông sản đang chiếm ưu thế.
+• Tuy nhiên, tin tức về mưa ở vùng Đồng bằng Mỹ đang tạo áp lực giảm giá lên ngô, đậu tương và lúa mì, điều này mâu thuẫn với đà tăng nhẹ trong phiên.
+• Ngô đang ở vùng đã giảm khá sâu, có thể sắp chững lại hoặc bật lên.
+• Các quỹ lớn đã giảm đáng kể vị thế đặt cược giá tăng đối với ngô và đậu tương, và tăng vị thế đặt cược giá giảm đối với lúa mì trong tuần trước, cho thấy tâm lý thận trọng.
+• Ngữ cảnh mùa vụ tháng 6: Mùa thụ phấn ngô ở Mỹ bắt đầu, thời tiết mưa ở Đồng bằng có thể hỗ trợ năng suất.
 Rủi ro:
-• Mặc dù giá nông sản chịu áp lực từ thời tiết thuận lợi, tin tức cho thấy Ngô và Đậu tương đã "shrug off lower crude oil prices" (News 1), cho thấy sự tách biệt nhất định khỏi biến động giá dầu.
+• Mâu thuẫn giữa tin tức về thời tiết thuận lợi gây áp lực giảm giá và diễn biến giá tăng nhẹ trong phiên.
+• Sự giảm mạnh vị thế mua ròng của các quỹ lớn đối với ngô và đậu tương có thể báo hiệu áp lực bán trong tương lai.
+• Tin tức về ngô chịu áp lực từ dầu thô mâu thuẫn với tin ngô bỏ qua áp lực dầu thô và diễn biến giá thực tế.
 
-**🔩 KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken**
+🔩 **KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken**
 Xu hướng: Đồng TĂNG
 Tín hiệu: Đồng MUA
 Ngưỡng giá: Đồng 6.359–6.497
 Phân tích:
-• Đồng TĂNG nhẹ 0.16% trong phiên và TĂNG 1.76% trong 5 phiên. Giá đang giao dịch trên MA20 với RSI 56, cho thấy xu hướng trung hạn TĂNG.
-• Dao động trong biên độ bình thường, không có driver rõ rệt.
-• Tỷ lệ Đồng/Vàng tăng lên 1.49, cao hơn so với 1.40 một tháng trước, cho thấy kỳ vọng tăng trưởng kinh tế và tâm lý "risk-on" đang hỗ trợ giá Đồng.
+• Đồng tăng nhẹ 0,08% trong phiên và tăng 1,67% trong 5 phiên gần nhất, đang trong xu hướng tăng trung hạn.
+• Dao động trong biên độ bình thường, không có driver rõ rệt trong phiên này.
+• Tỷ lệ Đồng/Vàng tăng lên 1.49, cho thấy tâm lý thị trường đang "ưa rủi ro" và kỳ vọng tăng trưởng kinh tế.
+• Các kim loại khác như nhôm giảm hơn 4% và thiếc tăng hơn 2%, cho thấy sự phân hóa trong nhóm kim loại công nghiệp.
+• Các quỹ lớn đã giảm nhẹ vị thế đặt cược giá tăng đối với đồng trong tuần trước.
 Rủi ro:
-• Vị thế COT cho thấy các quỹ đầu cơ đã giảm nhẹ vị thế NET LONG của Đồng (-4,383 hợp đồng) vào tuần trước, có thể tạo áp lực bán trong tương lai.
+• Thiếu các yếu tố thúc đẩy rõ ràng trong phiên có thể khiến giá đồng dễ bị ảnh hưởng bởi tâm lý thị trường chung hoặc các yếu tố vĩ mô khác.
 
-**📋 KHUYẾN NGHỊ PHIÊN**
-• **Dầu WTI:** Xem xét vị thế BÁN nếu giá không thể phục hồi trên ngưỡng kháng cự MA20 ($92.75), với mục tiêu về vùng hỗ trợ $80.84.
-• **Vàng:** Quan sát khả năng phục hồi tiếp theo, nhưng cần thận trọng do xu hướng trung hạn vẫn là GIẢM. Có thể xem xét MUA nếu giá giữ vững trên $4,031.00, nhưng cần quản lý rủi ro chặt chẽ.
-• **Ngô:** Với RSI ở mức quá bán (29) và tin tức về mưa, có thể có một đợt phục hồi kỹ thuật ngắn hạn. Xem xét vị thế MUA nhỏ nếu giá giữ được trên $408.50.
+📋 **KHUYẾN NGHỊ PHIÊN**
+• **Dầu thô:** Giá giảm mạnh và đã giảm khá sâu. Có thể xem xét mua thăm dò nếu có tín hiệu phục hồi quanh ngưỡng hỗ trợ 80.75 USD/thùng cho WTI, cắt lỗ nếu giá thủng ngưỡng này.
+• **Vàng/Bạc:** Tăng mạnh trong phiên nhưng xu hướng trung hạn vẫn giảm. Có thể xem xét mua ngắn hạn nếu giá giữ được trên 4300 USD/oz cho Vàng và 68 USD/oz cho Bạc, với mục tiêu là các ngưỡng kháng cự gần nhất.
+• **Ngô:** Giá đang ở vùng đã giảm khá sâu, có thể có nhịp hồi. Xem xét mua thăm dò nếu giá giữ được trên 408.50 cent/bushel, cắt lỗ nếu giá thủng.
 
-**⚠️ THEO DÕI PHIÊN**
-• Diễn biến chi tiết về thỏa thuận Iran-Mỹ và tác động đến nguồn cung dầu toàn cầu.
-• Báo cáo thời tiết mới nhất tại các vùng trồng nông sản chính của Mỹ.
-• Dữ liệu vĩ mô sắp tới từ Mỹ và Trung Quốc có thể ảnh hưởng đến tâm lý risk-on/risk-off.
+⚠️ **THEO DÕI PHIÊN**
+• Diễn biến về thỏa thuận Iran và tình hình eo biển Hormuz.
+• Các dữ liệu kinh tế vĩ mô quan trọng sắp tới (nếu có).
+• Diễn biến thời tiết tại các vùng trồng nông sản chính của Mỹ.
+---

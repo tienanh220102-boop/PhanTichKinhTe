@@ -508,3 +508,29 @@
 2026-06-16 02:05 ACCEPT [Google News NS] "CM orders crackdown on wheat hoarding - The Express Tribune" | kw:wheat
 2026-06-16 02:05 ACCEPT [Google News NS] "Afex: Grain prices to remain elevated in coming months - CNBC Africa" | kw:rice
 2026-06-16 02:07 SENT_MORNING articles=20 date=2026-06-16 force=True
+2026-06-16 02:31 ACCEPT [Google News HH] "Gold price holds gain as Trump touts reopening of Hormuz this week - M" | kw:gold,rice
+2026-06-16 02:31 ACCEPT [Google News HH] "U.S. crude oil stocks hit historic low since 1983 - Qazinform" | kw:oil,crude
+2026-06-16 02:31 ACCEPT [Google News HH] "Semitruck rollover causes crude oil spill near state Route 191; spill " | kw:oil,crude
+2026-06-16 02:31 ACCEPT [Google News KL] "Silver Price Today | Silver Spot Price Charts - SD Bullion" | kw:silver,rice
+2026-06-16 02:31 ACCEPT [Google News KL] "Gold prices steady with focus on Iran accord, central bank meetings - " | kw:gold,rice
+2026-06-16 02:31 ACCEPT [Google News KL] "Gold Price Forecast & Predictions for 2026, 2027, 2028–2030, 2040 and " | kw:gold,rice
+2026-06-16 02:31 ACCEPT [Google News NS] "Soybean Planting Surge Signals Big Stakes for the 2026 Farm Economy - " | kw:soybean
+2026-06-16 02:31 ACCEPT [RT Business] "Russian SMEs growing on stronger supply chains to giants" | kw:supply chain
+2026-06-16 02:31 ACCEPT [RT Business] "Americans spending more because they are ‘optimistic’? Economists chal" | kw:inflation
+2026-06-16 02:31 ACCEPT [RT Business] "Gas at $4: Understanding America’s strange obsession" | kw:gas,fuel,rice
+2026-06-16 02:31 ACCEPT [RT Business] "Defying Western pressure: Russia and China deepen economic partnership" | kw:sanction
+2026-06-16 02:31 ACCEPT [RT Business] "US extends Russian oil waiver" | kw:oil,sanction,treasury
+2026-06-16 02:31 ACCEPT [RT Business] "Potato futures are soaring – should the world be worried?" | kw:fuel,rice
+2026-06-16 02:31 ACCEPT [RT Business] "Japanese auto giant takes historic hit amid EV pullback" | kw:tariff
+2026-06-16 02:31 ACCEPT [RT Business] "EU buys record volumes of Russian LNG – report" | kw:gas,lng
+2026-06-16 02:31 ACCEPT [RT Business] "Russian economy on solid footing despite slowdown – deputy PM" | kw:sanction
+2026-06-16 02:31 ACCEPT [RT Business] "Netflix sued for spying on children" | kw:harvest
+2026-06-16 02:31 ACCEPT [RT Business] "Oil trader pockets reported $125 mn on suspiciously well-timed Iran be" | kw:oil
+2026-06-16 02:31 ACCEPT [RT Business] "Putin envoy names ‘first victim’ of historic energy crisis" | kw:oil,rice
+2026-06-16 02:31 ACCEPT [RT Business] "OPEC+ makes first output decision after UAE exit – Reuters" | kw:opec
+2026-06-16 02:31 ACCEPT [RT Business] "Kuwait exports zero barrels of oil for first time in 35 years – monito" | kw:oil,crude
+2026-06-16 02:31 ACCEPT [RT Business] "Oil prices now determined by Trump’s mood – Fico" | kw:oil,rice
+2026-06-16 02:31 ACCEPT [RT Business] "Middle East war to drive 24% surge in energy costs – World Bank" | kw:fuel,rice,commodity
+2026-06-16 02:31 ACCEPT [RT Business] "OPEC loses key member: Will the oil bloc survive?" | kw:oil,opec
+2026-06-16 02:31 ACCEPT [RT Business] "Key OPEC member to leave bloc" | kw:oil,opec
+2026-06-16 02:32 SENT_MORNING articles=20 date=2026-06-16 force=True
