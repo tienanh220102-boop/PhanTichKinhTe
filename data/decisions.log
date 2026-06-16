@@ -890,3 +890,9 @@
 2026-06-16 13:23 ACCEPT [Google News CB] "ECB’s Escriva Says Energy Disruption Will Persist Despite Deal - Bloom" | kw:ecb
 2026-06-16 13:23 SKIP_MORNING already_sent date=2026-06-16
 2026-06-16 13:23 SKIP_EVENING already_sent date=2026-06-16
+2026-06-16 13:31 ACCEPT [OilPrice.com] "Dubai and Murban Crude Signal End of Middle East Supply Crunch" | kw:oil,crude
+2026-06-16 13:31 ACCEPT [Google News KL] "Gold, silver firm as U.S.-Iran deal cools crude - Kitco AM Report - KI" | kw:crude,gold,silver
+2026-06-16 13:31 ACCEPT [Google News KL] "Current price of gold as of June 16, 2026 - Fortune" | kw:gold,rice
+2026-06-16 13:31 ACCEPT [Google News CB] "Treasury yields fall ahead of Kevin Warsh's first Fed meeting - CNBC" | kw:treasury
+2026-06-16 13:31 SKIP_MORNING already_sent date=2026-06-16
+2026-06-16 13:31 SKIP_EVENING already_sent date=2026-06-16
