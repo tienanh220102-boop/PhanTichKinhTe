@@ -741,3 +741,11 @@
 2026-06-16 08:31 ACCEPT [Google News CB] "Iran central bank chief heads to Moscow for expanding monetary coopera" | kw:central bank
 2026-06-16 08:31 ACCEPT [Google News CB] "Asian shares are mostly higher and Japan's Nikkei tops 70,000 before B" | kw:rate hike,boj
 2026-06-16 08:31 SKIP_MORNING already_sent date=2026-06-16
+2026-06-16 08:40 ACCEPT [Google News KL] "Gold and silver may be at a price low; analysts provide key strategic " | kw:gold,silver,rice
+2026-06-16 08:40 ACCEPT [Google News CB] "Uchida Speech: BoJ Deputy Governor discusses policy outlook after the " | kw:interest rate,rate hike,boj
+2026-06-16 08:40 ACCEPT [Google News CB] "Bank of Japan hikes interest rate to 31-year high - Yahoo Finance UK" | kw:interest rate,bank of japan
+2026-06-16 08:40 ACCEPT [Google News CB] "Bank of Japan raises its key interest rate to a three-decade high - Eu" | kw:interest rate,bank of japan
+2026-06-16 08:40 ACCEPT [Google News CB] "Nykredit unconvinced on new US Fed Chair's independence from Trump as " | kw:inflation
+2026-06-16 08:40 ACCEPT [Google News CB] "Asian Shares Are Mostly Higher and Japan's Nikkei Tops 70,000 Before B" | kw:rate hike,boj
+2026-06-16 08:40 ACCEPT [Google News CB] "Japanese Yen remains stronger as BoJ delivers a rate hike - FXStreet" | kw:rate hike,boj
+2026-06-16 08:40 SKIP_MORNING already_sent date=2026-06-16
