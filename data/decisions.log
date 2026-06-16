@@ -767,3 +767,24 @@
 2026-06-16 09:31 ACCEPT [Google News CB] "Fed set to make interest rate decision as inflation hits 3-year high -" | kw:inflation,interest rate,rate decision
 2026-06-16 09:31 ACCEPT [Google News CB] "Bank of Japan raises its key interest rate to a three-decade high - Eu" | kw:interest rate,bank of japan
 2026-06-16 09:31 SKIP_MORNING already_sent date=2026-06-16
+2026-06-16 10:01 ACCEPT [OilPrice.com] "World's Largest Tanker Operator Cautions Against Hormuz Rush" | kw:oil,gas
+2026-06-16 10:01 ACCEPT [NASDAQ Commod] "Oil Prices Extend Decline As Supply Concerns Ease" | kw:oil,rice,easing
+2026-06-16 10:01 ACCEPT [Google News HH] "The Commodities Feed: Oil falls further - ING Think" | kw:oil,commodities
+2026-06-16 10:01 ACCEPT [Google News HH] "CBOE Volatility Index Steady Pre-Bell as Crude Oil Futures Extend Decl" | kw:oil,crude,treasury
+2026-06-16 10:01 ACCEPT [Google News HH] "WTI, Brent Crude Oil Futures Extend Slide Pre-Bell as Trump Says Next " | kw:oil,crude,brent
+2026-06-16 10:01 ACCEPT [Google News KL] "Silver price today: rises on June 16 - FXStreet" | kw:silver,rice
+2026-06-16 10:01 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Truce Stability vs Inflation Pr" | kw:gold,silver,rice
+2026-06-16 10:01 ACCEPT [Google News KL] "Air Jordan 10 'Double Nickel': Price And Where To Buy - Yahoo" | kw:nickel,rice
+2026-06-16 10:01 ACCEPT [Google News KL] "Has Gold Hit Bottom? Barclays, Citi Both Bullish on Gold, Gold Price W" | kw:gold,rice
+2026-06-16 10:01 ACCEPT [Google News KL] "[SMM Analysis] June Nickel Sulphate Market Analysis: Price Under Press" | kw:nickel,rice
+2026-06-16 10:01 ACCEPT [Google News NS] "USDA raises Ukraine wheat forecast, boosts export outlook - mezha.net" | kw:wheat
+2026-06-16 10:01 ACCEPT [Google News CB] "Fed set to make interest rate decision as inflation hits 3-year high -" | kw:inflation,interest rate,rate decision
+2026-06-16 10:01 ACCEPT [Google News CB] "Dollar drifts, no respite for yen after BOJ hikes rates as expected - " | kw:boj
+2026-06-16 10:01 ACCEPT [Google News CB] "Treasury yields fall ahead of Kevin Warsh's first Fed meeting - CNBC" | kw:treasury
+2026-06-16 10:01 ACCEPT [Google News CB] "UBS expects no Fed easing this year; sees hawkish tone in June meeting" | kw:easing
+2026-06-16 10:01 ACCEPT [Google News CB] "Israel finance minister calls for steep interest rate cuts with inflat" | kw:inflation,interest rate,rate cut
+2026-06-16 10:01 ACCEPT [Google News CB] "Asian shares are mostly higher and Japan's Nikkei tops 70,000 before B" | kw:rate hike,boj
+2026-06-16 10:01 ACCEPT [Google News CB] "Nikkei 225 Strength Challenges the BOJ Tightening Narrative - StoneX" | kw:boj,tightening
+2026-06-16 10:01 ACCEPT [Google News CB] "Global shares are mostly higher and Japan's Nikkei tops 70,000 before " | kw:rate hike,boj
+2026-06-16 10:01 ACCEPT [Google News CB] "Kevin Warsh's Fed debut comes at a pivotal moment for global monetary " | kw:wti,monetary policy
+2026-06-16 10:01 SKIP_MORNING already_sent date=2026-06-16
