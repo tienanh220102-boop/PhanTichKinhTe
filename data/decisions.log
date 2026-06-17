@@ -1275,3 +1275,18 @@
 2026-06-17 08:01 ACCEPT [Google News CB] "Silver Navigates Fed Decision as Industrial Participation Meets Moneta" | kw:silver,monetary policy
 2026-06-17 08:01 ACCEPT [Google News CB] "BOJ has to remain vigilant to maintain monetary normalization, says an" | kw:boj
 2026-06-17 08:01 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 08:31 ACCEPT [OilPrice.com] "China’s Gasoline Car Market Is Crashing as Fuel Prices Surge" | kw:oil,gas,fuel
+2026-06-17 08:31 ACCEPT [Google News HH] "Badawi: Egypt’s Total Crude Oil Production Exceeds 540,000 bbl/d - Egy" | kw:oil,crude,gas
+2026-06-17 08:31 ACCEPT [Google News HH] "The New Gulf Energy Order Implications of the UAE’s OPEC Exit - Egypt " | kw:oil,opec,gas
+2026-06-17 08:31 ACCEPT [Google News HH] "Crude Oil Futures Decline Amid Weak Global Cues - Rediff MoneyWiz" | kw:oil,crude
+2026-06-17 08:31 ACCEPT [Google News HH] "Crude Oil Futures Decline Amid Weak Global Cues - HDFC Sky" | kw:oil,crude
+2026-06-17 08:31 ACCEPT [Google News KL] "Gold extends gains for 5th day as Iran deal eases inflation jitters; F" | kw:gold,inflation
+2026-06-17 08:31 ACCEPT [Google News KL] "Gold Forex Forecast 17/06: Test the 200 Day EMA (Video) - Daily Forex" | kw:gold
+2026-06-17 08:31 ACCEPT [Google News CB] "New data release: ECB wage tracker points to stable negotiated wage pr" | kw:central bank,ecb
+2026-06-17 08:31 ACCEPT [Google News CB] "BOJ deputy's brief moment at the helm reveals deeper inflation anxiety" | kw:inflation,boj
+2026-06-17 08:31 ACCEPT [Google News CB] "UK Inflation Unexpectedly Holds Steady Ahead Of BOE Decision - Bloombe" | kw:inflation
+2026-06-17 08:31 ACCEPT [Google News CB] "UK Inflation Unexpectedly Holds Steady Ahead Of BOE Interest Rate Deci" | kw:inflation,interest rate,rate decision
+2026-06-17 08:31 ACCEPT [Google News CB] "Fed Rate Decision Today: What To Expect From Kevin Warsh’s First FOMC " | kw:fed rate,rate decision,fomc
+2026-06-17 08:31 ACCEPT [Google News CB] "FOMC trading playbook: How a hawkish Fed could impact Nasdaq 100, Gold" | kw:gold,fomc
+2026-06-17 08:31 ACCEPT [Google News CB] "ECB policymaker Simkus: Sees at least one more rate hike to cap inflat" | kw:inflation,rate hike,ecb
+2026-06-17 08:31 SKIP_MORNING already_sent date=2026-06-17
