@@ -1300,3 +1300,20 @@
 2026-06-17 09:01 ACCEPT [Google News CB] "ECB’s Tracker Continues to Point to Slower Wage Growth - WSJ" | kw:ecb
 2026-06-17 09:01 ACCEPT [Google News CB] "ECB’s Simkus Sees ‘at Least One More’ Interest-Rate Increase - Bloombe" | kw:ecb
 2026-06-17 09:01 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 09:31 ACCEPT [Al Jazeera] "Iranian tankers exit US blockade zone before talks to end war" | kw:oil
+2026-06-17 09:31 ACCEPT [OilPrice.com] "Qatar Prepares LNG Comeback Ahead of Hormuz Reopening" | kw:lng
+2026-06-17 09:31 ACCEPT [Google News HH] "US Crude Oil Inventories Down Again, Losing 52 Million Barrels in 9 We" | kw:oil,crude
+2026-06-17 09:31 ACCEPT [Google News HH] "DXY, Gold Price Forecast: Will Kevin Warsh's First FOMC Halt or Suppor" | kw:gold,rice,fomc
+2026-06-17 09:31 ACCEPT [Google News HH] "SunSirs: US-Iran Reconciliation Sends Crude Oil Prices Down Nearly 5%;" | kw:oil,crude,rice
+2026-06-17 09:31 ACCEPT [Google News HH] "Crude oil futures decline amid weak global cues - Deccan Herald" | kw:oil,crude
+2026-06-17 09:31 ACCEPT [Google News HH] "AI Chip Leasing Costs Enter Futures Markets Like Crude Oil, Gold - 조선일" | kw:oil,crude,gold
+2026-06-17 09:31 ACCEPT [Google News KL] "Gold prices hold gains as Iran deal eases inflation jitters; Fed eyed " | kw:gold,rice,inflation
+2026-06-17 09:31 ACCEPT [Google News KL] "Ranked: The world’s top Silver producers - FXStreet" | kw:silver
+2026-06-17 09:31 ACCEPT [Google News NS] "Computer trading whipsaws grain prices, economist warns - Farm Progres" | kw:rice
+2026-06-17 09:31 ACCEPT [Google News CB] "Treasury yields inch higher as investors await Fed interest rates deci" | kw:lng,treasury,interest rate
+2026-06-17 09:31 ACCEPT [Google News CB] "Brazil Central Bank Set to Brave Inflation Minefield With Interest Rat" | kw:inflation,central bank,interest rate
+2026-06-17 09:31 ACCEPT [Google News CB] "U.S. stock futures rise with Fed rate decision in focus - Investing.co" | kw:fed rate,rate decision
+2026-06-17 09:31 ACCEPT [Google News CB] "What to Watch at the Federal Reserve’s June Meeting - The New York Tim" | kw:federal reserve
+2026-06-17 09:31 ACCEPT [Google News CB] "Putin vs. Central Bank - The Bell" | kw:central bank
+2026-06-17 09:31 ACCEPT [Google News CB] "New Fed chief Warsh directs his first rate decision meeting - Yahoo Fi" | kw:rate decision
+2026-06-17 09:31 SKIP_MORNING already_sent date=2026-06-17
