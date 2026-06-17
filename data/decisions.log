@@ -1143,3 +1143,5 @@
 2026-06-17 00:01 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
 2026-06-17 00:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
 2026-06-17 00:02 SENT_MORNING articles=20 date=2026-06-17 force=False
+2026-06-17 00:21 ACCEPT [Google News NS] "Will winter wheat weakly wilt weekly? - MSN" | kw:wheat
+2026-06-17 00:21 SKIP_MORNING already_sent date=2026-06-17
