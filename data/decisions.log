@@ -1174,3 +1174,9 @@
 2026-06-17 03:01 ACCEPT [Google News CB] "BOJ has to remain vigilant to maintain monetary normalization, says an" | kw:boj
 2026-06-17 03:01 ACCEPT [Google News CB] "Indian shares seen flat after 3-session rally on oil slide; Fed decisi" | kw:oil
 2026-06-17 03:01 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 03:31 ACCEPT [Google News KL] "Gold Price Forecast: XAU/USD buyers lack conviction as Fed policy deci" | kw:wti,gold,rice
+2026-06-17 03:31 ACCEPT [Google News KL] "Gold prices steady as US-Iran interim peace deal nears signing - Crypt" | kw:gold,rice
+2026-06-17 03:31 ACCEPT [Google News KL] "Vietnam dong, gold rates - June 17 - TradingView" | kw:gold
+2026-06-17 03:31 ACCEPT [Google News NS] "Record rice stocks, five-year-high wheat reserves strengthen India's f" | kw:wheat,rice
+2026-06-17 03:31 ACCEPT [Google News CB] "Gold extends gains as rate-hike bets ease ahead of Fed verdict - CNBC" | kw:gold
+2026-06-17 03:31 SKIP_MORNING already_sent date=2026-06-17
