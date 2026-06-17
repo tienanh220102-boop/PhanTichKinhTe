@@ -1290,3 +1290,13 @@
 2026-06-17 08:31 ACCEPT [Google News CB] "FOMC trading playbook: How a hawkish Fed could impact Nasdaq 100, Gold" | kw:gold,fomc
 2026-06-17 08:31 ACCEPT [Google News CB] "ECB policymaker Simkus: Sees at least one more rate hike to cap inflat" | kw:inflation,rate hike,ecb
 2026-06-17 08:31 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 09:01 ACCEPT [Al Jazeera] "G7 leaders to boost Ukraine air defences, tighten sanctions on Russia" | kw:sanction
+2026-06-17 09:01 ACCEPT [Google News HH] "Crude oil risk premium set to persist for months, if not longer - The " | kw:oil,crude,corn
+2026-06-17 09:01 ACCEPT [Google News HH] "Despite Gold Price Correction and Executive Reshuffle, Newmont Posts I" | kw:gold,rice
+2026-06-17 09:01 ACCEPT [Google News CB] "Inflation and Kevin Warsh take center stage at the Federal Reserve’s i" | kw:inflation,interest rate,federal reserve
+2026-06-17 09:01 ACCEPT [Google News CB] "ECB wage tracker shows muted pay pressure despite war inflation - Reut" | kw:inflation,ecb
+2026-06-17 09:01 ACCEPT [Google News CB] "Oil Below $80, Stock Futures Rise Before Warsh’s First Fed Meeting - W" | kw:oil
+2026-06-17 09:01 ACCEPT [Google News CB] "China central bank's deepening control on short-term rates sparks deba" | kw:central bank
+2026-06-17 09:01 ACCEPT [Google News CB] "ECB’s Tracker Continues to Point to Slower Wage Growth - WSJ" | kw:ecb
+2026-06-17 09:01 ACCEPT [Google News CB] "ECB’s Simkus Sees ‘at Least One More’ Interest-Rate Increase - Bloombe" | kw:ecb
+2026-06-17 09:01 SKIP_MORNING already_sent date=2026-06-17
