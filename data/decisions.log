@@ -1138,3 +1138,8 @@
 2026-06-16 23:31 ACCEPT [Google News KL] "Silver's vault build: Why It isn't the top it looks like - FXStreet" | kw:silver
 2026-06-16 23:31 ACCEPT [Google News KL] "Gold holds gains above $4,300 on hopes of US–Iran peace deal, eyes on " | kw:gold,fed rate,rate decision
 2026-06-16 23:31 ACCEPT [Google News NS] "Soybeans higher on demand optimism - Brownfield Ag News" | kw:soybean
+2026-06-17 00:01 ACCEPT [Google News HH] "The crude oil market mistakenly interpreted the Iran–U.S. agreement as" | kw:oil,crude
+2026-06-17 00:01 ACCEPT [Google News HH] "Crude Oil Prices Tumble as End of US-Iran War Set to Boost Oil Supplie" | kw:oil,crude,rice
+2026-06-17 00:01 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-06-17 00:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
+2026-06-17 00:02 SENT_MORNING articles=20 date=2026-06-17 force=False
