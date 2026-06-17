@@ -1354,3 +1354,15 @@
 2026-06-17 10:31 ACCEPT [Google News CB] "Warsh-led Fed expected to hold interest rates steady By Reuters - Inve" | kw:interest rate
 2026-06-17 10:31 ACCEPT [Google News CB] "Fed Policy Favors Funded Uranium Companies as Term Prices Reach US$91." | kw:rice
 2026-06-17 10:31 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 11:01 ACCEPT [MarketWatch] "An oil bull’s ‘insane’ bet: Why this veteran trader is buying energy s" | kw:oil,rice
+2026-06-17 11:01 ACCEPT [Google News HH] "US Crude Oil Inventories Drop 8.33M Barrels: API Data Misses Expectati" | kw:oil,crude
+2026-06-17 11:01 ACCEPT [Google News HH] "Iran Resumes Crude Oil Exports Following U.S. Blockade Agreement - tov" | kw:oil,crude
+2026-06-17 11:01 ACCEPT [Google News KL] "Gold prices today, Wednesday, June 17: Prices hold ahead of Fed decisi" | kw:gold,rice
+2026-06-17 11:01 ACCEPT [Google News KL] "Gold little changed as markets eye Warsh's Fed debut, US-Iran deal det" | kw:gold
+2026-06-17 11:01 ACCEPT [Google News KL] "DXY, Gold Price Forecast: Will Kevin Warsh's First FOMC Halt or Suppor" | kw:gold,rice,fomc
+2026-06-17 11:01 ACCEPT [Google News KL] "Gold Price Forecast: Risk-On Signals Clash with Stock Valuations - FXE" | kw:gold,rice
+2026-06-17 11:01 ACCEPT [Google News KL] "DXY, Gold Price Forecast: Will Kevin Warsh's First FOMC Halt or Suppor" | kw:gold,rice,fomc
+2026-06-17 11:01 ACCEPT [Google News NS] "Rising corn prices in Paris give wheat support - DCA Market Intelligen" | kw:wheat,corn,rice
+2026-06-17 11:01 ACCEPT [Google News CB] "Russian central bank says household inflation expectations fall to 12." | kw:inflation,central bank
+2026-06-17 11:01 ACCEPT [Google News CB] "Kevin Warsh’s first meeting as Fed chairman could reveal a new vision " | kw:central bank
+2026-06-17 11:01 SKIP_MORNING already_sent date=2026-06-17
