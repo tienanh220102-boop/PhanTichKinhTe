@@ -1180,3 +1180,15 @@
 2026-06-17 03:31 ACCEPT [Google News NS] "Record rice stocks, five-year-high wheat reserves strengthen India's f" | kw:wheat,rice
 2026-06-17 03:31 ACCEPT [Google News CB] "Gold extends gains as rate-hike bets ease ahead of Fed verdict - CNBC" | kw:gold
 2026-06-17 03:31 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 04:01 ACCEPT [Google News HH] "Crude Oil Prices Sink as Global Oil Supplies Look to Normalize - Tradi" | kw:oil,crude,rice
+2026-06-17 04:01 ACCEPT [Google News HH] "International Crude Oil Futures Plunge on June 16 - Sunsirs" | kw:oil,crude
+2026-06-17 04:01 ACCEPT [Google News HH] "Commerzbank: Brent crude oil prices are expected to return to pre-war " | kw:oil,crude,brent
+2026-06-17 04:01 ACCEPT [Google News HH] "Adnoc taps commodities veteran Benoit Roulon to lead trading arm - Ent" | kw:commodities
+2026-06-17 04:01 ACCEPT [Google News KL] "Laopu gold’s searing rally cools as sales slip, bullion falls - Fashio" | kw:gold
+2026-06-17 04:01 ACCEPT [Google News KL] "Turaco Gold Completes Pre-Feasibility Study for Afema Gold Project - T" | kw:gold
+2026-06-17 04:01 ACCEPT [Google News KL] "Xiaomi, Pop Mart, Laopu Gold: From Highflyers to Down 30%+ in a Year. " | kw:gold
+2026-06-17 04:01 ACCEPT [Google News CB] "BOJ Keeps Market Steady With Yen Volatility at Lowest Since 2021 - Blo" | kw:boj
+2026-06-17 04:01 ACCEPT [Google News CB] "Rupee supported by oil slump, capped by Asian weakness in run-up to Fe" | kw:oil
+2026-06-17 04:01 ACCEPT [Google News CB] "French central bank cuts economic growth outlook as energy prices bite" | kw:rice,central bank
+2026-06-17 04:01 ACCEPT [Google News CB] "US stock futures edge higher with Fed rate decision in focus - Investi" | kw:fed rate,rate decision
+2026-06-17 04:01 SKIP_MORNING already_sent date=2026-06-17
