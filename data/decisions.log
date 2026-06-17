@@ -1404,3 +1404,16 @@
 2026-06-17 12:01 ACCEPT [Google News CB] "Kevin Warsh faces first major Fed test as interest rate decision looms" | kw:interest rate,rate decision
 2026-06-17 12:01 ACCEPT [Google News CB] "Wall Street braces for Federal Reserve's interest rate announcement to" | kw:interest rate,federal reserve
 2026-06-17 12:01 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 12:31 ACCEPT [MarketWatch] "Former Goldman CEO Lloyd Blankfein says he trades every day and doesn’" | kw:gold
+2026-06-17 12:31 ACCEPT [OilPrice.com] "ECB: Iran Peace Deal Won't Erase Europe's Energy Price Shock" | kw:rice,inflation,central bank
+2026-06-17 12:31 ACCEPT [Google News HH] "Gold Price Forecast: Risk-On Signals Clash with Stock Valuations - FXE" | kw:gold,rice
+2026-06-17 12:31 ACCEPT [Google News HH] "UAE’s post-OPEC oil output to surpass 5 million bpd in 2027, IEA says " | kw:oil,opec
+2026-06-17 12:31 ACCEPT [Google News HH] "Iran crude oil tankers exit US blockade zone: tracking site - Mehr New" | kw:oil,crude
+2026-06-17 12:31 ACCEPT [Google News KL] "Silver Price Today on June 17, 2026 - USA Today" | kw:silver,rice
+2026-06-17 12:31 ACCEPT [Google News KL] "Nasdaq & Silver Price Outlook: Cautious Optimism Ahead of the FOMC - F" | kw:silver,rice,fomc
+2026-06-17 12:31 ACCEPT [Google News NS] "Need-to-knows for growing double-crop soybeans - Farm Progress" | kw:soybean
+2026-06-17 12:31 ACCEPT [Google News CB] "Trump is demanding rate cuts. Kevin Warsh’s first challenge may be say" | kw:rate cut
+2026-06-17 12:31 ACCEPT [Google News CB] "Fed set to make interest rate decision as inflation hits 3-year high -" | kw:inflation,interest rate,rate decision
+2026-06-17 12:31 ACCEPT [Google News CB] "Fed may have unwelcome news for Trump - InsuranceNewsNet" | kw:wti
+2026-06-17 12:31 ACCEPT [Google News CB] "Morning Call Sheet: Fed focus meets AI optimism and inflation debate -" | kw:inflation
+2026-06-17 12:31 SKIP_MORNING already_sent date=2026-06-17
