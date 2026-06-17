@@ -1536,3 +1536,21 @@
 2026-06-17 15:31 ACCEPT [Google News CB] "US stocks drift ahead of the Fed’s announcement on interest rates - Po" | kw:interest rate
 2026-06-17 15:31 SKIP_MORNING already_sent date=2026-06-17
 2026-06-17 15:31 SKIP_EVENING already_sent date=2026-06-17
+2026-06-17 16:01 ACCEPT [OilPrice.com] "Shipping Industry Remains Wary Despite U.S.-Iran Agreement" | kw:shipping
+2026-06-17 16:01 ACCEPT [NASDAQ Commod] "Hemlo Mining Debuts on TSX Main Board" | kw:gold
+2026-06-17 16:01 ACCEPT [Google News HH] "U.S. Crude Oil Stockpiles Fall More Than Expected - WSJ" | kw:oil,crude
+2026-06-17 16:01 ACCEPT [Google News HH] "Crude Oil Prices Jump as US Domestic Supplies Tumble - Barchart.com" | kw:oil,crude,rice
+2026-06-17 16:01 ACCEPT [Google News HH] "BREAKING: Former OPEC Head Acquitted In London Bribery Trial - Law360" | kw:opec
+2026-06-17 16:01 ACCEPT [Google News HH] "US crude stocks fall to its lowest since March 1985, EIA says - Reuter" | kw:crude
+2026-06-17 16:01 ACCEPT [Google News HH] "US Crude Oil Inventories Fall More than Expected - TradingView" | kw:oil,crude
+2026-06-17 16:01 ACCEPT [Google News HH] "Gold Price Analysis – Gold Testing 200 Day EMA Again - FXEmpire" | kw:gold,rice
+2026-06-17 16:01 ACCEPT [Google News KL] "Nasdaq & Silver Price Outlook: Cautious Optimism Ahead of the FOMC - F" | kw:silver,rice,fomc
+2026-06-17 16:01 ACCEPT [Google News KL] "No, This Is Not Gold's Cycle Top - Seeking Alpha" | kw:gold
+2026-06-17 16:01 ACCEPT [Google News NS] "Grains Rally Led by Soybeans as Export Business Confirmed: Is it China" | kw:soybean
+2026-06-17 16:01 ACCEPT [Google News NS] "Hasakah Farmers Decry Wheat Marketing Platform - Enab Baladi - Enab Ba" | kw:wheat
+2026-06-17 16:01 ACCEPT [Google News CB] "US stocks drift ahead of the Fed’s announcement on interest rates - Ha" | kw:interest rate
+2026-06-17 16:01 ACCEPT [Google News CB] "MetLife's Drew Matus on his expectations for Fed Chairman Kevin Warsh'" | kw:rate decision
+2026-06-17 16:01 ACCEPT [Google News CB] "Another round of severe weather expected to significantly impact produ" | kw:ecb
+2026-06-17 16:01 ACCEPT [Google News CB] "BNY's Vincent Reinhart expects no change in Fed rates - CNBC" | kw:fed rate
+2026-06-17 16:01 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 16:01 SKIP_EVENING already_sent date=2026-06-17
