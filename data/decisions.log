@@ -1486,3 +1486,16 @@
 2026-06-17 14:07 ACCEPT [Google News CB] "FOCUS: Yen, oil prices may pick up BOJ rate increase even after hike t" | kw:oil,rice,boj
 2026-06-17 14:07 SKIP_MORNING already_sent date=2026-06-17
 2026-06-17 14:07 SKIP_EVENING already_sent date=2026-06-17
+2026-06-17 14:31 ACCEPT [Al Jazeera] "Strait of Hormuz reopens: But can ships’ safety be assured?" | kw:shipping
+2026-06-17 14:31 ACCEPT [Al Jazeera] "‘He wanted to burn me alive’: 92-year-old recounts West Bank settler a" | kw:easing
+2026-06-17 14:31 ACCEPT [OilPrice.com] "Poland Moves To Tax Fuel Windfalls Earned During Iran War" | kw:fuel,rice
+2026-06-17 14:31 ACCEPT [Google News HH] "Oil is little changed as investors weigh deal on Iran war as uncertain" | kw:oil,wti
+2026-06-17 14:31 ACCEPT [Google News KL] "Experts say silver won’t hit $100 again anytime soon. Here’s why - USA" | kw:silver
+2026-06-17 14:31 ACCEPT [Google News KL] "How To Make A Full House In Toca Boca ✌️ Silver Price Today (XKTEYiPXx" | kw:silver,rice
+2026-06-17 14:31 ACCEPT [Google News NS] "Soybean commentary: China’s rumored return to US soybean market bolste" | kw:soybean
+2026-06-17 14:31 ACCEPT [Google News NS] "Ethanol eyes ocean shipping as next big market for corn - Farm Progres" | kw:corn,shipping
+2026-06-17 14:31 ACCEPT [Google News CB] "Kevin Warsh spent a year calling for rate cuts. Now he’ll have to expl" | kw:rate cut
+2026-06-17 14:31 ACCEPT [Google News CB] "US stocks drift ahead of the Fed’s announcement on interest rates - WJ" | kw:interest rate
+2026-06-17 14:31 ACCEPT [Google News CB] "The Fed, Kevin Warsh, and falling oil prices: What's driving stocks to" | kw:oil,rice
+2026-06-17 14:31 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 14:31 SKIP_EVENING already_sent date=2026-06-17
