@@ -1243,3 +1243,9 @@
 2026-06-17 06:31 ACCEPT [Google News CB] "EDITORIAL: BOJ must carry on with interest rate hikes while weighing r" | kw:interest rate,rate hike,boj
 2026-06-17 06:31 ACCEPT [Google News CB] "UK inflation holds steady at 2.8% in May - CNBC" | kw:inflation
 2026-06-17 06:31 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 07:01 ACCEPT [Google News HH] "brent Crude Oil Prices Sink Below $80 As US-Iran Ceasefire Deal Reshap" | kw:oil,crude,brent
+2026-06-17 07:01 ACCEPT [Google News KL] "Copper price continues to hold below resistance – Forecast today – 17-" | kw:copper,rice
+2026-06-17 07:01 ACCEPT [Google News NS] "Updated wheat prices announced in Ukraine - Новини аграрного бізнесу" | kw:wheat,rice
+2026-06-17 07:01 ACCEPT [Google News CB] "Dollar on guard ahead of first Fed decision under Warsh - Reuters" | kw:gdp
+2026-06-17 07:01 ACCEPT [Google News CB] "Gold extends gains as rate-hike bets ease ahead of Fed verdict - CNBC" | kw:gold
+2026-06-17 07:01 SKIP_MORNING already_sent date=2026-06-17
