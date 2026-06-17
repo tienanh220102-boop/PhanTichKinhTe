@@ -1207,3 +1207,8 @@
 2026-06-17 05:01 ACCEPT [Google News CB] "ECB Officials Say Peace in Iran Isn’t Enough to Fix Energy Shock - Blo" | kw:ecb
 2026-06-17 05:01 ACCEPT [Google News CB] "Fed rate cut unlikely; would be 'like throwing oil on the fire' of inf" | kw:oil,inflation,fed rate
 2026-06-17 05:01 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 05:22 ACCEPT [Google News HH] "Gold price in Philippines: Rates on June 17 - FXStreet" | kw:gold,rice
+2026-06-17 05:22 ACCEPT [Google News HH] "Crude oil futures decline on expectations of higher global supplies - " | kw:oil,crude
+2026-06-17 05:22 ACCEPT [Google News KL] "From $123 to $62, silver stages a "roller-coaster ride"! Some hold on " | kw:silver
+2026-06-17 05:22 ACCEPT [Google News CB] "Gold steady as investors await details of US-Iran deal, Fed verdict - " | kw:gold
+2026-06-17 05:22 SKIP_MORNING already_sent date=2026-06-17
