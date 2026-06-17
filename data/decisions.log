@@ -1231,3 +1231,15 @@
 2026-06-17 06:01 ACCEPT [Google News CB] "Chile Holds Rates at 4.5%, Sees More Balanced Inflation Risk - Bloombe" | kw:inflation
 2026-06-17 06:01 ACCEPT [Google News CB] "Fed’s Kevin Warsh Killed the Rate Cut: Hike Odds Now Sit at 66% - Yaho" | kw:rate cut
 2026-06-17 06:01 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 06:31 ACCEPT [BBC Business] "Inflation remains at 2.8%, slightly lower than expected" | kw:inflation
+2026-06-17 06:31 ACCEPT [Al Jazeera] "Analysts predict no US petrol price drop until 2027" | kw:gas,rice
+2026-06-17 06:31 ACCEPT [CNBC Economy] "UK inflation holds steady at 2.8% in May" | kw:inflation
+2026-06-17 06:31 ACCEPT [Google News HH] "G7 Leaders Agree to Cooperate in Crude Oil Transportation - nippon.com" | kw:oil,crude
+2026-06-17 06:31 ACCEPT [Google News HH] "Gold Price on 16 June 2026 - Gold Price" | kw:gold,rice
+2026-06-17 06:31 ACCEPT [Google News HH] "AI Computation Rights to Trade Like Crude Oil in New Futures Market - " | kw:oil,crude
+2026-06-17 06:31 ACCEPT [Google News HH] "Chartbook: US Chart Crude Oil Futures: Extending break of 80 - Continu" | kw:oil,crude
+2026-06-17 06:31 ACCEPT [Google News HH] "Gold price prediction today: Why gold prices will continue to find sup" | kw:gold,rice
+2026-06-17 06:31 ACCEPT [Google News CB] "Warsh to face spotlight as Federal Reserve likely to leave interest ra" | kw:interest rate,federal reserve
+2026-06-17 06:31 ACCEPT [Google News CB] "EDITORIAL: BOJ must carry on with interest rate hikes while weighing r" | kw:interest rate,rate hike,boj
+2026-06-17 06:31 ACCEPT [Google News CB] "UK inflation holds steady at 2.8% in May - CNBC" | kw:inflation
+2026-06-17 06:31 SKIP_MORNING already_sent date=2026-06-17
