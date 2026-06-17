@@ -1262,3 +1262,16 @@
 2026-06-17 07:31 ACCEPT [Google News CB] "One more ECB hike seen in September before rates plateau through 2027 " | kw:ecb
 2026-06-17 07:31 ACCEPT [Google News CB] "Dollar eases slightly a day ahead of Fed rate decision; Yen weakens af" | kw:fed rate,rate decision,boj
 2026-06-17 07:31 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 08:01 ACCEPT [BBC Business] "Japan raids ice cream giants over price-fixing allegations" | kw:rice
+2026-06-17 08:01 ACCEPT [Al Jazeera] "Oil prices continue slide amid hopes for peace, opening of Strait of H" | kw:oil,crude,brent
+2026-06-17 08:01 ACCEPT [Google News HH] "Gold, Silver and Crude Oil Outlook: Key Levels and Market Movers - Inv" | kw:oil,crude,gold
+2026-06-17 08:01 ACCEPT [Google News HH] "Brent Crude Oil: Decline Amid US–Iran Ceasefire - Action Forex" | kw:oil,crude,brent
+2026-06-17 08:01 ACCEPT [Google News HH] "Nikkei ends record near 70,000 as crude oil prices decline - 毎日新聞" | kw:oil,crude,rice
+2026-06-17 08:01 ACCEPT [Google News KL] "Silver Prices Reclaim 200 SMA - Investing.com" | kw:silver,rice
+2026-06-17 08:01 ACCEPT [Google News NS] "Corn nears $4.35: Will weather or acreage report bring relief? - Farm " | kw:corn
+2026-06-17 08:01 ACCEPT [ECB Press] "New data release: ECB wage tracker points to stable negotiated wage pr" | kw:ecb
+2026-06-17 08:01 ACCEPT [Google News CB] "Gold steady as US-Iran deal details emerge, Fed verdict awaited - Reut" | kw:gold
+2026-06-17 08:01 ACCEPT [Google News CB] "ECB’s Simkus signals at least one more rate hike amid inflation pressu" | kw:inflation,rate hike,ecb
+2026-06-17 08:01 ACCEPT [Google News CB] "Silver Navigates Fed Decision as Industrial Participation Meets Moneta" | kw:silver,monetary policy
+2026-06-17 08:01 ACCEPT [Google News CB] "BOJ has to remain vigilant to maintain monetary normalization, says an" | kw:boj
+2026-06-17 08:01 SKIP_MORNING already_sent date=2026-06-17
