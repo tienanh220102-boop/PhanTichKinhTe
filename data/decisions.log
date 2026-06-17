@@ -1249,3 +1249,16 @@
 2026-06-17 07:01 ACCEPT [Google News CB] "Dollar on guard ahead of first Fed decision under Warsh - Reuters" | kw:gdp
 2026-06-17 07:01 ACCEPT [Google News CB] "Gold extends gains as rate-hike bets ease ahead of Fed verdict - CNBC" | kw:gold
 2026-06-17 07:01 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 07:31 ACCEPT [BBC Business] "Inflation unexpectedly steady as food price rises slow" | kw:rice,inflation
+2026-06-17 07:31 ACCEPT [OilPrice.com] "China Bets on Ultra-Deep Shale Gas to Boost Energy Security" | kw:oil,opec,gas
+2026-06-17 07:31 ACCEPT [Google News HH] "S&P 500 Rally Pauses Before Fed, Nikkei 225 Eyeing 70,000, Crude Oil P" | kw:oil,crude
+2026-06-17 07:31 ACCEPT [Google News HH] "Goldman Sachs lowers Q4 Brent crude oil price forecast to $80 per barr" | kw:oil,crude,brent
+2026-06-17 07:31 ACCEPT [Google News KL] "Data Centres, Mine Disruptions, and Tariff Policy: Inside the 2026 Cop" | kw:copper,tariff
+2026-06-17 07:31 ACCEPT [Google News NS] "Canada Know-Risk Market Outlook | Corn Outlook - StoneX" | kw:corn
+2026-06-17 07:31 ACCEPT [Google News CB] "BoE to incorporate climate risks into collateral framework - Green Cen" | kw:central bank
+2026-06-17 07:31 ACCEPT [Google News CB] "UK Inflation Unexpectedly Holds Steady Ahead Of BOE Interest Rate Deci" | kw:inflation,interest rate,rate decision
+2026-06-17 07:31 ACCEPT [Google News CB] "BOJ Deputy Governor Uchida’s comments at news conference By Reuters - " | kw:boj
+2026-06-17 07:31 ACCEPT [Google News CB] "Fed rate cut unlikely; would be 'like throwing oil on the fire' of inf" | kw:oil,inflation,fed rate
+2026-06-17 07:31 ACCEPT [Google News CB] "One more ECB hike seen in September before rates plateau through 2027 " | kw:ecb
+2026-06-17 07:31 ACCEPT [Google News CB] "Dollar eases slightly a day ahead of Fed rate decision; Yen weakens af" | kw:fed rate,rate decision,boj
+2026-06-17 07:31 SKIP_MORNING already_sent date=2026-06-17
