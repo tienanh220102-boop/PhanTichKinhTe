@@ -1158,3 +1158,8 @@
 2026-06-17 01:31 ACCEPT [Google News HH] "Commodities intraday targets/key levels - TradingView" | kw:commodities
 2026-06-17 01:31 ACCEPT [Google News KL] "URGENT: Silver Price Is About To Do Something NOBODY Expected Caspian " | kw:silver,rice
 2026-06-17 01:31 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 02:01 ACCEPT [Google News HH] "Crude Oil Trading Alert: Declining Inventories Fail to Curb Oil Price " | kw:oil,crude,rice
+2026-06-17 02:01 ACCEPT [Google News HH] "Crude Oil Trading Alert: Declining Inventories Fail to Halt Price Decl" | kw:oil,crude,rice
+2026-06-17 02:01 ACCEPT [Google News HH] "Gold Price Stalls Ahead of Fed Decision, Kevin Warsh's Debut as Chair " | kw:gold,rice
+2026-06-17 02:01 ACCEPT [Google News KL] "Gold is undergoing short-term consolidation, but the foundation for a " | kw:gold
+2026-06-17 02:01 SKIP_MORNING already_sent date=2026-06-17
