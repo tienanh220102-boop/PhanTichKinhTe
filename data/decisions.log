@@ -1417,3 +1417,20 @@
 2026-06-17 12:31 ACCEPT [Google News CB] "Fed may have unwelcome news for Trump - InsuranceNewsNet" | kw:wti
 2026-06-17 12:31 ACCEPT [Google News CB] "Morning Call Sheet: Fed focus meets AI optimism and inflation debate -" | kw:inflation
 2026-06-17 12:31 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 13:01 ACCEPT [MarketWatch] "High gas prices soak up more retail-sales dollars — and restaurants ar" | kw:gas,rice
+2026-06-17 13:01 ACCEPT [CNBC Commodities] "More united Fed board seen at Warsh's first meeting, according to Kals" | kw:fomc
+2026-06-17 13:01 ACCEPT [Mining.com] "Rio Tinto’s copper mine blocked: Protesters halt Oyu Tolgoi exports am" | kw:copper
+2026-06-17 13:01 ACCEPT [Google News HH] "UAE's post‑OPEC expansion push to lift oil output above 5 million bpd " | kw:oil,opec
+2026-06-17 13:01 ACCEPT [Google News HH] "Vivakor Secures One-Year Bakken Crude Oil Transaction Expected to Gene" | kw:oil,crude
+2026-06-17 13:01 ACCEPT [Google News HH] "Vivakor locks in 120,000 barrels a month in Bakken crude through June " | kw:crude
+2026-06-17 13:01 ACCEPT [Google News HH] "Brent Crude Oil Prices Sink Below $80 As US-Iran Ceasefire Deal Reshap" | kw:oil,crude,brent
+2026-06-17 13:01 ACCEPT [Google News HH] "Iran Resumes Crude Oil Exports Following U.S. Blockade Agreement - tov" | kw:oil,crude
+2026-06-17 13:01 ACCEPT [Google News HH] "Why a strong El Niño leaves tropical commodities acutely exposed - The" | kw:commodities
+2026-06-17 13:01 ACCEPT [Google News KL] "Nasdaq & Silver Price Outlook: Cautious Optimism Ahead of the FOMC - F" | kw:silver,rice,fomc
+2026-06-17 13:01 ACCEPT [Google News KL] "Gold Drops Rs 4,800 Ahead Of US Fed Decision; Silver Slides Over Rs 5," | kw:gold,silver
+2026-06-17 13:01 ACCEPT [Google News KL] "The Relationship Every Gold Trader Should Understand for OANDA:XAUUSD " | kw:gold
+2026-06-17 13:01 ACCEPT [Google News KL] "Gold prices stabilize as Iran deal eases inflation jitters; Fed decisi" | kw:gold,rice,inflation
+2026-06-17 13:01 ACCEPT [Google News CB] "Fed Likely Holding Interest Rates Steady In Kevin Warsh’s First Meetin" | kw:interest rate
+2026-06-17 13:01 ACCEPT [Google News CB] "NYSE Content Update: Fed to Deliver First Rate Decision Under Chair Ke" | kw:rate decision
+2026-06-17 13:01 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 13:02 SENT_EVENING articles=20 date=2026-06-17 force=False

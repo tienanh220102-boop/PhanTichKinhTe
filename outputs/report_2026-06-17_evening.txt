@@ -1,0 +1,93 @@
+[BẢNG SỐ LIỆU]
+               Giá   Phiên  5 phiên
+WTI          75.85   -0.3%   -15.8%
+Brent        79.51   +0.7%   -14.6%
+Khí TN       3.218   -0.7%    +1.0%
+Vàng      4,353.50   +0.5%    +6.0%
+Bạc          70.00   +0.1%    +8.4%
+Đồng         6.510   +0.3%    +4.2%
+Ngô         419.25   +1.3%    +0.1%
+Lúa mì      616.25   +3.4%    +4.9%
+Đậu t.    1,156.25   +2.3%    +3.0%
+DXY          99.61   +0.1%    -0.3%
+
+[LIÊN THỊ TRƯỜNG]
+  Brent−WTI: $3.66 (1 tháng trước: $3.44) — spread rộng = cung WTI dồi dào tương đối
+  Vàng/Bạc: 62.2 (1 tháng trước: 59.1) — tỷ lệ cao = bạc rẻ tương đối so với vàng
+  Đồng/Vàng (×1000): 1.50 (1 tháng trước: 1.38) — tăng = risk-on/kỳ vọng tăng trưởng
+
+[VỊ THẾ QUỸ ĐẦU CƠ — CFTC COT tuần 2026-06-09]
+  Lúa mì (SRW): NET SHORT -57,853 (Δ tuần: -17,091)
+  Ngô: NET LONG +103,559 (Δ tuần: -96,383)
+  Đậu tương: NET LONG +150,463 (Δ tuần: -37,321)
+  Dầu WTI: NET LONG +3,379 (Δ tuần: +11,230)
+  Bạc: NET LONG +22,214 (Δ tuần: -1,712)
+  Đồng: NET LONG +74,450 (Δ tuần: -4,383)
+  Vàng XAU: NET LONG +173,837 (Δ tuần: -2,183)
+→ NET LONG = quỹ đặt cược giá tăng; Δ dương = dòng tiền đầu cơ đang vào
+
+**BÁO CÁO PHÂN TÍCH PHIÊN MỸ (20:00 VN) NGÀY 2026-06-17**
+
+---
+
+🔀 **ĐỐI CHIẾU NGUỒN TIN**
+• Không phát hiện xung đột đáng kể giữa các nguồn trong phiên này. Các tin tức về dầu thô đều nhất quán về thỏa thuận Mỹ-Iran và tác động giảm giá.
+
+🌍 **VĨ MÔ & TIN TỨC NỔI BẬT**
+• Thỏa thuận ngừng bắn giữa Mỹ và Iran là yếu tố vĩ mô nổi bật nhất, gây áp lực giảm mạnh lên giá dầu thô do kỳ vọng nguồn cung tăng.
+• Cuộc họp của Cục Dự trữ Liên bang (Fed) bắt đầu, với các chuyên gia nhận định Fed khó có thể cắt giảm lãi suất do lo ngại lạm phát. Điều này có thể hỗ trợ đồng USD và gây áp lực lên các hàng hóa khác.
+• Ngân hàng Trung ương Brazil dự kiến cắt giảm lãi suất, cho thấy sự phân hóa trong chính sách tiền tệ toàn cầu.
+
+🛢️ **NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên**
+Xu hướng: WTI GIẢM | Brent GIẢM | Khí TN TĂNG
+Tín hiệu: WTI GIỮ (quá bán) | Brent GIỮ (quá bán) | Khí TN MUA
+Ngưỡng giá: WTI 74.09–93.64 | Brent 77.77–96.36 | Khí TN 3.142–3.299
+Phân tích:
+• Dầu WTI giảm 0.26% trong phiên và giảm 15.75% trong 5 phiên, trong khi Dầu Brent tăng 0.70% trong phiên nhưng giảm 14.60% trong 5 phiên. Cả hai loại dầu đều đang trong xu hướng giảm trung hạn, với giá Brent lần đầu tiên giảm xuống dưới 80 USD/thùng trong ba tháng.
+• Nguyên nhân chính là thỏa thuận ngừng bắn giữa Mỹ và Iran, được G7 hoan nghênh, làm tăng kỳ vọng về nguồn cung dầu ra thị trường. Các ngân hàng lớn như Goldman Sachs và Commerzbank đã hạ dự báo giá dầu cho năm nay và năm tới.
+• Khí tự nhiên giảm 0.65% trong phiên nhưng tăng 1.04% trong 5 phiên, đang trong xu hướng tăng trung hạn.
+Rủi ro:
+• Giá dầu đã giảm khá sâu và đang ở vùng quá bán, có thể sắp chững lại hoặc có nhịp hồi kỹ thuật.
+• Vị thế của các quỹ đầu cơ cho thấy họ đang đặt cược giá dầu WTI tăng (NET LONG +3,379), điều này mâu thuẫn với đà giảm mạnh của giá dầu trong 5 phiên qua.
+
+🥇 **KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc**
+Xu hướng: Vàng GIẢM | Bạc GIẢM
+Tín hiệu: Vàng BÁN | Bạc BÁN
+Ngưỡng giá: Vàng 4,031.00–4,369.80 | Bạc 63.88–70.62
+Phân tích:
+• Vàng tăng 0.52% trong phiên và tăng 5.97% trong 5 phiên, trong khi Bạc tăng 0.14% trong phiên và tăng 8.36% trong 5 phiên. Cả hai kim loại quý đều đang trong xu hướng giảm trung hạn.
+• Giá vàng và bạc tăng trong bối cảnh giá dầu thô giảm và cuộc họp của Cục Dự trữ Liên bang (Fed) bắt đầu, cho thấy tâm lý tìm kiếm tài sản an toàn hoặc phòng ngừa lạm phát.
+• Tỷ lệ Vàng/Bạc là 62.2, cho thấy bạc đang rẻ tương đối so với vàng. Các quỹ lớn đang đặt cược giá vàng và bạc tăng.
+Rủi ro:
+• Các chuyên gia nhận định Fed khó có thể cắt giảm lãi suất do lo ngại lạm phát, điều này có thể hỗ trợ đồng USD và gây áp lực lên giá kim loại quý trong dài hạn.
+• Mặc dù giá tăng trong phiên và 5 phiên, xu hướng trung hạn của cả vàng và bạc vẫn là GIẢM, cho thấy đà tăng có thể chỉ là điều chỉnh kỹ thuật.
+
+🌾 **NÔNG SẢN — Ngô, Đậu tương, Lúa mì**
+Xu hướng: Ngô GIẢM | Lúa mì SIDEWAY | Đậu tương SIDEWAY
+Tín hiệu: Ngô BÁN | Lúa mì GIỮ | Đậu tương GIỮ
+Ngưỡng giá: Ngô 406.25–421.00 | Lúa mì 606.84–617.75 | Đậu tương 1,154.03–1,158.25
+Phân tích:
+• Ngô tăng 1.33% trong phiên và tăng 0.06% trong 5 phiên, nhưng vẫn trong xu hướng giảm trung hạn. Lúa mì tăng 3.40% trong phiên và tăng 4.89% trong 5 phiên, đang trong xu hướng SIDEWAY. Đậu tương tăng 2.32% trong phiên và tăng 2.96% trong 5 phiên, cũng trong xu hướng SIDEWAY.
+• Không có tin tức cụ thể về nông sản trong phiên này. Các quỹ lớn đang đặt cược giá ngô và đậu tương tăng nhưng đặt cược giá lúa mì giảm.
+Rủi ro:
+• Tháng 6 là thời điểm quan trọng cho quá trình thụ phấn của ngô ở Mỹ, các yếu tố thời tiết bất lợi có thể gây biến động mạnh cho giá.
+
+🔩 **KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken**
+Xu hướng: Đồng TĂNG
+Tín hiệu: Đồng MUA
+Ngưỡng giá: Đồng 6.390–6.553
+Phân tích:
+• Đồng tăng 0.32% trong phiên và tăng 4.18% trong 5 phiên, đang trong xu hướng tăng trung hạn.
+• Tỷ lệ Đồng/Vàng tăng lên 1.50, cho thấy tâm lý thị trường đang có xu hướng ưa thích rủi ro và kỳ vọng tăng trưởng kinh tế.
+• Các quỹ lớn đang đặt cược giá đồng tăng.
+Rủi ro:
+• Mặc dù đồng tăng, tin tức tổng hợp cho thấy thị trường kim loại công nghiệp có sự biến động trái chiều, với Niken tăng và quặng sắt giảm, cho thấy sự phân hóa trong nhu cầu.
+
+📋 **KHUYẾN NGHỊ PHIÊN**
+• **Dầu WTI/Brent:** Với xu hướng giảm mạnh và tin tức tiêu cực, nhà đầu tư nên thận trọng. Có thể xem xét bán khi giá hồi phục về gần ngưỡng kháng cự hoặc chờ tín hiệu đảo chiều rõ ràng hơn.
+• **Vàng/Bạc:** Giá tăng trong phiên nhưng xu hướng trung hạn giảm và cuộc họp Fed tiềm ẩn rủi ro. Có thể canh bán khi giá tiếp cận vùng kháng cự trên (Vàng 4369.80, Bạc 70.62) nếu không có tin tức hỗ trợ mạnh từ Fed.
+• **Đồng:** Đang trong xu hướng tăng trung hạn và có tín hiệu ưa rủi ro. Có thể xem xét mua khi giá điều chỉnh về gần ngưỡng hỗ trợ 6.3900.
+
+⚠️ **THEO DÕI PHIÊN**
+• Kết quả cuộc họp của Cục Dự trữ Liên bang (Fed) và phát biểu của chủ tịch Fed về chính sách tiền tệ.
+• Diễn biến về thỏa thuận Mỹ-Iran và tác động thực tế đến nguồn cung dầu toàn cầu.
