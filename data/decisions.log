@@ -1565,3 +1565,19 @@
 2026-06-17 16:31 ACCEPT [Google News CB] "The Fed Has 2 Tools to Fight Inflation. Kevin Warsh Is About to Use th" | kw:inflation
 2026-06-17 16:31 SKIP_MORNING already_sent date=2026-06-17
 2026-06-17 16:31 SKIP_EVENING already_sent date=2026-06-17
+2026-06-17 17:01 ACCEPT [OilPrice.com] "Artificial Intelligence Is Driving a Geothermal Energy Boom" | kw:fuel
+2026-06-17 17:01 ACCEPT [Mining.com] "Kristi Noem joins British Columbia copper junior in advisory role" | kw:copper
+2026-06-17 17:01 ACCEPT [Mining.com] "Rio Tinto’s copper mine blocked: protesters halt Oyu Tolgoi exports" | kw:copper
+2026-06-17 17:01 ACCEPT [Google News HH] "DXY, Gold Price Forecast: Will Kevin Warsh's First FOMC Halt or Suppor" | kw:gold,rice,fomc
+2026-06-17 17:01 ACCEPT [Google News HH] "Crude Oil Edges Higher; US Retail Sales Top Estimates - Aditxt (NASDAQ" | kw:oil,crude
+2026-06-17 17:01 ACCEPT [Google News HH] "EIA Reports Declining US Crude Oil Stocks Amid Increased Demand - Guru" | kw:oil,crude
+2026-06-17 17:01 ACCEPT [Google News HH] "US crude stocks fall to lowest since March 1985, EIA says - Reuters" | kw:crude
+2026-06-17 17:01 ACCEPT [Google News HH] "Why a strong El Niño leaves tropical commodities acutely exposed - CNB" | kw:commodities
+2026-06-17 17:01 ACCEPT [Google News KL] "AGX: Production growth, strong financials, and high silver prices driv" | kw:silver,rice
+2026-06-17 17:01 ACCEPT [Google News NS] "UK's Grain LNG Opens Bidding for 2029 Regasification Capacity - Pipeli" | kw:gas,lng
+2026-06-17 17:01 ACCEPT [Google News NS] "DDGS and Wheat Bran: What Does the U.S. Experience Teach the Brazilian" | kw:wheat
+2026-06-17 17:01 ACCEPT [Google News NS] "Is China back in the market for US Soybeans? - The Globe and Mail" | kw:soybean
+2026-06-17 17:01 ACCEPT [Google News CB] "This ETF May Benefit From a BOJ Rate Hike - ETF Database" | kw:rate hike,boj
+2026-06-17 17:01 ACCEPT [Google News CB] "Fed live blog: All the latest from the central bank’s June decision - " | kw:central bank
+2026-06-17 17:01 ACCEPT [Google News CB] "U.S. stocks drift ahead of the Fed’s announcement on interest rates - " | kw:interest rate
+2026-06-17 17:01 ACCEPT [Google News CB] "Tech Stocks Advance as Investors Await Rate Decision - WSJ" | kw:rate decision
