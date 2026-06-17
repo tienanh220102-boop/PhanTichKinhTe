@@ -1554,3 +1554,14 @@
 2026-06-17 16:01 ACCEPT [Google News CB] "BNY's Vincent Reinhart expects no change in Fed rates - CNBC" | kw:fed rate
 2026-06-17 16:01 SKIP_MORNING already_sent date=2026-06-17
 2026-06-17 16:01 SKIP_EVENING already_sent date=2026-06-17
+2026-06-17 16:31 ACCEPT [OilPrice.com] "Exxon Set to Supply LNG to South Africa’s First Import Terminal" | kw:lng
+2026-06-17 16:31 ACCEPT [Google News HH] "Gold Price Today on June 17, 2026 - USA Today" | kw:gold,rice
+2026-06-17 16:31 ACCEPT [Google News HH] "US crude inventories decline for tenth week to over 40-year low, EIA s" | kw:crude
+2026-06-17 16:31 ACCEPT [Google News HH] "July WTI Crude Oil futures sink to lowest close since March. - CME Gro" | kw:oil,crude,wti
+2026-06-17 16:31 ACCEPT [Google News NS] "DDGS and Wheat Bran: What Does the U.S. Experience Teach the Brazilian" | kw:wheat
+2026-06-17 16:31 ACCEPT [Google News NS] "Soybeans Surge as China Optimism Fuels Markets While Corn Stalls - Agr" | kw:fuel,corn,soybean
+2026-06-17 16:31 ACCEPT [Google News CB] "This ETF May Benefit From a BOJ Rate Hike - ETF Database" | kw:rate hike,boj
+2026-06-17 16:31 ACCEPT [Google News CB] "ECB’s Lagarde Warns AI Is Huge Risk for Financial Stability - Bloomber" | kw:ecb
+2026-06-17 16:31 ACCEPT [Google News CB] "The Fed Has 2 Tools to Fight Inflation. Kevin Warsh Is About to Use th" | kw:inflation
+2026-06-17 16:31 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 16:31 SKIP_EVENING already_sent date=2026-06-17
