@@ -1434,3 +1434,27 @@
 2026-06-17 13:01 ACCEPT [Google News CB] "NYSE Content Update: Fed to Deliver First Rate Decision Under Chair Ke" | kw:rate decision
 2026-06-17 13:01 SKIP_MORNING already_sent date=2026-06-17
 2026-06-17 13:02 SENT_EVENING articles=20 date=2026-06-17 force=False
+2026-06-17 13:31 ACCEPT [Google News HH] "Oil Supply Could Far Outstrip Demand Growth if Middle East Peace Deal " | kw:oil,commodities
+2026-06-17 13:31 ACCEPT [Google News HH] "Wartime risk premium fades as Middle East tensions ease, stabilizing o" | kw:oil,rice
+2026-06-17 13:31 ACCEPT [Google News HH] "21-Karat Gold Price at JD88.8 in Local Market - Fana News -" | kw:gold,rice
+2026-06-17 13:31 ACCEPT [Google News KL] "Current price of silver as of Wednesday, June 17, 2026 - Fortune" | kw:silver,rice
+2026-06-17 13:31 ACCEPT [Google News KL] "Nasdaq & Silver Price Outlook: Cautious Optimism Ahead of the FOMC - F" | kw:silver,rice,fomc
+2026-06-17 13:31 ACCEPT [Google News KL] "Gold holds above $4,330, silver nears $70 as traders await Warsh’s fir" | kw:gold,silver
+2026-06-17 13:31 ACCEPT [Google News KL] "Current price of gold as of June 17, 2026 - Fortune" | kw:gold,rice
+2026-06-17 13:31 ACCEPT [Google News KL] "Silver Price Analysis – Silver Continues to Hang Around Crucial Big Fi" | kw:silver,rice
+2026-06-17 13:31 ACCEPT [Google News KL] "Gold rebound ahead? Barclays sees prices climbing toward $4,900 - Cryp" | kw:gold,rice
+2026-06-17 13:31 ACCEPT [Google News KL] "Gold Price Tumbles Rs 4,800, Silver Drops Rs 5,300 - Rediff MoneyWiz" | kw:gold,silver,rice
+2026-06-17 13:31 ACCEPT [Google News KL] "Gold, Silver Prices In Red Amid Fed Pivot Fears: Should You Buy On Dip" | kw:gold,silver,rice
+2026-06-17 13:31 ACCEPT [Google News NS] "Ohio reports crown rot in corn, frost damage to wheat - Farm Progress" | kw:wheat,corn
+2026-06-17 13:31 ACCEPT [Google News CB] "Warsh-led Fed expected to leave interest rates unchanged - Reuters" | kw:interest rate
+2026-06-17 13:31 ACCEPT [Google News CB] "China’s Central Bank Hints at Shift That Aligns It More With Fed - Blo" | kw:central bank
+2026-06-17 13:31 ACCEPT [Google News CB] "Repeat of 2022 inflation woes less likely but not excluded, ECB's Slei" | kw:inflation,ecb
+2026-06-17 13:31 ACCEPT [Google News CB] "ECB Officials Say Peace in Iran Isn’t Enough to Fix Energy Shock - Blo" | kw:ecb
+2026-06-17 13:31 ACCEPT [Google News CB] "UK Inflation Unexpectedly Holds Steady Ahead Of BOE Decision - Bloombe" | kw:inflation
+2026-06-17 13:31 ACCEPT [Google News CB] "How the Fed's next interest rate decision could impact you - CBS News" | kw:interest rate,rate decision
+2026-06-17 13:31 ACCEPT [Google News CB] "ECB’s Lagarde Warns AI Is Huge Risk for Financial Stability - Bloomber" | kw:ecb
+2026-06-17 13:31 ACCEPT [Google News CB] "Brazil Central Bank Set to Brave Inflation Minefield With Interest Rat" | kw:inflation,central bank,interest rate
+2026-06-17 13:31 ACCEPT [Google News CB] "As oil roundtrips, AI booms, and US consumers spend, economists' Fed o" | kw:oil
+2026-06-17 13:31 ACCEPT [Google News CB] "LIVE: Fed Chair Kevin Warsh speaks after his first interest rate decis" | kw:interest rate,rate decision
+2026-06-17 13:31 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 13:31 SKIP_EVENING already_sent date=2026-06-17
