@@ -1212,3 +1212,10 @@
 2026-06-17 05:22 ACCEPT [Google News KL] "From $123 to $62, silver stages a "roller-coaster ride"! Some hold on " | kw:silver
 2026-06-17 05:22 ACCEPT [Google News CB] "Gold steady as investors await details of US-Iran deal, Fed verdict - " | kw:gold
 2026-06-17 05:22 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 05:31 ACCEPT [Al Jazeera] "Food shortages spark scuffles outside supermarket in Bolivia" | kw:shortage
+2026-06-17 05:31 ACCEPT [Google News HH] "Crude Oil Futures Separate From Reality as Asia Physical Market Buckle" | kw:oil,crude
+2026-06-17 05:31 ACCEPT [Google News HH] "U.S. TOPS THE LIST – Half the World’s Oil Comes From Just Five Countri" | kw:oil
+2026-06-17 05:31 ACCEPT [Google News HH] "Brent crude oil price on June 18, 2026 at 5:00 PM EDT - Robinhood" | kw:oil,crude,brent
+2026-06-17 05:31 ACCEPT [Google News NS] "Illinois bets on biodiesel: Expanding the market for domestic soybeans" | kw:soybean
+2026-06-17 05:31 ACCEPT [Google News CB] "BTC, ETH, SOL, ADA price: Bitcoin flat near $66,000 as Uniswap jumps 2" | kw:rice
+2026-06-17 05:31 SKIP_MORNING already_sent date=2026-06-17
