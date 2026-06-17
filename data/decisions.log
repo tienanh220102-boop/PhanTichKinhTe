@@ -1153,3 +1153,8 @@
 2026-06-17 01:01 ACCEPT [Google News KL] "Lavras Gold Announces Meeting Results and Appointment of Director - In" | kw:gold
 2026-06-17 01:01 ACCEPT [Google News CB] "Dollar on the defensive ahead of first Fed decision under Warsh - Reut" | kw:gdp
 2026-06-17 01:01 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 01:31 ACCEPT [Google News HH] "Crude oil surfaced at historic Treadwell Mine. The state plans to stud" | kw:oil,crude
+2026-06-17 01:31 ACCEPT [Google News HH] "Crude Oil Prices Sink as Global Oil Supplies Look to Normalize - Yahoo" | kw:oil,crude,rice
+2026-06-17 01:31 ACCEPT [Google News HH] "Commodities intraday targets/key levels - TradingView" | kw:commodities
+2026-06-17 01:31 ACCEPT [Google News KL] "URGENT: Silver Price Is About To Do Something NOBODY Expected Caspian " | kw:silver,rice
+2026-06-17 01:31 SKIP_MORNING already_sent date=2026-06-17
