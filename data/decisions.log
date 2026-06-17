@@ -1476,3 +1476,13 @@
 2026-06-17 14:01 ACCEPT [Google News CB] "Russian central bank says household inflation expectations fall to 12." | kw:inflation,central bank
 2026-06-17 14:01 SKIP_MORNING already_sent date=2026-06-17
 2026-06-17 14:01 SKIP_EVENING already_sent date=2026-06-17
+2026-06-17 14:07 ACCEPT [Google News HH] "Falco Resources Announces Updated Feasibility Study for Horne 5 Projec" | kw:gold,rice
+2026-06-17 14:07 ACCEPT [Google News HH] "Vivakor has successfully secured a one-year Bakken crude oil procureme" | kw:oil,crude
+2026-06-17 14:07 ACCEPT [Google News HH] "Diesel-Rich Alberta Synthetic Crude Oil Triples in Four Days - EnergyN" | kw:oil,crude
+2026-06-17 14:07 ACCEPT [Google News NS] "Kazakhstan considers blocking wheat imports for six months - Caliber.A" | kw:wheat
+2026-06-17 14:07 ACCEPT [Google News NS] "Rice prices, supply ‘satisfactory’, says commerce minister - bdnews24." | kw:rice
+2026-06-17 14:07 ACCEPT [Google News CB] "Will UK interest rates go up? - BBC" | kw:interest rate
+2026-06-17 14:07 ACCEPT [Google News CB] "ECB on track to meet emissions targets as it increases green bonds in " | kw:central bank,ecb
+2026-06-17 14:07 ACCEPT [Google News CB] "FOCUS: Yen, oil prices may pick up BOJ rate increase even after hike t" | kw:oil,rice,boj
+2026-06-17 14:07 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 14:07 SKIP_EVENING already_sent date=2026-06-17
