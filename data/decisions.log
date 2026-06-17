@@ -1199,3 +1199,11 @@
 2026-06-17 04:31 ACCEPT [Google News CB] "BOJ Keeps Market Steady With Yen Volatility at Lowest Since 2021 - Blo" | kw:boj
 2026-06-17 04:31 ACCEPT [Google News CB] "Gold extends gains as rate-hike bets ease ahead of Fed verdict - Reute" | kw:gold
 2026-06-17 04:31 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 05:01 ACCEPT [CNBC Economy] "Three Iranian tankers exit U.S. blockade for first time in months as s" | kw:oil,crude
+2026-06-17 05:01 ACCEPT [Google News HH] "Gold price in India: Rates on June 17 - FXStreet" | kw:gold,rice
+2026-06-17 05:01 ACCEPT [Google News KL] "Gold, Silver Rate Today: Check live price of 22K, 24K, 18K gold & silv" | kw:gold,silver,rice
+2026-06-17 05:01 ACCEPT [Google News KL] "Gold consolidates above $4,300 as traders look to Fed rate decision fo" | kw:gold,fed rate,rate decision
+2026-06-17 05:01 ACCEPT [Google News CB] "China’s Central Bank Hints at Shift to Fed-Style Rate Setting - Bloomb" | kw:central bank
+2026-06-17 05:01 ACCEPT [Google News CB] "ECB Officials Say Peace in Iran Isn’t Enough to Fix Energy Shock - Blo" | kw:ecb
+2026-06-17 05:01 ACCEPT [Google News CB] "Fed rate cut unlikely; would be 'like throwing oil on the fire' of inf" | kw:oil,inflation,fed rate
+2026-06-17 05:01 SKIP_MORNING already_sent date=2026-06-17
