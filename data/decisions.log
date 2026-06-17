@@ -1147,3 +1147,9 @@
 2026-06-17 00:21 SKIP_MORNING already_sent date=2026-06-17
 2026-06-17 00:31 ACCEPT [Mining.com] "Fortuna wins key approval for Senegal gold project" | kw:gold
 2026-06-17 00:31 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 01:01 ACCEPT [Google News HH] "Commodities Update June 2026 - Westpac IQ" | kw:commodities
+2026-06-17 01:01 ACCEPT [Google News HH] "US Dollar Softened, Crude Oil Fell Over 4% Recording a Four-Day Losing" | kw:oil,crude,iron
+2026-06-17 01:01 ACCEPT [Google News HH] "The crude oil futures night session listed on the Shanghai Internation" | kw:oil,crude,rice
+2026-06-17 01:01 ACCEPT [Google News KL] "Lavras Gold Announces Meeting Results and Appointment of Director - In" | kw:gold
+2026-06-17 01:01 ACCEPT [Google News CB] "Dollar on the defensive ahead of first Fed decision under Warsh - Reut" | kw:gdp
+2026-06-17 01:01 SKIP_MORNING already_sent date=2026-06-17
