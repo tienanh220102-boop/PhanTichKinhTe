@@ -1163,3 +1163,9 @@
 2026-06-17 02:01 ACCEPT [Google News HH] "Gold Price Stalls Ahead of Fed Decision, Kevin Warsh's Debut as Chair " | kw:gold,rice
 2026-06-17 02:01 ACCEPT [Google News KL] "Gold is undergoing short-term consolidation, but the foundation for a " | kw:gold
 2026-06-17 02:01 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 02:31 ACCEPT [Google News HH] "Asia open: S&P 500 rally pauses before Fed, Nikkei 225 eyeing 70,000, " | kw:oil,crude
+2026-06-17 02:31 ACCEPT [Google News HH] "Brent Crude Oil Wave Analysis – 16 June 2026 - Action Forex" | kw:oil,crude,brent
+2026-06-17 02:31 ACCEPT [Google News KL] "Gold Fails the Safe Haven Test Again - Fisher Investments" | kw:gold
+2026-06-17 02:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD rises to near $70.50 as interest rate c" | kw:silver,rice,interest rate
+2026-06-17 02:31 ACCEPT [Google News CB] "Gold edges up as rate-hike fears ease; Fed rate decision in focus - Re" | kw:gold,fed rate,rate decision
+2026-06-17 02:31 SKIP_MORNING already_sent date=2026-06-17
