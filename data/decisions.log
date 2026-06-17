@@ -1386,3 +1386,21 @@
 2026-06-17 11:31 ACCEPT [Google News CB] "Rate cuts likely off the table as Fed confronts inflation and global h" | kw:inflation,rate cut
 2026-06-17 11:31 ACCEPT [Google News CB] "Three Fed signals that could make the bitcoin (BTC) price pop: Crypto " | kw:rice
 2026-06-17 11:31 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 12:01 ACCEPT [MarketWatch] "Former Goldman CEO Lloyd Blankfein says he trades every day and doesn’" | kw:gold
+2026-06-17 12:01 ACCEPT [The Guardian Biz] "SpaceX overtakes Amazon to become world’s fifth most valuable company" | kw:rice
+2026-06-17 12:01 ACCEPT [Google News HH] "When will the gold price rise above $4,900 again? - Bitget" | kw:gold,rice
+2026-06-17 12:01 ACCEPT [Google News HH] "Gold price in Pakistan: Rates on June 17 - FXStreet" | kw:gold,rice
+2026-06-17 12:01 ACCEPT [Google News KL] "Nasdaq & Silver Price Outlook: Cautious Optimism Ahead of the FOMC - F" | kw:silver,rice,fomc
+2026-06-17 12:01 ACCEPT [Google News KL] "Miner repays 1,448.7 oz gold loan early amid lower prices, discount - " | kw:gold,rice
+2026-06-17 12:01 ACCEPT [Google News KL] "DXY, Gold Price Forecast: Will Kevin Warsh's First FOMC Halt or Suppor" | kw:gold,rice,fomc
+2026-06-17 12:01 ACCEPT [Google News KL] "Falco Resources Announces Updated Feasibility Study for Horne 5 Projec" | kw:gold,rice
+2026-06-17 12:01 ACCEPT [Google News KL] "Gold price tumbles Rs 4,800 to Rs 1.54 lakh per 10g, silver drops Rs 5" | kw:gold,silver,rice
+2026-06-17 12:01 ACCEPT [Google News KL] "Silver price remains under pressure as Fed decision, US-Iran truce sha" | kw:silver,rice
+2026-06-17 12:01 ACCEPT [Google News NS] "Is China back in the market for US Soybeans? - The Globe and Mail" | kw:soybean
+2026-06-17 12:01 ACCEPT [Google News CB] "Rate cuts likely off the table as Fed confronts inflation and global h" | kw:inflation,rate cut
+2026-06-17 12:01 ACCEPT [Google News CB] "Kevin Warsh’s first meeting as Fed chairman could reveal a new vision " | kw:central bank
+2026-06-17 12:01 ACCEPT [Google News CB] "Treasury yields inch higher as investors await Fed interest rates deci" | kw:treasury,interest rate
+2026-06-17 12:01 ACCEPT [Google News CB] "India's central bank not in favour of offshore settlement for sovereig" | kw:central bank
+2026-06-17 12:01 ACCEPT [Google News CB] "Kevin Warsh faces first major Fed test as interest rate decision looms" | kw:interest rate,rate decision
+2026-06-17 12:01 ACCEPT [Google News CB] "Wall Street braces for Federal Reserve's interest rate announcement to" | kw:interest rate,federal reserve
+2026-06-17 12:01 SKIP_MORNING already_sent date=2026-06-17
