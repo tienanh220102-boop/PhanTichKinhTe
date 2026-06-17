@@ -1219,3 +1219,15 @@
 2026-06-17 05:31 ACCEPT [Google News NS] "Illinois bets on biodiesel: Expanding the market for domestic soybeans" | kw:soybean
 2026-06-17 05:31 ACCEPT [Google News CB] "BTC, ETH, SOL, ADA price: Bitcoin flat near $66,000 as Uniswap jumps 2" | kw:rice
 2026-06-17 05:31 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 06:01 ACCEPT [OilPrice.com] "Oil Tankers Reverse Course on Hopes of Hormuz Reopening" | kw:oil,crude
+2026-06-17 06:01 ACCEPT [Google News HH] "Gold price in Saudi Arabia: Rates on June 17 - FXStreet" | kw:gold,rice
+2026-06-17 06:01 ACCEPT [Google News HH] "WTI Crude Oil (USO) Prices Drop to Two-Month Lows - GuruFocus" | kw:oil,crude,wti
+2026-06-17 06:01 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Truce Stability vs FOMC Decisio" | kw:gold,silver,rice
+2026-06-17 06:01 ACCEPT [Google News KL] "Gold and Silver Price Forecast: Fed Decision Looms as Peace Hopes Lift" | kw:gold,silver,rice
+2026-06-17 06:01 ACCEPT [Google News KL] "Gold prices rise 0.3 percent to $4,341 for fifth straight session as F" | kw:gold,rice
+2026-06-17 06:01 ACCEPT [Google News KL] "Silver Price Prediction: $72 Breakout Blueprint Primed as Warsh Opens " | kw:silver,rice
+2026-06-17 06:01 ACCEPT [Google News KL] "Gold Price Forecast: $4,375 Resistance Breakout Visualized as Warsh De" | kw:gold,rice,fomc
+2026-06-17 06:01 ACCEPT [Google News NS] "Record rice stocks, five-year-high wheat reserves strengthen India's f" | kw:wheat,rice
+2026-06-17 06:01 ACCEPT [Google News CB] "Chile Holds Rates at 4.5%, Sees More Balanced Inflation Risk - Bloombe" | kw:inflation
+2026-06-17 06:01 ACCEPT [Google News CB] "Fed’s Kevin Warsh Killed the Rate Cut: Hike Odds Now Sit at 66% - Yaho" | kw:rate cut
+2026-06-17 06:01 SKIP_MORNING already_sent date=2026-06-17
