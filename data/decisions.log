@@ -1366,3 +1366,23 @@
 2026-06-17 11:01 ACCEPT [Google News CB] "Russian central bank says household inflation expectations fall to 12." | kw:inflation,central bank
 2026-06-17 11:01 ACCEPT [Google News CB] "Kevin Warsh’s first meeting as Fed chairman could reveal a new vision " | kw:central bank
 2026-06-17 11:01 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 11:31 ACCEPT [MarketWatch] "Former Goldman CEO Lloyd Blankfein calls day trading his ‘music’ — and" | kw:gold
+2026-06-17 11:31 ACCEPT [MarketWatch] "An oil bull’s ‘insane’ bet: Why this veteran trader is buying energy s" | kw:oil,crude,rice
+2026-06-17 11:31 ACCEPT [OilPrice.com] "First Iranian Oil Moves Past U.S. Blockade Ahead of Deal Signing" | kw:oil,crude
+2026-06-17 11:31 ACCEPT [Google News HH] "Nigeria Capitalizes on Hormuz Crisis with New Crude Oil Grades - energ" | kw:oil,crude
+2026-06-17 11:31 ACCEPT [Google News HH] "Local Gold Price: 21-Karat Reaches 88.8 Dinars... - jordannews.jo" | kw:gold,rice
+2026-06-17 11:31 ACCEPT [Google News KL] "Silver prices today, Wednesday, June 17, 2026: Up 9.9% since last week" | kw:silver,rice
+2026-06-17 11:31 ACCEPT [Google News KL] "DXY, Gold Price Forecast: Will Kevin Warsh's First FOMC Halt or Suppor" | kw:gold,rice,fomc
+2026-06-17 11:31 ACCEPT [Google News KL] "Copper’s structural deficit has returned, but this time it’s different" | kw:copper
+2026-06-17 11:31 ACCEPT [Google News KL] "Gold Price Forecast: Risk-On Signals Clash with Stock Valuations - FXE" | kw:gold,rice
+2026-06-17 11:31 ACCEPT [Google News KL] "Up nearly 8% in a week! Gold prices experience "roller coaster" trend " | kw:gold,rice
+2026-06-17 11:31 ACCEPT [Google News KL] "Gold Price Forecast: Risk-On Signals Clash with Stock Valuations - FXE" | kw:gold,rice
+2026-06-17 11:31 ACCEPT [Google News KL] "Gold trades sideways as Fed decision looms, US-Iran deal caps moves - " | kw:gold,gdp
+2026-06-17 11:31 ACCEPT [Google News NS] "First Thing Today | Grain markets firmer despite price-bearish weather" | kw:rice
+2026-06-17 11:31 ACCEPT [Google News NS] "Why even the Middle East conflict has failed to stop a slide in wheat " | kw:wti,wheat,rice
+2026-06-17 11:31 ACCEPT [Google News CB] "Warsh to face spotlight as Federal Reserve likely to leave interest ra" | kw:interest rate,federal reserve
+2026-06-17 11:31 ACCEPT [Google News CB] "Warsh takes the helm: What to watch as the Fed weighs its rate decisio" | kw:rate decision
+2026-06-17 11:31 ACCEPT [Google News CB] "S&P 500, Nasdaq futures rise ahead of Fed rate decision - qz.com" | kw:fed rate,rate decision
+2026-06-17 11:31 ACCEPT [Google News CB] "Rate cuts likely off the table as Fed confronts inflation and global h" | kw:inflation,rate cut
+2026-06-17 11:31 ACCEPT [Google News CB] "Three Fed signals that could make the bitcoin (BTC) price pop: Crypto " | kw:rice
+2026-06-17 11:31 SKIP_MORNING already_sent date=2026-06-17
