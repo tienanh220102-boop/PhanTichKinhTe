@@ -1514,3 +1514,25 @@
 2026-06-17 15:01 ACCEPT [Google News CB] "Video Federal Reserve to announce latest interest rate decision - ABC " | kw:interest rate,rate decision,federal reserve
 2026-06-17 15:01 SKIP_MORNING already_sent date=2026-06-17
 2026-06-17 15:01 SKIP_EVENING already_sent date=2026-06-17
+2026-06-17 15:31 ACCEPT [OilPrice.com] "TotalEnergies: Saudi Refinery Won’t Fully Recover Until 2027" | kw:fuel
+2026-06-17 15:31 ACCEPT [NASDAQ Commod] "U.S. Crude Oil Inventories Plunge Much More Than Expected" | kw:oil,crude
+2026-06-17 15:31 ACCEPT [Google News HH] "US crude oil inventories plunge much more than expected - Yahoo Financ" | kw:oil,crude
+2026-06-17 15:31 ACCEPT [Google News HH] "Rystad: Latin America leads non-OPEC oil growth, draws majors to front" | kw:oil,opec
+2026-06-17 15:31 ACCEPT [Google News HH] "U.S. Crude Oil Stockpiles Fall More Than Expected - marketscreener.com" | kw:oil,crude
+2026-06-17 15:31 ACCEPT [Google News HH] "Brent Crude Oil is up by 5.17% - TradingView" | kw:oil,crude,brent
+2026-06-17 15:31 ACCEPT [Google News HH] "Crude oil futures decline amid weak global cues - PSU Watch" | kw:oil,crude
+2026-06-17 15:31 ACCEPT [Google News HH] "Reversal in US-Iran Peace Agreement? WTI Crude Futures Once Surge Over" | kw:crude,wti
+2026-06-17 15:31 ACCEPT [Google News HH] "US Physical Crude Prices Ease as Middle Eastern Barrels Return - Energ" | kw:crude,rice
+2026-06-17 15:31 ACCEPT [Google News HH] "US crude oil stockpiles drop 8.3 million barrels last week By Investin" | kw:oil,crude
+2026-06-17 15:31 ACCEPT [Google News KL] "Nasdaq & Silver Price Outlook: Cautious Optimism Ahead of the FOMC - F" | kw:silver,rice,fomc
+2026-06-17 15:31 ACCEPT [Google News KL] "Royal Gold: A Record Quarter, A Derisked Portfolio, And A Cheaper Stoc" | kw:gold
+2026-06-17 15:31 ACCEPT [Google News NS] "Corn, soybean, and wheat prices need Alex Honnold to save them from th" | kw:wheat,corn,soybean
+2026-06-17 15:31 ACCEPT [Google News NS] "Will winter wheat weakly wilt weekly? - MSN" | kw:wheat
+2026-06-17 15:31 ACCEPT [Google News CB] "WATCH LIVE: New Fed chair Kevin Warsh holds first news conference afte" | kw:interest rate,rate decision
+2026-06-17 15:31 ACCEPT [Google News CB] "Chile central bank cuts 2026 GDP forecast, slightly raises inflation v" | kw:inflation,gdp,central bank
+2026-06-17 15:31 ACCEPT [Google News CB] "Warsh-led Fed expected to leave interest rates unchanged - whbl.com" | kw:interest rate
+2026-06-17 15:31 ACCEPT [Google News CB] "As oil roundtrips, AI booms, and US consumers spend, economists’ Fed o" | kw:oil
+2026-06-17 15:31 ACCEPT [Google News CB] "Repeat of 2022 inflation woes less likely but not excluded, ECB’s Slei" | kw:inflation,ecb
+2026-06-17 15:31 ACCEPT [Google News CB] "US stocks drift ahead of the Fed’s announcement on interest rates - Po" | kw:interest rate
+2026-06-17 15:31 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 15:31 SKIP_EVENING already_sent date=2026-06-17
