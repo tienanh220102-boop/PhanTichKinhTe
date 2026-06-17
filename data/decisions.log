@@ -1192,3 +1192,10 @@
 2026-06-17 04:01 ACCEPT [Google News CB] "French central bank cuts economic growth outlook as energy prices bite" | kw:rice,central bank
 2026-06-17 04:01 ACCEPT [Google News CB] "US stock futures edge higher with Fed rate decision in focus - Investi" | kw:fed rate,rate decision
 2026-06-17 04:01 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 04:31 ACCEPT [Google News HH] "ICE canola futures drop as Middle East deal cuts crude oil - Investing" | kw:oil,crude
+2026-06-17 04:31 ACCEPT [Google News KL] "Laopu gold’s searing rally cools as sales slip, bullion falls - Fashio" | kw:gold
+2026-06-17 04:31 ACCEPT [Google News KL] "Institution: Gold may experience a short-term pullback but remains bul" | kw:gold,rice
+2026-06-17 04:31 ACCEPT [Google News CB] "The Fed and ECB’s Rate Paths Look Confused - Bloomberg.com" | kw:ecb
+2026-06-17 04:31 ACCEPT [Google News CB] "BOJ Keeps Market Steady With Yen Volatility at Lowest Since 2021 - Blo" | kw:boj
+2026-06-17 04:31 ACCEPT [Google News CB] "Gold extends gains as rate-hike bets ease ahead of Fed verdict - Reute" | kw:gold
+2026-06-17 04:31 SKIP_MORNING already_sent date=2026-06-17
