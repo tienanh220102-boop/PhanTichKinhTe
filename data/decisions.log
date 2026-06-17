@@ -1145,3 +1145,5 @@
 2026-06-17 00:02 SENT_MORNING articles=20 date=2026-06-17 force=False
 2026-06-17 00:21 ACCEPT [Google News NS] "Will winter wheat weakly wilt weekly? - MSN" | kw:wheat
 2026-06-17 00:21 SKIP_MORNING already_sent date=2026-06-17
+2026-06-17 00:31 ACCEPT [Mining.com] "Fortuna wins key approval for Senegal gold project" | kw:gold
+2026-06-17 00:31 SKIP_MORNING already_sent date=2026-06-17
