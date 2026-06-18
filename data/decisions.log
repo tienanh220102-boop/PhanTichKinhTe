@@ -1767,3 +1767,9 @@
 2026-06-18 00:31 ACCEPT [Google News CB] "US Fed chair Warsh vows reforms as central bank signals rate hikes on " | kw:central bank,rate hike
 2026-06-18 00:31 ACCEPT [Google News CB] "Fed leans toward possible rate hike this year, in marked shift on infl" | kw:inflation,rate hike
 2026-06-18 00:31 SKIP_MORNING already_sent date=2026-06-18
+2026-06-18 01:01 ACCEPT [Google News HH] "The international spot gold price has fallen below the $4,310/ounce ma" | kw:gold,rice
+2026-06-18 01:01 ACCEPT [Google News NS] "Grains End Higher on Soybean Export Biz as China Also Looks for Corn a" | kw:wti,wheat,corn
+2026-06-18 01:01 ACCEPT [Google News NS] "Corn acreage could fall 31% without new biofuel markets - agronews.com" | kw:fuel,corn
+2026-06-18 01:01 ACCEPT [Google News NS] "Oil prices fell 16.5% in a week to a 3.5-month low, adding pressure to" | kw:oil,rice,gdp
+2026-06-18 01:01 ACCEPT [Google News CB] "The Fed - June 16-17, 2026 FOMC Meeting - Federal Reserve (.gov)" | kw:federal reserve,fomc
+2026-06-18 01:01 SKIP_MORNING already_sent date=2026-06-18
