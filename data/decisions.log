@@ -1922,3 +1922,14 @@
 2026-06-18 10:01 ACCEPT [Google News CB] "Swiss central bank readies for FX intervention if safe haven franc str" | kw:central bank
 2026-06-18 10:01 ACCEPT [Google News CB] "European shares edge lower on Fed rate-hike bets - Reuters" | kw:fed rate
 2026-06-18 10:01 SKIP_MORNING already_sent date=2026-06-18
+2026-06-18 10:31 ACCEPT [OilPrice.com] "More Than 60 Million Barrels of Oil Ready to Head to Asia as Hormuz Re" | kw:oil,crude
+2026-06-18 10:31 ACCEPT [NASDAQ Commod] "Gold Steadies After Steep Fall Triggered By Hawkish Fed" | kw:gold,rice,treasury
+2026-06-18 10:31 ACCEPT [Google News HH] "Commodities: Oil Falls As U.S.-Iran Sign Deal - Seeking Alpha" | kw:oil,commodities
+2026-06-18 10:31 ACCEPT [Google News KL] "Silver Price Forecast: Hawkish Fed Puts $60 Support in Focus - FXEmpir" | kw:silver,rice
+2026-06-18 10:31 ACCEPT [Google News KL] "Updated feasibility study confirms Falco's Horne 5 gold project as sub" | kw:lng,gold
+2026-06-18 10:31 ACCEPT [Google News NS] "[SMM Weekly Wrap] Supply-Demand Pattern Solid, Next Week Grain-Oriente" | kw:steel,rice
+2026-06-18 10:31 ACCEPT [Google News CB] "Warsh’s Hawkish Stance Fuels US Interest-Rate Hike Bets - Bloomberg.co" | kw:fuel,rate hike
+2026-06-18 10:31 ACCEPT [Google News CB] "Taiwan central bank raises growth outlook, flags inflation concerns - " | kw:inflation,central bank
+2026-06-18 10:31 ACCEPT [Google News CB] "Swiss central bank readies for FX intervention if safe haven franc str" | kw:central bank
+2026-06-18 10:31 ACCEPT [Google News CB] "Treasury yields mixed as investors digest Warsh's first Fed meet - CNB" | kw:treasury
+2026-06-18 10:31 SKIP_MORNING already_sent date=2026-06-18
