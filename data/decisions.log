@@ -1760,3 +1760,10 @@
 2026-06-18 00:01 ACCEPT [Google News CB] "Fed Keeps Interest Rates Steady in Unanimous Vote Under New Chairman K" | kw:interest rate
 2026-06-18 00:01 ACCEPT [Google News CB] "What The Fed's Rate Decision Means For Your Finances - Investopedia" | kw:rate decision
 2026-06-18 00:02 SENT_MORNING articles=20 date=2026-06-18 force=False
+2026-06-18 00:31 ACCEPT [Google News HH] "Crude Oil Edges Lower as Deal to Reopen Hormuz Goes Into Effect - Bloo" | kw:oil,crude
+2026-06-18 00:31 ACCEPT [Google News KL] "Gold Fails the Safe Haven Test Again - Fisher Investments" | kw:gold
+2026-06-18 00:31 ACCEPT [Google News KL] "European Union Beryllium Copper Alloys - Market Analysis, Forecast, Si" | kw:copper
+2026-06-18 00:31 ACCEPT [Google News NS] "Soybeans, corn higher on Wednesday - Brownfield Ag News" | kw:corn,soybean
+2026-06-18 00:31 ACCEPT [Google News CB] "US Fed chair Warsh vows reforms as central bank signals rate hikes on " | kw:central bank,rate hike
+2026-06-18 00:31 ACCEPT [Google News CB] "Fed leans toward possible rate hike this year, in marked shift on infl" | kw:inflation,rate hike
+2026-06-18 00:31 SKIP_MORNING already_sent date=2026-06-18
