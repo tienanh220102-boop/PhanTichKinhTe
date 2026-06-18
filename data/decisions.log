@@ -1813,3 +1813,11 @@
 2026-06-18 04:01 ACCEPT [Google News KL] "Gold retakes $4,300 as US‑Iran peace deal weighs on USD after hawkish " | kw:gold
 2026-06-18 04:01 ACCEPT [Google News NS] "Brazilian Corn Producer Prices Fall: Conab Report June 17, 2026 - News" | kw:corn,rice
 2026-06-18 04:01 SKIP_MORNING already_sent date=2026-06-18
+2026-06-18 04:31 ACCEPT [Al Jazeera] "Oil prices fall, stocks rally as US, Iran sign framework to end war" | kw:oil,crude,brent
+2026-06-18 04:31 ACCEPT [Google News HH] "Crude oil futures decline following reports of digitally signed US-Ira" | kw:oil,crude
+2026-06-18 04:31 ACCEPT [Google News KL] "Gold prices rise as Iran peace deal cheer outweighs Fed rate concerns " | kw:gold,rice,fed rate
+2026-06-18 04:31 ACCEPT [Google News KL] "Copper Price Fluctuations Constrain Order Release, Dragon Boat Festiva" | kw:copper,rice
+2026-06-18 04:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD rises above $69.00, but stays constrain" | kw:silver,rice
+2026-06-18 04:31 ACCEPT [Google News KL] "Is Royal Gold (RGLD) Trimming Hod Maden to Sharpen Its Diversification" | kw:gold
+2026-06-18 04:31 ACCEPT [Google News KL] "BHP is reportedly advancing plans to sell approximately US$1.5 billion" | kw:wti
+2026-06-18 04:31 SKIP_MORNING already_sent date=2026-06-18
