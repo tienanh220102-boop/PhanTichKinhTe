@@ -1789,3 +1789,9 @@
 2026-06-18 02:00 SKIP_MORNING already_sent date=2026-06-18
 2026-06-18 02:01 ACCEPT [Google News NS] "Why Are Corn Prices Surging Despite Market Uncertainty? - Agrolatam" | kw:corn,rice
 2026-06-18 02:01 SKIP_MORNING already_sent date=2026-06-18
+2026-06-18 02:31 ACCEPT [BBC Business] "Apple to raise prices due to memory chip costs" | kw:rice
+2026-06-18 02:31 ACCEPT [Google News HH] "Crude oil prices fall more than 1% as Strait of Hormuz to reopen after" | kw:oil,crude,rice
+2026-06-18 02:31 ACCEPT [Google News HH] "Crude Oil Trading Alert: Oil prices lack momentum for a rebound and ma" | kw:oil,crude,rice
+2026-06-18 02:31 ACCEPT [Google News KL] "The spot silver price fell below 69 dollars per ounce, with a daily de" | kw:silver,rice
+2026-06-18 02:31 ACCEPT [Google News KL] "Expectations of a Federal Reserve rate hike have intensified; gold pri" | kw:gold,rice,rate hike
+2026-06-18 02:31 SKIP_MORNING already_sent date=2026-06-18
