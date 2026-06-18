@@ -2000,3 +2000,19 @@
 2026-06-18 12:31 ACCEPT [Google News CB] "Despite Donald Trump’s new fed chair, interest rates might go up - 1A " | kw:interest rate
 2026-06-18 12:31 ACCEPT [Google News CB] "Taiwan central bank raises growth outlook, flags inflation concerns - " | kw:inflation,central bank
 2026-06-18 12:31 SKIP_MORNING already_sent date=2026-06-18
+2026-06-18 13:01 ACCEPT [BBC Business] "Interest rates held as Bank warns of impact of high energy prices" | kw:rice,interest rate
+2026-06-18 13:01 ACCEPT [The Guardian Biz] "Bank of England leaves interest rates on hold and lowers inflation for" | kw:inflation,interest rate,rate decision
+2026-06-18 13:01 ACCEPT [Mining.com] "Energy Fuels lands $725M Pentagon loan for rare earths boost" | kw:fuel
+2026-06-18 13:01 ACCEPT [EIA Energy] "Permian natural gas production increased faster than crude oil" | kw:oil,crude,gas
+2026-06-18 13:01 ACCEPT [Google News HH] "OPEC sticks to robust oil demand outlook, sees no peak to 2050 - Reute" | kw:oil,opec
+2026-06-18 13:01 ACCEPT [Google News HH] "Vivakor secures crude oil deal worth $4.5 million monthly - Investing." | kw:oil,crude
+2026-06-18 13:01 ACCEPT [Google News HH] "Kyrgyzstan, OPEC Fund discuss major joint projects - Qazinform" | kw:opec
+2026-06-18 13:01 ACCEPT [Google News HH] "Crude Oil Futures Fall Amid Weak Global Trends - Rediff" | kw:oil,crude
+2026-06-18 13:01 ACCEPT [Google News KL] "Current price of silver as of Thursday, June 18, 2026 - Fortune" | kw:silver,rice
+2026-06-18 13:01 ACCEPT [Google News KL] "Gold prices remain under pressure as Philly Fed Survey rebounds to 10." | kw:gold,rice
+2026-06-18 13:01 ACCEPT [Google News CB] "Chile Earns Outlier Status as Central Bank Fuels Rate-Cut Bets - Bloom" | kw:fuel,central bank
+2026-06-18 13:01 ACCEPT [Google News CB] "Czech central bank delivers first rate hike in four years - Reuters" | kw:central bank,rate hike
+2026-06-18 13:01 ACCEPT [Google News CB] "Brazil still has room for more interest rate cuts, says finance minist" | kw:interest rate,rate cut
+2026-06-18 13:01 ACCEPT [Google News CB] "ECB’s Chief Economist Sees Prolonged Period Of High Inflation - WSJ" | kw:inflation,ecb
+2026-06-18 13:01 SKIP_MORNING already_sent date=2026-06-18
+2026-06-18 13:02 SENT_EVENING articles=20 date=2026-06-18 force=False
