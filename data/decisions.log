@@ -1905,3 +1905,20 @@
 2026-06-18 09:31 ACCEPT [Google News CB] "Norway’s Central Bank Holds Key Rate But Still Signals a Hike Later Th" | kw:central bank
 2026-06-18 09:31 ACCEPT [Google News CB] "Taiwan central bank leaves key rate unchanged, raises growth outlook -" | kw:central bank
 2026-06-18 09:31 SKIP_MORNING already_sent date=2026-06-18
+2026-06-18 10:01 ACCEPT [MarketWatch] "Here’s the link between Apple’s ‘unavoidable’ price hikes and all-time" | kw:rice
+2026-06-18 10:01 ACCEPT [NASDAQ Commod] "Oil Prices Tumble As US And Iran Sign Provisional Peace Deal" | kw:oil,rice,easing
+2026-06-18 10:01 ACCEPT [Google News HH] "EIA reports a massive decline in US crude oil stocks - engine.online" | kw:oil,crude
+2026-06-18 10:01 ACCEPT [Google News HH] "US crude oil inventories down 1.9% in week ending June 12 - Anadolu Aj" | kw:oil,crude
+2026-06-18 10:01 ACCEPT [Google News HH] "SunSirs: Crude Oil Prices Fall; China Domestic Refined Oil Retail Pric" | kw:oil,crude,rice
+2026-06-18 10:01 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD hesitates below $4,300 as Fed hiking bets" | kw:gold,rice
+2026-06-18 10:01 ACCEPT [Google News KL] "Silver price today: rises on June 18 - FXStreet" | kw:silver,rice
+2026-06-18 10:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD Edges Above $69.00, But 100-Day SMA Cap" | kw:silver,rice
+2026-06-18 10:01 ACCEPT [Google News KL] "Cabral Gold: +70% Completed Construction at Cuiu Cuiu Project Steers T" | kw:gold
+2026-06-18 10:01 ACCEPT [Google News KL] "Suppliers hold prices firm while also adjusting prices, as Shanghai sp" | kw:copper,rice
+2026-06-18 10:01 ACCEPT [Google News KL] "[SMM Secondary Copper Rod Flash] During today's midday session, the fr" | kw:copper
+2026-06-18 10:01 ACCEPT [Google News KL] "Gold Price Reaches JOD 88.30 per Gram for 21-Karat Gold in the Local M" | kw:gold,rice
+2026-06-18 10:01 ACCEPT [Google News CB] "Philippine Central Bank Hikes Rates to Get Inflation Back on Target - " | kw:inflation,central bank
+2026-06-18 10:01 ACCEPT [Google News CB] "Goldman’s Kaplan Says Fed May Hike by Fall, Sees Risk of More - Bloomb" | kw:gold
+2026-06-18 10:01 ACCEPT [Google News CB] "Swiss central bank readies for FX intervention if safe haven franc str" | kw:central bank
+2026-06-18 10:01 ACCEPT [Google News CB] "European shares edge lower on Fed rate-hike bets - Reuters" | kw:fed rate
+2026-06-18 10:01 SKIP_MORNING already_sent date=2026-06-18
