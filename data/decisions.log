@@ -1840,3 +1840,12 @@
 2026-06-18 06:01 ACCEPT [Google News NS] "Feed corn prices continue to decline in Ukrainian ports – APK-Inform -" | kw:corn,rice
 2026-06-18 06:01 ACCEPT [Google News CB] "Irish Central Bank Cuts Growth Forecast as Volatility Roils Eurozone -" | kw:oil,central bank
 2026-06-18 06:01 SKIP_MORNING already_sent date=2026-06-18
+2026-06-18 06:31 ACCEPT [Google News HH] "Vivakor Highlights Strategic Value of Its Southwestern U.S. Midstream " | kw:oil,crude
+2026-06-18 06:31 ACCEPT [Google News HH] "Gold Price on 17 June 2026 - Gold Price" | kw:gold,rice
+2026-06-18 06:31 ACCEPT [Google News HH] "Adnoc taps commodities veteran Benoit Roulon to lead trading arm - Ent" | kw:commodities
+2026-06-18 06:31 ACCEPT [Google News KL] "Why Gold Is a Compelling Investment in June 2026: Price Drop, Inflatio" | kw:gold,rice,inflation
+2026-06-18 06:31 ACCEPT [Google News KL] "Gold, silver price prediction: Gold, silver prices are headed this way" | kw:gold,silver,rice
+2026-06-18 06:31 ACCEPT [Google News KL] "US Fed Keeps Rates Unchanged, Silver Edges Down and Spot Market Tradin" | kw:silver
+2026-06-18 06:31 ACCEPT [Google News NS] "Wheat Leads the Grain Rally on Wednesday - inkl" | kw:wheat
+2026-06-18 06:31 ACCEPT [Google News NS] "Chickpeas defy market slump - The Weekly Times" | kw:gdp
+2026-06-18 06:31 SKIP_MORNING already_sent date=2026-06-18
