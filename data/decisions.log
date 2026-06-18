@@ -1981,3 +1981,22 @@
 2026-06-18 12:01 ACCEPT [Google News CB] "Iran peace not stopping central banks from raising borrowing costs - R" | kw:central bank
 2026-06-18 12:01 ACCEPT [Google News CB] "Bank of England follows Fed in holding interest rate - Yahoo Finance" | kw:interest rate,bank of england
 2026-06-18 12:01 SKIP_MORNING already_sent date=2026-06-18
+2026-06-18 12:31 ACCEPT [MarketWatch] "Warsh wants to listen to markets more. Morgan Stanley says markets may" | kw:federal reserve
+2026-06-18 12:31 ACCEPT [OilPrice.com] "Argus: U.S-Iran Deal Won’t Lead to One-Way Traffic to Plunging Oil Pri" | kw:oil,rice
+2026-06-18 12:31 ACCEPT [Google News HH] "Gold Price Today: Gold Falls 2.19% on June 18, 2026 - USA Today" | kw:gold,rice
+2026-06-18 12:31 ACCEPT [Google News HH] "Vivakor Secures One-Year Bakken Crude Oil Transaction Expected to Gene" | kw:oil,crude
+2026-06-18 12:31 ACCEPT [Google News HH] "OPEC sticks to robust oil demand outlook, sees no peak to 2050 - Tradi" | kw:oil,opec
+2026-06-18 12:31 ACCEPT [Google News HH] "Vivakor Surpasses $323 Million in Annualized Contracted Revenue with N" | kw:oil,crude
+2026-06-18 12:31 ACCEPT [Google News HH] "Vivakor adds 2,000 barrels a day in Permian crude deal - Stock Titan" | kw:crude,wti
+2026-06-18 12:31 ACCEPT [Google News HH] "OPEC sticks to robust oil demand outlook, sees no peak to 2050 - marke" | kw:oil,opec
+2026-06-18 12:31 ACCEPT [Google News HH] "OPEC: Global oil demand to reach 113.3M bpd by 2030 - Breakingthenews." | kw:oil,opec
+2026-06-18 12:31 ACCEPT [Google News HH] "Japan's crude oil import prices surge to highest level since 1979 - صح" | kw:oil,crude,rice
+2026-06-18 12:31 ACCEPT [Google News HH] "OPEC maintains its forecast for strong growth in oil demand, stating t" | kw:oil,opec
+2026-06-18 12:31 ACCEPT [Google News HH] "Vivakor secures crude oil deal worth $4.5 million monthly By Investing" | kw:oil,crude
+2026-06-18 12:31 ACCEPT [Google News KL] "Gold eases as firmer dollar, hawkish Fed weigh on prices - Reuters" | kw:gold,rice
+2026-06-18 12:31 ACCEPT [Google News KL] "Silver Price Today: Silver Falls 4.85% on June 18, 2026 - USA Today" | kw:silver,rice
+2026-06-18 12:31 ACCEPT [Google News KL] "In Gold Mining, the Spread Is What Matters - The Globe and Mail" | kw:lng,gold
+2026-06-18 12:31 ACCEPT [Google News KL] "Silver price today: Silver rises, according to FXStreet data - Bitget" | kw:silver,rice
+2026-06-18 12:31 ACCEPT [Google News CB] "Despite Donald Trump’s new fed chair, interest rates might go up - 1A " | kw:interest rate
+2026-06-18 12:31 ACCEPT [Google News CB] "Taiwan central bank raises growth outlook, flags inflation concerns - " | kw:inflation,central bank
+2026-06-18 12:31 SKIP_MORNING already_sent date=2026-06-18
