@@ -2044,3 +2044,7 @@
 2026-06-18 14:01 ACCEPT [Google News CB] "2-year Treasury yield is little changed after spiking on hawkish start" | kw:treasury
 2026-06-18 14:01 SKIP_MORNING already_sent date=2026-06-18
 2026-06-18 14:01 SKIP_EVENING already_sent date=2026-06-18
+2026-06-18 14:27 ACCEPT [Google News HH] "Crude Oil Price Analysis – Oil Looking to Stabilize Heading into Junet" | kw:oil,crude,rice
+2026-06-18 14:27 ACCEPT [Google News KL] "Gold And Silver Futures Fall As Fed Holds Rates Steady, Indicates Futu" | kw:gold,silver
+2026-06-18 14:27 SKIP_MORNING already_sent date=2026-06-18
+2026-06-18 14:27 SKIP_EVENING already_sent date=2026-06-18
