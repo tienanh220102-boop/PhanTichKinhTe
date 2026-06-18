@@ -1947,3 +1947,11 @@
 2026-06-18 11:01 ACCEPT [Google News CB] "Fed holds interest rates steady and hints at future rate hike - NPR" | kw:interest rate,rate hike
 2026-06-18 11:01 ACCEPT [Google News CB] "Bond Traders Get a Clear Message From New Fed Chief on Inflation - Blo" | kw:inflation
 2026-06-18 11:01 SKIP_MORNING already_sent date=2026-06-18
+2026-06-18 11:06 ACCEPT [BBC Business] "Interest rates kept on hold at 3.75%" | kw:interest rate
+2026-06-18 11:06 ACCEPT [Google News HH] "Crude Oil Forecast 18/06: Tests the 200 Day EMA (Video) - DailyForex" | kw:oil,crude
+2026-06-18 11:06 ACCEPT [Google News KL] "Xali Gold Private Placement Fully Subscribed - GlobeNewswire" | kw:gold
+2026-06-18 11:06 ACCEPT [Google News KL] "Gold's unusual price swings leave investors at crossroads - The Korea " | kw:gold,rice
+2026-06-18 11:06 ACCEPT [Google News KL] "Gold Forecast 18/06: Gold Sits at the 200 Day EMA (Video) - DailyForex" | kw:gold
+2026-06-18 11:06 ACCEPT [Google News CB] "Banking Analytics: Lower Asset Yields Squeeze Bank Interest Margins in" | kw:federal reserve
+2026-06-18 11:06 ACCEPT [Google News CB] "Swiss central bank readies for FX intervention if safe haven franc str" | kw:central bank
+2026-06-18 11:06 SKIP_MORNING already_sent date=2026-06-18
