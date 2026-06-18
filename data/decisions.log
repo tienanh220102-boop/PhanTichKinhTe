@@ -1795,3 +1795,12 @@
 2026-06-18 02:31 ACCEPT [Google News KL] "The spot silver price fell below 69 dollars per ounce, with a daily de" | kw:silver,rice
 2026-06-18 02:31 ACCEPT [Google News KL] "Expectations of a Federal Reserve rate hike have intensified; gold pri" | kw:gold,rice,rate hike
 2026-06-18 02:31 SKIP_MORNING already_sent date=2026-06-18
+2026-06-18 03:01 ACCEPT [BBC Business] "Apple to raise prices as AI pushes up chip costs" | kw:rice
+2026-06-18 03:01 ACCEPT [Google News HH] "Institution: Raises year-end gold price target to $5,500; structural b" | kw:gold,rice
+2026-06-18 03:01 ACCEPT [Google News HH] "Tightness in US Crude Supplies Supports Crude Oil Prices - TradingView" | kw:oil,crude,rice
+2026-06-18 03:01 ACCEPT [Google News HH] "Redstone Resources Enhances Exposure to High-Demand Commodities with N" | kw:commodities
+2026-06-18 03:01 ACCEPT [Google News KL] "Gold prices rise as Iran peace deal cheer outweighs Fed rate concerns " | kw:gold,rice,fed rate
+2026-06-18 03:01 ACCEPT [Google News KL] "Barclays sees gold hitting $4,791 in 2026, $4,900 in 2027 as Iran corr" | kw:gold
+2026-06-18 03:01 ACCEPT [Google News KL] "Is Royal Gold (RGLD) Trimming Hod Maden to Sharpen Its Diversification" | kw:gold
+2026-06-18 03:01 ACCEPT [Google News NS] "Kansas City Wheat Closes Up Nearly 19¢ | Wednesday, June 17, 2026 - Su" | kw:wheat
+2026-06-18 03:01 SKIP_MORNING already_sent date=2026-06-18
