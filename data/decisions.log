@@ -2087,3 +2087,72 @@
 2026-06-18 16:02 ACCEPT [Google News NS] "U.S. Wheat Discusses Trade Barriers During London Grains Week - U.S. W" | kw:lng,wheat
 2026-06-18 16:02 SKIP_MORNING already_sent date=2026-06-18
 2026-06-18 16:02 SKIP_EVENING already_sent date=2026-06-18
+2026-06-18 16:31 ACCEPT [MarketWatch] "These stocks are in trouble now that Kevin Warsh removed the market’s " | kw:central bank
+2026-06-18 16:31 ACCEPT [MarketWatch] "Fed Chair Kevin Warsh wants to get inflation under control. That could" | kw:inflation,federal reserve
+2026-06-18 16:31 ACCEPT [BBC Business] "'We had to get out of the way': The backlash over delivery robots" | kw:easing
+2026-06-18 16:31 ACCEPT [BBC Business] "Thames Water moves step closer to nationalisation after government obj" | kw:iron
+2026-06-18 16:31 ACCEPT [BBC Business] "Millions of people can get discounts on their bills - here's how" | kw:tariff
+2026-06-18 16:31 ACCEPT [BBC Business] "Morocco wants tourists to visit Western Sahara. Some say it's tighteni" | kw:tightening
+2026-06-18 16:31 ACCEPT [The Guardian Biz] "Federal Reserve holds rates steady but signals possible hike before ye" | kw:interest rate,rate hike,federal reserve
+2026-06-18 16:31 ACCEPT [The Guardian Biz] "Oil and gas unlikely to return to prewar prices for months even if Hor" | kw:oil,crude,gas
+2026-06-18 16:31 ACCEPT [CNBC Commodities] "Jeffrey Gundlach says Fed's Warsh is not going to be the 'easy money' " | kw:inflation,monetary policy
+2026-06-18 16:31 ACCEPT [CNBC Commodities] "Fed holds rates steady, pares down statement to remove cutting bias" | kw:interest rate,rate decision,federal reserve
+2026-06-18 16:31 ACCEPT [CNBC Commodities] "More united Fed board seen at Warsh's first meeting, according to Kals" | kw:fomc
+2026-06-18 16:31 ACCEPT [CNBC Commodities] "The new oil? Inside the effort to turn AI computing power into a trade" | kw:oil,commodity
+2026-06-18 16:31 ACCEPT [CNBC Economy] "Wholesale prices rose 1.1% in May, more than expected, on surge in ene" | kw:rice
+2026-06-18 16:31 ACCEPT [CNBC Economy] "Energy prices take center stage as the ECB prepares to decide on rates" | kw:rice,inflation,ecb
+2026-06-18 16:31 ACCEPT [CNBC Economy] "Iran war cost: Average U.S. household paying $450 more on gas and ener" | kw:gas
+2026-06-18 16:31 ACCEPT [CNBC Economy] "How the ‘double scar’ of past inflation woes and geopolitical shocks a" | kw:rice,inflation
+2026-06-18 16:31 ACCEPT [CNBC Economy] "Fed’s Kashkari tells CNBC that inflation fight takes priority as labor" | kw:inflation
+2026-06-18 16:31 ACCEPT [CNBC Economy] "ECB 'will do what is necessary' to tame inflation, Bank of France gove" | kw:inflation,central bank,rate hike
+2026-06-18 16:31 ACCEPT [CNBC Economy] "Consumer sentiment hits fresh record low in May as Iran war fuels infl" | kw:oil,fuel,rice
+2026-06-18 16:31 ACCEPT [OilPrice.com] "High Tanker Rates Disrupt Persian Gulf Oil Shipments to Asia" | kw:oil,crude,shipping
+2026-06-18 16:31 ACCEPT [OilPrice.com] "Why the Moment for a Deal Could Not Be Better for Iran" | kw:oil,sanction
+2026-06-18 16:31 ACCEPT [OilPrice.com] "Goldman Sachs Warns Strait of Hormuz Traffic May Never Fully Recover" | kw:oil,gold
+2026-06-18 16:31 ACCEPT [OilPrice.com] "High Oil Prices Are Driving an EV Boom in Europe" | kw:oil,fuel,rice
+2026-06-18 16:31 ACCEPT [Mining.com] "Falco lifts Quebec gold-zinc project value to $2.4B" | kw:gold,zinc
+2026-06-18 16:31 ACCEPT [Mining.com] "Endeavour Silver hints at mine-life extension in Mexico" | kw:silver
+2026-06-18 16:31 ACCEPT [Mining.com] "Energy Fuels lands $725M Pentagon loan for rare earths boost" | kw:fuel
+2026-06-18 16:31 ACCEPT [Mining.com] "BHP to sell $1.5B Chile power lines in copper-first pivot" | kw:copper
+2026-06-18 16:31 ACCEPT [Mining.com] "Poland bets on copper boom as Lumina eyes new mines" | kw:copper
+2026-06-18 16:31 ACCEPT [NASDAQ Commod] "See How Silvercorp Metals Ranks Among Analysts' Top Metals Picks" | kw:silver
+2026-06-18 16:31 ACCEPT [NASDAQ Commod] "Gold Prices Little Changed Ahead Of Fed Verdict" | kw:gold,rice,rate decision
+2026-06-18 16:31 ACCEPT [NASDAQ Commod] "WGC: Central Banks Plan to Boost Gold Allocations as US Dollar Outlook" | kw:gold,central bank
+2026-06-18 16:31 ACCEPT [Google News HH] "OPEC Sees No Peak Oil Demand as Energy Security Beats Climate - Bloomb" | kw:oil,opec
+2026-06-18 16:31 ACCEPT [Google News HH] "OPEC Maintains Strong Oil Demand Growth Forecast - Caspian Post" | kw:oil,opec
+2026-06-18 16:31 ACCEPT [Google News HH] "OPEC keeps oil demand growth forecast, sees no peak ahead - Investing." | kw:oil,opec
+2026-06-18 16:31 ACCEPT [Google News HH] "US Equity Indexes Jump as Crude Oil Heads for Pre-War Levels Ahead of " | kw:oil,crude,wti
+2026-06-18 16:31 ACCEPT [Google News HH] "WTI Crude Oil and Natural Gas futures trade lower. - CME Group" | kw:oil,crude,gas
+2026-06-18 16:31 ACCEPT [Google News HH] "Crude Crash On Cards? OPEC Chief Differs With IEA's Oil Supply Glut Fo" | kw:oil,crude,opec
+2026-06-18 16:31 ACCEPT [Google News HH] "OPEC: Global oil demand to reach 113.3M bpd by 2030 - Breakingthenews." | kw:oil,opec
+2026-06-18 16:31 ACCEPT [Google News HH] "Japan's crude oil import prices surge to highest level since 1979 - صح" | kw:oil,crude,rice
+2026-06-18 16:31 ACCEPT [Google News HH] "Nymex WTI crude oil futures main contract just broke through the $75.0" | kw:oil,crude,wti
+2026-06-18 16:31 ACCEPT [Google News KL] "Current price of silver as of Thursday, June 18, 2026 - Fortune" | kw:silver,rice
+2026-06-18 16:31 ACCEPT [Google News KL] "Gold prices rise as Iran peace deal cheer outweighs Fed rate concerns " | kw:gold,rice,fed rate
+2026-06-18 16:31 ACCEPT [Google News KL] "Silver price today: rises on June 18 - FXStreet" | kw:silver,rice
+2026-06-18 16:31 ACCEPT [Google News KL] "Silver Price Today: Silver Rises, Tracking Broader Precious Metals Ral" | kw:silver,rice
+2026-06-18 16:31 ACCEPT [Google News KL] "DXY, Gold Price Forecast: Will Kevin Warsh's First FOMC Halt or Suppor" | kw:gold,rice,fomc
+2026-06-18 16:31 ACCEPT [Google News KL] "Halo Minerals Targets 2026 FID and 2028 Production on EIA Approved Chi" | kw:copper
+2026-06-18 16:31 ACCEPT [Google News KL] "How surging gold prices led to the biggest jump on this year’s Southea" | kw:gold,rice
+2026-06-18 16:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD rises above $69.00, but stays constrain" | kw:silver,rice
+2026-06-18 16:31 ACCEPT [Google News KL] "In Gold Mining, the Spread Is What Matters - The Globe and Mail" | kw:lng,gold
+2026-06-18 16:31 ACCEPT [Google News NS] "Soybean market at crossroads with USDA acreage boost - Farm Progress" | kw:soybean
+2026-06-18 16:31 ACCEPT [Google News NS] "What The Bean/Corn Ratio Says About This Year’s Planting Season - Seek" | kw:corn
+2026-06-18 16:31 ACCEPT [Google News NS] "Why Are Corn Prices Surging Despite Market Uncertainty? - Agrolatam" | kw:corn,rice
+2026-06-18 16:31 ACCEPT [Google News NS] "Wheat markets largely unmoved by US-Iran deal - UkrAgroConsult" | kw:wheat
+2026-06-18 16:31 ACCEPT [RT Business] "Americans spending more because they are ‘optimistic’? Economists chal" | kw:inflation
+2026-06-18 16:31 ACCEPT [RT Business] "Defying Western pressure: Russia and China deepen economic partnership" | kw:sanction
+2026-06-18 16:31 ACCEPT [RT Business] "US extends Russian oil waiver" | kw:oil,sanction,treasury
+2026-06-18 16:31 ACCEPT [RT Business] "Why the ECB may be forced to raise rates despite weak EU economy" | kw:central bank,interest rate,ecb
+2026-06-18 16:31 ACCEPT [RT Business] "Netflix sued for spying on children" | kw:harvest
+2026-06-18 16:31 ACCEPT [RT Business] "Oil prices now determined by Trump’s mood – Fico" | kw:oil,rice
+2026-06-18 16:31 ACCEPT [RT Business] "Middle East war to drive 24% surge in energy costs – World Bank" | kw:fuel,rice,commodity
+2026-06-18 16:31 ACCEPT [Fed Monetary] "Federal Reserve issues FOMC statement" | kw:federal reserve,fomc
+2026-06-18 16:31 ACCEPT [Fed Monetary] "Federal Reserve Board and Federal Open Market Committee release econom" | kw:federal reserve,fomc
+2026-06-18 16:31 ACCEPT [ECB Press] "Decisions taken by the Governing Council of the ECB (in addition to de" | kw:interest rate,ecb
+2026-06-18 16:31 ACCEPT [Google News CB] "Fed holds interest rates steady and hints at future rate hike - NPR" | kw:interest rate,rate hike
+2026-06-18 16:31 ACCEPT [Google News CB] "Swiss Central Bank Holds Rates as War Pushes Up Inflation Forecast - W" | kw:inflation,central bank
+2026-06-18 16:31 ACCEPT [Google News CB] "Czech central bank delivers first rate hike in four years - Reuters" | kw:central bank,rate hike
+2026-06-18 16:31 ACCEPT [Google News CB] "Fed Chair Kevin Warsh's debut: Why bets on interest rate hikes are sur" | kw:interest rate,rate hike
+2026-06-18 16:31 SKIP_MORNING already_sent date=2026-06-18
+2026-06-18 16:31 SKIP_EVENING already_sent date=2026-06-18
