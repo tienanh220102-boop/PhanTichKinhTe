@@ -1884,3 +1884,11 @@
 2026-06-18 08:31 ACCEPT [Google News CB] "Treasurys, Stock Futures Rebound on U.S.-Iran Agreement, Fed Reaction " | kw:treasury
 2026-06-18 08:31 ACCEPT [Google News CB] "Swiss Central Bank Holds Rates as War Pushes Up Inflation Forecast - W" | kw:inflation,central bank
 2026-06-18 08:31 SKIP_MORNING already_sent date=2026-06-18
+2026-06-18 09:01 ACCEPT [Google News HH] "Crude Oil Futures Fall Amid Weak Global Trends - Rediff MoneyWiz" | kw:oil,crude
+2026-06-18 09:01 ACCEPT [Google News HH] "Venezuela Resumes Exports of Diluted Crude Oil After 15-Month Pause -D" | kw:oil,crude
+2026-06-18 09:01 ACCEPT [Google News KL] "Allied Gold And Zijin Merger: Cashing In And Money Flows (TSX:AAUC:CA)" | kw:gold
+2026-06-18 09:01 ACCEPT [Google News KL] "Gold prices fall in Baghdad, Erbil markets - Shafaq News | Latest brea" | kw:gold,rice
+2026-06-18 09:01 ACCEPT [Google News KL] "Copper price shows no new developments – Forecast today – 18-6-2026 - " | kw:copper,rice
+2026-06-18 09:01 ACCEPT [Google News KL] "Technical analysis of the DAX 40, AUD/USD and copper price as they sta" | kw:copper,rice
+2026-06-18 09:01 ACCEPT [Google News CB] "Euro area monthly balance of payments: April 2026 - European Central B" | kw:central bank
+2026-06-18 09:01 SKIP_MORNING already_sent date=2026-06-18
