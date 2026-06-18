@@ -1892,3 +1892,16 @@
 2026-06-18 09:01 ACCEPT [Google News KL] "Technical analysis of the DAX 40, AUD/USD and copper price as they sta" | kw:copper,rice
 2026-06-18 09:01 ACCEPT [Google News CB] "Euro area monthly balance of payments: April 2026 - European Central B" | kw:central bank
 2026-06-18 09:01 SKIP_MORNING already_sent date=2026-06-18
+2026-06-18 09:31 ACCEPT [BBC Business] "Warsh to review how Fed works after holding US interest rates at first" | kw:central bank,interest rate,federal reserve
+2026-06-18 09:31 ACCEPT [OilPrice.com] "Goldman Sachs Warns Strait of Hormuz Traffic May Never Fully Recover" | kw:oil,gold
+2026-06-18 09:31 ACCEPT [Google News HH] "Why a strong El Niño leaves tropical commodities acutely exposed - Reu" | kw:commodities
+2026-06-18 09:31 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Ceasefire Holds Amid Iran-Israe" | kw:gold,silver,rice
+2026-06-18 09:31 ACCEPT [Google News KL] "How High Can Silver Go? This New XAG/USD Price Prediction Shows 39% Up" | kw:silver,rice
+2026-06-18 09:31 ACCEPT [Google News KL] "Gold prices fall in Baghdad, Erbil markets - Shafaq News | Latest brea" | kw:gold,rice
+2026-06-18 09:31 ACCEPT [Google News KL] "How surging gold prices led to the biggest jump on this year’s Southea" | kw:gold,rice
+2026-06-18 09:31 ACCEPT [Google News NS] "Brian Caldbeck in the US on wheat, drought and the coming harvest - Te" | kw:gas,wheat,harvest
+2026-06-18 09:31 ACCEPT [Google News CB] "Taiwan Central Bank Leaves Key Interest Rates Unchanged - WSJ" | kw:central bank,interest rate
+2026-06-18 09:31 ACCEPT [Google News CB] "Fed Stays Put on Interest Rates, Hints at Raise This Year | National N" | kw:interest rate
+2026-06-18 09:31 ACCEPT [Google News CB] "Norway’s Central Bank Holds Key Rate But Still Signals a Hike Later Th" | kw:central bank
+2026-06-18 09:31 ACCEPT [Google News CB] "Taiwan central bank leaves key rate unchanged, raises growth outlook -" | kw:central bank
+2026-06-18 09:31 SKIP_MORNING already_sent date=2026-06-18
