@@ -1773,3 +1773,12 @@
 2026-06-18 01:01 ACCEPT [Google News NS] "Oil prices fell 16.5% in a week to a 3.5-month low, adding pressure to" | kw:oil,rice,gdp
 2026-06-18 01:01 ACCEPT [Google News CB] "The Fed - June 16-17, 2026 FOMC Meeting - Federal Reserve (.gov)" | kw:federal reserve,fomc
 2026-06-18 01:01 SKIP_MORNING already_sent date=2026-06-18
+2026-06-18 01:31 ACCEPT [Google News HH] "Tightness in US Crude Supplies Supports Crude Oil Prices - Yahoo Finan" | kw:oil,crude,rice
+2026-06-18 01:31 ACCEPT [Google News HH] "Commodities intraday targets/key levels - TradingView" | kw:commodities
+2026-06-18 01:31 ACCEPT [Google News HH] "State of Global Oil Inventories Ruins Iran Peace Optimism - Crude Oil " | kw:oil,crude,rice
+2026-06-18 01:31 ACCEPT [Google News HH] "Vivakor Secures One-Year Bakken Crude Oil Transaction Expected to Gene" | kw:oil,crude
+2026-06-18 01:31 ACCEPT [Google News HH] "Crude Oil Prices On June 18: Brent Continues Retreat To $78 After Trum" | kw:oil,crude,brent
+2026-06-18 01:31 ACCEPT [Google News HH] "Gold price on June 18: Why is gold rate crashing? - The Economic Times" | kw:gold,rice
+2026-06-18 01:31 ACCEPT [Google News NS] "Illinois bets on biodiesel: Expanding the market for domestic soybeans" | kw:soybean
+2026-06-18 01:31 ACCEPT [Google News CB] "Brazil’s Central Bank Keeps Cutting Despite Hot Prices - WSJ" | kw:rice,central bank
+2026-06-18 01:31 SKIP_MORNING already_sent date=2026-06-18
