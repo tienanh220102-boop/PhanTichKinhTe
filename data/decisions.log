@@ -1871,3 +1871,16 @@
 2026-06-18 08:01 ACCEPT [Google News NS] "The Tiny Bean Driving a Global Revolution: Why Soybeans Are Reshaping " | kw:soybean
 2026-06-18 08:01 ACCEPT [Google News NS] "Corn Rallies into the Wednesday Close - Barchart" | kw:corn
 2026-06-18 08:01 SKIP_MORNING already_sent date=2026-06-18
+2026-06-18 08:31 ACCEPT [Al Jazeera] "Ukraine hits Moscow refinery as Zelenskyy seeks Trump support to end w" | kw:oil,fuel
+2026-06-18 08:31 ACCEPT [OilPrice.com] "High Oil Prices Are Driving an EV Boom in Europe" | kw:oil,fuel,rice
+2026-06-18 08:31 ACCEPT [Google News HH] "The Commodities Feed: Oil falls as US-Iran sign deal - ING Think" | kw:oil,commodities
+2026-06-18 08:31 ACCEPT [Google News HH] "Cosmo CEO: Middle Eastern Crude Oil Is Highly Cost-Competitive And Is " | kw:oil,crude
+2026-06-18 08:31 ACCEPT [Google News HH] "Crude Oil Plunges 30%—So Why Are Supermarkets Quietly Raising Prices? " | kw:oil,crude,rice
+2026-06-18 08:31 ACCEPT [Google News HH] "Gold Price Forecast: Hawkish Fed Triggers Gold Plunge, Can US-Iran Agr" | kw:gold,rice
+2026-06-18 08:31 ACCEPT [Google News NS] "Wheat Rallying on Wednesday - inkl" | kw:wheat
+2026-06-18 08:31 ACCEPT [Google News NS] "Corn Futures Edge Lower as Improved Crop Ratings Ease Supply Concerns " | kw:corn
+2026-06-18 08:31 ACCEPT [Google News NS] "Grain Oriented Electrical Steel Market Report Provides Insights Into M" | kw:steel
+2026-06-18 08:31 ACCEPT [Google News NS] "Ukraine wheat prices drop 200 UAH per ton in June slowdown - 112.ua" | kw:wheat,rice
+2026-06-18 08:31 ACCEPT [Google News CB] "Treasurys, Stock Futures Rebound on U.S.-Iran Agreement, Fed Reaction " | kw:treasury
+2026-06-18 08:31 ACCEPT [Google News CB] "Swiss Central Bank Holds Rates as War Pushes Up Inflation Forecast - W" | kw:inflation,central bank
+2026-06-18 08:31 SKIP_MORNING already_sent date=2026-06-18
