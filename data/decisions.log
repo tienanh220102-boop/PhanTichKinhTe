@@ -1849,3 +1849,10 @@
 2026-06-18 06:31 ACCEPT [Google News NS] "Wheat Leads the Grain Rally on Wednesday - inkl" | kw:wheat
 2026-06-18 06:31 ACCEPT [Google News NS] "Chickpeas defy market slump - The Weekly Times" | kw:gdp
 2026-06-18 06:31 SKIP_MORNING already_sent date=2026-06-18
+2026-06-18 06:56 ACCEPT [Google News HH] "Saudi Aramco significantly lowered its official crude oil selling pric" | kw:oil,crude,rice
+2026-06-18 06:56 ACCEPT [Google News KL] "End-use demand was sluggish, suppliers cut prices to sell, and overall" | kw:copper,rice
+2026-06-18 06:56 ACCEPT [Google News KL] "Great Pacific Gold Announces Results of Annual General Meeting - Inves" | kw:gold
+2026-06-18 06:56 ACCEPT [Google News NS] "Global corn prices fluctuate on uncertainty ahead of US-Iran peace tal" | kw:corn,rice
+2026-06-18 06:56 ACCEPT [Google News NS] "Feedgrain Focus: Prices ease as warehousing clock ticks - Grain Centra" | kw:rice
+2026-06-18 06:56 ACCEPT [Google News CB] "Philippine Central Bank Hikes Rates Amid Inflation Risks - WSJ" | kw:inflation,central bank
+2026-06-18 06:56 SKIP_MORNING already_sent date=2026-06-18
