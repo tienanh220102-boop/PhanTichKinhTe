@@ -1864,3 +1864,10 @@
 2026-06-18 07:31 ACCEPT [Google News NS] "What the Bean/Corn Ratio Says About This Year’s Planting Season - CME " | kw:corn
 2026-06-18 07:31 ACCEPT [Google News NS] "2 billion reasons to battle corn rootworm - Farm Progress" | kw:corn
 2026-06-18 07:31 SKIP_MORNING already_sent date=2026-06-18
+2026-06-18 08:01 ACCEPT [Google News HH] "Crude Oil Prices Jump as US Domestic Supplies Tumble - Barchart" | kw:oil,crude,rice
+2026-06-18 08:01 ACCEPT [Google News KL] "India gold market update: Demand cools | Post by Kavita Chacko | Insig" | kw:gold
+2026-06-18 08:01 ACCEPT [Google News KL] "Malaysian gold retailers squeezed on capital to acquire precious metal" | kw:gold
+2026-06-18 08:01 ACCEPT [Google News NS] "Corn Finally Finds Footing — Four Straight Days of Gains. Is the Low I" | kw:corn
+2026-06-18 08:01 ACCEPT [Google News NS] "The Tiny Bean Driving a Global Revolution: Why Soybeans Are Reshaping " | kw:soybean
+2026-06-18 08:01 ACCEPT [Google News NS] "Corn Rallies into the Wednesday Close - Barchart" | kw:corn
+2026-06-18 08:01 SKIP_MORNING already_sent date=2026-06-18
