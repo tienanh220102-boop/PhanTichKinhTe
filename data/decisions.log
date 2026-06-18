@@ -1804,3 +1804,9 @@
 2026-06-18 03:01 ACCEPT [Google News KL] "Is Royal Gold (RGLD) Trimming Hod Maden to Sharpen Its Diversification" | kw:gold
 2026-06-18 03:01 ACCEPT [Google News NS] "Kansas City Wheat Closes Up Nearly 19¢ | Wednesday, June 17, 2026 - Su" | kw:wheat
 2026-06-18 03:01 SKIP_MORNING already_sent date=2026-06-18
+2026-06-18 03:31 ACCEPT [BBC Business] "Apple to raise prices as AI boom pushes up chip costs" | kw:rice
+2026-06-18 03:31 ACCEPT [Google News HH] "Palm Oil Falls Amid Declines in Crude Oil, Higher Production -- Market" | kw:oil,crude
+2026-06-18 03:31 ACCEPT [Google News HH] "WTI Crude Oil May Struggle to Recover as Sellers Stay Active - Action " | kw:oil,crude,wti
+2026-06-18 03:31 ACCEPT [Google News KL] "Gold, Silver Rate Today: Did 22K, 24K, 18K gold & silver price change " | kw:gold,silver,rice
+2026-06-18 03:31 ACCEPT [Google News KL] "$4,300 reclaimed: Gold bounces as US-Iran peace deal signing offsets F" | kw:gold
+2026-06-18 03:31 SKIP_MORNING already_sent date=2026-06-18
