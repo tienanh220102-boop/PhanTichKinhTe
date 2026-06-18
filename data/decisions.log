@@ -2016,3 +2016,15 @@
 2026-06-18 13:01 ACCEPT [Google News CB] "ECB’s Chief Economist Sees Prolonged Period Of High Inflation - WSJ" | kw:inflation,ecb
 2026-06-18 13:01 SKIP_MORNING already_sent date=2026-06-18
 2026-06-18 13:02 SENT_EVENING articles=20 date=2026-06-18 force=False
+2026-06-18 13:31 ACCEPT [Al Jazeera] "Israeli attacks on southern Lebanon kill three despite US-Iran deal" | kw:easing
+2026-06-18 13:31 ACCEPT [Google News HH] "OPEC sees stronger long-term oil demand as priorities shift to securit" | kw:oil,opec,commodity
+2026-06-18 13:31 ACCEPT [Google News HH] "US gas prices fall below $4 for first time since March - WVTM" | kw:gas,rice
+2026-06-18 13:31 ACCEPT [Google News HH] "Bloomberg reports that Kuwait is boosting oil output. Crude oil tests " | kw:oil,crude
+2026-06-18 13:31 ACCEPT [Google News HH] "Nymex WTI crude oil futures main contract just broke through the $75.0" | kw:oil,crude,wti
+2026-06-18 13:31 ACCEPT [Google News KL] "Current price of gold as of June 18, 2026 - Fortune" | kw:gold,rice
+2026-06-18 13:31 ACCEPT [Google News KL] "Gold, silver fall as hawkish Fed pressure lingers - Kitco AM Report - " | kw:gold,silver
+2026-06-18 13:31 ACCEPT [Google News KL] "Goldgroup Commences 24,000 M Diamond Drilling Program at San Francisco" | kw:gold
+2026-06-18 13:31 ACCEPT [Google News CB] "Kevin Warsh Declines Forward Guidance, Yet His Inflation Stance Sent a" | kw:inflation
+2026-06-18 13:31 ACCEPT [Google News CB] "June FOMC takeaways: Morgan Stanley's Seth Carpenter on the path of mo" | kw:monetary policy,fomc
+2026-06-18 13:31 SKIP_MORNING already_sent date=2026-06-18
+2026-06-18 13:31 SKIP_EVENING already_sent date=2026-06-18
