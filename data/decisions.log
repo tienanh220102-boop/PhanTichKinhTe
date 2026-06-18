@@ -1856,3 +1856,5 @@
 2026-06-18 06:56 ACCEPT [Google News NS] "Feedgrain Focus: Prices ease as warehousing clock ticks - Grain Centra" | kw:rice
 2026-06-18 06:56 ACCEPT [Google News CB] "Philippine Central Bank Hikes Rates Amid Inflation Risks - WSJ" | kw:inflation,central bank
 2026-06-18 06:56 SKIP_MORNING already_sent date=2026-06-18
+2026-06-18 07:01 ACCEPT [Google News CB] "Indian rupee poised to slip after hawkish Fed surprise opens door to r" | kw:rate hike
+2026-06-18 07:01 SKIP_MORNING already_sent date=2026-06-18
