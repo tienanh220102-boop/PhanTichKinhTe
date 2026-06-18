@@ -1858,3 +1858,9 @@
 2026-06-18 06:56 SKIP_MORNING already_sent date=2026-06-18
 2026-06-18 07:01 ACCEPT [Google News CB] "Indian rupee poised to slip after hawkish Fed surprise opens door to r" | kw:rate hike
 2026-06-18 07:01 SKIP_MORNING already_sent date=2026-06-18
+2026-06-18 07:31 ACCEPT [Google News HH] "Cosmo CEO - Will Consider All Possible Options For Crude Oil Procureme" | kw:oil,crude
+2026-06-18 07:31 ACCEPT [Google News HH] "Goldman Sachs: Gulf oil producers are shifting to alternative routes; " | kw:oil,crude,gold
+2026-06-18 07:31 ACCEPT [Google News NS] "Soybean market at crossroads with USDA acreage boost - Farm Progress" | kw:soybean
+2026-06-18 07:31 ACCEPT [Google News NS] "What the Bean/Corn Ratio Says About This Year’s Planting Season - CME " | kw:corn
+2026-06-18 07:31 ACCEPT [Google News NS] "2 billion reasons to battle corn rootworm - Farm Progress" | kw:corn
+2026-06-18 07:31 SKIP_MORNING already_sent date=2026-06-18
