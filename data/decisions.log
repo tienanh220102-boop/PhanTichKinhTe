@@ -2429,3 +2429,8 @@
 2026-06-19 07:01 ACCEPT [Google News HH] "ASIA GOLD Price volatility keeps India demand modest, China flips to d" | kw:gold,rice
 2026-06-19 07:01 ACCEPT [Google News HH] "OPEC Fund and CGIAR deepen agriculture partnership - Africa Business C" | kw:opec,lng
 2026-06-19 07:01 SKIP_MORNING already_sent date=2026-06-19
+2026-06-19 07:31 ACCEPT [Al Jazeera] "Oil prices rise as Lebanon fighting erupts and Hormuz traffic still sl" | kw:oil,crude,lng
+2026-06-19 07:31 ACCEPT [Google News HH] "OPEC hikes 2050 oil demand forecast again, citing world’s pivot to ene" | kw:oil,opec
+2026-06-19 07:31 ACCEPT [Google News HH] "Canada Set New Record in Crude Oil Production in 2025 - Industrial Inf" | kw:oil,crude
+2026-06-19 07:31 ACCEPT [Google News CB] "ECB’s Wunsch keeps July hike in play even as Iran deal eases energy pr" | kw:rice,ecb
+2026-06-19 07:31 SKIP_MORNING already_sent date=2026-06-19
