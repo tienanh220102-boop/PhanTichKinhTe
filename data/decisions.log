@@ -2609,3 +2609,16 @@
 2026-06-19 14:31 ACCEPT [Google News CB] "Fed’s Warsh Still Expects a Rate Hike This Year, Says Former Vice Chai" | kw:rate hike
 2026-06-19 14:31 SKIP_MORNING already_sent date=2026-06-19
 2026-06-19 14:31 SKIP_EVENING already_sent date=2026-06-19
+2026-06-19 15:01 ACCEPT [Google News HH] "Gold Price Analysis – Gold Drifts a Bit Lower on Juneteenth - FXEmpire" | kw:gold,rice
+2026-06-19 15:01 ACCEPT [Google News HH] "Markets Desk Update: Crude oil losses weigh on canola - Farmtario" | kw:oil,crude
+2026-06-19 15:01 ACCEPT [Google News HH] "OPEC Maintains Robust Oil Growth Forecast Over Next Four Years - Marin" | kw:oil,opec
+2026-06-19 15:01 ACCEPT [Google News KL] "No Margin For Error: How Copper Projects Lost Their Price Buffer - See" | kw:copper,rice
+2026-06-19 15:01 ACCEPT [Google News KL] "Goldman Cuts Gold Target To $4,900 As Markets Now Price Two Fed Hikes " | kw:gold,rice
+2026-06-19 15:01 ACCEPT [Google News KL] "Should You Buy This Top Silver ETF With Silver Trading Below $75 an Ou" | kw:silver
+2026-06-19 15:01 ACCEPT [Google News KL] "EZCORP (EZPW) Gains from Consumer Stress and Elevated Gold Prices - Ya" | kw:gold,rice
+2026-06-19 15:01 ACCEPT [Google News KL] "Silver Price Analysis – Silver Drifts Lower to Find Buyers in Thin Tra" | kw:silver,rice
+2026-06-19 15:01 ACCEPT [Google News KL] "Invesco targets individual savers with new gold ETC - ETF Stream" | kw:gold
+2026-06-19 15:01 ACCEPT [Google News KL] "Gold heads for third weekly loss as hawkish Fed rate bets reinforce be" | kw:gold,fed rate
+2026-06-19 15:01 ACCEPT [Google News CB] "ECB publishes supervisory banking statistics on significant institutio" | kw:ecb
+2026-06-19 15:01 SKIP_MORNING already_sent date=2026-06-19
+2026-06-19 15:01 SKIP_EVENING already_sent date=2026-06-19
