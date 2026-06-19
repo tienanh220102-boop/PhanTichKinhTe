@@ -2326,3 +2326,5 @@
 2026-06-19 00:09 ACCEPT [Google News NS] "The Tahoe Corn Palace returns to Ski Run Farmers Market for year two -" | kw:corn
 2026-06-19 00:09 ACCEPT [Google News CB] "Japan's May core inflation stays below BOJ target, fuel-induced rise e" | kw:fuel,inflation,boj
 2026-06-19 00:09 SKIP_MORNING already_sent date=2026-06-19
+2026-06-19 00:31 ACCEPT [OilPrice.com] "Forget Critical Metals, Electricity is The Real Bottleneck for AI" | kw:gold,silver
+2026-06-19 00:31 SKIP_MORNING already_sent date=2026-06-19
