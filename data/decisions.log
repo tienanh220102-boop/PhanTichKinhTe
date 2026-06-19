@@ -2355,3 +2355,11 @@
 2026-06-19 02:01 ACCEPT [Google News KL] "Gold Prices Decline Amid Fed's Tightening Stance - GuruFocus" | kw:gold,rice,tightening
 2026-06-19 02:01 ACCEPT [Google News KL] "Gold and Silver Price Forecast – Fed Hawkish Signal Pressures Metals -" | kw:gold,silver,rice
 2026-06-19 02:01 SKIP_MORNING already_sent date=2026-06-19
+2026-06-19 02:31 ACCEPT [Google News HH] "Commodities intraday targets/key levels - TradingView" | kw:commodities
+2026-06-19 02:31 ACCEPT [Google News HH] "Gold price prediction: Factors behind Gold rate crash today, what to e" | kw:gold,rice
+2026-06-19 02:31 ACCEPT [Google News HH] "Canola futures drop as Iran deal sends crude oil lower By Investing.co" | kw:oil,crude
+2026-06-19 02:31 ACCEPT [Google News HH] "CFTC Bans Ex-Celsius CEO Alex Mashinsky From Commodities Trading - Coi" | kw:commodities
+2026-06-19 02:31 ACCEPT [Google News KL] "Will gold prices repeat the crash and bear market of 2011? - Bitget" | kw:gold,rice
+2026-06-19 02:31 ACCEPT [Google News KL] "Gold and Silver Drop Sharply After Fed Signals Higher Rates for Longer" | kw:lng,gold,silver
+2026-06-19 02:31 ACCEPT [Google News CB] "BOJ to continue raising rates with eye on inflation risk, deputy gover" | kw:inflation,boj
+2026-06-19 02:31 SKIP_MORNING already_sent date=2026-06-19
