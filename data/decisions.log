@@ -2445,3 +2445,14 @@
 2026-06-19 08:01 ACCEPT [Google News CB] "Soft Japan inflation will not ease BoJ fears of falling behind the cur" | kw:inflation,boj
 2026-06-19 08:01 ACCEPT [Google News CB] "BREAKING NEWS: BOJ chief Ueda discharged from hospital: central bank -" | kw:central bank,boj
 2026-06-19 08:01 SKIP_MORNING already_sent date=2026-06-19
+2026-06-19 08:31 ACCEPT [Google News HH] "OPEC Sees Sustained Oil Demand as Policy Prioritizes Energy Security -" | kw:oil,opec
+2026-06-19 08:31 ACCEPT [Google News HH] "Gold price prediction: What's the outlook for gold prices on June 19, " | kw:gold,rice
+2026-06-19 08:31 ACCEPT [Google News CB] "Goldman Sachs Lops $500 Off Gold Target on No Fed Cuts This Year - Blo" | kw:gold
+2026-06-19 08:31 ACCEPT [Google News CB] "ECB publishes consolidated banking data for end-December 2025 - Europe" | kw:central bank,ecb
+2026-06-19 08:31 ACCEPT [Google News CB] "Governor Ueda Has Been Discharged From Hospital, BOJ Says - Bloomberg" | kw:boj
+2026-06-19 08:31 ACCEPT [Google News CB] "Gold Set for Weekly Loss as Hawkish Fed Outweighs Peace Deal - Bloombe" | kw:gold
+2026-06-19 08:31 ACCEPT [Google News CB] "BOJ’s Himino Sees Risk of Price Trend Rising Above 2% Target - Bloombe" | kw:rice,boj
+2026-06-19 08:31 ACCEPT [Google News CB] "Bank of Japan chief Ueda discharged from hospital: central bank - Japa" | kw:central bank,bank of japan
+2026-06-19 08:31 ACCEPT [Google News CB] "Warsh Loves Brevity Almost as Much as He Hates Inflation - Bloomberg" | kw:inflation
+2026-06-19 08:31 ACCEPT [Google News CB] "AU Weekly Wrap | RBA holds interest rate at 4.35% amid inflation conce" | kw:inflation,interest rate
+2026-06-19 08:31 SKIP_MORNING already_sent date=2026-06-19
