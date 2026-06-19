@@ -2412,3 +2412,9 @@
 2026-06-19 05:32 ACCEPT [Google News CB] "BOJ’s Himino sees risk of price trend rising above 2% target - The Jap" | kw:rice,boj
 2026-06-19 05:32 ACCEPT [Google News CB] "Russian central bank chief’s absence stirs succession talk - Financial" | kw:central bank
 2026-06-19 05:32 SKIP_MORNING already_sent date=2026-06-19
+2026-06-19 06:01 ACCEPT [Al Jazeera] "A world on trial: How lawyers documenting Israeli abuse pay a price" | kw:rice
+2026-06-19 06:01 ACCEPT [OilPrice.com] "80 Million Barrels of Crude Are Lined Up to Exit the Strait of Hormuz" | kw:crude
+2026-06-19 06:01 ACCEPT [Google News HH] "Global crude oil prices plummet - The Vibes" | kw:oil,crude,rice
+2026-06-19 06:01 ACCEPT [Google News NS] "King Corn and the Devilish Details - mecardo.com.au" | kw:corn
+2026-06-19 06:01 ACCEPT [Google News CB] "BOJ Policymaker Up for Multiple Rate Hikes: April Minutes - nippon.com" | kw:rate hike,boj
+2026-06-19 06:01 SKIP_MORNING already_sent date=2026-06-19
