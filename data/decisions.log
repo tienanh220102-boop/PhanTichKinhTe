@@ -2591,3 +2591,9 @@
 2026-06-19 13:53 SKIP_MORNING already_sent date=2026-06-19
 2026-06-19 13:54 DIRECTION_FIX Soybean: "tăng 0.70%" → "giảm 0.70%"
 2026-06-19 13:54 SENT_EVENING articles=20 date=2026-06-19 force=False
+2026-06-19 14:01 ACCEPT [MarketWatch] "Chip stocks are setting records, but this hidden chart pattern says mo" | kw:rice
+2026-06-19 14:01 ACCEPT [OilPrice.com] "Oil Markets Need More Than a Peace Deal to Recover" | kw:oil,rice,shipping
+2026-06-19 14:01 ACCEPT [Mining.com] "St Barbara’s 100,000 oz Nova Scotia gold hub gets green light" | kw:gold
+2026-06-19 14:01 ACCEPT [Google News KL] "EZCORP (EZPW) Gains from Consumer Stress and Elevated Gold Prices - In" | kw:gold,rice
+2026-06-19 14:01 SKIP_MORNING already_sent date=2026-06-19
+2026-06-19 14:01 SKIP_EVENING already_sent date=2026-06-19
