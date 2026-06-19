@@ -2392,3 +2392,10 @@
 2026-06-19 04:31 ACCEPT [Google News CB] "Yen nears weakest in 40 years as BOJ hike fails to stem rout - CNBC" | kw:boj
 2026-06-19 04:31 ACCEPT [Google News CB] "Russian central bank chief’s absence stirs succession talk - Financial" | kw:central bank
 2026-06-19 04:31 SKIP_MORNING already_sent date=2026-06-19
+2026-06-19 05:01 ACCEPT [Google News HH] "Gold price in India: Rates on June 19 - FXStreet" | kw:gold,rice
+2026-06-19 05:01 ACCEPT [Google News KL] "Gold on track for third weekly loss on firm dollar, hawkish Fed signal" | kw:gold
+2026-06-19 05:01 ACCEPT [Google News KL] "Gold prices decline - VnExpress International" | kw:gold,rice
+2026-06-19 05:01 ACCEPT [Google News KL] "Goldman Sachs cuts year-end gold forecast by $500 on fading Fed rate c" | kw:gold,fed rate,rate cut
+2026-06-19 05:01 ACCEPT [Google News KL] "Goldman Sachs cuts year-end gold target to $4,900 amid stable Fed rate" | kw:gold,fed rate
+2026-06-19 05:01 ACCEPT [Google News CB] "What's the HELOC and home equity loan interest rate forecast for summe" | kw:interest rate
+2026-06-19 05:01 SKIP_MORNING already_sent date=2026-06-19
