@@ -2463,3 +2463,13 @@
 2026-06-19 09:01 ACCEPT [Google News CB] "Lane Says It’s Hard to Argue That ECB Shouldn’t Have Hiked Rates - Blo" | kw:ecb
 2026-06-19 09:01 ACCEPT [Google News CB] "Gov. Ueda has been discharged from hospital, BOJ says - The Japan Time" | kw:boj
 2026-06-19 09:01 SKIP_MORNING already_sent date=2026-06-19
+2026-06-19 09:31 ACCEPT [Al Jazeera] "For one Yemeni, World Cup serves as a marker of war and peace" | kw:oil
+2026-06-19 09:31 ACCEPT [OilPrice.com] "Philippines Seeks Long-Term Oil Supply Deal With Russia" | kw:oil
+2026-06-19 09:31 ACCEPT [Google News HH] "OPEC+ to make first post-UAE production decision - Tioga Publishing" | kw:opec
+2026-06-19 09:31 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD remains a lose-lose trade despite the US-" | kw:gold,rice
+2026-06-19 09:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD falls to near $64.50 due to Fed rate hi" | kw:silver,rice,fed rate
+2026-06-19 09:31 ACCEPT [Google News KL] "Goldman Sachs lowers gold target, and Bitcoin may feel the pressure - " | kw:gold
+2026-06-19 09:31 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Truce Stability vs Policy Signa" | kw:gold,silver,rice
+2026-06-19 09:31 ACCEPT [Google News CB] "Kevin Warsh signals Fed overhaul, possible rate hikes - qz.com" | kw:rate hike
+2026-06-19 09:31 ACCEPT [Google News CB] "Europe's mid-sized inflation shock requires measured response, ECB's L" | kw:inflation,ecb
+2026-06-19 09:31 SKIP_MORNING already_sent date=2026-06-19
