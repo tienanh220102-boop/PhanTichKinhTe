@@ -2314,3 +2314,12 @@
 2026-06-18 23:31 ACCEPT [Google News KL] "Gold declines to near $4,200 as hawkish Fed stance offsets support fro" | kw:gold
 2026-06-18 23:31 ACCEPT [Google News KL] "Gold prices fall as dollar jumps on significantly hawkish Fed signals " | kw:gold,rice
 2026-06-18 23:31 ACCEPT [Google News NS] "Grain LNG opens Expression of Interest for regasification capacity ava" | kw:gas,lng
+2026-06-19 00:01 ACCEPT [OilPrice.com] "Forget Critical Metals, Electricity is The Real Bottleneck for Artific" | kw:gold,silver
+2026-06-19 00:01 ACCEPT [Mining.com] "Alamos expects lower Q2 output on Young-Davidson mine disruptions" | kw:gold
+2026-06-19 00:01 ACCEPT [Google News HH] "Commodities Recap For The Week As Of June 18, 2026 (NYSEARCA:DBC) - Se" | kw:commodities
+2026-06-19 00:01 ACCEPT [Google News KL] "TSX falls for second day on lower oil and gold prices - Reuters" | kw:oil,gold,rice
+2026-06-19 00:01 ACCEPT [Google News KL] "JPMorgan's Latest Forecasts Are Bullish for Gold: Buy the Dip - Yahoo " | kw:gold
+2026-06-19 00:01 ACCEPT [Google News NS] "Corn and soybeans move lower heading into the long weekend - Brownfiel" | kw:corn,soybean
+2026-06-19 00:01 ACCEPT [Google News CB] "Warsh Loves Brevity Almost as Much as He Hates Inflation - Bloomberg.c" | kw:inflation
+2026-06-19 00:03 DIRECTION_FIX Copper: "tăng 1.76%" → "giảm 1.76%"
+2026-06-19 00:03 SENT_MORNING articles=20 date=2026-06-19 force=False
