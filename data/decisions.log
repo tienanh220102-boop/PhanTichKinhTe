@@ -2385,3 +2385,10 @@
 2026-06-19 04:01 ACCEPT [Google News CB] "Goldman Sachs Lops $500 Off Gold Target on No Fed Cuts This Year - Blo" | kw:gold
 2026-06-19 04:01 ACCEPT [Google News CB] "Despite Donald Trump’s new fed chair, interest rates might go up - WAM" | kw:interest rate
 2026-06-19 04:01 SKIP_MORNING already_sent date=2026-06-19
+2026-06-19 04:31 ACCEPT [Google News KL] "Gold heads for third weekly loss on firm dollar, hawkish Fed signals -" | kw:gold
+2026-06-19 04:31 ACCEPT [Google News KL] "2026 Silver Price Forecast: US-Iran Conflict May End, Can Silver Retur" | kw:silver,rice
+2026-06-19 04:31 ACCEPT [Google News KL] "Gold Forecast 19/06: Sees Falling Prices (Video) - DailyForex" | kw:gold,rice
+2026-06-19 04:31 ACCEPT [Google News CB] "BOJ Deputy Governor Warns of Risk from Delaying Rate Hikes - WSJ" | kw:rate hike,boj
+2026-06-19 04:31 ACCEPT [Google News CB] "Yen nears weakest in 40 years as BOJ hike fails to stem rout - CNBC" | kw:boj
+2026-06-19 04:31 ACCEPT [Google News CB] "Russian central bank chief’s absence stirs succession talk - Financial" | kw:central bank
+2026-06-19 04:31 SKIP_MORNING already_sent date=2026-06-19
