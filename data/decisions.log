@@ -2597,3 +2597,15 @@
 2026-06-19 14:01 ACCEPT [Google News KL] "EZCORP (EZPW) Gains from Consumer Stress and Elevated Gold Prices - In" | kw:gold,rice
 2026-06-19 14:01 SKIP_MORNING already_sent date=2026-06-19
 2026-06-19 14:01 SKIP_EVENING already_sent date=2026-06-19
+2026-06-19 14:31 ACCEPT [Google News HH] "Crude Oil Pressure Eases Only if U.S. Iran Nuclear Negotiations Hold O" | kw:oil,crude
+2026-06-19 14:31 ACCEPT [Google News HH] "WTI Crude Oil: Elliott Wave Analysis and Forecast for 19.06.26–26.06.2" | kw:oil,crude,wti
+2026-06-19 14:31 ACCEPT [Google News HH] "FMCG Prices Unlikely To Fall Despite Crude Oil Dropping Below $80 Per " | kw:oil,crude,rice
+2026-06-19 14:31 ACCEPT [Google News HH] "Iran demands permission for Strait transit as uncertainty prevails - Q" | kw:commodity
+2026-06-19 14:31 ACCEPT [Google News KL] "Goldman Cuts Gold Target To $4,900 As Markets Now See Two Fed Hikes - " | kw:gold
+2026-06-19 14:31 ACCEPT [Google News KL] "Warsh Deals Gold a Surprise Blow. Forecast as of 19.06.2026 - LiteFina" | kw:gold
+2026-06-19 14:31 ACCEPT [Google News KL] "Gold and silver prices decline amid market fluctuations - AzerNews" | kw:gold,silver,rice
+2026-06-19 14:31 ACCEPT [Google News CB] "Russia Central Bank Cuts Rate By 25 Bps - RTTNews" | kw:central bank
+2026-06-19 14:31 ACCEPT [Google News CB] "BOJ Gov. Ueda Discharged from Hospital - nippon.com" | kw:boj
+2026-06-19 14:31 ACCEPT [Google News CB] "Fed’s Warsh Still Expects a Rate Hike This Year, Says Former Vice Chai" | kw:rate hike
+2026-06-19 14:31 SKIP_MORNING already_sent date=2026-06-19
+2026-06-19 14:31 SKIP_EVENING already_sent date=2026-06-19
