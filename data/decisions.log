@@ -2399,3 +2399,16 @@
 2026-06-19 05:01 ACCEPT [Google News KL] "Goldman Sachs cuts year-end gold target to $4,900 amid stable Fed rate" | kw:gold,fed rate
 2026-06-19 05:01 ACCEPT [Google News CB] "What's the HELOC and home equity loan interest rate forecast for summe" | kw:interest rate
 2026-06-19 05:01 SKIP_MORNING already_sent date=2026-06-19
+2026-06-19 05:31 ACCEPT [Al Jazeera] "Mexico beat South Korea 1-0, become first team to reach World Cup knoc" | kw:oil
+2026-06-19 05:31 ACCEPT [Google News HH] "OPEC: Global oil demand to reach 113.3M bpd by 2030 - AzerNews" | kw:oil,opec
+2026-06-19 05:31 ACCEPT [Google News HH] "OPEC Lowers Second-Quarter Global Oil Demand Forecast on Iran War - En" | kw:oil,opec,lng
+2026-06-19 05:31 ACCEPT [Google News HH] "Gold price in Philippines: Rates on June 19 - FXStreet" | kw:gold,rice
+2026-06-19 05:31 ACCEPT [Google News HH] "Will Falling Oil Prices Trigger a Gold Price Rally? Expert Is Bullish!" | kw:oil,gold,rice
+2026-06-19 05:31 ACCEPT [Google News HH] "Crude Oil Futures Separate From Reality as Asia Physical Market Buckle" | kw:oil,crude
+2026-06-19 05:31 ACCEPT [Google News HH] "Crude Oil Prices Fall on US-Iran Peace Deal - TradingView" | kw:oil,crude,rice
+2026-06-19 05:31 ACCEPT [Google News KL] "Gold prices fall 2.17 percent to $4,134, head for third straight weekl" | kw:gold,rice,fed rate
+2026-06-19 05:31 ACCEPT [Google News KL] "Invesco Gold & Special Minerals Fund Q1 2026 Commentary (Mutual Fund:O" | kw:gold
+2026-06-19 05:31 ACCEPT [Google News KL] "Goldman Sachs lowers its gold price target to $4,900 per ounce, expect" | kw:gold,rice,interest rate
+2026-06-19 05:31 ACCEPT [Google News CB] "BOJ’s Himino Sees Risk of Price Trend Rising Above 2% Target - Bloombe" | kw:rice,boj
+2026-06-19 05:31 ACCEPT [Google News CB] "BOJ’s Himino sees risk of price trend rising above 2% target - The Jap" | kw:rice,boj
+2026-06-19 05:31 SKIP_MORNING already_sent date=2026-06-19
