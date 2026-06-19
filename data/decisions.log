@@ -2425,3 +2425,7 @@
 2026-06-19 06:31 ACCEPT [Google News CB] "ECB’s Wunsch keeps July hike in play even as Iran deal eases energy pr" | kw:rice,gdp,ecb
 2026-06-19 06:31 ACCEPT [Google News CB] "ECB's Wunsch comments in Reuters interview - Reuters" | kw:ecb
 2026-06-19 06:31 SKIP_MORNING already_sent date=2026-06-19
+2026-06-19 07:01 ACCEPT [Al Jazeera] "Mexico beat South Korea, become first team to reach World Cup knockout" | kw:oil
+2026-06-19 07:01 ACCEPT [Google News HH] "ASIA GOLD Price volatility keeps India demand modest, China flips to d" | kw:gold,rice
+2026-06-19 07:01 ACCEPT [Google News HH] "OPEC Fund and CGIAR deepen agriculture partnership - Africa Business C" | kw:opec,lng
+2026-06-19 07:01 SKIP_MORNING already_sent date=2026-06-19
