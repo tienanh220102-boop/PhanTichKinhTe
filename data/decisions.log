@@ -2473,3 +2473,16 @@
 2026-06-19 09:31 ACCEPT [Google News CB] "Kevin Warsh signals Fed overhaul, possible rate hikes - qz.com" | kw:rate hike
 2026-06-19 09:31 ACCEPT [Google News CB] "Europe's mid-sized inflation shock requires measured response, ECB's L" | kw:inflation,ecb
 2026-06-19 09:31 SKIP_MORNING already_sent date=2026-06-19
+2026-06-19 10:01 ACCEPT [Al Jazeera] "US export ban on Anthropic’s AI models further strains alliances" | kw:export ban
+2026-06-19 10:01 ACCEPT [Google News HH] "OPEC Sees No Peak Oil Demand as Energy Security Beats Climate - Energy" | kw:oil,opec
+2026-06-19 10:01 ACCEPT [Google News HH] "Crude Oil Consolidates After Breakdown as Geopolitical Tensions Lift V" | kw:oil,crude
+2026-06-19 10:01 ACCEPT [Google News HH] "Gold Price Forecast: XAUUSD Breakdown Risk Grows as Dollar Clears 100 " | kw:gold,rice
+2026-06-19 10:01 ACCEPT [Google News KL] "Silver price today: falls on June 19 - FXStreet" | kw:silver,rice
+2026-06-19 10:01 ACCEPT [Google News KL] "Golden Cariboo Resources Positions for Resource Growth Amid Gold Marke" | kw:gold
+2026-06-19 10:01 ACCEPT [Google News KL] "Goldman Cuts Gold Forecast by $500 as Fed Holds Rates - Bitbo" | kw:gold
+2026-06-19 10:01 ACCEPT [Google News KL] "Hawkish Fed signals send gold to third straight weekly loss - marketsc" | kw:gold
+2026-06-19 10:01 ACCEPT [Google News KL] "Copper price repeats the negative closes– Forecast today – 19-6-2026 -" | kw:copper,rice
+2026-06-19 10:01 ACCEPT [Google News NS] "S&P Global: Ukraine corn prices fall as wheat markets watch harvests -" | kw:wheat,corn,rice
+2026-06-19 10:01 ACCEPT [Google News CB] "Yen teeters on cusp of 40-year low as BOJ hike fails to stem rout - Re" | kw:boj
+2026-06-19 10:01 ACCEPT [Google News CB] "Bank of Japan chief Ueda discharged from hospital after missing policy" | kw:bank of japan
+2026-06-19 10:01 SKIP_MORNING already_sent date=2026-06-19
