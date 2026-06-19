@@ -2323,3 +2323,6 @@
 2026-06-19 00:01 ACCEPT [Google News CB] "Warsh Loves Brevity Almost as Much as He Hates Inflation - Bloomberg.c" | kw:inflation
 2026-06-19 00:03 DIRECTION_FIX Copper: "tăng 1.76%" → "giảm 1.76%"
 2026-06-19 00:03 SENT_MORNING articles=20 date=2026-06-19 force=False
+2026-06-19 00:09 ACCEPT [Google News NS] "The Tahoe Corn Palace returns to Ski Run Farmers Market for year two -" | kw:corn
+2026-06-19 00:09 ACCEPT [Google News CB] "Japan's May core inflation stays below BOJ target, fuel-induced rise e" | kw:fuel,inflation,boj
+2026-06-19 00:09 SKIP_MORNING already_sent date=2026-06-19
