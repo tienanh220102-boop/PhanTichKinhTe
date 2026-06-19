@@ -2622,3 +2622,15 @@
 2026-06-19 15:01 ACCEPT [Google News CB] "ECB publishes supervisory banking statistics on significant institutio" | kw:ecb
 2026-06-19 15:01 SKIP_MORNING already_sent date=2026-06-19
 2026-06-19 15:01 SKIP_EVENING already_sent date=2026-06-19
+2026-06-19 15:31 ACCEPT [OilPrice.com] "Equinor to Boost Troll Gas Output with $412 Million Subsea Development" | kw:gas
+2026-06-19 15:31 ACCEPT [Google News HH] "Gold Is Down Today. The US Market Isn’t Open Yet. - GoldSilver" | kw:gold,silver
+2026-06-19 15:31 ACCEPT [Google News HH] "Crude Oil Price Analysis – Crude Oil Quiet in Holiday Session - FXEmpi" | kw:oil,crude,rice
+2026-06-19 15:31 ACCEPT [Google News HH] "Crude Oil has the right glut on the wrong calendar - FXStreet" | kw:oil,crude
+2026-06-19 15:31 ACCEPT [Google News KL] "Gold finds itself in a worse place, if you trust Kevin Warsh - investi" | kw:gold
+2026-06-19 15:31 ACCEPT [Google News CB] "Student loan borrowers can get a 1% interest rate cut with one simple " | kw:interest rate,rate cut
+2026-06-19 15:31 ACCEPT [Google News CB] "Russian central bank cuts benchmark interest rate - Yahoo Finance" | kw:central bank,interest rate
+2026-06-19 15:31 ACCEPT [Google News CB] "Top Links 1137 Central bank divergence. Five-nines tungsten hexafluori" | kw:central bank
+2026-06-19 15:31 ACCEPT [Google News CB] "BOJ Gov. Ueda Discharged from Hospital - nippon.com" | kw:boj
+2026-06-19 15:31 ACCEPT [Google News CB] "Russian central bank trims rate by 25 bps to 14.25% amid fuel supply, " | kw:fuel,central bank
+2026-06-19 15:31 SKIP_MORNING already_sent date=2026-06-19
+2026-06-19 15:31 SKIP_EVENING already_sent date=2026-06-19
