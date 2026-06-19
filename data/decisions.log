@@ -2493,3 +2493,9 @@
 2026-06-19 10:14 ACCEPT [Google News KL] "New Found Gold: Bright Future With Stable Spot Prices (NYSE:NFGC) - Se" | kw:gold,rice
 2026-06-19 10:14 ACCEPT [Google News KL] "[SMM Analysis] LME Copper Prices Fluctuate at Highs; Procurement Slows" | kw:copper,rice
 2026-06-19 10:14 SKIP_MORNING already_sent date=2026-06-19
+2026-06-19 10:31 ACCEPT [OilPrice.com] "India Orders Major Strategic Oil Reserve Expansion After Supply Crisis" | kw:oil,petroleum,gas
+2026-06-19 10:31 ACCEPT [NASDAQ Commod] "Gold On Track For Third Weekly Loss On Rate Hike Concerns" | kw:gold,rice,inflation
+2026-06-19 10:31 ACCEPT [NASDAQ Commod] "Oil Set For Steep Weekly Loss As Hormuz Traffic Resumes" | kw:oil,rice
+2026-06-19 10:31 ACCEPT [Google News KL] "Hawkish Fed signals send gold to third straight weekly loss - Reuters" | kw:gold
+2026-06-19 10:31 ACCEPT [ECB Press] "Piero Cipollone: The foundations of national sovereignty: the role of " | kw:central bank
+2026-06-19 10:31 SKIP_MORNING already_sent date=2026-06-19
