@@ -2634,3 +2634,13 @@
 2026-06-19 15:31 ACCEPT [Google News CB] "Russian central bank trims rate by 25 bps to 14.25% amid fuel supply, " | kw:fuel,central bank
 2026-06-19 15:31 SKIP_MORNING already_sent date=2026-06-19
 2026-06-19 15:31 SKIP_EVENING already_sent date=2026-06-19
+2026-06-19 16:01 ACCEPT [Al Jazeera] "Petrol shortages and ‘oil rain’ bring Russia-Ukraine war home to Mosco" | kw:oil,shortage
+2026-06-19 16:01 ACCEPT [OilPrice.com] "Insurers Roll Out $400 Million War-Risk Facility for Hormuz Shipping" | kw:shipping
+2026-06-19 16:01 ACCEPT [Mining.com] "Alamos expects guidance miss on Young-Davidson mine disruptions" | kw:gold
+2026-06-19 16:01 ACCEPT [Google News HH] "Crude oil forecast: Hezbollah and Israel ceasefire could add further p" | kw:oil,crude
+2026-06-19 16:01 ACCEPT [Google News HH] "New report maps East African Crude Oil Pipeline through black rhino ra" | kw:oil,crude
+2026-06-19 16:01 ACCEPT [Google News KL] "Gold Hit the Brakes Hardest Since 1981 on Warsh's 'Hawkish' US Fed - B" | kw:gold
+2026-06-19 16:01 ACCEPT [Google News KL] "Gold prices are down but SocGen is buying the dip - KITCO" | kw:gold,rice
+2026-06-19 16:01 ACCEPT [Google News NS] "China's US Soybean Pledge Faces a 10-Million-Ton Credibility Test - St" | kw:soybean
+2026-06-19 16:01 SKIP_MORNING already_sent date=2026-06-19
+2026-06-19 16:01 SKIP_EVENING already_sent date=2026-06-19
