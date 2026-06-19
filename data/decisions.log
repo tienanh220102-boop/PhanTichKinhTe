@@ -2499,3 +2499,20 @@
 2026-06-19 10:31 ACCEPT [Google News KL] "Hawkish Fed signals send gold to third straight weekly loss - Reuters" | kw:gold
 2026-06-19 10:31 ACCEPT [ECB Press] "Piero Cipollone: The foundations of national sovereignty: the role of " | kw:central bank
 2026-06-19 10:31 SKIP_MORNING already_sent date=2026-06-19
+2026-06-19 11:01 ACCEPT [Google News HH] "OPEC chief dismisses IEA supply glut forecast as 'critical' Strait of " | kw:opec
+2026-06-19 11:01 ACCEPT [Google News HH] "The future according to Opec - Financial Times" | kw:opec
+2026-06-19 11:01 ACCEPT [Google News HH] "UAE’s post-OPEC expansion push to lift oil output above 5 million bpd " | kw:oil,opec
+2026-06-19 11:01 ACCEPT [Google News HH] "Crude Oil Price Hike Breaking News Live: Iran-US War के बीच बड़ी खबर| " | kw:oil,crude,rice
+2026-06-19 11:01 ACCEPT [Google News KL] "Gold Set for Third Weekly Loss as Fed Rate Outlook Supports Dollar - Y" | kw:gold,fed rate
+2026-06-19 11:01 ACCEPT [Google News KL] "Gold Forecast 19/06: Sees Falling Prices (Video) - Daily Forex" | kw:gold,rice
+2026-06-19 11:01 ACCEPT [Google News KL] "Goldman Sachs cuts year-end gold target by $500, doubting rate cuts - " | kw:gold,rate cut
+2026-06-19 11:01 ACCEPT [Google News KL] "No margin for error: How copper projects lost their price buffer - S&P" | kw:copper,rice
+2026-06-19 11:01 ACCEPT [Google News KL] "Silver Price Forecast: $66.50 Breakout Blueprint Eyes Major Support Zo" | kw:silver,rice,fomc
+2026-06-19 11:01 ACCEPT [Google News NS] "USITC to Review Phosphate Fertilizer Duties as Corn Growers Push for R" | kw:corn
+2026-06-19 11:01 ACCEPT [Google News CB] "Russia’s Central Bank Cuts Key Rate After Economy Contracts - WSJ" | kw:central bank
+2026-06-19 11:01 ACCEPT [Google News CB] "ECB publishes supervisory banking statistics on significant institutio" | kw:ecb
+2026-06-19 11:01 ACCEPT [Google News CB] "Lane Says It’s Hard to Argue That ECB Shouldn’t Have Hiked Rates - Blo" | kw:ecb
+2026-06-19 11:01 ACCEPT [Google News CB] "Central bank divergence. Five-nines tungsten hexafluoride. The Shou-Fa" | kw:central bank
+2026-06-19 11:01 ACCEPT [Google News CB] "Czech Billionaire Premier Feuds With Central Bank Over Rate Hike - Blo" | kw:central bank,rate hike
+2026-06-19 11:01 ACCEPT [Google News CB] "Interest rate cut not likely on the table, even after Iran deal and so" | kw:oil,rice,interest rate
+2026-06-19 11:01 SKIP_MORNING already_sent date=2026-06-19
