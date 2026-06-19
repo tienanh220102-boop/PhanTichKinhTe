@@ -2418,3 +2418,10 @@
 2026-06-19 06:01 ACCEPT [Google News NS] "King Corn and the Devilish Details - mecardo.com.au" | kw:corn
 2026-06-19 06:01 ACCEPT [Google News CB] "BOJ Policymaker Up for Multiple Rate Hikes: April Minutes - nippon.com" | kw:rate hike,boj
 2026-06-19 06:01 SKIP_MORNING already_sent date=2026-06-19
+2026-06-19 06:31 ACCEPT [OilPrice.com] "Oil Prices Rebound as U.S.-Iran Peace Talks Are Postponed" | kw:oil,crude,brent
+2026-06-19 06:31 ACCEPT [Google News HH] "ANZ Sees Brent Crude Oil To End Q2 2026 At $80/Bbl - TradingView" | kw:oil,crude,brent
+2026-06-19 06:31 ACCEPT [Google News KL] "Gold Prices Decline as Goldman Sachs Lowers Year-End Forecast - aju pr" | kw:gold,rice
+2026-06-19 06:31 ACCEPT [Google News KL] "Gold prices fall 2.17 percent to $4,134, head for third straight weekl" | kw:gold,rice,fed rate
+2026-06-19 06:31 ACCEPT [Google News CB] "ECB’s Wunsch keeps July hike in play even as Iran deal eases energy pr" | kw:rice,gdp,ecb
+2026-06-19 06:31 ACCEPT [Google News CB] "ECB's Wunsch comments in Reuters interview - Reuters" | kw:ecb
+2026-06-19 06:31 SKIP_MORNING already_sent date=2026-06-19
