@@ -2434,3 +2434,14 @@
 2026-06-19 07:31 ACCEPT [Google News HH] "Canada Set New Record in Crude Oil Production in 2025 - Industrial Inf" | kw:oil,crude
 2026-06-19 07:31 ACCEPT [Google News CB] "ECB’s Wunsch keeps July hike in play even as Iran deal eases energy pr" | kw:rice,ecb
 2026-06-19 07:31 SKIP_MORNING already_sent date=2026-06-19
+2026-06-19 08:01 ACCEPT [OilPrice.com] "India Isn’t Rushing Back to Middle Eastern Oil Despite Hormuz Reopenin" | kw:oil,crude
+2026-06-19 08:01 ACCEPT [Google News HH] "Gold Price Decline 2026: JPMorgan Revises Forecast to $5,243, Sees Buy" | kw:gold,rice
+2026-06-19 08:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD holds losses near $64.50 as US-Iran pea" | kw:silver,rice
+2026-06-19 08:01 ACCEPT [Google News NS] "Decline in wheat bran prices resumes on Ukraine’s export market – APK-" | kw:wheat,rice
+2026-06-19 08:01 ACCEPT [ECB Press] "ECB publishes consolidated banking data for end-December 2025" | kw:ecb
+2026-06-19 08:01 ACCEPT [Google News CB] "BOJ may raise interest rates twice by March, says ex-BOJ policymaker -" | kw:interest rate,boj
+2026-06-19 08:01 ACCEPT [Google News CB] "Governor Ueda Has Been Discharged From Hospital, BOJ Says - Bloomberg." | kw:boj
+2026-06-19 08:01 ACCEPT [Google News CB] "Bank of Japan Governor Ueda discharged from hospital - Reuters" | kw:bank of japan
+2026-06-19 08:01 ACCEPT [Google News CB] "Soft Japan inflation will not ease BoJ fears of falling behind the cur" | kw:inflation,boj
+2026-06-19 08:01 ACCEPT [Google News CB] "BREAKING NEWS: BOJ chief Ueda discharged from hospital: central bank -" | kw:central bank,boj
+2026-06-19 08:01 SKIP_MORNING already_sent date=2026-06-19
