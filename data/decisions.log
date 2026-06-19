@@ -2337,3 +2337,12 @@
 2026-06-19 01:01 ACCEPT [Google News CB] "Asia FX Talk - Asian central banks tighten policy amidst hawkish Fed a" | kw:central bank
 2026-06-19 01:01 ACCEPT [Google News CB] "BOJ’s Himino Notes Risk of Price Trend Rising Above 2% Target - Bloomb" | kw:rice,boj
 2026-06-19 01:01 SKIP_MORNING already_sent date=2026-06-19
+2026-06-19 01:31 ACCEPT [Google News HH] "OPEC World Oil Outlook 2026: Key Projections and Investment Needs - Ne" | kw:oil,opec
+2026-06-19 01:31 ACCEPT [Google News HH] "Crude Oil vs Brent Oil Spread c1 News - Investing.com" | kw:oil,crude,brent
+2026-06-19 01:31 ACCEPT [Google News HH] "Australian shares fall on weaker commodities; on track for second week" | kw:commodities
+2026-06-19 01:31 ACCEPT [Google News KL] "Silver Price Forecast: Hawkish Fed Puts $60 Support in Focus - FXEmpir" | kw:silver,rice
+2026-06-19 01:31 ACCEPT [Google News NS] "Wheat Markets Unmoved by US-Iran Peace Deal as Harvest and Freight Tak" | kw:wheat,freight,harvest
+2026-06-19 01:31 ACCEPT [Google News CB] "BOJ deputy governor Himino signals resolve to keep raising rates - Reu" | kw:boj
+2026-06-19 01:31 ACCEPT [Google News CB] "Gold Set for Weekly Loss as Hawkish Fed Outweighs Peace Deal - Bloombe" | kw:gold
+2026-06-19 01:31 ACCEPT [Google News CB] "Gold on track for third weekly loss on firm dollar, hawkish Fed signal" | kw:gold
+2026-06-19 01:31 SKIP_MORNING already_sent date=2026-06-19
