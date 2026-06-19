@@ -2581,3 +2581,13 @@
 2026-06-19 13:31 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
 2026-06-19 13:31 GEMINI ERROR gemini-2.5-flash-lite This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
 2026-06-19 13:31 SKIP_EVENING gemini_no_result date=2026-06-19
+2026-06-19 13:53 ACCEPT [NASDAQ Commod] "Infographic: Batteries Absorb 88 Percent of Global Lithium Supply" | kw:commodity
+2026-06-19 13:53 ACCEPT [Google News HH] "Markets Desk Update: Crude oil losses weigh on canola - The Western Pr" | kw:oil,crude
+2026-06-19 13:53 ACCEPT [Google News KL] "🚩 Gold loses 1.5% as Goldman Sachs cuts its 2026 bullion price target " | kw:gold,rice
+2026-06-19 13:53 ACCEPT [Google News NS] "Ethanol eyes ocean shipping as next big market for corn - Farm Progres" | kw:corn,shipping
+2026-06-19 13:53 ACCEPT [Google News NS] "Wheat crop off to a rough start to the 2026 growing season - AgUpdate" | kw:wheat
+2026-06-19 13:53 ACCEPT [Google News CB] "ECB publishes supervisory banking statistics on significant institutio" | kw:ecb
+2026-06-19 13:53 ACCEPT [Google News CB] "Week Ahead for FX, Bonds: U.S. Inflation Data in Focus as Prospects of" | kw:inflation,fed rate,rate hike
+2026-06-19 13:53 SKIP_MORNING already_sent date=2026-06-19
+2026-06-19 13:54 DIRECTION_FIX Soybean: "tăng 0.70%" → "giảm 0.70%"
+2026-06-19 13:54 SENT_EVENING articles=20 date=2026-06-19 force=False
