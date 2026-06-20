@@ -2845,3 +2845,5 @@
 2026-06-20 01:01 ACCEPT [Google News NS] "Rain in the Plains Make Grain, So Bears Are in Control of Corn, Soybea" | kw:wheat,corn,soybean
 2026-06-20 01:01 ACCEPT [Google News CB] "Yen teeters on cusp of 40-year low as BOJ hike fails to stem rout - Ho" | kw:boj
 2026-06-20 01:01 SKIP_MORNING already_sent date=2026-06-20
+2026-06-20 01:31 ACCEPT [Google News KL] "Gold price today: Will gold crash into bear market territory, fall bel" | kw:gold,rice
+2026-06-20 01:31 SKIP_MORNING already_sent date=2026-06-20
