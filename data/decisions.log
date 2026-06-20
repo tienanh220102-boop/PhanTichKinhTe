@@ -2826,5 +2826,5 @@
 2026-06-19 23:31 ACCEPT [Google News KL] "Gold Silver Price Hike: आज से सोना-चांदी हुआ महंगा |Sona-Chandi | PM M" | kw:gold,silver,rice
 2026-06-20 00:01 ACCEPT [Al Jazeera] "US judge rejects Joe Biden’s lawsuit asking to withhold memoir recordi" | kw:easing
 2026-06-20 00:01 ACCEPT [Google News KL] "Precious Metals Update: Gold Volatility, Silver Spike Risk, and Fed Po" | kw:gold,silver
-2026-06-20 00:02 DIRECTION_FIX Soybean: "tăng 0.70%" → "giảm 0.70%"
+2026-06-20 00:02 DIRECTION_FIX Soybean: "tăng 0,70%" → "giảm 0,70%"
 2026-06-20 00:02 SENT_MORNING articles=20 date=2026-06-20 force=False
