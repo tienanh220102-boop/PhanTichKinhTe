@@ -3071,3 +3071,8 @@
 2026-06-20 16:12 ACCEPT [Google News NS] "Is the 2026 soybean rally over? - MSN" | kw:soybean
 2026-06-20 16:12 SKIP_MORNING already_sent date=2026-06-20
 2026-06-20 16:12 SKIP_EVENING already_sent date=2026-06-20
+2026-06-20 16:31 ACCEPT [Google News HH] "No real spike in petrol, diesel prices in India despite global crude o" | kw:oil,crude,rice
+2026-06-20 16:31 ACCEPT [Google News NS] "Agric. & Environment: Kenyan grain buyers in Uganda in searc - NewVisi" | kw:iron
+2026-06-20 16:31 ACCEPT [Google News CB] "Fed Projects Rate Hike by September 2026 as Inflation Stays Elevated -" | kw:inflation,rate hike
+2026-06-20 16:31 SKIP_MORNING already_sent date=2026-06-20
+2026-06-20 16:31 SKIP_EVENING already_sent date=2026-06-20
