@@ -2895,3 +2895,6 @@
 2026-06-20 06:01 ACCEPT [Google News HH] "Trump taps former commodities regulator, ex-personal attorney as US at" | kw:commodities
 2026-06-20 06:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG Slides Below Key 200-Day SMA, Bears Target " | kw:silver,rice
 2026-06-20 06:01 SKIP_MORNING already_sent date=2026-06-20
+2026-06-20 06:31 ACCEPT [Google News HH] "OPEC maintains an optimistic outlook on medium and long-term oil deman" | kw:oil,opec
+2026-06-20 06:31 ACCEPT [Google News CB] "Bank Of Canada Holds Interest Rate At 2.25 Per Cent – April 29, 2026 K" | kw:interest rate
+2026-06-20 06:31 SKIP_MORNING already_sent date=2026-06-20
