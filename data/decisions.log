@@ -2974,3 +2974,12 @@
 2026-06-20 11:31 ACCEPT [Google News NS] "Grain SA warns wheat sector at risk after tariff ruling - Milling Midd" | kw:wheat,tariff
 2026-06-20 11:31 ACCEPT [Google News CB] "Blue Sky Farm’s annual fundraiser is June 27 - ECB Publishing, Inc." | kw:ecb
 2026-06-20 11:31 SKIP_MORNING already_sent date=2026-06-20
+2026-06-20 12:01 ACCEPT [Google News HH] "Illinois-Produced Crude Oil Plunges - wfiwradio.com" | kw:oil,crude
+2026-06-20 12:01 ACCEPT [Google News HH] "OPEC projects long‑term oil demand growth, led by Asia - 巴士的報" | kw:oil,opec
+2026-06-20 12:01 ACCEPT [Google News HH] "Gold prices rise - VnExpress International" | kw:gold,rice
+2026-06-20 12:01 ACCEPT [Google News HH] "Goldman Sachs ने भारतीय मार्केट को डाउनग्रेड किया! | Nifty Prediction " | kw:oil,crude,gold
+2026-06-20 12:01 ACCEPT [Google News KL] "Gold, silver prices slip marginally on Saturday - The Tribune" | kw:gold,silver,rice
+2026-06-20 12:01 ACCEPT [Google News KL] "Gold Price May 11 2026 (0rtNAw4yEb) - Mshale" | kw:gold,rice
+2026-06-20 12:01 ACCEPT [Google News NS] "Grain SA Rejects Wheat Tariff Decision: ‘SA Cannot Afford to Lose Its " | kw:wheat,tariff
+2026-06-20 12:01 ACCEPT [Google News CB] "South Korea's AI chip bonuses are about to become a monetary policy pr" | kw:monetary policy
+2026-06-20 12:01 SKIP_MORNING already_sent date=2026-06-20
