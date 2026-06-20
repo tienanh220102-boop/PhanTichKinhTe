@@ -2983,3 +2983,8 @@
 2026-06-20 12:01 ACCEPT [Google News NS] "Grain SA Rejects Wheat Tariff Decision: ‘SA Cannot Afford to Lose Its " | kw:wheat,tariff
 2026-06-20 12:01 ACCEPT [Google News CB] "South Korea's AI chip bonuses are about to become a monetary policy pr" | kw:monetary policy
 2026-06-20 12:01 SKIP_MORNING already_sent date=2026-06-20
+2026-06-20 12:24 ACCEPT [Google News NS] "Soybean Futures Drop as Market Anticipates Export Data - HarianBasis.c" | kw:soybean
+2026-06-20 12:24 ACCEPT [Google News NS] "US Wheat Futures Prices Slide Lower 18 June 2026 - HarianBasis.co" | kw:wheat,rice
+2026-06-20 12:24 ACCEPT [Google News NS] "Will Soybeans Trade in the Teens in 2026? - sekbernews.id" | kw:soybean
+2026-06-20 12:24 ACCEPT [Google News CB] "Graduation congratulations to William Reese Alan Madison - ECB Publish" | kw:ecb
+2026-06-20 12:24 SKIP_MORNING already_sent date=2026-06-20
