@@ -2998,3 +2998,14 @@
 2026-06-20 13:02 DIRECTION_FIX Copper: "tăng 0.76%" → "giảm 0.76%"
 2026-06-20 13:02 DIRECTION_FIX Soybean: "tăng 0.7%" → "giảm 0.7%"
 2026-06-20 13:02 SENT_EVENING articles=20 date=2026-06-20 force=False
+2026-06-20 13:31 ACCEPT [Al Jazeera] "In Nepal’s highlands, climate change threatens Tibet’s Bon faith" | kw:flood
+2026-06-20 13:31 ACCEPT [Google News HH] "Gold price drops by Tk6,590 per bhori in two phases - The Business Sta" | kw:gold,rice
+2026-06-20 13:31 ACCEPT [Google News KL] "Gold Bear Market: Time to Buy This Top Gold Stock/ETF - The Globe and " | kw:gold
+2026-06-20 13:31 ACCEPT [Google News NS] "Corn Growers Continue Engagement in Ongoing Fertilizer Tariff Developm" | kw:corn,tariff
+2026-06-20 13:31 ACCEPT [Google News NS] "Grain SA mulls measures to appeal govt’s decision to keep wheat refere" | kw:wheat,rice
+2026-06-20 13:31 ACCEPT [Google News CB] "Warsh's gamble: A quieter Federal Reserve could mean volatile markets," | kw:wti,federal reserve
+2026-06-20 13:31 ACCEPT [Google News CB] "The Fed's Latest Inflation Outlook Offers Wall Street Its First Relief" | kw:inflation
+2026-06-20 13:31 ACCEPT [Google News CB] "Gold & Silver Fall on Fed Fears, but Bulls Stay Confident - SD Bullion" | kw:gold,silver
+2026-06-20 13:31 ACCEPT [Google News CB] "Understanding Bank Of Canada's Interest Rate Hikes: How It Affects The" | kw:interest rate,rate hike
+2026-06-20 13:31 SKIP_MORNING already_sent date=2026-06-20
+2026-06-20 13:31 SKIP_EVENING already_sent date=2026-06-20
