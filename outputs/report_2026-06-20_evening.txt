@@ -1,0 +1,99 @@
+[BẢNG SỐ LIỆU]
+               Giá   Phiên  5 phiên
+WTI          76.54   -0.1%    -9.8%
+Brent        80.59   +0.9%    -7.7%
+Khí TN       3.198   -1.1%    +2.5%
+Vàng      4,172.90   -1.2%    -1.0%
+Bạc          64.91   -2.0%    -4.3%
+Đồng         6.337   -0.6%    -1.4%
+Ngô         417.50   -0.8%    +1.4%
+Lúa mì      605.75   -1.1%    +3.2%
+Đậu t.    1,122.75   -0.8%    +0.7%
+DXY         100.85   +0.8%    +1.0%
+
+[LIÊN THỊ TRƯỜNG]
+  Brent−WTI: $4.05 (1 tháng trước: $6.76) — spread rộng = cung WTI dồi dào tương đối
+  Vàng/Bạc: 64.3 (1 tháng trước: 59.7) — tỷ lệ cao = bạc rẻ tương đối so với vàng
+  Đồng/Vàng (×1000): 1.52 (1 tháng trước: 1.39) — tăng = risk-on/kỳ vọng tăng trưởng
+
+[VỊ THẾ QUỸ ĐẦU CƠ — CFTC COT tuần 2026-06-09]
+  Lúa mì (SRW): NET SHORT -57,853 (Δ tuần: -17,091)
+  Ngô: NET LONG +103,559 (Δ tuần: -96,383)
+  Đậu tương: NET LONG +150,463 (Δ tuần: -37,321)
+  Dầu WTI: NET LONG +3,379 (Δ tuần: +11,230)
+  Bạc: NET LONG +22,214 (Δ tuần: -1,712)
+  Đồng: NET LONG +74,450 (Δ tuần: -4,383)
+  Vàng XAU: NET LONG +173,837 (Δ tuần: -2,183)
+→ NET LONG = quỹ đặt cược giá tăng; Δ dương = dòng tiền đầu cơ đang vào
+
+Dưới đây là báo cáo phân tích thị trường hàng hóa phiên Mỹ ngày 2026-06-20:
+
+---
+**BÁO CÁO PHÂN TÍCH THỊ TRƯỜNG HÀNG HÓA PHIÊN MỸ (20:00 VN) NGÀY 2026-06-20**
+
+**🔀 ĐỐI CHIẾU NGUỒN TIN**
+• Hầu hết các nguồn tin đều nhất quán về việc giá dầu thô giảm trong hai tuần liên tiếp và kim loại quý/công nghiệp giảm giá do tín hiệu từ Fed.
+• Tuy nhiên, có một số tin tức đề cập đến việc giá dầu thô tăng trên một số hợp đồng (13) hoặc có "surge" (15), trong khi phần lớn các tin khác cho thấy giá dầu đang giảm. Điều này có thể tạo ra sự biến động khó lường trong ngắn hạn.
+
+**🌍 VĨ MÔ & TIN TỨC NỔI BẬT**
+• Tín hiệu từ Cục Dự trữ Liên bang Mỹ (Fed) về khả năng tăng lãi suất trong năm 2026 đang là yếu tố vĩ mô chi phối thị trường, gây áp lực giảm giá lên các kim loại quý và hàng hóa nói chung (8, 11, 14).
+• Đồng Đô la Mỹ (DXY) đã giảm 0.76% trong phiên và đang ở mức cao, khiến các mặt hàng định giá bằng USD trở nên đắt đỏ hơn đối với người mua quốc tế, góp phần vào xu hướng giảm giá.
+• Ngân hàng Trung ương Nga cảnh báo về nguy cơ lạm phát cao hơn do chi phí chiến tranh và nhiên liệu (19), tuy nhiên, tâm lý thị trường hiện tại đang tập trung vào chính sách tiền tệ của Fed.
+
+**🛢️ NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên**
+Xu hướng: WTI GIẢM | Brent GIẢM | Khí TN TĂNG
+Tín hiệu: WTI BÁN | Brent BÁN | Khí TN MUA
+Ngưỡng giá: WTI 73.58–82.42 | Brent 76.58–85.29 | Khí TN 3.159–3.299
+Phân tích:
+• Dầu WTI giảm 0.08% trong phiên và giảm 9.83% trong 5 phiên, vẫn trong xu hướng giảm trung hạn. Dầu Brent tăng 0.93% trong phiên nhưng giảm 7.72% trong 5 phiên, cũng trong xu hướng giảm trung hạn. Các tin tức cho thấy giá dầu thô đã giảm hai tuần liên tiếp (1, 3, 4, 5, 6) và giá Brent giảm 5.4% (2) do thị trường toàn cầu hạ nhiệt.
+• Khí tự nhiên giảm 1.08% trong phiên nhưng tăng 2.50% trong 5 phiên, đang trong xu hướng tăng trung hạn.
+• Các quỹ lớn đang đặt cược giá dầu WTI tăng, với vị thế NET LONG tăng thêm 11,230 trong tuần qua.
+Rủi ro:
+• Giá dầu WTI và Brent đã giảm khá sâu, cho thấy có thể sắp chững lại hoặc bật lên.
+• Sự mâu thuẫn giữa xu hướng giảm giá dầu trong hai tuần qua và một số tin tức đề cập đến việc giá dầu thô tăng có thể gây biến động.
+
+**🥇 KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc**
+Xu hướng: Vàng GIẢM | Bạc GIẢM
+Tín hiệu: Vàng BÁN | Bạc BÁN
+Ngưỡng giá: Vàng 4,138.70–4,377.00 | Bạc 63.35–70.95
+Phân tích:
+• Vàng giảm 1.21% trong phiên và giảm 1.0% trong 5 phiên, vẫn trong xu hướng giảm trung hạn. Bạc giảm 2.03% trong phiên và giảm 4.35% trong 5 phiên, cũng trong xu hướng giảm trung hạn. Cả hai kim loại quý đều chịu áp lực giảm giá do tín hiệu Fed có thể tăng lãi suất (8, 11, 14) và đồng USD mạnh lên.
+• Bạc đã có chuỗi giảm giá sáu tuần liên tiếp và vàng có chuỗi giảm ba tuần liên tiếp (5, 6). Goldman Sachs đã cắt giảm dự báo giá vàng xuống 4,900 USD do tín hiệu tăng lãi suất của Fed vào năm 2026 (14).
+• Tỷ lệ Vàng/Bạc là 64.3, cao hơn so với 59.7 một tháng trước, cho thấy bạc đang rẻ tương đối so với vàng.
+Rủi ro:
+• Giá vàng và bạc đã giảm khá sâu, cho thấy có thể sắp chững lại hoặc bật lên.
+• Các quỹ lớn đang đặt cược giá vàng và bạc tăng, nhưng dòng tiền đầu cơ đang rút ra trong tuần qua, cho thấy tâm lý thận trọng.
+
+**🌾 NÔNG SẢN — Ngô, Đậu tương, Lúa mì**
+Xu hướng: Ngô GIẢM | Lúa mì SIDEWAY | Đậu tương GIẢM
+Tín hiệu: Ngô BÁN | Lúa mì GIỮ | Đậu tương BÁN
+Ngưỡng giá: Ngô 406.25–422.00 | Lúa mì 603.92–618.25 | Đậu tương 1,102.50–1,140.50
+Phân tích:
+• Ngô giảm 0.83% trong phiên nhưng tăng 1.4% trong 5 phiên, vẫn trong xu hướng giảm trung hạn. Lúa mì giảm 1.14% trong phiên nhưng tăng 3.24% trong 5 phiên, đang trong xu hướng đi ngang trung hạn. Đậu tương giảm 0.82% trong phiên nhưng giảm 0.7% trong 5 phiên, vẫn trong xu hướng giảm trung hạn.
+• Tin tức cho thấy mưa ở các vùng đồng bằng đã tạo điều kiện thuận lợi cho cây trồng, khiến các nhà đầu tư đặt cược giá ngô, đậu tương và lúa mì giảm (9). Giá ngô Ukraine cũng giảm (12).
+• Các quỹ lớn đang đặt cược giá ngô và đậu tương tăng, nhưng dòng tiền đầu cơ đang rút ra đáng kể trong tuần qua. Các quỹ đang đặt cược giá lúa mì giảm.
+Rủi ro:
+• Mùa vụ ngô ở Mỹ đang vào giai đoạn thụ phấn quan trọng, thời tiết bất lợi có thể nhanh chóng đảo chiều giá.
+• Giá ngô và đậu tương đã giảm khá sâu, cho thấy có thể sắp chững lại hoặc bật lên.
+
+**🔩 KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken**
+Xu hướng: Đồng SIDEWAY
+Tín hiệu: Đồng GIỮ
+Ngưỡng giá: Đồng 6.270–6.500
+Phân tích:
+• Đồng giảm 0.59% trong phiên và giảm 1.45% trong 5 phiên, đang trong xu hướng đi ngang trung hạn.
+• Các kim loại công nghiệp khác như kẽm, chì, niken cũng giảm giá mạnh (1, 3, 4, 5, 6), cho thấy tâm lý thị trường chung đang thận trọng.
+• Tín hiệu liên thị trường Đồng/Vàng tăng cho thấy kỳ vọng tăng trưởng kinh tế, nhưng giá đồng lại giảm, tạo ra một mâu thuẫn cần theo dõi.
+Rủi ro:
+• Các quỹ lớn đang đặt cược giá đồng tăng, nhưng dòng tiền đầu cơ đang rút ra trong tuần qua, cho thấy sự thận trọng.
+
+**📋 KHUYẾN NGHỊ PHIÊN**
+• Vàng: Có thể xem xét mua thăm dò nếu giá tiếp cận ngưỡng hỗ trợ 4,138.70 USD/oz, với cắt lỗ dưới mức này, do giá đã giảm khá sâu.
+• Dầu WTI: Tiếp tục theo dõi xu hướng giảm, có thể xem xét bán nếu giá không vượt qua được ngưỡng kháng cự 82.42 USD/bbl.
+
+**⚠️ THEO DÕI PHIÊN**
+• Diễn biến chính sách tiền tệ của Fed và các ngân hàng trung ương lớn, đặc biệt là các phát biểu về lãi suất.
+• Biến động của đồng Đô la Mỹ (DXY).
+• Tình hình thời tiết tại các vùng trồng nông sản chính của Mỹ, đặc biệt là đối với ngô trong giai đoạn thụ phấn.
+
+⚙️ Ghi chú hệ thống: đã tự hiệu chỉnh 2 mô tả hướng giá cho khớp số liệu gốc. Nên kiểm tra lại các câu liên quan (có thể còn từ "lên/xuống" chưa đồng bộ).

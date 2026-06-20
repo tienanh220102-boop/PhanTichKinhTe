@@ -2990,3 +2990,11 @@
 2026-06-20 12:24 SKIP_MORNING already_sent date=2026-06-20
 2026-06-20 12:31 ACCEPT [Google News CB] "Student loan borrowers will get an interest rate cut if they sign up f" | kw:interest rate,rate cut
 2026-06-20 12:31 SKIP_MORNING already_sent date=2026-06-20
+2026-06-20 13:01 ACCEPT [Google News HH] "Crude oil fell for two consecutive weeks, overseas market metals broad" | kw:oil,crude,silver
+2026-06-20 13:01 ACCEPT [Google News KL] "Gold Bear Market: Time to Buy This Top Gold Stock/ETF - The Motley Foo" | kw:gold
+2026-06-20 13:01 ACCEPT [Google News CB] "Warsh's gamble: A quieter Federal Reserve could mean volatile markets," | kw:federal reserve
+2026-06-20 13:01 ACCEPT [Google News CB] "Interest Rate Steady, Ultra-Processed Food Cognitive Decline - AARP" | kw:interest rate
+2026-06-20 13:01 SKIP_MORNING already_sent date=2026-06-20
+2026-06-20 13:02 DIRECTION_FIX Copper: "tăng 0.76%" → "giảm 0.76%"
+2026-06-20 13:02 DIRECTION_FIX Soybean: "tăng 0.7%" → "giảm 0.7%"
+2026-06-20 13:02 SENT_EVENING articles=20 date=2026-06-20 force=False
