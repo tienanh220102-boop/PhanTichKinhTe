@@ -2917,3 +2917,12 @@
 2026-06-20 08:17 ACCEPT [Google News KL] "Gemini Just Got Its Biggest Update Ever. Silver Price Today (h4dylhIwj" | kw:silver,rice
 2026-06-20 08:17 ACCEPT [Google News KL] "Gold Rate Today, June 19: Check 18, 22 and 24 carat gold prices in Che" | kw:gold,rice
 2026-06-20 08:17 SKIP_MORNING already_sent date=2026-06-20
+2026-06-20 08:31 ACCEPT [Google News HH] "Gold Price Crash Pakistan | Rs 43,600 Drop Per Tola | Latest Gold Rate" | kw:gold,rice
+2026-06-20 08:31 ACCEPT [Google News HH] "Crude oil fell for two consecutive weeks, overseas market metals broad" | kw:oil,crude,silver
+2026-06-20 08:31 ACCEPT [Google News HH] "Crude Oil Down 2%; Accenture Shares Fall After Q3 Results - Sahm" | kw:oil,crude
+2026-06-20 08:31 ACCEPT [Google News HH] "UAE, Saudi SPLIT Official; Abu Dhabi EXITS OPEC As Iran War Intensifie" | kw:opec
+2026-06-20 08:31 ACCEPT [Google News KL] "Gold Price Crash To Continue: $3,500 Is Next Warns Trader | Gareth Sol" | kw:gold,rice
+2026-06-20 08:31 ACCEPT [Google News KL] "Gold Rate Today | Silver Price | Gold Falling | Right Time To Buy Gold" | kw:gold,silver,rice
+2026-06-20 08:31 ACCEPT [Google News KL] "Gold prices fall further in domestic market - daily-sun.com" | kw:gold,rice
+2026-06-20 08:31 ACCEPT [Google News NS] "China's May US soybean imports rise 1.8%, Brazil shipments fall 17.7% " | kw:soybean
+2026-06-20 08:31 SKIP_MORNING already_sent date=2026-06-20
