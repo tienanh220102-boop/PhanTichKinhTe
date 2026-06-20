@@ -3032,3 +3032,18 @@
 2026-06-20 14:31 SKIP_EVENING already_sent date=2026-06-20
 2026-06-20 14:38 SKIP_MORNING already_sent date=2026-06-20
 2026-06-20 14:38 SKIP_EVENING already_sent date=2026-06-20
+2026-06-20 15:01 ACCEPT [Google News HH] "India’s LPG demand to double in next 25 years, projects OPEC - Busines" | kw:opec
+2026-06-20 15:01 ACCEPT [Google News HH] "Global crude oil prices decline; Brent crude slips 1.1% - Newsonair" | kw:oil,crude,brent
+2026-06-20 15:01 ACCEPT [Google News HH] "Commodities Sector Ripe for Diaspora Investment - Jamaica Information " | kw:commodities
+2026-06-20 15:01 ACCEPT [Google News HH] "Falling crude oil prices raise hope of relief at the pump - standardme" | kw:oil,crude,rice
+2026-06-20 15:01 ACCEPT [Google News HH] "Global crude oil prices register sharp weekly losses - Newsonair" | kw:oil,crude,rice
+2026-06-20 15:01 ACCEPT [Google News HH] "21-karat gold price at JD85.3 in local market - Ammon News" | kw:gold,rice
+2026-06-20 15:01 ACCEPT [Google News HH] "Thailand And India Joins Japan, China, Singapore, Bangladesh, South Ko" | kw:oil,crude,fuel
+2026-06-20 15:01 ACCEPT [Google News HH] "Antam Gold Prices Slide Further to Rp2,668,000 per Gram - Tempo.co Eng" | kw:gold,rice
+2026-06-20 15:01 ACCEPT [Google News KL] "Gold and silver drop as hawkish Fed, strong dollar hit demand - MSN" | kw:gold,silver
+2026-06-20 15:01 ACCEPT [Google News CB] "South Africa’s Kganyago Warns Inflation Expectations Are Rising - Bloo" | kw:inflation
+2026-06-20 15:01 ACCEPT [Google News CB] "America In Focus: US gas prices dip below $4 and more evidence America" | kw:gas,rice
+2026-06-20 15:01 ACCEPT [Google News CB] "Gold falls nearly 2% as Fed signals hawkish stance - MSN" | kw:gold
+2026-06-20 15:01 ACCEPT [Google News CB] "Congratulations to the 2026 Watermelon Royalty! - ECB Publishing, Inc." | kw:ecb
+2026-06-20 15:01 SKIP_MORNING already_sent date=2026-06-20
+2026-06-20 15:01 SKIP_EVENING already_sent date=2026-06-20
