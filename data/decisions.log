@@ -3063,3 +3063,11 @@
 2026-06-20 16:01 ACCEPT [Google News KL] "Gold posts third straight weekly decline; Indian cities mirror global " | kw:gold
 2026-06-20 16:01 SKIP_MORNING already_sent date=2026-06-20
 2026-06-20 16:01 SKIP_EVENING already_sent date=2026-06-20
+2026-06-20 16:12 ACCEPT [Google News HH] "Crude Oil Price Pops As Iran Closes Strait Of Hormuz - Benzinga" | kw:oil,crude,rice
+2026-06-20 16:12 ACCEPT [Google News HH] "Crude Oil Has the Right Glut on the Wrong Calendar: What It Means for " | kw:oil,crude
+2026-06-20 16:12 ACCEPT [Google News HH] "Gold Prices Drop | Local & Global Rates Fall | 10g 9430 PKR, 1 Tola 11" | kw:gold,rice
+2026-06-20 16:12 ACCEPT [Google News HH] "Anthony Lupinacci Memorial Full Photos Gold Price May 11 2026 (pYAIxd9" | kw:gold,rice
+2026-06-20 16:12 ACCEPT [Google News HH] "Gold Price Hike News LIVE: सोने के नए रेट लोगों के उड़े होश, मचा हड़कं" | kw:gold,rice
+2026-06-20 16:12 ACCEPT [Google News NS] "Is the 2026 soybean rally over? - MSN" | kw:soybean
+2026-06-20 16:12 SKIP_MORNING already_sent date=2026-06-20
+2026-06-20 16:12 SKIP_EVENING already_sent date=2026-06-20
