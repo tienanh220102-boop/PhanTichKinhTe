@@ -2863,3 +2863,9 @@
 2026-06-20 03:01 ACCEPT [Google News CB] "Forget Interest Rates. The Fed Just Turned Everything Upside Down - Fo" | kw:interest rate
 2026-06-20 03:01 ACCEPT [Google News CB] "Massive War Bills and Fuel Cost Push Inflation Fears Higher, Russian C" | kw:fuel,inflation,central bank
 2026-06-20 03:01 SKIP_MORNING already_sent date=2026-06-20
+2026-06-20 03:31 ACCEPT [Google News HH] "Iran exports 18 mln barrels of crude oil over past 5 days: TankerTrack" | kw:oil,crude
+2026-06-20 03:31 ACCEPT [Google News KL] "Analyst: Gold Prices Next Week Will Be Highly Dependent on Data, Bewar" | kw:gold,rice
+2026-06-20 03:31 ACCEPT [Google News KL] "How will the Federal Reserve's hawkish shift affect commodity investme" | kw:commodity,federal reserve
+2026-06-20 03:31 ACCEPT [Google News NS] "DTN Weekly Average DDG Price Still Falling - DTN Progressive Farmer" | kw:rice
+2026-06-20 03:31 ACCEPT [Google News CB] "Yen nears weakest in 40 years as BOJ hike fails to stem rout - MSN" | kw:boj
+2026-06-20 03:31 SKIP_MORNING already_sent date=2026-06-20
