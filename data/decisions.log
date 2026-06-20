@@ -3076,3 +3076,10 @@
 2026-06-20 16:31 ACCEPT [Google News CB] "Fed Projects Rate Hike by September 2026 as Inflation Stays Elevated -" | kw:inflation,rate hike
 2026-06-20 16:31 SKIP_MORNING already_sent date=2026-06-20
 2026-06-20 16:31 SKIP_EVENING already_sent date=2026-06-20
+2026-06-20 17:01 ACCEPT [OilPrice.com] "Why Small Modular Reactors Are Becoming a National Security Priority" | kw:tariff
+2026-06-20 17:01 ACCEPT [Google News HH] "Trump Welcomes United Arab Emirates Exit From OPEC - EnergyNow.com" | kw:opec
+2026-06-20 17:01 ACCEPT [Google News HH] "Goldman Sachs revisits its gold price target after Fed meeting - thest" | kw:gold,rice
+2026-06-20 17:01 ACCEPT [Google News HH] "India secures 70% of crude oil imports Outside Strait of Hormuz: Petro" | kw:oil,crude,petroleum
+2026-06-20 17:01 ACCEPT [Google News HH] "Three Indian crude oil tankers transit Strait of Hormuz en route to In" | kw:oil,crude
+2026-06-20 17:01 ACCEPT [Google News HH] "Three Indian-flagged crude oil tankers transit Strait of Hormuz; en ro" | kw:oil,crude,shipping
+2026-06-20 17:01 ACCEPT [Google News KL] "Amanda Bynes Interview During Kids' Choice Awards (4/14/2000) Silver P" | kw:silver,rice
