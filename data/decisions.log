@@ -2907,3 +2907,9 @@
 2026-06-20 07:31 ACCEPT [Google News NS] "Egypt’s corn imports slow as feed demand weakens and stocks rise - Ukr" | kw:corn
 2026-06-20 07:31 ACCEPT [Google News CB] "Warsh-led Fed expected to hold interest rates steady - MSN" | kw:interest rate
 2026-06-20 07:31 SKIP_MORNING already_sent date=2026-06-20
+2026-06-20 08:01 ACCEPT [Google News HH] "Here’s Why Crude Oil Price Futures Contracts on Hyperliquid are Rising" | kw:oil,crude,rice
+2026-06-20 08:01 ACCEPT [Google News KL] "Gold prices fall for second straight time, down Tk2,216 per bhori - Dh" | kw:gold,rice
+2026-06-20 08:01 ACCEPT [Google News KL] "Gold Price Extends Selloff As Fed Repricing Boosts US Dollar and Yield" | kw:gold,rice
+2026-06-20 08:01 ACCEPT [Google News CB] "Impact of Iran War to Persist Despite Deal Offering Hope for Peace, EC" | kw:ecb
+2026-06-20 08:01 ACCEPT [Google News CB] "PVH (PVH) Is Down 6.0% After Fed Signals Potential Rate Hike Instead o" | kw:rate hike
+2026-06-20 08:01 SKIP_MORNING already_sent date=2026-06-20
