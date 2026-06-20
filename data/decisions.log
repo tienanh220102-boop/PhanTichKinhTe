@@ -2837,3 +2837,11 @@
 2026-06-20 00:31 ACCEPT [Google News KL] "After a 27% Plunge and a $500 Downgrade, Is Gold’s Multi-Year Rally Do" | kw:gold
 2026-06-20 00:31 ACCEPT [Google News CB] "Why Kevin Warsh’s interest rate decision was the ‘right call,’ expert " | kw:interest rate,rate decision
 2026-06-20 00:31 SKIP_MORNING already_sent date=2026-06-20
+2026-06-20 01:01 ACCEPT [Google News HH] "Crude oil fell for two consecutive weeks, overseas metals broadly decl" | kw:oil,crude,gold
+2026-06-20 01:01 ACCEPT [Google News HH] "Gold Price Extends Selloff as Fed Repricing Boosts US Dollar and Yield" | kw:gold,rice
+2026-06-20 01:01 ACCEPT [Google News HH] "India Gold Price Today: Yellow Metal Declines, Bitcoin World Data Show" | kw:gold,rice
+2026-06-20 01:01 ACCEPT [Google News HH] "Gold price today: Will gold crash into bear market territory, fall bel" | kw:gold,rice
+2026-06-20 01:01 ACCEPT [Google News KL] "Copper One Announces Agreement to Acquire 100% Interest in the Majuba " | kw:gold,silver,copper
+2026-06-20 01:01 ACCEPT [Google News NS] "Rain in the Plains Make Grain, So Bears Are in Control of Corn, Soybea" | kw:wheat,corn,soybean
+2026-06-20 01:01 ACCEPT [Google News CB] "Yen teeters on cusp of 40-year low as BOJ hike fails to stem rout - Ho" | kw:boj
+2026-06-20 01:01 SKIP_MORNING already_sent date=2026-06-20
