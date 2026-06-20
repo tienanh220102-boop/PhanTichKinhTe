@@ -2902,3 +2902,8 @@
 2026-06-20 07:01 ACCEPT [Google News NS] "Syria’s wheat harvest expected to more than double this year - Arab Ne" | kw:wheat,harvest
 2026-06-20 07:01 ACCEPT [Google News NS] "STEVE KELL: No shortage of demand for beans — and that’s good for pric" | kw:rice,shortage
 2026-06-20 07:01 SKIP_MORNING already_sent date=2026-06-20
+2026-06-20 07:31 ACCEPT [Google News KL] "Goldman Sachs Cuts Gold Price Forecast to $4,900 as Fed Signals Rate H" | kw:wti,gold,rice
+2026-06-20 07:31 ACCEPT [Google News NS] "Markets Desk Update: Crude oil losses weigh on canola - Grainews" | kw:oil,crude
+2026-06-20 07:31 ACCEPT [Google News NS] "Egypt’s corn imports slow as feed demand weakens and stocks rise - Ukr" | kw:corn
+2026-06-20 07:31 ACCEPT [Google News CB] "Warsh-led Fed expected to hold interest rates steady - MSN" | kw:interest rate
+2026-06-20 07:31 SKIP_MORNING already_sent date=2026-06-20
