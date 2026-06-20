@@ -2852,3 +2852,7 @@
 2026-06-20 02:01 ACCEPT [Google News KL] "Aura Minerals Stock: Price Collapse Created A Golden Opportunity (Rati" | kw:gold,rice
 2026-06-20 02:01 ACCEPT [Google News NS] "Corn Production in Ukraine Increased 10 Times in 30 Years - Новини агр" | kw:corn
 2026-06-20 02:01 SKIP_MORNING already_sent date=2026-06-20
+2026-06-20 02:31 ACCEPT [Google News HH] "Daily Brief United States: SpaceX, NVIDIA Corp, Crude Oil, BlackSky Te" | kw:oil,crude
+2026-06-20 02:31 ACCEPT [Google News KL] "Goldman cuts gold price forecast to US$4,900: planning notes for mine " | kw:gold,rice
+2026-06-20 02:31 ACCEPT [Google News KL] "Aura Minerals: The Price Collapse Created A Golden Opportunity (Rating" | kw:gold,rice
+2026-06-20 02:31 SKIP_MORNING already_sent date=2026-06-20
