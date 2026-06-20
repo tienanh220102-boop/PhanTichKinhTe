@@ -2828,3 +2828,12 @@
 2026-06-20 00:01 ACCEPT [Google News KL] "Precious Metals Update: Gold Volatility, Silver Spike Risk, and Fed Po" | kw:gold,silver
 2026-06-20 00:02 DIRECTION_FIX Soybean: "tăng 0,70%" → "giảm 0,70%"
 2026-06-20 00:02 SENT_MORNING articles=20 date=2026-06-20 force=False
+2026-06-20 00:31 ACCEPT [The Guardian Biz] "‘It’s a scam’: Americans express unease over SpaceX’s influence on ret" | kw:rice
+2026-06-20 00:31 ACCEPT [The Guardian Biz] "Datacenters driving US clean energy growth while still threatening cli" | kw:iron
+2026-06-20 00:31 ACCEPT [Google News HH] "UAE Oil Head Says OPEC Exit Gives Ability to Speed Up Investment - Ene" | kw:oil,opec
+2026-06-20 00:31 ACCEPT [Google News HH] "COMMENTARY: Trump Broke OPEC. He May Regret It: Bousso - EnergyNow" | kw:opec
+2026-06-20 00:31 ACCEPT [Google News HH] "OPEC Lowers Second-Quarter Global Oil Demand Forecast on Iran War - En" | kw:oil,opec
+2026-06-20 00:31 ACCEPT [Google News KL] "Copper One Resources Announces Agreement to Acquire 100% Interest in t" | kw:gold,silver,copper
+2026-06-20 00:31 ACCEPT [Google News KL] "After a 27% Plunge and a $500 Downgrade, Is Gold’s Multi-Year Rally Do" | kw:gold
+2026-06-20 00:31 ACCEPT [Google News CB] "Why Kevin Warsh’s interest rate decision was the ‘right call,’ expert " | kw:interest rate,rate decision
+2026-06-20 00:31 SKIP_MORNING already_sent date=2026-06-20
