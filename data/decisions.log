@@ -2988,3 +2988,5 @@
 2026-06-20 12:24 ACCEPT [Google News NS] "Will Soybeans Trade in the Teens in 2026? - sekbernews.id" | kw:soybean
 2026-06-20 12:24 ACCEPT [Google News CB] "Graduation congratulations to William Reese Alan Madison - ECB Publish" | kw:ecb
 2026-06-20 12:24 SKIP_MORNING already_sent date=2026-06-20
+2026-06-20 12:31 ACCEPT [Google News CB] "Student loan borrowers will get an interest rate cut if they sign up f" | kw:interest rate,rate cut
+2026-06-20 12:31 SKIP_MORNING already_sent date=2026-06-20
