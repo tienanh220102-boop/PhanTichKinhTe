@@ -2898,3 +2898,7 @@
 2026-06-20 06:31 ACCEPT [Google News HH] "OPEC maintains an optimistic outlook on medium and long-term oil deman" | kw:oil,opec
 2026-06-20 06:31 ACCEPT [Google News CB] "Bank Of Canada Holds Interest Rate At 2.25 Per Cent – April 29, 2026 K" | kw:interest rate
 2026-06-20 06:31 SKIP_MORNING already_sent date=2026-06-20
+2026-06-20 07:01 ACCEPT [Google News HH] "Crude oil fell for two consecutive weeks, overseas market metals broad" | kw:oil,crude,silver
+2026-06-20 07:01 ACCEPT [Google News NS] "Syria’s wheat harvest expected to more than double this year - Arab Ne" | kw:wheat,harvest
+2026-06-20 07:01 ACCEPT [Google News NS] "STEVE KELL: No shortage of demand for beans — and that’s good for pric" | kw:rice,shortage
+2026-06-20 07:01 SKIP_MORNING already_sent date=2026-06-20
