@@ -2856,3 +2856,10 @@
 2026-06-20 02:31 ACCEPT [Google News KL] "Goldman cuts gold price forecast to US$4,900: planning notes for mine " | kw:gold,rice
 2026-06-20 02:31 ACCEPT [Google News KL] "Aura Minerals: The Price Collapse Created A Golden Opportunity (Rating" | kw:gold,rice
 2026-06-20 02:31 SKIP_MORNING already_sent date=2026-06-20
+2026-06-20 03:01 ACCEPT [Google News HH] "Crude oil fell for two consecutive weeks, overseas metals broadly decl" | kw:oil,crude,gold
+2026-06-20 03:01 ACCEPT [Google News KL] "Gold Price Decline After Kevin Warsh Press Conference: Structural Dema" | kw:gold,rice
+2026-06-20 03:01 ACCEPT [Google News KL] "Gold Price in India Falls Today: Bitcoin World Data Shows Decline - Cr" | kw:gold,rice
+2026-06-20 03:01 ACCEPT [Google News NS] "New Harvest Forces Grain Prices to Fall Across Ukraine - Новини аграрн" | kw:rice,harvest
+2026-06-20 03:01 ACCEPT [Google News CB] "Forget Interest Rates. The Fed Just Turned Everything Upside Down - Fo" | kw:interest rate
+2026-06-20 03:01 ACCEPT [Google News CB] "Massive War Bills and Fuel Cost Push Inflation Fears Higher, Russian C" | kw:fuel,inflation,central bank
+2026-06-20 03:01 SKIP_MORNING already_sent date=2026-06-20
