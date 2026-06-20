@@ -2948,3 +2948,10 @@
 2026-06-20 10:01 ACCEPT [Google News NS] "Arkansas Rice Acreage Plunges, Forcing Grain Dryer Closures Across the" | kw:rice
 2026-06-20 10:01 ACCEPT [Google News CB] "Taiwan's central bank downplays unbalanced economic growth fears - Foc" | kw:central bank
 2026-06-20 10:01 SKIP_MORNING already_sent date=2026-06-20
+2026-06-20 10:31 ACCEPT [Google News HH] "Gold Price on 19 June 2026 - Gold Price" | kw:gold,rice
+2026-06-20 10:31 ACCEPT [Google News KL] "Gold and Silver prices decline on COMEX - AzerNews" | kw:gold,silver,rice
+2026-06-20 10:31 ACCEPT [Google News NS] "Wheat producers see red over Tau’s tariff snub - Business Day" | kw:wheat,tariff
+2026-06-20 10:31 ACCEPT [Google News CB] "Fed’s Collins Says She Could Envision the Need for Rate Hikes - WSJ" | kw:rate hike
+2026-06-20 10:31 ACCEPT [Google News CB] "Who is inflation hurting the most? Fed data shows which Oklahoma popul" | kw:inflation
+2026-06-20 10:31 ACCEPT [Google News CB] "Why residents near this Staten Island school say they’re fed up with p" | kw:lng
+2026-06-20 10:31 SKIP_MORNING already_sent date=2026-06-20
