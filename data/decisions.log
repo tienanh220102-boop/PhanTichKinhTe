@@ -2869,3 +2869,8 @@
 2026-06-20 03:31 ACCEPT [Google News NS] "DTN Weekly Average DDG Price Still Falling - DTN Progressive Farmer" | kw:rice
 2026-06-20 03:31 ACCEPT [Google News CB] "Yen nears weakest in 40 years as BOJ hike fails to stem rout - MSN" | kw:boj
 2026-06-20 03:31 SKIP_MORNING already_sent date=2026-06-20
+2026-06-20 04:01 ACCEPT [Google News HH] "Hormuz Crisis Exposes India's Crude Oil Vulnerability | Rethink on Str" | kw:oil,crude
+2026-06-20 04:01 ACCEPT [Google News KL] "The price of gold jewelry has fallen by nearly 450 CNY so far this yea" | kw:gold,rice
+2026-06-20 04:01 ACCEPT [Google News NS] "Canada Know-Risk Market Outlook | Soybean Outlook - StoneX" | kw:soybean
+2026-06-20 04:01 ACCEPT [Google News CB] "Europe’s mid-sized inflation shock requires measured response, ECB’s L" | kw:inflation,ecb
+2026-06-20 04:01 SKIP_MORNING already_sent date=2026-06-20
