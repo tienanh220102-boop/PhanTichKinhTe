@@ -3202,3 +3202,5 @@
 2026-06-21 02:50 ACCEPT [Google News CB] "Bank Of Canada Cuts Key Interest Rate By 25 Basis Points | - Mshale" | kw:interest rate,basis point
 2026-06-21 02:50 ACCEPT [Google News CB] "Some in BOJ called for faster rate hikes, April minutes show - AOL.com" | kw:rate hike,boj
 2026-06-21 02:50 SKIP_MORNING already_sent date=2026-06-21
+2026-06-21 03:01 ACCEPT [Google News CB] "ECB may hike rates again despite weak growth - BofA - Investing.com" | kw:ecb
+2026-06-21 03:01 SKIP_MORNING already_sent date=2026-06-21
