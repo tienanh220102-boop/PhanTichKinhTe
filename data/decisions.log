@@ -3394,3 +3394,8 @@
 2026-06-21 10:52 ACCEPT [Google News HH] "Slow refinery capacity additions to hit India’s diesel, ATF exports: O" | kw:opec
 2026-06-21 10:52 ACCEPT [Google News NS] "Grain SA rejects ITAC decision to keep wheat tariff reference price un" | kw:wheat,rice,tariff
 2026-06-21 10:52 SKIP_MORNING already_sent date=2026-06-21
+2026-06-21 11:01 ACCEPT [Google News HH] "Malaysia's Total Production Of Crude Oil Drops 5.5% In 1Q 2026 , DOSM " | kw:oil,crude
+2026-06-21 11:01 ACCEPT [Google News HH] "US-Iran talks, oil movement to drive bullion trend next week: Analysts" | kw:oil
+2026-06-21 11:01 ACCEPT [Google News HH] "India boosts Russian, UAE oil purchases in June ahead of full Hormuz r" | kw:oil
+2026-06-21 11:01 ACCEPT [Google News KL] "Wall Street cuts gold targets, keeps $5,000 in sight - Khaleej Times" | kw:gold
+2026-06-21 11:01 SKIP_MORNING already_sent date=2026-06-21
