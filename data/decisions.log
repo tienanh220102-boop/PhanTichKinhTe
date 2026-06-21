@@ -3190,3 +3190,15 @@
 2026-06-21 02:31 ACCEPT [Google News CB] "USD/JPY Weekly Outlook: BOJ Intervention Threat Battles Hawkish Fed - " | kw:boj
 2026-06-21 02:31 ACCEPT [Google News CB] "Bank Of Canada Holds Interest Rate At 2.25 Per Cent – March 18, 2026 E" | kw:interest rate
 2026-06-21 02:31 SKIP_MORNING already_sent date=2026-06-21
+2026-06-21 02:50 ACCEPT [Google News KL] "Gold, silver prices slide up to 2 pc as US Fed keeps rates unchanged -" | kw:gold,silver,rice
+2026-06-21 02:50 ACCEPT [Google News KL] "Gold futures slump as Fed signals and US-Iran uncertainty weigh - MSN" | kw:gold
+2026-06-21 02:50 ACCEPT [Google News KL] "Kabul sees decline in fuel, gold prices - Pajhwok Afghan News" | kw:fuel,gold,rice
+2026-06-21 02:50 ACCEPT [Google News KL] "Gold Price Exclusive Update: Mid-2026 Market Signals and Cycles - Disc" | kw:gold,rice
+2026-06-21 02:50 ACCEPT [Google News KL] "Experts predict unexpected gold prices next week - Laodong.vn" | kw:gold,rice
+2026-06-21 02:50 ACCEPT [Google News KL] "Gold and silver prices decline in global markets - Azərtac" | kw:gold,silver,rice
+2026-06-21 02:50 ACCEPT [Google News KL] "Gold prices drop by Tk 2,216 per bhori - The Financial Express" | kw:gold,rice
+2026-06-21 02:50 ACCEPT [Google News KL] "Infographic: Domestic gold prices rise by 500,000 VND per tael on June" | kw:gold,rice
+2026-06-21 02:50 ACCEPT [Google News NS] "Federal cuts are hitting Illinois food assistance recipients — and the" | kw:wti
+2026-06-21 02:50 ACCEPT [Google News CB] "Bank Of Canada Cuts Key Interest Rate By 25 Basis Points | - Mshale" | kw:interest rate,basis point
+2026-06-21 02:50 ACCEPT [Google News CB] "Some in BOJ called for faster rate hikes, April minutes show - AOL.com" | kw:rate hike,boj
+2026-06-21 02:50 SKIP_MORNING already_sent date=2026-06-21
