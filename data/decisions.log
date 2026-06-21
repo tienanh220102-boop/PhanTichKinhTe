@@ -3475,3 +3475,9 @@
 2026-06-21 15:01 ACCEPT [Google News NS] "Stalprodukt Stock - long-term strategy in steel and energy - AD HOC NE" | kw:steel
 2026-06-21 15:01 SKIP_MORNING already_sent date=2026-06-21
 2026-06-21 15:01 SKIP_EVENING already_sent date=2026-06-21
+2026-06-21 15:21 ACCEPT [Google News HH] "Iraq plans to restore crude oil output to pre-crisis levels - Devdisco" | kw:oil,crude
+2026-06-21 15:21 ACCEPT [Google News KL] "Silver ETFs SILJ and SIL differ: juniors surged 92% vs. producers' 75%" | kw:silver
+2026-06-21 15:21 ACCEPT [Google News KL] "Gold steadies near ₹1.46 lakh after week of declines - MSN" | kw:gold
+2026-06-21 15:21 ACCEPT [Google News KL] "Old Gold Prices 17K to 24K Today, Sunday June 21, 2026 - Pintu" | kw:gold,rice
+2026-06-21 15:21 SKIP_MORNING already_sent date=2026-06-21
+2026-06-21 15:21 SKIP_EVENING already_sent date=2026-06-21
