@@ -3312,3 +3312,8 @@
 2026-06-21 07:01 ACCEPT [Google News HH] "India boosts Russian, UAE oil purchases in June ahead of Hormuz reopen" | kw:oil
 2026-06-21 07:01 ACCEPT [Google News KL] "Gold and silver prices edge up in Nepali market - Khabarhub" | kw:gold,silver,rice
 2026-06-21 07:01 SKIP_MORNING already_sent date=2026-06-21
+2026-06-21 07:27 ACCEPT [Google News HH] "Indigenous pipeline protection firm shares credit as Nigeria surpasses" | kw:opec
+2026-06-21 07:27 ACCEPT [Google News HH] "Korean Gas Prices Hold Above 2,000 Won Despite 30% Crude Oil Plunge - " | kw:oil,crude,gas
+2026-06-21 07:27 ACCEPT [Google News KL] "Can Liqwid Price Rebound Further?Core Warnings to Watch - Kabul Univer" | kw:rice
+2026-06-21 07:27 ACCEPT [Google News CB] "Bitcoin ETFs shed $4.4 billion in 13 days as the Fed's rate pivot redr" | kw:fuel
+2026-06-21 07:27 SKIP_MORNING already_sent date=2026-06-21
