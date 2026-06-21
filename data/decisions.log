@@ -3214,3 +3214,64 @@
 2026-06-21 04:01 ACCEPT [Google News HH] "Goldman Sachs revisits its gold price target after Fed meeting - AOL.c" | kw:gold,rice
 2026-06-21 04:01 ACCEPT [Google News NS] "Is the 2026 soybean rally over? - MSN" | kw:soybean
 2026-06-21 04:01 SKIP_MORNING already_sent date=2026-06-21
+2026-06-21 04:31 ACCEPT [BBC Business] "Japan raids ice cream giants over price-fixing allegations" | kw:rice
+2026-06-21 04:31 ACCEPT [BBC Business] "'We had to get out of the way': The backlash over delivery robots" | kw:easing
+2026-06-21 04:31 ACCEPT [The Guardian Biz] "Datacenters driving US clean energy growth while still threatening cli" | kw:iron
+2026-06-21 04:31 ACCEPT [The Guardian Biz] "‘It’s a scam’: Americans express unease over SpaceX’s influence on ret" | kw:rice
+2026-06-21 04:31 ACCEPT [CNBC Economy] "Here are the five big takeaways from Kevin Warsh's first meeting as Fe" | kw:interest rate,federal reserve
+2026-06-21 04:31 ACCEPT [CNBC Economy] "Iran war cost: Average U.S. household paying $450 more on gas and ener" | kw:gas
+2026-06-21 04:31 ACCEPT [CNBC Economy] "How the ‘double scar’ of past inflation woes and geopolitical shocks a" | kw:rice,inflation
+2026-06-21 04:31 ACCEPT [CNBC Economy] "ECB 'will do what is necessary' to tame inflation, Bank of France gove" | kw:inflation,central bank,rate hike
+2026-06-21 04:31 ACCEPT [OilPrice.com] "Why Oil Prices Are Falling Even as Tankers Remain Trapped" | kw:oil,crude,rice
+2026-06-21 04:31 ACCEPT [Mining.com] "Panama audit boosts Cobre Panama restart hopes" | kw:iron
+2026-06-21 04:31 ACCEPT [Mining.com] "Falco lifts Quebec gold-zinc project value to $2.4B" | kw:gold,zinc
+2026-06-21 04:31 ACCEPT [Mining.com] "Hudbay Minerals breaks ground at Copper Mountain mine expansion" | kw:copper
+2026-06-21 04:31 ACCEPT [Mining.com] "BHP to sell $1.5B Chile power lines in copper-first pivot" | kw:copper
+2026-06-21 04:31 ACCEPT [Mining.com] "Kristi Noem joins British Columbia copper junior in advisory role" | kw:copper
+2026-06-21 04:31 ACCEPT [EIA Energy] "U.S. jet fuel production rises after prices doubled in March" | kw:oil,crude,fuel
+2026-06-21 04:31 ACCEPT [EIA Energy] "One-fifth of U.S. renewable diesel and SAF production was exported in " | kw:fuel
+2026-06-21 04:31 ACCEPT [NASDAQ Commod] "Top 5 Australian Mining Stocks This Week: Cauldron Energy Jumps on Yan" | kw:gold
+2026-06-21 04:31 ACCEPT [NASDAQ Commod] "Americas Gold & Silver Breaks Below 200-Day Moving Average - Notable f" | kw:gold,silver
+2026-06-21 04:31 ACCEPT [NASDAQ Commod] "Jeffrey Christian: Gold, Silver, PGMs — My Summer Price Outlook" | kw:gold,silver,rice
+2026-06-21 04:31 ACCEPT [Google News HH] "RANKED: The Top Crude Oil Producers in 2025 – Visual Capitalist – See " | kw:oil,crude
+2026-06-21 04:31 ACCEPT [Google News HH] "OPEC Lowers Second-Quarter Global Oil Demand Forecast on Iran War - En" | kw:oil,opec
+2026-06-21 04:31 ACCEPT [Google News HH] "Trump Welcomes United Arab Emirates Exit From OPEC - EnergyNow.com" | kw:opec
+2026-06-21 04:31 ACCEPT [Google News HH] "U.S. TOPS THE LIST – Half the World’s Oil Comes From Just Five Countri" | kw:oil
+2026-06-21 04:31 ACCEPT [Google News HH] "OPEC+ Agrees to Boost Oil Output When Strait of Hormuz Reopens - Energ" | kw:oil,opec
+2026-06-21 04:31 ACCEPT [Google News HH] "Eyeing Tech Beatdown Bid, AMZN OpenAI Investment & Crude Oil's Pop Sos" | kw:oil,crude
+2026-06-21 04:31 ACCEPT [Google News HH] "PAX Gold Price Now: Live AVAIL to USD Price and Trend - Kabul Universi" | kw:gold,rice
+2026-06-21 04:31 ACCEPT [Google News HH] "Three Indian-Flagged Crude Oil Tankers Secure Safe Passage Through Hor" | kw:oil,crude
+2026-06-21 04:31 ACCEPT [Google News HH] "OPEC projects long‑term oil demand growth, led by Asia - bastillepost." | kw:oil,opec
+2026-06-21 04:31 ACCEPT [Google News HH] "PAX Gold Price As of Today: Latest KSM to USD Price and Chart - Kabul " | kw:gold,rice
+2026-06-21 04:31 ACCEPT [Google News HH] "Three Indian crude oil tankers clear Strait of Hormuz — shipping minis" | kw:oil,crude,shipping
+2026-06-21 04:31 ACCEPT [Google News HH] "Crude Oil Price USD, OIL Price Live Charts, Market Cap & News - Bitget" | kw:oil,crude,rice
+2026-06-21 04:31 ACCEPT [Google News KL] "Production decreases, revenue increases at gold mine in South Dakota’s" | kw:gold
+2026-06-21 04:31 ACCEPT [Google News KL] "Gold, silver prices today, June 21: Check retail rates of 24K, 22K gol" | kw:gold,silver,rice
+2026-06-21 04:31 ACCEPT [Google News KL] "Storms Leave Damage In Spring Area Overnight Current Silver Price May " | kw:silver,rice
+2026-06-21 04:31 ACCEPT [Google News KL] "US May PCE Preview: Inflation May Continue to Heat Up, How Will US Sto" | kw:gold,inflation
+2026-06-21 04:31 ACCEPT [Google News KL] "Gold Prices Drop | Local & Global Rates Fall | 10g 9430 PKR, 1 Tola 11" | kw:gold,rice
+2026-06-21 04:31 ACCEPT [Google News KL] "PAX Gold Value Now: Live GNO to USD Value and Trend - Kabul University" | kw:gold
+2026-06-21 04:31 ACCEPT [Google News KL] "Gold and silver extend weekly losses as Fed signals lift dollar - MSN" | kw:gold,silver
+2026-06-21 04:31 ACCEPT [Google News KL] "Gold, Silver Rate Today June 21: Did Gold become costlier today? Check" | kw:gold,silver,rice
+2026-06-21 04:31 ACCEPT [Google News KL] "Is gold still a safe haven? - PressReader" | kw:gold
+2026-06-21 04:31 ACCEPT [Google News KL] "Gold Price Crash To Continue: $3,500 Is Next Warns Trader | Gareth Sol" | kw:gold,rice
+2026-06-21 04:31 ACCEPT [Google News KL] "Victoria’s Secret Interview With Madison Beer Current Silver Price May" | kw:silver,rice
+2026-06-21 04:31 ACCEPT [Google News KL] "Gold Price : सोने में होगा बड़ा खेल, Baba Vanga की भविष्यवाणी से मचा ह" | kw:gold,rice
+2026-06-21 04:31 ACCEPT [Google News KL] "Gold prices fall in Baghdad and Erbil - Shafaq News | Latest breaking " | kw:gold,rice
+2026-06-21 04:31 ACCEPT [Google News NS] "Swift Opening of the Agricultural Cluster in EU Negotiations Will Bene" | kw:rice
+2026-06-21 04:31 ACCEPT [Google News NS] "Farmers plant highest-ever wheat hectarage, as record target is within" | kw:wheat
+2026-06-21 04:31 ACCEPT [RT Business] "Russian SMEs growing on stronger supply chains to giants" | kw:supply chain,easing
+2026-06-21 04:31 ACCEPT [RT Business] "Gas at $4: Understanding America’s strange obsession" | kw:gas,fuel,rice
+2026-06-21 04:31 ACCEPT [RT Business] "Potato futures are soaring – should the world be worried?" | kw:fuel,rice
+2026-06-21 04:31 ACCEPT [Fed Monetary] "Federal Reserve issues FOMC statement" | kw:federal reserve,fomc
+2026-06-21 04:31 ACCEPT [Fed Monetary] "Federal Open Market Committee reaffirms its "Statement on Longer-Run G" | kw:monetary policy
+2026-06-21 04:31 ACCEPT [ECB Press] "Piero Cipollone: The foundations of national sovereignty: the role of " | kw:central bank
+2026-06-21 04:31 ACCEPT [ECB Press] "ECB publishes consolidated banking data for end-December 2025" | kw:ecb
+2026-06-21 04:31 ACCEPT [Google News CB] "Fed Chair Kevin Warsh Wants to Get Inflation Under Control. That Could" | kw:inflation
+2026-06-21 04:31 ACCEPT [Google News CB] "Is SpaceX IPO Frenzy And Fed Jitters Altering The Investment Case For " | kw:gdp
+2026-06-21 04:31 ACCEPT [Google News CB] "The Fed's Latest Inflation Outlook Offers Wall Street Its First Relief" | kw:inflation
+2026-06-21 04:31 ACCEPT [Google News CB] "South Africa’s Kganyago Warns Inflation Expectations Are Rising - Bloo" | kw:inflation
+2026-06-21 04:31 ACCEPT [Google News CB] "Interest Rate Announcement & Release Of The Monetary Policy Report / A" | kw:monetary policy,interest rate
+2026-06-21 04:31 ACCEPT [Google News CB] "Kevin Warsh's Fed debut leaves startups and AI borrowers navigating a " | kw:rate cut
+2026-06-21 04:31 ACCEPT [Google News CB] "Kevin Warsh makes Fed debut and commitment to price stability - Fox Ne" | kw:rice
+2026-06-21 04:31 SKIP_MORNING already_sent date=2026-06-21
