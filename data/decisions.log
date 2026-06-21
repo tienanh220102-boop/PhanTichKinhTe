@@ -3353,3 +3353,15 @@
 2026-06-21 09:01 ACCEPT [Google News CB] "Central Bank of Iran adds billions to foreign currency reserves amid s" | kw:sanction,central bank
 2026-06-21 09:01 ACCEPT [Google News CB] "Lebanon central bank condemns Israeli strike on branch in south - Naha" | kw:central bank
 2026-06-21 09:01 SKIP_MORNING already_sent date=2026-06-21
+2026-06-21 09:31 ACCEPT [Google News HH] "Gold Price on 20 June 2026 - Gold Price" | kw:gold,rice
+2026-06-21 09:31 ACCEPT [Google News HH] "Goldman Sachs slashes gold price target, long-term bulls turn cautious" | kw:gold,rice
+2026-06-21 09:31 ACCEPT [Google News HH] "No Fed rate cut expected this year? Goldman Sachs slashes gold price t" | kw:gold,rice,fed rate
+2026-06-21 09:31 ACCEPT [Google News HH] "21-karat gold price at JD85.3 in local market - Ammon News" | kw:gold,rice
+2026-06-21 09:31 ACCEPT [Google News KL] "Gold prices stabilize in Baghdad and Erbil - Shafaq News | Latest brea" | kw:gold,rice
+2026-06-21 09:31 ACCEPT [Google News KL] "Gold and silver prices rise in Nepali market - myRepublica" | kw:gold,silver,rice
+2026-06-21 09:31 ACCEPT [Google News KL] "Minswap vs Silver: Which Is the Better Buy in 2027? - Kabul University" | kw:silver
+2026-06-21 09:31 ACCEPT [Google News KL] "Does ZKSwap Influence Silver Value?Contrast & Market Impact - Kabul Un" | kw:silver
+2026-06-21 09:31 ACCEPT [Google News NS] "China set to import 25m metric tons of US soybeans in 2025/26 - China " | kw:soybean
+2026-06-21 09:31 ACCEPT [Google News NS] "In Matopiba, soybeans have replaced rice and beans, and traditional Ce" | kw:soybean,rice
+2026-06-21 09:31 ACCEPT [Google News CB] "Fed got a new chair. What's changing at the central bank under Warsh -" | kw:central bank
+2026-06-21 09:31 SKIP_MORNING already_sent date=2026-06-21
