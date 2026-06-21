@@ -3452,3 +3452,17 @@
 2026-06-21 14:01 ACCEPT [Google News CB] "Fed Chair Kevin Warsh Just Subtly Threw President Donald Trump and Jer" | kw:fomc
 2026-06-21 14:01 SKIP_MORNING already_sent date=2026-06-21
 2026-06-21 14:01 SKIP_EVENING already_sent date=2026-06-21
+2026-06-21 14:31 ACCEPT [Google News HH] "Crude Oil Weekly Outlook: Rebound or Trap? - FOREX.com" | kw:oil,crude
+2026-06-21 14:31 ACCEPT [Google News HH] "Libya's National Oil Corporation announced that the country's daily cr" | kw:oil,crude
+2026-06-21 14:31 ACCEPT [Google News HH] "Crude oil extends losses as Trump appears to signal approval of Iran c" | kw:oil,crude,lng
+2026-06-21 14:31 ACCEPT [Google News HH] "The National Oil Corporation of Libya announced that the country's dai" | kw:oil,crude
+2026-06-21 14:31 ACCEPT [Google News HH] "Gold price increases by Rs 600 per tola on Sunday - The Annapurna Expr" | kw:gold,rice
+2026-06-21 14:31 ACCEPT [Google News KL] "SIL vs SILJ: Which Silver Miners ETF Wins? - 24/7 Wall St." | kw:silver
+2026-06-21 14:31 ACCEPT [Google News KL] "Gold heads for third weekly loss as $4,000 risk looms - MSN" | kw:gold
+2026-06-21 14:31 ACCEPT [Google News KL] "18 Karat Gold Price Today, Sunday June 21, 2026 - Pintu" | kw:gold,rice
+2026-06-21 14:31 ACCEPT [Google News KL] "UMA Price vs Silver Price: Which Is Performing Better? - Kabul Univers" | kw:silver,rice
+2026-06-21 14:31 ACCEPT [Google News NS] "A Sea Change for Commodity Prices: Why Markets are Underpricing El Niñ" | kw:rice,commodity
+2026-06-21 14:31 ACCEPT [Google News NS] "Post-Harvest Equipment/Machinery Testing Centre at ICAR-CIAE, Bhopal: " | kw:harvest
+2026-06-21 14:31 ACCEPT [Google News CB] "30-year refinance rates surge 26 basis points to 6.98% on Fed's hawkis" | kw:inflation,basis point
+2026-06-21 14:31 SKIP_MORNING already_sent date=2026-06-21
+2026-06-21 14:31 SKIP_EVENING already_sent date=2026-06-21
