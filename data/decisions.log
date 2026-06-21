@@ -3183,3 +3183,10 @@
 2026-06-21 02:01 ACCEPT [Google News NS] "Govt Revises Commission Rates for Wheat and Paddy Procurement from Rab" | kw:wheat
 2026-06-21 02:01 ACCEPT [Google News CB] "Fed Chair Kevin Warsh Wants to Get Inflation Under Control. That Could" | kw:inflation
 2026-06-21 02:01 SKIP_MORNING already_sent date=2026-06-21
+2026-06-21 02:31 ACCEPT [Google News HH] "Opec forecasts 23pc rise in global energy demand by 2050 - TradeArabia" | kw:opec
+2026-06-21 02:31 ACCEPT [Google News HH] "Hawkish Fed and a fragile Iran deal leave commodity markets on shaky g" | kw:commodity
+2026-06-21 02:31 ACCEPT [Google News HH] "Ramses Price vs Gold Price: Which Is Performing Better? - Kabul Univer" | kw:gold,rice
+2026-06-21 02:31 ACCEPT [Google News KL] "Gold, Silver Rate Today June 21: Did Gold become costlier today? Check" | kw:gold,silver,rice
+2026-06-21 02:31 ACCEPT [Google News CB] "USD/JPY Weekly Outlook: BOJ Intervention Threat Battles Hawkish Fed - " | kw:boj
+2026-06-21 02:31 ACCEPT [Google News CB] "Bank Of Canada Holds Interest Rate At 2.25 Per Cent – March 18, 2026 E" | kw:interest rate
+2026-06-21 02:31 SKIP_MORNING already_sent date=2026-06-21
