@@ -3158,3 +3158,10 @@
 2026-06-21 00:01 ACCEPT [Google News CB] "Talking Money: Will the Iran deal, oil’s price drop keep Fed from rais" | kw:oil,rice
 2026-06-21 00:02 DIRECTION_FIX Soybean: "tăng 0.70%" → "giảm 0.70%"
 2026-06-21 00:02 SENT_MORNING articles=20 date=2026-06-21 force=False
+2026-06-21 00:31 ACCEPT [Google News HH] "Pan Ocean Signs 2.47 Trillion Won Long-Term Crude Oil Shipping Deal - " | kw:oil,crude,shipping
+2026-06-21 00:31 ACCEPT [Google News KL] "Gold Is on the Rise Again. 2 Mining Stocks to Buy Now. - The Globe and" | kw:gold
+2026-06-21 00:31 ACCEPT [Google News KL] "Does Worldcoin Affect Silver Price?Contrast & Market Impact - Kabul Un" | kw:silver,rice
+2026-06-21 00:31 ACCEPT [Google News NS] "India builds record grain reserves as El Nino returns: Rice stocks hit" | kw:wheat,rice
+2026-06-21 00:31 ACCEPT [Google News CB] "USD/JPY Weekly Outlook: BOJ Intervention Threat Battles Hawkish Fed - " | kw:boj
+2026-06-21 00:31 ACCEPT [Google News CB] "Stalled growth, coupled with ECB rate hike expectations, was weighed d" | kw:rate hike,ecb
+2026-06-21 00:31 SKIP_MORNING already_sent date=2026-06-21
