@@ -3419,3 +3419,13 @@
 2026-06-21 12:01 ACCEPT [Google News CB] "Asia's weekly TOP10 crypto news: Oman Launches State BTC Mining Pool, " | kw:interest rate,boj
 2026-06-21 12:01 ACCEPT [Google News CB] "A quieter Federal Reserve could mean volatile markets, higher rates - " | kw:federal reserve
 2026-06-21 12:01 SKIP_MORNING already_sent date=2026-06-21
+2026-06-21 12:31 ACCEPT [Google News HH] "US-Iran Talks, Crude Oil, Macro Data to Dictate Bullion Trend - Rediff" | kw:oil,crude
+2026-06-21 12:31 ACCEPT [Google News HH] "India's Oil Imports from Russia, UAE Surge as Strait of Hormuz Reopens" | kw:oil
+2026-06-21 12:31 ACCEPT [Google News HH] "Pan Ocean Wins 20-Year Crude Oil Transport Deal With SK Worth 2.47 Tri" | kw:oil,crude
+2026-06-21 12:31 ACCEPT [Google News KL] "Kelly Clarkson Needs Amy Adams To Do Another Movie Musical Silver Pric" | kw:silver,rice
+2026-06-21 12:31 ACCEPT [Google News KL] "Gold & Silver: US-Iran Talks, Oil, Macro Data to Drive Prices - Rediff" | kw:oil,gold,silver
+2026-06-21 12:31 ACCEPT [Google News KL] "Fed Rate Cuts and Gold Prices: A Investor’s Guide 2026 - Discovery Ale" | kw:gold,rice,fed rate
+2026-06-21 12:31 ACCEPT [Google News KL] "Gold, Silver Prices Remain Under Pressure Amid Strong Dollar and Hawki" | kw:gold,silver,rice
+2026-06-21 12:31 ACCEPT [Google News NS] "The Owner Of Marathon Gas Stations Is Making Diesel From Soybeans - Ja" | kw:gas,soybean
+2026-06-21 12:31 ACCEPT [Google News CB] "Iran Closes Strait of Hormuz Again: Are Fed Rate Hikes Back on the Tab" | kw:fed rate,rate hike
+2026-06-21 12:31 SKIP_MORNING already_sent date=2026-06-21
