@@ -3409,3 +3409,13 @@
 2026-06-21 11:31 ACCEPT [Google News CB] "S&P 500, Nasdaq, Dow Futures Edge Higher Ahead Of Fed Rate Decision: I" | kw:fed rate,rate decision
 2026-06-21 11:31 ACCEPT [Google News CB] "Ben Stokes. Gus Atkinson withdrawn from County Championship matches at" | kw:ecb
 2026-06-21 11:31 SKIP_MORNING already_sent date=2026-06-21
+2026-06-21 12:01 ACCEPT [Google News HH] "Iraq to Increase Crude Oil and Naphtha Exports Through Syria's Baniyas" | kw:oil,crude
+2026-06-21 12:01 ACCEPT [Google News HH] "Gold, silver rates outlook: Bullion investors to track US-Iran talks, " | kw:oil,crude,gold
+2026-06-21 12:01 ACCEPT [Google News KL] "MSQPD Sûreté Du Québec Homme Confus + Vol De Véhicule Silver Price Tod" | kw:silver,rice
+2026-06-21 12:01 ACCEPT [Google News KL] "Gold heads for third weekly loss as $4,000 risk looms - MSN" | kw:lng,gold
+2026-06-21 12:01 ACCEPT [Google News NS] "Rice prices, supply ‘satisfactory’, says commerce minister - The Finan" | kw:rice
+2026-06-21 12:01 ACCEPT [Google News CB] "Stokes withdrawn from Durham fixture at ECB request - Reuters" | kw:ecb
+2026-06-21 12:01 ACCEPT [Google News CB] "Stock market bounces back to finish winning week as tech leads recover" | kw:lng
+2026-06-21 12:01 ACCEPT [Google News CB] "Asia's weekly TOP10 crypto news: Oman Launches State BTC Mining Pool, " | kw:interest rate,boj
+2026-06-21 12:01 ACCEPT [Google News CB] "A quieter Federal Reserve could mean volatile markets, higher rates - " | kw:federal reserve
+2026-06-21 12:01 SKIP_MORNING already_sent date=2026-06-21
