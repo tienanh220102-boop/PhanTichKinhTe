@@ -3294,3 +3294,10 @@
 2026-06-21 05:31 ACCEPT [Google News KL] "What do major banks predict about gold price prospects at the end of 2" | kw:gold,rice
 2026-06-21 05:31 ACCEPT [Google News NS] "St. Onge Livestock Auction Special Sale: 6,412 Head Sold Amid Drought " | kw:drought
 2026-06-21 05:31 SKIP_MORNING already_sent date=2026-06-21
+2026-06-21 06:01 ACCEPT [Google News HH] "Three Indian Tankers Clear Strait Of Hormuz With 8.6 Lakh Tonne Of Cru" | kw:oil,crude
+2026-06-21 06:01 ACCEPT [Google News HH] "Three Indian crude oil tankers en route home with over 8.6 lakh MT car" | kw:oil,crude
+2026-06-21 06:01 ACCEPT [Google News HH] "Week ahead: Crude oil prices, FIIs activity, US PCE data, Strait of Ho" | kw:oil,crude,rice
+2026-06-21 06:01 ACCEPT [Google News KL] "Gold prices ease after week-long slide; silver also dips - MSN" | kw:gold,silver,rice
+2026-06-21 06:01 ACCEPT [Google News KL] "Gold and silver prices rise in domestic market today - Nepalnews.com" | kw:gold,silver,rice
+2026-06-21 06:01 ACCEPT [Google News KL] "Goldman Sachs Cuts 2026 Gold Forecast to $4,900/oz from $5,400 - FXLea" | kw:gold
+2026-06-21 06:01 SKIP_MORNING already_sent date=2026-06-21
