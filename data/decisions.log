@@ -3430,11 +3430,10 @@
 2026-06-21 12:31 ACCEPT [Google News CB] "Iran Closes Strait of Hormuz Again: Are Fed Rate Hikes Back on the Tab" | kw:fed rate,rate hike
 2026-06-21 12:31 SKIP_MORNING already_sent date=2026-06-21
 2026-06-21 13:01 ACCEPT [Google News HH] "Gold, silver rates outlook: Bullion investors to track US-Iran talks, " | kw:oil,crude,gold
-2026-06-21 13:01 ACCEPT [Google News HH] "Crude oil prices jump as US domestic supplies tumble - MSN" | kw:oil,crude,rice
 2026-06-21 13:01 ACCEPT [Google News KL] "Blaze Value vs Silver Value: Which Is Performing Better? - Kabul Unive" | kw:silver
 2026-06-21 13:01 ACCEPT [Google News NS] "Experts suggest soybean buyers buy local produce - Taipei Times" | kw:soybean
 2026-06-21 13:01 ACCEPT [Google News CB] "Gold faces hurdle on path to $5,200 as hawkish Fed dampens ETF demand," | kw:gold
 2026-06-21 13:01 SKIP_MORNING already_sent date=2026-06-21
-2026-06-21 13:02 DIRECTION_FIX Brent: "giảm 1,1%" → "tăng 1,1%"
-2026-06-21 13:02 DIRECTION_FIX Copper: "tăng 0,76%" → "giảm 0,76%"
+2026-06-21 13:02 DIRECTION_FIX Copper: "tăng 0.76%" → "giảm 0.76%"
+2026-06-21 13:02 DIRECTION_FIX Brent: "giảm 1.1%" → "tăng 1.1%"
 2026-06-21 13:02 SENT_EVENING articles=20 date=2026-06-21 force=False
