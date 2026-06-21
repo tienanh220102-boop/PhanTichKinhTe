@@ -3399,3 +3399,13 @@
 2026-06-21 11:01 ACCEPT [Google News HH] "India boosts Russian, UAE oil purchases in June ahead of full Hormuz r" | kw:oil
 2026-06-21 11:01 ACCEPT [Google News KL] "Wall Street cuts gold targets, keeps $5,000 in sight - Khaleej Times" | kw:gold
 2026-06-21 11:01 SKIP_MORNING already_sent date=2026-06-21
+2026-06-21 11:31 ACCEPT [Google News HH] "Gold Outlook: US-Iran Talks, Crude Oil Prices, Macro Data To Dictate B" | kw:oil,crude,gold
+2026-06-21 11:31 ACCEPT [Google News KL] "Gold, silver slump as Fed signals hit safe-haven demand - MSN" | kw:gold,silver
+2026-06-21 11:31 ACCEPT [Google News KL] "Spot Silver Dives 10% As Fed Rate Cut Hopes Fade After Recent Jobs Dat" | kw:silver,fed rate,rate cut
+2026-06-21 11:31 ACCEPT [Google News KL] "‘Rich Dad Poor Dad’ author reveals best time to buy Bitcoin, gold - th" | kw:gold
+2026-06-21 11:31 ACCEPT [Google News KL] "Does Curve DAO Impact Gold Value?Contrast and Market Impact - Kabul Un" | kw:gold
+2026-06-21 11:31 ACCEPT [Google News CB] "Father’s Day around the world - ECB Publishing, Inc." | kw:ecb
+2026-06-21 11:31 ACCEPT [Google News CB] "Five appliances to help manage energy use in the summer - ECB Publishi" | kw:ecb
+2026-06-21 11:31 ACCEPT [Google News CB] "S&P 500, Nasdaq, Dow Futures Edge Higher Ahead Of Fed Rate Decision: I" | kw:fed rate,rate decision
+2026-06-21 11:31 ACCEPT [Google News CB] "Ben Stokes. Gus Atkinson withdrawn from County Championship matches at" | kw:ecb
+2026-06-21 11:31 SKIP_MORNING already_sent date=2026-06-21
