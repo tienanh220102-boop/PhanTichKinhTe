@@ -3210,3 +3210,7 @@
 2026-06-21 03:31 ACCEPT [Google News NS] "South African wheat producers reject decision to retain current tariff" | kw:wheat,tariff
 2026-06-21 03:31 ACCEPT [Google News NS] "Agric. & Environment: Kenyan grain buyers in Uganda in searc - newvisi" | kw:iron
 2026-06-21 03:31 SKIP_MORNING already_sent date=2026-06-21
+2026-06-21 04:01 ACCEPT [Google News HH] "Morgan Stanley resets gold price target for rest of 2026 - AOL.com" | kw:gold,rice
+2026-06-21 04:01 ACCEPT [Google News HH] "Goldman Sachs revisits its gold price target after Fed meeting - AOL.c" | kw:gold,rice
+2026-06-21 04:01 ACCEPT [Google News NS] "Is the 2026 soybean rally over? - MSN" | kw:soybean
+2026-06-21 04:01 SKIP_MORNING already_sent date=2026-06-21
