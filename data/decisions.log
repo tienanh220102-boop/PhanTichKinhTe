@@ -3481,3 +3481,8 @@
 2026-06-21 15:21 ACCEPT [Google News KL] "Old Gold Prices 17K to 24K Today, Sunday June 21, 2026 - Pintu" | kw:gold,rice
 2026-06-21 15:21 SKIP_MORNING already_sent date=2026-06-21
 2026-06-21 15:21 SKIP_EVENING already_sent date=2026-06-21
+2026-06-21 15:31 ACCEPT [Google News HH] "Opie & Anthony - May 14, 2012 - No Anthony Crude Oil Price (yxLvL6CBPM" | kw:oil,crude,rice
+2026-06-21 15:31 ACCEPT [Google News KL] "Eldorado Gold Corporation: Well Positioned To Take Advantage Of Elevat" | kw:gold,rice
+2026-06-21 15:31 ACCEPT [Google News KL] "Antam Retro Horizontal Gold Price Today, Sunday June 21, 2026 - Pintu" | kw:gold,rice
+2026-06-21 15:31 SKIP_MORNING already_sent date=2026-06-21
+2026-06-21 15:31 SKIP_EVENING already_sent date=2026-06-21
