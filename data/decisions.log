@@ -3165,3 +3165,6 @@
 2026-06-21 00:31 ACCEPT [Google News CB] "USD/JPY Weekly Outlook: BOJ Intervention Threat Battles Hawkish Fed - " | kw:boj
 2026-06-21 00:31 ACCEPT [Google News CB] "Stalled growth, coupled with ECB rate hike expectations, was weighed d" | kw:rate hike,ecb
 2026-06-21 00:31 SKIP_MORNING already_sent date=2026-06-21
+2026-06-21 01:01 ACCEPT [Google News NS] "Eastern Province Silos Receive 669,000 Tons of Local Wheat - خبر صح" | kw:wheat
+2026-06-21 01:01 ACCEPT [Google News CB] "USD/JPY Weekly Outlook: BOJ Intervention Threat Battles Hawkish Fed - " | kw:boj
+2026-06-21 01:01 SKIP_MORNING already_sent date=2026-06-21
