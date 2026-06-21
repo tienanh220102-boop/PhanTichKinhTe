@@ -3301,3 +3301,10 @@
 2026-06-21 06:01 ACCEPT [Google News KL] "Gold and silver prices rise in domestic market today - Nepalnews.com" | kw:gold,silver,rice
 2026-06-21 06:01 ACCEPT [Google News KL] "Goldman Sachs Cuts 2026 Gold Forecast to $4,900/oz from $5,400 - FXLea" | kw:gold
 2026-06-21 06:01 SKIP_MORNING already_sent date=2026-06-21
+2026-06-21 06:31 ACCEPT [Google News HH] "Crude Oil Price Forecast Today , Technical Analysis (March 06): WTI, B" | kw:oil,crude,brent
+2026-06-21 06:31 ACCEPT [Google News HH] "No Fed rate cut expected this year! Goldman Sachs slashes gold price t" | kw:gold,rice,fed rate
+2026-06-21 06:31 ACCEPT [Google News HH] "Three Indian Tankers Clear Strait Of Hormuz With 8.6 Lakh Tonne Of Cru" | kw:oil,crude
+2026-06-21 06:31 ACCEPT [Google News HH] "World Oil Outlook 2050 – OPEC’s WOO 2026: Robust Growth to 124 mb/d, N" | kw:oil,opec
+2026-06-21 06:31 ACCEPT [Google News HH] "India’s Russian crude imports jump as refiners prepare for post-Hormuz" | kw:crude
+2026-06-21 06:31 ACCEPT [Google News KL] "How Does Abracadabra Impact Silver Value?Major Market Factors - Kabul " | kw:silver
+2026-06-21 06:31 SKIP_MORNING already_sent date=2026-06-21
