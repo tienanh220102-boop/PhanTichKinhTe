@@ -3334,3 +3334,12 @@
 2026-06-21 08:01 ACCEPT [Google News CB] "Bank of England holds main interest rate at 3.75% as Iran war inflatio" | kw:inflation,interest rate,bank of england
 2026-06-21 08:01 ACCEPT [Google News CB] "Interest Rate Forecast: USDJPY, EURJPY and GBPJPY Face Yen Weakness - " | kw:interest rate
 2026-06-21 08:01 SKIP_MORNING already_sent date=2026-06-21
+2026-06-21 08:31 ACCEPT [Google News HH] "Crude Oil Weekly Forecast - 21/06: Reacts to Hormuz (Chart) - DailyFor" | kw:oil,crude
+2026-06-21 08:31 ACCEPT [Google News HH] "Goldman Sachs slashes gold price target, long-term bulls turn cautious" | kw:gold,rice
+2026-06-21 08:31 ACCEPT [Google News HH] "No real spike in petrol, diesel prices in India despite global crude o" | kw:oil,crude,rice
+2026-06-21 08:31 ACCEPT [Google News KL] "Silver Price Forecast: Silver Eyes Next Rally as Copper Lags - FXEmpir" | kw:silver,copper,rice
+2026-06-21 08:31 ACCEPT [Google News KL] "How Does Walrus Affect Silver Price?Key Market Factors - Kabul Univers" | kw:silver,rice
+2026-06-21 08:31 ACCEPT [Google News KL] "Gold prices lost more than 220 USD in just a few days, the big wave ha" | kw:gold,rice
+2026-06-21 08:31 ACCEPT [Google News CB] "Kevin Warsh signals Fed overhaul, possible rate hikes - qz.com" | kw:rate hike
+2026-06-21 08:31 ACCEPT [Google News CB] "Fed’s Favorite Gauge Is Seen Showing Faster Inflation - Bloomberg" | kw:inflation
+2026-06-21 08:31 SKIP_MORNING already_sent date=2026-06-21
