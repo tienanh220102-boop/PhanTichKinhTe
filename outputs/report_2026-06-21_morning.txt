@@ -1,0 +1,98 @@
+[BẢNG SỐ LIỆU]
+               Giá   Phiên  5 phiên
+WTI          76.54   -0.1%    -9.8%
+Brent        80.59   +0.9%    -7.7%
+Khí TN       3.198   -1.1%    +2.5%
+Vàng      4,172.90   -1.2%    -1.0%
+Bạc          64.91   -2.0%    -4.3%
+Đồng         6.337   -0.6%    -1.4%
+Ngô         417.50   -0.8%    +1.4%
+Lúa mì      605.75   -1.1%    +3.2%
+Đậu t.    1,122.75   -0.8%    +0.7%
+DXY         100.85   -0.0%    +1.1%
+
+[LIÊN THỊ TRƯỜNG]
+  Brent−WTI: $4.05 (1 tháng trước: $6.76) — spread rộng = cung WTI dồi dào tương đối
+  Vàng/Bạc: 64.3 (1 tháng trước: 59.7) — tỷ lệ cao = bạc rẻ tương đối so với vàng
+  Đồng/Vàng (×1000): 1.52 (1 tháng trước: 1.39) — tăng = risk-on/kỳ vọng tăng trưởng
+
+[VỊ THẾ QUỸ ĐẦU CƠ — CFTC COT tuần 2026-06-09]
+  Lúa mì (SRW): NET SHORT -57,853 (Δ tuần: -17,091)
+  Ngô: NET LONG +103,559 (Δ tuần: -96,383)
+  Đậu tương: NET LONG +150,463 (Δ tuần: -37,321)
+  Dầu WTI: NET LONG +3,379 (Δ tuần: +11,230)
+  Bạc: NET LONG +22,214 (Δ tuần: -1,712)
+  Đồng: NET LONG +74,450 (Δ tuần: -4,383)
+  Vàng XAU: NET LONG +173,837 (Δ tuần: -2,183)
+→ NET LONG = quỹ đặt cược giá tăng; Δ dương = dòng tiền đầu cơ đang vào
+
+**BÁO CÁO PHÂN TÍCH THỊ TRƯỜNG HÀNG HÓA PHIÊN SÁNG 2026-06-21 (07:00 VN)**
+
+---
+
+🔀 **ĐỐI CHIẾU NGUỒN TIN**
+• Có sự mâu thuẫn trong các báo cáo về giá dầu thô: một số nguồn (News 4, 16) cho biết giá dầu thô toàn cầu giảm và ghi nhận mức giảm hàng tuần mạnh, trong khi một nguồn khác (News 5) lại đưa tin giá dầu thô toàn cầu tăng mạnh. Điều này tạo ra sự không chắc chắn về động lực thị trường ngắn hạn.
+• Về tình hình Eo biển Hormuz, một số tin tức (News 7, 10, 11, 17) khẳng định các tàu chở dầu của Ấn Độ đã đi qua hoặc Eo biển đã mở lại, cho thấy nguồn cung ổn định. Tuy nhiên, một tin tức khác (News 13) lại đề cập đến việc Iran đóng cửa Eo biển Hormuz khiến giá dầu tăng vọt, đây có thể là tin tức cũ hoặc chưa được kiểm chứng, gây nhiễu loạn thông tin về rủi ro địa chính trị.
+
+🌍 **VĨ MÔ & TIN TỨC NỔI BẬT**
+• Giá dầu thô toàn cầu giảm mạnh trong hai tuần liên tiếp và ghi nhận mức giảm hàng tuần đáng kể (News 1, 2, 16), làm dấy lên hy vọng về việc giảm giá xăng dầu tại các trạm bơm (News 15).
+• Tình hình giá dầu giảm có thể ảnh hưởng đến quyết định của Cục Dự trữ Liên bang Mỹ (Fed) về việc tăng lãi suất trong năm nay (News 20), cho thấy mối liên hệ giữa thị trường năng lượng và chính sách tiền tệ.
+• Ấn Độ đã đảm bảo 70% lượng dầu thô nhập khẩu từ bên ngoài Eo biển Hormuz (News 10) và các quốc gia châu Á đang phối hợp với các nước Trung Đông để tăng cường dòng chảy năng lượng khi Eo biển Hormuz mở lại (News 17), giảm bớt lo ngại về gián đoạn nguồn cung.
+
+🛢️ **NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên**
+Xu hướng: WTI GIẢM | Brent GIẢM | Khí TN TĂNG
+Tín hiệu: WTI BÁN | Brent BÁN | Khí TN MUA
+Ngưỡng giá: WTI 73.58–82.42 | Brent 76.58–85.29 | Khí TN 3.159–3.299
+Phân tích:
+• Dầu WTI giảm 0.08% trong phiên và giảm 9.83% trong 5 phiên, vẫn trong xu hướng giảm trung hạn. Dầu Brent tăng 0.93% trong phiên nhưng giảm 7.72% trong 5 phiên, cũng trong xu hướng giảm trung hạn. Giá dầu thô toàn cầu đã giảm trong hai tuần liên tiếp do lo ngại về nhu cầu và nguồn cung ổn định (News 1, 2, 4, 16).
+• Các quỹ đầu cơ lớn đang tăng vị thế mua ròng đối với dầu WTI (NET LONG +3,379, tăng 11,230 trong tuần), cho thấy kỳ vọng giá sẽ phục hồi bất chấp đà giảm gần đây.
+• Khí tự nhiên giảm 1.08% trong phiên nhưng tăng 2.50% trong 5 phiên, đang trong xu hướng tăng trung hạn. Dao động trong biên độ bình thường, không có driver rõ rệt từ tin tức.
+Rủi ro:
+• Mâu thuẫn thông tin về việc Eo biển Hormuz bị đóng cửa (tin chưa kiểm chứng) và việc mở lại có thể gây biến động bất ngờ cho giá dầu.
+• Vị thế mua ròng của các quỹ lớn đối với dầu WTI đi ngược với xu hướng giảm giá gần đây, cho thấy thị trường có thể đang ở điểm uốn hoặc có sự phân hóa trong kỳ vọng.
+
+🥇 **KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc**
+Xu hướng: Vàng GIẢM | Bạc GIẢM
+Tín hiệu: Vàng BÁN | Bạc BÁN
+Ngưỡng giá: Vàng 4,138.70–4,377.00 | Bạc 63.35–70.95
+Phân tích:
+• Vàng giảm 1.21% trong phiên và giảm 1.00% trong 5 phiên, vẫn trong xu hướng giảm trung hạn. Bạc giảm 2.03% trong phiên và giảm 4.35% trong 5 phiên, cũng trong xu hướng giảm trung hạn và đã ghi nhận chuỗi giảm sáu tuần liên tiếp (News 1, 2).
+• Tỷ lệ Vàng/Bạc ở mức 64.3 (tăng từ 59.7 một tháng trước) cho thấy bạc đang rẻ tương đối so với vàng, có thể thu hút dòng tiền tìm kiếm giá trị.
+• Các quỹ đầu cơ lớn vẫn duy trì vị thế mua ròng đối với vàng và bạc nhưng đã giảm nhẹ trong tuần qua (Vàng: NET LONG +173,837, giảm 2,183; Bạc: NET LONG +22,214, giảm 1,712).
+Rủi ro:
+• Tâm lý thị trường chuyển dịch sang các tài sản rủi ro hơn hoặc Bitcoin khi giá vàng và bạc giảm (News 8, 9) có thể tiếp tục gây áp lực lên kim loại quý.
+
+🌾 **NÔNG SẢN — Ngô, Đậu tương, Lúa mì**
+Xu hướng: Ngô GIẢM | Lúa mì SIDEWAY | Đậu tương GIẢM
+Tín hiệu: Ngô BÁN | Lúa mì GIỮ | Đậu tương BÁN
+Ngưỡng giá: Ngô 406.25–422.00 | Lúa mì 603.92–618.25 | Đậu tương 1,102.50–1,140.50
+Phân tích:
+• Ngô giảm 0.83% trong phiên nhưng tăng 1.40% trong 5 phiên, vẫn trong xu hướng giảm trung hạn. Lúa mì giảm 1.14% trong phiên nhưng tăng 3.24% trong 5 phiên, đang trong xu hướng đi ngang. Đậu tương giảm 0.82% trong phiên nhưng giảm 0.70% trong 5 phiên, vẫn trong xu hướng giảm trung hạn.
+• Các quỹ đầu cơ lớn đang giảm đáng kể vị thế mua ròng đối với ngô (NET LONG +103,559, giảm 96,383 trong tuần) và đậu tương (NET LONG +150,463, giảm 37,321 trong tuần), đồng thời tăng vị thế bán ròng đối với lúa mì (NET SHORT -57,853, tăng 17,091 trong tuần), cho thấy tâm lý tiêu cực đối với nhóm nông sản.
+• Dao động trong biên độ bình thường, không có driver rõ rệt từ tin tức cho Ngô và Lúa mì.
+Rủi ro:
+• Giai đoạn thụ phấn của ngô ở Mỹ đang bắt đầu, thời tiết bất lợi có thể gây biến động mạnh cho giá ngô.
+• Giá thức ăn tôm (đậu tương) ảnh hưởng trực tiếp đến lợi nhuận của người nuôi tôm tại Việt Nam, đặc biệt khi mùa thu hoạch hè bắt đầu.
+
+🔩 **KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken**
+Xu hướng: Đồng SIDEWAY
+Tín hiệu: Đồng GIỮ
+Ngưỡng giá: Đồng 6.270–6.500
+Phân tích:
+• Đồng giảm 0.59% trong phiên và giảm 1.45% trong 5 phiên, đang trong xu hướng đi ngang.
+• Thị trường kim loại công nghiệp nói chung suy yếu, với kẽm LME giảm hơn 2%, chì và niken LME dẫn đầu đà giảm (News 1, 2), cho thấy tâm lý "né tránh rủi ro" đang chiếm ưu thế.
+• Các quỹ đầu cơ lớn đang giảm vị thế mua ròng đối với đồng (NET LONG +74,450, giảm 4,383 trong tuần), phản ánh sự thận trọng của nhà đầu tư.
+Rủi ro:
+• Mùa mưa ở miền Nam Việt Nam có thể làm chậm hoạt động xây dựng, dẫn đến giảm nhu cầu thép và xi măng theo mùa, ảnh hưởng gián tiếp đến tâm lý thị trường kim loại công nghiệp.
+
+📋 **KHUYẾN NGHỊ PHIÊN**
+• **Dầu Brent:** Có thể xem xét vị thế bán nếu giá không vượt qua được ngưỡng kháng cự $82.00, với mục tiêu về vùng $78.00 và cắt lỗ tại $82.50.
+• **Vàng:** Tiếp tục theo dõi xu hướng giảm. Có thể xem xét vị thế bán nếu giá không giữ được trên $4180, với mục tiêu về $4140 và cắt lỗ tại $4200.
+• **Bạc:** Với RSI thấp và tỷ lệ Vàng/Bạc cao, có thể có cơ hội mua vào nếu giá ổn định trên $64.00, với mục tiêu $66.00 và cắt lỗ tại $63.50.
+
+⚠️ **THEO DÕI PHIÊN**
+• Các báo cáo mới về tình hình Eo biển Hormuz và các tuyên bố liên quan đến chính sách năng lượng từ các nước sản xuất dầu.
+• Diễn biến của đồng USD và lợi suất trái phiếu Mỹ, đặc biệt là các bình luận từ quan chức Fed về chính sách lãi suất.
+• Cập nhật về thời tiết tại các vùng trồng trọt chính của Mỹ, đặc biệt là trong giai đoạn thụ phấn của ngô.
+
+⚙️ Ghi chú hệ thống: đã tự hiệu chỉnh 1 mô tả hướng giá cho khớp số liệu gốc. Nên kiểm tra lại các câu liên quan (có thể còn từ "lên/xuống" chưa đồng bộ).

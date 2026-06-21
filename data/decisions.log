@@ -3151,3 +3151,10 @@
 2026-06-20 23:41 ACCEPT [Google News KL] "Gold Is on the Rise Again. 2 Mining Stocks to Buy Now. - The Globe and" | kw:gold
 2026-06-20 23:41 ACCEPT [Google News NS] "Farmers plant highest-ever wheat hectarage, as record target is within" | kw:wheat
 2026-06-20 23:42 ACCEPT [Google News CB] "Is SpaceX IPO Frenzy And Fed Jitters Altering The Investment Case For " | kw:gdp
+2026-06-21 00:01 ACCEPT [Google News HH] "PAX Gold Price As of Today: Latest KSM to USD Price and Chart - Kabul " | kw:gold,rice
+2026-06-21 00:01 ACCEPT [Google News HH] "Gold price pops after Trump cancels threatened military strikes on Ira" | kw:gold,rice
+2026-06-21 00:01 ACCEPT [Google News KL] "Gold Is on the Rise Again. 2 Mining Stocks to Buy Now. - The Globe and" | kw:gold
+2026-06-21 00:01 ACCEPT [Google News NS] "Baghdad vows nationwide wheat procurement, eyes self-sufficiency: Mini" | kw:wheat
+2026-06-21 00:01 ACCEPT [Google News CB] "Talking Money: Will the Iran deal, oil’s price drop keep Fed from rais" | kw:oil,rice
+2026-06-21 00:02 DIRECTION_FIX Soybean: "tăng 0.70%" → "giảm 0.70%"
+2026-06-21 00:02 SENT_MORNING articles=20 date=2026-06-21 force=False
