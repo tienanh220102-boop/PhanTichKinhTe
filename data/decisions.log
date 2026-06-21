@@ -3501,3 +3501,10 @@
 2026-06-21 16:31 ACCEPT [Google News NS] "Wheat producers face setback as tariff changes rejected - Farmer's Wee" | kw:wheat,tariff
 2026-06-21 16:31 SKIP_MORNING already_sent date=2026-06-21
 2026-06-21 16:31 SKIP_EVENING already_sent date=2026-06-21
+2026-06-21 16:59 ACCEPT [NASDAQ Commod] "DGCX Introduces First Same-Day Physical Gold Contract in Gulf" | kw:gold,commodities
+2026-06-21 16:59 ACCEPT [Google News HH] "US-Iran talks, crude oil movement, macro data to dictate bullion trend" | kw:oil,crude
+2026-06-21 16:59 ACCEPT [Google News HH] "India secures 70% of crude oil imports Outside Strait of Hormuz: Petro" | kw:oil,crude,petroleum
+2026-06-21 16:59 ACCEPT [Google News HH] "3 Indian-flagged crude oil tankers transit Strait of Hormuz - Rediff" | kw:oil,crude
+2026-06-21 16:59 ACCEPT [Google News HH] "Iraq's Deputy Oil Minister stated that Iraq plans to gradually restore" | kw:oil,crude
+2026-06-21 16:59 SKIP_MORNING already_sent date=2026-06-21
+2026-06-21 16:59 SKIP_EVENING already_sent date=2026-06-21
