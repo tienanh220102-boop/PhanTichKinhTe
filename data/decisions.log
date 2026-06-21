@@ -3437,3 +3437,12 @@
 2026-06-21 13:02 DIRECTION_FIX Copper: "tăng 0.76%" → "giảm 0.76%"
 2026-06-21 13:02 DIRECTION_FIX Brent: "giảm 1.1%" → "tăng 1.1%"
 2026-06-21 13:02 SENT_EVENING articles=20 date=2026-06-21 force=False
+2026-06-21 13:31 ACCEPT [MarketWatch] "This bull market isn’t going to end because of Fed rate hikes under Wa" | kw:fed rate,rate hike
+2026-06-21 13:31 ACCEPT [Google News HH] "Libya's NOC lifts crude oil output to highest since 2013 - TradingView" | kw:oil,crude
+2026-06-21 13:31 ACCEPT [Google News HH] "The Week Ahead: IPOs, Crude Oil Action, A Fragile Middle East Ceasefir" | kw:oil,crude
+2026-06-21 13:31 ACCEPT [Google News HH] "Crude oil prices jump as US domestic supplies tumble - MSN" | kw:oil,crude,rice
+2026-06-21 13:31 ACCEPT [Google News KL] "Alamos Gold (TSX:AGI) Is Down 14.8% After Cutting 2026 Output Guidance" | kw:gold
+2026-06-21 13:31 ACCEPT [Google News CB] "This bull market isn’t going to end because of Fed rate hikes under Wa" | kw:fed rate,rate hike
+2026-06-21 13:31 ACCEPT [Google News CB] "How to take advantage of the new student loan interest rate reduction:" | kw:interest rate
+2026-06-21 13:31 SKIP_MORNING already_sent date=2026-06-21
+2026-06-21 13:31 SKIP_EVENING already_sent date=2026-06-21
