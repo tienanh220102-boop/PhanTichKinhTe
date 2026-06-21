@@ -3321,3 +3321,16 @@
 2026-06-21 07:31 ACCEPT [Google News NS] "Forecast of wheat exports from Russia in the closing season for the fi" | kw:wheat
 2026-06-21 07:31 ACCEPT [Google News CB] "Galaxy CEO says Fed rate cuts could revive Bitcoin and silence critics" | kw:fed rate,rate cut
 2026-06-21 07:31 SKIP_MORNING already_sent date=2026-06-21
+2026-06-21 08:01 ACCEPT [Google News HH] "No real spike in petrol, diesel prices in India despite global crude o" | kw:oil,crude,rice
+2026-06-21 08:01 ACCEPT [Google News HH] "Three Indian crude oil tankers en route home with over 8.6 lakh MT car" | kw:oil,crude
+2026-06-21 08:01 ACCEPT [Google News KL] "Stader Past Price Chart: Performance and Market Stats - Kabul Universi" | kw:rice
+2026-06-21 08:01 ACCEPT [Google News NS] "Export inspections of corn decline, wheat soybeans increase - Hutch Po" | kw:wheat,corn,soybean
+2026-06-21 08:01 ACCEPT [Google News CB] "Fed 'dot plot': Almost half of FOMC members project at least one inter" | kw:interest rate,rate hike,fomc
+2026-06-21 08:01 ACCEPT [Google News CB] "Will a 2026 Fed Interest Rate Increase Help or Hurt Retirees? - AOL.co" | kw:interest rate
+2026-06-21 08:01 ACCEPT [Google News CB] "BOJ raises interest rates to 31-year high in widely expected move - AO" | kw:interest rate,boj
+2026-06-21 08:01 ACCEPT [Google News CB] "BOJ may raise interest rates twice by March, says ex-BOJ policymaker -" | kw:interest rate,boj
+2026-06-21 08:01 ACCEPT [Google News CB] "Wall Street Is Watching Kevin Warsh Closely as Trump Pushes Fed Toward" | kw:rate cut
+2026-06-21 08:01 ACCEPT [Google News CB] "As oil roundtrips, AI booms, and US consumers spend, economists' Fed o" | kw:oil
+2026-06-21 08:01 ACCEPT [Google News CB] "Bank of England holds main interest rate at 3.75% as Iran war inflatio" | kw:inflation,interest rate,bank of england
+2026-06-21 08:01 ACCEPT [Google News CB] "Interest Rate Forecast: USDJPY, EURJPY and GBPJPY Face Yen Weakness - " | kw:interest rate
+2026-06-21 08:01 SKIP_MORNING already_sent date=2026-06-21
