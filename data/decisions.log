@@ -3486,3 +3486,12 @@
 2026-06-21 15:31 ACCEPT [Google News KL] "Antam Retro Horizontal Gold Price Today, Sunday June 21, 2026 - Pintu" | kw:gold,rice
 2026-06-21 15:31 SKIP_MORNING already_sent date=2026-06-21
 2026-06-21 15:31 SKIP_EVENING already_sent date=2026-06-21
+2026-06-21 16:01 ACCEPT [Google News HH] "Indian Markets: US-Iran Talks, Crude Oil & FIIs Key Drivers - Rediff M" | kw:oil,crude
+2026-06-21 16:01 ACCEPT [Google News KL] "Gold, silver prices unchanged in major Indian cities - MSN" | kw:gold,silver,rice
+2026-06-21 16:01 ACCEPT [Google News KL] "Gold & Silver: US-Iran Talks, Oil, Macro Data to Drive Prices - Rediff" | kw:oil,gold,silver
+2026-06-21 16:01 ACCEPT [Google News KL] "Bitcoin Gold Plummets 30.51% — What’s Driving This Decline? - Coinfoma" | kw:gold
+2026-06-21 16:01 ACCEPT [Google News KL] "Gold & silver prices fall by up to ₹31,200, graph shows their performa" | kw:gold,silver,rice
+2026-06-21 16:01 ACCEPT [Google News CB] "Charles Schwab (SCHW) Stock After Recent Performance And Interest Rate" | kw:interest rate
+2026-06-21 16:01 ACCEPT [Google News CB] "Kevin Warsh’s First Fed Meeting: No Rate Cut, Clear Divisions Emerge -" | kw:rate cut
+2026-06-21 16:01 SKIP_MORNING already_sent date=2026-06-21
+2026-06-21 16:01 SKIP_EVENING already_sent date=2026-06-21
