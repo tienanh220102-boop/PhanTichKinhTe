@@ -4145,3 +4145,13 @@
 2026-06-22 17:31 ACCEPT [Google News NS] "USDA Grain Bids Report June 22, 2026: Kansas, Illinois, Gulf, Portland" | kw:rice
 2026-06-22 17:31 ACCEPT [Google News NS] "Tariff cuts offer limited relief for farm equipment industry - Farm Pr" | kw:tariff
 2026-06-22 17:31 ACCEPT [Google News NS] "Doyle elected director to United Soybean Board - NEA Town Courier" | kw:soybean
+2026-06-22 18:00 ACCEPT [OilPrice.com] "The Oil Crisis Is Far From Over" | kw:oil
+2026-06-22 18:00 ACCEPT [NASDAQ Commod] "Analyst Favorites: Wheaton Precious Metals Ranks As a Top Metals Pick" | kw:wheat
+2026-06-22 18:00 ACCEPT [Google News HH] "Crude Oil Prices Tumble on US-Iran Peace Progress - Barchart.com" | kw:oil,crude,rice
+2026-06-22 18:00 ACCEPT [Google News HH] "Gold price rises as Iran talks knock Oil lower - FXStreet" | kw:oil,gold,rice
+2026-06-22 18:00 ACCEPT [Google News HH] "Oil News: Crude Oil Futures Tumble as Iran Deal Progress Hits Oil Outl" | kw:oil,crude
+2026-06-22 18:00 ACCEPT [Google News KL] "Bank of America says gold can still hit $6,000, just not anytime soon " | kw:gold
+2026-06-22 18:00 ACCEPT [Google News NS] "China buys soybeans but macro factors limit bullishness - FarmWeekNow" | kw:soybean
+2026-06-22 18:00 ACCEPT [Google News CB] "Lagarde Sees No Need for More Forceful ECB Response to War - Bloomberg" | kw:ecb
+2026-06-22 18:00 ACCEPT [Google News CB] "Oil's Plunge Below $80 Is Already Reshaping the Fed's Rate Path, Says " | kw:oil
+2026-06-22 18:00 ACCEPT [Google News CB] "Citadel Says Fed’s New Regime Could Stabilize Treasury Long End - Bloo" | kw:treasury
