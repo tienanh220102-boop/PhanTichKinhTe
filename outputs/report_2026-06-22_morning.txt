@@ -1,0 +1,96 @@
+[BẢNG SỐ LIỆU]
+               Giá   Phiên  5 phiên
+WTI          77.78   +1.5%    -8.4%
+Brent        81.67   +2.3%    -6.5%
+Khí TN       3.274   +1.3%    +4.9%
+Vàng      4,156.60   -1.6%    -1.4%
+Bạc          64.38   -2.8%    -5.1%
+Đồng         6.325   -0.8%    -1.6%
+Ngô         444.25   +5.5%    +7.9%
+Lúa mì      613.25   +0.1%    +4.5%
+Đậu t.    1,142.00   +0.9%    +2.4%
+DXY         100.88   +0.0%    +1.1%
+
+[LIÊN THỊ TRƯỜNG]
+  Brent−WTI: $3.89 (1 tháng trước: $6.76) — spread rộng = cung WTI dồi dào tương đối
+  Vàng/Bạc: 64.6 (1 tháng trước: 59.7) — tỷ lệ cao = bạc rẻ tương đối so với vàng
+  Đồng/Vàng (×1000): 1.52 (1 tháng trước: 1.39) — tăng = risk-on/kỳ vọng tăng trưởng
+
+[VỊ THẾ QUỸ ĐẦU CƠ — CFTC COT tuần 2026-06-09]
+  Lúa mì (SRW): NET SHORT -57,853 (Δ tuần: -17,091)
+  Ngô: NET LONG +103,559 (Δ tuần: -96,383)
+  Đậu tương: NET LONG +150,463 (Δ tuần: -37,321)
+  Dầu WTI: NET LONG +3,379 (Δ tuần: +11,230)
+  Bạc: NET LONG +22,214 (Δ tuần: -1,712)
+  Đồng: NET LONG +74,450 (Δ tuần: -4,383)
+  Vàng XAU: NET LONG +173,837 (Δ tuần: -2,183)
+→ NET LONG = quỹ đặt cược giá tăng; Δ dương = dòng tiền đầu cơ đang vào
+
+**BÁO CÁO PHÂN TÍCH THỊ TRƯỜNG HÀNG HÓA PHIÊN SÁNG 2026-06-22**
+
+---
+
+🔀 **ĐỐI CHIẾU NGUỒN TIN**
+• Không phát hiện xung đột đáng kể giữa các nguồn trong phiên này.
+
+🌍 **VĨ MÔ & TIN TỨC NỔI BẬT**
+• Các ngân hàng trung ương lớn đang có những động thái chính sách tiền tệ quan trọng: Cục Dự trữ Liên bang Mỹ (Fed) giữ nguyên lãi suất nhưng khả năng tăng lãi suất trong tương lai đang tăng lên, Ngân hàng Trung ương Châu Âu (ECB) đã tăng lãi suất do lo ngại lạm phát liên quan đến Iran, và Ngân hàng Trung ương Nhật Bản (BOJ) cũng đã có đợt tăng lãi suất mang tính bước ngoặt. Những động thái này cho thấy xu hướng thắt chặt tiền tệ toàn cầu, có thể hỗ trợ đồng USD và gây áp lực lên các tài sản không sinh lời như vàng.
+• Các cuộc đàm phán giữa Mỹ và Iran tiếp tục là tâm điểm chú ý, có khả năng ảnh hưởng đến giá dầu thô và tâm lý thị trường chung.
+• Tổ chức các nước xuất khẩu dầu mỏ (OPEC) đã nâng dự báo nhu cầu dầu mỏ đến năm 2050, nhấn mạnh sự chuyển dịch của thế giới sang an ninh năng lượng.
+
+🛢️ **NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên**
+Xu hướng: WTI GIẢM | Brent GIẢM | Khí TN TĂNG
+Tín hiệu: WTI BÁN | Brent BÁN | Khí TN MUA
+Ngưỡng giá: WTI 73.58–82.42 | Brent 76.58–85.29 | Khí TN 3.163–3.299
+Phân tích:
+• Dầu WTI tăng 1.54% và dầu Brent tăng 2.28% trong phiên, nhưng cả hai vẫn đang trong xu hướng giảm trung hạn sau khi giảm lần lượt 8.36% và 6.48% trong 5 phiên gần nhất. Các cuộc đàm phán giữa Mỹ và Iran đang được theo dõi chặt chẽ vì có thể ảnh hưởng đến nguồn cung và giá dầu.
+• Khí tự nhiên tăng 1.27% trong phiên và tăng 4.94% trong 5 phiên, duy trì xu hướng tăng trung hạn.
+• Các quỹ lớn đang tăng đặt cược giá tăng đối với dầu WTI, cho thấy kỳ vọng phục hồi ngắn hạn.
+Rủi ro:
+• Căng thẳng địa chính trị tại Trung Đông, đặc biệt là liên quan đến Eo biển Hormuz và các cuộc đàm phán Mỹ-Iran, có thể gây biến động mạnh cho giá dầu.
+• Mặc dù giá dầu tăng trong phiên, xu hướng giảm trung hạn vẫn còn, cho thấy áp lực bán có thể quay trở lại.
+
+🥇 **KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc**
+Xu hướng: Vàng GIẢM | Bạc GIẢM
+Tín hiệu: Vàng BÁN | Bạc BÁN
+Ngưỡng giá: Vàng 4,138.70–4,377.00 | Bạc 63.35–70.95
+Phân tích:
+• Vàng giảm 1.60% và bạc giảm 2.84% trong phiên, tiếp tục xu hướng giảm trung hạn sau khi giảm lần lượt 1.39% và 5.13% trong 5 phiên. Giá vàng và bạc đã giảm khá sâu, cho thấy có thể sắp chững lại hoặc bật lên.
+• Triển vọng tăng lãi suất của Fed và đồng USD mạnh lên đang gây áp lực lớn lên giá kim loại quý, bất chấp việc các ngân hàng trung ương vẫn đang mua vàng với số lượng kỷ lục.
+• Bạc đang rẻ tương đối so với vàng, với tỷ lệ Vàng/Bạc ở mức 64.6, cao hơn so với 59.7 một tháng trước.
+Rủi ro:
+• Bất kỳ tín hiệu thắt chặt tiền tệ mạnh mẽ hơn từ Fed hoặc sự tăng giá của đồng USD đều có thể tiếp tục đẩy giá vàng và bạc xuống thấp hơn.
+• Các quỹ lớn đang giảm đặt cược giá tăng đối với cả vàng và bạc, cho thấy tâm lý thị trường tiêu cực.
+
+🌾 **NÔNG SẢN — Ngô, Đậu tương, Lúa mì**
+Xu hướng: Ngô SIDEWAY | Lúa mì SIDEWAY | Đậu tương GIẢM
+Tín hiệu: Ngô GIỮ | Lúa mì GIỮ | Đậu tương BÁN
+Ngưỡng giá: Ngô 433.61–422.00 | Lúa mì 604.30–626.50 | Đậu tương 1,102.50–1,152.75
+Phân tích:
+• Ngô tăng mạnh 5.52% trong phiên và tăng 7.89% trong 5 phiên, duy trì xu hướng đi ngang. Lúa mì tăng nhẹ 0.08% trong phiên và tăng 4.52% trong 5 phiên, cũng trong xu hướng đi ngang. Đậu tương tăng 0.88% trong phiên và tăng 2.42% trong 5 phiên, nhưng vẫn trong xu hướng giảm trung hạn.
+• Các quỹ lớn đang giảm đặt cược giá tăng đối với ngô và đậu tương, đồng thời tăng đặt cược giá giảm đối với lúa mì.
+• Quyết định của Grain SA bác bỏ việc giữ nguyên giá tham chiếu thuế quan lúa mì có thể ảnh hưởng đến thị trường lúa mì khu vực.
+Rủi ro:
+• Giai đoạn thụ phấn của ngô ở Mỹ đang bắt đầu, khiến thời tiết trở thành yếu tố cực kỳ quan trọng và có thể gây biến động giá mạnh.
+• Báo cáo Cung cầu Nông nghiệp Thế giới (WASDE) của USDA vào tháng 6 sẽ là một sự kiện quan trọng, có thể thay đổi đáng kể triển vọng thị trường.
+
+🔩 **KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken**
+Xu hướng: Đồng SIDEWAY
+Tín hiệu: Đồng GIỮ
+Ngưỡng giá: Đồng 6.270–6.500
+Phân tích:
+• Đồng giảm 0.78% trong phiên và giảm 1.64% trong 5 phiên, duy trì xu hướng đi ngang.
+• Tỷ lệ Đồng/Vàng tăng lên 1.52 (so với 1.39 tháng trước) cho thấy tâm lý thị trường đang có kỳ vọng tăng trưởng kinh tế, ủng hộ các tài sản rủi ro.
+• Các quỹ lớn đang giảm nhẹ đặt cược giá tăng đối với đồng.
+Rủi ro:
+• Triển vọng tăng trưởng kinh tế toàn cầu, đặc biệt là tại các nền kinh tế lớn như Trung Quốc (với mức tăng trưởng GDP dự kiến 5.0% năm 2024), sẽ tiếp tục là yếu tố chính ảnh hưởng đến nhu cầu và giá đồng.
+
+📋 **KHUYẾN NGHỊ PHIÊN**
+• **Khí tự nhiên**: Có thể xem xét vị thế mua khi giá duy trì trên ngưỡng 3.163 MMBtu, với mục tiêu gần nhất là 3.299 MMBtu.
+• **Vàng**: Tiếp tục theo dõi áp lực giảm giá. Nếu giá phá vỡ ngưỡng hỗ trợ 4,138.70 USD/oz, có thể xem xét vị thế bán.
+• **Ngô**: Quan sát diễn biến giá quanh ngưỡng 433.61 cent/bushel. Nếu giá duy trì trên ngưỡng này, có thể có cơ hội mua ngắn hạn.
+
+⚠️ **THEO DÕI PHIÊN**
+• Diễn biến các cuộc đàm phán giữa Mỹ và Iran.
+• Các báo cáo về lạm phát và tín hiệu chính sách tiền tệ từ các ngân hàng trung ương lớn, đặc biệt là Fed.
+• Cập nhật về tình hình thời tiết tại các vùng trồng trọt chính của Mỹ, đặc biệt là trong giai đoạn thụ phấn của ngô.

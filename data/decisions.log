@@ -3592,3 +3592,10 @@
 2026-06-21 23:31 ACCEPT [Google News KL] "Robert Kiyosaki makes stunning prediction on gold and silver prices - " | kw:gold,silver,rice
 2026-06-21 23:31 ACCEPT [Google News CB] "BOJ Dissent by Takaichi’s Pick Highlights Case for Faster Hikes - Bloo" | kw:boj
 2026-06-21 23:31 ACCEPT [Google News CB] "Inflation on notice: The Fed’s return to monetary orthodoxy - Investor" | kw:inflation
+2026-06-22 00:01 ACCEPT [Google News HH] "US crude oil opened more than 2% higher, once hitting a three-day high" | kw:oil,crude
+2026-06-22 00:01 ACCEPT [Google News KL] "Gold edges lower to near $4,150 on US–Iran peace uncertainty, hawkish " | kw:gold
+2026-06-22 00:01 ACCEPT [Google News KL] "$4,100 in sight: Gold appears vulnerable on bumpy US-Iran talks - FXSt" | kw:gold
+2026-06-22 00:01 ACCEPT [Google News NS] "Commodity Support and Resistance Levels for June 22, 2026: Gold, Silve" | kw:oil,gold,silver
+2026-06-22 00:01 ACCEPT [Google News CB] "BOJ Dissent by Takaichi’s Pick Highlights Case for Faster Hikes - Bloo" | kw:boj
+2026-06-22 00:01 ACCEPT [Google News CB] "Independent central banks take more risk, not less - CEPR" | kw:central bank
+2026-06-22 00:03 SENT_MORNING articles=20 date=2026-06-22 force=False
