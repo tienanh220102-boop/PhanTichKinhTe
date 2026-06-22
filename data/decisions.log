@@ -3658,3 +3658,11 @@
 2026-06-22 03:01 ACCEPT [Google News CB] "Gold Rises; Direction Seen Led by Geopolitics, Monetary Policy - WSJ" | kw:gold,monetary policy
 2026-06-22 03:01 ACCEPT [Google News CB] "Goldman Sachs sees structural gold buying as central bank demand hits " | kw:gold,central bank
 2026-06-22 03:01 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 03:31 ACCEPT [Google News HH] "Soybeans Attempt Rebound - TradingView" | kw:soybean
+2026-06-22 03:31 ACCEPT [Google News HH] "Brent Crude Oil is under negative pressure – Analysis – 22-06-2026 - E" | kw:oil,crude,brent
+2026-06-22 03:31 ACCEPT [Google News HH] "Oil prices rise after Iran shuts Hormuz again, Trump threatens new att" | kw:oil,wti,rice
+2026-06-22 03:31 ACCEPT [Google News KL] "Gold suffers heavy sell-off! Goldman Sachs and Citigroup both lower go" | kw:gold,rice
+2026-06-22 03:31 ACCEPT [Google News CB] "Japan’s Takaichi Signals Acceptance of BOJ’s Latest Rate Hike - Bloomb" | kw:rate hike,boj
+2026-06-22 03:31 ACCEPT [Google News CB] "Gold rebounds as US-Iran talks progress; Fed outlook worries cap gains" | kw:gold
+2026-06-22 03:31 ACCEPT [Google News CB] "Goldman Sachs sees structural gold buying as central bank demand hits " | kw:gold,central bank
+2026-06-22 03:31 SKIP_MORNING already_sent date=2026-06-22
