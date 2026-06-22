@@ -3753,3 +3753,14 @@
 2026-06-22 07:01 ACCEPT [Google News CB] "Russian Ruble: Hawkish central bank and limited FX impact – Commerzban" | kw:central bank
 2026-06-22 07:01 ACCEPT [Google News CB] "ECB policymaker Escriva says the ECB needs to monitor for second-round" | kw:ecb
 2026-06-22 07:01 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 07:13 ACCEPT [Al Jazeera] "Explosion at Qatar’s Ras Laffan LNG facility injures 54, leaves 18 mis" | kw:lng
+2026-06-22 07:13 ACCEPT [Google News HH] "Iran ramps up crude oil exports via Strait of Hormuz as Switzerland ta" | kw:oil,crude
+2026-06-22 07:13 ACCEPT [Google News KL] "Copper price moves slowly– Forecast today – 22-6-2026 - Economies.com" | kw:copper,rice
+2026-06-22 07:13 ACCEPT [Google News KL] "Gold, silver seen steady as US-Iran talks loom - MSN" | kw:gold,silver
+2026-06-22 07:13 ACCEPT [Google News KL] "Major Broker: Laopu Gold (06181.HK) Drops 5%; Nomura Says Impact of Go" | kw:gold,rice
+2026-06-22 07:13 ACCEPT [Google News NS] "Wheat rallies tough to sustain, but El Niño, supply risks remain - Far" | kw:wheat
+2026-06-22 07:13 ACCEPT [Google News NS] "Crown rot: Will mysterious corn disease rob yield this year? - Farm Pr" | kw:corn
+2026-06-22 07:13 ACCEPT [Google News NS] "How to make sound nitrogen decisions in your cornfields - Farm Progres" | kw:corn
+2026-06-22 07:13 ACCEPT [Google News NS] "Records are being broken on both wheat procurement and imports - Enter" | kw:wheat
+2026-06-22 07:13 ACCEPT [Google News CB] "US Dollar Index Price Forecast: Heading towards 102.00 as hawkish Fed " | kw:rice,dollar index
+2026-06-22 07:13 SKIP_MORNING already_sent date=2026-06-22
