@@ -3744,3 +3744,12 @@
 2026-06-22 06:31 ACCEPT [Google News KL] "Gold and silver futures rise on MCX, prices soften in global market - " | kw:gold,silver,rice
 2026-06-22 06:31 ACCEPT [Google News CB] "ECB clears Stokes, reinstates him as captain for third Test - MSN" | kw:ecb
 2026-06-22 06:31 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 07:01 ACCEPT [OilPrice.com] "Big Business Urges Faster Electrification" | kw:fuel,rice,supply chain
+2026-06-22 07:01 ACCEPT [Google News HH] "Iran boosts crude oil shipments through Strait of Hormuz to highest si" | kw:oil,crude
+2026-06-22 07:01 ACCEPT [Google News HH] "Crude Oil Futures Decline Amid Weak Global Cues - Rediff MoneyWiz" | kw:oil,crude
+2026-06-22 07:01 ACCEPT [Google News HH] "Venezuelan crude exports jump as US sanctions relief boosts flows - Qu" | kw:crude,commodity,sanction
+2026-06-22 07:01 ACCEPT [Google News HH] "Stock Markets Rebound: Crude Oil Drop, Global Cues Boost Sensex - Redi" | kw:oil,crude
+2026-06-22 07:01 ACCEPT [Google News CB] "USD/JPY Weekly Outlook: BOJ Intervention Threat Battles Hawkish Fed - " | kw:boj
+2026-06-22 07:01 ACCEPT [Google News CB] "Russian Ruble: Hawkish central bank and limited FX impact – Commerzban" | kw:central bank
+2026-06-22 07:01 ACCEPT [Google News CB] "ECB policymaker Escriva says the ECB needs to monitor for second-round" | kw:ecb
+2026-06-22 07:01 SKIP_MORNING already_sent date=2026-06-22
