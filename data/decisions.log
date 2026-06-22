@@ -3928,3 +3928,20 @@
 2026-06-22 10:31 ACCEPT [Google News CB] "European Central Bank analyzes AI’s impact on US employment growth - C" | kw:central bank
 2026-06-22 10:31 ACCEPT [Google News CB] "Japanese Yen: BoJ tightening fails to lift Japanese Yen – OCBC - FXStr" | kw:boj,tightening
 2026-06-22 10:31 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 11:01 ACCEPT [Google News HH] "Iranian Crude Oil Flows Via Hormuz Surge as More Ships Transit - Bloom" | kw:oil,crude
+2026-06-22 11:01 ACCEPT [Google News HH] "Cooling crude oil prices temper Vietnam's oil and gas stock rally - Vi" | kw:oil,crude,gas
+2026-06-22 11:01 ACCEPT [Google News HH] "Brent crude oil prices fell following talks between the U.S. and Iran " | kw:oil,crude,brent
+2026-06-22 11:01 ACCEPT [Google News KL] "Gold Recovers as Diplomatic Progress with Iran Supports Safe-Haven Dem" | kw:gold
+2026-06-22 11:01 ACCEPT [Google News KL] "Debt Secured, West Wits Targets 2028 Steady-State Gold - NAI500" | kw:gold
+2026-06-22 11:01 ACCEPT [Google News KL] "Gold prices rise in Baghdad and Erbil - Shafaq News | Latest breaking " | kw:gold,rice
+2026-06-22 11:01 ACCEPT [Google News KL] "What Affects Gold Prices? 6 Key Factors Explained - XTB" | kw:gold,rice
+2026-06-22 11:01 ACCEPT [Google News NS] "First Thing Today | Grains mixed-weaker overnight on price-bearish Cor" | kw:corn,rice
+2026-06-22 11:01 ACCEPT [Google News NS] "U.S. Could Lose 30 Million Corn Acres Without More Biofuels Markets, S" | kw:fuel,corn
+2026-06-22 11:01 ACCEPT [Google News NS] "Plains Drought Cuts Winter Wheat Production Forecast - American Ag Net" | kw:wheat,drought
+2026-06-22 11:01 ACCEPT [Google News NS] "Brazil's Soybean Meal Export Forecast Trimmed but Remains Sharply High" | kw:soybean
+2026-06-22 11:01 ACCEPT [Google News NS] "Oil prices remain at their lowest levels since March amid US-Iran talk" | kw:oil,rice
+2026-06-22 11:01 ACCEPT [Google News CB] "Escrivá Says ECB Must Be Vigilant on Oil Price Impact on Wages - Bloom" | kw:oil,rice,ecb
+2026-06-22 11:01 ACCEPT [Google News CB] "BOJ Dissent by Takaichi’s Pick Highlights Case for Faster Hikes - Bloo" | kw:boj
+2026-06-22 11:01 ACCEPT [Google News CB] "BofA now sees no Fed rate cuts until 2028 - Investing.com" | kw:fed rate,rate cut
+2026-06-22 11:01 ACCEPT [Google News CB] "Watch Oil Price Decline Could Remove Some Central Bank Hawkish Bias: C" | kw:oil,rice,central bank
+2026-06-22 11:01 SKIP_MORNING already_sent date=2026-06-22
