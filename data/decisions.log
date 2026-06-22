@@ -4049,3 +4049,22 @@
 2026-06-22 14:31 ACCEPT [Google News CB] "Why Home Depot and Lowe's Fell After the Fed Held Interest Rates Stead" | kw:interest rate
 2026-06-22 14:31 SKIP_MORNING already_sent date=2026-06-22
 2026-06-22 14:31 SKIP_EVENING already_sent date=2026-06-22
+2026-06-22 15:01 ACCEPT [MarketWatch] "U.S. oil prices fall below $74 a barrel on 60-day pause on Iranian oil" | kw:oil,crude,rice
+2026-06-22 15:01 ACCEPT [Google News HH] "The Commodities Feed: Oil rises amid shaky start to US-Iran ceasefire " | kw:oil,commodities
+2026-06-22 15:01 ACCEPT [Google News HH] "Dow Surges Over 300 Points, Crude Oil Hits Over 3-Month Lows Amid Iran" | kw:oil,crude
+2026-06-22 15:01 ACCEPT [Google News HH] "US Treasury Opens Iran 60-Day Oil Sales Authorization, Oil Market Supp" | kw:oil,crude,wti
+2026-06-22 15:01 ACCEPT [Google News HH] "International Crude Oil Falls as U.S. Approves Limited Iran Oil Sales " | kw:oil,crude
+2026-06-22 15:01 ACCEPT [Google News HH] "Gold price in Malaysia: Rates on June 22 - FXStreet" | kw:gold,rice
+2026-06-22 15:01 ACCEPT [Google News KL] "Gold and silver face medium-term pressure from hawkish Fed, Iran-U.S. " | kw:gold,silver
+2026-06-22 15:01 ACCEPT [Google News KL] "Silver price rises on US-Iran talks as hawkish Fed caps gains - FXStre" | kw:silver,rice
+2026-06-22 15:01 ACCEPT [Google News KL] "Gold SWOT: Tether has emerged as a new gold buyer - KITCO" | kw:gold
+2026-06-22 15:01 ACCEPT [Google News KL] "Why Andre Agassi Fell In Love With Pickleball Silver Price Today (CLFK" | kw:gas,silver,rice
+2026-06-22 15:01 ACCEPT [Google News KL] "Albânia X Bielorrússia 🔸 Cazaquistão X Lituânia - Campo Virtual ⚽ Copp" | kw:copper,rice
+2026-06-22 15:01 ACCEPT [Google News NS] "CBOT Trends-Wheat down 4-6 cents, corn down 2-4 cents, soy up 2-4 cent" | kw:wheat,corn
+2026-06-22 15:01 ACCEPT [Google News NS] "Outlook for the Grain Market in Romania: Record Production, Low Prices" | kw:rice
+2026-06-22 15:01 ACCEPT [Google News CB] "ECB chief Lagarde plays down second-round inflation worries - Reuters" | kw:inflation,ecb
+2026-06-22 15:01 ACCEPT [Google News CB] "Warsh Begins a New Era at the Federal Reserve | National News | U.S. N" | kw:federal reserve
+2026-06-22 15:01 ACCEPT [Google News CB] "Alan Greenspan, former Federal Reserve chairman whose tenure spanned f" | kw:federal reserve
+2026-06-22 15:01 ACCEPT [Google News CB] "SoFi Technologies (SOFI) Slid Amid Interest Rate Volatility and Macro " | kw:interest rate
+2026-06-22 15:01 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 15:01 SKIP_EVENING already_sent date=2026-06-22
