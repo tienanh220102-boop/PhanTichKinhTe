@@ -3855,3 +3855,24 @@
 2026-06-22 08:31 ACCEPT [Google News CB] "European bonds gain as Mideast diplomacy sparks relief; ECB in focus -" | kw:ecb
 2026-06-22 08:31 ACCEPT [Google News CB] "Gold clings to gains as oil slide eases inflation fears, Fed caps gain" | kw:oil,gold,inflation
 2026-06-22 08:31 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 09:01 ACCEPT [MarketWatch] "The late Diane Keaton’s ‘Pinterest’ house in L.A. is relisted with a b" | kw:rice
+2026-06-22 09:01 ACCEPT [Google News HH] "Iraq plans to restore crude oil output to pre-crisis levels - The Arab" | kw:oil,crude
+2026-06-22 09:01 ACCEPT [Google News HH] "Crude Oil Forecast 22/6: Oil Trying to Form a Range? (Video) - DailyFo" | kw:oil,crude
+2026-06-22 09:01 ACCEPT [Google News HH] "| Polyester chain prices tumble in India, China as crude oil retreats " | kw:oil,crude,rice
+2026-06-22 09:01 ACCEPT [Google News HH] "Goldman Sachs lowers gold price forecast on no Fed cuts this year - ba" | kw:gold,rice
+2026-06-22 09:01 ACCEPT [Google News KL] "Gold, silver fall as US-Iran talks and oil prices loom - MSN" | kw:oil,gold,silver
+2026-06-22 09:01 ACCEPT [Google News KL] "Gonzalo Plata - The Ultimate Showman 🇪🇨 Silver Price Today (FQZrNxcXmz" | kw:silver,rice
+2026-06-22 09:01 ACCEPT [Google News KL] "Gold prices rise again after consecutive declines - Dhaka Tribune" | kw:gold,rice
+2026-06-22 09:01 ACCEPT [Google News KL] "Samsung Securities touts inverse 2x silver ETN for short-term Korea he" | kw:silver
+2026-06-22 09:01 ACCEPT [Google News NS] "Wheat rallies tough to sustain, but El Niño, supply risks remain - Far" | kw:wheat
+2026-06-22 09:01 ACCEPT [Google News NS] "Price of Ukrainian corn fell by $13/t in a month due to weak demand fr" | kw:corn,rice
+2026-06-22 09:01 ACCEPT [Google News NS] "Records are being broken on both wheat procurement and imports - Enter" | kw:wheat
+2026-06-22 09:01 ACCEPT [Google News NS] "Supply chain, quarantine key themes at grain storage conference - Dail" | kw:supply chain
+2026-06-22 09:01 ACCEPT [Google News NS] "Is a commodity exchange feasible in Bangladesh? - Prothom Alo English" | kw:commodity
+2026-06-22 09:01 ACCEPT [Google News NS] "Kazakhstan is ready to export flour and wheat to Montenegro - UkrAgroC" | kw:wheat
+2026-06-22 09:01 ACCEPT [Google News CB] "Will New US Fed Chair Kevin Warsh Raise Interest Rates This Year? - Mo" | kw:interest rate
+2026-06-22 09:01 ACCEPT [Google News CB] "Realty Income (O) Stock After Recent Interest Rate Jitters Is The Pric" | kw:rice,interest rate
+2026-06-22 09:01 ACCEPT [Google News CB] "Should Amazon Investors Be Concerned That New Fed Chair Kevin Warsh Is" | kw:interest rate
+2026-06-22 09:01 ACCEPT [Google News CB] "Should Amazon Investors Be Concerned That New Fed Chair Kevin Warsh Is" | kw:interest rate
+2026-06-22 09:01 ACCEPT [Google News CB] "Gold maintains the bearish bias following the hawkish Fed decision; fo" | kw:gold
+2026-06-22 09:01 SKIP_MORNING already_sent date=2026-06-22
