@@ -3945,3 +3945,19 @@
 2026-06-22 11:01 ACCEPT [Google News CB] "BofA now sees no Fed rate cuts until 2028 - Investing.com" | kw:fed rate,rate cut
 2026-06-22 11:01 ACCEPT [Google News CB] "Watch Oil Price Decline Could Remove Some Central Bank Hawkish Bias: C" | kw:oil,rice,central bank
 2026-06-22 11:01 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 11:31 ACCEPT [CNBC Commodities] "Alan Greenspan, former chairman of the Fed, dies at age 100" | kw:federal reserve
+2026-06-22 11:31 ACCEPT [OilPrice.com] "Kuwait Offers Gulf Oil Loadings as Producers Seek Hormuz Outlet" | kw:oil,petroleum
+2026-06-22 11:31 ACCEPT [Google News HH] "Why Gold Price Is Going Down? XAU/USD Price Prediction Based on Death " | kw:gold,rice
+2026-06-22 11:31 ACCEPT [Google News HH] "The Bond Market Warns of $140 WTI Crude Oil Ahead - FXEmpire" | kw:oil,crude,wti
+2026-06-22 11:31 ACCEPT [Google News HH] "Falling crude prices to boost OMC profits: JP Morgan report - The Time" | kw:crude,rice
+2026-06-22 11:31 ACCEPT [Google News KL] "Rising gold prices reshape engagement ring market as material value dy" | kw:gold,rice
+2026-06-22 11:31 ACCEPT [Google News KL] "Radisson Continues to Extend Scope of Gold Mineralization at the O'Bri" | kw:gold
+2026-06-22 11:31 ACCEPT [Google News NS] "Wheat prices in the EU continue to decline - UkrAgroConsult" | kw:wheat,rice
+2026-06-22 11:31 ACCEPT [Google News NS] "China’s May U.S. Soybean Imports Rise 1.8%, Brazil Shipments Fall 17.7" | kw:soybean
+2026-06-22 11:31 ACCEPT [Google News NS] "Forecasts of a record sunflower harvest in 2026/27 MY do not yet affec" | kw:rice,harvest
+2026-06-22 11:31 ACCEPT [Google News CB] "Investment Managers React To Central Bank Rate Decisions - Family Weal" | kw:central bank,rate decision
+2026-06-22 11:31 ACCEPT [Google News CB] "BofA forecasts 75 bps of rate hikes in 2026 on labour market resilienc" | kw:rate hike
+2026-06-22 11:31 ACCEPT [Google News CB] "South Korean chipmakers are being paid such massive bonuses it’s becom" | kw:inflation,central bank
+2026-06-22 11:31 ACCEPT [Google News CB] "Treasury yields rise ahead of key inflation data and traders weigh U.S" | kw:inflation,treasury
+2026-06-22 11:31 ACCEPT [Google News CB] "Alan Greenspan, economist and longtime head of the Federal Reserve, di" | kw:federal reserve
+2026-06-22 11:31 SKIP_MORNING already_sent date=2026-06-22
