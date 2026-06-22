@@ -3827,3 +3827,31 @@
 2026-06-22 08:01 ACCEPT [Google News CB] "1 Reason Why the Fed's Decision to Keep Interest Rates Steady Is No Ma" | kw:interest rate
 2026-06-22 08:01 ACCEPT [Google News CB] "Charles Schwab (SCHW) Stock After Recent Performance And Interest Rate" | kw:interest rate
 2026-06-22 08:01 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 08:31 ACCEPT [OilPrice.com] "Analysts Warn China’s Oil Demand May Never Fully Recover" | kw:oil,crude
+2026-06-22 08:31 ACCEPT [Google News HH] "Iranian Crude Oil Exports Surge Via Hormuz as More Ships Transit - Blo" | kw:oil,crude
+2026-06-22 08:31 ACCEPT [Google News HH] "Crude Oil Prices Rise Over $1 Per Barrel Amid Geopolitical Concerns - " | kw:oil,crude,rice
+2026-06-22 08:31 ACCEPT [Google News HH] "Iran ramps up crude oil exports via Strait of Hormuz as Switzerland ta" | kw:oil,crude
+2026-06-22 08:31 ACCEPT [Google News HH] "Commodities: Oil Rises Amid Shaky Start To U.S.-Iran Ceasefire - Seeki" | kw:oil,commodities
+2026-06-22 08:31 ACCEPT [Google News HH] "Iran boosts crude oil shipments through Strait of Hormuz to highest si" | kw:oil,crude
+2026-06-22 08:31 ACCEPT [Google News HH] "Kazakhstan’s Trade Remains Commodity-Led, While Investment Tells Diffe" | kw:commodity
+2026-06-22 08:31 ACCEPT [Google News HH] "Asia has plenty of crude oil, but refined fuels remain tight: Russell " | kw:oil,crude,fuel
+2026-06-22 08:31 ACCEPT [Google News HH] "Crude Oil Futures Decline Amid Weak Global Cues - Rediff MoneyWiz" | kw:oil,crude
+2026-06-22 08:31 ACCEPT [Google News HH] "Beloved Alaska disc golf course was built around bubbling crude oil fr" | kw:oil,crude
+2026-06-22 08:31 ACCEPT [Google News HH] "Hormuz Crisis Sparks a Middle East Pipeline Boom - Crude Oil Prices To" | kw:oil,crude,rice
+2026-06-22 08:31 ACCEPT [Google News HH] "Venezuelan crude exports jump as US sanctions relief boosts flows - Qu" | kw:crude,commodity,sanction
+2026-06-22 08:31 ACCEPT [Google News HH] "Iraq’s oil supplies to South Korea decline significantly - Iraqi News" | kw:oil
+2026-06-22 08:31 ACCEPT [Google News HH] "Indian Stock Market Opens Higher as Crude Oil Falls Below USD 80 - Ope" | kw:oil,crude
+2026-06-22 08:31 ACCEPT [Google News HH] "Crude oil prices fall up to 3 pc as US-Iran talks ease supply concerns" | kw:oil,crude,rice
+2026-06-22 08:31 ACCEPT [Google News KL] "Silver – Summer Rally Despite the Interest Rate Shock? - SMM Metal" | kw:silver,interest rate
+2026-06-22 08:31 ACCEPT [Google News KL] "Gold prices fall while silver edges higher - AzerNews" | kw:gold,silver,rice
+2026-06-22 08:31 ACCEPT [Google News KL] "Morgan Stanley’s Latest Assessment: Three Variables for Gold’s Rise to" | kw:oil,gold
+2026-06-22 08:31 ACCEPT [Google News KL] "Gold, silver prices rise in domestic market - Onlinekhabar English" | kw:gold,silver,rice
+2026-06-22 08:31 ACCEPT [Google News KL] "Gold prices fall, silver rises on global markets - Azərtac" | kw:gold,silver,rice
+2026-06-22 08:31 ACCEPT [Google News NS] "2025 ARC/PLC Payment Update: What Corn, Soybean & Wheat Farmers Can Ex" | kw:wheat,corn,soybean
+2026-06-22 08:31 ACCEPT [Google News CB] "AI boom's US employment, wage impact muted so far, ECB study finds - R" | kw:ecb
+2026-06-22 08:31 ACCEPT [Google News CB] "Afreximbank signs US$500 million term loan facility with the Central B" | kw:central bank
+2026-06-22 08:31 ACCEPT [Google News CB] "A change of pace at China’s central bank - The Economist" | kw:central bank
+2026-06-22 08:31 ACCEPT [Google News CB] "Escrivá Says ECB Must Be Vigilant on Oil Price Impact on Wages - Bloom" | kw:oil,rice,ecb
+2026-06-22 08:31 ACCEPT [Google News CB] "European bonds gain as Mideast diplomacy sparks relief; ECB in focus -" | kw:ecb
+2026-06-22 08:31 ACCEPT [Google News CB] "Gold clings to gains as oil slide eases inflation fears, Fed caps gain" | kw:oil,gold,inflation
+2026-06-22 08:31 SKIP_MORNING already_sent date=2026-06-22
