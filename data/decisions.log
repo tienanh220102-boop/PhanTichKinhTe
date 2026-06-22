@@ -4006,3 +4006,18 @@
 2026-06-22 13:09 ACCEPT [Google News NS] "Form 8K South Dakota Soybean Processors For: 22 June By Investing.com " | kw:soybean
 2026-06-22 13:09 SKIP_MORNING already_sent date=2026-06-22
 2026-06-22 13:09 SKIP_EVENING already_sent date=2026-06-22
+2026-06-22 13:31 ACCEPT [Al Jazeera] "China adds 10 US firms, including rare-earth miner, to export control " | kw:export ban
+2026-06-22 13:31 ACCEPT [Al Jazeera] "Pakistan issues nationwide alert over fears of heavy rains, floods" | kw:flood
+2026-06-22 13:31 ACCEPT [OilPrice.com] "China Builds New LNG Hub as Russian Imports Surge" | kw:gas,lng,sanction
+2026-06-22 13:31 ACCEPT [Google News HH] "Gold Price Analysis – Gold Drops at the Open - FXEmpire" | kw:gold,rice
+2026-06-22 13:31 ACCEPT [Google News KL] "Silver Price Today: Silver Rises 2.56% on June 22, 2026 - USA Today" | kw:silver,rice
+2026-06-22 13:31 ACCEPT [Google News KL] "Gold rebounds above $4,200 as markets weigh Fed hike risk, Iran progre" | kw:gold
+2026-06-22 13:31 ACCEPT [Google News KL] "Buy gold stocks as valuations are cheap amid macro tension: BofA - Inv" | kw:gold
+2026-06-22 13:31 ACCEPT [Google News KL] "Current price of gold as of June 22, 2026 - Fortune" | kw:gold,rice
+2026-06-22 13:31 ACCEPT [Google News KL] "Silver Price Analysis – Silver Drops to Kick Off the Week - FXEmpire" | kw:silver,rice
+2026-06-22 13:31 ACCEPT [Google News CB] "Jeffery Lacker on What a New Fed Treasury Accord Might Look Like - Mer" | kw:treasury
+2026-06-22 13:31 ACCEPT [Google News CB] "ECB's Lagarde plays down second-round inflation fears - Reuters" | kw:inflation,ecb
+2026-06-22 13:31 ACCEPT [Google News CB] "India's central bank sold net $8.9 billion in April, gold holdings unc" | kw:gold,central bank
+2026-06-22 13:31 ACCEPT [Google News CB] "Lagarde Sees No Need for More Forceful ECB Response to Iran War - Bloo" | kw:ecb
+2026-06-22 13:31 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 13:31 SKIP_EVENING already_sent date=2026-06-22
