@@ -3961,3 +3961,13 @@
 2026-06-22 11:31 ACCEPT [Google News CB] "Treasury yields rise ahead of key inflation data and traders weigh U.S" | kw:inflation,treasury
 2026-06-22 11:31 ACCEPT [Google News CB] "Alan Greenspan, economist and longtime head of the Federal Reserve, di" | kw:federal reserve
 2026-06-22 11:31 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 12:01 ACCEPT [MarketWatch] "Former Federal Reserve chairman Alan Greenspan dies at 100" | kw:central bank,federal reserve
+2026-06-22 12:01 ACCEPT [Al Jazeera] "Political turmoil: UK will see its seventh prime minister in 10 years" | kw:oil
+2026-06-22 12:01 ACCEPT [Google News HH] "Crude Oil Perpetual Futures Analysis - Investing.com" | kw:oil,crude
+2026-06-22 12:01 ACCEPT [Google News HH] "21-Karat Gold Price at JD86.2 in Local Market - Fana News -" | kw:gold,rice
+2026-06-22 12:01 ACCEPT [Google News HH] "Kpler: Asian crude oil imports are expected to recover to 22.18 millio" | kw:oil,crude
+2026-06-22 12:01 ACCEPT [Google News HH] "Forecast update for crude oil -22-06-2026 - Economies.com" | kw:oil,crude
+2026-06-22 12:01 ACCEPT [Google News CB] "Former Federal Reserve chairman Alan Greenspan has died at 100, the Fe" | kw:federal reserve
+2026-06-22 12:01 ACCEPT [Google News CB] "Former Federal Reserve chairman Alan Greenspan has died at 100, the Fe" | kw:federal reserve
+2026-06-22 12:01 ACCEPT [Google News CB] "Alan Greenspan, former head of Federal Reserve, dies at 100 - WMAR 2 N" | kw:federal reserve
+2026-06-22 12:01 SKIP_MORNING already_sent date=2026-06-22
