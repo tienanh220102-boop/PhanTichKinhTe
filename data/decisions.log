@@ -3607,3 +3607,9 @@
 2026-06-22 00:31 ACCEPT [Google News NS] "Not Gold Or Silver: This Commodity Surged After Trump-Xi’s Two-Hour Tr" | kw:wti,gold,silver
 2026-06-22 00:31 ACCEPT [Google News CB] "Ben Stokes reinstated as England Test captain after ECB clears him - M" | kw:ecb
 2026-06-22 00:31 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 01:01 ACCEPT [Google News HH] "Precious metals under pressure as Crude Oil and Natural Gas attempt a " | kw:oil,crude,gas
+2026-06-22 01:01 ACCEPT [Google News HH] "June 22 Financial Morning Brief: Stronger dollar limits gold price gai" | kw:oil,gold,rice
+2026-06-22 01:01 ACCEPT [Google News KL] "Gold stays under pressure despite Trump’s Iran threat as Fed rate worr" | kw:gold,fed rate
+2026-06-22 01:01 ACCEPT [Google News CB] "BOJ Dep Gov Himino warned delaying policy adjustments could trigger a " | kw:inflation,boj
+2026-06-22 01:01 ACCEPT [Google News CB] "Week Ahead for FX, Bonds : U.S. Inflation Data in Focus as Prospects o" | kw:inflation,fed rate,rate hike
+2026-06-22 01:01 SKIP_MORNING already_sent date=2026-06-22
