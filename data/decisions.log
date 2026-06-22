@@ -4037,3 +4037,15 @@
 2026-06-22 14:01 ACCEPT [Google News CB] "Interest rate cut proposed to boost crop insurance - Valor Internation" | kw:interest rate,rate cut
 2026-06-22 14:01 SKIP_MORNING already_sent date=2026-06-22
 2026-06-22 14:01 SKIP_EVENING already_sent date=2026-06-22
+2026-06-22 14:31 ACCEPT [MarketWatch] "Alan Greenspan, the most powerful Fed chairman of the modern era, dies" | kw:central bank
+2026-06-22 14:31 ACCEPT [OilPrice.com] "Heatwave, Hormuz Threats and Qatar Blast Push European Gas Prices High" | kw:gas,rice
+2026-06-22 14:31 ACCEPT [Google News HH] "US waives sanctions on Iranian crude oil, petroleum products for 60 da" | kw:oil,crude,petroleum
+2026-06-22 14:31 ACCEPT [Google News HH] "Analysis of Related Commodity Markets Following International Crude Oi" | kw:oil,crude,commodity
+2026-06-22 14:31 ACCEPT [Google News KL] "Is silver a better investment than gold this summer? Experts weigh in " | kw:gold,silver
+2026-06-22 14:31 ACCEPT [Google News KL] "Goldman Cut Its Gold Target. JPMorgan Didn’t. Here’s What the $1,400 G" | kw:gold,silver
+2026-06-22 14:31 ACCEPT [Google News KL] "COPX vs CPER: Miners or Futures for Copper Exposure? - 24/7 Wall St." | kw:copper
+2026-06-22 14:31 ACCEPT [Google News KL] "Gold and Silver Prices Rise on Lower Oil, Fed Hawkish Signals Weighed " | kw:oil,gold,silver
+2026-06-22 14:31 ACCEPT [Google News NS] "KTIC 840 AM/98.3 FM/98.7 FM - WATCH: Weekend storms shred corn, twist " | kw:corn
+2026-06-22 14:31 ACCEPT [Google News CB] "Why Home Depot and Lowe's Fell After the Fed Held Interest Rates Stead" | kw:interest rate
+2026-06-22 14:31 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 14:31 SKIP_EVENING already_sent date=2026-06-22
