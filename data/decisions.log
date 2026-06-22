@@ -3981,3 +3981,25 @@
 2026-06-22 12:31 ACCEPT [Google News KL] "Mackay Gold & Silver to Acquire Comstock Inc.'s Nevada Mining Assets, " | kw:gold,silver
 2026-06-22 12:31 ACCEPT [Google News KL] "World Gold Ore Recovery Packages - Market Analysis, Forecast, Size, Tr" | kw:wti,gold
 2026-06-22 12:31 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 13:01 ACCEPT [Mining.com] "Timeline: The Oyu Tolgoi saga" | kw:gold,copper
+2026-06-22 13:01 ACCEPT [Google News HH] "Côte d’Ivoire and Ghana seek fresh clout for their ‘cocoa OPEC’ - The " | kw:opec,cocoa
+2026-06-22 13:01 ACCEPT [Google News HH] "AI, geopolitics are reshaping commodity portfolios: Global X - Benefit" | kw:commodity
+2026-06-22 13:01 ACCEPT [Google News HH] "WTI Crude Oil Price Forecast: $69.90 Target Eyes Bearish Acceleration " | kw:oil,crude,wti
+2026-06-22 13:01 ACCEPT [Google News HH] "Indian Equities Rebound as Oil Prices Soften, Global Cues Turn Positiv" | kw:oil,rice
+2026-06-22 13:01 ACCEPT [Google News KL] "Current price of silver as of Monday, June 22, 2026 - Fortune" | kw:silver,rice
+2026-06-22 13:01 ACCEPT [Google News KL] "Gold prices today, Monday, June 22: Gold stabilizes as Iran negotiatio" | kw:gold,rice
+2026-06-22 13:01 ACCEPT [Google News KL] "Gold Rallies as UK's Starmer Resigns, Interest Payments Drive Huge Bor" | kw:gold
+2026-06-22 13:01 ACCEPT [Google News KL] "Silver price today: Silver rises, according to FXStreet data - TMGM" | kw:silver,rice
+2026-06-22 13:01 ACCEPT [Google News KL] "Silver prices today, Monday, June 22, 2026: Silver prices rebound to F" | kw:silver,rice
+2026-06-22 13:01 ACCEPT [Google News KL] "Gold Analysis 22/06: Will Sellers Succeed? (Chart) - DailyForex" | kw:gold
+2026-06-22 13:01 ACCEPT [Google News KL] "Gold climbs as US-Iran talks make progress, Fed rate hike bets cap ups" | kw:gold,fed rate,rate hike
+2026-06-22 13:01 ACCEPT [Google News KL] "Gold price prediction: Gold rate futures fall big, what to expect for " | kw:gold,rice
+2026-06-22 13:01 ACCEPT [Google News CB] "Alan Greenspan, the legendary former Federal Reserve chair, dies - NPR" | kw:federal reserve
+2026-06-22 13:01 ACCEPT [Google News CB] "Alan Greenspan, former head of Federal Reserve, dies at 100 - CNN" | kw:federal reserve
+2026-06-22 13:01 ACCEPT [Google News CB] "Former Federal Reserve Chairman Alan Greenspan dies at 100 - WTOP" | kw:federal reserve
+2026-06-22 13:01 ACCEPT [Google News CB] "Former Federal Reserve chairman Alan Greenspan has died at 100, the Fe" | kw:federal reserve
+2026-06-22 13:01 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 13:01 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-06-22 13:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
+2026-06-22 13:02 DIRECTION_FIX Gold: "tăng 0.07%" → "giảm 0.07%"
+2026-06-22 13:02 SENT_EVENING articles=20 date=2026-06-22 force=False
