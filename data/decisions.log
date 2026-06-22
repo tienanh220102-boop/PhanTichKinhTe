@@ -3613,3 +3613,14 @@
 2026-06-22 01:01 ACCEPT [Google News CB] "BOJ Dep Gov Himino warned delaying policy adjustments could trigger a " | kw:inflation,boj
 2026-06-22 01:01 ACCEPT [Google News CB] "Week Ahead for FX, Bonds : U.S. Inflation Data in Focus as Prospects o" | kw:inflation,fed rate,rate hike
 2026-06-22 01:01 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 01:31 ACCEPT [Google News HH] "Iraq plans to restore crude oil output to pre-crisis levels - BOE Repo" | kw:oil,crude,gdp
+2026-06-22 01:31 ACCEPT [Google News HH] "The main Nymex crude oil futures contract rose by 2.12% intraday, trad" | kw:oil,crude
+2026-06-22 01:31 ACCEPT [Google News HH] "US President Trump's Statements Cause Oil Price Rise, Stock Market Fal" | kw:oil,rice
+2026-06-22 01:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD rebounds to near $66.00 amid fading US-" | kw:silver,rice
+2026-06-22 01:31 ACCEPT [Google News KL] "Silver (XAGUSD) Is up 2.26% on Jun 21: What Is Driving the Move? - Tra" | kw:silver
+2026-06-22 01:31 ACCEPT [Google News KL] "Gold prices drop to late 2025 levels, some consumers “hold gold for th" | kw:gold,rice,central bank
+2026-06-22 01:31 ACCEPT [Google News KL] "Gold, Silver Rate Today June 22: Did Gold prices rise or fall? Check 1" | kw:gold,silver,rice
+2026-06-22 01:31 ACCEPT [Google News NS] "‘Issues resolved’: Khattar rules out Karnal’s exclusion from NCR - The" | kw:lng
+2026-06-22 01:31 ACCEPT [Google News CB] "Japan raises interest rate to highest for 31 years - AOL.com" | kw:interest rate
+2026-06-22 01:31 ACCEPT [Google News CB] "BoJ’s Himino: Delaying adjustment in monetary easing risks price overs" | kw:rice,boj,easing
+2026-06-22 01:31 SKIP_MORNING already_sent date=2026-06-22
