@@ -3599,3 +3599,11 @@
 2026-06-22 00:01 ACCEPT [Google News CB] "BOJ Dissent by Takaichi’s Pick Highlights Case for Faster Hikes - Bloo" | kw:boj
 2026-06-22 00:01 ACCEPT [Google News CB] "Independent central banks take more risk, not less - CEPR" | kw:central bank
 2026-06-22 00:03 SENT_MORNING articles=20 date=2026-06-22 force=False
+2026-06-22 00:31 ACCEPT [Google News HH] "OPEC 2026 Outlook: Oil Demand to Rise 18% by 2050 Amid Energy Security" | kw:oil,opec
+2026-06-22 00:31 ACCEPT [Google News HH] "The main Nymex crude oil futures contract rose by 2.12% intraday, trad" | kw:oil,crude
+2026-06-22 00:31 ACCEPT [Google News HH] "US crude oil opened more than 2% higher, once hitting a three-day high" | kw:oil,crude
+2026-06-22 00:31 ACCEPT [Google News KL] "June 22 Financial Morning Brief: Stronger dollar limits gold price gai" | kw:oil,gold,rice
+2026-06-22 00:31 ACCEPT [Google News KL] "Gold demand falls as duty hike keeps prices high - The Rising Nepal" | kw:gold,rice
+2026-06-22 00:31 ACCEPT [Google News NS] "Not Gold Or Silver: This Commodity Surged After Trump-Xi’s Two-Hour Tr" | kw:wti,gold,silver
+2026-06-22 00:31 ACCEPT [Google News CB] "Ben Stokes reinstated as England Test captain after ECB clears him - M" | kw:ecb
+2026-06-22 00:31 SKIP_MORNING already_sent date=2026-06-22
