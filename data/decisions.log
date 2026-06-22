@@ -3635,3 +3635,15 @@
 2026-06-22 02:01 ACCEPT [Google News NS] "Feedgrain Focus: Prices ease as warehousing clock ticks - Sheep Centra" | kw:rice
 2026-06-22 02:01 ACCEPT [Google News CB] "Yen Unlikely to Turn Investment Currency Without Hawkish BOJ Shift - W" | kw:boj
 2026-06-22 02:01 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 02:31 ACCEPT [Al Jazeera] "Shipping stalls in Strait of Hormuz after Iran declares key waterway s" | kw:shipping
+2026-06-22 02:31 ACCEPT [Google News HH] "Commodities intraday targets/key levels - TradingView" | kw:commodities
+2026-06-22 02:31 ACCEPT [Google News HH] "Crude Oil Trading Alert: U.S.-Iran Deal Disrupts Market Sentiment; Oil" | kw:oil,crude,rice
+2026-06-22 02:31 ACCEPT [Google News HH] "Oil Price Today (June 22): Crude oil rises above $80 as Iran shuts Str" | kw:oil,crude,rice
+2026-06-22 02:31 ACCEPT [Google News HH] "Oil prices rise after Iran shuts Hormuz again, Trump threatens new att" | kw:oil,rice
+2026-06-22 02:31 ACCEPT [Google News HH] "OPEC: Nigeria, Other African Nations Need $92bn in Refining Investment" | kw:opec
+2026-06-22 02:31 ACCEPT [Google News HH] "US-Iran talks, crude oil movement, macro data to dictate bullion trend" | kw:oil,crude
+2026-06-22 02:31 ACCEPT [Google News KL] "Gold stays under pressure despite Trump’s Iran threat as Fed rate worr" | kw:gold,fed rate
+2026-06-22 02:31 ACCEPT [Google News NS] "Supply chain, quarantine key themes at grain storage conference - Dail" | kw:supply chain
+2026-06-22 02:31 ACCEPT [Google News CB] "Dissent by Takaichi’s BOJ pick hints at case for faster hikes - The Ja" | kw:boj
+2026-06-22 02:31 ACCEPT [Google News CB] "Recap: Japan PM Takaichi urges policy restraint after hawkish BOJ test" | kw:rice,boj
+2026-06-22 02:31 SKIP_MORNING already_sent date=2026-06-22
