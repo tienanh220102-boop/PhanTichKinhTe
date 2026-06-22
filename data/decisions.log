@@ -3630,3 +3630,8 @@
 2026-06-22 01:45 ACCEPT [Google News NS] "Govt Revises Commission Rates for Wheat and Paddy Procurement from Rab" | kw:wheat
 2026-06-22 01:45 ACCEPT [Google News CB] "Japan’s Takaichi Signals Acceptance of BOJ’s Latest Rate Hike - Bloomb" | kw:rate hike,boj
 2026-06-22 01:45 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 02:01 ACCEPT [Google News KL] "Gold prices drop to late 2025 levels, some consumers “hold gold for th" | kw:gold,rice,central bank
+2026-06-22 02:01 ACCEPT [Google News KL] "Gold faces pressure as US-Iran talks, Fed stance eyed - MSN" | kw:gold
+2026-06-22 02:01 ACCEPT [Google News NS] "Feedgrain Focus: Prices ease as warehousing clock ticks - Sheep Centra" | kw:rice
+2026-06-22 02:01 ACCEPT [Google News CB] "Yen Unlikely to Turn Investment Currency Without Hawkish BOJ Shift - W" | kw:boj
+2026-06-22 02:01 SKIP_MORNING already_sent date=2026-06-22
