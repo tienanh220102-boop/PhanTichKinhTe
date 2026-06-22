@@ -3776,3 +3776,54 @@
 2026-06-22 07:31 ACCEPT [Google News CB] "Fed Pressure and Geopolitical Factors Determine the Next Direction of " | kw:gold
 2026-06-22 07:31 ACCEPT [Google News CB] "Gold clings to intraday gains near $4,200 as sliding Oil prices ease i" | kw:oil,gold,rice
 2026-06-22 07:31 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 08:01 ACCEPT [BBC Business] "Five ways the Iran peace deal could affect you and your money" | kw:gas,fuel,rice
+2026-06-22 08:01 ACCEPT [BBC Business] "Struggling Pizza Hut chain to be sold for $2.7bn" | kw:easing
+2026-06-22 08:01 ACCEPT [The Guardian Biz] "Federal Reserve holds rates steady but signals possible hike before ye" | kw:interest rate,rate hike,federal reserve
+2026-06-22 08:01 ACCEPT [The Guardian Biz] "EV prices in UK and EU not likely to dive due to Chinese rivalry, says" | kw:rice
+2026-06-22 08:01 ACCEPT [Al Jazeera] "Explosion at Qatar’s Ras Laffan LNG facility injures 54, leaves 18 mis" | kw:lng
+2026-06-22 08:01 ACCEPT [CNBC Commodities] "The average SpaceX buyer post-IPO is almost under water after two-day " | kw:rice
+2026-06-22 08:01 ACCEPT [CNBC Commodities] "Gold slumps to 6-month low even as inflation fears rise. Here's why bu" | kw:gold,rice,inflation
+2026-06-22 08:01 ACCEPT [CNBC Economy] "UK inflation holds steady at 2.8% in May" | kw:inflation,monetary policy,bank of england
+2026-06-22 08:01 ACCEPT [CNBC Economy] "ECB hikes interest rates for first time since 2023 as Iran war ramps u" | kw:inflation,central bank,interest rate
+2026-06-22 08:01 ACCEPT [CNBC Economy] "Consumer prices rose 4.2% annually in May, highest in three years" | kw:rice
+2026-06-22 08:01 ACCEPT [CNBC Economy] "Energy prices take center stage as the ECB prepares to decide on rates" | kw:rice,inflation,ecb
+2026-06-22 08:01 ACCEPT [CNBC Economy] "Iran war cost: Average U.S. household paying $450 more on gas and ener" | kw:gas
+2026-06-22 08:01 ACCEPT [OilPrice.com] "Hormuz Crisis Sparks a Middle East Pipeline Boom" | kw:oil,crude,lng
+2026-06-22 08:01 ACCEPT [OilPrice.com] "Why Small Modular Reactors Are Becoming a National Security Priority" | kw:tariff
+2026-06-22 08:01 ACCEPT [Mining.com] "Mining’s nuclear reality check: SMRs are still not on miners’ shopping" | kw:easing
+2026-06-22 08:01 ACCEPT [Mining.com] "Kristi Noem joins British Columbia copper junior in advisory role" | kw:copper
+2026-06-22 08:01 ACCEPT [Mining.com] "Fortuna wins key approval for Senegal gold project" | kw:gold
+2026-06-22 08:01 ACCEPT [Mining.com] "Barclays sees gold pullback as ‘reset’, keeps bullish outlook" | kw:gold
+2026-06-22 08:01 ACCEPT [EIA Energy] "Higher blending targets drive RIN prices close to record highs" | kw:gas,fuel,rice
+2026-06-22 08:01 ACCEPT [EIA Energy] "The regional differences in gasoline prices this Memorial Day" | kw:gas,fuel,rice
+2026-06-22 08:01 ACCEPT [EIA Energy] "The United States set record energy production in 2025, again" | kw:oil,crude,gas
+2026-06-22 08:01 ACCEPT [NASDAQ Commod] "DGCX Introduces First Same-Day Physical Gold Contract in Gulf" | kw:gold,commodities
+2026-06-22 08:01 ACCEPT [NASDAQ Commod] "Crude Oil Slides As Strait Of Hormuz Reopens Following U.S.-Iran Inter" | kw:oil,crude,rice
+2026-06-22 08:01 ACCEPT [Google News KL] "Silver Price Today | Silver Spot Price Charts - SD Bullion" | kw:silver,rice
+2026-06-22 08:01 ACCEPT [Google News KL] "Robert Kiyosaki makes stunning prediction on gold and silver prices - " | kw:gold,silver,rice
+2026-06-22 08:01 ACCEPT [Google News KL] "Gold, silver prices today, June 22: Check retail rates of 24K, 22K gol" | kw:gold,silver,rice
+2026-06-22 08:01 ACCEPT [Google News KL] "Gold prices rebound to $4,176.52 as U.S.-Iran talks progress, Fed rate" | kw:gold,rice,fed rate
+2026-06-22 08:01 ACCEPT [Google News KL] "Gold prices drop by over 20%, offers glittering buying opportunity - t" | kw:gold,rice
+2026-06-22 08:01 ACCEPT [Google News KL] "Silver Price Analysis: XAG/USD advances above $66.00, but below key re" | kw:silver,rice
+2026-06-22 08:01 ACCEPT [Google News KL] "Hong Kong Market Moves | Gold Stocks Lead Declines as Fed Rate Cut Hop" | kw:gold,rice,fed rate
+2026-06-22 08:01 ACCEPT [Google News KL] "Gold, silver prices climb in Nepali market - myRepublica" | kw:gold,silver,rice
+2026-06-22 08:01 ACCEPT [Google News KL] "Eldorado Gold Corporation: Well Positioned To Take Advantage Of Elevat" | kw:gold,rice
+2026-06-22 08:01 ACCEPT [Google News KL] "🔴 First Trade Live Updates: Stock Market | Gold & Silver Price | Stock" | kw:gold,silver,rice
+2026-06-22 08:01 ACCEPT [Google News KL] "Should You Buy ANY Xbox In 2026? Gold Price In India (VTJc3gyF2y) - Ms" | kw:gold,rice
+2026-06-22 08:01 ACCEPT [Google News KL] "Gold, silver fall as US-Iran talks and oil prices loom - MSN" | kw:oil,gold,silver
+2026-06-22 08:01 ACCEPT [Google News KL] "Gold, silver prices rise in domestic market - The Rising Nepal" | kw:gold,silver,rice
+2026-06-22 08:01 ACCEPT [Google News KL] "The Champ - SNL Silver Price Today (eSVotC9AOq) - Fathom Journal" | kw:silver,rice
+2026-06-22 08:01 ACCEPT [RT Business] "Bank of Japan lifts rates to highest level since 1995" | kw:fuel,inflation,interest rate
+2026-06-22 08:01 ACCEPT [RT Business] "Gas at $4: Understanding America’s strange obsession" | kw:gas,fuel,rice
+2026-06-22 08:01 ACCEPT [RT Business] "Japanese auto giant takes historic hit amid EV pullback" | kw:tariff
+2026-06-22 08:01 ACCEPT [RT Business] "EU buys record volumes of Russian LNG – report" | kw:gas,lng
+2026-06-22 08:01 ACCEPT [RT Business] "Oil prices now determined by Trump’s mood – Fico" | kw:oil,rice
+2026-06-22 08:01 ACCEPT [ECB Press] "ECB publishes consolidated banking data for end-December 2025" | kw:ecb
+2026-06-22 08:01 ACCEPT [Google News CB] "Should the European Central Bank slow down quantitative tightening? - " | kw:central bank,quantitative,tightening
+2026-06-22 08:01 ACCEPT [Google News CB] "Gold Falls As Traders Weigh U.S.-Iran Progress, Hawkish Fed Signals - " | kw:gold
+2026-06-22 08:01 ACCEPT [Google News CB] "BOJ Dissent by Takaichi’s Pick Highlights Case for Faster Hikes - Bloo" | kw:boj
+2026-06-22 08:01 ACCEPT [Google News CB] "ECB’s Escrivá: We need to monitor for second-round effects on wages - " | kw:ecb
+2026-06-22 08:01 ACCEPT [Google News CB] "Fed Chair Kevin Warsh Just Subtly Threw President Donald Trump and Jer" | kw:fomc
+2026-06-22 08:01 ACCEPT [Google News CB] "1 Reason Why the Fed's Decision to Keep Interest Rates Steady Is No Ma" | kw:interest rate
+2026-06-22 08:01 ACCEPT [Google News CB] "Charles Schwab (SCHW) Stock After Recent Performance And Interest Rate" | kw:interest rate
+2026-06-22 08:01 SKIP_MORNING already_sent date=2026-06-22
