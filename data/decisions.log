@@ -3876,3 +3876,26 @@
 2026-06-22 09:01 ACCEPT [Google News CB] "Should Amazon Investors Be Concerned That New Fed Chair Kevin Warsh Is" | kw:interest rate
 2026-06-22 09:01 ACCEPT [Google News CB] "Gold maintains the bearish bias following the hawkish Fed decision; fo" | kw:gold
 2026-06-22 09:01 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 09:31 ACCEPT [BBC Business] "Fuel sales halted in occupied Crimea as Ukraine targets oil facilities" | kw:oil,fuel,shortage
+2026-06-22 09:31 ACCEPT [OilPrice.com] "Explosion at Qatar’s Ras Laffan LNG Injures Dozens" | kw:lng
+2026-06-22 09:31 ACCEPT [Google News HH] "Iranian Crude Oil Flows Via Hormuz Surge as More Ships Transit - Bloom" | kw:oil,crude
+2026-06-22 09:31 ACCEPT [Google News HH] "Crude Oil Perpetual Futures Analysis - Investing.com" | kw:oil,crude
+2026-06-22 09:31 ACCEPT [Google News HH] "Commodities legend Rick Rule: Copper and oil are astonishingly cheap, " | kw:oil,gold,copper
+2026-06-22 09:31 ACCEPT [Google News HH] "Hormuz Crisis Sparks a Middle East Pipeline Boom - Crude Oil Prices To" | kw:oil,crude,rice
+2026-06-22 09:31 ACCEPT [Google News HH] "Gold Price Forecast: $4,230 Breakout Blueprint Targets 2H Ascending Tr" | kw:gold,rice
+2026-06-22 09:31 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Truce Stability vs Policy Signa" | kw:gold,silver,rice
+2026-06-22 09:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD holds gains near $66.00 on US-Iran peac" | kw:silver,rice
+2026-06-22 09:31 ACCEPT [Google News KL] "Invesco launches gold ETC - Funds Europe" | kw:gold
+2026-06-22 09:31 ACCEPT [Google News KL] "Gold Forecast 22/06: Drifted Lower (Video) - DailyForex" | kw:gold
+2026-06-22 09:31 ACCEPT [Google News KL] "Silver Price Forecast: $67.35 Breakout Target Anchors to 2H Dynamic Su" | kw:silver,rice
+2026-06-22 09:31 ACCEPT [Google News KL] "Egypt: Silver prices collectively drop on June 21 - ZAWYA" | kw:silver,rice
+2026-06-22 09:31 ACCEPT [Google News KL] "Silver Rates Today, June 22, 2026: Silver Price Holds Near Flat; 10-gr" | kw:silver,rice
+2026-06-22 09:31 ACCEPT [Google News KL] "Technical analysis of the S&P 500, EUR/GBP and silver price as they ad" | kw:silver,rice
+2026-06-22 09:31 ACCEPT [Google News KL] "India Gold Demand Slows in May–June 2026: Import Duties, Price Discoun" | kw:gold,rice
+2026-06-22 09:31 ACCEPT [Google News KL] "Egypt: Gold prices fall on June 21 - ZAWYA" | kw:gold,rice
+2026-06-22 09:31 ACCEPT [Google News NS] "Is a commodity exchange feasible in Bangladesh? - Prothom Alo English" | kw:commodity
+2026-06-22 09:31 ACCEPT [Google News CB] "Education Department Announces Student Loan Interest Rate Reduction fo" | kw:interest rate
+2026-06-22 09:31 ACCEPT [Google News CB] "European Central Bank must monitor wage impact from rising oil prices," | kw:oil,rice,central bank
+2026-06-22 09:31 ACCEPT [Google News CB] "Economic Week Ahead: Will PCE Inflation Validate the Fed’s Hawkish Shi" | kw:inflation
+2026-06-22 09:31 ACCEPT [Google News CB] "Gold maintains the bearish bias following the hawkish Fed decision; fo" | kw:gold,gdp
+2026-06-22 09:31 SKIP_MORNING already_sent date=2026-06-22
