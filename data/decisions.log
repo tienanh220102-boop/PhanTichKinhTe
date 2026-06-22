@@ -3971,3 +3971,13 @@
 2026-06-22 12:01 ACCEPT [Google News CB] "Former Federal Reserve chairman Alan Greenspan has died at 100, the Fe" | kw:federal reserve
 2026-06-22 12:01 ACCEPT [Google News CB] "Alan Greenspan, former head of Federal Reserve, dies at 100 - WMAR 2 N" | kw:federal reserve
 2026-06-22 12:01 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 12:31 ACCEPT [MarketWatch] "Trump ‘jawboning’ has masked a global oil-supply disaster, and the rea" | kw:oil,crude
+2026-06-22 12:31 ACCEPT [BBC Business] "Alan Greenspan, architect of the modern American economy, dies aged 10" | kw:federal reserve
+2026-06-22 12:31 ACCEPT [OilPrice.com] "Iran’s Oil Exports Through Hormuz Hit Wartime High" | kw:oil
+2026-06-22 12:31 ACCEPT [Google News HH] "Asia has plenty of crude oil, but refined fuels remain tight: Russell " | kw:oil,crude,fuel
+2026-06-22 12:31 ACCEPT [Google News HH] "Gold Price Today on June 22, 2026 - USA Today" | kw:gold,rice
+2026-06-22 12:31 ACCEPT [Google News HH] "Gold price prediction: Gold rate futures fall big, what to expect for " | kw:gold,rice
+2026-06-22 12:31 ACCEPT [Google News KL] "Buy gold stocks as valuations are cheap amid macro tension: BofA - Inv" | kw:gold
+2026-06-22 12:31 ACCEPT [Google News KL] "Mackay Gold & Silver to Acquire Comstock Inc.'s Nevada Mining Assets, " | kw:gold,silver
+2026-06-22 12:31 ACCEPT [Google News KL] "World Gold Ore Recovery Packages - Market Analysis, Forecast, Size, Tr" | kw:wti,gold
+2026-06-22 12:31 SKIP_MORNING already_sent date=2026-06-22
