@@ -3723,3 +3723,13 @@
 2026-06-22 05:31 ACCEPT [Google News KL] "Gold Price Today: MCX Gold Trades Above Rs 1.45 Lakh Amid US-Iran Peac" | kw:gold,rice
 2026-06-22 05:31 ACCEPT [Google News NS] "Poland’s Grain Market in June 2026. Oats and Rye Record the Biggest Pr" | kw:rice
 2026-06-22 05:31 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 06:01 ACCEPT [OilPrice.com] "Qatar Races to Restore LNG Exports Despite Ras Laffan Setback" | kw:gas,lng,shipping
+2026-06-22 06:01 ACCEPT [Google News HH] "How to read inventory data in commodity perps: A guide using crude oil" | kw:oil,crude,gas
+2026-06-22 06:01 ACCEPT [Google News HH] "Petrol, Diesel Prices to rise in India? Crude oil prices rise 2 percen" | kw:oil,crude,rice
+2026-06-22 06:01 ACCEPT [Google News KL] "Silver Price Analysis: XAG/USD advances above $66.00, but below key re" | kw:silver,rice
+2026-06-22 06:01 ACCEPT [Google News KL] "[SMM Nickel Sulphate Daily Review] June 22: Market Trading Sentiment M" | kw:nickel,rice
+2026-06-22 06:01 ACCEPT [Google News KL] "Gold prices, which had reached record highs earlier this year due to v" | kw:gold,rice
+2026-06-22 06:01 ACCEPT [Google News KL] "Gold, Silver Futures Rise on Strong Demand and West Asia Tensions - De" | kw:gold,silver
+2026-06-22 06:01 ACCEPT [Google News KL] "LIVE XAUUSD & BTCUSD Trading 🔴 | Gold & Bitcoin Analysis Today | Scalp" | kw:gold,rice
+2026-06-22 06:01 ACCEPT [Google News NS] "Strong South American Corn Yields Threaten US Export Demand and Prices" | kw:corn,rice
+2026-06-22 06:01 SKIP_MORNING already_sent date=2026-06-22
