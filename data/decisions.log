@@ -3647,3 +3647,14 @@
 2026-06-22 02:31 ACCEPT [Google News CB] "Dissent by Takaichi’s BOJ pick hints at case for faster hikes - The Ja" | kw:boj
 2026-06-22 02:31 ACCEPT [Google News CB] "Recap: Japan PM Takaichi urges policy restraint after hawkish BOJ test" | kw:rice,boj
 2026-06-22 02:31 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 03:01 ACCEPT [Google News HH] "Asia has plenty of crude oil, but refined fuels remain tight: Russell " | kw:oil,crude,fuel
+2026-06-22 03:01 ACCEPT [Google News HH] "USD/JPY Breaks Above 161 After FOMC While Wti Crude Oil Falls - Action" | kw:oil,crude,wti
+2026-06-22 03:01 ACCEPT [Google News HH] "Crude Oil Loses Positive Momentum as Downside Risks Increase – Analysi" | kw:oil,crude
+2026-06-22 03:01 ACCEPT [Google News HH] "Gold suffers heavy sell-off! Goldman Sachs and Citigroup both lower go" | kw:gold,rice
+2026-06-22 03:01 ACCEPT [Google News HH] "Crude oil jumps above $80/bbl after Trump’s latest threat amid final p" | kw:oil,crude,gold
+2026-06-22 03:01 ACCEPT [Google News KL] "Gold and silver price today, June 22: Check rates of 24K, 22K gold in " | kw:gold,silver,rice
+2026-06-22 03:01 ACCEPT [Google News KL] "Commodity Corner: Oil slips on US-Iran peace hopes, gold rebounds - Mo" | kw:oil,gold,corn
+2026-06-22 03:01 ACCEPT [Google News KL] "Will equities dominate the next market cycle amid slowdown in Gold? - " | kw:gold
+2026-06-22 03:01 ACCEPT [Google News CB] "Gold Rises; Direction Seen Led by Geopolitics, Monetary Policy - WSJ" | kw:gold,monetary policy
+2026-06-22 03:01 ACCEPT [Google News CB] "Goldman Sachs sees structural gold buying as central bank demand hits " | kw:gold,central bank
+2026-06-22 03:01 SKIP_MORNING already_sent date=2026-06-22
