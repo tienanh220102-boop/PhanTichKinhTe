@@ -3764,3 +3764,15 @@
 2026-06-22 07:13 ACCEPT [Google News NS] "Records are being broken on both wheat procurement and imports - Enter" | kw:wheat
 2026-06-22 07:13 ACCEPT [Google News CB] "US Dollar Index Price Forecast: Heading towards 102.00 as hawkish Fed " | kw:rice,dollar index
 2026-06-22 07:13 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 07:31 ACCEPT [Google News HH] "| Polyester chain prices tumble in India, China as crude oil retreats " | kw:oil,crude,rice
+2026-06-22 07:31 ACCEPT [Google News HH] "Iraqi oil flows to global markets through Syria - Iraqi News" | kw:oil
+2026-06-22 07:31 ACCEPT [Google News KL] "Stormlands Mining publishes Sandman Gold Project case study showing mo" | kw:gold,rice,commodity
+2026-06-22 07:31 ACCEPT [Google News KL] "Hong Kong Market Moves | Gold Stocks Lead Declines as Fed Rate Cut Hop" | kw:gold,rice,fed rate
+2026-06-22 07:31 ACCEPT [Google News KL] "Samsung Securities touts inverse 2x silver ETN for short-term Korea he" | kw:silver
+2026-06-22 07:31 ACCEPT [Google News KL] "World Silver Tungsten Contacts - Market Analysis, Forecast, Size, Tren" | kw:silver
+2026-06-22 07:31 ACCEPT [Google News KL] "[TMGM Financial Breakfast] Hawkish Fed Weighs on ETF Demand as Gold Fa" | kw:gold
+2026-06-22 07:31 ACCEPT [Google News CB] "Gold Falls As Traders Weigh U.S.-Iran Progress, Hawkish Fed Signals - " | kw:gold
+2026-06-22 07:31 ACCEPT [Google News CB] "A change of pace at China’s central bank - The Economist" | kw:central bank
+2026-06-22 07:31 ACCEPT [Google News CB] "Fed Pressure and Geopolitical Factors Determine the Next Direction of " | kw:gold
+2026-06-22 07:31 ACCEPT [Google News CB] "Gold clings to intraday gains near $4,200 as sliding Oil prices ease i" | kw:oil,gold,rice
+2026-06-22 07:31 SKIP_MORNING already_sent date=2026-06-22
