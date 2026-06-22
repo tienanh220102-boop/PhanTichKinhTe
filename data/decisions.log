@@ -3666,3 +3666,17 @@
 2026-06-22 03:31 ACCEPT [Google News CB] "Gold rebounds as US-Iran talks progress; Fed outlook worries cap gains" | kw:gold
 2026-06-22 03:31 ACCEPT [Google News CB] "Goldman Sachs sees structural gold buying as central bank demand hits " | kw:gold,central bank
 2026-06-22 03:31 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 04:01 ACCEPT [Al Jazeera] "Crimea halts fuel sales after Ukraine strikes cause shortages" | kw:gas,fuel,shortage
+2026-06-22 04:01 ACCEPT [Google News HH] "Crude Oil Trading Alert: U.S.-Iran Deal Disrupts Market Sentiment; Oil" | kw:oil,crude,rice
+2026-06-22 04:01 ACCEPT [Google News HH] "Gold Price Forecast: XAU Heads to $4,000 on Hawkish FED – Breakdown or" | kw:gold,rice
+2026-06-22 04:01 ACCEPT [Google News KL] "Gold and Silver Price Forecast: Dollar Breakout Keeps Metals Under Pre" | kw:gold,silver,rice
+2026-06-22 04:01 ACCEPT [Google News KL] "Institutions are buying gold on dips, anticipating it will hit a new a" | kw:gold
+2026-06-22 04:01 ACCEPT [Google News KL] "Crown Plaza Hotel || San Diego California : Room Tour & Review Silver " | kw:silver,rice
+2026-06-22 04:01 ACCEPT [Google News KL] "Gold holds modest gains; Fed hike bets and Iran risks cap upside - FXS" | kw:gold
+2026-06-22 04:01 ACCEPT [Google News KL] "Gold and silver prices rise - The Rising Nepal" | kw:gold,silver,rice
+2026-06-22 04:01 ACCEPT [Google News KL] "Hong Kong Market Moves | Gold Stocks Lead Declines as Fed Rate Cut Hop" | kw:gold,rice,fed rate
+2026-06-22 04:01 ACCEPT [Google News KL] "Gold Price Today: MCX Gold Trades Above Rs 1.45 Lakh Amid US-Iran Peac" | kw:gold,rice
+2026-06-22 04:01 ACCEPT [Google News NS] "Soybean Prices Edge Up As China Buying Returns - Finimize" | kw:soybean,rice
+2026-06-22 04:01 ACCEPT [Google News NS] "‘Something really strange’: Price of fertilizer impacting farmers acro" | kw:rice
+2026-06-22 04:01 ACCEPT [Google News CB] "Watch Oil Price Decline Could Remove Some Central Bank Hawkish Bias: C" | kw:oil,rice,central bank
+2026-06-22 04:01 SKIP_MORNING already_sent date=2026-06-22
