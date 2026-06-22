@@ -4003,3 +4003,6 @@
 2026-06-22 13:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
 2026-06-22 13:02 DIRECTION_FIX Gold: "tăng 0.07%" → "giảm 0.07%"
 2026-06-22 13:02 SENT_EVENING articles=20 date=2026-06-22 force=False
+2026-06-22 13:09 ACCEPT [Google News NS] "Form 8K South Dakota Soybean Processors For: 22 June By Investing.com " | kw:soybean
+2026-06-22 13:09 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 13:09 SKIP_EVENING already_sent date=2026-06-22
