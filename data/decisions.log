@@ -4081,3 +4081,19 @@
 2026-06-22 15:31 ACCEPT [Google News CB] "Alan Greenspan, chair of Federal Reserve under 4 U.S. presidents, dies" | kw:federal reserve
 2026-06-22 15:31 SKIP_MORNING already_sent date=2026-06-22
 2026-06-22 15:31 SKIP_EVENING already_sent date=2026-06-22
+2026-06-22 16:01 ACCEPT [Al Jazeera] "US partially lifts Iran oil sanctions amid ‘encouraging’ talks" | kw:oil,sanction
+2026-06-22 16:01 ACCEPT [Al Jazeera] "Former US Federal Reserve Chairman Alan Greenspan dies at age 100" | kw:federal reserve
+2026-06-22 16:01 ACCEPT [OilPrice.com] "Russia Rations Fuel in Crimea as Ukraine Targets Oil Infrastructure" | kw:oil,fuel,shortage
+2026-06-22 16:01 ACCEPT [Google News HH] "Prof. Ken Ife analyzes international crude oil prices and its impact o" | kw:oil,crude,rice
+2026-06-22 16:01 ACCEPT [Google News HH] "Crude oil forecast: How much further can WTI fall? - FOREX.com" | kw:oil,crude,wti
+2026-06-22 16:01 ACCEPT [Google News HH] "Women as Commodities - The Latin America Connection - dw.com" | kw:commodities
+2026-06-22 16:01 ACCEPT [Google News HH] "US wholesale: Week 26 ‘market pulse’ updates available on key seafood " | kw:commodities
+2026-06-22 16:01 ACCEPT [Google News HH] "Crude Oil Falls Toward $74 - TradingView" | kw:oil,crude
+2026-06-22 16:01 ACCEPT [Google News HH] "US DOE awards just 500k barrels in latest reserve oil loan sale - Quan" | kw:oil,commodity
+2026-06-22 16:01 ACCEPT [Google News HH] "OPEC Fund Forum 2026 sets global agenda - CNBC Africa" | kw:opec
+2026-06-22 16:01 ACCEPT [Google News NS] "Cattle Make Fresh Highs on Cash: Corn Testing Support Monday - AgWeb" | kw:corn
+2026-06-22 16:01 ACCEPT [Google News CB] "Will the Fed's favorite inflation gauge add to hiking worries? - UBS" | kw:inflation
+2026-06-22 16:01 ACCEPT [Google News CB] "BofA, Deutsche Bank Now Expect Fed Rate Hikes In 2026 - CUToday" | kw:fed rate,rate hike
+2026-06-22 16:01 ACCEPT [Google News CB] "Warsh’s gamble: A quieter Federal Reserve could mean volatile markets," | kw:federal reserve
+2026-06-22 16:01 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 16:01 SKIP_EVENING already_sent date=2026-06-22
