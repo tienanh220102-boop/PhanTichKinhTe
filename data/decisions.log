@@ -3680,3 +3680,13 @@
 2026-06-22 04:01 ACCEPT [Google News NS] "‘Something really strange’: Price of fertilizer impacting farmers acro" | kw:rice
 2026-06-22 04:01 ACCEPT [Google News CB] "Watch Oil Price Decline Could Remove Some Central Bank Hawkish Bias: C" | kw:oil,rice,central bank
 2026-06-22 04:01 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 04:31 ACCEPT [Al Jazeera] "Qatar LNG factory explosion injures 54, leaves 18 missing, gov’t says" | kw:lng
+2026-06-22 04:31 ACCEPT [Google News HH] "Gold Price on 21 June 2026 - Gold Price" | kw:gold,rice
+2026-06-22 04:31 ACCEPT [Google News HH] "Crude oil futures decline after US and Iran conclude first round of ta" | kw:oil,crude
+2026-06-22 04:31 ACCEPT [Google News KL] "Best Gold IRA Companies for a 401(k) Rollover in 2026: Expert Rankings" | kw:gold
+2026-06-22 04:31 ACCEPT [Google News KL] "Gold, silver prices today, June 22: Check retail rates of 24K, 22K gol" | kw:gold,silver,rice
+2026-06-22 04:31 ACCEPT [Google News KL] "Gold sticks to modest gains; bulls seem hesitant amid Fed hike bets, I" | kw:gold
+2026-06-22 04:31 ACCEPT [Google News KL] "Gold edges lower to near $4,150 on US–Iran peace uncertainty, hawkish " | kw:gold
+2026-06-22 04:31 ACCEPT [Google News KL] "Gold demand falls as duty hike keeps prices high - The Rising Nepal" | kw:gold,rice
+2026-06-22 04:31 ACCEPT [Google News NS] "Harsha criticises corn tax hike and rice imports as burden on poor - N" | kw:corn,rice
+2026-06-22 04:31 SKIP_MORNING already_sent date=2026-06-22
