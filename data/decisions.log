@@ -3909,3 +3909,22 @@
 2026-06-22 10:01 ACCEPT [Google News NS] "Supply chain, quarantine key themes at grain storage conference - Dail" | kw:supply chain
 2026-06-22 10:01 ACCEPT [Google News CB] "Treasury yields rise ahead of key inflation data; markets resume tradi" | kw:inflation,treasury
 2026-06-22 10:01 SKIP_MORNING already_sent date=2026-06-22
+2026-06-22 10:31 ACCEPT [OilPrice.com] "India’s Imports of Russian Oil Set for New Record High" | kw:oil,crude,commodity
+2026-06-22 10:31 ACCEPT [Google News HH] "Six pivotal energy and oil market trends from OPEC’s latest Outlook - " | kw:oil,opec
+2026-06-22 10:31 ACCEPT [Google News HH] "Caution! U.S.-Iran negotiations remain volatile, and crude oil—despite" | kw:oil,crude
+2026-06-22 10:31 ACCEPT [Google News HH] "Oil and Gold: Price review for the week ahead - FXStreet" | kw:oil,gold,rice
+2026-06-22 10:31 ACCEPT [Google News HH] "Brent crude to stay sticky near-term before softening in 2027 on suppl" | kw:crude,brent
+2026-06-22 10:31 ACCEPT [Google News KL] "Mapping the Market: Copper's pause may be setting the stage for the ne" | kw:copper
+2026-06-22 10:31 ACCEPT [Google News KL] "Sustainable Open-Pit Mine Scheduling Framework Developed for Copper Op" | kw:copper
+2026-06-22 10:31 ACCEPT [Google News KL] "Two Gold Bugs Stand Firm on Gold's Rally, Lawrence Lepard Targets $1 M" | kw:gold
+2026-06-22 10:31 ACCEPT [Google News KL] "Best Gold IRA Companies for a 401(k) Rollover in 2026: Expert Rankings" | kw:lng,gold
+2026-06-22 10:31 ACCEPT [Google News KL] "Bitcoin Gold Plummets 25.18% — What’s Causing the Drop? - Coinfomania" | kw:gold
+2026-06-22 10:31 ACCEPT [Google News NS] "Algeria and Indonesia are actively buying Ukrainian wheat - UkrAgroCon" | kw:wheat
+2026-06-22 10:31 ACCEPT [Google News NS] "Supply deficit drives firm maize, soya prices - NewsDay Zimbabwe" | kw:rice
+2026-06-22 10:31 ACCEPT [Google News CB] "Will New US Fed Chair Kevin Warsh Raise Interest Rates This Year? - Mo" | kw:interest rate
+2026-06-22 10:31 ACCEPT [Google News CB] "HELOC and home equity loan rates, Monday, June 22, 2026: Borrowing nee" | kw:interest rate
+2026-06-22 10:31 ACCEPT [Google News CB] "BofA now expects Fed to hike interest rates three times this year - in" | kw:interest rate
+2026-06-22 10:31 ACCEPT [Google News CB] "Indian Rupee weakens on hopes of atleast two Fed interest rate hikes t" | kw:interest rate,rate hike
+2026-06-22 10:31 ACCEPT [Google News CB] "European Central Bank analyzes AI’s impact on US employment growth - C" | kw:central bank
+2026-06-22 10:31 ACCEPT [Google News CB] "Japanese Yen: BoJ tightening fails to lift Japanese Yen – OCBC - FXStr" | kw:boj,tightening
+2026-06-22 10:31 SKIP_MORNING already_sent date=2026-06-22
