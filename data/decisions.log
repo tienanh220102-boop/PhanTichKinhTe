@@ -4607,3 +4607,29 @@
 2026-06-23 13:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
 2026-06-23 13:01 GEMINI ERROR gemini-2.5-flash-lite This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
 2026-06-23 13:01 SKIP_EVENING gemini_no_result date=2026-06-23
+2026-06-23 13:31 ACCEPT [MarketWatch] "Stock investors expect the Fed to save them. But no ‘Warsh put’ is com" | kw:central bank
+2026-06-23 13:31 ACCEPT [EIA Energy] "UAE's exit from OPEC+ reduced the group's share of crude oil productio" | kw:oil,crude,opec
+2026-06-23 13:31 ACCEPT [Google News HH] "Crude Oil Price Analysis – Crude Oil Continues to Face Pressures - FXE" | kw:oil,crude,rice
+2026-06-23 13:31 ACCEPT [Google News HH] "Gold Price Analysis – Gold Continues to Look to the $4000 Region - FXE" | kw:gold,rice
+2026-06-23 13:31 ACCEPT [Google News KL] "Deutsche Bank Cuts Gold Price Forecast by Up to 22% - Aju Press" | kw:gold,rice
+2026-06-23 13:31 ACCEPT [Google News KL] "AI Chatbots: Last Week Tonight With John Oliver (HBO) Gold Price In In" | kw:wti,gold,rice
+2026-06-23 13:31 ACCEPT [Google News KL] "Spot Silver Plunges 3% Intraday - Bitget" | kw:silver
+2026-06-23 13:31 ACCEPT [Google News KL] "Huge News Coming Out Of Russia! If You Own Gold & Silver, Watch Now - " | kw:gold,silver
+2026-06-23 13:31 ACCEPT [Google News KL] "Silver Bulls Need a Close Above $67.14 to Confirm Recovery Momentum - " | kw:lng,silver
+2026-06-23 13:31 ACCEPT [Google News KL] "Canada Vs Bosnia & Herzegovina | FIFA World Cup 2026 | LIVE Watchalong" | kw:silver,rice
+2026-06-23 13:31 ACCEPT [Google News KL] "Four Horsemen Destroying Crypto According to One of Wall Street’s Top " | kw:lng
+2026-06-23 13:31 ACCEPT [Google News KL] "Silver Rate Today in Tirupati 23rd June 2026 : 1 KG, Silver Price in T" | kw:silver,rice
+2026-06-23 13:31 ACCEPT [Google News KL] "Gold Rate Today in Erode 23rd June 2026 : 22 & 24 Carat, Gold Price in" | kw:gold,rice
+2026-06-23 13:31 ACCEPT [Google News KL] "Gold and silver futures fall as Fed indicates future hikes - MSN" | kw:gold,silver
+2026-06-23 13:31 ACCEPT [Google News KL] "Silver Rate Today in Guwahati 23rd June 2026 : 1 KG, Silver Price in G" | kw:silver,rice
+2026-06-23 13:31 ACCEPT [Google News KL] "Meesho share price in focus as Citi initiates ‘Buy’, sees nearly 23% u" | kw:rice
+2026-06-23 13:31 ACCEPT [Google News NS] "Weather, Geopolitical Friction, and Upcoming USDA Reports Keep Crop Pr" | kw:rice
+2026-06-23 13:31 ACCEPT [Google News NS] "Petrobras markets first batch of SAF produced from CORSIA-certified so" | kw:oil,soybean
+2026-06-23 13:31 ACCEPT [Google News CB] "Gold falls as hawkish Fed bets lift dollar to one-year peak - CNBC" | kw:gold
+2026-06-23 13:31 ACCEPT [Google News CB] "The Interest Rate Penalty From Trump’s War With Iran - Center for Amer" | kw:interest rate
+2026-06-23 13:31 ACCEPT [Google News CB] "UniCredit CEO says ECB more likely to declare control of Commerzbank g" | kw:ecb
+2026-06-23 13:31 ACCEPT [Google News CB] "Major Gulf bourses ease on investor caution, Fed rate-hike bets - Reut" | kw:fed rate
+2026-06-23 13:31 ACCEPT [Google News CB] "Fed chair pushes a new inflation gauge as data noise grows - Plastics " | kw:inflation
+2026-06-23 13:31 ACCEPT [Google News CB] "Stocks hit by Fed rate reality check; oil slips - Yahoo Finance" | kw:oil,fed rate
+2026-06-23 13:31 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 13:32 SENT_EVENING articles=20 date=2026-06-23 force=False
