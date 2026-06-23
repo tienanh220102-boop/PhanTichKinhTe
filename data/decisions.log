@@ -4692,3 +4692,20 @@
 2026-06-23 15:31 ACCEPT [Google News CB] "South Africa Central Bank Takes Aim at $5.5 Billion Cost of Cash - Blo" | kw:central bank
 2026-06-23 15:31 SKIP_MORNING already_sent date=2026-06-23
 2026-06-23 15:31 SKIP_EVENING already_sent date=2026-06-23
+2026-06-23 16:01 ACCEPT [MarketWatch] "Social Security urgently needs another ‘Greenspan Commission’ to save " | kw:federal reserve
+2026-06-23 16:01 ACCEPT [OilPrice.com] "Traders Question How Much Iranian Oil Can Really Return to Market" | kw:oil,commodity,sanction
+2026-06-23 16:01 ACCEPT [Google News HH] "Gulf oil tanker rates nearly double as Middle East producers ramp up e" | kw:oil
+2026-06-23 16:01 ACCEPT [Google News HH] "Chicago soybeans and corn regain ground as crude oil steadies - Tradin" | kw:oil,crude,corn
+2026-06-23 16:01 ACCEPT [Google News HH] "U.S. Permits Iranian Crude Oil Sales After 8-Year Ban - 조선일보" | kw:oil,crude
+2026-06-23 16:01 ACCEPT [Google News KL] "XAG/USD Price Forecast: Silver challenges 2026 lows - FXStreet" | kw:silver,rice
+2026-06-23 16:01 ACCEPT [Google News NS] "Corn, Wheat See More Fund Selling, Beans Bounce: Cattle Consolidate Tu" | kw:wheat,corn
+2026-06-23 16:01 ACCEPT [Google News NS] "US seeks to regain lost ground in China’s soybean market - UkrAgroCons" | kw:soybean
+2026-06-23 16:01 ACCEPT [Google News NS] "Ukrainian corn exports slow down, prices fall as harvest prospects imp" | kw:corn,rice,harvest
+2026-06-23 16:01 ACCEPT [Google News NS] "Corn prices in Ukraine remain under pressure from weak demand and low " | kw:corn,rice
+2026-06-23 16:01 ACCEPT [Google News CB] "ECB’s Vujcic Sees Inflation Remaining Higher for Longer - Bloomberg" | kw:inflation,ecb
+2026-06-23 16:01 ACCEPT [Google News CB] "Oil shock nicked US GDP but resilience was the message, Dallas Fed res" | kw:oil,gdp
+2026-06-23 16:01 ACCEPT [Google News CB] "Two Turkey Central Bank Chief Advisers Leave Their Roles - Bloomberg" | kw:central bank
+2026-06-23 16:01 ACCEPT [Google News CB] "S&P 500 Forecast: SPX falls on tech rout, Fed rate hike expectations -" | kw:fed rate,rate hike
+2026-06-23 16:01 ACCEPT [Google News CB] "Gold Slips on Higher-For-Longer Fed Rate Outlook - Yahoo Finance" | kw:gold,fed rate
+2026-06-23 16:01 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 16:01 SKIP_EVENING already_sent date=2026-06-23
