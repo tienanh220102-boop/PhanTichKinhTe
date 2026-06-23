@@ -4277,3 +4277,6 @@
 2026-06-23 01:01 ACCEPT [Google News HH] "Crude Oil Falls, Metals Show Mixed Performance with SHFE Tin, Alumina," | kw:oil,crude,silver
 2026-06-23 01:01 ACCEPT [Google News NS] "Grain LNG opens Expression of Interest for regasification capacity ava" | kw:gas,lng
 2026-06-23 01:01 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 01:31 ACCEPT [Google News HH] "CAF and OPEC Fund Hold High-Level Roundtable in Vienna - CAF -banco" | kw:opec
+2026-06-23 01:31 ACCEPT [Google News KL] "AbraSilver's Definitive Feasibility Study Positions Diablillos Among t" | kw:gold,silver
+2026-06-23 01:31 SKIP_MORNING already_sent date=2026-06-23
