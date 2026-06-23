@@ -4566,3 +4566,14 @@
 2026-06-23 11:36 ACCEPT [Google News CB] "Nasdaq futures drop over 2% on concerns over AI buildout costs, Fed ra" | kw:fed rate
 2026-06-23 11:36 ACCEPT [Google News CB] "Asia shares, oil slip as markets reprice Fed expectations - Yahoo Fina" | kw:oil,rice
 2026-06-23 11:36 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 12:01 ACCEPT [MarketWatch] "Researchers cracked the code on predicting market bubbles. Here’s what" | kw:rice
+2026-06-23 12:01 ACCEPT [Al Jazeera] "Iran war day 116: US eases Iran sanctions; Israel kills two in Lebanon" | kw:oil,sanction
+2026-06-23 12:01 ACCEPT [Google News HH] "Gold Rate Today, June 23, 2026: Gold Price Ticks Up Again; 24K Rises ₹" | kw:gold,rice
+2026-06-23 12:01 ACCEPT [Google News KL] "Gold and Silver Price Forecast: US Dollar Rally Threatens Fresh 2026 L" | kw:gold,silver,rice
+2026-06-23 12:01 ACCEPT [Google News KL] "Silver Faces Make-or-Break Level, Will Price Keep Dropping? - Yahoo Fi" | kw:silver,rice
+2026-06-23 12:01 ACCEPT [Google News KL] "Silverco Mining's Cusi Project: High-Grade Results Signal Restart - St" | kw:silver
+2026-06-23 12:01 ACCEPT [Google News KL] "TSX futures down 1% as oil, gold prices fall - TradingView" | kw:oil,gold,rice
+2026-06-23 12:01 ACCEPT [Google News NS] "Will Mother Nature let out the wheat bulls? - Farm Progress" | kw:wheat
+2026-06-23 12:01 ACCEPT [Google News CB] "Hassan requests probe into whether fed regulators did enough to limit " | kw:rate hike
+2026-06-23 12:01 ACCEPT [Google News CB] "TSX Futures fall as hot inflation, Fed bets batter sentiment - Investi" | kw:lng,inflation
+2026-06-23 12:01 SKIP_MORNING already_sent date=2026-06-23
