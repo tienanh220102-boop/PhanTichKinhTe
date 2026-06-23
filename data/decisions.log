@@ -4267,3 +4267,8 @@
 2026-06-23 00:02 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
 2026-06-23 00:02 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
 2026-06-23 00:02 SENT_MORNING articles=20 date=2026-06-23 force=False
+2026-06-23 00:31 ACCEPT [Al Jazeera] "Iran war live: US waives oil sanctions, to release $12bn in frozen fun" | kw:oil,sanction
+2026-06-23 00:31 ACCEPT [Google News HH] "CME : WTI Crude Oil futures fell below $75 as speculators exited. - ma" | kw:oil,crude,wti
+2026-06-23 00:31 ACCEPT [Google News KL] "Copper price analysis: Levels to watch in the data-dependent week - Tr" | kw:copper,rice
+2026-06-23 00:31 ACCEPT [Google News KL] "Gold Trading Alert: U.S. and Iran Move Toward Reconciliation; Gold Pri" | kw:gold,rice
+2026-06-23 00:31 SKIP_MORNING already_sent date=2026-06-23
