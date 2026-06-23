@@ -4444,3 +4444,12 @@
 2026-06-23 07:01 ACCEPT [Google News CB] "Rupee flat as traders mull Fed rate path, keep eyes peeled for flow cl" | kw:fed rate
 2026-06-23 07:01 ACCEPT [Google News CB] "European shares set to open lower as Fed rate hike bets, tech weakness" | kw:fed rate,rate hike
 2026-06-23 07:01 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 07:31 ACCEPT [Google News HH] "China INE crude oil futures main contract just broke through the 490.0" | kw:oil,crude
+2026-06-23 07:31 ACCEPT [Google News KL] "Gold prices fall 2% as stronger dollar, Fed hike bets weigh - Investin" | kw:gold,rice
+2026-06-23 07:31 ACCEPT [Google News KL] "Copper: Prices supported by tightening stocks – ING - FXStreet" | kw:copper,rice,tightening
+2026-06-23 07:31 ACCEPT [Google News KL] "Copper prices and premiums both fell, while restocking increased and m" | kw:copper,rice
+2026-06-23 07:31 ACCEPT [Google News KL] "Chart of the Day: Gold under pressure again from the Fed and inflation" | kw:gold,inflation
+2026-06-23 07:31 ACCEPT [Google News KL] "Gold prices fall on COMEX - AzerNews" | kw:gold,rice
+2026-06-23 07:31 ACCEPT [Google News CB] "European shares set to open lower as Fed rate hike bets, tech weakness" | kw:fed rate,rate hike
+2026-06-23 07:31 ACCEPT [Google News CB] "3 Fed Rate Hikes Now on Bank of America’s 2026 Radar - Yahoo Finance" | kw:fed rate,rate hike
+2026-06-23 07:31 SKIP_MORNING already_sent date=2026-06-23
