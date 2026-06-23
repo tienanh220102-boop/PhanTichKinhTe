@@ -4577,3 +4577,17 @@
 2026-06-23 12:01 ACCEPT [Google News CB] "Hassan requests probe into whether fed regulators did enough to limit " | kw:rate hike
 2026-06-23 12:01 ACCEPT [Google News CB] "TSX Futures fall as hot inflation, Fed bets batter sentiment - Investi" | kw:lng,inflation
 2026-06-23 12:01 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 12:31 ACCEPT [The Guardian Biz] "RIP Alan Greenspan: you were charming, powerful, and wrong | Robert Re" | kw:federal reserve
+2026-06-23 12:31 ACCEPT [OilPrice.com] "IOC's Tanker Tender Comes Up Empty as Hormuz Risk Lingers" | kw:oil,crude,gas
+2026-06-23 12:31 ACCEPT [Google News HH] "Gold Price Today on June 23, 2026 - USA Today" | kw:gold,rice
+2026-06-23 12:31 ACCEPT [Google News HH] "Gold price today drops big. Will gold rate crash continue this week? -" | kw:gold,rice
+2026-06-23 12:31 ACCEPT [Google News HH] "Crude oil unwind hits a hurdle - FOREX.com" | kw:oil,crude
+2026-06-23 12:31 ACCEPT [Google News KL] "Gold slips over 2% as dollar holds firm on Fed rate-hike expectations " | kw:gold,fed rate
+2026-06-23 12:31 ACCEPT [Google News KL] "Silver Price Today: Silver Falls 4.09% on June 23, 2026 - USA Today" | kw:silver,rice
+2026-06-23 12:31 ACCEPT [Google News KL] "Deutsche Bank slashes gold forecasts by 22% as Wall Street wary of pea" | kw:gold
+2026-06-23 12:31 ACCEPT [Google News KL] "Copper Prices Supported by Tightening Inventories, ING Reports - Crypt" | kw:copper,rice,tightening
+2026-06-23 12:31 ACCEPT [Google News KL] "Middle East Nickel Tetracarbonyl CVD Precursor - Market Analysis, Fore" | kw:nickel
+2026-06-23 12:31 ACCEPT [Google News NS] "Wheat prices in Ukraine continue to decline - АПК-Інформ" | kw:wheat,rice
+2026-06-23 12:31 ACCEPT [Google News CB] "European Shares Set to Open Lower as Fed Rate Hike Bets, Tech Weakness" | kw:fed rate,rate hike
+2026-06-23 12:31 ACCEPT [Google News CB] "European Central Bank gets parliamentary backing for digital euro - In" | kw:central bank
+2026-06-23 12:31 SKIP_MORNING already_sent date=2026-06-23
