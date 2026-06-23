@@ -4560,3 +4560,9 @@
 2026-06-23 11:31 ACCEPT [Google News CB] "Eurozone Bond Yields Ease as ECB Signals Calm and Middle East Risks Re" | kw:ecb
 2026-06-23 11:31 ACCEPT [Google News CB] "Gold Under Pressure as Dollar Strength and Fed Expectations Curb Deman" | kw:gold
 2026-06-23 11:31 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 11:36 ACCEPT [Google News KL] "Gold Weekly Review: LBMA Price Falls 0.8% as Fed Tightening and Dollar" | kw:gold,rice,tightening
+2026-06-23 11:36 ACCEPT [Google News NS] "Why Soybean Oil Is Holding Strong While Crude Oil Slides - The Globe a" | kw:oil,crude,soybean
+2026-06-23 11:36 ACCEPT [Google News NS] "Wheat prices in Ukraine continue to decline, but stock market quotes h" | kw:wheat,rice
+2026-06-23 11:36 ACCEPT [Google News CB] "Nasdaq futures drop over 2% on concerns over AI buildout costs, Fed ra" | kw:fed rate
+2026-06-23 11:36 ACCEPT [Google News CB] "Asia shares, oil slip as markets reprice Fed expectations - Yahoo Fina" | kw:oil,rice
+2026-06-23 11:36 SKIP_MORNING already_sent date=2026-06-23
