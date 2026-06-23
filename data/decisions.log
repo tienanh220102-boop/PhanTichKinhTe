@@ -4505,3 +4505,12 @@
 2026-06-23 09:31 ACCEPT [Google News CB] "ECB's Kazimir: next steps will depend on data but direction is clear -" | kw:ecb
 2026-06-23 09:31 ACCEPT [Google News CB] "Nasdaq futures drop over 2% as AI buildout costs, Fed rate outlook wei" | kw:fed rate
 2026-06-23 09:31 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 10:01 ACCEPT [MarketWatch] "The AI market has become a ‘rubber band’ — the question now is how far" | kw:gold
+2026-06-23 10:01 ACCEPT [CNBC Commodities] "U.S. fights with Brazil for China's giant soybean market" | kw:soybean
+2026-06-23 10:01 ACCEPT [Google News HH] "$Crude Oil Futures (AUG6) (CLmain.US)$ - Moomoo" | kw:oil,crude
+2026-06-23 10:01 ACCEPT [Google News KL] "Silver price today: falls on June 23 - FXStreet" | kw:silver,rice
+2026-06-23 10:01 ACCEPT [Google News KL] "Gold and Silver Price Forecast: US Dollar Rally Threatens Fresh 2026 L" | kw:gold,silver,rice
+2026-06-23 10:01 ACCEPT [Google News KL] "Gold may remain under pressure amid strong dollar, higher US rates: WG" | kw:gold
+2026-06-23 10:01 ACCEPT [Google News NS] "U.S. fights with Brazil for China's giant soybean market - CNBC" | kw:soybean
+2026-06-23 10:01 ACCEPT [Google News CB] "Euro zone inflation could stay high for some time even with Middle Eas" | kw:lng,inflation,ecb
+2026-06-23 10:01 SKIP_MORNING already_sent date=2026-06-23
