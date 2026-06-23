@@ -4453,3 +4453,10 @@
 2026-06-23 07:31 ACCEPT [Google News CB] "European shares set to open lower as Fed rate hike bets, tech weakness" | kw:fed rate,rate hike
 2026-06-23 07:31 ACCEPT [Google News CB] "3 Fed Rate Hikes Now on Bank of America’s 2026 Radar - Yahoo Finance" | kw:fed rate,rate hike
 2026-06-23 07:31 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 08:01 ACCEPT [Google News HH] "Crude oil unwind hits a hurdle - FOREX.com" | kw:oil,crude
+2026-06-23 08:01 ACCEPT [Google News KL] "Silver Price Forecasts: XAG/USD nears seven-month lows at $61.00 as US" | kw:silver,rice
+2026-06-23 08:01 ACCEPT [Google News KL] "XAU/USD: Gold Prices Seek Direction as Traders Weigh Interest Rate Pro" | kw:gold,rice,interest rate
+2026-06-23 08:01 ACCEPT [Google News NS] "How to stop tar spot from taking over cornfields - Farm Progress" | kw:corn
+2026-06-23 08:01 ACCEPT [Google News CB] "Asia shares, oil slip as markets reprice Fed expectations - Reuters" | kw:oil,rice
+2026-06-23 08:01 ACCEPT [Google News CB] "European shares set to open lower as Fed rate hike bets, tech weakness" | kw:fed rate,rate hike
+2026-06-23 08:01 SKIP_MORNING already_sent date=2026-06-23
