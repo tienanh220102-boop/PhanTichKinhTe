@@ -4549,3 +4549,14 @@
 2026-06-23 11:01 ACCEPT [Google News CB] "Inflation is surging, Trump wants rate cuts -- and Kevin Warsh is caug" | kw:inflation,rate cut
 2026-06-23 11:01 ACCEPT [Google News CB] "AI boom's US employment, wage impact muted so far, ECB study finds - D" | kw:ecb
 2026-06-23 11:01 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 11:31 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD hovers above $4,100 amid growing bearish " | kw:gold,rice
+2026-06-23 11:31 ACCEPT [Google News HH] "Gold price in Saudi Arabia: Rates on June 23 - FXStreet" | kw:gold,rice
+2026-06-23 11:31 ACCEPT [Google News HH] "Crude Oil Futures Rise Amid West Asia Tensions - Rediff MoneyWiz" | kw:oil,crude
+2026-06-23 11:31 ACCEPT [Google News KL] "Gold and Silver Face a New Test as the Fed Turns Hawkish - CoinWeek" | kw:gold,silver
+2026-06-23 11:31 ACCEPT [Google News KL] "TSX futures down 1% as oil, gold prices fall - marketscreener.com" | kw:oil,gold,rice
+2026-06-23 11:31 ACCEPT [Google News CB] "ECB secures key parliamentary backing for digital euro - Reuters" | kw:ecb
+2026-06-23 11:31 ACCEPT [Google News CB] "Rupee slips as Fed rate expectations boost dollar, dent global stocks " | kw:fed rate
+2026-06-23 11:31 ACCEPT [Google News CB] "Stocks hit by Fed rate reality check; oil slips - Reuters" | kw:oil,fed rate
+2026-06-23 11:31 ACCEPT [Google News CB] "Eurozone Bond Yields Ease as ECB Signals Calm and Middle East Risks Re" | kw:ecb
+2026-06-23 11:31 ACCEPT [Google News CB] "Gold Under Pressure as Dollar Strength and Fed Expectations Curb Deman" | kw:gold
+2026-06-23 11:31 SKIP_MORNING already_sent date=2026-06-23
