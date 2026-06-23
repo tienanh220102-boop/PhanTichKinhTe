@@ -4514,3 +4514,15 @@
 2026-06-23 10:01 ACCEPT [Google News NS] "U.S. fights with Brazil for China's giant soybean market - CNBC" | kw:soybean
 2026-06-23 10:01 ACCEPT [Google News CB] "Euro zone inflation could stay high for some time even with Middle Eas" | kw:lng,inflation,ecb
 2026-06-23 10:01 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 10:31 ACCEPT [OilPrice.com] "Iran Moves to Tap Key Asian Markets as U.S. Waives Oil Sanctions" | kw:oil,crude,sanction
+2026-06-23 10:31 ACCEPT [Google News HH] "Oil Slides on Signs of Progress After U.S. Sanction Waiver on Tehran -" | kw:oil,sanction
+2026-06-23 10:31 ACCEPT [Google News HH] "Gold price forecast cut by 22 percent; bullion risks drop to $3,800 on" | kw:gold,rice
+2026-06-23 10:31 ACCEPT [Google News HH] "CFTC Opens Comment on 24/7 Energy Futures and Perpetual Oil Contracts " | kw:oil
+2026-06-23 10:31 ACCEPT [Google News KL] "Gold and Silver Price Forecast: US Dollar Rally Threatens Fresh 2026 L" | kw:gold,silver,rice
+2026-06-23 10:31 ACCEPT [Google News KL] "Today Gold Rate In Pakistan | 5 May 2026 Gold Price | Aaj Sooney Ki Qe" | kw:gold,rice
+2026-06-23 10:31 ACCEPT [Google News CB] "Fed hike could push yen to 165 per dollar, ex-BOJ policymaker says - R" | kw:boj
+2026-06-23 10:31 ACCEPT [Google News CB] "ECB’s Kazimir: next steps will depend on data but direction is clear -" | kw:ecb
+2026-06-23 10:31 ACCEPT [Google News CB] "Gold falls as dollar holds firm on Fed rate-hike expectations - CNBC" | kw:gold,fed rate
+2026-06-23 10:31 ACCEPT [Google News CB] "ECB’s Lane Sees Danger Inflation Will Top 2% for Some Time - Bloomberg" | kw:inflation,ecb
+2026-06-23 10:31 ACCEPT [Google News CB] "Why not to take swap lines too far. Drivers of Germany's slowdown. The" | kw:shortage
+2026-06-23 10:31 SKIP_MORNING already_sent date=2026-06-23
