@@ -4460,3 +4460,15 @@
 2026-06-23 08:01 ACCEPT [Google News CB] "Asia shares, oil slip as markets reprice Fed expectations - Reuters" | kw:oil,rice
 2026-06-23 08:01 ACCEPT [Google News CB] "European shares set to open lower as Fed rate hike bets, tech weakness" | kw:fed rate,rate hike
 2026-06-23 08:01 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 08:24 ACCEPT [Al Jazeera] "US gov’t investigates New York coffee chain over ban on pro-Israel law" | kw:gold,coffee
+2026-06-23 08:24 ACCEPT [CNBC Economy] "U.S. issues sweeping Iran oil sanctions waivers, unlocking billions in" | kw:oil,sanction
+2026-06-23 08:24 ACCEPT [Google News HH] "Another institution lowers its gold price target: What is changing in " | kw:gold,rice
+2026-06-23 08:24 ACCEPT [Google News HH] "Dow Jones Top Energy Headlines at 4 AM ET: WTI Crude Oil Price Showing" | kw:oil,crude,wti
+2026-06-23 08:24 ACCEPT [Google News KL] "Deutsche Bank Cuts Gold Forecasts up to 22% as Bulls Temper View - Blo" | kw:gold
+2026-06-23 08:24 ACCEPT [Google News KL] "AbraSilver confirms world-class economics for Argentina silver project" | kw:silver
+2026-06-23 08:24 ACCEPT [Google News NS] "Why Soybean Oil Is Holding Strong While Crude Oil Slides - The Globe a" | kw:oil,crude,soybean
+2026-06-23 08:24 ACCEPT [Google News CB] "Dollar firms on hawkish Fed bets, oil rebound; yen near 40-year low - " | kw:oil
+2026-06-23 08:24 ACCEPT [Google News CB] "Oil Prices Are Falling, but the Fed's Decision to Hold Interest Rates " | kw:oil,rice,interest rate
+2026-06-23 08:24 ACCEPT [Google News CB] "Fed’s Goolsbee Says Too-High Inflation Is ‘Going the Wrong Way’ - Bloo" | kw:inflation
+2026-06-23 08:24 ACCEPT [Google News CB] "AI Hyperscalers Take a Hit, and the Fed Adds Fuel to the Fire - ChartM" | kw:fuel
+2026-06-23 08:24 SKIP_MORNING already_sent date=2026-06-23
