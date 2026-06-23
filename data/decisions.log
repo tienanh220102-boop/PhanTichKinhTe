@@ -4485,3 +4485,23 @@
 2026-06-23 09:01 ACCEPT [Google News CB] "ECB’s Lane Sees Danger Inflation Will Top 2% for Quite Some Time - Blo" | kw:inflation,ecb
 2026-06-23 09:01 ACCEPT [Google News CB] "Major Gulf bourses ease on oil, Fed rate-hike bets - Reuters" | kw:oil,fed rate
 2026-06-23 09:01 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 09:31 ACCEPT [BBC Business] "Do you know your 'sweat score'? The rise of hydration tech" | kw:flood
+2026-06-23 09:31 ACCEPT [BBC Business] "Australia's coal and gas exports violate our human rights, group says " | kw:gas,fuel
+2026-06-23 09:31 ACCEPT [BBC Business] "Alan Greenspan, architect of the modern American economy, dies aged 10" | kw:federal reserve
+2026-06-23 09:31 ACCEPT [BBC Business] "Fuel sales halted in occupied Crimea as Ukraine targets oil facilities" | kw:oil,fuel,shortage
+2026-06-23 09:31 ACCEPT [BBC Business] "Brexit cost 6% of UK economy, Bank of England company data suggests" | kw:bank of england
+2026-06-23 09:31 ACCEPT [BBC Business] "Five ways the Iran peace deal could affect you and your money" | kw:gas,fuel,rice
+2026-06-23 09:31 ACCEPT [BBC Business] "Interest rates held as Bank warns of impact of high energy prices" | kw:rice,interest rate
+2026-06-23 09:31 ACCEPT [BBC Business] "Is Germany looking again at coal-powered electricity?" | kw:gas,fuel
+2026-06-23 09:31 ACCEPT [BBC Business] "'We had to get out of the way': The backlash over delivery robots" | kw:easing
+2026-06-23 09:31 ACCEPT [BBC Business] "India's 'blue gold' starts a new drinks industry" | kw:gold
+2026-06-23 09:31 ACCEPT [BBC Business] "Caribbean hot sauce producers warn of shortages and higher prices" | kw:rice,shortage
+2026-06-23 09:31 ACCEPT [OilPrice.com] "India Boosts U.S. LPG Imports to Record High" | kw:petroleum,gas,rice
+2026-06-23 09:31 ACCEPT [Google News HH] "Gold Price on 22 June 2026 - Gold Price" | kw:gold,rice
+2026-06-23 09:31 ACCEPT [Google News HH] "Forex trading: Gold, Crude Oil, US indices and USD Crude falling on Ir" | kw:oil,crude,gold
+2026-06-23 09:31 ACCEPT [Google News KL] "Gold slips over 2% as dollar holds firm on Fed rate-hike expectations " | kw:gold,fed rate
+2026-06-23 09:31 ACCEPT [Google News KL] "[SMM Nickel Sulphate Daily Comment] June 23: Downstream price acceptan" | kw:nickel,rice
+2026-06-23 09:31 ACCEPT [Google News NS] "More rain needed on southern Minnesota corn, soybean farm - Farm Progr" | kw:corn,soybean
+2026-06-23 09:31 ACCEPT [Google News CB] "ECB's Kazimir: next steps will depend on data but direction is clear -" | kw:ecb
+2026-06-23 09:31 ACCEPT [Google News CB] "Nasdaq futures drop over 2% as AI buildout costs, Fed rate outlook wei" | kw:fed rate
+2026-06-23 09:31 SKIP_MORNING already_sent date=2026-06-23
