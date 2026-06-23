@@ -4285,3 +4285,7 @@
 2026-06-23 02:01 ACCEPT [Google News CB] "Asia shares slip as markets reprice Fed expectations, oil gains - Reut" | kw:oil,rice
 2026-06-23 02:01 ACCEPT [Google News CB] "Dollar firms on hawkish Fed bets, oil rebound; yen near 40-year low - " | kw:oil
 2026-06-23 02:01 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 02:31 ACCEPT [Google News HH] "Plains Expands Permian Crude Bet, Ups Spend Nearly 30% as Egress Tight" | kw:crude
+2026-06-23 02:31 ACCEPT [Google News KL] "GoPro Self Camera Of LA To Banff Trip Music Video Silver Price Today (" | kw:silver,rice
+2026-06-23 02:31 ACCEPT [Google News NS] "Crop progress: Southern state corn is now silking - Farm Progress" | kw:corn
+2026-06-23 02:31 SKIP_MORNING already_sent date=2026-06-23
