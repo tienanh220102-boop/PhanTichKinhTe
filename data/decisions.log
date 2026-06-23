@@ -4322,3 +4322,70 @@
 2026-06-23 04:01 ACCEPT [Google News KL] "Gold Price Forecast: XAU/USD defends $4,100, but for how long? - FXStr" | kw:wti,gold,rice
 2026-06-23 04:01 ACCEPT [Google News CB] "Rupee to ride oil fall tailwind; Fed rate worries may cap gains - Reut" | kw:oil,fed rate
 2026-06-23 04:01 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 04:31 ACCEPT [BBC Business] "Australia's coal and gas exports violate our human rights, group says " | kw:gas,fuel
+2026-06-23 04:31 ACCEPT [BBC Business] "Do you know your 'sweat score'? The rise of hydration tech" | kw:flood
+2026-06-23 04:31 ACCEPT [BBC Business] "Fuel sales halted in occupied Crimea as Ukraine targets oil facilities" | kw:oil,fuel,shortage
+2026-06-23 04:31 ACCEPT [The Guardian Biz] "Job scams are growing and getting tougher to spot: ‘That’s the reality" | kw:flood
+2026-06-23 04:31 ACCEPT [The Guardian Biz] "‘It’s Russian roulette’: alarm as Europe backs critical minerals mines" | kw:drought
+2026-06-23 04:31 ACCEPT [CNBC Commodities] "Markets are set for a much more hawkish Warsh Fed than expected" | kw:inflation
+2026-06-23 04:31 ACCEPT [CNBC Commodities] "Chairman Warsh drastically alters Fed rate statement. Here's what's ch" | kw:fed rate
+2026-06-23 04:31 ACCEPT [CNBC Economy] "Bank of England holds interest rates at 3.75% amid Iran war peace pros" | kw:monetary policy,interest rate,bank of england
+2026-06-23 04:31 ACCEPT [CNBC Economy] "UK inflation holds steady at 2.8% in May" | kw:inflation,monetary policy,bank of england
+2026-06-23 04:31 ACCEPT [CNBC Economy] "Inflation hits 3.2% in the euro zone as Iran war pushes energy costs h" | kw:inflation
+2026-06-23 04:31 ACCEPT [CNBC Economy] "Core inflation hit an annual rate of 3.3% in April, as expected, Fed’s" | kw:rice,inflation
+2026-06-23 04:31 ACCEPT [CNBC Economy] "Energy inflation has been more persistent than expected, Fed's Goolsbe" | kw:oil,rice,inflation
+2026-06-23 04:31 ACCEPT [CNBC Economy] "ECB 'will do what is necessary' to tame inflation, Bank of France gove" | kw:inflation,central bank,rate hike
+2026-06-23 04:31 ACCEPT [OilPrice.com] "The Oil Crisis Is Far From Over" | kw:oil
+2026-06-23 04:31 ACCEPT [OilPrice.com] "The Race to Revive Venezuela’s Vast Oil Wealth Is Underway" | kw:oil
+2026-06-23 04:31 ACCEPT [EIA Energy] "U.S. jet fuel production rises after prices doubled in March" | kw:oil,crude,fuel
+2026-06-23 04:31 ACCEPT [EIA Energy] "U.S. natural gas storage capacity increased slightly in 2025" | kw:gas
+2026-06-23 04:31 ACCEPT [EIA Energy] "California natural gas prices reach historic lows in early 2026" | kw:gas,rice
+2026-06-23 04:31 ACCEPT [EIA Energy] "Natural gas for power generation flat this summer, record high expecte" | kw:gas
+2026-06-23 04:31 ACCEPT [EIA Energy] "Most planned natural gas pipeline capacity additions in 2026 and 2027 " | kw:gas
+2026-06-23 04:31 ACCEPT [NASDAQ Commod] "Top 5 Canadian Mining Stocks This Week: Lighthouse Gold Shines with 78" | kw:gold,copper,iron
+2026-06-23 04:31 ACCEPT [NASDAQ Commod] "David Nicholas: Gold's Next 30 Days — 10 Percent Price Pop?" | kw:gold,silver,rice
+2026-06-23 04:31 ACCEPT [Google News HH] "India taps ONGC to accelerate SPR expansion amid global oil supply dis" | kw:oil
+2026-06-23 04:31 ACCEPT [Google News HH] "Gold price not likely to reach $5,200/oz target without stronger ETF i" | kw:gold,rice
+2026-06-23 04:31 ACCEPT [Google News HH] "Residents cleaning up after crude oil, salt brine spill - WFMJ" | kw:oil,crude
+2026-06-23 04:31 ACCEPT [Google News HH] "As Crude Oil Prices Fall, Make This 1 Bullish Trade Instead - Barchart" | kw:oil,crude,rice
+2026-06-23 04:31 ACCEPT [Google News HH] "Half-Open, Half-Closed Strait of Hormuz Baffles Oil Markets - Crude Oi" | kw:oil,crude,rice
+2026-06-23 04:31 ACCEPT [Google News HH] "Commodities intraday targets/key levels - TradingView" | kw:commodities
+2026-06-23 04:31 ACCEPT [Google News HH] "Turkey Cuts Russian Crude Oil, Gas Intake - Energy Intelligence" | kw:oil,crude,gas
+2026-06-23 04:31 ACCEPT [Google News HH] "Sugar Prices Slide Amid Crude Oil Weakness - Yahoo Finance" | kw:oil,crude,rice
+2026-06-23 04:31 ACCEPT [Google News HH] "Oil News: Crude Oil Futures Tumble as Iran Deal Progress Hits Oil Outl" | kw:oil,crude
+2026-06-23 04:31 ACCEPT [Google News HH] "Saudi crude oil exports fall to record low in April: database - Xinhua" | kw:oil,crude
+2026-06-23 04:31 ACCEPT [Google News HH] "Crude oil fell, metals showed mixed performance, SHFE tin, stainless s" | kw:oil,crude,silver
+2026-06-23 04:31 ACCEPT [Google News HH] "CBOT corn falls on weaker crude oil, strong dollar - TradingView" | kw:oil,crude,corn
+2026-06-23 04:31 ACCEPT [Google News KL] "Silver Price Today | Silver Spot Price Charts - SD Bullion" | kw:silver,rice
+2026-06-23 04:31 ACCEPT [Google News KL] "Deutsche Bank Cuts Gold Forecasts up to 22% as Bulls Temper View - Blo" | kw:gold
+2026-06-23 04:31 ACCEPT [Google News KL] "Gold prices slip as stronger dollar, Fed hike bets weigh - Investing.c" | kw:gold,rice
+2026-06-23 04:31 ACCEPT [Google News KL] "Wall Street was once uber bullish on gold. Now it's changing its tune " | kw:gold
+2026-06-23 04:31 ACCEPT [Google News KL] "Gold and silver face medium-term pressure from hawkish Fed, Iran-U.S. " | kw:gold,silver
+2026-06-23 04:31 ACCEPT [Google News KL] "Gold price not likely to reach $5,200/oz target without stronger ETF i" | kw:gold,rice
+2026-06-23 04:31 ACCEPT [Google News KL] "Gold Price Today on June 22, 2026 - USA Today" | kw:gold,rice
+2026-06-23 04:31 ACCEPT [Google News KL] "PCE Drops Thursday. Here’s What It Means for Gold. - GoldSilver" | kw:gold,silver
+2026-06-23 04:31 ACCEPT [Google News KL] "GoPro Self Camera Of LA To Banff Trip Music Video Silver Price Today (" | kw:silver,rice
+2026-06-23 04:31 ACCEPT [Google News KL] "Gold price in Malaysia: Rates on June 23 - FXStreet" | kw:gold,rice
+2026-06-23 04:31 ACCEPT [Google News KL] "Manchester City 2-4 Aston Villa (AET) (2012-13) Silver Price Today (7b" | kw:silver,rice
+2026-06-23 04:31 ACCEPT [Google News KL] "Silver price rises on US-Iran diplomatic progress, upside capped by ha" | kw:silver,rice
+2026-06-23 04:31 ACCEPT [Google News NS] "Could Iran replace China as US soybean market? Farmers aren’t buying T" | kw:soybean
+2026-06-23 04:31 ACCEPT [Google News NS] "U.S. Could Lose 30 Million Corn Acres Without More Biofuels Markets, S" | kw:fuel,corn
+2026-06-23 04:31 ACCEPT [Google News NS] "Global corn market under pressure amid rising supply and weaker prices" | kw:corn,rice
+2026-06-23 04:31 ACCEPT [Google News NS] "China boosts U.S. soybean purchases, but Brazil remains the dominant s" | kw:soybean
+2026-06-23 04:31 ACCEPT [Google News NS] "Wheat’s $30 premium over barley vanishes in months - The Weekly Times" | kw:wheat,gdp
+2026-06-23 04:31 ACCEPT [RT Business] "Defying Western pressure: Russia and China deepen economic partnership" | kw:sanction
+2026-06-23 04:31 ACCEPT [RT Business] "Japanese auto giant takes historic hit amid EV pullback" | kw:tariff
+2026-06-23 04:31 ACCEPT [RT Business] "Why the ECB may be forced to raise rates despite weak EU economy" | kw:central bank,interest rate,ecb
+2026-06-23 04:31 ACCEPT [RT Business] "Netflix sued for spying on children" | kw:harvest
+2026-06-23 04:31 ACCEPT [RT Business] "Putin envoy names ‘first victim’ of historic energy crisis" | kw:oil,rice
+2026-06-23 04:31 ACCEPT [RT Business] "OPEC+ makes first output decision after UAE exit – Reuters" | kw:opec
+2026-06-23 04:31 ACCEPT [Fed Monetary] "Federal Reserve Board and Federal Open Market Committee release econom" | kw:federal reserve,fomc
+2026-06-23 04:31 ACCEPT [Fed Monetary] "Federal Reserve issues FOMC statement" | kw:federal reserve,fomc
+2026-06-23 04:31 ACCEPT [Fed Monetary] "Federal Open Market Committee reaffirms its "Statement on Longer-Run G" | kw:monetary policy
+2026-06-23 04:31 ACCEPT [Google News CB] "Bank of America expects three Fed hikes this year, says inflation is g" | kw:inflation
+2026-06-23 04:31 ACCEPT [Google News CB] "Hearing of the Committee on Economic and Monetary Affairs of the Europ" | kw:central bank
+2026-06-23 04:31 ACCEPT [Google News CB] "Lagarde Sees No Need for More Forceful ECB Response to War - Bloomberg" | kw:ecb
+2026-06-23 04:31 ACCEPT [Google News CB] "Asia shares slip as markets reprice Fed expectations, oil gains - Reut" | kw:oil,rice
+2026-06-23 04:31 ACCEPT [Google News CB] "Warsh Begins a New Era at the Federal Reserve | National News | U.S. N" | kw:federal reserve
+2026-06-23 04:31 ACCEPT [Google News CB] "Student loan interest rate cut aims to ease repayment costs as delinqu" | kw:interest rate,rate cut
+2026-06-23 04:31 SKIP_MORNING already_sent date=2026-06-23
