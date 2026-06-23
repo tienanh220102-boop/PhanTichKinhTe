@@ -4289,3 +4289,10 @@
 2026-06-23 02:31 ACCEPT [Google News KL] "GoPro Self Camera Of LA To Banff Trip Music Video Silver Price Today (" | kw:silver,rice
 2026-06-23 02:31 ACCEPT [Google News NS] "Crop progress: Southern state corn is now silking - Farm Progress" | kw:corn
 2026-06-23 02:31 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 03:01 ACCEPT [Google News HH] "Problematic Rates Hold Back Relief Rally as Crude Oil Falls on Iran Pr" | kw:oil,crude
+2026-06-23 03:01 ACCEPT [Google News HH] "Commodity Corner: Crude oil claws back losses while gold pauses as tra" | kw:oil,crude,gold
+2026-06-23 03:01 ACCEPT [Google News HH] "Gold ETFs continue to experience outflows, and institutions have lower" | kw:gold,rice
+2026-06-23 03:01 ACCEPT [Google News KL] "AbraSilver's Definitive Feasibility Study Positions Diablillos Among t" | kw:gold,silver
+2026-06-23 03:01 ACCEPT [Google News KL] "BITCOIN GOLD Price, BTG Price, Live Charts, and Marketcap: bitcoin pri" | kw:wti,gold,rice
+2026-06-23 03:01 ACCEPT [Google News CB] "Tracker: The Federal Reserve’s Balance Sheet Assets - The American Act" | kw:federal reserve
+2026-06-23 03:01 SKIP_MORNING already_sent date=2026-06-23
