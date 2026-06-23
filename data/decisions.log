@@ -4657,3 +4657,17 @@
 2026-06-23 14:01 ACCEPT [Google News CB] "Trump pushes back on Fed rate hike talk after jobs surge - MSN" | kw:fed rate,rate hike
 2026-06-23 14:01 SKIP_MORNING already_sent date=2026-06-23
 2026-06-23 14:01 SKIP_EVENING already_sent date=2026-06-23
+2026-06-23 14:29 ACCEPT [MarketWatch] "Economy gets boost from World Cup and peace talks with Iran, but it’s " | kw:oil,rice
+2026-06-23 14:29 ACCEPT [MarketWatch] "SpaceX succumbs to gravity as its stock price briefly dips below its p" | kw:rice
+2026-06-23 14:29 ACCEPT [Mining.com] "Op-Ed: Brazil’s rare earth dilemma — strategic autonomy or another raw" | kw:supply chain
+2026-06-23 14:29 ACCEPT [Mining.com] "US sanctions shut Canada’s only cobalt refinery" | kw:nickel,sanction
+2026-06-23 14:30 ACCEPT [Google News KL] "US Fed's 'Inflation Problem' Sees Gold Sink, Silver Tests 6-Month Low " | kw:gold,silver,inflation
+2026-06-23 14:30 ACCEPT [Google News KL] "Gold falls 2% as rate-hike bets boost dollar to one-year high - Reuter" | kw:gold
+2026-06-23 14:30 ACCEPT [Google News KL] "World Alkaline Copper Quaternary Treatment - Market Analysis, Forecast" | kw:copper
+2026-06-23 14:30 ACCEPT [Google News NS] "Maryland Soybean Board Accepting Proposals to Strengthen Soybean Deman" | kw:lng,soybean
+2026-06-23 14:30 ACCEPT [Google News NS] "U.S. fights with Brazil for China's giant soybean market - Forex Facto" | kw:soybean
+2026-06-23 14:30 ACCEPT [Google News CB] "Brazil Central Bank Says Easing Hinges on New Data as Risks Rise - Blo" | kw:central bank,easing
+2026-06-23 14:30 ACCEPT [Google News CB] "Brazil Central Bank Signals Mix of Pauses and Cuts to Steer Inflation " | kw:inflation,central bank
+2026-06-23 14:30 ACCEPT [Google News CB] "Goldman hints at Fed’s next interest-rate bet under Warsh - thestreet." | kw:gold
+2026-06-23 14:30 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 14:30 SKIP_EVENING already_sent date=2026-06-23
