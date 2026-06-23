@@ -4472,3 +4472,7 @@
 2026-06-23 08:24 ACCEPT [Google News CB] "Fed’s Goolsbee Says Too-High Inflation Is ‘Going the Wrong Way’ - Bloo" | kw:inflation
 2026-06-23 08:24 ACCEPT [Google News CB] "AI Hyperscalers Take a Hit, and the Fed Adds Fuel to the Fire - ChartM" | kw:fuel
 2026-06-23 08:24 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 08:31 ACCEPT [OilPrice.com] "Europe’s EV Boom Accelerates as Chinese Brands Gain Ground" | kw:gas,rice,easing
+2026-06-23 08:31 ACCEPT [Google News HH] "Crude Oil Slips on US-Iran Deal Boosting Supply Outlook - TradingPedia" | kw:oil,crude
+2026-06-23 08:31 ACCEPT [Google News KL] "Major Wall Street banks reverse course collectively! Following Goldman" | kw:gold,rice
+2026-06-23 08:31 SKIP_MORNING already_sent date=2026-06-23
