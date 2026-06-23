@@ -4313,3 +4313,12 @@
 2026-06-23 03:31 ACCEPT [Google News KL] "Production decreases, revenue increases at gold mine in South Dakota’s" | kw:gold
 2026-06-23 03:31 ACCEPT [Google News NS] "Could Iran replace China as US soybean market? Farmers aren’t buying T" | kw:soybean
 2026-06-23 03:31 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 04:01 ACCEPT [Google News HH] "Outlook for Crude Oil Prices: How Much Further Can WTI Crude Fall? - M" | kw:oil,crude,wti
+2026-06-23 04:01 ACCEPT [Google News HH] "US Authorizes Iranian Oil Sales Amid Talks on Final Peace Deal - Energ" | kw:oil
+2026-06-23 04:01 ACCEPT [Google News KL] "Gold, silver prices today: Check retail rates of 24K, 22K, 18K gold, 9" | kw:gold,silver,rice
+2026-06-23 04:01 ACCEPT [Google News KL] "Dragged Down by Stronger US Dollar, New York Gold Prices Surge and The" | kw:gold,rice
+2026-06-23 04:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD falls to near $63.00 as bearish bias pe" | kw:silver,rice
+2026-06-23 04:01 ACCEPT [Google News KL] "Gold rises as US-Iran peace optimism pulls oil prices lower - KITCO" | kw:oil,gold,rice
+2026-06-23 04:01 ACCEPT [Google News KL] "Gold Price Forecast: XAU/USD defends $4,100, but for how long? - FXStr" | kw:wti,gold,rice
+2026-06-23 04:01 ACCEPT [Google News CB] "Rupee to ride oil fall tailwind; Fed rate worries may cap gains - Reut" | kw:oil,fed rate
+2026-06-23 04:01 SKIP_MORNING already_sent date=2026-06-23
