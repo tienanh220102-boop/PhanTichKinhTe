@@ -4633,3 +4633,27 @@
 2026-06-23 13:31 ACCEPT [Google News CB] "Stocks hit by Fed rate reality check; oil slips - Yahoo Finance" | kw:oil,fed rate
 2026-06-23 13:31 SKIP_MORNING already_sent date=2026-06-23
 2026-06-23 13:32 SENT_EVENING articles=20 date=2026-06-23 force=False
+2026-06-23 14:01 ACCEPT [MarketWatch] "SpaceX succumbs to gravity as its stock price briefly dips below its I" | kw:rice
+2026-06-23 14:01 ACCEPT [Google News HH] "Dropping crude oil market hits oilseed sector - AgUpdate" | kw:oil,crude
+2026-06-23 14:01 ACCEPT [Google News HH] "Crude oil unwind hits a hurdle - FOREX.com" | kw:oil,crude
+2026-06-23 14:01 ACCEPT [Google News HH] "Gold price today drops big. Will gold rate crash continue this week? -" | kw:gold,rice
+2026-06-23 14:01 ACCEPT [Google News KL] "Silver prices today, Tuesday, June 23: Silver prices slipping, struggl" | kw:gold,silver,rice
+2026-06-23 14:01 ACCEPT [Google News KL] "Gold and silver tumble as rate-hike fears hit precious metals - CNBC" | kw:gold,silver
+2026-06-23 14:01 ACCEPT [Google News KL] "Gold falls as hawkish Fed bets lift dollar to one-year peak - Reuters" | kw:gold
+2026-06-23 14:01 ACCEPT [Google News KL] "Silver Price Forecast: Can bulls defend $60 as the US Dollar climbs to" | kw:silver,rice
+2026-06-23 14:01 ACCEPT [Google News KL] "Current price of gold as of June 23, 2026 - Fortune" | kw:gold,rice
+2026-06-23 14:01 ACCEPT [Google News KL] "Gold prices today, Tuesday, June 23: Prices move lower along with anal" | kw:gold,rice
+2026-06-23 14:01 ACCEPT [Google News KL] "TSX futures down 1% as oil, gold prices fall - Reuters" | kw:oil,gold,rice
+2026-06-23 14:01 ACCEPT [Google News KL] "Granada Gold boosts gold resource to 890,600 oz, with 865,500 oz infer" | kw:gold
+2026-06-23 14:01 ACCEPT [Google News KL] "Contango Silver & Gold Provides Project Updates - Investing News Netwo" | kw:gold,silver
+2026-06-23 14:01 ACCEPT [Google News KL] "Deutsche Bank slashes gold forecasts by 22% as Wall Street wary of pea" | kw:gold,commodity
+2026-06-23 14:01 ACCEPT [Google News KL] "Cambridge C1 Advanced (CAE): How To Write An Essay Silver Price Today " | kw:silver,rice
+2026-06-23 14:01 ACCEPT [Google News KL] "Gold prices decline by Rs10,400 per tola - The Express Tribune" | kw:gold,rice
+2026-06-23 14:01 ACCEPT [ECB Press] "Boris Vujčić: Outlook for the euro area economy and monetary policy" | kw:monetary policy
+2026-06-23 14:01 ACCEPT [Google News CB] "ECB’s Escrivá Says Oil Starting to Ripple Through Other Sectors - Bloo" | kw:oil,ecb
+2026-06-23 14:01 ACCEPT [Google News CB] "ECB’s Lane Sees Danger Inflation Will Top 2% for Some Time - Bloomberg" | kw:inflation,ecb
+2026-06-23 14:01 ACCEPT [Google News CB] "Brazil Central Bank Says Easing Hinges on New Data as Risks Rise - Blo" | kw:central bank,easing
+2026-06-23 14:01 ACCEPT [Google News CB] "Stocks drop as Fed rate bets hit tech royalty; dollar gains - Reuters" | kw:fed rate
+2026-06-23 14:01 ACCEPT [Google News CB] "Trump pushes back on Fed rate hike talk after jobs surge - MSN" | kw:fed rate,rate hike
+2026-06-23 14:01 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 14:01 SKIP_EVENING already_sent date=2026-06-23
