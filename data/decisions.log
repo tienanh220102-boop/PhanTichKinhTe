@@ -4403,3 +4403,13 @@
 2026-06-23 04:37 ACCEPT [Google News HH] "Gold price in India: Rates on June 23 - FXStreet" | kw:gold,rice
 2026-06-23 04:37 ACCEPT [Google News KL] "Gold rebounds above $4,200 as markets weigh Fed hike risk, Iran progre" | kw:gold
 2026-06-23 04:37 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 05:01 ACCEPT [Google News HH] "RANKED: The Top Crude Oil Producers in 2025 – Visual Capitalist – See " | kw:oil,crude
+2026-06-23 05:01 ACCEPT [Google News HH] "Gold Futures Streaming Chart - Investing.com" | kw:gold
+2026-06-23 05:01 ACCEPT [Google News HH] "Crude oil unwind hits a hurdle - FOREX.com" | kw:oil,crude
+2026-06-23 05:01 ACCEPT [Google News HH] "U.S. TOPS THE LIST – Half the World’s Oil Comes From Just Five Countri" | kw:oil
+2026-06-23 05:01 ACCEPT [Google News HH] "OPEC Lowers Second-Quarter Global Oil Demand Forecast on Iran War - En" | kw:oil,opec,lng
+2026-06-23 05:01 ACCEPT [Google News HH] "Brent Crude Oil Price Jumps After Attack on Iran’s South Pars Field - " | kw:oil,crude,brent
+2026-06-23 05:01 ACCEPT [Google News HH] "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next " | kw:oil,crude,rice
+2026-06-23 05:01 ACCEPT [Google News HH] "Deutsche Bank cuts gold-price forecast by 22% amid US policy concerns " | kw:gold,rice
+2026-06-23 05:01 ACCEPT [Google News NS] "Why Soybean Oil Is Holding Strong While Crude Oil Slides - The Globe a" | kw:oil,crude,soybean
+2026-06-23 05:01 SKIP_MORNING already_sent date=2026-06-23
