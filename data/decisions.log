@@ -4427,3 +4427,9 @@
 2026-06-23 06:01 ACCEPT [Google News KL] "Gold price prediction today: Why is gold not rising too much despite l" | kw:oil,gold,rice
 2026-06-23 06:01 ACCEPT [Google News CB] "BofA Expects Fed to Hike Interest Rates 75 Basis Points in 2026 - Asha" | kw:interest rate,basis point
 2026-06-23 06:01 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 06:31 ACCEPT [BBC Business] "Ticket reseller StubHub fined for not showing buyers full prices" | kw:rice
+2026-06-23 06:31 ACCEPT [Google News HH] "Crude Oil Forecast 23/06: Jumps and Falls Right Away (Video) - DailyFo" | kw:oil,crude
+2026-06-23 06:31 ACCEPT [Google News KL] "Commodities: Deutsche Bank cuts its Q3 gold price forecast by 22% to U" | kw:gold,rice,commodities
+2026-06-23 06:31 ACCEPT [Google News KL] "Gold price back above $4,200: scenario planning notes for mine project" | kw:gold,rice
+2026-06-23 06:31 ACCEPT [Google News CB] "Gold falls as dollar holds firm on Fed rate-hike expectations - CNBC" | kw:gold,fed rate
+2026-06-23 06:31 SKIP_MORNING already_sent date=2026-06-23
