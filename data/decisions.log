@@ -4413,3 +4413,9 @@
 2026-06-23 05:01 ACCEPT [Google News HH] "Deutsche Bank cuts gold-price forecast by 22% amid US policy concerns " | kw:gold,rice
 2026-06-23 05:01 ACCEPT [Google News NS] "Why Soybean Oil Is Holding Strong While Crude Oil Slides - The Globe a" | kw:oil,crude,soybean
 2026-06-23 05:01 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 05:31 ACCEPT [OilPrice.com] "Oil Prices Continue to Slide as Peace Talks Progress" | kw:oil,crude,brent
+2026-06-23 05:31 ACCEPT [Google News HH] "Gold price in Philippines: Rates on June 23 - FXStreet" | kw:gold,rice
+2026-06-23 05:31 ACCEPT [Google News KL] "What's The Right Price For Rui Hachimura? Silver Price Today (4dJpJIdD" | kw:silver,rice
+2026-06-23 05:31 ACCEPT [Google News CB] "Gold falls as dollar holds firm on Fed rate-hike expectations - Reuter" | kw:gold,fed rate
+2026-06-23 05:31 ACCEPT [Google News CB] "BofA Expects Fed to Hike Interest Rates 75 Basis Points in 2026 - Asha" | kw:interest rate,basis point
+2026-06-23 05:31 SKIP_MORNING already_sent date=2026-06-23
