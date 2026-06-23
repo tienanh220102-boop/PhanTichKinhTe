@@ -4257,3 +4257,14 @@
 2026-06-22 23:31 ACCEPT [Google News KL] "Gold Price Outlook H2 2026: Morgan Stanley Says ETF Demand Key Missing" | kw:gold,rice
 2026-06-22 23:31 ACCEPT [Google News KL] "Why Silver Prices Move Daily and What Market Watchers Track - CEOWORLD" | kw:silver,rice
 2026-06-22 23:31 ACCEPT [Google News CB] "Chicago Fed’s Goolsbee says too-high inflation is ‘going the wrong way" | kw:inflation
+2026-06-23 00:00 ACCEPT [OilPrice.com] "How Many Barrels of Oil Do AI Data Centers Consume on a Daily Basis?" | kw:oil
+2026-06-23 00:00 ACCEPT [Google News HH] "Crude oil adds to losses on potential progress in U.S.-Iran talks (USO" | kw:oil,crude
+2026-06-23 00:00 ACCEPT [Google News HH] "Sugar Prices Slide Amid Crude Oil Weakness - Yahoo Finance" | kw:oil,crude,rice
+2026-06-23 00:00 ACCEPT [Google News KL] "Bank of America Revises Gold Price Target Downward Amid Fed Rate Hike " | kw:gold,rice,fed rate
+2026-06-23 00:00 ACCEPT [Google News KL] "Gold holds steady near $4,200 as US–Iran peace progress offset by Fed " | kw:gold
+2026-06-23 00:00 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD Tests Key Fibonacci Level Near $75.75 a" | kw:silver,rice
+2026-06-23 00:00 ACCEPT [Google News CB] "Fed’s Goolsbee Says Too-High Inflation Is ‘Going the Wrong Way’ - Bloo" | kw:inflation
+2026-06-23 00:01 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-06-23 00:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
+2026-06-23 00:01 DIRECTION_FIX Soybean: "giảm 1.67%" → "tăng 1.67%"
+2026-06-23 00:01 SENT_MORNING articles=20 date=2026-06-23 force=False
