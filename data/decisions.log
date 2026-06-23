@@ -4738,3 +4738,13 @@
 2026-06-23 17:31 ACCEPT [Google News KL] "Gold falls as rate-hike bets boost dollar to one-year high - Reuters" | kw:gold
 2026-06-23 17:31 ACCEPT [Google News NS] "‘Severe blow’: Industry hit hard by unchanged wheat tariff - Food For " | kw:wheat,tariff
 2026-06-23 17:31 ACCEPT [Google News CB] "May PCE Expected to Show Rising Inflation - Morningstar" | kw:inflation
+2026-06-23 18:01 ACCEPT [OilPrice.com] "El Niño, War, and Fertilizer Costs Create a Dangerous Inflation Cockta" | kw:inflation
+2026-06-23 18:01 ACCEPT [Google News HH] "Crude Oil Prices Fall as Oil Supplies Flow Through the Strait of Hormu" | kw:oil,crude,rice
+2026-06-23 18:01 ACCEPT [Google News HH] "Non-Opec-Plus: Liquids Production Climbs, Exports Soar - Energy Intell" | kw:opec
+2026-06-23 18:01 ACCEPT [Google News HH] "June Crude Oil Price Trend Analysis: Multiple Negative Factors Weigh o" | kw:oil,crude,rice
+2026-06-23 18:01 ACCEPT [Google News HH] "BMO cuts gold price forecast as Fed’s hawkish shift weighs on precious" | kw:gold,rice
+2026-06-23 18:01 ACCEPT [Google News HH] "June Crude Oil Price Trend Analysis: Multiple Bearish Factors Weigh, Y" | kw:oil,crude,rice
+2026-06-23 18:01 ACCEPT [Google News KL] "Since 2001, Gold Prices Have Presented A Seasonality In The 2nd Half T" | kw:gold,rice
+2026-06-23 18:01 ACCEPT [Google News KL] "Gold Prices Plunge With Central Bank Selling - Seeking Alpha" | kw:gold,rice,central bank
+2026-06-23 18:01 ACCEPT [Google News CB] "Dollar Jumps to Highest Since November on Fed Rate Hike Bets - Bloombe" | kw:fed rate,rate hike
+2026-06-23 18:01 ACCEPT [Google News CB] "Brazil central bank signals mixing pauses with cuts to steer inflation" | kw:inflation,central bank
