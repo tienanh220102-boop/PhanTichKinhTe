@@ -4389,3 +4389,17 @@
 2026-06-23 04:31 ACCEPT [Google News CB] "Warsh Begins a New Era at the Federal Reserve | National News | U.S. N" | kw:federal reserve
 2026-06-23 04:31 ACCEPT [Google News CB] "Student loan interest rate cut aims to ease repayment costs as delinqu" | kw:interest rate,rate cut
 2026-06-23 04:31 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 04:37 ACCEPT [Mining.com] "British Columbia gold miner sues province over “stripped” mining right" | kw:gold,iron
+2026-06-23 04:37 ACCEPT [Mining.com] "China lithium price slides on speculation over CATL mine restart" | kw:rice
+2026-06-23 04:37 ACCEPT [Mining.com] "Kazatomprom CEO Meirzhan Yussupov on uranium markets, China and nuclea" | kw:fuel
+2026-06-23 04:37 ACCEPT [Mining.com] "Goldman cuts gold price forecast down to $4,900" | kw:gold,rice
+2026-06-23 04:37 ACCEPT [Mining.com] "Panama audit boosts Cobre Panama restart hopes" | kw:iron
+2026-06-23 04:37 ACCEPT [Mining.com] "Centrus Energy, Oklo sign multi-year nuclear fuel deal" | kw:fuel
+2026-06-23 04:37 ACCEPT [Mining.com] "BHP to sell $1.5B Chile power lines in copper-first pivot" | kw:copper
+2026-06-23 04:37 ACCEPT [Mining.com] "Kristi Noem joins British Columbia copper junior in advisory role" | kw:copper
+2026-06-23 04:37 ACCEPT [Google News HH] "Chicago soybeans, corn edge higher as crude oil firms - TradingView" | kw:oil,crude,corn
+2026-06-23 04:37 ACCEPT [Google News HH] "Commodities: Oil Sells Off As U.S. Eases Sanctions On Iran - Seeking A" | kw:oil,commodities,sanction
+2026-06-23 04:37 ACCEPT [Google News HH] "A1#17🔀🅿Timmendorfer Strand Stellplatz Am Vogelpark Crude Oil Price (w9" | kw:oil,crude,rice
+2026-06-23 04:37 ACCEPT [Google News HH] "Gold price in India: Rates on June 23 - FXStreet" | kw:gold,rice
+2026-06-23 04:37 ACCEPT [Google News KL] "Gold rebounds above $4,200 as markets weigh Fed hike risk, Iran progre" | kw:gold
+2026-06-23 04:37 SKIP_MORNING already_sent date=2026-06-23
