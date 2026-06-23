@@ -4419,3 +4419,11 @@
 2026-06-23 05:31 ACCEPT [Google News CB] "Gold falls as dollar holds firm on Fed rate-hike expectations - Reuter" | kw:gold,fed rate
 2026-06-23 05:31 ACCEPT [Google News CB] "BofA Expects Fed to Hike Interest Rates 75 Basis Points in 2026 - Asha" | kw:interest rate,basis point
 2026-06-23 05:31 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 06:01 ACCEPT [Google News HH] "Crude oil unwind hits a hurdle - FOREX.com" | kw:oil,crude,lng
+2026-06-23 06:01 ACCEPT [Google News HH] "Crude oil unwind hits a hurdle - FOREX.com" | kw:oil,crude
+2026-06-23 06:01 ACCEPT [Google News HH] "Oil Rate Today, June 23, 2026: Crude Oil Extends Decline to $77.6 Afte" | kw:oil,crude
+2026-06-23 06:01 ACCEPT [Google News HH] "Goldman Sachs Cuts Gold Target to $4,900; JPMorgan, Wells Fargo Hold a" | kw:gold
+2026-06-23 06:01 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Gold Retests $4,130 as Silver F" | kw:gold,silver,rice
+2026-06-23 06:01 ACCEPT [Google News KL] "Gold price prediction today: Why is gold not rising too much despite l" | kw:oil,gold,rice
+2026-06-23 06:01 ACCEPT [Google News CB] "BofA Expects Fed to Hike Interest Rates 75 Basis Points in 2026 - Asha" | kw:interest rate,basis point
+2026-06-23 06:01 SKIP_MORNING already_sent date=2026-06-23
