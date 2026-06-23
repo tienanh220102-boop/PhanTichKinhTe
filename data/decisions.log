@@ -4272,3 +4272,8 @@
 2026-06-23 00:31 ACCEPT [Google News KL] "Copper price analysis: Levels to watch in the data-dependent week - Tr" | kw:copper,rice
 2026-06-23 00:31 ACCEPT [Google News KL] "Gold Trading Alert: U.S. and Iran Move Toward Reconciliation; Gold Pri" | kw:gold,rice
 2026-06-23 00:31 SKIP_MORNING already_sent date=2026-06-23
+2026-06-23 01:01 ACCEPT [Google News HH] "Half-Open, Half-Closed Strait of Hormuz Baffles Oil Markets - Crude Oi" | kw:oil,crude,rice
+2026-06-23 01:01 ACCEPT [Google News HH] "Crude oil fell, metals showed mixed performance, SHFE tin, stainless s" | kw:oil,crude,silver
+2026-06-23 01:01 ACCEPT [Google News HH] "Crude Oil Falls, Metals Show Mixed Performance with SHFE Tin, Alumina," | kw:oil,crude,silver
+2026-06-23 01:01 ACCEPT [Google News NS] "Grain LNG opens Expression of Interest for regasification capacity ava" | kw:gas,lng
+2026-06-23 01:01 SKIP_MORNING already_sent date=2026-06-23
