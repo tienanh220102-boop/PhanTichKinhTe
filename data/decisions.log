@@ -5319,3 +5319,16 @@
 2026-06-24 15:16 ACCEPT [Google News KL] "Gold and Silver Price Crash - Coinpedia" | kw:gold,silver,rice
 2026-06-24 15:16 SKIP_MORNING already_sent date=2026-06-24
 2026-06-24 15:16 SKIP_EVENING already_sent date=2026-06-24
+2026-06-24 15:31 ACCEPT [OilPrice.com] "Moscow Refinery May Stay Offline Until 2027" | kw:oil,fuel,shortage
+2026-06-24 15:31 ACCEPT [Google News HH] "EPA Extends Comment Period on Proposal to Maintain Current Rules on Cr" | kw:oil,crude,gas
+2026-06-24 15:31 ACCEPT [Google News HH] "U.S. Crude Oil Inventories Fall, Product Stocks Rise - WSJ" | kw:oil,crude
+2026-06-24 15:31 ACCEPT [Google News HH] "Crude oil fractionation by means of mesoporous polyacrylonitrile membr" | kw:oil,crude
+2026-06-24 15:31 ACCEPT [Google News HH] "Gold Price Analysis: Will Sellers Succeed In Breaking Crucial Support?" | kw:gold,rice
+2026-06-24 15:31 ACCEPT [Google News HH] "Trump Calls for Probe Into U.S. Gasoline Prices After Oil Falls -- Com" | kw:oil,gas,rice
+2026-06-24 15:31 ACCEPT [Google News HH] "OPEC Fund launches landmark climate finance compact, unveils US$1.5 bi" | kw:opec
+2026-06-24 15:31 ACCEPT [Google News KL] "Silver’s 50% Crash Reaches 'Oversold' Levels: Should You Buy The Dip? " | kw:silver
+2026-06-24 15:31 ACCEPT [Google News KL] "Gold Miner Margins Compress as 45% of Central Banks Plan Reserve Incre" | kw:gold,central bank
+2026-06-24 15:31 ACCEPT [Google News NS] "Understanding South Asia Soybean Oil (Fastmarkets) Futures - CME Group" | kw:oil,soybean
+2026-06-24 15:31 ACCEPT [Google News CB] "Central Bank minutes fail to settle rate-cut debate - Valor Internatio" | kw:central bank
+2026-06-24 15:31 SKIP_MORNING already_sent date=2026-06-24
+2026-06-24 15:31 SKIP_EVENING already_sent date=2026-06-24
