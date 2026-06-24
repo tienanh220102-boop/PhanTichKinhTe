@@ -5332,3 +5332,11 @@
 2026-06-24 15:31 ACCEPT [Google News CB] "Central Bank minutes fail to settle rate-cut debate - Valor Internatio" | kw:central bank
 2026-06-24 15:31 SKIP_MORNING already_sent date=2026-06-24
 2026-06-24 15:31 SKIP_EVENING already_sent date=2026-06-24
+2026-06-24 16:01 ACCEPT [Google News HH] "OFAC Temporarily Lifts Certain Oil Sanctions Against Iran - thompsonhi" | kw:oil,sanction
+2026-06-24 16:01 ACCEPT [Google News HH] "OPEC Fund launches landmark climate finance compact, unveils US$1.5 bi" | kw:opec
+2026-06-24 16:01 ACCEPT [Google News HH] "Trump calls for probe into gasoline price ‘gouging’ as crude oil price" | kw:oil,crude,gas
+2026-06-24 16:01 ACCEPT [Google News HH] "EIA: US crude oil inventories down by 6.1M barrels - Breakingthenews.n" | kw:oil,crude
+2026-06-24 16:01 ACCEPT [Google News KL] "Gold selloff opens door to investors, miners have upside: BofA - Minin" | kw:gold
+2026-06-24 16:01 ACCEPT [Google News KL] "Gold price falls below $4,000, precious metal mining stocks plunge - B" | kw:gold,rice
+2026-06-24 16:01 SKIP_MORNING already_sent date=2026-06-24
+2026-06-24 16:01 SKIP_EVENING already_sent date=2026-06-24
