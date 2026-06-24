@@ -4982,3 +4982,8 @@
 2026-06-24 03:01 ACCEPT [Google News CB] "Malaysia to ramp up support for ringgit as foreign outflows, Fed rate " | kw:fed rate
 2026-06-24 03:01 ACCEPT [Google News CB] "China’s central bank sets weaker yuan midpoint against US dollar for t" | kw:central bank
 2026-06-24 03:01 SKIP_MORNING already_sent date=2026-06-24
+2026-06-24 03:31 ACCEPT [Google News HH] "Crude oil, gasoline prices stable as US-Iran talks continue - WBFF" | kw:oil,crude,gas
+2026-06-24 03:31 ACCEPT [Google News HH] "BOJ Board Warns Crude Oil Price Hikes Could Spread to Consumer Items, " | kw:oil,crude,rice
+2026-06-24 03:31 ACCEPT [Google News CB] "China’s central bank sets weaker yuan midpoint against US dollar for t" | kw:central bank
+2026-06-24 03:31 ACCEPT [Google News CB] "China mulls revising central bank law to improve macro-prudential fram" | kw:central bank
+2026-06-24 03:31 SKIP_MORNING already_sent date=2026-06-24
