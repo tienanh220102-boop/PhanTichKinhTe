@@ -5309,3 +5309,13 @@
 2026-06-24 15:02 ACCEPT [Google News CB] "Federal student loans have a new interest rate discount — here's who q" | kw:interest rate
 2026-06-24 15:02 SKIP_MORNING already_sent date=2026-06-24
 2026-06-24 15:02 SKIP_EVENING already_sent date=2026-06-24
+2026-06-24 15:16 ACCEPT [Google News HH] "US crude oil inventories drop to lowest level since 1984 - Investing.c" | kw:oil,crude
+2026-06-24 15:16 ACCEPT [Google News HH] "RECAPPING: US EIA CRUDE OIL INVENTORIES DOWN 6.1 MLN BARRELS IN LATEST" | kw:oil,crude
+2026-06-24 15:16 ACCEPT [Google News HH] "US crude oil stockpile fell to the lowest since 1984 last week, EIA sa" | kw:oil,crude
+2026-06-24 15:16 ACCEPT [Google News HH] "US Crude Oil Inventories Fall More than Expected - TradingView" | kw:oil,crude
+2026-06-24 15:16 ACCEPT [Google News HH] "US crude oil inventories drop to lowest level since 1984 By Investing." | kw:oil,crude
+2026-06-24 15:16 ACCEPT [Google News HH] "WTI Crude Falls Below $70 Mark; Trump Says Strait of Hormuz Won't Char" | kw:crude,wti
+2026-06-24 15:16 ACCEPT [Google News HH] "KAIST Team Develops Membrane to Separate Crude Oil Without Heating - 조" | kw:oil,crude
+2026-06-24 15:16 ACCEPT [Google News KL] "Gold and Silver Price Crash - Coinpedia" | kw:gold,silver,rice
+2026-06-24 15:16 SKIP_MORNING already_sent date=2026-06-24
+2026-06-24 15:16 SKIP_EVENING already_sent date=2026-06-24
