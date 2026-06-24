@@ -5045,3 +5045,6 @@
 2026-06-24 06:29 ACCEPT [Google News KL] "Trudeau Government To Aid Industries Hit Hard By Trade Dispute Silver " | kw:silver,rice
 2026-06-24 06:29 ACCEPT [Google News NS] "Wheat futures fell while crop progress ratings held steady. - CME Grou" | kw:wheat
 2026-06-24 06:29 SKIP_MORNING already_sent date=2026-06-24
+2026-06-24 06:31 ACCEPT [Google News HH] "Crude Oil Prices Fall To Four-Month Low As Hormuz Flows Improve, Iran-" | kw:oil,crude,rice
+2026-06-24 06:31 ACCEPT [Google News KL] "[SMM Nickel Sulphate Daily Review] June 24: Nickel prices plunged, nic" | kw:nickel,rice
+2026-06-24 06:31 SKIP_MORNING already_sent date=2026-06-24
