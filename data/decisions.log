@@ -4948,3 +4948,18 @@
 2026-06-24 01:31 ACCEPT [Google News CB] "Bitcoin Price Faces Downward Pressure Amid Dollar Strength and Hawkish" | kw:rice
 2026-06-24 01:31 ACCEPT [Google News CB] "Bank of England Regulates Stablecoins After Dropping Individual Caps -" | kw:bank of england
 2026-06-24 01:31 SKIP_MORNING already_sent date=2026-06-24
+2026-06-24 02:01 ACCEPT [Mining.com] "New AbraSilver study quadruples Argentina project value" | kw:silver
+2026-06-24 02:01 ACCEPT [Mining.com] "China lithium price slides on speculation over CATL mine restart" | kw:rice
+2026-06-24 02:01 ACCEPT [Mining.com] "Gold price back above $4,200 on US-Iran deal progress" | kw:gold,rice
+2026-06-24 02:01 ACCEPT [Mining.com] "Timeline: The Oyu Tolgoi saga" | kw:gold,copper
+2026-06-24 02:01 ACCEPT [Mining.com] "Kazatomprom CEO Meirzhan Yussupov on uranium markets, China and nuclea" | kw:fuel
+2026-06-24 02:01 ACCEPT [Mining.com] "Goldman cuts gold price forecast down to $4,900" | kw:gold,rice
+2026-06-24 02:01 ACCEPT [Mining.com] "St Barbara’s 100,000 oz Nova Scotia gold hub gets green light" | kw:gold
+2026-06-24 02:01 ACCEPT [Mining.com] "Endeavour Silver hints at mine-life extension in Mexico" | kw:silver
+2026-06-24 02:01 ACCEPT [Google News NS] "Heatwave in Europe could intensify pressure on the global wheat market" | kw:lng,wheat
+2026-06-24 02:01 ACCEPT [Google News CB] "Gold slips as Fed rate-hike expectations buoy dollar - Reuters" | kw:wti,gold,fed rate
+2026-06-24 02:01 ACCEPT [Google News CB] "How to take advantage of temporary student loan interest rate reductio" | kw:interest rate
+2026-06-24 02:01 ACCEPT [Google News CB] "Some in BOJ Called for Further Rate Hikes, June Summary Shows - U.S. N" | kw:rate hike,boj
+2026-06-24 02:01 ACCEPT [Google News CB] "USD/JPY, Nikkei 225 Outlook: Nikkei Washout Shifts Focus to BOJ Interv" | kw:boj
+2026-06-24 02:01 ACCEPT [Google News CB] "ECB official says Middle East crisis weighs on eurozone growth, fuels " | kw:fuel,inflation,ecb
+2026-06-24 02:01 SKIP_MORNING already_sent date=2026-06-24
