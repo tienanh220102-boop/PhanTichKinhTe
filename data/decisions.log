@@ -5207,3 +5207,12 @@
 2026-06-24 12:18 ACCEPT [Google News CB] "India's central bank issues revised rules on banks computation of FX r" | kw:central bank
 2026-06-24 12:18 ACCEPT [Google News CB] "Watermelon Car Show draws dozens of unique vehicles to town - ECB Publ" | kw:ecb
 2026-06-24 12:18 SKIP_MORNING already_sent date=2026-06-24
+2026-06-24 12:31 ACCEPT [The Guardian Biz] "Pound hits lowest level of the year against the dollar, as falling oil" | kw:oil,rice,inflation
+2026-06-24 12:31 ACCEPT [OilPrice.com] "VLCC Earnings Near $470,000 a Day as Hormuz Hopes Drive Tanker Frenzy" | kw:oil,crude
+2026-06-24 12:31 ACCEPT [Google News HH] "Gold Price Today: Gold Falls 3.30% on June 24, 2026 - USA Today" | kw:gold,rice
+2026-06-24 12:31 ACCEPT [Google News HH] "Crude oil, gasoline prices stable as US-Iran talks continue - National" | kw:oil,crude,gas
+2026-06-24 12:31 ACCEPT [Google News HH] "Bearish sentiment in stocks and commodities persists - AKM.RU" | kw:commodities
+2026-06-24 12:31 ACCEPT [Google News KL] "Gold prices today, Wednesday, June 24: Prices sliding below $4,100 thi" | kw:gold,rice
+2026-06-24 12:31 ACCEPT [Google News KL] "Silver breaks below $60 amid stronger US Dollar, Fed rate-hike bets - " | kw:silver,fed rate
+2026-06-24 12:31 ACCEPT [Google News NS] "China increases imports of rapeseed oil from Russia amid reduced purch" | kw:oil
+2026-06-24 12:31 SKIP_MORNING already_sent date=2026-06-24
