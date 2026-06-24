@@ -5293,3 +5293,19 @@
 2026-06-24 14:31 ACCEPT [Google News CB] "The Fed Just Raised Its Inflation Forecast. For One Retired Couple, a " | kw:inflation
 2026-06-24 14:31 SKIP_MORNING already_sent date=2026-06-24
 2026-06-24 14:31 SKIP_EVENING already_sent date=2026-06-24
+2026-06-24 15:01 ACCEPT [OilPrice.com] "U.S. Crude Inventories Post Another Major Draw" | kw:oil,crude
+2026-06-24 15:01 ACCEPT [Google News HH] "Crude Oil Inventories Decline Less Than Expected, Impacting Prices - I" | kw:oil,crude,rice
+2026-06-24 15:01 ACCEPT [Google News HH] "Crude Oil Analysis: $73 Support Holds as Borrowed Supply Faces Rollove" | kw:oil,crude
+2026-06-24 15:01 ACCEPT [Google News HH] "US crude oil inventories drop 6.1 million barrels last week By Investi" | kw:oil,crude
+2026-06-24 15:01 ACCEPT [Google News HH] "Crude Oil Falls Below $75, Its Lowest Level Since Iran War Started - T" | kw:oil,crude
+2026-06-24 15:01 ACCEPT [Google News HH] "Trump calls for probe into gasoline price ‘gouging’ as crude oil price" | kw:oil,crude,gas
+2026-06-24 15:01 ACCEPT [Google News KL] "Gold, silver and bitcoin tumble as debasement trade unwinds - CoinDesk" | kw:gold,silver
+2026-06-24 15:01 ACCEPT [Google News KL] "Gold tumbles to $4,000 over worries of Fed rate hikes - Yahoo Finance" | kw:gold,fed rate,rate hike
+2026-06-24 15:01 ACCEPT [Google News KL] "Gold weakens to a seven-month low as Fed rate-hike bets boost the US D" | kw:gold,fed rate
+2026-06-24 15:01 ACCEPT [Google News KL] "Gold falls below the $4,000 mark as a stronger U.S. dollar and expecta" | kw:gold,interest rate,rate hike
+2026-06-24 15:01 ACCEPT [Google News KL] "Gold ETFs could see fresh outflows on rising bets on Fed monetary tigh" | kw:gold,tightening
+2026-06-24 15:01 ACCEPT [Google News KL] "Gold and Silver Price Crash - Coinpedia" | kw:gold,silver,rice
+2026-06-24 15:01 ACCEPT [Google News NS] "Barley prices in Ukraine are under pressure from increasing supply of " | kw:rice,easing
+2026-06-24 15:02 ACCEPT [Google News CB] "Federal student loans have a new interest rate discount — here's who q" | kw:interest rate
+2026-06-24 15:02 SKIP_MORNING already_sent date=2026-06-24
+2026-06-24 15:02 SKIP_EVENING already_sent date=2026-06-24
