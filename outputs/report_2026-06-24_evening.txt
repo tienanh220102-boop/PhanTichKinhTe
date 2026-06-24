@@ -1,0 +1,89 @@
+[BẢNG SỐ LIỆU]
+               Giá   Phiên  5 phiên
+WTI          71.12   -2.9%    -6.5%
+Brent        74.72   -3.1%    -5.4%
+Khí TN       3.222   +2.4%    -0.5%
+Vàng      4,017.90   -2.7%    -7.2%
+Bạc          58.84   -5.1%   -15.8%
+Đồng         6.047   -1.5%    -6.8%
+Ngô         411.25   +0.4%    -0.6%
+Lúa mì      600.75   +2.4%    +0.8%
+Đậu t.    1,142.00   +2.2%    +1.1%
+DXY         101.78   +0.4%    +2.2%
+
+[LIÊN THỊ TRƯỜNG]
+  Brent−WTI: $3.60 (1 tháng trước: $6.94) — spread rộng = cung WTI dồi dào tương đối
+  Vàng/Bạc: 68.3 (1 tháng trước: 59.6) — tỷ lệ cao = bạc rẻ tương đối so với vàng
+  Đồng/Vàng (×1000): 1.51 (1 tháng trước: 1.40) — tăng = risk-on/kỳ vọng tăng trưởng
+
+[VỊ THẾ QUỸ ĐẦU CƠ — CFTC COT tuần 2026-06-16]
+  Lúa mì (SRW): NET SHORT -50,812 (Δ tuần: +7,041)
+  Ngô: NET LONG +77,844 (Δ tuần: -25,715)
+  Đậu tương: NET LONG +117,608 (Δ tuần: -32,855)
+  Dầu WTI: NET LONG +21,931 (Δ tuần: +18,552)
+  Bạc: NET LONG +24,544 (Δ tuần: +2,330)
+  Đồng: NET LONG +75,350 (Δ tuần: +900)
+  Vàng XAU: NET LONG +180,220 (Δ tuần: +6,383)
+→ NET LONG = quỹ đặt cược giá tăng; Δ dương = dòng tiền đầu cơ đang vào
+
+BÁO CÁO PHÂN TÍCH PHIÊN MỸ (20:00 VN)
+
+🔀 ĐỐI CHIẾU NGUỒN TIN
+Không phát hiện xung đột đáng kể giữa các nguồn trong phiên này.
+
+🌍 VĨ MÔ & TIN TỨC NỔI BẬT
+Đồng USD mạnh lên và kỳ vọng lãi suất cao hơn từ Cục Dự trữ Liên bang Mỹ (Fed) đang gây áp lực lên giá vàng và bạc. Lợi suất trái phiếu Kho bạc Mỹ kỳ hạn 10 năm tăng nhẹ, cho thấy nhà đầu tư đang tìm kiếm tài sản an toàn hơn.
+
+🛢️ NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên
+Xu hướng: WTI GIẢM | Brent GIẢM | Khí TN TĂNG
+Tín hiệu: WTI GIỮ (quá bán) | Brent GIỮ (quá bán) | Khí TN MUA
+Ngưỡng giá: WTI 70.84–80.03 | Brent 74.47–82.98 | Khí TN 3.190–3.335
+Phân tích:
+• Giá dầu WTI và Brent giảm mạnh lần lượt 2.85% và 3.06% trong phiên, kéo dài đà giảm 5 phiên gần nhất. Các quỹ đầu cơ đang giảm vị thế bán khống dầu WTI.
+• Giá khí tự nhiên tăng 2.38% trong phiên, dù 5 phiên gần nhất giảm nhẹ. Giá đang giao dịch trên đường trung bình động 20 ngày, cho thấy xu hướng tăng ngắn hạn.
+Rủi ro:
+• Căng thẳng địa chính trị giảm bớt có thể tiếp tục gây áp lực lên giá dầu.
+• Dự báo thời tiết mùa hè ở Mỹ có thể ảnh hưởng đến nhu cầu tiêu thụ nhiên liệu.
+
+🥇 KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc
+Xu hướng: Vàng GIẢM | Bạc GIẢM
+Tín hiệu: Vàng BÁN | Bạc GIỮ (quá bán)
+Ngưỡng giá: Vàng 4,016.60–4,377.00 | Bạc 58.78–70.95
+Phân tích:
+• Giá vàng giảm 2.71% trong phiên và 7.23% trong 5 phiên qua, cho thấy xu hướng giảm trung hạn rõ rệt. Đồng USD mạnh lên là yếu tố chính tác động.
+• Giá bạc giảm mạnh 5.14% trong phiên, với 5 phiên gần nhất giảm tới 15.83%. Tỷ lệ Vàng/Bạc đang ở mức cao, cho thấy bạc đang tương đối rẻ so với vàng.
+Rủi ro:
+• Kỳ vọng Fed tiếp tục tăng lãi suất có thể tiếp tục hỗ trợ đồng USD và gây áp lực lên kim loại quý.
+• Bất kỳ dấu hiệu nào cho thấy lạm phát tăng trở lại có thể đảo ngược xu hướng này.
+
+🌾 NÔNG SẢN — Ngô, Đậu tương, Lúa mì
+Xu hướng: Ngô GIẢM | Lúa mì SIDEWAY | Đậu tương SIDEWAY
+Tín hiệu: Ngô BÁN | Lúa mì GIỮ | Đậu tương GIỮ
+Ngưỡng giá: Ngô 407.00–422.00 | Lúa mì 596.71–618.25 | Đậu tương 1,138.86–1,146.00
+Phân tích:
+• Giá ngô tăng nhẹ 0.37% trong phiên nhưng vẫn trong xu hướng giảm trung hạn. Các quỹ đầu cơ đã giảm vị thế mua ròng.
+• Lúa mì và đậu tương đều có phiên tăng giá tích cực, lần lượt 2.39% và 2.24%. Giá cả đang giao dịch trên đường trung bình động 20 ngày, cho thấy xu hướng đi ngang hoặc có thể phục hồi nhẹ.
+Rủi ro:
+• Thời tiết tại các vùng trồng trọt chính của Mỹ, đặc biệt là giai đoạn thụ phấn của ngô, sẽ là yếu tố quyết định.
+• Báo cáo WASDE của USDA trong tháng 6 có thể cung cấp thêm thông tin về nguồn cung và nhu cầu.
+
+🔩 KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken
+Xu hướng: Đồng SIDEWAY
+Tín hiệu: Đồng GIỮ
+Ngưỡng giá: Đồng 6.043–6.481
+Phân tích:
+• Giá đồng giảm 1.53% trong phiên, duy trì xu hướng đi ngang trong trung hạn. Các quỹ đầu cơ vẫn giữ vị thế mua ròng lớn.
+• Tỷ lệ Đồng/Vàng tăng cho thấy kỳ vọng tăng trưởng kinh tế đang dần phục hồi.
+Rủi ro:
+• Nhu cầu từ Trung Quốc, quốc gia tiêu thụ đồng lớn nhất thế giới, sẽ tiếp tục là yếu tố quan trọng.
+• Các vấn đề về chuỗi cung ứng hoặc gián đoạn sản xuất có thể gây biến động bất ngờ.
+
+📋 KHUYẾN NGHỊ PHIÊN
+• Bán khống dầu WTI và Brent nếu giá phá vỡ ngưỡng hỗ trợ 70.84 USD/thùng (WTI) và 74.47 USD/thùng (Brent), với mục tiêu cắt lỗ tại 72.50 USD/thùng (WTI) và 76.00 USD/thùng (Brent).
+• Mua vào khí tự nhiên nếu giá duy trì trên 3.200 USD/MMBtu, với mục tiêu cắt lỗ tại 3.150 USD/MMBtu.
+• Theo dõi sát diễn biến giá bạc, có thể cân nhắc mua vào nếu có tín hiệu phục hồi quanh ngưỡng 58.50 USD/oz.
+
+⚠️ THEO DÕI PHIÊN
+• Các phát biểu từ quan chức Fed về định hướng lãi suất.
+• Dữ liệu kinh tế mới nhất của Mỹ và châu Âu.
+• Diễn biến thời tiết tại các vùng nông nghiệp trọng điểm.
