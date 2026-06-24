@@ -5340,3 +5340,20 @@
 2026-06-24 16:01 ACCEPT [Google News KL] "Gold price falls below $4,000, precious metal mining stocks plunge - B" | kw:gold,rice
 2026-06-24 16:01 SKIP_MORNING already_sent date=2026-06-24
 2026-06-24 16:01 SKIP_EVENING already_sent date=2026-06-24
+2026-06-24 16:31 ACCEPT [MarketWatch] "U.S. oil prices fall back to preconflict levels as physical flow throu" | kw:oil,rice
+2026-06-24 16:31 ACCEPT [OilPrice.com] "Rosneft Proposes Oil Firms to Refine 30% of Crude in Russia to Ease Fu" | kw:oil,crude,fuel
+2026-06-24 16:31 ACCEPT [Mining.com] "Gold selloff opens door to investors, miners have upside: BofA" | kw:gold,rice
+2026-06-24 16:31 ACCEPT [Mining.com] "Faraday drilling expands Copper Creek potential" | kw:copper
+2026-06-24 16:31 ACCEPT [Google News HH] "Dow Soars Over 550 Points, Crude Oil Prices Tumble To Pre-Iran War Lev" | kw:oil,crude,rice
+2026-06-24 16:31 ACCEPT [Google News HH] "Gold Price Breaks Below $4000 For The First Time in 2026 - Yahoo Finan" | kw:gold,rice
+2026-06-24 16:31 ACCEPT [Google News HH] "Crude Oil Falls Below $70 - TradingView" | kw:oil,crude
+2026-06-24 16:31 ACCEPT [Google News HH] "US Equity Indexes Rise Amid Slumping Crude Oil, Treasury Yields - mark" | kw:oil,crude,treasury
+2026-06-24 16:31 ACCEPT [Google News HH] "How To Use Google Sheets To Track Gold Price Automatically (IMPORTXML)" | kw:gold,rice
+2026-06-24 16:31 ACCEPT [Google News KL] "Gold and Silver Sink to 7-Month Lows Even as Bond Yields Tumble - Bull" | kw:gold,silver
+2026-06-24 16:31 ACCEPT [Google News KL] "The Price of Gold Sinks Under $4,000 for the First Time Since November" | kw:gold,rice
+2026-06-24 16:31 ACCEPT [Google News KL] "Central Bank Gold Purchases Hit 1,000t Average: WGC Survey - Mexico Bu" | kw:gold,central bank
+2026-06-24 16:31 ACCEPT [Google News KL] "Gold And Silver Have Further To Fall- When I Plan On Buying Again (NYS" | kw:gold,silver
+2026-06-24 16:31 ACCEPT [Google News NS] "Why Lower Corn Prices May Not Last Through Summer - Successful Farming" | kw:corn,rice
+2026-06-24 16:31 ACCEPT [Google News CB] "ECB’s Schnabel Sees Need for Further Hiking to Meet 2% Target - Bloomb" | kw:ecb
+2026-06-24 16:31 SKIP_MORNING already_sent date=2026-06-24
+2026-06-24 16:31 SKIP_EVENING already_sent date=2026-06-24
