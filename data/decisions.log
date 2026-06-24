@@ -5040,3 +5040,8 @@
 2026-06-24 06:01 ACCEPT [Google News CB] "3 Financial Stocks Tied to Fed Rate Sentiment After Alan Greenspan’s D" | kw:fed rate
 2026-06-24 06:01 ACCEPT [Google News CB] "How to take advantage of temporary student loan interest rate reductio" | kw:interest rate
 2026-06-24 06:01 SKIP_MORNING already_sent date=2026-06-24
+2026-06-24 06:29 ACCEPT [Al Jazeera] "Diabetes patients in Gaza face survival battle amid war shortages" | kw:shortage
+2026-06-24 06:29 ACCEPT [Google News HH] "気持ちの良い丸の内【A Pleasant Day In Marunouchi】 Crude Oil Price (TtWET11CL6) -" | kw:oil,crude,rice
+2026-06-24 06:29 ACCEPT [Google News KL] "Trudeau Government To Aid Industries Hit Hard By Trade Dispute Silver " | kw:silver,rice
+2026-06-24 06:29 ACCEPT [Google News NS] "Wheat futures fell while crop progress ratings held steady. - CME Grou" | kw:wheat
+2026-06-24 06:29 SKIP_MORNING already_sent date=2026-06-24
