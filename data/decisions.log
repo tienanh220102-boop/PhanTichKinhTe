@@ -5505,3 +5505,10 @@
 2026-06-24 19:31 ACCEPT [Google News NS] "After the Bell | Winter wheat gives up early-session gains - Pro Farme" | kw:wheat
 2026-06-24 19:31 ACCEPT [Google News NS] "Black Sea Wheat Exports and Dry Bulk Shipping: Freight Market Uncertai" | kw:wheat,freight,shipping
 2026-06-24 19:31 ACCEPT [Google News NS] "Prairie wheat weekly: Wheat prices make modest movements on either sid" | kw:wheat,rice
+2026-06-24 20:01 ACCEPT [MarketWatch] "Oil prices fall back to preconflict levels, but Trump’s comments on Ir" | kw:oil,rice
+2026-06-24 20:01 ACCEPT [OilPrice.com] "China’s Crude Imports Plunge To Lowest Level Since 2018" | kw:oil,crude,rice
+2026-06-24 20:01 ACCEPT [Google News HH] "Brent Crude Oil is down by 5% - TradingView" | kw:oil,crude,brent
+2026-06-24 20:01 ACCEPT [Google News HH] "Lack of refined fuel is forcing Russia to export record crude oil volu" | kw:oil,crude,fuel
+2026-06-24 20:01 ACCEPT [Google News NS] "GO FARM’ FARMER’S MARKET: Patriotic jam trios, fresh sweet corn arrive" | kw:corn
+2026-06-24 20:01 ACCEPT [Google News CB] "Climate change and the energy transition could change monetary policy " | kw:central bank,monetary policy
+2026-06-24 20:01 ACCEPT [Google News CB] "Opinion: Inflation is about more than oil. These two hidden triggers c" | kw:oil,inflation,fed rate
