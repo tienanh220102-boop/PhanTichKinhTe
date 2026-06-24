@@ -4974,3 +4974,11 @@
 2026-06-24 02:31 ACCEPT [Google News CB] "BOJ Summary Affirms Rate Hike Stance as Inflation Risks Mount - Bloomb" | kw:inflation,rate hike,boj
 2026-06-24 02:31 ACCEPT [Google News CB] "MYR/USD: Malaysia Central Bank Pledges Stronger Measures to Boost Infl" | kw:central bank
 2026-06-24 02:31 SKIP_MORNING already_sent date=2026-06-24
+2026-06-24 03:01 ACCEPT [Google News HH] "The Strait of Hormuz crisis has triggered a surge in crude oil reserve" | kw:oil,crude
+2026-06-24 03:01 ACCEPT [Google News HH] "Commodities intraday targets/key levels - TradingView" | kw:commodities
+2026-06-24 03:01 ACCEPT [Google News KL] "Gold set for steepest fall in a decade in June quarter, silver worst i" | kw:gold,silver
+2026-06-24 03:01 ACCEPT [Google News NS] "Closing Market Update: Canola shows strength, U.S. wheat falls | June " | kw:wheat
+2026-06-24 03:01 ACCEPT [Google News CB] "BOJ summary affirms rate hike stance as inflation risks mount - The Ja" | kw:inflation,rate hike,boj
+2026-06-24 03:01 ACCEPT [Google News CB] "Malaysia to ramp up support for ringgit as foreign outflows, Fed rate " | kw:fed rate
+2026-06-24 03:01 ACCEPT [Google News CB] "China’s central bank sets weaker yuan midpoint against US dollar for t" | kw:central bank
+2026-06-24 03:01 SKIP_MORNING already_sent date=2026-06-24
