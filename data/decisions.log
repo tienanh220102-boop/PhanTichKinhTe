@@ -5014,3 +5014,17 @@
 2026-06-24 05:01 ACCEPT [Google News KL] "Gold Price Drop Sparks Debate Over Crypto Outlook As Kiyosaki Awaits B" | kw:gold,rice
 2026-06-24 05:01 ACCEPT [Google News CB] "Most energy roads lead to another increase from the ECB - Financial Ti" | kw:ecb
 2026-06-24 05:01 SKIP_MORNING already_sent date=2026-06-24
+2026-06-24 05:31 ACCEPT [OilPrice.com] "Trump Orders Gas Price Gouging Probe" | kw:oil,gas,fuel
+2026-06-24 05:31 ACCEPT [Google News HH] "Russian oil firms should process 30% of crude oil at home, Kommersant " | kw:oil,crude
+2026-06-24 05:31 ACCEPT [Google News HH] "Gold price in Saudi Arabia: Rates on June 24 - FXStreet" | kw:gold,rice
+2026-06-24 05:31 ACCEPT [Google News HH] "Crude oil, gasoline prices stable as US-Iran talks continue - KUTV" | kw:oil,crude,gas
+2026-06-24 05:31 ACCEPT [Google News HH] "Gold price in Malaysia: Rates on June 24 - FXStreet" | kw:gold,rice
+2026-06-24 05:31 ACCEPT [Google News KL] "Gold price in Philippines: Rates on June 24 - FXStreet" | kw:gold,rice
+2026-06-24 05:31 ACCEPT [Google News KL] "Where is Silver price heading amid fears of at least two Fed interest " | kw:silver,rice,interest rate
+2026-06-24 05:31 ACCEPT [Google News KL] "Gold, silver prices today, June 24: Check retail rates of 24K, 22K gol" | kw:gold,silver,rice
+2026-06-24 05:31 ACCEPT [Google News KL] "Gold prices tumble 1.63 percent to two-week low of $4,064 as stronger " | kw:gold,rice,fed rate
+2026-06-24 05:31 ACCEPT [Google News KL] "Gold fell below $4,100 per ounce for the first time in two weeks - Укр" | kw:gold
+2026-06-24 05:31 ACCEPT [Google News KL] "Gold Price Rebound? Futures Positioning Signals Support Above 4,000 - " | kw:gold,rice
+2026-06-24 05:31 ACCEPT [Google News CB] "Gold slips to two-week low as Fed rate-hike bets buoy dollar - Reuters" | kw:wti,gold,fed rate
+2026-06-24 05:31 ACCEPT [Google News CB] "Malaysia to ramp up support for ringgit as foreign outflows, Fed rate " | kw:fed rate
+2026-06-24 05:31 SKIP_MORNING already_sent date=2026-06-24
