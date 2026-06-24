@@ -4873,3 +4873,57 @@
 2026-06-24 00:31 ACCEPT [Google News CB] "How to take advantage of temporary student loan interest rate reductio" | kw:interest rate
 2026-06-24 00:32 DIRECTION_FIX NatGas: "tăng 1.68%" → "giảm 1.68%"
 2026-06-24 00:32 SENT_MORNING articles=20 date=2026-06-24 force=False
+2026-06-24 01:01 ACCEPT [BBC Business] "Alan Greenspan, architect of the modern American economy, dies aged 10" | kw:federal reserve
+2026-06-24 01:01 ACCEPT [The Guardian Biz] "Alan Greenspan, longtime head of the US federal reserve, dies aged 100" | kw:central bank,monetary policy,federal reserve
+2026-06-24 01:01 ACCEPT [The Guardian Biz] "‘Every time you turn around, there’s a new price increase’: US small-b" | kw:fuel,rice,inflation
+2026-06-24 01:01 ACCEPT [The Guardian Biz] "RIP Alan Greenspan: you were charming, powerful, and wrong | Robert Re" | kw:federal reserve
+2026-06-24 01:01 ACCEPT [The Guardian Biz] "EV prices in UK and EU not likely to dive due to Chinese rivalry, says" | kw:rice
+2026-06-24 01:01 ACCEPT [Al Jazeera] "Paraguay’s Almiron suspended for one game after red card for covering " | kw:iron
+2026-06-24 01:01 ACCEPT [CNBC Commodities] "U.S. fights with Brazil for China's giant soybean market" | kw:soybean
+2026-06-24 01:01 ACCEPT [CNBC Commodities] "Jeffrey Gundlach says Fed's Warsh is not going to be the 'easy money' " | kw:inflation,monetary policy
+2026-06-24 01:01 ACCEPT [CNBC Commodities] "Fed holds rates steady, pares down statement to remove cutting bias" | kw:interest rate,rate decision,federal reserve
+2026-06-24 01:01 ACCEPT [CNBC Commodities] "Fed Chair Warsh expected to withhold 'dot' from central bank's interes" | kw:central bank,interest rate
+2026-06-24 01:01 ACCEPT [CNBC Economy] "Bank of England holds interest rates at 3.75% amid Iran war peace pros" | kw:monetary policy,interest rate,bank of england
+2026-06-24 01:01 ACCEPT [CNBC Economy] "Here are the five big takeaways from Kevin Warsh's first meeting as Fe" | kw:interest rate,federal reserve
+2026-06-24 01:01 ACCEPT [CNBC Economy] "Wholesale prices rose 1.1% in May, more than expected, on surge in ene" | kw:rice
+2026-06-24 01:01 ACCEPT [CNBC Economy] "Inflation hits 3.2% in the euro zone as Iran war pushes energy costs h" | kw:inflation
+2026-06-24 01:01 ACCEPT [CNBC Economy] "Iran war cost: Average U.S. household paying $450 more on gas and ener" | kw:gas
+2026-06-24 01:01 ACCEPT [CNBC Economy] "Core inflation hit an annual rate of 3.3% in April, as expected, Fed’s" | kw:rice,inflation
+2026-06-24 01:01 ACCEPT [OilPrice.com] "US Crude Oil Inventories Continue To Falter, SPR Struggling To Pick Up" | kw:oil,crude,petroleum
+2026-06-24 01:01 ACCEPT [OilPrice.com] "SpaceX Taps Bond Market for $20 Billion to Fuel AI Expansion" | kw:fuel,gold
+2026-06-24 01:01 ACCEPT [EIA Energy] "Natural gas for power generation flat this summer, record high expecte" | kw:gas
+2026-06-24 01:01 ACCEPT [EIA Energy] "Most planned natural gas pipeline capacity additions in 2026 and 2027 " | kw:gas
+2026-06-24 01:01 ACCEPT [NASDAQ Commod] "Gold Tumbles Despite Slump In Crude Oil Price As U.S. Dollar Strengthe" | kw:oil,crude,gold
+2026-06-24 01:01 ACCEPT [Google News HH] "UAE's OPEC exit highlights strategic value of Fujairah exports amid St" | kw:oil,opec,gas
+2026-06-24 01:01 ACCEPT [Google News HH] "Gold (XAU/USD) Price Forecast for Today, Tomorrow, Next Week, and the " | kw:gold,rice
+2026-06-24 01:01 ACCEPT [Google News HH] "Gold price slides as AI rout fuels US Dollar flight - FXStreet" | kw:fuel,gold,rice
+2026-06-24 01:01 ACCEPT [Google News HH] "Oil News: Will Dip Buyers Defend Crude Oil at the 200-Day Moving Avera" | kw:oil,crude
+2026-06-24 01:01 ACCEPT [Google News HH] "U.S. Treasury Permits Iranian Crude Oil Sales After Eight-Year Ban - 조" | kw:oil,crude,treasury
+2026-06-24 01:01 ACCEPT [Google News HH] "June Crude Oil Price Trend Analysis: Multiple Negative Factors Weigh o" | kw:oil,crude,rice
+2026-06-24 01:01 ACCEPT [Google News HH] "Macquarie slashes Brent crude oil price forecast for 2026 and 2027 - C" | kw:oil,crude,brent
+2026-06-24 01:01 ACCEPT [Google News HH] "Hedge funds increase short bets on Brent crude oil to $18B, highest in" | kw:oil,crude,brent
+2026-06-24 01:01 ACCEPT [Google News HH] "Goldman cuts gold price forecast down to $4,900 - Canadian Mining Jour" | kw:gold,rice
+2026-06-24 01:01 ACCEPT [Google News KL] "Silver prices today, Tuesday, June 23: Silver prices slipping, struggl" | kw:gold,silver,rice
+2026-06-24 01:01 ACCEPT [Google News KL] "Current price of gold as of June 23, 2026 - Fortune" | kw:gold,rice
+2026-06-24 01:01 ACCEPT [Google News KL] "Gold falls as hawkish Fed bets lift dollar to one-year peak - CNBC" | kw:gold
+2026-06-24 01:01 ACCEPT [Google News KL] "What’s Next For Jonah Tong? | Straight Outta Flushing Silver Price Tod" | kw:silver,rice
+2026-06-24 01:01 ACCEPT [Google News KL] "Gold loses ground to near $4,100 as inflation concerns, Fed rate hike " | kw:gold,inflation,fed rate
+2026-06-24 01:01 ACCEPT [Google News KL] "Gold Prices Near Year Lows: BMO Cuts Forecast, Eyes $5,000 by Q1 2027 " | kw:gold,rice
+2026-06-24 01:01 ACCEPT [Google News NS] "U.S. fights with Brazil for China's giant soybean market - CNBC" | kw:soybean
+2026-06-24 01:01 ACCEPT [Google News NS] "Is China Buying Beans? What Pressure Corn, Wheat and Cattle Tuesday? -" | kw:wheat,corn
+2026-06-24 01:01 ACCEPT [Google News NS] "Crops Analysis | Corn futures carve contract low closes - Pro Farmer" | kw:corn
+2026-06-24 01:01 ACCEPT [Google News NS] "Crop Progress Highlights: Corn and Soybean Crops Advance as Winter Whe" | kw:wheat,corn,soybean
+2026-06-24 01:01 ACCEPT [Google News NS] "Corn, Wheat See More Fund Selling, Beans Bounce: Cattle Consolidate Tu" | kw:wheat,corn
+2026-06-24 01:01 ACCEPT [Google News NS] "Closing Market Update: Canola shows strength, U.S. wheat falls | June " | kw:wheat
+2026-06-24 01:01 ACCEPT [Google News NS] "Petrobras markets first batch of SAF produced from CORSIA-certified so" | kw:oil,soybean
+2026-06-24 01:01 ACCEPT [Google News NS] "Ukrainian corn exports slow down, prices fall as harvest prospects imp" | kw:corn,rice,harvest
+2026-06-24 01:01 ACCEPT [RT Business] "Russian SMEs growing on stronger supply chains to giants" | kw:supply chain,easing
+2026-06-24 01:01 ACCEPT [RT Business] "Kuwait exports zero barrels of oil for first time in 35 years – monito" | kw:oil,crude
+2026-06-24 01:01 ACCEPT [ECB Press] "Decisions taken by the Governing Council of the ECB (in addition to de" | kw:interest rate,ecb
+2026-06-24 01:01 ACCEPT [Google News CB] "Some in BOJ called for further rate hikes, June summary shows - Reuter" | kw:rate hike,boj
+2026-06-24 01:01 ACCEPT [Google News CB] "How to take advantage of temporary student loan interest rate reductio" | kw:interest rate
+2026-06-24 01:01 ACCEPT [Google News CB] "How to take advantage of temporary student loan interest rate reductio" | kw:interest rate
+2026-06-24 01:01 ACCEPT [Google News CB] "How Investors May Respond To Bank of America (BAC) Projecting Three Fe" | kw:fed rate,rate hike
+2026-06-24 01:01 ACCEPT [Google News CB] "Mortgage rates tick higher as traders price in a Fed hike - HousingWir" | kw:rice
+2026-06-24 01:01 ACCEPT [Google News CB] "ECB’s Vujcic Sees Inflation Remaining Higher for Longer - Bloomberg" | kw:inflation,ecb
+2026-06-24 01:01 SKIP_MORNING already_sent date=2026-06-24
