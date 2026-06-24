@@ -5412,3 +5412,13 @@
 2026-06-24 18:31 ACCEPT [Google News NS] "Watch for corn to rise above 200-day moving average later this year - " | kw:corn
 2026-06-24 18:31 ACCEPT [Google News CB] "ECB’s Zigman Says Price Stability Is Key, Cheaper Oil Will Help - Bloo" | kw:oil,rice,ecb
 2026-06-24 18:31 ACCEPT [Google News CB] "US dollar rises to 13-month high on Fed rate hike views - Reuters" | kw:fed rate,rate hike
+2026-06-24 19:01 ACCEPT [MarketWatch] "Gas prices aren’t falling fast enough for Trump. Here’s when drivers c" | kw:gas,rice
+2026-06-24 19:01 ACCEPT [OilPrice.com] "Norway's Oil Output Beats Forecasts Again Despite Pullback from April " | kw:oil,crude,petroleum
+2026-06-24 19:01 ACCEPT [Mining.com] "NexMetals upgrades Selkirk copper resource to 1.1B lb." | kw:copper
+2026-06-24 19:01 ACCEPT [Mining.com] "Newcore Gold tanks as Enchi pre-feasibility disappoints" | kw:gold
+2026-06-24 19:01 ACCEPT [Mining.com] "Anglo American, Codelco to add 2.7Mt copper with no new mine" | kw:copper,easing
+2026-06-24 19:01 ACCEPT [Google News HH] "Crude oil futures settle at $70.34. Stays below the 200 day MA. - inve" | kw:oil,crude
+2026-06-24 19:01 ACCEPT [Google News HH] "Deutsche Bank Found Gold’s Price Floor. It’s Not the Buyers You Think." | kw:gold,silver,rice
+2026-06-24 19:01 ACCEPT [Google News CB] "Economists see El Niño lifting Brazil inflation, central bank survey s" | kw:inflation,central bank
+2026-06-24 19:01 ACCEPT [Google News CB] "Oil Price Outlook Improves as Energy Activity Jumps Across Texas - For" | kw:oil,rice
+2026-06-24 19:01 ACCEPT [Google News CB] "Fed Says Basis Trade Key Driver of Hedge Fund Treasury Exposure - Bloo" | kw:treasury
