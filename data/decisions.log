@@ -4927,3 +4927,24 @@
 2026-06-24 01:01 ACCEPT [Google News CB] "Mortgage rates tick higher as traders price in a Fed hike - HousingWir" | kw:rice
 2026-06-24 01:01 ACCEPT [Google News CB] "ECB’s Vujcic Sees Inflation Remaining Higher for Longer - Bloomberg" | kw:inflation,ecb
 2026-06-24 01:01 SKIP_MORNING already_sent date=2026-06-24
+2026-06-24 01:31 ACCEPT [Google News HH] "The Commodities Feed: Hormuz recovery continues to weigh on oil market" | kw:oil,commodities
+2026-06-24 01:31 ACCEPT [Google News HH] "Crude oil, gasoline prices stable as US-Iran talks continue - WKRC" | kw:oil,crude,gas
+2026-06-24 01:31 ACCEPT [Google News KL] "The Great Wealth Migration: Gold Has Become Chinese Households’ New St" | kw:gold
+2026-06-24 01:31 ACCEPT [Google News CB] "US Fed chair Warsh vows reforms; rate hikes on horizon - Kuwait Times" | kw:rate hike
+2026-06-24 01:31 ACCEPT [Google News CB] "Euro: Softer PMIs challenge ECB tightening case – BNY - Bitget" | kw:ecb,tightening
+2026-06-24 01:31 ACCEPT [Google News CB] "BofA and Deutsche Bank Adjust U.S. Rate Hike Expectations for 2026 - A" | kw:rate hike
+2026-06-24 01:31 ACCEPT [Google News CB] "Bank of Japan hikes inflation forecast, holds interest rates - The Ris" | kw:inflation,interest rate,bank of japan
+2026-06-24 01:31 ACCEPT [Google News CB] "Cardoso Launches Nigeria Overnight Financing Rate to Boost Confidence," | kw:rice
+2026-06-24 01:31 ACCEPT [Google News CB] "Hawkish Fed expectations dampen precious metal demand, silver falls be" | kw:silver
+2026-06-24 01:31 ACCEPT [Google News CB] "Deutsche Bank Cuts Gold Price Forecast by Up to 22% - Aju Press" | kw:gold,rice
+2026-06-24 01:31 ACCEPT [Google News CB] "Fed's Goolsbee says labor market stable, inflation going the wrong way" | kw:inflation
+2026-06-24 01:31 ACCEPT [Google News CB] "Deutsche Bank: Gold Could Come Under Pressure to $3,800 if Fed Turns H" | kw:gold
+2026-06-24 01:31 ACCEPT [Google News CB] "Ben Stokes Sacked By ECB After Nightclub Incident, Names New Captain F" | kw:ecb
+2026-06-24 01:31 ACCEPT [Google News CB] "Yen Falls to 40-Year Low Amid U.S.-Japan Treasury Talks - Aju Press" | kw:treasury
+2026-06-24 01:31 ACCEPT [Google News CB] "Treasury yields rise ahead of key inflation data; markets resume tradi" | kw:inflation,treasury
+2026-06-24 01:31 ACCEPT [Google News CB] "Inflation is surging, Trump wants rate cuts -- and Kevin Warsh is caug" | kw:inflation,rate cut
+2026-06-24 01:31 ACCEPT [Google News CB] "High interest rates are on pause again. This is the savings account yo" | kw:interest rate
+2026-06-24 01:31 ACCEPT [Google News CB] "Russia’s central bank makes cautious rate cut to 14.25% amid high mili" | kw:central bank,rate cut
+2026-06-24 01:31 ACCEPT [Google News CB] "Bitcoin Price Faces Downward Pressure Amid Dollar Strength and Hawkish" | kw:rice
+2026-06-24 01:31 ACCEPT [Google News CB] "Bank of England Regulates Stablecoins After Dropping Individual Caps -" | kw:bank of england
+2026-06-24 01:31 SKIP_MORNING already_sent date=2026-06-24
