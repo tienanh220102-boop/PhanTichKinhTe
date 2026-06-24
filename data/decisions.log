@@ -5094,3 +5094,17 @@
 2026-06-24 08:01 ACCEPT [Google News CB] "Euro falls to one-year low as ECB adopts more ‘dovish’ stance compared" | kw:corn,ecb
 2026-06-24 08:01 ACCEPT [Google News CB] "How to take advantage of temporary student loan interest rate reductio" | kw:interest rate
 2026-06-24 08:01 SKIP_MORNING already_sent date=2026-06-24
+2026-06-24 08:31 ACCEPT [OilPrice.com] "Qatar Says LNG Exports Could Return to Normal Within Weeks" | kw:gas,lng
+2026-06-24 08:31 ACCEPT [Google News HH] "US authorises 60-day waiver enabling Iranian crude oil exports - Enerd" | kw:oil,crude,wti
+2026-06-24 08:31 ACCEPT [Google News HH] "Oil prices are almost back to pre-war levels amid Hormuz normalisation" | kw:oil,rice
+2026-06-24 08:31 ACCEPT [Google News HH] "Gold Price Forecast: Bears retain control as Fed rate hike bets contin" | kw:gold,rice,fed rate
+2026-06-24 08:31 ACCEPT [Google News KL] "Gold Drops Below $4,100 as Tech Selloff, Inflation Hit Sentiment - Blo" | kw:gold,inflation
+2026-06-24 08:31 ACCEPT [Google News KL] "Gold prices drop to $4090 on COMEX - AzerNews" | kw:gold,rice
+2026-06-24 08:31 ACCEPT [Google News KL] "Gold ETFs Just Saw Their Biggest Weekly Inflow Since April After $7.6 " | kw:gold
+2026-06-24 08:31 ACCEPT [Google News NS] "10 essential tips to smoothly wean calves during drought - Farm Progre" | kw:drought
+2026-06-24 08:31 ACCEPT [Google News CB] "BOJ’s Ueda Reiterates Risk of Inflation Exceeding 2% Target - Bloomber" | kw:inflation,boj
+2026-06-24 08:31 ACCEPT [Google News CB] "Copper Holds Losses as Dollar and Hawkish Fed Pressure Metals - Bloomb" | kw:copper
+2026-06-24 08:31 ACCEPT [Google News CB] "How to take advantage of temporary student loan interest rate reductio" | kw:interest rate
+2026-06-24 08:31 ACCEPT [Google News CB] "How to take advantage of temporary student loan interest rate reductio" | kw:interest rate
+2026-06-24 08:31 ACCEPT [Google News CB] "How to take advantage of temporary student loan interest rate reductio" | kw:interest rate
+2026-06-24 08:31 SKIP_MORNING already_sent date=2026-06-24
