@@ -5061,3 +5061,21 @@
 2026-06-24 07:01 ACCEPT [Google News NS] "Canola price falls $42 a tonne in Victoria - The Weekly Times" | kw:rice,gdp
 2026-06-24 07:01 ACCEPT [Google News CB] "Australia's central bank still has work to do to reduce inflation, dep" | kw:inflation,central bank
 2026-06-24 07:01 SKIP_MORNING already_sent date=2026-06-24
+2026-06-24 07:31 ACCEPT [BBC Business] "US to probe petrol price gouging claims, Trump says" | kw:oil,rice
+2026-06-24 07:31 ACCEPT [Google News HH] "Resumption of flights cools demand, dollar exerts pressure, liquidity " | kw:commodities
+2026-06-24 07:31 ACCEPT [Google News HH] "Gold, Silver, Crude Oil Outlook: Sellers Dominate Amid Easing Geopolit" | kw:oil,crude,gold
+2026-06-24 07:31 ACCEPT [Google News HH] "Commodities: Oil Slumps, Metals Under Pressure - marketscreener.com" | kw:oil,commodities
+2026-06-24 07:31 ACCEPT [Google News HH] "ICE cotton extends losses on stronger US dollar, weaker crude oil - Fi" | kw:oil,crude,cotton
+2026-06-24 07:31 ACCEPT [Google News KL] "Gold Prices Plunge Amid Rate Hike Concerns - GuruFocus" | kw:gold,rice,rate hike
+2026-06-24 07:31 ACCEPT [Google News KL] "Why is gold falling as inflation rises? The myth explained - Euronews." | kw:gold,inflation
+2026-06-24 07:31 ACCEPT [Google News KL] "Gold bounces off two-week low; not out of the woods yet amid Fed hike " | kw:gold
+2026-06-24 07:31 ACCEPT [Google News NS] "Harvest wheat early to beat preharvest sprouting damage - Farm Progres" | kw:wheat,harvest
+2026-06-24 07:31 ACCEPT [Google News CB] "Thai Central Bank Stays on Hold as It Gauges Risks - WSJ" | kw:central bank
+2026-06-24 07:31 ACCEPT [Google News CB] "Gold slips to two-week low as Fed rate-hike bets buoy dollar - CNBC" | kw:gold,fed rate
+2026-06-24 07:31 ACCEPT [Google News CB] "BOJ Must Scrutinise Impact on Financial System From AI, Non-Bank Activ" | kw:boj
+2026-06-24 07:31 ACCEPT [Google News CB] "BOJ’s Ueda Reiterates Risk of Inflation Exceeding 2% Target - Bloomber" | kw:inflation,boj
+2026-06-24 07:31 ACCEPT [Google News CB] "The red flags at HSBC over funds linked to Lebanese central bank scand" | kw:wti,central bank
+2026-06-24 07:31 ACCEPT [Google News CB] "Interest rate hikes remain on cards as Australia’s underlying inflatio" | kw:inflation,interest rate,rate hike
+2026-06-24 07:31 ACCEPT [Google News CB] "BOJ governor Ueda expects further interest rate hikes as underlying in" | kw:inflation,interest rate,rate hike
+2026-06-24 07:31 ACCEPT [Google News CB] "ECB digital euro project advances as EU committee adopts position - El" | kw:ecb
+2026-06-24 07:31 SKIP_MORNING already_sent date=2026-06-24
