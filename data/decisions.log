@@ -5268,3 +5268,28 @@
 2026-06-24 14:01 ACCEPT [Google News CB] "Euro Sinks To One-Year Low As Oil Price Drop Fuels ECB Rate Cut Bets -" | kw:oil,crude,fuel
 2026-06-24 14:01 SKIP_MORNING already_sent date=2026-06-24
 2026-06-24 14:01 SKIP_EVENING already_sent date=2026-06-24
+2026-06-24 14:31 ACCEPT [BBC Business] "Trump accuses oil firms of price gouging at petrol pumps" | kw:oil,rice
+2026-06-24 14:31 ACCEPT [OilPrice.com] "UK Climate Panel Urges Faster Electrification to Lower Energy Bills" | kw:fuel,rice
+2026-06-24 14:31 ACCEPT [Google News HH] "Prediction markets point to crude oil near $70 by month-end (CO1:COM:C" | kw:oil,crude,commodity
+2026-06-24 14:31 ACCEPT [Google News HH] "Gold fell below $4,000 and crude oil retreated from conflict-driven pr" | kw:oil,crude,gold
+2026-06-24 14:31 ACCEPT [Google News HH] "Gold Price Breaks Below $4000 For The First Time in 2026 - BeInCrypto" | kw:gold,rice
+2026-06-24 14:31 ACCEPT [Google News HH] "US airline stocks rise as crude oil drops below $70 By Investing.com -" | kw:oil,crude
+2026-06-24 14:31 ACCEPT [Google News HH] "U.S. crude oil dips below $70 as Trump says Iran seeking no tolls thro" | kw:oil,crude
+2026-06-24 14:31 ACCEPT [Google News HH] "Crude Oil Analysis: $73 Support Holds as Borrowed Supply Faces Rollove" | kw:oil,crude
+2026-06-24 14:31 ACCEPT [Google News HH] "Gold fell below $4,000 and crude oil retreated from conflict-driven pr" | kw:oil,crude,gold
+2026-06-24 14:31 ACCEPT [Google News HH] "OPEC Fund Development Forum 2026: A Transition that Empowers Tomorrow " | kw:opec
+2026-06-24 14:31 ACCEPT [Google News HH] "Gold Price Analysis – Gold Drops on Wednesday Again - FXEmpire" | kw:gold,rice,gdp
+2026-06-24 14:31 ACCEPT [Google News KL] "Gold And Silver Prices Fall To Seven-Month Lows - Forbes" | kw:gold,silver,rice
+2026-06-24 14:31 ACCEPT [Google News KL] "Gold Breaks Below $4,000 as Multi-Year Rally Grinds to a Halt - Bloomb" | kw:gold
+2026-06-24 14:31 ACCEPT [Google News KL] "Gold drops below key $4,000 level as dollar firms, rate hike bets rise" | kw:wti,gold,rate hike
+2026-06-24 14:31 ACCEPT [Google News KL] "ING Cuts Gold and Silver Forecasts as Rising Yields and Stronger Dolla" | kw:gold,silver,rice
+2026-06-24 14:31 ACCEPT [Google News KL] "Gold ETFs could see fresh outflows on rising bets on Fed monetary tigh" | kw:gold,tightening
+2026-06-24 14:31 ACCEPT [Google News KL] "Gold tumbles to $4,000 over worries of Fed rak - Yahoo Finance" | kw:gold
+2026-06-24 14:31 ACCEPT [Google News KL] "First Majestic Silver (AG) Shares Drop Amid Silver Price Decline - Gur" | kw:silver,rice
+2026-06-24 14:31 ACCEPT [Google News KL] "Gold prices briefly fell below 4,000—amid panic, is this a chasm or an" | kw:gold,rice
+2026-06-24 14:31 ACCEPT [Google News KL] "Silver (XAG) Forecast: Testing 50% of All-Time High, Will Long-Term Bu" | kw:silver
+2026-06-24 14:31 ACCEPT [Google News NS] "Is China Buying Beans? What Pressured Corn, Wheat and Cattle Tuesday? " | kw:wheat,corn
+2026-06-24 14:31 ACCEPT [Google News CB] "CFOs grow more concerned about inflation: Duke-Fed survey - CFO.com" | kw:inflation
+2026-06-24 14:31 ACCEPT [Google News CB] "The Fed Just Raised Its Inflation Forecast. For One Retired Couple, a " | kw:inflation
+2026-06-24 14:31 SKIP_MORNING already_sent date=2026-06-24
+2026-06-24 14:31 SKIP_EVENING already_sent date=2026-06-24
