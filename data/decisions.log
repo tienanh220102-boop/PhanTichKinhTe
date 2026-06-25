@@ -6111,3 +6111,19 @@
 2026-06-25 16:31 ACCEPT [Google News CB] "Key Fed inflation gauge rises to three-year high in May after gas pric" | kw:gas,rice,inflation
 2026-06-25 16:31 SKIP_MORNING already_sent date=2026-06-25
 2026-06-25 16:31 SKIP_EVENING already_sent date=2026-06-25
+2026-06-25 17:01 ACCEPT [BBC Business] "Apple hikes prices on some products by nearly 20%" | kw:rice
+2026-06-25 17:01 ACCEPT [OilPrice.com] "Russia Turns Asia’s Oil Shock Into an Indonesian Opening" | kw:oil,crude,sanction
+2026-06-25 17:01 ACCEPT [Google News HH] "Iraq seeks higher OPEC quota amid post-war production push - World Oil" | kw:oil,opec
+2026-06-25 17:01 ACCEPT [Google News HH] "In East Africa, a Controversial Oil Project Is Poised for Production -" | kw:oil
+2026-06-25 17:01 ACCEPT [Google News HH] "Gold Price Today: Gold Falls 1.73% on June 25, 2026 - USA Today" | kw:gold,rice
+2026-06-25 17:01 ACCEPT [Google News HH] "Persian Gulf Crude Exports Rebound to 75% of Prewar Levels - Bloomberg" | kw:crude
+2026-06-25 17:01 ACCEPT [Google News HH] "Vivakor secures crude oil trading deal worth $90m annually - Investing" | kw:oil,crude
+2026-06-25 17:01 ACCEPT [Google News HH] "Brent Crude Oil Bounces Back - TradingView" | kw:oil,crude,brent
+2026-06-25 17:01 ACCEPT [Google News HH] "WTI Crude Falls Below $70; Iraq Pressures OPEC With "Retreat to Advanc" | kw:crude,opec,wti
+2026-06-25 17:01 ACCEPT [Google News KL] "Silver price rebounds after in-line US PCE data eases Dollar support -" | kw:silver,rice
+2026-06-25 17:01 ACCEPT [Google News KL] "XAU/USD Price Forecast: Gold bounces from 2026 lows, remains pressured" | kw:gold,rice
+2026-06-25 17:01 ACCEPT [Google News NS] "Falling diesel prices, stubborn fertilizer costs and $4 corn: What's n" | kw:corn,rice
+2026-06-25 17:01 ACCEPT [Google News NS] "Be ready for "unexplainable rallies" in the grain markets (and watch t" | kw:corn
+2026-06-25 17:01 ACCEPT [Google News NS] "Global soybean prices are putting pressure on the Ukrainian market - U" | kw:soybean,rice
+2026-06-25 17:01 ACCEPT [Google News CB] "Brazil central bank says policy horizon unchanged after market confusi" | kw:central bank
+2026-06-25 17:01 ACCEPT [Google News CB] "Treasuries Gain as Inflation Gauge Cools Fed Rate-Hike Bets - Bloomber" | kw:inflation,fed rate
