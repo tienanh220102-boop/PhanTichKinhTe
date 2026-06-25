@@ -5936,3 +5936,18 @@
 2026-06-25 13:31 ACCEPT [Google News CB] "Core inflation hits 2023 high as Fed rate hike odds climb - mpamag.com" | kw:inflation,fed rate,rate hike
 2026-06-25 13:31 SKIP_MORNING already_sent date=2026-06-25
 2026-06-25 13:31 SKIP_EVENING already_sent date=2026-06-25
+2026-06-25 14:01 ACCEPT [MarketWatch] "U.S. inflation tops 4%. Sinking oil prices to bring relief, but prices" | kw:oil,rice,inflation
+2026-06-25 14:01 ACCEPT [OilPrice.com] "Russia Faces Growing Fuel Crunch as Ukrainian Strikes Knock Out Refine" | kw:oil,gas,fuel
+2026-06-25 14:01 ACCEPT [Google News HH] "Iraq threatens to leave Opec if quota demands not met - The National" | kw:opec
+2026-06-25 14:01 ACCEPT [Google News HH] "Vivakor adds Cushing crude deal, pushing contracted revenue to $420M -" | kw:crude
+2026-06-25 14:01 ACCEPT [Google News HH] "Iraq Denies Plans to Leave OPEC, Urges Higher Oil Production Quota - K" | kw:oil,opec
+2026-06-25 14:01 ACCEPT [Google News HH] "Iraq Warns It May Reconsider OPEC Membership Without Higher Output Quo" | kw:opec
+2026-06-25 14:01 ACCEPT [Google News KL] "3 Gold Stocks Facing Pressure From Higher Rates And A Stronger Dollar " | kw:gold
+2026-06-25 14:01 ACCEPT [Google News NS] "Forecast of wheat exports from Russia in the closing season for the fi" | kw:wheat
+2026-06-25 14:01 ACCEPT [Google News CB] "Inflation report could fuel concerns over higher interest rates, even " | kw:oil,fuel,rice
+2026-06-25 14:01 ACCEPT [Google News CB] "Inflation Surges to 2023 Highs. Will Fed Chair Warsh Defy Trump on Rat" | kw:inflation
+2026-06-25 14:01 ACCEPT [Google News CB] "ECB board member floats further rate hikes as bank wary over Iran deal" | kw:rate hike,ecb
+2026-06-25 14:01 ACCEPT [Google News CB] "Key Inflation Measure Neared 3-Year High In May - Forbes" | kw:inflation
+2026-06-25 14:01 ACCEPT [Google News CB] "PCE report: Fed's preferred inflation measure hits 3-year high, keepin" | kw:inflation,rate hike
+2026-06-25 14:01 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 14:01 SKIP_EVENING already_sent date=2026-06-25
