@@ -5951,3 +5951,13 @@
 2026-06-25 14:01 ACCEPT [Google News CB] "PCE report: Fed's preferred inflation measure hits 3-year high, keepin" | kw:inflation,rate hike
 2026-06-25 14:01 SKIP_MORNING already_sent date=2026-06-25
 2026-06-25 14:01 SKIP_EVENING already_sent date=2026-06-25
+2026-06-25 14:31 ACCEPT [MarketWatch] "Apple’s MacBooks and iPads are getting more expensive as the memory cr" | kw:rice
+2026-06-25 14:31 ACCEPT [OilPrice.com] "Middle East Fuel Oil Exports Set to Hit Four-Month High" | kw:oil,fuel
+2026-06-25 14:31 ACCEPT [Google News HH] "Iraqi Oil Ministry denies reports of potential OPEC exit, urges output" | kw:oil,opec
+2026-06-25 14:31 ACCEPT [Google News HH] "Crude Oil Price Analysis – Crude Oil Filling the War Gap - FXEmpire" | kw:oil,crude,rice
+2026-06-25 14:31 ACCEPT [Google News KL] "Is Freeport-McMoRan’s (FCX) Variable Dividend Signaling a New Phase in" | kw:copper
+2026-06-25 14:31 ACCEPT [Google News CB] "PCE report: Fed's preferred inflation measure hits 3-year high, keepin" | kw:inflation,rate hike
+2026-06-25 14:31 ACCEPT [Google News CB] "Dollar index erases gains and turns lower after May PCE data - CNBC" | kw:dollar index
+2026-06-25 14:31 ACCEPT [Google News CB] "Fed’s Favored Inflation Meter Jumped Toward 3-Year High In May - Yahoo" | kw:inflation
+2026-06-25 14:31 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 14:31 SKIP_EVENING already_sent date=2026-06-25
