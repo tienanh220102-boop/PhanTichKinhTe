@@ -5749,3 +5749,13 @@
 2026-06-25 08:01 ACCEPT [Google News CB] "ECB Will Need to Raise Interest Rates Again, Schnabel Says - WSJ" | kw:interest rate,ecb
 2026-06-25 08:01 ACCEPT [Google News CB] "The Fed Isn't Cutting Interest Rates Anytime Soon -- and Kevin Warsh I" | kw:interest rate
 2026-06-25 08:01 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 08:31 ACCEPT [BBC Business] "Price cuts on family summer days out come into force" | kw:rice
+2026-06-25 08:31 ACCEPT [OilPrice.com] "Trump Singles Out Exxon, Chevron, Shell, and BP Over High Gas Prices" | kw:oil,gas,fuel
+2026-06-25 08:31 ACCEPT [Google News HH] "EXCLUSIVE: Iraq to consider all options if OPEC quota is not raised, h" | kw:opec
+2026-06-25 08:31 ACCEPT [Google News HH] "Exclusive-Iraq to consider all options if OPEC quota is not raised, ha" | kw:opec
+2026-06-25 08:31 ACCEPT [Google News KL] "Miners Hochschild and Fresnillo lead FTSE falls as gold pullback deepe" | kw:gold
+2026-06-25 08:31 ACCEPT [Google News KL] "Gold plunges nearly 30%—has it turned bearish? Experts say: History sh" | kw:gold
+2026-06-25 08:31 ACCEPT [Google News CB] "ECB to integrate non-financial credit claim portfolios into general co" | kw:central bank,ecb
+2026-06-25 08:31 ACCEPT [Google News CB] "Hawkish Bank of Japan Member Sees Scope to Bring Policy Rate Closer to" | kw:bank of japan,policy rate
+2026-06-25 08:31 ACCEPT [Google News CB] "Exclusive-Japan government will urge BOJ to support private demand, dr" | kw:boj
+2026-06-25 08:31 SKIP_MORNING already_sent date=2026-06-25
