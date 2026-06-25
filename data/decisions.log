@@ -5609,3 +5609,11 @@
 2026-06-25 00:02 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
 2026-06-25 00:02 SENT_MORNING articles=20 date=2026-06-25 force=False
 2026-06-25 00:31 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 01:01 ACCEPT [Google News HH] "Running on Reserve: Crude Oil in the SPR Plummets to a Four-Decade Low" | kw:oil,crude
+2026-06-25 01:01 ACCEPT [Google News HH] "AAA cites crude oil volatility and transport costs for higher Coos Cou" | kw:oil,crude,gas
+2026-06-25 01:01 ACCEPT [Google News HH] "ICE Weekly: Canola futures decline as crude oil falls - Canadian Cattl" | kw:oil,crude
+2026-06-25 01:01 ACCEPT [Google News HH] "WTI Crude Oil futures fell to a seventh lower low. - CME Group" | kw:oil,crude,wti
+2026-06-25 01:01 ACCEPT [Google News KL] "Gold Price Breaks Below $4,000 as Multi-Year Rally Grinds to a Halt - " | kw:gold,rice
+2026-06-25 01:01 ACCEPT [Google News NS] "FBN Acreage Report Preview: High Plains Drought Slashing Corn Acres in" | kw:corn,soybean,drought
+2026-06-25 01:01 ACCEPT [Google News CB] "NY Fed official plays down new FOMC language on ample reserves system " | kw:fomc
+2026-06-25 01:01 SKIP_MORNING already_sent date=2026-06-25
