@@ -5697,3 +5697,12 @@
 2026-06-25 06:01 ACCEPT [Google News CB] "Tech Futures Soar On Micron; Fed Inflation Data Due - Investor's Busin" | kw:inflation
 2026-06-25 06:01 ACCEPT [Google News CB] "Gold languishes near 7-month low as Fed tightening bets boost dollar -" | kw:gold,tightening
 2026-06-25 06:01 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 06:31 ACCEPT [Mining.com] "Endurance Gold hits high-grade step-outs at Reliance project" | kw:gold
+2026-06-25 06:31 ACCEPT [Google News KL] "Silver Price Forecasts: XAG/USD hovers at seven-month lows around $57 " | kw:silver,rice,inflation
+2026-06-25 06:31 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Gold Breaks $3,980 as Silver Di" | kw:gold,silver,rice
+2026-06-25 06:31 ACCEPT [Google News NS] "Grain markets steady, wheat seen firming - metroindia.net" | kw:wheat
+2026-06-25 06:31 ACCEPT [Google News CB] "CBDCs gain ground as monetary policy falters - GIS Reports" | kw:monetary policy
+2026-06-25 06:31 ACCEPT [Google News CB] "Gold languishes near 7-month low as Fed tightening bets boost dollar -" | kw:gold,tightening
+2026-06-25 06:31 ACCEPT [Google News CB] "Iran peace deal no silver bullet for Fed's inflation dilemma - Reuters" | kw:silver,inflation
+2026-06-25 06:31 ACCEPT [Google News CB] "Will Greater Monetary Policy Uncertainty Lead To Tighter Financial Con" | kw:monetary policy
+2026-06-25 06:31 SKIP_MORNING already_sent date=2026-06-25
