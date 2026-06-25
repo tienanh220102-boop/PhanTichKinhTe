@@ -5804,3 +5804,22 @@
 2026-06-25 10:01 ACCEPT [Google News CB] "New inflation report could fuel concerns over higher interest rates, e" | kw:oil,fuel,rice
 2026-06-25 10:01 ACCEPT [Google News CB] "US core PCE inflation set to remain elevated in May, keeping Fed on al" | kw:inflation
 2026-06-25 10:01 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 10:31 ACCEPT [Al Jazeera] "Oil prices back to pre-war levels on rising Middle East supply" | kw:oil,crude,brent
+2026-06-25 10:31 ACCEPT [OilPrice.com] "$70 Oil Could Put India Back on Track for 7% Economic Growth" | kw:oil,rice,inflation
+2026-06-25 10:31 ACCEPT [Google News HH] "Iraq Warns It Might Quit OPEC If It Doesn’t Get Quota Hike - Bloomberg" | kw:opec
+2026-06-25 10:31 ACCEPT [Google News HH] "Top Iraqi official signals potential OPEC withdrawal amid dispute over" | kw:opec
+2026-06-25 10:31 ACCEPT [Google News HH] "Iraq Oil Ministry warns of OPEC exit over production quota - Shafaq Ne" | kw:oil,opec
+2026-06-25 10:31 ACCEPT [Google News HH] "Iraq studies OPEC exit to boost oil output - Shafaq News | Latest brea" | kw:oil,opec
+2026-06-25 10:31 ACCEPT [Google News KL] "Gold hovers around $4,000, silver holds below $60 — has the shimmer wo" | kw:gold,silver
+2026-06-25 10:31 ACCEPT [Google News KL] "FLORIDA CANYON FEASIBILITY STUDY DELIVERS SUBSTANTIAL INCREASE IN MINE" | kw:gold
+2026-06-25 10:31 ACCEPT [Google News KL] "Hemlo Mining Corp. Announces Increased Mineral Resource Estimate for t" | kw:gold
+2026-06-25 10:31 ACCEPT [Google News KL] "Gold holds below $4,000, silver below $60 — has the shimmer worn off t" | kw:gold,silver
+2026-06-25 10:31 ACCEPT [Google News KL] "Why Gold Is Going Down? XAU/USD Price Falls Below $4,000 for First Tim" | kw:gold,rice
+2026-06-25 10:31 ACCEPT [Google News CB] "Lower oil prices may be the Fed's next problem: Chart of the Day - Yah" | kw:oil,rice
+2026-06-25 10:31 ACCEPT [Google News CB] "US bond market expects rate hikes the Fed may never deliver - Reuters" | kw:rate hike
+2026-06-25 10:31 ACCEPT [Google News CB] "ECB's Schnabel sees more tightening even after Iran ceasefire - Reuter" | kw:ecb,tightening
+2026-06-25 10:31 ACCEPT [Google News CB] "Gold languishes near 7-month low as Fed tightening bets boost dollar -" | kw:gold,tightening
+2026-06-25 10:31 ACCEPT [Google News CB] "Dollar skims 13-month highs as investors bank on rate hikes - Reuters" | kw:rate hike
+2026-06-25 10:31 ACCEPT [Google News CB] "Gold hovers near 7-mth low as hawkish Fed outlook boosts dollar - Inve" | kw:gold
+2026-06-25 10:31 ACCEPT [Google News CB] "ECB will need to raise rates further, Schnabel says By Reuters - Inves" | kw:ecb
+2026-06-25 10:31 SKIP_MORNING already_sent date=2026-06-25
