@@ -5706,3 +5706,16 @@
 2026-06-25 06:31 ACCEPT [Google News CB] "Iran peace deal no silver bullet for Fed's inflation dilemma - Reuters" | kw:silver,inflation
 2026-06-25 06:31 ACCEPT [Google News CB] "Will Greater Monetary Policy Uncertainty Lead To Tighter Financial Con" | kw:monetary policy
 2026-06-25 06:31 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 07:01 ACCEPT [Al Jazeera] "Iran war live: IRGC says ships taking new Hormuz route will be in dang" | kw:shipping
+2026-06-25 07:01 ACCEPT [Google News HH] "August WTI Crude Oil futures dropped as tensions eased. - CME Group" | kw:oil,crude,lng
+2026-06-25 07:01 ACCEPT [Google News HH] "Crude Oil Futures Separate From Reality as Asia Physical Market Buckle" | kw:oil,crude
+2026-06-25 07:01 ACCEPT [Google News KL] "Gold, silver price prediction: Should you buy the dip as gold, silver " | kw:gold,silver,rice
+2026-06-25 07:01 ACCEPT [Google News NS] "Prairie wheat weekly: Wheat prices make modest movements on either sid" | kw:wheat,rice
+2026-06-25 07:01 ACCEPT [Google News CB] "Bonds, Precious Metals Markets Converge on Inflation Concerns - CME Gr" | kw:inflation
+2026-06-25 07:01 ACCEPT [Google News CB] "BOJ’s Tamura Calls for Raising Interest Rate Every Few Months - Bloomb" | kw:interest rate,boj
+2026-06-25 07:01 ACCEPT [Google News CB] "Gold under pressure near 7-month low as Fed rate-hike bets boost dolla" | kw:gold,fed rate
+2026-06-25 07:01 ACCEPT [Google News CB] "PBOC Plans Overnight Reverse Repo in Next Stage of Policy Shift - Bloo" | kw:pboc
+2026-06-25 07:01 ACCEPT [Google News CB] "BOJ’s Tamura Calls for Raising Interest Rate Every Few Months - Bloomb" | kw:interest rate,boj
+2026-06-25 07:01 ACCEPT [Google News CB] "BOJ Sees AI Export Boom Cushioning Economy From Oil Price Shock - Bloo" | kw:oil,rice,boj
+2026-06-25 07:01 ACCEPT [Google News CB] "Will Falling Oil Prices Be Enough to Solve the Fed’s Inflation Problem" | kw:oil,rice,inflation
+2026-06-25 07:01 SKIP_MORNING already_sent date=2026-06-25
