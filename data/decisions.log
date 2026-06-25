@@ -5793,3 +5793,14 @@
 2026-06-25 09:31 ACCEPT [Google News CB] "Most Gulf markets ease on weaker oil, Fed rate-hike bets - Reuters" | kw:oil,fed rate
 2026-06-25 09:31 ACCEPT [Google News CB] "BOJ outlook shift hasn't really translated to the yen - MUFG - investi" | kw:boj
 2026-06-25 09:31 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 10:01 ACCEPT [Google News HH] "Iraq Could Quit OPEC in Bid to Pump More Oil - Crude Oil Prices Today " | kw:oil,crude,opec
+2026-06-25 10:01 ACCEPT [Google News HH] "$Crude Oil AUG6 (CL2608.US)$ EZ profit today - Moomoo" | kw:oil,crude
+2026-06-25 10:01 ACCEPT [Google News HH] "Iraqi officials considered leaving OPEC if quota not raised: Sources |" | kw:opec
+2026-06-25 10:01 ACCEPT [Google News HH] "Exclusive-Iraq to consider all options if OPEC quota is not raised, ha" | kw:opec
+2026-06-25 10:01 ACCEPT [Google News HH] "Iraq to consider 'all options' if OPEC quota not raised: Report - Türk" | kw:opec
+2026-06-25 10:01 ACCEPT [Google News HH] "PA Recycling Markets Center Hosts July 16 Recycled Paper & Plastics Co" | kw:iron,commodities
+2026-06-25 10:01 ACCEPT [Google News KL] "Gold lingers near seven-month low as US rate-hike prospects weigh - Re" | kw:gold
+2026-06-25 10:01 ACCEPT [Google News KL] "Silver price today: rises on June 25 - FXStreet" | kw:wti,silver,rice
+2026-06-25 10:01 ACCEPT [Google News CB] "New inflation report could fuel concerns over higher interest rates, e" | kw:oil,fuel,rice
+2026-06-25 10:01 ACCEPT [Google News CB] "US core PCE inflation set to remain elevated in May, keeping Fed on al" | kw:inflation
+2026-06-25 10:01 SKIP_MORNING already_sent date=2026-06-25
