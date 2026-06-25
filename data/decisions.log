@@ -5875,3 +5875,19 @@
 2026-06-25 12:01 ACCEPT [Google News CB] "Indian central bank proposes stricter oversight of AI/ ML risks for ba" | kw:central bank
 2026-06-25 12:01 ACCEPT [Google News CB] "Can US core PCE inflation support expectations for higher Fed rates? -" | kw:inflation,fed rate
 2026-06-25 12:01 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 12:31 ACCEPT [OilPrice.com] "China to Increase Fuel Export Allowances for July" | kw:petroleum,fuel
+2026-06-25 12:31 ACCEPT [Google News HH] "EXCLUSIVE: Iraq warns it might leave OPEC if oil quota not raised, sou" | kw:oil,opec
+2026-06-25 12:31 ACCEPT [Google News HH] "Iraq piles pressure on OPEC over quota dispute after UAE exit - CNBC" | kw:opec
+2026-06-25 12:31 ACCEPT [Google News HH] "Why Iraq’s threat to leave OPEC may be the final nail in the cartel’s " | kw:opec
+2026-06-25 12:31 ACCEPT [Google News HH] "Exclusive-Iraq to Consider All Options if OPEC Quota Not Raised, Has W" | kw:opec
+2026-06-25 12:31 ACCEPT [Google News HH] "EXCLUSIVE: Vivakor Expands Revenue Opportunity With New Cushing Crude " | kw:oil,crude
+2026-06-25 12:31 ACCEPT [Google News HH] "Gold Price Today: Gold Falls 3.06% on June 25, 2026 - USA Today" | kw:gold,rice
+2026-06-25 12:31 ACCEPT [Google News HH] "Iraq denies reports of potential OPEC exit - Quantum Commodity Intelli" | kw:opec,commodity
+2026-06-25 12:31 ACCEPT [Google News HH] "Brent Crude Oil Price Forecast 2026: Geopolitical Risks & Market Analy" | kw:oil,crude,brent
+2026-06-25 12:31 ACCEPT [Google News KL] "Silver prices today, Thursday, June 25, 2026: Lowest opening price sin" | kw:wti,silver,rice
+2026-06-25 12:31 ACCEPT [Google News KL] "Gold Consolidates Ahead of Core PCE as Markets Reassess Fed Outlook - " | kw:gold
+2026-06-25 12:31 ACCEPT [Google News NS] "Grain Temperature Monitoring Probes Market Growth Outlook to 2035: Wir" | kw:fuel
+2026-06-25 12:31 ACCEPT [Google News CB] "Brazil Central Bank Raises Economic Growth Forecast as Stimulus Flows " | kw:central bank
+2026-06-25 12:31 ACCEPT [Google News CB] "ECB Rate-Hike Forecasts Pared Back as Oil Regains Pre-War Level - Bloo" | kw:oil,ecb
+2026-06-25 12:31 ACCEPT [Google News CB] "US core PCE inflation expected to rise in May amid increasing Fed rate" | kw:inflation,fed rate,rate hike
+2026-06-25 12:31 SKIP_MORNING already_sent date=2026-06-25
