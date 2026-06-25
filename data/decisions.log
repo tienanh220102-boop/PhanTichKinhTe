@@ -5688,3 +5688,12 @@
 2026-06-25 05:31 ACCEPT [Google News CB] "China central bank to add tool to better manage short-term liquidity -" | kw:central bank
 2026-06-25 05:31 ACCEPT [Google News CB] "Japan draft blueprint urges BOJ support for private demand, Reuters re" | kw:boj
 2026-06-25 05:31 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 06:01 ACCEPT [Google News HH] "EIA: US crude oil inventories about 7.1% below 5-year average - Oil & " | kw:oil,crude,gas
+2026-06-25 06:01 ACCEPT [Google News KL] "Vista Gold: Cheap For A Reason, But Still A Powerful Gold Option - See" | kw:gold
+2026-06-25 06:01 ACCEPT [Google News KL] "Gold, silver prices today, June 25: Check retail rates of 24K, 22K gol" | kw:gold,silver,rice
+2026-06-25 06:01 ACCEPT [Google News KL] "Major Chinese banks suspend individual gold trading amid global volati" | kw:gold
+2026-06-25 06:01 ACCEPT [Google News NS] "Corn Closes Down More Than 2¢ | Wednesday, June 24, 2026 - Successful " | kw:corn
+2026-06-25 06:01 ACCEPT [Google News CB] "Hawkish BOJ policymaker calls for rate hike once every few months - hi" | kw:rate hike,boj
+2026-06-25 06:01 ACCEPT [Google News CB] "Tech Futures Soar On Micron; Fed Inflation Data Due - Investor's Busin" | kw:inflation
+2026-06-25 06:01 ACCEPT [Google News CB] "Gold languishes near 7-month low as Fed tightening bets boost dollar -" | kw:gold,tightening
+2026-06-25 06:01 SKIP_MORNING already_sent date=2026-06-25
