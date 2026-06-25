@@ -5617,3 +5617,9 @@
 2026-06-25 01:01 ACCEPT [Google News NS] "FBN Acreage Report Preview: High Plains Drought Slashing Corn Acres in" | kw:corn,soybean,drought
 2026-06-25 01:01 ACCEPT [Google News CB] "NY Fed official plays down new FOMC language on ample reserves system " | kw:fomc
 2026-06-25 01:01 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 01:31 ACCEPT [Google News HH] "Trump orders DOJ investigation into high gas prices - Deseret News" | kw:gas,rice
+2026-06-25 01:31 ACCEPT [Google News KL] "Will gold hit $5,000 again this year? Experts explain what’s driving p" | kw:gold,rice
+2026-06-25 01:31 ACCEPT [Google News CB] "Asian Currencies Consolidate; May be Weighed by Fed Rate-Hike Expectat" | kw:fed rate
+2026-06-25 01:31 ACCEPT [Google News CB] "Exclusive-Japan government will urge BOJ to support private demand, dr" | kw:boj
+2026-06-25 01:31 ACCEPT [Google News CB] "US dollar strengthens to 13-month high on Fed rate hike expectations -" | kw:fed rate,rate hike
+2026-06-25 01:31 SKIP_MORNING already_sent date=2026-06-25
