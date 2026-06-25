@@ -5669,3 +5669,9 @@
 2026-06-25 04:01 ACCEPT [Google News HH] "Oil News: Crude Oil Outlook Sours as Physical Discounts Spread Globall" | kw:oil,crude
 2026-06-25 04:01 ACCEPT [Google News HH] "Price to sales forward of Davis Commodities Limited – OTC:DTCKF - Trad" | kw:rice,commodities
 2026-06-25 04:01 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 04:31 ACCEPT [Google News HH] "Oil News: Crude Oil Outlook Sours as Physical Discounts Spread Globall" | kw:oil,crude
+2026-06-25 04:31 ACCEPT [Google News KL] "Gold Price Forecast: Impending Death Cross hints at more XAU/USD downs" | kw:gold,rice
+2026-06-25 04:31 ACCEPT [Google News NS] "Weather continues to put pressure on corn, soybeans - Brownfield Ag Ne" | kw:corn,soybean
+2026-06-25 04:31 ACCEPT [Google News NS] "Wheat Fades Back on Wednesday - Barchart.com" | kw:wheat
+2026-06-25 04:31 ACCEPT [Google News CB] "Japan Government Pushes BOJ to Support Growth, Raising Questions Over " | kw:rate hike,boj
+2026-06-25 04:31 SKIP_MORNING already_sent date=2026-06-25
