@@ -5719,3 +5719,12 @@
 2026-06-25 07:01 ACCEPT [Google News CB] "BOJ Sees AI Export Boom Cushioning Economy From Oil Price Shock - Bloo" | kw:oil,rice,boj
 2026-06-25 07:01 ACCEPT [Google News CB] "Will Falling Oil Prices Be Enough to Solve the Fed’s Inflation Problem" | kw:oil,rice,inflation
 2026-06-25 07:01 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 07:31 ACCEPT [BBC Business] "Oil price falls to levels not seen since before Iran war" | kw:oil,rice
+2026-06-25 07:31 ACCEPT [OilPrice.com] "Qatar Signs Crude Deal With Taiwan as Gulf Oil Trade Recovers" | kw:oil,crude
+2026-06-25 07:31 ACCEPT [Google News KL] "Gold: Rates repricing weighs on haven appeal – BNY - FXStreet" | kw:gold
+2026-06-25 07:31 ACCEPT [Google News NS] "Energy, El Niño and Geopolitics Fuel Bullish Grain Market - AG INFORMA" | kw:fuel
+2026-06-25 07:31 ACCEPT [Google News NS] "Tar spot detected early in Kansas; scout cornfields now - Farm Progres" | kw:corn
+2026-06-25 07:31 ACCEPT [Google News NS] "Cultured Wheat-Based Mold Inhibitors for Bakery Market to Reach USD 26" | kw:wheat
+2026-06-25 07:31 ACCEPT [Google News CB] "ECB will need to raise rates further, Schnabel says - Reuters" | kw:ecb
+2026-06-25 07:31 ACCEPT [Google News CB] "ECB will need to raise rates further, Schnabel says - Yahoo! Finance C" | kw:ecb
+2026-06-25 07:31 SKIP_MORNING already_sent date=2026-06-25
