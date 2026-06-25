@@ -6096,3 +6096,18 @@
 2026-06-25 16:01 ACCEPT [Google News CB] "Treasuries Climb as Benign US Inflation Eases Bets on a Fed Hike - Blo" | kw:inflation
 2026-06-25 16:01 SKIP_MORNING already_sent date=2026-06-25
 2026-06-25 16:01 SKIP_EVENING already_sent date=2026-06-25
+2026-06-25 16:31 ACCEPT [MarketWatch] "Iran tightens its grip on Strait of Hormuz, sending oil higher" | kw:oil
+2026-06-25 16:31 ACCEPT [OilPrice.com] "Major Saudi Oil Terminal Roars Back to Life as Gulf Supply Recovery Ac" | kw:oil,crude
+2026-06-25 16:31 ACCEPT [Google News HH] "Iraq Says Reports of Possible OPEC Exit Do Not Reflect Official Positi" | kw:opec
+2026-06-25 16:31 ACCEPT [Google News HH] "Persian Gulf Crude Oil Exports Rebound to 75% of Prewar Levels - Bloom" | kw:oil,crude
+2026-06-25 16:31 ACCEPT [Google News HH] "Iraqi Oil Ministry denies reports of potential OPEC exit, urges output" | kw:oil,opec
+2026-06-25 16:31 ACCEPT [Google News KL] "Silver's squeeze has unwound, but the shortage has not - FXStreet" | kw:silver,shortage
+2026-06-25 16:31 ACCEPT [Google News KL] "Market expectations of Federal Reserve rate hikes reshape markets, wit" | kw:gold,rice,rate hike
+2026-06-25 16:31 ACCEPT [Google News KL] "Gold price in Pakistan: Rates on June 25 - FXStreet" | kw:gold,rice
+2026-06-25 16:31 ACCEPT [Google News KL] "Gold and Silver Prices Edge Higher as Bargain Hunters Step In; Fed Rat" | kw:gold,silver,rice
+2026-06-25 16:31 ACCEPT [Google News NS] "USDA AgTransport Export Sales Report (June 18, 2026): Corn, Soybean, W" | kw:wheat,corn,soybean
+2026-06-25 16:31 ACCEPT [Google News CB] "Inflation hits 3-year high, pressuring Fed to raise rates as election " | kw:inflation
+2026-06-25 16:31 ACCEPT [Google News CB] "Brazil central bank says policy horizon unchanged after market confusi" | kw:central bank
+2026-06-25 16:31 ACCEPT [Google News CB] "Key Fed inflation gauge rises to three-year high in May after gas pric" | kw:gas,rice,inflation
+2026-06-25 16:31 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 16:31 SKIP_EVENING already_sent date=2026-06-25
