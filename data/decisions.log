@@ -5855,3 +5855,23 @@
 2026-06-25 11:31 ACCEPT [Google News CB] "BOJ to Raise Rates Every Few Months: Policymaker Tamura - nippon.com" | kw:boj
 2026-06-25 11:31 ACCEPT [Google News CB] "With No Interest Rate Cut, Should You Sell SoFi Stock? - Yahoo Finance" | kw:interest rate,rate cut
 2026-06-25 11:31 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 12:01 ACCEPT [MarketWatch] "Why Iraq’s threat to leave OPEC may be the final nail in the cartel’s " | kw:opec
+2026-06-25 12:01 ACCEPT [MarketWatch] "‘GTA 6’ preorders are live — and pack an unpleasant surprise for gamer" | kw:rice
+2026-06-25 12:01 ACCEPT [Google News HH] "Iraqi Oil Ministry denies reports of potential OPEC exit, urges output" | kw:oil,opec
+2026-06-25 12:01 ACCEPT [Google News HH] "Iraq denies reports of OPEC exit, reaffirms commitment to group - Türk" | kw:opec
+2026-06-25 12:01 ACCEPT [Google News HH] "Iraq warns it might leave OPEC if oil quota not raised, sources say - " | kw:oil,opec
+2026-06-25 12:01 ACCEPT [Google News HH] "Forex trading a bullish USD – WTI Crude Oil, Gold, and Silver falling " | kw:oil,crude,wti
+2026-06-25 12:01 ACCEPT [Google News HH] "Iraq retracts threat to leave OPEC over output limits - Crypto Briefin" | kw:opec
+2026-06-25 12:01 ACCEPT [Google News HH] "Iraq dismisses OPEC exit reports - Shafaq News | Latest breaking news " | kw:opec
+2026-06-25 12:01 ACCEPT [Google News HH] "OPEC's second-largest oil producer is pressuring to raise its producti" | kw:oil,opec
+2026-06-25 12:01 ACCEPT [Google News KL] "Gold prices today, Thursday, June 25, 2026: Prices fall below $4,000 f" | kw:gold,rice
+2026-06-25 12:01 ACCEPT [Google News KL] "Gold, silver prices slip as strong dollar, Fed outlook weigh - MSN" | kw:gold,silver,rice
+2026-06-25 12:01 ACCEPT [Google News KL] "Axo Metals Eyes Near-Term Gold Production at San Antonio With Septembe" | kw:gold
+2026-06-25 12:01 ACCEPT [Google News KL] "Why Gold Is Going Down? XAU/USD Price Falls Below $4,000 for First Tim" | kw:gold,rice
+2026-06-25 12:01 ACCEPT [Google News NS] "Demand for Ukrainian corn remains low, despite the fact that the quota" | kw:corn
+2026-06-25 12:01 ACCEPT [Google News NS] "Oil prices fall to 3.5-month low as Iranian exports surge - електронна" | kw:oil,rice
+2026-06-25 12:01 ACCEPT [ECB Press] "Piero Cipollone: Central bank money for the digital era" | kw:central bank
+2026-06-25 12:01 ACCEPT [Google News CB] "The Fed Isn't Cutting Interest Rates Anytime Soon -- and Kevin Warsh I" | kw:interest rate
+2026-06-25 12:01 ACCEPT [Google News CB] "Indian central bank proposes stricter oversight of AI/ ML risks for ba" | kw:central bank
+2026-06-25 12:01 ACCEPT [Google News CB] "Can US core PCE inflation support expectations for higher Fed rates? -" | kw:inflation,fed rate
+2026-06-25 12:01 SKIP_MORNING already_sent date=2026-06-25
