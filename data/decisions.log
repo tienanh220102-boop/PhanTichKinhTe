@@ -5823,3 +5823,10 @@
 2026-06-25 10:31 ACCEPT [Google News CB] "Gold hovers near 7-mth low as hawkish Fed outlook boosts dollar - Inve" | kw:gold
 2026-06-25 10:31 ACCEPT [Google News CB] "ECB will need to raise rates further, Schnabel says By Reuters - Inves" | kw:ecb
 2026-06-25 10:31 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 10:35 ACCEPT [NASDAQ Commod] "Gold Subdued Below $4,000 On Inflation And Rate Hike Concerns" | kw:gold,rice,inflation
+2026-06-25 10:35 ACCEPT [NASDAQ Commod] "Oil Extends Losses As Supply Fears Fade" | kw:oil,rice
+2026-06-25 10:35 ACCEPT [Google News HH] "Crude Oil Separates Without Boiling: KAIST and Georgia Tech Develop En" | kw:oil,crude
+2026-06-25 10:35 ACCEPT [Google News NS] "Winter Wheat Basis Conditions in the Golden Triangle - Montana State U" | kw:gold,wheat
+2026-06-25 10:35 ACCEPT [Google News CB] "ECB Will Need to Raise Rates Further, Schnabel Says - U.S. News - Mone" | kw:ecb
+2026-06-25 10:35 ACCEPT [Google News CB] "Dollar skims 13-month highs as investors bank on rate hikes - Yahoo Fi" | kw:rate hike
+2026-06-25 10:35 SKIP_MORNING already_sent date=2026-06-25
