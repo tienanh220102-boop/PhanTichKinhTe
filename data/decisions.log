@@ -5830,3 +5830,6 @@
 2026-06-25 10:35 ACCEPT [Google News CB] "ECB Will Need to Raise Rates Further, Schnabel Says - U.S. News - Mone" | kw:ecb
 2026-06-25 10:35 ACCEPT [Google News CB] "Dollar skims 13-month highs as investors bank on rate hikes - Yahoo Fi" | kw:rate hike
 2026-06-25 10:35 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 11:01 ACCEPT [BBC Business] "Oil price falls back to pre-Iran war levels" | kw:oil,rice,shipping
+2026-06-25 11:01 ACCEPT [Al Jazeera] "As Ukraine seizes ‘first chance to win’, war horrors come home to Russ" | kw:oil
+2026-06-25 11:02 SKIP_MORNING already_sent date=2026-06-25
