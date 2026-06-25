@@ -5775,3 +5775,21 @@
 2026-06-25 09:01 ACCEPT [Google News NS] "Corn yield countdown: 8 critical weeks follow tasseling - Farm Progres" | kw:corn
 2026-06-25 09:01 ACCEPT [Google News NS] "Turkey farmer helps rescue family from flooded car - Farm Progress" | kw:flood
 2026-06-25 09:01 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 09:31 ACCEPT [Al Jazeera] "Iran warns against Hormuz crossings without authorisation" | kw:oil
+2026-06-25 09:31 ACCEPT [OilPrice.com] "Iraq Could Quit OPEC in Bid to Pump More Oil" | kw:oil,opec
+2026-06-25 09:31 ACCEPT [Google News HH] "EXCLUSIVE: Iraq to consider all options if OPEC quota not raised, has " | kw:opec
+2026-06-25 09:31 ACCEPT [Google News HH] "Iraq warns it may leave OPEC unless output quota is raised: Report - A" | kw:opec
+2026-06-25 09:31 ACCEPT [Google News HH] "Could Iraq Quit OPEC if Production Quota Dispute Escalates? - Modern D" | kw:opec
+2026-06-25 09:31 ACCEPT [Google News HH] "Iraq threatens to leave Opec if demands for higher production quota ar" | kw:opec
+2026-06-25 09:31 ACCEPT [Google News HH] "Membrane tech cuts crude oil refining energy use - The Engineer - Home" | kw:oil,crude
+2026-06-25 09:31 ACCEPT [Google News HH] "WTI Crude Drops Below $70; Iraq Pressures OPEC With "Tactical Retreat"" | kw:crude,opec,wti
+2026-06-25 09:31 ACCEPT [Google News HH] "Iraq considers leaving OPEC to increase oil output - Iraqi News" | kw:oil,opec
+2026-06-25 09:31 ACCEPT [Google News HH] "Gold Price on 24 June 2026 - Gold Price" | kw:gold,rice
+2026-06-25 09:31 ACCEPT [Google News HH] "Oil touches prewar levels on rising Middle East supply - Reuters" | kw:oil
+2026-06-25 09:31 ACCEPT [Google News HH] "Iraq threatens to quit OPEC exit amid quota row - Latest news from Aze" | kw:opec
+2026-06-25 09:31 ACCEPT [Google News HH] "OPEC faces new turmoil as Iraq considers exit over oil quotas - The Ne" | kw:oil,opec
+2026-06-25 09:31 ACCEPT [Google News HH] "Gold price in Pakistan: Rates on June 25 - FXStreet" | kw:gold,rice
+2026-06-25 09:31 ACCEPT [Google News KL] "Gold sinks below $4,000 to seven-month low as dollar surges - MSN" | kw:gold
+2026-06-25 09:31 ACCEPT [Google News CB] "Most Gulf markets ease on weaker oil, Fed rate-hike bets - Reuters" | kw:oil,fed rate
+2026-06-25 09:31 ACCEPT [Google News CB] "BOJ outlook shift hasn't really translated to the yen - MUFG - investi" | kw:boj
+2026-06-25 09:31 SKIP_MORNING already_sent date=2026-06-25
