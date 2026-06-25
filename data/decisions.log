@@ -5833,3 +5833,25 @@
 2026-06-25 11:01 ACCEPT [BBC Business] "Oil price falls back to pre-Iran war levels" | kw:oil,rice,shipping
 2026-06-25 11:01 ACCEPT [Al Jazeera] "As Ukraine seizes ‘first chance to win’, war horrors come home to Russ" | kw:oil
 2026-06-25 11:02 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 11:31 ACCEPT [The Guardian Biz] "Oil price falls to pre-Iran war levels as more tankers exit strait of " | kw:oil,rice
+2026-06-25 11:31 ACCEPT [OilPrice.com] "ADNOC Brings BP, TotalEnergies Into Abu Dhabi’s Biggest Gas Cap Projec" | kw:oil,gas
+2026-06-25 11:31 ACCEPT [Google News HH] "Iraq Walks Back Threat on Leaving OPEC Over Output Limits - Bloomberg" | kw:opec
+2026-06-25 11:31 ACCEPT [Google News HH] "U.S. Crude-Oil Pipelines Approach $3.5 Billion in Third-Quarter K... -" | kw:oil,crude
+2026-06-25 11:31 ACCEPT [Google News HH] "Iraq may quit OPEC without higher oil production quota - Shafaq News |" | kw:oil,opec
+2026-06-25 11:31 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD holds onto losses below $4,000 ahead of U" | kw:gold,rice,inflation
+2026-06-25 11:31 ACCEPT [Google News HH] "Price to earnings forward of Davis Commodities Limited – OTC:DTCKF - T" | kw:rice,commodities
+2026-06-25 11:31 ACCEPT [Google News HH] "Iraq says reports of possible OPEC exit do not reflect official positi" | kw:opec
+2026-06-25 11:31 ACCEPT [Google News HH] "Oil touches pre-war levels on rising Middle East supply - Reuters" | kw:oil
+2026-06-25 11:31 ACCEPT [Google News HH] "Iraq signals possible OPEC withdrawal if quotas remain unchanged - Cal" | kw:opec
+2026-06-25 11:31 ACCEPT [Google News KL] "Why gold prices fell below $4,000 - Axios" | kw:gold,rice
+2026-06-25 11:31 ACCEPT [Google News KL] "Hemlo Mining Corp. Announces Increased Mineral Resource Estimate for t" | kw:gold
+2026-06-25 11:31 ACCEPT [Google News KL] "Gold price falls back to the 3,000s range and retraces 30% in half a y" | kw:gold,rice
+2026-06-25 11:31 ACCEPT [Google News NS] "World soybean prices are putting pressure on the Ukrainian market: pro" | kw:soybean,rice
+2026-06-25 11:31 ACCEPT [Google News CB] "Banking Analytics: U.S. Banks Increase Treasury Securities Holdings in" | kw:treasury,federal reserve
+2026-06-25 11:31 ACCEPT [Google News CB] "Oil and gas activity picks up despite Iran uncertainty, Dallas Fed say" | kw:oil,gas
+2026-06-25 11:31 ACCEPT [Google News CB] "With No Interest Rate Cut, Should You Sell SoFi Stock? - The Motley Fo" | kw:interest rate,rate cut
+2026-06-25 11:31 ACCEPT [Google News CB] "Gold lingers near 7-month low as Fed hike bets boost dollar - Reuters" | kw:gold
+2026-06-25 11:31 ACCEPT [Google News CB] "Why Is the Federal Reserve Paying Banks Billions in Interest? - The Da" | kw:federal reserve
+2026-06-25 11:31 ACCEPT [Google News CB] "BOJ to Raise Rates Every Few Months: Policymaker Tamura - nippon.com" | kw:boj
+2026-06-25 11:31 ACCEPT [Google News CB] "With No Interest Rate Cut, Should You Sell SoFi Stock? - Yahoo Finance" | kw:interest rate,rate cut
+2026-06-25 11:31 SKIP_MORNING already_sent date=2026-06-25
