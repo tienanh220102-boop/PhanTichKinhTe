@@ -5650,3 +5650,9 @@
 2026-06-25 03:01 ACCEPT [Google News CB] "Hawkish BOJ policymaker calls for rate hike once every few months By R" | kw:rate hike,boj
 2026-06-25 03:01 ACCEPT [Google News CB] "BoJ Hawk Tamura Calls for Rate Hike Every Few Months - TradingView" | kw:rate hike,boj
 2026-06-25 03:01 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 03:31 ACCEPT [Google News HH] "Gold price stabilizes near $4,000 after sharp drop - Українські Націон" | kw:gold,rice
+2026-06-25 03:31 ACCEPT [Google News HH] "Enterprise value to revenue forward of Davis Commodities Limited – OTC" | kw:commodities
+2026-06-25 03:31 ACCEPT [Google News KL] "Silver Price Slumps to New Yearly Low as Fed Rate Hike Fears Intensify" | kw:silver,rice,fed rate
+2026-06-25 03:31 ACCEPT [Google News NS] "Peruvian Mountain's 5,200 Aligned Holes May Unveil Ancient Indigenous " | kw:corn,cotton
+2026-06-25 03:31 ACCEPT [Google News CB] "Hawkish BOJ policymaker calls for rate hike once every few months By R" | kw:rate hike,boj
+2026-06-25 03:31 SKIP_MORNING already_sent date=2026-06-25
