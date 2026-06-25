@@ -5983,3 +5983,89 @@
 2026-06-25 15:01 ACCEPT [Google News CB] "ECB board member floats further rate hikes as bank wary over Iran deal" | kw:rate hike,ecb
 2026-06-25 15:01 SKIP_MORNING already_sent date=2026-06-25
 2026-06-25 15:01 SKIP_EVENING already_sent date=2026-06-25
+2026-06-25 15:31 ACCEPT [MarketWatch] "First-quarter GDP gets big boost, but it’s not really great news" | kw:gdp
+2026-06-25 15:31 ACCEPT [MarketWatch] "Apple’s MacBooks and iPads are getting more expensive as the memory cr" | kw:rice
+2026-06-25 15:31 ACCEPT [MarketWatch] "Consumer spending rises again — and now cheaper gas is on the way" | kw:gas,inflation
+2026-06-25 15:31 ACCEPT [BBC Business] "Apple hikes MacBook and iPad prices, blaming rising chip costs" | kw:rice
+2026-06-25 15:31 ACCEPT [BBC Business] "Trump accuses big oil firms of price-gouging drivers" | kw:oil,fuel,rice
+2026-06-25 15:31 ACCEPT [BBC Business] "Do you know your 'sweat score'? The rise of hydration tech" | kw:flood
+2026-06-25 15:31 ACCEPT [BBC Business] "India's 'blue gold' starts a new drinks industry" | kw:gold
+2026-06-25 15:31 ACCEPT [The Guardian Biz] "California drivers sue gas stations for allegedly using AI to inflate " | kw:gas,rice
+2026-06-25 15:31 ACCEPT [CNBC Commodities] "The average SpaceX buyer post-IPO is almost under water after two-day " | kw:rice
+2026-06-25 15:31 ACCEPT [CNBC Commodities] "More united Fed board seen at Warsh's first meeting, according to Kals" | kw:fomc
+2026-06-25 15:31 ACCEPT [CNBC Economy] "Bank of England holds interest rates at 3.75% amid Iran war peace pros" | kw:monetary policy,interest rate,bank of england
+2026-06-25 15:31 ACCEPT [CNBC Economy] "UK inflation holds steady at 2.8% in May" | kw:inflation,monetary policy,bank of england
+2026-06-25 15:31 ACCEPT [CNBC Economy] "Household worries over finances hit highest level since July 2022, New" | kw:inflation,central bank
+2026-06-25 15:31 ACCEPT [CNBC Economy] "Iran war cost: Average U.S. household paying $450 more on gas and ener" | kw:gas
+2026-06-25 15:31 ACCEPT [OilPrice.com] "UK Energy Secretary Vetoed Plan to Boost Oil Output for Defense Funds" | kw:oil,gas,treasury
+2026-06-25 15:31 ACCEPT [OilPrice.com] "AI Data Center Boom Could Drive Fuel Cell Market to $30 Billion by 203" | kw:fuel
+2026-06-25 15:31 ACCEPT [OilPrice.com] "Middle East Fuel Oil Exports Set to Hit Four-Month High" | kw:oil,fuel
+2026-06-25 15:31 ACCEPT [OilPrice.com] "ADNOC Cuts Murban Crude Price to $101.48 as Hormuz Tensions Ease" | kw:oil,crude,rice
+2026-06-25 15:31 ACCEPT [OilPrice.com] "Iraq Could Quit OPEC in Bid to Pump More Oil" | kw:oil,opec
+2026-06-25 15:31 ACCEPT [OilPrice.com] "Qatar Signs Crude Deal With Taiwan as Gulf Oil Trade Recovers" | kw:oil,crude
+2026-06-25 15:31 ACCEPT [Mining.com] "NexMetals upgrades Selkirk copper resource to 1.1B lb." | kw:copper
+2026-06-25 15:31 ACCEPT [Mining.com] "Gold price back above $4,200 on US-Iran deal progress" | kw:gold,rice
+2026-06-25 15:31 ACCEPT [Mining.com] "Timeline: The Oyu Tolgoi saga" | kw:gold,copper
+2026-06-25 15:31 ACCEPT [Mining.com] "Kazatomprom CEO Meirzhan Yussupov on uranium markets, China and nuclea" | kw:fuel
+2026-06-25 15:31 ACCEPT [EIA Energy] "Higher blending targets drive RIN prices close to record highs" | kw:gas,fuel,rice
+2026-06-25 15:31 ACCEPT [EIA Energy] "U.S. natural gas storage capacity increased slightly in 2025" | kw:gas
+2026-06-25 15:31 ACCEPT [EIA Energy] "California natural gas prices reach historic lows in early 2026" | kw:gas,rice
+2026-06-25 15:31 ACCEPT [EIA Energy] "The United States is a major energy exporter and importer, especially " | kw:petroleum
+2026-06-25 15:31 ACCEPT [EIA Energy] "Data center server energy use grows across the commercial building sto" | kw:easing
+2026-06-25 15:31 ACCEPT [EIA Energy] "The United States set record energy production in 2025, again" | kw:oil,crude,gas
+2026-06-25 15:31 ACCEPT [NASDAQ Commod] "MINE Stock Crowded With Sellers" | kw:gold
+2026-06-25 15:31 ACCEPT [NASDAQ Commod] "Shares of GAU Now Oversold" | kw:gold
+2026-06-25 15:31 ACCEPT [NASDAQ Commod] "Crude Oil Plunges Amid Increasing Shipping Traffic Across The Strait O" | kw:oil,crude,rice
+2026-06-25 15:31 ACCEPT [NASDAQ Commod] "Crude Oil Slides Amid Resumption Of Shipping Traffic Across The Strait" | kw:oil,crude,rice
+2026-06-25 15:31 ACCEPT [Google News HH] "Iraq Could Quit OPEC in Bid to Pump More Oil - Crude Oil Prices Today " | kw:oil,crude,opec
+2026-06-25 15:31 ACCEPT [Google News HH] "Global crude oil demand may already have peaked, says FGE - Quantum Co" | kw:oil,crude,commodity
+2026-06-25 15:31 ACCEPT [Google News HH] "US commercial crude oil inventories have decreased in June - Hydrocarb" | kw:oil,crude
+2026-06-25 15:31 ACCEPT [Google News HH] "August WTI Crude Oil futures dropped as tensions eased. - CME Group" | kw:oil,crude,lng
+2026-06-25 15:31 ACCEPT [Google News HH] "Gold Price Today: Gold Falls 3.06% on June 25, 2026 - USA Today" | kw:gold,rice
+2026-06-25 15:31 ACCEPT [Google News HH] "OPEC oil producer group membership timeline - Reuters" | kw:oil,opec
+2026-06-25 15:31 ACCEPT [Google News HH] "Iraq Walks Back Threat on Leaving OPEC Over Output Limits - Bloomberg." | kw:opec
+2026-06-25 15:31 ACCEPT [Google News HH] "Iraq warns it may leave OPEC unless output quota is raised: Report - A" | kw:opec
+2026-06-25 15:31 ACCEPT [Google News HH] "OPEC oil producer group membership timeline - TradingView" | kw:oil,opec
+2026-06-25 15:31 ACCEPT [Google News HH] "Vivakor adds Cushing crude deal, pushing contracted revenue to $420M -" | kw:crude
+2026-06-25 15:31 ACCEPT [Google News HH] "After UAE, Iraq considers leaving OPEC - Наша Ніва" | kw:opec
+2026-06-25 15:31 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD holds onto losses below $4,000 ahead of U" | kw:gold,rice,inflation
+2026-06-25 15:31 ACCEPT [Google News KL] "Gold hovers around $4,000, silver holds below $60 — has the shimmer wo" | kw:gold,silver
+2026-06-25 15:31 ACCEPT [Google News KL] "Analysts Reduce 2026 Gold Forecast as Price Tumbles to New Low - jckon" | kw:gold,rice
+2026-06-25 15:31 ACCEPT [Google News KL] "Gold Plunge Stalls as China Shuts Retail Trading, Curbs Inflows to Hot" | kw:gold
+2026-06-25 15:31 ACCEPT [Google News KL] "Gold ETFs could see fresh outflows on rising bets on Fed monetary tigh" | kw:gold,tightening
+2026-06-25 15:31 ACCEPT [Google News KL] "3 Gold Stocks Facing Pressure From Higher Rates And A Stronger Dollar " | kw:gold
+2026-06-25 15:31 ACCEPT [Google News KL] "Silver Price Analysis – Silver Continues to Look Threatened - FXEmpire" | kw:silver,rice
+2026-06-25 15:31 ACCEPT [Google News KL] "Silver Price Forecast: Falls to 2025 Lows as Inflation Hits 4.2% - Cry" | kw:silver,rice,inflation
+2026-06-25 15:31 ACCEPT [Google News KL] "Concentrate supply remains tightest segment of copper value chain: Nor" | kw:copper,nickel
+2026-06-25 15:31 ACCEPT [Google News KL] "Gold, silver price prediction: Should you buy the dip as gold, silver " | kw:gold,silver,rice
+2026-06-25 15:31 ACCEPT [Google News NS] "History points to weak chances of summer price recovery in corn market" | kw:corn,rice
+2026-06-25 15:31 ACCEPT [Google News NS] "Winter Wheat Basis Conditions in the Golden Triangle - Montana State U" | kw:gold,wheat
+2026-06-25 15:31 ACCEPT [Google News NS] "Corn Likely to See Greatest Impact From European Drought - DTN Progres" | kw:corn,drought
+2026-06-25 15:31 ACCEPT [Google News NS] "After the Bell | Winter wheat gives up early-session gains - Pro Farme" | kw:wheat
+2026-06-25 15:31 ACCEPT [Google News NS] "More rain needed on southern Minnesota corn, soybean farm - Farm Progr" | kw:corn,soybean
+2026-06-25 15:31 ACCEPT [Google News NS] "Wheat Showing Slight Losses Early on Thursday - Barchart.com" | kw:wheat
+2026-06-25 15:31 ACCEPT [Google News NS] "Farmers markets vs. chains: Comparing in-season produce prices - wbbjt" | kw:rice
+2026-06-25 15:31 ACCEPT [Google News NS] "World soybean prices are putting pressure on the Ukrainian market: pro" | kw:soybean,rice
+2026-06-25 15:31 ACCEPT [RT Business] "Russian SMEs growing on stronger supply chains to giants" | kw:supply chain,easing
+2026-06-25 15:31 ACCEPT [RT Business] "US extends Russian oil waiver" | kw:oil,sanction,treasury
+2026-06-25 15:31 ACCEPT [RT Business] "Oil prices now determined by Trump’s mood – Fico" | kw:oil,rice
+2026-06-25 15:31 ACCEPT [Fed Monetary] "Federal Reserve Board and Federal Open Market Committee release econom" | kw:federal reserve,fomc
+2026-06-25 15:31 ACCEPT [Fed Monetary] "Federal Reserve issues FOMC statement" | kw:federal reserve,fomc
+2026-06-25 15:31 ACCEPT [Fed Monetary] "Federal Reserve issues FOMC statement" | kw:federal reserve,fomc
+2026-06-25 15:31 ACCEPT [Fed Monetary] "Federal Open Market Committee reaffirms its "Statement on Longer-Run G" | kw:monetary policy
+2026-06-25 15:31 ACCEPT [ECB Press] "ECB to integrate non-financial credit claim portfolios into general co" | kw:ecb
+2026-06-25 15:31 ACCEPT [ECB Press] "ECB reports on progress towards euro adoption" | kw:ecb
+2026-06-25 15:31 ACCEPT [Google News CB] "The Fed's preferred inflation gauge shows prices rising at fastest pac" | kw:rice,inflation
+2026-06-25 15:31 ACCEPT [Google News CB] "Banking Analytics: U.S. Banks Increase Treasury Securities Holdings in" | kw:treasury,federal reserve
+2026-06-25 15:31 ACCEPT [Google News CB] "ECB to integrate non-financial credit claim portfolios into general co" | kw:central bank,ecb
+2026-06-25 15:31 ACCEPT [Google News CB] "Gold falls below $4,000 on Fed rate hike bets under Kevin Warsh - qz.c" | kw:gold,fed rate,rate hike
+2026-06-25 15:31 ACCEPT [Google News CB] "ECB Will Need to Raise Interest Rates Again, Schnabel Says - WSJ" | kw:interest rate,ecb
+2026-06-25 15:31 ACCEPT [Google News CB] "US bond market expects rate hikes the Fed may never deliver - Reuters" | kw:rate hike
+2026-06-25 15:31 ACCEPT [Google News CB] "India's central bank issues final rules on credit derivatives - Reuter" | kw:central bank
+2026-06-25 15:31 ACCEPT [Google News CB] "CBDCs gain ground as monetary policy falters - GIS Reports" | kw:monetary policy
+2026-06-25 15:31 ACCEPT [Google News CB] "The Fed may raise interest rates within months. Here's what it means f" | kw:interest rate
+2026-06-25 15:31 ACCEPT [Google News CB] "Oil and Natural Gas Executives Optimistic on Waha, Fed Up With Iran Wa" | kw:oil,gas
+2026-06-25 15:31 ACCEPT [Google News CB] "ECB's Schnabel sees more tightening even after Iran ceasefire - Reuter" | kw:ecb,tightening
+2026-06-25 15:31 ACCEPT [Google News CB] "Dollar index erases gains and turns lower after May PCE data - CNBC" | kw:dollar index
+2026-06-25 15:31 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 15:31 SKIP_EVENING already_sent date=2026-06-25
