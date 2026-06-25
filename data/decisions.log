@@ -5675,3 +5675,8 @@
 2026-06-25 04:31 ACCEPT [Google News NS] "Wheat Fades Back on Wednesday - Barchart.com" | kw:wheat
 2026-06-25 04:31 ACCEPT [Google News CB] "Japan Government Pushes BOJ to Support Growth, Raising Questions Over " | kw:rate hike,boj
 2026-06-25 04:31 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 05:01 ACCEPT [Google News HH] "Gold price in India: Rates on June 25 - FXStreet" | kw:gold,rice
+2026-06-25 05:01 ACCEPT [Google News KL] "Gold and silver price today, June 25: Check rates of 24K, 22K gold in " | kw:gold,silver,rice
+2026-06-25 05:01 ACCEPT [Google News CB] "Rate hikes needed every few months, hawkish BOJ board member says - Th" | kw:rate hike,boj
+2026-06-25 05:01 ACCEPT [Google News CB] "Gold Edges Higher, But Fed Rate-Hike Expectations Weigh - WSJ" | kw:gold,fed rate
+2026-06-25 05:01 SKIP_MORNING already_sent date=2026-06-25
