@@ -5919,3 +5919,20 @@
 2026-06-25 13:11 ACCEPT [Google News CB] "Fed’s Preferred Inflation Gauge Climbs Above Target Range - WSJ" | kw:inflation
 2026-06-25 13:11 SKIP_MORNING already_sent date=2026-06-25
 2026-06-25 13:11 SKIP_EVENING already_sent date=2026-06-25
+2026-06-25 13:31 ACCEPT [The Guardian Biz] "Datacentres are growing target of global climate-related legal cases, " | kw:iron,easing
+2026-06-25 13:31 ACCEPT [Al Jazeera] "Venezuela quakes: How will sanctions impact aid operations?" | kw:sanction
+2026-06-25 13:31 ACCEPT [OilPrice.com] "ADNOC Cuts Murban Crude Price to $101.48 as Hormuz Tensions Ease" | kw:oil,crude,rice
+2026-06-25 13:31 ACCEPT [Mining.com] "Metals.io opens cobalt, nickel to retail investors" | kw:nickel,commodities
+2026-06-25 13:31 ACCEPT [Google News KL] "Current price of silver as of Thursday, June 25, 2026 - Fortune" | kw:silver,rice
+2026-06-25 13:31 ACCEPT [Google News KL] "Gold steadies above $4,000 as Fed hike odds reset markets - Kitco AM R" | kw:gold
+2026-06-25 13:31 ACCEPT [Google News KL] "Silver Price Analysis – Silver Continues to Look Threatened - FXEmpire" | kw:silver,rice
+2026-06-25 13:31 ACCEPT [Google News KL] "Gold Price Analysis – Gold Continues to Test Support Level - FXEmpire" | kw:gold,rice
+2026-06-25 13:31 ACCEPT [Google News NS] "Wheat and Cattle Bounce; Mixed to Lower Elsewhere - Dakota News Networ" | kw:wheat
+2026-06-25 13:31 ACCEPT [Google News NS] "Wheat Futures Ease as Weather Outlook Weighs on Contracts - TradingPed" | kw:wheat
+2026-06-25 13:31 ACCEPT [Google News CB] "Fed's preferred inflation measure hits 3-year high, keeping talk of po" | kw:inflation,rate hike
+2026-06-25 13:31 ACCEPT [Google News CB] "Brazil's central bank sees 2028 inflation close to target despite near" | kw:inflation,central bank
+2026-06-25 13:31 ACCEPT [Google News CB] "Dollar hits 13-month highs as investors bank on rate hikes - Reuters" | kw:rate hike
+2026-06-25 13:31 ACCEPT [Google News CB] "Oil Crashes Below $70. Are Federal Reserve Interest Rate Hikes Behind " | kw:oil,interest rate,rate hike
+2026-06-25 13:31 ACCEPT [Google News CB] "Core inflation hits 2023 high as Fed rate hike odds climb - mpamag.com" | kw:inflation,fed rate,rate hike
+2026-06-25 13:31 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 13:31 SKIP_EVENING already_sent date=2026-06-25
