@@ -5733,3 +5733,19 @@
 2026-06-25 07:35 ACCEPT [Google News KL] "[SMM Nickel Midday Review] June 25: Nickel prices fall below the 130,0" | kw:nickel,rice
 2026-06-25 07:35 ACCEPT [Google News CB] "US core PCE inflation set to tick up, giving Fed more reasons to raise" | kw:inflation
 2026-06-25 07:35 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 08:01 ACCEPT [MarketWatch] "These hidden PCE inflation triggers could force a Fed rate hike — and " | kw:inflation,fed rate,rate hike
+2026-06-25 08:01 ACCEPT [Al Jazeera] "ICC judges sue Trump over sanctions, call measures unlawful" | kw:sanction
+2026-06-25 08:01 ACCEPT [Google News HH] "Iraq to consider all options if OPEC quota is not raised, has weighed " | kw:opec
+2026-06-25 08:01 ACCEPT [Google News HH] "Crude Oil Returns to Prewar Levels as Traders Reassess Risk Premiums -" | kw:oil,crude
+2026-06-25 08:01 ACCEPT [Google News HH] "Exclusive-Iraq to Consider All Options if OPEC Quota Is Not Raised, Ha" | kw:opec
+2026-06-25 08:01 ACCEPT [Google News HH] "Iraq to consider all options if OPEC quota is not raised - middle-east" | kw:opec
+2026-06-25 08:01 ACCEPT [Google News HH] "Iraq to consider all options if OPEC quota is not raised, has weighed " | kw:opec
+2026-06-25 08:01 ACCEPT [Google News HH] "OPEC Fund advances $2.4 billion in development financing across Africa" | kw:opec
+2026-06-25 08:01 ACCEPT [Google News HH] "Gold Price Forecast: Gold Price Falls Below $4,000, PCE Data May Push " | kw:gold,rice
+2026-06-25 08:01 ACCEPT [Google News NS] "Farmers markets vs. chains: Comparing in-season produce prices - wbbjt" | kw:rice
+2026-06-25 08:01 ACCEPT [Google News NS] "Brazil loses ground to U.S. in soybean sales to China - DatamarNews" | kw:soybean
+2026-06-25 08:01 ACCEPT [ECB Press] "ECB to integrate non-financial credit claim portfolios into general co" | kw:ecb
+2026-06-25 08:01 ACCEPT [Google News CB] "ECB will need to raise rates further, Schnabel says - Yahoo Finance" | kw:ecb
+2026-06-25 08:01 ACCEPT [Google News CB] "ECB Will Need to Raise Interest Rates Again, Schnabel Says - WSJ" | kw:interest rate,ecb
+2026-06-25 08:01 ACCEPT [Google News CB] "The Fed Isn't Cutting Interest Rates Anytime Soon -- and Kevin Warsh I" | kw:interest rate
+2026-06-25 08:01 SKIP_MORNING already_sent date=2026-06-25
