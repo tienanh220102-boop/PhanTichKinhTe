@@ -5680,3 +5680,11 @@
 2026-06-25 05:01 ACCEPT [Google News CB] "Rate hikes needed every few months, hawkish BOJ board member says - Th" | kw:rate hike,boj
 2026-06-25 05:01 ACCEPT [Google News CB] "Gold Edges Higher, But Fed Rate-Hike Expectations Weigh - WSJ" | kw:gold,fed rate
 2026-06-25 05:01 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 05:31 ACCEPT [OilPrice.com] "Natural Gas Prices Set to Ease as Qatar Restores LNG Output" | kw:gas,lng,rice
+2026-06-25 05:31 ACCEPT [Google News HH] "Gold price in Philippines: Rates on June 25 - FXStreet" | kw:gold,rice
+2026-06-25 05:31 ACCEPT [Google News HH] "Trump expresses frustration that gas prices aren’t reflecting falling " | kw:oil,crude,gas
+2026-06-25 05:31 ACCEPT [Google News KL] "Vista Gold STock: Cheap For A Reason, But Still A Powerful Gold Option" | kw:gold
+2026-06-25 05:31 ACCEPT [Google News CB] "EXCLUSIVE: Japan's government blueprint nudges BOJ to fuel demand, clo" | kw:fuel,boj
+2026-06-25 05:31 ACCEPT [Google News CB] "China central bank to add tool to better manage short-term liquidity -" | kw:central bank
+2026-06-25 05:31 ACCEPT [Google News CB] "Japan draft blueprint urges BOJ support for private demand, Reuters re" | kw:boj
+2026-06-25 05:31 SKIP_MORNING already_sent date=2026-06-25
