@@ -5666,3 +5666,6 @@
 2026-06-25 03:55 ACCEPT [Google News CB] "Dollar rides high on Fed rate-hike bets - CNBC" | kw:fed rate
 2026-06-25 03:55 ACCEPT [Google News CB] "BOJ’s Tamura Calls for Raising Interest Rate Every Few Months - Bloomb" | kw:interest rate,boj
 2026-06-25 03:55 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 04:01 ACCEPT [Google News HH] "Oil News: Crude Oil Outlook Sours as Physical Discounts Spread Globall" | kw:oil,crude
+2026-06-25 04:01 ACCEPT [Google News HH] "Price to sales forward of Davis Commodities Limited – OTC:DTCKF - Trad" | kw:rice,commodities
+2026-06-25 04:01 SKIP_MORNING already_sent date=2026-06-25
