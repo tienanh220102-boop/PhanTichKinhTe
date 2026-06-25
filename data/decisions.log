@@ -5728,3 +5728,8 @@
 2026-06-25 07:31 ACCEPT [Google News CB] "ECB will need to raise rates further, Schnabel says - Reuters" | kw:ecb
 2026-06-25 07:31 ACCEPT [Google News CB] "ECB will need to raise rates further, Schnabel says - Yahoo! Finance C" | kw:ecb
 2026-06-25 07:31 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 07:35 ACCEPT [Google News HH] "Crude Oil Returns to Prewar Levels as Traders Reassess Risk Premiums -" | kw:oil,crude,lng
+2026-06-25 07:35 ACCEPT [Google News HH] "Iraq Weighed Leaving OPEC, but Now Plans to Stay and Seek Higher Outpu" | kw:opec
+2026-06-25 07:35 ACCEPT [Google News KL] "[SMM Nickel Midday Review] June 25: Nickel prices fall below the 130,0" | kw:nickel,rice
+2026-06-25 07:35 ACCEPT [Google News CB] "US core PCE inflation set to tick up, giving Fed more reasons to raise" | kw:inflation
+2026-06-25 07:35 SKIP_MORNING already_sent date=2026-06-25
