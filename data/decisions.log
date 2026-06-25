@@ -5656,3 +5656,13 @@
 2026-06-25 03:31 ACCEPT [Google News NS] "Peruvian Mountain's 5,200 Aligned Holes May Unveil Ancient Indigenous " | kw:corn,cotton
 2026-06-25 03:31 ACCEPT [Google News CB] "Hawkish BOJ policymaker calls for rate hike once every few months By R" | kw:rate hike,boj
 2026-06-25 03:31 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 03:55 ACCEPT [Google News HH] "ICE Weekly: Canola futures decline as crude oil falls - Farmtario" | kw:oil,crude
+2026-06-25 03:55 ACCEPT [Google News HH] "Crude Oil Futures Decline Amid Recovery in Strait of Hormuz Traf - Gur" | kw:oil,crude
+2026-06-25 03:55 ACCEPT [Google News HH] "OPEC Fund advances over $2.4bln in financing, development support for " | kw:opec
+2026-06-25 03:55 ACCEPT [Google News HH] "Currency Check: Rupee opens stronger as falling crude oil prices; Asia" | kw:oil,crude,rice
+2026-06-25 03:55 ACCEPT [Google News HH] "Crude Oil Prices Fall Sharply as Persian Gulf Oil Flows Accelerate - T" | kw:oil,crude,rice
+2026-06-25 03:55 ACCEPT [Google News NS] "Wheat Bouncing Higher on Wednesday - TradingView" | kw:wheat
+2026-06-25 03:55 ACCEPT [Google News CB] "BOJ’s Hawkish Board Member Calls for Rate Hike Every Few Months - Bloo" | kw:rate hike,boj
+2026-06-25 03:55 ACCEPT [Google News CB] "Dollar rides high on Fed rate-hike bets - CNBC" | kw:fed rate
+2026-06-25 03:55 ACCEPT [Google News CB] "BOJ’s Tamura Calls for Raising Interest Rate Every Few Months - Bloomb" | kw:interest rate,boj
+2026-06-25 03:55 SKIP_MORNING already_sent date=2026-06-25
