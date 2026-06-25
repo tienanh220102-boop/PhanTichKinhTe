@@ -5961,3 +5961,25 @@
 2026-06-25 14:31 ACCEPT [Google News CB] "Fed’s Favored Inflation Meter Jumped Toward 3-Year High In May - Yahoo" | kw:inflation
 2026-06-25 14:31 SKIP_MORNING already_sent date=2026-06-25
 2026-06-25 14:31 SKIP_EVENING already_sent date=2026-06-25
+2026-06-25 15:01 ACCEPT [BBC Business] "Apple hikes MacBook and iPad prices, blaming rising chip costs" | kw:rice
+2026-06-25 15:01 ACCEPT [Al Jazeera] "IRGC warns against new Hormuz route for ships: What we know" | kw:shipping
+2026-06-25 15:01 ACCEPT [Al Jazeera] "Venezuela earthquakes: How will sanctions impact aid operations?" | kw:sanction
+2026-06-25 15:01 ACCEPT [Google News HH] "Iraq Warns It Might Quit OPEC If It Doesn’t Get Quota Hike - Bloomberg" | kw:opec
+2026-06-25 15:01 ACCEPT [Google News HH] "Iraq urges Opec to raise its quota - Middle East Eye" | kw:opec
+2026-06-25 15:01 ACCEPT [Google News HH] "Iraq pushes Opec to let it pump more oil - Financial Times" | kw:oil,opec
+2026-06-25 15:01 ACCEPT [Google News HH] "Iraq threatens to leave OPEC if oil quota isn’t raised: Report - Washi" | kw:oil,opec
+2026-06-25 15:01 ACCEPT [Google News HH] "Brent Crude Oil Holds Near Pre-War Levels - TradingView" | kw:oil,crude,brent
+2026-06-25 15:01 ACCEPT [Google News HH] "Iraq Walks Back Threat on Leaving OPEC Over Output Limits - Bloomberg." | kw:opec
+2026-06-25 15:01 ACCEPT [Google News HH] "Baghdad Urges OPEC to Raise Iraq's Production Quota - Asharq Al-Awsat " | kw:opec
+2026-06-25 15:01 ACCEPT [Google News HH] "Iraq Threatens to Exit OPEC - marketscreener.com" | kw:opec
+2026-06-25 15:01 ACCEPT [Google News KL] "Gold Plunge Stalls as China Shuts Retail Trading, Curbs Inflows to Hot" | kw:gold
+2026-06-25 15:01 ACCEPT [Google News NS] "Soybeans Up More Than 9¢ | Thursday, June 25, 2026 - Successful Farmin" | kw:soybean
+2026-06-25 15:01 ACCEPT [Google News NS] "How Record D4 RIN Prices Are Redrawing the Global Soybean Value Chain " | kw:soybean,rice
+2026-06-25 15:01 ACCEPT [Google News NS] "Corn Likely to See Greatest Impact From European Drought - DTN Progres" | kw:corn,drought
+2026-06-25 15:01 ACCEPT [Google News NS] "Satake sustains success - World-Grain.com" | kw:wti
+2026-06-25 15:01 ACCEPT [Google News CB] "Trump wants lower interest rates. Wall Street is now betting they're g" | kw:interest rate
+2026-06-25 15:01 ACCEPT [Google News CB] "Brazil Central Bank Raises Economic Growth Forecast as Stimulus Flows " | kw:central bank
+2026-06-25 15:01 ACCEPT [Google News CB] "ECB Rate-Hike Forecasts Pared Back as Oil Regains Pre-War Level - Bloo" | kw:oil,ecb
+2026-06-25 15:01 ACCEPT [Google News CB] "ECB board member floats further rate hikes as bank wary over Iran deal" | kw:rate hike,ecb
+2026-06-25 15:01 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 15:01 SKIP_EVENING already_sent date=2026-06-25
