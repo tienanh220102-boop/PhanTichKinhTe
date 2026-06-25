@@ -6170,3 +6170,18 @@
 2026-06-25 19:01 ACCEPT [Google News CB] "May US PCE inflation tops 4%, leaves Fed hike on the table - Reuters" | kw:inflation
 2026-06-25 19:01 ACCEPT [Google News CB] "Fed's Goolsbee: core inflation still too high, trending wrong way - Re" | kw:inflation
 2026-06-25 19:01 ACCEPT [Google News CB] "Inflation Just Hit a 9-Month High: The Fed’s Favorite Gauge Is Flashin" | kw:inflation
+2026-06-25 19:31 ACCEPT [MarketWatch] "Apple’s price hikes suggest inflation won’t slow quickly, even as gas " | kw:gas,rice,inflation
+2026-06-25 19:31 ACCEPT [CNBC Commodities] "Chicago Fed President Goolsbee says inflation is too high, calls Warsh" | kw:inflation,interest rate
+2026-06-25 19:31 ACCEPT [OilPrice.com] "SpaceX Wants to Fuel Its Mars Ambitions With Its Own Gas Pipeline" | kw:gas,fuel
+2026-06-25 19:31 ACCEPT [NASDAQ Commod] "Crude Oil Soars After A Projectile Hit On A Cargo Ship Renews Middle E" | kw:oil,crude,rice
+2026-06-25 19:31 ACCEPT [Google News HH] "U.S. commercial crude oil inventories have decreased in June - America" | kw:oil,crude
+2026-06-25 19:31 ACCEPT [Google News HH] "Crude oil futures settle at $71.92, but remains below key MA targets -" | kw:oil,crude
+2026-06-25 19:31 ACCEPT [Google News KL] "DW News. . Gold prices recently had their worst two-month decline on r" | kw:gold,rice
+2026-06-25 19:31 ACCEPT [Google News KL] "Gold and silver slide amid dollar strength, but other headwinds are ea" | kw:gold,silver,easing
+2026-06-25 19:31 ACCEPT [Google News KL] "Hecla Mining HL Rides Record Silver Prices And Resets Targets - timoth" | kw:silver,rice
+2026-06-25 19:31 ACCEPT [Google News NS] "After the Bell | Strength in soybeans - Pro Farmer" | kw:soybean
+2026-06-25 19:31 ACCEPT [Google News NS] "What Did the June WASDE Report Tell the Corn Futures Market? - Barchar" | kw:corn
+2026-06-25 19:31 ACCEPT [Google News CB] "Chicago Fed President Goolsbee says inflation is too high, calls Warsh" | kw:inflation
+2026-06-25 19:31 ACCEPT [Google News CB] "Mexico Holds Key Interest Rate at 6.5% After Two Years of Cuts - Bloom" | kw:interest rate
+2026-06-25 19:31 ACCEPT [Google News CB] "Fed’s Goolsbee Sees Glimmers of Hope In Latest Inflation Report - Bloo" | kw:inflation
+2026-06-25 19:31 ACCEPT [Google News CB] "Japan banks hesitate to buy JGBs as BOJ steps back - Nikkei Asia" | kw:boj
