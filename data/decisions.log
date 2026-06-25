@@ -5910,3 +5910,12 @@
 2026-06-25 13:01 ACCEPT [Google News CB] "Fed's favored inflation gauge accelerated in May amid energy price sho" | kw:rice,inflation
 2026-06-25 13:01 SKIP_MORNING already_sent date=2026-06-25
 2026-06-25 13:02 SENT_EVENING articles=20 date=2026-06-25 force=False
+2026-06-25 13:11 ACCEPT [MarketWatch] "U.S. inflation tops 4%, PCE shows, but tumbling oil prices to bring pr" | kw:oil,rice,inflation
+2026-06-25 13:11 ACCEPT [Google News HH] "Vivakor Expands Annualized Contracted Revenue to - GlobeNewswire" | kw:rice
+2026-06-25 13:11 ACCEPT [Google News KL] "Current price of gold as of June 25, 2026 - Fortune" | kw:gold,rice
+2026-06-25 13:11 ACCEPT [Google News NS] "Wheat Showing Slight Losses Early on Thursday - Barchart.com" | kw:wheat
+2026-06-25 13:11 ACCEPT [Google News CB] "Oil and gas activity picks up despite Iran uncertainty, Dallas Fed say" | kw:oil,gas
+2026-06-25 13:11 ACCEPT [Google News CB] "Core inflation rate hit 3.4% in May, highest since October 2023, Fed’s" | kw:inflation
+2026-06-25 13:11 ACCEPT [Google News CB] "Fed’s Preferred Inflation Gauge Climbs Above Target Range - WSJ" | kw:inflation
+2026-06-25 13:11 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 13:11 SKIP_EVENING already_sent date=2026-06-25
