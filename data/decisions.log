@@ -5623,3 +5623,11 @@
 2026-06-25 01:31 ACCEPT [Google News CB] "Exclusive-Japan government will urge BOJ to support private demand, dr" | kw:boj
 2026-06-25 01:31 ACCEPT [Google News CB] "US dollar strengthens to 13-month high on Fed rate hike expectations -" | kw:fed rate,rate hike
 2026-06-25 01:31 SKIP_MORNING already_sent date=2026-06-25
+2026-06-25 02:01 ACCEPT [Google News HH] "Crude oil separates without boiling: KAIST and Georgia Tech develop en" | kw:oil,crude
+2026-06-25 02:01 ACCEPT [Google News HH] "KAIST Team's Membrane Filters Crude Oil Without Heating - 조선일보" | kw:oil,crude
+2026-06-25 02:01 ACCEPT [Google News NS] "Low profitability may curb sales of new crop wheat in Ukraine - UkrAgr" | kw:wheat
+2026-06-25 02:01 ACCEPT [Google News CB] "BOJ Sees AI Export Boom Cushioning Economy From Oil Price Shock - Bloo" | kw:oil,rice,boj
+2026-06-25 02:01 ACCEPT [Google News CB] "PBOC Plans Overnight Reverse Repo in Next Stage of Policy Shift - Bloo" | kw:pboc
+2026-06-25 02:01 ACCEPT [Google News CB] "Hawkish BOJ Policymaker Calls for Rate Hike Once Every Few Months - U." | kw:rate hike,boj
+2026-06-25 02:01 ACCEPT [Google News CB] "Exclusive-Japan Government Will Urge BOJ to Support Private Demand, Dr" | kw:boj
+2026-06-25 02:01 SKIP_MORNING already_sent date=2026-06-25
