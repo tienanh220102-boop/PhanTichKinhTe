@@ -6302,3 +6302,8 @@
 2026-06-26 02:01 ACCEPT [Google News KL] "Explorer Uncovers High-Grade Gold-Silver Hit at Hokkaido, Japan Projec" | kw:gold,silver
 2026-06-26 02:01 ACCEPT [Google News NS] "Commodity markets daily recap - St Joseph Post" | kw:commodity,gdp
 2026-06-26 02:01 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 02:31 ACCEPT [Google News HH] "Commodities: Oil Bounces Back After Vessel Hit In Strait Of Hormuz - S" | kw:oil,commodities
+2026-06-26 02:31 ACCEPT [Google News HH] "Crude Oil Trading Alert: Shipping Security in the Strait of Hormuz Und" | kw:oil,crude,rice
+2026-06-26 02:31 ACCEPT [Google News KL] "Gold Junior Secures Major Non-Dilutive Funding for Tanzania Gold Proje" | kw:lng,gold
+2026-06-26 02:31 ACCEPT [Google News NS] "European corn prices firm as heat wave and euro-dollar rates drive mar" | kw:corn,rice
+2026-06-26 02:31 SKIP_MORNING already_sent date=2026-06-26
