@@ -6680,3 +6680,16 @@
 2026-06-26 15:31 ACCEPT [Google News CB] "Austan Goolsbee warns core inflation trending wrong way - qz.com" | kw:inflation
 2026-06-26 15:31 SKIP_MORNING already_sent date=2026-06-26
 2026-06-26 15:31 SKIP_EVENING already_sent date=2026-06-26
+2026-06-26 16:01 ACCEPT [CNBC Commodities] "Minneapolis Fed President Neel Kashkari says he expects a rate hike th" | kw:rate hike
+2026-06-26 16:01 ACCEPT [OilPrice.com] "Russia’s Fuel Crisis Is Pushing the Kremlin Toward Kazakhstan" | kw:gas,fuel,shortage
+2026-06-26 16:01 ACCEPT [Google News HH] "Iraq's Oil Ministry denies PM discussed OPEC exit - news.cgtn.com" | kw:oil,opec
+2026-06-26 16:01 ACCEPT [Google News HH] "Brent Crude Oil is down by 5.03% - TradingView" | kw:oil,crude,brent
+2026-06-26 16:01 ACCEPT [Google News HH] "Crude Oil Hits 17-week Low - TradingView" | kw:oil,crude
+2026-06-26 16:01 ACCEPT [Google News KL] "Gold gains as dollar weakens; still on track for fourth straight weekl" | kw:gold
+2026-06-26 16:01 ACCEPT [Google News KL] "Gold Prices Likely to Stay Under Pressure Amid Strong US Dollar and Fe" | kw:gold,rice
+2026-06-26 16:01 ACCEPT [Google News CB] "ECB Scraps 40 Outdated Supervisory Guides to Boost European Bank Lendi" | kw:ecb
+2026-06-26 16:01 ACCEPT [Google News CB] "Kashkari Says Fed May Need to Raise Rates Amid Broad Inflation - Bloom" | kw:inflation
+2026-06-26 16:01 ACCEPT [Google News CB] "Minneapolis Fed President Neel Kashkari says he expects a rate hike th" | kw:rate hike
+2026-06-26 16:01 ACCEPT [Google News CB] "The Weekly Wire: "Inflation Is A Choice" - ETF Database" | kw:inflation
+2026-06-26 16:01 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 16:01 SKIP_EVENING already_sent date=2026-06-26
