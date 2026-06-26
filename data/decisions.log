@@ -6470,3 +6470,15 @@
 2026-06-26 11:01 ACCEPT [Google News CB] "Gold set for 3% weekly slide on resilient dollar, Fed hike bets - Inve" | kw:gold
 2026-06-26 11:01 ACCEPT [Google News CB] "ECB survey shows inflation expectations dropping markedly and growth o" | kw:inflation,ecb
 2026-06-26 11:01 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 11:31 ACCEPT [OilPrice.com] "Crude Prices Sink as Traders Bet on More Iranian Oil" | kw:oil,crude,wti
+2026-06-26 11:31 ACCEPT [Google News HH] "Oil Prices, Consumer Impact, and ECB Speeches: Market Update for June " | kw:oil,rice,ecb
+2026-06-26 11:31 ACCEPT [Google News KL] "Why Hecla Mining (HL) Is Down 5.1% After Silver Falls Below US$60 An O" | kw:silver
+2026-06-26 11:31 ACCEPT [Google News KL] "Gold: Rate worries keep environment challenging – Commerzbank - FXStre" | kw:gold,iron
+2026-06-26 11:31 ACCEPT [Google News KL] "Copper Smelters Rely on By-Products as Processing Fees Collapse Despit" | kw:copper,rice
+2026-06-26 11:31 ACCEPT [Google News KL] "[SMM Analysis] Nickel Salt Prices Show Weakness, Intermediate Product " | kw:nickel,rice
+2026-06-26 11:31 ACCEPT [Google News NS] "First Thing Today | Trump Admin. pushing harder for biofuels expansion" | kw:fuel
+2026-06-26 11:31 ACCEPT [Google News NS] "Earlier planting dates can help soybeans avoid weed pressure - Farm Pr" | kw:soybean
+2026-06-26 11:31 ACCEPT [Google News CB] "Markets are mispricing the Fed as inflation pressures fade: Indosuez W" | kw:inflation
+2026-06-26 11:31 ACCEPT [Google News CB] "Fed holds rates steady, signals fight against rising inflation - mezha" | kw:inflation
+2026-06-26 11:31 ACCEPT [Google News CB] "BOJ front-loading now in play as AI demand and inflation risks build -" | kw:inflation,boj
+2026-06-26 11:31 SKIP_MORNING already_sent date=2026-06-26
