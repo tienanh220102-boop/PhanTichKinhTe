@@ -6315,3 +6315,7 @@
 2026-06-26 03:01 ACCEPT [Google News KL] "Wall Street Firms Universally Downgrade Gold Price Forecasts - 富途牛牛" | kw:gold,rice
 2026-06-26 03:01 ACCEPT [Google News CB] "The Fed's Preferred Inflation Metric Just Topped 4%. Here's What That " | kw:inflation,gdp,interest rate
 2026-06-26 03:01 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 03:31 ACCEPT [Google News HH] "OPEC sees oil demand rising to 124 million bpd by 2050 despite EV grow" | kw:oil,opec
+2026-06-26 03:31 ACCEPT [Google News KL] "Gold Price Declines as Bullish Momentum Fades and Selling Pressure Ret" | kw:gold,rice
+2026-06-26 03:31 ACCEPT [Google News CB] "Fed Still Has An Inflation Problem Despite Plunging Oil Prices - Yarde" | kw:oil,rice,inflation
+2026-06-26 03:31 SKIP_MORNING already_sent date=2026-06-26
