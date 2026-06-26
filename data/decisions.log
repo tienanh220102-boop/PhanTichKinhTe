@@ -6765,3 +6765,9 @@
 2026-06-26 19:14 ACCEPT [Google News NS] "Mexico corn output lower, U.S. supplies most imports - agronews.com" | kw:corn
 2026-06-26 19:14 ACCEPT [Google News CB] "Bond yields are falling as inflation pops. The Fed’s tough talk under " | kw:inflation
 2026-06-26 19:14 ACCEPT [Google News CB] "Prices Rising at Fastest Rate in 3 Years, Fed’s Preferred Inflation Ga" | kw:rice,inflation
+2026-06-26 19:31 ACCEPT [Google News HH] "Dollar Weakens with Crude Oil Prices - Barchart" | kw:oil,crude,rice
+2026-06-26 19:31 ACCEPT [Google News HH] "Crude Oil Prices Sink as Supplies Out of the Persian Gulf Accelerate -" | kw:oil,crude,rice
+2026-06-26 19:31 ACCEPT [Google News HH] "Crude oil settles the day/week at $69.23 - investingLive" | kw:oil,crude
+2026-06-26 19:31 ACCEPT [Google News HH] "US Drillers Add Oil, Gas Rigs As Hormuz Transit Resumes - Crude Oil Pr" | kw:oil,crude,gas
+2026-06-26 19:31 ACCEPT [Google News NS] "USDA Acreage report caps corn-vs.-beans guessing game - Farm Progress" | kw:corn
+2026-06-26 19:31 ACCEPT [Google News NS] "Thomasville Shipping Point Vegetables Prices Report – June 26, 2026 - " | kw:rice,shipping
