@@ -1,0 +1,38 @@
+========================================================================
+BACKTEST TÍN HIỆU RULE-BASED (MA20/MA50 + RSI14)
+Mẫu: 12,080 phiên-tín hiệu | 10 symbol | period=5y
+========================================================================
+
+— BASELINE (drift vô điều kiện, mọi phiên) —
+  fwd5: +0.20% | fwd10: +0.38% | fwd20: +0.76%
+
+— FORWARD RETURN THEO LỚP TÍN HIỆU —
+  (edge = mean fwd vượt baseline; hit = % đúng hướng kỳ vọng)
+
+  [MUA]  n=3,333  (28% số phiên)
+    fwd 5: mean +0.33% | edge +0.12% | hit   52% | median +0.13%
+    fwd10: mean +0.77% | edge +0.38% | hit   53% | median +0.30%
+    fwd20: mean +1.07% | edge +0.31% | hit   53% | median +0.44%
+
+  [BÁN]  n=3,113  (26% số phiên)
+    fwd 5: mean +0.40% | edge +0.19% | hit   46% | median +0.27%
+    fwd10: mean +0.66% | edge +0.27% | hit   45% | median +0.48%
+    fwd20: mean +1.10% | edge +0.34% | hit   44% | median +0.88%
+
+  [GIỮ]  n=5,634  (47% số phiên)
+    fwd 5: mean +0.03% | edge -0.18% | hit   50% | median +0.06%
+    fwd10: mean +0.01% | edge -0.38% | hit   50% | median +0.10%
+    fwd20: mean +0.39% | edge -0.37% | hit   50% | median +0.31%
+
+— SPREAD MUA−BÁN (nếu tín hiệu có edge, MUA phải > BÁN) —
+  fwd 5: MUA +0.33% − BÁN +0.40% = -0.07%  → NGƯỢC kỳ vọng
+  fwd10: MUA +0.77% − BÁN +0.66% = +0.11%  → CÓ tín hiệu
+  fwd20: MUA +1.07% − BÁN +1.10% = -0.03%  → NGƯỢC kỳ vọng
+
+------------------------------------------------------------------------
+CAVEAT (đọc trước khi tin):
+  • In-sample, CHƯA trừ phí/spread — edge dương phải đủ lớn để sống sau chi phí.
+  • Cửa sổ forward CHỒNG LẤN → các quan sát không độc lập, ý nghĩa thống kê bị thổi phồng.
+  • Tín hiệu trend-following ⇒ tương quan momentum; MUA có fwd>0 KHÔNG đồng nghĩa edge tradeable.
+  • Đây là đo lường để BIẾT SỰ THẬT, không phải để bật tiền thật.
+------------------------------------------------------------------------
