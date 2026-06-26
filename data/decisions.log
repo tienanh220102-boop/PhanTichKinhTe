@@ -6638,3 +6638,25 @@
 2026-06-26 14:01 ACCEPT [Google News CB] "Inflation hits 4.1 percent in May, highest level in 3 years - MSN" | kw:inflation
 2026-06-26 14:01 SKIP_MORNING already_sent date=2026-06-26
 2026-06-26 14:01 SKIP_EVENING already_sent date=2026-06-26
+2026-06-26 14:31 ACCEPT [Al Jazeera] "Iraq’s new PM launches anticorruption campaign, but is it enough?" | kw:gold
+2026-06-26 14:31 ACCEPT [OilPrice.com] "Baghdad Hosting EU Energy Talks After Iraq Floats OPEC Exit" | kw:oil,opec,gas
+2026-06-26 14:31 ACCEPT [Mining.com] "Treasure Hunt – Nova Scotia: Canada’s first mining frontier" | kw:flood
+2026-06-26 14:31 ACCEPT [Mining.com] "Aclara Resources gets environmental OK for Chile rare earths project" | kw:iron
+2026-06-26 14:31 ACCEPT [Google News HH] "Gold and Crude Oil: Why Are They Both Falling Simultaneously? How the " | kw:oil,crude,gold
+2026-06-26 14:31 ACCEPT [Google News HH] "US crude oil falls below $70 a barrel despite Iranian attack on cargo " | kw:oil,crude,wti
+2026-06-26 14:31 ACCEPT [Google News HH] "Nigerian crude Usan sees first trade in Platts MOC amid wider uptick i" | kw:crude
+2026-06-26 14:31 ACCEPT [Google News HH] "Century Global Commodities Corporation Reports Earnings Results for th" | kw:commodities
+2026-06-26 14:31 ACCEPT [Google News KL] "Silver Price Forecast: Silver Pullback Sets Up Rebound Near $50 Suppor" | kw:silver,rice
+2026-06-26 14:31 ACCEPT [Google News KL] "Why gold prices fell below $4,000 - Axios" | kw:gold,rice
+2026-06-26 14:31 ACCEPT [Google News KL] "Why Has Gold Declined Despite Escalating Geopolitical Tensions - Kavou" | kw:gold
+2026-06-26 14:31 ACCEPT [Google News NS] "Is the Teucrium Soybean Fund (SOYB) a Timely Bet on the Biofuel Boom? " | kw:fuel,soybean
+2026-06-26 14:31 ACCEPT [Google News NS] "N. Korea grain prices stay near record highs | North Korea News - Dail" | kw:rice
+2026-06-26 14:31 ACCEPT [Google News CB] "Warsh reaches within the Fed for latest advisory appointments - CNBC" | kw:wti
+2026-06-26 14:31 ACCEPT [Google News CB] "Fed rate hikes seem likely this year: What does that mean for mortgage" | kw:fed rate,rate hike
+2026-06-26 14:31 ACCEPT [Google News CB] "Trump eases pressure on Fed Chairman Kevin Warsh as inflation tops 4% " | kw:inflation
+2026-06-26 14:31 ACCEPT [Google News CB] "ECB Says Consumers’ Short-Term Price Expectations Fall Sharply - Bloom" | kw:rice,ecb
+2026-06-26 14:31 ACCEPT [Google News CB] "Gold And Silver Plunge On Expectations For Interest Rate Hikes - Insur" | kw:gold,silver,interest rate
+2026-06-26 14:31 ACCEPT [Google News CB] "Gold gains as dollar weakens; still on track for fourth straight weekl" | kw:gold
+2026-06-26 14:31 ACCEPT [Google News CB] "Traders Pare ECB Rate Bets to Below Quarter-Point Hike in 2026 - Bloom" | kw:ecb
+2026-06-26 14:31 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 14:31 SKIP_EVENING already_sent date=2026-06-26
