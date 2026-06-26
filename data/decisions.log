@@ -6398,3 +6398,13 @@
 2026-06-26 08:01 ACCEPT [Google News CB] "ECB cuts banks' reporting duties, softens governance expectations - Re" | kw:ecb
 2026-06-26 08:01 ACCEPT [Google News CB] "Bond Traders Trim Fed Rate-Hike Bets After Benign Inflation Data - Blo" | kw:inflation,fed rate
 2026-06-26 08:01 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 08:31 ACCEPT [Al Jazeera] "Neighbours aid rescue effort as Venezuela quake death toll hits 235" | kw:flood
+2026-06-26 08:31 ACCEPT [Google News HH] "U.S. Crude Oil Inventories Drop for 11th Straight Week - Industrial In" | kw:oil,crude
+2026-06-26 08:31 ACCEPT [Google News HH] "Deadly earthquakes rock Venezuela, Iraq reportedly threatens OPEC-xit," | kw:opec
+2026-06-26 08:31 ACCEPT [Google News HH] "Iraq backs OPEC, seeks higher quota - IraqiNews" | kw:opec
+2026-06-26 08:31 ACCEPT [Google News NS] "Spring Wheat Mpls Sep'26 (MIAX: MWU26) Prices, Charts and History - Th" | kw:wheat,rice
+2026-06-26 08:31 ACCEPT [Google News NS] "Soybeans up 2-5 cents; corn, wheat up 0-2 cents - Business Recorder" | kw:wheat,corn,soybean
+2026-06-26 08:31 ACCEPT [Google News CB] "Euro zone consumers cut inflation bets for the next year, ECB survey s" | kw:inflation,ecb
+2026-06-26 08:31 ACCEPT [Google News CB] "ECB Says Consumers’ Short-Term Price Expectations Fall Sharply - Bloom" | kw:rice,ecb
+2026-06-26 08:31 ACCEPT [Google News CB] "Gold on track for fourth weekly loss on hawkish Fed bets - Reuters" | kw:gold
+2026-06-26 08:31 SKIP_MORNING already_sent date=2026-06-26
