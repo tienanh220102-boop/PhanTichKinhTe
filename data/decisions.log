@@ -6523,3 +6523,18 @@
 2026-06-26 12:31 ACCEPT [Google News KL] "Physical Demand for Gold Remains Strong even while Silver Sees Slowing" | kw:gold,silver
 2026-06-26 12:31 ACCEPT [Google News CB] "Fed likely to 'stay put' on rates in 2026 after hot inflation data - Y" | kw:inflation
 2026-06-26 12:31 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 13:01 ACCEPT [Al Jazeera] "Ukraine decimates Russian logistics, bringing chaos to Crimea" | kw:oil
+2026-06-26 13:01 ACCEPT [Al Jazeera] "World aids rescue effort as Venezuela quake death toll hits 589" | kw:flood
+2026-06-26 13:01 ACCEPT [OilPrice.com] "Saudi Arabia Set to Slash Oil Prices as Hormuz Reopens" | kw:oil,crude,rice
+2026-06-26 13:01 ACCEPT [Google News HH] "In the short term, ferrous commodities will continue to consolidate ne" | kw:steel,commodities
+2026-06-26 13:01 ACCEPT [Google News KL] "Current price of silver as of Friday, June 26, 2026 - Fortune" | kw:silver,rice
+2026-06-26 13:01 ACCEPT [Google News KL] "Silver Price Forecast: RSI stays in oversold territory as XAG/USD stru" | kw:silver,rice
+2026-06-26 13:01 ACCEPT [Google News KL] "OTC Markets Group Welcomes Nevada King Gold Corp. to OTCQX - Investing" | kw:gold
+2026-06-26 13:01 ACCEPT [Google News KL] "Has gold bottomed out? Three key takeaways for the second half of 2026" | kw:gold
+2026-06-26 13:01 ACCEPT [RT Business] "US issues energy threat to EU" | kw:gas,lng
+2026-06-26 13:01 ACCEPT [Google News CB] "Gold heads for fourth weekly drop as traders reassess Fed rate outlook" | kw:gold,fed rate
+2026-06-26 13:01 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 13:02 SENT_EVENING articles=20 date=2026-06-26 force=False
+2026-06-26 13:02 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-06-26 13:02 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
+2026-06-26 13:02 GEMINI ERROR gemini-2.5-flash-lite This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
