@@ -93,6 +93,7 @@ Dự án tích hợp 2 mảng: **Giao Dịch Hàng Hóa Quốc Tế** + **Ngân 
 | `outputs/banking_DATE.html` | Báo cáo ngân hàng dạng HTML |
 | `outputs/banking_DATE.txt` | Báo cáo ngân hàng dạng text |
 | `prompts/` | Prompt templates (tham chiếu) |
+| `methodology/` | **Nền lý thuyết vĩ mô** của khung phân tích — mỗi chỉ báo/chuỗi nhân quả truy về cơ chế kinh tế (OpenStax Macro 2e + Romer Advanced Macro 5e). Đọc trước khi sửa prompt hay thêm chỉ báo |
 | `raw/` | Dữ liệu thô gốc (bất biến) |
 | `.env` | API keys (không commit) |
 
@@ -108,7 +109,9 @@ Dự án tích hợp 2 mảng: **Giao Dịch Hàng Hóa Quốc Tế** + **Ngân 
 | Kim loại quý | WGC (.org) | Cầu vàng, ETF flows, NHTW | RSS feed `WGC Gold Insights` |
 | Kim loại CN | ICSG/INSG/ILZSG | Cán cân cung-cầu đồng/niken/kẽm | Theo dõi qua Mining.com RSS |
 
-**Nguyên tắc phân tích tồn kho:** Khi mức tồn kho thực tế lệch khỏi trung bình 5 năm >2 độ lệch chuẩn → tín hiệu trading lớn. Prompt Gemini đã được hướng dẫn nguyên tắc này.
+**Nguyên tắc phân tích tồn kho:** Khi mức tồn kho thực tế lệch khỏi trung bình 5 năm >2 độ lệch chuẩn → tín hiệu trading lớn. Prompt Gemini đã được hướng dẫn nguyên tắc này. *Cơ sở: hàng hóa có cầu kém co giãn ngắn hạn nên độ lệch lượng khuếch đại thành biến động giá — xem [methodology/01](methodology/01-vi-mo-gia-hang-hoa.md#4-cungcầu-hàng-hóa--nguyên-tắc-tồn-kho).*
+
+**Nền lý thuyết của khung phân tích:** Vì sao agent dùng đúng bộ `DFII10`/`T5YIE`/`DGS10`/`DXY` + tỷ lệ liên thị trường và chuỗi "Fed → USD/VND → NHNN" — toàn bộ truy về cơ chế kinh tế trong [`methodology/`](methodology/README.md): [giá hàng hóa](methodology/01-vi-mo-gia-hang-hoa.md) (Fisher: vàng ↔ lãi suất thực), [chính sách tiền tệ](methodology/02-chinh-sach-tien-te.md) (truyền dẫn, Taylor rule, độ trễ 1–3 năm), [ngân hàng & BĐS](methodology/03-ngan-hang-bds.md) (financial accelerator, lệch tiền tệ FX, bank run). **Lý thuyết = khung kỳ vọng, không phải tín hiệu giao dịch** — tín hiệu MUA/BÁN vẫn rule-based (MA/RSI).
 
 ---
 
