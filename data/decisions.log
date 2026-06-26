@@ -6408,3 +6408,11 @@
 2026-06-26 08:31 ACCEPT [Google News CB] "ECB Says Consumers’ Short-Term Price Expectations Fall Sharply - Bloom" | kw:rice,ecb
 2026-06-26 08:31 ACCEPT [Google News CB] "Gold on track for fourth weekly loss on hawkish Fed bets - Reuters" | kw:gold
 2026-06-26 08:31 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 09:01 ACCEPT [Al Jazeera] "‘Affordability crisis’: How the Western housing crisis spiralled" | kw:rice
+2026-06-26 09:01 ACCEPT [Google News HH] "The Best Commodities to Invest in for the Second Half of 2026 - Mornin" | kw:commodities
+2026-06-26 09:01 ACCEPT [Google News HH] "OPEC Fund expands financing across emerging markets - Africa Business " | kw:opec
+2026-06-26 09:01 ACCEPT [Google News KL] "Invesco launches Physical Gold ETC - ETF Express" | kw:gold
+2026-06-26 09:01 ACCEPT [Google News NS] "Chinese State Buyers Take US Soybeans; Private Traders Turn to Brazil " | kw:soybean
+2026-06-26 09:01 ACCEPT [Google News NS] "USDA corn and soybean projections for 2026/2027 – June 2026 - Swine ne" | kw:corn,soybean
+2026-06-26 09:01 ACCEPT [Google News CB] "ECB softens governance expectations for banks to ease burden - Reuters" | kw:ecb
+2026-06-26 09:01 SKIP_MORNING already_sent date=2026-06-26
