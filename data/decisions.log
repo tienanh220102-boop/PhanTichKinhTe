@@ -6672,3 +6672,11 @@
 2026-06-26 15:11 ACCEPT [Google News NS] "Corn Rallies on Thursday as a Drier Window Opens Up - Barchart" | kw:corn
 2026-06-26 15:11 SKIP_MORNING already_sent date=2026-06-26
 2026-06-26 15:11 SKIP_EVENING already_sent date=2026-06-26
+2026-06-26 15:31 ACCEPT [OilPrice.com] "China Isn’t Giving Up On Coal Despite Green Energy Goals" | kw:fuel
+2026-06-26 15:31 ACCEPT [Google News KL] "Gold and Silver Rally on Doubts Over US Inflation and Fed Rate Hikes -" | kw:gold,silver,inflation
+2026-06-26 15:31 ACCEPT [Google News KL] "Gold and Silver Prices Rise on Friday, June 26, 2026 – Kitco News - Ne" | kw:gold,silver,rice
+2026-06-26 15:31 ACCEPT [Google News NS] "Nigerian Flour Millers Tour Kansas Wheat Facilities Amid Record US Whe" | kw:wheat
+2026-06-26 15:31 ACCEPT [Google News NS] "Biofungicide Trials for Septoria Tritici in Winter Wheat: 2026 Results" | kw:wheat
+2026-06-26 15:31 ACCEPT [Google News CB] "Austan Goolsbee warns core inflation trending wrong way - qz.com" | kw:inflation
+2026-06-26 15:31 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 15:31 SKIP_EVENING already_sent date=2026-06-26
