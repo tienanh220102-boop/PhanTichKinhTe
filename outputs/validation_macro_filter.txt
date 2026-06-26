@@ -1,0 +1,25 @@
+========================================================================
+BACKTEST CÓ LỌC VĨ MÔ — DXY (USD) & DFII10 (real yield)
+period=5y | giả thuyết: USD yếu→long hàng hóa; real yield giảm→long vàng
+========================================================================
+
+— H1 — LONG HÀNG HÓA theo chế độ USD (mọi mặt hàng) —
+  fwd 5: USD yếu  +0.36% (n=1513) | USD mạnh +0.30% (n=1817) | chênh +0.05% → lọc CÓ giá trị
+  fwd10: USD yếu  +0.86% (n=1513) | USD mạnh +0.69% (n=1804) | chênh +0.17% → lọc CÓ giá trị
+  fwd20: USD yếu  +1.08% (n=1513) | USD mạnh +1.05% (n=1784) | chênh +0.03% → lọc CÓ giá trị
+
+— H2 — LONG VÀNG theo chế độ real yield (DFII10) —
+  fwd 5: RY giảm  +0.62% (n=211) | RY tăng  +0.38% (n=202) | chênh +0.24% → lọc CÓ giá trị
+  fwd10: RY giảm  +1.32% (n=211) | RY tăng  +0.34% (n=202) | chênh +0.98% → lọc CÓ giá trị
+  fwd20: RY giảm  +2.03% (n=211) | RY tăng  +1.74% (n=202) | chênh +0.29% → lọc CÓ giá trị
+
+— ĐỐI CHỨNG: vàng MỌI phiên, real yield giảm vs tăng —
+  fwd 5: RY giảm +0.39% (n=530) | RY tăng +0.36% (n=673) | chênh +0.03%
+  fwd10: RY giảm +1.01% (n=527) | RY tăng +0.59% (n=671) | chênh +0.42%
+  fwd20: RY giảm +1.66% (n=524) | RY tăng +1.55% (n=664) | chênh +0.11%
+
+------------------------------------------------------------------------
+CAVEAT: in-sample, cửa sổ chồng lấn, CHƯA trừ phí. Chênh lệch vài phần trăm-điểm
+mỗi 1-4 tuần, không nhất quán giữa các horizon → gần như chắc nằm trong nhiễu,
+KHÔNG đủ làm edge giao dịch. Đọc như "có/không tín hiệu", không phải "có lãi".
+------------------------------------------------------------------------

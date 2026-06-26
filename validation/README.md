@@ -33,6 +33,30 @@ bật lên → BÁN đi ngược drift và ngược mean-reversion. Kết quả:
 2. Hoặc **bỏ/giảm nhẹ phía BÁN** (gắn với đề xuất cũ "chặn BÁN khi 1D% > +2%").
 3. Mọi cải tiến tín hiệu sau này PHẢI chạy lại backtest này — đã có thước đo.
 
+## Phát hiện 2 — lọc vĩ mô (`backtest_macro_filter.py`)
+
+Kiểm định: điều kiện hóa "Nghiêng tăng" theo chế độ vĩ mô (grounded methodology/01) có
+tạo edge không? Giả thuyết: USD yếu (DXY<MA20) → long hàng hóa tốt hơn; real yield giảm
+(DFII10↓) → long vàng tốt hơn.
+
+| Lọc | chênh fwd5 | fwd10 | fwd20 | Đọc |
+|-----|-----------|-------|-------|-----|
+| H1: USD yếu vs mạnh (mọi hàng hóa) | +0,05% | +0,17% | +0,03% | **đúng dấu** nhưng noise-level |
+| H2: real yield giảm vs tăng (vàng) | +0,24% | +0,98% | +0,29% | đúng dấu, fwd10 lớn nhưng *không nhất quán* |
+
+**Kết luận (xác nhận trực giác "phân tích không in ra tiền"):**
+- **Dấu đúng** → quan hệ vĩ mô trong methodology là THẬT ở mức *giải thích* (USD/real yield
+  thực sự liên quan giá). Lý thuyết được validate như công cụ HIỂU.
+- **Độ lớn noise-level + không nhất quán giữa horizon** → KHÔNG phải edge *dự báo* khai thác
+  được. Số to nhất (vàng fwd10 +0,98%, n≈210, cửa sổ chồng lấn) gần như chắc là nhiễu.
+- Bài học cốt lõi: **giải thích ≠ dự báo ≠ có lãi sau phí**. Ba ngưỡng khác nhau. Dự án sống ở
+  ngưỡng *giải thích* — hợp lệ cho một sản phẩm bản tin/hiểu thị trường, KHÔNG phải máy in tiền.
+  Thị trường dầu/vàng/FX quá hiệu quả để một hệ MA/RSI+lọc vĩ mô retail có alpha.
+
+→ **Hệ quả định hướng**: ngừng săn edge (đúng), chuyển giá trị dự án sang *hiểu đúng + nhận
+diện chế độ + tránh overtrading*. Tính năng trung thực nhất đã có sẵn: báo "dao động trong
+biên độ bình thường, không driver rõ" thay vì bịa lý do.
+
 ## Caveat phương pháp (đã ghi trong báo cáo output)
 - In-sample, **chưa trừ phí/spread**; cửa sổ forward **chồng lấn** → ý nghĩa thống kê bị
   thổi phồng (chênh lệch trên gần như nằm trong nhiễu — củng cố kết luận "không có edge rõ").

@@ -42,9 +42,12 @@ def indicators_history(close: pd.Series) -> pd.DataFrame:
 
 
 def signal_family(sig: str) -> str:
-    if sig.startswith('MUA'):
+    """Gom về 3 họ long/short/neutral. Nhận CẢ nhãn cũ (MUA/BÁN) lẫn nhãn mô tả mới
+    ('Nghiêng tăng/giảm') sau relabel — để backtest không vỡ thầm lặng khi đổi nhãn."""
+    s = sig.lower()
+    if s.startswith('mua') or 'nghiêng tăng' in s:
         return 'MUA'
-    if sig.startswith('BÁN'):
+    if s.startswith('bán') or 'nghiêng giảm' in s:
         return 'BÁN'
     return 'GIỮ'
 
