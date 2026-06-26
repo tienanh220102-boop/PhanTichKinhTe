@@ -6482,3 +6482,23 @@
 2026-06-26 11:31 ACCEPT [Google News CB] "Fed holds rates steady, signals fight against rising inflation - mezha" | kw:inflation
 2026-06-26 11:31 ACCEPT [Google News CB] "BOJ front-loading now in play as AI demand and inflation risks build -" | kw:inflation,boj
 2026-06-26 11:31 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 12:01 ACCEPT [MarketWatch] "Oil heads for another losing week, but analyst warns sluggish Strait o" | kw:oil,rice
+2026-06-26 12:01 ACCEPT [OilPrice.com] "Kazakhstan Cuts Gas Output after Drone Strike on Russian Processing Pl" | kw:oil,gas
+2026-06-26 12:01 ACCEPT [Google News HH] "Commodities weekly June reset as peace hopes hawkish Fed and fund liqu" | kw:commodities,gdp
+2026-06-26 12:01 ACCEPT [Google News HH] "OPEC Fund Launches $1.5 Billion Digital Transformation Plan And Climat" | kw:opec
+2026-06-26 12:01 ACCEPT [Google News HH] "China’s Collapsing Crude Oil Imports to Fall Further in June - Bloombe" | kw:oil,crude
+2026-06-26 12:01 ACCEPT [Google News HH] "Oil Market Pauses Sell-Off After Strait of Hormuz Vessel Strike; OPEC " | kw:oil,opec
+2026-06-26 12:01 ACCEPT [Google News HH] "Marathon's restores Galveston Bay refinery unit after fire - Quantum C" | kw:commodity
+2026-06-26 12:01 ACCEPT [Google News HH] "Commodities: Oil Bounces Back After Vessel Hit In Strait Of Hormuz - S" | kw:oil,commodities
+2026-06-26 12:01 ACCEPT [Google News KL] "Silver price falls to $57 an ounce as downward trend intensifies - pv " | kw:silver,rice
+2026-06-26 12:01 ACCEPT [Google News KL] "Gold prices today, Friday, June 26: Gold prices down over 11% since Ju" | kw:gold,rice
+2026-06-26 12:01 ACCEPT [Google News KL] "Gold (XAUUSD) Price Forecast: Can China Buying Offset Hawkish Fed Pres" | kw:gold,rice
+2026-06-26 12:01 ACCEPT [Google News KL] "Q1 GDP Beat. Jobless Claims Beat. Gold Rose. Here’s Why. - GoldSilver" | kw:gold,silver,gdp
+2026-06-26 12:01 ACCEPT [Google News CB] "Traders Pare ECB Rate Bets to Below Quarter-Point Hike in 2026 - Bloom" | kw:ecb
+2026-06-26 12:01 ACCEPT [Google News CB] "ECB Says Consumers’ Short-Term Price Expectations Fall Sharply - Bloom" | kw:rice,ecb
+2026-06-26 12:01 ACCEPT [Google News CB] "Economists Lift US Core Inflation Forecasts, See Fed on Hold - Bloombe" | kw:inflation
+2026-06-26 12:01 ACCEPT [Google News CB] "ECB to Scrap 40 Supervisory Publications to Banks to Cut Burden - Bloo" | kw:ecb
+2026-06-26 12:01 ACCEPT [Google News CB] "Traders Pare ECB Rate Bets to Below Quarter-Point Hike in 2026 - Bloom" | kw:ecb
+2026-06-26 12:01 ACCEPT [Google News CB] "Markets Bet on Warsh to Fight Inflation. Will the Fed Deliver? - The D" | kw:inflation
+2026-06-26 12:01 ACCEPT [Google News CB] "How have interest rate expectations changed after this week's events? " | kw:interest rate
+2026-06-26 12:01 SKIP_MORNING already_sent date=2026-06-26
