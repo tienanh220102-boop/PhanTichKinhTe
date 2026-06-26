@@ -6309,3 +6309,9 @@
 2026-06-26 02:31 SKIP_MORNING already_sent date=2026-06-26
 2026-06-26 02:33 ACCEPT [Google News KL] "Why is the Global X Copper Miners ETF (COPX) Surging - Kavout | AI" | kw:copper
 2026-06-26 02:33 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 03:01 ACCEPT [Al Jazeera] "Oil prices climb after attack in Strait of Hormuz halts evacuation pla" | kw:oil,crude,brent
+2026-06-26 03:01 ACCEPT [Google News HH] "Crude oil stands at $75 as tankers head to Hormuz after four months of" | kw:oil,crude
+2026-06-26 03:01 ACCEPT [Google News KL] "ALERT: Gold Is Crashing… While The Dollar Rips Higher Silver Price Tod" | kw:gold,silver,rice
+2026-06-26 03:01 ACCEPT [Google News KL] "Wall Street Firms Universally Downgrade Gold Price Forecasts - 富途牛牛" | kw:gold,rice
+2026-06-26 03:01 ACCEPT [Google News CB] "The Fed's Preferred Inflation Metric Just Topped 4%. Here's What That " | kw:inflation,gdp,interest rate
+2026-06-26 03:01 SKIP_MORNING already_sent date=2026-06-26
