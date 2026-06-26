@@ -6288,3 +6288,8 @@
 2026-06-26 00:31 ACCEPT [Google News NS] "Trump says US will use Iranian funds to buy American wheat, soybeans a" | kw:wheat,corn,soybean
 2026-06-26 00:31 ACCEPT [RT Business] "US threatens to cut gas supplies to EU amid row over environmental rul" | kw:gas,lng,iron
 2026-06-26 00:31 SENT_MORNING articles=20 date=2026-06-26 force=False
+2026-06-26 01:01 ACCEPT [Google News HH] "Crude Oil Retreats to Pre-Iran War Levels as Easing Inflation Pressure" | kw:oil,crude,inflation
+2026-06-26 01:01 ACCEPT [Google News KL] "Gold Declines; Prices Could Have Further to Fall - WSJ" | kw:gold,rice
+2026-06-26 01:01 ACCEPT [Google News NS] "Soybeans Rip 23 Cents, Corn Reverses Off Fresh Lows! Is This the Start" | kw:corn,soybean
+2026-06-26 01:01 ACCEPT [Google News CB] "Asian Currencies Consolidate; May Be Supported by Diminished Fed Rate-" | kw:fed rate
+2026-06-26 01:01 SKIP_MORNING already_sent date=2026-06-26
