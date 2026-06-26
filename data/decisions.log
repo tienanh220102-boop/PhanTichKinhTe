@@ -6360,3 +6360,9 @@
 2026-06-26 05:31 ACCEPT [Google News KL] "Macquarie: Lowers year-end gold price forecast to $4,300, expects gold" | kw:gold,rice
 2026-06-26 05:31 ACCEPT [Google News KL] "Gold, silver prices today, June 26: Check retail rates of 24K, 22K gol" | kw:gold,silver,rice
 2026-06-26 05:31 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 06:01 ACCEPT [Al Jazeera] "Oil prices ease after spiking over halt to Strait of Hormuz evacuation" | kw:oil,crude,brent
+2026-06-26 06:01 ACCEPT [Google News KL] "Gold prices slip 0.52 percent to $4,011 as dollar strength, Fed rate h" | kw:fuel,gold,rice
+2026-06-26 06:01 ACCEPT [Google News CB] "US | Fed repricing lowers inflation expectations and lifts the dollar " | kw:inflation
+2026-06-26 06:01 ACCEPT [Google News CB] "New York Fed President: Current interest rates are appropriate, and in" | kw:inflation,interest rate
+2026-06-26 06:01 ACCEPT [Google News CB] "Fed’s Williams Sees Rates Well Positioned to Tame High Inflation - Blo" | kw:inflation
+2026-06-26 06:01 SKIP_MORNING already_sent date=2026-06-26
