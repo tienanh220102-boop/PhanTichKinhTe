@@ -6351,3 +6351,12 @@
 2026-06-26 05:01 ACCEPT [Google News CB] "Gold poised for fourth weekly loss on hawkish Fed bets - Reuters" | kw:gold
 2026-06-26 05:01 ACCEPT [Google News CB] "Bitcoin, Ethereum, XRP, Dogecoin Slump As Fed's Favourite Inflation Ba" | kw:inflation
 2026-06-26 05:01 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 05:31 ACCEPT [Google News HH] "Gold price in Philippines: Rates on June 26 - FXStreet" | kw:gold,rice
+2026-06-26 05:31 ACCEPT [Google News HH] "OPEC Losing Control—Will Oil Prices Plummet? - Moomoo" | kw:oil,opec,rice
+2026-06-26 05:31 ACCEPT [Google News HH] "OPEC sees oil demand rising to 124 million bpd by 2050 despite EV grow" | kw:oil,opec,wti
+2026-06-26 05:31 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Gold Retests $4,010 as Silver B" | kw:gold,silver,rice
+2026-06-26 05:31 ACCEPT [Google News KL] "Copper soars but smelters can't bank on it to survive - Reuters" | kw:copper
+2026-06-26 05:31 ACCEPT [Google News KL] "[SMM Nickel Midday Review] On June 26, nickel prices fell sharply, and" | kw:nickel,rice
+2026-06-26 05:31 ACCEPT [Google News KL] "Macquarie: Lowers year-end gold price forecast to $4,300, expects gold" | kw:gold,rice
+2026-06-26 05:31 ACCEPT [Google News KL] "Gold, silver prices today, June 26: Check retail rates of 24K, 22K gol" | kw:gold,silver,rice
+2026-06-26 05:31 SKIP_MORNING already_sent date=2026-06-26
