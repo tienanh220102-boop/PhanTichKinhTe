@@ -6709,3 +6709,15 @@
 2026-06-26 16:31 ACCEPT [Google News CB] "Minneapolis Fed President Neel Kashkari says he expects a rate hike th" | kw:rate hike
 2026-06-26 16:31 SKIP_MORNING already_sent date=2026-06-26
 2026-06-26 16:31 SKIP_EVENING already_sent date=2026-06-26
+2026-06-26 17:01 ACCEPT [MarketWatch] "Iran tightens its grip on Strait of Hormuz, sending oil prices higher" | kw:oil,rice
+2026-06-26 17:01 ACCEPT [NASDAQ Commod] "See How Kaiser Aluminum Ranks Among Analysts' Top Metals Picks" | kw:aluminum
+2026-06-26 17:01 ACCEPT [Google News HH] "Crude Oil Price Forecast H2 2026: Will Oversupply Push WTI Back to $55" | kw:oil,crude,wti
+2026-06-26 17:01 ACCEPT [Google News HH] "Gold Price Today: Gold Rises 2.05% on June 26, 2026 - USA Today" | kw:gold,rice
+2026-06-26 17:01 ACCEPT [Google News HH] "Iraq Clarifies Opec Position as Baghdad Courts US Energy Investment - " | kw:opec
+2026-06-26 17:01 ACCEPT [Google News HH] "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next " | kw:oil,crude,rice
+2026-06-26 17:01 ACCEPT [Google News HH] "NYSERDA Weekly Energy Report: June 26, 2026 – Crude Oil, Natural Gas, " | kw:oil,crude,gas
+2026-06-26 17:01 ACCEPT [Google News HH] "China’s Commodity Imports Show Hormuz Impact as Oil Slides, Metals Ris" | kw:oil,commodity
+2026-06-26 17:01 ACCEPT [Google News KL] "Silver Price Today: Silver Rises 3.00% on June 26, 2026 - USA Today" | kw:silver,rice
+2026-06-26 17:01 ACCEPT [Google News CB] "Kashkari Says Fed May Need to Raise Rates Amid Broad Inflation - Bloom" | kw:inflation
+2026-06-26 17:01 ACCEPT [Google News CB] "Rates Spark: Lower despite the ECB’s hawkish holdouts - ING Think" | kw:ecb
+2026-06-26 17:01 ACCEPT [Google News CB] "Minneapolis Fed's Kashkari pencils in rate hike for 2026 - qz.com" | kw:rate hike
