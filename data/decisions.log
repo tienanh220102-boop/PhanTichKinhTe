@@ -6319,3 +6319,13 @@
 2026-06-26 03:31 ACCEPT [Google News KL] "Gold Price Declines as Bullish Momentum Fades and Selling Pressure Ret" | kw:gold,rice
 2026-06-26 03:31 ACCEPT [Google News CB] "Fed Still Has An Inflation Problem Despite Plunging Oil Prices - Yarde" | kw:oil,rice,inflation
 2026-06-26 03:31 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 04:01 ACCEPT [Google News HH] "China’s Collapsing Crude Oil Imports to Fall Further in June - Bloombe" | kw:oil,crude
+2026-06-26 04:01 ACCEPT [Google News HH] "Global Commodities Roundup: Market Talk - Moomoo" | kw:commodities
+2026-06-26 04:01 ACCEPT [Google News HH] "気持ちの良い丸の内【A Pleasant Day In Marunouchi】 Crude Oil Price (9TtWET11CL) -" | kw:oil,crude,rice
+2026-06-26 04:01 ACCEPT [Google News KL] "Gold holds at $4,015, silver at $57 per ounce after new US inflation d" | kw:gold,silver,inflation
+2026-06-26 04:01 ACCEPT [Google News KL] "Gold declines below $4,050 as US PCE inflation supports Fed hike bets " | kw:gold,inflation
+2026-06-26 04:01 ACCEPT [Google News NS] "South Africa’s soybean harvest is at its new record level - Wandile Si" | kw:soybean,harvest
+2026-06-26 04:01 ACCEPT [Google News CB] "Higher Tokyo inflation, hawkish BoJ comments, up odds of October hike " | kw:inflation,boj
+2026-06-26 04:01 ACCEPT [Google News CB] "The Bull Case For Wells Fargo (WFC) Could Change Following Fed Stress " | kw:lng
+2026-06-26 04:01 ACCEPT [Google News CB] "Tokyo inflation picks up, keeping BOJ on track for further hike - The " | kw:inflation,boj
+2026-06-26 04:01 SKIP_MORNING already_sent date=2026-06-26
