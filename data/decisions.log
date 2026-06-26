@@ -6377,3 +6377,13 @@
 2026-06-26 07:01 ACCEPT [Google News KL] "スパーリング 長居公園 Silver Price Today (Mmn6pjnhUJ) - Mshale" | kw:silver,rice
 2026-06-26 07:01 ACCEPT [Google News CB] "Inflation rises to new 3-year high - The Arkansas Democrat-Gazette" | kw:inflation
 2026-06-26 07:01 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 07:31 ACCEPT [Google News HH] "Commodities Trading: Gold Stocks, Oil Stocks, Silver, Natural Gas - In" | kw:oil,gas,gold
+2026-06-26 07:31 ACCEPT [Google News HH] "Russia to Send Crude Oil and Fuel to Cuba soon, Izvestia Reports - Ene" | kw:oil,crude,fuel
+2026-06-26 07:31 ACCEPT [Google News HH] "OPEC+ Agrees to Boost Oil Output When Strait of Hormuz Reopens - Energ" | kw:oil,opec
+2026-06-26 07:31 ACCEPT [Google News KL] "Wall Street is abandoning its most bullish gold calls after a sharp se" | kw:gold
+2026-06-26 07:31 ACCEPT [Google News KL] "Silver price falls to $57 an ounce as downward trend intensifies - pv " | kw:silver,rice
+2026-06-26 07:31 ACCEPT [Google News KL] "Gold Forecast 26/06: Dollar Strength Pressures XAU (Video) - DailyFore" | kw:gold
+2026-06-26 07:31 ACCEPT [Google News CB] "ECB streamlines supervisory guidance to improve clarity and transparen" | kw:ecb
+2026-06-26 07:31 ACCEPT [Google News CB] "China's central bank urges banks to boost lending as demand remains we" | kw:central bank
+2026-06-26 07:31 ACCEPT [Google News CB] "ECB to Scrap 40 Supervisory Publications to Banks to Cut Burden - Bloo" | kw:ecb
+2026-06-26 07:31 SKIP_MORNING already_sent date=2026-06-26
