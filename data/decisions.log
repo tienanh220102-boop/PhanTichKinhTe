@@ -6416,3 +6416,19 @@
 2026-06-26 09:01 ACCEPT [Google News NS] "USDA corn and soybean projections for 2026/2027 – June 2026 - Swine ne" | kw:corn,soybean
 2026-06-26 09:01 ACCEPT [Google News CB] "ECB softens governance expectations for banks to ease burden - Reuters" | kw:ecb
 2026-06-26 09:01 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 09:31 ACCEPT [The Guardian Biz] "As billionaires’ wealth soars, US workers struggle: ‘The rich keep get" | kw:rice
+2026-06-26 09:31 ACCEPT [Al Jazeera] "World aids rescue effort as Venezuela quake death toll hits 235" | kw:flood
+2026-06-26 09:31 ACCEPT [OilPrice.com] "Qatar's LNG Recovery Picks Up Speed as Tankers Mass at Ras Laffan" | kw:gas,lng
+2026-06-26 09:31 ACCEPT [Google News HH] "U.S. Crude Oil Inventories Drop for 11th Straight Week - Industrial In" | kw:oil,crude
+2026-06-26 09:31 ACCEPT [Google News HH] "Qatar offers crude oil for July-August loading via tender, sources say" | kw:oil,crude
+2026-06-26 09:31 ACCEPT [Google News HH] "Overseas Research Selection Daily Report 0626 | Goldman Sachs: Gulf cr" | kw:oil,crude,gold
+2026-06-26 09:31 ACCEPT [Google News KL] "Why Has Gold Fallen So Much? - Robin J Brooks | Substack" | kw:gold
+2026-06-26 09:31 ACCEPT [Google News KL] "Why Eldorado Gold Stock Was Diving This Week - The Motley Fool" | kw:gold
+2026-06-26 09:31 ACCEPT [Google News KL] "Hawkish Fed Meets Geopolitical Cooling, Copper Prices Pull Back to Sev" | kw:copper,rice
+2026-06-26 09:31 ACCEPT [Google News KL] "Reasons for the decline in gold prices: Rising real interest rates in " | kw:gold,rice,interest rate
+2026-06-26 09:31 ACCEPT [Google News KL] "Gold Slips for Fourth Week as Stronger Dollar and Fed Rate Hikes Loom " | kw:gold,fed rate,rate hike
+2026-06-26 09:31 ACCEPT [Google News KL] "Mohamed El-Erian Says Gold Needs One Key Buyer To Break Out Of Its $4," | kw:gold
+2026-06-26 09:31 ACCEPT [Google News CB] "ECB to integrate non-financial credit claim portfolios into collateral" | kw:ecb
+2026-06-26 09:31 ACCEPT [Google News CB] "Traders Pare ECB Rate Bets to Below Quarter-Point Hike in 2026 - Bloom" | kw:ecb
+2026-06-26 09:31 ACCEPT [Google News CB] "Inflation rises to new 3-year high - Northwest Arkansas Democrat-Gazet" | kw:inflation
+2026-06-26 09:31 SKIP_MORNING already_sent date=2026-06-26
