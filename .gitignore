@@ -17,3 +17,10 @@ Thumbs.db
 # IDE
 .vscode/settings.json
 .idea/
+
+# Nguồn thô nặng trong raw/ — bất biến, giữ LOCAL làm nguồn ingest, không đẩy lên git
+# (tránh phình lịch sử repo bị Actions clone mỗi 30'). Manifest .md vẫn được commit.
+raw/**/*.pdf
+raw/**/*.xlsx
+raw/**/*.xls
+raw/**/*.zip
