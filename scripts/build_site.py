@@ -25,8 +25,11 @@ SESSION_LABELS = {
 }
 
 SIGNAL_CLASS = {
+    # Nhãn cũ (banking + report đã lưu trong outputs/) — giữ để tương thích ngược
     'MUA': 'buy', 'BÁN': 'sell', 'GIỮ': 'hold',
     'TĂNG': 'buy', 'GIẢM': 'sell', 'SIDEWAY': 'hold',
+    # Nhãn mô tả mới của thiên hướng KT (commodity, sau khi relabel)
+    'NGHIÊNG TĂNG': 'buy', 'NGHIÊNG GIẢM': 'sell', 'TRUNG TÍNH': 'hold',
 }
 
 # Cac nhom hang hoa theo dung header trong report
@@ -255,7 +258,7 @@ def render_txt_report(text):
             out.append('<li>%s</li>' % inline_md(line[2:].lstrip('* ').strip()))
             continue
         close_list()
-        m = re.match(r'^(Xu hướng|Tín hiệu)\s*:\s*(.+)$', line)
+        m = re.match(r'^(Xu hướng|Tín hiệu|Thiên hướng KT)\s*:\s*(.+)$', line)
         if m:
             out.append('<div class="field"><span class="k">%s:</span> %s</div>'
                        % (esc(m.group(1)), badge(m.group(2))))
@@ -300,7 +303,7 @@ def extract_signals(text):
                     current = label
                     break
         elif current:
-            m = re.match(r'^(Xu hướng|Tín hiệu)\s*:\s*(.+)$', line)
+            m = re.match(r'^(Xu hướng|Tín hiệu|Thiên hướng KT)\s*:\s*(.+)$', line)
             if m:
                 sig.setdefault(current, {})[m.group(1)] = m.group(2).strip()
     return sig
@@ -365,10 +368,10 @@ def main():
                 '<tr><td>%s</td><td>%s</td><td>%s</td></tr>'
                 % (esc(label),
                    badge(sig[label].get('Xu hướng', '—')) if label in sig else '—',
-                   badge(sig[label].get('Tín hiệu', '—')) if label in sig else '—')
+                   badge(sig[label].get('Thiên hướng KT', sig[label].get('Tín hiệu', '—'))) if label in sig else '—')
                 for _, label in CATEGORIES)
-            sections.append('<div class="card"><h2>Tín hiệu phiên mới nhất</h2>'
-                            '<table><tr><th>Nhóm</th><th>Xu hướng</th><th>Tín hiệu</th></tr>'
+            sections.append('<div class="card"><h2>Trạng thái kỹ thuật phiên mới nhất</h2>'
+                            '<table><tr><th>Nhóm</th><th>Xu hướng</th><th>Thiên hướng</th></tr>'
                             '%s</table></div>' % rows)
         sections.append(render_txt_report(latest[5]))
 
@@ -379,12 +382,12 @@ def main():
         for date_str, _, label, _, href, text in history:
             sig = extract_signals(text)
             cells = ''.join(
-                '<td>%s</td>' % (badge(sig[cat].get('Tín hiệu', '—')) if cat in sig else '—')
+                '<td>%s</td>' % (badge(sig[cat].get('Thiên hướng KT', sig[cat].get('Tín hiệu', '—'))) if cat in sig else '—')
                 for _, cat in CATEGORIES)
             rows.append('<tr><td><a href="%s">%s<br><span class="tag">%s</span></a></td>%s</tr>'
                         % (href, date_str, esc(label), cells))
         head = ''.join('<th>%s</th>' % esc(c) for _, c in CATEGORIES)
-        sections.append('<div class="card"><h2>Lịch sử tín hiệu</h2>'
+        sections.append('<div class="card"><h2>Lịch sử thiên hướng kỹ thuật</h2>'
                         '<table><tr><th>Phiên</th>%s</tr>%s</table></div>'
                         % (head, ''.join(rows)))
 

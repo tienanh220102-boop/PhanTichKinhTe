@@ -73,7 +73,7 @@ Dự án tích hợp 2 mảng: **Giao Dịch Hàng Hóa Quốc Tế** + **Ngân 
 
 | Báo cáo | Nội dung |
 |---|---|
-| 🌅🌆 Hàng hóa (Phiên Á / Phiên Mỹ) | Vĩ mô · Tín hiệu MUA/BÁN/GIỮ · Ngưỡng giá · Rủi ro — 4 nhóm: Năng lượng / Kim loại quý / Nông sản / Kim loại CN |
+| 🌅🌆 Hàng hóa (Phiên Á / Phiên Mỹ) | Vĩ mô · Thiên hướng KT (mô tả: Nghiêng tăng/giảm/Trung tính — KHÔNG phải lệnh mua/bán) · Ngưỡng giá · Rủi ro — 4 nhóm: Năng lượng / Kim loại quý / Nông sản / Kim loại CN |
 | 🏦 Ngân hàng & BĐS | Xu hướng lãi suất · Tín dụng BĐS · Điểm ngân hàng nổi bật · Khuyến nghị NĐT phía Nam |
 | 🗓 Tổng kết tuần | Cả 2 mảng — gửi riêng biệt, thứ 6 sau 20:00 |
 
@@ -111,7 +111,7 @@ Dự án tích hợp 2 mảng: **Giao Dịch Hàng Hóa Quốc Tế** + **Ngân 
 
 **Nguyên tắc phân tích tồn kho:** Khi mức tồn kho thực tế lệch khỏi trung bình 5 năm >2 độ lệch chuẩn → tín hiệu trading lớn. Prompt Gemini đã được hướng dẫn nguyên tắc này. *Cơ sở: hàng hóa có cầu kém co giãn ngắn hạn nên độ lệch lượng khuếch đại thành biến động giá — xem [methodology/01](methodology/01-vi-mo-gia-hang-hoa.md#4-cungcầu-hàng-hóa--nguyên-tắc-tồn-kho).*
 
-**Nền lý thuyết của khung phân tích:** Vì sao agent dùng đúng bộ `DFII10`/`T5YIE`/`DGS10`/`DXY` + tỷ lệ liên thị trường và chuỗi "Fed → USD/VND → NHNN" — toàn bộ truy về cơ chế kinh tế trong [`methodology/`](methodology/README.md): [giá hàng hóa](methodology/01-vi-mo-gia-hang-hoa.md) (Fisher: vàng ↔ lãi suất thực), [chính sách tiền tệ](methodology/02-chinh-sach-tien-te.md) (truyền dẫn, Taylor rule, độ trễ 1–3 năm), [ngân hàng & BĐS](methodology/03-ngan-hang-bds.md) (financial accelerator, lệch tiền tệ FX, bank run). **Lý thuyết = khung kỳ vọng, không phải tín hiệu giao dịch** — tín hiệu MUA/BÁN vẫn rule-based (MA/RSI).
+**Nền lý thuyết của khung phân tích:** Vì sao agent dùng đúng bộ `DFII10`/`T5YIE`/`DGS10`/`DXY` + tỷ lệ liên thị trường và chuỗi "Fed → USD/VND → NHNN" — toàn bộ truy về cơ chế kinh tế trong [`methodology/`](methodology/README.md): [giá hàng hóa](methodology/01-vi-mo-gia-hang-hoa.md) (Fisher: vàng ↔ lãi suất thực), [chính sách tiền tệ](methodology/02-chinh-sach-tien-te.md) (truyền dẫn, Taylor rule, độ trễ 1–3 năm), [ngân hàng & BĐS](methodology/03-ngan-hang-bds.md) (financial accelerator, lệch tiền tệ FX, bank run). **Lý thuyết = khung kỳ vọng, không phải tín hiệu giao dịch** — trạng thái kỹ thuật vẫn rule-based (MA/RSI). Backtest 5y ([`validation/`](validation/README.md)) cho thấy tín hiệu MUA/BÁN cũ gần như không có edge dự báo (spread MUA−BÁN ≈ 0, BÁN phản tác dụng) → đã đổi nhãn sang **"Thiên hướng KT"** (mô tả, không ngụ ý hành động); chi tiết `classify_trend_signal` trong `commodity_agent.py`.
 
 ---
 

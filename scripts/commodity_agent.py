@@ -469,15 +469,21 @@ SYMBOL_GROUPS = {
 
 
 def classify_trend_signal(e):
-    """Quy tắc cố định — cùng dữ liệu luôn ra cùng tín hiệu:
+    """Quy tắc cố định — cùng dữ liệu luôn ra cùng kết quả. Trả về (xu hướng, THIÊN HƯỚNG KT).
+
+    LƯU Ý (quan trọng): đây là MÔ TẢ trạng thái kỹ thuật hiện tại, KHÔNG phải khuyến nghị
+    mua/bán. Backtest 5y (validation/backtest_signals.py) cho thấy nhãn MUA/BÁN cũ gần như
+    không có edge dự báo (spread MUA−BÁN ≈ 0), riêng "BÁN" phản tác dụng (giá hay bật lên sau
+    đó). Vì vậy đã đổi sang nhãn mô tả, không ngụ ý hành động.
+
     Xu hướng: close>MA20>MA50 → TĂNG; close<MA20<MA50 → GIẢM; còn lại SIDEWAY
-    Tín hiệu: TĂNG + RSI<70 → MUA; TĂNG + RSI≥70 → GIỮ (quá mua)
-              GIẢM + RSI>30 → BÁN; GIẢM + RSI≤30 → GIỮ (quá bán); SIDEWAY → GIỮ
+    Thiên hướng KT: TĂNG+RSI<70 → "Nghiêng tăng"; TĂNG+RSI≥70 → "Tăng — đã nóng"
+                    GIẢM+RSI>30 → "Nghiêng giảm"; GIẢM+RSI≤30 → "Giảm — đã sâu"; SIDEWAY → "Trung tính"
     """
     v, ma20, ma50 = e.get('value'), e.get('ma20'), e.get('ma50')
     rsi = e.get('rsi14')
     if not (v and ma20 and ma50):
-        return 'SIDEWAY', 'GIỮ'
+        return 'SIDEWAY', 'Trung tính'
     if v > ma20 > ma50:
         trend = 'TĂNG'
     elif v < ma20 < ma50:
@@ -485,11 +491,11 @@ def classify_trend_signal(e):
     else:
         trend = 'SIDEWAY'
     if trend == 'TĂNG':
-        signal = 'MUA' if (rsi is None or rsi < 70) else 'GIỮ (quá mua)'
+        signal = 'Nghiêng tăng' if (rsi is None or rsi < 70) else 'Tăng — đã nóng'
     elif trend == 'GIẢM':
-        signal = 'BÁN' if (rsi is None or rsi > 30) else 'GIỮ (quá bán)'
+        signal = 'Nghiêng giảm' if (rsi is None or rsi > 30) else 'Giảm — đã sâu'
     else:
-        signal = 'GIỮ'
+        signal = 'Trung tính'
     return trend, signal
 
 
@@ -527,7 +533,7 @@ def quiet_groups(prices):
 
 
 def build_group_signals(prices):
-    """Tín hiệu tính sẵn theo nhóm cho prompt: {group: (xu hướng, tín hiệu, ngưỡng giá)}."""
+    """Tính sẵn theo nhóm cho prompt: {group: (xu hướng, thiên hướng KT, ngưỡng giá)}."""
     out = {}
     for group, syms in SYMBOL_GROUPS.items():
         trends, signals, levels = [], [], []
@@ -1118,7 +1124,8 @@ Dưới đây là {len(articles)} {context} ngày {date_str}:{price_note}{vnd_no
 
 Hãy viết BÁO CÁO PHÂN TÍCH {session_vn} bằng TIẾNG VIỆT theo đúng cấu trúc sau (không thêm gì ngoài cấu trúc này).
 QUAN TRỌNG:
-- Các dòng "Xu hướng / Tín hiệu / Ngưỡng giá" ĐÃ ĐƯỢC TÍNH SẴN bằng quy tắc định lượng (giá so MA20/MA50 + RSI14) — GIỮ NGUYÊN Y HỆT, không sửa, không thêm bớt.
+- Các dòng "Xu hướng / Thiên hướng KT / Ngưỡng giá" ĐÃ ĐƯỢC TÍNH SẴN bằng quy tắc định lượng (giá so MA20/MA50 + RSI14) — GIỮ NGUYÊN Y HỆT, không sửa, không thêm bớt.
+- "Thiên hướng KT" là MÔ TẢ trạng thái kỹ thuật hiện tại (đang nghiêng tăng/giảm/trung tính), KHÔNG phải khuyến nghị mua/bán và KHÔNG dự báo chắc chắn hướng đi. Khi viết phần Phân tích, TUYỆT ĐỐI không diễn giải "Nghiêng giảm" thành lệnh bán hay khẳng định giá sẽ giảm tiếp — với hàng hóa, trạng thái nghiêng giảm thường đi kèm khả năng bật hồi. Khuyến nghị hành động (nếu có) chỉ đặt ở mục 📋 KHUYẾN NGHỊ PHIÊN, kèm điều kiện.
 - CHỐT SỐ LIỆU (chống đảo dấu): mọi con số % và từ hướng (tăng/giảm) PHẢI lấy ĐÚNG từ khối "MÔ TẢ BIẾN ĐỘNG ĐÃ CHỐT" ở trên. TUYỆT ĐỐI không tự tính lại, không đảo dấu. Nếu số liệu ghi "phiên +3.60% (TĂNG)" thì phải viết "tăng 3,6%", KHÔNG được viết "giảm".
 - PHÂN BIỆT 3 KHUNG THỜI GIAN, luôn ghi rõ khung khi nêu %: (1) "phiên" = 1D%; (2) "5 phiên" = 5D%; (3) "xu hướng trung hạn" = vị trí so MA20/MA50. Một mặt hàng có thể TĂNG trong phiên nhưng xu hướng trung hạn vẫn GIẢM (giá nảy lên nhưng còn dưới MA20) — đây KHÔNG phải mâu thuẫn, phải diễn giải đúng như vậy thay vì gộp làm một.
 - VIẾT CHO NGƯỜI ĐỌC KHÔNG CHUYÊN — KẾT LUẬN, KHÔNG JARGON: phần "Phân tích" và "Rủi ro" TUYỆT ĐỐI không nhắc tên chỉ báo kỹ thuật (RSI, MA20, MA50, ATR, Bollinger, Wilder, "52 tuần"...). Dùng các chỉ báo đó để RÚT RA kết luận rồi chỉ viết kết luận dễ hiểu. Quy đổi:
@@ -1151,7 +1158,7 @@ QUAN TRỌNG:
 
 🛢️ NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên
 Xu hướng: {energy[0]}
-Tín hiệu: {energy[1]}
+Thiên hướng KT: {energy[1]}
 Ngưỡng giá: {energy[2]}
 Phân tích:
 • [dầu/khí đang tăng/giảm bao nhiêu % (phiên & 5 phiên), đang ở xu hướng gì và VÌ SAO — gắn tin tức; quỹ lớn đang đặt cược tăng hay giảm. Diễn đạt dễ hiểu, không jargon]
@@ -1161,7 +1168,7 @@ Rủi ro:
 
 🥇 KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc
 Xu hướng: {precious[0]}
-Tín hiệu: {precious[1]}
+Thiên hướng KT: {precious[1]}
 Ngưỡng giá: {precious[2]}
 Phân tích:
 • [vàng/bạc tăng/giảm bao nhiêu % (phiên & 5 phiên), xu hướng và VÌ SAO — gắn tin tức + tác động đồng USD; bạc đang rẻ hay đắt tương đối so vàng. Nếu vàng TĂNG, phân biệt rõ lý do: vì thị trường LO LẠM PHÁT (vàng làm nơi trú ẩn) hay vì KỲ VỌNG FED NỚI LỎNG / USD YẾU (tiền rẻ chảy vào vàng) — hai lý do này khác nhau, nói rõ cái nào. Diễn đạt dễ hiểu, không jargon]
@@ -1171,7 +1178,7 @@ Rủi ro:
 
 🌾 NÔNG SẢN — Ngô, Đậu tương, Lúa mì
 Xu hướng: {agri[0]}
-Tín hiệu: {agri[1]}
+Thiên hướng KT: {agri[1]}
 Ngưỡng giá: {agri[2]}
 Phân tích:
 • [ngô/đậu tương/lúa mì tăng/giảm bao nhiêu % (phiên & 5 phiên), xu hướng và VÌ SAO — gắn tin tức + thời tiết/mùa vụ; quỹ lớn đang đặt cược tăng hay giảm. Diễn đạt dễ hiểu, không jargon]
@@ -1181,7 +1188,7 @@ Rủi ro:
 
 🔩 KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken
 Xu hướng: {industrial[0]}
-Tín hiệu: {industrial[1]}
+Thiên hướng KT: {industrial[1]}
 Ngưỡng giá: {industrial[2]}
 Phân tích:
 • [đồng tăng/giảm bao nhiêu % (phiên & 5 phiên), xu hướng và VÌ SAO — gắn tin tức; tín hiệu thị trường đang "ưa rủi ro" hay "phòng thủ"; quỹ lớn đặt cược gì. Diễn đạt dễ hiểu, không jargon]
