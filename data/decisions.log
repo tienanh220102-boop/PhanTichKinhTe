@@ -6293,3 +6293,9 @@
 2026-06-26 01:01 ACCEPT [Google News NS] "Soybeans Rip 23 Cents, Corn Reverses Off Fresh Lows! Is This the Start" | kw:corn,soybean
 2026-06-26 01:01 ACCEPT [Google News CB] "Asian Currencies Consolidate; May Be Supported by Diminished Fed Rate-" | kw:fed rate
 2026-06-26 01:01 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 01:31 ACCEPT [Google News HH] "Iraq OPEC exit threat puts $50 oil in play as Gulf cartel frays - inve" | kw:oil,opec
+2026-06-26 01:31 ACCEPT [Google News HH] "Commodities intraday targets/key levels - TradingView" | kw:commodities
+2026-06-26 01:31 ACCEPT [Google News KL] "Central bank gold holdings are at a 50-year high. What’s behind the ju" | kw:gold,central bank
+2026-06-26 01:31 ACCEPT [Google News CB] "Gold poised for fourth weekly loss as hawkish Fed bets buoy dollar - R" | kw:gold
+2026-06-26 01:31 ACCEPT [Google News CB] "Core inflation in Tokyo accelerates as energy-driven price pressures b" | kw:rice,inflation
+2026-06-26 01:31 SKIP_MORNING already_sent date=2026-06-26
