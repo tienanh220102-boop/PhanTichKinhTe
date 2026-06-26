@@ -6432,3 +6432,15 @@
 2026-06-26 09:31 ACCEPT [Google News CB] "Traders Pare ECB Rate Bets to Below Quarter-Point Hike in 2026 - Bloom" | kw:ecb
 2026-06-26 09:31 ACCEPT [Google News CB] "Inflation rises to new 3-year high - Northwest Arkansas Democrat-Gazet" | kw:inflation
 2026-06-26 09:31 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 10:01 ACCEPT [CNBC Economy] "Shipping rebounds in Strait of Hormuz one week after U.S.-Iran deal – " | kw:shipping
+2026-06-26 10:01 ACCEPT [OilPrice.com] "Qatar Offers First Crude Loadings to Buyers Since War Began" | kw:crude
+2026-06-26 10:01 ACCEPT [Google News HH] "Oil slides 2% as markets look past fresh Iran tensions and focus on su" | kw:oil
+2026-06-26 10:01 ACCEPT [Google News HH] "Brent crude oil price on June 29, 2026 at 5:00 PM EDT - Robinhood" | kw:oil,crude,brent
+2026-06-26 10:01 ACCEPT [Google News HH] "West Texas Intermediate Crude Oil Futures Drop 3.5% to $69.43, Brent F" | kw:oil,crude,brent
+2026-06-26 10:01 ACCEPT [Google News KL] "From Industrial Metal to National Asset: The Case for Copper in a Geop" | kw:copper
+2026-06-26 10:01 ACCEPT [Google News KL] "Silver price today: rises on June 26 - FXStreet" | kw:silver,rice
+2026-06-26 10:01 ACCEPT [Google News KL] "Institution: The Federal Reserve will not take any action this year an" | kw:gold,rice,federal reserve
+2026-06-26 10:01 ACCEPT [Google News KL] "Rising copper prices fail to boost smelter profits - mezha.net" | kw:copper,rice
+2026-06-26 10:01 ACCEPT [Google News KL] "Gold prices rise - VnExpress International" | kw:gold,rice
+2026-06-26 10:01 ACCEPT [Google News CB] "ECB to scrap 40 regulatory guides; Cathay United Bank chair quits afte" | kw:ecb
+2026-06-26 10:01 SKIP_MORNING already_sent date=2026-06-26
