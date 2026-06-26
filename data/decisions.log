@@ -6366,3 +6366,5 @@
 2026-06-26 06:01 ACCEPT [Google News CB] "New York Fed President: Current interest rates are appropriate, and in" | kw:inflation,interest rate
 2026-06-26 06:01 ACCEPT [Google News CB] "Fed’s Williams Sees Rates Well Positioned to Tame High Inflation - Blo" | kw:inflation
 2026-06-26 06:01 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 06:31 ACCEPT [RT Business] "US threatens to cut gas supplies to EU" | kw:gas,lng
+2026-06-26 06:31 SKIP_MORNING already_sent date=2026-06-26
