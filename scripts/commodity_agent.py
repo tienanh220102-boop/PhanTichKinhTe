@@ -1138,6 +1138,9 @@ QUAN TRỌNG:
   biến động trong ngày/phiên. Biến động phiên chỉ được giải thích bằng tin tức MỚI + chỉ số
   daily (DXY, yields, VIX, COT). Mặt bằng chỉ xuất hiện ở thì "bối cảnh dài hạn", và KHÔNG
   được viện dẫn trong mục KHUYẾN NGHỊ PHIÊN.{quiet_note}
+- ĐỘ TRỄ CHÍNH SÁCH: quyết định của Fed/NHTW tác động đồng USD, kỳ vọng và dòng tiền NGAY
+  trong phiên — nhưng tác động lên CẦU hàng hóa THỰC thì rất TRỄ (1–3 năm). Vì vậy KHÔNG
+  viết kiểu "Fed hạ lãi → cầu dầu/đồng tăng ngay"; chỉ nói tác động tức thì qua kênh USD/tâm lý.
 - ĐỐI CHIẾU NGUỒN: mỗi tin có ghi xuất xứ trong ngoặc [nguồn — góc nhìn]. "RT Business" là state media của Nga — coi tin từ đó là TÍN HIỆU LẬP TRƯỜNG của Nga (điều Nga muốn thị trường tin, nhất là về dầu khí/cấm vận/OPEC+), KHÔNG mặc định là sự thật khách quan. Khi nguồn Nga và nguồn phương Tây đưa tin TRÁI NGƯỢC về cùng chủ đề, đó chính là thông tin có giá trị — nêu rõ trong mục 🔀.
 
 🔀 ĐỐI CHIẾU NGUỒN TIN
@@ -1161,7 +1164,7 @@ Xu hướng: {precious[0]}
 Tín hiệu: {precious[1]}
 Ngưỡng giá: {precious[2]}
 Phân tích:
-• [vàng/bạc tăng/giảm bao nhiêu % (phiên & 5 phiên), xu hướng và VÌ SAO — gắn tin tức + tác động đồng USD; bạc đang rẻ hay đắt tương đối so vàng. Diễn đạt dễ hiểu, không jargon]
+• [vàng/bạc tăng/giảm bao nhiêu % (phiên & 5 phiên), xu hướng và VÌ SAO — gắn tin tức + tác động đồng USD; bạc đang rẻ hay đắt tương đối so vàng. Nếu vàng TĂNG, phân biệt rõ lý do: vì thị trường LO LẠM PHÁT (vàng làm nơi trú ẩn) hay vì KỲ VỌNG FED NỚI LỎNG / USD YẾU (tiền rẻ chảy vào vàng) — hai lý do này khác nhau, nói rõ cái nào. Diễn đạt dễ hiểu, không jargon]
 • [luận điểm bổ sung nếu có]
 Rủi ro:
 • [rủi ro chính cần theo dõi, nói dễ hiểu]

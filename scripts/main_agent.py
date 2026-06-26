@@ -595,7 +595,7 @@ Phân tích: [2-3 câu về thị trường BĐS phía Nam hôm nay]
 Rủi ro: [rủi ro chính cần theo dõi]
 
 🏦 CÁC NGÂN HÀNG NỔI BẬT
-[3-4 điểm cụ thể: lãi suất ghi nhận, chính sách tín dụng mới, thay đổi đáng chú ý]
+[3-4 điểm cụ thể: lãi suất ghi nhận, chính sách tín dụng mới, thay đổi đáng chú ý. Nếu có tin về thanh khoản/nợ xấu một ngân hàng, PHÂN BIỆT rõ: "thiếu thanh khoản tạm thời" (cần bơm vốn ngắn hạn, ít nghiêm trọng) khác với "mất khả năng thanh toán / nợ xấu cơ cấu" (vốn chủ sở hữu suy giảm — nghiêm trọng hơn nhiều) — đừng gộp hai cái làm một.]
 
 📋 KHUYẾN NGHỊ NHÀ ĐẦU TƯ BĐS PHÍA NAM
 [2-3 khuyến nghị cụ thể, actionable dựa trên tin tức hôm nay]
@@ -604,7 +604,7 @@ Rủi ro: [rủi ro chính cần theo dõi]
 [Nguồn "Sputnik VN (Nga)" là state media Nga bản tiếng Việt — góc nhìn bên ngoài, KHÔNG mặc định là sự thật khách quan. Nếu Sputnik VN và báo trong nước (VnExpress/Thanh Niên/VietnamNet/VOV) đưa tin TRÁI NGƯỢC hoặc nhấn mạnh khác hẳn nhau về cùng chủ đề kinh tế VN, nêu rõ "Nguồn A nói X, nguồn B nói Y" + đánh giá bên nào có căn cứ hơn. Nếu không có xung đột, ghi đúng 1 câu: "Không phát hiện xung đột đáng kể giữa các nguồn."]
 
 ⚠️ THEO DÕI & RỦI RO
-[2-3 điểm cần chú ý trong thời gian tới]
+[2-3 điểm cần chú ý trong thời gian tới. Trước khi coi một sự cố ngân hàng đơn lẻ là rủi ro CẢ NGÀNH/hệ thống, hỏi: có kênh lây lan cụ thể không (sở hữu chéo/liên đới giữa các ngân hàng, bán tháo tài sản hạ giá, mất niềm tin lan rộng)? Nếu không thấy kênh lây lan rõ ràng, KHÔNG thổi sự cố đơn lẻ thành rủi ro toàn ngành.]
 
 Viết ngắn gọn, chuyên nghiệp, thực tiễn. KHÔNG thêm lời dẫn hay kết luận thừa."""
 
