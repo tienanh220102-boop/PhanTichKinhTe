@@ -6368,3 +6368,6 @@
 2026-06-26 06:01 SKIP_MORNING already_sent date=2026-06-26
 2026-06-26 06:31 ACCEPT [RT Business] "US threatens to cut gas supplies to EU" | kw:gas,lng
 2026-06-26 06:31 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 06:44 ACCEPT [Google News HH] "Wall Street Firms Universally Downgrade Gold Price Forecasts - Moomoo" | kw:gold,rice,gdp
+2026-06-26 06:44 ACCEPT [Google News HH] "One Chart: Pivot Points and Long/Short Position Signals for Gold, Crud" | kw:oil,crude,gold
+2026-06-26 06:44 SKIP_MORNING already_sent date=2026-06-26
