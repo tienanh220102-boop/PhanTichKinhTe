@@ -6329,3 +6329,11 @@
 2026-06-26 04:01 ACCEPT [Google News CB] "The Bull Case For Wells Fargo (WFC) Could Change Following Fed Stress " | kw:lng
 2026-06-26 04:01 ACCEPT [Google News CB] "Tokyo inflation picks up, keeping BOJ on track for further hike - The " | kw:inflation,boj
 2026-06-26 04:01 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 04:31 ACCEPT [Al Jazeera] "Apple, Microsoft hike prices over surging chip costs" | kw:rice,shortage
+2026-06-26 04:31 ACCEPT [Google News HH] "Oil Prices Jump After Attack Halts Shipping in Strait of Hormuz - The " | kw:oil,rice,shipping
+2026-06-26 04:31 ACCEPT [Google News KL] "WIDOW'S BAY FINALE Review & Season 2 Predictions Silver Price Today (V" | kw:silver,rice
+2026-06-26 04:31 ACCEPT [Google News KL] "Gold price in Malaysia: Rates on June 26 - FXStreet" | kw:lng,gold,rice
+2026-06-26 04:31 ACCEPT [Google News KL] "Gold Price Forecast: Eyes on Death Cross and $3,950 support for XAU/US" | kw:gold,rice
+2026-06-26 04:31 ACCEPT [Google News KL] "Gold Price Outlook: Strategist Warns of Decline to $3,600 as Dollar St" | kw:gold,rice
+2026-06-26 04:31 ACCEPT [Google News CB] "Yomiuri: Ex-BOJ Deputy Gov. Sees Interest Rate 'Finally' Reaching 1% -" | kw:interest rate,boj
+2026-06-26 04:31 SKIP_MORNING already_sent date=2026-06-26
