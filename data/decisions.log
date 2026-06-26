@@ -6502,3 +6502,20 @@
 2026-06-26 12:01 ACCEPT [Google News CB] "Markets Bet on Warsh to Fight Inflation. Will the Fed Deliver? - The D" | kw:inflation
 2026-06-26 12:01 ACCEPT [Google News CB] "How have interest rate expectations changed after this week's events? " | kw:interest rate
 2026-06-26 12:01 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 12:29 ACCEPT [Google News HH] "Soybeans lower with crude oil as weather watched - TradingView" | kw:oil,crude,soybean
+2026-06-26 12:29 ACCEPT [Google News HH] "Gold Price Today on June 26, 2026 - USA Today" | kw:gold,rice
+2026-06-26 12:29 ACCEPT [Google News HH] "Crude Oil Prices Sharply Higher on Concerns of Reopening of Strait of " | kw:oil,crude,rice
+2026-06-26 12:29 ACCEPT [Google News HH] "Forecast update for crude oil -26-06-2026 - Economies.com" | kw:oil,crude
+2026-06-26 12:29 ACCEPT [Google News KL] "Silver Price Today on June 26, 2026 - USA Today" | kw:silver,rice
+2026-06-26 12:29 ACCEPT [Google News KL] "Silver prices today, Friday, June 26, 2026: Down 9.1% since Monday fol" | kw:silver,rice
+2026-06-26 12:29 ACCEPT [Google News KL] "NovaGold: Maybe The Best Gold Leverage Of Mines Under Development (Rat" | kw:gold
+2026-06-26 12:29 ACCEPT [Google News KL] "Silver can't escape a troubling new trend - AOL.com" | kw:silver
+2026-06-26 12:29 ACCEPT [Google News NS] "First Thing Today | Trump Administration announces push for biofuels e" | kw:fuel
+2026-06-26 12:29 ACCEPT [Google News NS] "Nigerian flour mill leaders tour Kansas facilities, wheat fields - Wor" | kw:wheat
+2026-06-26 12:29 ACCEPT [Google News NS] "What Did the June WASDE Report Tell the Corn Futures Market? - Barchar" | kw:corn
+2026-06-26 12:29 ACCEPT [Google News NS] "Soybeans Rip 23 Cents, Corn Reverses Off Fresh Lows! Is This the Start" | kw:corn,soybean
+2026-06-26 12:29 ACCEPT [Google News CB] "Fed rate hikes seem likely this year: What does that mean for mortgage" | kw:fed rate,rate hike
+2026-06-26 12:29 ACCEPT [Google News CB] "Week Ahead for FX, Bonds: U.S. Jobs Data in Focus as Markets Search fo" | kw:fed rate
+2026-06-26 12:29 ACCEPT [Google News CB] "Fed likely to 'stay put' on rates in 2026 after hot inflation data - Y" | kw:inflation
+2026-06-26 12:29 ACCEPT [Google News CB] "Jefferson County’s oldest community: Waukeenah - ECB Publishing, Inc." | kw:ecb
+2026-06-26 12:29 SKIP_MORNING already_sent date=2026-06-26
