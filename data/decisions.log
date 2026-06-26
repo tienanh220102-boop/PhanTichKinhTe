@@ -6459,3 +6459,14 @@
 2026-06-26 10:31 ACCEPT [Google News CB] "Economists Lift US Core Inflation Forecasts, See Fed on Hold - Bloombe" | kw:inflation
 2026-06-26 10:31 ACCEPT [Google News CB] "Climate risks 'no longer peripheral' to inflation and monetary policy " | kw:inflation,monetary policy
 2026-06-26 10:31 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 11:01 ACCEPT [OilPrice.com] "China’s Crude Imports Set to Hit Weakest Level Since 2016" | kw:oil,crude
+2026-06-26 11:01 ACCEPT [NASDAQ Commod] "Gold Headed For Fourth Weekly Loss On Rate Hike Concerns" | kw:gold,rate hike
+2026-06-26 11:01 ACCEPT [NASDAQ Commod] "Oil Prices Decline Despite Vessel Attack Near Oman" | kw:oil,rice,easing
+2026-06-26 11:01 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD holds immediate support below $4,000 as U" | kw:gold,rice
+2026-06-26 11:01 ACCEPT [Google News HH] "India Gold Price Today: Yellow Metal Declines, Bitcoin World Data Show" | kw:gold,rice
+2026-06-26 11:01 ACCEPT [Google News HH] "Baghdad Called OPEC’s Bluff on the Worst Possible Day - houseofsaud.co" | kw:opec
+2026-06-26 11:01 ACCEPT [Google News KL] "Why Hecla Mining (HL) Is Down 5.1% After Silver Falls Below US$60 An O" | kw:silver
+2026-06-26 11:01 ACCEPT [Google News KL] "Gold price drops below 880 yuan, gold rush returns to jewelry stores! " | kw:gold,rice
+2026-06-26 11:01 ACCEPT [Google News CB] "Gold set for 3% weekly slide on resilient dollar, Fed hike bets - Inve" | kw:gold
+2026-06-26 11:01 ACCEPT [Google News CB] "ECB survey shows inflation expectations dropping markedly and growth o" | kw:inflation,ecb
+2026-06-26 11:01 SKIP_MORNING already_sent date=2026-06-26
