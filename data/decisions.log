@@ -6444,3 +6444,8 @@
 2026-06-26 10:01 ACCEPT [Google News KL] "Gold prices rise - VnExpress International" | kw:gold,rice
 2026-06-26 10:01 ACCEPT [Google News CB] "ECB to scrap 40 regulatory guides; Cathay United Bank chair quits afte" | kw:ecb
 2026-06-26 10:01 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 10:15 ACCEPT [Al Jazeera] "Russia reports downing 660 Ukrainian drones, denies seeking Belarus wa" | kw:fuel,shortage
+2026-06-26 10:15 ACCEPT [Google News KL] "Gold and silver prices fall: What’s behind the decline? - Economy Midd" | kw:gold,silver,rice
+2026-06-26 10:15 ACCEPT [Google News KL] "Silver Price Forecasts: XAG/USD edges up, nearing $58 as the US Dollar" | kw:silver,rice
+2026-06-26 10:15 ACCEPT [Google News CB] "Market Minute: What does the Dallas Fed trimmed mean tell us about inf" | kw:inflation
+2026-06-26 10:15 SKIP_MORNING already_sent date=2026-06-26
