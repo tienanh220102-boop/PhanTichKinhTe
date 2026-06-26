@@ -6387,3 +6387,14 @@
 2026-06-26 07:31 ACCEPT [Google News CB] "China's central bank urges banks to boost lending as demand remains we" | kw:central bank
 2026-06-26 07:31 ACCEPT [Google News CB] "ECB to Scrap 40 Supervisory Publications to Banks to Cut Burden - Bloo" | kw:ecb
 2026-06-26 07:31 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 08:01 ACCEPT [Google News HH] "Iraq to consider all options if OPEC quota is not raised, has weighed " | kw:oil,opec,gas
+2026-06-26 08:01 ACCEPT [Google News HH] "A new fault line in OPEC: Why Iraq wants a bigger slice of the oil pie" | kw:oil,opec
+2026-06-26 08:01 ACCEPT [Google News HH] "Palm oil prices fell on Thursday following a drop in crude oil prices " | kw:oil,crude,rice
+2026-06-26 08:01 ACCEPT [Google News KL] "Silver Price Forecasts: XAG/USD edges up, nearing $58 as the US Dollar" | kw:silver,rice
+2026-06-26 08:01 ACCEPT [Google News KL] "Gold Price Forecast: PCE Data Weakens Fed Rate Hike Expectations, Can " | kw:gold,rice,fed rate
+2026-06-26 08:01 ACCEPT [Google News NS] "Why Black Sea wheat prices remain elevated despite a strong crop outlo" | kw:wheat,rice
+2026-06-26 08:01 ACCEPT [ECB Press] "ECB Consumer Expectations Survey results – May 2026" | kw:ecb
+2026-06-26 08:01 ACCEPT [Google News CB] "Philippine Central Bank Hikes Rates to Get Inflation Back on Target - " | kw:inflation,central bank
+2026-06-26 08:01 ACCEPT [Google News CB] "ECB cuts banks' reporting duties, softens governance expectations - Re" | kw:ecb
+2026-06-26 08:01 ACCEPT [Google News CB] "Bond Traders Trim Fed Rate-Hike Bets After Benign Inflation Data - Blo" | kw:inflation,fed rate
+2026-06-26 08:01 SKIP_MORNING already_sent date=2026-06-26
