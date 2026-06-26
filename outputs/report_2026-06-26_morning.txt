@@ -1,0 +1,95 @@
+[BẢNG SỐ LIỆU]
+               Giá   Phiên  5 phiên
+WTI          71.64   +1.9%    -6.7%
+Brent        75.23   +2.0%    -5.4%
+Khí TN       3.269   +1.5%    +3.9%
+Vàng      4,035.30   +1.1%    -7.4%
+Bạc          57.59   -0.8%   -18.6%
+Đồng         6.115   +2.9%    -5.7%
+Ngô         422.75   +3.9%    +0.4%
+Lúa mì      597.25   +2.0%    -2.5%
+Đậu t.    1,154.00   +4.1%    +1.9%
+DXY         101.50   -0.1%    +1.4%
+
+[LIÊN THỊ TRƯỜNG]
+  Brent−WTI: $3.59 (1 tháng trước: $5.69) — spread rộng = cung WTI dồi dào tương đối
+  Vàng/Bạc: 70.1 (1 tháng trước: 59.0) — tỷ lệ cao = bạc rẻ tương đối so với vàng
+  Đồng/Vàng (×1000): 1.52 (1 tháng trước: 1.41) — tăng = risk-on/kỳ vọng tăng trưởng
+
+[VỊ THẾ QUỸ ĐẦU CƠ — CFTC COT tuần 2026-06-16]
+  Lúa mì (SRW): NET SHORT -50,812 (Δ tuần: +7,041)
+  Ngô: NET LONG +77,844 (Δ tuần: -25,715)
+  Đậu tương: NET LONG +117,608 (Δ tuần: -32,855)
+  Dầu WTI: NET LONG +21,931 (Δ tuần: +18,552)
+  Bạc: NET LONG +24,544 (Δ tuần: +2,330)
+  Đồng: NET LONG +75,350 (Δ tuần: +900)
+  Vàng XAU: NET LONG +180,220 (Δ tuần: +6,383)
+→ NET LONG = quỹ đặt cược giá tăng; Δ dương = dòng tiền đầu cơ đang vào
+
+BÁO CÁO PHÂN TÍCH PHIÊN SÁNG (07:00 VN) NGÀY 2026-06-26
+
+🔀 ĐỐI CHIẾU NGUỒN TIN
+• Có sự mâu thuẫn trong các tin tức về eo biển Hormuz: một số nguồn cho rằng căng thẳng đã giảm và hoạt động vận chuyển được nối lại khiến giá dầu giảm (Tin 5, 15, 16), trong khi một nguồn khác lại báo cáo về một vụ tấn công tàu ở Oman làm dấy lên lo ngại rủi ro tại Hormuz, khiến giá dầu phục hồi (Tin 20). Điều này tạo ra sự không chắc chắn về nguồn cung và có thể dẫn đến biến động mạnh của giá dầu trong thời gian tới.
+• Tin tức về việc Iraq có thể rời OPEC để bơm thêm dầu (Tin 11) là một yếu tố rủi ro lớn đối với chính sách cắt giảm sản lượng của OPEC+, có thể gây áp lực giảm giá dầu nếu điều này xảy ra.
+
+🌍 VĨ MÔ & TIN TỨC NỔI BẬT
+• Dữ liệu lạm phát của Mỹ phù hợp với kỳ vọng đã làm giảm bớt lo ngại về việc Cục Dự trữ Liên bang (Fed) tăng lãi suất (Tin 3), điều này hỗ trợ cho giá vàng và các tài sản rủi ro.
+• Đồng Đô la Mỹ (DXY) giảm nhẹ 0.11% trong phiên, tạo điều kiện thuận lợi cho các hàng hóa định giá bằng USD như vàng và dầu.
+• Tuy nhiên, các quan chức Fed vẫn bày tỏ lo ngại về lạm phát còn cao (Tin 13, 14), và rủi ro tăng lãi suất vẫn còn hiện hữu (Tin 1, 8), có thể gây áp lực lên thị trường trong dài hạn.
+
+🛢️ NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên
+Xu hướng: WTI GIẢM | Brent GIẢM | Khí TN TĂNG
+Tín hiệu: WTI GIỮ (quá bán) | Brent GIỮ (quá bán) | Khí TN MUA
+Ngưỡng giá: WTI 69.63–78.96 | Brent 73.08–82.38 | Khí TN 3.202–3.335
+Phân tích:
+• Dầu WTI tăng 1.85% và dầu Brent tăng 2.02% trong phiên, phục hồi sau khi giảm mạnh lần lượt 6.71% và 5.43% trong 5 phiên gần nhất. Sự phục hồi này diễn ra sau tin tức về một vụ tấn công tàu ở Oman làm dấy lên lo ngại về rủi ro tại eo biển Hormuz, dù trước đó giá đã giảm do căng thẳng tại đây được cho là đã hạ nhiệt.
+• Các quỹ lớn đang tăng đặt cược giá dầu WTI tăng, với vị thế NET LONG tăng thêm 18,552 trong tuần qua.
+• Khí tự nhiên tăng 1.49% trong phiên và tăng 3.94% trong 5 phiên, đang trong xu hướng tăng trung hạn và giá trên đường trung bình 20 ngày.
+Rủi ro:
+• Rủi ro địa chính trị tại eo biển Hormuz vẫn còn bất ổn với các tin tức mâu thuẫn, có thể gây biến động mạnh cho giá dầu.
+• Khả năng Iraq rời OPEC để tăng sản lượng dầu có thể làm gia tăng nguồn cung toàn cầu, gây áp lực giảm giá dầu.
+
+🥇 KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc
+Xu hướng: Vàng GIẢM | Bạc GIẢM
+Tín hiệu: Vàng BÁN | Bạc GIỮ (quá bán)
+Ngưỡng giá: Vàng 3,963.30–4,323.20 | Bạc 57.25–66.25
+Phân tích:
+• Vàng tăng 1.13% trong phiên, phục hồi sau khi giảm 7.42% trong 5 phiên gần nhất. Giá vàng được hỗ trợ bởi dữ liệu lạm phát của Mỹ phù hợp với kỳ vọng, làm giảm lo ngại về việc Fed tăng lãi suất và đồng Đô la Mỹ yếu đi.
+• Bạc giảm 0.80% trong phiên và giảm mạnh 18.55% trong 5 phiên gần nhất, cho thấy bạc đang rẻ tương đối so với vàng (tỷ lệ Vàng/Bạc là 70.1, cao hơn mức 59.0 một tháng trước).
+• Các quỹ lớn đang tăng đặt cược giá vàng và bạc tăng, với vị thế NET LONG của vàng tăng 6,383 và bạc tăng 2,330 trong tuần qua.
+Rủi ro:
+• Mặc dù có tín hiệu tích cực từ dữ liệu lạm phát, rủi ro Fed tăng lãi suất vẫn còn hiện hữu và có thể gây áp lực lên giá kim loại quý.
+• Bạc đã giảm rất sâu trong 5 phiên gần đây, cho thấy tâm lý thị trường vẫn còn thận trọng đối với kim loại này.
+
+🌾 NÔNG SẢN — Ngô, Đậu tương, Lúa mì
+Xu hướng: Ngô GIẢM | Lúa mì SIDEWAY | Đậu tương SIDEWAY
+Tín hiệu: Ngô BÁN | Lúa mì GIỮ | Đậu tương GIỮ
+Ngưỡng giá: Ngô 405.75–424.50 | Lúa mì 594.70–618.25 | Đậu tương 1,135.64–1,157.50
+Phân tích:
+• Ngô tăng 3.87% trong phiên và tăng 0.42% trong 5 phiên. Đậu tương tăng 4.08% trong phiên và tăng 1.94% trong 5 phiên. Lúa mì tăng 1.96% trong phiên nhưng giảm 2.53% trong 5 phiên.
+• Giá nông sản được hỗ trợ bởi thông tin Tổng thống Trump cho biết Mỹ sẽ sử dụng quỹ của Iran để mua lúa mì, đậu tương và ngô của Mỹ cho Iran, tạo ra kỳ vọng về nhu cầu tăng.
+• Mặc dù giá tăng trong phiên, các quỹ lớn lại đang giảm đặt cược giá ngô và đậu tương tăng trong tuần qua, với vị thế NET LONG của ngô giảm 25,715 và đậu tương giảm 32,855.
+Rủi ro:
+• Vị thế của các quỹ đầu cơ cho thấy dòng tiền đang rút khỏi các vị thế mua ngô và đậu tương, có thể gây áp lực giảm giá trong tương lai.
+• Thời tiết trong giai đoạn thụ phấn ngô ở Mỹ là yếu tố quan trọng cần theo dõi, có thể ảnh hưởng lớn đến nguồn cung.
+
+🔩 KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken
+Xu hướng: Đồng SIDEWAY
+Tín hiệu: Đồng GIỮ
+Ngưỡng giá: Đồng 5.928–6.375
+Phân tích:
+• Đồng tăng 2.89% trong phiên, phục hồi sau khi giảm 5.65% trong 5 phiên gần nhất. Giá đồng được hỗ trợ bởi sự lạc quan về thương mại liên quan đến Trí tuệ nhân tạo (AI).
+• Tỷ lệ Đồng/Vàng tăng lên 1.52 từ 1.41 một tháng trước, cho thấy tâm lý thị trường đang nghiêng về "ưa rủi ro" và kỳ vọng tăng trưởng kinh tế.
+• Các quỹ lớn đang tăng nhẹ đặt cược giá đồng tăng, với vị thế NET LONG tăng 900 trong tuần qua.
+Rủi ro:
+• Lo ngại về việc các ngân hàng trung ương thắt chặt chính sách tiền tệ vẫn còn (Tin 7), có thể ảnh hưởng tiêu cực đến triển vọng tăng trưởng kinh tế và nhu cầu đồng.
+
+📋 KHUYẾN NGHỊ PHIÊN
+• **Vàng:** Có thể xem xét mua vào ở mức giá gần ngưỡng hỗ trợ 3,963.30 USD/oz, với mục tiêu hồi phục lên vùng 4,100-4,150 USD/oz. Cắt lỗ nếu giá phá vỡ dưới 3,950 USD/oz.
+• **Dầu WTI:** Có thể xem xét mua vào nếu giá duy trì trên ngưỡng 70.00 USD/bbl, với mục tiêu hồi phục lên vùng 73.00-74.00 USD/bbl. Cắt lỗ nếu giá phá vỡ dưới 69.50 USD/bbl.
+• **Đậu tương:** Có thể xem xét mua vào khi giá đang trong xu hướng tăng ngắn hạn và trên đường trung bình 20 ngày, với ngưỡng hỗ trợ 1,135.64 cent/bushel. Cắt lỗ nếu giá phá vỡ dưới 1,130.00 cent/bushel.
+
+⚠️ THEO DÕI PHIÊN
+• Các phát biểu tiếp theo từ các quan chức Cục Dự trữ Liên bang Mỹ về chính sách tiền tệ và lạm phát.
+• Diễn biến mới về tình hình địa chính trị tại eo biển Hormuz và các thông tin liên quan đến nguồn cung dầu từ Iran và Iraq.
+• Cập nhật về điều kiện thời tiết tại các vùng trồng nông sản chính của Mỹ, đặc biệt là trong giai đoạn thụ phấn ngô.

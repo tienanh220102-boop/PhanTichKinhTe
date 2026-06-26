@@ -6283,3 +6283,8 @@
 2026-06-26 00:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
 2026-06-26 00:01 GEMINI ERROR gemini-2.5-flash-lite This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
 2026-06-26 00:01 SKIP_MORNING gemini_no_result date=2026-06-26
+2026-06-26 00:31 ACCEPT [Google News HH] "Gold has crashed back to earth. Here’s what to do next - AFR" | kw:gold
+2026-06-26 00:31 ACCEPT [Google News NS] "Soybeans supported by recent demand from China - Brownfield Ag News" | kw:soybean
+2026-06-26 00:31 ACCEPT [Google News NS] "Trump says US will use Iranian funds to buy American wheat, soybeans a" | kw:wheat,corn,soybean
+2026-06-26 00:31 ACCEPT [RT Business] "US threatens to cut gas supplies to EU amid row over environmental rul" | kw:gas,lng,iron
+2026-06-26 00:31 SENT_MORNING articles=20 date=2026-06-26 force=False
