@@ -6337,3 +6337,17 @@
 2026-06-26 04:31 ACCEPT [Google News KL] "Gold Price Outlook: Strategist Warns of Decline to $3,600 as Dollar St" | kw:gold,rice
 2026-06-26 04:31 ACCEPT [Google News CB] "Yomiuri: Ex-BOJ Deputy Gov. Sees Interest Rate 'Finally' Reaching 1% -" | kw:interest rate,boj
 2026-06-26 04:31 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 05:01 ACCEPT [OilPrice.com] "Oil Heads for Weekly Loss as Hormuz Tanker Traffic Rebounds" | kw:oil,crude,brent
+2026-06-26 05:01 ACCEPT [Google News HH] "Crude Oil WTI Futures Chart - Investing.com" | kw:oil,crude,wti
+2026-06-26 05:01 ACCEPT [Google News HH] "Crude Oil WTI Futures Technical Analysis - Investing.com" | kw:oil,crude,wti
+2026-06-26 05:01 ACCEPT [Google News HH] "Gold price in India: Rates on June 26 - FXStreet" | kw:gold,rice
+2026-06-26 05:01 ACCEPT [Google News HH] "Crude Oil Prices Sharply Higher on Concerns of Reopening of Strait of " | kw:oil,crude,rice
+2026-06-26 05:01 ACCEPT [Google News KL] "Gold and Silver Price Forecast: PCE Data Triggers Rebound from Support" | kw:gold,silver,rice
+2026-06-26 05:01 ACCEPT [Google News KL] "Why Silver is exposed to a fresh downside leg below $55.60? - FXStreet" | kw:silver
+2026-06-26 05:01 ACCEPT [Google News KL] "Why Is Silver Price Dropping While Its Deficit Hit a Record - EBC Fina" | kw:silver,rice
+2026-06-26 05:01 ACCEPT [Google News NS] "US 2026 corn crop off to good start as farmers weigh fertilizer costs," | kw:corn,rice
+2026-06-26 05:01 ACCEPT [Google News NS] "Corn Futures (CORN-F) Is up 2.17% on Jun 26: Why It Happened - Trading" | kw:corn
+2026-06-26 05:01 ACCEPT [Google News CB] "Outlook for Fed interest rates shifts in a hawkish direction - Financi" | kw:interest rate
+2026-06-26 05:01 ACCEPT [Google News CB] "Gold poised for fourth weekly loss on hawkish Fed bets - Reuters" | kw:gold
+2026-06-26 05:01 ACCEPT [Google News CB] "Bitcoin, Ethereum, XRP, Dogecoin Slump As Fed's Favourite Inflation Ba" | kw:inflation
+2026-06-26 05:01 SKIP_MORNING already_sent date=2026-06-26
