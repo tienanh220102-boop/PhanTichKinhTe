@@ -6666,3 +6666,9 @@
 2026-06-26 15:01 ACCEPT [Google News CB] "Central Bank discussed future pause in rate cuts, Galípolo says - Valo" | kw:central bank,rate cut
 2026-06-26 15:01 SKIP_MORNING already_sent date=2026-06-26
 2026-06-26 15:01 SKIP_EVENING already_sent date=2026-06-26
+2026-06-26 15:11 ACCEPT [Google News HH] "A world rejecting OPEC’s control could usher in sub-$50-a-barrel oil p" | kw:oil,opec,rice
+2026-06-26 15:11 ACCEPT [Google News KL] "Nickel Prices Plunge 6% on Macro Tightening and Indonesia Supply Polic" | kw:nickel,rice,tightening
+2026-06-26 15:11 ACCEPT [Google News NS] "Morning Comments - The Andersons Trade Group" | kw:gdp
+2026-06-26 15:11 ACCEPT [Google News NS] "Corn Rallies on Thursday as a Drier Window Opens Up - Barchart" | kw:corn
+2026-06-26 15:11 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 15:11 SKIP_EVENING already_sent date=2026-06-26
