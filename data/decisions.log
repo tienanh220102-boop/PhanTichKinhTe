@@ -6299,3 +6299,6 @@
 2026-06-26 01:31 ACCEPT [Google News CB] "Gold poised for fourth weekly loss as hawkish Fed bets buoy dollar - R" | kw:gold
 2026-06-26 01:31 ACCEPT [Google News CB] "Core inflation in Tokyo accelerates as energy-driven price pressures b" | kw:rice,inflation
 2026-06-26 01:31 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 02:01 ACCEPT [Google News KL] "Explorer Uncovers High-Grade Gold-Silver Hit at Hokkaido, Japan Projec" | kw:gold,silver
+2026-06-26 02:01 ACCEPT [Google News NS] "Commodity markets daily recap - St Joseph Post" | kw:commodity,gdp
+2026-06-26 02:01 SKIP_MORNING already_sent date=2026-06-26
