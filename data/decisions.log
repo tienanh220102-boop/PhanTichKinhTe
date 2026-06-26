@@ -6610,3 +6610,31 @@
 2026-06-26 13:31 ACCEPT [Google News CB] "Core Inflation's Persistence Raises Questions For The Fed’s Strategy -" | kw:inflation
 2026-06-26 13:31 SKIP_MORNING already_sent date=2026-06-26
 2026-06-26 13:31 SKIP_EVENING already_sent date=2026-06-26
+2026-06-26 14:01 ACCEPT [MarketWatch] "A world rejecting OPEC’s control could usher in sub-$50-a-barrel oil p" | kw:oil,opec,rice
+2026-06-26 14:01 ACCEPT [BBC Business] "What's happening to petrol prices now oil is back to pre-Iran war leve" | kw:oil,fuel,rice
+2026-06-26 14:01 ACCEPT [CNBC Commodities] "Warsh reaches within the Fed for latest advisory appointments" | kw:central bank,monetary policy
+2026-06-26 14:01 ACCEPT [OilPrice.com] "What Happened to Big Oil's Green Pivot?" | kw:oil
+2026-06-26 14:01 ACCEPT [Google News HH] "Commodities and the Stronger Dollar - FXCM Markets" | kw:commodities
+2026-06-26 14:01 ACCEPT [Google News HH] "The country's crude oil stockpile is at risk of operational failure: W" | kw:oil,crude
+2026-06-26 14:01 ACCEPT [Google News HH] "Iraq Warns It Might Quit OPEC If It Doesn’t Get Quota Hike - Bloomberg" | kw:opec
+2026-06-26 14:01 ACCEPT [Google News HH] "Crude Oil Prices Sharply Higher on Concerns of Reopening of Strait of " | kw:oil,crude,rice
+2026-06-26 14:01 ACCEPT [Google News HH] "Global Commodities Roundup: Market Talk - 富途牛牛" | kw:commodities
+2026-06-26 14:01 ACCEPT [Google News KL] "Silver Looks Like It’s Losing. The Ratio Says It’s Loading. - GoldSilv" | kw:gold,silver
+2026-06-26 14:01 ACCEPT [Google News KL] "Gold prices steady but set for 3% weekly slide on resilient dollar, Fe" | kw:gold,rice
+2026-06-26 14:01 ACCEPT [Google News NS] "What Did the June WASDE Report Tell the Corn Futures Market? - Barchar" | kw:corn
+2026-06-26 14:01 ACCEPT [Google News CB] "New Zealand Dollar Slips Below 0.5650 as Fed Rate Hike Bets Intensify " | kw:fed rate,rate hike
+2026-06-26 14:01 ACCEPT [Google News CB] "PCE inflation accelerates, rising Fed Pressure; GDP revised upward; Mi" | kw:inflation,gdp
+2026-06-26 14:01 ACCEPT [Google News CB] "New York Fed finds elevated global supply chain pressure in May - MSN" | kw:supply chain
+2026-06-26 14:01 ACCEPT [Google News CB] "Core PCE inflation expected to edge higher in May, keeping September F" | kw:inflation,fed rate,rate hike
+2026-06-26 14:01 ACCEPT [Google News CB] "Traders pricing in a rate hike by year end after jobs jump - MSN" | kw:rate hike
+2026-06-26 14:01 ACCEPT [Google News CB] "Euro Slips Against Sterling as Market Bets on ECB Rate Hikes Diminish " | kw:rate hike,ecb
+2026-06-26 14:01 ACCEPT [Google News CB] "The Federal Reserve just delivered terrible news for the stock market," | kw:silver,federal reserve
+2026-06-26 14:01 ACCEPT [Google News CB] "Dollar Reverses Course, Edges Lower as Inflation Data Largely Meets Ex" | kw:inflation
+2026-06-26 14:01 ACCEPT [Google News CB] "Oil prices—past, present, and futures - UBS" | kw:oil,rice
+2026-06-26 14:01 ACCEPT [Google News CB] "Key inflation gauge jumps to 3-year high in latest sign of affordabili" | kw:inflation
+2026-06-26 14:01 ACCEPT [Google News CB] "Dollar slips and gold rallies on US-Iran peace deal - MSN" | kw:gold
+2026-06-26 14:01 ACCEPT [Google News CB] "Iraq warns it might leave Opec if oil quota not raised, say sources - " | kw:oil,opec
+2026-06-26 14:01 ACCEPT [Google News CB] "Stocks rally on renewed AI optimism, oil price declines - MSN" | kw:oil,wti,rice
+2026-06-26 14:01 ACCEPT [Google News CB] "Inflation hits 4.1 percent in May, highest level in 3 years - MSN" | kw:inflation
+2026-06-26 14:01 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 14:01 SKIP_EVENING already_sent date=2026-06-26
