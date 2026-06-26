@@ -6449,3 +6449,13 @@
 2026-06-26 10:15 ACCEPT [Google News KL] "Silver Price Forecasts: XAG/USD edges up, nearing $58 as the US Dollar" | kw:silver,rice
 2026-06-26 10:15 ACCEPT [Google News CB] "Market Minute: What does the Dallas Fed trimmed mean tell us about inf" | kw:inflation
 2026-06-26 10:15 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 10:31 ACCEPT [OilPrice.com] "Hormuz Shipping Confidence Is Still Shaky" | kw:crude,shipping
+2026-06-26 10:31 ACCEPT [Google News HH] "U.S. crude oil falls below $70, resuming losses after attack on cargo " | kw:oil,crude
+2026-06-26 10:31 ACCEPT [Google News HH] "Hit by War, Iraq Urges OPEC to Raise Its Production Quotas - energynew" | kw:opec
+2026-06-26 10:31 ACCEPT [Google News KL] "Gold heads for fourth weekly drop as traders reassess Fed rate outlook" | kw:gold,fed rate
+2026-06-26 10:31 ACCEPT [Google News KL] "【SMM Copper Cathode Rod Express】China's copper rod producers are activ" | kw:copper
+2026-06-26 10:31 ACCEPT [Google News NS] "Romania strengthens position in MENA wheat markets - UkrAgroConsult" | kw:wheat
+2026-06-26 10:31 ACCEPT [Google News CB] "Inflation Watch - The American Action Forum" | kw:inflation
+2026-06-26 10:31 ACCEPT [Google News CB] "Economists Lift US Core Inflation Forecasts, See Fed on Hold - Bloombe" | kw:inflation
+2026-06-26 10:31 ACCEPT [Google News CB] "Climate risks 'no longer peripheral' to inflation and monetary policy " | kw:inflation,monetary policy
+2026-06-26 10:31 SKIP_MORNING already_sent date=2026-06-26
