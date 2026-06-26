@@ -6693,3 +6693,19 @@
 2026-06-26 16:01 ACCEPT [Google News CB] "The Weekly Wire: "Inflation Is A Choice" - ETF Database" | kw:inflation
 2026-06-26 16:01 SKIP_MORNING already_sent date=2026-06-26
 2026-06-26 16:01 SKIP_EVENING already_sent date=2026-06-26
+2026-06-26 16:31 ACCEPT [MarketWatch] "FIFA World Cup prize money: What USMNT players stand to earn as Americ" | kw:easing
+2026-06-26 16:31 ACCEPT [OilPrice.com] "Brent Erases Iran War Premium as Hormuz Flows Show Signs of Recovery" | kw:oil,crude,brent
+2026-06-26 16:31 ACCEPT [Google News HH] "Dollar Weakens with Crude Oil Prices - Barchart.com" | kw:oil,crude,rice
+2026-06-26 16:31 ACCEPT [Google News HH] "Crude Oil Falls 4%; US Consumer Sentiment Rises In June - Benzinga" | kw:oil,crude
+2026-06-26 16:31 ACCEPT [Google News HH] "Brent Crude Oil Price Falls Over 5% To Below $72 Per Barrel - NDTV" | kw:oil,crude,brent
+2026-06-26 16:31 ACCEPT [Google News HH] "Iraq seeks quota review as OPEC restores output allocations - ZAWYA" | kw:opec
+2026-06-26 16:31 ACCEPT [Google News CB] "Minneapolis Fed President Neel Kashkari says he expects a rate hike th" | kw:rate hike
+2026-06-26 16:31 ACCEPT [Google News CB] "Fed’s Kashkari Sees One Rate Hike This Year - Barron's" | kw:rate hike
+2026-06-26 16:31 ACCEPT [Google News CB] "Dallas Fed Study Suggests Long-Term Interest Rates Miss a Key Market F" | kw:interest rate
+2026-06-26 16:31 ACCEPT [Google News CB] "Nobody's sure where the Federal Reserve is heading - Axios" | kw:federal reserve
+2026-06-26 16:31 ACCEPT [Google News CB] "Central bank sees no need for extra measures as worried Russians withd" | kw:central bank
+2026-06-26 16:31 ACCEPT [Google News CB] "Why Fed rate hikes may not be as certain as investors think - Yahoo Fi" | kw:fed rate,rate hike
+2026-06-26 16:31 ACCEPT [Google News CB] "June jobs report should reinforce the Fed’s inflation-first stance - r" | kw:inflation
+2026-06-26 16:31 ACCEPT [Google News CB] "Minneapolis Fed President Neel Kashkari says he expects a rate hike th" | kw:rate hike
+2026-06-26 16:31 SKIP_MORNING already_sent date=2026-06-26
+2026-06-26 16:31 SKIP_EVENING already_sent date=2026-06-26
