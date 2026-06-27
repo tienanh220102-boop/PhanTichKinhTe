@@ -6867,3 +6867,9 @@
 2026-06-27 01:31 ACCEPT [Google News NS] "Mysteel soybean and relatives marke... - mysteel.net" | kw:steel,soybean
 2026-06-27 01:31 ACCEPT [Google News CB] "UAE Central Bank Fines Foreign Bank and Compliance Officer for Money L" | kw:central bank
 2026-06-27 01:31 SKIP_MORNING already_sent date=2026-06-27
+2026-06-27 02:01 ACCEPT [Google News HH] "July 2, 2026: Brent crude oil price on July 02, 2026 at 5:00 PM EDT Pr" | kw:oil,crude,brent
+2026-06-27 02:01 ACCEPT [Google News HH] "Crude Oil Falls for Three Weeks, Metals Generally Rise, SHFE Zinc Up O" | kw:oil,crude,gold
+2026-06-27 02:01 ACCEPT [Google News HH] "Crude Oil Fell for Third Straight Week, Metals Broadly Rose; LME Zinc " | kw:oil,crude,gold
+2026-06-27 02:01 ACCEPT [Google News KL] "Gold looks broken, but the only thing that has changed is the price - " | kw:gold,rice
+2026-06-27 02:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG breaks below $60, bears eye $55 - FXStreet" | kw:silver,rice
+2026-06-27 02:01 SKIP_MORNING already_sent date=2026-06-27
