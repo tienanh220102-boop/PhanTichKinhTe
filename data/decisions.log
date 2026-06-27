@@ -6886,3 +6886,9 @@
 2026-06-27 04:01 ACCEPT [Google News HH] "Gold Price Volatility: Weekly Review and Analyst Outlook for June 2026" | kw:gold,rice
 2026-06-27 04:01 ACCEPT [Google News KL] "Gold holds above $4,100, silver trades at $58.20 as markets test key t" | kw:gold,silver
 2026-06-27 04:01 SKIP_MORNING already_sent date=2026-06-27
+2026-06-27 04:31 ACCEPT [Google News HH] "CFTC Positioning Report Reveals Sharp Reversal: Natural Gas Longs Wipe" | kw:oil,crude,gas
+2026-06-27 04:31 ACCEPT [Google News KL] "Gold could hit record $4,920 as bull run resumes - The Northern Miner" | kw:gold
+2026-06-27 04:31 ACCEPT [Google News KL] "Gold Price Analysis: $4,000 Support Tested Amid Fed Hawkish Shift and " | kw:gold,rice
+2026-06-27 04:31 ACCEPT [Google News CB] "Atlanta Fed Chief Selection Delay Gives Warsh a Say - Bloomberg" | kw:gdp
+2026-06-27 04:31 ACCEPT [Google News CB] "Watch Fed’s Kashkari Says ‘Cooled’ US Labor Market Not Driving Inflati" | kw:inflation
+2026-06-27 04:31 SKIP_MORNING already_sent date=2026-06-27
