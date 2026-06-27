@@ -6914,3 +6914,7 @@
 2026-06-27 06:31 SKIP_MORNING already_sent date=2026-06-27
 2026-06-27 07:01 ACCEPT [Google News KL] "Huge GOLD News! Central Banks Are About To Change The Gold & Silver Pr" | kw:gold,silver,rice
 2026-06-27 07:01 SKIP_MORNING already_sent date=2026-06-27
+2026-06-27 07:31 ACCEPT [Al Jazeera] "Who profits from Africa’s gold?" | kw:gold
+2026-06-27 07:31 ACCEPT [Google News KL] "Silver Price Dips Below $75 as Renewed Middle East Tensions Shift Safe" | kw:silver,rice
+2026-06-27 07:31 ACCEPT [Google News NS] "Morning Comments - June 26, 2026 - The Andersons Trade Group - The And" | kw:gdp
+2026-06-27 07:31 SKIP_MORNING already_sent date=2026-06-27
