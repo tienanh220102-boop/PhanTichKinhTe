@@ -6851,3 +6851,9 @@
 2026-06-27 00:01 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
 2026-06-27 00:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
 2026-06-27 00:01 SENT_MORNING articles=20 date=2026-06-27 force=False
+2026-06-27 00:31 ACCEPT [Google News HH] "U.S. crude oil climbs back above $70 after strike on Iran (USO:NYSEARC" | kw:oil,crude
+2026-06-27 00:31 ACCEPT [Google News HH] "US crude oil futures plunge 3.7% to $69.23 as Iran peace deal reshapes" | kw:oil,crude
+2026-06-27 00:31 ACCEPT [Google News KL] "Will gold hit $5,000 again this year? Experts explain what’s driving p" | kw:gold,rice
+2026-06-27 00:31 ACCEPT [Google News KL] "FIFA World Cup trophy's gold value doubles to USD 713,000 - MSN" | kw:gold
+2026-06-27 00:31 ACCEPT [Google News CB] "Watch Fed’s Kashkari Says ‘Cooled’ US Labor Market Not Driving Inflati" | kw:inflation
+2026-06-27 00:31 SKIP_MORNING already_sent date=2026-06-27
