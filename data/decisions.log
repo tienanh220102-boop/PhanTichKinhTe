@@ -7035,3 +7035,7 @@
 2026-06-27 15:31 ACCEPT [Google News NS] "Is China meeting its U.S. soybean commitment? - Country Guide" | kw:soybean
 2026-06-27 15:31 SKIP_MORNING already_sent date=2026-06-27
 2026-06-27 15:31 SKIP_EVENING already_sent date=2026-06-27
+2026-06-27 15:46 ACCEPT [Google News HH] "Crude Oil Price Forecast H2 2026: Will Oversupply Push WTI Back to $55" | kw:oil,crude,wti
+2026-06-27 15:46 ACCEPT [Google News KL] "Gold prices down in Kabul markets - Pajhwok Afghan News" | kw:gold,rice
+2026-06-27 15:46 SKIP_MORNING already_sent date=2026-06-27
+2026-06-27 15:46 SKIP_EVENING already_sent date=2026-06-27
