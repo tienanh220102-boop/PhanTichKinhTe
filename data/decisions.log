@@ -6906,3 +6906,7 @@
 2026-06-27 06:01 ACCEPT [Google News KL] "Pan American Silver (TSX:PAAS) Slides With Silver Prices, Is The 12% D" | kw:silver,rice
 2026-06-27 06:01 ACCEPT [Google News KL] "Gold and silver ETFs plunge as Fed rate fears hit bullion - MSN" | kw:gold,silver,fed rate
 2026-06-27 06:01 SKIP_MORNING already_sent date=2026-06-27
+2026-06-27 06:23 ACCEPT [Google News KL] "Gold prices edge up - VnExpress International" | kw:gold,rice
+2026-06-27 06:23 ACCEPT [Google News KL] "Gold, Silver Rate Today: Check live price of 22K, 24K, 18K gold & silv" | kw:lng,gold,silver
+2026-06-27 06:23 ACCEPT [Google News CB] "Gold Drops Below $4,500 as Iran Tensions Fuel Inflation Fears, Bolster" | kw:fuel,gold,inflation
+2026-06-27 06:23 SKIP_MORNING already_sent date=2026-06-27
