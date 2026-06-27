@@ -6882,3 +6882,7 @@
 2026-06-27 03:01 SKIP_MORNING already_sent date=2026-06-27
 2026-06-27 03:31 ACCEPT [Google News HH] "Crude Oil Prices Drop on Iran Peace Talks and Sanctions Waiver News - " | kw:oil,crude,rice
 2026-06-27 03:31 SKIP_MORNING already_sent date=2026-06-27
+2026-06-27 04:01 ACCEPT [Mining.com] "Integra grows reserve by 74% at Florida Canyon gold mine" | kw:gold
+2026-06-27 04:01 ACCEPT [Google News HH] "Gold Price Volatility: Weekly Review and Analyst Outlook for June 2026" | kw:gold,rice
+2026-06-27 04:01 ACCEPT [Google News KL] "Gold holds above $4,100, silver trades at $58.20 as markets test key t" | kw:gold,silver
+2026-06-27 04:01 SKIP_MORNING already_sent date=2026-06-27
