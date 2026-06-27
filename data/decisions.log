@@ -7022,3 +7022,9 @@
 2026-06-27 14:31 ACCEPT [Google News CB] "Supreme Court ruling, ECB conference likely to further frame Fed chief" | kw:ecb
 2026-06-27 14:31 SKIP_MORNING already_sent date=2026-06-27
 2026-06-27 14:31 SKIP_EVENING already_sent date=2026-06-27
+2026-06-27 15:01 ACCEPT [OilPrice.com] "The AI Power Crisis Is Creating a Massive New Market for Fuel Cells" | kw:fuel
+2026-06-27 15:01 ACCEPT [OilPrice.com] "Turkey Pushes Bold Global Plan to Electrify 35% of Energy Use by 2035" | kw:gas,fuel,iron
+2026-06-27 15:01 ACCEPT [Google News HH] "Brent Crude Oil Futures (Feb 2027) Trade Ideas — RUS:BRG2027 - Trading" | kw:oil,crude,brent
+2026-06-27 15:01 ACCEPT [Google News KL] "Gold Price Slips Amid Middle East Geopolitical Shifts & Bank Buying - " | kw:gold,rice
+2026-06-27 15:01 SKIP_MORNING already_sent date=2026-06-27
+2026-06-27 15:01 SKIP_EVENING already_sent date=2026-06-27
