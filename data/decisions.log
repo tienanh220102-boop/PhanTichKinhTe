@@ -6989,3 +6989,9 @@
 2026-06-27 12:49 ACCEPT [Google News CB] "The Fed Just Held Rates and Raised Its Inflation Forecast - What It Me" | kw:inflation
 2026-06-27 12:49 ACCEPT [Google News CB] "Interest Rate Cut - But Budget Means Inflation Will Rise, Bank Of Engl" | kw:inflation,interest rate,rate cut
 2026-06-27 12:49 SKIP_MORNING already_sent date=2026-06-27
+2026-06-27 13:01 ACCEPT [Google News HH] "OPEC Quota: Increased Oil Output Tied to Improved Pipeline Security, S" | kw:oil,opec
+2026-06-27 13:01 ACCEPT [Google News NS] "Cooking with Tammy Kelly: It’s a “Corntastic” Day!! - Neuse News" | kw:corn
+2026-06-27 13:01 ACCEPT [Google News CB] "Services inflation is hitting Americans hard. What can the Fed do? - Y" | kw:inflation
+2026-06-27 13:01 SKIP_MORNING already_sent date=2026-06-27
+2026-06-27 13:02 DIRECTION_FIX Soybean: "tăng 0.31%" → "giảm 0.31%"
+2026-06-27 13:02 SENT_EVENING articles=20 date=2026-06-27 force=False
