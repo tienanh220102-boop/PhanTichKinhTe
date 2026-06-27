@@ -6857,3 +6857,6 @@
 2026-06-27 00:31 ACCEPT [Google News KL] "FIFA World Cup trophy's gold value doubles to USD 713,000 - MSN" | kw:gold
 2026-06-27 00:31 ACCEPT [Google News CB] "Watch Fed’s Kashkari Says ‘Cooled’ US Labor Market Not Driving Inflati" | kw:inflation
 2026-06-27 00:31 SKIP_MORNING already_sent date=2026-06-27
+2026-06-27 01:01 ACCEPT [Google News HH] "U.S. Crude Oil Futures Dip Amid Rising Tensions with Iran - GuruFocus" | kw:oil,crude
+2026-06-27 01:01 ACCEPT [Google News CB] "Fed expert explains how Iran war has impacted inflation numbers - Fox " | kw:inflation
+2026-06-27 01:01 SKIP_MORNING already_sent date=2026-06-27
