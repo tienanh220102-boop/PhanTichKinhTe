@@ -6902,3 +6902,7 @@
 2026-06-27 05:31 ACCEPT [Google News HH] "Enterprise value to EBITDA forward of Carlyle Commodities Corp. – CSE:" | kw:commodities
 2026-06-27 05:31 ACCEPT [Google News KL] "Gold Rate Today, June 27: Check 18, 22 and 24 carat gold prices in Che" | kw:gold,rice
 2026-06-27 05:31 SKIP_MORNING already_sent date=2026-06-27
+2026-06-27 06:01 ACCEPT [Google News HH] "Price to book forward of Carlyle Commodities Corp. – NEO:CCC - Trading" | kw:rice,commodities
+2026-06-27 06:01 ACCEPT [Google News KL] "Pan American Silver (TSX:PAAS) Slides With Silver Prices, Is The 12% D" | kw:silver,rice
+2026-06-27 06:01 ACCEPT [Google News KL] "Gold and silver ETFs plunge as Fed rate fears hit bullion - MSN" | kw:gold,silver,fed rate
+2026-06-27 06:01 SKIP_MORNING already_sent date=2026-06-27
