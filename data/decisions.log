@@ -6880,3 +6880,5 @@
 2026-06-27 02:38 SKIP_MORNING already_sent date=2026-06-27
 2026-06-27 03:01 ACCEPT [Google News HH] "Crude Oil Last Day Financial Futures (Jun 2023) Trade Ideas — NYMEX:26" | kw:oil,crude
 2026-06-27 03:01 SKIP_MORNING already_sent date=2026-06-27
+2026-06-27 03:31 ACCEPT [Google News HH] "Crude Oil Prices Drop on Iran Peace Talks and Sanctions Waiver News - " | kw:oil,crude,rice
+2026-06-27 03:31 SKIP_MORNING already_sent date=2026-06-27
