@@ -6955,3 +6955,7 @@
 2026-06-27 10:31 SKIP_MORNING already_sent date=2026-06-27
 2026-06-27 11:01 ACCEPT [Google News KL] "24 March 2026 |Vox Weather Forecast Silver Price Today (p6TI3HLk6I) - " | kw:silver,rice
 2026-06-27 11:01 SKIP_MORNING already_sent date=2026-06-27
+2026-06-27 11:09 ACCEPT [Google News HH] "Iraqi targets 7M bpd oil output in three years - Shafaq News | Latest " | kw:oil
+2026-06-27 11:09 ACCEPT [Google News HH] "Crude Oil Plummets As Shipping Traffic Across The Hormuz Strait Speeds" | kw:oil,crude,shipping
+2026-06-27 11:09 ACCEPT [Google News CB] "Kevin Warsh’s Federal Reserve inauguration does fewer things better - " | kw:federal reserve
+2026-06-27 11:09 SKIP_MORNING already_sent date=2026-06-27
