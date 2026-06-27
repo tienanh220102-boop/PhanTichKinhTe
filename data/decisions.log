@@ -7039,3 +7039,7 @@
 2026-06-27 15:46 ACCEPT [Google News KL] "Gold prices down in Kabul markets - Pajhwok Afghan News" | kw:gold,rice
 2026-06-27 15:46 SKIP_MORNING already_sent date=2026-06-27
 2026-06-27 15:46 SKIP_EVENING already_sent date=2026-06-27
+2026-06-27 16:01 ACCEPT [Google News HH] "Former PM Adel Abdul-Mahdi warns Iraq against quitting OPEC - 964media" | kw:opec
+2026-06-27 16:01 ACCEPT [Google News KL] "Gold, silver prices decline in local and global markets - The Nation (" | kw:gold,silver,rice
+2026-06-27 16:01 SKIP_MORNING already_sent date=2026-06-27
+2026-06-27 16:01 SKIP_EVENING already_sent date=2026-06-27
