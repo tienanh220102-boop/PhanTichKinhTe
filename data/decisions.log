@@ -6938,3 +6938,7 @@
 2026-06-27 09:09 ACCEPT [Google News KL] "4075.67 | XAUT USDT | Tether Gold to USDT – Binance Spot - Binance" | kw:gold
 2026-06-27 09:09 ACCEPT [Google News KL] "Gold price up Tk5,482 per bhori, 22-carat now costs Tk2,28,556 - The B" | kw:gold,rice
 2026-06-27 09:09 SKIP_MORNING already_sent date=2026-06-27
+2026-06-27 09:31 ACCEPT [Google News HH] "Crude Oil West Texas (Aug 2026) Trade Ideas — CMCMARKETS:USCRUDEOILQ20" | kw:oil,crude
+2026-06-27 09:31 ACCEPT [Google News HH] "WTI crude oil breaks yesterday's low as it falls below $69 - investing" | kw:oil,crude,wti
+2026-06-27 09:31 ACCEPT [Google News KL] "Gold price rebounds as falling US yields weigh on US Dollar - TMGM" | kw:gold,rice
+2026-06-27 09:31 SKIP_MORNING already_sent date=2026-06-27
