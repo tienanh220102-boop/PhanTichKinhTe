@@ -6949,3 +6949,7 @@
 2026-06-27 10:01 ACCEPT [Google News KL] "Commodity wrap: Gold slips to 2-month low, while oil dips on Iran peac" | kw:oil,gold,commodity
 2026-06-27 10:01 ACCEPT [Google News CB] "Kevin Warsh Just Suggested the Fed May Bring Down the Hammer on Inflat" | kw:inflation
 2026-06-27 10:01 SKIP_MORNING already_sent date=2026-06-27
+2026-06-27 10:31 ACCEPT [Google News HH] "OPEC+ Agrees to Boost Oil Output When Strait of Hormuz Reopens - Energ" | kw:oil,opec
+2026-06-27 10:31 ACCEPT [Google News HH] "Iraq targets 7M bpd oil output in three years - Shafaq News | Latest b" | kw:oil
+2026-06-27 10:31 ACCEPT [Google News KL] "Gold gains in Baghdad and Erbil - Shafaq News | Latest breaking news i" | kw:gold
+2026-06-27 10:31 SKIP_MORNING already_sent date=2026-06-27
