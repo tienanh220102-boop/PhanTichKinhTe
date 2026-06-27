@@ -6942,3 +6942,10 @@
 2026-06-27 09:31 ACCEPT [Google News HH] "WTI crude oil breaks yesterday's low as it falls below $69 - investing" | kw:oil,crude,wti
 2026-06-27 09:31 ACCEPT [Google News KL] "Gold price rebounds as falling US yields weigh on US Dollar - TMGM" | kw:gold,rice
 2026-06-27 09:31 SKIP_MORNING already_sent date=2026-06-27
+2026-06-27 10:01 ACCEPT [Google News HH] "Japan’s crude oil imports plunge 66% amid Middle East supply disruptio" | kw:oil,crude
+2026-06-27 10:01 ACCEPT [Google News HH] "Price to sales forward of Carlyle Commodities Corp. – CSE:CCC - Tradin" | kw:rice,commodities
+2026-06-27 10:01 ACCEPT [Google News KL] "NexGold Mining Corp. Advances Goldboro Amid Gold Market Shifts - Stree" | kw:gold
+2026-06-27 10:01 ACCEPT [Google News KL] "The UNTHINKABLE Is About To Happen To GOLD & Silver | WARREN BUFFETT K" | kw:gold,silver
+2026-06-27 10:01 ACCEPT [Google News KL] "Commodity wrap: Gold slips to 2-month low, while oil dips on Iran peac" | kw:oil,gold,commodity
+2026-06-27 10:01 ACCEPT [Google News CB] "Kevin Warsh Just Suggested the Fed May Bring Down the Hammer on Inflat" | kw:inflation
+2026-06-27 10:01 SKIP_MORNING already_sent date=2026-06-27
