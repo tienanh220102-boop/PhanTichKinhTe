@@ -6924,3 +6924,7 @@
 2026-06-27 08:01 ACCEPT [Google News KL] "Gold prices rise in Bangladesh market - Newagebd.net" | kw:gold,rice
 2026-06-27 08:01 ACCEPT [Google News NS] "Commodity markets daily recap - St Joseph Post" | kw:commodity
 2026-06-27 08:01 SKIP_MORNING already_sent date=2026-06-27
+2026-06-27 08:31 ACCEPT [Google News HH] "Former Iraqi PM warns against OPEC exit - Shafaq News | Latest breakin" | kw:opec
+2026-06-27 08:31 ACCEPT [Google News HH] "The Best Commodities to Invest in for the Second Half of 2026 - Mornin" | kw:commodities
+2026-06-27 08:31 ACCEPT [Google News KL] "ASX 200 ends week higher as gold miners surge - MSN" | kw:gold
+2026-06-27 08:31 SKIP_MORNING already_sent date=2026-06-27
