@@ -6970,3 +6970,16 @@
 2026-06-27 12:01 ACCEPT [Google News NS] "Petrobras Explores Entry into Corn Ethanol Market, Aiming to Become a " | kw:fuel,corn
 2026-06-27 12:01 ACCEPT [Google News CB] "Services inflation is hitting Americans hard. What can the Fed do? - Y" | kw:inflation
 2026-06-27 12:01 SKIP_MORNING already_sent date=2026-06-27
+2026-06-27 12:31 ACCEPT [Google News HH] "COMMENTARY: Trump Broke OPEC. He May Regret It: Bousso - EnergyNow.com" | kw:opec
+2026-06-27 12:31 ACCEPT [Google News HH] "Gold Price Today in Delhi – 18K, 22K & 24K Rate | 27 June 2026 - The T" | kw:gold,rice
+2026-06-27 12:31 ACCEPT [Google News KL] "Gold price declines Rs 7,600 per tola in a week - myRepublica" | kw:gold,rice
+2026-06-27 12:31 ACCEPT [Google News NS] "European Corn Surges as US Market Eyes El Niño - Barchart" | kw:corn
+2026-06-27 12:31 ACCEPT [Google News NS] "Is the 2026 soybean rally over? - MSN" | kw:soybean
+2026-06-27 12:31 ACCEPT [Google News CB] "AI boom, stubborn inflation point to rate hike ahead, says Minneapolis" | kw:inflation,rate hike
+2026-06-27 12:31 ACCEPT [Google News CB] "Services inflation is hitting Americans hard. What can the Fed do? - Y" | kw:inflation
+2026-06-27 12:31 ACCEPT [Google News CB] "Inflation flips Wall Street’s Fed interest-rate bets - thestreet.com" | kw:inflation
+2026-06-27 12:31 ACCEPT [Google News CB] "Trading in these two ETFs suggests inflation fears are overblown - CNB" | kw:inflation
+2026-06-27 12:31 ACCEPT [Google News CB] "Supreme Court ruling, ECB conference likely to further frame Fed chief" | kw:ecb
+2026-06-27 12:31 ACCEPT [Google News CB] "Fed Interest Rates 2026: Inflation Outlook & Investment Strategy - Int" | kw:inflation,interest rate
+2026-06-27 12:31 ACCEPT [Google News CB] "The Fed Balance Sheet Increases by $31B in June - SchiffGold.com" | kw:gold
+2026-06-27 12:31 SKIP_MORNING already_sent date=2026-06-27
