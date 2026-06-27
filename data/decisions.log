@@ -6860,3 +6860,10 @@
 2026-06-27 01:01 ACCEPT [Google News HH] "U.S. Crude Oil Futures Dip Amid Rising Tensions with Iran - GuruFocus" | kw:oil,crude
 2026-06-27 01:01 ACCEPT [Google News CB] "Fed expert explains how Iran war has impacted inflation numbers - Fox " | kw:inflation
 2026-06-27 01:01 SKIP_MORNING already_sent date=2026-06-27
+2026-06-27 01:31 ACCEPT [Google News HH] "Oh Sh*t, here we go again... $Crude Oil Futures (AUG6) (CLmain.US)$ Ju" | kw:oil,crude
+2026-06-27 01:31 ACCEPT [Google News HH] "Iraq Threatens OPEC Exit If Higher Oil Production Quota Denied - News " | kw:oil,opec
+2026-06-27 01:31 ACCEPT [Google News HH] "Crude Oil Weekly Decline: Tanker Traffic Recovery in Strait of Hormuz " | kw:oil,crude
+2026-06-27 01:31 ACCEPT [Google News NS] "European Corn Surges as US Market Eyes El Niño - Barchart.com" | kw:corn
+2026-06-27 01:31 ACCEPT [Google News NS] "Mysteel soybean and relatives marke... - mysteel.net" | kw:steel,soybean
+2026-06-27 01:31 ACCEPT [Google News CB] "UAE Central Bank Fines Foreign Bank and Compliance Officer for Money L" | kw:central bank
+2026-06-27 01:31 SKIP_MORNING already_sent date=2026-06-27
