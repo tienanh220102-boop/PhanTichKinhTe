@@ -6928,3 +6928,8 @@
 2026-06-27 08:31 ACCEPT [Google News HH] "The Best Commodities to Invest in for the Second Half of 2026 - Mornin" | kw:commodities
 2026-06-27 08:31 ACCEPT [Google News KL] "ASX 200 ends week higher as gold miners surge - MSN" | kw:gold
 2026-06-27 08:31 SKIP_MORNING already_sent date=2026-06-27
+2026-06-27 09:01 ACCEPT [Google News HH] "U.S. Crude Oil Futures Dip Amid Rising Tensions with Iran - GuruFocus" | kw:oil,crude
+2026-06-27 09:01 ACCEPT [Google News KL] "O2 - Check Check Silver Price Today (4DDa2ZFOPI) - Mshale" | kw:silver,rice
+2026-06-27 09:01 ACCEPT [Google News KL] "Gold price rises by Tk5,482 per bhori, new price set at Tk228,556 - Dh" | kw:gold,rice
+2026-06-27 09:01 ACCEPT [Google News CB] "QNB Projects Gradual BoJ Tightening as Japan’s Inflation Dynamics Shif" | kw:inflation,boj,tightening
+2026-06-27 09:01 SKIP_MORNING already_sent date=2026-06-27
