@@ -6933,3 +6933,8 @@
 2026-06-27 09:01 ACCEPT [Google News KL] "Gold price rises by Tk5,482 per bhori, new price set at Tk228,556 - Dh" | kw:gold,rice
 2026-06-27 09:01 ACCEPT [Google News CB] "QNB Projects Gradual BoJ Tightening as Japan’s Inflation Dynamics Shif" | kw:inflation,boj,tightening
 2026-06-27 09:01 SKIP_MORNING already_sent date=2026-06-27
+2026-06-27 09:09 ACCEPT [Google News KL] "Gold Rate Today (June 27): Check City-Wise 24K, 22K Gold - APAC Media" | kw:gold
+2026-06-27 09:09 ACCEPT [Google News KL] "Gold Rate Today 27 June 2026 | Check 18K, 22K & 24K Gold Rate Today – " | kw:gold
+2026-06-27 09:09 ACCEPT [Google News KL] "4075.67 | XAUT USDT | Tether Gold to USDT – Binance Spot - Binance" | kw:gold
+2026-06-27 09:09 ACCEPT [Google News KL] "Gold price up Tk5,482 per bhori, 22-carat now costs Tk2,28,556 - The B" | kw:gold,rice
+2026-06-27 09:09 SKIP_MORNING already_sent date=2026-06-27
