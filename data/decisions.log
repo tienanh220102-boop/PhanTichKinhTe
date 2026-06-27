@@ -7049,3 +7049,6 @@
 2026-06-27 16:59 ACCEPT [Google News KL] "SGB Redemption Calendar 2026: Time To Cash Out? Check Which Gold Bonds" | kw:gold
 2026-06-27 16:59 SKIP_MORNING already_sent date=2026-06-27
 2026-06-27 16:59 SKIP_EVENING already_sent date=2026-06-27
+2026-06-27 17:01 ACCEPT [Google News HH] "Price to book forward of Carlyle Commodities Corp. – CSE:CCC - Trading" | kw:rice,commodities
+2026-06-27 17:01 ACCEPT [Google News NS] "Updated grain prices in Ukraine announced - Новини аграрного бізнесу" | kw:rice
+2026-06-27 17:01 ACCEPT [Google News NS] "Oman Flour Mills starts receiving 2026 local wheat harvest - Milling M" | kw:wheat,harvest
