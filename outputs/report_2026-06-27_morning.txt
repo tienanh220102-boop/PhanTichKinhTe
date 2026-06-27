@@ -1,0 +1,84 @@
+[BẢNG SỐ LIỆU]
+               Giá   Phiên  5 phiên
+WTI          70.24   -2.3%    -8.3%
+Brent        73.57   -2.2%    -7.9%
+Khí TN       3.287   -1.7%    +1.7%
+Vàng      4,103.00   +1.8%    -2.9%
+Bạc          59.60   +2.1%   -10.0%
+Đồng         6.197   +2.1%    -2.8%
+Ngô         420.50   +1.4%    +0.7%
+Lúa mì      588.75   -0.4%    -2.8%
+Đậu t.    1,155.00   +2.4%    +2.9%
+DXY         101.37   -0.1%    +0.5%
+
+[LIÊN THỊ TRƯỜNG]
+  Brent−WTI: $3.33 (1 tháng trước: $5.61) — spread rộng = cung WTI dồi dào tương đối
+  Vàng/Bạc: 68.8 (1 tháng trước: 59.6) — tỷ lệ cao = bạc rẻ tương đối so với vàng
+  Đồng/Vàng (×1000): 1.51 (1 tháng trước: 1.42) — tăng = risk-on/kỳ vọng tăng trưởng
+
+[VỊ THẾ QUỸ ĐẦU CƠ — CFTC COT tuần 2026-06-23]
+  Lúa mì (SRW): NET SHORT -48,411 (Δ tuần: +2,401)
+  Ngô: NET LONG +58,333 (Δ tuần: -19,511)
+  Đậu tương: NET LONG +100,844 (Δ tuần: -16,764)
+  Dầu WTI: NET LONG +17,424 (Δ tuần: -4,507)
+  Bạc: NET LONG +23,751 (Δ tuần: -793)
+  Đồng: NET LONG +71,620 (Δ tuần: -3,730)
+  Vàng XAU: NET LONG +181,339 (Δ tuần: +1,119)
+→ NET LONG = quỹ đặt cược giá tăng; Δ dương = dòng tiền đầu cơ đang vào
+
+**BÁO CÁO PHÂN TÍCH PHIÊN SÁNG (07:00 VN)**
+
+🔀 ĐỐI CHIẾU NGUỒN TIN
+Không phát hiện xung đột đáng kể giữa các nguồn trong phiên này.
+
+🌍 VĨ MÔ & TIN TỨC NỔI BẬT
+*   Đồng USD suy yếu nhẹ, làm giảm bớt lo ngại về việc Cục Dự trữ Liên bang Mỹ (Fed) tăng lãi suất trong tương lai gần.
+*   Giá dầu giảm sâu làm dịu bớt áp lực lạm phát, củng cố kỳ vọng Fed sẽ không thắt chặt chính sách tiền tệ mạnh tay.
+
+🛢️ NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên
+Xu hướng: WTI GIẢM | Brent GIẢM | Khí TN TĂNG
+Thiên hướng KT: WTI Giảm — đã sâu | Brent Giảm — đã sâu | Khí TN Nghiêng tăng
+Ngưỡng giá: WTI 68.56–78.96 | Brent 71.95–82.38 | Khí TN 3.205–3.375
+Phân tích:
+• Dầu WTI và Brent giảm mạnh lần lượt 2.34% và 2.25% trong phiên, kéo dài đà giảm 5 phiên xuống còn -8.30% và -7.86%. Giá dầu giảm do lo ngại về nguồn cung hạ nhiệt sau khi eo biển Hormuz hoạt động trở lại, đồng thời các quỹ đầu cơ đang giảm vị thế mua ròng.
+• Khí tự nhiên có xu hướng ngược lại, tăng nhẹ 1.67% trong 5 phiên và đang nghiêng về xu hướng tăng khi giá nằm trên đường MA20.
+Rủi ro:
+• Giá dầu có thể tiếp tục chịu áp lực nếu nguồn cung dồi dào hơn dự kiến hoặc nhu cầu suy yếu.
+
+🥇 KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc
+Xu hướng: Vàng GIẢM | Bạc GIẢM
+Thiên hướng KT: Vàng Nghiêng giảm | Bạc Nghiêng giảm
+Ngưỡng giá: Vàng 3,963.30–4,216.40 | Bạc 56.13–65.53
+Phân tích:
+• Vàng tăng 1.80% trong phiên, nhưng vẫn giảm 2.87% trong 5 phiên và đang nghiêng về xu hướng giảm. Đà tăng trong phiên có thể do đồng USD yếu đi và kỳ vọng Fed sẽ không tăng lãi suất, tuy nhiên xu hướng trung hạn vẫn còn yếu.
+• Bạc giảm mạnh 10.04% trong 5 phiên, cho thấy bạc đang rẻ tương đối so với vàng.
+Rủi ro:
+• Nếu kỳ vọng về việc Fed tăng lãi suất quay trở lại, giá vàng có thể chịu áp lực giảm.
+
+🌾 NÔNG SẢN — Ngô, Đậu tương, Lúa mì
+Xu hướng: Ngô GIẢM | Lúa mì GIẢM | Đậu tương SIDEWAY
+Thiên hướng KT: Ngô Nghiêng giảm | Lúa mì Nghiêng giảm | Đậu tương Trung tính
+Ngưỡng giá: Ngô 403.75–427.00 | Lúa mì 580.50–612.25 | Đậu tương 1,132.34–1,158.75
+Phân tích:
+• Đậu tương tăng 2.44% trong phiên, cho thấy sự phục hồi sau đà giảm 5 phiên. Tuy nhiên, xu hướng trung hạn vẫn đang ở trạng thái đi ngang. Các quỹ đầu cơ đang giảm vị thế mua ròng đối với đậu tương và ngô.
+• Ngô và lúa mì tiếp tục xu hướng giảm trong 5 phiên, với các quỹ đầu cơ giảm vị thế mua ròng ngô và tăng vị thế bán ròng lúa mì.
+Rủi ro:
+• Thời tiết bất lợi trong giai đoạn thụ phấn của ngô có thể tạo ra biến động mạnh.
+
+🔩 KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken
+Xu hướng: Đồng SIDEWAY
+Thiên hướng KT: Đồng Trung tính
+Ngưỡng giá: Đồng 5.928–6.356
+Phân tích:
+• Đồng tăng 2.09% trong phiên, nhưng vẫn giảm 2.78% trong 5 phiên và đang ở trạng thái đi ngang. Các quỹ đầu cơ đang giảm vị thế mua ròng đồng.
+Rủi ro:
+• Nhu cầu từ Trung Quốc và các nền kinh tế lớn có thể ảnh hưởng đến xu hướng của đồng.
+
+📋 KHUYẾN NGHỊ PHIÊN
+*   Theo dõi sát diễn biến giá dầu và các thông tin liên quan đến nguồn cung và nhu cầu.
+*   Quan sát phản ứng của vàng trước biến động của đồng USD và kỳ vọng lãi suất của Fed.
+
+⚠️ THEO DÕI PHIÊN
+*   Các báo cáo về tồn kho dầu thô của Mỹ.
+*   Thông tin về chính sách tiền tệ của các ngân hàng trung ương lớn.
+*   Dữ liệu kinh tế vĩ mô quan trọng của Mỹ và Trung Quốc.

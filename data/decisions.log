@@ -6848,3 +6848,6 @@
 2026-06-26 23:56 ACCEPT [Google News NS] "Missouri Daily Grain Bids: Corn, Soybeans, Wheat Futures & Cash Prices" | kw:wheat,corn,soybean
 2026-06-26 23:56 ACCEPT [Google News CB] "Atlanta Fed Chief Selection Delay Gives Warsh a Say - Bloomberg.com" | kw:gdp
 2026-06-26 23:56 ACCEPT [Google News CB] "UAE Central Bank Fines Foreign Bank and Compliance Officer for Money L" | kw:central bank
+2026-06-27 00:01 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-06-27 00:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
+2026-06-27 00:01 SENT_MORNING articles=20 date=2026-06-27 force=False
