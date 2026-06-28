@@ -7262,3 +7262,13 @@
 2026-06-28 03:01 ACCEPT [Google News HH] "Crude oil prices sink as supplies out of the Persian Gulf accelerate -" | kw:oil,crude,rice
 2026-06-28 03:01 ACCEPT [Google News NS] "Vietnam rice rates up on El Nino fears; buyers opt for cheaper Indian " | kw:rice
 2026-06-28 03:01 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 03:29 ACCEPT [Google News HH] "Crude oil slides to four-month lows, boosting India outlook - MSN" | kw:oil,crude
+2026-06-28 03:29 ACCEPT [Google News HH] "Gold Prices Drop | Local & Global Rates Fall | 10g 9430 PKR, 1 Tola 11" | kw:gold,rice
+2026-06-28 03:29 ACCEPT [Google News HH] "Stairway to gold (GOLD) Price, MarketCap, Charts and Fundamentals Info" | kw:gold,rice
+2026-06-28 03:29 ACCEPT [Google News HH] "Centre invokes Essential Commodities Act to ensure Natural Gas supply " | kw:gas,commodities
+2026-06-28 03:29 ACCEPT [Google News HH] "Price to earnings forward of Carlyle Commodities Corp. – NEO:CCC - Tra" | kw:rice,commodities
+2026-06-28 03:29 ACCEPT [Google News KL] "What Affects Gold Prices? 6 Key Factors Explained - XTB.com" | kw:gold,rice
+2026-06-28 03:29 ACCEPT [Google News KL] "Silver price fluctuation 28.6: Losses of up to 7.7 million VND/kg afte" | kw:silver,rice
+2026-06-28 03:29 ACCEPT [Google News NS] "Corn and soybean bulls are limping into the critical growing month of " | kw:corn,soybean
+2026-06-28 03:29 ACCEPT [Google News CB] "Japan Real Estate Investment Challenges: Visa Fee Hikes and BOJ Rate R" | kw:boj
+2026-06-28 03:29 SKIP_MORNING already_sent date=2026-06-28
