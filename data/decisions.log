@@ -7274,3 +7274,9 @@
 2026-06-28 03:29 SKIP_MORNING already_sent date=2026-06-28
 2026-06-28 03:31 ACCEPT [Google News HH] "Fuel prices steady despite crude oil drop to pre-war levels - MSN" | kw:oil,crude,fuel
 2026-06-28 03:31 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 04:01 ACCEPT [Google News HH] "Gold Price Drops 3.5% Amid Rising U.S. Inflation and Middle East Tensi" | kw:gold,rice,inflation
+2026-06-28 04:01 ACCEPT [Google News HH] "LOOKING TO CANADA FOR OIL: Canada’s Irving Turns to Newfoundland for O" | kw:oil
+2026-06-28 04:01 ACCEPT [Google News KL] "Gold and silver tumble as rate-hike fears hit precious metals - MSN" | kw:gold,silver
+2026-06-28 04:01 ACCEPT [Google News NS] "Wheat farmers left in the lurch as government rules out tariff changes" | kw:wheat,tariff
+2026-06-28 04:01 ACCEPT [Google News CB] "Market direction remains unclear, with the ECB's Sintra meeting and em" | kw:ecb
+2026-06-28 04:01 SKIP_MORNING already_sent date=2026-06-28
