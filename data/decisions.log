@@ -7272,3 +7272,5 @@
 2026-06-28 03:29 ACCEPT [Google News NS] "Corn and soybean bulls are limping into the critical growing month of " | kw:corn,soybean
 2026-06-28 03:29 ACCEPT [Google News CB] "Japan Real Estate Investment Challenges: Visa Fee Hikes and BOJ Rate R" | kw:boj
 2026-06-28 03:29 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 03:31 ACCEPT [Google News HH] "Fuel prices steady despite crude oil drop to pre-war levels - MSN" | kw:oil,crude,fuel
+2026-06-28 03:31 SKIP_MORNING already_sent date=2026-06-28
