@@ -7353,3 +7353,8 @@
 2026-06-28 08:31 ACCEPT [Google News NS] "[Spotlight] U.S. Wheat Production Plunges to Worst in 69 Years for Bak" | kw:wheat
 2026-06-28 08:31 ACCEPT [Google News CB] "President Donald Trump Just Took a Jab at His Handpicked Fed Chair, Ke" | kw:interest rate
 2026-06-28 08:31 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 09:01 ACCEPT [Google News HH] "Iraq, OPEC Begin Gradual Restoration of Oil Production Quotas - Egypt " | kw:oil,opec,gas
+2026-06-28 09:01 ACCEPT [Google News HH] "Price to sales forward of Century Global Commodities Corporation – TSX" | kw:rice,commodities
+2026-06-28 09:01 ACCEPT [Google News KL] "Gold miners offer value despite near-term pressure on bullion, says Bo" | kw:gold
+2026-06-28 09:01 ACCEPT [Google News CB] "[Warsh Fed] “From a Predictable Fed to a Market-Responsive Fed”: A Pri" | kw:rice
+2026-06-28 09:01 SKIP_MORNING already_sent date=2026-06-28
