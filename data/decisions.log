@@ -7429,3 +7429,10 @@
 2026-06-28 12:01 ACCEPT [Google News CB] "County considers moratorium on data centers - ECB Publishing, Inc." | kw:ecb
 2026-06-28 12:01 ACCEPT [Google News CB] "Week Ahead: U.S. Jobs Report; Eurozone, Switzerland and South Korea CP" | kw:ecb
 2026-06-28 12:01 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 12:31 ACCEPT [Google News HH] "Venezuela Resumes Exports of Diluted Crude Oil After 15-Month Pause -D" | kw:oil,crude
+2026-06-28 12:31 ACCEPT [Google News HH] "Crude oil price forecast as US and Iran intensify attacks - Invezz" | kw:oil,crude,rice
+2026-06-28 12:31 ACCEPT [Google News NS] "India food safety watchdog exposes false marketing behind popular whea" | kw:wheat,gdp
+2026-06-28 12:31 ACCEPT [Google News CB] "The 'central bank of central banks' sounds the alarm on an AI bubble: " | kw:central bank
+2026-06-28 12:31 ACCEPT [Google News CB] "BofA raises global growth outlook, sees 75 bps Fed hikes despite easin" | kw:inflation,easing
+2026-06-28 12:31 ACCEPT [Google News CB] "Supreme Court ruling, ECB conference likely to further frame Fed chief" | kw:ecb
+2026-06-28 12:31 SKIP_MORNING already_sent date=2026-06-28
