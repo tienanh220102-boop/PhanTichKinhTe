@@ -7378,3 +7378,16 @@
 2026-06-28 10:01 ACCEPT [Google News CB] "Japan Policy Draft Backs ‘Appropriate’ Monetary Policy - Bloomberg.com" | kw:monetary policy
 2026-06-28 10:01 ACCEPT [Google News CB] "Bitcoin extends losses below $69K as Fed’s Hammack warns sticky inflat" | kw:inflation,rate hike
 2026-06-28 10:01 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 10:21 ACCEPT [Google News HH] "US-Iran Tensions, Crude Oil Prices To Drive Stock Market Mood This Wee" | kw:oil,crude,rice
+2026-06-28 10:21 ACCEPT [Google News HH] "Gold price jumps Rs 4,700 per tola - myRepublica" | kw:gold,rice
+2026-06-28 10:21 ACCEPT [Google News HH] "CANADA IS ONE OF THEM - Half the World’s Oil Comes From Just Five Coun" | kw:oil
+2026-06-28 10:21 ACCEPT [Google News HH] "China Crude Oil Imports Fall to Record Lows in June 2026 - Discovery A" | kw:oil,crude
+2026-06-28 10:21 ACCEPT [Google News KL] "Gold prices continuously decrease, many organizations still believe in" | kw:gold,rice
+2026-06-28 10:21 ACCEPT [Google News KL] "Gold, silver rates today (June 28, 2026): Check latest prices for 24K," | kw:gold,silver,rice
+2026-06-28 10:21 ACCEPT [Google News KL] "Silver prices plummet, experts warn of unpredictable developments - La" | kw:wti,silver,rice
+2026-06-28 10:21 ACCEPT [Google News NS] "Leeds 'Cornucopia' mural near Corn Exchange and Kirkgate Market restor" | kw:corn,gdp
+2026-06-28 10:21 ACCEPT [Google News CB] "The Fed Removed This 1 Key Phrase From the Inflation Report. What That" | kw:inflation
+2026-06-28 10:21 ACCEPT [Google News CB] "ECB highlights gap between AI adoption and productivity - Digital Watc" | kw:ecb
+2026-06-28 10:21 ACCEPT [Google News CB] "Japanese government calls for measured monetary management to influenc" | kw:bank of japan
+2026-06-28 10:21 ACCEPT [Google News CB] "Kevin Warsh just suggested the Fed may bring down the hammer on inflat" | kw:inflation
+2026-06-28 10:21 SKIP_MORNING already_sent date=2026-06-28
