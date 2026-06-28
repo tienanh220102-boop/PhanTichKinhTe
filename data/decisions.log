@@ -7257,3 +7257,8 @@
 2026-06-28 02:31 ACCEPT [Google News NS] "US soybeans on track for weekly gain on weather woes, China demand opt" | kw:soybean
 2026-06-28 02:31 ACCEPT [Google News CB] "Morgan Stanley Says Fed Rate Hikes Could Return if Unemployment Falls " | kw:fed rate,rate hike
 2026-06-28 02:31 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 03:01 ACCEPT [Google News HH] "Why fuel prices still high amid drop in global crude oil rates, asks C" | kw:oil,crude,fuel
+2026-06-28 03:01 ACCEPT [Google News HH] "Why are fuel prices still high when global crude oil rates have fallen" | kw:oil,crude,fuel
+2026-06-28 03:01 ACCEPT [Google News HH] "Crude oil prices sink as supplies out of the Persian Gulf accelerate -" | kw:oil,crude,rice
+2026-06-28 03:01 ACCEPT [Google News NS] "Vietnam rice rates up on El Nino fears; buyers opt for cheaper Indian " | kw:rice
+2026-06-28 03:01 SKIP_MORNING already_sent date=2026-06-28
