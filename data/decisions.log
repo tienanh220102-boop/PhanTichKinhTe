@@ -7328,3 +7328,10 @@
 2026-06-28 07:01 ACCEPT [Google News KL] "Gold surges by Rs 4,700 per tola, silver also gains - The Himalayan Ti" | kw:gold,silver
 2026-06-28 07:01 ACCEPT [Google News CB] "Kashkari pivots to rate hike as AI fuels inflation - MSN" | kw:fuel,inflation,rate hike
 2026-06-28 07:01 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 07:31 ACCEPT [NASDAQ Commod] "Jim Wiederhold: Institutions Want Commodities Again, 3 Reasons Why" | kw:commodity,commodities,easing
+2026-06-28 07:31 ACCEPT [Google News KL] "The person who accurately predicted the plunge in gold makes a new pro" | kw:gold
+2026-06-28 07:31 ACCEPT [Google News KL] "Gold prices hover around $4,089 per ounce - وكالة صدى نيوز" | kw:gold,rice
+2026-06-28 07:31 ACCEPT [Google News KL] "Gold surges by Rs 4,700 per tola, silver also gains - The Himalayan Ti" | kw:gold,silver
+2026-06-28 07:31 ACCEPT [Google News KL] "Why is the silver price falling? The answer: It has cousins. Part 1 – " | kw:silver,rice
+2026-06-28 07:31 ACCEPT [Google News CB] "Markets brace for Fed rate hikes as summer 'funflation' peaks - MSN" | kw:fed rate,rate hike
+2026-06-28 07:31 SKIP_MORNING already_sent date=2026-06-28
