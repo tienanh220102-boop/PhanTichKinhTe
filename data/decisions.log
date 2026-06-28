@@ -7313,3 +7313,9 @@
 2026-06-28 06:01 ACCEPT [Google News CB] "Dollar retreats as US inflation data eases rate hike expectations - AO" | kw:inflation,rate hike
 2026-06-28 06:01 ACCEPT [Google News CB] "Should Amazon Investors Be Concerned That New Fed Chair Kevin Warsh Is" | kw:interest rate
 2026-06-28 06:01 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 06:31 ACCEPT [Al Jazeera] "Venezuelan earthquake death toll rises amid increasingly dire search" | kw:easing
+2026-06-28 06:31 ACCEPT [Google News HH] "Crude oil price forecast as US and Iran intensify attacks - Invezz" | kw:oil,crude,rice
+2026-06-28 06:31 ACCEPT [Google News HH] "Commodities regulator alleges Winklevosses' Gemini crypto exchange was" | kw:commodities
+2026-06-28 06:31 ACCEPT [Google News KL] "Gold, Silver Rate Today June 28: Did Gold become costlier today? Check" | kw:gold,silver,rice
+2026-06-28 06:31 ACCEPT [Google News NS] "Predictable harvest even in difficult years. How does life-sustaining " | kw:harvest
+2026-06-28 06:31 SKIP_MORNING already_sent date=2026-06-28
