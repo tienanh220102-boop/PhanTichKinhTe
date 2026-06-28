@@ -7340,3 +7340,9 @@
 2026-06-28 07:37 ACCEPT [Google News KL] "Gold surges by Rs 4,700 per tola, silver also gains - The Himalayan Ti" | kw:gold,silver
 2026-06-28 07:37 ACCEPT [Google News CB] "BOJ Pumps Another US$20 Million Into Forex Market - Radio Jamaica News" | kw:boj
 2026-06-28 07:37 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 08:01 ACCEPT [Google News HH] "ASML Holding (ASML) Is The “New OPEC” Of Chips, Says Newsletter - Insi" | kw:opec,lng
+2026-06-28 08:01 ACCEPT [Google News HH] "EEX CEGH VTP EGSI Natural Gas Weekend Futures (Jul 2026 W1) Trade Idea" | kw:gas
+2026-06-28 08:01 ACCEPT [Google News NS] "The IGC Council raised its forecast for the future global corn harvest" | kw:corn,harvest
+2026-06-28 08:01 ACCEPT [Google News NS] "When BUA Rice Returned, So Did a Familiar Surname - THISDAYLIVE" | kw:rice
+2026-06-28 08:01 ACCEPT [Google News CB] "The Interest Rate Narrative Has Flipped | Presented By CME Group Micha" | kw:interest rate
+2026-06-28 08:01 SKIP_MORNING already_sent date=2026-06-28
