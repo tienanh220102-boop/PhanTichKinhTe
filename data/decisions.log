@@ -7346,3 +7346,10 @@
 2026-06-28 08:01 ACCEPT [Google News NS] "When BUA Rice Returned, So Did a Familiar Surname - THISDAYLIVE" | kw:rice
 2026-06-28 08:01 ACCEPT [Google News CB] "The Interest Rate Narrative Has Flipped | Presented By CME Group Micha" | kw:interest rate
 2026-06-28 08:01 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 08:31 ACCEPT [Google News HH] "Iraq resumes oil exports to US after complete halt - IraqiNews" | kw:oil
+2026-06-28 08:31 ACCEPT [Google News HH] "Petroleum vulnerability rising, India must build crude buffers and cut" | kw:crude,petroleum
+2026-06-28 08:31 ACCEPT [Google News KL] "4072.83 | XAUT USDT | Tether Gold to USDT – Binance Spot - Binance" | kw:gold
+2026-06-28 08:31 ACCEPT [Google News KL] "Have gold, silver prices dropped since PM Modi's austerity appeal? Her" | kw:gold,silver,rice
+2026-06-28 08:31 ACCEPT [Google News NS] "[Spotlight] U.S. Wheat Production Plunges to Worst in 69 Years for Bak" | kw:wheat
+2026-06-28 08:31 ACCEPT [Google News CB] "President Donald Trump Just Took a Jab at His Handpicked Fed Chair, Ke" | kw:interest rate
+2026-06-28 08:31 SKIP_MORNING already_sent date=2026-06-28
