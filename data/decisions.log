@@ -7502,3 +7502,14 @@
 2026-06-28 15:31 ACCEPT [Google News CB] "5 Interest Rate Sensitive Stocks to Buy Now - Insider Monkey" | kw:interest rate
 2026-06-28 15:31 SKIP_MORNING already_sent date=2026-06-28
 2026-06-28 15:31 SKIP_EVENING already_sent date=2026-06-28
+2026-06-28 15:46 ACCEPT [Google News HH] "Crude oil prices settle lower as supply concerns subside - MSN" | kw:oil,crude,rice
+2026-06-28 15:46 ACCEPT [Google News HH] "Indian crude oil basket at $76.22, just 7.8% above pre-war level: What" | kw:oil,crude
+2026-06-28 15:46 ACCEPT [Google News HH] "Gold price today: Rs 1.56 lakh on MCX; Fed cues awaited - What investo" | kw:gold,rice
+2026-06-28 15:46 ACCEPT [Google News HH] "Sugar prices slide amid crude oil weakness - MSN" | kw:oil,crude,rice
+2026-06-28 15:46 ACCEPT [Google News HH] "Rupee strengthens as falling crude oil prices lift sentiment - MSN" | kw:oil,crude,rice
+2026-06-28 15:46 ACCEPT [Google News NS] "Rain in the Plains Make Grain, So Bears Are in Control of Corn, Soybea" | kw:wheat,corn,soybean
+2026-06-28 15:46 ACCEPT [Google News NS] "ITAC defends decision to keep wheat tariff trigger unchanged despite G" | kw:wheat,tariff
+2026-06-28 15:46 ACCEPT [Google News CB] "Fed's preferred inflation gauge hits 3-year high - AOL.com" | kw:inflation
+2026-06-28 15:46 ACCEPT [Google News CB] "Kevin Warsh Revives Alan Greenspan’s Fed Playbook on Inflation - AOL.c" | kw:inflation
+2026-06-28 15:46 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 15:46 SKIP_EVENING already_sent date=2026-06-28
