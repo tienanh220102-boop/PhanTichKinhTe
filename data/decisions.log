@@ -7297,3 +7297,10 @@
 2026-06-28 05:01 ACCEPT [Google News KL] "Gold Price Today in Chennai – 18K, 22K & 24K Rate | 28 June 2026 - The" | kw:gold,rice
 2026-06-28 05:01 ACCEPT [Google News NS] "Predictable harvest even in difficult years. How does life-sustaining " | kw:harvest
 2026-06-28 05:01 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 05:31 ACCEPT [Google News HH] "Yields declined, reflecting the drop in crude oil prices. - Moomoo" | kw:oil,crude,rice
+2026-06-28 05:31 ACCEPT [Google News KL] "Gold and silver prices rise in domestic market today - Khabarhub" | kw:gold,silver,rice
+2026-06-28 05:31 ACCEPT [Google News KL] "Why is the silver price falling? The answer: It has cousins. Part 1 – " | kw:silver,rice
+2026-06-28 05:31 ACCEPT [Google News KL] "Gold and Silver Prices Increase in Local Market - Ratopati" | kw:gold,silver,rice
+2026-06-28 05:31 ACCEPT [Google News NS] "Wheat farmers left in the lurch as government rules out tariff changes" | kw:wheat,tariff
+2026-06-28 05:31 ACCEPT [Google News NS] "Advancing Pakistan’s Agricultural Future Through the National Agricult" | kw:rice
+2026-06-28 05:31 SKIP_MORNING already_sent date=2026-06-28
