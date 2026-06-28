@@ -7319,3 +7319,12 @@
 2026-06-28 06:31 ACCEPT [Google News KL] "Gold, Silver Rate Today June 28: Did Gold become costlier today? Check" | kw:gold,silver,rice
 2026-06-28 06:31 ACCEPT [Google News NS] "Predictable harvest even in difficult years. How does life-sustaining " | kw:harvest
 2026-06-28 06:31 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 07:01 ACCEPT [Google News HH] "ASML Holding (ASML) Is The “New OPEC” Of Chips, Says Newsletter - Yaho" | kw:opec
+2026-06-28 07:01 ACCEPT [Google News HH] "ASML Holding (ASML) Is The “New OPEC” Of Chips, Says Newsletter - Insi" | kw:opec,lng
+2026-06-28 07:01 ACCEPT [Google News HH] "Crude oil price forecast as US and Iran intensify attacks - Invezz" | kw:oil,crude,rice
+2026-06-28 07:01 ACCEPT [Google News HH] "Will OPEC's Sunday meeting bring good news for fuel prices? - IOL" | kw:opec,fuel,rice
+2026-06-28 07:01 ACCEPT [Google News KL] "Revs Clips Silver Price Today (WIGTuw7wi1) - Fathom Journal" | kw:silver,rice
+2026-06-28 07:01 ACCEPT [Google News KL] "Robert Kiyosaki Says Gold May Be Starting $35K Bull Run After Latest P" | kw:gold
+2026-06-28 07:01 ACCEPT [Google News KL] "Gold surges by Rs 4,700 per tola, silver also gains - The Himalayan Ti" | kw:gold,silver
+2026-06-28 07:01 ACCEPT [Google News CB] "Kashkari pivots to rate hike as AI fuels inflation - MSN" | kw:fuel,inflation,rate hike
+2026-06-28 07:01 SKIP_MORNING already_sent date=2026-06-28
