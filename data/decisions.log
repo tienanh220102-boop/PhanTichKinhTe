@@ -7391,3 +7391,9 @@
 2026-06-28 10:21 ACCEPT [Google News CB] "Japanese government calls for measured monetary management to influenc" | kw:bank of japan
 2026-06-28 10:21 ACCEPT [Google News CB] "Kevin Warsh just suggested the Fed may bring down the hammer on inflat" | kw:inflation
 2026-06-28 10:21 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 10:31 ACCEPT [Google News HH] "Enterprise value to EBIT forward of Century Global Commodities Corpora" | kw:commodities
+2026-06-28 10:31 ACCEPT [Google News HH] "Crude oil price forecast as US and Iran intensify attacks - Invezz" | kw:oil,crude,rice
+2026-06-28 10:31 ACCEPT [Google News HH] "Gold price increases by Rs 4, 700 per tola on Sunday - The Annapurna E" | kw:gold,rice
+2026-06-28 10:31 ACCEPT [Google News HH] "Adon Agro Commodities IPO GMP, Grey Market Premium Today - IPO Watch" | kw:commodities
+2026-06-28 10:31 ACCEPT [Google News KL] "Gold, silver rate outlook: Prices face key test next week as US dollar" | kw:gold,silver,rice
+2026-06-28 10:31 SKIP_MORNING already_sent date=2026-06-28
