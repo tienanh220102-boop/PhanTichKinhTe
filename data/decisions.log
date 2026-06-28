@@ -7397,3 +7397,10 @@
 2026-06-28 10:31 ACCEPT [Google News HH] "Adon Agro Commodities IPO GMP, Grey Market Premium Today - IPO Watch" | kw:commodities
 2026-06-28 10:31 ACCEPT [Google News KL] "Gold, silver rate outlook: Prices face key test next week as US dollar" | kw:gold,silver,rice
 2026-06-28 10:31 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 11:01 ACCEPT [Google News HH] "Price to sales forward of DIGITAL COMMODITIES INC. – OTC:DGCMF - Tradi" | kw:rice,commodities
+2026-06-28 11:01 ACCEPT [Google News KL] "Gold Rate Today (June 27): Check City-Wise 24K, 22K Gold - APAC Media" | kw:gold
+2026-06-28 11:01 ACCEPT [Google News KL] "Gold, silver rate outlook: Prices face key test next week as US dollar" | kw:gold,silver,rice
+2026-06-28 11:01 ACCEPT [Google News KL] "Gold prices rise in India as global cues lift sentiment - MSN" | kw:gold,rice
+2026-06-28 11:01 ACCEPT [Google News CB] "Japan government reportedly calls for appropriate monetary policy in d" | kw:monetary policy
+2026-06-28 11:01 ACCEPT [Google News CB] "US Fed expected to hold rates as inflation climbs to three-year high -" | kw:inflation
+2026-06-28 11:01 SKIP_MORNING already_sent date=2026-06-28
