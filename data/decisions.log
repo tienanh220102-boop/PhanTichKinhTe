@@ -7418,3 +7418,8 @@
 2026-06-28 11:31 ACCEPT [Google News CB] "Monticello to join 1,000 cities for America Prays 250 event - ECB Publ" | kw:ecb
 2026-06-28 11:31 ACCEPT [Google News CB] "Central Bank of Iraq data: Gold reserves and investments declined duri" | kw:gold,central bank
 2026-06-28 11:31 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 12:00 ACCEPT [Google News HH] "Gold Price Today in Ambur – 18K, 22K & 24K Rate | 28 June 2026 - The T" | kw:gold,rice
+2026-06-28 12:00 ACCEPT [Google News HH] "FMCG firms stall price hikes as lower oil prices support volume growth" | kw:oil,rice
+2026-06-28 12:00 ACCEPT [Google News CB] "It’s Insurance Awareness Day! - ECB Publishing, Inc." | kw:ecb
+2026-06-28 12:00 ACCEPT [Google News CB] "County considers moratorium on data centers - ECB Publishing, Inc." | kw:ecb
+2026-06-28 12:00 SKIP_MORNING already_sent date=2026-06-28
