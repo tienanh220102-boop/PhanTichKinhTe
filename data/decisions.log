@@ -7304,3 +7304,12 @@
 2026-06-28 05:31 ACCEPT [Google News NS] "Wheat farmers left in the lurch as government rules out tariff changes" | kw:wheat,tariff
 2026-06-28 05:31 ACCEPT [Google News NS] "Advancing Pakistan’s Agricultural Future Through the National Agricult" | kw:rice
 2026-06-28 05:31 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 06:01 ACCEPT [Google News HH] "United Arab Emirates says it will leave OPEC in a blow to the oil cart" | kw:oil,opec
+2026-06-28 06:01 ACCEPT [Google News HH] "Week ahead: US-Iran tensions, crude oil prices, auto sales number, US " | kw:oil,crude,rice
+2026-06-28 06:01 ACCEPT [Google News HH] "Crude oil prices sink as supplies out of the Persian Gulf accelerate -" | kw:oil,crude,rice
+2026-06-28 06:01 ACCEPT [Google News KL] "What Affects Gold Prices? 6 Key Factors Explained - XTB.com" | kw:gold,rice
+2026-06-28 06:01 ACCEPT [Google News NS] "Iraq buys 4.1 mln metric tons of local wheat so far this season, trade" | kw:wheat
+2026-06-28 06:01 ACCEPT [Google News CB] "USD/JPY, Nikkei 225 Outlook: Nikkei Washout Shifts Focus to BOJ Interv" | kw:lng,boj
+2026-06-28 06:01 ACCEPT [Google News CB] "Dollar retreats as US inflation data eases rate hike expectations - AO" | kw:inflation,rate hike
+2026-06-28 06:01 ACCEPT [Google News CB] "Should Amazon Investors Be Concerned That New Fed Chair Kevin Warsh Is" | kw:interest rate
+2026-06-28 06:01 SKIP_MORNING already_sent date=2026-06-28
