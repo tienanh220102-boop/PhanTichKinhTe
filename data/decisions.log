@@ -7238,3 +7238,6 @@
 2026-06-28 00:02 SENT_MORNING articles=20 date=2026-06-28 force=False
 2026-06-28 00:31 ACCEPT [Google News NS] "USGBC: Ethanol policy meetings In Portugal, UK enhance stakeholder exp" | kw:fuel
 2026-06-28 00:31 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 01:01 ACCEPT [Google News HH] "Why are fuel prices still high when global crude oil rates have fallen" | kw:oil,crude,fuel
+2026-06-28 01:01 ACCEPT [Google News NS] "Centre approves wheat exports, allows additional sugar shipments - DD " | kw:wheat,sugar
+2026-06-28 01:01 SKIP_MORNING already_sent date=2026-06-28
