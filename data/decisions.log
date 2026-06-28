@@ -7404,3 +7404,17 @@
 2026-06-28 11:01 ACCEPT [Google News CB] "Japan government reportedly calls for appropriate monetary policy in d" | kw:monetary policy
 2026-06-28 11:01 ACCEPT [Google News CB] "US Fed expected to hold rates as inflation climbs to three-year high -" | kw:inflation
 2026-06-28 11:01 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 11:31 ACCEPT [Google News HH] "Iraq resumes oil exports to US after complete halt - Iraqi News" | kw:oil
+2026-06-28 11:31 ACCEPT [Google News HH] "UK Natural Gas (Aug 2026) Trade Ideas — CMCMARKETS:UKNATGASQ2026 - Tra" | kw:gas
+2026-06-28 11:31 ACCEPT [Google News HH] "Indian markets open higher as crude oil prices hover near $70 mark - D" | kw:oil,crude,rice
+2026-06-28 11:31 ACCEPT [Google News HH] "Stock market outlook: West Asia tensions and crude oil prices to drive" | kw:oil,crude,rice
+2026-06-28 11:31 ACCEPT [Google News HH] "Markets ahead: West Asia tensions, crude prices key factors to watch o" | kw:crude,rice
+2026-06-28 11:31 ACCEPT [Google News HH] "Crude oil prices tumble as Strait of Hormuz reopens - MSN" | kw:oil,crude,rice
+2026-06-28 11:31 ACCEPT [Google News KL] "Where Are Gold Prices Headed in the Second Half of the Year? - Investo" | kw:gold,rice
+2026-06-28 11:31 ACCEPT [Google News KL] "Gold prices stabilize in Baghdad, decline in Erbil - Shafaq News | Lat" | kw:gold,rice
+2026-06-28 11:31 ACCEPT [Google News KL] "Robert Kiyosaki Says Gold May Be Starting $35K Bull Run After Latest P" | kw:gold
+2026-06-28 11:31 ACCEPT [Google News KL] "Gold, Silver Prices: US Dollar & Iran Crisis Shape Week Ahead - Rediff" | kw:gold,silver,rice
+2026-06-28 11:31 ACCEPT [Google News NS] "ITAC defends decision to keep wheat tariff trigger unchanged despite G" | kw:wheat,tariff
+2026-06-28 11:31 ACCEPT [Google News CB] "Monticello to join 1,000 cities for America Prays 250 event - ECB Publ" | kw:ecb
+2026-06-28 11:31 ACCEPT [Google News CB] "Central Bank of Iraq data: Gold reserves and investments declined duri" | kw:gold,central bank
+2026-06-28 11:31 SKIP_MORNING already_sent date=2026-06-28
