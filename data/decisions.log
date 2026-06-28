@@ -7289,3 +7289,11 @@
 2026-06-28 04:31 ACCEPT [Google News NS] "Soybean Futures Decline Amid Dry US Weather Forecasts - HarianBasis.co" | kw:soybean
 2026-06-28 04:31 ACCEPT [Google News CB] "USD/CAD Rises to 1.419: Fed Hawkiness, Geo‑Risk, and Falling Oil Weigh" | kw:oil
 2026-06-28 04:31 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 05:01 ACCEPT [Google News HH] "'India needs to augment its strategic crude oil reserves': EY warns as" | kw:oil,crude
+2026-06-28 05:01 ACCEPT [Google News HH] "Crude oil prices fall as oil supplies flow through the Strait of Hormu" | kw:oil,crude,rice
+2026-06-28 05:01 ACCEPT [Google News HH] "NFP Report Puts Fed Policy and Gold Price Outlook in Focus - equiti.co" | kw:gold,rice
+2026-06-28 05:01 ACCEPT [Google News KL] "Gold, Silver Rate Today: Check live price of 22K, 24K, 18K gold & silv" | kw:gold,silver,rice
+2026-06-28 05:01 ACCEPT [Google News KL] "4073.51 | XAUT USDT | Tether Gold to USDT – Binance Spot - Binance" | kw:gold
+2026-06-28 05:01 ACCEPT [Google News KL] "Gold Price Today in Chennai – 18K, 22K & 24K Rate | 28 June 2026 - The" | kw:gold,rice
+2026-06-28 05:01 ACCEPT [Google News NS] "Predictable harvest even in difficult years. How does life-sustaining " | kw:harvest
+2026-06-28 05:01 SKIP_MORNING already_sent date=2026-06-28
