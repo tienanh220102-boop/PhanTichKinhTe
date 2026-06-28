@@ -7335,3 +7335,8 @@
 2026-06-28 07:31 ACCEPT [Google News KL] "Why is the silver price falling? The answer: It has cousins. Part 1 – " | kw:silver,rice
 2026-06-28 07:31 ACCEPT [Google News CB] "Markets brace for Fed rate hikes as summer 'funflation' peaks - MSN" | kw:fed rate,rate hike
 2026-06-28 07:31 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 07:37 ACCEPT [Google News HH] "Enterprise value to EBIT forward of Green Shift Commodities Ltd – TSXV" | kw:commodities
+2026-06-28 07:37 ACCEPT [Google News HH] "Crude oil prices surge as global supplies continue to tighten - MSN" | kw:oil,crude,wti
+2026-06-28 07:37 ACCEPT [Google News KL] "Gold surges by Rs 4,700 per tola, silver also gains - The Himalayan Ti" | kw:gold,silver
+2026-06-28 07:37 ACCEPT [Google News CB] "BOJ Pumps Another US$20 Million Into Forex Market - Radio Jamaica News" | kw:boj
+2026-06-28 07:37 SKIP_MORNING already_sent date=2026-06-28
