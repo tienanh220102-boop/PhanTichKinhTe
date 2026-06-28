@@ -7358,3 +7358,14 @@
 2026-06-28 09:01 ACCEPT [Google News KL] "Gold miners offer value despite near-term pressure on bullion, says Bo" | kw:gold
 2026-06-28 09:01 ACCEPT [Google News CB] "[Warsh Fed] “From a Predictable Fed to a Market-Responsive Fed”: A Pri" | kw:rice
 2026-06-28 09:01 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 09:31 ACCEPT [Google News HH] "Gold Price Eyes $4322 After Weekly DeMark Buy Signal - Bitget" | kw:gold,rice
+2026-06-28 09:31 ACCEPT [Google News HH] "Crude oil prices rebound on reports of a ship hit off the Omani coast " | kw:oil,crude,rice
+2026-06-28 09:31 ACCEPT [Google News HH] "Crude oil prices settle lower as supply concerns subside - MSN" | kw:oil,crude,rice
+2026-06-28 09:31 ACCEPT [Google News KL] "Hecla Mining (HL) Slips With Silver Prices, Is The Stock Cheap? - simp" | kw:silver,rice
+2026-06-28 09:31 ACCEPT [Google News KL] "Gold Price Eyes $4322 After Weekly DeMark Buy Signal - Bitget" | kw:gold,rice
+2026-06-28 09:31 ACCEPT [Google News KL] "Gold prices stabilize in Baghdad, decline in Erbil - Shafaq News | Lat" | kw:gold,rice
+2026-06-28 09:31 ACCEPT [Google News KL] "Interest Rates Breach 5%, Gold Plunges? Changjiang Securities Aims to " | kw:gold,interest rate,rate hike
+2026-06-28 09:31 ACCEPT [Google News CB] "Japan Policy Draft Backs ‘Appropriate’ Monetary Policy - Bloomberg" | kw:monetary policy
+2026-06-28 09:31 ACCEPT [Google News CB] "Interest Rate Forecast: USDJPY Eyes 162 Breakout as Fed and BOJ Diverg" | kw:interest rate,boj
+2026-06-28 09:31 ACCEPT [Google News CB] "Global central bank warns of Liz Truss-style bonds crisis - The Times" | kw:central bank
+2026-06-28 09:31 SKIP_MORNING already_sent date=2026-06-28
