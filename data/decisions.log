@@ -7448,3 +7448,9 @@
 2026-06-28 13:01 ACCEPT [Google News CB] "Stock Market Outlook Hinges On AI Earnings And Fed Rate Risks - Forbes" | kw:fed rate
 2026-06-28 13:01 SKIP_MORNING already_sent date=2026-06-28
 2026-06-28 13:02 SENT_EVENING articles=20 date=2026-06-28 force=False
+2026-06-28 13:31 ACCEPT [Google News HH] "Crude oil prices hover near four-month lows as supply concerns ease - " | kw:oil,crude,rice
+2026-06-28 13:31 ACCEPT [Google News KL] "BofA Sees Opportunity in Gold Miners as Market Discounts Bullion Price" | kw:gold,rice
+2026-06-28 13:31 ACCEPT [Google News CB] "Supreme Court ruling, ECB conference likely to further frame Fed chief" | kw:ecb
+2026-06-28 13:31 ACCEPT [Google News CB] "2 Sneaky Ways Fed Chair Kevin Warsh and the FOMC Can Raise Interest Ra" | kw:interest rate,fomc
+2026-06-28 13:31 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 13:31 SKIP_EVENING already_sent date=2026-06-28
