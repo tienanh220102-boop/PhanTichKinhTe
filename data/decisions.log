@@ -7436,3 +7436,15 @@
 2026-06-28 12:31 ACCEPT [Google News CB] "BofA raises global growth outlook, sees 75 bps Fed hikes despite easin" | kw:inflation,easing
 2026-06-28 12:31 ACCEPT [Google News CB] "Supreme Court ruling, ECB conference likely to further frame Fed chief" | kw:ecb
 2026-06-28 12:31 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 13:01 ACCEPT [Google News HH] "ASML Holding (ASML) Is The “New OPEC” Of Chips, Says Newsletter - Yaho" | kw:opec
+2026-06-28 13:01 ACCEPT [Google News HH] "Crude Oil Weekly Forecast - 28/06: Lower Trading (Chart) - DailyForex" | kw:oil,crude
+2026-06-28 13:01 ACCEPT [Google News HH] "Crude awakening: Why doomsday scenarios of US$200 oil didn’t come true" | kw:oil,crude
+2026-06-28 13:01 ACCEPT [Google News HH] "Price to earnings forward of Green Shift Commodities Ltd – TSXV:GCOM -" | kw:rice,commodities
+2026-06-28 13:01 ACCEPT [Google News KL] "Aya Gold & Silver: Growth Remains On Track Despite The Pullback (NASDA" | kw:gold,silver
+2026-06-28 13:01 ACCEPT [Google News KL] "Gold and silver prices increased - Ekantipur" | kw:gold,silver,rice
+2026-06-28 13:01 ACCEPT [Google News KL] "Copper Market Stalemate: Prices Near 100,000 Yuan/mt, Supply Tight, De" | kw:copper,rice
+2026-06-28 13:01 ACCEPT [Google News KL] "Gold Price Slips Amid Middle East Geopolitical Shifts & Bank Buying - " | kw:gold,rice
+2026-06-28 13:01 ACCEPT [Google News KL] "Do More Volatile Gold Stocks Mean Greater Opportunity? - TradingKey" | kw:gold
+2026-06-28 13:01 ACCEPT [Google News CB] "Stock Market Outlook Hinges On AI Earnings And Fed Rate Risks - Forbes" | kw:fed rate
+2026-06-28 13:01 SKIP_MORNING already_sent date=2026-06-28
+2026-06-28 13:02 SENT_EVENING articles=20 date=2026-06-28 force=False
