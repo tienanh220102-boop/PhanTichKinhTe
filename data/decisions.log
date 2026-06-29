@@ -7604,3 +7604,17 @@
 2026-06-29 00:02 ACCEPT [Google News CB] "Hedging interest rate risk when it matters: Evidence from Italian bank" | kw:interest rate
 2026-06-29 00:02 ACCEPT [Google News CB] "Additional Monetary Policy Tools: Reflections and a New Framework | Sp" | kw:monetary policy
 2026-06-29 00:03 SENT_MORNING articles=20 date=2026-06-29 force=False
+2026-06-29 00:31 ACCEPT [Google News HH] "Crude oil prices rebound amid Middle East tensions, testing key 50-day" | kw:oil,crude,rice
+2026-06-29 00:31 ACCEPT [Google News HH] "Gold price fall triggers margin calls on bullet loans - The Economic T" | kw:gold,rice
+2026-06-29 00:31 ACCEPT [Google News HH] "FCCPC to marketers: Cut petrol prices or face sanctions - Vanguard New" | kw:rice,sanction
+2026-06-29 00:31 ACCEPT [Google News HH] "Gold price update morning of June 29: Turning back down, experts predi" | kw:gold,rice
+2026-06-29 00:31 ACCEPT [Google News HH] "OPEC shocker as UAE leaves oil cartel days after negotiating swap line" | kw:oil,opec,treasury
+2026-06-29 00:31 ACCEPT [Google News KL] "Does Resource Upgrade and Board Refresh at Koné Change The Bull Case F" | kw:gold
+2026-06-29 00:31 ACCEPT [Google News KL] "Cell market remains bearish as silver prices and rising inventories we" | kw:silver,rice,supply chain
+2026-06-29 00:31 ACCEPT [Google News KL] "US Dollar Strength Drives 29% Gold Pullback From All-Time High - Forex" | kw:gold
+2026-06-29 00:31 ACCEPT [Google News NS] "How yellow rust threat is reshaping wheat choices for 2026 - Farmers W" | kw:wheat
+2026-06-29 00:31 ACCEPT [Google News CB] "Australia Central Bank Outlines Crisis Policy Tools and Framework - Gl" | kw:central bank
+2026-06-29 00:31 ACCEPT [Google News CB] "RBA's Kent says monetary policy board may have less tolerance for infl" | kw:inflation,monetary policy
+2026-06-29 00:31 ACCEPT [Google News CB] "Week Ahead for FX, Bonds : U.S. Jobs Data in Focus as Markets Search f" | kw:fed rate
+2026-06-29 00:31 ACCEPT [Google News CB] "Australia central bank outlines policy tools for times of crisis - mar" | kw:central bank
+2026-06-29 00:31 SKIP_MORNING already_sent date=2026-06-29
