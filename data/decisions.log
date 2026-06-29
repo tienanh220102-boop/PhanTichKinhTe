@@ -7894,3 +7894,18 @@
 2026-06-29 08:31 ACCEPT [Google News CB] "Euro zone corporate lending growth at 3-year high, ECB says - Reuters" | kw:ecb
 2026-06-29 08:31 ACCEPT [Google News CB] "CNBC Daily Open: Hostilities halted again as peace talks continue - CN" | kw:wti
 2026-06-29 08:31 SKIP_MORNING already_sent date=2026-06-29
+2026-06-29 09:01 ACCEPT [Google News HH] "OPEC Unity Frays as Gulf Members Seek Output Routes Outside the Cartel" | kw:opec
+2026-06-29 09:01 ACCEPT [Google News HH] "Crude Oil Forecast 29/6: Looking to Fill Pre-War Gap (Video) - DailyFo" | kw:oil,crude
+2026-06-29 09:01 ACCEPT [Google News HH] "Oil Price Today, June 29, 2026: Crude Oil Climbs as U.S.,Iran Trade Bl" | kw:oil,crude,brent
+2026-06-29 09:01 ACCEPT [Google News HH] "Crude Oil Analysis: With a net long position of 90,338 contracts, are " | kw:oil,crude
+2026-06-29 09:01 ACCEPT [Google News HH] "WTI Crude Falls Below $70, Easing US-Iran Tensions Erode Risk Premium," | kw:oil,crude,wti
+2026-06-29 09:01 ACCEPT [Google News HH] "Gold Rate Today, June 29, 2026: Gold Price Rebounds ₹3,810 per 10 gram" | kw:gold,rice
+2026-06-29 09:01 ACCEPT [Google News CB] "Euro zone corporate lending growth at 3-year high, ECB says - Yahoo Fi" | kw:ecb
+2026-06-29 09:01 ACCEPT [Google News CB] "ECB’s Kazaks Says No Need for Multiple Hikes in Rushed Way - Bloomberg" | kw:ecb
+2026-06-29 09:01 ACCEPT [Google News CB] "Euro zone corporate lending growth at 3-year high, ECB says By Reuters" | kw:ecb
+2026-06-29 09:01 ACCEPT [Google News CB] "Euro Zone Corporate Lending Growth at 3-Year High, ECB Says - U.S. New" | kw:ecb
+2026-06-29 09:01 ACCEPT [Google News CB] "Eurozone Credit Growth Accelerates Ahead of ECB Rate Hike - TradingVie" | kw:rate hike,ecb
+2026-06-29 09:01 ACCEPT [Google News CB] "ECB May data shows euro area lending and money supply ticked higher, b" | kw:ecb
+2026-06-29 09:01 ACCEPT [Google News CB] "Euro Recovers Ahead of ECB Forum - TradingView" | kw:ecb
+2026-06-29 09:01 ACCEPT [Google News CB] "ECB’s Kazāks: The possibility of negative scenarios has fallen massive" | kw:ecb
+2026-06-29 09:01 SKIP_MORNING already_sent date=2026-06-29
