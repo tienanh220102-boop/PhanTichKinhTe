@@ -7948,3 +7948,11 @@
 2026-06-29 10:04 ACCEPT [Google News CB] "Euro zone corporate lending growth at 3-year high, ECB says - WTVB" | kw:ecb
 2026-06-29 10:04 ACCEPT [Google News CB] "President Trump will not get what he wants from Kevin Warsh, a source " | kw:inflation
 2026-06-29 10:04 SKIP_MORNING already_sent date=2026-06-29
+2026-06-29 10:31 ACCEPT [MarketWatch] "Magnificent Seven slump sent momentum stocks to their fourth worst per" | kw:basis point
+2026-06-29 10:31 ACCEPT [Google News HH] "Consumer confidence improves to 4-month high on eased crude oil prices" | kw:oil,crude,rice
+2026-06-29 10:31 ACCEPT [Google News HH] "Venezuela's Amuay refinery shuts after power outage - Quantum Commodit" | kw:commodity
+2026-06-29 10:31 ACCEPT [Google News NS] "Corn drops after US-Iran halt attacks as traders weigh US heat - money" | kw:corn
+2026-06-29 10:31 ACCEPT [Google News CB] "Bank of England’s Pill adds voice to those concerned about ‘scenario’ " | kw:lng,bank of england
+2026-06-29 10:31 ACCEPT [Google News CB] "Supreme Court ruling, ECB conference likely to further frame Fed chief" | kw:ecb
+2026-06-29 10:31 ACCEPT [Google News CB] "Russia’s central bank to cut foreign currency sales in second half - I" | kw:central bank
+2026-06-29 10:31 SKIP_MORNING already_sent date=2026-06-29
