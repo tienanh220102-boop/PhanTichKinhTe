@@ -7687,3 +7687,79 @@
 2026-06-29 03:31 ACCEPT [Google News CB] "Japan Retail Sales Jump in May, Sharpening Focus on BoJ Policy and Yen" | kw:boj
 2026-06-29 03:31 ACCEPT [Google News CB] "Japan retail sales beat forecasts, stoking bets on earlier BoJ tighten" | kw:boj,tightening
 2026-06-29 03:31 SKIP_MORNING already_sent date=2026-06-29
+2026-06-29 04:01 ACCEPT [MarketWatch] "Oil prices, stock futures inch higher as U.S. and Iran reportedly agre" | kw:oil,rice
+2026-06-29 04:01 ACCEPT [MarketWatch] "Micron is about to be more profitable than any U.S. company except Nvi" | kw:rice
+2026-06-29 04:01 ACCEPT [BBC Business] "Apple hikes some prices by nearly 20% while Xbox raises console cost" | kw:rice
+2026-06-29 04:01 ACCEPT [BBC Business] "Oil price falls back to pre-Iran war levels" | kw:oil,rice,shipping
+2026-06-29 04:01 ACCEPT [BBC Business] "How much should we be prepared to pay for our food?" | kw:rice
+2026-06-29 04:01 ACCEPT [The Guardian Biz] "Trump threatens 100% tariff on European countries that impose digital " | kw:tariff
+2026-06-29 04:01 ACCEPT [The Guardian Biz] "City of Paris achieves partial victory over TotalEnergies in climate r" | kw:oil,gas
+2026-06-29 04:01 ACCEPT [CNBC Commodities] "Chicago Fed President Goolsbee says inflation is too high; Williams se" | kw:rice,inflation,interest rate
+2026-06-29 04:01 ACCEPT [CNBC Commodities] "U.S. fights with Brazil for China's giant soybean market" | kw:soybean
+2026-06-29 04:01 ACCEPT [CNBC Economy] "Consumer prices rose 4.2% annually in May, highest in three years" | kw:rice
+2026-06-29 04:01 ACCEPT [CNBC Economy] "Household worries over finances hit highest level since July 2022, New" | kw:inflation,central bank
+2026-06-29 04:01 ACCEPT [CNBC Economy] "Inflation hits 3.2% in the euro zone as Iran war pushes energy costs h" | kw:inflation
+2026-06-29 04:01 ACCEPT [OilPrice.com] "Oil Markets Are Pricing A Supply Surge That Isn’t Guaranteed" | kw:oil,crude,rice
+2026-06-29 04:01 ACCEPT [OilPrice.com] "The World's Biggest Energy Bet Is No Longer on Fossil Fuels" | kw:oil,gas,fuel
+2026-06-29 04:01 ACCEPT [OilPrice.com] "China Is Quietly Winning the Clean Energy Trade War" | kw:supply chain,trade war
+2026-06-29 04:01 ACCEPT [OilPrice.com] "The AI Power Crisis Is Creating a Massive New Market for Fuel Cells" | kw:fuel
+2026-06-29 04:01 ACCEPT [Mining.com] "NexMetals upgrades Selkirk copper resource to 1.1B lb." | kw:copper
+2026-06-29 04:01 ACCEPT [Mining.com] "Newcore Gold tanks as Enchi pre-feasibility disappoints" | kw:gold
+2026-06-29 04:01 ACCEPT [Mining.com] "Treasure Hunt – Nova Scotia: Canada’s first mining frontier" | kw:flood
+2026-06-29 04:01 ACCEPT [Mining.com] "Gold selloff opens door to investors, miners have upside: BofA" | kw:gold,rice
+2026-06-29 04:01 ACCEPT [Mining.com] "Faraday drilling expands Copper Creek potential" | kw:copper
+2026-06-29 04:01 ACCEPT [EIA Energy] "UAE's exit from OPEC+ reduced the group's share of crude oil productio" | kw:oil,crude,opec
+2026-06-29 04:01 ACCEPT [EIA Energy] "Permian natural gas production increased faster than crude oil" | kw:oil,crude,gas
+2026-06-29 04:01 ACCEPT [EIA Energy] "Natural gas for power generation flat this summer, record high expecte" | kw:gas
+2026-06-29 04:01 ACCEPT [EIA Energy] "The United States is a major energy exporter and importer, especially " | kw:petroleum
+2026-06-29 04:01 ACCEPT [EIA Energy] "Most planned natural gas pipeline capacity additions in 2026 and 2027 " | kw:gas
+2026-06-29 04:01 ACCEPT [EIA Energy] "The regional differences in gasoline prices this Memorial Day" | kw:gas,fuel,rice
+2026-06-29 04:01 ACCEPT [EIA Energy] "Coal remains competitive for power generation in the central United St" | kw:gas,fuel,rice
+2026-06-29 04:01 ACCEPT [EIA Energy] "U.S. industrial natural gas consumption expected to hit records in 202" | kw:gas
+2026-06-29 04:01 ACCEPT [NASDAQ Commod] "Rhona O'Connell: Gold Price Drop — Why it Happened, What's Next" | kw:gold,rice
+2026-06-29 04:01 ACCEPT [NASDAQ Commod] "Oil Extends Losses As Supply Fears Fade" | kw:oil,rice
+2026-06-29 04:01 ACCEPT [Google News HH] "Oil Markets Are Pricing A Supply Surge That Isn't Guaranteed - Crude O" | kw:oil,crude,rice
+2026-06-29 04:01 ACCEPT [Google News HH] "Natural gas price on June 29, 2026 at 5:00 PM EDT - Robinhood" | kw:gas,rice
+2026-06-29 04:01 ACCEPT [Google News HH] "CFTC Position Heavyweight Reveal: Natural Gas Bulls Completely Wiped O" | kw:oil,crude,gas
+2026-06-29 04:01 ACCEPT [Google News HH] "Crude Oil Trading Alert: Recurrent geopolitical tensions fuel supply-s" | kw:oil,crude,fuel
+2026-06-29 04:01 ACCEPT [Google News HH] "Short-term US crude oil trading suggestion: fluctuating downward trend" | kw:oil,crude
+2026-06-29 04:01 ACCEPT [Google News HH] "Amid Drop in Global Crude Oil Price, FCCPC Warns Marketers Against Exp" | kw:oil,crude,rice
+2026-06-29 04:01 ACCEPT [Google News HH] "Daily Brief Energy/Materials: Fortescue Metals, Crude Oil, Savita Oil " | kw:oil,crude
+2026-06-29 04:01 ACCEPT [Google News HH] "Petrol prices defy crude oil slump, deepen cost-of-living crisis - The" | kw:oil,crude,rice
+2026-06-29 04:01 ACCEPT [Google News HH] "Crude Oil Prices Bounce Above $70 at the Open after Hormuz Strikes and" | kw:oil,crude,rice
+2026-06-29 04:01 ACCEPT [Google News HH] "Gold Price Today: MCX Gold Dips To Rs 1.43 Lakh Amid Easing US-Iran Te" | kw:gold,rice,easing
+2026-06-29 04:01 ACCEPT [Google News HH] "Crude oil prices rise above $73/bbl after latest round of military str" | kw:oil,crude,gold
+2026-06-29 04:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD remains below $59.00 on renewed Hormuz " | kw:silver,rice
+2026-06-29 04:01 ACCEPT [Google News KL] "How Does The Air Conditioner Work? Gold Price May 11 2026 (68KYep1ZaR)" | kw:gold,rice
+2026-06-29 04:01 ACCEPT [Google News KL] "Gold prices stay volatile as global cues sway market - MSN" | kw:gold,rice
+2026-06-29 04:01 ACCEPT [Google News KL] "4073.76 | XAUT USDT | Tether Gold to USDT – Binance Spot - Binance" | kw:gold
+2026-06-29 04:01 ACCEPT [Google News KL] "Silver (XAG) Forecast: Silver Bounces but Fed Keeps Price Prediction B" | kw:silver,rice
+2026-06-29 04:01 ACCEPT [Google News KL] "Does Resource Upgrade and Board Refresh at Koné Change The Bull Case F" | kw:gold
+2026-06-29 04:01 ACCEPT [Google News KL] "The 6 Best Gold Stocks to Watch in 2026 - XTB.com" | kw:gold
+2026-06-29 04:01 ACCEPT [Google News KL] "Cell market remains bearish as silver prices and rising inventories we" | kw:silver,rice,supply chain
+2026-06-29 04:01 ACCEPT [Google News KL] "ROBINHOOD STOCK WILL 10X?! Agentic AI Changes EVERYTHING Silver Price " | kw:silver,rice
+2026-06-29 04:01 ACCEPT [Google News KL] "Toronto Stock Exchange Weekly Review: TSX Composite Outperforms at 34," | kw:lng,gold
+2026-06-29 04:01 ACCEPT [Google News KL] "Reserve assests: Global central banks join new gold rush - DT Next" | kw:gold,central bank
+2026-06-29 04:01 ACCEPT [Google News NS] "Mysteel China edible oils market da... - Mysteel" | kw:oil,steel
+2026-06-29 04:01 ACCEPT [Google News NS] "American Soybean Association Welcomes USDA Rule Approving Value-Added " | kw:fuel,soybean
+2026-06-29 04:01 ACCEPT [Google News NS] "RFS targets boost soybean farmers - agronews.com" | kw:soybean
+2026-06-29 04:01 ACCEPT [Google News NS] "Wheat Rally Cools as Weather Risk Builds - agronews.com" | kw:wheat
+2026-06-29 04:01 ACCEPT [Google News NS] "Soybeans And Corn Slip Ahead Of USDA Acreage Report - Finimize" | kw:corn,soybean
+2026-06-29 04:01 ACCEPT [Google News NS] "Akara, Kulikuli: The First Lady is right, before we start importing co" | kw:corn
+2026-06-29 04:01 ACCEPT [Google News NS] "Sweet Corn Cultivation: A Profitable Opportunity for Meghalaya’s Farme" | kw:corn
+2026-06-29 04:01 ACCEPT [RT Business] "Bank of Japan lifts rates to highest level since 1995" | kw:fuel,inflation,interest rate
+2026-06-29 04:01 ACCEPT [RT Business] "Gas at $4: Understanding America’s strange obsession" | kw:gas,fuel,rice
+2026-06-29 04:01 ACCEPT [RT Business] "US extends Russian oil waiver" | kw:oil,sanction,treasury
+2026-06-29 04:01 ACCEPT [RT Business] "Potato futures are soaring – should the world be worried?" | kw:fuel,rice
+2026-06-29 04:01 ACCEPT [RT Business] "Netflix sued for spying on children" | kw:harvest
+2026-06-29 04:01 ACCEPT [RT Business] "EU ‘not competitive’ – Belgian central bank chief" | kw:central bank
+2026-06-29 04:01 ACCEPT [ECB Press] "Boris Vujčić: Outlook for the euro area economy and monetary policy" | kw:monetary policy
+2026-06-29 04:01 ACCEPT [ECB Press] "Piero Cipollone: The foundations of national sovereignty: the role of " | kw:central bank
+2026-06-29 04:01 ACCEPT [Google News CB] "China's central bank offers 300 billion yuan in new overnight reverse " | kw:central bank
+2026-06-29 04:01 ACCEPT [Google News CB] "China’s Central Bank Adds An Overnight Repo Lever - Finimize" | kw:central bank
+2026-06-29 04:01 ACCEPT [Google News CB] "Philippine central bank revises payments framework to protect consumer" | kw:central bank
+2026-06-29 04:01 ACCEPT [Google News CB] "RBA's Kent says monetary policy board may have less tolerance for infl" | kw:inflation,monetary policy
+2026-06-29 04:01 ACCEPT [Google News CB] "China's central bank conducts debut overnight reverse repo operation w" | kw:central bank,interest rate
+2026-06-29 04:01 ACCEPT [Google News CB] "Reserve Bank of Australia Outlines Framework for Additional Monetary P" | kw:monetary policy,interest rate
+2026-06-29 04:01 ACCEPT [Google News CB] "Gold’s Rebound Lacks Conviction as NFP Report Could Reopen Fed Hike De" | kw:gold
+2026-06-29 04:01 SKIP_MORNING already_sent date=2026-06-29
