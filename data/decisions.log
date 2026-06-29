@@ -7929,3 +7929,18 @@
 2026-06-29 09:31 ACCEPT [Google News CB] "Copper Declines as Fed Stance and Strong Dollar Weigh On Metals - Bloo" | kw:copper
 2026-06-29 09:31 ACCEPT [Google News CB] "Fed’s Barkin Warns of High Inflation, But Sees Signs of Relief - Bloom" | kw:inflation
 2026-06-29 09:31 SKIP_MORNING already_sent date=2026-06-29
+2026-06-29 10:01 ACCEPT [OilPrice.com] "U.S. Pipeline Giant Eyes $5.5 Billion Deal to Expand LNG Reach" | kw:gas,lng
+2026-06-29 10:01 ACCEPT [Google News HH] "Crude oil futures rise on firm demand - Deccan Herald" | kw:oil,crude
+2026-06-29 10:01 ACCEPT [Google News HH] "Crude oil futures rise 0.7% on firm demand; global benchmarks edge hig" | kw:oil,crude
+2026-06-29 10:01 ACCEPT [Google News HH] "Gold price prediction today: Will gold prices continue to fall? Key le" | kw:gold,rice
+2026-06-29 10:01 ACCEPT [Google News KL] "Silver price today: falls on June 29 - FXStreet" | kw:silver,rice
+2026-06-29 10:01 ACCEPT [Google News KL] "Gold and Silver Price Forecast: Debt Fears Strengthen Long-Term Bull C" | kw:gold,silver,rice
+2026-06-29 10:01 ACCEPT [Google News KL] "China Gold Consumption Up 4.4% in Q1 2026; Pandora and Swarovski Close" | kw:gold
+2026-06-29 10:01 ACCEPT [Google News KL] "Gold price has crashed nearly Rs 50,000 from its peak. Will prices fal" | kw:gold,rice
+2026-06-29 10:01 ACCEPT [Google News NS] "Abnormal Heatwave in Ukraine and EU Pushes Rapeseed Prices - Новини аг" | kw:rice
+2026-06-29 10:01 ACCEPT [Google News CB] "US dollar strengthens as hawkish Fed shift reshapes interest rate outl" | kw:interest rate
+2026-06-29 10:01 ACCEPT [Google News CB] "Overseas Research Daily 0629 | BofA: Gold Pressured Short-Term by the " | kw:gold
+2026-06-29 10:01 ACCEPT [Google News CB] "Gold Retreats as US-Iran Risks Ease, Fed Fears Persist - TradingPedia" | kw:gold
+2026-06-29 10:01 ACCEPT [Google News CB] "Former ECB board member named as chair of Reform Technologies - Finext" | kw:ecb
+2026-06-29 10:01 ACCEPT [Google News CB] "Japanese Yen: Data and BoJ Tankan to guide policy – Deutsche Bank - FX" | kw:boj
+2026-06-29 10:01 SKIP_MORNING already_sent date=2026-06-29
