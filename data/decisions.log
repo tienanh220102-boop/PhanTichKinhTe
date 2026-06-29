@@ -7601,3 +7601,8 @@
 2026-06-28 23:31 ACCEPT [Google News KL] "Casablanca (1942) Official Trailer - Humphrey Bogart, Ingrid Bergman M" | kw:silver,rice
 2026-06-28 23:31 ACCEPT [Google News CB] "ECB Will Need to Raise Interest Rates Again, Schnabel Says - WSJ" | kw:interest rate,ecb
 2026-06-28 23:31 ACCEPT [Google News CB] "Fed signals inflation easing but rate hike risk grows - MSN" | kw:inflation,rate hike,easing
+2026-06-29 00:01 ACCEPT [Google News CB] "Hedging interest rate risk when it matters: Evidence from Italian bank" | kw:interest rate
+2026-06-29 00:01 ACCEPT [Google News CB] "Additional Monetary Policy Tools: Reflections and a New Framework | Sp" | kw:monetary policy
+2026-06-29 00:01 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-06-29 00:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
+2026-06-29 00:02 SENT_MORNING articles=20 date=2026-06-29 force=False
