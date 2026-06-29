@@ -7673,3 +7673,17 @@
 2026-06-29 03:01 ACCEPT [Google News CB] "China's central bank conducts debut overnight reverse repo operation w" | kw:central bank,interest rate
 2026-06-29 03:01 ACCEPT [Google News CB] "Gold slips as fresh US-Iran strikes boost oil, Fed rate-hike bets weig" | kw:oil,gold,fed rate
 2026-06-29 03:01 SKIP_MORNING already_sent date=2026-06-29
+2026-06-29 03:31 ACCEPT [Google News HH] "$Crude Oil Futures (AUG6) (CLmain.US)$$Brent Last Day Financial Future" | kw:oil,crude,brent
+2026-06-29 03:31 ACCEPT [Google News HH] "The Commodities Feed: Oil market shrugs off Persian Gulf escalation - " | kw:oil,commodities
+2026-06-29 03:31 ACCEPT [Google News HH] "Gold Price under increasing pressure after extreme overbought conditio" | kw:gold,rice,easing
+2026-06-29 03:31 ACCEPT [Google News HH] "Crude Oil Attempts to Offload its Oversold Conditions – Analysis – 29-" | kw:oil,crude
+2026-06-29 03:31 ACCEPT [Google News KL] "Gold price prediction: Why is gold rate down today? What to expect for" | kw:gold,rice
+2026-06-29 03:31 ACCEPT [Google News KL] "Gold Price Forecast: XAU/USD looks south amid US-Iran uncertainty and " | kw:gold,rice
+2026-06-29 03:31 ACCEPT [Google News KL] "Gold prices fall: Indians sell old jewellery as fears of deeper correc" | kw:gold,rice
+2026-06-29 03:31 ACCEPT [Google News NS] "Corn Man: How Pattabhi Rama Rao Built a Monopoly Nobody Saw Coming - T" | kw:corn
+2026-06-29 03:31 ACCEPT [Google News CB] "Copper Declines as Fed Stance and Strong Dollar Weigh On Metals - Bloo" | kw:copper
+2026-06-29 03:31 ACCEPT [Google News CB] "Iran war developments, Fed rate path cues in focus for Indian rupee an" | kw:fed rate
+2026-06-29 03:31 ACCEPT [Google News CB] "China’s central bank debuts overnight reverse repo operation, withhold" | kw:central bank,interest rate
+2026-06-29 03:31 ACCEPT [Google News CB] "Japan Retail Sales Jump in May, Sharpening Focus on BoJ Policy and Yen" | kw:boj
+2026-06-29 03:31 ACCEPT [Google News CB] "Japan retail sales beat forecasts, stoking bets on earlier BoJ tighten" | kw:boj,tightening
+2026-06-29 03:31 SKIP_MORNING already_sent date=2026-06-29
