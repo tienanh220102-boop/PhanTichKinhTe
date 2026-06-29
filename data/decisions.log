@@ -7816,3 +7816,15 @@
 2026-06-29 05:31 ACCEPT [Google News NS] "Precision Trading with Teucrium Soybean Fund (SOYB) Risk Zones - Stock" | kw:soybean
 2026-06-29 05:31 ACCEPT [Google News NS] "Corn drops after US-Iran halt attacks as traders weigh US heat - Money" | kw:corn
 2026-06-29 05:31 SKIP_MORNING already_sent date=2026-06-29
+2026-06-29 06:01 ACCEPT [Google News HH] "From energy to metals: Why commodities still deserve a place in the po" | kw:commodities
+2026-06-29 06:01 ACCEPT [Google News KL] "The Federal Reserve's hawkish stance and the strengthening US dollar p" | kw:copper,rice,federal reserve
+2026-06-29 06:01 ACCEPT [Google News KL] "Silver Price Forecast: $55.60 Triangle Floor Weaponized as Green-Tech " | kw:silver,rice
+2026-06-29 06:01 ACCEPT [Google News KL] "Silver (XAGUSD) Is down by 2.10% on Jun 29: Is the Demand Outlook Chan" | kw:silver
+2026-06-29 06:01 ACCEPT [Google News KL] "Gold prices drop: What is new price per bhori? - daily-sun.com" | kw:gold,rice
+2026-06-29 06:01 ACCEPT [Google News KL] "With rising geopolitical risks and hawkish expectations from the Feder" | kw:silver,rice,federal reserve
+2026-06-29 06:01 ACCEPT [Google News KL] "Micro Silver (XAGUSD-M) Is down 2.00% on Jun 29: What You Need to Watc" | kw:silver
+2026-06-29 06:01 ACCEPT [Google News NS] "Germany set for record soybean harvest in 2026 despite EU‑wide decline" | kw:fuel,soybean,harvest
+2026-06-29 06:01 ACCEPT [Google News CB] "Warsh’s Words Could Prove the Best Tool for Fighting Inflation. They’r" | kw:inflation
+2026-06-29 06:01 ACCEPT [Google News CB] "JGB Yields Rise As Markets Second-Guess The BOJ - Finimize" | kw:boj
+2026-06-29 06:01 ACCEPT [Google News CB] "Indonesia central bank will use all instruments to maintain liquidity " | kw:central bank
+2026-06-29 06:01 SKIP_MORNING already_sent date=2026-06-29
