@@ -7779,3 +7779,22 @@
 2026-06-29 04:31 ACCEPT [Google News CB] "CAPITAL IDEAS: What happens to the stock market if the Federal Reserve" | kw:interest rate,federal reserve
 2026-06-29 04:31 ACCEPT [Google News CB] "Japan Retail Sales Jump in May, Sharpening Focus on BoJ Policy and Yen" | kw:boj
 2026-06-29 04:31 SKIP_MORNING already_sent date=2026-06-29
+2026-06-29 05:01 ACCEPT [Google News HH] "$Crude Oil Futures (AUG6) (CLmain.US)$$Brent Last Day Financial Future" | kw:oil,crude,brent
+2026-06-29 05:01 ACCEPT [Google News HH] "Gold price in India: Rates on June 29 - FXStreet" | kw:gold,rice
+2026-06-29 05:01 ACCEPT [Google News HH] "Gold prices dip - VnExpress International" | kw:gold,rice
+2026-06-29 05:01 ACCEPT [Google News HH] "Gold Price : गोल्ड वॉर शुरू! अमेरिका से अपना सोना वापस मांग रहे यूरोप " | kw:gold,rice
+2026-06-29 05:01 ACCEPT [Google News HH] "Brent Crude Oil attempts to offload its oversold conditions – Analysis" | kw:oil,crude,brent
+2026-06-29 05:01 ACCEPT [Google News HH] "Crude Oil Prices Bounce Above $70 at the Open after Hormuz Strikes, Ch" | kw:oil,crude,rice
+2026-06-29 05:01 ACCEPT [Google News HH] "Gold Price Forecast: Holds the Key $4,000 Support as Market Eyes NFP J" | kw:gold,rice
+2026-06-29 05:01 ACCEPT [Google News KL] "Gold holds losses near $4,050 as US-Iran clash triggers inflation fear" | kw:gold,inflation
+2026-06-29 05:01 ACCEPT [Google News KL] "Gold falls to near $4,050 amid US- Iran talks uncertainty - TMGM" | kw:gold
+2026-06-29 05:01 ACCEPT [Google News NS] "Mysteel soybean and relatives marke... - Mysteel" | kw:steel,soybean
+2026-06-29 05:01 ACCEPT [Google News NS] "Micro Soybean Futures Margins - CME Group" | kw:soybean
+2026-06-29 05:01 ACCEPT [Google News NS] "Grain handler exports first shipment of wheat from Esperance to Asia -" | kw:wheat
+2026-06-29 05:01 ACCEPT [Google News CB] "Iran war developments, Fed rate path cues in focus for Indian rupee an" | kw:fed rate
+2026-06-29 05:01 ACCEPT [Google News CB] "China central bank sets overnight reverse repo rate at 1.25%- Reuters " | kw:central bank
+2026-06-29 05:01 ACCEPT [Google News CB] "Fed signals inflation easing but rate hike risk grows - MSN" | kw:inflation,rate hike,easing
+2026-06-29 05:01 ACCEPT [Google News CB] "Gold Slips As Oil Ticks Up And Fed Hikes Loom - Finimize" | kw:oil,gold
+2026-06-29 05:01 ACCEPT [Google News CB] "Gold Slides To Two-Week Low As Fed Rate Hike Bets Boost Dollar - Moomo" | kw:gold,fed rate,rate hike
+2026-06-29 05:01 ACCEPT [Google News CB] "JPMorgan Predicts Rate Hike for Malaysia's Central Bank Amid Eco - Gur" | kw:central bank,rate hike
+2026-06-29 05:01 SKIP_MORNING already_sent date=2026-06-29
