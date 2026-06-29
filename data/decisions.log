@@ -7798,3 +7798,14 @@
 2026-06-29 05:01 ACCEPT [Google News CB] "Gold Slides To Two-Week Low As Fed Rate Hike Bets Boost Dollar - Moomo" | kw:gold,fed rate,rate hike
 2026-06-29 05:01 ACCEPT [Google News CB] "JPMorgan Predicts Rate Hike for Malaysia's Central Bank Amid Eco - Gur" | kw:central bank,rate hike
 2026-06-29 05:01 SKIP_MORNING already_sent date=2026-06-29
+2026-06-29 05:08 ACCEPT [Google News HH] "Goldman Sachs says stick with Asia's winners, keep diversifying into c" | kw:gold,commodities
+2026-06-29 05:08 ACCEPT [Google News HH] "Gold price in Philippines: Rates on June 29 - FXStreet" | kw:gold,rice
+2026-06-29 05:08 ACCEPT [Google News KL] "Why Has Gold Declined Despite Escalating Geopolitical Tensions - Kavou" | kw:gold
+2026-06-29 05:08 ACCEPT [Google News KL] "[SMM Nickel Sulphate Daily Review] June 29 Market transactions sluggis" | kw:nickel,rice
+2026-06-29 05:08 ACCEPT [Google News KL] "Gold Trading Reminder: September Rate Hike Expectations Heat Up, Gold " | kw:gold,rice,rate hike
+2026-06-29 05:08 ACCEPT [Google News KL] "Gold and silver price today, June 29: Check rates of 24K, 22K gold in " | kw:gold,silver,rice
+2026-06-29 05:08 ACCEPT [Google News NS] "Corn Man: How Pattabhi Rama Rao Built a Monopoly Nobody Saw Coming - T" | kw:corn
+2026-06-29 05:08 ACCEPT [Google News CB] "Gold slips as fresh U.S.-Iran strikes boost oil, Fed rate-hike bets we" | kw:oil,gold,fed rate
+2026-06-29 05:08 ACCEPT [Google News CB] "JGB yields rise as inflation concerns grow on BOJ policy outlook - Tra" | kw:inflation,boj
+2026-06-29 05:08 ACCEPT [Google News CB] "Richmond Fed President: U.S. Inflation Remains Too High, Supports Cont" | kw:inflation,tightening
+2026-06-29 05:08 SKIP_MORNING already_sent date=2026-06-29
