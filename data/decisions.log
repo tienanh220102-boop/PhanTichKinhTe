@@ -7857,3 +7857,16 @@
 2026-06-29 07:01 ACCEPT [Google News CB] "Mid-Interest Rate Living Stability Loan Launched for Bottom 50% Credit" | kw:interest rate
 2026-06-29 07:01 ACCEPT [Google News CB] "RBA’s Kent Says Central Bank Better Prepared for Next Financial Crisis" | kw:central bank
 2026-06-29 07:01 SKIP_MORNING already_sent date=2026-06-29
+2026-06-29 07:31 ACCEPT [OilPrice.com] "China’s LNG Buying Rebounds as Summer Power Demand Surges" | kw:gas,lng
+2026-06-29 07:31 ACCEPT [NASDAQ Commod] "Nickel Prices Slip on Rumored Indonesia Quota Hike Despite Official De" | kw:nickel,rice
+2026-06-29 07:31 ACCEPT [Google News HH] "JPMorgan Lowers Gold Price Forecasts: Q3 at $5,300, Q4 at $6,000 - New" | kw:gold,rice
+2026-06-29 07:31 ACCEPT [Google News HH] "Gold price prediction today: Will gold prices continue to fall? Key le" | kw:gold,rice
+2026-06-29 07:31 ACCEPT [Google News HH] "ASEAN Explores Unified Emergency Crude Oil and Jet Fuel Reserve to Str" | kw:oil,crude,fuel
+2026-06-29 07:31 ACCEPT [Google News KL] "Gold prices dip amid renewed US-Iran strikes - Investing.com" | kw:gold,rice
+2026-06-29 07:31 ACCEPT [Google News KL] "Turaco Gold Price Target Cut 46% to A$1.18/Share by Morgans - Moomoo" | kw:gold,rice
+2026-06-29 07:31 ACCEPT [Google News KL] "Gold price drops by Tk3,266 per bhori - The Business Standard" | kw:gold,rice
+2026-06-29 07:31 ACCEPT [Google News NS] "Late-season corn tissue test results offer valuable crop insights - Fa" | kw:corn
+2026-06-29 07:31 ACCEPT [Google News NS] "Record European heat pushes French wheat prices to three-month high - " | kw:wheat,rice
+2026-06-29 07:31 ACCEPT [Google News CB] "Spanish Inflation Unexpectedly Holds Well Above ECB Target - Bloomberg" | kw:inflation,ecb
+2026-06-29 07:31 ACCEPT [Google News CB] "Iraq’s central bank governor cannot fight crime on his own - Arabian G" | kw:central bank
+2026-06-29 07:31 SKIP_MORNING already_sent date=2026-06-29
