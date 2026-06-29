@@ -7975,3 +7975,12 @@
 2026-06-29 11:31 ACCEPT [Google News CB] "Asian Stocks Fall as Middle East Jitters Persist, Fed Rate Hopes Weigh" | kw:fed rate
 2026-06-29 11:31 ACCEPT [Google News CB] "Salchichón Ibérico De Bellota Slices 80g - Acorn-Fed Pata Negra Cured " | kw:corn
 2026-06-29 11:31 SKIP_MORNING already_sent date=2026-06-29
+2026-06-29 12:01 ACCEPT [MarketWatch] "A ‘Magnificent Seven’ slump sent momentum stocks to their fourth-worst" | kw:basis point
+2026-06-29 12:01 ACCEPT [Google News HH] "Oil prices hover around pre-war levels as focus turns to the US data a" | kw:oil,rice
+2026-06-29 12:01 ACCEPT [Google News HH] "Pakistan Gold Price Today Sees Decline, Bitcoin World Data Shows - Cry" | kw:gold,rice
+2026-06-29 12:01 ACCEPT [Google News KL] "Gold falls as Mideast tensions fuel inflation fears, Fed rate-hike bet" | kw:fuel,gold,inflation
+2026-06-29 12:01 ACCEPT [Google News KL] "Is the 1970s Inflation Shock Back? What It Means for Gold & Silver - F" | kw:gold,silver,inflation
+2026-06-29 12:01 ACCEPT [Google News CB] "NYSE Owner Plans Futures Tied to Policy Decisions, Oil Reserves - Bloo" | kw:oil
+2026-06-29 12:01 ACCEPT [Google News CB] "Gold falls as Gulf tensions fuel inflation fears, Fed rate-hike bets -" | kw:fuel,gold,inflation
+2026-06-29 12:01 ACCEPT [Google News CB] "Warsh’s Words Could Prove the Best Tool for Fighting Inflation. They’r" | kw:inflation
+2026-06-29 12:01 SKIP_MORNING already_sent date=2026-06-29
