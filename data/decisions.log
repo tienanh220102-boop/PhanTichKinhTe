@@ -7883,3 +7883,14 @@
 2026-06-29 08:02 ACCEPT [Google News CB] "Spanish inflation remains above ECB’s 2% target after US-Iran deal - C" | kw:inflation,ecb
 2026-06-29 08:02 ACCEPT [Google News CB] "Spanish inflation unexpectedly remains above ECB target, adding pressu" | kw:inflation,ecb
 2026-06-29 08:02 SKIP_MORNING already_sent date=2026-06-29
+2026-06-29 08:30 ACCEPT [OilPrice.com] "Middle East Oil Production Rebounds to 15 Million Bpd" | kw:oil,crude
+2026-06-29 08:31 ACCEPT [Google News HH] "Fuel Prices Remain High Despite Crude Oil Slump, FCCPC Raises Concern " | kw:oil,crude,fuel
+2026-06-29 08:31 ACCEPT [Google News KL] "Gold prices dip amid renewed US-Iran strikes, rate jitters - Investing" | kw:gold,rice
+2026-06-29 08:31 ACCEPT [Google News KL] "Physical Demand For Gold Remains Strong Even While Silver Sees Slowing" | kw:gold,silver
+2026-06-29 08:31 ACCEPT [Google News KL] "Silver Rate Today, June 29, 2026: Silver Price Rebounds ₹49 per 10 gra" | kw:silver,rice
+2026-06-29 08:31 ACCEPT [Google News NS] "Reframing the conversation: Why akara, corn and kuli-kuli matter - The" | kw:corn
+2026-06-29 08:31 ACCEPT [Google News NS] "Grain SA rejects ITAC decision to keep wheat tariff reference price un" | kw:wheat,rice,tariff
+2026-06-29 08:31 ACCEPT [Google News CB] "Monetary developments in the euro area: May 2026 - European Central Ba" | kw:central bank
+2026-06-29 08:31 ACCEPT [Google News CB] "Euro zone corporate lending growth at 3-year high, ECB says - Reuters" | kw:ecb
+2026-06-29 08:31 ACCEPT [Google News CB] "CNBC Daily Open: Hostilities halted again as peace talks continue - CN" | kw:wti
+2026-06-29 08:31 SKIP_MORNING already_sent date=2026-06-29
