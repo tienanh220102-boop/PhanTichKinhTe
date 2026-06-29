@@ -7652,3 +7652,11 @@
 2026-06-29 02:01 ACCEPT [Google News CB] "PBOC Debuts Overnight Operation, Surprises With No Rate Released - Blo" | kw:pboc
 2026-06-29 02:01 ACCEPT [Google News CB] "RBA’s Kent says central bank will be better prepared to handle next cr" | kw:central bank
 2026-06-29 02:01 SKIP_MORNING already_sent date=2026-06-29
+2026-06-29 02:31 ACCEPT [Google News HH] "Crude Oil Trading Alert: Recurrent geopolitical tensions fuel supply-s" | kw:oil,crude,fuel
+2026-06-29 02:31 ACCEPT [Google News HH] "Daily Brief United States: Innio, Micron Technology, Crude Oil, Kalshi" | kw:oil,crude
+2026-06-29 02:31 ACCEPT [Google News HH] "Enterprise value to EBIT forward of DIGITAL COMMODITIES INC. – OTC:DGC" | kw:commodities
+2026-06-29 02:31 ACCEPT [Google News HH] "Daily Brief Energy/Materials: Fortescue Metals, Crude Oil, Savita Oil " | kw:oil,crude
+2026-06-29 02:31 ACCEPT [Google News HH] "Amid Drop in Global Crude Oil Price, FCCPC Warns Marketers Against Exp" | kw:oil,crude,rice
+2026-06-29 02:31 ACCEPT [Google News HH] "Petrol prices defy crude oil slump, deepen cost-of-living crisis - The" | kw:oil,crude,rice
+2026-06-29 02:31 ACCEPT [Google News HH] "Oil Price Today (June 29): Crude oil rises after renewed US-Iran strik" | kw:oil,crude,rice
+2026-06-29 02:31 SKIP_MORNING already_sent date=2026-06-29
