@@ -7763,3 +7763,19 @@
 2026-06-29 04:01 ACCEPT [Google News CB] "Reserve Bank of Australia Outlines Framework for Additional Monetary P" | kw:monetary policy,interest rate
 2026-06-29 04:01 ACCEPT [Google News CB] "Gold’s Rebound Lacks Conviction as NFP Report Could Reopen Fed Hike De" | kw:gold
 2026-06-29 04:01 SKIP_MORNING already_sent date=2026-06-29
+2026-06-29 04:31 ACCEPT [Al Jazeera] "Oil prices rise as US, Iranian strikes threaten Strait of Hormuz reope" | kw:oil,crude,brent
+2026-06-29 04:31 ACCEPT [Google News HH] "Brent crude oil price on June 30, 2026 at 5:00 PM EDT Commodities Pred" | kw:oil,crude,brent
+2026-06-29 04:31 ACCEPT [Google News HH] "Crude oil prices jump again as renewed hostilities threaten US-Iran in" | kw:oil,crude,rice
+2026-06-29 04:31 ACCEPT [Google News HH] "Crude oil futures rise following US-Iran attacks in West Asia - Busine" | kw:oil,crude
+2026-06-29 04:31 ACCEPT [Google News KL] "Beyond Silver: Rethinking Project Value in a Multi-Metal Context - The" | kw:silver
+2026-06-29 04:31 ACCEPT [Google News KL] "DAILY: Copper prices slightly rebou... - Mysteel" | kw:copper,steel,rice
+2026-06-29 04:31 ACCEPT [Google News KL] "Why Gold ETFs Are Suddenly Tarnishing - The Daily Upside" | kw:gold
+2026-06-29 04:31 ACCEPT [Google News KL] "Gold and Silver Price Forecast: NFP Data and Iran Talks Drive Next Bre" | kw:gold,silver,rice
+2026-06-29 04:31 ACCEPT [Google News KL] "Türkiye stays among top 30 gold producers despite declining output - T" | kw:gold
+2026-06-29 04:31 ACCEPT [Google News KL] "Gold, silver prices today, 29 June: Check retail rates of 24K, 22K gol" | kw:gold,silver,rice
+2026-06-29 04:31 ACCEPT [Google News KL] "Gold Declines as Fresh US-Iran Tension Fans Inflation Concerns - NDTV " | kw:gold,inflation
+2026-06-29 04:31 ACCEPT [Google News NS] "Mysteel grain market daily: Nationa... - Mysteel" | kw:steel
+2026-06-29 04:31 ACCEPT [Google News NS] "How yellow rust threat is reshaping wheat choices for 2026 - Farmers W" | kw:wheat
+2026-06-29 04:31 ACCEPT [Google News CB] "CAPITAL IDEAS: What happens to the stock market if the Federal Reserve" | kw:interest rate,federal reserve
+2026-06-29 04:31 ACCEPT [Google News CB] "Japan Retail Sales Jump in May, Sharpening Focus on BoJ Policy and Yen" | kw:boj
+2026-06-29 04:31 SKIP_MORNING already_sent date=2026-06-29
