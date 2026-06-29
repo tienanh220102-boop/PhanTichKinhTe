@@ -7984,3 +7984,19 @@
 2026-06-29 12:01 ACCEPT [Google News CB] "Gold falls as Gulf tensions fuel inflation fears, Fed rate-hike bets -" | kw:fuel,gold,inflation
 2026-06-29 12:01 ACCEPT [Google News CB] "Warsh’s Words Could Prove the Best Tool for Fighting Inflation. They’r" | kw:inflation
 2026-06-29 12:01 SKIP_MORNING already_sent date=2026-06-29
+2026-06-29 12:31 ACCEPT [The Guardian Biz] "Comcast to spin off NBCUniversal and Sky into separate media business" | kw:oil,inflation
+2026-06-29 12:31 ACCEPT [The Guardian Biz] "British American Tobacco to slash 9,000 jobs as it turns to AI" | kw:oil,inflation
+2026-06-29 12:31 ACCEPT [The Guardian Biz] "EU introduces €3 customs charge on small parcels to curb cheap Chinese" | kw:oil,inflation
+2026-06-29 12:31 ACCEPT [Google News HH] "Iraq denies Opec exit reports but seeks higher long term production qu" | kw:opec
+2026-06-29 12:31 ACCEPT [Google News HH] "Gold Price Today on June 29, 2026 - USA Today" | kw:gold,rice
+2026-06-29 12:31 ACCEPT [Google News KL] "Gold prices today, Monday, June 29: Holding at last week's levels ahea" | kw:gold,rice
+2026-06-29 12:31 ACCEPT [Google News KL] "Silver Price Today on June 29, 2026 - USA Today" | kw:silver,rice
+2026-06-29 12:31 ACCEPT [Google News KL] "Gold glitters for central banks as they seek out safe havens - TheBank" | kw:gold,central bank
+2026-06-29 12:31 ACCEPT [Google News KL] "Thailand gold prices drop 1,050 baht as global pressures mount - Natio" | kw:gold,rice
+2026-06-29 12:31 ACCEPT [Google News KL] "Gold prices decline amid renewed U.S.-Iran strikes, rate jitters - Inv" | kw:gold,rice
+2026-06-29 12:31 ACCEPT [Google News NS] "Government approves additional 25 LMT wheat exports to support farmers" | kw:wheat,rice
+2026-06-29 12:31 ACCEPT [Google News CB] "Central Bank Governor: Next Phase Will Witness Significant Growth in T" | kw:central bank
+2026-06-29 12:31 ACCEPT [Google News CB] "Twitter Is BLOWING UP Over Bank Of Canada Interest Rate Hike Dent (fCq" | kw:interest rate,rate hike
+2026-06-29 12:31 ACCEPT [Google News CB] "Inflation flips Wall Street's Fed interest-rate bets toward hikes - MS" | kw:inflation
+2026-06-29 12:31 ACCEPT [Google News CB] "Vaughan blames 'fall-out with ECB' for timing of Stokes retirement - M" | kw:ecb
+2026-06-29 12:31 SKIP_MORNING already_sent date=2026-06-29
