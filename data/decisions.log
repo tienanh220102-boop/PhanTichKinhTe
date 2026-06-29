@@ -8016,3 +8016,19 @@
 2026-06-29 13:01 SKIP_MORNING already_sent date=2026-06-29
 2026-06-29 13:02 DIRECTION_FIX Wheat: "giảm 1.59%" → "tăng 1.59%"
 2026-06-29 13:02 SENT_EVENING articles=20 date=2026-06-29 force=False
+2026-06-29 13:30 ACCEPT [Al Jazeera] "Sudan says China has waived $50m loan: What’s in it for Khartoum, Beij" | kw:sanction
+2026-06-29 13:31 ACCEPT [Google News HH] "Gold Price Analysis – Gold Looks for a Reason to Bounce - FXEmpire" | kw:gold,rice
+2026-06-29 13:31 ACCEPT [Google News HH] "Global Commodities Roundup: Market Talk - 富途牛牛" | kw:commodities
+2026-06-29 13:31 ACCEPT [Google News HH] "Crude Oil Price Analysis – Oil Continues to Ponder the Next Move - FXE" | kw:oil,crude,rice
+2026-06-29 13:31 ACCEPT [Google News KL] "Current price of silver as of Monday, June 29, 2026 - Fortune" | kw:silver,rice
+2026-06-29 13:31 ACCEPT [Google News KL] "Silver Price Analysis – Silver Continues to Dance Just Below a Previou" | kw:silver,rice
+2026-06-29 13:31 ACCEPT [Google News KL] "Copper Price Analysis: Why $5.50 Beckons Before the Tariff Verdict - F" | kw:copper,rice,tariff
+2026-06-29 13:31 ACCEPT [Google News KL] "Is the 1970s Inflation Shock Back? What It Means for Gold & Silver - F" | kw:gold,silver,inflation
+2026-06-29 13:31 ACCEPT [Google News NS] "What’s Hot What’s Not in the Markets - Red River Farm Network" | kw:gdp
+2026-06-29 13:31 ACCEPT [Google News NS] "Australia boosting rail freight capacity - World-Grain.com" | kw:freight
+2026-06-29 13:31 ACCEPT [Google News CB] "Warsh Joins ECB’s Soul Searching in Sintra - Bloomberg.com" | kw:ecb
+2026-06-29 13:31 ACCEPT [Google News CB] "Fed Chair's Plan Could Reshape Interest Rates This Year - Investopedia" | kw:interest rate
+2026-06-29 13:31 ACCEPT [Google News CB] "NYSE Owner Plans Futures Tied to Policy Decisions, Oil Reserves - Bloo" | kw:oil
+2026-06-29 13:31 ACCEPT [Google News CB] "Is AGNC Investment’s (AGNC) “Undervalued” Label Masking Deeper Interes" | kw:interest rate
+2026-06-29 13:31 SKIP_MORNING already_sent date=2026-06-29
+2026-06-29 13:31 SKIP_EVENING already_sent date=2026-06-29
