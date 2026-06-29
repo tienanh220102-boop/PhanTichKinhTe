@@ -7618,3 +7618,11 @@
 2026-06-29 00:31 ACCEPT [Google News CB] "Week Ahead for FX, Bonds : U.S. Jobs Data in Focus as Markets Search f" | kw:fed rate
 2026-06-29 00:31 ACCEPT [Google News CB] "Australia central bank outlines policy tools for times of crisis - mar" | kw:central bank
 2026-06-29 00:31 SKIP_MORNING already_sent date=2026-06-29
+2026-06-29 01:01 ACCEPT [MarketWatch] "Oil prices, stock futures inch higher as U.S. and Iran reportedly agre" | kw:oil,rice
+2026-06-29 01:01 ACCEPT [Google News HH] "JGBs Fall Amid Rising Crude Oil Prices - WSJ" | kw:oil,crude,rice
+2026-06-29 01:01 ACCEPT [Google News HH] "OPEC Begins Gradual Restoration of Iraq’s Pre-War Production Quotas - " | kw:opec
+2026-06-29 01:01 ACCEPT [Google News HH] "Crude Oil Prices Bounce Above $70 at the Open after Hormuz Strikes and" | kw:oil,crude,rice
+2026-06-29 01:01 ACCEPT [Google News NS] "US-Iran Strikes Shake Ceasefire, Raising Fears of a New Global Oil Cri" | kw:oil
+2026-06-29 01:01 ACCEPT [Google News NS] "China emerges as new soybean oil supplier, deepening India’s import co" | kw:oil,soybean
+2026-06-29 01:01 ACCEPT [Google News CB] "Australia central bank outlines policy tools for times of crisis - Tra" | kw:central bank
+2026-06-29 01:01 SKIP_MORNING already_sent date=2026-06-29
