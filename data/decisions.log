@@ -7909,3 +7909,23 @@
 2026-06-29 09:01 ACCEPT [Google News CB] "Euro Recovers Ahead of ECB Forum - TradingView" | kw:ecb
 2026-06-29 09:01 ACCEPT [Google News CB] "ECB’s Kazāks: The possibility of negative scenarios has fallen massive" | kw:ecb
 2026-06-29 09:01 SKIP_MORNING already_sent date=2026-06-29
+2026-06-29 09:31 ACCEPT [MarketWatch] "The central bank of central  banks warns AI frenzy could trigger stock" | kw:central bank
+2026-06-29 09:31 ACCEPT [MarketWatch] "Ryan Seacrest sells 40-acre Napa Valley estate for $18.5 million" | kw:rice
+2026-06-29 09:31 ACCEPT [Google News HH] "Gold (XAU/USD) Price Forecast for Today, Tomorrow, Next Week, and the " | kw:gold,rice
+2026-06-29 09:31 ACCEPT [Google News HH] "Brent Crude Oil Analysis: Stabilisation or Simply a Pause? - Action Fo" | kw:oil,crude,brent
+2026-06-29 09:31 ACCEPT [Google News HH] "Crude oil futures rise 0.7% on firm demand; global benchmarks edge hig" | kw:oil,crude
+2026-06-29 09:31 ACCEPT [Google News HH] "ZAWYA: Iraq targets 7mln bpd oil output in 3 years - TradingView" | kw:oil
+2026-06-29 09:31 ACCEPT [Google News HH] "Oil Markets Are Pricing A Supply Surge That Isn't Guaranteed - Crude O" | kw:oil,crude,rice
+2026-06-29 09:31 ACCEPT [Google News HH] "Commodities giant CEO hit with Bahamas asset freeze in divorce case - " | kw:commodities
+2026-06-29 09:31 ACCEPT [Google News KL] "Gold falls as Gulf tensions fuel inflation fears, Fed rate-hike bets -" | kw:fuel,gold,inflation
+2026-06-29 09:31 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Gold Defends $4,049 as Silver H" | kw:gold,silver,rice
+2026-06-29 09:31 ACCEPT [Google News KL] "Gold weakens as US-Iran tensions ease, Fed tightening outlook weighs -" | kw:gold,tightening
+2026-06-29 09:31 ACCEPT [Google News NS] "Chicago soybeans, grains fall as traders await USDA acreage and stocks" | kw:soybean
+2026-06-29 09:31 ACCEPT [Google News NS] "Germany Eyes Record Soybean Harvest in 2026 - ChemAnalyst" | kw:soybean,harvest
+2026-06-29 09:31 ACCEPT [Google News CB] "The central bank of central banks warns AI frenzy could trigger stock-" | kw:central bank
+2026-06-29 09:31 ACCEPT [Google News CB] "Spanish Inflation Unexpectedly Holds Well Above ECB Target - Bloomberg" | kw:inflation,ecb
+2026-06-29 09:31 ACCEPT [Google News CB] "PBOC Debuts Overnight Operation, Surprises With No Rate Released - Blo" | kw:pboc
+2026-06-29 09:31 ACCEPT [Google News CB] "ECB’s Kazaks Says No Need for Multiple Hikes in Rushed Way - Bloomberg" | kw:ecb
+2026-06-29 09:31 ACCEPT [Google News CB] "Copper Declines as Fed Stance and Strong Dollar Weigh On Metals - Bloo" | kw:copper
+2026-06-29 09:31 ACCEPT [Google News CB] "Fed’s Barkin Warns of High Inflation, But Sees Signs of Relief - Bloom" | kw:inflation
+2026-06-29 09:31 SKIP_MORNING already_sent date=2026-06-29
