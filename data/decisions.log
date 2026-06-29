@@ -7956,3 +7956,5 @@
 2026-06-29 10:31 ACCEPT [Google News CB] "Supreme Court ruling, ECB conference likely to further frame Fed chief" | kw:ecb
 2026-06-29 10:31 ACCEPT [Google News CB] "Russia’s central bank to cut foreign currency sales in second half - I" | kw:central bank
 2026-06-29 10:31 SKIP_MORNING already_sent date=2026-06-29
+2026-06-29 11:01 ACCEPT [OilPrice.com] "Oil Prices Climb as U.S.-Iran Flare-Up Shakes Market Complacency" | kw:oil,rice
+2026-06-29 11:01 SKIP_MORNING already_sent date=2026-06-29
