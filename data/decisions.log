@@ -7944,3 +7944,7 @@
 2026-06-29 10:01 ACCEPT [Google News CB] "Former ECB board member named as chair of Reform Technologies - Finext" | kw:ecb
 2026-06-29 10:01 ACCEPT [Google News CB] "Japanese Yen: Data and BoJ Tankan to guide policy – Deutsche Bank - FX" | kw:boj
 2026-06-29 10:01 SKIP_MORNING already_sent date=2026-06-29
+2026-06-29 10:04 ACCEPT [NASDAQ Commod] "Oil Prices Rebound From Four-month Lows Ahead Of Peace Talks" | kw:oil,rice
+2026-06-29 10:04 ACCEPT [Google News CB] "Euro zone corporate lending growth at 3-year high, ECB says - WTVB" | kw:ecb
+2026-06-29 10:04 ACCEPT [Google News CB] "President Trump will not get what he wants from Kevin Warsh, a source " | kw:inflation
+2026-06-29 10:04 SKIP_MORNING already_sent date=2026-06-29
