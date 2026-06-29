@@ -7958,3 +7958,20 @@
 2026-06-29 10:31 SKIP_MORNING already_sent date=2026-06-29
 2026-06-29 11:01 ACCEPT [OilPrice.com] "Oil Prices Climb as U.S.-Iran Flare-Up Shakes Market Complacency" | kw:oil,rice
 2026-06-29 11:01 SKIP_MORNING already_sent date=2026-06-29
+2026-06-29 11:30 ACCEPT [MarketWatch] "How the chip trade has come to resemble silver — a warning from Morgan" | kw:silver
+2026-06-29 11:30 ACCEPT [Mining.com] "Op-Ed: The decoy effect — how Beijing steers western mining capital" | kw:oil
+2026-06-29 11:31 ACCEPT [Google News HH] "Oil prices hover around pre-war levels as focus turns to the US data a" | kw:oil,rice
+2026-06-29 11:31 ACCEPT [Google News HH] "Forecast update for crude oil -29-06-2026 - Economies.com" | kw:oil,crude
+2026-06-29 11:31 ACCEPT [Google News HH] "Gold price crash: Why Indian households are rushing to sell their old " | kw:gold,rice
+2026-06-29 11:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD Holds Below $59.00 as Hormuz Tensions R" | kw:silver,rice
+2026-06-29 11:31 ACCEPT [Google News KL] "Gold and Silver Price Forecast: Debt Fears Strengthen Long-Term Bull C" | kw:gold,silver,rice
+2026-06-29 11:31 ACCEPT [Google News KL] "UBS Turns Bullish on Gold Contrary to Trend: Window for Low-Level Posi" | kw:gold,rice
+2026-06-29 11:31 ACCEPT [Google News KL] "MDKA: Earnings surged in 1Q26 on higher gold prices, nickel volumes, a" | kw:gold,nickel,rice
+2026-06-29 11:31 ACCEPT [Google News KL] "Stefanos Tsitsipas Vs Jan-Lennard Struff Highlights | Rome 2024 Silver" | kw:silver,rice
+2026-06-29 11:31 ACCEPT [Google News KL] "Gold extends losses in Baghdad, Erbil - Shafaq News | Latest breaking " | kw:gold
+2026-06-29 11:31 ACCEPT [Google News NS] "Conventional non-GMO corn gathers market interest - Farmtario" | kw:corn
+2026-06-29 11:31 ACCEPT [Google News CB] "Federal Reserve Chair Warsh Speaks at European Central Bank Forum - C-" | kw:central bank,federal reserve
+2026-06-29 11:31 ACCEPT [Google News CB] "Just like Fed, Is BoJ’s independence under threat? - FXStreet" | kw:boj
+2026-06-29 11:31 ACCEPT [Google News CB] "Asian Stocks Fall as Middle East Jitters Persist, Fed Rate Hopes Weigh" | kw:fed rate
+2026-06-29 11:31 ACCEPT [Google News CB] "Salchichón Ibérico De Bellota Slices 80g - Acorn-Fed Pata Negra Cured " | kw:corn
+2026-06-29 11:31 SKIP_MORNING already_sent date=2026-06-29
