@@ -8000,3 +8000,19 @@
 2026-06-29 12:31 ACCEPT [Google News CB] "Inflation flips Wall Street's Fed interest-rate bets toward hikes - MS" | kw:inflation
 2026-06-29 12:31 ACCEPT [Google News CB] "Vaughan blames 'fall-out with ECB' for timing of Stokes retirement - M" | kw:ecb
 2026-06-29 12:31 SKIP_MORNING already_sent date=2026-06-29
+2026-06-29 13:01 ACCEPT [OilPrice.com] "Pakistan LNG Seeks Emergency Cargo After Weekend Hormuz Flare-Up" | kw:lng
+2026-06-29 13:01 ACCEPT [Google News HH] "Eureka offers supplies, commodities to residents forced to evacuate du" | kw:commodities
+2026-06-29 13:01 ACCEPT [Google News HH] "Eureka offers supplies, commodities to residents forced to evacuate du" | kw:commodities
+2026-06-29 13:01 ACCEPT [Google News HH] "Price to earnings forward of Digital Commodities Inc – CSE:DIGI - Trad" | kw:rice,commodities
+2026-06-29 13:01 ACCEPT [Google News HH] "Global Commodities Roundup: Market Talk - 富途牛牛" | kw:commodities
+2026-06-29 13:01 ACCEPT [Google News KL] "Silver prices today, Monday, June 29, 2026: Silver prices trending low" | kw:silver,rice
+2026-06-29 13:01 ACCEPT [Google News KL] "Is the 1970s Inflation Shock Back? What It Means for Gold & Silver - F" | kw:gold,silver,inflation
+2026-06-29 13:01 ACCEPT [Google News NS] "Corn Falling Lower to Start the Week - Barchart" | kw:corn
+2026-06-29 13:01 ACCEPT [Google News NS] "Mysteel Survey: China Soybean and r... - Mysteel" | kw:steel,soybean
+2026-06-29 13:01 ACCEPT [Google News CB] "Warsh Joins ECB’s Soul Searching in Sintra - Bloomberg" | kw:ecb
+2026-06-29 13:01 ACCEPT [Google News CB] "Stronger GDP outlook poses challenge for Central Bank - Valor Internat" | kw:gdp,central bank
+2026-06-29 13:01 ACCEPT [Google News CB] "Gold And Silver Plunge On Expectations For Interest Rate Hikes - Insur" | kw:gold,silver,interest rate
+2026-06-29 13:01 ACCEPT [Google News CB] "Dollar heads for biggest monthly gain in nearly a year; ECB forum in f" | kw:ecb
+2026-06-29 13:01 SKIP_MORNING already_sent date=2026-06-29
+2026-06-29 13:02 DIRECTION_FIX Wheat: "giảm 1.59%" → "tăng 1.59%"
+2026-06-29 13:02 SENT_EVENING articles=20 date=2026-06-29 force=False
