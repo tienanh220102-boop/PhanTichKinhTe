@@ -8229,3 +8229,49 @@
 2026-06-29 22:01 ACCEPT [Google News CB] "Warsh, Fed face calls to hold interest rates steady - Fox Business" | kw:interest rate
 2026-06-29 22:01 ACCEPT [Google News CB] "The central bank of central banks sees a $1 trillion AI investment boo" | kw:central bank
 2026-06-29 22:01 ACCEPT [Google News CB] "Fed's Cook says Supreme Court ruling defends central bank's independen" | kw:central bank
+2026-06-29 22:31 ACCEPT [BBC Business] "Supreme Court blocks Trump's attempt to fire Federal Reserve Governor " | kw:central bank,federal reserve
+2026-06-29 22:31 ACCEPT [BBC Business] "Oil price falls back to pre-Iran war levels" | kw:oil,rice,shipping
+2026-06-29 22:31 ACCEPT [BBC Business] "'We had to get out of the way': The backlash over delivery robots" | kw:easing
+2026-06-29 22:31 ACCEPT [The Guardian Biz] "British American Tobacco to slash 9,000 jobs as it turns to AI" | kw:oil,inflation
+2026-06-29 22:31 ACCEPT [Al Jazeera] "US petrol prices ease despite ongoing uncertainties with Iran" | kw:oil,rice
+2026-06-29 22:31 ACCEPT [CNBC Commodities] "Minneapolis Fed President Neel Kashkari says he expects a rate hike th" | kw:inflation,rate hike
+2026-06-29 22:31 ACCEPT [CNBC Economy] "U.S. issues sweeping Iran oil sanctions waivers, unlocking billions in" | kw:oil,sanction
+2026-06-29 22:31 ACCEPT [CNBC Economy] "Bank of England holds interest rates at 3.75% amid Iran war peace pros" | kw:monetary policy,interest rate,bank of england
+2026-06-29 22:31 ACCEPT [CNBC Economy] "Three Iranian tankers exit U.S. blockade for first time in months as s" | kw:oil,crude
+2026-06-29 22:31 ACCEPT [OilPrice.com] "Is Libya Quietly Becoming the Biggest Oil Prize the West Can’t Afford " | kw:oil,crude,opec
+2026-06-29 22:31 ACCEPT [OilPrice.com] "Philippines Becomes World's Top Solar Panel Buyer" | kw:fuel,rice
+2026-06-29 22:31 ACCEPT [EIA Energy] "Higher blending targets drive RIN prices close to record highs" | kw:gas,fuel,rice
+2026-06-29 22:31 ACCEPT [EIA Energy] "Most planned natural gas pipeline capacity additions in 2026 and 2027 " | kw:gas
+2026-06-29 22:31 ACCEPT [EIA Energy] "The regional differences in gasoline prices this Memorial Day" | kw:gas,fuel,rice
+2026-06-29 22:31 ACCEPT [EIA Energy] "The United States set record energy production in 2025, again" | kw:oil,crude,gas
+2026-06-29 22:31 ACCEPT [EIA Energy] "One-fifth of U.S. renewable diesel and SAF production was exported in " | kw:fuel
+2026-06-29 22:31 ACCEPT [NASDAQ Commod] "See How Kaiser Aluminum Ranks Among Analysts' Top Metals Picks" | kw:aluminum
+2026-06-29 22:31 ACCEPT [NASDAQ Commod] "Gold Headed For Fourth Weekly Loss On Rate Hike Concerns" | kw:gold,rate hike
+2026-06-29 22:31 ACCEPT [Google News HH] "Laramie County’s average gas price sees double-digit drop as crude oil" | kw:oil,crude,gas
+2026-06-29 22:31 ACCEPT [Google News HH] "How will the Iran conflict impact commodities? - UBS" | kw:commodities
+2026-06-29 22:31 ACCEPT [Google News HH] "Goldman Sachs says stick with Asia's winners, keep diversifying into c" | kw:gold,commodities
+2026-06-29 22:31 ACCEPT [Google News HH] "Nigeria orders crackdown on petrol pricing as crude oil drops from $12" | kw:oil,crude
+2026-06-29 22:31 ACCEPT [Google News HH] "How crude oil becomes gasoline is more complex than you think - The Br" | kw:oil,crude,gas
+2026-06-29 22:31 ACCEPT [Google News HH] "Gold price falls nearly 2% as rebound proves short-lived - Mining.com" | kw:gold,rice
+2026-06-29 22:31 ACCEPT [Google News HH] "Iraq denies Opec exit reports but seeks higher long term production qu" | kw:opec
+2026-06-29 22:31 ACCEPT [Google News HH] "Crude oil rises as US-Iran peace talks resume, Hormuz risks linger - C" | kw:oil,crude
+2026-06-29 22:31 ACCEPT [Google News HH] "Sudan - Market Prices and Availability Report 16: Essential Commoditie" | kw:rice,commodities
+2026-06-29 22:31 ACCEPT [Google News KL] "Gold’s rebound has a problem. Here’s what happens next - thestreet.com" | kw:gold
+2026-06-29 22:31 ACCEPT [Google News KL] "3 reasons UBS sees gold surging 30% in the next year - Business Inside" | kw:gold
+2026-06-29 22:31 ACCEPT [Google News KL] "Gold Price Forecast & Predictions for 2026, 2027, 2028–2030, 2040 and " | kw:gold,rice
+2026-06-29 22:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG stays below $60 as death cross threat looms" | kw:silver,rice
+2026-06-29 22:31 ACCEPT [Google News KL] "Gold and oil prices are both down. Here’s why that matters - USA Today" | kw:oil,gold,rice
+2026-06-29 22:31 ACCEPT [Google News KL] "Gold slips as US-Iran tensions spark inflation, rate hike fears - Reut" | kw:gold,inflation,rate hike
+2026-06-29 22:31 ACCEPT [Google News KL] "Gold turns lower as U.S.-Iran tensions ratchet up, but Goldman says 'g" | kw:gold
+2026-06-29 22:31 ACCEPT [Google News KL] "Copper Price Analysis: Why $5.50 Beckons Before the Tariff Verdict - F" | kw:copper,rice,tariff
+2026-06-29 22:31 ACCEPT [Google News NS] "Cameroon prepares major reform of its wheat market - UkrAgroConsult" | kw:wheat
+2026-06-29 22:31 ACCEPT [Google News NS] "Closing Market Update: Canola, U.S. grains & oilseeds lower | June 29," | kw:oil
+2026-06-29 22:31 ACCEPT [Google News NS] "China corn prices remain stable amid weak feed demand - UkrAgroConsult" | kw:corn,rice
+2026-06-29 22:31 ACCEPT [RT Business] "US issues energy threat to EU" | kw:gas,lng
+2026-06-29 22:31 ACCEPT [RT Business] "Bank of Japan lifts rates to highest level since 1995" | kw:fuel,inflation,interest rate
+2026-06-29 22:31 ACCEPT [RT Business] "Defying Western pressure: Russia and China deepen economic partnership" | kw:sanction
+2026-06-29 22:31 ACCEPT [RT Business] "Kuwait exports zero barrels of oil for first time in 35 years – monito" | kw:oil,crude
+2026-06-29 22:31 ACCEPT [Fed Monetary] "Federal Reserve Board and Federal Open Market Committee release econom" | kw:federal reserve,fomc
+2026-06-29 22:31 ACCEPT [ECB Press] "Isabel Schnabel: Is inflation back?" | kw:inflation
+2026-06-29 22:31 ACCEPT [ECB Press] "Boris Vujčić: Outlook for the euro area economy and monetary policy" | kw:monetary policy
+2026-06-29 22:31 ACCEPT [Google News CB] "Gold futures slide to test seven-month lows on interest rate headwinds" | kw:gold,interest rate
