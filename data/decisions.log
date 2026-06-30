@@ -8520,3 +8520,17 @@
 2026-06-30 11:01 ACCEPT [Google News CB] "Back to basics in an uncertain environment - European Central Bank" | kw:iron,central bank
 2026-06-30 11:01 ACCEPT [Google News CB] "Takaichi’s BOJ appointee urges vigilance to yen impact on inflation - " | kw:inflation,boj
 2026-06-30 11:01 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 11:30 ACCEPT [OilPrice.com] "Asian Refiners Redirect Middle East Crude to the U.S. as Hormuz Flows " | kw:crude
+2026-06-30 11:31 ACCEPT [Google News HH] "Crude Oil Price Forecast | US-Iran Ceasefire and OPEC+ Supply - Capita" | kw:oil,crude,opec
+2026-06-30 11:31 ACCEPT [Google News HH] "WTI Crude Oil — Channel Floor, Deep Fib, Divergence - Investing.com" | kw:oil,crude,wti
+2026-06-30 11:31 ACCEPT [Google News HH] "Brent crude oil price on June 29, 2026 at 5:00 PM EDT - Robinhood" | kw:oil,crude,brent
+2026-06-30 11:31 ACCEPT [Google News HH] "Eureka offers supplies, commodities to residents forced to evacuate du" | kw:commodities
+2026-06-30 11:31 ACCEPT [Google News HH] "WTI holds losses near $70.00 amid US-Iran confusion, OPEC friction - M" | kw:opec,wti
+2026-06-30 11:31 ACCEPT [Google News KL] "Gold set for steepest quarterly decline since 2013 as rate expectation" | kw:gold
+2026-06-30 11:31 ACCEPT [Google News KL] "Silver Price Forecast | Dollar Pressure and Deficit - Capital.com" | kw:silver,rice
+2026-06-30 11:31 ACCEPT [Google News KL] "Ferrari and BMW are ditching copper wiring, and the implications run w" | kw:copper
+2026-06-30 11:31 ACCEPT [Google News KL] "Gold prices record steepest decline since 2008 crisis - IDNFinancials." | kw:lng,gold,rice
+2026-06-30 11:31 ACCEPT [Google News NS] "Canada increased its exports of wheat, barley and peas - UkrAgroConsul" | kw:lng,wheat
+2026-06-30 11:31 ACCEPT [Google News CB] "Bangladesh Central Bank Holds Rate as Risks Linger - Bloomberg.com" | kw:central bank
+2026-06-30 11:31 ACCEPT [Google News CB] "Watch ECB Won't Be Boxed In on Interest-Rate Path, Chief Economist Phi" | kw:ecb
+2026-06-30 11:31 SKIP_MORNING already_sent date=2026-06-30
