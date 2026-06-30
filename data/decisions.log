@@ -8414,3 +8414,8 @@
 2026-06-30 06:49 ACCEPT [Google News KL] "Headstart | ANC (20 May 2026) Gold Price In India (NPyi80Xwx4) - Mshal" | kw:gold,rice
 2026-06-30 06:49 ACCEPT [Google News CB] "ECB’s Lane Sees Second-Round Effects Taking Time to Appear - Bloomberg" | kw:ecb
 2026-06-30 06:49 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 07:01 ACCEPT [Google News HH] "Azerbaijan's Azeri Light Crude Oil Price Climbs Above $75 Per Barrel -" | kw:oil,crude,rice
+2026-06-30 07:01 ACCEPT [Google News HH] "​BofA Securities sees Brent crude oil averaging at $72 a barrel in H2C" | kw:oil,crude,brent
+2026-06-30 07:01 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Gold Defends $4,024 Double Bott" | kw:gold,silver,rice
+2026-06-30 07:01 ACCEPT [Google News CB] "ECB’s Lane Sees Second-Round Effects Taking Time to Appear - Bloomberg" | kw:ecb
+2026-06-30 07:01 SKIP_MORNING already_sent date=2026-06-30
