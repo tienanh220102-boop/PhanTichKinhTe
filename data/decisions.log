@@ -8503,3 +8503,20 @@
 2026-06-30 10:31 ACCEPT [Google News NS] "The heat is off both outside and in the wheat market - DCA Market Inte" | kw:wheat
 2026-06-30 10:31 ACCEPT [Google News CB] "Takaichi’s New BOJ Board Pick Signals Tame View on Inflation - Bloombe" | kw:inflation,boj
 2026-06-30 10:31 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 11:01 ACCEPT [Al Jazeera] "Top 5 World Cup knockout shocks – Paraguay win hurts Germany again" | kw:oil
+2026-06-30 11:01 ACCEPT [Google News HH] "U.S. crude oil hovers above $70 as Trump, Iran issue mixed messages on" | kw:oil,crude
+2026-06-30 11:01 ACCEPT [Google News HH] "Crude oil futures slip to Rs 6,686/barrel amid weak global cues - Decc" | kw:oil,crude
+2026-06-30 11:01 ACCEPT [Google News HH] "Goldman Sachs Advises Investors To Stay With Asia's Market Winners And" | kw:gold,commodities
+2026-06-30 11:01 ACCEPT [Google News HH] "Korea eases oil and gas alerts as Iran cease-fire talks calm supply fe" | kw:oil,gas
+2026-06-30 11:01 ACCEPT [Google News HH] "Gold price selloff explained: Why investors are pulling back By Invest" | kw:gold,rice
+2026-06-30 11:01 ACCEPT [Google News HH] "Gold Sinks to Lowest Price Since November as Fourth Monthly Loss Looms" | kw:gold,rice
+2026-06-30 11:01 ACCEPT [Google News KL] "Gold Prices Struggle at $4,113 Resistance While Bearish Momentum Persi" | kw:gold,rice
+2026-06-30 11:01 ACCEPT [Google News KL] "Silver Price Prediction 2026 Fc Barcelone (QvYrJTEZeF) - Mshale" | kw:silver,rice
+2026-06-30 11:01 ACCEPT [Google News KL] "Why companies are swapping copper for aluminium - Reuters" | kw:copper
+2026-06-30 11:01 ACCEPT [Google News KL] "Newcore Gold Drilling Intersects 3.51 g/t Gold over 21.0 Metres, Inclu" | kw:gold
+2026-06-30 11:01 ACCEPT [Google News KL] "Falls below the 4,000 mark! Gold prices drop over 12% this month; Gold" | kw:gold,rice
+2026-06-30 11:01 ACCEPT [Google News NS] "Romanian corn prices remain consistently high amid heatwave in the EU " | kw:corn,rice
+2026-06-30 11:01 ACCEPT [Google News NS] "Corn prices in Paris are rising and in Chicago are falling under the p" | kw:corn,rice
+2026-06-30 11:01 ACCEPT [Google News CB] "Back to basics in an uncertain environment - European Central Bank" | kw:iron,central bank
+2026-06-30 11:01 ACCEPT [Google News CB] "Takaichi’s BOJ appointee urges vigilance to yen impact on inflation - " | kw:inflation,boj
+2026-06-30 11:01 SKIP_MORNING already_sent date=2026-06-30
