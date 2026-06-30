@@ -8633,3 +8633,12 @@
 2026-06-30 14:31 ACCEPT [Google News CB] "US dollar holds near 13-month high as yen's slide, Fed rate hike bets " | kw:fed rate,rate hike
 2026-06-30 14:31 SKIP_MORNING already_sent date=2026-06-30
 2026-06-30 14:31 SKIP_EVENING already_sent date=2026-06-30
+2026-06-30 15:01 ACCEPT [Google News HH] "Where Are Gold, Silver and Crude Oil Prices Headed Next? - TheStreet P" | kw:oil,crude,gold
+2026-06-30 15:01 ACCEPT [Google News HH] "DXY, Gold & Crude Oil Analysis: Key Levels to Watch This Week - FOREX." | kw:oil,crude,gold
+2026-06-30 15:01 ACCEPT [Google News HH] "UAE exports record oil volumes after OPEC exit, ship-tracking data sho" | kw:oil,opec
+2026-06-30 15:01 ACCEPT [Google News KL] "Gold set for worst quarterly loss in 13 years on hawkish Fed stance - " | kw:gold
+2026-06-30 15:01 ACCEPT [Google News KL] "Forget Southern Copper: 1 Domestic Copper King to Buy Hand Over Fist a" | kw:copper
+2026-06-30 15:01 ACCEPT [Google News KL] "Gold: Sentiment Is Still An Issue - Seeking Alpha" | kw:gold
+2026-06-30 15:01 ACCEPT [Google News NS] "This Mistake You're Making Ruins Corn on the Cob - Simply Recipes" | kw:corn
+2026-06-30 15:01 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 15:01 SKIP_EVENING already_sent date=2026-06-30
