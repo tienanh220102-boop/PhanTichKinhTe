@@ -8493,3 +8493,8 @@
 2026-06-30 10:01 ACCEPT [Google News CB] "ECB’s Wunsch Says Case for Another Rate Hike Not as Strong Now - Bloom" | kw:rate hike,ecb
 2026-06-30 10:01 ACCEPT [Google News CB] "Takaichi’s BOJ appointee urges vigilance to yen impact on inflation - " | kw:inflation,boj
 2026-06-30 10:01 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 10:26 ACCEPT [Google News HH] "WTI and Brent Crude Oil still bearish: Stalled – Forex trading AUD/USD" | kw:oil,crude,brent
+2026-06-30 10:26 ACCEPT [Google News HH] "Crude Oil Futures Slip on MCX Amid Weak Global Cues - Rediff MoneyWiz" | kw:oil,crude
+2026-06-30 10:26 ACCEPT [Google News HH] "Stockholm stocks keep climbing, led by commodities and industrials, OM" | kw:commodities
+2026-06-30 10:26 ACCEPT [Google News KL] "Gold Prices Decline Fifth Week: LBMA Price at $4,072, Down 1.9% - News" | kw:gold,rice
+2026-06-30 10:26 SKIP_MORNING already_sent date=2026-06-30
