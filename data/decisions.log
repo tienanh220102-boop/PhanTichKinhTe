@@ -8362,3 +8362,10 @@
 2026-06-30 04:01 ACCEPT [Google News HH] "How will the Iran conflict impact commodities? - UBS" | kw:commodities
 2026-06-30 04:01 ACCEPT [Google News KL] "Thai gold prices open THB1,000 lower as global bullion falls - Nation " | kw:gold,rice
 2026-06-30 04:01 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 04:31 ACCEPT [Google News HH] "The Evolution of OPEC: From Oil Cartel to Crisis Manager - Modern Dipl" | kw:oil,opec
+2026-06-30 04:31 ACCEPT [Google News HH] "Gov't to lower security alert on crude by a notch as U.S.-Iran tension" | kw:crude
+2026-06-30 04:31 ACCEPT [Google News KL] "TD Securities: Gold prices are expected to bottom out at $3,900 this y" | kw:gold,rice
+2026-06-30 04:31 ACCEPT [Google News CB] "Surprisingly quick oil price retreat eases urgency for ECB to act, sou" | kw:oil,rice,ecb
+2026-06-30 04:31 ACCEPT [Google News CB] "Yen Weakens Amid Concerns Over Possible Government Pushback Against BO" | kw:boj
+2026-06-30 04:31 ACCEPT [Google News CB] "Europe's central bank head defends its recent rate hike to fight infla" | kw:inflation,central bank,rate hike
+2026-06-30 04:31 SKIP_MORNING already_sent date=2026-06-30
