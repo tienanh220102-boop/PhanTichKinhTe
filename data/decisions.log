@@ -8579,3 +8579,18 @@
 2026-06-30 13:01 ACCEPT [Google News NS] "New Practices Reshape Soybean Nutrition Management - RFD-TV" | kw:soybean
 2026-06-30 13:01 SKIP_MORNING already_sent date=2026-06-30
 2026-06-30 13:02 SENT_EVENING articles=20 date=2026-06-30 force=False
+2026-06-30 13:31 ACCEPT [OilPrice.com] "Asia’s Crude Imports Remain Well Below Pre-War Levels" | kw:oil,crude,rice
+2026-06-30 13:31 ACCEPT [Google News HH] "Russia Boosts Crude Oil Exports to Record While Prices Tumble - Bloomb" | kw:oil,crude,rice
+2026-06-30 13:31 ACCEPT [Google News HH] "Asia's crude oil imports tick up in June but uncertainty reigns: Russe" | kw:oil,crude,wti
+2026-06-30 13:31 ACCEPT [Google News HH] "Crude Oil Steady as Traders Weigh Hormuz, Iran Talks - TradingPedia" | kw:oil,crude
+2026-06-30 13:31 ACCEPT [Google News HH] "UAE exports record oil volumes after OPEC exit, ship-tracking data sho" | kw:oil,opec
+2026-06-30 13:31 ACCEPT [Google News HH] "Oil Prices Rise After Weekend of Unrest: Trade on Crude Oil Markets fo" | kw:oil,crude,rice
+2026-06-30 13:31 ACCEPT [Google News HH] "Digital Commodities Inc. Reports Earnings Results for the Full Year En" | kw:commodities
+2026-06-30 13:31 ACCEPT [Google News KL] "Current price of silver as of Tuesday, June 30, 2026 - Fortune" | kw:silver,rice
+2026-06-30 13:31 ACCEPT [Google News KL] "Gold heads for worst quarter in 13 years on strong dollar, Fed hike be" | kw:gold
+2026-06-30 13:31 ACCEPT [Google News KL] "Current price of gold as of June 30, 2026 - Fortune" | kw:gold,rice
+2026-06-30 13:31 ACCEPT [Google News KL] "Ferrari and BMW are switching from copper to aluminum wiring in new mo" | kw:copper,aluminum
+2026-06-30 13:31 ACCEPT [Google News CB] "ECB Keeps Investors Guessing on Euro-Zone Interest Rates - Bloomberg" | kw:interest rate,ecb
+2026-06-30 13:31 ACCEPT [Google News CB] "Rate Hike Gives ECB Sense of Confidence - Bloomberg" | kw:rate hike,ecb
+2026-06-30 13:31 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 13:31 SKIP_EVENING already_sent date=2026-06-30
