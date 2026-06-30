@@ -8785,3 +8785,62 @@
 2026-06-30 19:15 ACCEPT [Google News HH] "Gas Prices High Than 2025 - News Radio 1190 KEX" | kw:gas,rice
 2026-06-30 19:15 ACCEPT [Google News NS] "Euronext wheat falls to two-week low as maize hits new highs By Invest" | kw:wheat
 2026-06-30 19:15 ACCEPT [Google News CB] "Colombia's central bank hikes interest rate by 75 basis points to 12% " | kw:central bank,interest rate,basis point
+2026-06-30 19:30 ACCEPT [MarketWatch] "U.S. airline stocks are soaring as cheaper jet fuel and insatiable dem" | kw:fuel
+2026-06-30 19:30 ACCEPT [The Guardian Biz] "Comcast to spin off NBCUniversal and Sky into separate media business" | kw:oil,inflation
+2026-06-30 19:31 ACCEPT [CNBC Commodities] "Minneapolis Fed President Neel Kashkari says he expects a rate hike th" | kw:inflation,rate hike
+2026-06-30 19:31 ACCEPT [CNBC Commodities] "Chicago Fed President Goolsbee says inflation is too high; Williams se" | kw:rice,inflation,interest rate
+2026-06-30 19:31 ACCEPT [CNBC Economy] "U.S. issues sweeping Iran oil sanctions waivers, unlocking billions in" | kw:oil,sanction
+2026-06-30 19:31 ACCEPT [CNBC Economy] "ECB hikes interest rates for first time since 2023 as Iran war ramps u" | kw:inflation,central bank,interest rate
+2026-06-30 19:31 ACCEPT [OilPrice.com] "Nigeria Unveils World-Class Critical Minerals Discovery" | kw:gold,copper,nickel
+2026-06-30 19:31 ACCEPT [OilPrice.com] "Oil Markets Brace for a Summer of Hormuz Volatility" | kw:oil,brent,rice
+2026-06-30 19:31 ACCEPT [OilPrice.com] "Thailand Looks to Buy Into U.S. LNG Export Projects to Secure Supply" | kw:oil,gas,lng
+2026-06-30 19:31 ACCEPT [EIA Energy] "U.S. commercial crude oil inventories have decreased in June" | kw:oil,crude,gas
+2026-06-30 19:31 ACCEPT [EIA Energy] "Most planned natural gas pipeline capacity additions in 2026 and 2027 " | kw:gas
+2026-06-30 19:31 ACCEPT [EIA Energy] "The regional differences in gasoline prices this Memorial Day" | kw:gas,fuel,rice
+2026-06-30 19:31 ACCEPT [EIA Energy] "U.S. industrial natural gas consumption expected to hit records in 202" | kw:gas
+2026-06-30 19:31 ACCEPT [Google News HH] "DXY, Gold & Crude Oil Analysis: Key Levels to Watch This Week - FOREX." | kw:oil,crude,gold
+2026-06-30 19:31 ACCEPT [Google News HH] "India needs to move from ad hoc crisis response to strategic oil stock" | kw:oil
+2026-06-30 19:31 ACCEPT [Google News HH] "Gold Price Today on June 30, 2026 - USA Today" | kw:gold,rice
+2026-06-30 19:31 ACCEPT [Google News HH] "Gas Prices High Than 2025 - Z100 Portland" | kw:gas,rice
+2026-06-30 19:31 ACCEPT [Google News HH] "Iraq Pushes for Higher OPEC Quota Boosted by Oil Major Investments - e" | kw:oil,opec
+2026-06-30 19:31 ACCEPT [Google News HH] "Precision Trading with Proshares K-1 Free Crude Oil Strategy Etf (OILK" | kw:oil,crude
+2026-06-30 19:31 ACCEPT [Google News HH] "Danish Bio Commodities sold to Sweden's ST1 Biokraft - EnergyWatch" | kw:commodities
+2026-06-30 19:31 ACCEPT [Google News HH] "Gold Price Analysis – Gold Continues to See Support at $4K - FXEmpire" | kw:gold,rice
+2026-06-30 19:31 ACCEPT [Google News HH] "US Equity Indexes Rise as Semiconductors Lift Technology; Crude Oil Sl" | kw:oil,crude
+2026-06-30 19:31 ACCEPT [Google News HH] "WTI Crude Oil futures reclaimed $70 as market awaited clarity. - CME G" | kw:oil,crude,wti
+2026-06-30 19:31 ACCEPT [Google News KL] "Gold prices today, Tuesday, June 30: Hanging just above $4,000, but re" | kw:gold,rice
+2026-06-30 19:31 ACCEPT [Google News KL] "Gold Makes Half-Year Loss on Highest Volatility Since Lehman's Crash -" | kw:gold
+2026-06-30 19:31 ACCEPT [Google News KL] "Gold is on the verge of a ‘death cross’ that could surprisingly foresh" | kw:gold
+2026-06-30 19:31 ACCEPT [Google News KL] "Tesla Stock Falls After Big Gains as Auto Industry Wrestles With Coppe" | kw:copper,rice
+2026-06-30 19:31 ACCEPT [Google News KL] "Silver Price Today: Silver Rises 1.76% on June 30, 2026 - USA Today" | kw:silver,rice
+2026-06-30 19:31 ACCEPT [Google News KL] "Central banks see gold prices trading between $5,000 and $6,000 in 12 " | kw:gold,rice,central bank
+2026-06-30 19:31 ACCEPT [Google News KL] "Gold Prices Struggle at $4,113 Resistance While Bearish Momentum Persi" | kw:gold,rice
+2026-06-30 19:31 ACCEPT [Google News KL] "Divlje Ruze (Live) Gold Price May 11 2026 (EpgmIcxi9A) - Mshale" | kw:gold,rice
+2026-06-30 19:31 ACCEPT [Google News KL] "Silver hit $100. Was AI really the reason? - USA Today" | kw:silver
+2026-06-30 19:31 ACCEPT [Google News KL] "Gold Price Forecast: XAU/USD Holds Near $4,000 as Bulls Defend YTD Low" | kw:gold,rice
+2026-06-30 19:31 ACCEPT [Google News KL] "Gold’s $4,000 skirmish continues as it eyes worst quarter in 13 years " | kw:gold
+2026-06-30 19:31 ACCEPT [Google News KL] "Silver Price Forecast 2026–2030: Outlook, INR Rates & Key Drivers - Co" | kw:silver,rice
+2026-06-30 19:31 ACCEPT [Google News NS] "China makes first U.S. soybean purchase for new marketing year - Capit" | kw:soybean
+2026-06-30 19:31 ACCEPT [Google News NS] "Portland Daily Grain Bids: Wheat and Oat Prices on June 30, 2026 - New" | kw:wheat,rice
+2026-06-30 19:31 ACCEPT [Google News NS] "US farmers face rising production costs for corn, soybeans, sorghum an" | kw:wheat,corn,soybean
+2026-06-30 19:31 ACCEPT [Google News NS] "Asia Grains&Oils Conference in Tashkent program: exclusive market info" | kw:oil
+2026-06-30 19:31 ACCEPT [Google News NS] "Ukrainian wheat prices fell by over 100 UAH per tonne as exports stay " | kw:wheat,rice
+2026-06-30 19:31 ACCEPT [Google News NS] "Vinasoy ramps up exports, invests in sustainable soybean supply chain " | kw:soybean,supply chain
+2026-06-30 19:31 ACCEPT [RT Business] "Defying Western pressure: Russia and China deepen economic partnership" | kw:sanction
+2026-06-30 19:31 ACCEPT [RT Business] "Potato futures are soaring – should the world be worried?" | kw:fuel,rice
+2026-06-30 19:31 ACCEPT [RT Business] "Russian economy on solid footing despite slowdown – deputy PM" | kw:sanction
+2026-06-30 19:31 ACCEPT [RT Business] "Netflix sued for spying on children" | kw:harvest
+2026-06-30 19:31 ACCEPT [RT Business] "Putin envoy names ‘first victim’ of historic energy crisis" | kw:oil,rice
+2026-06-30 19:31 ACCEPT [Fed Monetary] "Federal Reserve issues FOMC statement" | kw:federal reserve,fomc
+2026-06-30 19:31 ACCEPT [Fed Monetary] "Federal Reserve issues FOMC statement" | kw:federal reserve,fomc
+2026-06-30 19:31 ACCEPT [ECB Press] "ECB publishes indicative operational calendars for 2028" | kw:ecb
+2026-06-30 19:31 ACCEPT [ECB Press] "ECB to integrate non-financial credit claim portfolios into general co" | kw:ecb
+2026-06-30 19:31 ACCEPT [Google News CB] "ECB Keeps Investors Guessing on Euro-Zone Interest Rates - Bloomberg.c" | kw:interest rate,ecb
+2026-06-30 19:31 ACCEPT [Google News CB] "Cleveland Fed president says AI spending is fueling inflation — and wa" | kw:fuel,inflation,interest rate
+2026-06-30 19:31 ACCEPT [Google News CB] "Lower oil price eases pressure on ECB to act, Dolenc says - Reuters" | kw:oil,rice,ecb
+2026-06-30 19:31 ACCEPT [Google News CB] "Jobs data live updates: Key labor market data this week to offer insig" | kw:lng,interest rate
+2026-06-30 19:31 ACCEPT [Google News CB] "ECB’s Rehn Says Energy Shock Is Producing Stagflationary Effects - Blo" | kw:ecb
+2026-06-30 19:31 ACCEPT [Google News CB] "US dollar holds near 13-month high as yen's slide, Fed rate hike bets " | kw:fed rate,rate hike
+2026-06-30 19:31 ACCEPT [Google News CB] "ECB's inflation fears linger despite oil price retreat - Reuters" | kw:oil,rice,inflation
+2026-06-30 19:31 ACCEPT [Google News CB] "ECB Officials Stay Alert as Lane Shifts Focus to Price Pipeline - Bloo" | kw:rice,ecb
+2026-06-30 19:31 ACCEPT [Google News CB] "Inflation likely to stay ‘significantly above target,’ top European ce" | kw:inflation,central bank
