@@ -8331,3 +8331,7 @@
 2026-06-30 01:31 ACCEPT [Google News KL] "Gold and silver weaken as Fed bets offset Hormuz risk - Kitco AM Repor" | kw:gold,silver
 2026-06-30 01:31 ACCEPT [Google News CB] "Gold set for fourth monthly fall on bets of Fed rate hikes - Reuters" | kw:gold,fed rate,rate hike
 2026-06-30 01:31 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 02:01 ACCEPT [Google News HH] "Crude Oil Price Forecast H2 2026: Will Oversupply Push WTI Back to $55" | kw:oil,crude,wti
+2026-06-30 02:01 ACCEPT [Google News HH] "Crude Oil Trading Alert: Geopolitical risk premium has been erased, wi" | kw:oil,crude,rice
+2026-06-30 02:01 ACCEPT [Google News KL] "Gold and silver extend losses as Fed rate fears grow - MSN" | kw:gold,silver,fed rate
+2026-06-30 02:01 SKIP_MORNING already_sent date=2026-06-30
