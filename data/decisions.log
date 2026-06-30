@@ -8565,3 +8565,9 @@
 2026-06-30 12:28 ACCEPT [Google News CB] "Trump takes his inflation battle to gas retailers after his plot again" | kw:gas,inflation
 2026-06-30 12:28 ACCEPT [Google News CB] "Takaichi’s New BOJ Board Pick Signals Tame View on Inflation - Bloombe" | kw:inflation,boj
 2026-06-30 12:28 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 12:31 ACCEPT [OilPrice.com] "Morgan Stanley Cuts Brent Forecast to $75 a Barrel" | kw:oil,crude,brent
+2026-06-30 12:31 ACCEPT [Google News KL] "Strong Gold-Jewelry Demand Boosts Luk Fook Sales - Rapaport" | kw:gold
+2026-06-30 12:31 ACCEPT [Google News KL] "Diamba Sud study boosts Fortuna (NYSE: FSM) high-return gold growth pl" | kw:wti,gold
+2026-06-30 12:31 ACCEPT [Google News NS] "Spring Wheat Mpls Sep'26 (MIAX: MWU26) Prices, Charts and History - Th" | kw:wheat,rice
+2026-06-30 12:31 ACCEPT [Google News CB] "Jobs data live updates: Key labor market data this week to offer insig" | kw:lng,interest rate
+2026-06-30 12:31 SKIP_MORNING already_sent date=2026-06-30
