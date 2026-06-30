@@ -8651,3 +8651,13 @@
 2026-06-30 15:11 ACCEPT [Google News CB] "Inflation Slows In Top Eurozone Economies As ECB Ponders Next Move - B" | kw:inflation,ecb
 2026-06-30 15:11 SKIP_MORNING already_sent date=2026-06-30
 2026-06-30 15:11 SKIP_EVENING already_sent date=2026-06-30
+2026-06-30 15:30 ACCEPT [OilPrice.com] "Thailand Looks to Buy Into U.S. LNG Export Projects to Secure Supply" | kw:oil,gas,lng
+2026-06-30 15:31 ACCEPT [Google News HH] "How crude oil becomes gasoline is more complex than you think - AOL.co" | kw:oil,crude,gas
+2026-06-30 15:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD attempts to reclaim $60 as bearish tren" | kw:silver,rice
+2026-06-30 15:31 ACCEPT [Google News KL] "Gold heads for worst quarter in more than a decade as retail frenzy fa" | kw:gold
+2026-06-30 15:31 ACCEPT [Google News KL] "Talon Metals: The Most Expensive Nickel In America (OTCMKTS:TLOFF) - S" | kw:nickel
+2026-06-30 15:31 ACCEPT [Google News KL] "Post Malone (Full Set) - Live - Glendale, AZ 6/21/25 Silver Price Toda" | kw:silver,rice
+2026-06-30 15:31 ACCEPT [Google News NS] "Сondition of corn and soybeans in the US has worsened - UkrAgroConsult" | kw:corn,soybean
+2026-06-30 15:31 ACCEPT [Google News CB] "Japan Policy Draft Seen as Signaling Caution on BOJ Rate Hikes - nippo" | kw:rate hike,boj
+2026-06-30 15:31 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 15:31 SKIP_EVENING already_sent date=2026-06-30
