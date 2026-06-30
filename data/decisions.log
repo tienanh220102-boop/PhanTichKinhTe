@@ -8390,3 +8390,8 @@
 2026-06-30 05:31 ACCEPT [Google News CB] "Christine Lagarde's Sintra speech signals a new ECB playbook - Euronew" | kw:ecb
 2026-06-30 05:31 ACCEPT [Google News CB] ""Back to Basics": ECB's Lagarde outlines new paradigm - CNBC" | kw:ecb
 2026-06-30 05:31 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 06:01 ACCEPT [OilPrice.com] "Trump Pressures Gas Stations to Slash Prices "Immediately"" | kw:oil,gas,fuel
+2026-06-30 06:01 ACCEPT [Google News HH] "Private developer to propose Canada’s first crude oil SPR on eastern c" | kw:oil,crude
+2026-06-30 06:01 ACCEPT [Google News HH] "Gold Suddenly Plunges Again! Gold Price Plummets Nearly $70, Iran "Ref" | kw:gold,rice
+2026-06-30 06:01 ACCEPT [Google News KL] "Gold prices dip as strong dollar, Fed stance weigh - MSN" | kw:gold,rice
+2026-06-30 06:01 SKIP_MORNING already_sent date=2026-06-30
