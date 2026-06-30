@@ -8480,3 +8480,16 @@
 2026-06-30 09:31 ACCEPT [Google News CB] "Europe's central bank head defends its recent rate hike to fight infla" | kw:inflation,central bank,rate hike
 2026-06-30 09:31 ACCEPT [Google News CB] "Rand Trading Surges as War Spawns Volatility, Central Bank Says - Bloo" | kw:central bank
 2026-06-30 09:31 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 10:01 ACCEPT [MarketWatch] "Gold’s $4,000 skirmish continues as it eyes worst quarter in 13 years" | kw:gold
+2026-06-30 10:01 ACCEPT [OilPrice.com] "Hormuz Tanker Traffic Recovers as Tensions Ease" | kw:lng,commodity,easing
+2026-06-30 10:01 ACCEPT [NASDAQ Commod] "Oil Headed For Steep Monthly Loss" | kw:oil,rice
+2026-06-30 10:01 ACCEPT [Google News KL] "Gold price selloff explained: Why investors are pulling back By Invest" | kw:gold,rice
+2026-06-30 10:01 ACCEPT [Google News KL] "Silver price today: rises on June 30 - FXStreet" | kw:silver,rice
+2026-06-30 10:01 ACCEPT [Google News KL] "Gold’s $4,000 skirmish continues as it eyes worst quarter in 13 years " | kw:gold
+2026-06-30 10:01 ACCEPT [Google News KL] "Ferrari and BMW join Tesla, China in switch from copper to cheaper alu" | kw:copper,aluminum
+2026-06-30 10:01 ACCEPT [Google News NS] "Spring Wheat Mpls Sep'27 (MIAX: MWU27) Prices, Charts and History - Th" | kw:wheat,rice
+2026-06-30 10:01 ACCEPT [Google News NS] "Grain prices ease despite heat dome impacts - aafarmer.co.uk" | kw:rice
+2026-06-30 10:01 ACCEPT [Google News CB] "Watch Iran War's Full Impact on Inflation 'Remains to Be Seen,' ECB Po" | kw:inflation,ecb
+2026-06-30 10:01 ACCEPT [Google News CB] "ECB’s Wunsch Says Case for Another Rate Hike Not as Strong Now - Bloom" | kw:rate hike,ecb
+2026-06-30 10:01 ACCEPT [Google News CB] "Takaichi’s BOJ appointee urges vigilance to yen impact on inflation - " | kw:inflation,boj
+2026-06-30 10:01 SKIP_MORNING already_sent date=2026-06-30
