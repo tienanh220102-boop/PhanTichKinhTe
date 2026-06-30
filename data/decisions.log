@@ -8546,3 +8546,22 @@
 2026-06-30 12:01 ACCEPT [Google News NS] "China Soybean Pledge Raises 2026 Sales Tracking Questions - RFD-TV" | kw:soybean
 2026-06-30 12:01 ACCEPT [Google News NS] "Asia Grains&Oils Conference in Tashkent program: exclusive market info" | kw:oil
 2026-06-30 12:01 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 12:28 ACCEPT [Google News HH] "Castleton Commodities Merchant Global LLC to join EMEA Gasoil/Diesel- " | kw:oil,gas,fuel
+2026-06-30 12:28 ACCEPT [Google News HH] "WTI Crude Oil futures reclaimed $70 as market awaited clarity. - CME G" | kw:oil,crude,wti
+2026-06-30 12:28 ACCEPT [Google News HH] "Gold Price Today on June 30, 2026 - USA Today" | kw:gold,rice
+2026-06-30 12:28 ACCEPT [Google News HH] "Danish Bio Commodities sold to Sweden's ST1 Biokraft - EnergyWatch" | kw:commodities
+2026-06-30 12:28 ACCEPT [Google News KL] "Silver prices today, Tuesday, June 30: Silver prices hovering near Dec" | kw:silver,rice
+2026-06-30 12:28 ACCEPT [Google News KL] "Silver Price Today on June 30, 2026 - USA Today" | kw:silver,rice
+2026-06-30 12:28 ACCEPT [Google News KL] "Gold on course for worst quarter since 2013 as higher rate expectation" | kw:gold
+2026-06-30 12:28 ACCEPT [Google News NS] "Wheat crop in southern Russia may rise to 38 million tons – forecast -" | kw:wheat
+2026-06-30 12:28 ACCEPT [Google News CB] "ECB Officials Stay Alert as Lane Shifts Focus to Price Pipeline - Bloo" | kw:rice,ecb
+2026-06-30 12:28 ACCEPT [Google News CB] "Watch Slok Says ECB May Hike Interest Rates Again in September - Bloom" | kw:interest rate,ecb
+2026-06-30 12:28 ACCEPT [Google News CB] "ECB’s Sleijpen Says Extent of Inflation Shock Remains to Be Seen - Blo" | kw:inflation,ecb
+2026-06-30 12:28 ACCEPT [Google News CB] "Bangladesh Central Bank Holds Rate as Risks Linger - Bloomberg" | kw:central bank
+2026-06-30 12:28 ACCEPT [Google News CB] "ECB’s Wunsch Says Case for Another Rate Hike Not as Strong Now - Bloom" | kw:rate hike,ecb
+2026-06-30 12:28 ACCEPT [Google News CB] "Watch ECB Won't Be Boxed In on Interest-Rate Path, Chief Economist Phi" | kw:ecb
+2026-06-30 12:28 ACCEPT [Google News CB] "Slok Says ECB Hike in September Is Possible Despite Energy Drop - Bloo" | kw:ecb
+2026-06-30 12:28 ACCEPT [Google News CB] "Aluminum Set for Worst Monthly Loss Since 2008 on Supply Outlook - Blo" | kw:aluminum
+2026-06-30 12:28 ACCEPT [Google News CB] "Trump takes his inflation battle to gas retailers after his plot again" | kw:gas,inflation
+2026-06-30 12:28 ACCEPT [Google News CB] "Takaichi’s New BOJ Board Pick Signals Tame View on Inflation - Bloombe" | kw:inflation,boj
+2026-06-30 12:28 SKIP_MORNING already_sent date=2026-06-30
