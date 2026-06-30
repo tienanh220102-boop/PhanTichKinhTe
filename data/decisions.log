@@ -8594,3 +8594,24 @@
 2026-06-30 13:31 ACCEPT [Google News CB] "Rate Hike Gives ECB Sense of Confidence - Bloomberg" | kw:rate hike,ecb
 2026-06-30 13:31 SKIP_MORNING already_sent date=2026-06-30
 2026-06-30 13:31 SKIP_EVENING already_sent date=2026-06-30
+2026-06-30 14:01 ACCEPT [MarketWatch] "With the yen at a 40-year low, here’s when Japan could intervene to ca" | kw:central bank
+2026-06-30 14:01 ACCEPT [OilPrice.com] "Oil Prices Head for Biggest Quarterly Drop Since Pandemic" | kw:oil,crude,brent
+2026-06-30 14:01 ACCEPT [Google News HH] "Russia Boosts Crude Oil Exports to Record While Prices Tumble - Bloomb" | kw:oil,crude,rice
+2026-06-30 14:01 ACCEPT [Google News HH] "Iraq Pushes for Higher OPEC Quota Boosted by Oil Major Investments - e" | kw:oil,opec
+2026-06-30 14:01 ACCEPT [Google News HH] "Bessent warns retailers to drop gas prices as crude oil dips - Fox New" | kw:oil,crude,gas
+2026-06-30 14:01 ACCEPT [Google News HH] "Strait of Hormuz Cautiously Reopens as Crude Oil Prices Ease - energyn" | kw:oil,crude,rice
+2026-06-30 14:01 ACCEPT [Google News HH] "Gold Price Analysis – Gold Continues to See Support at $4K - FXEmpire" | kw:gold,rice
+2026-06-30 14:01 ACCEPT [Google News HH] "Gold Price Forecast 2026: HSBC Says Sell-Off May Be Nearing An End - E" | kw:gold,rice
+2026-06-30 14:01 ACCEPT [Google News KL] "Gold Is Closing Its Worst Quarter Since 2013. A War Made It Happen. - " | kw:gold,silver
+2026-06-30 14:01 ACCEPT [Google News KL] "Silver Price Analysis – Silver Continues to Struggle at 60 USD - FXEmp" | kw:silver,rice
+2026-06-30 14:01 ACCEPT [Google News KL] "Silver Plummets Under Pressure From Stronger Dollar. Forecast as of 30" | kw:silver
+2026-06-30 14:01 ACCEPT [Google News KL] "Gold (XAUUSD) Price Forecast: Will Warsh and NFP Trigger Gold’s Next M" | kw:gold,rice
+2026-06-30 14:01 ACCEPT [Google News CB] "ECB Keeps Investors Guessing on Euro-Zone Interest Rates - Bloomberg.c" | kw:interest rate,ecb
+2026-06-30 14:01 ACCEPT [Google News CB] "Watch Slok Says ECB May Hike Interest Rates Again in September - Bloom" | kw:interest rate,ecb
+2026-06-30 14:01 ACCEPT [Google News CB] "Rate Hike Gives ECB Sense of Confidence - Bloomberg.com" | kw:rate hike,ecb
+2026-06-30 14:01 ACCEPT [Google News CB] "Japan Policy Draft Seen as Signaling Caution on BOJ Rate Hikes - nippo" | kw:rate hike,boj
+2026-06-30 14:01 ACCEPT [Google News CB] "Sberbank CEO Renews Call for Interest Rate Cut - The Moscow Times" | kw:interest rate,rate cut
+2026-06-30 14:01 ACCEPT [Google News CB] "Former Fed Official Drops Bombshell: You May Need To 'Talk Seriously A" | kw:inflation
+2026-06-30 14:01 ACCEPT [Google News CB] "Takaichi’s new BOJ board pick signals tame view on inflation - The Jap" | kw:inflation,boj
+2026-06-30 14:01 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 14:01 SKIP_EVENING already_sent date=2026-06-30
