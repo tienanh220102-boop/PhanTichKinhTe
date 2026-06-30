@@ -8335,3 +8335,10 @@
 2026-06-30 02:01 ACCEPT [Google News HH] "Crude Oil Trading Alert: Geopolitical risk premium has been erased, wi" | kw:oil,crude,rice
 2026-06-30 02:01 ACCEPT [Google News KL] "Gold and silver extend losses as Fed rate fears grow - MSN" | kw:gold,silver,fed rate
 2026-06-30 02:01 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 02:30 ACCEPT [The Guardian Biz] "EU sets up three months of talks with China over €360bn trade deficit" | kw:trade war
+2026-06-30 02:31 ACCEPT [Google News HH] "Materials at Rothschild & Co Explores the Lives of Commodities - white" | kw:commodities
+2026-06-30 02:31 ACCEPT [Google News HH] "Crude Oil Trading Alert: Geopolitical risk premium has been erased, wi" | kw:oil,crude,rice
+2026-06-30 02:31 ACCEPT [Google News KL] "Copper Price Spike Likely As El Nino Weather Conditions Develop - Forb" | kw:copper,rice
+2026-06-30 02:31 ACCEPT [Google News KL] "Gold falls to $3,943, lowest since Nov ’25; Yen crash triggers stop-lo" | kw:gold
+2026-06-30 02:31 ACCEPT [Google News CB] "China central bank injects 600 billion yuan through overnight reverse " | kw:central bank
+2026-06-30 02:31 SKIP_MORNING already_sent date=2026-06-30
