@@ -8382,3 +8382,11 @@
 2026-06-30 05:01 ACCEPT [Google News CB] "A different type of G7 central bank divergence - Financial Times" | kw:central bank
 2026-06-30 05:01 ACCEPT [Google News CB] "Analysts’ Views: hawkish Warsh fails to spur Fed rate rise predictions" | kw:fed rate
 2026-06-30 05:01 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 05:31 ACCEPT [Google News HH] "Gold price in Saudi Arabia: Rates on June 30 - FXStreet" | kw:gold,rice
+2026-06-30 05:31 ACCEPT [Google News HH] "Analysis-Iraq’s push for bigger OPEC quota driven by revenue pressures" | kw:oil,opec
+2026-06-30 05:31 ACCEPT [Google News HH] "WTI holds losses near $70.00 amid US-Iran confusion, OPEC friction - F" | kw:opec,wti
+2026-06-30 05:31 ACCEPT [Google News KL] "Gold prices slide 0.88 percent to $3,988, capping biggest monthly decl" | kw:gold,rice
+2026-06-30 05:31 ACCEPT [Google News KL] "[SMM Nickel Midday Review] Nickel prices fell sharply on June 30, and " | kw:nickel,rice
+2026-06-30 05:31 ACCEPT [Google News CB] "Christine Lagarde's Sintra speech signals a new ECB playbook - Euronew" | kw:ecb
+2026-06-30 05:31 ACCEPT [Google News CB] ""Back to Basics": ECB's Lagarde outlines new paradigm - CNBC" | kw:ecb
+2026-06-30 05:31 SKIP_MORNING already_sent date=2026-06-30
