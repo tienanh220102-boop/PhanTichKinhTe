@@ -8407,3 +8407,10 @@
 2026-06-30 06:31 ACCEPT [Google News NS] "Corn Prices Hit a Minimum: Sell Remaining Stocks or Hold Until Autumn " | kw:corn,rice
 2026-06-30 06:31 ACCEPT [Google News CB] "CNBC Daily Open: ECB goes 'back to basics' - CNBC" | kw:ecb
 2026-06-30 06:31 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 06:49 ACCEPT [Google News HH] "Oil Prices Today, June 30, 2026: Crude Oil Price Fall 1% to $72.4 as M" | kw:oil,crude,rice
+2026-06-30 06:49 ACCEPT [Google News KL] "Factbox-Why companies are swapping copper for aluminium - WTVB" | kw:copper
+2026-06-30 06:49 ACCEPT [Google News KL] "Copper Price Pullback Spurs Surge in Price-Fixing Orders, End-User Wai" | kw:copper,rice
+2026-06-30 06:49 ACCEPT [Google News KL] "Gold price prediction today: Why gold prices are unlikely to rise much" | kw:gold,rice
+2026-06-30 06:49 ACCEPT [Google News KL] "Headstart | ANC (20 May 2026) Gold Price In India (NPyi80Xwx4) - Mshal" | kw:gold,rice
+2026-06-30 06:49 ACCEPT [Google News CB] "ECB’s Lane Sees Second-Round Effects Taking Time to Appear - Bloomberg" | kw:ecb
+2026-06-30 06:49 SKIP_MORNING already_sent date=2026-06-30
