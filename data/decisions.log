@@ -8353,3 +8353,9 @@
 2026-06-30 03:01 ACCEPT [Google News KL] "Gold Price Forecast: XAU/USD crashes with Japanese Yen as stops likely" | kw:gold,rice
 2026-06-30 03:01 ACCEPT [Google News CB] "China central bank conducts overnight reverse repos again, keeps rate " | kw:central bank
 2026-06-30 03:01 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 03:31 ACCEPT [Google News HH] "I Turned My Old House Into A POOL Gold Price May 11 2026 (GCUmy9j2aG) " | kw:gold,rice
+2026-06-30 03:31 ACCEPT [Google News HH] "Gold Price Trend Forecast: US-Iran Uncertainty Coupled With June Non-F" | kw:gold,rice
+2026-06-30 03:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD finds cushion near $56.60, eyes on US J" | kw:silver,rice
+2026-06-30 03:31 ACCEPT [Google News KL] "Analyst: Oil Shock May Push Gold Below $3,900 Near-Term, But $5,300 Is" | kw:oil,gold
+2026-06-30 03:31 ACCEPT [Google News CB] "Gold faces biggest monthly drop since late 2008 on hawkish Fed stance " | kw:gold
+2026-06-30 03:31 SKIP_MORNING already_sent date=2026-06-30
