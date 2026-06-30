@@ -8459,3 +8459,13 @@
 2026-06-30 08:31 ACCEPT [Google News CB] "Polish Inflation Slows for Third Month as Rate-Hike Risk Fades - Bloom" | kw:inflation
 2026-06-30 08:31 ACCEPT [Google News CB] "A different type of G7 central bank divergence - Financial Times" | kw:central bank
 2026-06-30 08:31 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 09:01 ACCEPT [MarketWatch] "Influencer Perez Hilton is selling his  Las Vegas home for $4.25 milli" | kw:gas
+2026-06-30 09:01 ACCEPT [MarketWatch] "Quant funds just suffered their most crippling trading rout this year " | kw:treasury
+2026-06-30 09:01 ACCEPT [OilPrice.com] "Pakistan Pays Premium for Urgent LNG Cargo" | kw:gas,lng,rice
+2026-06-30 09:01 ACCEPT [Google News HH] "Adon Agro Commodities IPO Day 2: Subscription At 0.51x - HDFC Sky" | kw:commodities
+2026-06-30 09:01 ACCEPT [Google News KL] "Gold, silver fall as strong dollar and Fed outlook weigh - MSN" | kw:gold,silver
+2026-06-30 09:01 ACCEPT [Google News KL] "Gold posts steepest monthly fall since 2008 on rate hike fears - MSN" | kw:gold,rate hike
+2026-06-30 09:01 ACCEPT [Google News KL] "Gold, silver drop over 1% as Fed rate hike bets rise - MSN" | kw:fuel,gold,silver
+2026-06-30 09:01 ACCEPT [Google News KL] "Silver Rates Today, June 30, 2026: Silver Price Holds Steady at ₹2,399" | kw:silver,rice
+2026-06-30 09:01 ACCEPT [Google News CB] "Takaichi’s New BOJ Board Pick Signals Tame View on Inflation - Bloombe" | kw:lng,inflation,boj
+2026-06-30 09:01 SKIP_MORNING already_sent date=2026-06-30
