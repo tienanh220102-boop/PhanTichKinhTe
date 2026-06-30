@@ -8436,3 +8436,16 @@
 2026-06-30 07:31 ACCEPT [Google News CB] "Christine Lagarde's Sintra speech signals a new ECB playbook - Euronew" | kw:ecb
 2026-06-30 07:31 ACCEPT [Google News CB] "BOJ's slow, dovish revamp casts doubt over long-term rate-hike plans -" | kw:boj
 2026-06-30 07:31 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 08:01 ACCEPT [Google News HH] "*NEW* Ash BUFF Has BROKEN Teleport Abilities In Apex Legends Gold Pric" | kw:gold,rice
+2026-06-30 08:01 ACCEPT [Google News HH] "Iraq targets 7m bpd as OPEC quota pressure builds - Oil & Gas Middle E" | kw:oil,opec,gas
+2026-06-30 08:01 ACCEPT [Google News HH] "Gulf oil exports near normal despite Hormuz risk, Goldman says - Quant" | kw:oil,gold,commodity
+2026-06-30 08:01 ACCEPT [Google News KL] "Gold set for biggest quarterly fall since 2013 on hawkish Fed stance -" | kw:gold
+2026-06-30 08:01 ACCEPT [Google News KL] "Gold slides to near 8-mth low, set for June losses as rate hike jitter" | kw:gold,rate hike
+2026-06-30 08:01 ACCEPT [Google News KL] "China Copper Inventories Rebound WoW, with Significant Regional Diverg" | kw:copper
+2026-06-30 08:01 ACCEPT [Google News NS] "Corn Markets Split as European Heat Offsets US Weakness - czapp.com" | kw:corn
+2026-06-30 08:01 ACCEPT [Google News NS] "US farmers face rising production costs for corn, soybeans, sorghum an" | kw:wheat,corn,soybean
+2026-06-30 08:01 ACCEPT [ECB Press] "ECB publishes indicative operational calendars for 2028" | kw:ecb
+2026-06-30 08:01 ACCEPT [ECB Press] "ECB publishes indicative operational calendars for 2027" | kw:ecb
+2026-06-30 08:01 ACCEPT [Google News CB] "Analysis-BOJ’s slow, dovish revamp casts doubt over long-term rate-hik" | kw:boj
+2026-06-30 08:01 ACCEPT [Google News CB] "ECB’s Wunsch Says Case for Another Rate Hike Not as Strong Now - Bloom" | kw:gdp,rate hike,ecb
+2026-06-30 08:01 SKIP_MORNING already_sent date=2026-06-30
