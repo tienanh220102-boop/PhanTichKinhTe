@@ -8342,4 +8342,5 @@
 2026-06-30 02:31 ACCEPT [Google News KL] "Gold falls to $3,943, lowest since Nov ’25; Yen crash triggers stop-lo" | kw:gold
 2026-06-30 02:31 ACCEPT [Google News CB] "China central bank injects 600 billion yuan through overnight reverse " | kw:central bank
 2026-06-30 02:31 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 02:37 ACCEPT [Google News KL] "Silver Price Forecast: XAG Stays Below $60 as Death Cross Threat Looms" | kw:silver,rice
 2026-06-30 02:37 SKIP_MORNING already_sent date=2026-06-30
