@@ -8319,3 +8319,10 @@
 2026-06-30 00:30 ACCEPT [Al Jazeera] "Migrants in South Africa fear violence ahead of June 30 deadline" | kw:fuel
 2026-06-30 00:31 ACCEPT [Google News KL] "Bretton Woods and the Gold Standard - GoldSilver" | kw:gold,silver
 2026-06-30 00:31 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 01:01 ACCEPT [Google News HH] "ODNR: Oil well blowout caused West Farmington crude oil, salt brine sp" | kw:oil,crude
+2026-06-30 01:01 ACCEPT [Google News HH] "TD Securities: Gold Price to Bottom Out at $3,900 This Year, Expected " | kw:gold,rice
+2026-06-30 01:01 ACCEPT [Google News KL] "Guinea plans regional gold refining hub as West African race intensifi" | kw:gold
+2026-06-30 01:01 ACCEPT [Google News KL] "“The rally in gold prices is not over yet”! Despite market disruptions" | kw:gold,rice
+2026-06-30 01:01 ACCEPT [Google News CB] "Former BOJ Official Sees Next Hike Probably Before December - Bloomber" | kw:boj
+2026-06-30 01:01 ACCEPT [Google News CB] "Texas factory output growth slows further - Federal Reserve Bank of Da" | kw:federal reserve
+2026-06-30 01:01 SKIP_MORNING already_sent date=2026-06-30
