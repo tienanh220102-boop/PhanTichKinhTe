@@ -8449,3 +8449,13 @@
 2026-06-30 08:01 ACCEPT [Google News CB] "Analysis-BOJ’s slow, dovish revamp casts doubt over long-term rate-hik" | kw:boj
 2026-06-30 08:01 ACCEPT [Google News CB] "ECB’s Wunsch Says Case for Another Rate Hike Not as Strong Now - Bloom" | kw:gdp,rate hike,ecb
 2026-06-30 08:01 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 08:31 ACCEPT [Google News HH] "Commodities: Silver loses its luster - marketscreener.com" | kw:silver,commodities
+2026-06-30 08:31 ACCEPT [Google News KL] "Tetris Attack @COMBO BREAKER 2022 - Top 4 [4K/60fps] Gold Price In Ind" | kw:gold,rice
+2026-06-30 08:31 ACCEPT [Google News CB] "Takaichi's second BOJ appointee joins central bank board - Reuters" | kw:central bank,boj
+2026-06-30 08:31 ACCEPT [Google News CB] "Inflation likely to stay ‘significantly above target,’ top European ce" | kw:inflation,central bank
+2026-06-30 08:31 ACCEPT [Google News CB] "ECB's Nagel: Inflation to remain 'significantly above' target - CNBC" | kw:inflation,ecb
+2026-06-30 08:31 ACCEPT [Google News CB] "French inflation falls back to ECB target in June as it slows for firs" | kw:inflation,ecb
+2026-06-30 08:31 ACCEPT [Google News CB] "Japanese Yen Hits 40-Year Low as Market Bets on Fed Rate Hike - The Da" | kw:fed rate,rate hike
+2026-06-30 08:31 ACCEPT [Google News CB] "Polish Inflation Slows for Third Month as Rate-Hike Risk Fades - Bloom" | kw:inflation
+2026-06-30 08:31 ACCEPT [Google News CB] "A different type of G7 central bank divergence - Financial Times" | kw:central bank
+2026-06-30 08:31 SKIP_MORNING already_sent date=2026-06-30
