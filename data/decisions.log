@@ -8680,3 +8680,17 @@
 2026-06-30 16:01 ACCEPT [Google News CB] "Takaichi’s BOJ appointee urges vigilance to yen impact on inflation - " | kw:inflation,boj
 2026-06-30 16:01 SKIP_MORNING already_sent date=2026-06-30
 2026-06-30 16:01 SKIP_EVENING already_sent date=2026-06-30
+2026-06-30 16:31 ACCEPT [Mining.com] "PH7 secures C$5M from Natural Resources Canada for copper extraction t" | kw:copper
+2026-06-30 16:31 ACCEPT [Mining.com] "Fortuna lifts West Africa growth with $1B Senegal gold project" | kw:gold
+2026-06-30 16:31 ACCEPT [NASDAQ Commod] "See How Harmony Gold Mining Ranks Among Analysts' Top Metals Picks" | kw:gold
+2026-06-30 16:31 ACCEPT [Google News HH] "DXY, Gold & Crude Oil Analysis: Key Levels to Watch This Week - FOREX." | kw:oil,crude,gold
+2026-06-30 16:31 ACCEPT [Google News HH] "Google Finance USA Live: Gold Futures Drop & Crude Oil Weekly Analysis" | kw:oil,crude,gold
+2026-06-30 16:31 ACCEPT [Google News HH] "DXY, Gold & Crude Oil Analysis: Key Levels to Watch This Week - FOREX." | kw:oil,crude,gold
+2026-06-30 16:31 ACCEPT [Google News HH] "No Brent crude oil cargoes set to load in August, a first for global p" | kw:oil,crude,brent
+2026-06-30 16:31 ACCEPT [Google News NS] "Corn prices in Ukraine remain stable in anticipation of increased dema" | kw:corn,rice
+2026-06-30 16:31 ACCEPT [Google News NS] "Vinasoy ramps up exports, invests in sustainable soybean supply chain " | kw:soybean,supply chain
+2026-06-30 16:31 ACCEPT [Google News NS] "Beginning of the harvest led to a decrease in wheat prices in Ukraine " | kw:wheat,rice,harvest
+2026-06-30 16:31 ACCEPT [Google News CB] "Cleveland Fed's Beth Hammack warns AI is fueling inflation, rate hikes" | kw:fuel,inflation,rate hike
+2026-06-30 16:31 ACCEPT [Google News CB] "Euroclear sues Russian central bank over €220 billion damages claim - " | kw:central bank
+2026-06-30 16:31 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 16:31 SKIP_EVENING already_sent date=2026-06-30
