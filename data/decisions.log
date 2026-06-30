@@ -8359,3 +8359,6 @@
 2026-06-30 03:31 ACCEPT [Google News KL] "Analyst: Oil Shock May Push Gold Below $3,900 Near-Term, But $5,300 Is" | kw:oil,gold
 2026-06-30 03:31 ACCEPT [Google News CB] "Gold faces biggest monthly drop since late 2008 on hawkish Fed stance " | kw:gold
 2026-06-30 03:31 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 04:01 ACCEPT [Google News HH] "How will the Iran conflict impact commodities? - UBS" | kw:commodities
+2026-06-30 04:01 ACCEPT [Google News KL] "Thai gold prices open THB1,000 lower as global bullion falls - Nation " | kw:gold,rice
+2026-06-30 04:01 SKIP_MORNING already_sent date=2026-06-30
