@@ -8305,3 +8305,14 @@
 2026-06-29 23:55 ACCEPT [Google News NS] "Commodity markets daily recap - St Joseph Post" | kw:commodity
 2026-06-29 23:55 ACCEPT [Google News CB] "Exchange rate communication in practice: Evidence from two decades of " | kw:ecb
 2026-06-29 23:55 ACCEPT [Google News CB] "Barclays-CEPR Monetary Policy Forum 2026 - Barclays Investment Bank" | kw:monetary policy
+2026-06-30 00:01 ACCEPT [OilPrice.com] "Not Even Musk Has The Answer To AI’s Power Shortage" | kw:rice,shortage
+2026-06-30 00:01 ACCEPT [Mining.com] "Gold price falls nearly 2% as rebound proves short-lived" | kw:gold,rice
+2026-06-30 00:01 ACCEPT [Mining.com] "Revival Gold extends Joss depth in Idaho high-grade push" | kw:gold
+2026-06-30 00:01 ACCEPT [Mining.com] "Wesdome Gold Mines grows reserve base to support production through 20" | kw:gold
+2026-06-30 00:01 ACCEPT [Mining.com] "Hemlo boosts M&I resources 34% at Ontario gold mine" | kw:gold
+2026-06-30 00:01 ACCEPT [Google News HH] "Crude Oil Price Forecast for 2026, 2027, 2028–2030 and Beyond: WTI and" | kw:oil,crude,brent
+2026-06-30 00:01 ACCEPT [Google News HH] "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next " | kw:oil,crude,rice
+2026-06-30 00:01 ACCEPT [Google News KL] "Gold Prices Plunge 28% from Peak Amid Rate Hike Fears - 조선일보" | kw:gold,rice,rate hike
+2026-06-30 00:01 ACCEPT [Google News CB] "Supreme Court allows Trump to fire FTC member but not Fed director - T" | kw:wti
+2026-06-30 00:01 ACCEPT [Google News CB] "Former BOJ Official Sees Next Hike Probably Before December - Bloomber" | kw:boj
+2026-06-30 00:02 SENT_MORNING articles=20 date=2026-06-30 force=False
