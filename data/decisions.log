@@ -8369,3 +8369,16 @@
 2026-06-30 04:31 ACCEPT [Google News CB] "Yen Weakens Amid Concerns Over Possible Government Pushback Against BO" | kw:boj
 2026-06-30 04:31 ACCEPT [Google News CB] "Europe's central bank head defends its recent rate hike to fight infla" | kw:inflation,central bank,rate hike
 2026-06-30 04:31 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 05:01 ACCEPT [Al Jazeera] "Heartbroken Iran exit World Cup amid silver lining of Mexican hospital" | kw:silver
+2026-06-30 05:01 ACCEPT [Al Jazeera] "Trump tells US petrol retailers to reduce prices ‘immediately’" | kw:rice
+2026-06-30 05:01 ACCEPT [Google News HH] "Asia's crude oil imports tick up in June but uncertainty reigns - Reut" | kw:oil,crude
+2026-06-30 05:01 ACCEPT [Google News HH] "Asia's crude oil imports tick up in June but uncertainty reigns: Russe" | kw:oil,crude
+2026-06-30 05:01 ACCEPT [Google News HH] "Reaction To Lynx Vs Wings Gold Price May 11 2026 (NkZJfNSfjZ) - Mshale" | kw:gold,rice
+2026-06-30 05:01 ACCEPT [Google News HH] "Gold price in United Arab Emirates: Rates on June 30 - FXStreet" | kw:gold,rice
+2026-06-30 05:01 ACCEPT [Google News KL] "Today Gold Price | Latest Gold Rate | 27-05-2026 | Gold Price Today Hy" | kw:gold,rice
+2026-06-30 05:01 ACCEPT [Google News CB] "China central bank doubles overnight cash injection, keeps rate unchan" | kw:central bank
+2026-06-30 05:01 ACCEPT [Google News CB] "Gold faces biggest monthly drop since late 2008 on hawkish Fed stance " | kw:gold
+2026-06-30 05:01 ACCEPT [Google News CB] "Japanese Yen continuing to weaken as BOJ weighs intervention risks: No" | kw:boj
+2026-06-30 05:01 ACCEPT [Google News CB] "A different type of G7 central bank divergence - Financial Times" | kw:central bank
+2026-06-30 05:01 ACCEPT [Google News CB] "Analysts’ Views: hawkish Warsh fails to spur Fed rate rise predictions" | kw:fed rate
+2026-06-30 05:01 SKIP_MORNING already_sent date=2026-06-30
