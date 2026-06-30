@@ -8344,3 +8344,12 @@
 2026-06-30 02:31 SKIP_MORNING already_sent date=2026-06-30
 2026-06-30 02:37 ACCEPT [Google News KL] "Silver Price Forecast: XAG Stays Below $60 as Death Cross Threat Looms" | kw:silver,rice
 2026-06-30 02:37 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 03:01 ACCEPT [Google News HH] "Commodities intraday targets/key levels - TradingView" | kw:commodities
+2026-06-30 03:01 ACCEPT [Google News HH] "A whale is long on both crude oil and gold, with a total unrealized lo" | kw:oil,crude,gold
+2026-06-30 03:01 ACCEPT [Google News HH] "Commodities: Morgan Stanley again lowers Brent crude oil price forecas" | kw:oil,crude,brent
+2026-06-30 03:01 ACCEPT [Google News HH] "With an unrealized loss of around $5.7 million, the whale has gone lon" | kw:oil,crude,gold
+2026-06-30 03:01 ACCEPT [Google News HH] "Gold Price Prepares to Break Key Support – Analysis – 30-06-2026 - Eco" | kw:gold,rice
+2026-06-30 03:01 ACCEPT [Google News KL] "Gold faces biggest monthly drop since late 2008 on hawkish Fed stance " | kw:gold
+2026-06-30 03:01 ACCEPT [Google News KL] "Gold Price Forecast: XAU/USD crashes with Japanese Yen as stops likely" | kw:gold,rice
+2026-06-30 03:01 ACCEPT [Google News CB] "China central bank conducts overnight reverse repos again, keeps rate " | kw:central bank
+2026-06-30 03:01 SKIP_MORNING already_sent date=2026-06-30
