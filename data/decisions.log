@@ -8326,3 +8326,8 @@
 2026-06-30 01:01 ACCEPT [Google News CB] "Former BOJ Official Sees Next Hike Probably Before December - Bloomber" | kw:boj
 2026-06-30 01:01 ACCEPT [Google News CB] "Texas factory output growth slows further - Federal Reserve Bank of Da" | kw:federal reserve
 2026-06-30 01:01 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 01:31 ACCEPT [Google News HH] "Eureka offers supplies, commodities to residents forced to evacuate du" | kw:commodities
+2026-06-30 01:31 ACCEPT [Google News KL] "Gold Prices Plunge 28% Amid Rate Hike Fears - 조선일보" | kw:gold,rice,rate hike
+2026-06-30 01:31 ACCEPT [Google News KL] "Gold and silver weaken as Fed bets offset Hormuz risk - Kitco AM Repor" | kw:gold,silver
+2026-06-30 01:31 ACCEPT [Google News CB] "Gold set for fourth monthly fall on bets of Fed rate hikes - Reuters" | kw:gold,fed rate,rate hike
+2026-06-30 01:31 SKIP_MORNING already_sent date=2026-06-30
