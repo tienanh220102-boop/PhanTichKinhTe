@@ -8469,3 +8469,14 @@
 2026-06-30 09:01 ACCEPT [Google News KL] "Silver Rates Today, June 30, 2026: Silver Price Holds Steady at ₹2,399" | kw:silver,rice
 2026-06-30 09:01 ACCEPT [Google News CB] "Takaichi’s New BOJ Board Pick Signals Tame View on Inflation - Bloombe" | kw:lng,inflation,boj
 2026-06-30 09:01 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 09:30 ACCEPT [MarketWatch] "Strait of Hormuz is reopening faster than expected, says Morgan Stanle" | kw:oil,rice
+2026-06-30 09:30 ACCEPT [Al Jazeera] "Paraguay’s shock win against Germany headlines all-time World Cup upse" | kw:oil
+2026-06-30 09:31 ACCEPT [Google News HH] "Corn and Soybean Estimates - Southeast AgNET" | kw:corn,soybean
+2026-06-30 09:31 ACCEPT [Google News KL] "Gold Prices Drop Over 1% in June 2026, Head for Largest Monthly Declin" | kw:gold,rice
+2026-06-30 09:31 ACCEPT [Google News CB] "ECB Officials Stay Alert as Lane Shifts Focus to Price Pipeline - Bloo" | kw:rice,ecb
+2026-06-30 09:31 ACCEPT [Google News CB] "ECB's inflation fears linger despite oil price retreat - Reuters" | kw:oil,rice,inflation
+2026-06-30 09:31 ACCEPT [Google News CB] "Slok Says ECB Hike in September Is Possible Despite Energy Drop - Bloo" | kw:ecb
+2026-06-30 09:31 ACCEPT [Google News CB] "ECB’s Sleijpen Says Extent of Inflation Shock Remains to Be Seen - Blo" | kw:inflation,ecb
+2026-06-30 09:31 ACCEPT [Google News CB] "Europe's central bank head defends its recent rate hike to fight infla" | kw:inflation,central bank,rate hike
+2026-06-30 09:31 ACCEPT [Google News CB] "Rand Trading Surges as War Spawns Volatility, Central Bank Says - Bloo" | kw:central bank
+2026-06-30 09:31 SKIP_MORNING already_sent date=2026-06-30
