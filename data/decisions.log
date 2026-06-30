@@ -8316,3 +8316,6 @@
 2026-06-30 00:01 ACCEPT [Google News CB] "Supreme Court allows Trump to fire FTC member but not Fed director - T" | kw:wti
 2026-06-30 00:01 ACCEPT [Google News CB] "Former BOJ Official Sees Next Hike Probably Before December - Bloomber" | kw:boj
 2026-06-30 00:02 SENT_MORNING articles=20 date=2026-06-30 force=False
+2026-06-30 00:30 ACCEPT [Al Jazeera] "Migrants in South Africa fear violence ahead of June 30 deadline" | kw:fuel
+2026-06-30 00:31 ACCEPT [Google News KL] "Bretton Woods and the Gold Standard - GoldSilver" | kw:gold,silver
+2026-06-30 00:31 SKIP_MORNING already_sent date=2026-06-30
