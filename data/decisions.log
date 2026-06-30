@@ -8534,3 +8534,15 @@
 2026-06-30 11:31 ACCEPT [Google News CB] "Bangladesh Central Bank Holds Rate as Risks Linger - Bloomberg.com" | kw:central bank
 2026-06-30 11:31 ACCEPT [Google News CB] "Watch ECB Won't Be Boxed In on Interest-Rate Path, Chief Economist Phi" | kw:ecb
 2026-06-30 11:31 SKIP_MORNING already_sent date=2026-06-30
+2026-06-30 12:01 ACCEPT [Google News HH] "Gold Price Decline: Key Factors Behind the 2026 Drop - The Cryptonomis" | kw:gold,rice
+2026-06-30 12:01 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD struggles around $4,000, near YTD lows - " | kw:gold,rice
+2026-06-30 12:01 ACCEPT [Google News HH] "Gold price selloff explained: Why investors are pulling back By Invest" | kw:gold,rice
+2026-06-30 12:01 ACCEPT [Google News HH] "Oil Price Prediction Q3 2026: Where Could Crude Oil Go Next? - MoneyMa" | kw:oil,crude,rice
+2026-06-30 12:01 ACCEPT [Google News HH] "Forecast update for crude oil -29-06-2026 - Economies.com" | kw:oil,crude
+2026-06-30 12:01 ACCEPT [Google News HH] "How has India's crude oil import map changed over the last decade? - N" | kw:oil,crude
+2026-06-30 12:01 ACCEPT [Google News KL] "Gold prices today, Tuesday, June 30: Hanging just above $4,000, but re" | kw:gold,rice
+2026-06-30 12:01 ACCEPT [Google News KL] "Tesla Stock Falls After Big Gains as Auto Industry Wrestles With Coppe" | kw:copper,rice
+2026-06-30 12:01 ACCEPT [Google News KL] "McEwen: When Copper Optionality Starts To Matter (NYSE:MUX) - Seeking " | kw:wti,copper
+2026-06-30 12:01 ACCEPT [Google News NS] "China Soybean Pledge Raises 2026 Sales Tracking Questions - RFD-TV" | kw:soybean
+2026-06-30 12:01 ACCEPT [Google News NS] "Asia Grains&Oils Conference in Tashkent program: exclusive market info" | kw:oil
+2026-06-30 12:01 SKIP_MORNING already_sent date=2026-06-30
