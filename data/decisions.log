@@ -9140,3 +9140,14 @@
 2026-07-01 11:52 ACCEPT [Google News KL] "How Low Can Silver Price Go? The New XAG/USD Analysis Suggests -50% Be" | kw:silver,rice
 2026-07-01 11:52 ACCEPT [Google News NS] "Ukraine opens registration for duty-free soybean and rapeseed exports " | kw:soybean
 2026-07-01 11:52 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 12:01 ACCEPT [The Guardian Biz] "US labor board more likely to dismiss worker and union charges under T" | kw:shortage
+2026-07-01 12:01 ACCEPT [The Guardian Biz] "Trump’s affordability crisis hits his supporters hardest as he calls h" | kw:rice
+2026-07-01 12:01 ACCEPT [The Guardian Biz] "Oil prices fall as US-Iran talks continue; UK manufacturing activity c" | kw:oil,rice,supply chain
+2026-07-01 12:01 ACCEPT [Google News HH] "‘Upside potential’: Why Asian gold buyers offer hope to regain lost gr" | kw:gold
+2026-07-01 12:01 ACCEPT [Google News HH] "Fallen Oil Prices Rewrite Global Energy Logic - 36Kr" | kw:oil,rice
+2026-07-01 12:01 ACCEPT [Google News HH] "Exports exceed 40 million barrels, prices rise by 20%! Iranian crude o" | kw:oil,crude,lng
+2026-07-01 12:01 ACCEPT [Google News KL] "Gold prices slip as firmer Treasury yields, Fed rate outlook weigh - C" | kw:gold,rice,fed rate
+2026-07-01 12:01 ACCEPT [Google News KL] "Gold Suffers Worst Monthly Drop Since 2008 – Fed Rate Jitters, Strong " | kw:fuel,gold,fed rate
+2026-07-01 12:01 ACCEPT [Google News CB] "Gold’s Worst Month Since 2008 Leaves Investors Watching One Thing: The" | kw:gold
+2026-07-01 12:01 ACCEPT [Google News CB] "Heads up: Major central bank heads set to speak on a policy panel late" | kw:central bank
+2026-07-01 12:01 SKIP_MORNING already_sent date=2026-07-01
