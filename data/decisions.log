@@ -9286,3 +9286,25 @@
 2026-07-01 16:01 ACCEPT [Google News CB] "New Federal Reserve Chair Warsh emphasizes political independence, sig" | kw:inflation,federal reserve
 2026-07-01 16:01 SKIP_MORNING already_sent date=2026-07-01
 2026-07-01 16:01 SKIP_EVENING already_sent date=2026-07-01
+2026-07-01 16:31 ACCEPT [MarketWatch] "U.S. manufacturers keep on trucking despite a road littered with obsta" | kw:oil,rice,tariff
+2026-07-01 16:31 ACCEPT [MarketWatch] "14 value stocks of companies primed for rapid growth through 2028" | kw:inflation
+2026-07-01 16:31 ACCEPT [The Guardian Biz] "US cooking oil market shrinking due to Ice pressures on Latino househo" | kw:oil,rice,inflation
+2026-07-01 16:31 ACCEPT [CNBC Commodities] "Inflation peaked in May as energy prices fell in June, Kalshi traders " | kw:rice,inflation
+2026-07-01 16:31 ACCEPT [OilPrice.com] "Ukraine’s Drone Campaign Forces Russia to Buy Gasoline From India" | kw:gas,fuel,shortage
+2026-07-01 16:31 ACCEPT [OilPrice.com] "Saudi Aramco Slashes July LPG Prices as Global Supply Swells" | kw:oil,petroleum,gas
+2026-07-01 16:31 ACCEPT [Google News HH] "Turkey, Iraq Hold Pipeline Talks Ahead of Crude Oil Deal Expiration - " | kw:oil,crude,gas
+2026-07-01 16:31 ACCEPT [Google News HH] "EIA U.S. Crude Inventories Post Another Major Draw - Crude Oil Prices " | kw:oil,crude,rice
+2026-07-01 16:31 ACCEPT [Google News HH] "Russian Warship Orders Greenpeace to Stay Away from Sanctioned Tanker " | kw:sanction
+2026-07-01 16:31 ACCEPT [Google News HH] "U.S. Crude Oil Inventories Extend Decline -- -2- - marketscreener.com" | kw:oil,crude
+2026-07-01 16:31 ACCEPT [Google News HH] "U.S. Crude Oil Inventories Extend Decline -- Commodities Roundup - mar" | kw:oil,crude,commodities
+2026-07-01 16:31 ACCEPT [Google News KL] "Gold and silver steady before NFP as payrolls risk caps rebound - Kitc" | kw:gold,silver
+2026-07-01 16:31 ACCEPT [Google News KL] "Silver price crash: It was being called the 'new gold'. So what went w" | kw:gold,silver,rice
+2026-07-01 16:31 ACCEPT [Google News CB] "Fed chairman says inflation risks are declining, predicts AI will crea" | kw:lng,inflation
+2026-07-01 16:31 ACCEPT [Google News CB] "Top central bankers align on rewriting the policy playbook - Axios" | kw:central bank
+2026-07-01 16:31 ACCEPT [Google News CB] "Fed chair says US central bank charting ‘new course,’ repeats no forwa" | kw:central bank
+2026-07-01 16:31 ACCEPT [Google News CB] "Eurozone Inflation Falls More Than Expected. Will the ECB Hold Interes" | kw:inflation,interest rate,ecb
+2026-07-01 16:31 ACCEPT [Google News CB] "ECB’s Kaasik Says One More Rate Hike Is Reasonable Expectation - Bloom" | kw:rate hike,ecb
+2026-07-01 16:31 ACCEPT [Google News CB] "Breaking: Fed Chair Warsh says they are not happy with inflation above" | kw:inflation
+2026-07-01 16:31 ACCEPT [Google News CB] "Kevin Warsh declines to hint at July Fed rate decision at Sintra - Yah" | kw:fed rate,rate decision
+2026-07-01 16:31 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 16:31 SKIP_EVENING already_sent date=2026-07-01
