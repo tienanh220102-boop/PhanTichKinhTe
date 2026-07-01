@@ -9018,3 +9018,17 @@
 2026-07-01 06:01 ACCEPT [Google News HH] "St1 Biokraft expands into Denmark with Danish Bio Commodities acquisit" | kw:commodities
 2026-07-01 06:01 ACCEPT [Google News KL] "Analysis-Ferrari and BMW join Tesla, China in switch from copper to ch" | kw:copper
 2026-07-01 06:01 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 06:31 ACCEPT [CNBC Economy] "North Sea oil and renewables: The UK’s next PM faces a defining energy" | kw:oil
+2026-07-01 06:31 ACCEPT [Google News HH] "USD/CAD Eyes Pullback as CAD/JPY Decouples from Crude Oil, AUD/CAD Sta" | kw:oil,crude
+2026-07-01 06:31 ACCEPT [Google News KL] "Bitcoin and gold collapse as traders lose faith in debasement trade - " | kw:gold
+2026-07-01 06:31 ACCEPT [Google News KL] "Silver Rate Today, July 1, 2026: Silver Price Drops Rs 50 per 10 gram " | kw:lng,silver,rice
+2026-07-01 06:31 ACCEPT [Google News KL] "Silver price forecast: can the $58 break deepen as oil fears rise? - I" | kw:oil,silver,rice
+2026-07-01 06:31 ACCEPT [Google News NS] "Mysteel daily China imported soybea... - mysteel.net" | kw:steel
+2026-07-01 06:31 ACCEPT [Google News CB] "Fed's Lisa Cook's atty: 'The Supreme Court did something important tod" | kw:lng
+2026-07-01 06:31 ACCEPT [Google News CB] "SCB CIO views the Fed as keeping interest rates low for an extended pe" | kw:inflation,interest rate
+2026-07-01 06:31 ACCEPT [Google News CB] "BOJ says it will offer additional JGB buying on Tuesday - Business Rec" | kw:boj
+2026-07-01 06:31 ACCEPT [Google News CB] "Japan shares gain as central bank governor eases concerns over yields " | kw:central bank
+2026-07-01 06:31 ACCEPT [Google News CB] "CMAN advocates gradual interest rate cuts - MSN" | kw:wti,interest rate,rate cut
+2026-07-01 06:31 ACCEPT [Google News CB] "Tokyo stocks close higher on Fed minutes tough on inflation - Business" | kw:inflation
+2026-07-01 06:31 ACCEPT [Google News CB] "Bank of England boss defends interest rate decisions as inflation fear" | kw:inflation,interest rate,rate decision
+2026-07-01 06:31 SKIP_MORNING already_sent date=2026-07-01
