@@ -9103,3 +9103,13 @@
 2026-07-01 10:01 ACCEPT [Google News CB] "Warsh Speaks at ECB Forum in Sintra - Moomoo" | kw:ecb
 2026-07-01 10:01 ACCEPT [Google News CB] "Colombia Raises Interest Rate to 12% After Court Ends Crisis - Bloombe" | kw:interest rate
 2026-07-01 10:01 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 10:31 ACCEPT [Google News HH] "Why commodities are gaining attention again — UBS shares key takeaways" | kw:commodities
+2026-07-01 10:31 ACCEPT [Google News HH] "Commodities trader Mercuria to form JV with Italian major Eni - Mining" | kw:commodities
+2026-07-01 10:31 ACCEPT [Google News HH] "Crude oil futures rise on firm demand - Deccan Herald" | kw:oil,crude
+2026-07-01 10:31 ACCEPT [Google News KL] "gold vs interest rates Archives - GoldSilver" | kw:gold,silver,interest rate
+2026-07-01 10:31 ACCEPT [Google News CB] "Eurozone Inflation Falls More Than Expected. Will the ECB Hold Interes" | kw:inflation,interest rate,ecb
+2026-07-01 10:31 ACCEPT [Google News CB] "Eurozone Inflation Falls More Than Expected. Will the ECB Hold Interes" | kw:inflation,interest rate,ecb
+2026-07-01 10:31 ACCEPT [Google News CB] "Warsh hits the international stage with peers sharing an inflation pro" | kw:inflation
+2026-07-01 10:31 ACCEPT [Google News CB] "June inflation in the Eurozone is good news for the ECB - Financial Ti" | kw:inflation,ecb
+2026-07-01 10:31 ACCEPT [Google News CB] "Bill could triple fees for VA interest rate reduction refi loans - Nat" | kw:interest rate
+2026-07-01 10:31 SKIP_MORNING already_sent date=2026-07-01
