@@ -8993,3 +8993,11 @@
 2026-07-01 04:13 ACCEPT [Google News NS] "Lower Corn Stocks Highlight USDA Report - Dakota News Network" | kw:corn
 2026-07-01 04:13 ACCEPT [Google News CB] "ECB should not rush any further rate hike, Demarco says - Reuters" | kw:rate hike,ecb
 2026-07-01 04:13 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 04:31 ACCEPT [Google News HH] "How Low Can Crude Oil Go? - Barchart" | kw:oil,crude
+2026-07-01 04:31 ACCEPT [Google News HH] "Government Lowers Crude Oil Alert to Caution - Businesskorea" | kw:oil,crude
+2026-07-01 04:31 ACCEPT [Google News KL] "Column: Copper price soars but smelters can’t bank on it to survive - " | kw:copper,rice
+2026-07-01 04:31 ACCEPT [Google News NS] "Reports indicate a good marketing year for soybean meal - Barchart" | kw:soybean
+2026-07-01 04:31 ACCEPT [Google News NS] "Record-Low Wheat Acres Steal the Show in USDA June 30 Reports - DTN Pr" | kw:wheat
+2026-07-01 04:31 ACCEPT [Google News CB] "ECB should not rush any further rate hike, Demarco says - WNWN-FM" | kw:rate hike,ecb
+2026-07-01 04:31 ACCEPT [Google News CB] "What the Supreme Court’s ruling in the Cook case means for Federal Res" | kw:federal reserve
+2026-07-01 04:31 SKIP_MORNING already_sent date=2026-07-01
