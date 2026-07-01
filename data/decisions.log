@@ -8962,3 +8962,11 @@
 2026-07-01 02:31 ACCEPT [Google News CB] "ECB’s inflation fears linger despite oil price retreat - 1470 & 100.3 " | kw:oil,rice,inflation
 2026-07-01 02:31 ACCEPT [Google News CB] "Japan business mood improves despite Middle East war, BOJ survey shows" | kw:boj
 2026-07-01 02:31 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 03:01 ACCEPT [Al Jazeera] "Iran says it couldn’t export a ‘single barrel of oil’ during US blocka" | kw:oil
+2026-07-01 03:01 ACCEPT [Google News HH] "Crude Oil Trading Alert: Resumption of Navigation through the Strait o" | kw:oil,crude,rice
+2026-07-01 03:01 ACCEPT [Google News HH] "USD/CAD Eyes Pullback as CAD/JPY Decouples from Crude Oil, AUD/CAD Sta" | kw:oil,crude
+2026-07-01 03:01 ACCEPT [Google News HH] "Crude Oil Trading Alert: Resumption of Navigation through the Strait o" | kw:oil,crude,rice
+2026-07-01 03:01 ACCEPT [Google News HH] "S&P 500, Nasdaq Composite Close Strongest Quarter in Six Years Amid Ga" | kw:oil,crude
+2026-07-01 03:01 ACCEPT [Google News HH] "Gold Price Remains Under Bearish Pressure – Analysis – 01-07-2026 - Ec" | kw:gold,rice
+2026-07-01 03:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD Recovers Toward $60.00, but Bearish Bia" | kw:silver,rice
+2026-07-01 03:01 SKIP_MORNING already_sent date=2026-07-01
