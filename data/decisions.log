@@ -8928,3 +8928,8 @@
 2026-07-01 00:01 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
 2026-07-01 00:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
 2026-07-01 00:01 SENT_MORNING articles=20 date=2026-07-01 force=False
+2026-07-01 00:31 ACCEPT [Google News KL] "First Mining Gold: Federal Approval Unlocks Springpole's Deep Value in" | kw:gold
+2026-07-01 00:31 ACCEPT [Google News CB] "Fed’s Williams: Current Monetary Policy Stance Well Positioned to Rest" | kw:inflation,monetary policy
+2026-07-01 00:31 ACCEPT [Google News CB] "Japan business mood improves despite Middle East war, BOJ survey shows" | kw:boj
+2026-07-01 00:31 ACCEPT [Google News CB] "Supreme Court Limits Presidential Power Over Central Bank Officials Wh" | kw:central bank
+2026-07-01 00:31 SKIP_MORNING already_sent date=2026-07-01
