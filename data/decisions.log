@@ -9347,3 +9347,59 @@
 2026-07-01 18:01 ACCEPT [Google News CB] "ECB’s Stournaras Sees Smaller Likelihood of Further Rate Hike - Bloomb" | kw:rate hike,ecb
 2026-07-01 18:01 ACCEPT [Google News CB] "Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risk" | kw:inflation
 2026-07-01 18:01 ACCEPT [Google News CB] "Euro-Area Inflation Risks Are Now Less Pronounced - Bloomberg.com" | kw:inflation
+2026-07-01 18:31 ACCEPT [MarketWatch] "Sandisk’s and Micron’s stocks sink as the rotation trade builds, but s" | kw:shortage
+2026-07-01 18:31 ACCEPT [MarketWatch] "Stock-market bulls need Kevin Warsh on their side to keep winning, say" | kw:federal reserve
+2026-07-01 18:31 ACCEPT [BBC Business] "Anthropic says US lifts export ban on its advanced AI tools" | kw:export ban
+2026-07-01 18:31 ACCEPT [The Guardian Biz] "US cooking oil market shrinking due to Ice pressures on Latino househo" | kw:oil,rice,inflation
+2026-07-01 18:31 ACCEPT [The Guardian Biz] "US supreme court rules Trump’s firing of Lisa Cook from Fed was uncons" | kw:federal reserve
+2026-07-01 18:31 ACCEPT [Al Jazeera] "Is Ukraine’s campaign of targeting Russian refineries working?" | kw:fuel,shortage
+2026-07-01 18:31 ACCEPT [CNBC Commodities] "JPMorgan Chase unveils $50 billion buyback, Goldman Sachs raises divid" | kw:gold,federal reserve
+2026-07-01 18:31 ACCEPT [CNBC Economy] "North Sea oil and renewables: The UK’s next PM faces a defining energy" | kw:oil
+2026-07-01 18:31 ACCEPT [CNBC Economy] "UK inflation holds steady at 2.8% in May" | kw:inflation,monetary policy,bank of england
+2026-07-01 18:31 ACCEPT [CNBC Economy] "Consumer prices rose 4.2% annually in May, highest in three years" | kw:rice
+2026-07-01 18:31 ACCEPT [EIA Energy] "The United States set record energy production in 2025, again" | kw:oil,crude,gas
+2026-07-01 18:31 ACCEPT [EIA Energy] "One-fifth of U.S. renewable diesel and SAF production was exported in " | kw:fuel
+2026-07-01 18:31 ACCEPT [NASDAQ Commod] "Gold Edges Lower On Fed Rate Hike Bets, US-Iran Tensions" | kw:gold,rice,fed rate
+2026-07-01 18:31 ACCEPT [Google News HH] "Commodities trader Mercuria to form joint venture with Italian major E" | kw:commodities
+2026-07-01 18:31 ACCEPT [Google News HH] "Study Illustrates How Biofuels Can Increase Demand for Agricultural Co" | kw:fuel,commodities
+2026-07-01 18:31 ACCEPT [Google News HH] "Turkey, Iraq Hold Pipeline Talks Ahead of Crude Oil Deal Expiration - " | kw:oil,crude,gas
+2026-07-01 18:31 ACCEPT [Google News HH] "Eni, Mercuria to Form Global Energy Commodities Trading Venture - Bloo" | kw:commodities
+2026-07-01 18:31 ACCEPT [Google News HH] "Kimberly-Clark Is Now My Largest Non-Commodities-Related Stock Positio" | kw:commodities
+2026-07-01 18:31 ACCEPT [Google News HH] "OPEC+ likely to raise oil output targets from August again, sources sa" | kw:oil,opec
+2026-07-01 18:31 ACCEPT [Google News HH] "US Crude Oil Inventories Fall Less than Expected - TradingView" | kw:oil,crude
+2026-07-01 18:31 ACCEPT [Google News HH] "July 2, 2026: Brent crude oil price on July 02, 2026 at 5:00 PM EDT Co" | kw:oil,crude,brent
+2026-07-01 18:31 ACCEPT [Google News HH] "St1 Biokraft expands into Denmark with Danish Bio Commodities acquisit" | kw:commodities
+2026-07-01 18:31 ACCEPT [Google News HH] "Brent Crude Oil Extends Decline - TradingView" | kw:oil,crude,brent
+2026-07-01 18:31 ACCEPT [Google News HH] "US EIA CRUDE OIL INVENTORIES -3.8 MLN BARRELS IN LATEST WEEK FROM PREV" | kw:oil,crude
+2026-07-01 18:31 ACCEPT [Google News KL] "Current price of silver as of Wednesday, July 1, 2026 - Fortune" | kw:silver,rice
+2026-07-01 18:31 ACCEPT [Google News KL] "Gold price drops for third day as jitters over US rate outlook worsen " | kw:gold,rice
+2026-07-01 18:31 ACCEPT [Google News KL] "Silver prices today, Wednesday, July 1, 2026: Silver remains below $60" | kw:silver,rice
+2026-07-01 18:31 ACCEPT [Google News KL] "Current price of gold as of July 1, 2026 - Fortune" | kw:gold,rice
+2026-07-01 18:31 ACCEPT [Google News KL] "Silver price predictions: What can investors expect over the next 10 y" | kw:silver,rice
+2026-07-01 18:31 ACCEPT [Google News KL] "Gold price outlook: Could prices hit $6,000 in 2026? - Yahoo Finance" | kw:gold,rice
+2026-07-01 18:31 ACCEPT [Google News KL] "Gold Prices to Stabilise With a Q3 Seasonality Tailwind? - StoneX" | kw:gold,rice
+2026-07-01 18:31 ACCEPT [Google News KL] "Silver, Nasdaq Price Outlook: Fed, NFP and DXY in Focus - FOREX.com" | kw:silver,rice
+2026-07-01 18:31 ACCEPT [Google News KL] "How Low Can Silver Price Go? The New XAG/USD Analysis Suggests -50% Be" | kw:silver,rice
+2026-07-01 18:31 ACCEPT [Google News KL] "Gold surges amid mixed US data and Fed’s Warsh remarks - FXStreet" | kw:gold
+2026-07-01 18:31 ACCEPT [Google News KL] "Gold Price on 30 June 2026 - Gold Price" | kw:gold,rice
+2026-07-01 18:31 ACCEPT [Google News NS] "USDA June Reports Offer Support to Wheat and Corn Markets Amid Shiftin" | kw:wheat,corn
+2026-07-01 18:31 ACCEPT [Google News NS] "Wheat Finds Strength While Traders Watch the Forecast - American Ag Ne" | kw:wheat
+2026-07-01 18:31 ACCEPT [Google News NS] "NCGA Report Targets New Markets to Drive Corn Demand Growth - Grain Jo" | kw:corn
+2026-07-01 18:31 ACCEPT [Google News NS] "Lower-than-expected corn stocks lift market sentiment - Brownfield Ag " | kw:corn
+2026-07-01 18:31 ACCEPT [Google News NS] "Corn Prices Can Change Fast — Are You Ready for the Next Trend? - Succ" | kw:corn,rice
+2026-07-01 18:31 ACCEPT [Google News NS] "Tracked Grain Combine Harvester Market Forecast 2026-2032, - openPR.co" | kw:harvest
+2026-07-01 18:31 ACCEPT [Google News NS] "Wheat Futures Sink Across All Three Exchanges As Export Data Disappoin" | kw:wheat
+2026-07-01 18:31 ACCEPT [Google News NS] "China Soybean Oil Market Weakens in June - Sunsirs" | kw:oil,soybean
+2026-07-01 18:31 ACCEPT [Google News NS] "Ukraine Heatwave: Is It Time to Cut the 2026 Corn Crop Forecast? - Ukr" | kw:corn
+2026-07-01 18:31 ACCEPT [RT Business] "Russian SMEs growing on stronger supply chains to giants" | kw:supply chain,easing
+2026-07-01 18:31 ACCEPT [RT Business] "US extends Russian oil waiver" | kw:oil,sanction,treasury
+2026-07-01 18:31 ACCEPT [RT Business] "Potato futures are soaring – should the world be worried?" | kw:fuel,rice
+2026-07-01 18:31 ACCEPT [RT Business] "Japanese auto giant takes historic hit amid EV pullback" | kw:tariff
+2026-07-01 18:31 ACCEPT [RT Business] "Netflix sued for spying on children" | kw:harvest
+2026-07-01 18:31 ACCEPT [ECB Press] "Piero Cipollone: The foundations of national sovereignty: the role of " | kw:central bank
+2026-07-01 18:31 ACCEPT [Google News CB] "Warsh tells Wall Street to stop looking to the Fed for clues on intere" | kw:interest rate
+2026-07-01 18:31 ACCEPT [Google News CB] "Governor vetoes bill addressing IOTA interest rate - The Florida Bar" | kw:interest rate
+2026-07-01 18:31 ACCEPT [Google News CB] "Fed Chair Warsh Says Inflation Is Too High, But Risks Have Diminished " | kw:inflation
+2026-07-01 18:31 ACCEPT [Google News CB] "Bitcoin breaks above $60,000 after Fed Chair Warsh said inflation risk" | kw:inflation
+2026-07-01 18:31 ACCEPT [Google News CB] "Eurozone Inflation Declines as Energy Shock Fades in Relief for ECB - " | kw:inflation,ecb
+2026-07-01 18:31 ACCEPT [Google News CB] "Warsh dodges rate-hike questions, touts AI during ECB summit - Scotsma" | kw:ecb
