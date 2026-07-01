@@ -8981,3 +8981,9 @@
 2026-07-01 03:31 ACCEPT [Google News CB] "Japan business mood hits 8-year high, builds case for BOJ rate hikes -" | kw:rate hike,boj
 2026-07-01 03:31 ACCEPT [Google News CB] "ECB Faces No Urgency to Hike Rates Again in July, Kazaks Says - Bloomb" | kw:ecb
 2026-07-01 03:31 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 04:01 ACCEPT [Google News HH] "US API Weekly Crude Oil Stocks Surge by 6.072M Barrels, Defying Draw E" | kw:oil,crude
+2026-07-01 04:01 ACCEPT [Google News KL] "Gold's Midyear Check-In: Debasement & Banks Remain Key - ETF Database" | kw:gold
+2026-07-01 04:01 ACCEPT [Google News KL] "Gold prices pinned below $4k after logging worst qtr in 13 years; Wars" | kw:gold,rice
+2026-07-01 04:01 ACCEPT [Google News KL] "Gold prices slip as firmer Treasury yields, Fed rate outlook weigh - T" | kw:gold,rice,fed rate
+2026-07-01 04:01 ACCEPT [Google News NS] "Waterlogged soils can have lasting effects in corn - Farm Progress" | kw:oil,corn
+2026-07-01 04:01 SKIP_MORNING already_sent date=2026-07-01
