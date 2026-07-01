@@ -9210,3 +9210,11 @@
 2026-07-01 14:01 ACCEPT [Google News CB] "From China to Nicaragua: Belarus's Central Bank is looking for new fri" | kw:central bank
 2026-07-01 14:01 SKIP_MORNING already_sent date=2026-07-01
 2026-07-01 14:01 SKIP_EVENING already_sent date=2026-07-01
+2026-07-01 14:11 ACCEPT [Google News HH] "July 2, 2026: Natural gas price on July 02, 2026 at 5:00 PM EDT Predic" | kw:gas,rice
+2026-07-01 14:11 ACCEPT [Google News KL] "Gold Remains Subdued Below $4,000 as Markets Eye Fed Chair Warsh for R" | kw:lng,gold
+2026-07-01 14:11 ACCEPT [Google News CB] "Kevin Warsh declines to hint at July rate decision in first internatio" | kw:rate decision
+2026-07-01 14:11 ACCEPT [Google News CB] "Treasury yields rise as Fed Chairman Warsh says 'prices are too high' " | kw:rice,treasury
+2026-07-01 14:11 ACCEPT [Google News CB] "Inflation going down, but uncertainty is still high: ECB's Kocher - CN" | kw:inflation,ecb
+2026-07-01 14:11 ACCEPT [Google News CB] "New Federal Reserve Chair Warsh emphasizes political independence, sig" | kw:inflation,federal reserve
+2026-07-01 14:11 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 14:11 SKIP_EVENING already_sent date=2026-07-01
