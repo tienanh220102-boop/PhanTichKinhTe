@@ -9254,3 +9254,21 @@
 2026-07-01 15:01 ACCEPT [Google News CB] "Bitcoin climbs toward $60,000 after Fed Chair Warsh said inflation ris" | kw:inflation
 2026-07-01 15:01 SKIP_MORNING already_sent date=2026-07-01
 2026-07-01 15:01 SKIP_EVENING already_sent date=2026-07-01
+2026-07-01 15:31 ACCEPT [Google News HH] "U.S. Crude Oil Inventories Extend Decline - WSJ" | kw:oil,crude
+2026-07-01 15:31 ACCEPT [Google News HH] "Gold flashed a death cross at the end of its worst quarter in 13 years" | kw:gold
+2026-07-01 15:31 ACCEPT [Google News HH] "BREAKING: Oil inventory report still shows a decline. WTI crude oil at" | kw:oil,crude,wti
+2026-07-01 15:31 ACCEPT [Google News HH] "WTI Crude Oil Futures fall to $68.22 per barrel, marking the lowest le" | kw:oil,crude,wti
+2026-07-01 15:31 ACCEPT [Google News KL] "Gold prices hit 8-month low on Fed hike fears - MSN" | kw:gold,rice
+2026-07-01 15:31 ACCEPT [Google News KL] "Gold Approaches $4,100 as ISM Manufacturing PMI Falls to 53.3 in June " | kw:gold
+2026-07-01 15:31 ACCEPT [Google News KL] "Silver rebounds above $60 as softer US data, Warsh remarks weigh on th" | kw:silver
+2026-07-01 15:31 ACCEPT [Google News KL] "Gold Prices Gain After ADP Reports 98,000 Jobs Added in September - Ne" | kw:gold,rice
+2026-07-01 15:31 ACCEPT [Google News NS] "Ukraine Heatwave: Is It Time to Cut the 2026 Corn Crop Forecast? - Ukr" | kw:corn
+2026-07-01 15:31 ACCEPT [Google News NS] "Bulgarian Wheat Keeps Export Potential Despite Weather Risks - UkrAgro" | kw:wheat
+2026-07-01 15:31 ACCEPT [Google News CB] "Kevin Warsh declines to signal July rate decision at ECB Sintra forum " | kw:rate decision,ecb
+2026-07-01 15:31 ACCEPT [Google News CB] "AI hopes and fears dominate global central bank meet - Reuters" | kw:central bank
+2026-07-01 15:31 ACCEPT [Google News CB] "India central bank chief sees case for lower inflation target in long " | kw:inflation,central bank
+2026-07-01 15:31 ACCEPT [Google News CB] "Federal Reserve Chair Warsh emphasizes political independence, signals" | kw:inflation,federal reserve
+2026-07-01 15:31 ACCEPT [Google News CB] "New Federal Reserve Chair Warsh emphasizes political independence, sig" | kw:inflation,federal reserve
+2026-07-01 15:31 ACCEPT [Google News CB] "Gold forecast: Central bank speeches and key US data - FOREX.com" | kw:gold,central bank
+2026-07-01 15:31 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 15:31 SKIP_EVENING already_sent date=2026-07-01
