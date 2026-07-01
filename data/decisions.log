@@ -9308,3 +9308,9 @@
 2026-07-01 16:31 ACCEPT [Google News CB] "Kevin Warsh declines to hint at July Fed rate decision at Sintra - Yah" | kw:fed rate,rate decision
 2026-07-01 16:31 SKIP_MORNING already_sent date=2026-07-01
 2026-07-01 16:31 SKIP_EVENING already_sent date=2026-07-01
+2026-07-01 16:42 ACCEPT [Google News HH] "Gold price rises as traders weigh Fed rate path after Warsh remarks - " | kw:gold,rice,fed rate
+2026-07-01 16:42 ACCEPT [Google News HH] "$Crude Oil Futures (AUG6) (CLmain.US)$ $Brent Last Day Financial Futur" | kw:oil,crude,brent
+2026-07-01 16:42 ACCEPT [Google News HH] "BREAKING: Oil inventory report still shows a decline. WTI crude oil at" | kw:oil,crude,wti
+2026-07-01 16:43 ACCEPT [Google News CB] "US Fed chair says committed to combatting 'too high' prices - France 2" | kw:rice
+2026-07-01 16:43 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 16:43 SKIP_EVENING already_sent date=2026-07-01
