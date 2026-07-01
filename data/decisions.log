@@ -9039,3 +9039,13 @@
 2026-07-01 07:01 ACCEPT [Google News CB] "Gold prices slip as firmer Treasury yields, Fed rate outlook weigh - C" | kw:gold,rice,fed rate
 2026-07-01 07:01 ACCEPT [Google News CB] "Economic calendar: Central bank summit in Sintra may spice up FX volat" | kw:central bank
 2026-07-01 07:01 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 07:31 ACCEPT [OilPrice.com] "Shell Offloads 50% Stake in Na Kika Platform for $1.7 Billion" | kw:oil,rice
+2026-07-01 07:31 ACCEPT [Google News HH] "Crude oil prices drop 4% after US-Iran ceasefire, boosting European eq" | kw:oil,crude,rice
+2026-07-01 07:31 ACCEPT [Google News HH] "FXEmpire - Analyzing Commodities, Forex, Crypto, and Stocks Markets | " | kw:commodities
+2026-07-01 07:31 ACCEPT [Google News KL] "Gold Prices to Stabilise With a Q3 Seasonality Tailwind? - StoneX" | kw:gold,rice
+2026-07-01 07:31 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Gold Defends Triple Bottom at $" | kw:gold,silver,rice
+2026-07-01 07:31 ACCEPT [Google News KL] "Gold plunges sharply, yet AI semiconductors hit record highs—Why did m" | kw:gold,rate hike
+2026-07-01 07:31 ACCEPT [Google News NS] "Killer frost cuts southern Ohio wheat yields in half - Farm Progress" | kw:wheat
+2026-07-01 07:31 ACCEPT [Google News CB] "Watch Kevin Warsh to Speak at Sintra, ECB Warns Inflation Shock Not Ov" | kw:inflation,ecb
+2026-07-01 07:31 ACCEPT [Google News CB] "Gold hovers near 7-month low as firm Treasury yields, Fed rate outlook" | kw:gold,fed rate,treasury
+2026-07-01 07:31 SKIP_MORNING already_sent date=2026-07-01
