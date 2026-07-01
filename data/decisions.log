@@ -9049,3 +9049,16 @@
 2026-07-01 07:31 ACCEPT [Google News CB] "Watch Kevin Warsh to Speak at Sintra, ECB Warns Inflation Shock Not Ov" | kw:inflation,ecb
 2026-07-01 07:31 ACCEPT [Google News CB] "Gold hovers near 7-month low as firm Treasury yields, Fed rate outlook" | kw:gold,fed rate,treasury
 2026-07-01 07:31 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 08:01 ACCEPT [Google News HH] "Commodities trader Mercuria to form joint venture with Italian major E" | kw:commodities
+2026-07-01 08:01 ACCEPT [Google News HH] "Eni, Mercuria to Establish Commodities Trading Joint Venture - WSJ" | kw:commodities
+2026-07-01 08:01 ACCEPT [Google News HH] "UAE crude exports hit record after OPEC exit - Egypt Oil & Gas" | kw:oil,crude,opec
+2026-07-01 08:01 ACCEPT [Google News HH] "Commodities trader Mercuria to form joint venture with Italian major E" | kw:commodities
+2026-07-01 08:01 ACCEPT [Google News HH] "Price to book forward of Castora Agri Commodities Ltd – BSE:CASTORA - " | kw:rice,commodities
+2026-07-01 08:01 ACCEPT [Google News HH] "Iran exported 50mln crude oil barrels in 2 weeks: source - Mehr News A" | kw:oil,crude
+2026-07-01 08:01 ACCEPT [Google News HH] "Commodities trader Mercuria to form joint venture with Italian major E" | kw:commodities
+2026-07-01 08:01 ACCEPT [Google News KL] "Goldplat expects FY2026 results to beat market forecasts on higher gol" | kw:gold,rice,gdp
+2026-07-01 08:01 ACCEPT [Google News KL] "Bitcoin and gold collapse as investors lose faith in debasement trade " | kw:gold
+2026-07-01 08:01 ACCEPT [Google News KL] "Gold price’s worst quarter in 13 years: planning implications for mine" | kw:gold,rice
+2026-07-01 08:01 ACCEPT [Google News CB] "Rupee flat, central bank's record forward liabilities tipped to balloo" | kw:central bank
+2026-07-01 08:01 ACCEPT [Google News CB] "European shares mixed ahead of eurozone Inflation, central bank heavyw" | kw:inflation,central bank
+2026-07-01 08:01 SKIP_MORNING already_sent date=2026-07-01
