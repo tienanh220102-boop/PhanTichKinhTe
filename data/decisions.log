@@ -9178,3 +9178,14 @@
 2026-07-01 13:01 ACCEPT [Google News CB] "Gold is little changed as higher Treasury yields, Fed rate hike bets w" | kw:gold,fed rate,treasury
 2026-07-01 13:01 SKIP_MORNING already_sent date=2026-07-01
 2026-07-01 13:02 SENT_EVENING articles=20 date=2026-07-01 force=False
+2026-07-01 13:31 ACCEPT [MarketWatch] "Warsh warns investors not to expect hints at future Fed rate moves" | kw:fed rate,central bank,interest rate
+2026-07-01 13:31 ACCEPT [OilPrice.com] "EU Industry Splits Over Emissions Trading Scheme Overhaul" | kw:steel
+2026-07-01 13:31 ACCEPT [Google News HH] "As AI Models Become Commodities, One Bio-Native AI Company Just Moved " | kw:commodities
+2026-07-01 13:31 ACCEPT [Google News KL] "Silver Price Crash June 2026: SLV Drops Over 20%, Worst Month Since 20" | kw:silver,rice
+2026-07-01 13:31 ACCEPT [Google News KL] "Silver, Nasdaq Price Outlook: Fed, NFP and DXY in Focus - FOREX.com" | kw:silver,rice
+2026-07-01 13:31 ACCEPT [Google News KL] "Silver price crash: It was being called the 'new gold'. So what went w" | kw:gold,silver,rice
+2026-07-01 13:31 ACCEPT [Google News CB] "Gold forecast: Central bank speeches and key US data - FOREX.com" | kw:gold,central bank
+2026-07-01 13:31 ACCEPT [Google News CB] "Warsh warns investors not to expect hints at future Fed rate moves - M" | kw:fed rate
+2026-07-01 13:31 ACCEPT [Google News CB] "Kevin Hassett critiques Phillips Curve, predicts inflation data will c" | kw:inflation
+2026-07-01 13:31 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 13:31 SKIP_EVENING already_sent date=2026-07-01
