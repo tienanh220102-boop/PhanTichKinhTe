@@ -9073,3 +9073,10 @@
 2026-07-01 08:31 ACCEPT [Google News CB] "Gold hovers near 7-month low on firm Treasury yields, Fed rate outlook" | kw:gold,fed rate,treasury
 2026-07-01 08:31 SKIP_MORNING already_sent date=2026-07-01
 2026-07-01 08:35 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 09:01 ACCEPT [Google News HH] "The Commodities Feed: Oil has its worst quarter since 2020 - ING THINK" | kw:oil,commodities
+2026-07-01 09:01 ACCEPT [Google News HH] "Commodities trader Mercuria to form joint venture with Italian major E" | kw:commodities
+2026-07-01 09:01 ACCEPT [Google News KL] "Gold price prediction today: After worst quarter in 13 years, will gol" | kw:gold,rice
+2026-07-01 09:01 ACCEPT [Google News CB] "Fed’s Hammack Links “Insatiable” AI Demand to Inflation: Rate Hikes on" | kw:inflation,rate hike
+2026-07-01 09:01 ACCEPT [Google News CB] "ECB policymaker Nagel says he will keep options open for July and Sept" | kw:ecb
+2026-07-01 09:01 ACCEPT [Google News CB] "Economic calendar: Central bank summit in Sintra may spice up FX volat" | kw:central bank
+2026-07-01 09:01 SKIP_MORNING already_sent date=2026-07-01
