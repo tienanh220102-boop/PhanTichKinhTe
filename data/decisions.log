@@ -9126,3 +9126,11 @@
 2026-07-01 11:01 ACCEPT [Google News CB] "European stocks trade mixed as investors await eurozone inflation and " | kw:inflation,central bank
 2026-07-01 11:01 ACCEPT [Google News CB] "Rupee flat, central bank's record forward liabilities tipped to balloo" | kw:central bank
 2026-07-01 11:01 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 11:31 ACCEPT [Google News HH] "UAE flexes oil muscle after OPEC exit with record oil exports - The Ar" | kw:oil,opec
+2026-07-01 11:31 ACCEPT [Google News HH] "‘Upside potential’: Why Asian gold buyers offer hope to regain lost gr" | kw:gold
+2026-07-01 11:31 ACCEPT [Google News KL] "Gold prices fall further after worst quarter in 13 years as interest r" | kw:gold,rice,interest rate
+2026-07-01 11:31 ACCEPT [Google News KL] "Gold Prices to Stabilise With a Q3 Seasonality Tailwind? - StoneX" | kw:gold,rice
+2026-07-01 11:31 ACCEPT [Google News NS] "Soybean and palm oil quotes continue to fall as competition intensifie" | kw:oil,soybean
+2026-07-01 11:31 ACCEPT [Google News CB] "German central bank chief says inflation still too high for ECB pivot " | kw:inflation,central bank,ecb
+2026-07-01 11:31 ACCEPT [Google News CB] "Forget Fed speak: The real threat is a silent central bank - Yahoo Fin" | kw:central bank
+2026-07-01 11:31 SKIP_MORNING already_sent date=2026-07-01
