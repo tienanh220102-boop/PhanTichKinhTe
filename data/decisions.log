@@ -9113,3 +9113,16 @@
 2026-07-01 10:31 ACCEPT [Google News CB] "June inflation in the Eurozone is good news for the ECB - Financial Ti" | kw:inflation,ecb
 2026-07-01 10:31 ACCEPT [Google News CB] "Bill could triple fees for VA interest rate reduction refi loans - Nat" | kw:interest rate
 2026-07-01 10:31 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 11:01 ACCEPT [NASDAQ Commod] "Gold Edges Lower On Fed Rate Hike Bets, US-Iran Tensions" | kw:gold,rice,fed rate
+2026-07-01 11:01 ACCEPT [NASDAQ Commod] "Oil Edges Lower Despite Breakdown In US-Iran Peace Talks" | kw:oil,rice
+2026-07-01 11:01 ACCEPT [Google News HH] "Gold price drops for third day as jitters over US rate outlook worsen " | kw:gold,rice
+2026-07-01 11:01 ACCEPT [Google News HH] "Oil futures: Crude drifts lower as Doha talks in focus - Quantum Commo" | kw:oil,crude,commodity
+2026-07-01 11:01 ACCEPT [Google News HH] "Energy Industries Bulk Commodity Intelligence (July 1, 2026) - Sunsirs" | kw:commodity
+2026-07-01 11:01 ACCEPT [Google News KL] "Gold at Its Lowest Levels Since November: What’s Next? for CFI:XAUUSD " | kw:gold
+2026-07-01 11:01 ACCEPT [Google News NS] "A Bullish Surprise: USDA Stocks Report Ignites Grain Rally as Corn Inv" | kw:corn
+2026-07-01 11:01 ACCEPT [Google News CB] "Warsh hits the international stage with peers sharing an inflation pro" | kw:inflation
+2026-07-01 11:01 ACCEPT [Google News CB] "Forget Fed speak: The real threat is a silent central bank - Yahoo! Fi" | kw:central bank
+2026-07-01 11:01 ACCEPT [Google News CB] "ECB’s Nagel Says He’s Keeping Options Open for Next Two Meetings - Blo" | kw:ecb
+2026-07-01 11:01 ACCEPT [Google News CB] "European stocks trade mixed as investors await eurozone inflation and " | kw:inflation,central bank
+2026-07-01 11:01 ACCEPT [Google News CB] "Rupee flat, central bank's record forward liabilities tipped to balloo" | kw:central bank
+2026-07-01 11:01 SKIP_MORNING already_sent date=2026-07-01
