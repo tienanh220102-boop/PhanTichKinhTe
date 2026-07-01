@@ -8922,3 +8922,9 @@
 2026-06-30 23:59 ACCEPT [MarketWatch] "Nike earnings crushed Wall Street’s estimates — but here’s the catch" | kw:tariff
 2026-07-01 00:00 ACCEPT [Google News HH] "Crude prices down 36%, gas down just 22%: Why the disconnect? - WAVY.c" | kw:crude,gas,rice
 2026-07-01 00:00 ACCEPT [Google News CB] "Monetary policy under multiple financing constraints - CEPR" | kw:monetary policy
+2026-07-01 00:01 ACCEPT [OilPrice.com] "The AI Revolution Needs Electricity More Than Intelligence" | kw:easing
+2026-07-01 00:01 ACCEPT [Google News HH] "Crude Prices Slip as Global Oil Supply Risks Recede - TradingView" | kw:oil,crude,rice
+2026-07-01 00:01 ACCEPT [Google News KL] "Gold forecast and tracker: Where will prices land in 2026? - Yahoo Fin" | kw:gold,rice
+2026-07-01 00:01 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-07-01 00:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
+2026-07-01 00:01 SENT_MORNING articles=20 date=2026-07-01 force=False
