@@ -8970,3 +8970,14 @@
 2026-07-01 03:01 ACCEPT [Google News HH] "Gold Price Remains Under Bearish Pressure – Analysis – 01-07-2026 - Ec" | kw:gold,rice
 2026-07-01 03:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD Recovers Toward $60.00, but Bearish Bia" | kw:silver,rice
 2026-07-01 03:01 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 03:31 ACCEPT [Google News HH] "Researchers Discover Membrane-Based Approach to More Sustainable Oil R" | kw:oil
+2026-07-01 03:31 ACCEPT [Google News HH] "Palm falls on weaker rivals, firm crude oil limits losses - TradingVie" | kw:oil,crude
+2026-07-01 03:31 ACCEPT [Google News HH] "USD/CAD Eyes Pullback as CAD/JPY Decouples from Crude Oil, AUD/CAD Sta" | kw:oil,crude,gas
+2026-07-01 03:31 ACCEPT [Google News HH] "Gold Price Forecast: Iran Denies Trump Negotiation Plan, Gold Price Ma" | kw:gold,rice
+2026-07-01 03:31 ACCEPT [Google News KL] "Gold prices slip as firmer Treasury yields, Fed rate outlook weigh - R" | kw:gold,rice,fed rate
+2026-07-01 03:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD declines below $58 amid uncertainty ove" | kw:silver,rice
+2026-07-01 03:31 ACCEPT [Google News KL] "JPMorgan: The Fed Has Turned the Gold Bull Market from a "Pause" to "D" | kw:gold
+2026-07-01 03:31 ACCEPT [Google News NS] "Reports indicate a good marketing year for soybean meal - Barchart.com" | kw:soybean
+2026-07-01 03:31 ACCEPT [Google News CB] "Japan business mood hits 8-year high, builds case for BOJ rate hikes -" | kw:rate hike,boj
+2026-07-01 03:31 ACCEPT [Google News CB] "ECB Faces No Urgency to Hike Rates Again in July, Kazaks Says - Bloomb" | kw:ecb
+2026-07-01 03:31 SKIP_MORNING already_sent date=2026-07-01
