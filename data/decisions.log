@@ -8933,3 +8933,7 @@
 2026-07-01 00:31 ACCEPT [Google News CB] "Japan business mood improves despite Middle East war, BOJ survey shows" | kw:boj
 2026-07-01 00:31 ACCEPT [Google News CB] "Supreme Court Limits Presidential Power Over Central Bank Officials Wh" | kw:central bank
 2026-07-01 00:31 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 01:01 ACCEPT [Google News HH] "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next " | kw:oil,crude,rice
+2026-07-01 01:01 ACCEPT [Google News KL] "OCBC Just Cut Its Gold Forecast by $740. The Reason Is the Story. - Go" | kw:gold,silver
+2026-07-01 01:01 ACCEPT [Google News CB] "Former BOJ Board Member Shirai Says Yen Could Hit ¥165 - Japan Economy" | kw:boj
+2026-07-01 01:01 SKIP_MORNING already_sent date=2026-07-01
