@@ -9012,3 +9012,9 @@
 2026-07-01 05:31 ACCEPT [Google News KL] "Gold prices slip as firmer Treasury yields, Fed rate outlook weigh - T" | kw:gold,rice,fed rate
 2026-07-01 05:31 ACCEPT [Google News NS] "Mysteel daily China imported soybea... - Mysteel" | kw:steel
 2026-07-01 05:31 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 06:01 ACCEPT [OilPrice.com] "Oil Prices Reflect Optimism That Hormuz Has Yet to Justify" | kw:oil,crude,brent
+2026-07-01 06:01 ACCEPT [Google News HH] "Gold Price on 30 June 2026 - Gold Price" | kw:gold,rice
+2026-07-01 06:01 ACCEPT [Google News HH] "Gold Price Forecast – Target Zone Reached, Imminent Bottom Expected - " | kw:gold,rice
+2026-07-01 06:01 ACCEPT [Google News HH] "St1 Biokraft expands into Denmark with Danish Bio Commodities acquisit" | kw:commodities
+2026-07-01 06:01 ACCEPT [Google News KL] "Analysis-Ferrari and BMW join Tesla, China in switch from copper to ch" | kw:copper
+2026-07-01 06:01 SKIP_MORNING already_sent date=2026-07-01
