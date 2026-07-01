@@ -9166,3 +9166,15 @@
 2026-07-01 12:31 ACCEPT [Google News NS] "China Soybean Oil Market Weakens in June - Sunsirs" | kw:oil,soybean
 2026-07-01 12:31 ACCEPT [Google News CB] "Gold lingers near 7-month low on firm Treasury yields, rate hike bets " | kw:gold,treasury,rate hike
 2026-07-01 12:31 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 13:01 ACCEPT [Google News KL] "Current price of silver as of Wednesday, July 1, 2026 - Fortune" | kw:silver,rice
+2026-07-01 13:01 ACCEPT [Google News KL] "How Low Can Silver Price Go? The New XAG/USD Analysis Suggests -50% Be" | kw:silver,rice
+2026-07-01 13:01 ACCEPT [Google News KL] "Current price of gold as of July 1, 2026 - Fortune" | kw:gold,rice
+2026-07-01 13:01 ACCEPT [Google News KL] "Silver, Nasdaq Price Outlook: Fed, NFP and DXY in Focus - FOREX.com" | kw:silver,rice
+2026-07-01 13:01 ACCEPT [Google News KL] "Silver price today: Silver falls, according to FXStreet data - TMGM" | kw:fuel,silver,rice
+2026-07-01 13:01 ACCEPT [Google News CB] "ECB Rate Hikes Lose Their Grip on European Stocks - StoneX" | kw:rate hike,ecb
+2026-07-01 13:01 ACCEPT [Google News CB] "U.S. Treasury yields edge higher as investors await Fed Chair Warsh’s " | kw:treasury
+2026-07-01 13:01 ACCEPT [Google News CB] "German banks reject ECB's potential move to lift minimum reserves - Re" | kw:ecb
+2026-07-01 13:01 ACCEPT [Google News CB] "From China to Nicaragua: Belarus's Central Bank is looking for new fri" | kw:central bank
+2026-07-01 13:01 ACCEPT [Google News CB] "Gold is little changed as higher Treasury yields, Fed rate hike bets w" | kw:gold,fed rate,treasury
+2026-07-01 13:01 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 13:02 SENT_EVENING articles=20 date=2026-07-01 force=False
