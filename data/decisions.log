@@ -9218,3 +9218,16 @@
 2026-07-01 14:11 ACCEPT [Google News CB] "New Federal Reserve Chair Warsh emphasizes political independence, sig" | kw:inflation,federal reserve
 2026-07-01 14:11 SKIP_MORNING already_sent date=2026-07-01
 2026-07-01 14:11 SKIP_EVENING already_sent date=2026-07-01
+2026-07-01 14:31 ACCEPT [MarketWatch] "Warsh warns investors not to expect hints at future Fed interest-rate " | kw:central bank,interest rate,federal reserve
+2026-07-01 14:31 ACCEPT [The Guardian Biz] "US Federal Reserve chair Kevin Warsh says inflation risks ‘have come d" | kw:oil,rice,supply chain
+2026-07-01 14:31 ACCEPT [OilPrice.com] "Japan's Biggest LNG Buyer Creates Standalone Trading Arm" | kw:lng,fuel,shipping
+2026-07-01 14:31 ACCEPT [Google News HH] "UAE oil exports hit a high amid Iran war - Semafor" | kw:oil
+2026-07-01 14:31 ACCEPT [Google News HH] "Gold price outlook hinges on macroeconomic conditions as geopolitical " | kw:gold,rice
+2026-07-01 14:31 ACCEPT [Google News KL] "Why are gold and silver prices down today, and will precious metals co" | kw:gold,silver,rice
+2026-07-01 14:31 ACCEPT [Google News NS] "NCGA Releases Demand Strategy for U.S. Corn’s Next 250 Years - Nationa" | kw:corn
+2026-07-01 14:31 ACCEPT [Google News CB] "Watch Fed Chairman Warsh Says Inflation Risks Have Come Down, Vows to " | kw:inflation
+2026-07-01 14:31 ACCEPT [Google News CB] "Fed's Warsh: Will decide on rate hike when policymakers 'shut the door" | kw:rate hike
+2026-07-01 14:31 ACCEPT [Google News CB] "Fed's Warsh reiterates 2% inflation goal, independence at ECB forum - " | kw:inflation,ecb
+2026-07-01 14:31 ACCEPT [Google News CB] "New Federal Reserve Chair Warsh emphasizes political independence, sig" | kw:inflation,federal reserve
+2026-07-01 14:31 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 14:31 SKIP_EVENING already_sent date=2026-07-01
