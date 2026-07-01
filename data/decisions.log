@@ -8953,3 +8953,12 @@
 2026-07-01 02:01 ACCEPT [Google News CB] "Japan business mood improves despite Middle East war, BOJ survey shows" | kw:boj
 2026-07-01 02:01 ACCEPT [Google News CB] "Gold slips as fading US-Iran peace prospects reinforce Fed rate-hike b" | kw:gold,fed rate
 2026-07-01 02:01 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 02:30 ACCEPT [Al Jazeera] "Who is leading the race for the FIFA World Cup 2026 Golden Boot award?" | kw:gold
+2026-07-01 02:31 ACCEPT [Google News HH] "USD/CAD Eyes Pullback as CAD/JPY Decouples from Crude Oil, AUD/CAD Sta" | kw:oil,crude
+2026-07-01 02:31 ACCEPT [Google News KL] "Alamos Gold Provides Notice of Second Quarter 2026 Results and Confere" | kw:gold
+2026-07-01 02:31 ACCEPT [Google News KL] "Irrational US Gold Dumping: China’s Gold imports surge to Most in 2 Ye" | kw:gold
+2026-07-01 02:31 ACCEPT [Google News NS] "End of June short covering props up corn, soybeans, wheat - Brownfield" | kw:wheat,corn,soybean
+2026-07-01 02:31 ACCEPT [Google News CB] "Japan business mood improves despite Middle East war, BOJ survey shows" | kw:boj
+2026-07-01 02:31 ACCEPT [Google News CB] "ECB’s inflation fears linger despite oil price retreat - 1470 & 100.3 " | kw:oil,rice,inflation
+2026-07-01 02:31 ACCEPT [Google News CB] "Japan business mood improves despite Middle East war, BOJ survey shows" | kw:boj
+2026-07-01 02:31 SKIP_MORNING already_sent date=2026-07-01
