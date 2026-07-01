@@ -9032,3 +9032,10 @@
 2026-07-01 06:31 ACCEPT [Google News CB] "Tokyo stocks close higher on Fed minutes tough on inflation - Business" | kw:inflation
 2026-07-01 06:31 ACCEPT [Google News CB] "Bank of England boss defends interest rate decisions as inflation fear" | kw:inflation,interest rate,rate decision
 2026-07-01 06:31 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 07:01 ACCEPT [Google News HH] "Gold Futures Technical Analysis - Investing.com" | kw:gold
+2026-07-01 07:01 ACCEPT [Google News HH] "US crude oil production hits record 13.93 million bpd in April - Inves" | kw:oil,crude
+2026-07-01 07:01 ACCEPT [Google News KL] "Gold Just Plunged Below 4000! Gold Price Drops $36 in Asian Session, T" | kw:gold,rice
+2026-07-01 07:01 ACCEPT [Google News NS] "CM Murad warns against wheat hoarding, orders crackdown to stabilise r" | kw:wheat,rice
+2026-07-01 07:01 ACCEPT [Google News CB] "Gold prices slip as firmer Treasury yields, Fed rate outlook weigh - C" | kw:gold,rice,fed rate
+2026-07-01 07:01 ACCEPT [Google News CB] "Economic calendar: Central bank summit in Sintra may spice up FX volat" | kw:central bank
+2026-07-01 07:01 SKIP_MORNING already_sent date=2026-07-01
