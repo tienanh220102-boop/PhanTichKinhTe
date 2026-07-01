@@ -9272,3 +9272,17 @@
 2026-07-01 15:31 ACCEPT [Google News CB] "Gold forecast: Central bank speeches and key US data - FOREX.com" | kw:gold,central bank
 2026-07-01 15:31 SKIP_MORNING already_sent date=2026-07-01
 2026-07-01 15:31 SKIP_EVENING already_sent date=2026-07-01
+2026-07-01 16:01 ACCEPT [Al Jazeera] "Is Ukraine’s campaign of targeting Russian refineries working?" | kw:fuel,shortage
+2026-07-01 16:01 ACCEPT [Google News HH] "Study Illustrates How Biofuels Can Increase Demand for Agricultural Co" | kw:fuel,commodities
+2026-07-01 16:01 ACCEPT [Google News HH] "BREAKING: Oil inventory report still shows a decline. WTI crude oil at" | kw:oil,crude,wti
+2026-07-01 16:01 ACCEPT [Google News HH] "Gold Price Bounces on Positive News but Key Barrier Still Holds; US La" | kw:gold,rice
+2026-07-01 16:01 ACCEPT [Google News KL] "Gold losses ease after worst quarter in 13 years as interest rate fear" | kw:gold,interest rate
+2026-07-01 16:01 ACCEPT [Google News KL] "ADP Missed. Gold Shrugged. Warsh Is Live in Sintra Right Now. - GoldSi" | kw:gold,silver
+2026-07-01 16:01 ACCEPT [Google News KL] "Agnico Eagle Mines (AEM) Expands In The Nordics As Gold Prices Hit Rec" | kw:gold,rice
+2026-07-01 16:01 ACCEPT [Google News NS] "USDA sharply cuts US wheat acreage estimate while raising soybean plan" | kw:wti,wheat,soybean
+2026-07-01 16:01 ACCEPT [Google News NS] "Exporters shift to purchasing Ukraine’s new-crop corn - UkrAgroConsult" | kw:corn
+2026-07-01 16:01 ACCEPT [Google News NS] "Soybean prices in Ukraine continue to fall - UkrAgroConsult" | kw:soybean,rice
+2026-07-01 16:01 ACCEPT [Google News CB] "Fed chair says US central bank charting ‘new course,’ repeats no forwa" | kw:central bank
+2026-07-01 16:01 ACCEPT [Google News CB] "New Federal Reserve Chair Warsh emphasizes political independence, sig" | kw:inflation,federal reserve
+2026-07-01 16:01 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 16:01 SKIP_EVENING already_sent date=2026-07-01
