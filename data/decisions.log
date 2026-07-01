@@ -9090,3 +9090,16 @@
 2026-07-01 09:31 ACCEPT [Google News CB] "Pakistan Inflation Cools, Keeping Central Bank on Guard - Bloomberg.co" | kw:inflation,central bank
 2026-07-01 09:31 ACCEPT [Google News CB] "Euro Slips as Cooling Inflation Hits ECB Rate Outlook - TradingPedia" | kw:inflation,ecb
 2026-07-01 09:31 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 10:01 ACCEPT [Al Jazeera] "Russian attacks kill three in Ukraine as Kyiv hits another oil refiner" | kw:oil
+2026-07-01 10:01 ACCEPT [OilPrice.com] "Goldman Sachs Warns Oil Inventory Rebuild Won’t Prevent 2027 Supply Gl" | kw:oil,crude,petroleum
+2026-07-01 10:01 ACCEPT [Google News HH] "Eni, Mercuria to Form Global Energy Commodities Trading Venture - Bloo" | kw:commodities
+2026-07-01 10:01 ACCEPT [Google News KL] "Silver price today: Silver falls, according to FXStreet data - Mitrade" | kw:silver,rice
+2026-07-01 10:01 ACCEPT [Google News NS] "Lentil prices increase $48 a tonne in Adelaide - The Weekly Times" | kw:rice,gdp
+2026-07-01 10:01 ACCEPT [Google News CB] "ECB’s Kocher Says the Next Decisions Will Be Either Hike or Hold - Blo" | kw:ecb
+2026-07-01 10:01 ACCEPT [Google News CB] "Eurozone Inflation Declines as Energy Shock Fades in Relief for ECB - " | kw:inflation,ecb
+2026-07-01 10:01 ACCEPT [Google News CB] "ECB’s Nagel Says He’s Keeping Options Open for Next Two Meetings - Blo" | kw:ecb
+2026-07-01 10:01 ACCEPT [Google News CB] "Pakistan Inflation Cools, Keeping Central Bank on Guard - Bloomberg" | kw:inflation,central bank
+2026-07-01 10:01 ACCEPT [Google News CB] "ECB Keeps Investors Guessing on Euro-Zone Interest Rates - Bloomberg" | kw:interest rate,ecb
+2026-07-01 10:01 ACCEPT [Google News CB] "Warsh Speaks at ECB Forum in Sintra - Moomoo" | kw:ecb
+2026-07-01 10:01 ACCEPT [Google News CB] "Colombia Raises Interest Rate to 12% After Court Ends Crisis - Bloombe" | kw:interest rate
+2026-07-01 10:01 SKIP_MORNING already_sent date=2026-07-01
