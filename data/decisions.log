@@ -9314,3 +9314,14 @@
 2026-07-01 16:43 ACCEPT [Google News CB] "US Fed chair says committed to combatting 'too high' prices - France 2" | kw:rice
 2026-07-01 16:43 SKIP_MORNING already_sent date=2026-07-01
 2026-07-01 16:43 SKIP_EVENING already_sent date=2026-07-01
+2026-07-01 17:01 ACCEPT [OilPrice.com] "Putin Admits Shortage of Fuel After Weeks of Refinery Strikes" | kw:gas,fuel,shortage
+2026-07-01 17:01 ACCEPT [Google News HH] "Gold Price Today: Gold Rises 1.82% on July 01, 2026 - USA Today" | kw:gold,rice
+2026-07-01 17:01 ACCEPT [Google News HH] "Geopolitical risks in the Middle East have significantly eased, and U." | kw:oil,crude,rice
+2026-07-01 17:01 ACCEPT [Google News HH] "XAU/USD outlook: Gold price bounces on positive news but key barrier s" | kw:gold,rice
+2026-07-01 17:01 ACCEPT [Google News KL] "Gold Mid-Year Outlook 2026: Point break - World Gold Council" | kw:gold
+2026-07-01 17:01 ACCEPT [Google News KL] "Silver Price Today: Silver Rises 3.45% on July 01, 2026 - USA Today" | kw:silver,rice
+2026-07-01 17:01 ACCEPT [Google News KL] "Agnico Eagle Mines (AEM) Expands In The Nordics As Gold Prices Hit Rec" | kw:gold,rice
+2026-07-01 17:01 ACCEPT [Google News KL] "Canadian miner unveils $1 billion West African gold project with 60% p" | kw:gold
+2026-07-01 17:01 ACCEPT [Google News CB] "Warsh Says Inflation Outlook Has Improved but Won’t Say if Fed Should " | kw:inflation
+2026-07-01 17:01 ACCEPT [Google News CB] "Fed's Warsh vows to 'disappoint' anyone who thinks he will tolerate in" | kw:inflation
+2026-07-01 17:01 ACCEPT [Google News CB] "Fed's Warsh reiterates 2% inflation goal, independence at ECB forum - " | kw:inflation,ecb
