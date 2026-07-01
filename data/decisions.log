@@ -9189,3 +9189,24 @@
 2026-07-01 13:31 ACCEPT [Google News CB] "Kevin Hassett critiques Phillips Curve, predicts inflation data will c" | kw:inflation
 2026-07-01 13:31 SKIP_MORNING already_sent date=2026-07-01
 2026-07-01 13:31 SKIP_EVENING already_sent date=2026-07-01
+2026-07-01 14:01 ACCEPT [MarketWatch] "My student loans are paused until 2028. Should I pay them now anyway?" | kw:inflation
+2026-07-01 14:01 ACCEPT [Google News HH] "Commodities Broker Pulled Back Into Tax Dividend Fraud Suit by UK Cour" | kw:commodities
+2026-07-01 14:01 ACCEPT [Google News HH] "Crude Oil Price Analysis – WTI Drifts Below $70 as Middle East Risks F" | kw:oil,crude,wti
+2026-07-01 14:01 ACCEPT [Google News HH] "Gold Price Analysis – Gold Clings to $4,000 Support Ahead of Jobs Data" | kw:gold,rice
+2026-07-01 14:01 ACCEPT [Google News KL] "Undervalued? Fully Permitted, Feasibility-Backed, and Potentially Misp" | kw:gold,rice
+2026-07-01 14:01 ACCEPT [Google News KL] "Hecla (HL) Stock May Be 7% Undervalued After Silver Focus Shift - Yaho" | kw:silver
+2026-07-01 14:01 ACCEPT [Google News NS] "USDA June Reports Offer Support to Wheat and Corn Markets Amid Shiftin" | kw:wheat,corn
+2026-07-01 14:01 ACCEPT [Google News NS] "US grain inventories rise ahead of harvest - World-Grain.com" | kw:harvest
+2026-07-01 14:01 ACCEPT [Google News NS] "S&P Global: Egypt’s wheat imports set to slow as global prices hit fiv" | kw:wheat,rice
+2026-07-01 14:01 ACCEPT [Google News NS] "Biodiesel demand pushes soybean oil prices to four-year high, lifts fa" | kw:oil,soybean,rice
+2026-07-01 14:01 ACCEPT [Google News CB] "Judgments and decrees interest rate set - The Florida Bar" | kw:interest rate
+2026-07-01 14:01 ACCEPT [Google News CB] "Fed's Warsh: Will decide on rate hike when policymakers 'shut the door" | kw:rate hike
+2026-07-01 14:01 ACCEPT [Google News CB] "Christine Lagarde on why the ECB raised interest rates - CNBC" | kw:interest rate,ecb
+2026-07-01 14:01 ACCEPT [Google News CB] "Kevin Warsh: Fed will not be comfortable with inflation above 2% - Yah" | kw:inflation
+2026-07-01 14:01 ACCEPT [Google News CB] "Gold forecast: Central bank speeches and key US data - FOREX.com" | kw:gold,central bank
+2026-07-01 14:01 ACCEPT [Google News CB] "Kevin Warsh declines to hint at July Fed rate decision at Sintra - qz." | kw:fed rate,rate decision
+2026-07-01 14:01 ACCEPT [Google News CB] "Warsh hits the international stage with peers sharing an inflation pro" | kw:inflation
+2026-07-01 14:01 ACCEPT [Google News CB] "Silver, Nasdaq Price Outlook: Fed, NFP and DXY in Focus - FOREX.com" | kw:silver,rice
+2026-07-01 14:01 ACCEPT [Google News CB] "From China to Nicaragua: Belarus's Central Bank is looking for new fri" | kw:central bank
+2026-07-01 14:01 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 14:01 SKIP_EVENING already_sent date=2026-07-01
