@@ -9080,3 +9080,13 @@
 2026-07-01 09:01 ACCEPT [Google News CB] "ECB policymaker Nagel says he will keep options open for July and Sept" | kw:ecb
 2026-07-01 09:01 ACCEPT [Google News CB] "Economic calendar: Central bank summit in Sintra may spice up FX volat" | kw:central bank
 2026-07-01 09:01 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 09:31 ACCEPT [Google News KL] "Silver price predictions: What can investors expect over the next 10 y" | kw:silver,rice
+2026-07-01 09:31 ACCEPT [Google News CB] "ECB’s Nagel Says He’s Keeping Options Open for Next Two Meetings - Blo" | kw:ecb
+2026-07-01 09:31 ACCEPT [Google News CB] "U.S. Treasury yields edge higher as investors await Fed Chair Warsh’s " | kw:treasury
+2026-07-01 09:31 ACCEPT [Google News CB] "Euro zone inflation falls more than expected, adding to ECB case for p" | kw:inflation,ecb
+2026-07-01 09:31 ACCEPT [Google News CB] "ECB’s Kocher Says the Next Decisions Will Be Either Hike or Hold - Blo" | kw:ecb
+2026-07-01 09:31 ACCEPT [Google News CB] "Gold falls as higher Treasury yields, Fed rate hike bets weigh - Reute" | kw:gold,fed rate,treasury
+2026-07-01 09:31 ACCEPT [Google News CB] "Gold prices fall further after worst quarter in 13 years as interest r" | kw:gold,rice,interest rate
+2026-07-01 09:31 ACCEPT [Google News CB] "Pakistan Inflation Cools, Keeping Central Bank on Guard - Bloomberg.co" | kw:inflation,central bank
+2026-07-01 09:31 ACCEPT [Google News CB] "Euro Slips as Cooling Inflation Hits ECB Rate Outlook - TradingPedia" | kw:inflation,ecb
+2026-07-01 09:31 SKIP_MORNING already_sent date=2026-07-01
