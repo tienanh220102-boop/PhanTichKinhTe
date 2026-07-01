@@ -9231,3 +9231,26 @@
 2026-07-01 14:31 ACCEPT [Google News CB] "New Federal Reserve Chair Warsh emphasizes political independence, sig" | kw:inflation,federal reserve
 2026-07-01 14:31 SKIP_MORNING already_sent date=2026-07-01
 2026-07-01 14:31 SKIP_EVENING already_sent date=2026-07-01
+2026-07-01 15:01 ACCEPT [MarketWatch] "Warsh tells Wall Street to stop looking to the Fed for clues on intere" | kw:central bank,interest rate,federal reserve
+2026-07-01 15:01 ACCEPT [OilPrice.com] "EIA: U.S. Crude Inventories Post Another Major Draw" | kw:oil,crude
+2026-07-01 15:01 ACCEPT [Google News HH] "Platts amends cargo sizes for Grane, Flotta Gold crude oil assessments" | kw:oil,crude,gold
+2026-07-01 15:01 ACCEPT [Google News HH] "As AI Models Become Commodities, One Bio-Native AI Company Just Moved " | kw:commodities
+2026-07-01 15:01 ACCEPT [Google News HH] "US Total Crude Oil Stocks Fall in Week Ended June 26 - Moomoo" | kw:oil,crude
+2026-07-01 15:01 ACCEPT [Google News HH] "US Crude Oil Inventories Fall Less than Expected - TradingView" | kw:oil,crude
+2026-07-01 15:01 ACCEPT [Google News HH] "Gold's price flashed a death cross at the end of its worst quarter in " | kw:gold,rice
+2026-07-01 15:01 ACCEPT [Google News HH] "Crude Oil Inventories Drop Less Than Expected, Impacting Market Sentim" | kw:oil,crude
+2026-07-01 15:01 ACCEPT [Google News HH] "US EIA CRUDE OIL INVENTORIES -3.8 MLN BARRELS IN LATEST WEEK FROM PREV" | kw:oil,crude
+2026-07-01 15:01 ACCEPT [Google News KL] "Silver, Nasdaq Price Outlook: Fed, NFP and DXY in Focus - FOREX.com" | kw:silver,rice
+2026-07-01 15:01 ACCEPT [Google News KL] "Gold's Worst Quarterly Selloff in 13 Years: 3 Miners for the Long Haul" | kw:gold
+2026-07-01 15:01 ACCEPT [Google News KL] "ZAWYA: Gold faces a pivotal second half as geopolitical risk, rate exp" | kw:gold
+2026-07-01 15:01 ACCEPT [Google News KL] "Gold prices fall from record highs in H1 amid Middle East tensions - A" | kw:gold,rice
+2026-07-01 15:01 ACCEPT [Google News KL] "Gold Prices Surge Over 2% to Reclaim $4,100 Mark. Fed Chair Walsh Says" | kw:gold,rice,inflation
+2026-07-01 15:01 ACCEPT [Google News NS] "July heat, dry periods threaten corn pollination - Farm Progress" | kw:corn
+2026-07-01 15:01 ACCEPT [Google News CB] "Fed’s Warsh Says Inflation Poses Less Risk Than a Few Weeks Ago - The " | kw:inflation
+2026-07-01 15:01 ACCEPT [Google News CB] "Fed Chairman Kevin Warsh declines to hint at July rate decision - CNBC" | kw:rate decision
+2026-07-01 15:01 ACCEPT [Google News CB] "U.S. and Europe are ‘hostage to each other’ over AI, says ECB Presiden" | kw:ecb
+2026-07-01 15:01 ACCEPT [Google News CB] "Dollar fades as Fed's Warsh softens inflation tone - Yahoo Finance" | kw:inflation
+2026-07-01 15:01 ACCEPT [Google News CB] "Warsh tells Wall Street to stop looking to the Fed for clues on intere" | kw:interest rate
+2026-07-01 15:01 ACCEPT [Google News CB] "Bitcoin climbs toward $60,000 after Fed Chair Warsh said inflation ris" | kw:inflation
+2026-07-01 15:01 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 15:01 SKIP_EVENING already_sent date=2026-07-01
