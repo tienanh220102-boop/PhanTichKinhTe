@@ -9062,3 +9062,13 @@
 2026-07-01 08:01 ACCEPT [Google News CB] "Rupee flat, central bank's record forward liabilities tipped to balloo" | kw:central bank
 2026-07-01 08:01 ACCEPT [Google News CB] "European shares mixed ahead of eurozone Inflation, central bank heavyw" | kw:inflation,central bank
 2026-07-01 08:01 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 08:31 ACCEPT [OilPrice.com] "America Bets $50 Billion on Coal and Gas Power as Electricity Demand S" | kw:gas,fuel
+2026-07-01 08:31 ACCEPT [Google News HH] "Commodities trader Mercuria to form joint venture with Italian major E" | kw:commodities
+2026-07-01 08:31 ACCEPT [Google News HH] "Eni, Mercuria to Form Global Energy Commodities Trading Venture - Bloo" | kw:commodities
+2026-07-01 08:31 ACCEPT [Google News HH] "XLE vs USO: Energy Stocks or Direct Crude Oil Exposure? - EBC Financia" | kw:oil,crude
+2026-07-01 08:31 ACCEPT [Google News KL] "Silver Price Forecasts: XAG/USD dips below $58 weighed by higher US yi" | kw:lng,silver,rice
+2026-07-01 08:31 ACCEPT [Google News KL] "Jane Pauley Interview Gold Price In India (CMMBwLq4IF) - Mshale" | kw:gold,rice
+2026-07-01 08:31 ACCEPT [Google News NS] "A Bullish Surprise: USDA Stocks Report Ignites Grain Rally as Corn Inv" | kw:corn
+2026-07-01 08:31 ACCEPT [Google News NS] "Georgia expects stable wheat harvest, but food-grade share may decline" | kw:wheat,harvest
+2026-07-01 08:31 ACCEPT [Google News CB] "Gold hovers near 7-month low on firm Treasury yields, Fed rate outlook" | kw:gold,fed rate,treasury
+2026-07-01 08:31 SKIP_MORNING already_sent date=2026-07-01
