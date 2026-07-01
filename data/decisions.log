@@ -8937,3 +8937,12 @@
 2026-07-01 01:01 ACCEPT [Google News KL] "OCBC Just Cut Its Gold Forecast by $740. The Reason Is the Story. - Go" | kw:gold,silver
 2026-07-01 01:01 ACCEPT [Google News CB] "Former BOJ Board Member Shirai Says Yen Could Hit ¥165 - Japan Economy" | kw:boj
 2026-07-01 01:01 SKIP_MORNING already_sent date=2026-07-01
+2026-07-01 01:30 ACCEPT [BBC Business] "Anthropic says US lifts export ban on its advanced AI tools" | kw:export ban
+2026-07-01 01:30 ACCEPT [Al Jazeera] "Mbappe, Deschamps break World Cup records in Sweden thrashing" | kw:gold
+2026-07-01 01:31 ACCEPT [Google News HH] "Crude Oil Prices Decline Amid Reopening of Strait of Hormuz - GuruFocu" | kw:oil,crude,rice
+2026-07-01 01:31 ACCEPT [Google News HH] "USD/CAD Eyes Pullback as CAD/JPY Decouples from Crude Oil, AUD/CAD Sta" | kw:oil,crude
+2026-07-01 01:31 ACCEPT [Google News KL] "Gold's correction is a buying opportunity as governments won't tolerat" | kw:gold
+2026-07-01 01:31 ACCEPT [Google News KL] "Goldman Sachs Says “Gold Isn’t Over Yet”! Still Eyes $4,900 After 24% " | kw:gold,central bank
+2026-07-01 01:31 ACCEPT [Google News KL] "Gold flatlines near $4,000 as markets focus on US-Iran talks and upcom" | kw:gold
+2026-07-01 01:31 ACCEPT [Google News CB] "Gold set for worst quarterly loss in 13 years on hawkish Fed stance - " | kw:gold
+2026-07-01 01:31 SKIP_MORNING already_sent date=2026-07-01
