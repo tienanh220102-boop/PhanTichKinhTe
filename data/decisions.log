@@ -9770,3 +9770,13 @@
 2026-07-02 14:01 ACCEPT [Google News CB] "Labor Market Not a Source of Inflationary Pressure, Latest Report Show" | kw:inflation
 2026-07-02 14:01 SKIP_MORNING already_sent date=2026-07-02
 2026-07-02 14:01 SKIP_EVENING already_sent date=2026-07-02
+2026-07-02 14:31 ACCEPT [Al Jazeera] "With Hormuz reopened, has the oil shortage turned into a glut?" | kw:oil,shortage
+2026-07-02 14:31 ACCEPT [OilPrice.com] "Kyrgyzstan Scrambles for Backup Fuel Supplies as Russian Shortage Bite" | kw:gas,fuel,shortage
+2026-07-02 14:31 ACCEPT [Google News HH] "Nigeria becomes first OPEC member to join IEA - Quantum Commodity Inte" | kw:opec,commodity
+2026-07-02 14:31 ACCEPT [Google News HH] "Petrochemicals: From Crude Oil to High-Value Products. - Inspenet" | kw:oil,crude
+2026-07-02 14:31 ACCEPT [Google News KL] "Gold prices today, Thursday, July 2, 2026: Prices break above $4,100 f" | kw:gold,rice
+2026-07-02 14:31 ACCEPT [Google News KL] "Gold falls below $4,000 as Fed rate fears mount - MSN" | kw:gold,fed rate
+2026-07-02 14:31 ACCEPT [Google News NS] "Iowa sweet corn returns for July Fourth. Where to find a stand nearby." | kw:corn
+2026-07-02 14:31 ACCEPT [Google News NS] "Wheat gains as USDA points to the smallest harvested area since 1877 🔼" | kw:wheat,harvest
+2026-07-02 14:31 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 14:31 SKIP_EVENING already_sent date=2026-07-02
