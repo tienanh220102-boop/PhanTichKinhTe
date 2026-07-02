@@ -9710,3 +9710,20 @@
 2026-07-02 12:03 ACCEPT [Google News HH] "Crude oil futures fall on weak global cues - ET EnergyWorld" | kw:oil,crude
 2026-07-02 12:03 ACCEPT [Google News KL] "Gold prices continued to rise, surpassing $4,070 per ounce, sparking a" | kw:gold,rice
 2026-07-02 12:03 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 12:31 ACCEPT [Google News HH] "Gold Price Today on July 02, 2026 - USA Today" | kw:gold,rice
+2026-07-02 12:31 ACCEPT [Google News HH] "US commercial crude oil stocks fall to lowest level since 2018 - Haric" | kw:oil,crude
+2026-07-02 12:31 ACCEPT [Google News HH] "Crude Oil H2 2026 – Crude Oil Eyes Stabilization as Driving Season Beg" | kw:oil,crude
+2026-07-02 12:31 ACCEPT [Google News HH] "OPEC member Nigeria joins IEA as an associate member - middle-east-onl" | kw:opec,wti
+2026-07-02 12:31 ACCEPT [Google News HH] "Gold Price Prediction July 2026: Can Gold Recover After Its Sharp Sell" | kw:gold,rice
+2026-07-02 12:31 ACCEPT [Google News KL] "Gold prices today, Thursday, July 2, 2026: Prices stay below $4,100 ah" | kw:gold,rice
+2026-07-02 12:31 ACCEPT [Google News KL] "Today’s Silver Price For 2 July 2026 - Forbes" | kw:silver,rice
+2026-07-02 12:31 ACCEPT [Google News KL] "Gold Mid-Year Outlook 2026: Point Break - Seeking Alpha" | kw:gold
+2026-07-02 12:31 ACCEPT [Google News KL] "Silver prices today, Thursday, July 2: Prices hit $60 ahead of June em" | kw:silver,rice
+2026-07-02 12:31 ACCEPT [Google News KL] "Silver Price Today: Silver Rises 2.11% on July 02, 2026 - USA Today" | kw:silver,rice
+2026-07-02 12:31 ACCEPT [Google News KL] "Gold surges to new high globally, climbs Rs9,100 per tola locally - Th" | kw:gold
+2026-07-02 12:31 ACCEPT [Google News NS] "Grain Trends: corn up, but wheat not exciting 01 July 2026 Premium - f" | kw:wheat,corn
+2026-07-02 12:31 ACCEPT [Google News NS] "Laborers are busy filling corn into bags at the grain market. - | Asso" | kw:corn
+2026-07-02 12:31 ACCEPT [Google News CB] "VTV’s Next 12 Months Hinge on One Fed Inflation Signal: Here’s What to" | kw:inflation
+2026-07-02 12:31 ACCEPT [Google News CB] "HELOC and home equity loan rates, Thursday, July 2: Borrowing need wil" | kw:interest rate
+2026-07-02 12:31 ACCEPT [Google News CB] "VTV’s Next 12 Months Hinge on One Fed Inflation Signal: Here’s What to" | kw:inflation
+2026-07-02 12:31 SKIP_MORNING already_sent date=2026-07-02
