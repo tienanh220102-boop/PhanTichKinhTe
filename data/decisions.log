@@ -9742,3 +9742,13 @@
 2026-07-02 13:01 ACCEPT [Google News CB] "US Stocks Advance as Jobs Data Dims Prospect of Fed Rate Hike - Bloomb" | kw:fed rate,rate hike
 2026-07-02 13:01 SKIP_MORNING already_sent date=2026-07-02
 2026-07-02 13:02 SENT_EVENING articles=20 date=2026-07-02 force=False
+2026-07-02 13:31 ACCEPT [Google News HH] "Without Crude Oil, Society Is Dismantled - The Heartland Institute" | kw:oil,crude
+2026-07-02 13:31 ACCEPT [Google News HH] "Iraq holds 8M+ stranded crude oil barrels - Shafaq News | Latest break" | kw:oil,crude
+2026-07-02 13:31 ACCEPT [Google News HH] "Asia's crude oil imports tick up in June but uncertainty reigns - صحيف" | kw:oil,crude
+2026-07-02 13:31 ACCEPT [Google News HH] "Soft commodities rebound as weather risks and supply fears return - Sa" | kw:commodities
+2026-07-02 13:31 ACCEPT [Google News KL] "Gold rises on soft jobs data and weaker oil as focus shifts to U.S. pa" | kw:oil,gold
+2026-07-02 13:31 ACCEPT [Google News CB] "Fed’s Daly Says Inflation Should Cool But Warns of Uncertainty - Bloom" | kw:inflation
+2026-07-02 13:31 ACCEPT [Google News CB] "Bonds Rally as Weak Jobs Report Dims Fed Rate-Hike Expectations - Bloo" | kw:fed rate
+2026-07-02 13:31 ACCEPT [Google News CB] "ECB and Fed adopt ‘dovish’ stance in Sintra - The Corner .eu" | kw:corn,ecb
+2026-07-02 13:31 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 13:31 SKIP_EVENING already_sent date=2026-07-02
