@@ -9788,3 +9788,21 @@
 2026-07-02 14:36 ACCEPT [Google News CB] "Daily: Warsh’s focus on price stability does not point to rate hikes -" | kw:rice,rate hike
 2026-07-02 14:36 SKIP_MORNING already_sent date=2026-07-02
 2026-07-02 14:36 SKIP_EVENING already_sent date=2026-07-02
+2026-07-02 15:01 ACCEPT [OilPrice.com] "Russia's Fuel Crisis Spreads to Central Asia as Drone Strikes Escalate" | kw:gas,fuel,shortage
+2026-07-02 15:01 ACCEPT [Google News HH] "Alcoa finally goes back on offense: Hotter Commodities - Fastmarkets" | kw:commodities
+2026-07-02 15:01 ACCEPT [Google News HH] "Crude Oil 2026 Price Forecast – WTI Eyes Stabilization as Driving Seas" | kw:oil,crude,wti
+2026-07-02 15:01 ACCEPT [Google News HH] "Global commodities company ETG enters Brazil with Tocantins fertilizer" | kw:commodities
+2026-07-02 15:01 ACCEPT [Google News HH] "Gold Price Analysis – Gold Gains Capped by Persistent High Interest Ra" | kw:gold,rice,interest rate
+2026-07-02 15:01 ACCEPT [Google News HH] "Crude oil futures slip ₹48 to ₹6,477 on weak global cues - ET Auto" | kw:oil,crude
+2026-07-02 15:01 ACCEPT [Google News KL] "Silver Price Analysis – Silver Eyes 50-Day EMA as Yield Headwinds Loom" | kw:silver,rice
+2026-07-02 15:01 ACCEPT [Google News KL] "WGC: Gold’s ‘True Buyers’ Never Left - NAI500" | kw:gold
+2026-07-02 15:01 ACCEPT [Google News NS] "Corn Acres Fall as Soybeans Gain Ground - RFD-TV" | kw:corn,soybean
+2026-07-02 15:01 ACCEPT [Google News NS] "Corn acres slightly higher than expected - AgUpdate" | kw:corn
+2026-07-02 15:01 ACCEPT [Google News NS] "Corn, Soybeans Open 2¢ Higher | Thursday, July 2, 2026 - Successful Fa" | kw:corn,soybean
+2026-07-02 15:01 ACCEPT [Google News NS] "Local sweet corn harvests delayed ahead of holiday weekend - Chronicle" | kw:corn,harvest
+2026-07-02 15:01 ACCEPT [Google News CB] "Why Are Investors Divided Over the Path of Treasury Yields? - CME Grou" | kw:treasury
+2026-07-02 15:01 ACCEPT [Google News CB] "Goldman Sachs' Hatzius on June jobs report's implications for Fed deci" | kw:wti,gold
+2026-07-02 15:01 ACCEPT [Google News CB] "Cooler June jobs report to keep Fed focused on inflation, with possibi" | kw:inflation
+2026-07-02 15:01 ACCEPT [Google News CB] "Wall Street rises as softer jobs data calms rate-hike fears - The Detr" | kw:lng
+2026-07-02 15:01 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 15:01 SKIP_EVENING already_sent date=2026-07-02
