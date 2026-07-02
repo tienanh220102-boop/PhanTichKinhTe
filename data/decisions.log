@@ -9780,3 +9780,11 @@
 2026-07-02 14:31 ACCEPT [Google News NS] "Wheat gains as USDA points to the smallest harvested area since 1877 🔼" | kw:wheat,harvest
 2026-07-02 14:31 SKIP_MORNING already_sent date=2026-07-02
 2026-07-02 14:31 SKIP_EVENING already_sent date=2026-07-02
+2026-07-02 14:36 ACCEPT [Al Jazeera] "Who is Iranian oil tycoon Shamkhani whose ship is stranded in Hormuz?" | kw:oil,sanction,shipping
+2026-07-02 14:36 ACCEPT [Google News HH] "8 million barrels of Iraqi crude oil still trapped on tankers - IraqiN" | kw:oil,crude
+2026-07-02 14:36 ACCEPT [Google News KL] "Gold prices jump 2.5% as weak US jobs data cools Fed hike bets - Anado" | kw:gold,rice
+2026-07-02 14:36 ACCEPT [Google News KL] "World Gold Council Warns: Gold Price Below $4,000 May Trigger Further " | kw:gold,rice
+2026-07-02 14:36 ACCEPT [Google News KL] "Gold Jumps as Weak Jobs Data Dims Fed Hike Bets - TradingView" | kw:gold
+2026-07-02 14:36 ACCEPT [Google News CB] "Daily: Warsh’s focus on price stability does not point to rate hikes -" | kw:rice,rate hike
+2026-07-02 14:36 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 14:36 SKIP_EVENING already_sent date=2026-07-02
