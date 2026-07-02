@@ -9676,3 +9676,13 @@
 2026-07-02 10:31 ACCEPT [Google News CB] "AI hopes and fears dominate global central bank meet - Hawaii Tribune-" | kw:central bank
 2026-07-02 10:31 ACCEPT [Google News CB] "European stocks trade cautiously as central bank signals temper optimi" | kw:central bank
 2026-07-02 10:31 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 11:01 ACCEPT [Google News HH] "US commercial crude oil stocks fall to lowest level since 2018 - Haric" | kw:oil,crude
+2026-07-02 11:01 ACCEPT [Google News HH] "Rupee Closes Lower At 95.34 Against US Dollar Despite Easing Crude Oil" | kw:oil,crude,rice
+2026-07-02 11:01 ACCEPT [Google News HH] "Commodities Roundup: Crude Oil Continues to Fall; Gold Rises; Aluminum" | kw:oil,crude,gold
+2026-07-02 11:01 ACCEPT [Google News KL] "Gold climbs on soft employment data, lower oil ahead of US payrolls re" | kw:oil,gold
+2026-07-02 11:01 ACCEPT [Google News KL] "Idaho Copper (NYSE: COPR) prices $18M offering and secures NYSE Americ" | kw:copper,rice
+2026-07-02 11:01 ACCEPT [Google News KL] "ZAWYA: Gold prices in Oman dip 27% from January peak - TradingView" | kw:wti,gold,rice
+2026-07-02 11:01 ACCEPT [Google News NS] "2026 Corn Market: Separated Domestic and Overseas Performances - SunSi" | kw:corn
+2026-07-02 11:01 ACCEPT [Google News CB] "Japan government panel member calls for moderate BOJ rate hikes - Reut" | kw:rate hike,boj
+2026-07-02 11:01 ACCEPT [Google News CB] "ECB rejects calls to ease capital rules; Megadeals drive global M&A to" | kw:ecb
+2026-07-02 11:01 SKIP_MORNING already_sent date=2026-07-02
