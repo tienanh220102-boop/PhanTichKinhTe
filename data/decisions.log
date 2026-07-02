@@ -9666,3 +9666,13 @@
 2026-07-02 10:01 ACCEPT [Google News NS] "India increased corn exports almost 5 times - UkrAgroConsult" | kw:corn
 2026-07-02 10:01 ACCEPT [Google News CB] "FTSE 100 rises as central bank optimism offsets weaker oil prices - Ya" | kw:oil,rice,central bank
 2026-07-02 10:01 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 10:31 ACCEPT [NASDAQ Commod] "Gold Holds Gain As Inflation Concerns Ease" | kw:gold,rice,inflation
+2026-07-02 10:31 ACCEPT [NASDAQ Commod] "Oil Extends Slide Amid Ample Supply" | kw:oil,crude,brent
+2026-07-02 10:31 ACCEPT [Google News HH] "Gold Price Forecast: Strong Dollar Pressures Gold as China Buys the Di" | kw:gold,rice
+2026-07-02 10:31 ACCEPT [Google News HH] "Eni, Mercuria to establish commodities trading joint venture - MSN" | kw:commodities
+2026-07-02 10:31 ACCEPT [Google News KL] "Exercise Scientist Reacts To Arnold Schwarzenegger’s Pumping Iron Silv" | kw:silver,iron,rice
+2026-07-02 10:31 ACCEPT [Google News KL] "Gold prices climb in Baghdad, Erbil markets - Shafaq News | Latest bre" | kw:gold,rice
+2026-07-02 10:31 ACCEPT [Google News KL] "Copper to hit speed bump from data centre pushback and aluminium pivot" | kw:copper
+2026-07-02 10:31 ACCEPT [Google News CB] "AI hopes and fears dominate global central bank meet - Hawaii Tribune-" | kw:central bank
+2026-07-02 10:31 ACCEPT [Google News CB] "European stocks trade cautiously as central bank signals temper optimi" | kw:central bank
+2026-07-02 10:31 SKIP_MORNING already_sent date=2026-07-02
