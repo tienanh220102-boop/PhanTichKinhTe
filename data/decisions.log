@@ -9565,3 +9565,11 @@
 2026-07-02 05:01 ACCEPT [Google News KL] "Gold, silver prices today, 2 July: Check retail rates of 24K, 22K gold" | kw:gold,silver,rice
 2026-07-02 05:01 ACCEPT [Google News CB] "Vietnam Central Bank Warns on Inflation, Acts to Stabilize Dong - Bloo" | kw:inflation,central bank
 2026-07-02 05:01 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 05:31 ACCEPT [Al Jazeera] "Oil prices fall to levels not seen since start of US-Israel war on Ira" | kw:oil,brent,rice
+2026-07-02 05:31 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Gold Holds $4,000 Triple Bottom" | kw:gold,silver,rice
+2026-07-02 05:31 ACCEPT [Google News KL] "Gold, silver price prediction: With gold, silver prices down, what sho" | kw:gold,silver,rice
+2026-07-02 05:31 ACCEPT [Google News NS] "Mysteel China edible oils market da... - mysteel.net" | kw:oil,steel
+2026-07-02 05:31 ACCEPT [Google News CB] "Sinking yen and robust economy support BOJ case for earlier rate hike " | kw:rate hike,boj
+2026-07-02 05:31 ACCEPT [Google News CB] "Indian central bank’s AI rules aim to ease fears over credit risk - Th" | kw:central bank
+2026-07-02 05:31 ACCEPT [Google News CB] "New Fed Chair Noncommittal on Interest Rates, Emphatic on Central Bank" | kw:central bank,interest rate
+2026-07-02 05:31 SKIP_MORNING already_sent date=2026-07-02
