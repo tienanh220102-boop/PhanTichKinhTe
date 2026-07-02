@@ -9550,3 +9550,11 @@
 2026-07-02 04:01 ACCEPT [Google News CB] "Sliding Yen, Robust Economy Give BOJ More Grounds for Early Hike - Blo" | kw:boj
 2026-07-02 04:01 ACCEPT [Google News CB] "Vietnam Central Bank Warns on Inflation, Acts to Stabilize Dong - Bloo" | kw:inflation,central bank
 2026-07-02 04:01 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 04:31 ACCEPT [Google News HH] "Crude oil fell for three consecutive days, most metals fell, SHFE zinc" | kw:oil,crude,silver
+2026-07-02 04:31 ACCEPT [Google News KL] "Gold trades with positive bias on softer USD; Fed hike bets cap gains " | kw:gold
+2026-07-02 04:31 ACCEPT [Google News KL] "Gold Price Forecast: Waller’s Speech Weakens Rate Hike Expectations, C" | kw:gold,rice,rate hike
+2026-07-02 04:31 ACCEPT [Google News NS] "Mysteel soybean and relatives marke... - mysteel.net" | kw:steel,soybean
+2026-07-02 04:31 ACCEPT [Google News NS] "South American FOB soybean oil values remain resilient as basis absorb" | kw:oil,soybean
+2026-07-02 04:31 ACCEPT [Google News NS] "2026 Corn Market: Separated Domestic and Overseas Performances - Sunsi" | kw:corn
+2026-07-02 04:31 ACCEPT [Google News NS] "Wheat Finds Strength While Traders Watch the Forecast - Dakota News Ne" | kw:wheat
+2026-07-02 04:31 SKIP_MORNING already_sent date=2026-07-02
