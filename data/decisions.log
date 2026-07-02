@@ -9657,3 +9657,12 @@
 2026-07-02 09:31 SKIP_MORNING already_sent date=2026-07-02
 2026-07-02 09:41 ACCEPT [Google News HH] "Malaysia Gold Price Rises Today, Data Shows - CryptoRank" | kw:gold,rice
 2026-07-02 09:41 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 10:01 ACCEPT [OilPrice.com] "Saudi Arabia Rushes Crude Exports Through Reopened Strait of Hormuz" | kw:oil,crude
+2026-07-02 10:01 ACCEPT [Google News HH] "Saudi Arabia seeks proposals for commodities exchange launch - Arabian" | kw:commodities
+2026-07-02 10:01 ACCEPT [Google News HH] "Gold price drops ₹166 to ₹1,44,264/10g in futures trade - BusinessLine" | kw:gold,rice
+2026-07-02 10:01 ACCEPT [Google News KL] "Silver Price Today: Silver Rises, Tracking Broader Precious Metals Str" | kw:silver,rice
+2026-07-02 10:01 ACCEPT [Google News KL] "Silver price today: Silver rises, according to FXStreet data - Mitrade" | kw:silver,rice
+2026-07-02 10:01 ACCEPT [Google News KL] "Precious metals bucked the trend and surged over 4%, Zhaojin Gold hit " | kw:gold,silver
+2026-07-02 10:01 ACCEPT [Google News NS] "India increased corn exports almost 5 times - UkrAgroConsult" | kw:corn
+2026-07-02 10:01 ACCEPT [Google News CB] "FTSE 100 rises as central bank optimism offsets weaker oil prices - Ya" | kw:oil,rice,central bank
+2026-07-02 10:01 SKIP_MORNING already_sent date=2026-07-02
