@@ -9615,3 +9615,8 @@
 2026-07-02 07:01 ACCEPT [Google News CB] "Japan government panel member calls for moderate BOJ rate hikes - The " | kw:rate hike,boj
 2026-07-02 07:01 ACCEPT [Google News CB] "Why Are Investors Divided Over the Path of Treasury Yields? - CME Grou" | kw:treasury
 2026-07-02 07:01 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 07:31 ACCEPT [Google News HH] "Global Commodity Market Outlook: Gold, Silver and Crude Oil - Investin" | kw:oil,crude,gold
+2026-07-02 07:31 ACCEPT [Google News NS] "Brazil demonstrated strong soybean export performance in June - UkrAgr" | kw:soybean
+2026-07-02 07:31 ACCEPT [Google News NS] "Wheat falls to five-month low as Egypt’s demand weakens - UkrAgroConsu" | kw:wheat
+2026-07-02 07:31 ACCEPT [Google News CB] "Japan government panel member calls for moderate BOJ rate hikes - WNWN" | kw:rate hike,boj
+2026-07-02 07:31 SKIP_MORNING already_sent date=2026-07-02
