@@ -9630,3 +9630,15 @@
 2026-07-02 08:01 ACCEPT [Google News NS] "French heatwave and Spanish imports reshape Europe’s corn market - Ukr" | kw:corn
 2026-07-02 08:01 ACCEPT [Google News CB] "Central bank gold statistics: Central banks remain committed to gold |" | kw:gold,central bank
 2026-07-02 08:01 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 08:31 ACCEPT [Al Jazeera] "‘The crisis is deep’: The view from Russia as fuel shortages worsen" | kw:fuel,shortage
+2026-07-02 08:31 ACCEPT [OilPrice.com] "Chinese Teapots Snap Up Middle East Crude As Prices Slide" | kw:crude,rice
+2026-07-02 08:31 ACCEPT [Google News HH] "EIA reports a decline in US crude oil stocks - engine.online" | kw:oil,crude
+2026-07-02 08:31 ACCEPT [Google News HH] "Crude Oil Futures Fall Amid Weak Global Cues - Rediff MoneyWiz" | kw:oil,crude
+2026-07-02 08:31 ACCEPT [Google News KL] "Freeport-McMoRan: AI-Driven Copper Demand Is Priced In - Seeking Alpha" | kw:copper,rice
+2026-07-02 08:31 ACCEPT [Google News KL] "[SMM Nickel Intermediate Products Daily Review] On July 2, nickel pric" | kw:nickel,rice
+2026-07-02 08:31 ACCEPT [Google News KL] "What does the second half of 2026 hold for gold prices? - Gulf Busines" | kw:gold,rice
+2026-07-02 08:31 ACCEPT [Google News NS] "Updated Grain Prices in Ukraine Announced - Новини аграрного бізнесу" | kw:rice
+2026-07-02 08:31 ACCEPT [Google News CB] "ECB pushes back on calls for lower bank capital levels - Reuters" | kw:ecb
+2026-07-02 08:31 ACCEPT [Google News CB] "In Sintra, world's central bankers find ally in new Fed chief - Reuter" | kw:central bank
+2026-07-02 08:31 ACCEPT [Google News CB] "UBS has enough capital to satisfy planned Swiss reforms, central bank " | kw:central bank
+2026-07-02 08:31 SKIP_MORNING already_sent date=2026-07-02
