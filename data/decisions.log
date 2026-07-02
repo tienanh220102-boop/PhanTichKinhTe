@@ -9838,3 +9838,15 @@
 2026-07-02 16:01 ACCEPT [Google News CB] "Senior Economist: Markets Have The Fed Wrong, Interest Rates Likely to" | kw:interest rate
 2026-07-02 16:01 SKIP_MORNING already_sent date=2026-07-02
 2026-07-02 16:01 SKIP_EVENING already_sent date=2026-07-02
+2026-07-02 16:31 ACCEPT [Google News HH] "Crude oil prices see biggest drop since COVID-19 pandemic - KSDK" | kw:oil,crude,rice
+2026-07-02 16:31 ACCEPT [Google News HH] "Crude Oil Down Over 1%; US Initial Jobless Claims Fall - Benzinga" | kw:oil,crude
+2026-07-02 16:31 ACCEPT [Google News HH] "Puri links fuel price cuts to sustained crude oil decline - MSN" | kw:oil,crude,fuel
+2026-07-02 16:31 ACCEPT [Google News HH] "Gold price jumps above $4,100 as U.S. economy created 57k jobs in June" | kw:gold,rice
+2026-07-02 16:31 ACCEPT [Google News KL] "Gold and Silver Jump as Weak Jobs Data Crushes Fed Rate-Rise Bets - Bu" | kw:gold,silver,fed rate
+2026-07-02 16:31 ACCEPT [Google News KL] "Barrick Mining rises as a sharp gold rally boosts sentiment - Quiver Q" | kw:gold,quantitative
+2026-07-02 16:31 ACCEPT [Google News NS] "Export Report: Corn sales remain in the pole position - Farm Progress" | kw:corn
+2026-07-02 16:31 ACCEPT [Google News CB] "Why Are Investors Divided Over the Path of Treasury Yields? - CME Grou" | kw:treasury
+2026-07-02 16:31 ACCEPT [Google News CB] "Senior Economist: Markets Have The Fed Wrong, Interest Rates Likely to" | kw:interest rate
+2026-07-02 16:31 ACCEPT [Google News CB] "FTSE 100 rises as US jobs data eases Fed rate hike fears - Yahoo Finan" | kw:fed rate,rate hike
+2026-07-02 16:31 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 16:31 SKIP_EVENING already_sent date=2026-07-02
