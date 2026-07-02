@@ -9707,3 +9707,6 @@
 2026-07-02 12:01 ACCEPT [Google News HH] "Nigeria becomes first OPEC member to join IEA as associate - Latest ne" | kw:opec
 2026-07-02 12:01 ACCEPT [Google News KL] "Central Banks Buy 41 Tonnes of Gold While Prices Log a 4th Straight Mo" | kw:gold,rice,central bank
 2026-07-02 12:01 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 12:03 ACCEPT [Google News HH] "Crude oil futures fall on weak global cues - ET EnergyWorld" | kw:oil,crude
+2026-07-02 12:03 ACCEPT [Google News KL] "Gold prices continued to rise, surpassing $4,070 per ounce, sparking a" | kw:gold,rice
+2026-07-02 12:03 SKIP_MORNING already_sent date=2026-07-02
