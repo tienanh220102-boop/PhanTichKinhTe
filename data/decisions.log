@@ -9655,3 +9655,5 @@
 2026-07-02 09:31 ACCEPT [Google News KL] "Gold, silver price prediction: With gold, silver prices down, what sho" | kw:gold,silver,rice
 2026-07-02 09:31 ACCEPT [Google News KL] "Gold prices climb in Baghdad, Erbil markets - Shafaq News | Latest bre" | kw:gold,rice
 2026-07-02 09:31 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 09:41 ACCEPT [Google News HH] "Malaysia Gold Price Rises Today, Data Shows - CryptoRank" | kw:gold,rice
+2026-07-02 09:41 SKIP_MORNING already_sent date=2026-07-02
