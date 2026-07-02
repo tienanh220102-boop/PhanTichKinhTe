@@ -9543,3 +9543,10 @@
 2026-07-02 03:31 ACCEPT [Google News NS] "China resumes US soybean purchases under trade deal with Trump, but fu" | kw:soybean
 2026-07-02 03:31 ACCEPT [Google News CB] "Sliding Yen, Robust Economy Give BOJ More Grounds for Early Hike - Blo" | kw:boj
 2026-07-02 03:31 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 04:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD rises above $60.00 amid less hawkish Fe" | kw:silver,rice
+2026-07-02 04:01 ACCEPT [Google News KL] "Gold Price Forecast: XAU/USD finds acceptance above $4,000, but US NFP" | kw:gold,rice
+2026-07-02 04:01 ACCEPT [Google News KL] "Gold prices see biggest quarterly drop in 13 years: Is the bull market" | kw:gold,rice
+2026-07-02 04:01 ACCEPT [Google News KL] "Gold edges higher on softer USD as Fed hike bets cap gains before NFP " | kw:gold
+2026-07-02 04:01 ACCEPT [Google News CB] "Sliding Yen, Robust Economy Give BOJ More Grounds for Early Hike - Blo" | kw:boj
+2026-07-02 04:01 ACCEPT [Google News CB] "Vietnam Central Bank Warns on Inflation, Acts to Stabilize Dong - Bloo" | kw:inflation,central bank
+2026-07-02 04:01 SKIP_MORNING already_sent date=2026-07-02
