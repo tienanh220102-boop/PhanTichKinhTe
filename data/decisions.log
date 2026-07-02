@@ -9504,3 +9504,9 @@
 2026-07-02 00:31 ACCEPT [Google News NS] "How to beat up a soybean and boost yield - Farm Progress" | kw:soybean
 2026-07-02 00:31 ACCEPT [Google News CB] "Fed’s Williams: Current Monetary Policy Stance Well Positioned to Rest" | kw:inflation,monetary policy
 2026-07-02 00:32 SENT_MORNING articles=20 date=2026-07-02 force=False
+2026-07-02 01:01 ACCEPT [Google News HH] "Why the U.A.E. Broke Up With OPEC - WSJ" | kw:opec
+2026-07-02 01:01 ACCEPT [Google News HH] "Commodities Broker Pulled Back Into Tax Dividend Fraud Suit by UK Cour" | kw:commodities
+2026-07-02 01:01 ACCEPT [Google News HH] "Brent Crude Oil Erases Entire War Premium, Falls 40% to Pre-War Levels" | kw:oil,crude,brent
+2026-07-02 01:01 ACCEPT [Google News KL] "Gold prices steady with nonfarm payrolls in focus - Investing.com" | kw:gold,rice
+2026-07-02 01:01 ACCEPT [Google News CB] "Gold Holds Gain After Warsh Remarks Ease Fed Rate-Hike Prospects - Blo" | kw:gold,fed rate
+2026-07-02 01:01 SKIP_MORNING already_sent date=2026-07-02
