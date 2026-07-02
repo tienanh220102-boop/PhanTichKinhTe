@@ -9602,3 +9602,8 @@
 2026-07-02 06:22 ACCEPT [Google News CB] "ECB Split on Next Rate Move as Inflation Sinks - Bloomberg.com" | kw:inflation,ecb
 2026-07-02 06:22 ACCEPT [Google News CB] "Sliding Yen, Robust Economy Give BOJ More Grounds for Early Hike - Blo" | kw:boj
 2026-07-02 06:22 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 06:31 ACCEPT [Google News HH] "Crude Oil Futures (AUG6) Price Trend Today | Quotes & News - Moomoo" | kw:oil,crude,rice
+2026-07-02 06:31 ACCEPT [Google News KL] "Gold and silver rebound as Fed hike fears ease - MSN" | kw:gold,silver
+2026-07-02 06:31 ACCEPT [Google News KL] "Gold price slips below $4,000 as safe haven demand fades after Iran co" | kw:gold,rice
+2026-07-02 06:31 ACCEPT [Google News CB] "U.S. Treasury yields rise as investors await June jobs report - CNBC" | kw:treasury
+2026-07-02 06:31 SKIP_MORNING already_sent date=2026-07-02
