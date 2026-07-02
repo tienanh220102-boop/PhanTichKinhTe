@@ -9594,3 +9594,11 @@
 2026-07-02 06:01 ACCEPT [Google News CB] "Vietnam Central Bank Warns on Inflation, Acts to Stabilize Dong - Bloo" | kw:inflation,central bank
 2026-07-02 06:01 ACCEPT [Google News CB] "Fed Chair Warsh emphasizes independence, signals focus on inflation - " | kw:inflation
 2026-07-02 06:01 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 06:22 ACCEPT [OilPrice.com] "Iran Exports Crude at 20% Premium Even as Unsold Barrels Pile Up at Se" | kw:oil,crude
+2026-07-02 06:22 ACCEPT [Google News HH] "OPEC Sees Global Oil Demand Rising to 124 Million Barrels Per Day by 2" | kw:oil,opec
+2026-07-02 06:22 ACCEPT [Google News HH] "50 California Geography Facts You Never Knew Gold Price In India (LrKM" | kw:gold,rice
+2026-07-02 06:22 ACCEPT [Google News KL] "Centerra Gold: There Is Upside, But Spot Prices Decide Movements (NYSE" | kw:gold,rice
+2026-07-02 06:22 ACCEPT [Google News NS] "SASAKAWA AFRICA ASSOCIATION ANCHORS ‘SOYLINK’ ALLIANCE TO BOOST SOYBEA" | kw:soybean
+2026-07-02 06:22 ACCEPT [Google News CB] "ECB Split on Next Rate Move as Inflation Sinks - Bloomberg.com" | kw:inflation,ecb
+2026-07-02 06:22 ACCEPT [Google News CB] "Sliding Yen, Robust Economy Give BOJ More Grounds for Early Hike - Blo" | kw:boj
+2026-07-02 06:22 SKIP_MORNING already_sent date=2026-07-02
