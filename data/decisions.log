@@ -9558,3 +9558,10 @@
 2026-07-02 04:31 ACCEPT [Google News NS] "2026 Corn Market: Separated Domestic and Overseas Performances - Sunsi" | kw:corn
 2026-07-02 04:31 ACCEPT [Google News NS] "Wheat Finds Strength While Traders Watch the Forecast - Dakota News Ne" | kw:wheat
 2026-07-02 04:31 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 05:01 ACCEPT [Google News HH] "Dow Jones Top Energy Headlines at 12 AM ET: U.S. Crude Oil Inventories" | kw:oil,crude
+2026-07-02 05:01 ACCEPT [Google News HH] "India Gold price today: Gold rises, according to FXStreet data - Mitra" | kw:gold,rice
+2026-07-02 05:01 ACCEPT [Google News HH] "Brent crude drops to $70.65 as US-Iran ceasefire eases supply fears | " | kw:crude,brent
+2026-07-02 05:01 ACCEPT [Google News KL] "[SMM Nickel Intermediate Products Daily Review] On July 2, nickel pric" | kw:nickel,rice
+2026-07-02 05:01 ACCEPT [Google News KL] "Gold, silver prices today, 2 July: Check retail rates of 24K, 22K gold" | kw:gold,silver,rice
+2026-07-02 05:01 ACCEPT [Google News CB] "Vietnam Central Bank Warns on Inflation, Acts to Stabilize Dong - Bloo" | kw:inflation,central bank
+2026-07-02 05:01 SKIP_MORNING already_sent date=2026-07-02
