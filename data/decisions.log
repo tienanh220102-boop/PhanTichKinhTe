@@ -9510,3 +9510,9 @@
 2026-07-02 01:01 ACCEPT [Google News KL] "Gold prices steady with nonfarm payrolls in focus - Investing.com" | kw:gold,rice
 2026-07-02 01:01 ACCEPT [Google News CB] "Gold Holds Gain After Warsh Remarks Ease Fed Rate-Hike Prospects - Blo" | kw:gold,fed rate
 2026-07-02 01:01 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 01:31 ACCEPT [Google News HH] "BOK expects inflation to ease in July on lower crude oil prices - Yonh" | kw:oil,crude,rice
+2026-07-02 01:31 ACCEPT [Google News HH] "Crude oil drops over 2%, metals show mixed performance, LME zinc falls" | kw:oil,crude,gold
+2026-07-02 01:31 ACCEPT [Google News CB] "Fed’s Warsh Says Inflation Still Too High, but Now Poses Less Risk - T" | kw:inflation
+2026-07-02 01:31 ACCEPT [Google News CB] "Gold Holds Gain After Warsh Remarks Ease Fed Rate-Hike Prospects - Blo" | kw:gold,fed rate
+2026-07-02 01:31 ACCEPT [Google News CB] "Warsh drops inflation bombshell that could reset interest-rate bets - " | kw:inflation
+2026-07-02 01:31 SKIP_MORNING already_sent date=2026-07-02
