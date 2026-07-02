@@ -9823,3 +9823,18 @@
 2026-07-02 15:31 ACCEPT [Google News CB] "Stocks Climb as Fed Rate Hike Fears Ease on a Weak Jobs Report - Barch" | kw:fed rate,rate hike
 2026-07-02 15:31 SKIP_MORNING already_sent date=2026-07-02
 2026-07-02 15:31 SKIP_EVENING already_sent date=2026-07-02
+2026-07-02 16:01 ACCEPT [OilPrice.com] "Oil Glut Calls May Be Getting Ahead of Reality" | kw:oil,crude,rice
+2026-07-02 16:01 ACCEPT [Google News HH] "Live Gold Prices | Gold News And Analysis | Mining News | KITCO - KITC" | kw:gold,rice
+2026-07-02 16:01 ACCEPT [Google News HH] "Saudi crude oil exports approach pre-war levels, and the resumption of" | kw:oil,crude,shipping
+2026-07-02 16:01 ACCEPT [Google News KL] "Silver's price is down 49% since January. Is it still a good investmen" | kw:silver,rice
+2026-07-02 16:01 ACCEPT [Google News KL] "Gold Jumps 2.5%, Silver Surges 3.85% as Rate-Hike Bets Unwind Ahead of" | kw:gold,silver
+2026-07-02 16:01 ACCEPT [Google News KL] "AngloGold Ashanti vs. Newmont: Which Gold Mining Stock Is a Better Buy" | kw:gold
+2026-07-02 16:01 ACCEPT [Google News KL] "Silver Price Forecast: Weak NFP pushes XAG/USD to the top of its weekl" | kw:silver,rice
+2026-07-02 16:01 ACCEPT [Google News NS] "USDA Signals Big Soybean Crop—But Strong Demand Keeps Markets Watching" | kw:soybean
+2026-07-02 16:01 ACCEPT [Google News NS] "Cambodia’s corn production and exports to recover in 2026/27 - UkrAgro" | kw:corn
+2026-07-02 16:01 ACCEPT [Google News CB] "Fed agencies approve environmental review for I-5 Bridge replacement -" | kw:iron
+2026-07-02 16:01 ACCEPT [Google News CB] "Watch Fed's Daly Sees Inflation Slowing, Warns of Uncertainties - Bloo" | kw:inflation
+2026-07-02 16:01 ACCEPT [Google News CB] "Danish Central Bank Intervenes to Defend Krone Peg After Slide - Bloom" | kw:lng,central bank
+2026-07-02 16:01 ACCEPT [Google News CB] "Senior Economist: Markets Have The Fed Wrong, Interest Rates Likely to" | kw:interest rate
+2026-07-02 16:01 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 16:01 SKIP_EVENING already_sent date=2026-07-02
