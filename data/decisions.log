@@ -9649,3 +9649,9 @@
 2026-07-02 09:01 ACCEPT [Google News NS] "China resumes US soybean purchases under trade deal with Trump, but fu" | kw:soybean
 2026-07-02 09:01 ACCEPT [Google News NS] "Ukraine opens registration for duty-free soybean, rapeseed exports thr" | kw:soybean
 2026-07-02 09:01 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 09:31 ACCEPT [OilPrice.com] "AI Boom Drives Record Surge in Battery Demand" | kw:easing
+2026-07-02 09:31 ACCEPT [Google News KL] "Nicki Minaj- Grand Piano (Official Video) Silver Price Today (ShW7H0bj" | kw:silver,rice
+2026-07-02 09:31 ACCEPT [Google News KL] "Gold Forecast 02/07: Gold Churns Near $4,000 (Video) - DailyForex" | kw:gold
+2026-07-02 09:31 ACCEPT [Google News KL] "Gold, silver price prediction: With gold, silver prices down, what sho" | kw:gold,silver,rice
+2026-07-02 09:31 ACCEPT [Google News KL] "Gold prices climb in Baghdad, Erbil markets - Shafaq News | Latest bre" | kw:gold,rice
+2026-07-02 09:31 SKIP_MORNING already_sent date=2026-07-02
