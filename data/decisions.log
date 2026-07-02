@@ -9857,3 +9857,8 @@
 2026-07-02 16:45 ACCEPT [Google News KL] "Gold price tops $4,100 after U.S. jobs data revisions fuel Fed-rate ho" | kw:fuel,gold,rice
 2026-07-02 16:45 SKIP_MORNING already_sent date=2026-07-02
 2026-07-02 16:45 SKIP_EVENING already_sent date=2026-07-02
+2026-07-02 17:01 ACCEPT [Google News HH] "My Research - Bespoke Investment Group" | kw:wti
+2026-07-02 17:01 ACCEPT [Google News NS] "USDA AMS State Grain Reports Bundle – July 2, 2026: Cash Bids, Basis, " | kw:rice
+2026-07-02 17:01 ACCEPT [Google News NS] "Wheat gains as USDA points to the smallest harvested area since 1877 🔼" | kw:wheat,harvest
+2026-07-02 17:01 ACCEPT [Google News CB] "UK's FTSE 100 clinches over two-month high on cooling Fed rate hike ex" | kw:fed rate,rate hike
+2026-07-02 17:01 ACCEPT [Google News CB] "UBS Attacks Swiss Central Bank for ‘Misleading’ Stability Report - Blo" | kw:central bank
