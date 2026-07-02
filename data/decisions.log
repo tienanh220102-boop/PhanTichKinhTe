@@ -9607,3 +9607,11 @@
 2026-07-02 06:31 ACCEPT [Google News KL] "Gold price slips below $4,000 as safe haven demand fades after Iran co" | kw:gold,rice
 2026-07-02 06:31 ACCEPT [Google News CB] "U.S. Treasury yields rise as investors await June jobs report - CNBC" | kw:treasury
 2026-07-02 06:31 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 07:01 ACCEPT [Google News HH] "Stock markets rally in early trade as crude oil prices decline further" | kw:oil,crude,rice
+2026-07-02 07:01 ACCEPT [Google News HH] "Price to earnings forward of Castora Agri Commodities Ltd – BSE:CASTOR" | kw:rice,commodities
+2026-07-02 07:01 ACCEPT [Google News KL] "Gold rises on soft US jobs data, weaker oil; nonfarm payrolls in focus" | kw:oil,gold
+2026-07-02 07:01 ACCEPT [Google News KL] "Will Gold’s Sharpest Selloff in 13 Years Recast DRDGOLD's (DRD) Vision" | kw:gold
+2026-07-02 07:01 ACCEPT [Google News KL] "Gold prices rise further from 8-mth lows; nonfarm payrolls in focus - " | kw:gold,rice
+2026-07-02 07:01 ACCEPT [Google News CB] "Japan government panel member calls for moderate BOJ rate hikes - The " | kw:rate hike,boj
+2026-07-02 07:01 ACCEPT [Google News CB] "Why Are Investors Divided Over the Path of Treasury Yields? - CME Grou" | kw:treasury
+2026-07-02 07:01 SKIP_MORNING already_sent date=2026-07-02
