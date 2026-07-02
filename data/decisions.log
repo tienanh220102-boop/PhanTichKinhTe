@@ -9703,3 +9703,7 @@
 2026-07-02 11:31 ACCEPT [Google News NS] "How a Time-Based Grain Marketing Plan Can Improve Your Average Price -" | kw:rice
 2026-07-02 11:31 ACCEPT [Google News NS] "Bulgarian wheat in early 2026/27: Harvest begins, the market is not be" | kw:wheat,harvest
 2026-07-02 11:31 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 12:01 ACCEPT [OilPrice.com] "India Fast-Tracks State Company Stake Sales to Cover Oil Shock Costs" | kw:oil
+2026-07-02 12:01 ACCEPT [Google News HH] "Nigeria becomes first OPEC member to join IEA as associate - Latest ne" | kw:opec
+2026-07-02 12:01 ACCEPT [Google News KL] "Central Banks Buy 41 Tonnes of Gold While Prices Log a 4th Straight Mo" | kw:gold,rice,central bank
+2026-07-02 12:01 SKIP_MORNING already_sent date=2026-07-02
