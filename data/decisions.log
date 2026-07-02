@@ -9806,3 +9806,20 @@
 2026-07-02 15:01 ACCEPT [Google News CB] "Wall Street rises as softer jobs data calms rate-hike fears - The Detr" | kw:lng
 2026-07-02 15:01 SKIP_MORNING already_sent date=2026-07-02
 2026-07-02 15:01 SKIP_EVENING already_sent date=2026-07-02
+2026-07-02 15:31 ACCEPT [OilPrice.com] "Kuwait Wants Consortiums to Bid for $7 Billion Oil Pipeline Deal" | kw:oil,petroleum
+2026-07-02 15:31 ACCEPT [Google News HH] "Fuel price cut unlikely soon despite fall in global crude oil prices: " | kw:oil,crude,fuel
+2026-07-02 15:31 ACCEPT [Google News HH] "Yara to Buy Texas Ammonia Plant For $1.3 Billion -- Commodities Roundu" | kw:wti,commodities
+2026-07-02 15:31 ACCEPT [Google News HH] "Crude Oil Price Analysis – Oil Gaps Lower Ahead of Holiday 3-Day Weeke" | kw:oil,crude,rice
+2026-07-02 15:31 ACCEPT [Google News HH] "US Capline oil pipe flows slump after hitting multi-year high - Quantu" | kw:oil,commodity
+2026-07-02 15:31 ACCEPT [Google News KL] "TSX opens higher as gold prices lift materials stocks - Reuters" | kw:gold,rice
+2026-07-02 15:31 ACCEPT [Google News KL] "Silver prices today, Thursday, July 2: Prices crest $62 following soft" | kw:silver,rice
+2026-07-02 15:31 ACCEPT [Google News KL] "Gold and silver rally as NFP miss dents Fed-hike bets - Kitco AM Repor" | kw:gold,silver
+2026-07-02 15:31 ACCEPT [Google News KL] "Gold prices surge 2.5% as weak US jobs report chills rate hike fears -" | kw:gold,rice,rate hike
+2026-07-02 15:31 ACCEPT [Google News KL] "Gold Price Outlook H2 2026: Recovery Expected After Sharp Correction -" | kw:gold,rice
+2026-07-02 15:31 ACCEPT [Google News NS] "Bangladesh pays premium for US wheat to help reduce trade deficit - Uk" | kw:wheat
+2026-07-02 15:31 ACCEPT [Google News CB] "Treasuries Gain as Weak Jobs Report Dims Fed Rate-Hike Bets - Bloomber" | kw:fed rate
+2026-07-02 15:31 ACCEPT [Google News CB] "Precious Metals Talking points 070226: Central bankers' policy panel a" | kw:central bank,ecb
+2026-07-02 15:31 ACCEPT [Google News CB] "Bond Market Gets Break From Noisy June Jobs Report as Rate Hike Bets R" | kw:rate hike
+2026-07-02 15:31 ACCEPT [Google News CB] "Stocks Climb as Fed Rate Hike Fears Ease on a Weak Jobs Report - Barch" | kw:fed rate,rate hike
+2026-07-02 15:31 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 15:31 SKIP_EVENING already_sent date=2026-07-02
