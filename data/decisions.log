@@ -9727,3 +9727,18 @@
 2026-07-02 12:31 ACCEPT [Google News CB] "HELOC and home equity loan rates, Thursday, July 2: Borrowing need wil" | kw:interest rate
 2026-07-02 12:31 ACCEPT [Google News CB] "VTV’s Next 12 Months Hinge on One Fed Inflation Signal: Here’s What to" | kw:inflation
 2026-07-02 12:31 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 13:01 ACCEPT [OilPrice.com] "Nigeria's NNPC Revenue Drops in May Despite Higher Oil Output" | kw:oil,crude,gas
+2026-07-02 13:01 ACCEPT [Google News HH] "Commodities calendar: Q3 2026 - S&P Global" | kw:commodities
+2026-07-02 13:01 ACCEPT [Google News HH] "Gold price jumps above $4,100 as U.S. economy created 57k jobs in June" | kw:gold,rice
+2026-07-02 13:01 ACCEPT [Google News HH] "Saudi crude oil exports approach pre-war levels, and the resumption of" | kw:oil,crude,shipping
+2026-07-02 13:01 ACCEPT [Google News HH] "Soft commodities rebound as weather risks and supply fears return - Sa" | kw:commodities
+2026-07-02 13:01 ACCEPT [Google News HH] "Crude oil futures slip ₹48 to ₹6,477 on weak global cues - ET Auto" | kw:oil,crude
+2026-07-02 13:01 ACCEPT [Google News KL] "Gold Prices Fall Further After Worst Quarter in Over a Decade - Is It " | kw:gold,rice
+2026-07-02 13:01 ACCEPT [Google News CB] "Cooler June jobs report to keep Fed focused on inflation, with possibi" | kw:inflation
+2026-07-02 13:01 ACCEPT [Google News CB] "Sliding Yen, Robust Economy Give BOJ More Grounds for Early Hike - Blo" | kw:boj
+2026-07-02 13:01 ACCEPT [Google News CB] "ECB Split on Next Rate Move as Inflation Sinks - Bloomberg" | kw:inflation,ecb
+2026-07-02 13:01 ACCEPT [Google News CB] "U.S. Job Growth Slows in June as Labor Market Gives Fed Room to Stay F" | kw:inflation
+2026-07-02 13:01 ACCEPT [Google News CB] "2-year Treasury yield eases as light jobs report reduces Fed hike expe" | kw:treasury
+2026-07-02 13:01 ACCEPT [Google News CB] "US Stocks Advance as Jobs Data Dims Prospect of Fed Rate Hike - Bloomb" | kw:fed rate,rate hike
+2026-07-02 13:01 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 13:02 SENT_EVENING articles=20 date=2026-07-02 force=False
