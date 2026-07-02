@@ -9620,3 +9620,13 @@
 2026-07-02 07:31 ACCEPT [Google News NS] "Wheat falls to five-month low as Egypt’s demand weakens - UkrAgroConsu" | kw:wheat
 2026-07-02 07:31 ACCEPT [Google News CB] "Japan government panel member calls for moderate BOJ rate hikes - WNWN" | kw:rate hike,boj
 2026-07-02 07:31 SKIP_MORNING already_sent date=2026-07-02
+2026-07-02 08:01 ACCEPT [Google News HH] "UBS lowers Brent crude oil price forecasts - TradingView" | kw:oil,crude,brent
+2026-07-02 08:01 ACCEPT [Google News HH] "Crude oil fell for three consecutive days, most metals fell, SHFE zinc" | kw:oil,crude,silver
+2026-07-02 08:01 ACCEPT [Google News HH] "Crude Oil Drops Nearly 2% as Trump Hails Iran Talks - Business Post Ni" | kw:oil,crude
+2026-07-02 08:01 ACCEPT [Google News KL] "Gold prices rise further from 8-mth lows; nonfarm payrolls in focus - " | kw:gold,rice
+2026-07-02 08:01 ACCEPT [Google News KL] "Nike Air Max 95 Woven Multicolor Silver Price Today (WP4T4b0XUh) - Msh" | kw:silver,rice
+2026-07-02 08:01 ACCEPT [Google News KL] "[SMM Nickel Midday Review] On July 2, nickel prices were in the doldru" | kw:nickel,rice
+2026-07-02 08:01 ACCEPT [Google News KL] "Silver Price Today: Silver Rises, Tracking Broader Precious Metals Str" | kw:silver,rice
+2026-07-02 08:01 ACCEPT [Google News NS] "French heatwave and Spanish imports reshape Europe’s corn market - Ukr" | kw:corn
+2026-07-02 08:01 ACCEPT [Google News CB] "Central bank gold statistics: Central banks remain committed to gold |" | kw:gold,central bank
+2026-07-02 08:01 SKIP_MORNING already_sent date=2026-07-02
