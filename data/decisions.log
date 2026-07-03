@@ -10169,3 +10169,19 @@
 2026-07-03 07:31 ACCEPT [Google News CB] "ECB's Lagarde says she can't rule out early departure - Yahoo" | kw:ecb
 2026-07-03 07:31 ACCEPT [Google News CB] "Iraq Central Bank strengthens fight against corruption and money laund" | kw:central bank
 2026-07-03 07:31 SKIP_MORNING already_sent date=2026-07-03
+2026-07-03 08:01 ACCEPT [OilPrice.com] "Japan's LNG Imports Fall 7% as Utilities Chase Cheaper Coal" | kw:gas,lng,rice
+2026-07-03 08:01 ACCEPT [Google News HH] "Point break for the gold price - Miningmx" | kw:gold,rice
+2026-07-03 08:01 ACCEPT [Google News HH] "Crude Oil Finds Support at Its Pre-War Close, Gold Bounces and USD Ret" | kw:oil,crude,gold
+2026-07-03 08:01 ACCEPT [Google News HH] "Oil futures: Crude creeps higher in thin holiday trading - Quantum Com" | kw:oil,crude,commodity
+2026-07-03 08:01 ACCEPT [Google News KL] "ASIA GOLD India gold demand diminishes as prices rebound; China buying" | kw:gold,rice
+2026-07-03 08:01 ACCEPT [Google News KL] "Gold and Silver Price Forecast: Weak NFP Data Revives Bullish Setup - " | kw:gold,silver,rice
+2026-07-03 08:01 ACCEPT [Google News KL] "XAU/USD: Gold Prices Shoot Above $4,170 as Rate-Hike Anxiety Cools Aft" | kw:gold,rice
+2026-07-03 08:01 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Central Bank Buying Supports Go" | kw:gold,silver,rice
+2026-07-03 08:01 ACCEPT [Google News KL] "[SMM Weekly Review on Copper Scrap Outside China] Weak Trading Amid Co" | kw:copper,rice
+2026-07-03 08:01 ACCEPT [Google News KL] "Gold Mining Stocks Retail Investors Are Watching As Rate Cut Hopes Lif" | kw:gold,rate cut
+2026-07-03 08:01 ACCEPT [Google News KL] "Silver Price Forecast: Cooling Non-Farm Payrolls Weaken Fed Rate Hike " | kw:silver,rice,fed rate
+2026-07-03 08:01 ACCEPT [Google News NS] "ASIA WHEAT ROUNDUP: Australian prices fall in June; buyers await new c" | kw:wheat,rice
+2026-07-03 08:01 ACCEPT [Google News NS] "Chad expands domestic wheat production to reduce import dependence - U" | kw:wheat
+2026-07-03 08:01 ACCEPT [Google News CB] "ECB’s Lagarde says she can’t rule out early departure - WHTC" | kw:ecb
+2026-07-03 08:01 ACCEPT [Google News CB] "WEBINAR: From 9/11 to AMLA — Elizabeth McCaul, former ECB Supervisory " | kw:ecb
+2026-07-03 08:01 SKIP_MORNING already_sent date=2026-07-03
