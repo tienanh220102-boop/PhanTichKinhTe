@@ -10220,3 +10220,14 @@
 2026-07-03 09:31 SKIP_MORNING already_sent date=2026-07-03
 2026-07-03 09:39 ACCEPT [Google News CB] "Danish Krone’s Slide Raises Question: What’s Central Bank Up To? - Blo" | kw:central bank
 2026-07-03 09:39 SKIP_MORNING already_sent date=2026-07-03
+2026-07-03 10:01 ACCEPT [OilPrice.com] "Oil Set for Fourth Straight Weekly Loss as Hormuz Flows Return" | kw:oil,brent,wti
+2026-07-03 10:01 ACCEPT [NASDAQ Commod] "Gold Rises Toward $4,200 As Fed Rate Fears Ease" | kw:gold,fed rate,rate hike
+2026-07-03 10:01 ACCEPT [NASDAQ Commod] "Oil Prices Hold Steady But Headed For Fourth Weekly Loss" | kw:oil,rice
+2026-07-03 10:01 ACCEPT [Google News HH] "Crude Oil Forecast 03/07: Tests $68 Support (Video) - DailyForex" | kw:oil,crude
+2026-07-03 10:01 ACCEPT [Google News HH] "Get off crude oil, before it bankrupts you - ucanews.com" | kw:oil,crude
+2026-07-03 10:01 ACCEPT [Google News HH] "Crude Oil Finds Support at Its Pre-War Close, Gold Bounces and USD Ret" | kw:oil,crude,gold
+2026-07-03 10:01 ACCEPT [Google News KL] "Gold Forecast 03/07: Rallies, Weak US Jobs Data (chart) - DailyForex" | kw:gold
+2026-07-03 10:01 ACCEPT [Google News KL] "Gold stays on track to snap four-week losing streak amid fading Fed hi" | kw:gold
+2026-07-03 10:01 ACCEPT [Google News NS] "Grains Prices Weak But Weather Wildcard Remains - czapp.com" | kw:rice
+2026-07-03 10:01 ACCEPT [Google News CB] "ECB tightening case looks 'thin' - FXStreet" | kw:ecb,tightening
+2026-07-03 10:01 SKIP_MORNING already_sent date=2026-07-03
