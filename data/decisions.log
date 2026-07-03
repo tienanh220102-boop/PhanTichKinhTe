@@ -10135,3 +10135,10 @@
 2026-07-03 05:31 ACCEPT [Google News NS] "Bearish Outlook for U.S. Soybean Oil Exports – Commodity Market Analys" | kw:oil,soybean,commodity
 2026-07-03 05:31 ACCEPT [Google News CB] "China stocks rebound after selloff; Hong Kong extends gains on Fed rat" | kw:fed rate
 2026-07-03 05:31 SKIP_MORNING already_sent date=2026-07-03
+2026-07-03 06:01 ACCEPT [Google News HH] "Crude Oil Finds Support at Its Pre-War Close, Gold Bounces and USD Ret" | kw:oil,crude,gold
+2026-07-03 06:01 ACCEPT [Google News HH] "Crude Oil Perpetual Futures News - Investing.com" | kw:oil,crude
+2026-07-03 06:01 ACCEPT [Google News HH] "Crude Oil Finds Support at Its Pre-War Close, Gold Bounces and USD Ret" | kw:oil,crude,gold
+2026-07-03 06:01 ACCEPT [Google News KL] "Can Laopu Gold Break Out of the Gold Sector? - 36 Kr" | kw:gold
+2026-07-03 06:01 ACCEPT [Google News CB] "Indian shares to open higher on easing Fed rate-hike bets - Yahoo Fina" | kw:fed rate,easing
+2026-07-03 06:01 ACCEPT [Google News CB] "Yen weakness persists as markets see BOJ falling behind the curve - Ni" | kw:boj
+2026-07-03 06:01 SKIP_MORNING already_sent date=2026-07-03
