@@ -10067,3 +10067,9 @@
 2026-07-03 02:01 ACCEPT [Google News CB] "The Fed’s Favorite Price-Inflation Measure Just Increased Again - Mise" | kw:rice,inflation
 2026-07-03 02:01 ACCEPT [Google News CB] "Weekly Mortgage Rates Dip; Fed Rate Hike Unlikely After Jobs Data - Co" | kw:fed rate,rate hike
 2026-07-03 02:01 SKIP_MORNING already_sent date=2026-07-03
+2026-07-03 02:26 ACCEPT [Google News HH] "Crude Oil Trading Alert: Oil prices are approaching a dense support zo" | kw:oil,crude,rice
+2026-07-03 02:26 ACCEPT [Google News HH] "Pembina joins Canada-Alberta crude oil pipeline project - Investing.co" | kw:oil,crude
+2026-07-03 02:26 ACCEPT [Google News HH] "Crude Oil Trading Alert: Oil prices are approaching a dense support zo" | kw:oil,crude,rice
+2026-07-03 02:26 ACCEPT [Google News KL] "Gold Miners Lift Australian Shares After A Softer US Jobs Print - Fini" | kw:gold
+2026-07-03 02:26 ACCEPT [Google News CB] "Federal student loan borrowers can now get a bigger interest rate cut " | kw:interest rate,rate cut
+2026-07-03 02:26 SKIP_MORNING already_sent date=2026-07-03
