@@ -10280,3 +10280,15 @@
 2026-07-03 12:31 ACCEPT [Google News CB] "Barclays sees an "extended" interest rate hold by the Fed. Here’s why." | kw:interest rate
 2026-07-03 12:31 ACCEPT [Google News CB] "Michael Faulkender on June Jobs Report, Worker Shortages and Fed Polic" | kw:shortage
 2026-07-03 12:31 SKIP_MORNING already_sent date=2026-07-03
+2026-07-03 13:01 ACCEPT [OilPrice.com] "Soaring Imports Push India’s Crude Stocks to Near 1-Year High" | kw:oil,crude
+2026-07-03 13:01 ACCEPT [Google News HH] "WTI Crude Oil: Elliott Wave Analysis and Forecast for 03.07.26–10.07.2" | kw:oil,crude,wti
+2026-07-03 13:01 ACCEPT [Google News HH] "Forecast update for crude oil -03-07-2026 - Economies.com" | kw:oil,crude
+2026-07-03 13:01 ACCEPT [Google News KL] "Report says gold prices could rise in second half of 2026 - Elko Daily" | kw:gold,rice
+2026-07-03 13:01 ACCEPT [Google News KL] "Can Japan Shake Up the Markets... and Boost Gold Prices? - GoldBroker." | kw:gold,rice
+2026-07-03 13:01 ACCEPT [Google News KL] "US Maritime Hegemony Weakens, Interest Rates Begin to Shift, Gold Pric" | kw:gold,rice,interest rate
+2026-07-03 13:01 ACCEPT [Google News NS] "Smaller U.S. wheat production versus sufficient global supplies - High" | kw:lng,wheat
+2026-07-03 13:01 ACCEPT [Google News CB] "ECB weighs doubling banks’ minimum reserve requirement – report - Yaho" | kw:ecb
+2026-07-03 13:01 ACCEPT [Google News CB] "Lagarde mulls leaving ECB early to play a role in French elections - E" | kw:ecb
+2026-07-03 13:01 ACCEPT [Google News CB] "TSX futures point higher as easing Fed rate hike bets boost gold - Inv" | kw:gold,fed rate,rate hike
+2026-07-03 13:01 SKIP_MORNING already_sent date=2026-07-03
+2026-07-03 13:02 SENT_EVENING articles=20 date=2026-07-03 force=False
