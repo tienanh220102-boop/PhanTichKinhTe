@@ -10242,3 +10242,10 @@
 2026-07-03 10:31 ACCEPT [Google News CB] "Global stocks climb as US jobs data cools Fed hike fears - Reuters" | kw:lng
 2026-07-03 10:31 ACCEPT [Google News CB] "How have interest rate expectations changed after this week's events? " | kw:interest rate
 2026-07-03 10:31 SKIP_MORNING already_sent date=2026-07-03
+2026-07-03 11:01 ACCEPT [OilPrice.com] "India Denies Directly Exporting Fuel to Russia, But Admits Traders May" | kw:oil,petroleum,fuel
+2026-07-03 11:01 ACCEPT [Google News HH] "Enterprise value to EBITDA forward of Asia Siyaka Commodities Plc – CS" | kw:commodities
+2026-07-03 11:01 ACCEPT [Google News KL] "Gold heads for weekly gain as weak US jobs data tempers rate hike bets" | kw:gold,rate hike
+2026-07-03 11:01 ACCEPT [Google News KL] "Labor Force Participation Rate Archives - GoldSilver" | kw:gold,silver
+2026-07-03 11:01 ACCEPT [Google News CB] "ECB expected to hike rates again in September, Barclays says - Investi" | kw:ecb
+2026-07-03 11:01 ACCEPT [Google News CB] "American Tower Stock And 2 REITs For Slower Fed Rate Hikes - simplywal" | kw:fed rate,rate hike
+2026-07-03 11:01 SKIP_MORNING already_sent date=2026-07-03
