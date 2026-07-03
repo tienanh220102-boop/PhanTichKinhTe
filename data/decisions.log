@@ -10103,3 +10103,14 @@
 2026-07-03 04:01 ACCEPT [Google News CB] "Gold heads for first weekly rise in five on easing Fed rate hike bets " | kw:gold,fed rate,rate hike
 2026-07-03 04:01 ACCEPT [Google News CB] "ECB Made Right Choice on Rate Hike, Lagarde Tells Les Echos - Bloomber" | kw:rate hike,ecb
 2026-07-03 04:01 SKIP_MORNING already_sent date=2026-07-03
+2026-07-03 04:31 ACCEPT [Al Jazeera] "Canada’s Carney secures deal for pipeline to expand oil exports beyond" | kw:oil,trade war
+2026-07-03 04:31 ACCEPT [Google News KL] "Gold prices gain - VnExpress International" | kw:gold,rice
+2026-07-03 04:31 ACCEPT [Google News KL] "Gold, silver prices today, 3 July: Check retail rates of 24K, 22K gold" | kw:gold,silver,rice
+2026-07-03 04:31 ACCEPT [Google News KL] "When Will Copper Stocks Rebound? Valuation Oversold Amid EPS Dominance" | kw:copper,rice
+2026-07-03 04:31 ACCEPT [Google News NS] "Weather is now driving the grain market outlook - Iowa Soybean Associa" | kw:soybean
+2026-07-03 04:31 ACCEPT [Google News NS] "USDA Feedstuff Market Report: Ethanol, Biodiesel, and Animal By-Produc" | kw:rice
+2026-07-03 04:31 ACCEPT [Google News CB] "Japan’s fiscal expansion puts the BoJ in a difficult spot - Financial " | kw:boj
+2026-07-03 04:31 ACCEPT [Google News CB] "Indian shares open higher on easing Fed rate-hike bets - Reuters" | kw:fed rate,easing
+2026-07-03 04:31 ACCEPT [Google News CB] "Asian markets find footing as US jobs data, PMIs lift stocks - Reuters" | kw:lng
+2026-07-03 04:31 ACCEPT [Google News CB] "UBS sees Fed on hold as Warsh downplays inflation risk despite hike be" | kw:inflation
+2026-07-03 04:31 SKIP_MORNING already_sent date=2026-07-03
