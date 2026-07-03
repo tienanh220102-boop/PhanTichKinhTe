@@ -10206,3 +10206,15 @@
 2026-07-03 09:01 ACCEPT [Google News CB] "ECB's Lagarde won't rule out early departure - Reuters" | kw:ecb
 2026-07-03 09:01 ACCEPT [Google News CB] "Weak jobs growth and easing oil prices reinforce expectations for Fed " | kw:oil,rice,easing
 2026-07-03 09:01 SKIP_MORNING already_sent date=2026-07-03
+2026-07-03 09:31 ACCEPT [CNBC Economy] "Christine Lagarde leaves door open to early ECB exit, as she mulls Fre" | kw:central bank,ecb
+2026-07-03 09:31 ACCEPT [Google News HH] "What to expect from OPEC+'s meeting this weekend - CNBC" | kw:opec
+2026-07-03 09:31 ACCEPT [Google News HH] "Crude oil may drop to $60 as Hormuz shock fades away: Citi - BusinessL" | kw:oil,crude
+2026-07-03 09:31 ACCEPT [Google News KL] "Gold prices set for first weekly rise in a month as investors scale ba" | kw:gold,rice,fed rate
+2026-07-03 09:31 ACCEPT [Google News KL] "5 Best Online Gold Dealers for July 2026 - money.com" | kw:gold
+2026-07-03 09:31 ACCEPT [Google News KL] "A Fully Permitted Silver Mine Just Changed Hands. Here's What Comes Ne" | kw:silver
+2026-07-03 09:31 ACCEPT [Google News KL] "Copper price settles above the moving average– Forecast today – 3-7-20" | kw:copper,rice
+2026-07-03 09:31 ACCEPT [Google News NS] "Will Corn be the King maker? - mecardo.com.au" | kw:corn
+2026-07-03 09:31 ACCEPT [Google News CB] "ECB’s Lagarde Doesn’t Rule Out Leaving Post Early to Enter French Poli" | kw:ecb
+2026-07-03 09:31 ACCEPT [Google News CB] "Christine Lagarde leaves door open to early ECB exit, as she mulls Fre" | kw:ecb
+2026-07-03 09:31 ACCEPT [Google News CB] "Japan wage hikes top 5% for third year, backing BOJ rate-hike path - T" | kw:boj
+2026-07-03 09:31 SKIP_MORNING already_sent date=2026-07-03
