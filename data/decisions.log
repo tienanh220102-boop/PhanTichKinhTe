@@ -10148,3 +10148,7 @@
 2026-07-03 06:08 ACCEPT [Google News NS] "StoneX Raises Brazil's 2025/26 Second-Crop Corn Production Forecast - " | kw:corn
 2026-07-03 06:08 ACCEPT [Google News NS] "Bearish Outlook for U.S. Soybean Oil Exports – Commodity Market Analys" | kw:oil,soybean,commodity
 2026-07-03 06:08 SKIP_MORNING already_sent date=2026-07-03
+2026-07-03 06:31 ACCEPT [Google News HH] "Crude Oil Finds Support at Its Pre-War Close, Gold Bounces and USD Ret" | kw:oil,crude,gold
+2026-07-03 06:31 ACCEPT [Google News HH] "Gold price prediction: Will gold price rally continue & should investo" | kw:gold,rice,gdp
+2026-07-03 06:31 ACCEPT [Google News KL] "India gold demand diminishes as prices rebound; China buying improves " | kw:gold,rice
+2026-07-03 06:31 SKIP_MORNING already_sent date=2026-07-03
