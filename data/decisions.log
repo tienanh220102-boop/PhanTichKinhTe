@@ -10304,3 +10304,14 @@
 2026-07-03 13:31 ACCEPT [Google News CB] "Watch ECB Is 'Comfortable' With Its Base Scenario, Banque de France's " | kw:ecb
 2026-07-03 13:31 SKIP_MORNING already_sent date=2026-07-03
 2026-07-03 13:31 SKIP_EVENING already_sent date=2026-07-03
+2026-07-03 14:01 ACCEPT [OilPrice.com] "Power Prices Triple on PJM as Heat Wave and Data Centers Collide" | kw:rice
+2026-07-03 14:01 ACCEPT [Google News HH] "Crude Oil Extends Slide as Hormuz Flows Normalize - TradingPedia" | kw:oil,crude
+2026-07-03 14:01 ACCEPT [Google News HH] "Soaring Imports Push India's Crude Stocks to Near 1-Year High - Crude " | kw:oil,crude,rice
+2026-07-03 14:01 ACCEPT [Google News KL] "Gold slump accelerates as rising yields and stronger dollar weigh on p" | kw:gold,rice
+2026-07-03 14:01 ACCEPT [Google News KL] "Gold eyes first weekly gain in five weeks as weak US NFP delays Fed hi" | kw:gold
+2026-07-03 14:01 ACCEPT [Google News KL] "Gold to benefit as ‘natural buyers’ re-enter the market - Miningmx" | kw:gold
+2026-07-03 14:01 ACCEPT [Google News KL] "Gold rises Rs 3,300/10 gm to return to Rs 1.5 lakh-levels - Deccan Her" | kw:gold
+2026-07-03 14:01 ACCEPT [Google News CB] "Mortgage Rates Increased in June as Markets Weigh Inflation and Fed Po" | kw:inflation
+2026-07-03 14:01 ACCEPT [Google News CB] "Gold Holds Gains As Weak US Jobs Data Lowers Rate Hike Odds - Bloomber" | kw:gold,rate hike
+2026-07-03 14:01 SKIP_MORNING already_sent date=2026-07-03
+2026-07-03 14:01 SKIP_EVENING already_sent date=2026-07-03
