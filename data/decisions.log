@@ -10094,3 +10094,12 @@
 2026-07-03 03:31 ACCEPT [Google News NS] "Will Corn be the King maker - mecardo.com.au" | kw:corn
 2026-07-03 03:31 ACCEPT [Google News CB] "Indian shares to open higher on easing Fed rate-hike bets - Reuters" | kw:fed rate,easing
 2026-07-03 03:31 SKIP_MORNING already_sent date=2026-07-03
+2026-07-03 04:01 ACCEPT [Google News HH] "Gold Price Forecast After US Nonfarm Payrolls: Gold Bounces Back Above" | kw:gold,rice,gdp
+2026-07-03 04:01 ACCEPT [Google News KL] "Exclusive | Hong Kong to launch gold clearing and settlement system ne" | kw:gold
+2026-07-03 04:01 ACCEPT [Google News KL] "ESGold Corp. Montauban Project Nears Production in Gold Market - Stree" | kw:gold
+2026-07-03 04:01 ACCEPT [Google News KL] "A Fully Permitted Silver Mine Just Changed Hands. Here's What Comes Ne" | kw:silver
+2026-07-03 04:01 ACCEPT [Google News NS] "Gulke: Low in Corn Confirmed After USDA Reports - AgWeb" | kw:corn
+2026-07-03 04:01 ACCEPT [Google News NS] "Mysteel China edible oils market da... - mysteel.net" | kw:oil,steel
+2026-07-03 04:01 ACCEPT [Google News CB] "Gold heads for first weekly rise in five on easing Fed rate hike bets " | kw:gold,fed rate,rate hike
+2026-07-03 04:01 ACCEPT [Google News CB] "ECB Made Right Choice on Rate Hike, Lagarde Tells Les Echos - Bloomber" | kw:rate hike,ecb
+2026-07-03 04:01 SKIP_MORNING already_sent date=2026-07-03
