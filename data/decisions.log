@@ -10161,3 +10161,11 @@
 2026-07-03 07:01 ACCEPT [Google News KL] "Gold Price Today in Arcot – 18K, 22K & 24K Rate | 03 July 2026 - The T" | kw:gold,rice
 2026-07-03 07:01 ACCEPT [Google News NS] "Wheat Posting Mixed Midday Trade - TradingView" | kw:wheat
 2026-07-03 07:01 SKIP_MORNING already_sent date=2026-07-03
+2026-07-03 07:31 ACCEPT [Google News KL] "Gold prices rise, set for positive week after soft jobs data cools rat" | kw:gold,rice,rate hike
+2026-07-03 07:31 ACCEPT [Google News KL] "Gold holds near two-week top as USD stays weak amid fading Fed rate hi" | kw:gold,fed rate,rate hike
+2026-07-03 07:31 ACCEPT [Google News KL] "Hong Kong to Launch Gold Clearing System Next Week - IndexBox" | kw:gold
+2026-07-03 07:31 ACCEPT [Google News CB] "ECB's Lagarde says she can't rule out early departure - Reuters" | kw:ecb
+2026-07-03 07:31 ACCEPT [Google News CB] "Kevin Warsh's Fed Faces a First Test After a Disappointing Jobs Report" | kw:lng
+2026-07-03 07:31 ACCEPT [Google News CB] "ECB's Lagarde says she can't rule out early departure - Yahoo" | kw:ecb
+2026-07-03 07:31 ACCEPT [Google News CB] "Iraq Central Bank strengthens fight against corruption and money laund" | kw:central bank
+2026-07-03 07:31 SKIP_MORNING already_sent date=2026-07-03
