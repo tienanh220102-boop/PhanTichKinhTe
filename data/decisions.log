@@ -10231,3 +10231,14 @@
 2026-07-03 10:01 ACCEPT [Google News NS] "Grains Prices Weak But Weather Wildcard Remains - czapp.com" | kw:rice
 2026-07-03 10:01 ACCEPT [Google News CB] "ECB tightening case looks 'thin' - FXStreet" | kw:ecb,tightening
 2026-07-03 10:01 SKIP_MORNING already_sent date=2026-07-03
+2026-07-03 10:31 ACCEPT [Google News HH] "ABC News Adelaide - Weather And Closer, Wednesday May 4th 2022 Crude O" | kw:oil,crude,rice
+2026-07-03 10:31 ACCEPT [Google News HH] "Crude oil futures slip ₹48 to ₹6,477 on weak global cues - ET EnergyWo" | kw:oil,crude
+2026-07-03 10:31 ACCEPT [Google News HH] "Enterprise value to revenue forward of Asia Siyaka Commodities Plc – C" | kw:commodities
+2026-07-03 10:31 ACCEPT [Google News KL] "Gold heads for weekly gain as weak US jobs data lowers rate-hike bets " | kw:gold
+2026-07-03 10:31 ACCEPT [Google News KL] "Gold prices on track for positive week after soft jobs data cools rate" | kw:gold,rice,rate hike
+2026-07-03 10:31 ACCEPT [Google News KL] "Copper Prices Rebound at Week's End, Marginal Improvement in Copper Sc" | kw:copper,rice
+2026-07-03 10:31 ACCEPT [Google News NS] "USDA Reports Record-Low US Wheat Acreage, Sparks Rally in Wheat Future" | kw:wheat
+2026-07-03 10:31 ACCEPT [Google News CB] "ECB Is in ‘Good Position’ After June Rate Hike, Moulin Says - Bloomber" | kw:rate hike,ecb
+2026-07-03 10:31 ACCEPT [Google News CB] "Global stocks climb as US jobs data cools Fed hike fears - Reuters" | kw:lng
+2026-07-03 10:31 ACCEPT [Google News CB] "How have interest rate expectations changed after this week's events? " | kw:interest rate
+2026-07-03 10:31 SKIP_MORNING already_sent date=2026-07-03
