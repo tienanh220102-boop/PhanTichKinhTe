@@ -10315,3 +10315,15 @@
 2026-07-03 14:01 ACCEPT [Google News CB] "Gold Holds Gains As Weak US Jobs Data Lowers Rate Hike Odds - Bloomber" | kw:gold,rate hike
 2026-07-03 14:01 SKIP_MORNING already_sent date=2026-07-03
 2026-07-03 14:01 SKIP_EVENING already_sent date=2026-07-03
+2026-07-03 14:31 ACCEPT [OilPrice.com] "Japan's Top Oil Refiner Eyes a Post-Hormuz Future" | kw:oil,crude
+2026-07-03 14:31 ACCEPT [Google News HH] "A pullback in crude oil has weakened support for the Canadian dollar, " | kw:oil,crude,federal reserve
+2026-07-03 14:31 ACCEPT [Google News HH] "Gold Price Analysis – Gold Defends $4,000 Support Level Ahead of Holid" | kw:gold,rice
+2026-07-03 14:31 ACCEPT [Google News HH] "Crude Oil Surge Sparks Fresh Fuel Price Hike, Markets Remain Volatile " | kw:oil,crude,fuel
+2026-07-03 14:31 ACCEPT [Google News HH] "Oil Market Enters Phase of Cooling, Brent Crude Trades Near $72, Citi " | kw:oil,crude,brent
+2026-07-03 14:31 ACCEPT [Google News KL] "Gold and Silver Recovery—3 Precious Metals Stocks for H2 2026 - Market" | kw:gold,silver
+2026-07-03 14:31 ACCEPT [Google News KL] "TSX Futures Gain as Gold Prices Climb - TradingView" | kw:gold,rice
+2026-07-03 14:31 ACCEPT [Google News KL] "Gold prices approach $4,200 as weak nonfarm payroll data weighs on the" | kw:gold,rice
+2026-07-03 14:31 ACCEPT [Google News CB] "Fed and ECB Seen Diverging in French Snapshot of War Aftermath - Bloom" | kw:ecb
+2026-07-03 14:31 ACCEPT [Google News CB] "Asian Stocks Climb as Weak US Jobs Data Cuts Fed Rate Hike Expectation" | kw:fed rate,rate hike
+2026-07-03 14:31 SKIP_MORNING already_sent date=2026-07-03
+2026-07-03 14:31 SKIP_EVENING already_sent date=2026-07-03
