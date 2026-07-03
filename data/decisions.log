@@ -10292,3 +10292,15 @@
 2026-07-03 13:01 ACCEPT [Google News CB] "TSX futures point higher as easing Fed rate hike bets boost gold - Inv" | kw:gold,fed rate,rate hike
 2026-07-03 13:01 SKIP_MORNING already_sent date=2026-07-03
 2026-07-03 13:02 SENT_EVENING articles=20 date=2026-07-03 force=False
+2026-07-03 13:31 ACCEPT [Google News HH] "Contango is sounding the alarm—could the crude oil market be pricing i" | kw:oil,crude
+2026-07-03 13:31 ACCEPT [Google News HH] "Gold: Price rebound seen as corrective – Commerzbank - FXStreet" | kw:gold,rice
+2026-07-03 13:31 ACCEPT [Google News HH] "Gold Price Forecast 2026: RBC Says Gold's Bull Market Isn't Over - Exc" | kw:gold,rice
+2026-07-03 13:31 ACCEPT [Google News HH] "Price to sales forward of Asia Siyaka Commodities Plc – CSELK:ASIY.N00" | kw:rice,commodities
+2026-07-03 13:31 ACCEPT [Google News HH] "Iraq and OPEC: Between quota pressures and denials of withdrawal - jor" | kw:opec
+2026-07-03 13:31 ACCEPT [Google News KL] "TSX futures climb as gold gains on easing US rate-hike bets - KITCO" | kw:gold,easing
+2026-07-03 13:31 ACCEPT [Google News KL] "Only One Old-School Haven Stands Firm During Iran War as Gold, Others " | kw:gold
+2026-07-03 13:31 ACCEPT [Google News KL] "Gold climbs as weak US jobs data tempers Fed hike bets - MSN" | kw:gold
+2026-07-03 13:31 ACCEPT [Google News NS] "China resumes US soybean purchases, but future for farmers remains ‘da" | kw:soybean
+2026-07-03 13:31 ACCEPT [Google News CB] "Watch ECB Is 'Comfortable' With Its Base Scenario, Banque de France's " | kw:ecb
+2026-07-03 13:31 SKIP_MORNING already_sent date=2026-07-03
+2026-07-03 13:31 SKIP_EVENING already_sent date=2026-07-03
