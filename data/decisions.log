@@ -10269,3 +10269,14 @@
 2026-07-03 12:01 ACCEPT [Google News CB] "Lagarde floats early ECB exit to play role in French presidential camp" | kw:ecb
 2026-07-03 12:01 ACCEPT [Google News CB] "ECB Is 'Comfortable' With Its Base Scenario, Moulin Says - Bloomberg.c" | kw:ecb
 2026-07-03 12:01 SKIP_MORNING already_sent date=2026-07-03
+2026-07-03 12:31 ACCEPT [Al Jazeera] "Argentina fans flood Miami for Cape Verde match" | kw:flood
+2026-07-03 12:31 ACCEPT [NASDAQ Commod] "WGC: Gold to Hold Near US$4,100 in Second Half of 2026" | kw:gold,rice
+2026-07-03 12:31 ACCEPT [Google News HH] "Japan: Eneos Secures Crude Oil Supplies Through September - Agenzia No" | kw:oil,crude
+2026-07-03 12:31 ACCEPT [Google News HH] "UAE exits OPEC and OPEC+, seeking output flexibility as global energy " | kw:opec
+2026-07-03 12:31 ACCEPT [Google News KL] "Silver price today: Silver rises, according to FXStreet data - TMGM" | kw:silver,rice
+2026-07-03 12:31 ACCEPT [Google News KL] "TSX futures climb as gold gains on easing US rate-hike bets - Reuters" | kw:gold,easing
+2026-07-03 12:31 ACCEPT [Google News KL] "Silver price today: Silver rises, according to FXStreet data - Bitget" | kw:silver,rice
+2026-07-03 12:31 ACCEPT [Google News KL] "Silver climbs above $62 on fading Fed rate hike expectations - Mitrade" | kw:silver,fed rate,rate hike
+2026-07-03 12:31 ACCEPT [Google News CB] "Barclays sees an "extended" interest rate hold by the Fed. Here’s why." | kw:interest rate
+2026-07-03 12:31 ACCEPT [Google News CB] "Michael Faulkender on June Jobs Report, Worker Shortages and Fed Polic" | kw:shortage
+2026-07-03 12:31 SKIP_MORNING already_sent date=2026-07-03
