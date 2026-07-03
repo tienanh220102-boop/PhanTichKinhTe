@@ -10031,3 +10031,8 @@
 2026-07-02 23:31 ACCEPT [Google News CB] "Fed’s Warsh reaffirms commitment to 2% inflation target - Finance & Co" | kw:inflation
 2026-07-02 23:56 ACCEPT [Google News HH] "Saudi crude oil exports have nearly returned to pre-war levels; U.S. J" | kw:oil,crude
 2026-07-02 23:56 ACCEPT [Google News CB] "Gold rebounds above $4,100 as soft jobs data curbs Fed rate-hike bets " | kw:gold,fed rate
+2026-07-03 00:01 ACCEPT [OilPrice.com] "UAE Rewrites Offshore Oil Pricing To Capture Asian Markets" | kw:oil,crude
+2026-07-03 00:01 ACCEPT [Google News HH] "Crude oil prices have fallen to pre-war levels, but gas prices haven’t" | kw:oil,crude,gas
+2026-07-03 00:01 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-07-03 00:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
+2026-07-03 00:01 SENT_MORNING articles=20 date=2026-07-03 force=False
