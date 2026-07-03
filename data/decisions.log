@@ -10050,3 +10050,12 @@
 2026-07-03 01:01 ACCEPT [Google News CB] "Weekly Mortgage Rates Dip; Fed Rate Hike Unlikely After Jobs Data - Th" | kw:fed rate,rate hike
 2026-07-03 01:01 ACCEPT [Google News CB] "ECB Split on Next Rate Move as Inflation Sinks - Bloomberg.com" | kw:inflation,ecb
 2026-07-03 01:01 SKIP_MORNING already_sent date=2026-07-03
+2026-07-03 01:31 ACCEPT [Google News HH] "UAE Rewrites Offshore Oil Pricing To Capture Asian Markets - Crude Oil" | kw:oil,crude,rice
+2026-07-03 01:31 ACCEPT [Google News KL] "3 Best Copper ETFs for 2026 and How to Invest - The Motley Fool" | kw:copper
+2026-07-03 01:31 ACCEPT [Google News KL] "Gold and Silver Prices Surge Following Disappointing U.S. Jobs Data - " | kw:wti,gold,silver
+2026-07-03 01:31 ACCEPT [Google News NS] "Commodity markets daily recap - St Joseph Post" | kw:commodity
+2026-07-03 01:31 ACCEPT [Google News NS] "U.S. Grain/Oilseed Review: Small gains ahead of long weekend - The Wes" | kw:oil
+2026-07-03 01:31 ACCEPT [Google News CB] "Gold heads for first weekly rise in five on easing Fed rate hike bets " | kw:gold,fed rate,rate hike
+2026-07-03 01:31 ACCEPT [Google News CB] "Asian markets choppy as US jobs data douse Fed rate hike bets - Reuter" | kw:lng,fed rate,rate hike
+2026-07-03 01:31 ACCEPT [Google News CB] "WEBINAR: From 9/11 to AMLA — Elizabeth McCaul, former ECB Supervisory " | kw:ecb
+2026-07-03 01:31 SKIP_MORNING already_sent date=2026-07-03
