@@ -10258,3 +10258,13 @@
 2026-07-03 11:31 ACCEPT [Google News CB] "Trump is already causing a headache for his new Fed chairman, saying t" | kw:central bank
 2026-07-03 11:31 ACCEPT [Google News CB] "Households and non-financial corporations in the euro area: first quar" | kw:central bank
 2026-07-03 11:31 SKIP_MORNING already_sent date=2026-07-03
+2026-07-03 12:01 ACCEPT [OilPrice.com] "Citi: Oil Could Sink to $60 as Hormuz Traffic Normalizes" | kw:oil,crude,brent
+2026-07-03 12:01 ACCEPT [Google News HH] "Thailand gold price jumps as weak US labour data boosts demand - Natio" | kw:gold,rice
+2026-07-03 12:01 ACCEPT [Google News HH] "What The UAE Leaving OPEC Means For Multipolarity Sir David Attenborou" | kw:opec
+2026-07-03 12:01 ACCEPT [Google News KL] "Precious metals tumble as Fed rate hike fears drive demand for US doll" | kw:fed rate,rate hike
+2026-07-03 12:01 ACCEPT [Google News KL] "TSX futures climb as gold gains on easing US rate-hike bets - Reuters" | kw:gold,easing
+2026-07-03 12:01 ACCEPT [Google News KL] "Gold extends gains as weak US NFP data dents Fed rate hike expectation" | kw:gold,fed rate,rate hike
+2026-07-03 12:01 ACCEPT [Google News CB] "Fed chair emphasizes political independence, signals focus on inflatio" | kw:inflation
+2026-07-03 12:01 ACCEPT [Google News CB] "Lagarde floats early ECB exit to play role in French presidential camp" | kw:ecb
+2026-07-03 12:01 ACCEPT [Google News CB] "ECB Is 'Comfortable' With Its Base Scenario, Moulin Says - Bloomberg.c" | kw:ecb
+2026-07-03 12:01 SKIP_MORNING already_sent date=2026-07-03
