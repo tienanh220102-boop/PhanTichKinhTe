@@ -10078,3 +10078,19 @@
 2026-07-03 02:31 ACCEPT [Google News KL] "Gold Rate Today 03 July 2026 | Check 18K, 22K & 24K Gold Rate Today – " | kw:gold
 2026-07-03 02:31 SKIP_MORNING already_sent date=2026-07-03
 2026-07-03 03:02 SKIP_MORNING already_sent date=2026-07-03
+2026-07-03 03:31 ACCEPT [Google News HH] "Silver Futures Streaming Chart - Investing.com" | kw:silver
+2026-07-03 03:31 ACCEPT [Google News HH] "OPEC Lowers Second-Quarter Global Oil Demand Forecast on Iran War - En" | kw:oil,opec
+2026-07-03 03:31 ACCEPT [Google News HH] "Citi expects Brent crude oil prices to fall to between $60 and $65 per" | kw:oil,crude,brent
+2026-07-03 03:31 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD needs a weekly closing above $4,165 to su" | kw:gold,rice
+2026-07-03 03:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD rises above $62.50 as Fed rate cut bets" | kw:silver,rice,fed rate
+2026-07-03 03:31 ACCEPT [Google News KL] "Exclusive | Hong Kong to launch gold clearing and settlement system ne" | kw:gold
+2026-07-03 03:31 ACCEPT [Google News KL] "Silver Price Posts Cautious Gains Amid Mixed Technical Signals –Analys" | kw:silver,rice
+2026-07-03 03:31 ACCEPT [Google News KL] "Gold slump tests Chinese brand Laopu's resilience as luxury upstart - " | kw:gold
+2026-07-03 03:31 ACCEPT [Google News KL] "Vietnam dong, gold rates - July 3 - TradingView" | kw:gold
+2026-07-03 03:31 ACCEPT [Google News KL] "Gold Price Forecast: US Non-Farm Payrolls Miss Expectations, Gold Surg" | kw:gold,rice
+2026-07-03 03:31 ACCEPT [Google News KL] "Nickel Daily: China's nickel sulfate prices to continue its weak-range" | kw:steel,nickel,rice
+2026-07-03 03:31 ACCEPT [Google News KL] "Gold Price is Affected by a Positive Technical Pattern – Analysis – 03" | kw:gold,rice
+2026-07-03 03:31 ACCEPT [Google News NS] "StoneX Raises Brazil's 2025/26 Second-Crop Corn Production Forecast - " | kw:corn
+2026-07-03 03:31 ACCEPT [Google News NS] "Will Corn be the King maker - mecardo.com.au" | kw:corn
+2026-07-03 03:31 ACCEPT [Google News CB] "Indian shares to open higher on easing Fed rate-hike bets - Reuters" | kw:fed rate,easing
+2026-07-03 03:31 SKIP_MORNING already_sent date=2026-07-03
