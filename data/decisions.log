@@ -10434,3 +10434,10 @@
 2026-07-03 19:01 ACCEPT [Google News KL] "Silver Price Forecast: Reclaims $60 as RSI recovery targets $65 breako" | kw:silver,rice
 2026-07-03 19:01 ACCEPT [Google News CB] "Central Bank Gold Statistics: Central Banks Remain Committed To Gold -" | kw:gold,central bank
 2026-07-03 19:03 ACCEPT [Google News KL] "Gold nears $4,200 as weak US jobs data tempers Fed hike bets - MSN" | kw:wti,gold
+2026-07-03 19:31 ACCEPT [OilPrice.com] "OPEC Oil Production Jumps, But Gulf Supply Is Still Far From Normal" | kw:oil,opec
+2026-07-03 19:31 ACCEPT [Google News HH] "OPEC Oil Output Increased Significantly in June, According to a Reuter" | kw:oil,opec,gas
+2026-07-03 19:31 ACCEPT [Google News HH] "OPEC's June output surged by 2.34 million barrels per day, pushing cru" | kw:oil,crude,opec
+2026-07-03 19:31 ACCEPT [Google News KL] "Silver price forecast: bulls eye next breakout as dollar pressure fade" | kw:fuel,silver,rice
+2026-07-03 19:31 ACCEPT [Google News NS] "CBH adjusting for ‘considerably different’ harvest - countryman.com.au" | kw:harvest
+2026-07-03 19:31 ACCEPT [Google News NS] "India reduced vegetable oil imports by 16.6% in June - електронна зерн" | kw:oil
+2026-07-03 19:31 ACCEPT [Google News CB] "Fed Chair Nominee Kevin Warsh Bets On AI Productivity To Justify Futur" | kw:rate cut
