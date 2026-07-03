@@ -10346,3 +10346,21 @@
 2026-07-03 15:01 ACCEPT [RT Business] "Why Europe still needs Russia to keep the lights on" | kw:fuel,shortage
 2026-07-03 15:01 SKIP_MORNING already_sent date=2026-07-03
 2026-07-03 15:01 SKIP_EVENING already_sent date=2026-07-03
+2026-07-03 15:31 ACCEPT [Al Jazeera] "Gaza sports community pledges to continue legacy of killed goalkeeper" | kw:gas
+2026-07-03 15:31 ACCEPT [OilPrice.com] "TotalEnergies Offers Millions of Barrels of Iraqi Crude to Asian Buyer" | kw:crude
+2026-07-03 15:31 ACCEPT [Google News HH] "Glenfarne Global Commodities Expands LNG Portfolio with 1 MTPA Heads o" | kw:lng,commodities
+2026-07-03 15:31 ACCEPT [Google News HH] "Commodities H2 2026 outlook: navigating the intersection of AI, cleant" | kw:commodities
+2026-07-03 15:31 ACCEPT [Google News HH] "Opec output surged in June as Hormuz flows jumped, survey shows - The " | kw:opec
+2026-07-03 15:31 ACCEPT [Google News KL] "Gold Prices Slide 30% but Central Banks Keep Adding to Their Reserves " | kw:gold,rice,central bank
+2026-07-03 15:31 ACCEPT [Google News KL] "Gold nears $4,200 as dollar slips after weak jobs data - Kitco AM Repo" | kw:gold
+2026-07-03 15:31 ACCEPT [Google News KL] "Gold Extends Gains as Weak US Jobs Data Fuels Fed Rate Pause Bets - Cr" | kw:fuel,gold,fed rate
+2026-07-03 15:31 ACCEPT [Google News KL] "Gold trader buys millions ahead of Fourth of July - thestreet.com" | kw:gold
+2026-07-03 15:31 ACCEPT [Google News NS] "Gulke: USDA Reports Confrim the Low in Corn - AgWeb" | kw:corn
+2026-07-03 15:31 ACCEPT [Google News NS] "Corn demand roadmap targets fuel and biobased sectors - Feedstuffs" | kw:fuel,corn
+2026-07-03 15:31 ACCEPT [Google News NS] "Drought has a stronger grip on corn than on wheat - DCA Market Intelli" | kw:wheat,corn,drought
+2026-07-03 15:31 ACCEPT [Google News NS] "Argentina nearly completes new soybean harvest - UkrAgroConsult" | kw:soybean,harvest
+2026-07-03 15:31 ACCEPT [Google News NS] "Prices for Black Sea wheat are currently the lowest on the world marke" | kw:wheat,rice
+2026-07-03 15:31 ACCEPT [Google News NS] "Prices for Ukrainian wheat continue to fall - UA.NEWS" | kw:wheat,rice
+2026-07-03 15:31 ACCEPT [Google News CB] "Households and non-financial corporations in the euro area: first quar" | kw:central bank
+2026-07-03 15:31 SKIP_MORNING already_sent date=2026-07-03
+2026-07-03 15:31 SKIP_EVENING already_sent date=2026-07-03
