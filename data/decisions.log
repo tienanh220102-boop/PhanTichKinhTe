@@ -10114,3 +10114,13 @@
 2026-07-03 04:31 ACCEPT [Google News CB] "Asian markets find footing as US jobs data, PMIs lift stocks - Reuters" | kw:lng
 2026-07-03 04:31 ACCEPT [Google News CB] "UBS sees Fed on hold as Warsh downplays inflation risk despite hike be" | kw:inflation
 2026-07-03 04:31 SKIP_MORNING already_sent date=2026-07-03
+2026-07-03 05:01 ACCEPT [Google News HH] "WTI Crude Oil Holds Below $68.50 as Middle East Supply Fears Ease - Cr" | kw:oil,crude,wti
+2026-07-03 05:01 ACCEPT [Google News HH] "Oil Price Today, July 3, 2026: Crude Oil Prices Edge Higher as Traders" | kw:oil,crude,brent
+2026-07-03 05:01 ACCEPT [Google News HH] "Crude oil futures rise on cautious optimism over US-Iran peace talks -" | kw:oil,crude
+2026-07-03 05:01 ACCEPT [Google News HH] "Crude Oil Finds Support at Its Pre-War Close, Gold Bounces and USD Ret" | kw:oil,crude,gold
+2026-07-03 05:01 ACCEPT [Google News HH] "India Gold price today: Gold rises, according to FXStreet data - Mitra" | kw:gold,rice
+2026-07-03 05:01 ACCEPT [Google News KL] "[SMM Nickel Midday Review] On July 3, US Non-Farm Payrolls Data Disapp" | kw:nickel,rice
+2026-07-03 05:01 ACCEPT [Google News KL] "When Will Copper Stocks Rebound? Valuation Oversold Amid EPS Dominance" | kw:copper,rice
+2026-07-03 05:01 ACCEPT [Google News NS] "EU Cereals Market Prices: Breadmaking, Feed, and Durum Wheat – Week of" | kw:wti,wheat,rice
+2026-07-03 05:01 ACCEPT [Google News CB] "Gold heads for first weekly rise in five on easing Fed rate-hike bets " | kw:gold,fed rate,easing
+2026-07-03 05:01 SKIP_MORNING already_sent date=2026-07-03
