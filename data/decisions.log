@@ -10704,3 +10704,11 @@
 2026-07-04 12:31 SKIP_MORNING already_sent date=2026-07-04
 2026-07-04 13:01 SKIP_MORNING already_sent date=2026-07-04
 2026-07-04 13:02 SENT_EVENING articles=20 date=2026-07-04 force=False
+2026-07-04 13:31 ACCEPT [Google News HH] "Oil market shifts from supply shock to surplus, global glut fears rise" | kw:oil
+2026-07-04 13:31 ACCEPT [Google News KL] "Silver's price is down 49% since January. Is it still a good investmen" | kw:silver,rice
+2026-07-04 13:31 ACCEPT [Google News KL] "Gold Slump May Be Near Its Limit as Central Banks Keep Buying - News O" | kw:gold,central bank
+2026-07-04 13:31 ACCEPT [Google News NS] "Soybean farmers’ futures cloudy as China resumes buying - thegazette.c" | kw:soybean
+2026-07-04 13:31 ACCEPT [Google News CB] "Gjensidige sets new interest rate on GJF03 bond - The Globe and Mail" | kw:interest rate
+2026-07-04 13:31 ACCEPT [Google News CB] "Jerome Powell LIVE: Fed Chair Speaks After Interest Rate Decision Lidl" | kw:interest rate,rate decision
+2026-07-04 13:31 SKIP_MORNING already_sent date=2026-07-04
+2026-07-04 13:31 SKIP_EVENING already_sent date=2026-07-04
