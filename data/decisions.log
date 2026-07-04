@@ -10593,3 +10593,6 @@
 2026-07-04 03:31 ACCEPT [Google News HH] "China’s Commodity Imports Show Hormuz Impact as Oil Slides, Metals Ris" | kw:oil,commodity
 2026-07-04 03:31 ACCEPT [Google News NS] "Argentina exports to Cape Verde reach $8.5 million, led by corn - Data" | kw:corn
 2026-07-04 03:31 SKIP_MORNING already_sent date=2026-07-04
+2026-07-04 04:01 ACCEPT [Google News HH] "OPEC's June output surged by 2.34 million barrels per day, pushing cru" | kw:oil,crude,opec
+2026-07-04 04:01 ACCEPT [Google News NS] "India’s palm oil imports fall to a 14-month low - UkrAgroConsult" | kw:oil
+2026-07-04 04:01 SKIP_MORNING already_sent date=2026-07-04
