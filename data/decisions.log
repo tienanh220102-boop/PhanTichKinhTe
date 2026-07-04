@@ -10641,3 +10641,10 @@
 2026-07-04 08:08 ACCEPT [Google News CB] "ECB’s Lagarde won’t rule out early departure - 1470 & 100.3 WMBD" | kw:ecb
 2026-07-04 08:08 ACCEPT [Google News CB] "Japanese yen weekly outlook: BOJ intervention threat leaves USD/JPY on" | kw:boj
 2026-07-04 08:08 SKIP_MORNING already_sent date=2026-07-04
+2026-07-04 08:31 ACCEPT [Google News HH] "Trump taps former commodities regulator, ex-personal attorney as US at" | kw:commodities
+2026-07-04 08:31 ACCEPT [Google News HH] "Gold Rate Today 04 July 2026 | Check 18K, 22K & 24K Gold Rate Today – " | kw:gold
+2026-07-04 08:31 ACCEPT [Google News KL] "Copper Price Forecast 2026: AI & EV Demand Drive Bull Market - Intelle" | kw:copper,rice
+2026-07-04 08:31 ACCEPT [Google News KL] "Ferrari and BMW are switching from copper to aluminum wiring in new mo" | kw:copper,aluminum
+2026-07-04 08:31 ACCEPT [Google News NS] "Corn Futures End Mixed as Grain Crushing Report Shows Surge in Ethanol" | kw:corn
+2026-07-04 08:31 ACCEPT [Google News CB] "BofA highlights FX intervention impact on reserves and central bank ba" | kw:wti,central bank
+2026-07-04 08:31 SKIP_MORNING already_sent date=2026-07-04
