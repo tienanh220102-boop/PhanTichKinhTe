@@ -10583,3 +10583,13 @@
 2026-07-04 03:01 ACCEPT [Google News NS] "ADM navigates global agriculture markets. Archer-Daniels-Midland focus" | kw:oil
 2026-07-04 03:01 ACCEPT [Google News CB] "Lagarde floats early ECB exit to play role in French presidential camp" | kw:ecb
 2026-07-04 03:01 SKIP_MORNING already_sent date=2026-07-04
+2026-07-04 03:31 ACCEPT [Google News HH] "RANKED: The Top Crude Oil Producers in 2025 – Visual Capitalist – See " | kw:oil,crude
+2026-07-04 03:31 ACCEPT [Google News HH] "Crude oil spill - LAist" | kw:oil,crude
+2026-07-04 03:31 ACCEPT [Google News HH] "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next " | kw:oil,crude,rice
+2026-07-04 03:31 ACCEPT [Google News HH] "Gold price climbs as weak NFP data dampens Fed rate hike expectations " | kw:gold,rice,fed rate
+2026-07-04 03:31 ACCEPT [Google News HH] "Crude Oil Futures Separate From Reality as Asia Physical Market Buckle" | kw:oil,crude
+2026-07-04 03:31 ACCEPT [Google News HH] "Iran War Hands OPEC’s Swing Producer Crown to America: Bousso - Energy" | kw:opec
+2026-07-04 03:31 ACCEPT [Google News HH] "Oil Trading Hours: Best Time to Trade Crude Oil (Brent and WTI) - TMGM" | kw:oil,crude,brent
+2026-07-04 03:31 ACCEPT [Google News HH] "China’s Commodity Imports Show Hormuz Impact as Oil Slides, Metals Ris" | kw:oil,commodity
+2026-07-04 03:31 ACCEPT [Google News NS] "Argentina exports to Cape Verde reach $8.5 million, led by corn - Data" | kw:corn
+2026-07-04 03:31 SKIP_MORNING already_sent date=2026-07-04
