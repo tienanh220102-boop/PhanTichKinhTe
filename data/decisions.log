@@ -10623,3 +10623,9 @@
 2026-07-04 06:31 ACCEPT [Google News CB] "Japanese yen weekly outlook: BOJ intervention threat leaves USD/JPY on" | kw:boj
 2026-07-04 06:31 ACCEPT [Google News CB] "Wells Fargo sees rising Japanese wages cementing BoJ normalisation pat" | kw:boj
 2026-07-04 06:31 SKIP_MORNING already_sent date=2026-07-04
+2026-07-04 07:01 ACCEPT [Google News HH] "Gulf producers drive OPEC output rebound after US-Iran deal - Caliber." | kw:opec
+2026-07-04 07:01 ACCEPT [Google News HH] "OPEC+ Fifth Output Hike as Aramco Cuts Asian Crude Prices - houseofsau" | kw:crude,opec,rice
+2026-07-04 07:01 ACCEPT [Google News HH] "2003 Cricket World Cup Australia VS Pakistan Gold Price In India (QOyq" | kw:gold,rice
+2026-07-04 07:01 ACCEPT [Google News NS] "Labourers are busy weighing and packing fresh corn into sacks for whol" | kw:corn
+2026-07-04 07:01 ACCEPT [Google News CB] "Bank Of Canada Interest Rate Cuts: What They Mean For You (2025 Update" | kw:interest rate,rate cut
+2026-07-04 07:01 SKIP_MORNING already_sent date=2026-07-04
