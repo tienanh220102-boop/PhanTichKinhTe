@@ -10692,3 +10692,8 @@
 2026-07-04 11:31 ACCEPT [Google News HH] "D-8, OPEC heads extend condolences to Iran over martyrdom of Leader - " | kw:opec,wti
 2026-07-04 11:31 ACCEPT [Google News CB] "Gold climbs over 1% as weak US jobs data dims Fed rate hike expectatio" | kw:gold,fed rate,rate hike
 2026-07-04 11:31 SKIP_MORNING already_sent date=2026-07-04
+2026-07-04 12:01 ACCEPT [Google News HH] "June 2026 OPEC output leaped 3M+ bpd - Shafaq News | Latest breaking n" | kw:opec
+2026-07-04 12:01 ACCEPT [Google News HH] "US crude oil falls below $70, resuming losses after attack on cargo sh" | kw:oil,crude
+2026-07-04 12:01 ACCEPT [Google News CB] "Bitcoin Now Braced For A Critical Fed July Price ‘Pivot Point’ - Forbe" | kw:rice
+2026-07-04 12:01 ACCEPT [Google News CB] "Fed’s Warsh vows no tolerance for inflation above 2% - Crypto Briefing" | kw:inflation
+2026-07-04 12:01 SKIP_MORNING already_sent date=2026-07-04
