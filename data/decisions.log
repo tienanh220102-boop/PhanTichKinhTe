@@ -10697,3 +10697,8 @@
 2026-07-04 12:01 ACCEPT [Google News CB] "Bitcoin Now Braced For A Critical Fed July Price ‘Pivot Point’ - Forbe" | kw:rice
 2026-07-04 12:01 ACCEPT [Google News CB] "Fed’s Warsh vows no tolerance for inflation above 2% - Crypto Briefing" | kw:inflation
 2026-07-04 12:01 SKIP_MORNING already_sent date=2026-07-04
+2026-07-04 12:31 ACCEPT [Google News HH] "JPMorgan Reduces Its Gold Price Target for Q4 by 25% - Yahoo Finance" | kw:gold,rice
+2026-07-04 12:31 ACCEPT [Google News HH] "Crude Oil Finds Support at Its Pre-War Close, Gold Bounces and USD Ret" | kw:oil,crude,gold
+2026-07-04 12:31 ACCEPT [Google News HH] "Reaction To Lynx Vs Wings Gold Price May 11 2026 (NkZJfNSfjZ) - Mshale" | kw:gold,rice
+2026-07-04 12:31 ACCEPT [Google News HH] "OPEC oil output rises with reopening of Strait of Hormuz - ISNA News A" | kw:oil,opec
+2026-07-04 12:31 SKIP_MORNING already_sent date=2026-07-04
