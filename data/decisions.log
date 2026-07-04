@@ -10633,3 +10633,11 @@
 2026-07-04 07:31 SKIP_MORNING already_sent date=2026-07-04
 2026-07-04 08:01 ACCEPT [Google News NS] "High moong prices spur diversification push in Faridkot - The Tribune" | kw:rice
 2026-07-04 08:01 SKIP_MORNING already_sent date=2026-07-04
+2026-07-04 08:08 ACCEPT [Google News HH] "Citi Forecasts Brent Crude Oil at $60 a Barrel by End of 2026 - Briefs" | kw:oil,crude,brent
+2026-07-04 08:08 ACCEPT [Google News HH] "India's Crude Oil Inventories Near Pre-War Levels After Record June Im" | kw:oil,crude
+2026-07-04 08:08 ACCEPT [Google News KL] "Gold, silver surge as softer US jobs data lifts demand - MSN" | kw:gold,silver
+2026-07-04 08:08 ACCEPT [Google News KL] "TSX near record closing high; mining shares up with gold, copper - Reu" | kw:gold,copper
+2026-07-04 08:08 ACCEPT [Google News NS] "USDA Reports Tighten Corn Story While Cattle Markets Test Holiday Dema" | kw:corn
+2026-07-04 08:08 ACCEPT [Google News CB] "ECB’s Lagarde won’t rule out early departure - 1470 & 100.3 WMBD" | kw:ecb
+2026-07-04 08:08 ACCEPT [Google News CB] "Japanese yen weekly outlook: BOJ intervention threat leaves USD/JPY on" | kw:boj
+2026-07-04 08:08 SKIP_MORNING already_sent date=2026-07-04
