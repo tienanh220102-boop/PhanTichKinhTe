@@ -10648,3 +10648,14 @@
 2026-07-04 08:31 ACCEPT [Google News NS] "Corn Futures End Mixed as Grain Crushing Report Shows Surge in Ethanol" | kw:corn
 2026-07-04 08:31 ACCEPT [Google News CB] "BofA highlights FX intervention impact on reserves and central bank ba" | kw:wti,central bank
 2026-07-04 08:31 SKIP_MORNING already_sent date=2026-07-04
+2026-07-04 09:01 ACCEPT [Al Jazeera] "Key takeaways from Round of 32 stage at World Cup 2026" | kw:gold
+2026-07-04 09:01 ACCEPT [Google News KL] "Gold prices set for first weekly rise in a month as investors scale ba" | kw:gold,rice,fed rate
+2026-07-04 09:01 ACCEPT [Google News KL] "How gold's safe-haven appeal has evolved during Iran war and geopoliti" | kw:gold
+2026-07-04 09:01 ACCEPT [Google News KL] "World Superfine Silver Powder - Market Analysis, Forecast, Size, Trend" | kw:silver
+2026-07-04 09:01 ACCEPT [Google News NS] "Argentina becomes Bangladesh’s top wheat source for the first time - P" | kw:wheat
+2026-07-04 09:01 ACCEPT [Google News NS] "Russian wheat has become the cheapest in the world: Ukrainian exports " | kw:wheat
+2026-07-04 09:01 ACCEPT [Google News NS] "Steady price for Wheat as $556.12–$625.24 range shapes outlook - Trade" | kw:wheat,rice
+2026-07-04 09:01 ACCEPT [Google News CB] "BofA highlights FX intervention impact on reserves and central bank ba" | kw:central bank
+2026-07-04 09:01 ACCEPT [Google News CB] "President Donald Trump and Fed Chair Kevin Warsh Are on a Collision Co" | kw:interest rate
+2026-07-04 09:01 ACCEPT [Google News CB] "Japanese yen weekly outlook: BOJ intervention threat leaves USD/JPY on" | kw:boj
+2026-07-04 09:01 SKIP_MORNING already_sent date=2026-07-04
