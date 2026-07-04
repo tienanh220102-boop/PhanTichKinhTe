@@ -10672,3 +10672,6 @@
 2026-07-04 09:31 ACCEPT [Google News CB] "Brazil’s Central Bank Argues Stablecoins Should Be Regulated as Electr" | kw:central bank
 2026-07-04 09:31 ACCEPT [Google News CB] "Fighting Inflation Requires More Than Tight Monetary Policy - The Repo" | kw:inflation,monetary policy
 2026-07-04 09:31 SKIP_MORNING already_sent date=2026-07-04
+2026-07-04 10:01 ACCEPT [Google News HH] "OPEC Sees Significant Oil Production Increase Amid Peace Deal - GuruFo" | kw:oil,opec,gdp
+2026-07-04 10:01 ACCEPT [Google News CB] "President Donald Trump and Fed Chair Kevin Warsh Are on a Collision Co" | kw:interest rate
+2026-07-04 10:01 SKIP_MORNING already_sent date=2026-07-04
