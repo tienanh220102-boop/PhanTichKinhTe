@@ -10577,3 +10577,9 @@
 2026-07-04 02:31 ACCEPT [Google News HH] "Korea fuel prices fall for seventh week - Korea JoongAng Daily" | kw:fuel,rice
 2026-07-04 02:31 ACCEPT [Google News NS] "Canadian canola prices support high processing levels - електронна зер" | kw:rice
 2026-07-04 02:31 SKIP_MORNING already_sent date=2026-07-04
+2026-07-04 03:01 ACCEPT [Google News HH] "Brent crude oil price on July 10, 2026 at 5:00 PM EDT - Robinhood" | kw:oil,crude,brent
+2026-07-04 03:01 ACCEPT [Google News HH] "Gold Digest: Five Institutions Just Said the Same Thing About the Sell" | kw:gold,silver
+2026-07-04 03:01 ACCEPT [Google News NS] "KRVN 880 – KRVN 93.1 – KAMI - USDA Reports Tighten Corn Story While Ca" | kw:corn
+2026-07-04 03:01 ACCEPT [Google News NS] "ADM navigates global agriculture markets. Archer-Daniels-Midland focus" | kw:oil
+2026-07-04 03:01 ACCEPT [Google News CB] "Lagarde floats early ECB exit to play role in French presidential camp" | kw:ecb
+2026-07-04 03:01 SKIP_MORNING already_sent date=2026-07-04
