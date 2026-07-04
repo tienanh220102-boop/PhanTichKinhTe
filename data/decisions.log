@@ -10629,3 +10629,5 @@
 2026-07-04 07:01 ACCEPT [Google News NS] "Labourers are busy weighing and packing fresh corn into sacks for whol" | kw:corn
 2026-07-04 07:01 ACCEPT [Google News CB] "Bank Of Canada Interest Rate Cuts: What They Mean For You (2025 Update" | kw:interest rate,rate cut
 2026-07-04 07:01 SKIP_MORNING already_sent date=2026-07-04
+2026-07-04 07:31 ACCEPT [Google News NS] "China resumes US soybean purchases, but future for farmers remains ‘da" | kw:soybean
+2026-07-04 07:31 SKIP_MORNING already_sent date=2026-07-04
