@@ -10566,3 +10566,6 @@
 2026-07-04 01:05 ACCEPT [Mining.com] "Newcore Gold hits above-reserve grade at Nyam deposit" | kw:gold
 2026-07-04 01:05 ACCEPT [Mining.com] "Bunker Hill rebuild ships first Idaho ore, eyes silver" | kw:silver
 2026-07-04 01:05 SKIP_MORNING already_sent date=2026-07-04
+2026-07-04 01:31 ACCEPT [Google News HH] "5-3-2026 Sunday Funday Gold Price May 11 2026 (TYCAanu7o9) - Mshale" | kw:gold,rice
+2026-07-04 01:31 ACCEPT [Google News KL] "$8B gold mining project in Mariposa brings California one step closer " | kw:gold,gdp
+2026-07-04 01:31 SKIP_MORNING already_sent date=2026-07-04
