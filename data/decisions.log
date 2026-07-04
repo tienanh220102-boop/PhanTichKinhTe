@@ -10689,3 +10689,6 @@
 2026-07-04 11:01 ACCEPT [Google News CB] "Japanese yen weekly outlook: BOJ intervention threat leaves USD/JPY on" | kw:boj
 2026-07-04 11:01 ACCEPT [Google News CB] "Kevin Warsh Replaces Jerome Powell as Fed Chair: Impact on Interest Ra" | kw:interest rate
 2026-07-04 11:01 SKIP_MORNING already_sent date=2026-07-04
+2026-07-04 11:31 ACCEPT [Google News HH] "D-8, OPEC heads extend condolences to Iran over martyrdom of Leader - " | kw:opec,wti
+2026-07-04 11:31 ACCEPT [Google News CB] "Gold climbs over 1% as weak US jobs data dims Fed rate hike expectatio" | kw:gold,fed rate,rate hike
+2026-07-04 11:31 SKIP_MORNING already_sent date=2026-07-04
