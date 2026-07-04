@@ -10574,3 +10574,6 @@
 2026-07-04 02:01 ACCEPT [Google News KL] "Harvest Gold Completes Second Payment For Audet-Robert Claim Blocks - " | kw:gold,harvest
 2026-07-04 02:01 ACCEPT [Google News KL] "Copper's Next Move Depends On Washington, Not The Strait Of Hormuz - C" | kw:oil,crude,copper
 2026-07-04 02:01 SKIP_MORNING already_sent date=2026-07-04
+2026-07-04 02:31 ACCEPT [Google News HH] "Korea fuel prices fall for seventh week - Korea JoongAng Daily" | kw:fuel,rice
+2026-07-04 02:31 ACCEPT [Google News NS] "Canadian canola prices support high processing levels - електронна зер" | kw:rice
+2026-07-04 02:31 SKIP_MORNING already_sent date=2026-07-04
