@@ -10659,3 +10659,16 @@
 2026-07-04 09:01 ACCEPT [Google News CB] "President Donald Trump and Fed Chair Kevin Warsh Are on a Collision Co" | kw:interest rate
 2026-07-04 09:01 ACCEPT [Google News CB] "Japanese yen weekly outlook: BOJ intervention threat leaves USD/JPY on" | kw:boj
 2026-07-04 09:01 SKIP_MORNING already_sent date=2026-07-04
+2026-07-04 09:31 ACCEPT [Google News HH] "OPEC Sees Significant Oil Production Increase Amid Peace Deal - GuruFo" | kw:oil,opec
+2026-07-04 09:31 ACCEPT [Google News HH] "CRUDE OIL ANALYSIS: The May 26th Setup You Need To See! Dia De Las Mad" | kw:oil,crude
+2026-07-04 09:31 ACCEPT [Google News HH] "JPMorgan Slashes Gold Price Target to $4,500, Scraps Year-End $6,000 F" | kw:gold,rice
+2026-07-04 09:31 ACCEPT [Google News HH] "AI Chatbots: Last Week Tonight With John Oliver (HBO) Gold Price In In" | kw:gold,rice
+2026-07-04 09:31 ACCEPT [Google News KL] "gold-prices-blocked-central-bank-demand-vs-fed-rate-hike-risks - equit" | kw:gold,rice
+2026-07-04 09:31 ACCEPT [Google News CB] "Euro area bank interest rate statistics: May 2026 - European Central B" | kw:central bank,interest rate
+2026-07-04 09:31 ACCEPT [Google News CB] "Fed’s Logan Warns US Oil Production Won’t Fill Global Supply Gap - Ene" | kw:oil
+2026-07-04 09:31 ACCEPT [Google News CB] "Fed’s Schmid Warns Against Viewing Oil Shock as Transitory - EnergyNow" | kw:oil
+2026-07-04 09:31 ACCEPT [Google News CB] "Cleveland Fed president says AI spending is fueling inflation — and wa" | kw:fuel,inflation,interest rate
+2026-07-04 09:31 ACCEPT [Google News CB] "Who is Lisa Cook? The central bank governor at the heart of the Suprem" | kw:central bank
+2026-07-04 09:31 ACCEPT [Google News CB] "Brazil’s Central Bank Argues Stablecoins Should Be Regulated as Electr" | kw:central bank
+2026-07-04 09:31 ACCEPT [Google News CB] "Fighting Inflation Requires More Than Tight Monetary Policy - The Repo" | kw:inflation,monetary policy
+2026-07-04 09:31 SKIP_MORNING already_sent date=2026-07-04
