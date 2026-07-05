@@ -10912,3 +10912,12 @@
 2026-07-05 05:01 ACCEPT [Google News KL] "Gold rises as weak US jobs data tempers Fed hike bets - MSN" | kw:gold
 2026-07-05 05:01 SKIP_MORNING already_sent date=2026-07-05
 2026-07-05 05:31 SKIP_MORNING already_sent date=2026-07-05
+2026-07-05 06:01 ACCEPT [Google News HH] "Gold and silver: US Fed signals, inflation data to steer markets - Dha" | kw:gold,silver,inflation
+2026-07-05 06:01 ACCEPT [Google News KL] "Gold, silver prices today — 5 July: Check retail rates of 24K, 22K gol" | kw:gold,silver,rice
+2026-07-05 06:01 ACCEPT [Google News KL] "Equinox Gold (EQX) Just Cleared A Major Roadblock, Is The Stock Ready " | kw:gold
+2026-07-05 06:01 ACCEPT [Google News KL] "OCBC cuts silver forecast to $67 amid market volatility - MSN" | kw:silver
+2026-07-05 06:01 ACCEPT [Google News KL] "Thailand’s Neutral Bet: Gold and Food Security Emerge as Pillars of a " | kw:gold
+2026-07-05 06:01 ACCEPT [Google News NS] "FAO Food Price Index: Why lower global food prices may not cut Kenya’s" | kw:rice
+2026-07-05 06:01 ACCEPT [Google News NS] "Global sugar prices fall 5.7% in June as Brazil’s ethanol market weigh" | kw:rice,sugar
+2026-07-05 06:01 ACCEPT [Google News CB] "What Does Interest Rate Cut Mean For Average Briton? Bitcoin Atm (AQeq" | kw:interest rate,rate cut
+2026-07-05 06:01 SKIP_MORNING already_sent date=2026-07-05
