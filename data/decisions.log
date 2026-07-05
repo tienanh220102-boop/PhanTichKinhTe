@@ -11117,3 +11117,24 @@
 2026-07-05 13:31 ACCEPT [Google News KL] "Gold Rate Today 05 July 2026 | Check 18K, 22K & 24K Gold Rate Today – " | kw:gold
 2026-07-05 13:31 SKIP_MORNING already_sent date=2026-07-05
 2026-07-05 13:31 SENT_EVENING articles=20 date=2026-07-05 force=False
+2026-07-05 14:01 ACCEPT [Mining.com] "BHP seeks to restart Cerro Colorado mine with $1.5B investment" | kw:copper
+2026-07-05 14:01 ACCEPT [Mining.com] "Newcore Gold hits above-reserve grade at Nyam deposit" | kw:gold
+2026-07-05 14:01 ACCEPT [Mining.com] "Gold price set for worst quarter in 13 years" | kw:gold,rice
+2026-07-05 14:01 ACCEPT [Mining.com] "Fortuna lifts West Africa growth with $1B Senegal gold project" | kw:gold
+2026-07-05 14:01 ACCEPT [Mining.com] "Op-Ed: The decoy effect — how Beijing steers western mining capital" | kw:oil
+2026-07-05 14:01 ACCEPT [Mining.com] "Integra grows reserve by 74% at Florida Canyon gold mine" | kw:gold
+2026-07-05 14:01 ACCEPT [Google News HH] "UBS highlights why commodities are back in focus for investors - Yahoo" | kw:commodities
+2026-07-05 14:01 ACCEPT [Google News HH] "OPEC+ approves further oil output increase as Hormuz exports start to " | kw:oil,opec
+2026-07-05 14:01 ACCEPT [Google News HH] "OPEC+ approves another output increase as Hormuz reopening boosts supp" | kw:opec
+2026-07-05 14:01 ACCEPT [Google News HH] "UBS says commodities deserve another look as investors rethink portfol" | kw:commodities
+2026-07-05 14:01 ACCEPT [Google News HH] "Will crude oil fall to $50? How demand and supply are reshaping global" | kw:oil,crude
+2026-07-05 14:01 ACCEPT [Google News HH] "Crude oil, global cues, TCS earnings to steer Indian stock market this" | kw:oil,crude
+2026-07-05 14:01 ACCEPT [Google News HH] "OPEC+ lifts output for fifth month, warns of potential 2025 glut - CHO" | kw:opec
+2026-07-05 14:01 ACCEPT [Google News HH] "Stock markets to track crude oil prices, global trends, TCS earnings t" | kw:oil,crude,rice
+2026-07-05 14:01 ACCEPT [Google News KL] "Gold – Building a Bottom Before the Summer Rally - Shanghai Metals Mar" | kw:gold
+2026-07-05 14:01 ACCEPT [Google News KL] "Kinross Gold: Net Cash, Production Growth, And Undervalued (NYSE:KGC) " | kw:gold
+2026-07-05 14:01 ACCEPT [Google News KL] "Gold Prices Firm: Fed Cues, Inflation Data Drive Market - Rediff Money" | kw:gold,rice,inflation
+2026-07-05 14:01 ACCEPT [Google News NS] "Durum back to a premium over spring wheat - AgUpdate" | kw:wheat
+2026-07-05 14:01 ACCEPT [Google News CB] "Federal Reserve Interest Rate Policy 2026: Higher for Longer - Intelle" | kw:interest rate,federal reserve
+2026-07-05 14:01 SKIP_MORNING already_sent date=2026-07-05
+2026-07-05 14:01 SKIP_EVENING already_sent date=2026-07-05
