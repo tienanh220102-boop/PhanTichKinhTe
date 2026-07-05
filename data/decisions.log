@@ -10943,3 +10943,11 @@
 2026-07-05 07:01 ACCEPT [Google News CB] "BOJ’s Tankan for June: Vigilance Required over Inflation Risks - The J" | kw:inflation,gdp,boj
 2026-07-05 07:01 ACCEPT [Google News CB] "Central Banks Continue Strong Gold Purchases Despite Interest Rate Pre" | kw:gold,central bank,interest rate
 2026-07-05 07:01 SKIP_MORNING already_sent date=2026-07-05
+2026-07-05 07:31 ACCEPT [Google News HH] "Business as unusual for OPEC - The Economist" | kw:opec
+2026-07-05 07:31 ACCEPT [Google News HH] "After years of failed refinery repairs, Africa’s largest crude oil pro" | kw:oil,crude
+2026-07-05 07:31 ACCEPT [Google News HH] "Iraq raises its oil production during June - IraqiNews" | kw:oil
+2026-07-05 07:31 ACCEPT [Google News HH] "Citi forecasts Brent Crude may drop to $60 by year-end despite US-Iran" | kw:crude,brent
+2026-07-05 07:31 ACCEPT [Google News HH] "Crude Oil Extends Weekly Losses As Hormuz Traffic Recovers - BW Busine" | kw:oil,crude
+2026-07-05 07:31 ACCEPT [Google News HH] ""OPEC+ Expected to Increase Output for Fifth Consecutive Month... Poss" | kw:opec
+2026-07-05 07:31 ACCEPT [Google News CB] "Kevin Warsh’s Fed: A New Era of Central Banking - Jamaica Observer" | kw:central bank
+2026-07-05 07:31 SKIP_MORNING already_sent date=2026-07-05
