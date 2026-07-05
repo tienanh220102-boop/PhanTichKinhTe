@@ -10951,3 +10951,7 @@
 2026-07-05 07:31 ACCEPT [Google News HH] ""OPEC+ Expected to Increase Output for Fifth Consecutive Month... Poss" | kw:opec
 2026-07-05 07:31 ACCEPT [Google News CB] "Kevin Warsh’s Fed: A New Era of Central Banking - Jamaica Observer" | kw:central bank
 2026-07-05 07:31 SKIP_MORNING already_sent date=2026-07-05
+2026-07-05 08:01 ACCEPT [Google News KL] "One Fed Shift Could Ignite Gold's Next Big Rally - Cointribune" | kw:gold
+2026-07-05 08:01 ACCEPT [Google News KL] "Gold Prices Reach Around $4,175 per Ounce - وكالة صدى نيوز" | kw:gold,rice
+2026-07-05 08:01 ACCEPT [Google News CB] "Bank of Israel expected to cut interest rate for third time this year " | kw:interest rate
+2026-07-05 08:01 SKIP_MORNING already_sent date=2026-07-05
