@@ -10884,3 +10884,15 @@
 2026-07-05 03:31 ACCEPT [Google News NS] "EU wheat drifts in US holiday lull, maize extends rally on weather woe" | kw:wheat
 2026-07-05 03:31 ACCEPT [Google News CB] "UBS already has enough capital to meet proposed new rules - Swiss cent" | kw:central bank
 2026-07-05 03:31 SKIP_MORNING already_sent date=2026-07-05
+2026-07-05 04:01 ACCEPT [Google News HH] "Iran oil exports poised for return under new US deal, but recovery fac" | kw:oil
+2026-07-05 04:01 ACCEPT [Google News HH] "Macquarie’s $3.5 billion profit beats forecast on commodity and tradin" | kw:wti,commodity
+2026-07-05 04:01 ACCEPT [Google News HH] "Petrol Price in India | Check Latest Petrol Rates in India Today - Hin" | kw:rice
+2026-07-05 04:01 ACCEPT [Google News HH] "Rupee extends recovery, settles at 94.50 on softer crude and weaker US" | kw:crude,lng
+2026-07-05 04:01 ACCEPT [Google News HH] "India has 25 days of oil in reserve; no immediate petrol-diesel price " | kw:oil,rice
+2026-07-05 04:01 ACCEPT [Google News HH] "Trump warns "big problems lie ahead" if retailers don't drop gas price" | kw:gas,rice
+2026-07-05 04:01 ACCEPT [Google News HH] "Americans hit the road in record numbers for 4th of July in spite of h" | kw:gas,rice
+2026-07-05 04:01 ACCEPT [Google News KL] "AngloGold Ashanti vs. Newmont: Which Gold Mining Stock Is a Better Buy" | kw:gold
+2026-07-05 04:01 ACCEPT [Google News KL] "Gold prices rise as weak US jobs data tempers Fed hike bets - MSN" | kw:gold,rice
+2026-07-05 04:01 ACCEPT [Google News KL] "How Does Fuse Impact Gold Price?Top Market Factors - Kabul University" | kw:gold,rice
+2026-07-05 04:01 ACCEPT [Google News CB] "FOMC Recap: Warsh the Reformer as the Committee Shifts Hawkish - FOREX" | kw:fomc
+2026-07-05 04:01 SKIP_MORNING already_sent date=2026-07-05
