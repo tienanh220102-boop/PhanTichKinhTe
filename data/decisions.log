@@ -10980,3 +10980,10 @@
 2026-07-05 09:01 ACCEPT [Google News KL] "ASX posts best day in weeks as gold miners soar - MSN" | kw:gold
 2026-07-05 09:01 ACCEPT [Google News NS] "FAO Food Price Index: Why lower global food prices may not cut Kenya’s" | kw:rice
 2026-07-05 09:01 SKIP_MORNING already_sent date=2026-07-05
+2026-07-05 09:31 ACCEPT [Google News KL] "Gold Price Today in Chennai – 18K, 22K & 24K Rate | 05 July 2026 - The" | kw:gold,rice
+2026-07-05 09:31 ACCEPT [Google News NS] "The Bunge Whole Harvest Expeller Pressed Soybean Oil - BG leans on a f" | kw:oil,soybean,harvest
+2026-07-05 09:31 ACCEPT [Google News CB] "Markets After the Oil Shock - Robin J Brooks | Substack" | kw:oil
+2026-07-05 09:31 ACCEPT [Google News CB] "Dow hits record as weak jobs ease Fed hike fears - MSN" | kw:lng
+2026-07-05 09:31 ACCEPT [Google News CB] "Emerging markets drive global central bank gold buying in May - Nation" | kw:gold,central bank
+2026-07-05 09:31 ACCEPT [Google News CB] "Central Bank plans tighter oversight - Trinidad Express Newspapers" | kw:central bank
+2026-07-05 09:31 SKIP_MORNING already_sent date=2026-07-05
