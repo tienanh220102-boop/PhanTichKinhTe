@@ -10963,3 +10963,6 @@
 2026-07-05 08:27 ACCEPT [Google News CB] "BofA highlights FX intervention impact on reserves and central bank ba" | kw:central bank
 2026-07-05 08:27 ACCEPT [Google News CB] "Gold Heads for First Weekly Rise in Five on Easing Fed Rate-Hike Bets " | kw:wti,gold,fed rate
 2026-07-05 08:27 SKIP_MORNING already_sent date=2026-07-05
+2026-07-05 08:31 ACCEPT [Google News HH] "Stock markets to track crude oil prices, global trends, TCS earnings t" | kw:oil,crude,rice
+2026-07-05 08:31 ACCEPT [Google News NS] "Archer-Daniels-Midland highlights its global agri-business role amid s" | kw:commodity
+2026-07-05 08:31 SKIP_MORNING already_sent date=2026-07-05
