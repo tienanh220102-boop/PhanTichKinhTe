@@ -11175,3 +11175,12 @@
 2026-07-05 15:44 ACCEPT [Google News HH] "Gold Price Forecast: Weak Jobs Data Fuels Rebound as Gold Eyes $4,350 " | kw:fuel,gold,rice
 2026-07-05 15:44 SKIP_MORNING already_sent date=2026-07-05
 2026-07-05 15:44 SKIP_EVENING already_sent date=2026-07-05
+2026-07-05 16:01 ACCEPT [Google News HH] "JPMorgan Revised Its Gold Price Forecast and Warned of Risks - incrypt" | kw:gold,rice
+2026-07-05 16:01 ACCEPT [Google News KL] "Malaysia Gold Price Today: Decline Recorded Amid Market Shifts - Crypt" | kw:gold,rice
+2026-07-05 16:01 ACCEPT [Google News KL] "Rise in dollar inflows may put additional pressure on Gold prices - Bu" | kw:gold,rice
+2026-07-05 16:01 ACCEPT [Google News NS] "Crop Storage Systems Market Forecast Points Higher Toward 2035, Driven" | kw:harvest
+2026-07-05 16:01 ACCEPT [Google News NS] "China soybean purchases up but still below pre-trade war levels - MSN" | kw:soybean,trade war
+2026-07-05 16:01 ACCEPT [Google News NS] "Global food prices declined mildly - Politicsweb" | kw:rice
+2026-07-05 16:01 ACCEPT [Google News CB] "Gold outlook: Bullion seen staying strong ahead of crucial Fed cues - " | kw:gold
+2026-07-05 16:01 SKIP_MORNING already_sent date=2026-07-05
+2026-07-05 16:01 SKIP_EVENING already_sent date=2026-07-05
