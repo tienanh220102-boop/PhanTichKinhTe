@@ -11163,3 +11163,12 @@
 2026-07-05 15:01 ACCEPT [Google News CB] "US dollar heads for a weekly decline as interest rate hike expectation" | kw:interest rate,rate hike
 2026-07-05 15:01 SKIP_MORNING already_sent date=2026-07-05
 2026-07-05 15:01 SKIP_EVENING already_sent date=2026-07-05
+2026-07-05 15:31 ACCEPT [Google News HH] "Gold Price Forecast: Weak Jobs Data Fuels Rebound as Gold Eyes $4,350 " | kw:fuel,gold,rice
+2026-07-05 15:31 ACCEPT [Google News HH] "OPEC+ Moves to Raise Supply Amid Falling Oil Prices - Morocco World Ne" | kw:oil,opec,rice
+2026-07-05 15:31 ACCEPT [Google News KL] "Gold price drops by Tk2,683 per bhori in Bangladesh - The Business Sta" | kw:gold,rice
+2026-07-05 15:31 ACCEPT [Google News KL] "Pan American Silver holds steady on thin news flow - AD HOC NEWS" | kw:silver
+2026-07-05 15:31 ACCEPT [Google News NS] "Palm oil prices fell on Friday - UkrAgroConsult" | kw:oil,rice
+2026-07-05 15:31 ACCEPT [Google News CB] "Japanese yen weekly outlook: BOJ intervention threat leaves USD/JPY on" | kw:boj
+2026-07-05 15:31 ACCEPT [Google News CB] "Afghan central bank to auction 16 mln USD to support local currency - " | kw:central bank
+2026-07-05 15:31 SKIP_MORNING already_sent date=2026-07-05
+2026-07-05 15:31 SKIP_EVENING already_sent date=2026-07-05
