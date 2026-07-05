@@ -11150,3 +11150,9 @@
 2026-07-05 14:14 ACCEPT [Google News CB] "Kevin Warsh Must Explain That The Fed Simply Cannot Fight Inflation - " | kw:inflation
 2026-07-05 14:14 SKIP_MORNING already_sent date=2026-07-05
 2026-07-05 14:14 SKIP_EVENING already_sent date=2026-07-05
+2026-07-05 14:31 ACCEPT [Google News KL] "JPMorgan tweaks gold price target as Fed risks return - thestreet.com" | kw:gold,rice
+2026-07-05 14:31 ACCEPT [Google News KL] "Gold and silver prices stay elevated after weekly gains - MSN" | kw:gold,silver,rice
+2026-07-05 14:31 ACCEPT [Google News KL] "Silver price holds tight in a narrowing band at $62.40! What are trade" | kw:silver,rice
+2026-07-05 14:31 ACCEPT [Google News CB] "New Fed Chair Kevin Warsh Prioritizes Price Stability Over Rate Cuts i" | kw:rice,rate cut
+2026-07-05 14:31 SKIP_MORNING already_sent date=2026-07-05
+2026-07-05 14:31 SKIP_EVENING already_sent date=2026-07-05
