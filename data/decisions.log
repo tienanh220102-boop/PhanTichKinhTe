@@ -10858,3 +10858,6 @@
 2026-07-05 01:01 ACCEPT [Google News NS] "Analysis | An Unprecendented El Nino Is Headed Our Way: Are We Ready? " | kw:wti
 2026-07-05 01:01 ACCEPT [Google News CB] "Sudan’s Central Bank Withdraws Small-Denomination Banknotes from Circu" | kw:central bank
 2026-07-05 01:01 SKIP_MORNING already_sent date=2026-07-05
+2026-07-05 01:15 ACCEPT [Google News HH] "Price to sales forward of Bright Smart Securities & Commodities Group " | kw:rice,commodities
+2026-07-05 01:15 ACCEPT [Google News CB] "Six-Month Treasury Yield Rises to 4%: Bond Market Tells the Fed to Get" | kw:treasury,rate hike
+2026-07-05 01:15 SKIP_MORNING already_sent date=2026-07-05
