@@ -10872,3 +10872,11 @@
 2026-07-05 02:31 ACCEPT [Google News CB] "ECB sees lower urgency for rate hike as energy prices retreat - report" | kw:rice,rate hike,ecb
 2026-07-05 02:31 ACCEPT [Google News CB] "Gold steadies near $4,180 as forecasts split on H2 outlook - MSN" | kw:lng,gold
 2026-07-05 02:31 SKIP_MORNING already_sent date=2026-07-05
+2026-07-05 03:01 ACCEPT [Google News HH] "Crude Oil Poised for Rebound as Inventory Draws and Short Positioning " | kw:oil,crude
+2026-07-05 03:01 ACCEPT [Google News KL] "Gold price rises again, crosses Tk2.28 lakh per bhori - The Business S" | kw:gold,rice
+2026-07-05 03:01 ACCEPT [Google News KL] "Gold, Silver Rate Today July 05: Is gold getting costlier? Check 18, 2" | kw:gold,silver,rice
+2026-07-05 03:01 ACCEPT [Google News KL] "PAX Gold Price Outlook 2027: Perspective, Shift & Major Levels - Kabul" | kw:gold,rice
+2026-07-05 03:01 ACCEPT [Google News NS] "FAO’s benchmark measure of world food commodity prices edged down in J" | kw:rice,commodity
+2026-07-05 03:01 ACCEPT [Google News CB] "Sudan central bank to withdraw small banknotes as inflation bites - Su" | kw:inflation,central bank
+2026-07-05 03:01 ACCEPT [Google News CB] "Stocks flat as traders digest Fed comments, oil falls - AOL.com" | kw:oil
+2026-07-05 03:01 SKIP_MORNING already_sent date=2026-07-05
