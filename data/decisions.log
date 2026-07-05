@@ -10966,3 +10966,17 @@
 2026-07-05 08:31 ACCEPT [Google News HH] "Stock markets to track crude oil prices, global trends, TCS earnings t" | kw:oil,crude,rice
 2026-07-05 08:31 ACCEPT [Google News NS] "Archer-Daniels-Midland highlights its global agri-business role amid s" | kw:commodity
 2026-07-05 08:31 SKIP_MORNING already_sent date=2026-07-05
+2026-07-05 09:01 ACCEPT [Google News HH] "Crude Oil Weekly Forecast 5/07: Phase Worth Watching (Chart) - DailyFo" | kw:oil,crude
+2026-07-05 09:01 ACCEPT [Google News HH] "Iraqi crude exports to US drop to zero for second time - Shafaq News |" | kw:crude
+2026-07-05 09:01 ACCEPT [Google News HH] "Trim 9D88361A 57C4 4ECB 9348 FC5DC2AE0AB1 Crude Oil Price (X1oChxWqqX)" | kw:oil,crude,rice
+2026-07-05 09:01 ACCEPT [Google News HH] "Opec+ set for modest August oil output hike as Hormuz shipments resume" | kw:oil,opec
+2026-07-05 09:01 ACCEPT [Google News HH] "From TCS results to crude oil: 5 factors that could drive the stock ma" | kw:oil,crude
+2026-07-05 09:01 ACCEPT [Google News HH] "Consecutive Commodities - 13 penny stocks surge up to 260% in just 3 m" | kw:commodities
+2026-07-05 09:01 ACCEPT [Google News HH] "Pavia vs Gold Price: Contrast, Graph & Market Direction - Kabul Univer" | kw:gold,rice
+2026-07-05 09:01 ACCEPT [Google News KL] "JPMorgan adjusts its gold price forecast amid global interest rate pre" | kw:gold,rice,interest rate
+2026-07-05 09:01 ACCEPT [Google News KL] "Gold and silver prices drop marginally on Sunday - Nepalnews.com" | kw:gold,silver,rice
+2026-07-05 09:01 ACCEPT [Google News KL] "Gold Prices Stabilize Locally on Sunday... - jordannews.jo" | kw:gold,rice
+2026-07-05 09:01 ACCEPT [Google News KL] "EEX CEGH VTP EGSI Natural Gas Day Futures (Jul 2026 D03) Trade Ideas —" | kw:gas
+2026-07-05 09:01 ACCEPT [Google News KL] "ASX posts best day in weeks as gold miners soar - MSN" | kw:gold
+2026-07-05 09:01 ACCEPT [Google News NS] "FAO Food Price Index: Why lower global food prices may not cut Kenya’s" | kw:rice
+2026-07-05 09:01 SKIP_MORNING already_sent date=2026-07-05
