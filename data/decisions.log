@@ -10904,3 +10904,10 @@
 2026-07-05 04:31 ACCEPT [Google News KL] "Antam Gold Price Rises to Rp2.67 Million Per Gram on Sunday - Tempo.co" | kw:gold,rice
 2026-07-05 04:31 ACCEPT [Google News CB] "Central Bank clarifies US cash exports amid probe - Trinidad Guardian" | kw:central bank
 2026-07-05 04:31 SKIP_MORNING already_sent date=2026-07-05
+2026-07-05 05:01 ACCEPT [Google News HH] "OPEC Raised the Quota — Hormuz Blocked the Barrels - houseofsaud.com" | kw:opec
+2026-07-05 05:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD Edges Higher, Nears $58 as Dollar Pulls" | kw:silver,rice
+2026-07-05 05:01 ACCEPT [Google News KL] "Gold, silver prices today — 5 July: Check retail rates of 24K, 22K gol" | kw:gold,silver,rice
+2026-07-05 05:01 ACCEPT [Google News KL] "'Gold is not done': Goldman Sachs predicts a rise to $4,900 - AOL.com" | kw:gold
+2026-07-05 05:01 ACCEPT [Google News KL] "Gold, fuel, flour prices up in Kabul - Pajhwok Afghan News" | kw:fuel,gold,rice
+2026-07-05 05:01 ACCEPT [Google News KL] "Gold rises as weak US jobs data tempers Fed hike bets - MSN" | kw:gold
+2026-07-05 05:01 SKIP_MORNING already_sent date=2026-07-05
