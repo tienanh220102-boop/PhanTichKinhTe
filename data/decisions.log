@@ -10911,9 +10911,4 @@
 2026-07-05 05:01 ACCEPT [Google News KL] "Gold, fuel, flour prices up in Kabul - Pajhwok Afghan News" | kw:fuel,gold,rice
 2026-07-05 05:01 ACCEPT [Google News KL] "Gold rises as weak US jobs data tempers Fed hike bets - MSN" | kw:gold
 2026-07-05 05:01 SKIP_MORNING already_sent date=2026-07-05
-2026-07-05 05:30 ACCEPT [Google News KL] "Gold, silver prices today — 5 July: Check retail rates of 24K, 22K gol" | kw:gold,silver,rice
-2026-07-05 05:30 ACCEPT [Google News KL] "Gold Price Today in Chennai – 18K, 22K & 24K Rate | 05 July 2026 - The" | kw:gold,rice
-2026-07-05 05:30 ACCEPT [Google News KL] "OCBC cuts silver forecast to $67 amid market volatility - MSN" | kw:silver
-2026-07-05 05:30 ACCEPT [Google News NS] "Top 20 Most Valuable Pennies In The World! Ultra Rare Pennies That Cou" | kw:wti
-2026-07-05 05:30 ACCEPT [Google News CB] "Fed’s Warsh says inflation still too high, but now poses less risk - M" | kw:inflation
-2026-07-05 05:30 SKIP_MORNING already_sent date=2026-07-05
+2026-07-05 05:31 SKIP_MORNING already_sent date=2026-07-05
