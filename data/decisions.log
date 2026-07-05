@@ -10928,3 +10928,18 @@
 2026-07-05 06:31 ACCEPT [Google News CB] "Fed’s Warsh says inflation still too high, but now poses less risk - M" | kw:inflation
 2026-07-05 06:31 ACCEPT [Google News CB] "Gold nears $4,200 as weak US jobs data fuels rally - MSN" | kw:fuel,gold
 2026-07-05 06:31 SKIP_MORNING already_sent date=2026-07-05
+2026-07-05 07:01 ACCEPT [Google News HH] "Kuwait’s Crude Oil Output Climbs 184.5% - Egypt Oil & Gas" | kw:oil,crude,gas
+2026-07-05 07:01 ACCEPT [Google News HH] "OPEC+ extends output hikes as market faces 2025 oversupply risk - CHOS" | kw:opec
+2026-07-05 07:01 ACCEPT [Google News HH] "WTI Crude Oil Price Forecast: $68.71 Upward Trendline Under Siege as P" | kw:oil,crude,wti
+2026-07-05 07:01 ACCEPT [Google News HH] "JPMorgan Slashes Gold Price Target by Over 20%, Warns of Potential Plu" | kw:gold,rice
+2026-07-05 07:01 ACCEPT [Google News KL] "Malaysia Gold Price Today Falls: Market Data and Analysis - CryptoRank" | kw:gold,rice
+2026-07-05 07:01 ACCEPT [Google News KL] "Gold suddenly reversed course... - 富途牛牛" | kw:gold
+2026-07-05 07:01 ACCEPT [Google News KL] "Is Endeavour Mining (TSX:EDV) Cheap After Gold Driven Gains Lifted Sen" | kw:gold
+2026-07-05 07:01 ACCEPT [Google News KL] "Gold Market Experts Signal Further Gains as Thailand Positions itself " | kw:gold
+2026-07-05 07:01 ACCEPT [Google News KL] "Walrus vs Silver Price: Comparison, Chart & Market Trends - Kabul Univ" | kw:silver,rice
+2026-07-05 07:01 ACCEPT [Google News NS] "Top 20 Most Valuable Pennies In The World! Ultra Rare Pennies That Cou" | kw:wti
+2026-07-05 07:01 ACCEPT [Google News NS] "A good harvest in the Black Sea region is putting downward pressure on" | kw:wheat,rice,harvest
+2026-07-05 07:01 ACCEPT [Google News CB] "Weekly Outlook: Fed and ECB Meeting Minutes on the Horizon! Will Gold " | kw:gold,ecb
+2026-07-05 07:01 ACCEPT [Google News CB] "BOJ’s Tankan for June: Vigilance Required over Inflation Risks - The J" | kw:inflation,gdp,boj
+2026-07-05 07:01 ACCEPT [Google News CB] "Central Banks Continue Strong Gold Purchases Despite Interest Rate Pre" | kw:gold,central bank,interest rate
+2026-07-05 07:01 SKIP_MORNING already_sent date=2026-07-05
