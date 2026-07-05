@@ -1,0 +1,98 @@
+[BẢNG SỐ LIỆU]
+               Giá   Phiên  5 phiên
+WTI          68.78   +0.1%    -0.7%
+Brent        72.13   +0.5%    +0.2%
+Khí TN       3.245   +1.5%    +0.4%
+Vàng      4,187.30   +1.8%    +2.7%
+Bạc          62.81   +3.6%    +6.1%
+Đồng         6.224   +1.8%    +1.3%
+Ngô         440.75   +4.7%    +6.3%
+Lúa mì      600.25   +1.4%    +1.6%
+Đậu t.    1,146.75   +1.8%    +1.7%
+DXY         100.86   -0.5%    -0.6%
+
+📊 Khối lượng giao dịch cao bất thường (dòng tiền đang chú ý): Bạc 3.2× bình thường
+
+[LIÊN THỊ TRƯỜNG]
+  Brent−WTI: $3.35 (1 tháng trước: $1.79) — spread rộng = cung WTI dồi dào tương đối
+  Vàng/Bạc: 66.7 (1 tháng trước: 60.4) — tỷ lệ cao = bạc rẻ tương đối so với vàng
+  Đồng/Vàng (×1000): 1.49 (1 tháng trước: 1.46) — tăng = risk-on/kỳ vọng tăng trưởng
+
+[VỊ THẾ QUỸ ĐẦU CƠ — CFTC COT tuần 2026-06-23]
+  Lúa mì (SRW): NET SHORT -48,411 (Δ tuần: +2,401)
+  Ngô: NET LONG +58,333 (Δ tuần: -19,511)
+  Đậu tương: NET LONG +100,844 (Δ tuần: -16,764)
+  Dầu WTI: NET LONG +17,424 (Δ tuần: -4,507)
+  Bạc: NET LONG +23,751 (Δ tuần: -793)
+  Đồng: NET LONG +71,620 (Δ tuần: -3,730)
+  Vàng XAU: NET LONG +181,339 (Δ tuần: +1,119)
+→ NET LONG = quỹ đặt cược giá tăng; Δ dương = dòng tiền đầu cơ đang vào
+
+**BÁO CÁO PHÂN TÍCH THỊ TRƯỜNG HÀNG HÓA PHIÊN MỸ (20:00 VN) NGÀY 2026-07-05**
+
+🔀 **ĐỐI CHIẾU NGUỒN TIN**
+• Một số tin tức cho thấy kỳ vọng về việc Fed nới lỏng chính sách tiền tệ đang hỗ trợ giá vàng, trong khi các tin khác lại nhấn mạnh áp lực từ khả năng Fed tiếp tục tăng lãi suất. Điều này phản ánh sự phân vân của thị trường về định hướng chính sách tiền tệ của Mỹ.
+• Không phát hiện xung đột đáng kể giữa các nguồn tin về việc OPEC+ tăng sản lượng dầu và xu hướng giảm giá dầu toàn cầu.
+
+🌍 **VĨ MÔ & TIN TỨC NỔI BẬT**
+• Đồng USD suy yếu đáng kể (chỉ số DXY giảm 0.52%) đã hỗ trợ mạnh mẽ cho giá vàng và các hàng hóa khác trong phiên.
+• Kỳ vọng về việc Cục Dự trữ Liên bang Mỹ (Fed) có thể nới lỏng chính sách tiền tệ hoặc giảm tốc độ tăng lãi suất đang là yếu tố chính thúc đẩy giá vàng tăng, mặc dù vẫn còn những lo ngại về khả năng Fed tiếp tục tăng lãi suất.
+• Các cuộc họp của FOMC và ECB trong tuần tới, cùng với dữ liệu lạm phát của Trung Quốc, sẽ là những sự kiện vĩ mô quan trọng định hình tâm lý thị trường và hướng đi của các loại hàng hóa.
+
+🛢️ **NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên**
+Xu hướng: WTI GIẢM | Brent GIẢM | Khí TN TĂNG
+Thiên hướng KT: WTI Giảm — đã sâu | Brent Giảm — đã sâu | Khí TN Nghiêng tăng
+Ngưỡng giá: WTI 67.04–71.60 | Brent 70.14–73.53 | Khí TN 3.199–3.328
+Phân tích:
+• Dầu WTI tăng 0.13% trong phiên nhưng giảm 0.65% trong 5 phiên, trong khi Dầu Brent tăng 0.46% trong phiên và tăng 0.19% trong 5 phiên. Cả hai loại dầu đều đang trong xu hướng trung hạn GIẢM và đã giảm khá sâu.
+• Các tin tức cho thấy giá dầu toàn cầu đang giảm và OPEC+ đã cam kết tăng sản lượng thêm 188,000 thùng/ngày từ tháng 8/2026, cùng với việc Kuwait tăng sản lượng và các lô hàng từ Iran gia tăng, tạo áp lực lên nguồn cung.
+• Khí tự nhiên tăng 1.53% trong phiên và tăng 0.43% trong 5 phiên, đang trong xu hướng trung hạn TĂNG, có thể do nhu cầu mùa vụ cao điểm cho điều hòa và di chuyển.
+Rủi ro:
+• Nguồn cung dầu toàn cầu có thể tiếp tục tăng từ OPEC+ và Iran, gây áp lực giảm giá.
+• Mùa bão ở Vịnh Mexico có thể gây gián đoạn sản xuất, tạo biến động bất ngờ cho giá dầu và khí tự nhiên.
+
+🥇 **KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc**
+Xu hướng: Vàng SIDEWAY | Bạc GIẢM
+Thiên hướng KT: Vàng Trung tính | Bạc Nghiêng giảm
+Ngưỡng giá: Vàng 4,170.66–4,208.30 | Bạc 57.03–63.35
+Phân tích:
+• Vàng tăng 1.81% trong phiên và tăng 2.66% trong 5 phiên, đang trong xu hướng trung hạn SIDEWAY. Bạc tăng mạnh hơn, tăng 3.58% trong phiên và tăng 6.08% trong 5 phiên, nhưng vẫn trong xu hướng trung hạn GIẢM.
+• Giá vàng được hỗ trợ bởi kỳ vọng về việc Fed nới lỏng chính sách tiền tệ hoặc giảm tốc độ tăng lãi suất, dẫn đến đồng USD suy yếu. Các quỹ lớn đang tăng đặt cược giá vàng tăng.
+• Tỷ lệ Vàng/Bạc ở mức 66.7, cho thấy bạc vẫn đang rẻ tương đối so với vàng, điều này có thể giải thích cho mức tăng mạnh hơn của bạc trong phiên.
+Rủi ro:
+• Sự không chắc chắn về lộ trình tăng lãi suất của Fed vẫn là rủi ro chính, vì kỳ vọng tăng lãi suất có thể gây áp lực giảm giá lên vàng.
+• Mặc dù bạc tăng mạnh, xu hướng trung hạn vẫn là giảm, cho thấy khả năng điều chỉnh sau đợt tăng nóng.
+
+🌾 **NÔNG SẢN — Ngô, Đậu tương, Lúa mì**
+Xu hướng: Ngô SIDEWAY | Lúa mì SIDEWAY | Đậu tương SIDEWAY
+Thiên hướng KT: Ngô Trung tính | Lúa mì Trung tính | Đậu tương Trung tính
+Ngưỡng giá: Ngô 416.19–446.00 | Lúa mì 588.75–607.75 | Đậu tương 1,121.49–1,158.00
+Phân tích:
+• Ngô tăng 4.69% trong phiên và tăng 6.27% trong 5 phiên, lúa mì tăng 1.39% trong phiên và tăng 1.57% trong 5 phiên, đậu tương tăng 1.82% trong phiên và tăng 1.71% trong 5 phiên. Cả ba đều đang trong xu hướng trung hạn SIDEWAY.
+• Sự tăng giá mạnh của ngô có thể phản ánh "thị trường thời tiết" đầy biến động trong giai đoạn ngô Mỹ thụ phấn đỉnh điểm.
+• Các quỹ lớn đang giảm đặt cược giá tăng đối với ngô và đậu tương, và tăng đặt cược giá giảm đối với lúa mì, cho thấy sự thận trọng của giới đầu cơ.
+Rủi ro:
+• Biến động thời tiết trong mùa thụ phấn ngô ở Mỹ có thể gây ra những thay đổi giá đột ngột.
+• Vị thế của các quỹ đầu cơ cho thấy sự phân hóa và có thể tạo áp lực điều chỉnh nếu tâm lý thị trường thay đổi.
+
+🔩 **KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken**
+Xu hướng: Đồng SIDEWAY
+Thiên hướng KT: Đồng Trung tính
+Ngưỡng giá: Đồng 6.050–6.266
+Phân tích:
+• Đồng tăng 1.79% trong phiên và tăng 1.34% trong 5 phiên, đang trong xu hướng trung hạn SIDEWAY.
+• Tỷ lệ Đồng/Vàng tăng cho thấy tâm lý thị trường đang nghiêng về "ưa rủi ro" và kỳ vọng tăng trưởng kinh tế toàn cầu.
+• Nhu cầu mùa vụ cao điểm cho điều hòa ở Trung Quốc và mùa xây dựng vẫn mạnh cũng là yếu tố hỗ trợ giá đồng.
+Rủi ro:
+• Tâm lý "ưa rủi ro" có thể thay đổi nhanh chóng nếu có các tin tức vĩ mô tiêu cực, gây áp lực giảm giá lên đồng.
+• Các quỹ lớn đang giảm đặt cược giá đồng tăng, cho thấy sự thận trọng nhất định.
+
+📋 **KHUYẾN NGHỊ PHIÊN**
+• **Dầu WTI**: Có thể xem xét mua thăm dò nếu giá giữ vững trên $68.00, với mục tiêu $70.00 và cắt lỗ dưới $67.50.
+• **Vàng**: Duy trì vị thế mua nếu giá giữ trên $4170.00, với mục tiêu $4200.00 và cắt lỗ dưới $4160.00.
+• **Ngô**: Có thể xem xét mua nếu giá vượt qua $445.00, với mục tiêu $450.00 và cắt lỗ dưới $440.00.
+
+⚠️ **THEO DÕI PHIÊN**
+• Biên bản cuộc họp của FOMC và ECB trong tuần tới để đánh giá định hướng chính sách tiền tệ.
+• Dữ liệu lạm phát của Trung Quốc, có thể ảnh hưởng đến kỳ vọng về nhu cầu hàng hóa công nghiệp.
+• Diễn biến thời tiết tại các vùng trồng trọt chính của Mỹ, đặc biệt là đối với ngô.
