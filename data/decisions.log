@@ -11200,3 +11200,7 @@
 2026-07-05 16:57 ACCEPT [Google News CB] "Investors look for Fed clues, earnings signs as tech wobbles By Reuter" | kw:fuel
 2026-07-05 16:57 SKIP_MORNING already_sent date=2026-07-05
 2026-07-05 16:57 SKIP_EVENING already_sent date=2026-07-05
+2026-07-05 17:01 ACCEPT [OilPrice.com] "Starmer Out, Burnham In: What Changes for UK Energy Policy?" | kw:easing
+2026-07-05 17:01 ACCEPT [Google News HH] "Crude Oil Weekly Outlook: Is Russia the Next Risk Premium for Oil Pric" | kw:oil,crude,rice
+2026-07-05 17:01 ACCEPT [Google News CB] "ECB sees lower urgency for rate hike as energy prices retreat - report" | kw:rice,rate hike,ecb
+2026-07-05 17:01 ACCEPT [Google News CB] "Fed Schedules $10B Treasury Bill Purchases as Liquidity Move Fuels Cry" | kw:fuel,treasury
