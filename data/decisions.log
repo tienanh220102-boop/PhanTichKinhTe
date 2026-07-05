@@ -11051,3 +11051,62 @@
 2026-07-05 12:31 ACCEPT [Google News HH] "OPEC+ will add another 188,000 barrels per day of crude oil starting i" | kw:oil,crude,opec
 2026-07-05 12:31 ACCEPT [Google News HH] "Opec+ ratifies planned oil quota hike as Gulf flows rebound - The Edge" | kw:oil,opec
 2026-07-05 12:31 SKIP_MORNING already_sent date=2026-07-05
+2026-07-05 13:01 ACCEPT [BBC Business] "Do you know your 'sweat score'? The rise of hydration tech" | kw:flood
+2026-07-05 13:01 ACCEPT [BBC Business] "India's 'blue gold' starts a new drinks industry" | kw:gold
+2026-07-05 13:01 ACCEPT [The Guardian Biz] "As auto costs rise, will the US miss the golden age of electric vehicl" | kw:gold
+2026-07-05 13:01 ACCEPT [CNBC Commodities] "Inflation peaked in May as energy prices fell in June, Kalshi traders " | kw:rice,inflation
+2026-07-05 13:01 ACCEPT [CNBC Commodities] "CFTC is conducting an investigation into Polymarket, source says" | kw:commodity
+2026-07-05 13:01 ACCEPT [CNBC Commodities] "Federal Reserve says U.S. banks can withstand $708 billion in losses a" | kw:federal reserve
+2026-07-05 13:01 ACCEPT [CNBC Economy] "Christine Lagarde leaves door open to early ECB exit, as she mulls Fre" | kw:central bank,ecb
+2026-07-05 13:01 ACCEPT [CNBC Economy] "Shipping rebounds in Strait of Hormuz one week after U.S.-Iran deal – " | kw:shipping
+2026-07-05 13:01 ACCEPT [CNBC Economy] "UK inflation holds steady at 2.8% in May" | kw:inflation,monetary policy,bank of england
+2026-07-05 13:01 ACCEPT [CNBC Economy] "Wholesale prices rose 1.1% in May, more than expected, on surge in ene" | kw:rice
+2026-07-05 13:01 ACCEPT [EIA Energy] "The 250-year history of U.S. energy consumption" | kw:petroleum
+2026-07-05 13:01 ACCEPT [EIA Energy] "U.S. commercial crude oil inventories have decreased in June" | kw:oil,crude,gas
+2026-07-05 13:01 ACCEPT [EIA Energy] "U.S. industrial natural gas consumption expected to hit records in 202" | kw:gas
+2026-07-05 13:01 ACCEPT [NASDAQ Commod] "Gold Rises Toward $4,200 As Fed Rate Fears Ease" | kw:gold,fed rate,rate hike
+2026-07-05 13:01 ACCEPT [NASDAQ Commod] "Silver Price Trends: Q2 2026 Review and Forecast" | kw:silver,rice,inflation
+2026-07-05 13:01 ACCEPT [NASDAQ Commod] "Crude Oil Ticks Higher After U.S., Iran Contradict Over Strait Of Horm" | kw:oil,crude,rice
+2026-07-05 13:01 ACCEPT [Google News HH] "Oil Prices Are Falling, but OPEC Plus Pledges to Pump More - The New Y" | kw:oil,opec,rice
+2026-07-05 13:01 ACCEPT [Google News HH] "OPEC+ set to approve another oil output increase, sources say - CNBC" | kw:oil,opec
+2026-07-05 13:01 ACCEPT [Google News HH] "Kuwait’s Crude Oil Output Climbs 184.5% - Egypt Oil & Gas" | kw:oil,crude,gas
+2026-07-05 13:01 ACCEPT [Google News HH] "OPEC+ approves further oil output increase as Hormuz exports start to " | kw:oil,opec
+2026-07-05 13:01 ACCEPT [Google News HH] "OPEC+ raises quotas again as Middle East calms - The New Arab" | kw:opec
+2026-07-05 13:01 ACCEPT [Google News HH] "Crude Oil Heads for Fourth Weekly Loss as Hormuz Flows Normalise and U" | kw:oil,crude
+2026-07-05 13:01 ACCEPT [Google News HH] "OPEC+ to boost oil supply by 188,000 barrels per day in August - Crypt" | kw:oil,opec
+2026-07-05 13:01 ACCEPT [Google News HH] "Will crude oil fall to $50? How demand and supply are reshaping global" | kw:oil,crude
+2026-07-05 13:01 ACCEPT [Google News HH] "Citi forecasts Brent Crude may drop to $60 by year-end despite US-Iran" | kw:crude,brent
+2026-07-05 13:01 ACCEPT [Google News HH] "OPEC+ Approves 188,000 Barrels Per Day August Output Increase As Hormu" | kw:oil,opec,wti
+2026-07-05 13:01 ACCEPT [Google News HH] "Supreme Court orders immediate handover of FPSO Tamara Tokoni Crude Oi" | kw:oil,crude
+2026-07-05 13:01 ACCEPT [Google News HH] "From TCS results to crude oil: 5 factors that could drive the stock ma" | kw:oil,crude
+2026-07-05 13:01 ACCEPT [Google News HH] "Crude oil leak from Vedanta Cairn pipeline spreads across farmland nea" | kw:oil,crude
+2026-07-05 13:01 ACCEPT [Google News KL] "Equinox Gold (EQX) Just Cleared A Major Roadblock, Is The Stock Ready " | kw:gold
+2026-07-05 13:01 ACCEPT [Google News KL] "Gold price rises again, crosses Tk2.28 lakh per bhori - The Business S" | kw:gold,rice
+2026-07-05 13:01 ACCEPT [Google News KL] "Antam Gold Price Rises to Rp2.67 Million Per Gram on Sunday - Tempo.co" | kw:gold,rice
+2026-07-05 13:01 ACCEPT [Google News KL] "Gold prices rise EGP 135 over past week as global rally lifts local ma" | kw:gold,rice
+2026-07-05 13:01 ACCEPT [Google News NS] "Kernels of hope: Exports feeding, fueling the world - Shaw Local" | kw:fuel
+2026-07-05 13:01 ACCEPT [Google News NS] "The Bunge Whole Harvest Expeller Pressed Soybean Oil - BG leans on a f" | kw:oil,soybean,harvest
+2026-07-05 13:01 ACCEPT [Google News NS] "Top 20 Most Valuable Pennies In The World! Ultra Rare Pennies That Cou" | kw:wti
+2026-07-05 13:01 ACCEPT [Google News NS] "Analysis | An Unprecendented El Nino Is Headed Our Way: Are We Ready? " | kw:wti
+2026-07-05 13:01 ACCEPT [Google News NS] "Developing soybean, livestock sectors will boost African economies – B" | kw:soybean
+2026-07-05 13:01 ACCEPT [RT Business] "Why Europe still needs Russia to keep the lights on" | kw:fuel,shortage
+2026-07-05 13:01 ACCEPT [RT Business] "EU facing winter gas shock – FT" | kw:gas,lng
+2026-07-05 13:01 ACCEPT [RT Business] "Americans spending more because they are ‘optimistic’? Economists chal" | kw:inflation
+2026-07-05 13:01 ACCEPT [RT Business] "Gas at $4: Understanding America’s strange obsession" | kw:gas,fuel,rice
+2026-07-05 13:01 ACCEPT [RT Business] "Defying Western pressure: Russia and China deepen economic partnership" | kw:sanction
+2026-07-05 13:01 ACCEPT [RT Business] "Why the ECB may be forced to raise rates despite weak EU economy" | kw:central bank,interest rate,ecb
+2026-07-05 13:01 ACCEPT [RT Business] "Oil trader pockets reported $125 mn on suspiciously well-timed Iran be" | kw:oil
+2026-07-05 13:01 ACCEPT [RT Business] "EU ‘not competitive’ – Belgian central bank chief" | kw:central bank
+2026-07-05 13:01 ACCEPT [Fed Monetary] "Federal Reserve issues FOMC statement" | kw:federal reserve,fomc
+2026-07-05 13:01 ACCEPT [Google News CB] "Bank of Israel expected to cut interest rate for third time this year " | kw:interest rate
+2026-07-05 13:01 ACCEPT [Google News CB] "Trump Admin Ramps Up Pressure on Oil Industry, Former Fed Hawk Warns o" | kw:oil
+2026-07-05 13:01 ACCEPT [Google News CB] "The Federal Reserve Just Delivered Fantastic News for Crypto Investors" | kw:federal reserve
+2026-07-05 13:01 ACCEPT [Google News CB] "Gold Heads for First Weekly Rise in Five on Easing Fed Rate-Hike Bets " | kw:wti,gold,fed rate
+2026-07-05 13:01 ACCEPT [Google News CB] "Fed’s Warsh says inflation still too high, but now poses less risk - M" | kw:inflation
+2026-07-05 13:01 ACCEPT [Google News CB] "The Road to Independence - ECB Publishing, Inc." | kw:ecb
+2026-07-05 13:01 ACCEPT [Google News CB] "Federal Reserve delivers positive signals for crypto investors - Crypt" | kw:federal reserve
+2026-07-05 13:01 SKIP_MORNING already_sent date=2026-07-05
+2026-07-05 13:01 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-07-05 13:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
+2026-07-05 13:01 GEMINI ERROR gemini-2.5-flash-lite This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-07-05 13:01 SKIP_EVENING gemini_no_result date=2026-07-05
