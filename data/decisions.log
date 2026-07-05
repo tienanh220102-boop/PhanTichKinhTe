@@ -11040,3 +11040,7 @@
 2026-07-05 12:01 ACCEPT [Google News NS] "The Authority Supreme from FMC Corp. - herbicide workhorse in corn and" | kw:corn,soybean
 2026-07-05 12:01 ACCEPT [Google News CB] "Expectations for U.S. Fed rate hikes pressure gold - thecanadianpressn" | kw:gold,fed rate,gdp
 2026-07-05 12:01 SKIP_MORNING already_sent date=2026-07-05
+2026-07-05 12:09 ACCEPT [Google News HH] "OPEC+ lifts output for fifth month, warns of potential 2025 glut - CHO" | kw:opec
+2026-07-05 12:09 ACCEPT [Google News KL] "Expectations for U.S. Fed rate hikes pressure gold - CityNews Halifax" | kw:gold,fed rate,rate hike
+2026-07-05 12:10 ACCEPT [Google News CB] "The Federal Reserve Just Delivered Fantastic News for Crypto Investors" | kw:federal reserve
+2026-07-05 12:10 SKIP_MORNING already_sent date=2026-07-05
