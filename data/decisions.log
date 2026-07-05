@@ -11044,3 +11044,10 @@
 2026-07-05 12:09 ACCEPT [Google News KL] "Expectations for U.S. Fed rate hikes pressure gold - CityNews Halifax" | kw:gold,fed rate,rate hike
 2026-07-05 12:10 ACCEPT [Google News CB] "The Federal Reserve Just Delivered Fantastic News for Crypto Investors" | kw:federal reserve
 2026-07-05 12:10 SKIP_MORNING already_sent date=2026-07-05
+2026-07-05 12:31 ACCEPT [Google News HH] "OPEC+ Approves 188,000 bbl/d Output Increase for August 2026 - Egypt O" | kw:oil,opec,gas
+2026-07-05 12:31 ACCEPT [Google News HH] "OPEC+ members raise oil quotas again as MidEast tensions ease - Türkiy" | kw:oil,opec
+2026-07-05 12:31 ACCEPT [Google News HH] "OPEC+ raises August production target as oil market stabilises - Emira" | kw:oil,opec
+2026-07-05 12:31 ACCEPT [Google News HH] "Crude oil leaks into farmer's field: Pipeline supply suspended; engine" | kw:oil,crude
+2026-07-05 12:31 ACCEPT [Google News HH] "OPEC+ will add another 188,000 barrels per day of crude oil starting i" | kw:oil,crude,opec
+2026-07-05 12:31 ACCEPT [Google News HH] "Opec+ ratifies planned oil quota hike as Gulf flows rebound - The Edge" | kw:oil,opec
+2026-07-05 12:31 SKIP_MORNING already_sent date=2026-07-05
