@@ -10992,3 +10992,17 @@
 2026-07-05 10:01 ACCEPT [Google News KL] "Gold prices rise in Baghdad but slip in Erbil - Shafaq News | Latest b" | kw:gold,rice
 2026-07-05 10:01 ACCEPT [Google News KL] "Kuzco vs Silver Value: Comparison, Trend & Market Shift - Kabul Univer" | kw:silver
 2026-07-05 10:01 SKIP_MORNING already_sent date=2026-07-05
+2026-07-05 10:31 ACCEPT [Google News HH] "OPEC+ set to approve another oil output increase, sources say - Reuter" | kw:oil,opec
+2026-07-05 10:31 ACCEPT [Google News HH] "Dalal Street outlook: TCS, crude oil and more, what's driving stock ma" | kw:oil,crude
+2026-07-05 10:31 ACCEPT [Google News HH] "Gold Price Expected to Surge Next Week: Expert Shares Why - Tempo.co E" | kw:wti,gold,rice
+2026-07-05 10:31 ACCEPT [Google News HH] "Crude Oil Heads for Fourth Weekly Loss as Hormuz Flows Normalise and U" | kw:oil,crude
+2026-07-05 10:31 ACCEPT [Google News HH] "Global crude oil prices decline - News On AIR" | kw:oil,crude,rice
+2026-07-05 10:31 ACCEPT [Google News KL] "Expectations for U.S. Fed rate hikes pressure gold - Winnipeg Free Pre" | kw:gold,fed rate,rate hike
+2026-07-05 10:31 ACCEPT [Google News KL] "Gold heads for first weekly gain since May on easing Fed outlook - The" | kw:gold,easing
+2026-07-05 10:31 ACCEPT [Google News KL] "'Should've sold my gold ring back then' — gold posts worst quarter in " | kw:gold
+2026-07-05 10:31 ACCEPT [Google News CB] "Trump Admin Ramps Up Pressure on Oil Industry, Former Fed Hawk Warns o" | kw:oil
+2026-07-05 10:31 ACCEPT [Google News CB] "Expectations for U.S. Fed rate hikes pressure gold - Toronto Star" | kw:gold,fed rate,rate hike
+2026-07-05 10:31 ACCEPT [Google News CB] "Federal Reserve delivers positive signals for crypto investors - Crypt" | kw:federal reserve
+2026-07-05 10:31 ACCEPT [Google News CB] "Egypt’s central bank tells banks to boost healthcare funding through C" | kw:central bank
+2026-07-05 10:31 ACCEPT [Google News CB] "Central Bank plans tighter oversight - Trinidad Express Newspapers" | kw:central bank
+2026-07-05 10:31 SKIP_MORNING already_sent date=2026-07-05
