@@ -10880,3 +10880,7 @@
 2026-07-05 03:01 ACCEPT [Google News CB] "Sudan central bank to withdraw small banknotes as inflation bites - Su" | kw:inflation,central bank
 2026-07-05 03:01 ACCEPT [Google News CB] "Stocks flat as traders digest Fed comments, oil falls - AOL.com" | kw:oil
 2026-07-05 03:01 SKIP_MORNING already_sent date=2026-07-05
+2026-07-05 03:31 ACCEPT [Google News KL] "Evolution Mining (ASX:EVN) Back In Focus After Gold Rally With Valuati" | kw:gold
+2026-07-05 03:31 ACCEPT [Google News NS] "EU wheat drifts in US holiday lull, maize extends rally on weather woe" | kw:wheat
+2026-07-05 03:31 ACCEPT [Google News CB] "UBS already has enough capital to meet proposed new rules - Swiss cent" | kw:central bank
+2026-07-05 03:31 SKIP_MORNING already_sent date=2026-07-05
