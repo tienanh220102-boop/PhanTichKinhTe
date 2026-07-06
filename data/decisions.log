@@ -11724,3 +11724,22 @@
 2026-07-06 12:01 ACCEPT [Google News CB] "Bitcoin Gains on Trimmed Fed Rate Rise Bets -- Market Talk - Moomoo" | kw:fed rate
 2026-07-06 12:01 ACCEPT [Google News CB] "Gold slips from two-week high on firmer dollar; Fed minutes in focus -" | kw:gold
 2026-07-06 12:01 SKIP_MORNING already_sent date=2026-07-06
+2026-07-06 12:21 ACCEPT [Google News HH] "OPEC is in a struggle for its survival. It could mean $40 oil - CNN" | kw:oil,opec
+2026-07-06 12:21 ACCEPT [Google News HH] "EXCLUSIVE: UAE crude output nears record following OPEC exit, sources " | kw:crude,opec
+2026-07-06 12:21 ACCEPT [Google News HH] "What is next for commodities? - UBS" | kw:commodities
+2026-07-06 12:21 ACCEPT [Google News HH] "Gold Price Today on July 06, 2026 - USA Today" | kw:gold,rice
+2026-07-06 12:21 ACCEPT [Google News HH] "Non-operating income (total) of ADON AGRO COMMODITIES LIMITED – BSE:AD" | kw:commodities
+2026-07-06 12:21 ACCEPT [Google News HH] "EBIT of ADON AGRO COMMODITIES LIMITED – BSE:ADON - TradingView" | kw:commodities
+2026-07-06 12:21 ACCEPT [Google News HH] "Diluted earnings per share (diluted EPS) of ADON AGRO COMMODITIES LIMI" | kw:commodities
+2026-07-06 12:21 ACCEPT [Google News HH] "ADON AGRO COMMODITIES LIMITED Dividends – BSE:ADON - TradingView" | kw:commodities
+2026-07-06 12:21 ACCEPT [Google News KL] "Gold prices today, Monday, July 6: Higher prices following Thursday's " | kw:gold,rice
+2026-07-06 12:21 ACCEPT [Google News KL] "Silver Price Today on July 06, 2026 - USA Today" | kw:silver,rice
+2026-07-06 12:21 ACCEPT [Google News KL] "Here’s how gold stocks could roar back into life! - The Twelfth Magpie" | kw:gold
+2026-07-06 12:21 ACCEPT [Google News KL] "Contango swaps 15,000 hedged gold ounces into debt, cuts rate - Stock " | kw:gold
+2026-07-06 12:21 ACCEPT [Google News KL] "Gold Set For a Strong Rally as New Financial Year Begins - SMM Metal" | kw:gold
+2026-07-06 12:21 ACCEPT [Google News KL] "The 2026 Gold Forecast Reset: Navigating Cyclical Headwinds and Bank D" | kw:gold
+2026-07-06 12:21 ACCEPT [Google News KL] "Emily Haugen ( 10 Years Old) 100m Freestyle At George Mason Silver Pri" | kw:silver,rice
+2026-07-06 12:21 ACCEPT [Google News NS] "El Niño and rising costs discourage wheat sowing in Brazil - Valor Int" | kw:lng,wheat
+2026-07-06 12:21 ACCEPT [Google News CB] "Town Lands $4.7 Million Fed Grant for Exit 27 - Cornelius Today" | kw:corn
+2026-07-06 12:21 ACCEPT [Google News CB] "Realty shares extend rise to 5th straight day on easing Fed rate-hike " | kw:fed rate,easing
+2026-07-06 12:21 SKIP_MORNING already_sent date=2026-07-06
