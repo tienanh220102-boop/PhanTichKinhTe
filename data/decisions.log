@@ -11601,3 +11601,22 @@
 2026-07-06 10:31 ACCEPT [Google News NS] "China resumes US soybean purchases, but American farmers remain cautio" | kw:soybean
 2026-07-06 10:31 ACCEPT [Google News CB] "Central Bank says strong exports offset energy import surge - Hürriyet" | kw:central bank
 2026-07-06 10:31 SKIP_MORNING already_sent date=2026-07-06
+2026-07-06 11:01 ACCEPT [MarketWatch] "As oil exits the ‘danger zone,’ here’s what history suggests happens n" | kw:oil,rice
+2026-07-06 11:01 ACCEPT [Al Jazeera] "UK’s Farage’s gold deal tests his populist brand as Restore Britain ri" | kw:gold
+2026-07-06 11:01 ACCEPT [OilPrice.com] "Germany Weathers Energy Crisis With Growing Dependence on American LNG" | kw:gas,lng
+2026-07-06 11:01 ACCEPT [NASDAQ Commod] "Gold Edges Lower In Cautious Trade" | kw:gold,rice,rate hike
+2026-07-06 11:01 ACCEPT [Google News HH] "ADON AGRO COMMODITIES LIMITED Dividends – BSE:ADON - TradingView" | kw:commodities
+2026-07-06 11:01 ACCEPT [Google News KL] "U.S. GoldMining drills high-priority Alaska targets after $2B Whistler" | kw:gold
+2026-07-06 11:01 ACCEPT [Google News KL] "Gold retreats as dollar gains, rate hike bets ease - MSN" | kw:gold,rate hike
+2026-07-06 11:01 ACCEPT [Google News KL] "Gold market braces for volatile second half as rates and geopolitics c" | kw:lng,gold
+2026-07-06 11:01 ACCEPT [Google News KL] "Pakistan gold prices ease as firmer dollar and Fed rate outlook offset" | kw:gold,rice,fed rate
+2026-07-06 11:01 ACCEPT [Google News KL] "Philippines Gold Prices Slip as Strong Dollar Offsets Central Bank Buy" | kw:gold,rice,central bank
+2026-07-06 11:01 ACCEPT [Google News KL] "JPMorgan cuts gold forecast to $4,500 per ounce - Coinspot.io" | kw:gold
+2026-07-06 11:01 ACCEPT [Google News NS] "Corn Jumps as French Crops Damaged by Intense European Heat Wave - Ukr" | kw:corn
+2026-07-06 11:01 ACCEPT [Google News NS] "NCGA targets maritime fuel, aviation and biobased products to grow US " | kw:fuel,corn
+2026-07-06 11:01 ACCEPT [Google News NS] "Corn Futures Turn Higher: Is the Grain Market Starting a Fresh Move? -" | kw:corn
+2026-07-06 11:01 ACCEPT [Google News NS] "Barley prices in Ukraine continue to decline, but market stabilization" | kw:rice
+2026-07-06 11:01 ACCEPT [Google News NS] "Ethanol Market Watch: Why Biofuel Prices Could Draw Fresh Attention - " | kw:fuel,rice
+2026-07-06 11:01 ACCEPT [Google News CB] "Hysata secures debut order for ‘megawatt-scale’ capillary-fed electrol" | kw:gas
+2026-07-06 11:01 ACCEPT [Google News CB] "How Central Bank Interest Rate Decisions Move the FX Market - Investin" | kw:central bank,interest rate,rate decision
+2026-07-06 11:01 SKIP_MORNING already_sent date=2026-07-06
