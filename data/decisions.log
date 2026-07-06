@@ -11743,3 +11743,15 @@
 2026-07-06 12:21 ACCEPT [Google News CB] "Town Lands $4.7 Million Fed Grant for Exit 27 - Cornelius Today" | kw:corn
 2026-07-06 12:21 ACCEPT [Google News CB] "Realty shares extend rise to 5th straight day on easing Fed rate-hike " | kw:fed rate,easing
 2026-07-06 12:21 SKIP_MORNING already_sent date=2026-07-06
+2026-07-06 12:31 ACCEPT [Google News HH] "Total debt per share of ADON AGRO COMMODITIES LIMITED – BSE:ADON - Tra" | kw:commodities
+2026-07-06 12:31 ACCEPT [Google News HH] "Operating income of ADON AGRO COMMODITIES LIMITED – BSE:ADON - Trading" | kw:commodities
+2026-07-06 12:31 ACCEPT [Google News HH] "Operating expenses (excl. COGS) of ADON AGRO COMMODITIES LIMITED – BSE" | kw:commodities
+2026-07-06 12:31 ACCEPT [Google News HH] "Net income of ADON AGRO COMMODITIES LIMITED – BSE:ADON - TradingView" | kw:commodities
+2026-07-06 12:31 ACCEPT [Google News HH] "Taxes of ADON AGRO COMMODITIES LIMITED – BSE:ADON - TradingView" | kw:commodities
+2026-07-06 12:31 ACCEPT [Google News KL] "Philippines Gold Prices Slip as Strong Dollar Offsets Central Bank Buy" | kw:gold,rice,central bank
+2026-07-06 12:31 ACCEPT [Google News KL] "Jobs Miss Forces Fed Rethink, Igniting Gold and Silver's Safe-Haven Ra" | kw:gold,silver
+2026-07-06 12:31 ACCEPT [Google News KL] "Total Eclipse Of The Heart Bonnie Tyler Current Silver Price May 2026 " | kw:silver,rice
+2026-07-06 12:31 ACCEPT [Google News CB] "US Equity Investors to Tune Into Fed's Meeting Minutes Amid Expectatio" | kw:interest rate
+2026-07-06 12:31 ACCEPT [Google News CB] "Taiwan central bank intervened in forex market in June - Investing.com" | kw:central bank
+2026-07-06 12:31 ACCEPT [Google News CB] "Bolivia’s central bank plans to reopen USD accounts, return $933 milli" | kw:central bank
+2026-07-06 12:31 SKIP_MORNING already_sent date=2026-07-06
