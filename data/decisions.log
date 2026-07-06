@@ -11572,3 +11572,20 @@
 2026-07-06 09:31 ACCEPT [Google News CB] "ECB's Makhlouf: Falling oil prices won't simply make inflation disappe" | kw:oil,rice,inflation
 2026-07-06 09:31 ACCEPT [Google News CB] "Turkish Central Bank says strong exports offset energy import surge de" | kw:lng,central bank
 2026-07-06 09:31 SKIP_MORNING already_sent date=2026-07-06
+2026-07-06 10:01 ACCEPT [MarketWatch] "Two things Samsung might be considering: price hikes and a U.S. listin" | kw:rice
+2026-07-06 10:01 ACCEPT [MarketWatch] "EasyJet agrees to a takeover price. The market has its doubts on the d" | kw:rice
+2026-07-06 10:01 ACCEPT [Google News HH] "OPEC+ Increases Oil Production Amid Price Drop - Newsradio WOOD 1300 a" | kw:oil,opec,rice
+2026-07-06 10:01 ACCEPT [Google News HH] "Gold price falls as Middle East tensions boost US Dollar demand - FXSt" | kw:gold,rice
+2026-07-06 10:01 ACCEPT [Google News HH] "Oil falls by more than 1% after OPEC+ agrees to raise output targets -" | kw:oil,opec
+2026-07-06 10:01 ACCEPT [Google News HH] "New Zealand Dollar falls on softer commodities, RBNZ uncertainty - FXS" | kw:commodities
+2026-07-06 10:01 ACCEPT [Google News HH] "From raw commodities to global brands: The future of China-Ghana agric" | kw:commodities
+2026-07-06 10:01 ACCEPT [Google News KL] "Is Endeavour Mining’s (TSX:EDV) Rising Gold Sensitivity Reframing Its " | kw:gold
+2026-07-06 10:01 ACCEPT [Google News KL] "'Et Tu, Gold'? Cash Crunch Sparks Massive Correction In The Ultimate S" | kw:gold
+2026-07-06 10:01 ACCEPT [Google News KL] "Gold, Silver Price Today: Check Rates In Mumbai, Delhi, Chennai, Kolka" | kw:gold,silver,rice
+2026-07-06 10:01 ACCEPT [Google News NS] "German Rapeseed Meal Exports Slump as Soybean Competition and Weak Cru" | kw:soybean
+2026-07-06 10:01 ACCEPT [Google News NS] "Chicago grains and oilseeds rally after holiday weekend - ZAWYA" | kw:oil
+2026-07-06 10:01 ACCEPT [Google News NS] "The KWS wheat varieties boosting profitability for growers - Farmers G" | kw:wheat
+2026-07-06 10:01 ACCEPT [Google News CB] "Gold slips from two-week high on firmer dollar; Fed minutes in focus -" | kw:gold
+2026-07-06 10:01 ACCEPT [Google News CB] "3 US Regional Bank Stocks Facing The Biggest Fed Rate Test - simplywal" | kw:fed rate
+2026-07-06 10:01 ACCEPT [Google News CB] "Gold slips from two-week high on firmer dollar; Fed minutes in focus -" | kw:gold
+2026-07-06 10:01 SKIP_MORNING already_sent date=2026-07-06
