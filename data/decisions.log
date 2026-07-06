@@ -11338,3 +11338,21 @@
 2026-07-06 01:01 ACCEPT [Google News NS] "Nigeria drives W/Africa’s soybean market - The Nation Newspaper" | kw:soybean
 2026-07-06 01:01 ACCEPT [Google News CB] "Wall Street splits on gold as forecasts range from $4,800 to $6,000 - " | kw:gold
 2026-07-06 01:01 SKIP_MORNING already_sent date=2026-07-06
+2026-07-06 01:31 ACCEPT [Google News HH] "OPEC+ raises output levels again despite tumbling crude prices - Marke" | kw:crude,opec,rice
+2026-07-06 01:31 ACCEPT [Google News HH] "OPEC+ to raise oil production cap by 188,000 bpd in August - People's " | kw:oil,opec
+2026-07-06 01:31 ACCEPT [Google News HH] "International Tower Hill Mines (THM): Ongoing Dilution And Gold Price " | kw:gold,rice
+2026-07-06 01:31 ACCEPT [Google News HH] "Brent Crude Oil Financial Trade At Marker TAM Electronic Sep '26 Futur" | kw:oil,crude,lng
+2026-07-06 01:31 ACCEPT [Google News HH] "OPEC’s Output Bump Sets Up A Softer Start For Australia - Finimize" | kw:opec
+2026-07-06 01:31 ACCEPT [Google News KL] "Gold, silver hammered - The Hindu" | kw:gold,silver
+2026-07-06 01:31 ACCEPT [Google News KL] "Silver’s Triple-Digit Dream Dies in Q2 as Prices Crumble 22% - NAI500" | kw:silver,rice
+2026-07-06 01:31 ACCEPT [Google News KL] "Rosland Capital collapses despite record gold and silver prices - MSN" | kw:gold,silver,rice
+2026-07-06 01:31 ACCEPT [Google News KL] "Unafraid of Short-term Pullbacks? HSBC: Gold Prices Will Continue to R" | kw:gold,rice
+2026-07-06 01:31 ACCEPT [Google News KL] "Spot silver rose 1.01% intraday to $63.01 per ounce; COMEX silver futu" | kw:silver
+2026-07-06 01:31 ACCEPT [Google News KL] "Gold trades near two-week high on cooling US rate-hike bets - The Econ" | kw:gold
+2026-07-06 01:31 ACCEPT [Google News KL] "Gold And Silver Could Resume Upward Trend If Iran War Ends: Analysts -" | kw:gold,silver
+2026-07-06 01:31 ACCEPT [Google News KL] "Gold market experts signal further gains as Thailand positions itself " | kw:gold
+2026-07-06 01:31 ACCEPT [Google News NS] "Global food prices dip in June as cereal and sugar markets soften - Fo" | kw:rice,sugar
+2026-07-06 01:31 ACCEPT [Google News CB] "Shares edge higher in Asia as oil dips, earnings loom - WKZO" | kw:oil,wti
+2026-07-06 01:31 ACCEPT [Google News CB] "European Central Bank reports incident affecting T2 payment processing" | kw:central bank
+2026-07-06 01:31 ACCEPT [Google News CB] "Wall Street splits on gold as forecasts range from $4,800 to $6,000 - " | kw:gold
+2026-07-06 01:31 SKIP_MORNING already_sent date=2026-07-06
