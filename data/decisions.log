@@ -11327,3 +11327,14 @@
 2026-07-06 00:31 ACCEPT [Google News NS] "Feedgrain Focus: Northern catch-up pressures prices - Sheep Central" | kw:rice
 2026-07-06 00:31 ACCEPT [Google News CB] "Fed Still Needs to Hike as Inflation Tops 3.7%, ECB Pauses - Briefs Fi" | kw:inflation,ecb
 2026-07-06 00:31 SKIP_MORNING already_sent date=2026-07-06
+2026-07-06 01:01 ACCEPT [Google News HH] "Oil slips after OPEC+ agrees to raise output targets - WKZO" | kw:oil,opec
+2026-07-06 01:01 ACCEPT [Google News HH] "Oil edges lower on Opec increase, dollar steady - Yahoo Finance Singap" | kw:oil,opec
+2026-07-06 01:01 ACCEPT [Google News HH] "Oil prices opened lower as OPEC boosted production and traffic through" | kw:oil,opec,rice
+2026-07-06 01:01 ACCEPT [Google News HH] "ASX Preview: Australian Shares to Fall as OPEC Boosts Output; Vault Mi" | kw:opec
+2026-07-06 01:01 ACCEPT [Google News KL] "Gold trades near two-week high on cooling US rate-hike bets - Reuters" | kw:gold
+2026-07-06 01:01 ACCEPT [Google News KL] "JPMorgan warns: Bullish trend driven by risk aversion and central bank" | kw:gold,rice,central bank
+2026-07-06 01:01 ACCEPT [Google News KL] "Gold and Silver Prices Update: Why Global Dealer Rosland Capital Filed" | kw:gold,silver,rice
+2026-07-06 01:01 ACCEPT [Google News NS] "China resumes US soybean purchases under trade deal with Trump, but fu" | kw:soybean
+2026-07-06 01:01 ACCEPT [Google News NS] "Nigeria drives W/Africa’s soybean market - The Nation Newspaper" | kw:soybean
+2026-07-06 01:01 ACCEPT [Google News CB] "Wall Street splits on gold as forecasts range from $4,800 to $6,000 - " | kw:gold
+2026-07-06 01:01 SKIP_MORNING already_sent date=2026-07-06
