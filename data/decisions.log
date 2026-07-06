@@ -11562,3 +11562,13 @@
 2026-07-06 09:01 ACCEPT [Google News CB] "FX steady ahead of CPI data, interest rate decisions - TradingView" | kw:interest rate,rate decision
 2026-07-06 09:01 ACCEPT [Google News CB] "UAE Central Bank Imposes Dh1.82 Million Fine on Foreign Bank Branch | " | kw:central bank
 2026-07-06 09:01 SKIP_MORNING already_sent date=2026-07-06
+2026-07-06 09:31 ACCEPT [Google News HH] "The fight for the future of OPEC begins now - CNN" | kw:opec
+2026-07-06 09:31 ACCEPT [Google News HH] "Crude oil futures fall on weak global cues - Deccan Herald" | kw:oil,crude
+2026-07-06 09:31 ACCEPT [Google News HH] "WTI Crude Oil Price Forecast: OPEC Production Increase Combined With H" | kw:oil,crude,opec
+2026-07-06 09:31 ACCEPT [Google News KL] "JPMorgan Lowers Gold Price Target Amid Demand Concerns and Fed Rate Hi" | kw:gold,rice,fed rate
+2026-07-06 09:31 ACCEPT [Google News KL] "Copper Prices Weaken, Secondary Copper Rod Enterprises' Purchase Willi" | kw:copper,rice
+2026-07-06 09:31 ACCEPT [Google News KL] "Gold, silver trading below fair value, says DSP framework - Moneycontr" | kw:gold,silver
+2026-07-06 09:31 ACCEPT [Google News NS] "Südzucker Korngold fine wheat flour from Südzucker - staple baking pro" | kw:gold,wheat
+2026-07-06 09:31 ACCEPT [Google News CB] "ECB's Makhlouf: Falling oil prices won't simply make inflation disappe" | kw:oil,rice,inflation
+2026-07-06 09:31 ACCEPT [Google News CB] "Turkish Central Bank says strong exports offset energy import surge de" | kw:lng,central bank
+2026-07-06 09:31 SKIP_MORNING already_sent date=2026-07-06
