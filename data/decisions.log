@@ -11501,3 +11501,19 @@
 2026-07-06 07:01 ACCEPT [Google News CB] "Silver Slips as Fed Outlook Shapes Next Move - TradingPedia" | kw:silver
 2026-07-06 07:01 ACCEPT [Google News CB] "European central bank leaders call for AI guardrails to protect market" | kw:central bank
 2026-07-06 07:01 SKIP_MORNING already_sent date=2026-07-06
+2026-07-06 07:31 ACCEPT [Google News HH] "U.S. Set for $4 Billion of Crude Oil Kickoffs in Third Quarter - Indus" | kw:oil,crude
+2026-07-06 07:31 ACCEPT [Google News HH] "Crude Oil Futures Fall on Weak Global Cues - Rediff MoneyWiz" | kw:oil,crude
+2026-07-06 07:31 ACCEPT [Google News HH] "Crude Oil Gains As US And Iran Clash Over Control Of Strait Of Hormuz " | kw:oil,crude
+2026-07-06 07:31 ACCEPT [Google News KL] "Amid a period of price consolidation, the strategic positioning offers" | kw:gold,rice
+2026-07-06 07:31 ACCEPT [Google News KL] "Silver Price Forecast: Weak Nonfarm Payrolls Spark Massive Short-Squee" | kw:silver,rice
+2026-07-06 07:31 ACCEPT [Google News KL] "Gold prices near record high since June as investors seek safety - Aze" | kw:gold,rice
+2026-07-06 07:31 ACCEPT [Google News KL] "[SMM Nickel Sulphate Daily Review] July 6, Market Calm at Start of Mon" | kw:nickel,rice
+2026-07-06 07:31 ACCEPT [Google News KL] "Gold prices reverse early gains as dollar recovers from weekly loss - " | kw:gold,rice
+2026-07-06 07:31 ACCEPT [Google News NS] "Biofuel plant expansion drives demand for Indiana corn - Farm Progress" | kw:fuel,corn
+2026-07-06 07:31 ACCEPT [Google News NS] "Updated Prices for Grains and Corn in Ukraine Announced - Новини аграр" | kw:corn,rice
+2026-07-06 07:31 ACCEPT [Google News CB] "Will The Fed Hike Interest Rates In Its July Meeting? Here’s What The " | kw:interest rate
+2026-07-06 07:31 ACCEPT [Google News CB] "Asian shares slip as earnings loom, oil weighed by supply - WTVB" | kw:oil
+2026-07-06 07:31 ACCEPT [Google News CB] "Philippine Economy Can Handle One More Rate Hike, Remolona Says - Bloo" | kw:rate hike
+2026-07-06 07:31 ACCEPT [Google News CB] "Yen holds near 40-year lows, U.S. dollar rises as Fed rate hike bets e" | kw:fed rate,rate hike
+2026-07-06 07:31 ACCEPT [Google News CB] "Europe stocks steady near records; eyes on Fed Minutes, central bank s" | kw:central bank
+2026-07-06 07:31 SKIP_MORNING already_sent date=2026-07-06
