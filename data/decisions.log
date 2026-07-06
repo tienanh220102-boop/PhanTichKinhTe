@@ -11620,3 +11620,82 @@
 2026-07-06 11:01 ACCEPT [Google News CB] "Hysata secures debut order for ‘megawatt-scale’ capillary-fed electrol" | kw:gas
 2026-07-06 11:01 ACCEPT [Google News CB] "How Central Bank Interest Rate Decisions Move the FX Market - Investin" | kw:central bank,interest rate,rate decision
 2026-07-06 11:01 SKIP_MORNING already_sent date=2026-07-06
+2026-07-06 11:31 ACCEPT [MarketWatch] "Highflying hedge fund run by former OpenAI researcher will be cornerst" | kw:corn
+2026-07-06 11:31 ACCEPT [MarketWatch] "As oil exits the ‘danger zone,’ here’s what history suggests happens n" | kw:oil,rice
+2026-07-06 11:31 ACCEPT [BBC Business] "Is Germany looking again at coal-powered electricity?" | kw:gas,fuel
+2026-07-06 11:31 ACCEPT [The Guardian Biz] "Trump’s affordability crisis hits his supporters hardest as he calls h" | kw:rice
+2026-07-06 11:31 ACCEPT [The Guardian Biz] "Why can’t Britain turn its green revolution into cheap energy? A visua" | kw:iron
+2026-07-06 11:31 ACCEPT [CNBC Commodities] "Citadel's hedge funds post broad first-half gains, top performing stra" | kw:quantitative
+2026-07-06 11:31 ACCEPT [CNBC Commodities] "Warsh faces multiple alternative inflation signs as Fed charts new cou" | kw:inflation
+2026-07-06 11:31 ACCEPT [CNBC Commodities] "Warsh reaches within the Fed for latest advisory appointments" | kw:central bank,monetary policy
+2026-07-06 11:31 ACCEPT [CNBC Commodities] "Federal Reserve says U.S. banks can withstand $708 billion in losses a" | kw:federal reserve
+2026-07-06 11:31 ACCEPT [CNBC Economy] "North Sea oil and renewables: The UK’s next PM faces a defining energy" | kw:oil
+2026-07-06 11:31 ACCEPT [CNBC Economy] "U.S. issues sweeping Iran oil sanctions waivers, unlocking billions in" | kw:oil,sanction
+2026-07-06 11:31 ACCEPT [OilPrice.com] "Germany Weathers Energy Crisis With Growing Dependence on American LNG" | kw:gas,lng
+2026-07-06 11:31 ACCEPT [EIA Energy] "U.S. natural gas storage capacity increased slightly in 2025" | kw:gas
+2026-07-06 11:31 ACCEPT [EIA Energy] "California natural gas prices reach historic lows in early 2026" | kw:gas,rice
+2026-07-06 11:31 ACCEPT [EIA Energy] "Most planned natural gas pipeline capacity additions in 2026 and 2027 " | kw:gas
+2026-07-06 11:31 ACCEPT [EIA Energy] "Coal remains competitive for power generation in the central United St" | kw:gas,fuel,rice
+2026-07-06 11:31 ACCEPT [EIA Energy] "The United States set record energy production in 2025, again" | kw:oil,crude,gas
+2026-07-06 11:31 ACCEPT [NASDAQ Commod] "Gold Rises Toward $4,200 As Fed Rate Fears Ease" | kw:gold,fed rate,rate hike
+2026-07-06 11:31 ACCEPT [NASDAQ Commod] "Silver Price Trends: Q2 2026 Review and Forecast" | kw:silver,rice,inflation
+2026-07-06 11:31 ACCEPT [NASDAQ Commod] "Jordan Rusche: Are Gold Stocks a Buy? My Strategy Now" | kw:gold
+2026-07-06 11:31 ACCEPT [NASDAQ Commod] "Alcoa to Buy South32 Aluminum Portfolio in US$5.6 Billion Consolidatio" | kw:aluminum
+2026-07-06 11:31 ACCEPT [NASDAQ Commod] "Crude Oil Ticks Higher After U.S., Iran Contradict Over Strait Of Horm" | kw:oil,crude,rice
+2026-07-06 11:31 ACCEPT [NASDAQ Commod] "Gold Soars Amid Jobs Data Release, Increasing Strait Of Hormuz Shippin" | kw:oil,gold,rice
+2026-07-06 11:31 ACCEPT [Google News HH] "ClearView's Kevin Book on whether OPEC+'s higher oil output targets wi" | kw:oil,opec,rice
+2026-07-06 11:31 ACCEPT [Google News HH] "JPMorgan sees $4 500 gold price in fourth quarter, says risks to downs" | kw:gold,rice
+2026-07-06 11:31 ACCEPT [Google News HH] "Kiwi Slides as Commodities, RBNZ Outlook Weigh - TradingPedia" | kw:commodities
+2026-07-06 11:31 ACCEPT [Google News HH] "OPEC+ Increases Oil Production Amid Price Drop - Newsradio WOOD 1300 a" | kw:oil,opec,rice
+2026-07-06 11:31 ACCEPT [Google News HH] "7 OPEC+ countries agree to expand monthly oil production modestly as p" | kw:oil,opec,rice
+2026-07-06 11:31 ACCEPT [Google News HH] "Gold Analysis 06/07: Gold Price Touches $4,200 - DailyForex" | kw:gold,rice
+2026-07-06 11:31 ACCEPT [Google News HH] "Crude oil futures fall on weak global cues - Deccan Herald" | kw:oil,crude
+2026-07-06 11:31 ACCEPT [Google News HH] "Gold price forecast cut 25 percent to $4,500 for Q4 2026 as market tur" | kw:gold,rice
+2026-07-06 11:31 ACCEPT [Google News HH] "International Tower Hill Mines: Ongoing Dilution And Gold Price Risk M" | kw:gold,rice
+2026-07-06 11:31 ACCEPT [Google News HH] "Average basic shares outstanding of ADON AGRO COMMODITIES LIMITED – BS" | kw:commodities
+2026-07-06 11:31 ACCEPT [Google News HH] "Forecast update for crude oil -06-07-2026 - Economies.com" | kw:oil,crude
+2026-07-06 11:31 ACCEPT [Google News HH] "Manus on Markets: Why Opec+'s latest output increase isn't shaking oil" | kw:oil,opec
+2026-07-06 11:31 ACCEPT [Google News HH] "Glenfarne’s commodities unit, BGN ink preliminary LNG supply deal - LN" | kw:lng,commodities
+2026-07-06 11:31 ACCEPT [Google News HH] "Analysts agree: Oil prices likely to fall further even after returning" | kw:oil,rice
+2026-07-06 11:31 ACCEPT [Google News KL] "Gold Set For a Strong Rally as New Financial Year Begins - Shanghai Me" | kw:gold
+2026-07-06 11:31 ACCEPT [Google News KL] "Gold, silver prices hold steady on 5 July - MSN" | kw:gold,silver,rice
+2026-07-06 11:31 ACCEPT [Google News KL] "Gold and silver prices stay elevated after weekly gains - MSN" | kw:gold,silver,rice
+2026-07-06 11:31 ACCEPT [Google News KL] "Gold retreats as dollar gains, rate hike bets ease - MSN" | kw:gold,rate hike
+2026-07-06 11:31 ACCEPT [Google News KL] "Gold market braces for volatile second half as rates and geopolitics c" | kw:lng,gold
+2026-07-06 11:31 ACCEPT [Google News KL] "JPMorgan upgrades Antofagasta stock rating on copper growth outlook - " | kw:gas,copper
+2026-07-06 11:31 ACCEPT [Google News KL] "Philippines Gold Prices Slip as Strong Dollar Offsets Central Bank Buy" | kw:gold,rice,central bank
+2026-07-06 11:31 ACCEPT [Google News KL] "Continuous Increase! Is the Gold Price Starting to Surge? - Bitget" | kw:gold,rice
+2026-07-06 11:31 ACCEPT [Google News KL] "Silver Price Caught Between Hammer and Anvil –Analysis – 06-07-2026 - " | kw:silver,rice
+2026-07-06 11:31 ACCEPT [Google News NS] "Freezes eliminate much of Colorado’s wheat crop - Farm Progress" | kw:wheat
+2026-07-06 11:31 ACCEPT [Google News NS] "Arkansas Wheat Promotion Board Approves $83,533 in Funding for Researc" | kw:wheat
+2026-07-06 11:31 ACCEPT [Google News NS] "Corn Jumps as French Crops Damaged by Intense European Heat Wave - Ukr" | kw:corn
+2026-07-06 11:31 ACCEPT [Google News NS] "Corn Futures Turn Higher: Is the Grain Market Starting a Fresh Move? -" | kw:corn
+2026-07-06 11:31 ACCEPT [Google News NS] "Biofuel plant expansion drives demand for Indiana corn - Farm Progress" | kw:fuel,corn
+2026-07-06 11:31 ACCEPT [Google News NS] "GrainCorp, Nufarm champion oilseed-led SAF industry - Grain Central" | kw:oil
+2026-07-06 11:31 ACCEPT [Google News NS] "Soybean Futures (SOYBEAN-F) Is up 2.03% on Jul 6: Key Drivers to Watch" | kw:soybean
+2026-07-06 11:31 ACCEPT [Google News NS] "South American soybean oil prices remain stable - UkrAgroConsult" | kw:oil,soybean,rice
+2026-07-06 11:31 ACCEPT [Google News NS] "Consultation opens on streamlined Wheat Port Code - Grain Central" | kw:wheat,gdp
+2026-07-06 11:31 ACCEPT [Google News NS] "Cold spring delayed soybean development in Ukraine and increased yield" | kw:soybean
+2026-07-06 11:31 ACCEPT [Google News NS] "Is a New Biofuel Opportunity Emerging on the High Seas? - Successful F" | kw:fuel
+2026-07-06 11:31 ACCEPT [Google News NS] "Kernels of hope: Exports feeding, fueling the world - agrinews-pubs.co" | kw:fuel,gdp
+2026-07-06 11:31 ACCEPT [Google News NS] "FHB in corn residue - AgUpdate" | kw:corn
+2026-07-06 11:31 ACCEPT [Google News NS] "Indonesia initiates feed corn subsidy to cut poultry production costs " | kw:corn
+2026-07-06 11:31 ACCEPT [Google News NS] "Crop Storage Systems Market Forecast Points Higher Toward 2035, Driven" | kw:harvest
+2026-07-06 11:31 ACCEPT [RT Business] "Why Europe still needs Russia to keep the lights on" | kw:fuel,shortage
+2026-07-06 11:31 ACCEPT [RT Business] "EU facing winter gas shock – FT" | kw:gas,lng
+2026-07-06 11:31 ACCEPT [RT Business] "Americans spending more because they are ‘optimistic’? Economists chal" | kw:inflation
+2026-07-06 11:31 ACCEPT [RT Business] "Defying Western pressure: Russia and China deepen economic partnership" | kw:sanction
+2026-07-06 11:31 ACCEPT [RT Business] "Potato futures are soaring – should the world be worried?" | kw:fuel,rice
+2026-07-06 11:31 ACCEPT [RT Business] "EU ‘not competitive’ – Belgian central bank chief" | kw:central bank
+2026-07-06 11:31 ACCEPT [Fed Monetary] "Federal Reserve issues FOMC statement" | kw:federal reserve,fomc
+2026-07-06 11:31 ACCEPT [Fed Monetary] "Federal Reserve Board and Federal Open Market Committee release econom" | kw:federal reserve,fomc
+2026-07-06 11:31 ACCEPT [Fed Monetary] "Federal Reserve issues FOMC statement" | kw:federal reserve,fomc
+2026-07-06 11:31 ACCEPT [ECB Press] "Boris Vujčić: Outlook for the euro area economy and monetary policy" | kw:monetary policy
+2026-07-06 11:31 ACCEPT [Google News CB] "The ECB’s climate factor: a good idea that deserves better implementat" | kw:central bank,ecb
+2026-07-06 11:31 ACCEPT [Google News CB] "Hysata secures debut order for ‘megawatt-scale’ capillary-fed electrol" | kw:gas
+2026-07-06 11:31 ACCEPT [Google News CB] "Bolivia Central Bank Sees USD Accounts to Be Reopened - Bloomberg.com" | kw:central bank
+2026-07-06 11:31 ACCEPT [Google News CB] "3 US Regional Bank Stocks Facing The Biggest Fed Rate Test - simplywal" | kw:fed rate
+2026-07-06 11:31 ACCEPT [Google News CB] "FX steady ahead of CPI data, interest rate decisions - TradingView" | kw:interest rate,rate decision
+2026-07-06 11:31 ACCEPT [Google News CB] "Sovereign-AI Complex, Natural Gas Singularity, Demographic Deflation, " | kw:gas
+2026-07-06 11:31 ACCEPT [Google News CB] "Bitcoin gets bullish signals from inflation breakevens - CoinDesk" | kw:inflation
+2026-07-06 11:31 SKIP_MORNING already_sent date=2026-07-06
