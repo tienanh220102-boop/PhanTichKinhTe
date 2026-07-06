@@ -11450,3 +11450,16 @@
 2026-07-06 05:01 ACCEPT [Google News CB] "Copper Holds Steady as Fed Hike Bets Recede - TradingView" | kw:copper
 2026-07-06 05:01 ACCEPT [Google News CB] "US equities push higher as Fed rate-hike fears ease - ig.com" | kw:fed rate
 2026-07-06 05:01 SKIP_MORNING already_sent date=2026-07-06
+2026-07-06 05:30 ACCEPT [BBC Business] "Fuel providers hopeful of more price reductions" | kw:fuel,rice
+2026-07-06 05:31 ACCEPT [Google News HH] "Oil Prices Fall as OPEC, Allies Agree to Hike Output -- Update - Moomo" | kw:oil,opec,rice
+2026-07-06 05:31 ACCEPT [Google News HH] "Continuous Increase! Is the Gold Price Starting to Surge? - Bitget" | kw:gold,rice
+2026-07-06 05:31 ACCEPT [Google News KL] "Gold trades near two-week high above $4,150 after U.S. jobs data tempe" | kw:gold,fed rate,rate hike
+2026-07-06 05:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD corrects to near $62, increasing bearis" | kw:oil,silver,rice
+2026-07-06 05:31 ACCEPT [Google News NS] "Consultation opens on streamlined Wheat Port Code - Grain Central" | kw:wheat,gdp
+2026-07-06 05:31 ACCEPT [Google News CB] "Central Bank Opens In Old Webster - Webster-Kirkwood Times" | kw:central bank
+2026-07-06 05:31 ACCEPT [Google News CB] "US equities push higher as Fed rate-hike fears ease - ig.com" | kw:fed rate
+2026-07-06 05:31 ACCEPT [Google News CB] "Gold eases from two-week high as firmer US dollar weighs - Reuters" | kw:gold
+2026-07-06 05:31 ACCEPT [Google News CB] "EUR/USD Stays Range-Bound as Hormuz Risks Support Dollar and Fed, ECB " | kw:ecb
+2026-07-06 05:31 ACCEPT [Google News CB] "Citadel Head of Strategy: Markets are underestimating the likelihood o" | kw:fed rate,rate hike
+2026-07-06 05:31 ACCEPT [Google News CB] "United States Dollar Index rises to near 101.00 on Fed hikes this year" | kw:dollar index
+2026-07-06 05:31 SKIP_MORNING already_sent date=2026-07-06
