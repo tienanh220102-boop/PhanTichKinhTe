@@ -11821,3 +11821,16 @@
 2026-07-06 14:01 ACCEPT [Google News CB] "Fed Minutes July 8: Will the FOMC Signal a Rate Cut or Another Hike? -" | kw:rate cut,fomc
 2026-07-06 14:01 SKIP_MORNING already_sent date=2026-07-06
 2026-07-06 14:01 SKIP_EVENING already_sent date=2026-07-06
+2026-07-06 14:31 ACCEPT [OilPrice.com] "Fear of an Oil Glut May Be Overblown, Top Consultancy Says" | kw:oil,rice
+2026-07-06 14:31 ACCEPT [Google News HH] "Rethinking alpha in a disrupted commodities market - LSEG" | kw:commodities
+2026-07-06 14:31 ACCEPT [Google News HH] "Gold price continues to struggle as U.S. ISM Services PMI falls to 54 " | kw:gold,rice
+2026-07-06 14:31 ACCEPT [Google News KL] "Inflation Focus Sees Gold, Silver Slip as Citi Expands London Bullion " | kw:gold,silver,inflation
+2026-07-06 14:31 ACCEPT [Google News KL] "Gold Slips as Stronger U.S. Dollar Weighs on Bullion - Yahoo Finance" | kw:gold
+2026-07-06 14:31 ACCEPT [Google News KL] "Expectations for U.S. Fed rate hikes pressure gold - Advisor.ca" | kw:gold,fed rate,rate hike
+2026-07-06 14:31 ACCEPT [Google News NS] "Chicago corn, soybeans jump 3% on weather risks and China demand hopes" | kw:corn,soybean
+2026-07-06 14:31 ACCEPT [Google News CB] "Bank of Israel lowers interest rate by half a point, now sitting at 3." | kw:interest rate
+2026-07-06 14:31 ACCEPT [Google News CB] "Mortgage rates up as markets weigh inflation and Fed policy - LBM Jour" | kw:wti,inflation
+2026-07-06 14:31 ACCEPT [Google News CB] "Smotrich says interest rate cut ‘a minimal reduction that does not mat" | kw:interest rate,rate cut
+2026-07-06 14:31 ACCEPT [Google News CB] "Gold Struggles for Direction as Dollar, Fed Weigh Prices - TradingPedi" | kw:gold,rice
+2026-07-06 14:31 SKIP_MORNING already_sent date=2026-07-06
+2026-07-06 14:31 SKIP_EVENING already_sent date=2026-07-06
