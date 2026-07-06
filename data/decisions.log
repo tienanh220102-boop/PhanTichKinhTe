@@ -11316,3 +11316,14 @@
 2026-07-06 00:01 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
 2026-07-06 00:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
 2026-07-06 00:01 SENT_MORNING articles=20 date=2026-07-06 force=False
+2026-07-06 00:31 ACCEPT [Google News HH] "Oil prices opened lower as OPEC boosted production and traffic through" | kw:oil,opec,rice
+2026-07-06 00:31 ACCEPT [Google News HH] "ASX Preview: Australian Shares to Fall as OPEC Boosts Output; Vault Mi" | kw:opec
+2026-07-06 00:31 ACCEPT [Google News HH] "Crude Oil Prices Plummet to Pre-War Levels Amid Supply Surge - 조선일보" | kw:oil,crude,rice
+2026-07-06 00:31 ACCEPT [Google News HH] "OPEC Oil Production - The Herald Journal" | kw:oil,opec
+2026-07-06 00:31 ACCEPT [Google News HH] "Oil edges lower on OPEC increase, dollar steady - Yahoo Finance Singap" | kw:oil,opec
+2026-07-06 00:31 ACCEPT [Google News HH] "State Street Global Advisors: Structural tailwinds may offset tactical" | kw:gold,rice
+2026-07-06 00:31 ACCEPT [Google News KL] "Greatland Resources beats FY26 gold guidance after 6% annual productio" | kw:gold
+2026-07-06 00:31 ACCEPT [Google News KL] "DOREX WEEKLY GOLD MARKET UPDATE – w/e 03.07.26 – Get The Word Out - Pr" | kw:gold
+2026-07-06 00:31 ACCEPT [Google News NS] "Feedgrain Focus: Northern catch-up pressures prices - Sheep Central" | kw:rice
+2026-07-06 00:31 ACCEPT [Google News CB] "Fed Still Needs to Hike as Inflation Tops 3.7%, ECB Pauses - Briefs Fi" | kw:inflation,ecb
+2026-07-06 00:31 SKIP_MORNING already_sent date=2026-07-06
