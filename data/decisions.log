@@ -11801,3 +11801,23 @@
 2026-07-06 13:31 ACCEPT [Google News CB] "ECB payment system hit by second outage in a week - Investing.com" | kw:ecb
 2026-07-06 13:31 SKIP_MORNING already_sent date=2026-07-06
 2026-07-06 13:31 SKIP_EVENING already_sent date=2026-07-06
+2026-07-06 14:01 ACCEPT [Google News HH] "EXCLUSIVE: UAE crude output nears record following OPEC exit, sources " | kw:crude,opec
+2026-07-06 14:01 ACCEPT [Google News HH] "US wholesale: Week 28 ‘market pulse’ updates available on key seafood " | kw:commodities
+2026-07-06 14:01 ACCEPT [Google News HH] "Oil prices steady at pre-Iran war levels - Reuters" | kw:oil,rice
+2026-07-06 14:01 ACCEPT [Google News HH] "UAE crude output nears record following OPEC exit, sources says - Trad" | kw:crude,opec
+2026-07-06 14:01 ACCEPT [Google News HH] "WTI and Brent Crude Oil Forecasts – Market Consolidates Post-War Gap -" | kw:oil,crude,brent
+2026-07-06 14:01 ACCEPT [Google News HH] "Gold Price Analysis – Gold Pops as Weak Jobs Report Sparks Short-Term " | kw:gold,rice
+2026-07-06 14:01 ACCEPT [Google News HH] "OPEC+ Increases Oil Production Amid Price Drop - KNRS" | kw:oil,opec,rice
+2026-07-06 14:01 ACCEPT [Google News HH] "Saudi Arabia makes August crude oil cheaper for Asian buyers - The Eco" | kw:oil,crude
+2026-07-06 14:01 ACCEPT [Google News KL] "Gold SWOT: Palladium, precious metals higher on weak U.S. jobs data - " | kw:gold
+2026-07-06 14:01 ACCEPT [Google News KL] "Silver price today: Silver falls, according to FXStreet data - Mitrade" | kw:silver,rice
+2026-07-06 14:01 ACCEPT [Google News KL] "Adyton Receives Wapolu Environmental Permit, Advancing Restart of Hist" | kw:gold,iron
+2026-07-06 14:01 ACCEPT [Google News NS] "AHDB Arable Market Report 6 July 2026: Wheat, Maize, Rapeseed Analysis" | kw:wheat
+2026-07-06 14:01 ACCEPT [Google News NS] "USDA Hog Report July 6, 2026: Negotiated Prices Drop, Purchase Volumes" | kw:rice
+2026-07-06 14:01 ACCEPT [Google News CB] "Gold slips as Fed minutes loom, Hormuz risk eases oil shock - Kitco AM" | kw:oil,gold
+2026-07-06 14:01 ACCEPT [Google News CB] "Bank of Israel cuts interest rate again, lowering benchmark to 3.5% - " | kw:interest rate
+2026-07-06 14:01 ACCEPT [Google News CB] "ECB payment system suffers second outage in a week - Reuters" | kw:ecb
+2026-07-06 14:01 ACCEPT [Google News CB] "Yields extend decline as traders reassess interest rate picture - Trad" | kw:interest rate
+2026-07-06 14:01 ACCEPT [Google News CB] "Fed Minutes July 8: Will the FOMC Signal a Rate Cut or Another Hike? -" | kw:rate cut,fomc
+2026-07-06 14:01 SKIP_MORNING already_sent date=2026-07-06
+2026-07-06 14:01 SKIP_EVENING already_sent date=2026-07-06
