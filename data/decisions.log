@@ -11589,3 +11589,15 @@
 2026-07-06 10:01 ACCEPT [Google News CB] "3 US Regional Bank Stocks Facing The Biggest Fed Rate Test - simplywal" | kw:fed rate
 2026-07-06 10:01 ACCEPT [Google News CB] "Gold slips from two-week high on firmer dollar; Fed minutes in focus -" | kw:gold
 2026-07-06 10:01 SKIP_MORNING already_sent date=2026-07-06
+2026-07-06 10:31 ACCEPT [Al Jazeera] "Who is leading the race for the FIFA World Cup 2026 Golden Boot award?" | kw:gold
+2026-07-06 10:31 ACCEPT [NASDAQ Commod] "Oil Edges Lower On Supply Glut Fears" | kw:oil,rice
+2026-07-06 10:31 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD struggles to extend recovery above 20-day" | kw:gold,rice
+2026-07-06 10:31 ACCEPT [Google News HH] "Oil falls after OPEC+ agrees to raise output targets - Reuters" | kw:oil,opec
+2026-07-06 10:31 ACCEPT [Google News HH] "Brent crude oil fluctuates near its lower range, caught in a dual tug-" | kw:oil,crude,brent
+2026-07-06 10:31 ACCEPT [Google News HH] "New Zealand Dollar declines on weaker commodity prices, RBNZ policy un" | kw:rice,commodity
+2026-07-06 10:31 ACCEPT [Google News KL] "Gold prices ease after four-day rally amid profit booking - MSN" | kw:gold,rice
+2026-07-06 10:31 ACCEPT [Google News KL] "Gold prices today in Saudi Arabia are declining as the metal falls glo" | kw:gold,rice
+2026-07-06 10:31 ACCEPT [Google News KL] "Gold prices slip ₹150, silver declines ₹5,000 amid weak global cues - " | kw:gold,silver,rice
+2026-07-06 10:31 ACCEPT [Google News NS] "China resumes US soybean purchases, but American farmers remain cautio" | kw:soybean
+2026-07-06 10:31 ACCEPT [Google News CB] "Central Bank says strong exports offset energy import surge - Hürriyet" | kw:central bank
+2026-07-06 10:31 SKIP_MORNING already_sent date=2026-07-06
