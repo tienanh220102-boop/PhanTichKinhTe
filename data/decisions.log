@@ -11356,3 +11356,16 @@
 2026-07-06 01:31 ACCEPT [Google News CB] "European Central Bank reports incident affecting T2 payment processing" | kw:central bank
 2026-07-06 01:31 ACCEPT [Google News CB] "Wall Street splits on gold as forecasts range from $4,800 to $6,000 - " | kw:gold
 2026-07-06 01:31 SKIP_MORNING already_sent date=2026-07-06
+2026-07-06 02:01 ACCEPT [Google News HH] "Commodities intraday targets/key levels - TradingView" | kw:commodities
+2026-07-06 02:01 ACCEPT [Google News HH] "Oil prices fell in the Asian morning session, weighed down by OPEC+'s " | kw:oil,opec,rice
+2026-07-06 02:01 ACCEPT [Google News KL] "Gold prices fall - VnExpress International" | kw:gold,rice
+2026-07-06 02:01 ACCEPT [Google News KL] "Gold rises near two-week high after softer US jobs data - Межа. Новини" | kw:gold
+2026-07-06 02:01 ACCEPT [Google News KL] "Gold prices rise as cooling rate hike bets hit dollar By Investing.com" | kw:gold,rice,rate hike
+2026-07-06 02:01 ACCEPT [Google News KL] "Greatland tops FY26 guidance with 328,986 ounces of gold - Yahoo Finan" | kw:gold
+2026-07-06 02:01 ACCEPT [Google News KL] "Gold trades near two-week high on cooling US rate-hike bets - MSN" | kw:gold
+2026-07-06 02:01 ACCEPT [Google News KL] "Can You Open Google Maps On Apple Watch (explained) Silver Price Today" | kw:silver,rice
+2026-07-06 02:01 ACCEPT [Google News KL] "Gold, Silver Rate Today July 06: Is gold getting expensive? Check 18, " | kw:gold,silver,rice
+2026-07-06 02:01 ACCEPT [Google News NS] "Operating margin % of LAKE AREA CORN PROCESSORS LLC UNIT CL D – OTC:LA" | kw:wti,corn
+2026-07-06 02:01 ACCEPT [Google News CB] "ECB's T2 payment system back up after brief incident impacting payment" | kw:ecb
+2026-07-06 02:01 ACCEPT [Google News CB] "Shares edge higher in Asia as oil dips, earnings loom - WDEZ" | kw:oil
+2026-07-06 02:01 SKIP_MORNING already_sent date=2026-07-06
