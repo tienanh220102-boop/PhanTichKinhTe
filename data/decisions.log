@@ -11490,3 +11490,14 @@
 2026-07-06 06:31 ACCEPT [Google News NS] "US soybean exports to China rebound in 2026 amid trade deal, but long-" | kw:soybean
 2026-07-06 06:31 ACCEPT [Google News CB] "Will The Fed Hike Interest Rates In Its July Meeting? Here’s What The " | kw:interest rate
 2026-07-06 06:31 SKIP_MORNING already_sent date=2026-07-06
+2026-07-06 07:01 ACCEPT [OilPrice.com] "Pakistan Buys Second Spot LNG Cargo as Supply Crunch Persists" | kw:gas,lng,rice
+2026-07-06 07:01 ACCEPT [Google News HH] "Oil drifts down after OPEC+ agrees to raise output targets - Reuters" | kw:oil,opec
+2026-07-06 07:01 ACCEPT [Google News HH] "Gold price prediction today: Will gold prices see limited upside? Key " | kw:gold,rice
+2026-07-06 07:01 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Gold Double Top Pattern at $4,2" | kw:gold,silver,rice
+2026-07-06 07:01 ACCEPT [Google News KL] "Gold Rate Today 06 July 2026 | Check 18K, 22K & 24K Gold Rate Today – " | kw:gold
+2026-07-06 07:01 ACCEPT [Google News KL] "Gold prices in Egypt up on July 5 - ZAWYA" | kw:gold,rice
+2026-07-06 07:01 ACCEPT [Google News NS] "Freeze eliminates much of eastern Colorado’s wheat crop - Farm Progres" | kw:wheat
+2026-07-06 07:01 ACCEPT [Google News NS] "Cold spring delayed soybean development in Ukraine and increased yield" | kw:soybean
+2026-07-06 07:01 ACCEPT [Google News CB] "Silver Slips as Fed Outlook Shapes Next Move - TradingPedia" | kw:silver
+2026-07-06 07:01 ACCEPT [Google News CB] "European central bank leaders call for AI guardrails to protect market" | kw:central bank
+2026-07-06 07:01 SKIP_MORNING already_sent date=2026-07-06
