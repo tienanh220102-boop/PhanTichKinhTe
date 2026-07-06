@@ -11550,3 +11550,15 @@
 2026-07-06 08:31 ACCEPT [Google News CB] "EPFO: Is your PF deposited in your company's PF trust? EPFO changed th" | kw:interest rate
 2026-07-06 08:31 ACCEPT [Google News CB] "India's forex reserves jump $6.3 billion to $696.99 billion on surge i" | kw:gold
 2026-07-06 08:31 SKIP_MORNING already_sent date=2026-07-06
+2026-07-06 09:01 ACCEPT [Google News HH] "OPEC+ Increases Oil Production Amid Price Drop - iHeart" | kw:oil,opec,rice
+2026-07-06 09:01 ACCEPT [Google News HH] "Reduce dependence on foreign energy! India ramps up domestic crude oil" | kw:oil,crude,lng
+2026-07-06 09:01 ACCEPT [Google News HH] "Gold prices drop - VnExpress International" | kw:gold,rice
+2026-07-06 09:01 ACCEPT [Google News KL] "JPMorgan upgrades Antofagasta stock rating on copper growth outlook - " | kw:gas,copper
+2026-07-06 09:01 ACCEPT [Google News KL] "On one side, Iran collects tolls to support the US dollar; on the othe" | kw:gold,central bank
+2026-07-06 09:01 ACCEPT [Google News NS] "Pakistan's wheat reforms lift output to over 29m tons in FY26-INP - In" | kw:wheat
+2026-07-06 09:01 ACCEPT [Google News CB] "The ECB’s climate factor: a good idea that deserves better implementat" | kw:central bank,ecb
+2026-07-06 09:01 ACCEPT [Google News CB] "Gold slips as global banks diverge on bullion amid Fed uncertainty - T" | kw:gold
+2026-07-06 09:01 ACCEPT [Google News CB] "Gold Gains as Investors Scale Back on Fed Hike Bets - WSJ" | kw:gold
+2026-07-06 09:01 ACCEPT [Google News CB] "FX steady ahead of CPI data, interest rate decisions - TradingView" | kw:interest rate,rate decision
+2026-07-06 09:01 ACCEPT [Google News CB] "UAE Central Bank Imposes Dh1.82 Million Fine on Foreign Bank Branch | " | kw:central bank
+2026-07-06 09:01 SKIP_MORNING already_sent date=2026-07-06
