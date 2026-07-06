@@ -11463,3 +11463,19 @@
 2026-07-06 05:31 ACCEPT [Google News CB] "Citadel Head of Strategy: Markets are underestimating the likelihood o" | kw:fed rate,rate hike
 2026-07-06 05:31 ACCEPT [Google News CB] "United States Dollar Index rises to near 101.00 on Fed hikes this year" | kw:dollar index
 2026-07-06 05:31 SKIP_MORNING already_sent date=2026-07-06
+2026-07-06 06:01 ACCEPT [OilPrice.com] "South Korea Charges Refiners With Gas Price Gouging" | kw:gas,fuel,rice
+2026-07-06 06:01 ACCEPT [Google News HH] "JPMorgan tweaks gold price target as Fed risks return - AOL.com" | kw:gold,rice
+2026-07-06 06:01 ACCEPT [Google News HH] "Stalling growth? Keep a close watch on crude oil prices and long-term " | kw:oil,crude,rice
+2026-07-06 06:01 ACCEPT [Google News HH] "Brent Crude Oil Financial Trade At Marker TAM Electronic Sep '26 Futur" | kw:oil,crude,lng
+2026-07-06 06:01 ACCEPT [Google News HH] "At a Glance: "Pivot Points + Long/Short Position Signals" for Gold, Cr" | kw:oil,crude,gold
+2026-07-06 06:01 ACCEPT [Google News KL] "Gold prices rebound slightly as forecasts cut amid volatility - MSN" | kw:gold,rice
+2026-07-06 06:01 ACCEPT [Google News KL] "Gold price falls by Rs 900 per tola, silver also declines - Khabarhub" | kw:gold,silver,rice
+2026-07-06 06:01 ACCEPT [Google News KL] "Copper price is fluctuating below the barrier– Forecast today – 6-7-20" | kw:copper,rice
+2026-07-06 06:01 ACCEPT [Google News KL] "Gold and silver prices drop on Monday - Nepalnews.com" | kw:gold,silver,rice
+2026-07-06 06:01 ACCEPT [Google News KL] "Gold, Silver Prices Fall Today: Check 22k And 24k Gold Rates In Your C" | kw:gold,silver,rice
+2026-07-06 06:01 ACCEPT [Google News KL] "LME copper closes slightly higher, bears exit; inventory destocking pr" | kw:copper
+2026-07-06 06:01 ACCEPT [Google News NS] "Soybean Futures (SOYBEAN-F) Is up 2.03% on Jul 6: Key Drivers to Watch" | kw:soybean
+2026-07-06 06:01 ACCEPT [Google News NS] "GrainCorp, Nufarm back oilseed-led SAF industry - Grain Central" | kw:oil
+2026-07-06 06:01 ACCEPT [Google News CB] "Bitcoin climbs above $63k as Fed rate hike fears ease - Investing.com" | kw:fed rate,rate hike
+2026-07-06 06:01 ACCEPT [Google News CB] "Asian shares slip as earnings loom, oil weighed by supply - 101 WIXX" | kw:oil
+2026-07-06 06:01 SKIP_MORNING already_sent date=2026-07-06
