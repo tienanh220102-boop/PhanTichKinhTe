@@ -11846,3 +11846,12 @@
 2026-07-06 15:01 ACCEPT [Google News CB] "Morgan Stanley sees Fed on hold, ECB hiking in September after Sintra " | kw:ecb
 2026-07-06 15:01 SKIP_MORNING already_sent date=2026-07-06
 2026-07-06 15:01 SKIP_EVENING already_sent date=2026-07-06
+2026-07-06 15:31 ACCEPT [Al Jazeera] "FIFA World Cup: Mohamed Salah and the ghosts of Egypt’s ‘golden genera" | kw:gold
+2026-07-06 15:31 ACCEPT [Google News HH] "OPEC announces it will increase oil production - WSAW" | kw:oil,opec
+2026-07-06 15:31 ACCEPT [Google News HH] "Gold Price Rally Sparks Genesis' Bidding War for Vault - Mining Digita" | kw:gold,rice
+2026-07-06 15:31 ACCEPT [Google News KL] "Veteran trader who called 50% gold crash makes major prediction - thes" | kw:gold
+2026-07-06 15:31 ACCEPT [Google News CB] "Hong Kong leader meets China's central bank chief - Reuters" | kw:central bank
+2026-07-06 15:31 ACCEPT [Google News CB] "It's just 'poetic': Is the Fed late yet again on rates, inflation? - Y" | kw:inflation
+2026-07-06 15:31 ACCEPT [Google News CB] "Hong Kong leader meets China's central bank chief - TradingView" | kw:central bank
+2026-07-06 15:31 SKIP_MORNING already_sent date=2026-07-06
+2026-07-06 15:31 SKIP_EVENING already_sent date=2026-07-06
