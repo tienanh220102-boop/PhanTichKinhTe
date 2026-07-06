@@ -11479,3 +11479,14 @@
 2026-07-06 06:01 ACCEPT [Google News CB] "Bitcoin climbs above $63k as Fed rate hike fears ease - Investing.com" | kw:fed rate,rate hike
 2026-07-06 06:01 ACCEPT [Google News CB] "Asian shares slip as earnings loom, oil weighed by supply - 101 WIXX" | kw:oil
 2026-07-06 06:01 SKIP_MORNING already_sent date=2026-07-06
+2026-07-06 06:31 ACCEPT [Google News HH] "From raw commodities to global brands: The future of China-Ghana agric" | kw:commodities
+2026-07-06 06:31 ACCEPT [Google News KL] "Silver Rate Today, July 6, 2026: Silver Price Rises by Rs 48 per 10 gr" | kw:silver,rice
+2026-07-06 06:31 ACCEPT [Google News KL] "Gold Retreats as Stronger Dollar Weighs on Prices - TradingPedia" | kw:wti,gold,rice
+2026-07-06 06:31 ACCEPT [Google News KL] "Gold Price Forecast: Bears Threaten $4,090 Target as Broken Trendline " | kw:gold,rice
+2026-07-06 06:31 ACCEPT [Google News KL] "The 2026 Gold Forecast Reset: Navigating Cyclical Headwinds and Bank D" | kw:gold
+2026-07-06 06:31 ACCEPT [Google News KL] "Gold, Silver Futures Slip Amid Weak Spot Demand - Deccan Chronicle" | kw:gold,silver
+2026-07-06 06:31 ACCEPT [Google News KL] "Gold prices reverse early gains as dollar recovers from weekly loss - " | kw:gold,rice
+2026-07-06 06:31 ACCEPT [Google News NS] "GrainCorp, Nufarm champion oilseed-led SAF industry - Grain Central" | kw:oil
+2026-07-06 06:31 ACCEPT [Google News NS] "US soybean exports to China rebound in 2026 amid trade deal, but long-" | kw:soybean
+2026-07-06 06:31 ACCEPT [Google News CB] "Will The Fed Hike Interest Rates In Its July Meeting? Here’s What The " | kw:interest rate
+2026-07-06 06:31 SKIP_MORNING already_sent date=2026-07-06
