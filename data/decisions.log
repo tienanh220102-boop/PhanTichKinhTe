@@ -11519,11 +11519,10 @@
 2026-07-06 07:31 SKIP_MORNING already_sent date=2026-07-06
 2026-07-06 08:01 ACCEPT [Google News HH] "JPMorgan sees $4 500 gold price in fourth quarter, says risks to downs" | kw:gold,rice
 2026-07-06 08:01 ACCEPT [Google News HH] "This oil analysis goes beyond showing you oil is bearish - investingLi" | kw:oil
-2026-07-06 08:01 ACCEPT [Google News HH] "From 6000 slashed to 4500! JPMorgan predicts limited room for gold pri" | kw:gold,rice
 2026-07-06 08:01 ACCEPT [Google News HH] "Analysts agree: Oil prices likely to fall further even after returning" | kw:oil,rice
-2026-07-06 08:01 ACCEPT [Google News HH] "Crude oil futures fall on weak global cues - ET Auto" | kw:oil,crude
 2026-07-06 08:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD holds losses below $62.50 on Fed hike b" | kw:silver,rice
 2026-07-06 08:01 ACCEPT [Google News KL] "Gold Forecast 06/07: Holiday Technical Illusion (Video) - DailyForex" | kw:gold
+2026-07-06 08:01 ACCEPT [Google News KL] "Oil prices fall, rate hikes ease, and inflation recedes—three major po" | kw:oil,silver,rice
 2026-07-06 08:01 ACCEPT [Google News CB] "Dollar Set to Stay Strong If U.S. Inflation Remains Above Fed Target -" | kw:inflation
 2026-07-06 08:01 ACCEPT [Google News CB] "Europe stocks steady near records; eyes on Fed Minutes, central bank s" | kw:central bank
 2026-07-06 08:01 ACCEPT [Google News CB] "USD/JPY Weekly Outlook: BOJ Intervention Threat Leaves Japanese Yen on" | kw:boj
