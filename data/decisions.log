@@ -11369,3 +11369,17 @@
 2026-07-06 02:01 ACCEPT [Google News CB] "ECB's T2 payment system back up after brief incident impacting payment" | kw:ecb
 2026-07-06 02:01 ACCEPT [Google News CB] "Shares edge higher in Asia as oil dips, earnings loom - WDEZ" | kw:oil
 2026-07-06 02:01 SKIP_MORNING already_sent date=2026-07-06
+2026-07-06 02:31 ACCEPT [Al Jazeera] "How conflict minerals fuel war in eastern DR Congo amid US sanctions" | kw:fuel,sanction
+2026-07-06 02:31 ACCEPT [Google News HH] "International Tower Hill Mines: Ongoing Dilution And Gold Price Risk M" | kw:gold,rice
+2026-07-06 02:31 ACCEPT [Google News HH] "Crude Oil Weekly Outlook: Is Russia the Next Risk Premium for Oil Pric" | kw:oil,crude,rice
+2026-07-06 02:31 ACCEPT [Google News HH] "OPEC Oil Production - Bedford Gazette" | kw:oil,opec
+2026-07-06 02:31 ACCEPT [Google News HH] "7 OPEC+ countries agree to expand monthly oil production modestly as p" | kw:oil,opec,rice
+2026-07-06 02:31 ACCEPT [Google News HH] "Crude Oil Market Update: Sustained production increases by OPEC+ combi" | kw:oil,crude,opec
+2026-07-06 02:31 ACCEPT [Google News HH] "JPMorgan Slashes Gold Price Forecast; Bitcoin Tests $60,000 Support Le" | kw:gold,rice
+2026-07-06 02:31 ACCEPT [Google News KL] "Gold and Silver Price Forecast: Fed Minutes Put Breakout Levels in Foc" | kw:gold,silver,rice
+2026-07-06 02:31 ACCEPT [Google News KL] "Gold, silver prices hold steady on 5 July - MSN" | kw:gold,silver,rice
+2026-07-06 02:31 ACCEPT [Google News KL] "Gold prices rise as cooling rate hike bets hit dollar - Investing.com" | kw:gold,rice,rate hike
+2026-07-06 02:31 ACCEPT [Google News KL] "LME copper closes slightly higher, bears exit; inventory destocking pr" | kw:copper
+2026-07-06 02:31 ACCEPT [Google News KL] "DRDGOLD (DRD) Could Be 52% Below Fair Value As Gold Selloff Revives In" | kw:gold
+2026-07-06 02:31 ACCEPT [Google News CB] "Citadel Strategy Chief: The Market Underestimates the Possibility of a" | kw:fed rate,rate hike
+2026-07-06 02:31 SKIP_MORNING already_sent date=2026-07-06
