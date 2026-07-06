@@ -11409,3 +11409,13 @@
 2026-07-06 03:31 ACCEPT [Google News HH] "Oil Prices Fall as OPEC, Allies Agree to Hike Output - Moomoo" | kw:oil,opec,rice
 2026-07-06 03:31 ACCEPT [Google News HH] "COMMENTARY: Expect More Shocks to Crude Oil and Natural Gas Markets – " | kw:oil,crude,gas
 2026-07-06 03:31 SKIP_MORNING already_sent date=2026-07-06
+2026-07-06 04:01 ACCEPT [Google News HH] "OPEC+ to boost crude output, but can it deliver and who will buy? - Re" | kw:crude,opec
+2026-07-06 04:01 ACCEPT [Google News HH] "Japan Week Ahead: Yen’s Weakness Persists, Keeping Imports Expensive, " | kw:oil,crude,rice
+2026-07-06 04:01 ACCEPT [Google News KL] "Gold Price Forecast: XAU/USD recaptures 21-day SMA, but sellers refuse" | kw:gold,rice
+2026-07-06 04:01 ACCEPT [Google News KL] "Gold struggles above $4,200 as Hormuz risks support USD - FXStreet" | kw:gold
+2026-07-06 04:01 ACCEPT [Google News KL] "Cooling Job Market Douses Fed Rate Hike Bets, Gold Surges Past $4,200 " | kw:gold,fed rate,rate hike
+2026-07-06 04:01 ACCEPT [Google News KL] "Gold and silver price today, July 6: Check rates of 24K, 22K gold in D" | kw:gold,silver,rice
+2026-07-06 04:01 ACCEPT [Google News KL] "Gold Price Today: MCX Gold Trades Flat At Rs 1.47 Lakh As Fed Rate Hik" | kw:gold,rice,fed rate
+2026-07-06 04:01 ACCEPT [Google News NS] "Indonesia initiates feed corn subsidy to cut poultry production costs " | kw:corn
+2026-07-06 04:01 ACCEPT [Google News CB] "Asian shares slip as earnings loom, oil weighed by supply - WTAQ" | kw:oil
+2026-07-06 04:01 SKIP_MORNING already_sent date=2026-07-06
