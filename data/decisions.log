@@ -11774,3 +11774,30 @@
 2026-07-06 13:01 ACCEPT [Google News CB] "Turkey Inflation Keeps Central Bank Policy Constrained - TradingPedia" | kw:inflation,central bank
 2026-07-06 13:01 SKIP_MORNING already_sent date=2026-07-06
 2026-07-06 13:02 SENT_EVENING articles=20 date=2026-07-06 force=False
+2026-07-06 13:31 ACCEPT [MarketWatch] "Stocks rally when Congress goes on summer break. Here’s why." | kw:rice
+2026-07-06 13:31 ACCEPT [OilPrice.com] "Hormuz Tanker Traffic Slowly Recovers Despite Persistent Risks" | kw:oil,lng
+2026-07-06 13:31 ACCEPT [Google News HH] "James Iuorio predicts crude oil at $45 per barrel next year - Fox Busi" | kw:oil,crude
+2026-07-06 13:31 ACCEPT [Google News HH] "ClearView's Kevin Book on whether OPEC+'s higher oil output targets wi" | kw:oil,opec,rice
+2026-07-06 13:31 ACCEPT [Google News HH] "Oil prices little changed after OPEC+ agrees to raise output targets -" | kw:oil,opec,rice
+2026-07-06 13:31 ACCEPT [Google News HH] "As AI Models Become Commodities, a Bio-Native AI Company Just Moved to" | kw:commodities
+2026-07-06 13:31 ACCEPT [Google News HH] "Has Saudi Arabia suddenly launched a crude oil price war? It slashed p" | kw:oil,crude,rice
+2026-07-06 13:31 ACCEPT [Google News HH] "Crude Oil Prices Ease As OPEC+ Boosts Output - MarketForces Africa" | kw:oil,crude,opec
+2026-07-06 13:31 ACCEPT [Google News HH] "As AI Models Become Commodities, a Bio-Native AI Company Just Moved to" | kw:commodities
+2026-07-06 13:31 ACCEPT [Google News HH] "Operating cash flow per share of ADON AGRO COMMODITIES LIMITED – BSE:A" | kw:commodities
+2026-07-06 13:31 ACCEPT [Google News HH] "Saudi Arabia cuts August crude oil price to Asia to lowest since 2020 " | kw:oil,crude,rice
+2026-07-06 13:31 ACCEPT [Google News HH] "Oil and Gold: Price review for the week ahead - FXStreet" | kw:oil,gold,rice
+2026-07-06 13:31 ACCEPT [Google News HH] "Total assets of ADON AGRO COMMODITIES LIMITED – BSE:ADON - TradingView" | kw:commodities
+2026-07-06 13:31 ACCEPT [Google News HH] "July 7, 2026: Natural gas price on July 07, 2026 at 5:00 PM EDT Commod" | kw:gas,rice,commodities
+2026-07-06 13:31 ACCEPT [Google News HH] "Cash flow from operating activities of ADON AGRO COMMODITIES LIMITED –" | kw:commodities
+2026-07-06 13:31 ACCEPT [Google News KL] "Current price of gold as of July 6, 2026 - Fortune" | kw:gold,rice
+2026-07-06 13:31 ACCEPT [Google News KL] "Expectations for U.S. Fed rate hikes pressure gold - Investment Execut" | kw:gold,fed rate,rate hike
+2026-07-06 13:31 ACCEPT [Google News KL] "Gold Prices Ease as Markets Await Fed Minutes and Dollar Rebounds - Ya" | kw:gold,rice
+2026-07-06 13:31 ACCEPT [Google News KL] "Silver Price Analysis – Silver Gaps Higher as Buyers Defend $60 Floor " | kw:silver,rice
+2026-07-06 13:31 ACCEPT [Google News KL] "Brazil Copper Cabling Systems - Market Analysis, Forecast, Size, Trend" | kw:copper
+2026-07-06 13:31 ACCEPT [Google News NS] "CBOT wheat futures rise on USDA acreage cut support By Investing.com -" | kw:wheat
+2026-07-06 13:31 ACCEPT [Google News NS] "Ukraine’s early grain yields are 56% higher than last year at the star" | kw:harvest
+2026-07-06 13:31 ACCEPT [Google News CB] "Gold slips as Fed minutes loom, Hormuz risk eases oil shock - KITCO" | kw:oil,gold
+2026-07-06 13:31 ACCEPT [Google News CB] "Morgan Stanley says Sintra reinforces Fed pause, still sees ECB hiking" | kw:ecb
+2026-07-06 13:31 ACCEPT [Google News CB] "ECB payment system hit by second outage in a week - Investing.com" | kw:ecb
+2026-07-06 13:31 SKIP_MORNING already_sent date=2026-07-06
+2026-07-06 13:31 SKIP_EVENING already_sent date=2026-07-06
