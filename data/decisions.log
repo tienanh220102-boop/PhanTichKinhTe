@@ -12520,3 +12520,17 @@
 2026-07-07 16:31 ACCEPT [Google News CB] "US consumers' near-term inflation expectations rise in June, New York " | kw:inflation
 2026-07-07 16:31 SKIP_MORNING already_sent date=2026-07-07
 2026-07-07 16:31 SKIP_EVENING already_sent date=2026-07-07
+2026-07-07 17:01 ACCEPT [OilPrice.com] "Super El Niño Could Push Colombia Into an Energy Crisis" | kw:drought
+2026-07-07 17:01 ACCEPT [Google News HH] "Crude Oil Analysis: Brent’s $80 Target Holds Despite Improving Fundame" | kw:oil,crude,brent
+2026-07-07 17:01 ACCEPT [Google News HH] "No admission, no infringement, £1 million paid: why the FCA's commodit" | kw:commodities
+2026-07-07 17:01 ACCEPT [Google News HH] "US Equity Indexes Drop Amid Slide in Chipmakers, Gains in Crude Oil - " | kw:oil,crude
+2026-07-07 17:01 ACCEPT [Google News KL] "Silver Price Today: Silver Falls 3.03% on July 07, 2026 - USA Today" | kw:silver,rice
+2026-07-07 17:01 ACCEPT [Google News KL] "iShares Gold Trust vs Aberdeen Physical Silver Shares ETF: Which Fund " | kw:gold,silver,rice
+2026-07-07 17:01 ACCEPT [Google News KL] "China posts biggest gold reserve boost since 2023 despite price drop -" | kw:gold,rice
+2026-07-07 17:01 ACCEPT [Google News KL] "Central banks plan first U.S. dollar decline in 3 years; Gold & Euro w" | kw:gold,central bank
+2026-07-07 17:01 ACCEPT [Google News NS] "Variability predicted for 2026 corn crop - AgUpdate" | kw:corn
+2026-07-07 17:01 ACCEPT [Google News NS] "China's Soybean Buying Surge Ignites New Hope for U.S. Farmers and Gra" | kw:soybean
+2026-07-07 17:01 ACCEPT [Google News NS] "What Key Factor Will Shape Grain Prices in the Next 2 Months? - Succes" | kw:rice
+2026-07-07 17:01 ACCEPT [Google News NS] "U.S. Ethanol Push Collides With Brazil as Tariff Battle Reaches Breaki" | kw:tariff
+2026-07-07 17:01 ACCEPT [Google News CB] "US Consumers' Near-Term Inflation Expectations Rise in June, New York " | kw:inflation
+2026-07-07 17:01 ACCEPT [Google News CB] "Are rate cuts off the table after Warsh's latest inflation comments? -" | kw:inflation,rate cut
