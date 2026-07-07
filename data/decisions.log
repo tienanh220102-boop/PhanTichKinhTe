@@ -12266,3 +12266,18 @@
 2026-07-07 08:31 ACCEPT [Google News CB] "Czech inflation eases more than expected in June, to below central ban" | kw:inflation,central bank
 2026-07-07 08:31 ACCEPT [Google News CB] "ECB's Panetta says outlook remains fragile - TradingView" | kw:ecb
 2026-07-07 08:31 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 09:01 ACCEPT [Al Jazeera] "After Iran war upheaval, global shipping eyes return to status quo" | kw:shipping
+2026-07-07 09:01 ACCEPT [Google News HH] "A timeline of how the oil market weathered a historic supply shock and" | kw:oil
+2026-07-07 09:01 ACCEPT [Google News HH] "Q3 Forecast for Crude Oil, Silver, Gold and Bitcoin - Investing.com" | kw:oil,crude,gold
+2026-07-07 09:01 ACCEPT [Google News HH] "Saudi Arabia slashes Asian crude oil prices, marking the biggest cut i" | kw:oil,crude,rice
+2026-07-07 09:01 ACCEPT [Google News HH] "Gold, Silver Futures Fall Early Tuesday as Hormuz Tanker Strike, Iran'" | kw:oil,crude,gold
+2026-07-07 09:01 ACCEPT [Google News HH] "Brent Crude Oil Futures Jump 1.2% to $72.85, WTI Crude Oil Futures Ris" | kw:oil,crude,brent
+2026-07-07 09:01 ACCEPT [Google News HH] "UAE Crude Output Climbs Above 3.8 mmbbl/d in June After OPEC Exit - Eg" | kw:oil,crude,opec
+2026-07-07 09:01 ACCEPT [Google News HH] "Crude Oil Futures Rise: Spot Demand Drives Prices Up - Rediff MoneyWiz" | kw:oil,crude,rice
+2026-07-07 09:01 ACCEPT [Google News KL] "Silver Price Forecasts: XAG/USD drifts below $61.00 as markets turn ca" | kw:silver,rice
+2026-07-07 09:01 ACCEPT [Google News KL] "Egypt: Silver prices climb on July 6 - ZAWYA" | kw:silver,rice
+2026-07-07 09:01 ACCEPT [Google News NS] "Wisconsin Corn Emphasizes Importance of USMCA Renewal - Morning Ag Cli" | kw:corn
+2026-07-07 09:01 ACCEPT [Google News NS] "NCGA Releases Demand Strategy for U.S. Corn’s Next 250 Years - Oklahom" | kw:corn
+2026-07-07 09:01 ACCEPT [Google News CB] "ECB’s Panetta says outlook remains fragile - WNWN-FM" | kw:wti,ecb
+2026-07-07 09:01 ACCEPT [Google News CB] "Singapore central bank looking to introduce protected cell company cor" | kw:central bank
+2026-07-07 09:01 SKIP_MORNING already_sent date=2026-07-07
