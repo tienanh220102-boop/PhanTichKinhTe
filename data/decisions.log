@@ -12322,3 +12322,16 @@
 2026-07-07 10:31 ACCEPT [Google News KL] "Kinross Gold (KGC): New Buy Recommendation for This Basic Materials Gi" | kw:gold
 2026-07-07 10:31 ACCEPT [Google News CB] "ECB Rolls Out Haircuts on Collateral as Climate Risks Grow - Bloomberg" | kw:ecb
 2026-07-07 10:31 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 11:01 ACCEPT [MarketWatch] "Why these global stocks with a high barrier to entry are winning the w" | kw:gold
+2026-07-07 11:01 ACCEPT [Google News HH] "Ugandan farmers sue to stop $5.6 billion East African Crude Oil Pipeli" | kw:oil,crude
+2026-07-07 11:01 ACCEPT [Google News HH] "Oil traders await the US CPI data after war premium fades and prices s" | kw:oil,rice
+2026-07-07 11:01 ACCEPT [Google News HH] "Gold price in Saudi Arabia: Rates on July 7 - FXStreet" | kw:gold,rice
+2026-07-07 11:01 ACCEPT [Google News KL] "Gold prices weaken as investors await Federal Reserve meeting minutes " | kw:gold,rice,federal reserve
+2026-07-07 11:01 ACCEPT [Google News KL] "21-Karat Gold Price at JD84.8 per Gram in Local Market - Fana News -" | kw:gold,rice
+2026-07-07 11:01 ACCEPT [Google News KL] "Gold remains depressed as rising yields clash with soft Fed bets - FXS" | kw:gold
+2026-07-07 11:01 ACCEPT [Google News CB] "European Central Bank imposes haircuts on climate-risk collateral - Cr" | kw:central bank
+2026-07-07 11:01 ACCEPT [Google News CB] "Big EU banks must set out AI risk plan, top ECB official - politico.eu" | kw:ecb
+2026-07-07 11:01 ACCEPT [Google News CB] "ECB orders eurozone banks to draft AI cyberattack response plans - Меж" | kw:ecb
+2026-07-07 11:01 ACCEPT [Google News CB] "ECB’s Panetta says euro zone outlook remains fragile - Investing.com" | kw:ecb
+2026-07-07 11:01 ACCEPT [Google News CB] "Fed Governor Waller on Forward Guidance: Benefits and Risks for Moneta" | kw:monetary policy
+2026-07-07 11:01 SKIP_MORNING already_sent date=2026-07-07
