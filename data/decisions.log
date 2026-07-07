@@ -12098,3 +12098,13 @@
 2026-07-07 03:01 ACCEPT [Google News CB] "Measurement tweaks will make inflation data look better - Axios" | kw:inflation
 2026-07-07 03:01 ACCEPT [Google News CB] "Fed working paper links surge in illegal immigration to higher home, r" | kw:rice
 2026-07-07 03:01 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 03:31 ACCEPT [Google News HH] "Crude Oil Prices Pressured as Global Supplies Rebound - TradingView" | kw:oil,crude,rice
+2026-07-07 03:31 ACCEPT [Google News KL] "Gold eases as markets await Fed minutes for direction - CNBC" | kw:gold
+2026-07-07 03:31 ACCEPT [Google News KL] "Does the gold price center still have the foundation for upward moveme" | kw:gold,rice
+2026-07-07 03:31 ACCEPT [Google News NS] "Soybeans Surge as US-China Trade Hopes Spark Biggest Grain Rally in We" | kw:soybean
+2026-07-07 03:31 ACCEPT [RT Business] "Running on empty: What’s driving Europe’s auto industry crisis?" | kw:fuel,rice
+2026-07-07 03:31 ACCEPT [Google News CB] "Former Fed President: “Core Inflation Is Too High.” Here’s Why the Fed" | kw:inflation,tightening
+2026-07-07 03:31 ACCEPT [Google News CB] "Gold eases as markets await Fed minutes for direction - Yahoo Finance " | kw:gold
+2026-07-07 03:31 ACCEPT [Google News CB] "Report: Modernization of central bank intertwined with regulations, se" | kw:central bank
+2026-07-07 03:31 ACCEPT [Google News CB] "Fed working paper links surge in illegal immigration to higher home, r" | kw:rice
+2026-07-07 03:31 SKIP_MORNING already_sent date=2026-07-07
