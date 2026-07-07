@@ -12059,3 +12059,7 @@
 2026-07-07 00:09 SENT_MORNING articles=20 date=2026-07-07 force=False
 2026-07-07 00:31 ACCEPT [Google News HH] "Crude Oil Prices Recover as the Crack Spread Soars - TradingView" | kw:oil,crude,rice
 2026-07-07 00:31 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 01:01 ACCEPT [Google News HH] "Saudi Arabia to Pump More Oil with Hope the Price of Gas Will Drop a L" | kw:oil,gas,rice
+2026-07-07 01:01 ACCEPT [Google News HH] "The Organization of Petroleum Exporting Countries (OPEC) and OPEC+, a " | kw:oil,opec,petroleum
+2026-07-07 01:01 ACCEPT [Google News NS] "Soybeans Surge as US-China Trade Hopes Spark Biggest Grain Rally in We" | kw:soybean
+2026-07-07 01:01 SKIP_MORNING already_sent date=2026-07-07
