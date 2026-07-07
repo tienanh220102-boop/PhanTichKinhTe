@@ -12160,3 +12160,13 @@
 2026-07-07 06:31 ACCEPT [Google News CB] "Japan pushes back on views it is pressuring BOJ to keep rates low - Re" | kw:boj
 2026-07-07 06:31 ACCEPT [Google News CB] "Softer Japan wage data unlikely to derail BOJ hikes, even as yen risk " | kw:boj
 2026-07-07 06:31 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 07:01 ACCEPT [OilPrice.com] "Gulf Oil Exporters Slash Prices as Buyers Gain the Upper Hand" | kw:oil,crude,rice
+2026-07-07 07:01 ACCEPT [Google News HH] "Is OPEC Losing Control as Gulf Oil Producers Race to Reclaim Market Sh" | kw:oil,opec
+2026-07-07 07:01 ACCEPT [Google News HH] "Eni and Mercuria sign agreement to form 50/50 global energy commoditie" | kw:commodities
+2026-07-07 07:01 ACCEPT [Google News HH] "Q3 Forecast for Crude Oil, Silver, Gold and Bitcoin - Investing.com" | kw:oil,crude,gold
+2026-07-07 07:01 ACCEPT [Google News KL] "Silver price forecast: can bulls defend $60 as Hormuz risks lift oil? " | kw:oil,silver,rice
+2026-07-07 07:01 ACCEPT [Google News KL] "Copper price prefers the negativity– Forecast today – 7-7-2026 - Econo" | kw:copper,rice
+2026-07-07 07:01 ACCEPT [Google News CB] "Japan pushes back on views it is pressuring BOJ to keep rates low - Th" | kw:boj
+2026-07-07 07:01 ACCEPT [Google News CB] "6-Month Treasury Yield Rises To 4%: Bond Market Tells The Fed To Get O" | kw:treasury,rate hike
+2026-07-07 07:01 ACCEPT [Google News CB] "Indian Central Bank Likely to Stand Pat, Says J.P. Morgan -- Market Ta" | kw:central bank
+2026-07-07 07:01 SKIP_MORNING already_sent date=2026-07-07
