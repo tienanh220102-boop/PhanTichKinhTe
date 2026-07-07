@@ -12057,3 +12057,5 @@
 2026-07-07 00:01 GEMINI ERROR gemini-2.5-flash-lite This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
 2026-07-07 00:01 SKIP_MORNING gemini_no_result date=2026-07-07
 2026-07-07 00:09 SENT_MORNING articles=20 date=2026-07-07 force=False
+2026-07-07 00:31 ACCEPT [Google News HH] "Crude Oil Prices Recover as the Crack Spread Soars - TradingView" | kw:oil,crude,rice
+2026-07-07 00:31 SKIP_MORNING already_sent date=2026-07-07
