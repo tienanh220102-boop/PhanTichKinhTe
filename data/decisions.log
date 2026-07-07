@@ -12297,3 +12297,16 @@
 2026-07-07 09:31 ACCEPT [Google News CB] "Czech inflation slips below central bank target in June - TradingView" | kw:inflation,central bank
 2026-07-07 09:31 ACCEPT [Google News CB] "ECB's Panetta says economic outlook remains fragile - TradingView" | kw:ecb
 2026-07-07 09:31 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 10:01 ACCEPT [NASDAQ Commod] "Oil Prices Climb As Hormuz Tensions Return To Haunt" | kw:oil,rice
+2026-07-07 10:01 ACCEPT [Google News HH] "Saudi-Flagged crude oil tanker damaged near Hormuz after LNG tanker hi" | kw:oil,crude,lng
+2026-07-07 10:01 ACCEPT [Google News HH] "Iraq oil supplies to US decline to 4 million barrels in April - Iraqi " | kw:oil
+2026-07-07 10:01 ACCEPT [Google News KL] "Silver price today: falls on July 7 - FXStreet" | kw:silver,rice
+2026-07-07 10:01 ACCEPT [Google News KL] "Gold prices decline for 2nd time Tuesday - VnExpress International" | kw:gold,rice
+2026-07-07 10:01 ACCEPT [Google News KL] "Gold’s Rally Is Pulling Capital On-Chain — and PAXG Is the Winner - Be" | kw:gold
+2026-07-07 10:01 ACCEPT [Google News KL] "Gold Price Forecast: 57k NFP Labor Shock Triggers Historic Short-Squee" | kw:gold,rice
+2026-07-07 10:01 ACCEPT [Google News CB] "Japanese wages continue to rise, boosting BoJ normalisation policy - F" | kw:boj
+2026-07-07 10:01 ACCEPT [Google News CB] "European Central Bank: Cautious path to further hike – BNP Paribas - F" | kw:central bank
+2026-07-07 10:01 ACCEPT [Google News CB] "ECB's Schnabel warns on inflation: Iran conflict shock still not over " | kw:oil,inflation,ecb
+2026-07-07 10:01 ACCEPT [Google News CB] "Japanese Yen: High bar for hawkish BoJ repricing – BBH - FXStreet" | kw:boj
+2026-07-07 10:01 ACCEPT [Google News CB] "ECB’s Panetta says outlook remains fragile By Reuters - Investing.com" | kw:ecb
+2026-07-07 10:01 SKIP_MORNING already_sent date=2026-07-07
