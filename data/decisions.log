@@ -12121,3 +12121,10 @@
 2026-07-07 04:30 ACCEPT [Google News CB] "Gold eases as markets await Fed minutes for direction - Yahoo Finance " | kw:gold
 2026-07-07 04:30 SKIP_MORNING already_sent date=2026-07-07
 2026-07-07 04:31 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 05:01 ACCEPT [Google News HH] "Oil Futures Slip While Holding Near Pre-Conflict Level - WSJ" | kw:oil
+2026-07-07 05:01 ACCEPT [Google News HH] "Gold price in India: Rates on July 7 - FXStreet" | kw:gold,rice
+2026-07-07 05:01 ACCEPT [Google News HH] "Crude oil futures gain on reports of attacks on ships in Strait of Hor" | kw:oil,crude
+2026-07-07 05:01 ACCEPT [Google News HH] "Market Chatter: Adnoc Boosts Crude Output After UAE's OPEC Exit - 富途牛牛" | kw:crude,opec
+2026-07-07 05:01 ACCEPT [Google News KL] "Gold price in Philippines: Rates on July 7 - FXStreet" | kw:gold,rice
+2026-07-07 05:01 ACCEPT [Google News KL] "Gold Price Forecast: XAU/USD extends pullback from $4,200 as eyes turn" | kw:gold,rice
+2026-07-07 05:01 SKIP_MORNING already_sent date=2026-07-07
