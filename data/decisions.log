@@ -12342,3 +12342,10 @@
 2026-07-07 11:09 ACCEPT [Google News CB] "Ruto signs law allowing Kenya’s central bank to provide emergency fund" | kw:central bank
 2026-07-07 11:09 ACCEPT [Google News CB] "European Central Bank demands cybersecurity action plans from banks by" | kw:central bank
 2026-07-07 11:09 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 11:31 ACCEPT [MarketWatch] "These global stocks benefit from high barriers to entry. And they’re w" | kw:gold
+2026-07-07 11:31 ACCEPT [OilPrice.com] "Middle East Conflict Clouds LNG Outlook as Global Trade Hits Record Hi" | kw:gas,lng,rice
+2026-07-07 11:31 ACCEPT [Google News KL] "In a Record Gold Market, the Fastest Ounces Are the Ones Already Out o" | kw:gold
+2026-07-07 11:31 ACCEPT [Google News KL] "Gold Prices Slip Amid Fed Rate Speculation and Stronger Dollar - Stock" | kw:gold,rice,fed rate
+2026-07-07 11:31 ACCEPT [Google News KL] "Reducing Perseus' Fair Value Estimate Due to Falling Gold Prices - Mor" | kw:gold,rice
+2026-07-07 11:31 ACCEPT [Google News NS] "Corn, Soy Jump Nearly 4% on Weather Risks, China Demand Hopes - Succes" | kw:corn
+2026-07-07 11:31 SKIP_MORNING already_sent date=2026-07-07
