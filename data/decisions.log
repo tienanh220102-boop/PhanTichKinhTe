@@ -12146,3 +12146,17 @@
 2026-07-07 06:01 ACCEPT [Google News NS] "Mysteel China edible oils market da... - mysteel.net" | kw:oil,steel
 2026-07-07 06:01 ACCEPT [Google News CB] "Dollar weakens as soft jobs data tempers Fed hike bets - MSN" | kw:wti
 2026-07-07 06:01 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 06:31 ACCEPT [Google News HH] "How high will WTI oil get by Jul 31, 2026 Commodities Prediction Marke" | kw:oil,wti,commodities
+2026-07-07 06:31 ACCEPT [Google News HH] "Saudi Arabia slices crude oil prices, but is it enough?: Russell - Tra" | kw:oil,crude,rice
+2026-07-07 06:31 ACCEPT [Google News HH] "OPEC is likely loser in Gulf’s post-war race for market share - Reuter" | kw:opec
+2026-07-07 06:31 ACCEPT [Google News HH] "Peak oil: China’s crude demand set to fall as EV bets ease Hormuz fear" | kw:oil,crude
+2026-07-07 06:31 ACCEPT [Google News HH] "Oil Prices Today, July 7, 2026: Crude Oil Climb to $72.5 Amid Improvin" | kw:oil,crude,rice
+2026-07-07 06:31 ACCEPT [Google News KL] "Silver price forecast: can bulls defend $60 as Hormuz risks lift oil? " | kw:oil,silver,rice
+2026-07-07 06:31 ACCEPT [Google News KL] "Gold price slips as Fed minutes loom: is rebound already losing steam?" | kw:gold,rice
+2026-07-07 06:31 ACCEPT [Google News KL] "Spot gold falls nearly 1% to $4,123.49 amid strong US dollar, Fed pres" | kw:gold
+2026-07-07 06:31 ACCEPT [Google News KL] "Gold price prediction today: Will gold prices rise in the near-term? c" | kw:gold,rice
+2026-07-07 06:31 ACCEPT [Google News KL] "Gold slides after worst quarter since 2013 as rate fears loom - MSN" | kw:gold
+2026-07-07 06:31 ACCEPT [Google News KL] "Gold, silver prices today (July 7): Gold prices down 0.5%; silver drop" | kw:gold,silver,rice
+2026-07-07 06:31 ACCEPT [Google News CB] "Japan pushes back on views it is pressuring BOJ to keep rates low - Re" | kw:boj
+2026-07-07 06:31 ACCEPT [Google News CB] "Softer Japan wage data unlikely to derail BOJ hikes, even as yen risk " | kw:boj
+2026-07-07 06:31 SKIP_MORNING already_sent date=2026-07-07
