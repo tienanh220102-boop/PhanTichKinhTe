@@ -12445,3 +12445,16 @@
 2026-07-07 14:01 ACCEPT [Google News CB] "Fed's Williams tells Fox Business he's more sanguine on inflation due " | kw:rice,inflation
 2026-07-07 14:01 SKIP_MORNING already_sent date=2026-07-07
 2026-07-07 14:01 SKIP_EVENING already_sent date=2026-07-07
+2026-07-07 14:31 ACCEPT [MarketWatch] "We’re spending $7,000 to attend 7 weddings this year — and that’s afte" | kw:corn
+2026-07-07 14:31 ACCEPT [OilPrice.com] "India Could Return To Iranian Crude If U.S. Extends Sanctions Waiver" | kw:oil,crude,sanction
+2026-07-07 14:31 ACCEPT [Mining.com] "De Beers cuts diamond prices, axes 25 elite buyers" | kw:rice
+2026-07-07 14:31 ACCEPT [Google News HH] "Iran Struck the Mediator’s Tanker. Gold Fell. The Funeral Ends Thursda" | kw:gold,silver
+2026-07-07 14:31 ACCEPT [Google News HH] "Trump Welcomes United Arab Emirates Exit From OPEC - EnergyNow.com" | kw:opec
+2026-07-07 14:31 ACCEPT [Google News HH] "OPEC's June output rebounds more than 3m bpd: survey - Quantum Commodi" | kw:opec,commodity
+2026-07-07 14:31 ACCEPT [Google News KL] "Zero-Dollar Treatment Charges Signal a Multi-Year Mine Supply Shortfal" | kw:copper
+2026-07-07 14:31 ACCEPT [Google News KL] "Gold IRA Rollover Guide Released: What to Know Before Moving a 401(k) " | kw:gold
+2026-07-07 14:31 ACCEPT [Google News CB] "Fed’s Williams tells Fox Business he’s more sanguine on inflation due " | kw:rice,inflation
+2026-07-07 14:31 ACCEPT [Google News CB] "ECB tells banks to prepare for AI-powered cyber threats - Euronews.com" | kw:ecb
+2026-07-07 14:31 ACCEPT [Google News CB] "Gold holds steady as focus turns to Middle East tensions, Fed minutes " | kw:gold
+2026-07-07 14:31 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 14:31 SKIP_EVENING already_sent date=2026-07-07
