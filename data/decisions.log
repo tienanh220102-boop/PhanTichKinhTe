@@ -12419,3 +12419,29 @@
 2026-07-07 13:30 ACCEPT [OilPrice.com] "Germany Plans $1.7 Billion Strategic Natural Gas Reserve" | kw:gas
 2026-07-07 13:31 SKIP_MORNING already_sent date=2026-07-07
 2026-07-07 13:31 SKIP_EVENING already_sent date=2026-07-07
+2026-07-07 14:01 ACCEPT [MarketWatch] "SpaceX’s two lead underwriters have a $1 trillion chasm between their " | kw:gold
+2026-07-07 14:01 ACCEPT [OilPrice.com] "UAE Pumps 3.8 Million Bpd, Defying OPEC+ Quotas" | kw:crude,opec
+2026-07-07 14:01 ACCEPT [Google News HH] "‘A materials breakthrough’: membranes to separate crude oil could slas" | kw:oil,crude
+2026-07-07 14:01 ACCEPT [Google News HH] "MORE U.S. MAY TRADE: INDUSTRIAL SUPPLIES IMPORTS +$3.1 BILLION, INCLUD" | kw:oil,crude
+2026-07-07 14:01 ACCEPT [Google News HH] "Saudi Arabia slices crude oil prices, but is it enough?: Russell - Tra" | kw:oil,crude,rice
+2026-07-07 14:01 ACCEPT [Google News HH] "UAE Crude Output Nears Record High Following Opec Exit - CairoScene" | kw:crude,opec
+2026-07-07 14:01 ACCEPT [Google News HH] "Gold Price Analysis – Gold Clings to $4,000 Floor Facing Heavy Moving " | kw:gold,rice
+2026-07-07 14:01 ACCEPT [Google News HH] "Saudi Arabia considers expanding crude oil pipeline capacity by 2M bar" | kw:oil,crude
+2026-07-07 14:01 ACCEPT [Google News KL] "Current price of silver as of Tuesday, July 7, 2026 - Fortune" | kw:silver,rice
+2026-07-07 14:01 ACCEPT [Google News KL] "Gold Miners: We Update Our Near-Term Price Assumptions as Gold Enters " | kw:gold,rice
+2026-07-07 14:01 ACCEPT [Google News KL] "Gold pulls back from two-week high on stronger dollar; Fed minutes on " | kw:gold
+2026-07-07 14:01 ACCEPT [Google News KL] "Current price of gold as of July 7, 2026 - Fortune" | kw:gold,rice
+2026-07-07 14:01 ACCEPT [Google News KL] "Silver Price Analysis – Silver Holds Above $60 as Strong Dollar Restri" | kw:silver,rice
+2026-07-07 14:01 ACCEPT [Google News KL] "Gold and Silver Forecast: Are Precious Metals Near a Major Turning Poi" | kw:gold,silver
+2026-07-07 14:01 ACCEPT [Google News NS] "Corn and soybean markets face critical weather-driven weeks ahead - MS" | kw:corn,soybean
+2026-07-07 14:01 ACCEPT [Google News CB] "ECB tells banks to bolster AI cyber defences as peers take lighter app" | kw:ecb
+2026-07-07 14:01 ACCEPT [Google News CB] "Trump’s War on the Fed Isn’t Over, and Wall Street Is Still Betting on" | kw:rate hike
+2026-07-07 14:01 ACCEPT [Google News CB] "Fed's Williams tells Fox Business he's more sanguine on inflation due " | kw:rice,inflation
+2026-07-07 14:01 ACCEPT [Google News CB] "ECB tells Europe's biggest banks to prepare for AI-powered cyber threa" | kw:ecb
+2026-07-07 14:01 ACCEPT [Google News CB] "TSX futures inch up as oil gains; Fed minutes in focus - Reuters" | kw:oil,lng
+2026-07-07 14:01 ACCEPT [Google News CB] "ECB’s Panetta says outlook remains fragile - WSAU" | kw:ecb
+2026-07-07 14:01 ACCEPT [Google News CB] "Fed’s Williams: “Monetary policy is in a good place” - FXStreet" | kw:monetary policy
+2026-07-07 14:01 ACCEPT [Google News CB] "Polish Zloty Faces Pressure on Dovish Central Bank - TradingPedia" | kw:central bank
+2026-07-07 14:01 ACCEPT [Google News CB] "Fed's Williams tells Fox Business he's more sanguine on inflation due " | kw:rice,inflation
+2026-07-07 14:01 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 14:01 SKIP_EVENING already_sent date=2026-07-07
