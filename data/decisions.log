@@ -12113,3 +12113,10 @@
 2026-07-07 04:01 ACCEPT [Google News KL] "Silver has been "halved", but analysts set a $130 target: The sharp de" | kw:silver
 2026-07-07 04:01 ACCEPT [Google News CB] "Central Bank survey sees inflation dipping below 2% from August - Buen" | kw:inflation,central bank
 2026-07-07 04:01 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 04:30 ACCEPT [Google News KL] "Gold eases as markets await Fed minutes for direction - CNBC" | kw:gold
+2026-07-07 04:30 ACCEPT [Google News KL] "Gold Prices Fall Further After Worst Quarter in Over a Decade - Is It " | kw:gold,rice
+2026-07-07 04:30 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD corrects further to near $61 as oil pri" | kw:oil,silver,rice
+2026-07-07 04:30 ACCEPT [Google News NS] "A detailed analysis of export markets for Ukrainian soybean meal: depe" | kw:soybean
+2026-07-07 04:30 ACCEPT [Google News NS] "Weather Market Lifts Grains as China Trade Hopes Grow - Dakota News Ne" | kw:lng
+2026-07-07 04:30 ACCEPT [Google News CB] "Gold eases as markets await Fed minutes for direction - Yahoo Finance " | kw:gold
+2026-07-07 04:30 SKIP_MORNING already_sent date=2026-07-07
