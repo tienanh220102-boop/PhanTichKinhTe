@@ -12255,3 +12255,14 @@
 2026-07-07 08:01 ACCEPT [Google News NS] "El Niño and rising costs discourage wheat sowing in Brazil - Valor Int" | kw:wheat
 2026-07-07 08:01 ACCEPT [Google News NS] "Fuel, electricity price cuts cushion sharp rise in vegetable costs dur" | kw:fuel,rice
 2026-07-07 08:01 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 08:30 ACCEPT [MarketWatch] "SpaceX’s two lead underwriters have a $1 trillion chasm in their valua" | kw:gold
+2026-07-07 08:31 ACCEPT [OilPrice.com] "4 Million Barrels of Saudi Crude Set to Transit Strait of Hormuz" | kw:oil,crude
+2026-07-07 08:31 ACCEPT [Google News KL] "Silver's price is down 49% since January. Is it still a good investmen" | kw:silver,rice
+2026-07-07 08:31 ACCEPT [Google News KL] "Gold, Silver and Platinum Forecast: Fed Minutes Put Key Breakout Level" | kw:gold,silver
+2026-07-07 08:31 ACCEPT [Google News KL] "Central banks worldwide are preparing to increase gold purchases, inst" | kw:gold,central bank
+2026-07-07 08:31 ACCEPT [Google News NS] "China recognizes Brazilian environmental law for soybean imports - Ukr" | kw:iron,soybean
+2026-07-07 08:31 ACCEPT [Google News CB] "ECB's Panetta says outlook remains fragile - Reuters" | kw:ecb
+2026-07-07 08:31 ACCEPT [Google News CB] "Singapore central bank looking to introduce protected cell company cor" | kw:wti,central bank
+2026-07-07 08:31 ACCEPT [Google News CB] "Czech inflation eases more than expected in June, to below central ban" | kw:inflation,central bank
+2026-07-07 08:31 ACCEPT [Google News CB] "ECB's Panetta says outlook remains fragile - TradingView" | kw:ecb
+2026-07-07 08:31 SKIP_MORNING already_sent date=2026-07-07
