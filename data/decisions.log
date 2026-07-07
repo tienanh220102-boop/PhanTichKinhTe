@@ -12310,3 +12310,15 @@
 2026-07-07 10:01 ACCEPT [Google News CB] "Japanese Yen: High bar for hawkish BoJ repricing – BBH - FXStreet" | kw:boj
 2026-07-07 10:01 ACCEPT [Google News CB] "ECB’s Panetta says outlook remains fragile By Reuters - Investing.com" | kw:ecb
 2026-07-07 10:01 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 10:31 ACCEPT [MarketWatch] "‘I make my own pizza.’ What’s the best way you’ve found to save money?" | kw:coffee
+2026-07-07 10:31 ACCEPT [OilPrice.com] "India Resumes Iraqi Oil Imports Despite Hormuz Shipping Risks" | kw:oil,crude,shipping
+2026-07-07 10:31 ACCEPT [NASDAQ Commod] "Gold Edges Lower Amid Hormuz Tensions" | kw:gold,rice
+2026-07-07 10:31 ACCEPT [Google News HH] "OPEC is likely loser in Gulf’s post-war race for market share: Bousso " | kw:opec
+2026-07-07 10:31 ACCEPT [Google News HH] "Gold Price Forecast & Predictions for 2026, 2027, 2028–2030 and Beyond" | kw:gold,rice
+2026-07-07 10:31 ACCEPT [Google News KL] "Gold Miners: We Update Our Near-Term Price Assumptions as Gold Enters " | kw:gold,rice
+2026-07-07 10:31 ACCEPT [Google News KL] "Gold slips as stronger dollar weighs; focus on Fed minutes and Gulf te" | kw:gold
+2026-07-07 10:31 ACCEPT [Google News KL] "Gold traders bet on rebound stalling near $4,300 after sharp first-hal" | kw:gold
+2026-07-07 10:31 ACCEPT [Google News KL] "Gold: Is Momentum Building for Another Record Run? - Investing.com" | kw:gold,gdp
+2026-07-07 10:31 ACCEPT [Google News KL] "Kinross Gold (KGC): New Buy Recommendation for This Basic Materials Gi" | kw:gold
+2026-07-07 10:31 ACCEPT [Google News CB] "ECB Rolls Out Haircuts on Collateral as Climate Risks Grow - Bloomberg" | kw:ecb
+2026-07-07 10:31 SKIP_MORNING already_sent date=2026-07-07
