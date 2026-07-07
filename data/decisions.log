@@ -12415,19 +12415,7 @@
 2026-07-07 13:01 ACCEPT [Google News CB] "Waller says risks in US tilted towards high inflation - reuters.com" | kw:inflation
 2026-07-07 13:01 SKIP_MORNING already_sent date=2026-07-07
 2026-07-07 13:02 SENT_EVENING articles=20 date=2026-07-07 force=False
-2026-07-07 13:31 ACCEPT [MarketWatch] "The trade of the year is entering a new phase, says Goldman Sachs. Her" | kw:gold
-2026-07-07 13:31 ACCEPT [OilPrice.com] "Germany Plans $1.7 Billion Strategic Natural Gas Reserve" | kw:gas
-2026-07-07 13:31 ACCEPT [Google News HH] "MORE U.S. MAY TRADE: INDUSTRIAL SUPPLIES IMPORTS +$3.1 BILLION, INCLUD" | kw:oil,crude
-2026-07-07 13:31 ACCEPT [Google News HH] "Saudi Arabia slices crude oil prices, but is it enough?: Russell - Tra" | kw:oil,crude,rice
-2026-07-07 13:31 ACCEPT [Google News KL] "Current price of silver as of Tuesday, July 7, 2026 - Fortune" | kw:silver,rice
-2026-07-07 13:31 ACCEPT [Google News KL] "Gold Miners: We Update Our Near-Term Price Assumptions as Gold Enters " | kw:gold,rice
-2026-07-07 13:31 ACCEPT [Google News KL] "Gold holds above $4,100 as Fed minutes, Hormuz risk lift yields - Kitc" | kw:gold
-2026-07-07 13:31 ACCEPT [Google News KL] "Current price of gold as of July 7, 2026 - Fortune" | kw:gold,rice
-2026-07-07 13:31 ACCEPT [Google News KL] "Gold pulls back from two-week high on stronger dollar; Fed minutes on " | kw:gold
-2026-07-07 13:31 ACCEPT [Google News KL] "Silver Price Analysis – Silver Holds Above $60 as Strong Dollar Restri" | kw:silver,rice
-2026-07-07 13:31 ACCEPT [Google News CB] "ECB’s Panetta says outlook remains fragile - WSAU" | kw:ecb
-2026-07-07 13:31 ACCEPT [Google News CB] "Fed's Williams tells Fox Business he's more sanguine on inflation due " | kw:rice,inflation
-2026-07-07 13:31 ACCEPT [Google News CB] "Deutsche Bank flags disconnect between inflation, Fed pricing (SP500:)" | kw:inflation
-2026-07-07 13:31 ACCEPT [Google News CB] "Euro: ECB support limited by spreads – NBC - FXStreet" | kw:ecb
+2026-07-07 13:30 ACCEPT [MarketWatch] "The trade of the year is entering a new phase, says Goldman Sachs. Her" | kw:gold
+2026-07-07 13:30 ACCEPT [OilPrice.com] "Germany Plans $1.7 Billion Strategic Natural Gas Reserve" | kw:gas
 2026-07-07 13:31 SKIP_MORNING already_sent date=2026-07-07
 2026-07-07 13:31 SKIP_EVENING already_sent date=2026-07-07
