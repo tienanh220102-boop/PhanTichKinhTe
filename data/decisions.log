@@ -12335,3 +12335,10 @@
 2026-07-07 11:01 ACCEPT [Google News CB] "ECB’s Panetta says euro zone outlook remains fragile - Investing.com" | kw:ecb
 2026-07-07 11:01 ACCEPT [Google News CB] "Fed Governor Waller on Forward Guidance: Benefits and Risks for Moneta" | kw:monetary policy
 2026-07-07 11:01 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 11:09 ACCEPT [Al Jazeera] "Ukrainian drones hit Russian fuel tankers" | kw:fuel
+2026-07-07 11:09 ACCEPT [Google News KL] "First Mining Gold Secures Federal Approval for Springpole After 8.5-Ye" | kw:wti,gold
+2026-07-07 11:09 ACCEPT [Google News KL] "Saudi gold prices edge lower as dollar strength offsets central bank b" | kw:gold,rice,central bank
+2026-07-07 11:09 ACCEPT [Google News NS] "Romanian wheat continues to feel harvesting pressure at the background" | kw:wheat,rice,harvest
+2026-07-07 11:09 ACCEPT [Google News CB] "Ruto signs law allowing Kenya’s central bank to provide emergency fund" | kw:central bank
+2026-07-07 11:09 ACCEPT [Google News CB] "European Central Bank demands cybersecurity action plans from banks by" | kw:central bank
+2026-07-07 11:09 SKIP_MORNING already_sent date=2026-07-07
