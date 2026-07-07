@@ -12511,3 +12511,12 @@
 2026-07-07 16:19 ACCEPT [Google News CB] "Mohamed El-Erian: The worst of inflation is behind us, so the Fed shou" | kw:inflation
 2026-07-07 16:19 SKIP_MORNING already_sent date=2026-07-07
 2026-07-07 16:19 SKIP_EVENING already_sent date=2026-07-07
+2026-07-07 16:31 ACCEPT [OilPrice.com] "Saudi Arabia Eyes Major Red Sea Pipeline Expansion to Bypass Hormuz" | kw:oil,crude
+2026-07-07 16:31 ACCEPT [Google News HH] "OPEC Opens the Taps as Oil Market Braces for Next Shock - cheddar.com" | kw:oil,opec
+2026-07-07 16:31 ACCEPT [Google News NS] "China Sparks Soybean Rally as Tariff Cut Could Reshape U.S. Farm Expor" | kw:soybean,tariff
+2026-07-07 16:31 ACCEPT [Google News NS] "Corn quality holds steady while soybean ratings dip - Farm Progress" | kw:corn,soybean
+2026-07-07 16:31 ACCEPT [Google News NS] "Soybean Prices Surge to Five-Week High as China Boosts US Purchases | " | kw:soybean,rice
+2026-07-07 16:31 ACCEPT [Google News NS] "Corn and soybean markets face critical weather-driven weeks ahead - MS" | kw:corn,soybean
+2026-07-07 16:31 ACCEPT [Google News CB] "US consumers' near-term inflation expectations rise in June, New York " | kw:inflation
+2026-07-07 16:31 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 16:31 SKIP_EVENING already_sent date=2026-07-07
