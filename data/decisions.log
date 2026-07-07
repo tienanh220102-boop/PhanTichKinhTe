@@ -12128,3 +12128,7 @@
 2026-07-07 05:01 ACCEPT [Google News KL] "Gold price in Philippines: Rates on July 7 - FXStreet" | kw:gold,rice
 2026-07-07 05:01 ACCEPT [Google News KL] "Gold Price Forecast: XAU/USD extends pullback from $4,200 as eyes turn" | kw:gold,rice
 2026-07-07 05:01 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 05:31 ACCEPT [Google News HH] "$Crude Oil Futures (AUG6) (CLmain.US)$ - Moomoo" | kw:oil,crude,gdp
+2026-07-07 05:31 ACCEPT [Google News KL] "Gold, silver prices today, 7 July: Check retail rates of 24K, 22K gold" | kw:gold,silver,rice
+2026-07-07 05:31 ACCEPT [Google News CB] "Japan pushes back on views it is pressuring BOJ to keep rates low - Tr" | kw:wti,boj
+2026-07-07 05:31 SKIP_MORNING already_sent date=2026-07-07
