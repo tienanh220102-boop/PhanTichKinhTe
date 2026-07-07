@@ -12132,3 +12132,17 @@
 2026-07-07 05:31 ACCEPT [Google News KL] "Gold, silver prices today, 7 July: Check retail rates of 24K, 22K gold" | kw:gold,silver,rice
 2026-07-07 05:31 ACCEPT [Google News CB] "Japan pushes back on views it is pressuring BOJ to keep rates low - Tr" | kw:wti,boj
 2026-07-07 05:31 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 06:01 ACCEPT [OilPrice.com] "India’s Fuel Consumption Slips Despite Record Crude Oil Imports" | kw:oil,crude,gas
+2026-07-07 06:01 ACCEPT [Google News HH] "Agnico Eagle's Fair Value Reduced as the Gold Price Falls - Morningsta" | kw:gold,rice
+2026-07-07 06:01 ACCEPT [Google News HH] "Saudi Arabia slices crude oil prices, but is it enough? - Reuters" | kw:oil,crude,rice
+2026-07-07 06:01 ACCEPT [Google News HH] "India's Fuel Consumption Slips Despite Record Crude Oil Imports - Crud" | kw:oil,crude,fuel
+2026-07-07 06:01 ACCEPT [Google News HH] "UAE crude output nears record high post-OPEC exit amid Chinese buying " | kw:crude,opec
+2026-07-07 06:01 ACCEPT [Google News KL] "Gold prices fall further as rate uncertainty persists ahead of Fed min" | kw:gold,rice
+2026-07-07 06:01 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Gold Breaks Trendline at $4,127" | kw:gold,silver,rice
+2026-07-07 06:01 ACCEPT [Google News KL] "Gold Retreats From 2-Week High as JPMorgan Eyes Q4 Rebound - Yahoo Fin" | kw:gold
+2026-07-07 06:01 ACCEPT [Google News KL] "Gold prices fall as investors await Fed minutes for Warsh’s policy clu" | kw:gold,rice
+2026-07-07 06:01 ACCEPT [Google News KL] "Gold declines as reviving inflation fears outweigh receding Fed rate h" | kw:gold,inflation,fed rate
+2026-07-07 06:01 ACCEPT [Google News NS] "Corn and Soybean Bulls Are Taking One Step Out of the Grave as a Criti" | kw:corn,soybean
+2026-07-07 06:01 ACCEPT [Google News NS] "Mysteel China edible oils market da... - mysteel.net" | kw:oil,steel
+2026-07-07 06:01 ACCEPT [Google News CB] "Dollar weakens as soft jobs data tempers Fed hike bets - MSN" | kw:wti
+2026-07-07 06:01 SKIP_MORNING already_sent date=2026-07-07
