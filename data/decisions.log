@@ -12385,3 +12385,33 @@
 2026-07-07 12:31 ACCEPT [Google News CB] "Bank of Israel lowers interest rates to 3.5 - MSN" | kw:interest rate
 2026-07-07 12:31 ACCEPT [Google News CB] "Gold Price Today: MCX Gold Steady at Rs. 1,47,351, Silver at Rs. 2,36," | kw:brent,gold,silver
 2026-07-07 12:31 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 13:01 ACCEPT [MarketWatch] "Condos are getting cheaper — but list prices don’t include this fast-g" | kw:rice
+2026-07-07 13:01 ACCEPT [The Guardian Biz] "Half of Americans struggle to afford groceries and gas, exclusive poll" | kw:gas
+2026-07-07 13:01 ACCEPT [Google News HH] "Saudi Arabia slices crude oil prices, but is it enough? - reuters.com" | kw:oil,crude,rice
+2026-07-07 13:01 ACCEPT [Google News HH] "The OPEC Oil Production Increase Announcement Is The Least Of My Conce" | kw:oil,opec
+2026-07-07 13:01 ACCEPT [Google News HH] "OPEC is likely loser in Gulf’s post-war race for market share - reuter" | kw:opec
+2026-07-07 13:01 ACCEPT [Google News HH] "OPEC+ to boost crude output, but can it deliver and who will buy? - re" | kw:crude,opec
+2026-07-07 13:01 ACCEPT [Google News HH] "Saudi-Flagged crude oil tanker damaged near Hormuz after LNG tanker hi" | kw:oil,crude,lng
+2026-07-07 13:01 ACCEPT [Google News HH] "EXCLUSIVE: UAE crude output nears record following OPEC exit, sources " | kw:crude,opec
+2026-07-07 13:01 ACCEPT [Google News HH] "Gold: Price dip seen limited as PBoC buying continues – Commerzbank - " | kw:gold,rice,pboc
+2026-07-07 13:01 ACCEPT [Google News HH] "Today's oil analysis shows the bearish map flipped - investingLive" | kw:oil
+2026-07-07 13:01 ACCEPT [Google News KL] "Gold prices today, Tuesday, July 7, 2026: Hanging around $4,200 - Yaho" | kw:gold,rice
+2026-07-07 13:01 ACCEPT [Google News KL] "Gold and Silver Forecast: Are Precious Metals Near a Major Turning Poi" | kw:gold,silver
+2026-07-07 13:01 ACCEPT [Google News KL] "Silver prices today, Tuesday, July 7, 2026: Silver prices holding near" | kw:silver,rice
+2026-07-07 13:01 ACCEPT [Google News KL] "Pan American Silver (TSX:PAAS) Jumped 4.4%, Is The Upside Already Pric" | kw:silver,rice
+2026-07-07 13:01 ACCEPT [Google News KL] "Gold slips as traders await Fed minutes for fresh policy direction - Y" | kw:gold
+2026-07-07 13:01 ACCEPT [Google News KL] "Gold prices dip as rate uncertainty persists ahead of Fed minutes - In" | kw:gold,rice
+2026-07-07 13:01 ACCEPT [Google News NS] "Mysteel soybean and relatives marke... - mysteel.net" | kw:steel,soybean
+2026-07-07 13:01 ACCEPT [Google News NS] "Kazakhstan retains second place among world's wheat flour exporters in" | kw:wheat
+2026-07-07 13:01 ACCEPT [Google News CB] "ECB's Panetta says economic outlook remains fragile - reuters.com" | kw:ecb
+2026-07-07 13:01 ACCEPT [Google News CB] "Gold slips as stronger dollar weighs; focus on Fed minutes and Gulf te" | kw:gold
+2026-07-07 13:01 ACCEPT [Google News CB] "NY Fed says supply chain pressures eased in June - reuters.com" | kw:supply chain
+2026-07-07 13:01 ACCEPT [Google News CB] "TSX futures inch up as oil gains; Fed minutes in focus - KITCO" | kw:oil
+2026-07-07 13:01 ACCEPT [Google News CB] "Waller says inflation now outweighs job risks for Fed policy - MSN" | kw:inflation
+2026-07-07 13:01 ACCEPT [Google News CB] "Singapore central bank looking to introduce protected cell company cor" | kw:wti,central bank
+2026-07-07 13:01 ACCEPT [Google News CB] "Euro holds steady as traders assess Fed and ECB interest rate paths - " | kw:interest rate,ecb
+2026-07-07 13:01 ACCEPT [Google News CB] "ECB tells banks to submit plans to address AI cyber threats - Finextra" | kw:ecb
+2026-07-07 13:01 ACCEPT [Google News CB] "Report: Modernization of central bank intertwined with regulations, se" | kw:gdp,central bank
+2026-07-07 13:01 ACCEPT [Google News CB] "Waller says risks in US tilted towards high inflation - reuters.com" | kw:inflation
+2026-07-07 13:01 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 13:02 SENT_EVENING articles=20 date=2026-07-07 force=False
