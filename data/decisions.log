@@ -12237,3 +12237,17 @@
 2026-07-07 07:31 ACCEPT [Google News CB] "Gold Steadies After Weekly Gain as Rate-Hike Worries Recede - Bloomber" | kw:gold
 2026-07-07 07:31 ACCEPT [Google News CB] "Peru Nominates 20-Year Central Bank Chief Velarde for New Term - Bloom" | kw:central bank
 2026-07-07 07:31 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 07:59 ACCEPT [BBC Business] "Volunteers racing to save surplus Silverstone food" | kw:silver
+2026-07-07 07:59 ACCEPT [Google News HH] "Precious Metals bounce, Oil stays bearish and soft commodities push hi" | kw:oil,commodities
+2026-07-07 07:59 ACCEPT [Google News HH] "Crude Oil Forecast 07/07: Finds Bottom Near War Gap Support - DailyFor" | kw:oil,crude
+2026-07-07 07:59 ACCEPT [Google News KL] "Gold prices fell, and so did Belarus's rainy day fund - Belsat" | kw:gold,rice
+2026-07-07 07:59 ACCEPT [Google News KL] "Gold prices fall - VnExpress International" | kw:gold,rice
+2026-07-07 07:59 ACCEPT [Google News KL] "Gold falls as inflation fears lift yields offset fading Fed rate hike " | kw:gold,inflation,fed rate
+2026-07-07 07:59 ACCEPT [Google News NS] "ICE cotton advances on US weather concerns, grain market rally - Fibre" | kw:cotton
+2026-07-07 07:59 ACCEPT [Google News NS] "Saudi Arabia purchases over 660 thsd tons of wheat - UkrAgroConsult" | kw:wheat
+2026-07-07 07:59 ACCEPT [Google News NS] "Further dynamics of wheat prices in Ukraine will depend on the pace of" | kw:wheat,rice,harvest
+2026-07-07 07:59 ACCEPT [Google News CB] "ECB's Panetta Sees Fragile Outlook With Risks to Inflation and Growth " | kw:inflation,ecb
+2026-07-07 07:59 ACCEPT [Google News CB] "The Asian industrial supercycle is leading to diverging interest rate " | kw:interest rate
+2026-07-07 07:59 ACCEPT [Google News CB] "6-Month Treasury Yield Rises To 4%: Bond Market Tells The Fed To Get O" | kw:treasury,rate hike
+2026-07-07 07:59 ACCEPT [Google News CB] "ECB's Panetta: Strait of Hormuz governance is still uncertain - FXStre" | kw:ecb
+2026-07-07 07:59 SKIP_MORNING already_sent date=2026-07-07
