@@ -12458,3 +12458,14 @@
 2026-07-07 14:31 ACCEPT [Google News CB] "Gold holds steady as focus turns to Middle East tensions, Fed minutes " | kw:gold
 2026-07-07 14:31 SKIP_MORNING already_sent date=2026-07-07
 2026-07-07 14:31 SKIP_EVENING already_sent date=2026-07-07
+2026-07-07 15:01 ACCEPT [MarketWatch] "‘I make my own pizza’: What’s the best way you’ve found to save money?" | kw:coffee
+2026-07-07 15:01 ACCEPT [Google News KL] "Hong Kong Launches Gold Clearing with London Trading Banks and Standar" | kw:gold
+2026-07-07 15:01 ACCEPT [Google News KL] "Hong Kong begins trial operation of new gold clearing system - Mining." | kw:gold
+2026-07-07 15:01 ACCEPT [Google News NS] "China’s Soybean Buying Spree Sparks Rally in Global Grain Markets - Ch" | kw:soybean
+2026-07-07 15:01 ACCEPT [Google News CB] "ECB’s Panetta says outlook remains fragile - 1470 & 100.3 WMBD" | kw:ecb
+2026-07-07 15:01 ACCEPT [Google News CB] "New York Fed President John Williams discusses economy, inflation - Fo" | kw:inflation
+2026-07-07 15:01 ACCEPT [Google News CB] "Fed's Williams tells Fox Business he's more sanguine on inflation due " | kw:rice,inflation
+2026-07-07 15:01 ACCEPT [Google News CB] "Gold holds steady as focus turns to Middle East tensions, Fed minutes " | kw:gold
+2026-07-07 15:01 ACCEPT [Google News CB] "U.S. Regional Bank Stocks Retail Investors Are Watching As Fed Rate Ca" | kw:fed rate
+2026-07-07 15:01 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 15:01 SKIP_EVENING already_sent date=2026-07-07
