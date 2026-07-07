@@ -12251,3 +12251,7 @@
 2026-07-07 07:59 ACCEPT [Google News CB] "6-Month Treasury Yield Rises To 4%: Bond Market Tells The Fed To Get O" | kw:treasury,rate hike
 2026-07-07 07:59 ACCEPT [Google News CB] "ECB's Panetta: Strait of Hormuz governance is still uncertain - FXStre" | kw:ecb
 2026-07-07 07:59 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 08:01 ACCEPT [Google News NS] "Corn, soybean futures surge on hotter, drier Midwest weather - MSN" | kw:corn,soybean
+2026-07-07 08:01 ACCEPT [Google News NS] "El Niño and rising costs discourage wheat sowing in Brazil - Valor Int" | kw:wheat
+2026-07-07 08:01 ACCEPT [Google News NS] "Fuel, electricity price cuts cushion sharp rise in vegetable costs dur" | kw:fuel,rice
+2026-07-07 08:01 SKIP_MORNING already_sent date=2026-07-07
