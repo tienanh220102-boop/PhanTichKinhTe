@@ -12364,3 +12364,24 @@
 2026-07-07 12:01 ACCEPT [Google News CB] "Gold stalls recovery as Fed uncertainty keeps buyers cautious - FXStre" | kw:gold
 2026-07-07 12:01 ACCEPT [Google News CB] "ECB fears "systemic risks to the financial system" from Frontier AI li" | kw:ecb
 2026-07-07 12:01 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 12:31 ACCEPT [BBC Business] "Budget Energy announces 9.5% price increase" | kw:rice
+2026-07-07 12:31 ACCEPT [OilPrice.com] "ADNOC Signs 15-Year LNG Supply Deal With Japan’s Inpex" | kw:oil,gas,lng
+2026-07-07 12:31 ACCEPT [Google News HH] "Gold Price Today on July 07, 2026 - USA Today" | kw:gold,rice
+2026-07-07 12:31 ACCEPT [Google News HH] "Qatari LNG tanker and Saudi crude oil ship damaged in Hormuz - Middle " | kw:oil,crude,lng
+2026-07-07 12:31 ACCEPT [Google News HH] "Fueled by El Niño, crude oil, and biodiesel, the question is: which va" | kw:oil,crude,fuel
+2026-07-07 12:31 ACCEPT [Google News KL] "Mineros Reports Strong Q2 2026 Sales of 61,849 Gold Equivalent Ounces;" | kw:gold
+2026-07-07 12:31 ACCEPT [Google News KL] "Silver Price Slides to $74 as Fed’s Kashkari Warns Sticky Inflation Co" | kw:silver,rice,inflation
+2026-07-07 12:31 ACCEPT [Google News KL] "Silver Price Today: Silver Falls 1.93% on July 07, 2026 - USA Today" | kw:silver,rice
+2026-07-07 12:31 ACCEPT [Google News KL] "Saudi gold prices edge lower as dollar strength offsets central bank b" | kw:gold,rice,gdp
+2026-07-07 12:31 ACCEPT [Google News NS] "Despite export diversification, nearly 80% of Ukraine's soybean meal e" | kw:soybean
+2026-07-07 12:31 ACCEPT [Google News CB] "ECB tells banks to draw up plans against AI attacks amid disruption fe" | kw:ecb
+2026-07-07 12:31 ACCEPT [Google News CB] "ECB payment system suffers second outage in a week - 95 KQDS" | kw:ecb
+2026-07-07 12:31 ACCEPT [Google News CB] "Fed's monetary stance is 'well positioned' to restore inflation to 2%," | kw:inflation
+2026-07-07 12:31 ACCEPT [Google News CB] "Gold holds near two-week high on easing Fed rate-hike bets - MSN" | kw:gold,fed rate,easing
+2026-07-07 12:31 ACCEPT [Google News CB] "[TMGM Financial Breakfast] Gold Extends Rebound After Weak Nonfarm Pay" | kw:gold
+2026-07-07 12:31 ACCEPT [Google News CB] "Gold was volatile in the first half of 2026. Here's how to invest in g" | kw:gold
+2026-07-07 12:31 ACCEPT [Google News CB] "A little more conversation: Greater transparency is key to better mone" | kw:central bank,monetary policy
+2026-07-07 12:31 ACCEPT [Google News CB] "BOJ & Anais Cardot – After Hours - Tooxclusive" | kw:boj
+2026-07-07 12:31 ACCEPT [Google News CB] "Bank of Israel lowers interest rates to 3.5 - MSN" | kw:interest rate
+2026-07-07 12:31 ACCEPT [Google News CB] "Gold Price Today: MCX Gold Steady at Rs. 1,47,351, Silver at Rs. 2,36," | kw:brent,gold,silver
+2026-07-07 12:31 SKIP_MORNING already_sent date=2026-07-07
