@@ -12349,3 +12349,18 @@
 2026-07-07 11:31 ACCEPT [Google News KL] "Reducing Perseus' Fair Value Estimate Due to Falling Gold Prices - Mor" | kw:gold,rice
 2026-07-07 11:31 ACCEPT [Google News NS] "Corn, Soy Jump Nearly 4% on Weather Risks, China Demand Hopes - Succes" | kw:corn
 2026-07-07 11:31 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 12:01 ACCEPT [MarketWatch] "Russia’s oil refineries are burning — and, now, so is its bond market" | kw:oil,fuel,shortage
+2026-07-07 12:01 ACCEPT [Google News HH] "Saudi-Flagged Crude Oil Tanker Sustained Damage in Hormuz Strait - Blo" | kw:oil,crude
+2026-07-07 12:01 ACCEPT [Google News HH] "Crude oil prices fall to pre-Iran war levels -- why haven't gas prices" | kw:oil,crude,gas
+2026-07-07 12:01 ACCEPT [Google News HH] "India's Fuel Consumption Slips Despite Record Crude Oil Imports - Crud" | kw:oil,crude,fuel
+2026-07-07 12:01 ACCEPT [Google News HH] "Hot Commodities: How El Niño and Climate Change Disrupt Markets - Barc" | kw:commodities
+2026-07-07 12:01 ACCEPT [Google News KL] "Hong Kong Begins Trial Operation of New Gold Clearing System - Bloombe" | kw:gold
+2026-07-07 12:01 ACCEPT [Google News KL] "Does gold have the upward momentum to breach its all-time high? - 富途牛牛" | kw:gold
+2026-07-07 12:01 ACCEPT [Google News CB] "ECB tells banks to draw up plans against AI attacks amid disruption fe" | kw:ecb
+2026-07-07 12:01 ACCEPT [Google News CB] "Gold Falls After Iran’s Attacks Near Hormuz - WSJ" | kw:gold
+2026-07-07 12:01 ACCEPT [Google News CB] "Barclays sees limited ECB reserve requirement impact on banks - Invest" | kw:ecb
+2026-07-07 12:01 ACCEPT [Google News CB] "Report: Modernization of central bank intertwined with regulations, se" | kw:central bank
+2026-07-07 12:01 ACCEPT [Google News CB] "China’s central bank adds gold for 20th consecutive month - Investing." | kw:gold,central bank
+2026-07-07 12:01 ACCEPT [Google News CB] "Gold stalls recovery as Fed uncertainty keeps buyers cautious - FXStre" | kw:gold
+2026-07-07 12:01 ACCEPT [Google News CB] "ECB fears "systemic risks to the financial system" from Frontier AI li" | kw:ecb
+2026-07-07 12:01 SKIP_MORNING already_sent date=2026-07-07
