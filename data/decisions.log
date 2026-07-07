@@ -12281,3 +12281,19 @@
 2026-07-07 09:01 ACCEPT [Google News CB] "ECB’s Panetta says outlook remains fragile - WNWN-FM" | kw:wti,ecb
 2026-07-07 09:01 ACCEPT [Google News CB] "Singapore central bank looking to introduce protected cell company cor" | kw:central bank
 2026-07-07 09:01 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 09:31 ACCEPT [OilPrice.com] "Shell Signals Oil and Gas Trading Windfall in Q2 Amid Iran War" | kw:oil,gas,lng
+2026-07-07 09:31 ACCEPT [Google News HH] "Oil Futures Slip While Holding Near Pre-Conflict Level - WSJ" | kw:oil
+2026-07-07 09:31 ACCEPT [Google News HH] "Oil is back to pre-war levels. Here's a timeline of how the market wea" | kw:oil
+2026-07-07 09:31 ACCEPT [Google News HH] "Crude Oil Forecast: Finds Bottom Near War Gap Support - DailyForex" | kw:oil,crude
+2026-07-07 09:31 ACCEPT [Google News HH] "Another crude oil tanker reportedly damaged near Oman, around the Stra" | kw:oil,crude
+2026-07-07 09:31 ACCEPT [Google News HH] "Crude oil futures rise nearly 1 per cent on firm demand, global prices" | kw:oil,crude,rice
+2026-07-07 09:31 ACCEPT [Google News KL] "We Lower Barrick's Fair Value Estimate on Reduced Assumed Near-Term Go" | kw:gold,rice
+2026-07-07 09:31 ACCEPT [Google News KL] "Gold fever breaks, leaving silver linings for singed investors - livem" | kw:gold,silver
+2026-07-07 09:31 ACCEPT [Google News NS] "NCGAidentifies three new growth areas to boost US corn demand - UkrAgr" | kw:corn
+2026-07-07 09:31 ACCEPT [Google News CB] "ECB's Panetta says economic outlook remains fragile - Reuters" | kw:ecb
+2026-07-07 09:31 ACCEPT [Google News CB] "ECB Asks Banks for Plans to Address AI Cybersecurity Threats - Bloombe" | kw:ecb
+2026-07-07 09:31 ACCEPT [Google News CB] "Australian Dollar Holds Steady Near 0.6930 as Inflation Eases and US F" | kw:inflation
+2026-07-07 09:31 ACCEPT [Google News CB] "ECB tells banks to draw up plans against AI attacks amid disruption fe" | kw:ecb
+2026-07-07 09:31 ACCEPT [Google News CB] "Czech inflation slips below central bank target in June - TradingView" | kw:inflation,central bank
+2026-07-07 09:31 ACCEPT [Google News CB] "ECB's Panetta says economic outlook remains fragile - TradingView" | kw:ecb
+2026-07-07 09:31 SKIP_MORNING already_sent date=2026-07-07
