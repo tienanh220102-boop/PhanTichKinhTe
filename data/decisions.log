@@ -12071,3 +12071,11 @@
 2026-07-07 01:31 ACCEPT [Google News CB] "Philippine Inflation Cools Further in Relief for Central Bank - Bloomb" | kw:inflation,central bank
 2026-07-07 01:31 ACCEPT [Google News CB] "Report: Modernization of central bank intertwined with regulations, se" | kw:central bank
 2026-07-07 01:31 SKIP_MORNING already_sent date=2026-07-07
+2026-07-07 02:01 ACCEPT [BBC Business] "Samsung profits jump 1,800% as AI boom drives chip sales" | kw:rice
+2026-07-07 02:01 ACCEPT [Google News HH] "Crude Oil Prices Pressured as Global Supplies Rebound - Yahoo Finance" | kw:oil,crude,rice
+2026-07-07 02:01 ACCEPT [Google News HH] "Crude Oil Trading Alert: Oil prices remain in a narrow range, awaiting" | kw:oil,crude,rice
+2026-07-07 02:01 ACCEPT [Google News HH] "Korea National Oil Corporation Imports 970,000 Barrels of Own Crude Oi" | kw:oil,crude
+2026-07-07 02:01 ACCEPT [Google News KL] "Gold prices edge lower as rate uncertainty persists ahead of Fed minut" | kw:gold,rice
+2026-07-07 02:01 ACCEPT [Google News KL] "Gold Trading Alert: Gold Price Rebound Stalls? Dollar Fightback and Fe" | kw:gold,rice
+2026-07-07 02:01 ACCEPT [Google News CB] "Report: Modernization of central bank intertwined with regulations, se" | kw:central bank
+2026-07-07 02:01 SKIP_MORNING already_sent date=2026-07-07
