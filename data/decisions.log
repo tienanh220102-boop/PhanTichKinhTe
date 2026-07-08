@@ -12917,3 +12917,17 @@
 2026-07-08 10:08 ACCEPT [Google News CB] "S&P 9,000, falling oil prices, and the Fed's next rate move - Yahoo Fi" | kw:oil,rice
 2026-07-08 10:08 ACCEPT [Google News CB] "Philippine central bank welcomes banks' move to cut fund transfer fees" | kw:central bank
 2026-07-08 10:08 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 10:31 ACCEPT [Al Jazeera] "Nigeria’s counterterrorism gains carry a warning" | kw:fuel
+2026-07-08 10:31 ACCEPT [OilPrice.com] "Oil Prices Surge 6% Even as Tankers Push Through Hormuz" | kw:oil,brent,wti
+2026-07-08 10:31 ACCEPT [NASDAQ Commod] "Gold Prices Tumble As US-Iran Tensions Revive Rate-hike Fears" | kw:gold,rice
+2026-07-08 10:31 ACCEPT [Google News HH] "Oil News: Crude Oil Futures Surge as Trump Ends Iran Deal, Oil Outlook" | kw:oil,crude
+2026-07-08 10:31 ACCEPT [Google News HH] "After E20 Petrol, India Target 15% Isobutanol Blend in Diesel to Slash" | kw:oil,crude
+2026-07-08 10:31 ACCEPT [Google News HH] "Both US and Brent crude oil prices rose by more than 2% intraday. - Bi" | kw:oil,crude,brent
+2026-07-08 10:31 ACCEPT [Google News HH] "Sensex crashes 1,700 points, crude oil jumps over 5 per cent after Tru" | kw:oil,crude
+2026-07-08 10:31 ACCEPT [Google News KL] "Gold Price Forecast: Trapped Shorts Covered as $4,025 Floor Absorbs Po" | kw:gold,rice
+2026-07-08 10:31 ACCEPT [Google News KL] "[SMM Analysis] H1 2026 Overseas Copper Scrap Market Review: Firm Payab" | kw:copper
+2026-07-08 10:31 ACCEPT [Google News NS] "Year-round E15 could boost corn demand but pressure soybean prices - W" | kw:corn,soybean,rice
+2026-07-08 10:31 ACCEPT [Google News CB] "Fed minutes due as analysts debate whether Warsh will curtail them - R" | kw:lng
+2026-07-08 10:31 ACCEPT [Google News CB] "India’s Central Bank Renews Push to Keep Crypto Out of the Financial S" | kw:central bank
+2026-07-08 10:31 ACCEPT [Google News CB] "Sterling today: Pound eases as Fed, oil-driven dollar bid weighs - Inv" | kw:oil
+2026-07-08 10:31 SKIP_MORNING already_sent date=2026-07-08
