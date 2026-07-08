@@ -12843,3 +12843,16 @@
 2026-07-08 07:01 ACCEPT [Google News KL] "Gold Rate Today, July 8: Check 18, 22 and 24 carat gold prices in Chen" | kw:gold,rice
 2026-07-08 07:01 ACCEPT [Google News KL] "Egypt: Silver prices down on July 7 - ZAWYA" | kw:silver,rice
 2026-07-08 07:01 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 07:31 ACCEPT [OilPrice.com] "China Lifts Fuel Export Curbs as Refiners Ramp Up Overseas Shipments" | kw:fuel
+2026-07-08 07:31 ACCEPT [Google News HH] "The Commodities Feed: Oil bounces on Persian Gulf re-escalation - ING " | kw:oil,commodities
+2026-07-08 07:31 ACCEPT [Google News HH] "As tensions flare again in the Strait of Hormuz, U.S. crude oil invent" | kw:oil,crude
+2026-07-08 07:31 ACCEPT [Google News HH] "Crude oil rebounds as Strait of Hormuz tensions flare again - ig.com" | kw:oil,crude
+2026-07-08 07:31 ACCEPT [Google News HH] "Gemcorp Commodities Alternative Products Fund I shares Dividends – NAS" | kw:commodities
+2026-07-08 07:31 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Gold Holds $4,120 Double Top as" | kw:gold,silver,rice
+2026-07-08 07:31 ACCEPT [Google News KL] "Escalating US-Iran Conflict and Rising Rate Hike Expectations, Copper " | kw:copper,rice,rate hike
+2026-07-08 07:31 ACCEPT [Google News KL] "Gold Forex 08/07: Slips to Fill Monday Gap - DailyForex" | kw:gold
+2026-07-08 07:31 ACCEPT [Google News KL] "China posts biggest gold reserve boost since 2023 despite price drop -" | kw:gold,rice
+2026-07-08 07:31 ACCEPT [Google News NS] "Corn leafhoppers arrive early: What you need to know - Farm Progress" | kw:corn
+2026-07-08 07:31 ACCEPT [Google News CB] "New Zealand central bank chief hails growth ‘rebound’ - Financial Time" | kw:central bank
+2026-07-08 07:31 ACCEPT [Google News CB] "Despite June CPI spike, inflation to go below 2% in 2026: Central bank" | kw:inflation,central bank
+2026-07-08 07:31 SKIP_MORNING already_sent date=2026-07-08
