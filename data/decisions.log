@@ -13131,3 +13131,22 @@
 2026-07-08 16:01 ACCEPT [Google News CB] "NY Fed says firms in its district aren't done passing on tariff costs " | kw:tariff
 2026-07-08 16:01 SKIP_MORNING already_sent date=2026-07-08
 2026-07-08 16:01 SKIP_EVENING already_sent date=2026-07-08
+2026-07-08 16:25 ACCEPT [Al Jazeera] "Oil for unity: What is the US mediation plan in Libya?" | kw:oil
+2026-07-08 16:25 ACCEPT [Al Jazeera] "Trump’s Iran strike comments shake markets, Brent crude hits two-week " | kw:crude,fuel,brent
+2026-07-08 16:25 ACCEPT [Google News HH] "U.S. Crude Oil Stockpiles Post Unexpected Build - WSJ" | kw:oil,crude
+2026-07-08 16:25 ACCEPT [Google News HH] "American Airlines Sinks 5%, United Falls 4%, Delta and JetBlue Slip 3%" | kw:oil,crude
+2026-07-08 16:25 ACCEPT [Google News HH] "US crude oil inventories rise by 2.998M barrels, defying market expect" | kw:oil,crude
+2026-07-08 16:25 ACCEPT [Google News HH] "US Equity Indexes Slide, Crude Oil Surges After Trump Threatens More S" | kw:oil,crude
+2026-07-08 16:25 ACCEPT [Google News HH] "ADNOC, XRG, and Mitsui to advance new opportunities across the energy " | kw:lng,wti
+2026-07-08 16:25 ACCEPT [Google News KL] "Gold futures fall more than 2% as oil jumps after Trump says Iran peac" | kw:oil,gold
+2026-07-08 16:25 ACCEPT [Google News KL] "EZCORP Stock to Watch as Pawn Demand and Gold Prices Lift Profit - Yah" | kw:gold,rice
+2026-07-08 16:25 ACCEPT [Google News KL] "Freeport-McMoRan Slides as Copper Weakens and No Fresh Company Catalys" | kw:lng,copper,quantitative
+2026-07-08 16:25 ACCEPT [Google News KL] "Trump Called the Deal Dead. Oil Jumped 6%. Gold Fell. Here Is Why Both" | kw:oil,gold,silver
+2026-07-08 16:25 ACCEPT [Google News NS] "Asian demand helps South Africa market its record corn harvest - UkrAg" | kw:corn,harvest
+2026-07-08 16:25 ACCEPT [Google News CB] "FOMC minutes: How much will the Fed tell us? - Axios" | kw:fomc
+2026-07-08 16:25 ACCEPT [Google News CB] "NY Fed says firms in its district aren’t done passing on tariff costs " | kw:tariff
+2026-07-08 16:25 ACCEPT [Google News CB] "IMF says hopes to engage on central banks' changes to forward guidance" | kw:central bank
+2026-07-08 16:25 ACCEPT [Google News CB] "QT plus Rate Hikes: ECB Sheds €149 billion of QE Assets in Q2, -52% si" | kw:gold,rate hike,ecb
+2026-07-08 16:25 ACCEPT [Google News CB] "NY Fed says firms in its district aren't done passing on tariff costs " | kw:tariff
+2026-07-08 16:25 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 16:25 SKIP_EVENING already_sent date=2026-07-08
