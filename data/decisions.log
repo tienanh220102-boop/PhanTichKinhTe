@@ -13102,3 +13102,20 @@
 2026-07-08 15:01 ACCEPT [Google News CB] "Stock market today: Dow, S&P 500, Nasdaq fall as oil surges, Trump dec" | kw:oil
 2026-07-08 15:01 SKIP_MORNING already_sent date=2026-07-08
 2026-07-08 15:01 SKIP_EVENING already_sent date=2026-07-08
+2026-07-08 15:31 ACCEPT [OilPrice.com] "Oil Prices Jump over 7% as Iran Ceasefire Declared ‘Over’" | kw:oil,crude,brent
+2026-07-08 15:31 ACCEPT [NASDAQ Commod] "U.S. Crude Oil Inventories Unexpectedly Increase" | kw:oil,crude
+2026-07-08 15:31 ACCEPT [Google News HH] "2 Trade Targets for Crude Oil Using a Conditional Order - TheStreet Pr" | kw:oil,crude
+2026-07-08 15:31 ACCEPT [Google News HH] "US launches strikes against Iran, crude oil prices surge over 5% - Fox" | kw:oil,crude,rice
+2026-07-08 15:31 ACCEPT [Google News HH] "Oil Prices Jump After Trump Says Ceasefire With Iran Is Over -- Commod" | kw:oil,rice,commodities
+2026-07-08 15:31 ACCEPT [Google News HH] "Crude Oil Inventories Surge, Defying Forecasts and Previous Levels By " | kw:oil,crude
+2026-07-08 15:31 ACCEPT [Google News HH] "ADNOC Signs Strategic Crude Oil Agreement with South Korea | July 2026" | kw:oil,crude
+2026-07-08 15:31 ACCEPT [Google News HH] "U.S. Crude Oil Stockpiles Post Unexpected Build - marketscreener.com" | kw:oil,crude
+2026-07-08 15:31 ACCEPT [Google News HH] "Defying expectations, U.S. crude oil inventories are rising again - ma" | kw:oil,crude
+2026-07-08 15:31 ACCEPT [Google News HH] "Crude Oil Forecast: Forms Basing Pattern as War Gap Fills - DailyForex" | kw:oil,crude
+2026-07-08 15:31 ACCEPT [Google News KL] "First-half gold ETF flows remained positive – World Gold Council - Min" | kw:gold
+2026-07-08 15:31 ACCEPT [Google News KL] "BofA cuts 2026 average gold forecast, sees long-term upside - Reuters" | kw:gold
+2026-07-08 15:31 ACCEPT [Google News NS] "USDA Daily Grain Bids July 7, 2026: Wheat, Corn, Soybean Cash Prices a" | kw:wheat,corn,soybean
+2026-07-08 15:31 ACCEPT [Google News CB] "Romania's c-bank keeps key interest rate at 6.5% - SeeNews" | kw:interest rate
+2026-07-08 15:31 ACCEPT [Google News CB] "Romanian central bank holds benchmark interest rate at 6.5% - TradingV" | kw:central bank,interest rate
+2026-07-08 15:31 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 15:31 SKIP_EVENING already_sent date=2026-07-08
