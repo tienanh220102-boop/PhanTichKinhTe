@@ -13097,3 +13097,8 @@
 2026-07-08 14:53 ACCEPT [Google News CB] "Silver Price Forecast: XAG/USD Slips Below $61.00 as Markets Turn Caut" | kw:silver,rice
 2026-07-08 14:53 SKIP_MORNING already_sent date=2026-07-08
 2026-07-08 14:53 SKIP_EVENING already_sent date=2026-07-08
+2026-07-08 15:01 ACCEPT [Google News HH] "US crude oil inventories rise as gasoline stocks decline By Investing." | kw:oil,crude,gas
+2026-07-08 15:01 ACCEPT [Google News CB] "Polish central bank sees inflation of 2.4-3.3% in 2026 - TradingView" | kw:inflation,central bank
+2026-07-08 15:01 ACCEPT [Google News CB] "Stock market today: Dow, S&P 500, Nasdaq fall as oil surges, Trump dec" | kw:oil
+2026-07-08 15:01 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 15:01 SKIP_EVENING already_sent date=2026-07-08
