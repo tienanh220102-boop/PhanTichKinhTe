@@ -12885,3 +12885,16 @@
 2026-07-08 09:01 ACCEPT [Google News KL] "Gold price today: Spot gold hits one-week low - The Times of India" | kw:gold,rice
 2026-07-08 09:01 ACCEPT [Google News CB] "Government tweaks phrasing on BOJ in draft policy plan - The Japan Tim" | kw:boj
 2026-07-08 09:01 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 09:31 ACCEPT [MarketWatch] "Oil prices jump by the most in two months after Trump suggests U.S.-Ir" | kw:oil,crude,brent
+2026-07-08 09:31 ACCEPT [MarketWatch] "Dakota Johnson quickly sells $6 million midcentury modern home in L.A." | kw:rice
+2026-07-08 09:31 ACCEPT [Google News HH] "BB Energy Secures Three Additional South Sudan Crude Oil Cargoes - PR " | kw:oil,crude,wti
+2026-07-08 09:31 ACCEPT [Google News HH] "Crude Oil Forecast 08/07: Forms Basing Pattern (Video) - DailyForex" | kw:oil,crude
+2026-07-08 09:31 ACCEPT [Google News KL] "Gold slips as oil jumps after Trump says Iran peace deal 'over' - Reut" | kw:oil,gold
+2026-07-08 09:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD falls toward $58.00 as Trump declares I" | kw:silver,rice
+2026-07-08 09:31 ACCEPT [Google News KL] "Gold prices continue to slide - VnExpress International" | kw:gold,rice
+2026-07-08 09:31 ACCEPT [Google News KL] "Gold Falls By Rs 2,000, Silver Slumps Rs 7,000 On MCX After Trump Says" | kw:gold,silver
+2026-07-08 09:31 ACCEPT [Google News NS] "China buys at least 7 US soybean cargoes amid renewed demand: traders " | kw:soybean
+2026-07-08 09:31 ACCEPT [Google News CB] "Why the Fed and the ECB Keep Pulling in Different Rate Directions - St" | kw:ecb
+2026-07-08 09:31 ACCEPT [Google News CB] "European Central Bank demands AI security ‘action plan’ - Computer Wee" | kw:central bank
+2026-07-08 09:31 ACCEPT [Google News CB] "Japan considering tweaking blueprint language on BOJ, Nikkei reports -" | kw:boj
+2026-07-08 09:31 SKIP_MORNING already_sent date=2026-07-08
