@@ -12856,3 +12856,9 @@
 2026-07-08 07:31 ACCEPT [Google News CB] "New Zealand central bank chief hails growth ‘rebound’ - Financial Time" | kw:central bank
 2026-07-08 07:31 ACCEPT [Google News CB] "Despite June CPI spike, inflation to go below 2% in 2026: Central bank" | kw:inflation,central bank
 2026-07-08 07:31 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 07:44 ACCEPT [Google News HH] "As tensions flare again in the Strait of Hormuz, U.S. crude oil invent" | kw:oil,crude
+2026-07-08 07:44 ACCEPT [Google News KL] "Gold gains as markets await Fed minutes, US-Iran strikes cap rise - Re" | kw:gold
+2026-07-08 07:44 ACCEPT [Google News KL] "Gold prices slip - VnExpress International" | kw:gold,rice
+2026-07-08 07:44 ACCEPT [Google News KL] "Gold Edges Higher as Iran Risks Offset Fed Outlook - TradingPedia" | kw:gold
+2026-07-08 07:44 ACCEPT [Google News CB] "Japan considers policy wording change as BOJ independence fears roil b" | kw:oil,boj
+2026-07-08 07:44 SKIP_MORNING already_sent date=2026-07-08
