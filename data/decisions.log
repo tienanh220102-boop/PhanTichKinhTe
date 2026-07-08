@@ -12898,3 +12898,15 @@
 2026-07-08 09:31 ACCEPT [Google News CB] "European Central Bank demands AI security ‘action plan’ - Computer Wee" | kw:central bank
 2026-07-08 09:31 ACCEPT [Google News CB] "Japan considering tweaking blueprint language on BOJ, Nikkei reports -" | kw:boj
 2026-07-08 09:31 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 10:01 ACCEPT [NASDAQ Commod] "Oil Prices Soar As Middle East Tensions Escalate" | kw:oil,rice
+2026-07-08 10:01 ACCEPT [Google News HH] "Gold, Silver Futures Sink Pre-Bell as Surging Crude Oil After Trump Si" | kw:oil,crude,gold
+2026-07-08 10:01 ACCEPT [Google News HH] "Brent Crude Oil is up by 5.03% - TradingView" | kw:oil,crude,brent
+2026-07-08 10:01 ACCEPT [Google News HH] "Crude oil prices rise due to risks to shipping in the Strait of Hormuz" | kw:oil,crude,rice
+2026-07-08 10:01 ACCEPT [Google News HH] "Stock markets decline in early trade on renewed U.S.-Iran tensions, sp" | kw:oil,crude,rice
+2026-07-08 10:01 ACCEPT [Google News KL] "Silver price today: falls on July 8 - FXStreet" | kw:silver,rice
+2026-07-08 10:01 ACCEPT [Google News KL] "Gold declines as Trump ends Iran deal, markets eye Fed minutes - FXStr" | kw:gold
+2026-07-08 10:01 ACCEPT [Google News CB] "Taiwan Central Bank: Inflation Outlook Remains Mild - TradingView" | kw:inflation,central bank
+2026-07-08 10:01 ACCEPT [Google News CB] "🚨𝗝𝗨𝗦𝗧 𝗜𝗡: 🇮🇳 India’s central bank has renewed its call for a crypto po" | kw:central bank
+2026-07-08 10:01 ACCEPT [Google News CB] "ECB's Escriva: Will keep all options on the table and decide on a meet" | kw:ecb
+2026-07-08 10:01 ACCEPT [Google News CB] "ECB researchers use LLMs to measure geoeconomic tension - Digital Watc" | kw:ecb
+2026-07-08 10:01 SKIP_MORNING already_sent date=2026-07-08
