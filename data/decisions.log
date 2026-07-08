@@ -12803,3 +12803,9 @@
 2026-07-08 05:01 ACCEPT [Google News CB] "ECB tells banks to bolster AI cyber defences as peers take lighter app" | kw:ecb
 2026-07-08 05:01 ACCEPT [Google News CB] "Japan considers policy wording change as BOJ independence fears roil b" | kw:oil,boj
 2026-07-08 05:01 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 05:13 ACCEPT [Google News HH] "Gold Price on 07 July 2026 - Gold Price" | kw:gold,rice
+2026-07-08 05:13 ACCEPT [Google News HH] "Gold price in Philippines: Rates on July 8 - FXStreet" | kw:gold,rice
+2026-07-08 05:13 ACCEPT [Google News HH] "EXCLUSIVE: China further eases fuel export curbs for July, sources say" | kw:fuel
+2026-07-08 05:13 ACCEPT [Google News HH] "IOC, BPCL, HPCL Shares Drop 4% As Crude Oil Price Climbs 3% To $76 Per" | kw:oil,crude,rice
+2026-07-08 05:13 ACCEPT [Google News KL] "Silver climbs above $60.00 despite US–Iran tensions, Fed minutes in fo" | kw:silver
+2026-07-08 05:14 SKIP_MORNING already_sent date=2026-07-08
