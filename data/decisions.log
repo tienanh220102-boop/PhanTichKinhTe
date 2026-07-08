@@ -12995,3 +12995,22 @@
 2026-07-08 12:31 ACCEPT [Google News CB] "Stock market today: S&P 500, Nasdaq, Dow futures fall as oil surges,Tr" | kw:oil
 2026-07-08 12:31 ACCEPT [Google News CB] "FX Daily: FOMC minutes can reinforce dollar floor - ING THINK economic" | kw:fomc
 2026-07-08 12:31 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 13:01 ACCEPT [The Guardian Biz] "Trump’s policy mayhem is making even the Maga faithful consider walkin" | kw:easing
+2026-07-08 13:01 ACCEPT [The Guardian Biz] "Oil prices jump over 5% after Trump suggests ceasefire with Iran has e" | kw:oil,crude,gas
+2026-07-08 13:01 ACCEPT [OilPrice.com] "Vitol Eyes Venezuela Expansion as Oil Industry Returns" | kw:oil,crude,commodity
+2026-07-08 13:01 ACCEPT [Google News HH] "Global oil oversupply looming - Breakwave Advisors" | kw:oil
+2026-07-08 13:01 ACCEPT [Google News HH] "Crude Oil’s bounce puts pressure on today’s Fed Minutes - FXStreet" | kw:oil,crude
+2026-07-08 13:01 ACCEPT [Google News HH] "63 Million Barrels Of Crude Stuck At Sea As U.S. Pulls Iran Sanction W" | kw:oil,crude,rice
+2026-07-08 13:01 ACCEPT [Google News HH] "OPEC is Likely Loser in Gulf’s Post-War Race for Market Share: Bousso " | kw:opec
+2026-07-08 13:01 ACCEPT [Google News KL] "Current price of silver as of Wednesday, July 8, 2026 - Fortune" | kw:silver,rice,gdp
+2026-07-08 13:01 ACCEPT [Google News KL] "Gold prices today, Wednesday, July 8, 2026: Gold prices falling follow" | kw:gold,rice,gdp
+2026-07-08 13:01 ACCEPT [Google News KL] "Silver Price Falls After Trump's Iran Announcement - Seeking Alpha" | kw:silver,rice
+2026-07-08 13:01 ACCEPT [Google News KL] "Silver prices today, Wednesday, July 8, 2026: Silver slips below $60 o" | kw:silver,rice
+2026-07-08 13:01 ACCEPT [Google News KL] "Equinox Gold Stock: Buy This Canada's New Second-Largest Gold Producer" | kw:gold
+2026-07-08 13:01 ACCEPT [Google News KL] "Gold fell on its best news in weeks - FXStreet" | kw:gold
+2026-07-08 13:01 ACCEPT [Google News NS] "Heat stress, storms curb Pakistan’s wheat outlook - World-Grain.com" | kw:wheat
+2026-07-08 13:01 ACCEPT [Google News NS] "Keep an Eye on September 2026 Wheat as Harvest Progresses - Barchart.c" | kw:wheat,harvest
+2026-07-08 13:01 ACCEPT [Google News CB] "China’s central bank pledges to maintain accommodative policy amid wea" | kw:central bank
+2026-07-08 13:01 ACCEPT [Google News CB] "Romanian central bank holds benchmark interest rate at 6.50% - Trading" | kw:central bank,interest rate
+2026-07-08 13:01 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 13:02 SENT_EVENING articles=20 date=2026-07-08 force=False
