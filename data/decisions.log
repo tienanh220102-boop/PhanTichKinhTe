@@ -12809,3 +12809,12 @@
 2026-07-08 05:13 ACCEPT [Google News HH] "IOC, BPCL, HPCL Shares Drop 4% As Crude Oil Price Climbs 3% To $76 Per" | kw:oil,crude,rice
 2026-07-08 05:13 ACCEPT [Google News KL] "Silver climbs above $60.00 despite US–Iran tensions, Fed minutes in fo" | kw:silver
 2026-07-08 05:14 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 05:31 ACCEPT [Google News HH] "WTI Crude Oil futures rose over 3% on Gulf drone strikes - CME Group" | kw:oil,crude,wti
+2026-07-08 05:31 ACCEPT [Google News KL] "Silver Price For Today, 7 July 2026 - Forbes" | kw:silver,rice
+2026-07-08 05:31 ACCEPT [Google News KL] "Gold prices rise to $4,126.32 as markets await Fed minutes amid renewe" | kw:gold,rice
+2026-07-08 05:31 ACCEPT [Google News KL] "SILVER price and chart - Buy Silver today on eToro - eToro" | kw:silver,rice
+2026-07-08 05:31 ACCEPT [Google News KL] "How Crypto Investors Are Trading Gold and Silver On-Chain in 2026 - Co" | kw:gold,silver
+2026-07-08 05:31 ACCEPT [Google News NS] "Mysteel grain market daily: Corn pr... - mysteel.net" | kw:steel,corn
+2026-07-08 05:31 ACCEPT [Google News CB] "Gold wavers as investors weigh US strikes on Iran, await Fed minutes -" | kw:gold
+2026-07-08 05:31 ACCEPT [Google News CB] "Japan considering tweaking blueprint language on BOJ, Nikkei reports -" | kw:lng,boj
+2026-07-08 05:31 SKIP_MORNING already_sent date=2026-07-08
