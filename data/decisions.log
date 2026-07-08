@@ -12703,3 +12703,8 @@
 2026-07-08 01:51 ACCEPT [Google News NS] "Keep an Eye on September 2026 Wheat as Harvest Progresses - Barchart" | kw:wheat,harvest
 2026-07-08 01:51 ACCEPT [Google News CB] "Understanding Supply Shocks and Their Implications for Monetary Policy" | kw:monetary policy
 2026-07-08 01:51 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 02:01 ACCEPT [Google News HH] "Crude Oil Trading Alert: U.S. crude rebounds from oversold levels, but" | kw:oil,crude
+2026-07-08 02:01 ACCEPT [Google News NS] "Keep an Eye on September 2026 Wheat as Harvest Progresses - Barchart.c" | kw:wheat,harvest
+2026-07-08 02:01 ACCEPT [Google News CB] "Why the Fed and the ECB Keep Pulling in Different Rate Directions - St" | kw:ecb
+2026-07-08 02:01 ACCEPT [Google News CB] "OPINION: BOJ eyes policy rate at 2% by end of 2027 - Japan Wire by Kyo" | kw:boj,policy rate
+2026-07-08 02:01 SKIP_MORNING already_sent date=2026-07-08
