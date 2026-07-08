@@ -12770,3 +12770,13 @@
 2026-07-08 03:01 ACCEPT [Google News CB] "Fed's Williams tells Fox Business he's more sanguine on inflation due " | kw:rice,inflation
 2026-07-08 03:01 ACCEPT [Google News CB] "Supply chain pressures ease in June, New York Fed says - Finance & Com" | kw:supply chain
 2026-07-08 03:01 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 03:31 ACCEPT [Mining.com] "Op-Ed: The copper the world needs is already above ground" | kw:copper
+2026-07-08 03:31 ACCEPT [Mining.com] "Dakota Gold books high-grade assays at Richmond Hill" | kw:gold,silver
+2026-07-08 03:31 ACCEPT [Mining.com] "B2Gold’s new CEO gets his Goose test" | kw:gold
+2026-07-08 03:31 ACCEPT [Google News HH] "VEGOILS Palm rebounds on stronger rival oils, crude oil prices - Reute" | kw:oil,crude,rice
+2026-07-08 03:31 ACCEPT [Google News HH] "Crude oil supplies for industrial production remain stable - mediasela" | kw:oil,crude
+2026-07-08 03:31 ACCEPT [Google News KL] "Gold Miners: We Update Our Near-Term Price Assumptions as Gold Enters " | kw:gold,rice
+2026-07-08 03:31 ACCEPT [Google News CB] "Fed’s Waller defends forward guidance on interest rates - Finance & Co" | kw:interest rate
+2026-07-08 03:31 ACCEPT [Google News CB] "Fed. Circ. Side-Eyes No Sanctions For 'Very Bad' Game Patent - Law360" | kw:sanction
+2026-07-08 03:31 ACCEPT [Google News CB] "Fed President Stays Optimistic as Energy Prices Fall - Rigzone" | kw:rice
+2026-07-08 03:31 SKIP_MORNING already_sent date=2026-07-08
