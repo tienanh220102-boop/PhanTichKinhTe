@@ -13119,3 +13119,15 @@
 2026-07-08 15:31 ACCEPT [Google News CB] "Romanian central bank holds benchmark interest rate at 6.5% - TradingV" | kw:central bank,interest rate
 2026-07-08 15:31 SKIP_MORNING already_sent date=2026-07-08
 2026-07-08 15:31 SKIP_EVENING already_sent date=2026-07-08
+2026-07-08 16:01 ACCEPT [MarketWatch] "Oil prices touch two-week highs  after Trump suggests U.S.-Iran cease-" | kw:oil,rice
+2026-07-08 16:01 ACCEPT [OilPrice.com] "UK Airline Turns Fuel Price Surge Into $500 Million Windfall Through H" | kw:fuel,rice
+2026-07-08 16:01 ACCEPT [Google News HH] "US EIA CRUDE OIL INVENTORIES +3.0 MLN BARRELS IN LATEST WEEK FROM PREV" | kw:oil,crude
+2026-07-08 16:01 ACCEPT [Google News HH] "NJ Ayuk’s ‘Crude Oil: Power, Turnaround and Transformation in Angola’ " | kw:oil,crude,fuel
+2026-07-08 16:01 ACCEPT [Google News HH] "US Crude Oil Inventories Rise After 10 Weeks of Declines - TradingView" | kw:oil,crude
+2026-07-08 16:01 ACCEPT [Google News KL] "Equinox: Buy Canada's New Second-Largest Gold Producer - Seeking Alpha" | kw:gold
+2026-07-08 16:01 ACCEPT [Google News NS] "Soybeans Firm as USDA Confirms China Buys: Corn and Wheat Hit Resistan" | kw:wheat,corn,soybean
+2026-07-08 16:01 ACCEPT [Google News NS] "China Expands U.S. Soybean Purchases, Strengthening Trade Truce Moment" | kw:soybean
+2026-07-08 16:01 ACCEPT [Google News CB] "Fed survey shows rising inflation expectations, despite falling prices" | kw:rice,inflation
+2026-07-08 16:01 ACCEPT [Google News CB] "NY Fed says firms in its district aren't done passing on tariff costs " | kw:tariff
+2026-07-08 16:01 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 16:01 SKIP_EVENING already_sent date=2026-07-08
