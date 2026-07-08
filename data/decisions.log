@@ -12877,3 +12877,11 @@
 2026-07-08 08:31 ACCEPT [Google News CB] "India central bank backs crypto ban, tax department warns of evasion r" | kw:central bank
 2026-07-08 08:31 ACCEPT [Google News CB] "Chart of the Day: EURUSD Caught Between the Fed, ECB and Middle East R" | kw:ecb
 2026-07-08 08:31 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 09:01 ACCEPT [MarketWatch] "Alibaba just had its best day in 10 months. Is it time for China techs" | kw:rice
+2026-07-08 09:01 ACCEPT [Google News HH] "BB Energy Secures Three Additional South Sudan Crude Oil Cargoes - Mor" | kw:oil,crude
+2026-07-08 09:01 ACCEPT [Google News HH] "Brent Crude Oil Futures Soar 4.9% to $77.79, WTI Crude Oil Futures Sur" | kw:oil,crude,brent
+2026-07-08 09:01 ACCEPT [Google News HH] "Brent, WTI Crude Oil Futures Surge Pre-Bell After Trump Says MoU With " | kw:oil,crude,brent
+2026-07-08 09:01 ACCEPT [Google News KL] "2026 H1 China Copper Rod Industry Operational Review and H2 Market Out" | kw:copper
+2026-07-08 09:01 ACCEPT [Google News KL] "Gold price today: Spot gold hits one-week low - The Times of India" | kw:gold,rice
+2026-07-08 09:01 ACCEPT [Google News CB] "Government tweaks phrasing on BOJ in draft policy plan - The Japan Tim" | kw:boj
+2026-07-08 09:01 SKIP_MORNING already_sent date=2026-07-08
