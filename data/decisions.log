@@ -13040,3 +13040,34 @@
 2026-07-08 14:02 ACCEPT [Google News CB] "Stock market today: Dow, S&P 500, Nasdaq fall as oil surges, Trump dec" | kw:oil
 2026-07-08 14:02 SKIP_MORNING already_sent date=2026-07-08
 2026-07-08 14:02 SKIP_EVENING already_sent date=2026-07-08
+2026-07-08 14:31 ACCEPT [BBC Business] "Jackdaw owner says gas field will 'not materially influence' climate c" | kw:gas
+2026-07-08 14:31 ACCEPT [Mining.com] "Royalty juniors seek higher value in metals rally" | kw:rice
+2026-07-08 14:31 ACCEPT [Mining.com] "Gold, critical minerals gain trust premium as money, supply chains fra" | kw:gold,supply chain,central bank
+2026-07-08 14:31 ACCEPT [Mining.com] "Lara drills Planalto toward $1B Brazil copper test" | kw:gold,copper
+2026-07-08 14:31 ACCEPT [Mining.com] "BHP faces first Port Hedland strike in decades" | kw:iron
+2026-07-08 14:31 ACCEPT [Google News HH] "Oil Prices Settle Slightly Higher as Optimism Around US Inflation Data" | kw:oil,opec,rice
+2026-07-08 14:31 ACCEPT [Google News HH] "Gold Price Correction: PBOC Purchases vs. H1 ETF Flows - equiti.com" | kw:gold,rice,pboc
+2026-07-08 14:31 ACCEPT [Google News HH] "Indian Navy secures safe passage for crude oil tanker Omega Trader car" | kw:oil,crude
+2026-07-08 14:31 ACCEPT [Google News HH] "Dollar edges up on weak stocks and crude oil strength - MSN" | kw:oil,crude
+2026-07-08 14:31 ACCEPT [Google News HH] "MOU violations look like Iran ended their path to a peaceful ending. W" | kw:oil,gas
+2026-07-08 14:31 ACCEPT [Google News HH] "Crude inventory falls by 6.1M barrels for the week ended June 19 – EIA" | kw:crude
+2026-07-08 14:31 ACCEPT [Google News HH] "Tehran targets Bahrain and Kuwait and limits oil sales after US strike" | kw:oil
+2026-07-08 14:31 ACCEPT [Google News HH] "White House launches 25 Freedom Fuel gas stations in this region - MSN" | kw:gas,fuel
+2026-07-08 14:31 ACCEPT [Google News HH] "Fuel price may reduce as OPEC+ agrees to increase oil production - MSN" | kw:oil,opec,fuel
+2026-07-08 14:31 ACCEPT [Google News HH] "Gold Price in Pakistan drops to Rs430,000 amid global dip - Daily Paki" | kw:gold,rice
+2026-07-08 14:31 ACCEPT [Google News HH] "Stock indexes fall as chip stocks sink and crude soars - MSN" | kw:crude
+2026-07-08 14:31 ACCEPT [Google News HH] "Persian Gulf Escalation Drives Global Oil Prices Above 76 Dollars - se" | kw:oil,rice
+2026-07-08 14:31 ACCEPT [Google News HH] "PIL in Supreme Court seeks ethanol blend disclosure at fuel pumps, veh" | kw:fuel
+2026-07-08 14:31 ACCEPT [Google News HH] "New record: Ukraine hits Russian oil refinery in deepest long-range st" | kw:oil
+2026-07-08 14:31 ACCEPT [Google News KL] "Gold drifts lower after Trump says deal with Iran 'over' - Reuters" | kw:gold
+2026-07-08 14:31 ACCEPT [Google News KL] "Gold and Silver Sink as Death of US-Iran MOU Sends Oil, Rates Jumping " | kw:oil,gold,silver
+2026-07-08 14:31 ACCEPT [Google News KL] "Gold futures fall nearly 2% as oil jumps after Trump says Iran peace d" | kw:oil,gold
+2026-07-08 14:31 ACCEPT [Google News KL] "Gold prices rise amid Middle East tensions, remain below early 2026 hi" | kw:gold,rice
+2026-07-08 14:31 ACCEPT [Google News KL] "IGLD: A High Yield To Buy If You're Bullish On Gold Long-Term (BATS:IG" | kw:gold
+2026-07-08 14:31 ACCEPT [Google News KL] "BHP Advances Global Copper Drive with Key Chile Permit - Investing New" | kw:copper
+2026-07-08 14:31 ACCEPT [Google News NS] "Soybeans Crack $12 | Wednesday, July 8, 2026 - Successful Farming" | kw:soybean
+2026-07-08 14:31 ACCEPT [Google News CB] "Trump Says Iran Ceasefire Is "Over." Are Fed Rate Hikes Back On the Ta" | kw:fed rate,rate hike
+2026-07-08 14:31 ACCEPT [Google News CB] "One-day workshop to teach mental health first aid - ECB Publishing, In" | kw:ecb
+2026-07-08 14:31 ACCEPT [Google News CB] "China’s central bank pledges to maintain accommodative policy amid wea" | kw:central bank
+2026-07-08 14:31 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 14:31 SKIP_EVENING already_sent date=2026-07-08
