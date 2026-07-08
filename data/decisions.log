@@ -12671,3 +12671,8 @@
 2026-07-07 23:49 ACCEPT [BBC Business] "Package holidays to Dubai and Egypt cheaper as European prices creep u" | kw:rice
 2026-07-07 23:49 ACCEPT [Google News HH] "Gemcorp Commodities Alternative Products Fund I shares Financial State" | kw:commodities
 2026-07-07 23:49 ACCEPT [Google News CB] "Japan Government May Tweak Monetary Policy Phrase in Annual Plan - Blo" | kw:monetary policy
+2026-07-08 00:01 ACCEPT [Google News NS] "Markets Surge as Heat Threat Sparks Grain Rally and Fuels Price Reboun" | kw:fuel,rice
+2026-07-08 00:01 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-07-08 00:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
+2026-07-08 00:01 GEMINI ERROR gemini-2.5-flash-lite This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-07-08 00:01 SKIP_MORNING gemini_no_result date=2026-07-08
