@@ -12862,3 +12862,7 @@
 2026-07-08 07:44 ACCEPT [Google News KL] "Gold Edges Higher as Iran Risks Offset Fed Outlook - TradingPedia" | kw:gold
 2026-07-08 07:44 ACCEPT [Google News CB] "Japan considers policy wording change as BOJ independence fears roil b" | kw:oil,boj
 2026-07-08 07:44 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 08:01 ACCEPT [Google News HH] "Saudi Arabia slices crude oil prices, but is it enough?: Russell - Oil" | kw:oil,crude,gas
+2026-07-08 08:01 ACCEPT [Google News KL] "Snowline Gold: A Rare Gold Developer Where The District Option Matters" | kw:gold
+2026-07-08 08:01 ACCEPT [Google News CB] "Japan considers policy wording change as BOJ independence fears roil b" | kw:oil,boj
+2026-07-08 08:01 SKIP_MORNING already_sent date=2026-07-08
