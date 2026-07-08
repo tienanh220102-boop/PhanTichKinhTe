@@ -13014,3 +13014,21 @@
 2026-07-08 13:01 ACCEPT [Google News CB] "Romanian central bank holds benchmark interest rate at 6.50% - Trading" | kw:central bank,interest rate
 2026-07-08 13:01 SKIP_MORNING already_sent date=2026-07-08
 2026-07-08 13:02 SENT_EVENING articles=20 date=2026-07-08 force=False
+2026-07-08 13:31 ACCEPT [MarketWatch] "Oil prices surge after Trump suggests U.S.-Iran cease-fire is over" | kw:oil,crude,brent
+2026-07-08 13:31 ACCEPT [MarketWatch] "Iran war will leave an inflation scar on the U.S. through 2027, IMF sa" | kw:inflation
+2026-07-08 13:31 ACCEPT [EIA Energy] "U.S. exports of crude oil and petroleum products reached record in Apr" | kw:oil,crude,petroleum
+2026-07-08 13:31 ACCEPT [EIA Energy] "The 250-year history of U.S. energy consumption" | kw:petroleum
+2026-07-08 13:31 ACCEPT [Google News HH] "U.S. exports of crude oil and petroleum products reached record in Apr" | kw:oil,crude,petroleum
+2026-07-08 13:31 ACCEPT [Google News HH] "DAX forecast: Crude oil spikes as stocks tumble amid US-Iran re-escala" | kw:oil,crude
+2026-07-08 13:31 ACCEPT [Google News KL] "Micro Gold, Silver and Copper Products Update – July 2026 - CME Group" | kw:gold,silver,copper
+2026-07-08 13:31 ACCEPT [Google News KL] "Gold slides toward $4,050 as oil spike, Fed-rate repricing lift yields" | kw:oil,gold
+2026-07-08 13:31 ACCEPT [Google News KL] "Current price of gold as of July 8, 2026 - Fortune" | kw:gold,rice
+2026-07-08 13:31 ACCEPT [Google News KL] "Gold Analysis 08/07: Next Direction for Gold Prices? - DailyForex" | kw:gold,rice
+2026-07-08 13:31 ACCEPT [Google News KL] "Gold Miners: We Update Our Near-Term Price Assumptions as Gold Enters " | kw:gold,rice
+2026-07-08 13:31 ACCEPT [Google News CB] "China’s central bank pledges to maintain accommodative policy amid wea" | kw:central bank
+2026-07-08 13:31 ACCEPT [Google News CB] "Yardeni Says Inflation, Fed Back in Play as Iran Crisis Returns - Bloo" | kw:inflation
+2026-07-08 13:31 ACCEPT [Google News CB] "‘Sham Cash’ Moves Toward Formal Licensing Under Central Bank Oversight" | kw:central bank
+2026-07-08 13:31 ACCEPT [Google News CB] "Romania central bank holds key rate at 6.50% amid rising inflation - I" | kw:inflation,central bank
+2026-07-08 13:31 ACCEPT [Google News CB] "Hungary's central bank sees three rate cuts over summer, minutes show " | kw:central bank,rate cut
+2026-07-08 13:31 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 13:31 SKIP_EVENING already_sent date=2026-07-08
