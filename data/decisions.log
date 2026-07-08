@@ -12949,3 +12949,19 @@
 2026-07-08 11:01 ACCEPT [Google News CB] "NEWS: India central bank suggests crypto ban following beneficial owne" | kw:central bank
 2026-07-08 11:01 ACCEPT [Google News CB] "India central bank seeks to bar financial institutions from exposure t" | kw:central bank
 2026-07-08 11:01 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 11:31 ACCEPT [MarketWatch] "Kevin Warsh plans to stop scripting the Fed’s next moves. It could tri" | kw:federal reserve
+2026-07-08 11:31 ACCEPT [Google News HH] "Gold Price Falls Rs 2,308/10g In Futures Trade as Higher Crude , Stron" | kw:crude,gold,rice
+2026-07-08 11:31 ACCEPT [Google News HH] "Global crude oil prices jump over 5% after US strikes Iran, Trump ends" | kw:oil,crude,rice
+2026-07-08 11:31 ACCEPT [Google News HH] "Iran war news update: Brent crude oil price, WTI jump over 6 per cent," | kw:oil,crude,brent
+2026-07-08 11:31 ACCEPT [Google News HH] "Profiting Under Sanctions? Geopolitical Considerations and Compliance " | kw:oil,crude,sanction
+2026-07-08 11:31 ACCEPT [Google News KL] "Gold falls over 1% as oil jumps after Trump says Iran peace deal 'over" | kw:oil,gold
+2026-07-08 11:31 ACCEPT [Google News KL] "Gold Outlook 2026: What's Driving Prices? - invesco.com" | kw:gold,rice
+2026-07-08 11:31 ACCEPT [Google News KL] "Barrick Mining Shares Weaken as Gold Prices Extend Decline (B) - Yahoo" | kw:gold,rice
+2026-07-08 11:31 ACCEPT [Google News KL] "Tanzania central bank buys 28 tons of gold to diversify reserves - Cry" | kw:gold,central bank
+2026-07-08 11:31 ACCEPT [Google News KL] "Silver Price Forecast: Bearish Triangle Breakdown Locks Target Near $5" | kw:silver,rice
+2026-07-08 11:31 ACCEPT [Google News KL] "Gold price falls ₹2,308/10g in futures trade as higher crude, strong U" | kw:crude,gold,rice
+2026-07-08 11:31 ACCEPT [Google News KL] "Gold retreats below $4,100 after US President Trump says Iran ceasefir" | kw:gold
+2026-07-08 11:31 ACCEPT [Google News NS] "First Thing Today | China buys still more U.S. soybeans - Pro Farmer" | kw:soybean
+2026-07-08 11:31 ACCEPT [Google News NS] "US grains outlook and mid-year review: what the harvest season means f" | kw:harvest
+2026-07-08 11:31 ACCEPT [Google News CB] "China's central bank pledges to maintain accommodative policy amid wea" | kw:central bank
+2026-07-08 11:31 SKIP_MORNING already_sent date=2026-07-08
