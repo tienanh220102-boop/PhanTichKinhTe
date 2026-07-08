@@ -12965,17 +12965,18 @@
 2026-07-08 11:31 ACCEPT [Google News NS] "US grains outlook and mid-year review: what the harvest season means f" | kw:harvest
 2026-07-08 11:31 ACCEPT [Google News CB] "China's central bank pledges to maintain accommodative policy amid wea" | kw:central bank
 2026-07-08 11:31 SKIP_MORNING already_sent date=2026-07-08
-2026-07-08 12:00 ACCEPT [OilPrice.com] "63 Million Barrels Of Crude Stuck At Sea As U.S. Pulls Iran Sanction W" | kw:oil,crude,sanction
-2026-07-08 12:00 ACCEPT [Google News HH] "HSBC cuts Brent crude oil forecast to $80/bbl for 2026 - TradingView" | kw:oil,crude,brent
-2026-07-08 12:00 ACCEPT [Google News HH] "Gold (XAUUSD) Price Forecast: Oil Spike, Fed Bets Hammer Gold Price - " | kw:oil,gold,rice
-2026-07-08 12:00 ACCEPT [Google News HH] "Gold price falls Rs 2,308/10g in futures trade as higher crude , stron" | kw:crude,gold,rice
-2026-07-08 12:00 ACCEPT [Google News HH] "WTI Crude Oil Forecast: Can Buyers Hold the $74.20 Support as Supply R" | kw:oil,crude,wti
-2026-07-08 12:00 ACCEPT [Google News HH] "Crude oil prices jump 6%, hit two-week high after Trump says Iran peac" | kw:oil,crude,rice
-2026-07-08 12:00 ACCEPT [Google News KL] "[SMM Nickel Midday Review] On July 8, nickel prices edged down, as the" | kw:oil,nickel,rice
-2026-07-08 12:00 ACCEPT [Google News KL] "21-Karat Gold Price at JD84.7 per Gram in Local Market - Fana News -" | kw:gold,rice
-2026-07-08 12:00 ACCEPT [Google News KL] "Gold prices fall as Trump casts doubt on Iran deal By Investing.com - " | kw:gold,rice
-2026-07-08 12:00 ACCEPT [Google News CB] "India Stablecoins Push Faces Central Bank Warning to Banks - Bitcoin F" | kw:central bank
-2026-07-08 12:00 ACCEPT [Google News CB] "NY Fed survey: U.S. inflation expectations hit 3-year high in June - q" | kw:inflation
-2026-07-08 12:00 ACCEPT [Google News CB] "India central bank seeks to bar financial institutions from exposure t" | kw:central bank
-2026-07-08 12:00 ACCEPT [Google News CB] "China's central bank pledges to maintain accommodative policy amid wea" | kw:central bank
-2026-07-08 12:00 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 12:01 ACCEPT [OilPrice.com] "63 Million Barrels Of Crude Stuck At Sea As U.S. Pulls Iran Sanction W" | kw:oil,crude,sanction
+2026-07-08 12:01 ACCEPT [Google News HH] "HSBC cuts Brent crude oil forecast to $80/bbl for 2026 - TradingView" | kw:oil,crude,brent
+2026-07-08 12:01 ACCEPT [Google News HH] "Gold (XAUUSD) Price Forecast: Oil Spike, Fed Bets Hammer Gold Price - " | kw:oil,gold,rice
+2026-07-08 12:01 ACCEPT [Google News HH] "Gold price falls Rs 2,308/10g in futures trade as higher crude , stron" | kw:crude,gold,rice
+2026-07-08 12:01 ACCEPT [Google News HH] "WTI Crude Oil Forecast: Can Buyers Hold the $74.20 Support as Supply R" | kw:oil,crude,wti
+2026-07-08 12:01 ACCEPT [Google News HH] "Crude oil prices jump 6%, hit two-week high after Trump says Iran peac" | kw:oil,crude,rice
+2026-07-08 12:01 ACCEPT [Google News HH] "Iraqi oil exports to US surpass one million barrels in June - Iraqi Ne" | kw:oil
+2026-07-08 12:01 ACCEPT [Google News KL] "[SMM Nickel Midday Review] On July 8, nickel prices edged down, as the" | kw:oil,nickel,rice
+2026-07-08 12:01 ACCEPT [Google News KL] "Gold prices fall as Trump casts doubt on Iran deal By Investing.com - " | kw:gold,rice
+2026-07-08 12:01 ACCEPT [Google News CB] "India Stablecoins Push Faces Central Bank Warning to Banks - Bitcoin F" | kw:central bank
+2026-07-08 12:01 ACCEPT [Google News CB] "NY Fed survey: U.S. inflation expectations hit 3-year high in June - q" | kw:inflation
+2026-07-08 12:01 ACCEPT [Google News CB] "India central bank seeks to bar financial institutions from exposure t" | kw:central bank
+2026-07-08 12:01 ACCEPT [Google News CB] "China's central bank pledges to maintain accommodative policy amid wea" | kw:central bank
+2026-07-08 12:01 ACCEPT [Google News CB] "China’s central bank pledges to maintain accommodative policy amid wea" | kw:central bank
+2026-07-08 12:01 SKIP_MORNING already_sent date=2026-07-08
