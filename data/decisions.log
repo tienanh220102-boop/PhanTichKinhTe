@@ -12866,3 +12866,14 @@
 2026-07-08 08:01 ACCEPT [Google News KL] "Snowline Gold: A Rare Gold Developer Where The District Option Matters" | kw:gold
 2026-07-08 08:01 ACCEPT [Google News CB] "Japan considers policy wording change as BOJ independence fears roil b" | kw:oil,boj
 2026-07-08 08:01 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 08:31 ACCEPT [OilPrice.com] "Oil and LNG Tankers Make U-Turns After Fresh Hormuz Escalation" | kw:oil,gas,lng
+2026-07-08 08:31 ACCEPT [Google News HH] "BB Energy Secures Three Additional South Sudan Crude Oil Cargoes - PA " | kw:oil,crude
+2026-07-08 08:31 ACCEPT [Google News HH] "India Gold Price Today: Rates Rise Tracking Global Trends - CryptoRank" | kw:gold,rice
+2026-07-08 08:31 ACCEPT [Google News HH] "Canada’s Total Crude Oil Export Value Reaches CAD 140 Billion, Two TSX" | kw:oil,crude
+2026-07-08 08:31 ACCEPT [Google News KL] "DAILY: Copper prices drop due to re-emerged geopolitical conflicts - m" | kw:copper,steel,rice
+2026-07-08 08:31 ACCEPT [Google News NS] "Wheat market rises on more expensive corn and soybeans - DCA Market In" | kw:wheat,corn,soybean
+2026-07-08 08:31 ACCEPT [Google News CB] "Japan considering tweaking blueprint language on BOJ, Nikkei reports -" | kw:boj
+2026-07-08 08:31 ACCEPT [Google News CB] "Tanzania's central bank buys 28 tons of gold over past 18 months for r" | kw:gold,central bank
+2026-07-08 08:31 ACCEPT [Google News CB] "India central bank backs crypto ban, tax department warns of evasion r" | kw:central bank
+2026-07-08 08:31 ACCEPT [Google News CB] "Chart of the Day: EURUSD Caught Between the Fed, ECB and Middle East R" | kw:ecb
+2026-07-08 08:31 SKIP_MORNING already_sent date=2026-07-08
