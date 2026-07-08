@@ -12715,3 +12715,58 @@
 2026-07-08 02:31 ACCEPT [Google News CB] "Japan considering tweaking blueprint language on BOJ, Nikkei reports -" | kw:boj
 2026-07-08 02:31 ACCEPT [Google News CB] "Japan Government May Tweak BOJ Policy Phrase in Plan, Asahi Says - Blo" | kw:boj
 2026-07-08 02:31 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 03:01 ACCEPT [BBC Business] "Package holidays to Dubai and Egypt cheaper as European prices creep u" | kw:rice
+2026-07-08 03:01 ACCEPT [BBC Business] "Is Germany looking again at coal-powered electricity?" | kw:gas,fuel
+2026-07-08 03:01 ACCEPT [The Guardian Biz] "Half of Americans struggle to afford groceries and gas, exclusive poll" | kw:gas
+2026-07-08 03:01 ACCEPT [The Guardian Biz] "As auto costs rise, will the US miss the golden age of electric vehicl" | kw:gold
+2026-07-08 03:01 ACCEPT [CNBC Commodities] "Minneapolis Fed President Neel Kashkari says he expects a rate hike th" | kw:inflation,rate hike
+2026-07-08 03:01 ACCEPT [CNBC Commodities] "Warsh reaches within the Fed for latest advisory appointments" | kw:central bank,monetary policy
+2026-07-08 03:01 ACCEPT [CNBC Economy] "Christine Lagarde leaves door open to early ECB exit, as she mulls Fre" | kw:central bank,ecb
+2026-07-08 03:01 ACCEPT [CNBC Economy] "U.S. issues sweeping Iran oil sanctions waivers, unlocking billions in" | kw:oil,sanction
+2026-07-08 03:01 ACCEPT [CNBC Economy] "UK inflation holds steady at 2.8% in May" | kw:inflation,monetary policy,bank of england
+2026-07-08 03:01 ACCEPT [CNBC Economy] "The May inflation numbers are due out Wednesday morning. Here's what t" | kw:rice,inflation
+2026-07-08 03:01 ACCEPT [OilPrice.com] "The Next Oil Price Spike Could Come Sooner Than Traders Think" | kw:oil,rice
+2026-07-08 03:01 ACCEPT [OilPrice.com] "Drone Strike Shuts Russia's Largest Refinery as Fuel Shortages Worsen" | kw:oil,fuel,shortage
+2026-07-08 03:01 ACCEPT [OilPrice.com] "Super El Niño Could Push Colombia Into an Energy Crisis" | kw:drought
+2026-07-08 03:01 ACCEPT [OilPrice.com] "Saudi Arabia Eyes Major Red Sea Pipeline Expansion to Bypass Hormuz" | kw:oil,crude
+2026-07-08 03:01 ACCEPT [EIA Energy] "Higher blending targets drive RIN prices close to record highs" | kw:gas,fuel,rice
+2026-07-08 03:01 ACCEPT [EIA Energy] "The regional differences in gasoline prices this Memorial Day" | kw:gas,fuel,rice
+2026-07-08 03:01 ACCEPT [EIA Energy] "The United States set record energy production in 2025, again" | kw:oil,crude,gas
+2026-07-08 03:01 ACCEPT [NASDAQ Commod] "Crude Oil Slides Amid Increasing Crude Oil Flow, OPEC+ Output Hike Pla" | kw:oil,crude,opec
+2026-07-08 03:01 ACCEPT [NASDAQ Commod] "Oil Edges Lower On Supply Glut Fears" | kw:oil,rice
+2026-07-08 03:01 ACCEPT [Google News HH] "Saudi Arabia slices crude oil prices, but is it enough? - Reuters" | kw:oil,crude,rice
+2026-07-08 03:01 ACCEPT [Google News HH] "US Crude Oil, Product Inventories Fall Even As Hormuz Traffic Begins t" | kw:oil,crude,rice
+2026-07-08 03:01 ACCEPT [Google News HH] "Crude Oil Prices Jump as Ships Attacked in the Strait of Hormuz - Yaho" | kw:oil,crude,rice
+2026-07-08 03:01 ACCEPT [Google News HH] "Gold Price Outlook For July 2026 - CryptoRank" | kw:gold,rice
+2026-07-08 03:01 ACCEPT [Google News HH] "Crude Oil Price Forecast: Has Oil Finally Found a Bottom? - FXEmpire" | kw:oil,crude,rice
+2026-07-08 03:01 ACCEPT [Google News HH] "Gemcorp Commodities Alternative Products Fund I shares Financial State" | kw:commodities
+2026-07-08 03:01 ACCEPT [Google News HH] "Crude oil prices fall to pre-Iran war levels -- why haven't gas prices" | kw:oil,crude,gas
+2026-07-08 03:01 ACCEPT [Google News HH] "Gold Price Outlook and Silver Market Slump: CPM Group Precious Metals " | kw:gold,silver,rice
+2026-07-08 03:01 ACCEPT [Google News KL] "Current price of gold as of July 7, 2026 - Fortune" | kw:gold,rice
+2026-07-08 03:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG remains bearish as ‘evening star’ forms - F" | kw:silver,rice
+2026-07-08 03:01 ACCEPT [Google News KL] "Gold prices steady with Iran risks, Fed minutes in focus - Investing.c" | kw:gold,rice
+2026-07-08 03:01 ACCEPT [Google News KL] "China Just Bought Its Most Gold Since 2023. It Did It During the Quart" | kw:gold,silver
+2026-07-08 03:01 ACCEPT [Google News KL] "Gold Price Update: LBMA Gold Climbs 2.3% to $4,164 in Early July 2026 " | kw:gold,rice
+2026-07-08 03:01 ACCEPT [Google News KL] "Gold prices weaken as investors await Federal Reserve meeting minutes " | kw:gold,rice,federal reserve
+2026-07-08 03:01 ACCEPT [Google News NS] "Crop Progress Highlights: Corn Holds Firm, Soybeans Slip as Markets Fo" | kw:corn,soybean
+2026-07-08 03:01 ACCEPT [Google News NS] "Arkansas Wheat Promotion Board distributes almost $84,000 for projects" | kw:wheat
+2026-07-08 03:01 ACCEPT [Google News NS] "Soybean surprise could shake grain prices as farmers await key USDA re" | kw:soybean,rice
+2026-07-08 03:01 ACCEPT [Google News NS] "ICE cotton advances on US weather concerns, grain market rally - Fibre" | kw:cotton
+2026-07-08 03:01 ACCEPT [Google News NS] "Efforts to Get Year-Round E15 Sales Could Hurt Soybean Farmers - Farms" | kw:soybean
+2026-07-08 03:01 ACCEPT [RT Business] "Americans spending more because they are ‘optimistic’? Economists chal" | kw:inflation
+2026-07-08 03:01 ACCEPT [RT Business] "Defying Western pressure: Russia and China deepen economic partnership" | kw:sanction
+2026-07-08 03:01 ACCEPT [Fed Monetary] "Federal Reserve issues FOMC statement" | kw:federal reserve,fomc
+2026-07-08 03:01 ACCEPT [ECB Press] "ECB publishes indicative operational calendars for 2027" | kw:ecb
+2026-07-08 03:01 ACCEPT [ECB Press] "Christine Lagarde: Back to basics in an uncertain environment" | kw:iron
+2026-07-08 03:01 ACCEPT [ECB Press] "Boris Vujčić: Outlook for the euro area economy and monetary policy" | kw:monetary policy
+2026-07-08 03:01 ACCEPT [Google News CB] "New Zealand’s Central Bank Raises Rates in Tentative Move to Combat In" | kw:inflation,central bank
+2026-07-08 03:01 ACCEPT [Google News CB] "Government may tweak BOJ policy phrase in annual agenda, report says -" | kw:boj
+2026-07-08 03:01 ACCEPT [Google News CB] "US consumers' near-term inflation expectations rise in June, New York " | kw:inflation
+2026-07-08 03:01 ACCEPT [Google News CB] "EXCLUSIVE BOJ dissenter Asada needs demand-driven inflation before bac" | kw:inflation,rate hike,boj
+2026-07-08 03:01 ACCEPT [Google News CB] "Consumer inflation concerns climb in June, NY Fed survey shows - Scots" | kw:inflation
+2026-07-08 03:01 ACCEPT [Google News CB] "Americans' inflation outlook is still high, per NY Fed survey - Axios" | kw:inflation
+2026-07-08 03:01 ACCEPT [Google News CB] "Thai monetary policy settings are supporting economic recovery, centra" | kw:central bank,monetary policy
+2026-07-08 03:01 ACCEPT [Google News CB] "Fed’s Williams Stays Optimistic as Energy Prices Fall - Bloomberg.com" | kw:rice
+2026-07-08 03:01 ACCEPT [Google News CB] "Fed's Williams tells Fox Business he's more sanguine on inflation due " | kw:rice,inflation
+2026-07-08 03:01 ACCEPT [Google News CB] "Supply chain pressures ease in June, New York Fed says - Finance & Com" | kw:supply chain
+2026-07-08 03:01 SKIP_MORNING already_sent date=2026-07-08
