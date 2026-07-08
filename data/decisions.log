@@ -12708,3 +12708,10 @@
 2026-07-08 02:01 ACCEPT [Google News CB] "Why the Fed and the ECB Keep Pulling in Different Rate Directions - St" | kw:ecb
 2026-07-08 02:01 ACCEPT [Google News CB] "OPINION: BOJ eyes policy rate at 2% by end of 2027 - Japan Wire by Kyo" | kw:boj,policy rate
 2026-07-08 02:01 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 02:31 ACCEPT [Google News HH] "Crude Oil Leads Markets Higher - CME Group" | kw:oil,crude
+2026-07-08 02:31 ACCEPT [Google News HH] "Goldman Sachs Raises Q4 Brent, WTI Crude Price Forecast Amid Longer Ho" | kw:crude,brent,wti
+2026-07-08 02:31 ACCEPT [Google News HH] "Dollar Edges Up on Weak Stocks and Crude Oil Strength - Yahoo Finance" | kw:oil,crude
+2026-07-08 02:31 ACCEPT [Google News NS] "2026 Wheat Guide provides insights into UK milling requirements - Worl" | kw:wheat
+2026-07-08 02:31 ACCEPT [Google News CB] "Japan considering tweaking blueprint language on BOJ, Nikkei reports -" | kw:boj
+2026-07-08 02:31 ACCEPT [Google News CB] "Japan Government May Tweak BOJ Policy Phrase in Plan, Asahi Says - Blo" | kw:boj
+2026-07-08 02:31 SKIP_MORNING already_sent date=2026-07-08
