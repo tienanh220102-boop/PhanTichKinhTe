@@ -12795,3 +12795,11 @@
 2026-07-08 04:31 ACCEPT [Google News KL] "Gold Price Exhausts Its Positive Momentum – Analysis – 08-07-2026 - Ec" | kw:gold,rice
 2026-07-08 04:31 ACCEPT [Google News KL] "China posts biggest gold reserve boost since 2023 despite price drop -" | kw:gold,rice
 2026-07-08 04:31 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 05:01 ACCEPT [Al Jazeera] "Oil prices surge as US strikes Iran, reversing slide to pre-war levels" | kw:oil,crude,brent
+2026-07-08 05:01 ACCEPT [Google News HH] "Gold price in India: Rates on July 8 - FXStreet" | kw:gold,rice
+2026-07-08 05:01 ACCEPT [Google News HH] "BPCL, HPCL, IndiGo slide up to 4% as crude oil jumps after US strikes " | kw:oil,crude
+2026-07-08 05:01 ACCEPT [Google News KL] "Gold wavers as investors weigh US strikes on Iran, await Fed minutes -" | kw:gold
+2026-07-08 05:01 ACCEPT [Google News KL] "Gold, silver prices today, 8 July: Check retail rates of 24K, 22K gold" | kw:gold,silver,rice
+2026-07-08 05:01 ACCEPT [Google News CB] "ECB tells banks to bolster AI cyber defences as peers take lighter app" | kw:ecb
+2026-07-08 05:01 ACCEPT [Google News CB] "Japan considers policy wording change as BOJ independence fears roil b" | kw:oil,boj
+2026-07-08 05:01 SKIP_MORNING already_sent date=2026-07-08
