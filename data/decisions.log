@@ -13150,3 +13150,9 @@
 2026-07-08 16:25 ACCEPT [Google News CB] "NY Fed says firms in its district aren't done passing on tariff costs " | kw:tariff
 2026-07-08 16:25 SKIP_MORNING already_sent date=2026-07-08
 2026-07-08 16:25 SKIP_EVENING already_sent date=2026-07-08
+2026-07-08 16:31 ACCEPT [Google News KL] "Investors flee gold ETFs in June as hawkish Fed expectations drive liq" | kw:gold
+2026-07-08 16:31 ACCEPT [Google News NS] "U.S. Farmers Hit by Soaring Input Costs as NCGA Finds Some Crop Protec" | kw:rice
+2026-07-08 16:31 ACCEPT [Google News CB] "Yardeni Says Inflation, Fed Back in Play as Iran Crisis Returns - Bloo" | kw:inflation
+2026-07-08 16:31 ACCEPT [Google News CB] "Japan’s Bank Lending Rises Fastest Since Covid, Backing BOJ Path - Blo" | kw:boj
+2026-07-08 16:31 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 16:31 SKIP_EVENING already_sent date=2026-07-08
