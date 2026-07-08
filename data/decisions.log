@@ -12827,3 +12827,11 @@
 2026-07-08 06:01 ACCEPT [Google News HH] "Justin Wolfers Says Trouble in Iran Means 'Turmoil' in Energy Markets:" | kw:oil,gas,rice
 2026-07-08 06:01 ACCEPT [Google News CB] "Interest rate drama: The news for mortgage takers – and Smotrich's unu" | kw:interest rate
 2026-07-08 06:01 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 06:31 ACCEPT [Google News HH] "VEGOILS Palm rises on stronger rivals, crude oil - Reuters" | kw:oil,crude
+2026-07-08 06:31 ACCEPT [Google News HH] "EXCLUSIVE: China lifts fuel export curbs for July, sources say - Reute" | kw:fuel
+2026-07-08 06:31 ACCEPT [Google News HH] "Palm rebounds on stronger rival oils, crude oil prices - marketscreene" | kw:oil,crude,rice
+2026-07-08 06:31 ACCEPT [Google News HH] "OPINION | OPEC risks becoming a paper tiger as members launch post-war" | kw:opec,rice
+2026-07-08 06:31 ACCEPT [Google News KL] "Gold prices recover with Iran risks, Fed minutes in focus - Investing." | kw:gold,rice
+2026-07-08 06:31 ACCEPT [Google News KL] "Gold prices register close to $4,128 per ounce - وكالة صدى نيوز" | kw:gold,rice
+2026-07-08 06:31 ACCEPT [Google News CB] "Japan considering tweaking blueprint language on BOJ, Nikkei reports -" | kw:boj
+2026-07-08 06:31 SKIP_MORNING already_sent date=2026-07-08
