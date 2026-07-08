@@ -12835,3 +12835,11 @@
 2026-07-08 06:31 ACCEPT [Google News KL] "Gold prices register close to $4,128 per ounce - وكالة صدى نيوز" | kw:gold,rice
 2026-07-08 06:31 ACCEPT [Google News CB] "Japan considering tweaking blueprint language on BOJ, Nikkei reports -" | kw:boj
 2026-07-08 06:31 SKIP_MORNING already_sent date=2026-07-08
+2026-07-08 07:01 ACCEPT [Al Jazeera] "Oil surges as US strikes Iran, reversing return to pre-war prices" | kw:oil,crude,brent
+2026-07-08 07:01 ACCEPT [Google News HH] "Palm rises on stronger rivals, crude oil - TradingView" | kw:oil,crude
+2026-07-08 07:01 ACCEPT [Google News HH] "Commodities: Iran Attacks U.S. Military Targets in Bahrain and Kuwait;" | kw:oil,rice,commodities
+2026-07-08 07:01 ACCEPT [Google News HH] "Crude oil rebounds as Strait of Hormuz tensions flare again - ig.com" | kw:oil,crude
+2026-07-08 07:01 ACCEPT [Google News HH] "Crude oil prices rose over 5% across the board, base metals showed dom" | kw:oil,crude,gold
+2026-07-08 07:01 ACCEPT [Google News KL] "Gold Rate Today, July 8: Check 18, 22 and 24 carat gold prices in Chen" | kw:gold,rice
+2026-07-08 07:01 ACCEPT [Google News KL] "Egypt: Silver prices down on July 7 - ZAWYA" | kw:silver,rice
+2026-07-08 07:01 SKIP_MORNING already_sent date=2026-07-08
