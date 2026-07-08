@@ -12687,3 +12687,8 @@
 2026-07-08 00:31 ACCEPT [Google News NS] "Soybeans Close Just Shy of $12 | Tuesday, July 7, 2026 - Successful Fa" | kw:soybean
 2026-07-08 00:31 ACCEPT [Google News CB] "Peru’s longtime central bank chief to stay on - LatinFinance" | kw:central bank
 2026-07-08 00:32 SENT_MORNING articles=20 date=2026-07-08 force=False
+2026-07-08 01:01 ACCEPT [Google News HH] "Basic earnings per share (basic EPS) of Gemcorp Commodities Alternativ" | kw:commodities
+2026-07-08 01:01 ACCEPT [Google News HH] "Gemcorp Commodities Alternative Products Fund I shares Statistics – NA" | kw:commodities
+2026-07-08 01:01 ACCEPT [Google News HH] "Gemcorp Commodities Alternative Products Fund I shares Balance Sheet –" | kw:commodities
+2026-07-08 01:01 ACCEPT [Google News HH] "Crude oil prices surged after the United States struck Iranian targets" | kw:oil,crude,rice
+2026-07-08 01:01 SKIP_MORNING already_sent date=2026-07-08
