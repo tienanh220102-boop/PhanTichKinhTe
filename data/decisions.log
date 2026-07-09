@@ -13445,3 +13445,10 @@
 2026-07-09 03:31 ACCEPT [Google News CB] "BOJ May Push Policy Rate Beyond 2% This Cycle, Ex-Official Says - Bloo" | kw:boj,policy rate
 2026-07-09 03:31 ACCEPT [Google News CB] "Dollar stands tall as Gulf tensions fuel oil price surge, Fed hike bet" | kw:oil,fuel,rice
 2026-07-09 03:31 SKIP_MORNING already_sent date=2026-07-09
+2026-07-09 04:01 ACCEPT [Google News HH] "One Chart: Pivot Points and Long/Short Position Signals for Gold, Crud" | kw:oil,crude,gold
+2026-07-09 04:01 ACCEPT [Google News HH] "Crude Oil Prices Surge as Geopolitical Risks Intensify - TradingView" | kw:oil,crude,rice
+2026-07-09 04:01 ACCEPT [Google News KL] "Gold prices edge lower as Iran tensions boost dollar - Investing.com" | kw:gold,rice
+2026-07-09 04:01 ACCEPT [Google News KL] "Gold Price Decline: Iran Tensions, Oil Surge, and Fed Minutes Analysis" | kw:oil,gold,rice
+2026-07-09 04:01 ACCEPT [Google News KL] "Gold sees more pain as Iran tensions revive inflation fears - FXStreet" | kw:gold,inflation
+2026-07-09 04:01 ACCEPT [Google News NS] "Corn Rally Stalls as Markets Turn Cautious Ahead of Key USDA Report - " | kw:corn
+2026-07-09 04:01 SKIP_MORNING already_sent date=2026-07-09
