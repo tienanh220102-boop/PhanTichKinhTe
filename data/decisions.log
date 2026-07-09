@@ -13693,3 +13693,23 @@
 2026-07-09 13:31 ACCEPT [Google News CB] "Gold rebounds above $4,100 as Fed minutes, Hormuz risk keep yields fir" | kw:gold
 2026-07-09 13:31 SKIP_MORNING already_sent date=2026-07-09
 2026-07-09 13:31 SKIP_EVENING already_sent date=2026-07-09
+2026-07-09 14:01 ACCEPT [The Guardian Biz] "Licensed to drill? How a Trump-linked Texas oil company is elbowing it" | kw:oil,crude,rice
+2026-07-09 14:01 ACCEPT [OilPrice.com] "High Oil Prices Are Fueling a New Heavy Crude Rush in Canada" | kw:oil,crude,fuel
+2026-07-09 14:01 ACCEPT [Google News HH] "US stocks and crude oil hold steadier a day after swinging sharply - U" | kw:oil,crude
+2026-07-09 14:01 ACCEPT [Google News HH] "US stocks and crude oil hold steadier a day after swinging sharply - c" | kw:oil,crude
+2026-07-09 14:01 ACCEPT [Google News HH] "US stocks and crude oil hold steadier a day after swinging sharply - T" | kw:oil,crude
+2026-07-09 14:01 ACCEPT [Google News HH] "US Crude Oil Stocks Rise by 3 Million Barrels Against Market Expectati" | kw:oil,crude
+2026-07-09 14:01 ACCEPT [Google News HH] "U.S. stocks and crude oil hold steadier a day after swinging sharply -" | kw:oil,crude
+2026-07-09 14:01 ACCEPT [Google News HH] "Oil prices continue to surge amid heightened US-Iran tensions and rene" | kw:oil,rice
+2026-07-09 14:01 ACCEPT [Google News KL] "First Trust Introduces FT Vest Silver Strategy & Target Income ETF (SL" | kw:silver
+2026-07-09 14:01 ACCEPT [Google News KL] "Nickel Forecast Raised as Market Surplus Narrow - TradingPedia" | kw:nickel
+2026-07-09 14:01 ACCEPT [Google News NS] "Madison County Farmers’ Market hosting annual Corn Festival - rocketci" | kw:corn
+2026-07-09 14:01 ACCEPT [Google News NS] "Grain market improves in Afghanistan after harvest begins - UkrAgroCon" | kw:harvest
+2026-07-09 14:01 ACCEPT [Google News NS] "Corn and soybean bulls are taking one step out of the grave as a criti" | kw:corn,soybean
+2026-07-09 14:01 ACCEPT [Google News CB] "ECB Officials Couldn’t Overlook Energy Shock in June - WSJ" | kw:ecb
+2026-07-09 14:01 ACCEPT [Google News CB] "Fed's Inflation Strategy Under Scrutiny in 2026 - Legis1" | kw:inflation
+2026-07-09 14:01 ACCEPT [Google News CB] "Fed unlikely to hike rates this year despite inflation concerns, Wall " | kw:inflation
+2026-07-09 14:01 ACCEPT [Google News CB] "The Fed’s independence is unfinished business - Roanoke Times" | kw:gdp
+2026-07-09 14:01 ACCEPT [Google News CB] "Polish interest rates level is appropriate, central bank chief says - " | kw:central bank,interest rate
+2026-07-09 14:01 SKIP_MORNING already_sent date=2026-07-09
+2026-07-09 14:01 SKIP_EVENING already_sent date=2026-07-09
