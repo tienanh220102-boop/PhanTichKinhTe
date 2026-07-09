@@ -13391,3 +13391,9 @@
 2026-07-08 23:31 ACCEPT [Google News KL] "Lundin Gold Reports Q2 2026 Production of 118,994 Ounces of Gold - Inv" | kw:gold
 2026-07-08 23:31 ACCEPT [Google News KL] "Gold declines below $4,100 as US–Iran tensions revive inflation worrie" | kw:gold,inflation,fed rate
 2026-07-08 23:31 ACCEPT [Google News CB] "Fed minutes: Officials deeply divided over future path of US inflation" | kw:inflation
+2026-07-09 00:01 ACCEPT [Google News HH] "Crude oil adds to gains after U.S. launches fresh strikes against Iran" | kw:oil,crude
+2026-07-09 00:01 ACCEPT [Google News HH] "Crude Oil Prices Soar on Escalation of US-Iran Hostilities - TradingVi" | kw:oil,crude,rice
+2026-07-09 00:01 ACCEPT [Google News KL] "Lundin Gold Reports Q2 2026 Production of 118,994 Ounces of Gold - Tra" | kw:gold
+2026-07-09 00:01 ACCEPT [Google News KL] "Gold slides as Fed minutes, Hormuz oil spike lift yields - Kitco PM Re" | kw:oil,gold
+2026-07-09 00:02 DIRECTION_FIX Gold: "tăng 1.51%" → "giảm 1.51%"
+2026-07-09 00:02 SENT_MORNING articles=20 date=2026-07-09 force=False
