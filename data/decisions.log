@@ -13486,3 +13486,11 @@
 2026-07-09 06:01 ACCEPT [Google News CB] "BoJ maintains assessment for all 9 Japanese regions - FXStreet" | kw:boj
 2026-07-09 06:01 ACCEPT [Google News CB] "Dollar stands tall as new Gulf attacks fuel oil price surge, Fed hike " | kw:oil,fuel,rice
 2026-07-09 06:01 SKIP_MORNING already_sent date=2026-07-09
+2026-07-09 06:31 ACCEPT [Google News HH] "Crude Oil Futures Firm on Renewed Supply Concerns After U.S. Strikes I" | kw:oil,crude,gold
+2026-07-09 06:31 ACCEPT [Google News KL] "Gold, silver price prediction: Will gold head to Rs 1.5 lakh/10 gm & s" | kw:gold,silver,rice
+2026-07-09 06:31 ACCEPT [Google News KL] "[SMM Nickel Midday Comment] On July 9, nickel prices plunged during th" | kw:nickel,rice
+2026-07-09 06:31 ACCEPT [Google News CB] "Rupee firms as central bank intervention blunts oil strain, Trump's re" | kw:oil,central bank
+2026-07-09 06:31 ACCEPT [Google News CB] "Gold futures drop on rising interest rate hike expectations. - CME Gro" | kw:gold,interest rate,rate hike
+2026-07-09 06:31 ACCEPT [Google News CB] "Fed minutes reveal divides on interest rates in Warsh's first FOMC mee" | kw:interest rate,fomc
+2026-07-09 06:31 ACCEPT [Google News CB] "Egypt Inflation Eases for Third Month Before Rate Decision - Bloomberg" | kw:inflation,rate decision
+2026-07-09 06:31 SKIP_MORNING already_sent date=2026-07-09
