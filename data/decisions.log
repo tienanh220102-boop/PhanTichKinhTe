@@ -13621,3 +13621,15 @@
 2026-07-09 11:31 ACCEPT [Google News NS] "Russian wheat supply keeps pressure on grain market - DCA Market Intel" | kw:wheat
 2026-07-09 11:31 ACCEPT [Google News CB] "EBRD and Central Bank of Jordan strengthen compliance and financial cr" | kw:central bank
 2026-07-09 11:31 SKIP_MORNING already_sent date=2026-07-09
+2026-07-09 11:50 ACCEPT [MarketWatch] "This chart shows stamp prices since 1885 as USPS hikes postage again t" | kw:rice
+2026-07-09 11:50 ACCEPT [Al Jazeera] "India floods sweep away thousands of gas cylinders" | kw:gas,flood
+2026-07-09 11:50 ACCEPT [Google News HH] "EIA increases global oil production forecast after the opening of the " | kw:oil
+2026-07-09 11:50 ACCEPT [Google News HH] "Iraq will not leave OPEC but seeks fair output quota, PM says - Arab N" | kw:opec
+2026-07-09 11:50 ACCEPT [Google News HH] "Iraq will not leave OPEC but seeks fair output quota, PM says - Arab N" | kw:opec
+2026-07-09 11:50 ACCEPT [Google News HH] "RBC Capital Adjusts Royal Gold Price Target to $305 From $310, Maintai" | kw:gold,rice
+2026-07-09 11:50 ACCEPT [Google News HH] "Crude Oil Jumped to $74, and a Tiny Crypto Token Saw It Coming - Crypt" | kw:oil,crude
+2026-07-09 11:50 ACCEPT [Google News KL] "India's gold prices ease but remain above global rates - MSN" | kw:gold,rice
+2026-07-09 11:50 ACCEPT [Google News KL] "BofA Securities Adjusts Kinross Gold Price Target to $39 From $40, Mai" | kw:gold,rice
+2026-07-09 11:50 ACCEPT [Google News NS] "U.S. corn farmers paying far more for inputs than Brazilian competitor" | kw:corn
+2026-07-09 11:50 ACCEPT [Google News CB] "Dollar stands tall as Gulf tensions fuel oil price surge, Fed hike bet" | kw:oil,fuel,rice
+2026-07-09 11:50 SKIP_MORNING already_sent date=2026-07-09
