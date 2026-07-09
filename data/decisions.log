@@ -13560,3 +13560,13 @@
 2026-07-09 09:01 ACCEPT [Google News KL] "Bernstein sets new copper price target amid supply tightness, Fed poli" | kw:copper,rice
 2026-07-09 09:01 ACCEPT [Google News KL] "Nickel prices outlook for 2H’26, according to Bernstein By Investing.c" | kw:nickel,rice
 2026-07-09 09:01 SKIP_MORNING already_sent date=2026-07-09
+2026-07-09 09:31 ACCEPT [Al Jazeera] "Why is the cryptocurrency market slumping?" | kw:sanction
+2026-07-09 09:31 ACCEPT [OilPrice.com] "Oil Price Surge Shows Markets Were Too Relaxed About Iran Deal" | kw:oil,rice
+2026-07-09 09:31 ACCEPT [Google News HH] "HSBC Lowers 2026-27 Gold Price Forecasts on Hawkish Fed Tilt - U.S. Ne" | kw:gold,rice
+2026-07-09 09:31 ACCEPT [Google News HH] "Crude Oil eyeing higher resistance after new fresh attacks between US " | kw:oil,crude
+2026-07-09 09:31 ACCEPT [Google News KL] "Bernstein sets new copper price target amid supply tightness, Fed poli" | kw:copper,rice
+2026-07-09 09:31 ACCEPT [Google News KL] "Gold price declines over week in Kazakhstan - AKIpress News Agency" | kw:gold,rice
+2026-07-09 09:31 ACCEPT [Google News KL] "HSBC lowers 2026-27 gold price forecasts on hawkish Fed tilt - MSN" | kw:gold,rice
+2026-07-09 09:31 ACCEPT [Google News KL] "Gold outlook: US-Iran tensions, Fed rate uncertainty may keep prices v" | kw:gold,rice,fed rate
+2026-07-09 09:31 ACCEPT [Google News CB] "BOJ Keeps Economic Views Unchanged for All 9 Regions - nippon.com" | kw:boj
+2026-07-09 09:31 SKIP_MORNING already_sent date=2026-07-09
