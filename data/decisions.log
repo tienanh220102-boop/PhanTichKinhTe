@@ -13436,3 +13436,12 @@
 2026-07-09 03:01 ACCEPT [Google News KL] "Gold dips as Mideast hostilities revive inflation concerns - Yahoo Fin" | kw:gold,inflation
 2026-07-09 03:01 ACCEPT [Google News NS] "Commodity markets daily recap - St Joseph Post" | kw:wti,commodity
 2026-07-09 03:01 SKIP_MORNING already_sent date=2026-07-09
+2026-07-09 03:31 ACCEPT [Google News HH] "Palm Oil Held Steady As Crude Oil Rose - Finimize" | kw:oil,crude
+2026-07-09 03:31 ACCEPT [Google News HH] "Gold tumbles to $4,076 per ounce on July 8 after Trump declares Iran i" | kw:gold
+2026-07-09 03:31 ACCEPT [Google News HH] "Commodities intraday targets/key levels - TradingView" | kw:commodities
+2026-07-09 03:31 ACCEPT [Google News HH] "Gold Price Attempts to Ease Oversold Conditions – Analysis – 09-07-202" | kw:gold,rice
+2026-07-09 03:31 ACCEPT [Google News NS] "Attachés offer South American soybean forecasts - Country Guide" | kw:soybean
+2026-07-09 03:31 ACCEPT [Google News NS] "Closing market update: Canola rallies with crude and soyoil | July 8, " | kw:oil,crude
+2026-07-09 03:31 ACCEPT [Google News CB] "BOJ May Push Policy Rate Beyond 2% This Cycle, Ex-Official Says - Bloo" | kw:boj,policy rate
+2026-07-09 03:31 ACCEPT [Google News CB] "Dollar stands tall as Gulf tensions fuel oil price surge, Fed hike bet" | kw:oil,fuel,rice
+2026-07-09 03:31 SKIP_MORNING already_sent date=2026-07-09
