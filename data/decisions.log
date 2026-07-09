@@ -13472,3 +13472,17 @@
 2026-07-09 05:31 ACCEPT [Google News CB] "BOJ May Push Policy Rate Beyond 2% This Cycle, Ex-Official Says - Bloo" | kw:boj,policy rate
 2026-07-09 05:31 ACCEPT [Google News CB] "Federal Reserve Chair Kevin Warsh to testify on monetary policy July 1" | kw:monetary policy,federal reserve
 2026-07-09 05:31 SKIP_MORNING already_sent date=2026-07-09
+2026-07-09 06:01 ACCEPT [BBC Business] "Jackdaw boss warns of winter fuel shortages if gas field not approved" | kw:gas,fuel,shortage
+2026-07-09 06:01 ACCEPT [OilPrice.com] "U.S. LNG Exporter Reaps Windfall as Middle East Turmoil Drives Fees Hi" | kw:oil,lng
+2026-07-09 06:01 ACCEPT [Google News HH] "WTI Crude Oil futures surged on Middle East escalation. - CME Group" | kw:oil,crude,wti
+2026-07-09 06:01 ACCEPT [Google News HH] "OPEC, Saudi Arabia share a signal on where oil is headed - AOL.com" | kw:oil,opec
+2026-07-09 06:01 ACCEPT [Google News HH] "Black Sea Petroleum: Kulevi refinery to start processing non-Russian c" | kw:oil,crude,petroleum
+2026-07-09 06:01 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Gold Breaks Symmetrical Triangl" | kw:gold,silver,rice
+2026-07-09 06:01 ACCEPT [Google News KL] "Continued Gold Purchases by Central Banks May Struggle to Reverse Gold" | kw:gold,central bank
+2026-07-09 06:01 ACCEPT [Google News NS] "Year-round E15 could boost corn demand but pressure soybean prices - A" | kw:corn,soybean,rice
+2026-07-09 06:01 ACCEPT [Google News NS] "ICE cotton rallies further on strong demand prospects, weather worries" | kw:cotton
+2026-07-09 06:01 ACCEPT [Google News CB] "BOJ keeps regional economic view steady, sees receding hit from Iran w" | kw:boj
+2026-07-09 06:01 ACCEPT [Google News CB] "BOJ sees Middle East conflict leading to more price rises - Reuters" | kw:rice,boj
+2026-07-09 06:01 ACCEPT [Google News CB] "BoJ maintains assessment for all 9 Japanese regions - FXStreet" | kw:boj
+2026-07-09 06:01 ACCEPT [Google News CB] "Dollar stands tall as new Gulf attacks fuel oil price surge, Fed hike " | kw:oil,fuel,rice
+2026-07-09 06:01 SKIP_MORNING already_sent date=2026-07-09
