@@ -13762,3 +13762,18 @@
 2026-07-09 15:31 ACCEPT [Google News CB] "ECB Officials Couldn't Look Through Energy Shock in June -- Update - M" | kw:ecb
 2026-07-09 15:31 SKIP_MORNING already_sent date=2026-07-09
 2026-07-09 15:31 SKIP_EVENING already_sent date=2026-07-09
+2026-07-09 16:01 ACCEPT [Google News HH] "CFTC to block CME's plan for 24/7 crude oil futures trading - Reuters" | kw:oil,crude
+2026-07-09 16:01 ACCEPT [Google News HH] "Iraq Will Not Leave OPEC But Seeks Fair Output Quota, PM Says - Energy" | kw:opec
+2026-07-09 16:01 ACCEPT [Google News HH] "Oil Price Surge Shows Markets Were Too Relaxed About Iran Deal - Crude" | kw:oil,crude,rice
+2026-07-09 16:01 ACCEPT [Google News HH] "High Oil Prices Are Fueling a New Heavy Crude Rush in Canada - Crude O" | kw:oil,crude,fuel
+2026-07-09 16:01 ACCEPT [Google News HH] "The Global Oil Market Isn't Ready for the Iran Ceasefire to End -- Com" | kw:oil,commodities
+2026-07-09 16:01 ACCEPT [Google News HH] "CFTC to stay listing of CME contract allowing 24/7 trading on crude oi" | kw:oil,crude
+2026-07-09 16:01 ACCEPT [Google News KL] "Rising gold and silver prices could extend the life of Nevada mines - " | kw:gold,silver,rice
+2026-07-09 16:01 ACCEPT [Google News KL] "Gold, silver prices fall as US-Iran tensions lift dollar - MSN" | kw:gold,silver,rice
+2026-07-09 16:01 ACCEPT [Google News KL] "Gold Is Now in a Bear Market; But These Funds May Have an Edge - SPDR " | kw:gold
+2026-07-09 16:01 ACCEPT [Google News NS] "Specialty Corn and Soybean Market Opportunities - farmdoc daily" | kw:corn,soybean
+2026-07-09 16:01 ACCEPT [Google News NS] "KRVN 880 – KRVN 93.1 – KAMI - Corn growers ask why they’re paying twic" | kw:corn
+2026-07-09 16:01 ACCEPT [Google News CB] "Japan to add BOJ independence reference to economic blueprint, source " | kw:boj
+2026-07-09 16:01 ACCEPT [Google News CB] "Fed's Williams doesn't expect sustained surge in energy prices - Yahoo" | kw:rice
+2026-07-09 16:01 SKIP_MORNING already_sent date=2026-07-09
+2026-07-09 16:01 SKIP_EVENING already_sent date=2026-07-09
