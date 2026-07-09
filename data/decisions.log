@@ -13554,3 +13554,9 @@
 2026-07-09 08:51 ACCEPT [Google News CB] "Yields hit three-decade highs as BOJ behind-the-curve narrative debate" | kw:boj
 2026-07-09 08:51 ACCEPT [Google News CB] "Malaysia Holds Rates on Modest Inflation, Resilient Growth - Bloomberg" | kw:inflation
 2026-07-09 08:51 SKIP_MORNING already_sent date=2026-07-09
+2026-07-09 09:01 ACCEPT [Google News HH] "Trump says Iran ceasefire is ‘over,' crude oil prices rise and some Ba" | kw:oil,crude,rice
+2026-07-09 09:01 ACCEPT [Google News HH] "XCOM | Corgi All Commodities 2x Stock Data, Price & News - Quiver Quan" | kw:rice,commodities,quantitative
+2026-07-09 09:01 ACCEPT [Google News KL] "Nickel's Price Dip Hides a Tightening Market - Crux Investor" | kw:nickel,rice,tightening
+2026-07-09 09:01 ACCEPT [Google News KL] "Bernstein sets new copper price target amid supply tightness, Fed poli" | kw:copper,rice
+2026-07-09 09:01 ACCEPT [Google News KL] "Nickel prices outlook for 2H’26, according to Bernstein By Investing.c" | kw:nickel,rice
+2026-07-09 09:01 SKIP_MORNING already_sent date=2026-07-09
