@@ -13416,3 +13416,12 @@
 2026-07-09 01:31 ACCEPT [Google News CB] "BOJ May Push Policy Rate Beyond 2% This Cycle, Ex-Official Says - Bloo" | kw:boj,policy rate
 2026-07-09 01:31 ACCEPT [Google News CB] "Dollar stands tall as Gulf tensions fuel oil price surge, Fed hike bet" | kw:oil,fuel,rice
 2026-07-09 01:31 SKIP_MORNING already_sent date=2026-07-09
+2026-07-09 02:01 ACCEPT [CNBC Economy] "China consumer price growth weakens in June while producer inflation r" | kw:rice,inflation,easing
+2026-07-09 02:01 ACCEPT [Google News HH] "Gold Price Tests Critical Trendline as Analysts Watch $4,300, Breakout" | kw:gold,rice
+2026-07-09 02:01 ACCEPT [Google News HH] "Crude Oil Prices Surge as Geopolitical Risks Intensify - Yahoo Finance" | kw:oil,crude,rice
+2026-07-09 02:01 ACCEPT [Google News HH] "Crude oil rises, gas prices may follow - The Black Chronicle" | kw:oil,crude,gas
+2026-07-09 02:01 ACCEPT [Google News HH] "Gold Price Outlook: Bulls Weigh the Odds of Another Bounce Above $4,00" | kw:gold,rice
+2026-07-09 02:01 ACCEPT [Google News HH] "Gold Price Outlook: Bulls Weigh the Odds of Another Bounce Above $4,00" | kw:gold,rice
+2026-07-09 02:01 ACCEPT [Google News KL] "The Fed Is Split 9 to 8. Gold and Silver Are Paying the Price — Until " | kw:gold,silver,rice
+2026-07-09 02:01 ACCEPT [Google News CB] "Fed minutes: Officials deeply divided over future path of US inflation" | kw:inflation
+2026-07-09 02:01 SKIP_MORNING already_sent date=2026-07-09
