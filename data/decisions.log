@@ -13677,3 +13677,19 @@
 2026-07-09 13:04 SKIP_MORNING already_sent date=2026-07-09
 2026-07-09 13:04 DIRECTION_FIX NatGas: "tăng 0.58%" → "giảm 0.58%"
 2026-07-09 13:04 SENT_EVENING articles=20 date=2026-07-09 force=False
+2026-07-09 13:31 ACCEPT [OilPrice.com] "EU Eyes 2040 Electrification Target to Slash Oil and Gas Dependence" | kw:oil,gas,fuel
+2026-07-09 13:31 ACCEPT [Google News HH] "The United States produced more crude oil than any other country in 20" | kw:oil,crude
+2026-07-09 13:31 ACCEPT [Google News HH] "Crude Oil Jumped to $74, and a Tiny Crypto Token Saw It Coming - Yahoo" | kw:oil,crude
+2026-07-09 13:31 ACCEPT [Google News HH] "Crude Oil Perpetual Futures News - Investing.com" | kw:oil,crude
+2026-07-09 13:31 ACCEPT [Google News HH] "Crude Oil Forecasts – Summer Range Limits Upside Despite Geopolitical " | kw:oil,crude
+2026-07-09 13:31 ACCEPT [Google News HH] "Gold Price Analysis – Gold Consolidates as Looming Death Cross Signals" | kw:gold,rice
+2026-07-09 13:31 ACCEPT [Google News KL] "Current price of gold as of July 9, 2026 - Fortune" | kw:gold,rice
+2026-07-09 13:31 ACCEPT [Google News KL] "Gold firms on modestly weaker dollar, focus on Middle East flare-up - " | kw:gold
+2026-07-09 13:31 ACCEPT [Google News KL] "Gold to resume rally amid structural fiscal and geopolitical risks: HS" | kw:gold
+2026-07-09 13:31 ACCEPT [Google News KL] "Fortuna expects Senegal gold project permit within weeks, CEO says - C" | kw:gold
+2026-07-09 13:31 ACCEPT [Google News CB] "Japan to mention BOJ independence in economic blueprint, Kyodo says - " | kw:boj
+2026-07-09 13:31 ACCEPT [Google News CB] "Gold Edges Higher as Iran Tensions Fuel Inflation and Interest Rate Co" | kw:fuel,gold,inflation
+2026-07-09 13:31 ACCEPT [Google News CB] "Dollar drifts with oil; Gulf tensions, Fed minutes in focus - Reuters" | kw:oil
+2026-07-09 13:31 ACCEPT [Google News CB] "Gold rebounds above $4,100 as Fed minutes, Hormuz risk keep yields fir" | kw:gold
+2026-07-09 13:31 SKIP_MORNING already_sent date=2026-07-09
+2026-07-09 13:31 SKIP_EVENING already_sent date=2026-07-09
