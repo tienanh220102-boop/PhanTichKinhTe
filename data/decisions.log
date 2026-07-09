@@ -13539,3 +13539,18 @@
 2026-07-09 08:31 ACCEPT [Google News KL] "Gold prices tiptoe up - VnExpress International" | kw:gold,rice
 2026-07-09 08:32 ACCEPT [Google News CB] "Taiwan central bank chief warns of AI bubble risk - Yahoo Finance" | kw:central bank
 2026-07-09 08:32 SKIP_MORNING already_sent date=2026-07-09
+2026-07-09 08:51 ACCEPT [MarketWatch] "7-Eleven made $349 million from surge in gasoline prices in the U.S. l" | kw:gas,rice
+2026-07-09 08:51 ACCEPT [Google News HH] "Trump says Iran ceasefire is ‘over,' crude oil prices rise and some Ba" | kw:oil,crude,rice
+2026-07-09 08:51 ACCEPT [Google News HH] "HSBC lowers 2026-27 gold price forecasts on hawkish Fed tilt - Reuters" | kw:gold,rice
+2026-07-09 08:51 ACCEPT [Google News HH] "HSBC lowers 2026-27 gold price forecasts on hawkish Fed tilt - Trading" | kw:gold,rice
+2026-07-09 08:51 ACCEPT [Google News HH] "XCOM | Corgi All Commodities 2x Institutional Ownership - Quiver Quant" | kw:commodities,quantitative
+2026-07-09 08:51 ACCEPT [Google News KL] "The Copper Discovery Hiding in Plain Sight at Marimaca - Crux Investor" | kw:copper
+2026-07-09 08:51 ACCEPT [Google News KL] "GOLD PRICE EXPLOSION! You Won't Believe The Rates After The 15% Tax Hi" | kw:gold,rice
+2026-07-09 08:51 ACCEPT [Google News NS] "Crops Analysis | Profit taking pressure in corn - Pro Farmer" | kw:corn
+2026-07-09 08:51 ACCEPT [Google News NS] "Corn and soybean bulls are taking one step out of the grave as a criti" | kw:corn,soybean
+2026-07-09 08:51 ACCEPT [Google News CB] "Trump has created a ‘trickle up’ tariff economy that means U.S. compan" | kw:rice,tariff
+2026-07-09 08:51 ACCEPT [Google News CB] "Bank of Japan sees growing inflation pressures from Iran war - Reuters" | kw:inflation,bank of japan
+2026-07-09 08:51 ACCEPT [Google News CB] "BOJ Keeps Regional Economic View Steady, Sees Receding Hit From Iran W" | kw:boj
+2026-07-09 08:51 ACCEPT [Google News CB] "Yields hit three-decade highs as BOJ behind-the-curve narrative debate" | kw:boj
+2026-07-09 08:51 ACCEPT [Google News CB] "Malaysia Holds Rates on Modest Inflation, Resilient Growth - Bloomberg" | kw:inflation
+2026-07-09 08:51 SKIP_MORNING already_sent date=2026-07-09
