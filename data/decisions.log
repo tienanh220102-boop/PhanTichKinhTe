@@ -13524,3 +13524,13 @@
 2026-07-09 07:31 ACCEPT [Google News CB] "New York Fed: U.S. companies aren't finished raising prices because of" | kw:rice,tariff
 2026-07-09 07:31 ACCEPT [Google News CB] "Malaysia Holds Rates on Modest Inflation, Resilient Growth - Bloomberg" | kw:inflation
 2026-07-09 07:31 SKIP_MORNING already_sent date=2026-07-09
+2026-07-09 08:01 ACCEPT [Al Jazeera] "Flooding from Tropical Storm Maysak kills 39 in southern China" | kw:flood
+2026-07-09 08:01 ACCEPT [Google News HH] "US revokes temporary waiver authorising Iranian crude oil exports - En" | kw:oil,crude
+2026-07-09 08:01 ACCEPT [Google News HH] "Commodities: U.S.-Iran Ceasefire Breakdown Pushes Oil Higher - Seeking" | kw:oil,commodities
+2026-07-09 08:01 ACCEPT [Google News HH] "UBS Group: Downgrades Brent crude oil price forecasts for this year an" | kw:oil,crude,brent
+2026-07-09 08:01 ACCEPT [Google News HH] "Gold Price in India Falls Today: Check Latest Rates and Market Impact " | kw:gold,rice
+2026-07-09 08:01 ACCEPT [Google News NS] "Updated procurement prices for grain in Ukraine - Новини аграрного біз" | kw:rice
+2026-07-09 08:01 ACCEPT [Google News CB] "Taiwan central bank chief warns of AI bubble risk - Reuters" | kw:central bank
+2026-07-09 08:01 ACCEPT [Google News CB] "Dollar stands tall as new Gulf attacks fuel oil price surge, Fed hike " | kw:oil,fuel,rice
+2026-07-09 08:01 ACCEPT [Google News CB] "Egypt Inflation Eases for Third Month Before Rate Decision - Bloomberg" | kw:inflation,rate decision
+2026-07-09 08:01 SKIP_MORNING already_sent date=2026-07-09
