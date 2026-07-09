@@ -13452,3 +13452,6 @@
 2026-07-09 04:01 ACCEPT [Google News KL] "Gold sees more pain as Iran tensions revive inflation fears - FXStreet" | kw:gold,inflation
 2026-07-09 04:01 ACCEPT [Google News NS] "Corn Rally Stalls as Markets Turn Cautious Ahead of Key USDA Report - " | kw:corn
 2026-07-09 04:01 SKIP_MORNING already_sent date=2026-07-09
+2026-07-09 04:31 ACCEPT [Google News KL] "Gold, silver prices today, 9 July: Check retail rates of 24K, 22K gold" | kw:wti,gold,silver
+2026-07-09 04:31 ACCEPT [Google News CB] "Gold falls as Middle East hostilities revive inflation woes - CNBC" | kw:gold,inflation
+2026-07-09 04:31 SKIP_MORNING already_sent date=2026-07-09
