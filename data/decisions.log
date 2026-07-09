@@ -13743,3 +13743,22 @@
 2026-07-09 15:01 ACCEPT [Google News CB] "Minutes from the ECB’s June meeting confirm rise in inflation risks - " | kw:inflation,ecb
 2026-07-09 15:01 SKIP_MORNING already_sent date=2026-07-09
 2026-07-09 15:01 SKIP_EVENING already_sent date=2026-07-09
+2026-07-09 15:31 ACCEPT [MarketWatch] "Home prices hit new all-time high, deepening affordability woes" | kw:rice
+2026-07-09 15:31 ACCEPT [OilPrice.com] "Indonesia Receives First Russian Crude Shipment Under April Supply Dea" | kw:oil,crude
+2026-07-09 15:31 ACCEPT [OilPrice.com] "Shippers Cool on Green Fuels as Costs Stay Too High" | kw:petroleum,fuel,shipping
+2026-07-09 15:31 ACCEPT [Mining.com] "Deep-sea mining threatens 60% of vent species: IUCN" | kw:easing
+2026-07-09 15:31 ACCEPT [Google News HH] "Next‑generation membranes can refine crude oil using under half the en" | kw:oil,crude
+2026-07-09 15:31 ACCEPT [Google News HH] "Iraq to continue to ask OPEC for fair production quota - Iraqi News" | kw:opec
+2026-07-09 15:31 ACCEPT [Google News HH] "United Arab Emirates says it will permanently leave OPEC on May 1 - ao" | kw:opec
+2026-07-09 15:31 ACCEPT [Google News HH] "Crude Oil Poised for Rebound as Inventory Draws and Short Positioning " | kw:oil,crude
+2026-07-09 15:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD remains stuck in a bearish channel - FX" | kw:silver,rice
+2026-07-09 15:31 ACCEPT [Google News KL] "TSX ticks higher as gold prices boost miners - marketscreener.com" | kw:gold,rice
+2026-07-09 15:31 ACCEPT [Google News NS] "KTIC 840 AM/98.3 FM/98.7 FM - Corn growers ask why they’re paying twic" | kw:corn
+2026-07-09 15:31 ACCEPT [Google News NS] "Grain futures turned lower as wheat snapped six-day rally. - CME Group" | kw:wheat
+2026-07-09 15:31 ACCEPT [Google News NS] "Ukraine's wheat bran export prices stabilize after sharp decline – APK" | kw:wheat,rice
+2026-07-09 15:31 ACCEPT [Google News NS] "USDA Grain Bids Report: Cash Prices, Basis Levels, and Export Data for" | kw:rice
+2026-07-09 15:31 ACCEPT [Google News CB] "Fed officials were split on direction of interest rates at last meetin" | kw:interest rate
+2026-07-09 15:31 ACCEPT [Google News CB] "Fed Officials Floated A Rate Hike In June, Minutes Show - Bisnow" | kw:rate hike
+2026-07-09 15:31 ACCEPT [Google News CB] "ECB Officials Couldn't Look Through Energy Shock in June -- Update - M" | kw:ecb
+2026-07-09 15:31 SKIP_MORNING already_sent date=2026-07-09
+2026-07-09 15:31 SKIP_EVENING already_sent date=2026-07-09
