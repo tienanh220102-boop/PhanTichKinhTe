@@ -13777,3 +13777,15 @@
 2026-07-09 16:01 ACCEPT [Google News CB] "Fed's Williams doesn't expect sustained surge in energy prices - Yahoo" | kw:rice
 2026-07-09 16:01 SKIP_MORNING already_sent date=2026-07-09
 2026-07-09 16:01 SKIP_EVENING already_sent date=2026-07-09
+2026-07-09 16:31 ACCEPT [MarketWatch] "Micron’s stock surges on multibillion-dollar U.S. manufacturing push" | kw:supply chain,easing
+2026-07-09 16:31 ACCEPT [Google News HH] "Gold Price Rebound Draws Investor Attention as EX DeFi Highlights AI-P" | kw:lng,gold,rice
+2026-07-09 16:31 ACCEPT [Google News HH] "US Stocks and Crude Oil Hold Steadier a Day After Swinging Sharply - U" | kw:oil,crude
+2026-07-09 16:31 ACCEPT [Google News HH] "CFTC blocks CME’s 24/7 crude oil futures trading launch By Investing.c" | kw:oil,crude
+2026-07-09 16:31 ACCEPT [Google News KL] "GDX vs. GDXJ: Do Senior or Junior Gold Miners Win the Gold Boom? - 24/" | kw:gold
+2026-07-09 16:31 ACCEPT [Google News NS] "From Kansas Fields to Global Markets: Millershaski Brings Perspective " | kw:wheat
+2026-07-09 16:31 ACCEPT [Google News NS] "Corn growers ask why they’re paying twice as much for key inputs as Br" | kw:corn
+2026-07-09 16:31 ACCEPT [Google News CB] "Fed’s Williams says AI is now his main inflation concern - Fortune" | kw:inflation
+2026-07-09 16:31 ACCEPT [Google News CB] "Fed’s Williams Says Inflation Still Too High, Expects Retreat in Energ" | kw:rice,inflation
+2026-07-09 16:31 ACCEPT [Google News CB] "Central bank raises Taiwan’s CPI forecast - Taipei Times" | kw:central bank
+2026-07-09 16:31 SKIP_MORNING already_sent date=2026-07-09
+2026-07-09 16:31 SKIP_EVENING already_sent date=2026-07-09
