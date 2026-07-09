@@ -13660,3 +13660,20 @@
 2026-07-09 12:36 ACCEPT [Google News CB] "ECB Officials Couldn’t Look Through Energy Shock in June - WSJ" | kw:ecb
 2026-07-09 12:36 ACCEPT [Google News CB] "Japan to mention BOJ independence in economic blueprint, Kyodo says - " | kw:boj
 2026-07-09 12:36 SKIP_MORNING already_sent date=2026-07-09
+2026-07-09 13:03 ACCEPT [The Guardian Biz] "US chemical accidents rising as Trump rolls back protections, report f" | kw:iron
+2026-07-09 13:03 ACCEPT [The Guardian Biz] "Half of Americans struggle to afford groceries and gas, exclusive poll" | kw:gas
+2026-07-09 13:03 ACCEPT [Al Jazeera] "Ukraine targets Russian oil depots and tankers in drone attacks" | kw:oil
+2026-07-09 13:03 ACCEPT [EIA Energy] "The United States produced more crude oil than any other country in 20" | kw:oil,crude
+2026-07-09 13:03 ACCEPT [NASDAQ Commod] "Genesis Minerals Launches US$3.9 Billion Bid for Vault Minerals" | kw:gold
+2026-07-09 13:03 ACCEPT [Google News HH] "HSBC Bank lowers its gold price forecasts for 2026 and 2027 - المتداول" | kw:gold,rice
+2026-07-09 13:04 ACCEPT [Google News KL] "Silver Price Analysis – Silver Risks Breakdown as US Interest Rates Su" | kw:silver,rice,interest rate
+2026-07-09 13:04 ACCEPT [Google News KL] "Freeport-McMoran: Is the Copper Stock Ready to Explode on Data Center " | kw:wti,copper
+2026-07-09 13:04 ACCEPT [Google News KL] "Gold to resume rally amid structural fiscal and geopolitical risks: HS" | kw:gold
+2026-07-09 13:04 ACCEPT [Google News NS] "Thailand responds to lagging rice exports - World-Grain.com" | kw:rice
+2026-07-09 13:04 ACCEPT [Google News CB] "ECB saw inflation rising despite nearly three expected hikes, accounts" | kw:inflation,ecb
+2026-07-09 13:04 ACCEPT [Google News CB] "ECB MINUTES OF 10-11 JUNE MEETING: IT'S IMPORTANT TO REFRAIN FROM GIVI" | kw:interest rate,ecb
+2026-07-09 13:04 ACCEPT [Google News CB] "Japan to mention BOJ independence in economic blueprint, Kyodo says - " | kw:boj
+2026-07-09 13:04 ACCEPT [Google News CB] "MORE ECB MINUTES: THERE WAS NO CONFLICT BETWEEN FINANCIAL STABILITY CO" | kw:monetary policy,ecb
+2026-07-09 13:04 SKIP_MORNING already_sent date=2026-07-09
+2026-07-09 13:04 DIRECTION_FIX NatGas: "tăng 0.58%" → "giảm 0.58%"
+2026-07-09 13:04 SENT_EVENING articles=20 date=2026-07-09 force=False
