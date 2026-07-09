@@ -13633,3 +13633,12 @@
 2026-07-09 11:50 ACCEPT [Google News NS] "U.S. corn farmers paying far more for inputs than Brazilian competitor" | kw:corn
 2026-07-09 11:50 ACCEPT [Google News CB] "Dollar stands tall as Gulf tensions fuel oil price surge, Fed hike bet" | kw:oil,fuel,rice
 2026-07-09 11:50 SKIP_MORNING already_sent date=2026-07-09
+2026-07-09 12:01 ACCEPT [MarketWatch] "PepsiCo cuts prices on snacks. It’s not enough to drive growth in Nort" | kw:rice
+2026-07-09 12:01 ACCEPT [MarketWatch] "A warning for the U.S. dollar: The historic bond-market buffer that pr" | kw:central bank
+2026-07-09 12:01 ACCEPT [Google News HH] "Crude Oil Jumped to $74, and a Tiny Crypto Token Saw It Coming - Crypt" | kw:oil,crude
+2026-07-09 12:01 ACCEPT [Google News KL] "Bernstein Lifts Copper Outlook Despite Ongoing Macro Challenges - Yaho" | kw:copper
+2026-07-09 12:01 ACCEPT [Google News KL] "India's gold prices ease but remain above global rates - MSN" | kw:gold,rice
+2026-07-09 12:01 ACCEPT [Google News KL] "Gold struggles for momentum as US-Iran tensions, hawkish Fed bets weig" | kw:gold,gdp
+2026-07-09 12:01 ACCEPT [Google News CB] "Fed divided on interest rates as AI spending raises fresh inflation co" | kw:inflation,interest rate
+2026-07-09 12:01 ACCEPT [Google News CB] "Egypt June annual core inflation rises to 14.3% - central bank - Tradi" | kw:inflation,central bank
+2026-07-09 12:01 SKIP_MORNING already_sent date=2026-07-09
