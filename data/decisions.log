@@ -13534,3 +13534,8 @@
 2026-07-09 08:01 ACCEPT [Google News CB] "Dollar stands tall as new Gulf attacks fuel oil price surge, Fed hike " | kw:oil,fuel,rice
 2026-07-09 08:01 ACCEPT [Google News CB] "Egypt Inflation Eases for Third Month Before Rate Decision - Bloomberg" | kw:inflation,rate decision
 2026-07-09 08:01 SKIP_MORNING already_sent date=2026-07-09
+2026-07-09 08:31 ACCEPT [OilPrice.com] "Goldman Sachs Sounds Alarm Over Fresh Threat to Global Oil Supplies" | kw:oil,gold,commodity
+2026-07-09 08:31 ACCEPT [Google News KL] "Silver's price is down 49% since January. Is it still a good investmen" | kw:silver,rice
+2026-07-09 08:31 ACCEPT [Google News KL] "Gold prices tiptoe up - VnExpress International" | kw:gold,rice
+2026-07-09 08:32 ACCEPT [Google News CB] "Taiwan central bank chief warns of AI bubble risk - Yahoo Finance" | kw:central bank
+2026-07-09 08:32 SKIP_MORNING already_sent date=2026-07-09
