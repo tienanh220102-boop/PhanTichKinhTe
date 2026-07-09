@@ -13425,3 +13425,9 @@
 2026-07-09 02:01 ACCEPT [Google News KL] "The Fed Is Split 9 to 8. Gold and Silver Are Paying the Price — Until " | kw:gold,silver,rice
 2026-07-09 02:01 ACCEPT [Google News CB] "Fed minutes: Officials deeply divided over future path of US inflation" | kw:inflation
 2026-07-09 02:01 SKIP_MORNING already_sent date=2026-07-09
+2026-07-09 02:31 ACCEPT [CNBC Economy] "China consumer price growth weakens in June while producer inflation r" | kw:rice,inflation,easing
+2026-07-09 02:31 ACCEPT [Google News HH] "Gold Price Outlook: Bulls Weigh the Odds of Another Bounce Above $4,00" | kw:gold,rice
+2026-07-09 02:31 ACCEPT [Google News HH] "Crude Oil Trading Alert: U.S.-Iran Tensions Escalate Again—Are Oil Bul" | kw:oil,crude
+2026-07-09 02:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD rebounds above $58.00 despite inflation" | kw:silver,rice,inflation
+2026-07-09 02:31 ACCEPT [Google News CB] "Former central bank official issues interest rate warning: Bank of Jap" | kw:central bank,interest rate,bank of japan
+2026-07-09 02:31 SKIP_MORNING already_sent date=2026-07-09
