@@ -13610,3 +13610,14 @@
 2026-07-09 11:06 ACCEPT [Google News CB] "Morning Business Report: Fed signals inflation concerns as markets rea" | kw:inflation
 2026-07-09 11:06 ACCEPT [Google News CB] "UBS favors New Zealand dollar after central bank rate hike - Investing" | kw:central bank,rate hike
 2026-07-09 11:06 SKIP_MORNING already_sent date=2026-07-09
+2026-07-09 11:31 ACCEPT [OilPrice.com] "Pakistan Rushes to Buy Emergency LNG After Qatar Cargo Is Canceled" | kw:lng
+2026-07-09 11:31 ACCEPT [NASDAQ Commod] "Adrián Godás: Rare Earths Have Become a Geopolitical Market" | kw:gas,rice,supply chain
+2026-07-09 11:31 ACCEPT [Google News HH] "EIA increases global oil production forecast after the opening of the " | kw:oil
+2026-07-09 11:31 ACCEPT [Google News HH] "Crude Oil Jumped to $74, and a Tiny Crypto Token Saw It Coming - BeInC" | kw:oil,crude
+2026-07-09 11:31 ACCEPT [Google News KL] "Bernstein sees higher gold prices in H2’26, sets new price target - In" | kw:gold,rice
+2026-07-09 11:31 ACCEPT [Google News KL] "RBC Capital Cuts Alamos Gold Price Target to $42 From $52, Maintains O" | kw:gold,rice
+2026-07-09 11:31 ACCEPT [Google News KL] "Sandfire Resources America Delivers Black Butte Copper PFS - GlobeNews" | kw:copper
+2026-07-09 11:31 ACCEPT [Google News KL] "Gold and Silver Forecast: Are Precious Metals Near a Major Turning Poi" | kw:gold,silver
+2026-07-09 11:31 ACCEPT [Google News NS] "Russian wheat supply keeps pressure on grain market - DCA Market Intel" | kw:wheat
+2026-07-09 11:31 ACCEPT [Google News CB] "EBRD and Central Bank of Jordan strengthen compliance and financial cr" | kw:central bank
+2026-07-09 11:31 SKIP_MORNING already_sent date=2026-07-09
