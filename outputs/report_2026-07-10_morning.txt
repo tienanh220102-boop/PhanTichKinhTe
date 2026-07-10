@@ -1,0 +1,100 @@
+[BẢNG SỐ LIỆU]
+               Giá   Phiên  5 phiên
+WTI          71.85   -2.3%    +4.8%
+Brent        76.04   -2.5%    +6.2%
+Khí TN       3.016   -6.1%    -6.3%
+Vàng      4,131.00   +1.5%    +1.5%
+Bạc          60.29   +3.7%    +0.3%
+Đồng         6.244   +3.1%    +2.0%
+Ngô         450.75   +3.7%    +7.1%
+Lúa mì      617.75   +3.0%    +4.3%
+Đậu t.    1,179.75   -1.3%    +4.8%
+DXY         100.93   -0.1%    -0.5%
+
+📊 Khối lượng giao dịch cao bất thường (dòng tiền đang chú ý): Brent 1.7× bình thường, Bạc 1.6× bình thường
+
+[LIÊN THỊ TRƯỜNG]
+  Brent−WTI: $4.19 (1 tháng trước: $2.95) — spread rộng = cung WTI dồi dào tương đối
+  Vàng/Bạc: 68.5 (1 tháng trước: 63.4) — tỷ lệ cao = bạc rẻ tương đối so với vàng
+  Đồng/Vàng (×1000): 1.51 (1 tháng trước: 1.46) — tăng = risk-on/kỳ vọng tăng trưởng
+
+[VỊ THẾ QUỸ ĐẦU CƠ — CFTC COT tuần 2026-06-30]
+  Lúa mì (SRW): NET SHORT -55,004 (Δ tuần: -6,593)
+  Ngô: NET LONG +64,177 (Δ tuần: +5,844)
+  Đậu tương: NET LONG +76,627 (Δ tuần: -24,217)
+  Dầu WTI: NET LONG +6,805 (Δ tuần: -10,619)
+  Bạc: NET LONG +27,368 (Δ tuần: +3,617)
+  Đồng: NET LONG +64,788 (Δ tuần: -6,832)
+  Vàng XAU: NET LONG +194,019 (Δ tuần: +12,680)
+→ NET LONG = quỹ đặt cược giá tăng; Δ dương = dòng tiền đầu cơ đang vào
+
+Dưới đây là báo cáo phân tích thị trường hàng hóa phiên sáng ngày 2026-07-10:
+
+---
+**BÁO CÁO PHÂN TÍCH THỊ TRƯỜNG HÀNG HÓA PHIÊN SÁNG (07:00 VN) NGÀY 2026-07-10**
+
+🔀 **ĐỐI CHIẾU NGUỒN TIN**
+• Có sự mâu thuẫn trong các tin tức về giá dầu thô. Một số nguồn (NASDAQ Commod, USA Today, Yahoo Finance) cho rằng giá dầu tăng do căng thẳng Iran và lo ngại lạm phát. Ngược lại, các nguồn khác (Kitco, Moomoo, Barchart.com, marketscreener.com) lại báo cáo giá dầu giảm do căng thẳng Mỹ-Iran được cho là "hạn chế leo thang" hoặc "hạ nhiệt". Điều này tạo ra sự không chắc chắn về động lực giá dầu trong ngắn hạn.
+
+🌍 **VĨ MÔ & TIN TỨC NỔI BẬT**
+• Căng thẳng địa chính trị giữa Mỹ và Iran tiếp tục là tâm điểm, ban đầu gây lo ngại về lạm phát và lãi suất, nhưng sau đó được đánh giá là "hạn chế leo thang", góp phần làm giá dầu thô giảm trong phiên.
+• Đồng USD suy yếu nhẹ (-0.12%) đã hỗ trợ một số kim loại quý, trong khi kỳ vọng về việc Cục Dự trữ Liên bang (Fed) cắt giảm lãi suất vẫn còn hạn chế do lo ngại lạm phát.
+• Thị trường chứng khoán Mỹ tăng điểm, được hỗ trợ bởi giá dầu thô giảm và lãi suất giảm, cho thấy tâm lý thị trường có phần tích cực hơn.
+
+🛢️ **NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên**
+Xu hướng: WTI GIẢM | Brent GIẢM | Khí TN SIDEWAY
+Thiên hướng KT: WTI Nghiêng giảm | Brent Nghiêng giảm | Khí TN Trung tính
+Ngưỡng giá: WTI 67.04–76.08 | Brent 70.14–80.57 | Khí TN 3.005–3.355
+Phân tích:
+• Giá dầu WTI giảm 2.27% và Brent giảm 2.54% trong phiên, sau khi tăng mạnh 4.77% và 6.25% trong 5 phiên trước. Sự giảm giá này được cho là do đánh giá căng thẳng Mỹ-Iran "hạn chế leo thang", làm giảm bớt lo ngại về gián đoạn nguồn cung.
+• Mặc dù giá giảm trong phiên, xu hướng trung hạn của cả WTI và Brent vẫn đang giảm, với giá hiện tại nằm dưới đường trung bình 20 phiên. Các quỹ đầu cơ lớn đã giảm đáng kể vị thế đặt cược giá tăng đối với dầu WTI trong tuần qua.
+• Giá khí tự nhiên giảm mạnh 6.10% trong phiên và giảm 6.34% trong 5 phiên, duy trì xu hướng trung hạn đi ngang. Tin tức về nguy cơ thiếu hụt nhiên liệu mùa đông ở Anh (nếu mỏ khí Jackdaw không được phê duyệt) cho thấy rủi ro nguồn cung cục bộ, nhưng chưa tác động đến giá toàn cầu.
+Rủi ro:
+• Căng thẳng địa chính trị ở Trung Đông vẫn là yếu tố rủi ro chính, có thể nhanh chóng thay đổi tâm lý thị trường và đẩy giá dầu tăng trở lại nếu có bất kỳ leo thang nào.
+• Mùa bão ở Vịnh Mexico đang ở đỉnh điểm, tiềm ẩn rủi ro gián đoạn sản xuất dầu khí, có thể gây biến động mạnh cho giá năng lượng.
+
+🥇 **KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc**
+Xu hướng: Vàng GIẢM | Bạc GIẢM
+Thiên hướng KT: Vàng Nghiêng giảm | Bạc Nghiêng giảm
+Ngưỡng giá: Vàng 4,053.00–4,199.70 | Bạc 57.76–62.62
+Phân tích:
+• Giá vàng tăng 1.48% và bạc tăng mạnh 3.66% trong phiên, sau khi đồng USD suy yếu nhẹ và giá dầu thô hạ nhiệt. Điều này giúp giảm bớt lo ngại về lạm phát và lãi suất, tạo điều kiện cho dòng tiền chảy vào kim loại quý.
+• Mặc dù tăng trong phiên, cả vàng và bạc vẫn đang trong xu hướng giảm trung hạn, với giá hiện tại nằm dưới đường trung bình 20 phiên. Tỷ lệ Vàng/Bạc ở mức 68.5 cho thấy bạc vẫn đang rẻ tương đối so với vàng.
+• Các quỹ đầu cơ lớn đã tăng vị thế đặt cược giá tăng đối với cả vàng và bạc trong tuần qua, cho thấy sự quan tâm trở lại đối với nhóm tài sản này.
+Rủi ro:
+• Kỳ vọng về chính sách tiền tệ của Fed và diễn biến lạm phát vẫn là yếu tố chi phối. Nếu Fed tiếp tục giữ quan điểm cứng rắn hoặc lạm phát tăng trở lại, giá vàng và bạc có thể chịu áp lực.
+• Sự biến động của đồng USD có thể nhanh chóng đảo chiều, ảnh hưởng trực tiếp đến sức hấp dẫn của kim loại quý.
+
+🌾 **NÔNG SẢN — Ngô, Đậu tương, Lúa mì**
+Xu hướng: Ngô SIDEWAY | Lúa mì SIDEWAY | Đậu tương SIDEWAY
+Thiên hướng KT: Ngô Trung tính | Lúa mì Trung tính | Đậu tương Trung tính
+Ngưỡng giá: Ngô 421.00–451.00 | Lúa mì 593.38–619.00 | Đậu tương 1,134.40–1,207.75
+Phân tích:
+• Giá ngô tăng 3.68% và lúa mì tăng 3.04% trong phiên, tiếp tục đà tăng mạnh trong 5 phiên qua (ngô tăng 7.07%, lúa mì tăng 4.35%). Cả hai mặt hàng đều đang giao dịch trên đường trung bình 20 phiên, cho thấy động lực tích cực.
+• Giá đậu tương giảm 1.28% trong phiên, mặc dù vẫn tăng 4.75% trong 5 phiên. Các quỹ đầu cơ lớn đã giảm vị thế đặt cược giá tăng đối với đậu tương trong tuần qua, trong khi tăng vị thế đặt cược giá tăng cho ngô và giảm vị thế đặt cược giá giảm cho lúa mì.
+• Tháng 7 là thời điểm đỉnh điểm thụ phấn của ngô tại Mỹ, khiến thị trường nông sản nhạy cảm với thời tiết. Báo cáo Cung cầu Nông nghiệp Thế giới (WASDE) sắp tới cũng là yếu tố quan trọng được thị trường chờ đợi.
+Rủi ro:
+• Thời tiết bất lợi tại các vùng trồng trọt chính của Mỹ trong giai đoạn thụ phấn của ngô có thể gây biến động giá mạnh. Báo cáo WASDE sắp tới cũng có thể tạo ra những thay đổi lớn về cung cầu.
+• Diễn biến thu hoạch lúa mì ở Bắc Bán Cầu và nhu cầu từ các nước nhập khẩu lớn như Việt Nam (đối với ngô/đậu tương) sẽ ảnh hưởng đến giá.
+
+🔩 **KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken**
+Xu hướng: Đồng SIDEWAY
+Thiên hướng KT: Đồng Trung tính
+Ngưỡng giá: Đồng 6.230–6.255
+Phân tích:
+• Giá đồng tăng 3.13% trong phiên và tăng 1.97% trong 5 phiên, duy trì xu hướng trung hạn đi ngang và giao dịch trên đường trung bình 20 phiên. Điều này cho thấy tâm lý thị trường có phần "ưa rủi ro" và kỳ vọng tăng trưởng kinh tế.
+• Tỷ lệ Đồng/Vàng tăng lên 1.51, cao hơn so với tháng trước, củng cố nhận định về tâm lý thị trường đang nghiêng về các tài sản rủi ro hơn và kỳ vọng vào tăng trưởng kinh tế toàn cầu.
+• Nhu cầu đồng được hỗ trợ bởi mùa xây dựng mạnh mẽ và nhu cầu điều hòa không khí cao tại Trung Quốc trong tháng 7.
+Rủi ro:
+• Bất kỳ dấu hiệu suy yếu nào trong tăng trưởng kinh tế toàn cầu, đặc biệt là từ Trung Quốc, có thể gây áp lực lên giá đồng.
+• Các quỹ đầu cơ lớn đã giảm vị thế đặt cược giá tăng đối với đồng trong tuần qua, cho thấy sự thận trọng nhất định.
+
+📋 **KHUYẾN NGHỊ PHIÊN**
+• Dầu WTI: Quan sát vùng giá $71.85. Nếu giá duy trì dưới $72.00, có thể xem xét vị thế bán ngắn hạn với mục tiêu $70.00 và cắt lỗ trên $73.00.
+• Vàng: Giá đang ở mức $4131.00. Nếu giá vượt qua $4140.00 (gần đường trung bình 20 phiên), có thể xem xét vị thế mua với mục tiêu $4180.00 và cắt lỗ dưới $4100.00.
+• Ngô: Giá đang ở mức $450.75. Nếu giá duy trì trên $445.00, có thể xem xét vị thế mua với mục tiêu $455.00 và cắt lỗ dưới $440.00.
+
+⚠️ **THEO DÕI PHIÊN**
+• Diễn biến căng thẳng địa chính trị ở Trung Đông và các tuyên bố liên quan từ Mỹ/Iran.
+• Báo cáo Cung cầu Nông nghiệp Thế giới (WASDE) của USDA (nếu có lịch công bố trong phiên).
+• Các chỉ số kinh tế vĩ mô quan trọng của Mỹ (nếu có) có thể ảnh hưởng đến đồng USD và tâm lý thị trường.
