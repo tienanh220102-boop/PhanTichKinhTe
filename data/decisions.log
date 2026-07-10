@@ -14086,3 +14086,11 @@
 2026-07-10 05:31 ACCEPT [Google News NS] "Commodity markets daily recap - St Joseph Post" | kw:commodity
 2026-07-10 05:31 ACCEPT [Google News CB] "NY Fed Says Mid-Atlantic Firms Aren’t Done Passing on Tariff Costs - I" | kw:tariff
 2026-07-10 05:31 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 06:01 ACCEPT [OilPrice.com] "Oil Prices Set for Weekly Gain as Hormuz Tensions Escalate" | kw:oil,crude,brent
+2026-07-10 06:01 ACCEPT [Google News HH] "Palm Oil Falls on Lower Soybean Oil, Crude Oil Prices -- Market Talk -" | kw:oil,crude,soybean
+2026-07-10 06:01 ACCEPT [Google News HH] "Gold price prediction: Will gold price see a bullish movement? Check J" | kw:gold,rice
+2026-07-10 06:01 ACCEPT [Google News KL] "Gold heads for weekly drop as Gulf attacks reinforce rate-hike bets - " | kw:gold
+2026-07-10 06:01 ACCEPT [Google News KL] "Gold Trading Alert: Amid the dual tug-of-war between military tensions" | kw:gold,rice,rate hike
+2026-07-10 06:01 ACCEPT [Google News NS] "Corn futures settle mid-range ahead of July WASDE data. - CME Group" | kw:corn
+2026-07-10 06:01 ACCEPT [Google News CB] "PBOC Sets Fixing Below 6.8 Per Dollar for First Time Since 2023 - Bloo" | kw:pboc
+2026-07-10 06:01 SKIP_MORNING already_sent date=2026-07-10
