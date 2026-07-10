@@ -14166,3 +14166,15 @@
 2026-07-10 10:31 ACCEPT [Google News KL] "Gold, silver prices fall as US-Iran tensions lift dollar - MSN" | kw:gold,silver,rice
 2026-07-10 10:31 ACCEPT [Google News KL] "Gold holds firm, silver slips as markets eye US-Iran deal, Fed meet - " | kw:gold,silver
 2026-07-10 10:31 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 11:01 ACCEPT [MarketWatch] "Delta reports record revenue and a profit beat, even as fuel costs sur" | kw:fuel
+2026-07-10 11:01 ACCEPT [Google News HH] "Next‑generation membranes can refine crude oil using under half the en" | kw:oil,crude
+2026-07-10 11:01 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD wavers around $4,100 with the bearish tre" | kw:gold,rice
+2026-07-10 11:01 ACCEPT [Google News HH] "Gold price forecasts lowered to $4,560 for 2026 as stronger dollar, Fe" | kw:gold,rice
+2026-07-10 11:01 ACCEPT [Google News KL] "Gold Slips Toward Weekly Decline as Inflation Concerns Eclipse Safe-Ha" | kw:gold,inflation
+2026-07-10 11:01 ACCEPT [Google News KL] "Gold slips on inflation fears tied to US-Iran conflict - Shafaq News |" | kw:gold,inflation
+2026-07-10 11:01 ACCEPT [Google News KL] "Gold dips as escalating US-Iran conflict fuels inflation concerns - Tr" | kw:fuel,gold,inflation
+2026-07-10 11:01 ACCEPT [Google News NS] "First Thing Today | USDA S&D report on deck; corn, bean bulls need a s" | kw:corn
+2026-07-10 11:01 ACCEPT [Google News NS] "Has the 2026 corn low been printed? - Agweek" | kw:corn
+2026-07-10 11:01 ACCEPT [Google News NS] "China demand, biofuels policy fuel better 2026 soybean profit outlook " | kw:fuel,soybean
+2026-07-10 11:01 ACCEPT [Google News CB] "Fed officials fret over inflation risk, weigh rate hikes - The Mighty " | kw:inflation,rate hike
+2026-07-10 11:01 SKIP_MORNING already_sent date=2026-07-10
