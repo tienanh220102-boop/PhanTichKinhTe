@@ -14108,3 +14108,7 @@
 2026-07-10 06:59 ACCEPT [Google News NS] "Grain-Oriented Electrical Steel Market Forecast 2035 | Market - openPR" | kw:steel
 2026-07-10 06:59 ACCEPT [Google News NS] "Soybean Futures Experience Mixed Midday Trading After Massive Sale to " | kw:soybean
 2026-07-10 06:59 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 07:01 ACCEPT [Google News KL] "ASIA GOLD Gold discounts in India deepen as volatility hurts demand; p" | kw:gold
+2026-07-10 07:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD rises as oil prices correct, US Dollar " | kw:oil,silver,rice
+2026-07-10 07:01 ACCEPT [Google News CB] "Syria Taps Safwat Raslan to Lead Central Bank - Global Finance Magazin" | kw:central bank
+2026-07-10 07:01 SKIP_MORNING already_sent date=2026-07-10
