@@ -14021,3 +14021,10 @@
 2026-07-10 00:01 GEMINI ERROR gemini-2.5-flash-lite This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
 2026-07-10 00:01 SKIP_MORNING gemini_no_result date=2026-07-10
 2026-07-10 00:32 SENT_MORNING articles=20 date=2026-07-10 force=False
+2026-07-10 01:01 ACCEPT [Al Jazeera] "China expands anti-sanctions toolkit, raising risks for foreign firms" | kw:sanction
+2026-07-10 01:01 ACCEPT [Google News HH] "CFTC Puts CME's 24/7 Crude Oil Contract Trading On Ice - Law360" | kw:oil,crude
+2026-07-10 01:01 ACCEPT [Google News HH] "JAPAN JUNE CGPI KEY ENERGY PRICES: CRUDE OIL/COAL PRODUCTS +22.8% Y/Y " | kw:oil,crude,rice
+2026-07-10 01:01 ACCEPT [Google News KL] "Gold and Silver Price Analysis July 2026: Fed Policy Impact & Outlook " | kw:gold,silver,rice
+2026-07-10 01:01 ACCEPT [Google News KL] "Is Barrick Mining (TSX:ABX) A Bargain Following Gold Price Weakness An" | kw:gold,rice
+2026-07-10 01:01 ACCEPT [Google News NS] "Corn and Soybean Basis Defies Seasonal Trend - Hoosier Ag Today" | kw:corn,soybean
+2026-07-10 01:01 SKIP_MORNING already_sent date=2026-07-10
