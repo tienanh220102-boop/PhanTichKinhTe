@@ -14014,3 +14014,9 @@
 2026-07-09 23:58 ACCEPT [Google News KL] "Used Gold Rolex Prices Have Slipped Since April - The Business of Fash" | kw:gold,rice
 2026-07-09 23:58 ACCEPT [Google News KL] "Gold rebounds, silver soars as easing oil, softer dollar lift metals -" | kw:oil,gold,silver
 2026-07-09 23:58 ACCEPT [Google News KL] "Gold recovers above $4,100 as traders assess US-Iran conflict - FXStre" | kw:gold
+2026-07-10 00:01 ACCEPT [OilPrice.com] "The Coming Power War That Will Define the AI Era" | kw:oil
+2026-07-10 00:01 ACCEPT [Google News KL] "Is Barrick Mining (TSX:ABX) A Bargain Following Gold Price Weakness An" | kw:gold,rice
+2026-07-10 00:01 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-07-10 00:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
+2026-07-10 00:01 GEMINI ERROR gemini-2.5-flash-lite This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-07-10 00:01 SKIP_MORNING gemini_no_result date=2026-07-10
