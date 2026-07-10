@@ -14071,3 +14071,9 @@
 2026-07-10 04:01 ACCEPT [Google News HH] "Dollar Falls as Stocks Rally and Crude Oil Retreats - TradingView" | kw:oil,crude
 2026-07-10 04:01 ACCEPT [Google News CB] "PBOC Sets Fixing Below 6.8 Per Dollar for First Time Since 2023 - Bloo" | kw:pboc
 2026-07-10 04:01 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 04:31 ACCEPT [Google News KL] "Silver and Copper Are Outpacing Gold in 2026 and After Following Indus" | kw:gold,silver,copper
+2026-07-10 04:31 ACCEPT [Google News KL] "Everything Is Gold, Gold, Gold: What About Investing in Silver or Plat" | kw:gold,silver
+2026-07-10 04:31 ACCEPT [Google News KL] "Gold prices rise - VnExpress International" | kw:lng,gold,rice
+2026-07-10 04:31 ACCEPT [Google News KL] "Vietnam dong, gold rates - July 10 - TradingView" | kw:gold
+2026-07-10 04:31 ACCEPT [Google News NS] "Yellow Corn vs. White Corn: A Corn Farmer from Iowa Explains the Diffe" | kw:corn
+2026-07-10 04:31 SKIP_MORNING already_sent date=2026-07-10
