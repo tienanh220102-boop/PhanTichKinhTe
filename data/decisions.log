@@ -14154,3 +14154,10 @@
 2026-07-10 10:01 ACCEPT [Google News NS] "New wheat flour prices notified as Karachi faces supply crisis - 24New" | kw:wheat,rice
 2026-07-10 10:01 ACCEPT [Google News CB] "Fed’s Logan Warns US Oil Production Won’t Fill Global Supply Gap - Ene" | kw:oil
 2026-07-10 10:01 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 10:24 ACCEPT [Google News KL] "Current price of silver as of Friday, July 10, 2026 - Fortune" | kw:silver,rice
+2026-07-10 10:24 ACCEPT [Google News KL] "Gold Heads for Weekly Loss as Middle East Tensions Boost Rate Concerns" | kw:gold
+2026-07-10 10:24 ACCEPT [Google News KL] "Gold dips as Gulf tensions bolster rate-hike expectations - MSN" | kw:gold
+2026-07-10 10:24 ACCEPT [Google News KL] "Gold prices drop 26% from January peak, spurring investor moves - MSN" | kw:fuel,gold,rice
+2026-07-10 10:24 ACCEPT [Google News NS] "Pakistan's price controls deepen Karachi flour crisis as official rate" | kw:rice
+2026-07-10 10:24 ACCEPT [Google News CB] "Fed officials fret over inflation risk, weigh rate hikes - Reuters" | kw:inflation,rate hike
+2026-07-10 10:24 SKIP_MORNING already_sent date=2026-07-10
