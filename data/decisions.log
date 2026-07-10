@@ -14240,3 +14240,12 @@
 2026-07-10 14:01 ACCEPT [Google News CB] "Two Polish central bankers see no rush to cut rates after summer - Reu" | kw:central bank
 2026-07-10 14:01 SKIP_MORNING already_sent date=2026-07-10
 2026-07-10 14:01 SKIP_EVENING already_sent date=2026-07-10
+2026-07-10 14:31 ACCEPT [The Guardian Biz] "Apollo gatecrashes easyJet sale with surprise £5.7bn takeover offer – " | kw:oil,rice
+2026-07-10 14:31 ACCEPT [OilPrice.com] "UAE Oil Output Hits All-Time High, Doubling Pre-Crisis Levels" | kw:oil,crude,opec
+2026-07-10 14:31 ACCEPT [Google News HH] "Inflation Concerns and Rising Crude Oil Prices Mean You Should Sell U." | kw:oil,crude,rice
+2026-07-10 14:31 ACCEPT [Google News HH] "Brent crude oil price on July 13, 2026 at 5:00 PM EDT - Robinhood" | kw:oil,crude,brent
+2026-07-10 14:31 ACCEPT [Google News KL] "Bernstein revamps gold price target on Fed-rate shift - thestreet.com" | kw:gold,rice
+2026-07-10 14:31 ACCEPT [Google News KL] "Rio Tinto may need to bulk up its copper pipeline, Swiss bank says - Y" | kw:copper
+2026-07-10 14:31 ACCEPT [Google News CB] "Fed announces membership of monetary policy task forces; PayPal boosts" | kw:monetary policy
+2026-07-10 14:31 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 14:31 SKIP_EVENING already_sent date=2026-07-10
