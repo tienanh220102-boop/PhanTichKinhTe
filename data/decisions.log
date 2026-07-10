@@ -14128,3 +14128,21 @@
 2026-07-10 08:31 ACCEPT [Google News CB] "Yuan Gains as PBOC Sets Fix Below 6.8 for First Time Since 2023 - Bloo" | kw:pboc
 2026-07-10 08:31 SKIP_MORNING already_sent date=2026-07-10
 2026-07-10 09:01 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 09:31 ACCEPT [OilPrice.com] "Fuel Refining Margins Hit Record Highs as Markets Tighten" | kw:crude,gas,fuel
+2026-07-10 09:31 ACCEPT [Google News HH] "Cero Generation and Danske Commodities sign agreement for 140 MWh batt" | kw:commodities
+2026-07-10 09:31 ACCEPT [Google News HH] "Crude Oil Forecast: Stalls as US-Iran War Fears Price Out - DailyForex" | kw:oil,crude,rice
+2026-07-10 09:31 ACCEPT [Google News HH] "Brent Crude Oil Futures Fall 1% to $75.56, WTI Crude Oil Futures Decli" | kw:oil,crude,brent
+2026-07-10 09:31 ACCEPT [Google News HH] "UAE boosts crude oil production to all-time high after OPEC exit, and " | kw:oil,crude,opec
+2026-07-10 09:31 ACCEPT [Google News HH] "Brent, WTI Crude Oil Futures Slip Pre-Bell Amid Media Reports Washingt" | kw:oil,crude,brent
+2026-07-10 09:31 ACCEPT [Google News HH] "Crude oil futures gain on reports of Iranian strikes on US military ta" | kw:oil,crude
+2026-07-10 09:31 ACCEPT [Google News KL] "How much gold should you buy in retirement? Or do you need it at all? " | kw:gold
+2026-07-10 09:31 ACCEPT [Google News KL] "Equinox Gold Sells Versamet Stake for CA$130M as Gold Market Holds Fir" | kw:gold
+2026-07-10 09:31 ACCEPT [Google News KL] "HSBC Lowers 2026-27 Gold Price Forecasts on Hawkish Fed Tilt - GV Wire" | kw:gold,rice
+2026-07-10 09:31 ACCEPT [Google News KL] "Gold prices muted, set for weekly losses on Iran, rate jitters - Inves" | kw:gold,rice
+2026-07-10 09:31 ACCEPT [Google News KL] "Buying Against the Trend Amid Gold Price Plunge! Poland Central Bank H" | kw:gold,rice,central bank
+2026-07-10 09:31 ACCEPT [Google News NS] "StoneX Report Shines Light on Prices Under Pressure - Southeast AgNET" | kw:rice
+2026-07-10 09:31 ACCEPT [Google News CB] "Familiar counsel guide Argentina's Central Bank on US$6 billion repo d" | kw:central bank
+2026-07-10 09:31 ACCEPT [Google News CB] "Japan's Basic Economic Policy to Clarify BOJ Independence - nippon.com" | kw:boj
+2026-07-10 09:31 ACCEPT [Google News CB] "BOJ may raise growth forecast, maintain vigilance to inflation risk, s" | kw:inflation,boj
+2026-07-10 09:31 ACCEPT [Google News CB] "Polish rate-setter Wnorowski says talk of Sept rate cut premature - Re" | kw:rate cut
+2026-07-10 09:31 SKIP_MORNING already_sent date=2026-07-10
