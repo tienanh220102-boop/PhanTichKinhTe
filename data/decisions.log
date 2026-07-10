@@ -14094,3 +14094,11 @@
 2026-07-10 06:01 ACCEPT [Google News NS] "Corn futures settle mid-range ahead of July WASDE data. - CME Group" | kw:corn
 2026-07-10 06:01 ACCEPT [Google News CB] "PBOC Sets Fixing Below 6.8 Per Dollar for First Time Since 2023 - Bloo" | kw:pboc
 2026-07-10 06:01 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 06:31 ACCEPT [Google News HH] "Singapore Dollar Edges Higher Amid Lower Crude Oil Prices -- Market Ta" | kw:oil,crude,rice
+2026-07-10 06:31 ACCEPT [Google News KL] "Gold discounts in India deepen as volatility hurts demand; purchases i" | kw:gold
+2026-07-10 06:31 ACCEPT [Google News KL] "Gold Investment Strategy After July 2026 Price Decline | 3 Critical St" | kw:gold,rice
+2026-07-10 06:31 ACCEPT [Google News NS] "Turkey plans to harvest its largest grain harvest in years - електронн" | kw:harvest
+2026-07-10 06:31 ACCEPT [Google News NS] "Heat Dome Threatens US Corn Yields Ahead of Crucial USDA Supply Report" | kw:corn
+2026-07-10 06:31 ACCEPT [Google News NS] "Innovative post-harvest solutions strengthen food security and farmers" | kw:harvest
+2026-07-10 06:31 ACCEPT [Google News CB] "Syria Taps Raslan to Lead Central Bank - Global Finance Magazine" | kw:central bank
+2026-07-10 06:31 SKIP_MORNING already_sent date=2026-07-10
