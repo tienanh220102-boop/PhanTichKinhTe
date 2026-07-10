@@ -14054,3 +14054,9 @@
 2026-07-10 03:01 ACCEPT [Google News NS] "The corn signal: why Australian wheat growers can't afford to ignore i" | kw:wheat,corn
 2026-07-10 03:01 ACCEPT [Google News NS] "Amid diversification push, Ludhiana varsity experts vouch for baby cor" | kw:corn
 2026-07-10 03:01 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 03:17 ACCEPT [Al Jazeera] "Strait of Hormuz shipping grinds to halt as US, Iran resume fighting" | kw:crude,brent,shipping
+2026-07-10 03:17 ACCEPT [Google News HH] "Commodities intraday targets/key levels - TradingView" | kw:commodities
+2026-07-10 03:17 ACCEPT [Google News NS] "Malted Wheat Flour Market Size to Reach USD 20.77 Billion by 2031 as C" | kw:wheat,gdp
+2026-07-10 03:17 ACCEPT [Google News NS] "Yellow Corn vs. White Corn: A Corn Farmer from Iowa Explains the Diffe" | kw:corn
+2026-07-10 03:17 ACCEPT [Google News CB] "June FOMC Minutes Confirm Fed's Hawkish Pivot - Yardeni QuickTakes" | kw:fomc
+2026-07-10 03:17 SKIP_MORNING already_sent date=2026-07-10
