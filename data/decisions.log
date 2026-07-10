@@ -14280,3 +14280,17 @@
 2026-07-10 15:31 ACCEPT [Google News KL] "Gold jumps as oil slumps on US–Iran peace breakthrough - MSN" | kw:oil,gold
 2026-07-10 15:31 SKIP_MORNING already_sent date=2026-07-10
 2026-07-10 15:31 SKIP_EVENING already_sent date=2026-07-10
+2026-07-10 16:01 ACCEPT [OilPrice.com] "Oil’s Calm Is Over as Middle East Risks Return" | kw:oil,brent,rice
+2026-07-10 16:01 ACCEPT [OilPrice.com] "Russian Fuel Disruptions Push Central Asia Into an Energy Crisis" | kw:oil,fuel
+2026-07-10 16:01 ACCEPT [Google News HH] "U.S. stocks and crude oil prices drift to a quiet finish of a bumpy we" | kw:oil,crude,rice
+2026-07-10 16:01 ACCEPT [Google News HH] "$Crude Oil Futures (AUG6) (CLmain.US)$$Brent Last Day Financial Future" | kw:oil,crude,brent
+2026-07-10 16:01 ACCEPT [Google News HH] "Crude Oil Prices Slide as President Trump Said Iran Peace Talks to Con" | kw:oil,crude,rice
+2026-07-10 16:01 ACCEPT [Google News KL] "Gold prices fall for fourth day as Fed outlook turns hawkish - MSN" | kw:gold,rice
+2026-07-10 16:01 ACCEPT [Google News KL] "Gold dips as escalating US-Iran conflict fuels inflation concerns - Tr" | kw:fuel,gold,inflation
+2026-07-10 16:01 ACCEPT [Google News NS] "Specialty Corn and Soybean Market Opportunities - Successful Farming" | kw:corn,soybean
+2026-07-10 16:01 ACCEPT [Google News CB] "Czech Price Pressures Warrant Increased Caution for Central Bank - Blo" | kw:rice,central bank
+2026-07-10 16:01 ACCEPT [Google News CB] "Consumers Rack Up Credit Card Debt Amid Rising Prices and Looming Inte" | kw:rice,interest rate,rate hike
+2026-07-10 16:01 ACCEPT [Google News CB] "Turkey Central Bank Sees July Inflation as Key for Rate Outlook - Bloo" | kw:inflation,central bank
+2026-07-10 16:01 ACCEPT [Google News CB] "Interest rate-linked structured products: a look at the leading issuer" | kw:interest rate
+2026-07-10 16:01 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 16:01 SKIP_EVENING already_sent date=2026-07-10
