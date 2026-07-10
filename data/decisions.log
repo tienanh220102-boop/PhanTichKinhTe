@@ -14178,3 +14178,14 @@
 2026-07-10 11:01 ACCEPT [Google News NS] "China demand, biofuels policy fuel better 2026 soybean profit outlook " | kw:fuel,soybean
 2026-07-10 11:01 ACCEPT [Google News CB] "Fed officials fret over inflation risk, weigh rate hikes - The Mighty " | kw:inflation,rate hike
 2026-07-10 11:01 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 11:31 ACCEPT [MarketWatch] "Stocks are seeing increasingly wild swings post-earnings. Why even goo" | kw:easing
+2026-07-10 11:31 ACCEPT [OilPrice.com] "Oil Prices Rally on Renewed Hormuz Supply Risks" | kw:oil,crude,wti
+2026-07-10 11:31 ACCEPT [OilPrice.com] "Nord Stream Loses Landmark Insurance Case as War Exclusion Prevails" | kw:gas
+2026-07-10 11:31 ACCEPT [OilPrice.com] "ADNOC Orders $900 Million in New LNG Carriers to Expand Global Fleet" | kw:oil,gas,lng
+2026-07-10 11:31 ACCEPT [Google News HH] "Crude oil rises, gas prices may follow - AdVantageNews.com" | kw:oil,crude,gas
+2026-07-10 11:31 ACCEPT [Google News HH] "International Energy Agency: UAE's crude oil production in June hits r" | kw:oil,crude
+2026-07-10 11:31 ACCEPT [Google News HH] "Crude Oil Prices Stay Elevated On Multiple Market Concerns - MarketFor" | kw:oil,crude,rice
+2026-07-10 11:31 ACCEPT [Google News NS] "Chicago reacts more strongly to EU drought than Paris - DCA Market Int" | kw:drought
+2026-07-10 11:31 ACCEPT [Google News CB] "Fed officials fret over inflation risk, weigh rate hikes - SRN News" | kw:inflation,rate hike
+2026-07-10 11:31 ACCEPT [Google News CB] "Uh-Oh! The Fed Just Singled Out a New Inflationary Pressure, and It's " | kw:inflation
+2026-07-10 11:31 SKIP_MORNING already_sent date=2026-07-10
