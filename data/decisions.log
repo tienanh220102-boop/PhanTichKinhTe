@@ -14249,3 +14249,14 @@
 2026-07-10 14:31 ACCEPT [Google News CB] "Fed announces membership of monetary policy task forces; PayPal boosts" | kw:monetary policy
 2026-07-10 14:31 SKIP_MORNING already_sent date=2026-07-10
 2026-07-10 14:31 SKIP_EVENING already_sent date=2026-07-10
+2026-07-10 15:01 ACCEPT [Al Jazeera] "Ukraine chokes fuel to Crimea, Russian consumers, targeting military s" | kw:fuel
+2026-07-10 15:01 ACCEPT [Google News HH] "US stocks and crude oil prices drift to a quiet finish of a bumpy week" | kw:oil,crude,rice
+2026-07-10 15:01 ACCEPT [Google News KL] "Gold, silver soften as Hormuz oil risk keeps yields firm - Kitco AM Re" | kw:oil,gold,silver
+2026-07-10 15:01 ACCEPT [Google News KL] "Rio Tinto may need to bulk up its copper pipeline, Swiss bank says - Y" | kw:lng,copper
+2026-07-10 15:01 ACCEPT [Google News KL] "[SMM Analysis] Nickel Prices Consolidated at Lows This Week, Refined N" | kw:nickel,rice
+2026-07-10 15:01 ACCEPT [Google News NS] "European weather supports wheat prices - Iowa Agribusiness Radio Netwo" | kw:wheat,rice
+2026-07-10 15:01 ACCEPT [Google News NS] "Cambridge Contemporary Choir Festival returns to Cambridge Corn Exchan" | kw:corn
+2026-07-10 15:01 ACCEPT [Google News NS] "Ontario Wheat: Four Seasons of Risk and One Final Grade - DTN Progress" | kw:wheat
+2026-07-10 15:01 ACCEPT [Google News CB] "Trump says he will defer to Fed Chairman Kevin Warsh on rate hike befo" | kw:rate hike
+2026-07-10 15:01 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 15:01 SKIP_EVENING already_sent date=2026-07-10
