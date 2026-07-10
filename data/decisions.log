@@ -14204,3 +14204,8 @@
 2026-07-10 12:31 ACCEPT [Google News KL] "ASIA GOLD Gold discounts in India deepen as volatility hurts demand; p" | kw:gold
 2026-07-10 12:31 ACCEPT [Google News CB] "Climate litigation risk already here for banks and insurers, says ECB " | kw:central bank,ecb
 2026-07-10 12:31 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 12:39 ACCEPT [MarketWatch] "Delta absorbs highest fuel costs in its history, but also books record" | kw:fuel
+2026-07-10 12:39 ACCEPT [Google News HH] "War with Iran sends gas prices to biggest overnight jump since May - N" | kw:gas,rice
+2026-07-10 12:39 ACCEPT [Google News KL] "Silver prices today, Friday, July 10, 2026: Down 4% since Monday - Yah" | kw:silver,rice
+2026-07-10 12:39 ACCEPT [Google News NS] "[SMM Weekly Summary] Short-term spot grain-oriented silicon steel lack" | kw:steel,rice
+2026-07-10 12:39 SKIP_MORNING already_sent date=2026-07-10
