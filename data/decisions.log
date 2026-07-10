@@ -14060,3 +14060,9 @@
 2026-07-10 03:17 ACCEPT [Google News NS] "Yellow Corn vs. White Corn: A Corn Farmer from Iowa Explains the Diffe" | kw:corn
 2026-07-10 03:17 ACCEPT [Google News CB] "June FOMC Minutes Confirm Fed's Hawkish Pivot - Yardeni QuickTakes" | kw:fomc
 2026-07-10 03:17 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 03:31 ACCEPT [Google News KL] "Gold heads for weekly drop as Gulf attacks reinforce rate-hike bets - " | kw:gold
+2026-07-10 03:31 ACCEPT [Google News KL] "Gold and Silver Price Forecast: Weaker Dollar Drives Rebound as Breako" | kw:gold,silver,rice
+2026-07-10 03:31 ACCEPT [Google News KL] "Gold prices muted, head for weekly losses on Iran, rate jitters - Inve" | kw:gold,rice
+2026-07-10 03:31 ACCEPT [Google News KL] "Gold Price Forecast: 21-day SMA is yet again the level to beat for XAU" | kw:gold,rice
+2026-07-10 03:31 ACCEPT [Google News KL] "Amid recurring geopolitical tensions, gold prices are consolidating at" | kw:lng,gold,rice
+2026-07-10 03:31 SKIP_MORNING already_sent date=2026-07-10
