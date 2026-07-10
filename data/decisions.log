@@ -14294,3 +14294,20 @@
 2026-07-10 16:01 ACCEPT [Google News CB] "Interest rate-linked structured products: a look at the leading issuer" | kw:interest rate
 2026-07-10 16:01 SKIP_MORNING already_sent date=2026-07-10
 2026-07-10 16:01 SKIP_EVENING already_sent date=2026-07-10
+2026-07-10 16:31 ACCEPT [MarketWatch] "Delta faces jet-fuel jitters even as it sees strong travel demand" | kw:fuel
+2026-07-10 16:31 ACCEPT [OilPrice.com] "China Tightens Its Grip on Namibia's Next Energy Boom" | kw:oil
+2026-07-10 16:31 ACCEPT [NASDAQ Commod] "See How Worthington Steel Ranks Among Analysts' Top Metals Picks" | kw:steel
+2026-07-10 16:31 ACCEPT [Google News HH] "US Equity Indexes Mixed in Midday Trading While Crude Oil Extends Decl" | kw:oil,crude
+2026-07-10 16:31 ACCEPT [Google News HH] "Economist Reveals How Much Crude Oil Price Moves Will Affect Upcoming " | kw:oil,crude,rice
+2026-07-10 16:31 ACCEPT [Google News HH] "Sugar Prices Undercut by Weakness in Crude Oil - Barchart.com" | kw:oil,crude,rice
+2026-07-10 16:31 ACCEPT [Google News HH] "Arkansas Gas Prices Rise Amid Middle East Tensions and Climbing Crude " | kw:oil,crude,gas
+2026-07-10 16:31 ACCEPT [Google News HH] "Gold Price Today on July 10, 2026 - USA Today" | kw:gold,rice
+2026-07-10 16:31 ACCEPT [Google News HH] "UAE Oil Output Hits All-Time High, Doubling Pre-Crisis Levels - Crude " | kw:oil,crude,rice
+2026-07-10 16:31 ACCEPT [Google News HH] "US stocks and crude oil prices drift to a quiet finish of a bumpy week" | kw:oil,crude,rice
+2026-07-10 16:31 ACCEPT [Google News KL] "Gold and Silver Fall for Week, Market 'Over Pricing' Fed Rate Hikes - " | kw:gold,silver,fed rate
+2026-07-10 16:31 ACCEPT [Google News NS] "Report Snapshot: Corn ending stocks well below expectations - Pro Farm" | kw:corn
+2026-07-10 16:31 ACCEPT [Google News CB] "Fed's message to Congress: We will bring down inflation - Yahoo Financ" | kw:inflation
+2026-07-10 16:31 ACCEPT [Google News CB] "Fed Vows to Deliver Price Stability in Monetary Policy Report - Bloomb" | kw:rice,monetary policy
+2026-07-10 16:31 ACCEPT [Google News CB] "Are the Odds of a Fed Rate Hike Rising? ETFs Worth Watching Now - Yaho" | kw:fed rate,rate hike
+2026-07-10 16:31 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 16:31 SKIP_EVENING already_sent date=2026-07-10
