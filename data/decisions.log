@@ -14112,3 +14112,7 @@
 2026-07-10 07:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD rises as oil prices correct, US Dollar " | kw:oil,silver,rice
 2026-07-10 07:01 ACCEPT [Google News CB] "Syria Taps Safwat Raslan to Lead Central Bank - Global Finance Magazin" | kw:central bank
 2026-07-10 07:01 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 07:31 ACCEPT [OilPrice.com] "India Expands Strategic Oil Reserves With New ONGC Storage Plan" | kw:oil,crude
+2026-07-10 07:31 ACCEPT [Google News HH] "WTI crude oil and Brent crude both drop more than 1% - Bitget" | kw:oil,crude,brent
+2026-07-10 07:31 ACCEPT [Google News KL] "Gold, silver prices fall as US-Iran tensions lift dollar - MSN" | kw:gold,silver,rice
+2026-07-10 07:31 SKIP_MORNING already_sent date=2026-07-10
