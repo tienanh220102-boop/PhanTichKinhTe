@@ -14213,3 +14213,20 @@
 2026-07-10 13:02 GEMINI INCOMPLETE gemini-2.5-flash finish=MAX_TOKENS len=2271
 2026-07-10 13:02 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=TRUNC
 2026-07-10 13:03 SENT_EVENING articles=20 date=2026-07-10 force=False
+2026-07-10 13:31 ACCEPT [The Guardian Biz] "Apollo gatecrashes easyJet sale with surprise £5.7bn takeover offer - " | kw:oil,rice
+2026-07-10 13:31 ACCEPT [OilPrice.com] "IEA Cuts Russia's Oil Production Forecast Due to Ukrainian Attacks" | kw:oil
+2026-07-10 13:31 ACCEPT [Mining.com] "BHP strike threat lifts iron ore price for best week since May" | kw:steel,iron,rice
+2026-07-10 13:31 ACCEPT [Google News HH] "Current price of gold as of July 10, 2026 - Fortune" | kw:gold,rice
+2026-07-10 13:31 ACCEPT [Google News HH] "Crude oil rises, gas prices may follow - Vandalia Radio" | kw:oil,crude,gas
+2026-07-10 13:31 ACCEPT [Google News HH] "International Energy Agency: UAE's crude oil production in June hits r" | kw:oil,crude
+2026-07-10 13:31 ACCEPT [Google News HH] "Robert Kiyosaki's Gold Price Prediction Shows a 750% Surge, but My XAU" | kw:gold,rice
+2026-07-10 13:31 ACCEPT [Google News HH] "API Reports Crude Inventory Decline for Week Ending July 3, 2026 - New" | kw:crude
+2026-07-10 13:31 ACCEPT [Google News KL] "[SMM Analysis] H1 2026 Silver Price Surge and Fall: Spot Market Squeez" | kw:silver,rice
+2026-07-10 13:31 ACCEPT [Google News KL] "Silver's Two-Speed Market: New York Refills While Shanghai Pays Up - I" | kw:silver
+2026-07-10 13:31 ACCEPT [Google News NS] "New wheat flour prices notified as Karachi faces supply crisis تازترین" | kw:wheat,rice
+2026-07-10 13:31 ACCEPT [RT Business] "Germany to hit its industry with more energy tariffs" | kw:gas,tariff
+2026-07-10 13:31 ACCEPT [Google News CB] "Czech Price Pressures Warrant Increased Caution for Central Bank - Blo" | kw:rice,central bank
+2026-07-10 13:31 ACCEPT [Google News CB] "Fed officials fret over inflation risk, weigh rate hikes - Yahoo Finan" | kw:inflation,rate hike
+2026-07-10 13:31 ACCEPT [Google News CB] "Fed Rate Hike Calls Grow Louder - Globest" | kw:fed rate,rate hike
+2026-07-10 13:31 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 13:31 SKIP_EVENING already_sent date=2026-07-10
