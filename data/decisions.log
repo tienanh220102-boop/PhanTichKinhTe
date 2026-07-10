@@ -14121,3 +14121,9 @@
 2026-07-10 08:01 ACCEPT [Google News CB] "Yuan Gains as PBOC Sets Fix Below 6.8 for First Time Since 2023 - Bloo" | kw:pboc
 2026-07-10 08:01 ACCEPT [Google News CB] "ECB is back to square one as US-Iran war resumes - Reuters" | kw:ecb
 2026-07-10 08:01 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 08:31 ACCEPT [OilPrice.com] "More LNG Carriers Brave the Strait of Hormuz Despite Renewed Hostiliti" | kw:gas,lng
+2026-07-10 08:31 ACCEPT [Google News HH] "Cero taps Danske Commodities to optimise 140-MWh British BESS - Renewa" | kw:commodities
+2026-07-10 08:31 ACCEPT [Google News KL] "Vizsla Silver: Moving Past The Disaster (NYSE:VZLA) - Seeking Alpha" | kw:silver
+2026-07-10 08:31 ACCEPT [Google News NS] "Chicago corn, soy futures rise ahead of USDA report - Business Recorde" | kw:corn
+2026-07-10 08:31 ACCEPT [Google News CB] "Yuan Gains as PBOC Sets Fix Below 6.8 for First Time Since 2023 - Bloo" | kw:pboc
+2026-07-10 08:31 SKIP_MORNING already_sent date=2026-07-10
