@@ -14028,3 +14028,10 @@
 2026-07-10 01:01 ACCEPT [Google News KL] "Is Barrick Mining (TSX:ABX) A Bargain Following Gold Price Weakness An" | kw:gold,rice
 2026-07-10 01:01 ACCEPT [Google News NS] "Corn and Soybean Basis Defies Seasonal Trend - Hoosier Ag Today" | kw:corn,soybean
 2026-07-10 01:01 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 01:31 ACCEPT [Google News KL] "US-Iran Negotiations Are Expected to Boost Copper Prices, While Typhoo" | kw:copper,rice
+2026-07-10 01:31 ACCEPT [Google News KL] "Costco Gold Bars: Experts Say They Are Almost a Buy Even as Gold Price" | kw:gold,rice
+2026-07-10 01:31 ACCEPT [Google News NS] "Ontario corn, soy area in line with 2025 acreage - Farmtario" | kw:corn
+2026-07-10 01:31 ACCEPT [Google News CB] "Japan will not convey in advance preference on BOJ policy, minister sa" | kw:boj
+2026-07-10 01:31 ACCEPT [Google News CB] "Fed Sees Oil Prices Cooling Despite Renewed Iran War - Crude Oil Price" | kw:oil,crude,rice
+2026-07-10 01:31 ACCEPT [Google News CB] "Fed’s Warsh taps broad group of central bank outsiders to oversee revi" | kw:central bank
+2026-07-10 01:31 SKIP_MORNING already_sent date=2026-07-10
