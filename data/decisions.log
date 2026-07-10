@@ -14077,3 +14077,7 @@
 2026-07-10 04:31 ACCEPT [Google News KL] "Vietnam dong, gold rates - July 10 - TradingView" | kw:gold
 2026-07-10 04:31 ACCEPT [Google News NS] "Yellow Corn vs. White Corn: A Corn Farmer from Iowa Explains the Diffe" | kw:corn
 2026-07-10 04:31 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 05:01 ACCEPT [Google News HH] "Gold price in India: Rates on July 10 - FXStreet" | kw:wti,gold,rice
+2026-07-10 05:01 ACCEPT [Google News KL] "Gold heads for weekly drop as Gulf attacks reinforce rate-hike bets - " | kw:gold
+2026-07-10 05:01 ACCEPT [Google News KL] "Gold, silver prices today, 10 July: Check retail rates of 24K, 22K gol" | kw:gold,silver,rice
+2026-07-10 05:01 SKIP_MORNING already_sent date=2026-07-10
