@@ -14230,3 +14230,13 @@
 2026-07-10 13:31 ACCEPT [Google News CB] "Fed Rate Hike Calls Grow Louder - Globest" | kw:fed rate,rate hike
 2026-07-10 13:31 SKIP_MORNING already_sent date=2026-07-10
 2026-07-10 13:31 SKIP_EVENING already_sent date=2026-07-10
+2026-07-10 14:01 ACCEPT [MarketWatch] "‘Can’t buy bonds, can’t sell stocks.’ Bank of America tells investors " | kw:interest rate
+2026-07-10 14:01 ACCEPT [OilPrice.com] "Bureaucracy Is Strangling America's Clean Energy Buildout" | kw:oil,gas
+2026-07-10 14:01 ACCEPT [Google News HH] "US stocks and crude oil prices drift to a quiet finish of a bumpy week" | kw:oil,crude,rice
+2026-07-10 14:01 ACCEPT [Google News HH] "US stocks and crude oil prices drift to a quiet finish of a bumpy week" | kw:oil,crude,rice
+2026-07-10 14:01 ACCEPT [Google News HH] "Renewed U.S.-Iran Fighting Could Trigger Middle East Oil Market Share " | kw:oil
+2026-07-10 14:01 ACCEPT [Google News HH] "Karoon Energy Says Brazil Extended 12% Temporary Tax on Crude Oil Expo" | kw:oil,crude
+2026-07-10 14:01 ACCEPT [Google News NS] "New wheat flour prices notified as Karachi faces supply crisis Breakin" | kw:wheat,rice
+2026-07-10 14:01 ACCEPT [Google News CB] "Two Polish central bankers see no rush to cut rates after summer - Reu" | kw:central bank
+2026-07-10 14:01 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 14:01 SKIP_EVENING already_sent date=2026-07-10
