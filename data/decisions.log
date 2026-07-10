@@ -14189,3 +14189,11 @@
 2026-07-10 11:31 ACCEPT [Google News CB] "Fed officials fret over inflation risk, weigh rate hikes - SRN News" | kw:inflation,rate hike
 2026-07-10 11:31 ACCEPT [Google News CB] "Uh-Oh! The Fed Just Singled Out a New Inflationary Pressure, and It's " | kw:inflation
 2026-07-10 11:31 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 12:01 ACCEPT [Al Jazeera] "US-Iran escalation threatens oil supply recovery, warns IEA" | kw:oil
+2026-07-10 12:01 ACCEPT [Google News HH] "From Hormuz to the pump: Why oil price shocks hit consumers differentl" | kw:oil,rice
+2026-07-10 12:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD turns upside down amid renewed Middle E" | kw:silver,rice
+2026-07-10 12:01 ACCEPT [Google News KL] "ETFs globally added Gold in H1 despite selling in May and June - FXStr" | kw:gold
+2026-07-10 12:01 ACCEPT [Google News NS] "Argentine farmers are in no rush to sell wheat - UkrAgroConsult" | kw:wheat,gdp
+2026-07-10 12:01 ACCEPT [Google News CB] "Japan's Basic Economic Policy to Clarify BOJ Independence - nippon.com" | kw:boj
+2026-07-10 12:01 ACCEPT [Google News CB] "Uh-Oh! The Fed Just Singled Out a New Inflationary Pressure, and It's " | kw:inflation
+2026-07-10 12:01 SKIP_MORNING already_sent date=2026-07-10
