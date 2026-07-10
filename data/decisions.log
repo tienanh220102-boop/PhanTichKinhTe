@@ -14197,3 +14197,10 @@
 2026-07-10 12:01 ACCEPT [Google News CB] "Japan's Basic Economic Policy to Clarify BOJ Independence - nippon.com" | kw:boj
 2026-07-10 12:01 ACCEPT [Google News CB] "Uh-Oh! The Fed Just Singled Out a New Inflationary Pressure, and It's " | kw:inflation
 2026-07-10 12:01 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 12:31 ACCEPT [MarketWatch] "Delta absorbs highest fuel costs in its history but also books record " | kw:fuel
+2026-07-10 12:31 ACCEPT [OilPrice.com] "India’s State Nuclear Firm In Search of Global Uranium Assets" | kw:fuel
+2026-07-10 12:31 ACCEPT [Google News KL] "Gold prices today, Friday, July 10, 2026: Gold finally opens higher th" | kw:gold,rice
+2026-07-10 12:31 ACCEPT [Google News KL] "Silver Price Today: Silver Rises 1.52% on July 10, 2026 - USA Today" | kw:silver,rice
+2026-07-10 12:31 ACCEPT [Google News KL] "ASIA GOLD Gold discounts in India deepen as volatility hurts demand; p" | kw:gold
+2026-07-10 12:31 ACCEPT [Google News CB] "Climate litigation risk already here for banks and insurers, says ECB " | kw:central bank,ecb
+2026-07-10 12:31 SKIP_MORNING already_sent date=2026-07-10
