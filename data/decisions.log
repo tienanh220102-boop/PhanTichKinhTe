@@ -14081,3 +14081,8 @@
 2026-07-10 05:01 ACCEPT [Google News KL] "Gold heads for weekly drop as Gulf attacks reinforce rate-hike bets - " | kw:gold
 2026-07-10 05:01 ACCEPT [Google News KL] "Gold, silver prices today, 10 July: Check retail rates of 24K, 22K gol" | kw:gold,silver,rice
 2026-07-10 05:01 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 05:31 ACCEPT [Google News HH] "User Clip: Sen. Biden (D-DE) OPEC Reduce The Amount Of Oil - C-SPAN" | kw:oil,opec
+2026-07-10 05:31 ACCEPT [Google News HH] "Gold price in Philippines: Rates on July 10 - FXStreet" | kw:gold,rice
+2026-07-10 05:31 ACCEPT [Google News NS] "Commodity markets daily recap - St Joseph Post" | kw:commodity
+2026-07-10 05:31 ACCEPT [Google News CB] "NY Fed Says Mid-Atlantic Firms Aren’t Done Passing on Tariff Costs - I" | kw:tariff
+2026-07-10 05:31 SKIP_MORNING already_sent date=2026-07-10
