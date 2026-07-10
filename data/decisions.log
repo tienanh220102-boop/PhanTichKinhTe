@@ -14146,3 +14146,11 @@
 2026-07-10 09:31 ACCEPT [Google News CB] "BOJ may raise growth forecast, maintain vigilance to inflation risk, s" | kw:inflation,boj
 2026-07-10 09:31 ACCEPT [Google News CB] "Polish rate-setter Wnorowski says talk of Sept rate cut premature - Re" | kw:rate cut
 2026-07-10 09:31 SKIP_MORNING already_sent date=2026-07-10
+2026-07-10 10:01 ACCEPT [NASDAQ Commod] "Gold Headed For Weekly Loss As US-Iran Tensions Escalate" | kw:gold,rice,inflation
+2026-07-10 10:01 ACCEPT [NASDAQ Commod] "Oil Set For Weekly Gain Amid Iran War Concerns" | kw:oil,rice
+2026-07-10 10:01 ACCEPT [Google News KL] "Silver price today: falls on July 10 - FXStreet" | kw:silver,rice
+2026-07-10 10:01 ACCEPT [Google News KL] "When Nickel from "Resource Surplus" Meets "Policy Tightening"—2026 H1 " | kw:nickel,rice,tightening
+2026-07-10 10:01 ACCEPT [Google News KL] "[SMM Nickel Midday Review] On July 10, nickel prices staged a correcti" | kw:nickel,rice
+2026-07-10 10:01 ACCEPT [Google News NS] "New wheat flour prices notified as Karachi faces supply crisis - 24New" | kw:wheat,rice
+2026-07-10 10:01 ACCEPT [Google News CB] "Fed’s Logan Warns US Oil Production Won’t Fill Global Supply Gap - Ene" | kw:oil
+2026-07-10 10:01 SKIP_MORNING already_sent date=2026-07-10
