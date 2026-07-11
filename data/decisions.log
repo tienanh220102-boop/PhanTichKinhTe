@@ -14515,3 +14515,6 @@
 2026-07-11 00:01 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
 2026-07-11 00:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
 2026-07-11 00:02 SENT_MORNING articles=20 date=2026-07-11 force=False
+2026-07-11 00:31 ACCEPT [Google News HH] "Crude oil posted a weekly gain of over 4%, snapping a four-week losing" | kw:oil,crude,gold
+2026-07-11 00:31 ACCEPT [Google News KL] "Gold prices fall for fourth day as Fed outlook turns hawkish - MSN" | kw:gold,rice
+2026-07-11 00:31 SKIP_MORNING already_sent date=2026-07-11
