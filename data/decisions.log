@@ -14582,3 +14582,6 @@
 2026-07-11 07:07 ACCEPT [Google News NS] "Daily Grain Prices in Western Canada - Alberta Farmer Express" | kw:rice
 2026-07-11 07:07 ACCEPT [Google News CB] "Central Bank governor says tight policy to support disinflation - Hürr" | kw:inflation,central bank
 2026-07-11 07:07 SKIP_MORNING already_sent date=2026-07-11
+2026-07-11 07:31 ACCEPT [Google News KL] "Gold Price Forecast 2026: HSBC Says Bullion Can Shine Despite Hawkish " | kw:gold,rice
+2026-07-11 07:31 ACCEPT [Google News KL] "Gold prices drop 26% from January peak, spurring investor moves - MSN" | kw:gold,rice
+2026-07-11 07:31 SKIP_MORNING already_sent date=2026-07-11
