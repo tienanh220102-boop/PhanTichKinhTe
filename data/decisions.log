@@ -14647,3 +14647,8 @@
 2026-07-11 14:01 ACCEPT [Google News KL] "Rolex raises gold watch prices twice in 2025 - MSN" | kw:gold,rice
 2026-07-11 14:01 SKIP_MORNING already_sent date=2026-07-11
 2026-07-11 14:01 SKIP_EVENING already_sent date=2026-07-11
+2026-07-11 14:21 ACCEPT [Google News KL] "Gold drifts lower as investors fear elevated rates from renewed Middle" | kw:gold
+2026-07-11 14:21 ACCEPT [Google News NS] "Grain Spreads: Strangle Idea in Soybeans - Barchart.com" | kw:soybean
+2026-07-11 14:21 ACCEPT [Google News CB] "America In Focus: Fed officials divided on US inflation views; US home" | kw:rice,inflation
+2026-07-11 14:21 SKIP_MORNING already_sent date=2026-07-11
+2026-07-11 14:21 SKIP_EVENING already_sent date=2026-07-11
