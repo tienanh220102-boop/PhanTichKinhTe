@@ -14541,3 +14541,7 @@
 2026-07-11 02:31 ACCEPT [Google News NS] "Grain Markets Surge as Black Sea Tensions, USDA Supply Cuts Ignite Pri" | kw:rice
 2026-07-11 02:31 ACCEPT [Google News CB] "Fed again promises to deliver price stability in semiannual monetary p" | kw:rice,monetary policy
 2026-07-11 02:31 SKIP_MORNING already_sent date=2026-07-11
+2026-07-11 03:01 ACCEPT [Google News HH] "UAE Oil Head Says OPEC Exit Gives Ability to Speed Up Investment - Ene" | kw:oil,opec
+2026-07-11 03:01 ACCEPT [Google News HH] "The UAE Dumping OPEC May Not Affect Crude as Anticipated: Russell - En" | kw:crude,opec
+2026-07-11 03:01 ACCEPT [Google News CB] "Meet Up and Eat Up program keeping valley kids fed - FOX5 Vegas" | kw:gas
+2026-07-11 03:01 SKIP_MORNING already_sent date=2026-07-11
