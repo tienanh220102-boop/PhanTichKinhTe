@@ -14523,3 +14523,12 @@
 2026-07-11 01:01 ACCEPT [Google News HH] "Crude Oil Prices Rise Slightly as US-Iran Conflict and Hormuz Standsti" | kw:oil,crude,rice
 2026-07-11 01:01 ACCEPT [Google News NS] "Grain Markets Surge as Black Sea Tensions, USDA Supply Cuts Ignite Pri" | kw:rice
 2026-07-11 01:01 SKIP_MORNING already_sent date=2026-07-11
+2026-07-11 01:31 ACCEPT [Google News HH] "Commodities stabilise supported by fuel and weather risks - Saxo" | kw:fuel,commodities
+2026-07-11 01:31 ACCEPT [Google News KL] "Trump Declared the Ceasefire Over. Gold Barely Moved. - GoldSilver" | kw:gold,silver
+2026-07-11 01:31 ACCEPT [Google News NS] "Corn growers target new markets amid record 17 billion bushel crop - C" | kw:corn
+2026-07-11 01:31 ACCEPT [Google News NS] "After Ukraine's attacks, Russia halted Don-Azov Channel shipping, whic" | kw:shipping
+2026-07-11 01:31 ACCEPT [Google News NS] "USDA Makes Friendly Cut to Corn Stocks in WASDE, as Weather Threats Lo" | kw:corn
+2026-07-11 01:31 ACCEPT [Google News NS] "Share old combine and corn picker photos with Nebraska Farmer - Farm P" | kw:corn
+2026-07-11 01:31 ACCEPT [Google News NS] "Ukraine’s Corn Exports Could Reach a Record High - AgroPortal.ua" | kw:corn
+2026-07-11 01:31 ACCEPT [Google News CB] "As inflation roils, what will Fed Chair Warsh do next? - marketplace.o" | kw:oil,inflation
+2026-07-11 01:31 SKIP_MORNING already_sent date=2026-07-11
