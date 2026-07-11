@@ -14668,3 +14668,11 @@
 2026-07-11 15:01 ACCEPT [Google News CB] "Dow Jones and S&P 500 Forecast: SPX Eyes 8,000 Despite Fed Risks - FXE" | kw:gdp
 2026-07-11 15:01 SKIP_MORNING already_sent date=2026-07-11
 2026-07-11 15:01 SKIP_EVENING already_sent date=2026-07-11
+2026-07-11 15:28 ACCEPT [Google News KL] "Analyst Raises Target Price After Silver-Gold Miner Goes Fully Unhedge" | kw:lng,gold,silver
+2026-07-11 15:28 ACCEPT [Google News NS] "Pakistan's wheat mismanagement deepens as supply crisis forces import " | kw:wheat
+2026-07-11 15:28 ACCEPT [Google News NS] "BG stock turns steady as Bunge's grain and oilseed model stays central" | kw:oil
+2026-07-11 15:28 ACCEPT [Google News CB] "Fed Governor Christopher Waller Just Drove a Dagger Through President " | kw:interest rate
+2026-07-11 15:28 ACCEPT [Google News CB] "Where to put cash right now: Should you lock in at 4% — or wait for th" | kw:lng,fed rate,rate decision
+2026-07-11 15:28 ACCEPT [Google News CB] "Fed report to Congress sees 'stepped up' inflation in the spring - inv" | kw:inflation
+2026-07-11 15:28 SKIP_MORNING already_sent date=2026-07-11
+2026-07-11 15:28 SKIP_EVENING already_sent date=2026-07-11
