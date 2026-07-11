@@ -14557,3 +14557,5 @@
 2026-07-11 04:01 ACCEPT [Google News HH] "Crude Oil Prices Retreat as US-Iran Peace Talks Set to Continue - Trad" | kw:oil,crude,rice
 2026-07-11 04:01 ACCEPT [Google News NS] "RPT Russia halts Don-Azov channel shipping, affecting grain trade, aft" | kw:shipping
 2026-07-11 04:01 SKIP_MORNING already_sent date=2026-07-11
+2026-07-11 04:31 ACCEPT [Google News HH] "Commodities Recap For The Week As Of July 10, 2026 (NYSEARCA:DBC) - Se" | kw:commodities
+2026-07-11 04:31 SKIP_MORNING already_sent date=2026-07-11
