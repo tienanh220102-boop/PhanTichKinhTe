@@ -14635,3 +14635,9 @@
 2026-07-11 13:01 ACCEPT [Google News KL] "Gold, Silver Price Today: Amid escalating US-Iran tensions, gold falls" | kw:gold,silver,rice
 2026-07-11 13:01 SKIP_MORNING already_sent date=2026-07-11
 2026-07-11 13:02 SENT_EVENING articles=20 date=2026-07-11 force=False
+2026-07-11 13:31 ACCEPT [Google News HH] "WTI Crude Oil — where the bundle reads structure, and whe for TVC:USOI" | kw:oil,crude,wti
+2026-07-11 13:31 ACCEPT [Google News KL] "Bernstein Sees Higher Nickel Prices in 2026 as Supply Tightens - Yahoo" | kw:nickel,rice
+2026-07-11 13:31 ACCEPT [Google News NS] "Ukrainian attacks on the Russian Navy have affected global grain price" | kw:rice
+2026-07-11 13:31 ACCEPT [Google News CB] "Trump vs. Fed: Rate Cut Demands Rejected Amid Market Records and Dual " | kw:rice,rate cut
+2026-07-11 13:31 SKIP_MORNING already_sent date=2026-07-11
+2026-07-11 13:31 SKIP_EVENING already_sent date=2026-07-11
