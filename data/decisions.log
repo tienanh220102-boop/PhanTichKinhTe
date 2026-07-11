@@ -14699,3 +14699,10 @@
 2026-07-11 16:31 ACCEPT [Google News CB] "Fed report cites 'stepped-up' inflation due to tariffs, Iran war, AI b" | kw:tariff,inflation
 2026-07-11 16:31 SKIP_MORNING already_sent date=2026-07-11
 2026-07-11 16:31 SKIP_EVENING already_sent date=2026-07-11
+2026-07-11 17:01 ACCEPT [OilPrice.com] "Can Colombia’s New Government Reverse the Nation’s Oil and Gas Decline" | kw:oil,gas
+2026-07-11 17:01 ACCEPT [Google News HH] "EIA: US exports of crude oil and petroleum products reached record in " | kw:oil,crude,petroleum
+2026-07-11 17:01 ACCEPT [Google News KL] "Bengaluru Bullion Rates: Gold & Silver Prices (July 11) - Rediff Money" | kw:wti,gold,silver
+2026-07-11 17:01 ACCEPT [Google News CB] "ECB saw inflation rising despite nearly three expected hikes, accounts" | kw:inflation,ecb
+2026-07-11 17:01 ACCEPT [Google News CB] "Dollar stands tall as new Gulf attacks fuel oil price surge, Fed hike " | kw:oil,fuel,rice
+2026-07-11 17:01 ACCEPT [Google News CB] "Sterling today: Pound eases as Fed, oil-driven dollar bid weighs - Inv" | kw:oil
+2026-07-11 17:01 ACCEPT [Google News CB] "Kevin Warsh Completes His First Fed Meeting Today — the Odds of a Rate" | kw:rate hike
