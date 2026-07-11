@@ -14574,3 +14574,11 @@
 2026-07-11 07:01 ACCEPT [Google News HH] "Gold price loses its grip: World’s 50 biggest mining companies shed $2" | kw:gold,rice
 2026-07-11 07:01 ACCEPT [Google News KL] "Gold prices rise in India amid global uncertainty - MSN" | kw:gold,rice
 2026-07-11 07:01 SKIP_MORNING already_sent date=2026-07-11
+2026-07-11 07:07 ACCEPT [Mining.com] "Gold price loses its grip: World’s 50 biggest mining companies shed $2" | kw:gold,rice
+2026-07-11 07:07 ACCEPT [Google News KL] "Silver Price Forecast: Lower High Structure Persists as Bears Target $" | kw:silver,rice
+2026-07-11 07:07 ACCEPT [Google News KL] "Gold price slips as Trump says Iran ceasefire is over - CryptoRank" | kw:gold,rice
+2026-07-11 07:07 ACCEPT [Google News KL] "Weekly Market Recap (July 11) - Gold’s ‘Official Floor’: How Central B" | kw:gold,rice,central bank
+2026-07-11 07:07 ACCEPT [Google News NS] "USDA Tightens Corn and Soybean Ending Stocks - Dakota News Network" | kw:corn,soybean
+2026-07-11 07:07 ACCEPT [Google News NS] "Daily Grain Prices in Western Canada - Alberta Farmer Express" | kw:rice
+2026-07-11 07:07 ACCEPT [Google News CB] "Central Bank governor says tight policy to support disinflation - Hürr" | kw:inflation,central bank
+2026-07-11 07:07 SKIP_MORNING already_sent date=2026-07-11
