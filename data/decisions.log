@@ -14598,3 +14598,6 @@
 2026-07-11 09:01 SKIP_MORNING already_sent date=2026-07-11
 2026-07-11 09:04 ACCEPT [Google News NS] "Corn Holding Firmer Ahead of USDA Report - Barchart.com" | kw:corn
 2026-07-11 09:04 SKIP_MORNING already_sent date=2026-07-11
+2026-07-11 09:31 ACCEPT [Google News KL] "Gold prices decline in Baghdad, Erbil markets - Shafaq News | Latest b" | kw:gold,rice
+2026-07-11 09:31 ACCEPT [Google News KL] "Eric Karros(UCLA) Homers Against Mike Mussina(Stanford) March 1988 Sil" | kw:silver,rice
+2026-07-11 09:31 SKIP_MORNING already_sent date=2026-07-11
