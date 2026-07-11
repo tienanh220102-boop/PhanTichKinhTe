@@ -14623,3 +14623,9 @@
 2026-07-11 12:31 ACCEPT [Google News CB] "Fed Governor Christopher Waller Just Drove a Dagger Through President " | kw:interest rate
 2026-07-11 12:31 ACCEPT [Google News CB] "Thai central bank rules out QE, interest rate hikes due to economic fr" | kw:central bank,interest rate,rate hike
 2026-07-11 12:31 SKIP_MORNING already_sent date=2026-07-11
+2026-07-11 12:57 ACCEPT [CNBC Economy] "'Funflation' hits home: Why staying in isn't the cost-saver it used to" | kw:rice
+2026-07-11 12:58 ACCEPT [Google News HH] "Price to earnings forward of Bright Smart Securities & Commodities Gro" | kw:rice,commodities
+2026-07-11 12:58 ACCEPT [Google News HH] "Gold price loses its grip: Q2 mining capex and project signals for eng" | kw:gold,rice
+2026-07-11 12:58 ACCEPT [Google News KL] "Laopu Gold: Why It Failed to Capture the Premium Pricing Power of True" | kw:gold
+2026-07-11 12:58 ACCEPT [Google News NS] "Pakistan estimates wheat output to rise by 1.36 million tons, sees no " | kw:wheat,shortage
+2026-07-11 12:58 SKIP_MORNING already_sent date=2026-07-11
