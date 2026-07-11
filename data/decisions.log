@@ -14629,3 +14629,9 @@
 2026-07-11 12:58 ACCEPT [Google News KL] "Laopu Gold: Why It Failed to Capture the Premium Pricing Power of True" | kw:gold
 2026-07-11 12:58 ACCEPT [Google News NS] "Pakistan estimates wheat output to rise by 1.36 million tons, sees no " | kw:wheat,shortage
 2026-07-11 12:58 SKIP_MORNING already_sent date=2026-07-11
+2026-07-11 13:01 ACCEPT [Google News HH] "US Oil, Gas Drillers Hang Back in Volatile Market - Crude Oil Prices T" | kw:oil,crude,gas
+2026-07-11 13:01 ACCEPT [Google News HH] "Crude Oil Market Slips as Strait of Hormuz Shipping Outlook Improves |" | kw:oil,crude,shipping
+2026-07-11 13:01 ACCEPT [Google News KL] "Laopu Gold: Why It Failed to Capture the Premium Pricing Power of True" | kw:gold
+2026-07-11 13:01 ACCEPT [Google News KL] "Gold, Silver Price Today: Amid escalating US-Iran tensions, gold falls" | kw:gold,silver,rice
+2026-07-11 13:01 SKIP_MORNING already_sent date=2026-07-11
+2026-07-11 13:02 SENT_EVENING articles=20 date=2026-07-11 force=False
