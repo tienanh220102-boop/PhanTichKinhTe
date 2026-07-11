@@ -14596,3 +14596,5 @@
 2026-07-11 09:01 ACCEPT [Google News NS] "China demand and weather risks support soybean prices - UkrAgroConsult" | kw:soybean,rice
 2026-07-11 09:01 ACCEPT [Google News CB] "Kenya: Central Bank limits emergency assistance to banks - Financial A" | kw:central bank
 2026-07-11 09:01 SKIP_MORNING already_sent date=2026-07-11
+2026-07-11 09:04 ACCEPT [Google News NS] "Corn Holding Firmer Ahead of USDA Report - Barchart.com" | kw:corn
+2026-07-11 09:04 SKIP_MORNING already_sent date=2026-07-11
