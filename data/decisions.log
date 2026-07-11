@@ -14571,3 +14571,6 @@
 2026-07-11 06:31 ACCEPT [Google News HH] "WTI Crude Oil and Natural Gas futures slide to multi-month lows. - CME" | kw:oil,crude,gas
 2026-07-11 06:31 ACCEPT [Google News KL] "Everbright Futures 0710 Hotspot Tracking: Iran's Retaliation is Relati" | kw:silver,rice
 2026-07-11 06:31 SKIP_MORNING already_sent date=2026-07-11
+2026-07-11 07:01 ACCEPT [Google News HH] "Gold price loses its grip: World’s 50 biggest mining companies shed $2" | kw:gold,rice
+2026-07-11 07:01 ACCEPT [Google News KL] "Gold prices rise in India amid global uncertainty - MSN" | kw:gold,rice
+2026-07-11 07:01 SKIP_MORNING already_sent date=2026-07-11
