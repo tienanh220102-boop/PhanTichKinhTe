@@ -14559,3 +14559,7 @@
 2026-07-11 04:01 SKIP_MORNING already_sent date=2026-07-11
 2026-07-11 04:31 ACCEPT [Google News HH] "Commodities Recap For The Week As Of July 10, 2026 (NYSEARCA:DBC) - Se" | kw:commodities
 2026-07-11 04:31 SKIP_MORNING already_sent date=2026-07-11
+2026-07-11 04:56 ACCEPT [Google News HH] "Crude oil holds steady above $72, with weekly gains of nearly 5%; Horm" | kw:oil,crude
+2026-07-11 04:56 ACCEPT [Google News HH] "Crude oil rises, gas prices may follow - Vandalia Radio" | kw:oil,crude,gas
+2026-07-11 04:56 ACCEPT [Google News NS] "Bayer seeks tariffs on Chinese glyphosate imports - Farm Progress" | kw:tariff
+2026-07-11 04:56 SKIP_MORNING already_sent date=2026-07-11
