@@ -14846,3 +14846,11 @@
 2026-07-12 02:01 ACCEPT [Google News KL] "Old Gold Prices 17K to 24K Today, Saturday, July 11, 2026 - Pintu" | kw:gold,rice
 2026-07-12 02:01 ACCEPT [Google News KL] "Young Gold Price 8K to 16K Today, Saturday July 11, 2026 - Pintu" | kw:gold,rice
 2026-07-12 02:01 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 02:31 ACCEPT [Google News KL] "Gold slump tests Chinese brand Laopu’s resilience as luxury upstart - " | kw:gold
+2026-07-12 02:31 ACCEPT [Google News KL] "Global Gold Weakens, Dubai Gold Prices Fall - VOI.id" | kw:gold,rice
+2026-07-12 02:31 ACCEPT [Google News KL] "Gold and interest rates in 2026 - MSN" | kw:gold,interest rate
+2026-07-12 02:31 ACCEPT [Google News KL] "How BetaShares Gold Bullion Currency Hedged ETF (ASX:QAU) Provides Exp" | kw:gold
+2026-07-12 02:31 ACCEPT [Google News KL] "If you’re coveting a used gold Rolex, now could be your moment - Money" | kw:gold
+2026-07-12 02:31 ACCEPT [Google News NS] "Oxfordshire farm expands to be self-sufficient for wheat - Farmers Wee" | kw:wti,wheat
+2026-07-12 02:31 ACCEPT [Google News CB] "Should the Fed hike interest rates? - Robin J Brooks | Substack" | kw:interest rate
+2026-07-12 02:31 SKIP_MORNING already_sent date=2026-07-12
