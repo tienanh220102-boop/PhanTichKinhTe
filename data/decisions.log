@@ -15033,3 +15033,13 @@
 2026-07-12 11:01 SKIP_MORNING already_sent date=2026-07-12
 2026-07-12 11:05 ACCEPT [Google News KL] "He Put Gold in His IRA to Hedge Inflation. At 73, the RMD Forces Him t" | kw:gold,inflation
 2026-07-12 11:05 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 11:31 ACCEPT [Al Jazeera] "Sheikh Hamad bin Khalifa Al Thani, the architect of modern Qatar" | kw:gas
+2026-07-12 11:31 ACCEPT [Google News HH] "Iraqi PM to visit Washington July 13 for key oil and gas deals with Tr" | kw:oil,gas
+2026-07-12 11:31 ACCEPT [Google News HH] "Israel-Iran Clash Rattles Market: Crude Oil Climbs Following Israel Ir" | kw:oil,crude
+2026-07-12 11:31 ACCEPT [Google News HH] "WTI and Brent oil prices tick up on Hyperliquid as Iran closes the Str" | kw:oil,brent,wti
+2026-07-12 11:31 ACCEPT [Google News KL] "Gold and silver prices decline amid geopolitical uncertainties - News " | kw:gold,silver,rice
+2026-07-12 11:31 ACCEPT [Google News NS] "Russia halts Don-Azov Channel shipping, closes Kerch Strait after Ukra" | kw:shipping
+2026-07-12 11:31 ACCEPT [Google News CB] "Warsh and US Inflation Will Set Tone for July Fed Decision - Bloomberg" | kw:inflation
+2026-07-12 11:31 ACCEPT [Google News CB] "Fed up with inflation, Fed again promises to deliver price stability i" | kw:rice,inflation,monetary policy
+2026-07-12 11:31 ACCEPT [Google News CB] "US recession risk drops as inflation expectations remain high: WSJ sur" | kw:inflation
+2026-07-12 11:31 SKIP_MORNING already_sent date=2026-07-12
