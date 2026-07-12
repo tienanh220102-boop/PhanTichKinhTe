@@ -14867,3 +14867,8 @@
 2026-07-12 03:31 ACCEPT [Google News HH] "Gold price today July 12: Loss of 6.4 million VND/tael after a week - " | kw:wti,gold,rice
 2026-07-12 03:31 ACCEPT [Google News KL] "Silver price fluctuation 12. 7: Deep decrease after a week - Laodong.v" | kw:silver,rice
 2026-07-12 03:31 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 04:01 ACCEPT [Google News KL] "Gold prices drop 25% from peak as ETF inflows rebound - MSN" | kw:gold,rice
+2026-07-12 04:01 ACCEPT [Google News KL] "Gold extends rally ahead of Fed decision as inflation eases - MSN" | kw:gold,inflation
+2026-07-12 04:01 ACCEPT [Google News NS] "Minister for Food Security vows action against hoarding of wheat - 24N" | kw:wheat
+2026-07-12 04:01 ACCEPT [Google News CB] "Fed's Williams Sees AI Demand as Primary Inflation Risk - Briefs Finan" | kw:inflation
+2026-07-12 04:01 SKIP_MORNING already_sent date=2026-07-12
