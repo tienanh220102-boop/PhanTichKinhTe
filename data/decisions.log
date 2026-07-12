@@ -15090,9 +15090,10 @@
 2026-07-12 13:31 ACCEPT [Google News CB] "FOMC Chair Kevin Warsh’s 8-word statement could shift Wall Street and " | kw:fomc
 2026-07-12 13:31 SKIP_MORNING already_sent date=2026-07-12
 2026-07-12 13:31 SKIP_EVENING already_sent date=2026-07-12
-2026-07-12 14:01 ACCEPT [Google News HH] "Palm rebounds on stronger rival oils, crude oil prices - MSN" | kw:oil,crude,rice
-2026-07-12 14:01 ACCEPT [Google News CB] "This 8-Word Statement From Fed Chair Kevin Warsh and the FOMC Is a Pot" | kw:fomc
-2026-07-12 14:01 ACCEPT [Google News CB] "IMF growth downgrade, Fed split and oil fears dominate week in global " | kw:oil
-2026-07-12 14:01 ACCEPT [Google News CB] "Thailand Central Bank Weighs Proof-of-Funds Rule for 5 Million Baht Ca" | kw:central bank
-2026-07-12 14:01 SKIP_MORNING already_sent date=2026-07-12
-2026-07-12 14:01 SKIP_EVENING already_sent date=2026-07-12
+2026-07-12 14:02 ACCEPT [Google News HH] "Palm rebounds on stronger rival oils, crude oil prices - MSN" | kw:oil,crude,rice
+2026-07-12 14:02 ACCEPT [Google News HH] "Gold price increases by Rs 600 per tola on Sunday - Nepali Patro" | kw:gold,rice
+2026-07-12 14:02 ACCEPT [Google News NS] "New chapter opens in expanding Iran-Italy water, soil cooperation - ar" | kw:oil
+2026-07-12 14:02 ACCEPT [Google News CB] "Free Clinic to resume on Aug. 4 - ECB Publishing, Inc." | kw:ecb
+2026-07-12 14:02 ACCEPT [Google News CB] "This 8-Word Statement From Fed Chair Kevin Warsh and the FOMC Is a Pot" | kw:fomc
+2026-07-12 14:02 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 14:02 SKIP_EVENING already_sent date=2026-07-12
