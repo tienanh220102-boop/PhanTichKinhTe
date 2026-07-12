@@ -15109,3 +15109,10 @@
 2026-07-12 15:01 ACCEPT [Google News KL] "Three held for stealing copper wires worth lakhs in Coimbatore - The T" | kw:copper
 2026-07-12 15:01 SKIP_MORNING already_sent date=2026-07-12
 2026-07-12 15:01 SKIP_EVENING already_sent date=2026-07-12
+2026-07-12 15:31 ACCEPT [Google News HH] "Black Gold Price USD, BGOLD Price Live Charts, Market Cap & News - Bit" | kw:gold,rice
+2026-07-12 15:31 ACCEPT [Google News HH] "Gold Rate Today in International Market | Gold Price Hike Today #goldp" | kw:gold,rice
+2026-07-12 15:31 ACCEPT [Google News KL] "Gold Price Today in Delhi – 18K, 22K & 24K Rate | 12 July 2026 - The T" | kw:gold,rice
+2026-07-12 15:31 ACCEPT [Google News CB] "Will Kevin Warsh offer any clues on Fed rates outlook? - Financial Tim" | kw:fed rate
+2026-07-12 15:31 ACCEPT [Google News CB] "Fed Chair Warsh to emphasize price stability in first testimony - Cryp" | kw:rice
+2026-07-12 15:31 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 15:31 SKIP_EVENING already_sent date=2026-07-12
