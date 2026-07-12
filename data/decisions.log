@@ -14877,3 +14877,18 @@
 2026-07-12 04:31 ACCEPT [Google News KL] "China extends gold-buying run to 20 consecutive months - VnExpress Int" | kw:gold
 2026-07-12 04:31 ACCEPT [Google News KL] "Gold ETF inflows in India rebound to ₹3,443 crore in June - MSN" | kw:gold
 2026-07-12 04:31 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 05:01 ACCEPT [Google News HH] "The Next Bull Market Could Be Built on Inventory Replenishment - Crude" | kw:oil,crude,rice
+2026-07-12 05:01 ACCEPT [Google News KL] "US-Iran Conflict Turns Gold Bearish: Fed Rate Hike Fears Slam Bullion," | kw:gold,fed rate,rate hike
+2026-07-12 05:01 ACCEPT [Google News KL] "Gold ETFs rebound with ₹3,443 crore inflows in June - MSN" | kw:gold
+2026-07-12 05:01 ACCEPT [Google News KL] "Gold prices enter a volatile week, focusing on the Fed and US inflatio" | kw:gold,rice,inflation
+2026-07-12 05:01 ACCEPT [Google News KL] "IAG stock reflects gold miner's strategic shift as IAMGOLD advances Cô" | kw:gold
+2026-07-12 05:01 ACCEPT [Google News CB] "More Fed Williams: Risk remains more on the inflation side - investing" | kw:inflation
+2026-07-12 05:01 ACCEPT [Google News CB] "Fed’s Schmid Warns Against Viewing Oil Shock as Transitory - EnergyNow" | kw:oil
+2026-07-12 05:01 ACCEPT [Google News CB] "All members viewed risks to inflation outlook as being to the upside -" | kw:inflation,ecb
+2026-07-12 05:01 ACCEPT [Google News CB] "Sudan central bank resumes deposit guarantee fund operations in Kharto" | kw:central bank
+2026-07-12 05:01 ACCEPT [Google News CB] "ECB block Lord's plan for Euro Nations Cup - AOL.com" | kw:ecb
+2026-07-12 05:01 ACCEPT [Google News CB] "Federal Reserve reinforces commitment for price stability in monetary " | kw:rice,monetary policy,federal reserve
+2026-07-12 05:01 ACCEPT [Google News CB] "ECB faces renewed inflation risk as US-Iran tensions flare - MSN" | kw:inflation,ecb
+2026-07-12 05:01 ACCEPT [Google News CB] "PCE Report: Fed's Preferred Inflation Gauge Rises 3.8% In April, Q1 GD" | kw:inflation,gdp
+2026-07-12 05:01 ACCEPT [Google News CB] "Americans face record debt and soaring costs as Fed eyes rate hike - M" | kw:rate hike
+2026-07-12 05:01 SKIP_MORNING already_sent date=2026-07-12
