@@ -15064,3 +15064,16 @@
 2026-07-12 12:31 ACCEPT [Google News NS] "Against the Grain: Central Banks Stockpile Gold as the Dollar Dams the" | kw:gold,central bank
 2026-07-12 12:31 ACCEPT [Google News NS] "Govt Revises Commission Rates for Wheat and Paddy Procurement from Rab" | kw:wheat
 2026-07-12 12:31 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 13:01 ACCEPT [Google News HH] "Gold, Silver Face Volatility Amid US-Iran Tensions, Crude Oil Spike: A" | kw:oil,crude,gold
+2026-07-12 13:01 ACCEPT [Google News HH] "Dollar falls as stocks rally and crude oil retreats - MSN" | kw:oil,crude
+2026-07-12 13:01 ACCEPT [Google News HH] "D-Street Bloodbath: Sensex Crashes 2,300 Pts, Nifty Plunges 700 Pts As" | kw:crude
+2026-07-12 13:01 ACCEPT [Google News KL] "Series of data affecting gold prices next week, investors should note " | kw:gold,rice
+2026-07-12 13:01 ACCEPT [Google News NS] "Russia’s halts Don-Azov channel shipping, affecting grain trade - Busi" | kw:shipping
+2026-07-12 13:01 ACCEPT [Google News NS] "Food prices reach alarming levels - AsiaNews" | kw:rice
+2026-07-12 13:01 ACCEPT [Google News NS] "USDA’s Regenerative Feedstock Guidance Could Create New Value for Corn" | kw:corn
+2026-07-12 13:01 ACCEPT [Google News NS] "Russia Suspends Shipping Through Azov-Don Sea Canal Following Ukrainia" | kw:shipping
+2026-07-12 13:01 ACCEPT [Google News NS] "Karachi administration hikes prices on various flour varieties as whea" | kw:wheat,rice
+2026-07-12 13:01 ACCEPT [Google News NS] "Global food prices ease as grain and sugar costs fall - Food For Mzans" | kw:rice,sugar
+2026-07-12 13:01 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 13:01 WB_CONTEXT refreshed
+2026-07-12 13:02 SENT_EVENING articles=20 date=2026-07-12 force=False
