@@ -14864,3 +14864,6 @@
 2026-07-12 03:01 ACCEPT [Google News NS] "Sufficient wheat stocks available despite price concerns: Rana Tanveer" | kw:wheat,rice
 2026-07-12 03:01 ACCEPT [Google News CB] "Earnings Season, Walsh, and U.S. Inflation—Where Are the Federal Reser" | kw:inflation,federal reserve
 2026-07-12 03:01 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 03:31 ACCEPT [Google News HH] "Gold price today July 12: Loss of 6.4 million VND/tael after a week - " | kw:wti,gold,rice
+2026-07-12 03:31 ACCEPT [Google News KL] "Silver price fluctuation 12. 7: Deep decrease after a week - Laodong.v" | kw:silver,rice
+2026-07-12 03:31 SKIP_MORNING already_sent date=2026-07-12
