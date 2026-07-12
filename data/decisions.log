@@ -14920,3 +14920,7 @@
 2026-07-12 07:01 ACCEPT [Google News CB] "World AI Conference, South Korea monetary policy, China economic data " | kw:monetary policy
 2026-07-12 07:01 ACCEPT [Google News CB] "Fed flags tariffs, Iran war, AI as inflation risks - MSN" | kw:tariff,inflation
 2026-07-12 07:01 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 07:31 ACCEPT [Google News KL] "Do More Volatile Gold Stocks Mean Greater Opportunity? - TradingKey" | kw:gold
+2026-07-12 07:31 ACCEPT [Google News NS] "Soybean Futures Prices Close Higher on 10 July 2026 - HarianBasis.co" | kw:soybean,rice
+2026-07-12 07:31 ACCEPT [Google News CB] "Fed report cites 'stepped-up' inflation due to tariffs, Iran war, AI b" | kw:tariff,inflation
+2026-07-12 07:31 SKIP_MORNING already_sent date=2026-07-12
