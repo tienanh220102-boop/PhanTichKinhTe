@@ -15049,3 +15049,6 @@
 2026-07-12 12:01 ACCEPT [Google News CB] "Will The Fed Hike Interest Rates In Its July Meeting? Here’s What The " | kw:interest rate
 2026-07-12 12:01 ACCEPT [Google News CB] "Bitcoin, Ethereum Rebound To End Week Higher As Fed Rate Cut Hopes Lif" | kw:fed rate,rate cut
 2026-07-12 12:01 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 12:12 ACCEPT [Google News HH] "Gold price update closing session 12. 7: Heavy losses after a week of " | kw:gold,rice
+2026-07-12 12:12 ACCEPT [Google News KL] "Gold, silver rate outlook: Middle East conflict, inflation data to dri" | kw:gold,silver,rice
+2026-07-12 12:12 SKIP_MORNING already_sent date=2026-07-12
