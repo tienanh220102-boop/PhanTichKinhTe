@@ -14841,3 +14841,8 @@
 2026-07-12 01:31 SKIP_MORNING already_sent date=2026-07-12
 2026-07-12 01:52 ACCEPT [Google News KL] "Gold, Silver Rate Today July 12: Is gold getting costlier? Check 18, 2" | kw:gold,silver,rice
 2026-07-12 01:52 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 02:01 ACCEPT [Google News KL] "Young Gold Price 9K to 18K Today, Saturday July 11, 2026 - Pintu" | kw:gold,rice
+2026-07-12 02:01 ACCEPT [Google News KL] "Pure Silver 1-Gram Price Today, Saturday 11 July 2026 - Pintu" | kw:silver,rice
+2026-07-12 02:01 ACCEPT [Google News KL] "Old Gold Prices 17K to 24K Today, Saturday, July 11, 2026 - Pintu" | kw:gold,rice
+2026-07-12 02:01 ACCEPT [Google News KL] "Young Gold Price 8K to 16K Today, Saturday July 11, 2026 - Pintu" | kw:gold,rice
+2026-07-12 02:01 SKIP_MORNING already_sent date=2026-07-12
