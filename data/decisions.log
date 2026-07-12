@@ -14907,3 +14907,12 @@
 2026-07-12 06:01 ACCEPT [Google News KL] "Gold, silver prices see moderate fluctuations - Khabarhub" | kw:gold,silver,rice
 2026-07-12 06:01 ACCEPT [Google News NS] "Govt rules out wheat shortage in country - Dawn" | kw:wheat,shortage
 2026-07-12 06:01 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 06:31 ACCEPT [Al Jazeera] "Sheikh Hamad bin Khalifa Al Thani, architect of modern Qatar" | kw:gas
+2026-07-12 06:31 ACCEPT [Google News HH] "Israel-Iran Clash Rattles Market: Crude Oil Climbs Following Israel Ir" | kw:oil,crude
+2026-07-12 06:31 ACCEPT [Google News HH] "Gold price forecast, recommendations for investors - Laodong.vn" | kw:gold,rice
+2026-07-12 06:31 ACCEPT [Google News KL] "Gold (XAUUSD) Price Forecast: Gold Rally Stalls as Oil Fuels Fed Fears" | kw:oil,fuel,gold
+2026-07-12 06:31 ACCEPT [Google News CB] "The Sustainability of AI Investment amidst High Interest Rates - Econb" | kw:interest rate
+2026-07-12 06:31 ACCEPT [Google News CB] "Interest Rate Forecast: BOJ Rate Hike Risk Builds as USDJPY Eyes 175 -" | kw:interest rate,rate hike,boj
+2026-07-12 06:31 ACCEPT [Google News CB] "Hyundai Economic Research Institute Warns of Mid-4% U.S. Rate Hike - 조" | kw:rate hike
+2026-07-12 06:31 ACCEPT [Google News CB] "Fed flags tariffs, Iran war, AI boom as inflation drivers - MSN" | kw:tariff,inflation
+2026-07-12 06:31 SKIP_MORNING already_sent date=2026-07-12
