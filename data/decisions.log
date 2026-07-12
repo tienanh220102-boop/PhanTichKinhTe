@@ -14947,3 +14947,10 @@
 2026-07-12 09:01 ACCEPT [Google News CB] "Fed faces mounting pressure to hike as inflation stays high - MSN" | kw:inflation
 2026-07-12 09:01 ACCEPT [Google News CB] "Earnings Season, Worshe and U.S. Inflation – Where Are the Fed and Mar" | kw:inflation
 2026-07-12 09:01 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 09:31 ACCEPT [Google News KL] "Policy Shocks and High Copper Prices Disrupt Secondary Copper Rod Mark" | kw:copper,rice
+2026-07-12 09:31 ACCEPT [Google News KL] "Iran conflict challenges safe-haven status of US Treasurys, yen, and g" | kw:gold,treasury
+2026-07-12 09:31 ACCEPT [Google News KL] "Gold, silver may stay under pressure as US-Iran tensions, inflation da" | kw:gold,silver,inflation
+2026-07-12 09:31 ACCEPT [Google News KL] "Gold prices ease in Baghdad and Erbil - Shafaq News | Latest breaking " | kw:gold,rice
+2026-07-12 09:31 ACCEPT [Google News KL] "The price of high-priced watches, which were considered investment ass" | kw:rice
+2026-07-12 09:31 ACCEPT [Google News CB] "The Fed’s independence is unfinished business - Las Vegas Sun" | kw:gas
+2026-07-12 09:31 SKIP_MORNING already_sent date=2026-07-12
