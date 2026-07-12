@@ -14958,3 +14958,6 @@
 2026-07-12 09:44 ACCEPT [Google News KL] "UAE gold prices fall by up to AED 6.5 as investors snap up bullion - E" | kw:gold,rice
 2026-07-12 09:44 ACCEPT [Google News CB] "Fed's Williams Names AI Demand Top Inflation Risk - Briefs Finance" | kw:inflation
 2026-07-12 09:44 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 10:01 ACCEPT [Google News HH] "ProShares UltraShort Bloomberg Crude Oil ETF (SCO) Stock Forum and Dis" | kw:oil,crude
+2026-07-12 10:01 ACCEPT [Google News KL] "Gold ETFs rebound with ₹3,443 crore inflows in June - MSN" | kw:gold
+2026-07-12 10:01 SKIP_MORNING already_sent date=2026-07-12
