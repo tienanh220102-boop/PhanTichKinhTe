@@ -14931,3 +14931,10 @@
 2026-07-12 08:01 ACCEPT [Google News KL] "Gold, silver prices fluctuate slightly in domestic market - The Rising" | kw:gold,silver,rice
 2026-07-12 08:01 ACCEPT [Google News CB] "Expert Says Bitcoin Price Could Hit $70,000 If the Fed Skips Its Next " | kw:rice,rate hike
 2026-07-12 08:01 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 08:31 ACCEPT [Google News HH] "Gold Price Today in Amaravati – 18K, 22K & 24K Rate | 12 July 2026 - T" | kw:gold,rice
+2026-07-12 08:31 ACCEPT [Google News KL] "Policy Shocks and High Copper Prices Disrupt Secondary Copper Rod Mark" | kw:copper,rice
+2026-07-12 08:31 ACCEPT [Google News KL] "Silver Rate Today in Amritsar – Silver Price per Gram & Kg | 12 July 2" | kw:silver,rice
+2026-07-12 08:31 ACCEPT [Google News NS] "What might be the consequences of suspending shipping in the Sea of Az" | kw:shipping
+2026-07-12 08:31 ACCEPT [Google News NS] "Govt rules out wheat shortage in country - Dawn" | kw:wheat,shortage
+2026-07-12 08:31 ACCEPT [Google News NS] "No wheat shortage in Pakistan, hoarders and price manipulators to face" | kw:wheat,rice,shortage
+2026-07-12 08:31 SKIP_MORNING already_sent date=2026-07-12
