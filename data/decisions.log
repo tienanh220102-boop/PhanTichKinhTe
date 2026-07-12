@@ -14835,3 +14835,7 @@
 2026-07-12 01:01 ACCEPT [Google News CB] "Gold.com (GOLD) Gains Attention As Central Bank Buying Revives The Und" | kw:gold,central bank
 2026-07-12 01:01 ACCEPT [Google News CB] "Gold prices drop 25% from peak as ETF inflows rebound - MSN" | kw:gold,rice
 2026-07-12 01:01 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 01:31 ACCEPT [Google News HH] "Gold Price Today in Anantapur – 18K, 22K & 24K Rate | 12 July 2026 - T" | kw:gold,rice
+2026-07-12 01:31 ACCEPT [Google News NS] "EU wheat jumps on talk of disruption to Russian export route - Busines" | kw:wheat
+2026-07-12 01:31 ACCEPT [Google News CB] "Fed Interest Rate Outlook July 2026: Hawkish Turn & Inflation Surge - " | kw:inflation,interest rate
+2026-07-12 01:31 SKIP_MORNING already_sent date=2026-07-12
