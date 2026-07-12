@@ -14829,3 +14829,9 @@
 2026-07-12 00:31 ACCEPT [Google News HH] "Daily Brief United States: Apple, BlackRock, Sunrun Inc, Crude Oil, Cu" | kw:oil,crude
 2026-07-12 00:31 ACCEPT [Google News CB] "Warsh and US Inflation Will Set Tone for July Fed Decision - SWI swiss" | kw:inflation
 2026-07-12 00:31 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 01:01 ACCEPT [Google News KL] "Is First Majestic Silver's Recent Surge Sustainable - Kavout | AI" | kw:silver
+2026-07-12 01:01 ACCEPT [Google News NS] "Argentina wheat sales lag as lower prices deter farmers - Business Rec" | kw:wheat,rice
+2026-07-12 01:01 ACCEPT [Google News NS] "CBoT wheat climbs on Ukraine war risks, bullish USDA global stocks vie" | kw:wti,wheat
+2026-07-12 01:01 ACCEPT [Google News CB] "Gold.com (GOLD) Gains Attention As Central Bank Buying Revives The Und" | kw:gold,central bank
+2026-07-12 01:01 ACCEPT [Google News CB] "Gold prices drop 25% from peak as ETF inflows rebound - MSN" | kw:gold,rice
+2026-07-12 01:01 SKIP_MORNING already_sent date=2026-07-12
