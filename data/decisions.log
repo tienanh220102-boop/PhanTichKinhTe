@@ -14892,3 +14892,8 @@
 2026-07-12 05:01 ACCEPT [Google News CB] "PCE Report: Fed's Preferred Inflation Gauge Rises 3.8% In April, Q1 GD" | kw:inflation,gdp
 2026-07-12 05:01 ACCEPT [Google News CB] "Americans face record debt and soaring costs as Fed eyes rate hike - M" | kw:rate hike
 2026-07-12 05:01 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 05:19 ACCEPT [Google News HH] "India’s Russian crude oil imports hit record high in June, surge 34% -" | kw:oil,crude
+2026-07-12 05:19 ACCEPT [Google News KL] "Newmont stock holds steady as gold producer leans on large-scale reser" | kw:gold
+2026-07-12 05:19 ACCEPT [Google News CB] "Fed signals higher-for-longer rates as inflation stays elevated - MSN" | kw:inflation
+2026-07-12 05:19 ACCEPT [Google News CB] "Fed up with inflation, Fed again promises to deliver price stability i" | kw:rice,inflation,monetary policy
+2026-07-12 05:19 SKIP_MORNING already_sent date=2026-07-12
