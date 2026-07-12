@@ -14916,3 +14916,7 @@
 2026-07-12 06:31 ACCEPT [Google News CB] "Hyundai Economic Research Institute Warns of Mid-4% U.S. Rate Hike - 조" | kw:rate hike
 2026-07-12 06:31 ACCEPT [Google News CB] "Fed flags tariffs, Iran war, AI boom as inflation drivers - MSN" | kw:tariff,inflation
 2026-07-12 06:31 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 07:01 ACCEPT [Google News KL] "A Tale of Two Gold Markets: Central Banks Buy While ETF Investors Flee" | kw:gold,central bank
+2026-07-12 07:01 ACCEPT [Google News CB] "World AI Conference, South Korea monetary policy, China economic data " | kw:monetary policy
+2026-07-12 07:01 ACCEPT [Google News CB] "Fed flags tariffs, Iran war, AI as inflation risks - MSN" | kw:tariff,inflation
+2026-07-12 07:01 SKIP_MORNING already_sent date=2026-07-12
