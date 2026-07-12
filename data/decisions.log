@@ -15077,3 +15077,16 @@
 2026-07-12 13:01 SKIP_MORNING already_sent date=2026-07-12
 2026-07-12 13:01 WB_CONTEXT refreshed
 2026-07-12 13:02 SENT_EVENING articles=20 date=2026-07-12 force=False
+2026-07-12 13:31 ACCEPT [MarketWatch] "The stock-market rally now hinges more on AI than oil" | kw:oil
+2026-07-12 13:31 ACCEPT [Google News HH] "Astros hope draft bolsters farm system, Houston’s draft haul leans on " | kw:commodities
+2026-07-12 13:31 ACCEPT [Google News HH] "Will Iran-US War Trigger Fresh LPG Shock For India? Why Crude Oil Supp" | kw:oil,crude
+2026-07-12 13:31 ACCEPT [Google News HH] "Gold, silver may stay volatile amid US-Iran tensions, inflation data -" | kw:gold,silver,inflation
+2026-07-12 13:31 ACCEPT [Google News KL] "Gold prices fall for second week as rate hike fears grow - MSN" | kw:gold,rice,rate hike
+2026-07-12 13:31 ACCEPT [Google News KL] "Gold slump tests Chinese brand Laopu’s resilience as luxury upstart - " | kw:gold
+2026-07-12 13:31 ACCEPT [Google News NS] "Weekend guide: Corn Hill Arts Festival, Geneseo Airshow, America 250 c" | kw:corn
+2026-07-12 13:31 ACCEPT [Google News NS] "Feed barley prices set to stay high into 2026-27 — here’s why - Canadi" | kw:rice
+2026-07-12 13:31 ACCEPT [Google News CB] "Brendon McCullum removed from post as England Men's Test coach - Crici" | kw:wti
+2026-07-12 13:31 ACCEPT [Google News CB] "This 8-Word Statement From Fed Chair Kevin Warsh and the FOMC Is a Pot" | kw:fomc
+2026-07-12 13:31 ACCEPT [Google News CB] "FOMC Chair Kevin Warsh’s 8-word statement could shift Wall Street and " | kw:fomc
+2026-07-12 13:31 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 13:31 SKIP_EVENING already_sent date=2026-07-12
