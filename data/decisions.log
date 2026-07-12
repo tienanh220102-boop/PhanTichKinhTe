@@ -14961,3 +14961,61 @@
 2026-07-12 10:01 ACCEPT [Google News HH] "ProShares UltraShort Bloomberg Crude Oil ETF (SCO) Stock Forum and Dis" | kw:oil,crude
 2026-07-12 10:01 ACCEPT [Google News KL] "Gold ETFs rebound with ₹3,443 crore inflows in June - MSN" | kw:gold
 2026-07-12 10:01 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 10:31 ACCEPT [MarketWatch] "Stocks rally when Congress goes on summer break. Here’s why." | kw:rice
+2026-07-12 10:31 ACCEPT [BBC Business] "Pressure builds on Europe's biggest port to be greener" | kw:fuel
+2026-07-12 10:31 ACCEPT [BBC Business] "Big fall in oil, gas and cargo ships taking US-backed Hormuz route aft" | kw:oil,gas
+2026-07-12 10:31 ACCEPT [BBC Business] "Jackdaw boss warns of winter fuel shortage risk if gas field not appro" | kw:gas,fuel,shortage
+2026-07-12 10:31 ACCEPT [BBC Business] "Do you know your 'sweat score'? The rise of hydration tech" | kw:flood
+2026-07-12 10:31 ACCEPT [CNBC Commodities] "Prediction markets spark insider trading concerns. Here's how Goldman " | kw:gold
+2026-07-12 10:31 ACCEPT [CNBC Commodities] "Goldman Sachs wins $70 billion in asset management deals with Verizon," | kw:gold
+2026-07-12 10:31 ACCEPT [CNBC Economy] "Christine Lagarde leaves door open to early ECB exit, as she mulls Fre" | kw:central bank,ecb
+2026-07-12 10:31 ACCEPT [CNBC Economy] "Here are the five big takeaways from Kevin Warsh's first meeting as Fe" | kw:interest rate,federal reserve
+2026-07-12 10:31 ACCEPT [CNBC Economy] "UK inflation holds steady at 2.8% in May" | kw:inflation,monetary policy,bank of england
+2026-07-12 10:31 ACCEPT [CNBC Economy] "Three Iranian tankers exit U.S. blockade for first time in months as s" | kw:oil,crude
+2026-07-12 10:31 ACCEPT [CNBC Economy] "UK economy shrank 0.1% in April as Iran conflict weighed on growth" | kw:gdp
+2026-07-12 10:31 ACCEPT [OilPrice.com] "Can Europe Beat the Heat Without More Air Conditioners?" | kw:fuel
+2026-07-12 10:31 ACCEPT [OilPrice.com] "China Tightens Its Grip on Namibia's Next Energy Boom" | kw:oil
+2026-07-12 10:31 ACCEPT [OilPrice.com] "Oil’s Calm Is Over as Middle East Risks Return" | kw:oil,brent,rice
+2026-07-12 10:31 ACCEPT [EIA Energy] "U.S. exports of crude oil and petroleum products reached record in Apr" | kw:oil,crude,petroleum
+2026-07-12 10:31 ACCEPT [EIA Energy] "U.S. commercial crude oil inventories have decreased in June" | kw:oil,crude,gas
+2026-07-12 10:31 ACCEPT [NASDAQ Commod] "Gold Slides Amid Increasing Inflation Concerns As U.S.-Iran Standoff C" | kw:gold,rice,inflation
+2026-07-12 10:31 ACCEPT [NASDAQ Commod] "See How Worthington Steel Ranks Among Analysts' Top Metals Picks" | kw:steel
+2026-07-12 10:31 ACCEPT [Google News HH] "Precision Trading with Simplify Commodities Strategy No K-1 Etf (HARD)" | kw:commodities
+2026-07-12 10:31 ACCEPT [Google News HH] "UAE Exit Strips OPEC of Clout, Risks Bitter Price War: Bousso - Energy" | kw:opec,rice
+2026-07-12 10:31 ACCEPT [Google News HH] "U.S. TOPS THE LIST – Half the World’s Oil Comes From Just Five Countri" | kw:oil
+2026-07-12 10:31 ACCEPT [Google News HH] "Geopolitics, Earnings, Crude Oil to Drive Indian Markets - Rediff Mone" | kw:oil,crude
+2026-07-12 10:31 ACCEPT [Google News HH] "Gold, silver may stay volatile amid US-Iran tensions, inflation data -" | kw:gold,silver,inflation
+2026-07-12 10:31 ACCEPT [Google News HH] "See How Gas Prices Are Easing Across the U.S. - WSJ" | kw:gas,rice,easing
+2026-07-12 10:31 ACCEPT [Google News HH] "South Korea reroutes oil via Red Sea as Iran recloses Strait of Hormuz" | kw:oil
+2026-07-12 10:31 ACCEPT [Google News HH] "India’s Russian crude oil imports hit record high in June, surge 34% -" | kw:oil,crude
+2026-07-12 10:31 ACCEPT [Google News HH] "Government clarifies that India is importing crude oil from 40 countri" | kw:oil,crude
+2026-07-12 10:31 ACCEPT [Google News HH] "Gold price deeply adjusts, central bank continues to accumulate - Laod" | kw:gold,rice,central bank
+2026-07-12 10:31 ACCEPT [Google News HH] "Gold price loses its grip: Q2 mining capex and project signals for eng" | kw:gold,rice
+2026-07-12 10:31 ACCEPT [Google News KL] "Gold, silver prices fluctuate slightly in domestic market - The Rising" | kw:gold,silver,rice
+2026-07-12 10:31 ACCEPT [Google News KL] "COPX vs. CPER: Do Copper Miners or Copper Futures Best Play the Electr" | kw:copper
+2026-07-12 10:31 ACCEPT [Google News KL] "Gold prices ease in Baghdad and Erbil - Shafaq News | Latest breaking " | kw:gold,rice
+2026-07-12 10:31 ACCEPT [Google News KL] "Is Nickel Industries (ASX:NIC) Quietly Recasting Its Competitive Moat " | kw:nickel
+2026-07-12 10:31 ACCEPT [Google News KL] "What Affects Gold Prices? 6 Key Factors Explained - XTB.com" | kw:gold,rice
+2026-07-12 10:31 ACCEPT [Google News KL] "Gold prices fall despite weaker dollar as Fed hike fears grow - MSN" | kw:gold,rice
+2026-07-12 10:31 ACCEPT [Google News KL] "Gold prices steady as Fed rate fears offset geopolitical support - MSN" | kw:gold,rice,fed rate
+2026-07-12 10:31 ACCEPT [Google News KL] "Silver Rate Today in Amritsar – Silver Price per Gram & Kg | 12 July 2" | kw:silver,rice
+2026-07-12 10:31 ACCEPT [Google News NS] "What might be the consequences of suspending shipping in the Sea of Az" | kw:shipping
+2026-07-12 10:31 ACCEPT [Google News NS] "Oxfordshire farm expands to be self-sufficient for wheat - Farmers Wee" | kw:wti,wheat
+2026-07-12 10:31 ACCEPT [Google News NS] "No wheat shortage in county: Rana Tanveer - The Nation (Pakistan )" | kw:wheat,shortage
+2026-07-12 10:31 ACCEPT [Google News NS] "Argentina wheat sales lag as lower prices deter farmers - Business Rec" | kw:wheat,rice
+2026-07-12 10:31 ACCEPT [Google News NS] "Ukrainian attacks on the Russian Navy have affected global grain price" | kw:rice
+2026-07-12 10:31 ACCEPT [Google News NS] "Year-round E15 could boost corn demand but pressure soybean prices - A" | kw:corn,soybean,rice
+2026-07-12 10:31 ACCEPT [Google News NS] "Cattle Profit Squeeze Looms as Break-Even Prices Enter Uncharted Terri" | kw:rice
+2026-07-12 10:31 ACCEPT [Google News NS] "Federal Minister for National Food Security and Research, Rana Tanveer" | kw:wheat,rice
+2026-07-12 10:31 ACCEPT [Google News NS] "Sufficient wheat stocks available despite price concerns: Rana Tanveer" | kw:wheat,rice
+2026-07-12 10:31 ACCEPT [RT Business] "Germany to hit its industry with more energy tariffs" | kw:gas,tariff
+2026-07-12 10:31 ACCEPT [RT Business] "Running on empty: What’s driving Europe’s auto industry crisis?" | kw:fuel,rice
+2026-07-12 10:31 ACCEPT [RT Business] "US strategic oil reserve at risk – watchdog" | kw:oil
+2026-07-12 10:31 ACCEPT [RT Business] "Russian SMEs growing on stronger supply chains to giants" | kw:supply chain,easing
+2026-07-12 10:31 ACCEPT [RT Business] "Defying Western pressure: Russia and China deepen economic partnership" | kw:sanction
+2026-07-12 10:31 ACCEPT [Fed Monetary] "Federal Reserve issues FOMC statement" | kw:federal reserve,fomc
+2026-07-12 10:31 ACCEPT [Google News CB] "Fed signals higher-for-longer rates as inflation stays elevated - MSN" | kw:inflation
+2026-07-12 10:31 ACCEPT [Google News CB] "The Sustainability of AI Investment amidst High Interest Rates - Econb" | kw:interest rate
+2026-07-12 10:31 ACCEPT [Google News CB] "Gold.com (GOLD) Gains Attention As Central Bank Buying Revives The Und" | kw:gold,central bank
+2026-07-12 10:31 ACCEPT [Google News CB] "Fed split on rates as inflation risks keep hikes in play - MSN" | kw:inflation
+2026-07-12 10:31 SKIP_MORNING already_sent date=2026-07-12
