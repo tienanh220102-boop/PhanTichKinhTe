@@ -15052,3 +15052,15 @@
 2026-07-12 12:12 ACCEPT [Google News HH] "Gold price update closing session 12. 7: Heavy losses after a week of " | kw:gold,rice
 2026-07-12 12:12 ACCEPT [Google News KL] "Gold, silver rate outlook: Middle East conflict, inflation data to dri" | kw:gold,silver,rice
 2026-07-12 12:12 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 12:31 ACCEPT [Google News HH] "India’s Russian Crude Oil Imports Jump 34 Pc to Record High In June - " | kw:oil,crude
+2026-07-12 12:31 ACCEPT [Google News HH] "WTI and Brent oil prices tick up on Hyperliquid as Iran closes the Str" | kw:oil,brent,wti
+2026-07-12 12:31 ACCEPT [Google News HH] "LOOKING TO CANADA FOR OIL: Canada’s Irving Turns to Newfoundland for O" | kw:oil
+2026-07-12 12:31 ACCEPT [Google News HH] "Gold Price Exclusive Update: Mixed Signals in July 2026 - Discovery Al" | kw:gold,rice
+2026-07-12 12:31 ACCEPT [Google News KL] "Gold prices rise in India amid global uncertainty - MSN" | kw:gold,rice
+2026-07-12 12:31 ACCEPT [Google News KL] "Gold and silver prices decline over week - News On AIR" | kw:gold,silver,rice
+2026-07-12 12:31 ACCEPT [Google News KL] "Gold, silver prices fluctuate slightly in domestic market - Nepali Pat" | kw:gold,silver,rice
+2026-07-12 12:31 ACCEPT [Google News NS] "Trump seeks permanent year-round sales of E15 fuel - MSN" | kw:fuel
+2026-07-12 12:31 ACCEPT [Google News NS] "‘Adequate wheat stocks are available’ - Business Recorder" | kw:wheat
+2026-07-12 12:31 ACCEPT [Google News NS] "Against the Grain: Central Banks Stockpile Gold as the Dollar Dams the" | kw:gold,central bank
+2026-07-12 12:31 ACCEPT [Google News NS] "Govt Revises Commission Rates for Wheat and Paddy Procurement from Rab" | kw:wheat
+2026-07-12 12:31 SKIP_MORNING already_sent date=2026-07-12
