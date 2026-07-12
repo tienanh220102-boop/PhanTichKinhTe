@@ -14872,3 +14872,8 @@
 2026-07-12 04:01 ACCEPT [Google News NS] "Minister for Food Security vows action against hoarding of wheat - 24N" | kw:wheat
 2026-07-12 04:01 ACCEPT [Google News CB] "Fed's Williams Sees AI Demand as Primary Inflation Risk - Briefs Finan" | kw:inflation
 2026-07-12 04:01 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 04:31 ACCEPT [Google News KL] "Gold, silver prices today: Check retail rates of 24K, 22K gold, 18K, 9" | kw:gold,silver,rice
+2026-07-12 04:31 ACCEPT [Google News KL] "Gold prices steady as Fed rate fears offset geopolitical support - MSN" | kw:gold,rice,fed rate
+2026-07-12 04:31 ACCEPT [Google News KL] "China extends gold-buying run to 20 consecutive months - VnExpress Int" | kw:gold
+2026-07-12 04:31 ACCEPT [Google News KL] "Gold ETF inflows in India rebound to ₹3,443 crore in June - MSN" | kw:gold
+2026-07-12 04:31 SKIP_MORNING already_sent date=2026-07-12
