@@ -14902,3 +14902,8 @@
 2026-07-12 05:31 ACCEPT [Google News KL] "Gold price rises, silver declines in domestic market today - Nepalnews" | kw:gold,silver,rice
 2026-07-12 05:31 ACCEPT [Google News CB] "Fed flags tariffs, Iran war, AI boom as inflation drivers - MSN" | kw:tariff,inflation
 2026-07-12 05:31 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 06:01 ACCEPT [Google News HH] "Gold price rises, silver declines in domestic market today - Nepalnews" | kw:gold,silver,rice
+2026-07-12 06:01 ACCEPT [Google News HH] "Gold price update morning of July 12: Unpredictable, high risk - Laodo" | kw:gold,rice
+2026-07-12 06:01 ACCEPT [Google News KL] "Gold, silver prices see moderate fluctuations - Khabarhub" | kw:gold,silver,rice
+2026-07-12 06:01 ACCEPT [Google News NS] "Govt rules out wheat shortage in country - Dawn" | kw:wheat,shortage
+2026-07-12 06:01 SKIP_MORNING already_sent date=2026-07-12
