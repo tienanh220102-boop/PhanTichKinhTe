@@ -14839,3 +14839,5 @@
 2026-07-12 01:31 ACCEPT [Google News NS] "EU wheat jumps on talk of disruption to Russian export route - Busines" | kw:wheat
 2026-07-12 01:31 ACCEPT [Google News CB] "Fed Interest Rate Outlook July 2026: Hawkish Turn & Inflation Surge - " | kw:inflation,interest rate
 2026-07-12 01:31 SKIP_MORNING already_sent date=2026-07-12
+2026-07-12 01:52 ACCEPT [Google News KL] "Gold, Silver Rate Today July 12: Is gold getting costlier? Check 18, 2" | kw:gold,silver,rice
+2026-07-12 01:52 SKIP_MORNING already_sent date=2026-07-12
