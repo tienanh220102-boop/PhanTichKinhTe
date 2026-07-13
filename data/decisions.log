@@ -15479,3 +15479,18 @@
 2026-07-13 09:01 ACCEPT [Google News CB] "Fed Officials Are Divided On Likely Path Of Interest Rates - NewsRadio" | kw:interest rate
 2026-07-13 09:01 ACCEPT [Google News CB] "Week Ahead: Inflation Data and Fed Signals Take Center Stage - Investi" | kw:inflation
 2026-07-13 09:01 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 09:31 ACCEPT [MarketWatch] "Oil prices surge as much as 5% after Iran declares Strait of Hormuz is" | kw:oil,rice
+2026-07-13 09:31 ACCEPT [Google News HH] "EUR/USD & Gold Price Outlook: Hormuz Strikes, US CPI and Dollar Streng" | kw:gold,rice
+2026-07-13 09:31 ACCEPT [Google News HH] "Nigeria's oil output hit highest level since 2020 in June, regulator s" | kw:oil
+2026-07-13 09:31 ACCEPT [Google News HH] "Oil News: Crude Oil Futures Higher as Hormuz Risk Lifts Oil Outlook - " | kw:oil,crude
+2026-07-13 09:31 ACCEPT [Google News HH] "Gold News: Gold Price Hinges on CPI, Warsh and Hormuz Risks - FXEmpire" | kw:gold,rice
+2026-07-13 09:31 ACCEPT [Google News KL] "EUR/USD & Gold Price Outlook: Hormuz Strikes, US CPI and Dollar Streng" | kw:gold,rice
+2026-07-13 09:31 ACCEPT [Google News KL] "Copper Prices Face Geopolitical and Macro Challenges, Supply Disruptio" | kw:copper,rice
+2026-07-13 09:31 ACCEPT [Google News KL] "Gold Price Today in Amaravati – 18K, 22K & 24K Rate | 13 July 2026 - T" | kw:gold,rice
+2026-07-13 09:31 ACCEPT [Google News KL] "Pantoro Gold Price Target Cut 46% to A$3.53/Share by Euroz Hartleys - " | kw:gold,rice
+2026-07-13 09:31 ACCEPT [Google News NS] "Italy increased Ukrainian corn imports due to quality issues and poor " | kw:corn,harvest
+2026-07-13 09:31 ACCEPT [Google News NS] "Al-Hasakah Agriculture Department: Wheat Deliveries Reach 863,000 Tons" | kw:wheat
+2026-07-13 09:31 ACCEPT [Google News CB] "Fed's Williams will support rate hikes if monthly core inflation runs " | kw:inflation,rate hike
+2026-07-13 09:31 ACCEPT [Google News CB] "America In Focus: Fed officials divided on US inflation views; US home" | kw:rice,inflation
+2026-07-13 09:31 ACCEPT [Google News CB] "US Dollar: Higher energy supports Fed tightening – ING - FXStreet" | kw:tightening
+2026-07-13 09:31 SKIP_MORNING already_sent date=2026-07-13
