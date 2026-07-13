@@ -15494,3 +15494,18 @@
 2026-07-13 09:31 ACCEPT [Google News CB] "America In Focus: Fed officials divided on US inflation views; US home" | kw:rice,inflation
 2026-07-13 09:31 ACCEPT [Google News CB] "US Dollar: Higher energy supports Fed tightening – ING - FXStreet" | kw:tightening
 2026-07-13 09:31 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 10:01 ACCEPT [Google News HH] "Handover of Health Commodities - Speech of CDA Bremner - U.S. Embassy " | kw:gas,commodities
+2026-07-13 10:01 ACCEPT [Google News HH] "COT on forex and commodities - Week to 7 July 2026 - Saxo" | kw:commodities
+2026-07-13 10:01 ACCEPT [Google News HH] "EUR/USD & Gold Price Outlook: Hormuz Strikes, US CPI and Dollar Streng" | kw:gold,rice
+2026-07-13 10:01 ACCEPT [Google News HH] "US-Iran Conflict Puts Oil Back in Focus While Gold Could Weaken on Rat" | kw:oil,gold,rate hike
+2026-07-13 10:01 ACCEPT [Google News HH] "OPEC Fund grants $50 million to SeABank to boost small business and cl" | kw:opec
+2026-07-13 10:01 ACCEPT [Google News HH] "OPEC Fund lends $50m to Vietnam’s SeABank - Tech in Asia" | kw:opec
+2026-07-13 10:01 ACCEPT [Google News KL] "Silver price today: falls on July 13 - FXStreet" | kw:silver,rice
+2026-07-13 10:01 ACCEPT [Google News KL] "DAILY: Macro disruptions to cause c... - Mysteel" | kw:steel
+2026-07-13 10:01 ACCEPT [Google News KL] "Copper Retreats as Middle East Tensions Fuel Rate Fears - TradingPedia" | kw:fuel,copper
+2026-07-13 10:01 ACCEPT [Google News KL] "Gold prices slip as Fed policy, oil surge weigh on sentiment - MSN" | kw:oil,gold,rice
+2026-07-13 10:01 ACCEPT [Google News KL] "Silver Futures Tumble Amid Strong US Dollar & US-Iran Tensions - Redif" | kw:silver
+2026-07-13 10:01 ACCEPT [Google News CB] "3 U.S. Regional Bank Stocks Most Exposed To Fed Rate Decisions - simpl" | kw:fed rate,rate decision
+2026-07-13 10:01 ACCEPT [Google News CB] "The Fed’s Rate Puzzle Deepens as Inflation Paths Multiply - Investing." | kw:inflation
+2026-07-13 10:01 ACCEPT [Google News CB] "Middle East Tensions Fuel Fed Hike Bets and Risk Aversion - Investing." | kw:fuel
+2026-07-13 10:01 SKIP_MORNING already_sent date=2026-07-13
