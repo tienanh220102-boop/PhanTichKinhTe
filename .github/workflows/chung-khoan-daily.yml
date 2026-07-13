@@ -85,6 +85,13 @@ jobs:
           echo "🤖 TẦNG 2 — Phân tích LLM sâu trên shortlist..."
           python main.py --stocks "$SHORTLIST" --no-market-review --force-run
 
+      - name: Gửi digest sang Telegram
+        if: always()
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT: ${{ secrets.TELEGRAM_CHAT }}
+        run: python scripts/send_telegram_vn.py
+
       - name: Tải lên báo cáo (artifact)
         uses: actions/upload-artifact@v6
         if: always()
