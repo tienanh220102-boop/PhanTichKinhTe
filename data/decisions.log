@@ -15276,3 +15276,11 @@
 2026-07-13 01:00 ACCEPT [Google News CB] "Bank of Korea Rate Hike Certain, Focus on Speed and Intensity - 조선일보" | kw:rate hike
 2026-07-13 01:00 SKIP_MORNING already_sent date=2026-07-13
 2026-07-13 01:01 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 01:31 ACCEPT [Google News HH] "Nigeria’s Crude Oil Output Hits 74-Month High - Real Broadcasting Netw" | kw:oil,crude
+2026-07-13 01:31 ACCEPT [Google News HH] "Nigeria’s oil output hits 74-month high, beats OPEC quota - Punch News" | kw:oil,opec
+2026-07-13 01:31 ACCEPT [Google News HH] "CRUDE OIL TOKEN Price USD, CRUDE OIL Price Live Charts, Market Cap & N" | kw:oil,crude,rice
+2026-07-13 01:31 ACCEPT [Google News KL] "Nickel Daily: Nickel prices remain in a low-level range - mysteel.net" | kw:steel,nickel,rice
+2026-07-13 01:31 ACCEPT [Google News KL] "Gold declines below $4,100 as fresh US-Iran strikes stoke inflation fe" | kw:gold,inflation
+2026-07-13 01:31 ACCEPT [Google News KL] "Best Gold IRA Companies With Low Fees in 2026 (Rankings Released) - ne" | kw:gold
+2026-07-13 01:31 ACCEPT [Google News KL] "China Nickel Market Review Weekly 2... - mysteel.net" | kw:steel,nickel
+2026-07-13 01:31 SKIP_MORNING already_sent date=2026-07-13
