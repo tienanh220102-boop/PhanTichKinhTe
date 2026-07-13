@@ -5,6 +5,10 @@ name: Phân tích Chứng khoán VN (HOSE/HNX/UPCoM)
 # đã cắm nguồn dữ liệu Việt Nam qua VCIFetcher). Mã VN dùng hậu tố .VN.
 
 on:
+  schedule:
+    # Giờ VN = UTC+7. Chạy các ngày giao dịch (T2–T6).
+    - cron: '30 1 * * 1-5'   # 08:30 VN — trước phiên (định hướng sáng)
+    - cron: '15 8 * * 1-5'   # 15:15 VN — sau khi đóng cửa (tổng kết ngày)
   workflow_dispatch:
     inputs:
       top:
@@ -29,7 +33,7 @@ concurrency:
 jobs:
   analyze-vn:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 110   # 30 mã × ~150s + screener; để dư cho chắc
     defaults:
       run:
         working-directory: chung-khoan
