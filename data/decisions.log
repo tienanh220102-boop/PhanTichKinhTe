@@ -15380,3 +15380,31 @@
 2026-07-13 05:31 ACCEPT [Google News CB] "Rush to reassure on BOJ independence after bonds and yen signal concer" | kw:boj
 2026-07-13 05:31 SKIP_MORNING already_sent date=2026-07-13
 2026-07-13 06:01 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 06:31 ACCEPT [OilPrice.com] "Oil and LNG Tankers Go Dark Again as Hormuz Crisis Deepens" | kw:oil,lng
+2026-07-13 06:31 ACCEPT [Google News HH] "$Crude Oil Futures (AUG6) (CLmain.US)$ - Moomoo" | kw:oil,crude
+2026-07-13 06:31 ACCEPT [Google News HH] "Enterprise value to EBIT forward of Mineral Commodities Ltd – LS:86450" | kw:commodities
+2026-07-13 06:31 ACCEPT [Google News HH] "Gold price slips as Hormuz tensions lift Oil and inflation fears - FXS" | kw:oil,gold,rice
+2026-07-13 06:31 ACCEPT [Google News HH] "WTI Crude Oil Price Forecast: Can Oil Reclaim $75 as OPEC+ and Iran Re" | kw:oil,crude,opec
+2026-07-13 06:31 ACCEPT [Google News HH] "Crude Oil Prices Jump 3% As US-Iran Tensions Fuel Strait Of Hormuz Sup" | kw:oil,crude,fuel
+2026-07-13 06:31 ACCEPT [Google News HH] "IOC, BPCL, HPCL Shares Drop As Crude Oil Price Climbs 4% To $79 Per Ba" | kw:oil,crude,rice
+2026-07-13 06:31 ACCEPT [Google News HH] "Crude oil rises over 4% to $80: Here are the 3 biggest reasons why - I" | kw:oil,crude
+2026-07-13 06:31 ACCEPT [Google News HH] "China’s crude imports rebound as fuel export curbs ease, Middle East s" | kw:crude,fuel
+2026-07-13 06:31 ACCEPT [Google News HH] "US-Iran War Update: Crude oil prices jump 3 percent as tensions rise; " | kw:oil,crude,brent
+2026-07-13 06:31 ACCEPT [Google News HH] "Gold Price Forecast: Can Central Bank Buying Offset Fed Pressure Below" | kw:gold,rice,central bank
+2026-07-13 06:31 ACCEPT [Google News KL] "Gold prices steady after weeks of decline amid global tensions - MSN" | kw:gold,rice
+2026-07-13 06:31 ACCEPT [Google News KL] "Copper prices fell, but end-use demand was weak, and suppliers proacti" | kw:copper,rice
+2026-07-13 06:31 ACCEPT [Google News KL] "Sideways trading and declining gold prices pose headwinds for the Land" | kw:gold,rice
+2026-07-13 06:31 ACCEPT [Google News KL] "Silver Price Forecast: Can Industrial Demand Offset Bearish Pressure B" | kw:silver,rice
+2026-07-13 06:31 ACCEPT [Google News KL] "Copper price is waiting the negative momentum– Forecast today – 13-7-2" | kw:copper,rice
+2026-07-13 06:31 ACCEPT [Google News KL] "Gold drops 0.56 percent to $4,064 as oil surge, 72 percent September F" | kw:oil,gold
+2026-07-13 06:31 ACCEPT [Google News KL] "Antam gold price falls on Monday (13/7) to IDR 2,635,000 per gram - ID" | kw:gold,rice
+2026-07-13 06:31 ACCEPT [Google News KL] "Gold Futures Slide: Middle East Tensions & Strong Dollar - Rediff Mone" | kw:wti,gold
+2026-07-13 06:31 ACCEPT [Google News KL] "Gold and silver prices drop in Nepali market - Nepalnews.com" | kw:gold,silver,rice
+2026-07-13 06:31 ACCEPT [Google News KL] "Gold prices tumble as Gulf tensions fail to spark haven demand - Invez" | kw:gold,rice
+2026-07-13 06:31 ACCEPT [Google News NS] "Global Wheat Stocks Decline as U.S. Production Hits Multi-Decade Low b" | kw:wheat
+2026-07-13 06:31 ACCEPT [Google News NS] "Higher U.S. Soybean Output Strengthens Global Oilseed Supply Outlook b" | kw:oil,soybean
+2026-07-13 06:31 ACCEPT [Google News NS] "Lower U.S. peanut production could boost prices this year - Farm Progr" | kw:rice
+2026-07-13 06:31 ACCEPT [Google News CB] "Wall Street Eyes Key US Inflation Events This Week - 조선일보" | kw:inflation
+2026-07-13 06:31 ACCEPT [Google News CB] "After announcing layoffs at Xbox, CEO Asha Sharma gets a new role advi" | kw:wti
+2026-07-13 06:31 ACCEPT [Google News CB] "EUR/USD Forecast: Can the Euro Rebound Above 1.15 as ECB and Fed Polic" | kw:wti,ecb
+2026-07-13 06:31 SKIP_MORNING already_sent date=2026-07-13
