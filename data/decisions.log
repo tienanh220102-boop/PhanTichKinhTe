@@ -15267,3 +15267,11 @@
 2026-07-13 00:31 ACCEPT [Google News CB] "Fed Signals Strong Action on Inflation as Chair Warsh Prepares for Tes" | kw:inflation
 2026-07-13 00:31 ACCEPT [Google News CB] "Eurozone Economy Mid-2026: Oil Price Relief, ECB Caution, and Key Fact" | kw:oil,rice,ecb
 2026-07-13 00:31 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 00:59 ACCEPT [Google News HH] "Commodities intraday targets/key levels - TradingView" | kw:commodities
+2026-07-13 01:00 ACCEPT [Google News KL] "Gold prices steady as silver holds firm amid global tensions - MSN" | kw:gold,silver,rice
+2026-07-13 01:00 ACCEPT [Google News KL] "Gold prices steady across India despite global tensions - MSN" | kw:gold,rice
+2026-07-13 01:00 ACCEPT [Google News NS] "South Korea boosts soybean import quota to curb bean sprout price risk" | kw:soybean,rice
+2026-07-13 01:00 ACCEPT [Google News CB] "BOJ may raise 2026 growth forecast, set to hold rates steady as inflat" | kw:inflation,boj
+2026-07-13 01:00 ACCEPT [Google News CB] "BOJ may raise growth forecast, maintain vigilance to inflation risk, s" | kw:inflation,boj
+2026-07-13 01:00 ACCEPT [Google News CB] "Bank of Korea Rate Hike Certain, Focus on Speed and Intensity - 조선일보" | kw:rate hike
+2026-07-13 01:00 SKIP_MORNING already_sent date=2026-07-13
