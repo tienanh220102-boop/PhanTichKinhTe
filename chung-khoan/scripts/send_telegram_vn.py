@@ -103,11 +103,18 @@ def extract_movers(md_path, section, top=6):
 
 
 _SIGNAL_VN = {
+    # tiếng Việt (giá trị mới) — đặt cụm dài trước để khớp đúng
+    "mua mạnh": "🟢 MUA MẠNH", "mua dần": "🟢 MUA DẦN", "cân nhắc mua": "🟢 CÂN NHẮC MUA",
+    "mua": "🟢 CÂN NHẮC MUA", "quan sát": "⏸️ CHỜ / QUAN SÁT", "nắm giữ": "✋ NẮM GIỮ",
+    "giảm tỷ trọng": "🔻 GIẢM TỶ TRỌNG", "bán mạnh": "🔴 BÁN MẠNH", "bán": "🔴 BÁN",
+    # tiếng Anh (khi report chạy en)
     "strong buy": "🟢 MUA MẠNH", "buy": "🟢 CÂN NHẮC MUA", "accumulate": "🟢 MUA DẦN",
     "watch": "⏸️ CHỜ / QUAN SÁT", "hold": "✋ NẮM GIỮ",
     "reduce": "🔻 GIẢM TỶ TRỌNG", "sell": "🔴 BÁN", "strong sell": "🔴 BÁN MẠNH",
 }
 _TREND_VN = {
+    "tăng mạnh": "xu hướng tăng mạnh", "giảm mạnh": "xu hướng giảm mạnh",
+    "đi ngang": "đi ngang", "tăng": "xu hướng tăng", "giảm": "xu hướng giảm",
     "strongly bullish": "xu hướng tăng mạnh", "bullish": "xu hướng tăng",
     "neutral": "trung tính", "sideways": "đi ngang", "volatile": "biến động mạnh",
     "bearish": "xu hướng giảm", "strongly bearish": "xu hướng giảm mạnh",

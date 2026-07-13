@@ -107,9 +107,13 @@ logger = logging.getLogger(__name__)
 
 
 def _localized_text(language: Any, *, en: str, zh: str, ko: str) -> str:
-    """Pick a deterministic fallback string for the report language (zh/en/ko)."""
+    """Pick a deterministic fallback string for the report language (zh/en/ko/vi).
+
+    Tiếng Việt ('vi') tái dùng chuỗi tiếng Anh cho các fallback cấu trúc hiếm gặp;
+    nội dung do LLM sinh vẫn ra tiếng Việt qua chỉ thị ngôn ngữ.
+    """
     normalized = normalize_report_language(language)
-    if normalized == "en":
+    if normalized in ("en", "vi"):
         return en
     if normalized == "ko":
         return ko
@@ -2390,6 +2394,18 @@ class GeminiAnalyzer:
 - Use the common Korean or original listed company name when confident; do not invent one.
 - This includes `stock_name`, `trend_prediction`, `operation_advice`, `confidence_level`, nested dashboard text, checklist items, and all narrative summaries.
 """
+        if lang == "vi":
+            return base_prompt + """
+
+## Output Language (highest priority)
+
+- Keep all JSON keys unchanged.
+- `decision_type` must remain `buy|hold|sell`.
+- All human-readable JSON values MUST be written in Vietnamese (Tiếng Việt), clear and easy for a beginner investor to understand.
+- Explain any technical term (RSI, MA, MACD...) briefly in Vietnamese when first used.
+- Use the common Vietnamese or original listed company name when confident; do not invent one.
+- This includes `stock_name`, `trend_prediction`, `operation_advice`, `confidence_level`, nested dashboard text, checklist items, and all narrative summaries.
+"""
         return base_prompt + """
 
 ## 输出语言（最高优先级）
@@ -4161,6 +4177,18 @@ class GeminiAnalyzer:
 - This includes `stock_name`, `trend_prediction`, `operation_advice`, `confidence_level`, all nested dashboard text, checklist items, and every summary field.
 - Use the common Korean or original listed company name when you are confident. If not, keep the listed company name rather than inventing one.
 - When data is missing, explain it in Korean instead of Chinese.
+"""
+        elif report_language == "vi":
+            prompt += """
+
+### Output language requirements (highest priority)
+- Keep every JSON key exactly as defined above; do not translate keys.
+- `decision_type` must remain `buy`, `hold`, or `sell`.
+- All human-readable JSON values MUST be in Vietnamese (Tiếng Việt), clear and easy for a beginner investor.
+- This includes `stock_name`, `trend_prediction`, `operation_advice`, `confidence_level`, all nested dashboard text, checklist items, and every summary field.
+- Briefly explain any technical term (RSI, MA, MACD...) in Vietnamese on first use.
+- Use the common Vietnamese or original listed company name when confident; otherwise keep the listed name rather than inventing one.
+- When data is missing, explain it in Vietnamese.
 """
         else:
             prompt += f"""

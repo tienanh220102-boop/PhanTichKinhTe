@@ -22,9 +22,9 @@ on:
       report_language:
         description: 'Ngôn ngữ báo cáo'
         required: false
-        default: 'en'
+        default: 'vi'
         type: choice
-        options: [en, zh]
+        options: [vi, en, zh]
 
 concurrency:
   group: chung-khoan-analysis
@@ -66,7 +66,7 @@ jobs:
           # Cấu hình chạy
           SCREEN_TOP: ${{ github.event.inputs.top || '30' }}
           SCREEN_BOARDS: ${{ github.event.inputs.boards || 'HOSE,HNX,UPCoM' }}
-          REPORT_LANGUAGE: ${{ github.event.inputs.report_language || 'en' }}
+          REPORT_LANGUAGE: ${{ github.event.inputs.report_language || 'vi' }}
           REPORT_TYPE: 'simple'
           MARKET_REVIEW_ENABLED: 'false'
           MARKET_REVIEW_REGION: 'vn'

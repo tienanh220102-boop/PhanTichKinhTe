@@ -28,6 +28,8 @@ def format_market_structure_prompt_section(
         return ""
 
     language = normalize_report_language(report_language)
+    if language == "vi":
+        language = "en"  # tái dùng khung tiếng Anh; output ép sang tiếng Việt qua chỉ thị ngôn ngữ
     active_themes = _item_names(market_theme.get("active_themes"), limit=5)
     leading_concepts = _item_names(market_theme.get("leading_concepts"), limit=5)
     leading_industries = _item_names(market_theme.get("leading_industries"), limit=5)

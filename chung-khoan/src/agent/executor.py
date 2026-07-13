@@ -827,6 +827,8 @@ class AgentExecutor:
                 parts.append("输出语言: English（所有 JSON 键名保持不变，所有面向用户的文本值使用英文）")
             elif report_language == "ko":
                 parts.append("출력 언어: 한국어（모든 JSON 키는 그대로 유지하고, 사용자 노출 텍스트 값은 한국어로 작성）")
+            elif report_language == "vi":
+                parts.append("Ngôn ngữ đầu ra: Tiếng Việt (giữ nguyên mọi JSON key; mọi giá trị văn bản hiển thị cho người dùng viết bằng tiếng Việt, đơn giản dễ hiểu)")
             else:
                 parts.append("输出语言: 中文（所有 JSON 键名保持不变，所有面向用户的文本值使用中文）")
 

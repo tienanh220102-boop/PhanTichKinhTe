@@ -8,9 +8,13 @@ from typing import Any, Dict, Optional
 
 from src.schemas.decision_scale import signal_key_for_score
 
-SUPPORTED_REPORT_LANGUAGES = ("zh", "en", "ko")
+SUPPORTED_REPORT_LANGUAGES = ("zh", "en", "ko", "vi")
 
 _REPORT_LANGUAGE_ALIASES = {
+    "vietnamese": "vi",
+    "tieng viet": "vi",
+    "vi-vn": "vi",
+    "vi_vn": "vi",
     "zh-cn": "zh",
     "zh_cn": "zh",
     "zh-hans": "zh",
@@ -66,13 +70,13 @@ _OPERATION_ADVICE_CANONICAL_MAP = {
 }
 
 _OPERATION_ADVICE_TRANSLATIONS = {
-    "strong_buy": {"zh": "强烈买入", "en": "Strong Buy", "ko": "적극 매수"},
-    "buy": {"zh": "买入", "en": "Buy", "ko": "매수"},
-    "hold": {"zh": "持有", "en": "Hold", "ko": "보유"},
-    "watch": {"zh": "观望", "en": "Watch", "ko": "관망"},
-    "reduce": {"zh": "减仓", "en": "Reduce", "ko": "비중축소"},
-    "sell": {"zh": "卖出", "en": "Sell", "ko": "매도"},
-    "strong_sell": {"zh": "强烈卖出", "en": "Strong Sell", "ko": "적극 매도"},
+    "strong_buy": {"zh": "强烈买入", "en": "Strong Buy", "ko": "적극 매수", "vi": "Mua mạnh"},
+    "buy": {"zh": "买入", "en": "Buy", "ko": "매수", "vi": "Mua"},
+    "hold": {"zh": "持有", "en": "Hold", "ko": "보유", "vi": "Nắm giữ"},
+    "watch": {"zh": "观望", "en": "Watch", "ko": "관망", "vi": "Quan sát"},
+    "reduce": {"zh": "减仓", "en": "Reduce", "ko": "비중축소", "vi": "Giảm tỷ trọng"},
+    "sell": {"zh": "卖出", "en": "Sell", "ko": "매도", "vi": "Bán"},
+    "strong_sell": {"zh": "强烈卖出", "en": "Strong Sell", "ko": "적극 매도", "vi": "Bán mạnh"},
 }
 
 _TREND_PREDICTION_CANONICAL_MAP = {
@@ -107,11 +111,11 @@ _TREND_PREDICTION_CANONICAL_MAP = {
 }
 
 _TREND_PREDICTION_TRANSLATIONS = {
-    "strong_bullish": {"zh": "强烈看多", "en": "Strong Bullish", "ko": "강한 상승"},
-    "bullish": {"zh": "看多", "en": "Bullish", "ko": "상승"},
-    "sideways": {"zh": "震荡", "en": "Sideways", "ko": "횡보"},
-    "bearish": {"zh": "看空", "en": "Bearish", "ko": "하락"},
-    "strong_bearish": {"zh": "强烈看空", "en": "Strong Bearish", "ko": "강한 하락"},
+    "strong_bullish": {"zh": "强烈看多", "en": "Strong Bullish", "ko": "강한 상승", "vi": "Tăng mạnh"},
+    "bullish": {"zh": "看多", "en": "Bullish", "ko": "상승", "vi": "Tăng"},
+    "sideways": {"zh": "震荡", "en": "Sideways", "ko": "횡보", "vi": "Đi ngang"},
+    "bearish": {"zh": "看空", "en": "Bearish", "ko": "하락", "vi": "Giảm"},
+    "strong_bearish": {"zh": "强烈看空", "en": "Strong Bearish", "ko": "강한 하락", "vi": "Giảm mạnh"},
 }
 
 _CONFIDENCE_LEVEL_CANONICAL_MAP = {
@@ -128,9 +132,9 @@ _CONFIDENCE_LEVEL_CANONICAL_MAP = {
 }
 
 _CONFIDENCE_LEVEL_TRANSLATIONS = {
-    "high": {"zh": "高", "en": "High", "ko": "높음"},
-    "medium": {"zh": "中", "en": "Medium", "ko": "보통"},
-    "low": {"zh": "低", "en": "Low", "ko": "낮음"},
+    "high": {"zh": "高", "en": "High", "ko": "높음", "vi": "Cao"},
+    "medium": {"zh": "中", "en": "Medium", "ko": "보통", "vi": "Trung bình"},
+    "low": {"zh": "低", "en": "Low", "ko": "낮음", "vi": "Thấp"},
 }
 
 _CHIP_HEALTH_CANONICAL_MAP = {
@@ -146,9 +150,9 @@ _CHIP_HEALTH_CANONICAL_MAP = {
 }
 
 _CHIP_HEALTH_TRANSLATIONS = {
-    "healthy": {"zh": "健康", "en": "Healthy", "ko": "양호"},
-    "average": {"zh": "一般", "en": "Average", "ko": "보통"},
-    "caution": {"zh": "警惕", "en": "Caution", "ko": "주의"},
+    "healthy": {"zh": "健康", "en": "Healthy", "ko": "양호", "vi": "Lành mạnh"},
+    "average": {"zh": "一般", "en": "Average", "ko": "보통", "vi": "Trung bình"},
+    "caution": {"zh": "警惕", "en": "Caution", "ko": "주의", "vi": "Cảnh giác"},
 }
 
 _BIAS_STATUS_CANONICAL_MAP = {
@@ -166,33 +170,37 @@ _BIAS_STATUS_CANONICAL_MAP = {
 }
 
 _BIAS_STATUS_TRANSLATIONS = {
-    "safe": {"zh": "安全", "en": "Safe", "ko": "안전"},
-    "caution": {"zh": "警戒", "en": "Caution", "ko": "경계"},
-    "danger": {"zh": "危险", "en": "Danger", "ko": "위험"},
+    "safe": {"zh": "安全", "en": "Safe", "ko": "안전", "vi": "An toàn"},
+    "caution": {"zh": "警戒", "en": "Caution", "ko": "경계", "vi": "Cảnh giác"},
+    "danger": {"zh": "危险", "en": "Danger", "ko": "위험", "vi": "Nguy hiểm"},
 }
 
 _PLACEHOLDER_BY_LANGUAGE = {
     "zh": "待补充",
     "en": "TBD",
     "ko": "미정",
+    "vi": "Chưa có",
 }
 
 _UNKNOWN_BY_LANGUAGE = {
     "zh": "未知",
     "en": "Unknown",
     "ko": "알 수 없음",
+    "vi": "Chưa rõ",
 }
 
 _NO_DATA_BY_LANGUAGE = {
     "zh": "数据缺失",
     "en": "Data unavailable",
     "ko": "데이터 없음",
+    "vi": "Thiếu dữ liệu",
 }
 
 _CHIP_UNAVAILABLE_BY_LANGUAGE = {
     "zh": "筹码分布未启用或数据源暂不可用，未纳入筹码判断。",
     "en": "Chip distribution is disabled or temporarily unavailable; chip signals were not used.",
     "ko": "매물대가 비활성화되었거나 데이터 소스를 일시적으로 사용할 수 없어 매물대 신호를 반영하지 않았습니다.",
+    "vi": "Phân bố chip chưa bật hoặc nguồn dữ liệu tạm không có; không dùng tín hiệu chip.",
 }
 
 _CHIP_PLACEHOLDER_EXACT = {
@@ -230,6 +238,7 @@ _GENERIC_STOCK_NAME_BY_LANGUAGE = {
     "zh": "待确认股票",
     "en": "Unnamed Stock",
     "ko": "미확인 종목",
+    "vi": "Cổ phiếu chưa xác định",
 }
 
 _REPORT_LABELS: Dict[str, Dict[str, str]] = {
@@ -670,9 +679,13 @@ def is_supported_report_language_value(value: Optional[str]) -> bool:
 
 
 def get_report_labels(language: Optional[str]) -> Dict[str, str]:
-    """Return UI copy for the selected report language."""
+    """Return UI copy for the selected report language.
+
+    Tiếng Việt ('vi') tái dùng nhãn cấu trúc tiếng Anh (giống cách 'ko' tái dùng khung),
+    còn mọi giá trị nội dung do LLM sinh ra được ép sang tiếng Việt qua chỉ thị ngôn ngữ.
+    """
     normalized = normalize_report_language(language)
-    return _REPORT_LABELS[normalized]
+    return _REPORT_LABELS.get(normalized) or _REPORT_LABELS["en"]
 
 
 def get_placeholder_text(language: Optional[str]) -> str:
@@ -1015,6 +1028,17 @@ def get_sentiment_label(score: int, language: Optional[str]) -> str:
         if score >= 20:
             return "비관"
         return "매우 비관"
+
+    if normalized == "vi":
+        if score >= 80:
+            return "Rất lạc quan"
+        if score >= 60:
+            return "Lạc quan"
+        if score >= 40:
+            return "Trung tính"
+        if score >= 20:
+            return "Bi quan"
+        return "Rất bi quan"
 
     if score >= 80:
         return "极度乐观"
