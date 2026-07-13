@@ -15750,3 +15750,22 @@
 2026-07-13 14:31 ACCEPT [Google News CB] "Will Fed Chair Kevin Warsh address AI inflation in his congressional t" | kw:inflation
 2026-07-13 14:31 SKIP_MORNING already_sent date=2026-07-13
 2026-07-13 14:31 SKIP_EVENING already_sent date=2026-07-13
+2026-07-13 15:01 ACCEPT [Al Jazeera] "What is the EU’s plan to cut trade with illegal Israeli settlements?" | kw:sanction
+2026-07-13 15:01 ACCEPT [OilPrice.com] "Utility-Scale Solar Costs Rise 18% but Remain Cheapest Power Source" | kw:supply chain,tariff,interest rate
+2026-07-13 15:01 ACCEPT [Google News HH] "UAE Tells OPEC Its Oil Production Surged Last Month - Rigzone" | kw:oil,opec
+2026-07-13 15:01 ACCEPT [Google News HH] "America barely uses OPEC oil. Why are oil and gas prices so high? - US" | kw:oil,opec,gas
+2026-07-13 15:01 ACCEPT [Google News HH] "U.S. Stocks May See Initial Weakness As Crude Oil Prices Surge - RTTNe" | kw:oil,crude,rice
+2026-07-13 15:01 ACCEPT [Google News HH] "Nigeria oil output hits six-year high, above OPEC target - Yahoo Finan" | kw:oil,opec
+2026-07-13 15:01 ACCEPT [Google News HH] "Crude Oil Breaks Down From Triangle, Signaling Wave C Weakness - Barch" | kw:oil,crude
+2026-07-13 15:01 ACCEPT [Google News HH] "U.S. Stocks May See Initial Weakness As Crude Oil Prices Surge - RTTNe" | kw:oil,crude,rice
+2026-07-13 15:01 ACCEPT [Google News HH] "Wall Street mixed and oil prices jump after Iran and the US trade anot" | kw:oil,rice
+2026-07-13 15:01 ACCEPT [Google News HH] "Commodities: Forward curves and carry framework – Societe Generale - F" | kw:commodities
+2026-07-13 15:01 ACCEPT [Google News KL] "H.C. Wainwright cuts First Majestic Silver price target on production " | kw:silver,rice
+2026-07-13 15:01 ACCEPT [Google News KL] "Gold price today: Yellow metal falls Rs 1,500 to Rs 1.47 lakh/10g in D" | kw:gold,rice
+2026-07-13 15:01 ACCEPT [Google News NS] "Poor Harvest and Low Prices Put Grain Producers under Pressure - Hunga" | kw:rice,harvest
+2026-07-13 15:01 ACCEPT [Google News NS] "Will Russia's Sea of Azov Restrictions Trigger a New Wheat Price Spike" | kw:wheat,rice
+2026-07-13 15:01 ACCEPT [Google News CB] "Ethiopian Central Bank Raises Rates for First Time in Two Years - Bloo" | kw:central bank
+2026-07-13 15:01 ACCEPT [Google News CB] "US CPI Preview: Could the Fed Actually Hike Rates on a Hot Inflation R" | kw:inflation
+2026-07-13 15:01 ACCEPT [Google News CB] "Gold Sinks to $4000 on Trump's Hormuz Tariff Ahead of US Inflation, Fe" | kw:gold,tariff,inflation
+2026-07-13 15:01 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 15:01 SKIP_EVENING already_sent date=2026-07-13
