@@ -1,8 +1,9 @@
 # Phân tích Kinh tế
 
-Dự án hợp nhất 2 mảng (gộp từ Giao Dịch Hàng Hóa + Ngân Hàng BĐS, 11/06/2026):
+Dự án hợp nhất các mảng phân tích kinh tế:
 - 🛢️ **Hàng hóa quốc tế**: giá + tin tức → phân tích AI → tín hiệu (`scripts/commodity_agent.py`)
 - 🏦 **Ngân hàng & BĐS phía Nam VN**: tin tức → báo cáo 17h + weekly (`scripts/main_agent.py --banking-only`)
+- 📈 **Chứng khoán VN (HOSE/HNX/UPCoM)**: dữ liệu giá VCI → chỉ báo kỹ thuật + LLM → báo cáo từng mã. Mã nguồn riêng trong [chung-khoan/](chung-khoan/), chạy bằng workflow `Phân tích Chứng khoán VN`. Đây là **nhóm phân tích chứng khoán**, tách biệt với hai mảng trên.
 
 Tài liệu dự án Ngân Hàng BĐS cũ: [archive/ngan-hang-bds/](archive/ngan-hang-bds/)
 
