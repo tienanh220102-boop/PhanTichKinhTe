@@ -15328,3 +15328,15 @@
 2026-07-13 03:31 ACCEPT [Google News NS] "Plum Grove signs grain deal with Mid West Ports - Grain Central" | kw:wti
 2026-07-13 03:31 ACCEPT [Google News CB] "3 AI Stocks To Watch As The Fed Weighs Productivity And Interest Rates" | kw:interest rate
 2026-07-13 03:31 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 04:01 ACCEPT [Al Jazeera] "Oil prices jump as US and Iran trade attacks over Strait of Hormuz" | kw:oil,crude,brent
+2026-07-13 04:01 ACCEPT [Google News HH] "Australia’s largest gold miner downgraded on a falling gold price - Mo" | kw:gold,rice
+2026-07-13 04:01 ACCEPT [Google News HH] "WTI Crude Oil Price Forecast: US-Iran Conflict Escalates, Oil Price Ra" | kw:oil,crude,wti
+2026-07-13 04:01 ACCEPT [Google News HH] "WTI and Brent Crude Oil Prices Jump as Hormuz Tensions Shake the Globa" | kw:oil,crude,brent
+2026-07-13 04:01 ACCEPT [Google News HH] "Geopolitics, Earnings, Crude Prices Key to Indian Market Movement - Re" | kw:crude,rice
+2026-07-13 04:01 ACCEPT [Google News KL] "Gold prices steady after weeks of decline amid global tensions - MSN" | kw:gold,rice
+2026-07-13 04:01 ACCEPT [Google News KL] "Geopolitical tensions, inflation data to dictate gold and silver price" | kw:gold,silver,rice
+2026-07-13 04:01 ACCEPT [Google News KL] "Gold, Silver Price Today: Gold Drops Below Rs 1.42 Lakh On MCX, Silver" | kw:wti,gold,silver
+2026-07-13 04:01 ACCEPT [Google News CB] "GDP: The View from Wall Street - Econbrowser" | kw:gdp
+2026-07-13 04:01 ACCEPT [Google News CB] "Lacking clear direction, market focus turns to U.S. CPI data, ECB meet" | kw:ecb
+2026-07-13 04:01 ACCEPT [Google News CB] "Fed’s July meeting to reveal Kevin Warsh’s first rate decision as Chai" | kw:rate decision
+2026-07-13 04:01 SKIP_MORNING already_sent date=2026-07-13
