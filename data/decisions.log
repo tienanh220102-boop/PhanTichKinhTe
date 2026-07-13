@@ -15734,3 +15734,19 @@
 2026-07-13 14:09 ACCEPT [Google News HH] "OPEC Crude Oil Production Surges 3mbpd In June - MarketForces Africa" | kw:oil,crude,opec
 2026-07-13 14:09 SKIP_MORNING already_sent date=2026-07-13
 2026-07-13 14:09 SKIP_EVENING already_sent date=2026-07-13
+2026-07-13 14:31 ACCEPT [The Guardian Biz] "Oil price jumps 3% and UK pump prices rise as the US and Iran trade at" | kw:oil,crude,brent
+2026-07-13 14:31 ACCEPT [Al Jazeera] "EU sanctions nine people over alleged Russian cyber-spying campaign" | kw:sanction
+2026-07-13 14:31 ACCEPT [OilPrice.com] "EU's Russian LNG Imports Hit Record High Ahead of 2027 Ban" | kw:gas,lng
+2026-07-13 14:31 ACCEPT [OilPrice.com] "Why Renewed Iran Tensions Could Keep Fuel Prices Elevated" | kw:oil,crude,gas
+2026-07-13 14:31 ACCEPT [Google News HH] "U.A.E. Crude Output Surged in June After OPEC Exit - WSJ" | kw:crude,opec
+2026-07-13 14:31 ACCEPT [Google News HH] "Gold outlook: XAU/USD remains undermined amid Crude oil, USD pressure " | kw:oil,crude,gold
+2026-07-13 14:31 ACCEPT [Google News HH] "EUR/USD Forecast Weighed by Crude Oil, Dollar Upsurge - Currency Pair " | kw:oil,crude
+2026-07-13 14:31 ACCEPT [Google News HH] "EUR/USD Forecast Weighed by Crude Oil, Dollar Upsurge - Currency Pair " | kw:oil,crude
+2026-07-13 14:31 ACCEPT [Google News HH] "OPEC lowers its oil demand growth forecasts for 2026 - المتداول العربي" | kw:oil,opec
+2026-07-13 14:31 ACCEPT [Google News KL] "The Same Gold Rally, 79% More Upside: Miners vs. Bullion Over the Past" | kw:gold
+2026-07-13 14:31 ACCEPT [Google News KL] "Gold Prices: 21-Karat Sells at JD83.20 - Fana News -" | kw:gold,rice
+2026-07-13 14:31 ACCEPT [Google News NS] "AGP marks first unit train shipment of soybean oil from David City - F" | kw:oil,soybean
+2026-07-13 14:31 ACCEPT [Google News NS] "Vietnam Growth Opens Wider Market for U.S. Agriculture - RFD-TV" | kw:wti
+2026-07-13 14:31 ACCEPT [Google News CB] "Will Fed Chair Kevin Warsh address AI inflation in his congressional t" | kw:inflation
+2026-07-13 14:31 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 14:31 SKIP_EVENING already_sent date=2026-07-13
