@@ -15795,3 +15795,27 @@
 2026-07-13 16:01 ACCEPT [Google News NS] "USDA raised its forecast for Ukrainian wheat exports in 2026/27 market" | kw:wheat
 2026-07-13 16:01 SKIP_MORNING already_sent date=2026-07-13
 2026-07-13 16:01 SKIP_EVENING already_sent date=2026-07-13
+2026-07-13 16:31 ACCEPT [Al Jazeera] "US imposes new sanctions on Cuba tourism ministry, state-owned compani" | kw:sanction,treasury
+2026-07-13 16:31 ACCEPT [Mining.com] "AbraSilver drilling at Diablillos suggests resource growth" | kw:gold,silver
+2026-07-13 16:31 ACCEPT [Mining.com] "India to invest in foreign uranium mines" | kw:fuel
+2026-07-13 16:31 ACCEPT [Mining.com] "Stormlands AI remodels Bralorne, results show higher NPV" | kw:gold
+2026-07-13 16:31 ACCEPT [Mining.com] "Regis quits Vault chase, clearing way for Genesis takeover" | kw:fuel,gold,rice
+2026-07-13 16:31 ACCEPT [Mining.com] "Codelco chair puts profit ahead of copper output" | kw:copper
+2026-07-13 16:31 ACCEPT [Mining.com] "Giustra: Copper market needs six new mines a year to 2050" | kw:gold,copper,shortage
+2026-07-13 16:31 ACCEPT [Mining.com] "Macquarie says copper price rally still running ahead of reality" | kw:copper,rice
+2026-07-13 16:31 ACCEPT [Mining.com] "Flynn: US billions for rare earths ‘missing the mark’" | kw:supply chain
+2026-07-13 16:31 ACCEPT [Mining.com] "NexGold boosts Goldboro drilling as assays lift hopes" | kw:gold
+2026-07-13 16:31 ACCEPT [Mining.com] "Copper-gold assays boost gravity of Jupiter at NGEx’s Lunahuasi projec" | kw:gold,silver,copper
+2026-07-13 16:31 ACCEPT [Mining.com] "Schiff: ‘Trapped’ Fed sets up $200 silver, $10,000 gold" | kw:gold,silver,interest rate
+2026-07-13 16:31 ACCEPT [Mining.com] "BHP faces first Port Hedland strike in decades" | kw:iron
+2026-07-13 16:31 ACCEPT [Google News HH] "Surging crude oil prices weighing on Wall Street - Yahoo Finance" | kw:oil,crude,rice
+2026-07-13 16:31 ACCEPT [Google News HH] "Gold outlook: XAU/USD remains undermined amid Crude oil, USD pressure " | kw:oil,crude,gold
+2026-07-13 16:31 ACCEPT [Google News HH] "Get Ready for Cattle Prices to Keep Falling as Crude Oil Pops Higher -" | kw:oil,crude,rice
+2026-07-13 16:31 ACCEPT [Google News KL] "Bank of America sees value in gold miners even after cutting 2026 gold" | kw:gold,rice
+2026-07-13 16:31 ACCEPT [Google News KL] "Copper Prices Hold Firm Despite a Fivefold Refined Surplus, Shifting t" | kw:copper,rice
+2026-07-13 16:31 ACCEPT [Google News KL] "Gold drops nearly 3% as rising Middle East tensions fuel rate-hike pro" | kw:fuel,gold
+2026-07-13 16:31 ACCEPT [Google News KL] "Silver Producer Discovers Massive Silver-Gold Gain Potential in Mexico" | kw:gold,silver
+2026-07-13 16:31 ACCEPT [Google News CB] "Germany: Merz calls for monetary policy dialogue with China - dw.com" | kw:monetary policy
+2026-07-13 16:31 ACCEPT [Google News CB] "Will Fed Chair Kevin Warsh address AI inflation in his congressional t" | kw:inflation
+2026-07-13 16:31 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 16:31 SKIP_EVENING already_sent date=2026-07-13
