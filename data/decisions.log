@@ -15340,3 +15340,17 @@
 2026-07-13 04:01 ACCEPT [Google News CB] "Lacking clear direction, market focus turns to U.S. CPI data, ECB meet" | kw:ecb
 2026-07-13 04:01 ACCEPT [Google News CB] "Fed’s July meeting to reveal Kevin Warsh’s first rate decision as Chai" | kw:rate decision
 2026-07-13 04:01 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 04:31 ACCEPT [Google News HH] "Crude oil rose while metals broadly fell, with LME and SHFE tin, alumi" | kw:oil,crude,silver
+2026-07-13 04:31 ACCEPT [Google News HH] "Crude oil futures jump more than 4% as US-Iran conflict escalates - Bu" | kw:oil,crude
+2026-07-13 04:31 ACCEPT [Google News HH] "Gold price in Malaysia: Rates on July 13 - FXStreet" | kw:gold,rice
+2026-07-13 04:31 ACCEPT [Google News HH] "Brent Crude Oil is preparing to attack key resistance – Analysis – 13-" | kw:oil,crude,brent
+2026-07-13 04:31 ACCEPT [Google News HH] "El Niño and Iran conflict drive up global food and energy price concer" | kw:rice
+2026-07-13 04:31 ACCEPT [Google News HH] "Iran isn't the only conflict vexing the global oil market - The Busine" | kw:oil
+2026-07-13 04:31 ACCEPT [Google News KL] "Gold, silver prices today, 13 July: Check retail rates of 24K, 22K gol" | kw:gold,silver,rice
+2026-07-13 04:31 ACCEPT [Google News KL] "Gold prices fall by Rs 2,000/10 grams, silver dips by Rs 5,400/kg as r" | kw:oil,gold,silver
+2026-07-13 04:31 ACCEPT [Google News KL] "Gold declines below $4,100 as fresh US-Iran strikes stoke inflation fe" | kw:gold,inflation
+2026-07-13 04:31 ACCEPT [Google News CB] "The path to a ‘one-and-done’ rate rise at the ECB - Financial Times" | kw:ecb
+2026-07-13 04:31 ACCEPT [Google News CB] "One more rate hike to go for the ECB? - investingLive" | kw:rate hike,ecb
+2026-07-13 04:31 ACCEPT [Google News CB] "Gold slides toward $4,050 as Iran tensions and Fed hike bets lift USD " | kw:gold
+2026-07-13 04:31 ACCEPT [Google News CB] "Bank of Japan is set to keep interest rates unchanged at the July meet" | kw:interest rate,bank of japan,tightening
+2026-07-13 04:31 SKIP_MORNING already_sent date=2026-07-13
