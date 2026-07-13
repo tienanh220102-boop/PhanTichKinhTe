@@ -15769,3 +15769,17 @@
 2026-07-13 15:01 ACCEPT [Google News CB] "Gold Sinks to $4000 on Trump's Hormuz Tariff Ahead of US Inflation, Fe" | kw:gold,tariff,inflation
 2026-07-13 15:01 SKIP_MORNING already_sent date=2026-07-13
 2026-07-13 15:01 SKIP_EVENING already_sent date=2026-07-13
+2026-07-13 15:31 ACCEPT [MarketWatch] "Global oil prices top $80 a barrel after Trump reimposes Strait of Hor" | kw:oil,rice
+2026-07-13 15:31 ACCEPT [Google News HH] "What is next for commodities? - UBS" | kw:commodities
+2026-07-13 15:31 ACCEPT [Google News HH] "Crude Oil Higher; Earnings Kick Off To Highlight Week - Seeking Alpha" | kw:oil,crude
+2026-07-13 15:31 ACCEPT [Google News HH] "EUR/USD Forecast Weighed by Crude Oil, Dollar Upsurge - Currency Pair " | kw:oil,crude
+2026-07-13 15:31 ACCEPT [Google News HH] "S&PDJI: index innovation is expanding into commodities, rates and cryp" | kw:commodities
+2026-07-13 15:31 ACCEPT [Google News KL] "Aura Minerals: The Market Is Far Too Optimistic On Gold Prices (NASDAQ" | kw:gold,rice
+2026-07-13 15:31 ACCEPT [Google News KL] "Gold and silver slide as Hormuz oil shock lifts yields - Kitco AM Repo" | kw:oil,gold,silver
+2026-07-13 15:31 ACCEPT [Google News KL] "Gold Price Forecast: Is This Pullback The Buying Opportunity Investors" | kw:gold,rice
+2026-07-13 15:31 ACCEPT [Google News NS] "Mayse Farm Market hosts pop-up sunflower and sweet corn event after ea" | kw:corn,harvest
+2026-07-13 15:31 ACCEPT [Google News NS] "Sea of Azov Shipping Restrictions Raise Security Concerns, Impact Whea" | kw:wheat,shipping
+2026-07-13 15:31 ACCEPT [Google News NS] "Mayse Farm Market hosts pop-up sunflower and sweet corn event after ea" | kw:corn,harvest
+2026-07-13 15:31 ACCEPT [Google News NS] "Fuel crisis makes grain exports from central Russia unprofitable - Ukr" | kw:fuel
+2026-07-13 15:31 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 15:31 SKIP_EVENING already_sent date=2026-07-13
