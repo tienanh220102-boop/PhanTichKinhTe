@@ -15657,3 +15657,33 @@
 2026-07-13 12:31 ACCEPT [Google News CB] "Fed officials divided on US inflation views; home prices hit all-time " | kw:rice,inflation
 2026-07-13 12:31 ACCEPT [Google News CB] "Central Bank IL Pets of the Week: Ferny & O’Nadia! - walls 102" | kw:central bank
 2026-07-13 12:31 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 13:01 ACCEPT [Google News HH] "EUR/USD Forecast Weighed by Crude Oil, Dollar Upsurge - Currency Pair " | kw:oil,crude
+2026-07-13 13:01 ACCEPT [Google News HH] "OPEC Further Cuts This Year's Oil Demand Forecast - Moomoo" | kw:oil,opec
+2026-07-13 13:01 ACCEPT [Google News HH] "OPEC lowers oil demand forecasts for 2026 - Capitalfm.co.ke" | kw:oil,opec
+2026-07-13 13:01 ACCEPT [Google News HH] "OPEC further lowers 2026 global oil demand growth forecast - TradingVi" | kw:oil,opec
+2026-07-13 13:01 ACCEPT [Google News HH] "OPEC raises 2027 oil demand growth forecast to 1.94M bpd - Crypto Brie" | kw:oil,opec
+2026-07-13 13:01 ACCEPT [Google News HH] "Nigeria June Crude Output Rose to Six-Year High, Regulator Says - Bloo" | kw:crude
+2026-07-13 13:01 ACCEPT [Google News HH] "Oil prices consolidate around recent highs amid renewed US-Iran attack" | kw:oil,rice
+2026-07-13 13:01 ACCEPT [Google News HH] "Natural gas price on July 14, 2026 at 5:00 PM EDT - Robinhood" | kw:gas,rice
+2026-07-13 13:01 ACCEPT [Google News HH] "Crude oil climbs more than 3% as US., Iran fight for control of Strait" | kw:oil,crude
+2026-07-13 13:01 ACCEPT [Google News KL] "Gold prices today, Monday, July 13, 2026: Prices move lower following " | kw:gold,rice
+2026-07-13 13:01 ACCEPT [Google News KL] "H.C. Wainwright cuts First Majestic Silver price target on production " | kw:silver,rice
+2026-07-13 13:01 ACCEPT [Google News KL] "Silver Surged, Then Slumped, in the First Half of 2026. Here's My Pred" | kw:silver
+2026-07-13 13:01 ACCEPT [Google News KL] "AbraSilver Intersects 109 Metres of 221 g/t Silver and 0.72 g/t Gold a" | kw:gold,silver
+2026-07-13 13:01 ACCEPT [Google News KL] "Silver prices today, Monday, July 13, 2026: Silver prices falling afte" | kw:silver,rice
+2026-07-13 13:01 ACCEPT [Google News KL] "Gold prices fall 2% amid airstrikes near Strait of Hormuz - Crypto Bri" | kw:gold,rice
+2026-07-13 13:01 ACCEPT [Google News KL] "Pakistan Gold Price Falls Today, Tracking Global Trends - CryptoRank" | kw:gold,rice
+2026-07-13 13:01 ACCEPT [Google News NS] "Soybean prices need weather problems and stronger Chinese demand - Ukr" | kw:soybean,rice
+2026-07-13 13:01 ACCEPT [Google News NS] "Security Restrictions Impact Russian Grain Shipping - Devdiscourse" | kw:shipping
+2026-07-13 13:01 ACCEPT [Google News NS] "Bihar: Sheohar Farmer Gives Up Wheat-Paddy Cycle To Reap Benefits Of V" | kw:wheat
+2026-07-13 13:01 ACCEPT [Google News CB] "Qatar Central Bank FinTech Strategy x Qai: what Qatar's AI infrastruct" | kw:central bank
+2026-07-13 13:01 ACCEPT [Google News CB] "Ethiopian Central Bank Raises Rates for First Time in Two Years - Bloo" | kw:central bank
+2026-07-13 13:01 ACCEPT [Google News CB] "S. African central bank predicts reaching 3% inflation target - Semafo" | kw:inflation,central bank
+2026-07-13 13:01 ACCEPT [Google News CB] "Fed's oil trap: Hiking rates won't control energy costs - Fox Business" | kw:oil
+2026-07-13 13:01 ACCEPT [Google News CB] "Central Bank Independence and the Concentration of Powers: Between Scy" | kw:central bank
+2026-07-13 13:01 ACCEPT [Google News CB] "Ethiopia central bank raises main interest rate by 1 percentage point " | kw:central bank,interest rate
+2026-07-13 13:01 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 13:01 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-07-13 13:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
+2026-07-13 13:01 GEMINI ERROR gemini-2.5-flash-lite This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-07-13 13:01 SKIP_EVENING gemini_no_result date=2026-07-13
