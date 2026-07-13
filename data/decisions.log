@@ -15456,3 +15456,13 @@
 2026-07-13 08:10 ACCEPT [Google News CB] "USDT Transactions Draw Scrutiny From Thailand’s Central Bank - Bitcoin" | kw:central bank
 2026-07-13 08:10 ACCEPT [Google News CB] "It's Been Over 7 Weeks, and Fed Chair Kevin Warsh Has Failed to Make A" | kw:central bank
 2026-07-13 08:10 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 08:31 ACCEPT [Google News HH] "Commodities: The Battle Of Hormuz Lifts Oil Prices - Seeking Alpha" | kw:oil,rice,commodities
+2026-07-13 08:31 ACCEPT [Google News HH] "European stocks fall as oil prices rise amid US-Iran tensions - Crypto" | kw:oil,rice
+2026-07-13 08:31 ACCEPT [Google News HH] "Crude Oil Prices Surge 4% to ₹7,149 Amid US-Iran Conflict, Global Ener" | kw:oil,crude,rice
+2026-07-13 08:31 ACCEPT [Google News KL] "Gold and Silver Price Forecast: Oil Surge Tests Key Support Ahead of U" | kw:oil,gold,silver
+2026-07-13 08:31 ACCEPT [Google News KL] "Gold Falls More Than 1% as Oil Surges on Strait of Hormuz Closure Fear" | kw:oil,gold
+2026-07-13 08:31 ACCEPT [Google News KL] "Typhoon Disrupts Arrivals, China's Copper Social Inventory Sees Sharp " | kw:copper
+2026-07-13 08:31 ACCEPT [Google News NS] "Chicago soybean futures rise as oil prices surge - Business Recorder" | kw:oil,soybean,rice
+2026-07-13 08:31 ACCEPT [Google News CB] "Week Ahead: Inflation Data and Fed Signals Take Center Stage - Investi" | kw:inflation
+2026-07-13 08:31 ACCEPT [Google News CB] "Fed Interest Rate Decision July 2026: Market Impact & Investment Strat" | kw:interest rate,rate decision
+2026-07-13 08:31 SKIP_MORNING already_sent date=2026-07-13
