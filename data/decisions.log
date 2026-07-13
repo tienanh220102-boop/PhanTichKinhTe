@@ -15417,3 +15417,23 @@
 2026-07-13 07:01 ACCEPT [Google News KL] "Silver prices sink below $60 as the rebound runs into fresh resistance" | kw:silver,rice
 2026-07-13 07:01 ACCEPT [Google News KL] "Gold prices in Egypt slightly down on July 12th - ZAWYA" | kw:gold,rice
 2026-07-13 07:01 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 07:31 ACCEPT [Google News HH] "(07/13/26) Commodities: Why Strong Trucking Demand Reinforces My Bulli" | kw:commodities
+2026-07-13 07:31 ACCEPT [Google News HH] "Crude oil amid US-Iran escalation, Goldman Sachs on Nifty, Elections i" | kw:oil,crude,gold
+2026-07-13 07:31 ACCEPT [Google News HH] "Government Flags Limited Crude Oil Supply Risk - Businesskorea" | kw:oil,crude
+2026-07-13 07:31 ACCEPT [Google News HH] "Crude oil prices surge on escalated US-Iran conflict - 巴士的報" | kw:oil,crude,lng
+2026-07-13 07:31 ACCEPT [Google News HH] "Gold price prediction today: Any end to gold fall in sight? Check outl" | kw:gold,rice
+2026-07-13 07:31 ACCEPT [Google News HH] "Danske Commodities closes deal on British battery plant - EnergyWatch" | kw:commodities
+2026-07-13 07:31 ACCEPT [Google News KL] "Lighter gold, heavy decisions: How economic pressure is rewriting Türk" | kw:gold
+2026-07-13 07:31 ACCEPT [Google News KL] "Goldman Sachs cuts Laopu Gold (06181.HK) target price to HK$650; gold " | kw:gold,rice
+2026-07-13 07:31 ACCEPT [Google News KL] "Gold prices fall by Rs 2,000/10 grams, silver dips by Rs 5,400/kg as r" | kw:oil,gold,silver
+2026-07-13 07:31 ACCEPT [Google News KL] "With contract rollover imminent, end-users hold off purchases; supplie" | kw:copper,rice
+2026-07-13 07:31 ACCEPT [Google News KL] "Gold prices fall again - Dhaka Tribune" | kw:gold,rice
+2026-07-13 07:31 ACCEPT [Google News KL] "Silver prices sink below $60 as the rebound runs into fresh resistance" | kw:silver,rice
+2026-07-13 07:31 ACCEPT [Google News NS] "Soybean prices need poor weather, exports to China - Farm Progress" | kw:soybean,rice
+2026-07-13 07:31 ACCEPT [Google News NS] "Disease-resistant corn hybrids make fungicides unprofitable - Farm Pro" | kw:corn
+2026-07-13 07:31 ACCEPT [Google News CB] "Fed's Williams will support rate hikes if monthly core inflation runs " | kw:inflation,rate hike
+2026-07-13 07:31 ACCEPT [Google News CB] "Gold Futures Slide as Oil Fuels Fed Rate Fears - TradingPedia" | kw:oil,fuel,gold
+2026-07-13 07:31 ACCEPT [Google News CB] "CPI and PCE Inflation Forecasts Strongly Hint Fed Interest Rate Hikes " | kw:inflation,interest rate,rate hike
+2026-07-13 07:31 ACCEPT [Google News CB] "Morning Brief: U.S. Renews Iran Strikes; Kospi Under Pressure; BOJ May" | kw:boj
+2026-07-13 07:31 ACCEPT [Google News CB] "Dollar Jumps on Middle East Conflict, Hormuz Closure and Higher Oil - " | kw:oil
+2026-07-13 07:31 SKIP_MORNING already_sent date=2026-07-13
