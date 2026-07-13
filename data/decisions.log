@@ -15242,3 +15242,17 @@
 2026-07-12 23:31 ACCEPT [Google News KL] "Gold prices steady as silver holds firm amid global tensions - MSN" | kw:wti,gold,silver
 2026-07-12 23:31 ACCEPT [Google News NS] "Canola demand stands to jump with biofuel co-processing - Grainews" | kw:fuel
 2026-07-12 23:31 ACCEPT [Google News CB] "Fed flags tariffs, Iran war, AI as inflation risks - MSN" | kw:tariff,inflation
+2026-07-13 00:01 ACCEPT [Google News HH] "Big Oil's War-Related Profits Anger Governments - Crude Oil Prices Tod" | kw:oil,crude,rice
+2026-07-13 00:01 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD Faces Defining Week as CPI, Warsh Testimo" | kw:gold,rice
+2026-07-13 00:01 ACCEPT [Google News HH] "Improved oil output offsets revenue risks from Brent decline - Punch N" | kw:oil,brent
+2026-07-13 00:01 ACCEPT [Google News KL] "Gold Price Forecast: XAU/USD Faces Defining Week as CPI, Warsh Testimo" | kw:gold,rice
+2026-07-13 00:01 ACCEPT [Google News KL] "Gold falls as US-Iran strikes boost oil prices, Fed rate hike expected" | kw:oil,gold,rice
+2026-07-13 00:01 ACCEPT [Google News KL] "Jiangxi Copper (SEHK:358) Could Be 35% Undervalued On Strong 2026 Earn" | kw:copper
+2026-07-13 00:01 ACCEPT [Google News KL] "Gold under pressure - The Daily Star" | kw:gold
+2026-07-13 00:01 ACCEPT [Google News NS] "USDA Cuts U.S. Wheat Output to Lowest Level Since 1970 - WSJ" | kw:wheat
+2026-07-13 00:01 ACCEPT [Google News NS] "Turkey is tightening its phytosanitary requirements for imported wheat" | kw:wheat,tightening
+2026-07-13 00:01 ACCEPT [Google News CB] "BOJ may raise growth forecast, maintain vigilance to inflation risk, s" | kw:inflation,boj
+2026-07-13 00:01 ACCEPT [Google News CB] "BOJ may raise growth forecast, maintain vigilance to inflation risk, s" | kw:inflation,boj
+2026-07-13 00:01 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-07-13 00:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
+2026-07-13 00:02 SENT_MORNING articles=20 date=2026-07-13 force=False
