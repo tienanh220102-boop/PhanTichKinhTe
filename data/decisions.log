@@ -15528,3 +15528,66 @@
 2026-07-13 10:31 ACCEPT [Google News CB] "US CPI release and Fed Chair Warsh’s testimony to shape rate hike expe" | kw:rate hike
 2026-07-13 10:31 ACCEPT [Google News CB] "US Stock Market: Fed Chair Kevin Warsh unveils expert panels to overha" | kw:central bank
 2026-07-13 10:31 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 11:01 ACCEPT [BBC Business] "Is Germany looking again at coal-powered electricity?" | kw:gas,fuel
+2026-07-13 11:01 ACCEPT [The Guardian Biz] "Licensed to drill? How a Trump-linked Texas oil company is elbowing it" | kw:oil,crude,rice
+2026-07-13 11:01 ACCEPT [Al Jazeera] "EU countries consider sanctions on trade from illegal Israeli settleme" | kw:sanction
+2026-07-13 11:01 ACCEPT [CNBC Commodities] "Kalshi traders think gas prices will stay higher for longer as U.S.-Ir" | kw:gas,rice
+2026-07-13 11:01 ACCEPT [CNBC Commodities] "Fed officials were split on direction of interest rates at last meetin" | kw:interest rate,federal reserve
+2026-07-13 11:01 ACCEPT [CNBC Commodities] "Inflation peaked in May as energy prices fell in June, Kalshi traders " | kw:rice,inflation
+2026-07-13 11:01 ACCEPT [CNBC Economy] "India's inflation accelerates to 4.38% in June, exceeding forecasts" | kw:rice,inflation
+2026-07-13 11:01 ACCEPT [CNBC Economy] "'Funflation' hits home: Why staying in isn't the cost-saver it used to" | kw:rice
+2026-07-13 11:01 ACCEPT [CNBC Economy] "Christine Lagarde leaves door open to early ECB exit, as she mulls Fre" | kw:central bank,ecb
+2026-07-13 11:01 ACCEPT [CNBC Economy] "U.S. issues sweeping Iran oil sanctions waivers, unlocking billions in" | kw:oil,sanction
+2026-07-13 11:01 ACCEPT [CNBC Economy] "Here are the five big takeaways from Kevin Warsh's first meeting as Fe" | kw:interest rate,federal reserve
+2026-07-13 11:01 ACCEPT [OilPrice.com] "Iran Warns U.S. Interference Could Trigger Further Oil and Gas Disrupt" | kw:oil,gas
+2026-07-13 11:01 ACCEPT [EIA Energy] "UAE's exit from OPEC+ reduced the group's share of crude oil productio" | kw:oil,crude,opec
+2026-07-13 11:01 ACCEPT [EIA Energy] "Permian natural gas production increased faster than crude oil" | kw:oil,crude,gas
+2026-07-13 11:01 ACCEPT [NASDAQ Commod] "Crude Oil Moves Lower As Middle East Tensions Gradually Ease" | kw:oil,crude,rice
+2026-07-13 11:01 ACCEPT [NASDAQ Commod] "Gold Soars As Signs Of U.S.-Iran Deal Grow After Trump's Remarks" | kw:gold,rice
+2026-07-13 11:01 ACCEPT [NASDAQ Commod] "Crude Oil Catapults Amid Increasing War Concerns After Fresh Escalatio" | kw:oil,crude,rice
+2026-07-13 11:01 ACCEPT [Google News HH] "Handover of Health Commodities - Speech of CDA Bremner - U.S. Embassy " | kw:gas,commodities
+2026-07-13 11:01 ACCEPT [Google News HH] "Nigeria breaks OPEC production ceiling as crude oil output climbs to a" | kw:oil,crude,opec
+2026-07-13 11:01 ACCEPT [Google News HH] "EUR/USD & Gold Price Outlook: Hormuz Strikes, US CPI and Dollar Streng" | kw:gold,rice
+2026-07-13 11:01 ACCEPT [Google News HH] "Strait of Hormuz disruption drives crude oil prices higher - Crypto Br" | kw:oil,crude,rice
+2026-07-13 11:01 ACCEPT [Google News HH] "Crude oil amid US-Iran escalation, Goldman Sachs on Nifty, Elections i" | kw:oil,crude,gold
+2026-07-13 11:01 ACCEPT [Google News HH] "OPEC Fund provides $50M loan to Vietnam's SeABank for small business a" | kw:opec
+2026-07-13 11:01 ACCEPT [Google News HH] "(07/13/26) Commodities: Why Strong Trucking Demand Reinforces My Bulli" | kw:commodities
+2026-07-13 11:01 ACCEPT [Google News HH] "ETF Market Movement | F Samsung Crude Oil Futures ETF (03175) Rises Ov" | kw:oil,crude,rice
+2026-07-13 11:01 ACCEPT [Google News HH] "Brent Crude Oil Jumps Over 4% as Iran Conflict Threatens Supply - Coin" | kw:oil,crude,brent
+2026-07-13 11:01 ACCEPT [Google News HH] "DRDGOLD (NYSE:DRD) Stock Looks Fairly Valued Despite Gold Price Sellof" | kw:gold,rice
+2026-07-13 11:01 ACCEPT [Google News HH] "COT on forex and commodities - Week to 7 July 2026 - Saxo" | kw:commodities
+2026-07-13 11:01 ACCEPT [Google News KL] "Gold Price Forecast & Predictions for 2026, 2027, 2028–2030 and Beyond" | kw:gold,rice
+2026-07-13 11:01 ACCEPT [Google News KL] "Gold extends decline as Middle East tensions bolster higher-for-longer" | kw:gold
+2026-07-13 11:01 ACCEPT [Google News KL] "Gold prices steady after weeks of decline amid global tensions - MSN" | kw:gold,rice
+2026-07-13 11:01 ACCEPT [Google News KL] "Verbena Value LP Raises Stock Holdings in Alamos Gold Inc. $AGI - Mark" | kw:gold
+2026-07-13 11:01 ACCEPT [Google News KL] "Gold prices fall again - New Age BD" | kw:gold,rice
+2026-07-13 11:01 ACCEPT [Google News KL] "Gold prices tumble as Gulf tensions fail to spark haven demand - Tradi" | kw:gold,rice
+2026-07-13 11:01 ACCEPT [Google News KL] "Copper price is waiting the negative momentum– Forecast today – 13-7-2" | kw:copper,rice
+2026-07-13 11:01 ACCEPT [Google News KL] "Gold Price Forecast: Can Central Bank Buying Offset Fed Pressure Below" | kw:gold,rice,central bank
+2026-07-13 11:01 ACCEPT [Google News NS] "Poor Harvest and Low Prices Put Grain Producers Under Pressure - Hunga" | kw:rice,harvest
+2026-07-13 11:01 ACCEPT [Google News NS] "Sea of Azov Shipping Restrictions Impact Russian Grain Exports - Globa" | kw:shipping
+2026-07-13 11:01 ACCEPT [Google News NS] "Global Wheat Stocks Decline as U.S. Production Hits Multi-Decade Low B" | kw:wheat
+2026-07-13 11:01 ACCEPT [Google News NS] "Mayse Farm Market hosts pop-up sunflower and sweet corn event after ea" | kw:corn,harvest
+2026-07-13 11:01 ACCEPT [Google News NS] "Bangladesh’s wheat imports surge to all-time high - The Daily Star" | kw:wheat
+2026-07-13 11:01 ACCEPT [Google News NS] "Feed barley prices set to stay high into 2026-27 — here’s why - Canadi" | kw:rice
+2026-07-13 11:01 ACCEPT [Google News NS] "USDA increased consumption forecast and reduced world wheat stock fore" | kw:wheat
+2026-07-13 11:01 ACCEPT [Google News NS] "France risks harvesting less than 8 mln tons of corn for the first tim" | kw:corn,harvest
+2026-07-13 11:01 ACCEPT [Google News NS] "Italy increased Ukrainian corn imports due to quality issues and poor " | kw:corn,harvest
+2026-07-13 11:01 ACCEPT [Google News NS] "South Korea boosts soybean import quota to curb bean sprout price risk" | kw:soybean,rice
+2026-07-13 11:01 ACCEPT [RT Business] "Corruption suspected at Ukrainian shipping giant – media" | kw:shipping
+2026-07-13 11:01 ACCEPT [RT Business] "Why Europe still needs Russia to keep the lights on" | kw:fuel,shortage
+2026-07-13 11:01 ACCEPT [RT Business] "Russian SMEs growing on stronger supply chains to giants" | kw:supply chain,easing
+2026-07-13 11:01 ACCEPT [RT Business] "US extends Russian oil waiver" | kw:oil,sanction,treasury
+2026-07-13 11:01 ACCEPT [ECB Press] "ECB to integrate non-financial credit claim portfolios into general co" | kw:ecb
+2026-07-13 11:01 ACCEPT [Google News CB] "Oil prices march upward again as the U.S-Iran conflict intensifies—and" | kw:oil,rice
+2026-07-13 11:01 ACCEPT [Google News CB] "Massive AI buildout poses latest inflation threat as consumers pay mor" | kw:inflation
+2026-07-13 11:01 ACCEPT [Google News CB] "If the Fed Hikes Interest Rates in 2026, History Says This Is the Best" | kw:interest rate
+2026-07-13 11:01 ACCEPT [Google News CB] "Markets Face Inflation, Oil, Fed Volatility This Week—Earnings Are Mak" | kw:oil,inflation
+2026-07-13 11:01 ACCEPT [Google News CB] "Fed officials divided on US inflation views; US home prices hit all-ti" | kw:rice,inflation
+2026-07-13 11:01 ACCEPT [Google News CB] "Rush to reassure on BOJ independence after bonds and yen signal concer" | kw:boj
+2026-07-13 11:01 ACCEPT [Google News CB] "Hungary central bank chief sees room for more rate cuts during summer " | kw:central bank,rate cut
+2026-07-13 11:01 ACCEPT [Google News CB] "Fed Chair Warsh to testify before Congress amid inflation concerns - C" | kw:inflation
+2026-07-13 11:01 ACCEPT [Google News CB] "US CPI release and Fed Chair Warsh’s testimony to shape rate hike expe" | kw:rate hike
+2026-07-13 11:01 ACCEPT [Google News CB] "BDC Dividends Face a Reckoning As Fed Rate Cuts Squeeze Earnings - 24/" | kw:fed rate,rate cut
+2026-07-13 11:01 ACCEPT [Google News CB] "GDP’s Trajectory: The View from Wall Street - Econbrowser" | kw:gdp
+2026-07-13 11:01 SKIP_MORNING already_sent date=2026-07-13
