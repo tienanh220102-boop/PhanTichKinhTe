@@ -15620,3 +15620,18 @@
 2026-07-13 11:35 ACCEPT [Google News CB] "European M&A proves more resilient than global peers despite ECB rate " | kw:rate hike,ecb
 2026-07-13 11:35 ACCEPT [Google News CB] "Middle East Tensions Fuel Fed Hike Bets and Risk Aversion - Investing." | kw:fuel
 2026-07-13 11:35 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 12:01 ACCEPT [MarketWatch] "A Fed interest-rate hike could trigger a short-term stock selloff, but" | kw:silver,rate hike
+2026-07-13 12:01 ACCEPT [NASDAQ Commod] "Gold Tumbles Amid Fed Rate Hike Worries" | kw:oil,gold,rice
+2026-07-13 12:01 ACCEPT [NASDAQ Commod] "Oil Prices Climb Amid US-Iran Tensions" | kw:oil,rice
+2026-07-13 12:01 ACCEPT [Google News HH] "Nigeria June Crude Output Rose to Six-Year High, Regulator Says - Bloo" | kw:crude
+2026-07-13 12:01 ACCEPT [Google News HH] "FACTBOX: India's HRRL, first greenfield refinery in a decade, to proce" | kw:crude
+2026-07-13 12:01 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD drifts below $4,100, but bears start to l" | kw:gold,rice
+2026-07-13 12:01 ACCEPT [Google News HH] "Oil News: Crude Oil Futures Higher as Hormuz Risk Lifts Oil Outlook - " | kw:oil,crude
+2026-07-13 12:01 ACCEPT [Google News KL] "Copper producer Amerigo has already met 49% of its 2026 output goal - " | kw:copper
+2026-07-13 12:01 ACCEPT [Google News KL] "Copper Prices Near $13,800/Tonne as Rally Outpaces Fundamentals, Macqu" | kw:copper,rice
+2026-07-13 12:01 ACCEPT [Google News CB] "A Fed interest-rate hike could trigger a short-term stock selloff, but" | kw:silver,rate hike
+2026-07-13 12:01 ACCEPT [Google News CB] "The Semiannual Monetary Policy Report to the Congress - Moomoo" | kw:monetary policy
+2026-07-13 12:01 ACCEPT [Google News CB] "Fed officials divided on US inflation views; home prices hit all-time " | kw:rice,inflation
+2026-07-13 12:01 ACCEPT [Google News CB] "Fed Officials Are Divided On Likely Path Of Interest Rates - News Radi" | kw:interest rate
+2026-07-13 12:01 ACCEPT [Google News CB] "Gold Pressured Near Daily Low as Energy-Driven Inflation Bolsters Fed " | kw:gold,inflation,fed rate
+2026-07-13 12:01 SKIP_MORNING already_sent date=2026-07-13
