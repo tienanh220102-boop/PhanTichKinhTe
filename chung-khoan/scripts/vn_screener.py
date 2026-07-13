@@ -183,6 +183,8 @@ def main():
     ap.add_argument("--boards", default="HOSE,HNX,UPCoM")
     ap.add_argument("--min-turnover", type=float, default=5e8,
                     help="Sàn thanh khoản tối thiểu (đồng/phiên, TB 20 phiên)")
+    ap.add_argument("--movers-out", default=None,
+                    help="Đường dẫn xuất bản tin 'dịch chuyển giá nổi bật trong ngày' (Markdown)")
     args = ap.parse_args()
     boards = {BOARD_MAP.get(b.strip().upper(), b.strip()) for b in args.boards.split(",")}
 
@@ -230,7 +232,45 @@ def main():
     log("\n[screener] Lưu ý: đây là ứng viên kỹ thuật. Tầng LLM sẽ xét tin tức/cơ bản để "
         "phân biệt 'tin xấu nên tránh' với 'bán quá đà có thể hồi', và ra khuyến nghị cuối.")
 
+    if args.movers_out:
+        write_movers(rows, args.movers_out)
+        log(f"[screener] đã ghi bản tin dịch chuyển giá: {args.movers_out}")
+
     print(",".join(f"{r['symbol']}.VN" for r in top))  # stdout = shortlist
+
+
+def write_movers(rows, path, min_turnover=1e9, n=12):
+    """Bản tin 'dịch chuyển giá nổi bật trong ngày': top tăng/giảm/thanh khoản/bùng KL."""
+    liq = [r for r in rows if r.get("turnover20", 0) >= min_turnover and r.get("chg_1d") is not None]
+    def board(r): return r.get("board", "")
+    def line(r, extra=""):
+        return (f"| {r['symbol']} | {board(r)} | {r['name'][:24]} | {r['price']:,.0f} | "
+                f"{r['chg_1d']:+.2f}% | {r['turnover20']/1e9:.1f} |{extra}")
+    gainers = sorted(liq, key=lambda r: r["chg_1d"], reverse=True)[:n]
+    losers = sorted(liq, key=lambda r: r["chg_1d"])[:n]
+    active = sorted(liq, key=lambda r: r["turnover20"], reverse=True)[:n]
+    surges = sorted([r for r in liq if (r.get("vol_ratio") or 0) >= 2 and r["chg_1d"] > 0],
+                    key=lambda r: r["vol_ratio"], reverse=True)[:n]
+    surge_lines = [line(r, f" {r['vol_ratio']:.1f}× |") for r in surges] if surges else ["_(không có)_"]
+    today = datetime.now().strftime("%Y-%m-%d")
+    out = [f"# Dịch chuyển giá nổi bật — Thị trường CK Việt Nam ({today})\n",
+           "_Nguồn: VCI (Vietcap). Lọc thanh khoản ≥ 1 tỷ đồng/phiên (TB 20 phiên). Tham khảo, không phải khuyến nghị._\n",
+           f"Quét {len(rows)} mã, {len(liq)} mã đủ thanh khoản.\n",
+           "## 🟢 Tăng mạnh nhất",
+           "| Mã | Sàn | Tên | Giá | +/- | GTGD tỷ |", "|---|---|---|---:|---:|---:|",
+           *[line(r) for r in gainers],
+           "\n## 🔴 Giảm mạnh nhất",
+           "| Mã | Sàn | Tên | Giá | +/- | GTGD tỷ |", "|---|---|---|---:|---:|---:|",
+           *[line(r) for r in losers],
+           "\n## 💰 Thanh khoản cao nhất (tâm điểm dòng tiền)",
+           "| Mã | Sàn | Tên | Giá | +/- | GTGD tỷ |", "|---|---|---|---:|---:|---:|",
+           *[line(r) for r in active],
+           "\n## ⚡ Bùng khối lượng theo chiều tăng (KL ≥ 2× trung bình)",
+           "| Mã | Sàn | Tên | Giá | +/- | GTGD tỷ | x KL |", "|---|---|---|---:|---:|---:|---:|",
+           *surge_lines,
+           ]
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("\n".join(out) + "\n")
 
 
 if __name__ == "__main__":

@@ -77,9 +77,11 @@ jobs:
           echo "🔑 Gemini key: $([ -n "$GEMINI_API_KEY" ] && echo '✅ có' || echo '❌ thiếu')"
           echo "=========================================="
           echo "🔎 TẦNG 1 — Screener quét toàn thị trường (top $SCREEN_TOP, sàn $SCREEN_BOARDS)..."
-          SHORTLIST=$(python scripts/vn_screener.py --top "$SCREEN_TOP" --boards "$SCREEN_BOARDS")
+          mkdir -p reports
+          SHORTLIST=$(python scripts/vn_screener.py --top "$SCREEN_TOP" --boards "$SCREEN_BOARDS" --movers-out reports/dich-chuyen-gia.md)
           if [ -z "$SHORTLIST" ]; then echo "❌ Screener không trả mã nào"; exit 1; fi
           echo "🎯 Shortlist: $SHORTLIST"
+          echo ""; echo "===== 📊 DỊCH CHUYỂN GIÁ NỔI BẬT TRONG NGÀY ====="; cat reports/dich-chuyen-gia.md; echo "================================================="
           echo "🤖 TẦNG 2 — Phân tích LLM sâu trên shortlist..."
           python main.py --stocks "$SHORTLIST" --no-market-review --force-run
 

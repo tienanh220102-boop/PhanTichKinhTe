@@ -2095,6 +2095,74 @@ class SearXNGSearchProvider(BaseSearchProvider):
         )
 
 
+class GoogleNewsVNProvider(BaseSearchProvider):
+    """Nguồn tin tiếng Việt qua Google News RSS (hl=vi, gl=VN).
+
+    Không cần API Key nên luôn khả dụng — phù hợp làm nguồn tin chính cho cổ phiếu VN
+    (HOSE/HNX/UPCoM). Trả tin thật từ Vietstock, Tin nhanh chứng khoán, CafeF, VOV...
+    """
+
+    _RSS = "https://news.google.com/rss/search"
+
+    def __init__(self):
+        # api_keys sentinel để is_available=True (provider không thực sự cần key)
+        super().__init__(api_keys=["_public_"], name="GoogleNewsVN")
+
+    def _do_search(self, query: str, api_key: str, max_results: int, days: int = 7) -> SearchResponse:
+        import urllib.parse
+        import xml.etree.ElementTree as ET
+        from email.utils import parsedate_to_datetime
+        from datetime import datetime, timezone, timedelta
+        import html as _html
+
+        url = self._RSS + "?" + urllib.parse.urlencode(
+            {"q": query, "hl": "vi", "gl": "VN", "ceid": "VN:vi"}
+        )
+        resp = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=20)
+        resp.raise_for_status()
+        root = ET.fromstring(resp.content)
+
+        cutoff = datetime.now(timezone.utc) - timedelta(days=max(days, 1))
+        tag_re = re.compile(r"<[^>]+>")
+        results: List[SearchResult] = []
+        for item in root.findall(".//item"):
+            title = (item.findtext("title") or "").strip()
+            if not title:
+                continue
+            link = (item.findtext("link") or "").strip()
+            desc = _html.unescape(item.findtext("description") or "")
+            snippet = tag_re.sub(" ", desc).strip()
+            src_el = item.find("{*}source")
+            source = (src_el.text or "").strip() if src_el is not None else "Google News"
+            # tách nguồn ra khỏi tiêu đề dạng "Tiêu đề - Nguồn"
+            if source and title.endswith(f" - {source}"):
+                title = title[: -(len(source) + 3)].strip()
+            pub_raw = item.findtext("pubDate")
+            pub_str = None
+            if pub_raw:
+                try:
+                    dt = parsedate_to_datetime(pub_raw)
+                    if dt.tzinfo is None:
+                        dt = dt.replace(tzinfo=timezone.utc)
+                    if dt < cutoff:
+                        continue  # ngoài cửa sổ thời gian
+                    pub_str = dt.strftime("%Y-%m-%d")
+                except Exception:
+                    pass
+            results.append(SearchResult(
+                title=title, snippet=snippet or title, url=link,
+                source=source, published_date=pub_str,
+            ))
+            if len(results) >= max(max_results, 1):
+                break
+
+        return SearchResponse(
+            query=query, results=results, provider=self._name,
+            success=bool(results),
+            error_message=None if results else "Google News VN không có kết quả trong cửa sổ thời gian",
+        )
+
+
 class SearchService:
     """
     搜索服务
@@ -2150,15 +2218,25 @@ class SearchService:
         "合作", "中标", "earnings", "revenue", "profit", "guidance", "filing",
         "sec", "shares", "stock", "buyback", "dividend", "lawsuit", "merger",
         "acquisition", "results", "quarterly", "annual", "announces", "launches",
+        # Tiếng Việt — sự kiện doanh nghiệp
+        "cổ phiếu", "cổ tức", "doanh thu", "lợi nhuận", "kết quả kinh doanh",
+        "báo cáo tài chính", "chào bán", "phát hành", "mua lại", "thoái vốn",
+        "đại hội cổ đông", "hội đồng quản trị", "trúng thầu", "hợp tác", "ký kết",
+        "niêm yết", "đăng ký giao dịch", "chia cổ tức", "tăng vốn", "đơn hàng",
     )
     _SECTOR_NEWS_TERMS = (
         "行业", "板块", "产业链", "龙头", "概念股", "赛道", "sector", "industry",
         "peers", "competitors", "supply chain", "market share",
+        # Tiếng Việt
+        "ngành", "nhóm ngành", "chuỗi cung ứng", "đầu ngành", "cùng ngành",
     )
     _MACRO_NEWS_TERMS = (
         "大盘", "市场", "指数", "宏观", "央行", "利率", "通胀", "a股", "港股",
         "美股", "纳指", "标普", "market", "index", "fed", "inflation",
         "interest rate", "nasdaq", "s&p 500", "dow jones",
+        # Tiếng Việt
+        "vn-index", "vnindex", "thị trường", "chỉ số", "vĩ mô", "chứng khoán",
+        "ngân hàng nhà nước", "lãi suất", "lạm phát", "tỷ giá", "khối ngoại",
     )
     _OFFICIAL_SOURCE_TERMS = (
         "cninfo", "sse.com", "szse.cn", "hkexnews", "sec.gov", "nasdaq.com",
@@ -2343,7 +2421,12 @@ class SearchService:
         if anspire_keys:
             self._providers.insert(0, AnspireSearchProvider(anspire_keys))
             logger.info(f"已配置 Anspire Search 搜索，共 {len(anspire_keys)} 个 API Key")
-            
+
+        # 8. Google News VN (tiếng Việt, không cần key) — nguồn tin CHÍNH cho cổ phiếu VN.
+        #    Đặt đầu danh sách để ưu tiên cho mã .VN; các nguồn trên vẫn là fallback.
+        self._providers.insert(0, GoogleNewsVNProvider())
+        logger.info("已配置 Google News VN 搜索（越南股新闻，无需 API Key）")
+
         if not self._providers:
             logger.warning("未配置任何搜索能力，新闻搜索功能将不可用")
 
@@ -3605,9 +3688,14 @@ class SearchService:
 
         # 构建搜索查询（优化搜索效果）
         is_foreign = self._is_foreign_stock(stock_code)
+        is_vn = stock_code.strip().upper().endswith(".VN")
+        vn_base = stock_code.strip().upper()[:-3] if is_vn else stock_code
         if focus_keywords:
             # 如果提供了关键词，直接使用关键词作为查询
             query = " ".join(focus_keywords)
+        elif is_vn:
+            # Cổ phiếu VN: dùng tiếng Việt (Google News VN là nguồn chính)
+            query = f"{stock_name} {vn_base} cổ phiếu"
         elif prefer_chinese:
             query = f"{stock_name} {stock_code} 股票 最新消息"
         elif is_foreign:
