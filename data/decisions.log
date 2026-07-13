@@ -15509,3 +15509,22 @@
 2026-07-13 10:01 ACCEPT [Google News CB] "The Fed’s Rate Puzzle Deepens as Inflation Paths Multiply - Investing." | kw:inflation
 2026-07-13 10:01 ACCEPT [Google News CB] "Middle East Tensions Fuel Fed Hike Bets and Risk Aversion - Investing." | kw:fuel
 2026-07-13 10:01 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 10:31 ACCEPT [OilPrice.com] "Strait of Hormuz Tanker Traffic Falls to Five-Week Low" | kw:oil,lng
+2026-07-13 10:31 ACCEPT [Google News HH] "Gold, Silver Futures Fall Pre-Bell as Escalation of Strikes Between US" | kw:oil,crude,gold
+2026-07-13 10:31 ACCEPT [Google News HH] "Former archbishop and ex-Opec president sister acquitted in bribery ca" | kw:opec
+2026-07-13 10:31 ACCEPT [Google News HH] "Brent Crude Oil Futures Jump 1.9% to $77.46, WTI Crude Oil Futures Adv" | kw:oil,crude,brent
+2026-07-13 10:31 ACCEPT [Google News HH] "Oil prices consolidate around recent highs amid renewed US-Iran attack" | kw:oil,rice
+2026-07-13 10:31 ACCEPT [Google News HH] "OPEC Fund Lends $50M to SeABank for Small Business and Green Finance i" | kw:opec
+2026-07-13 10:31 ACCEPT [Google News HH] "Nikkei 225 falls sharply as crude oil climbs on Middle East attacks - " | kw:oil,crude
+2026-07-13 10:31 ACCEPT [Google News KL] "Current price of silver as of Monday, July 13, 2026 - Fortune" | kw:silver,rice
+2026-07-13 10:31 ACCEPT [Google News KL] "Gold extends decline as Middle East tensions bolster higher-for-longer" | kw:gold
+2026-07-13 10:31 ACCEPT [Google News KL] "DAX, Gold Forecast: Two trades to watch 1307 - FOREX.com" | kw:wti,gold
+2026-07-13 10:31 ACCEPT [Google News KL] "Gold prices fall across India amid global market pressure - MSN" | kw:gold,rice
+2026-07-13 10:31 ACCEPT [Google News NS] "Higher U.S. Soybean Output Strengthens Global Oilseed Supply Outlook B" | kw:oil,soybean
+2026-07-13 10:31 ACCEPT [Google News NS] "Brazil to increase soybean crush to a record 62.5 mln tons - UkrAgroCo" | kw:soybean,gdp
+2026-07-13 10:31 ACCEPT [Google News CB] "Middle East turmoil returns, Fed more hawkish: What's next for markets" | kw:oil
+2026-07-13 10:31 ACCEPT [Google News CB] "Wall Street to Warsh: Skip the Guidance, But Tell Us What You Think Ab" | kw:gdp
+2026-07-13 10:31 ACCEPT [Google News CB] "Hungary central bank signals additional summer rate cuts - Investing.c" | kw:central bank,rate cut
+2026-07-13 10:31 ACCEPT [Google News CB] "US CPI release and Fed Chair Warsh’s testimony to shape rate hike expe" | kw:rate hike
+2026-07-13 10:31 ACCEPT [Google News CB] "US Stock Market: Fed Chair Kevin Warsh unveils expert panels to overha" | kw:central bank
+2026-07-13 10:31 SKIP_MORNING already_sent date=2026-07-13
