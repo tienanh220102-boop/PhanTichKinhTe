@@ -15437,3 +15437,15 @@
 2026-07-13 07:31 ACCEPT [Google News CB] "Morning Brief: U.S. Renews Iran Strikes; Kospi Under Pressure; BOJ May" | kw:boj
 2026-07-13 07:31 ACCEPT [Google News CB] "Dollar Jumps on Middle East Conflict, Hormuz Closure and Higher Oil - " | kw:oil
 2026-07-13 07:31 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 08:01 ACCEPT [OilPrice.com] "European Natural Gas Prices Jump on Hormuz Escalation" | kw:gas,lng,rice
+2026-07-13 08:01 ACCEPT [Google News HH] "Crude oil futures jump nearly 6% to Rs 7,198/barrel as US-Iran conflic" | kw:oil,crude,fuel
+2026-07-13 08:01 ACCEPT [Google News HH] "One Chart: Pivot Points and Long/Short Position Signals for Gold, Crud" | kw:oil,crude,gold
+2026-07-13 08:01 ACCEPT [Google News KL] "Gold slides over 1% as oil surges on Strait of Hormuz closure fears - " | kw:oil,gold
+2026-07-13 08:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD falls to near $58.00 due to prevailing " | kw:silver,rice
+2026-07-13 08:01 ACCEPT [Google News KL] "Gold Jewellery Visiting Card Market Growth Forecast to 2035: Luxury Bu" | kw:gold
+2026-07-13 08:01 ACCEPT [Google News CB] "Fed report to Congress sees 'stepped up' inflation in the spring - inv" | kw:inflation
+2026-07-13 08:01 ACCEPT [Google News CB] "'ECB wasted six months': Delayed Brendon McCullum sacking as Test head" | kw:ecb
+2026-07-13 08:01 ACCEPT [Google News CB] "GDP’s Trajectory: The View from Wall Street - Econbrowser" | kw:gdp
+2026-07-13 08:01 ACCEPT [Google News CB] "Gold slips as oil rally revives Fed concerns ahead of U.S. inflation d" | kw:oil,gold,inflation
+2026-07-13 08:01 ACCEPT [Google News CB] "Gold struggles near daily low as energy-driven inflation fears lift Fe" | kw:gold,inflation
+2026-07-13 08:01 SKIP_MORNING already_sent date=2026-07-13
