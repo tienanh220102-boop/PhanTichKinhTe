@@ -15355,3 +15355,16 @@
 2026-07-13 04:32 ACCEPT [Google News CB] "Gold slides toward $4,050 as Iran tensions and Fed hike bets lift USD " | kw:gold
 2026-07-13 04:32 ACCEPT [Google News CB] "Bank of Japan is set to keep interest rates unchanged at the July meet" | kw:interest rate,bank of japan,tightening
 2026-07-13 04:32 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 05:01 ACCEPT [OilPrice.com] "Oil Prices Surge 4% as U.S.-Iran Escalation Rekindles Supply Fears" | kw:oil,crude,brent
+2026-07-13 05:01 ACCEPT [OilPrice.com] "Iran Strikes 5 Gulf Countries as Regional Escalation Continues" | kw:oil,gas,shipping
+2026-07-13 05:01 ACCEPT [Google News HH] "Gold price in India: Rates on July 13 - FXStreet" | kw:gold,rice
+2026-07-13 05:01 ACCEPT [Google News HH] "Brent Crude Oil Jumps Over 4% as Iran Conflict Threatens Supply - Coin" | kw:oil,crude,brent
+2026-07-13 05:01 ACCEPT [Google News HH] "Gold prices drop - VnExpress International" | kw:gold,rice
+2026-07-13 05:01 ACCEPT [Google News HH] "Rupee Falls 39 Paise to 95.77 Amid Rising Crude Oil Prices - Rediff Mo" | kw:oil,crude,rice
+2026-07-13 05:01 ACCEPT [Google News KL] "Gold and Silver Prices Decline Amid Geopolitical Tensions - GuruFocus" | kw:gold,silver,rice
+2026-07-13 05:01 ACCEPT [Google News KL] "Gold and Silver Prices Plummet Amid Middle East Tensions - India News " | kw:gold,silver,rice
+2026-07-13 05:01 ACCEPT [Google News KL] "Gold is more like Manhattan real estate than oil, according to Goldman" | kw:oil,gold
+2026-07-13 05:01 ACCEPT [Google News KL] "Gold prices fall: What is new price per bhori? - daily-sun.com" | kw:gold,rice
+2026-07-13 05:01 ACCEPT [Google News KL] "Gold Price Today: Check Gold And Silver Prices Across Major Indian Cit" | kw:gold,silver,rice
+2026-07-13 05:01 ACCEPT [Google News CB] "Gold slides back closer to $4,050 as Iran risks and Fed hike bets boos" | kw:gold
+2026-07-13 05:01 SKIP_MORNING already_sent date=2026-07-13
