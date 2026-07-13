@@ -15449,3 +15449,10 @@
 2026-07-13 08:01 ACCEPT [Google News CB] "Gold slips as oil rally revives Fed concerns ahead of U.S. inflation d" | kw:oil,gold,inflation
 2026-07-13 08:01 ACCEPT [Google News CB] "Gold struggles near daily low as energy-driven inflation fears lift Fe" | kw:gold,inflation
 2026-07-13 08:01 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 08:10 ACCEPT [Google News HH] "Nigeria’s Crude Oil Output Hits Six-Year High, Exceeds OPEC Quota - Ar" | kw:oil,crude,opec
+2026-07-13 08:10 ACCEPT [Google News HH] "Iran-US MOU crisis phase triggers 2.4% surge in Brent crude oil prices" | kw:oil,crude,brent
+2026-07-13 08:10 ACCEPT [Google News CB] "Fed officials divided on US inflation views; US home prices hit all-ti" | kw:rice,inflation
+2026-07-13 08:10 ACCEPT [Google News CB] "Five Economists Vie for Croat Central Bank’s Vice Governor Posts - Blo" | kw:central bank
+2026-07-13 08:10 ACCEPT [Google News CB] "USDT Transactions Draw Scrutiny From Thailand’s Central Bank - Bitcoin" | kw:central bank
+2026-07-13 08:10 ACCEPT [Google News CB] "It's Been Over 7 Weeks, and Fed Chair Kevin Warsh Has Failed to Make A" | kw:central bank
+2026-07-13 08:10 SKIP_MORNING already_sent date=2026-07-13
