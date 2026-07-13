@@ -15707,3 +15707,24 @@
 2026-07-13 13:32 ACCEPT [Google News CB] "Euro Rises Amid Hawkish ECB Expectations - RTTNews" | kw:ecb
 2026-07-13 13:32 SKIP_MORNING already_sent date=2026-07-13
 2026-07-13 13:32 SENT_EVENING articles=20 date=2026-07-13 force=False
+2026-07-13 14:01 ACCEPT [Google News HH] "OPEC Further Lowers 2026 Global Oil Demand Growth Forecast - EnergyNow" | kw:oil,opec
+2026-07-13 14:01 ACCEPT [Google News HH] "Crude oil prices climb following the latest fighting in the Middle Eas" | kw:oil,crude,rice
+2026-07-13 14:01 ACCEPT [Google News HH] "Oil prices rise following the latest fighting in the Middle East, as A" | kw:oil,rice
+2026-07-13 14:01 ACCEPT [Google News HH] "OPEC crude production jumps 3.05M bpd in June - Anadolu Ajansı" | kw:crude,opec
+2026-07-13 14:01 ACCEPT [Google News HH] "UAE oil output jumped 80% in June after leaving OPEC - Investing.com" | kw:oil,opec
+2026-07-13 14:01 ACCEPT [Google News HH] "Crude oil prices climb following the latest fighting in the Middle Eas" | kw:oil,crude,rice
+2026-07-13 14:01 ACCEPT [Google News HH] "Crude oil prices climb following the latest fighting in the Middle Eas" | kw:oil,crude,rice
+2026-07-13 14:01 ACCEPT [Google News HH] "Gold Price Analysis – Gold Slumps as Death Cross Signals Downside Risk" | kw:gold,rice
+2026-07-13 14:01 ACCEPT [Google News KL] "Gold drops more than 1% as rising Middle East tensions add to rate-hik" | kw:gold
+2026-07-13 14:01 ACCEPT [Google News KL] "Gold extends decline as Middle East tensions bolster higher-for-longer" | kw:gold
+2026-07-13 14:01 ACCEPT [Google News KL] "Silver Price Analysis – Silver Tests Critical $57 Support Amid Stronge" | kw:silver,rice
+2026-07-13 14:01 ACCEPT [Google News KL] "A Strange Dichotomy: Gold Up on the Year in Asian Markets, Down Big in" | kw:gold
+2026-07-13 14:01 ACCEPT [Google News KL] "Tether’s $20 billion mountain of gold – equal to a national reserve – " | kw:gold
+2026-07-13 14:01 ACCEPT [Google News KL] "Gold price today: Yellow metal falls Rs 1,500 to Rs 1.47 lakh/10g in D" | kw:gold,rice
+2026-07-13 14:01 ACCEPT [Google News NS] "China Domestic Corn Starch Prices Trend Weakly - Sunsirs" | kw:corn,rice
+2026-07-13 14:01 ACCEPT [Google News NS] "Sea of Azov Shipping Restrictions Raise Security Concerns, Impact Whea" | kw:wheat,shipping
+2026-07-13 14:01 ACCEPT [Google News NS] "Sweet corn season is here - The N'West Iowa REVIEW" | kw:corn
+2026-07-13 14:01 ACCEPT [Google News CB] "What advisors need to watch this week as Iran tensions, inflation data" | kw:inflation
+2026-07-13 14:01 ACCEPT [Google News CB] "StanChart Sees Slower Nigeria Rate Cuts as Inflation Views Rise - Bloo" | kw:inflation,rate cut
+2026-07-13 14:01 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 14:01 SKIP_EVENING already_sent date=2026-07-13
