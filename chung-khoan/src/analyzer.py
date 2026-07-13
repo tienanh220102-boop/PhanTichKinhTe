@@ -1319,10 +1319,10 @@ def _capital_flow_bias_with_status(
 def _capital_flow_status_for_stability(reason: str, language: str) -> str:
     normalized = str(reason or "").strip().lower()
     if "not_supported" in normalized or "unsupported" in normalized or "not available" in normalized:
-        return "市场资金流服务暂不支持" if language == "zh" else "Capital flow source unsupported"
+        return {"zh": "市场资金流服务暂不支持", "vi": "Nguồn dữ liệu dòng tiền chưa hỗ trợ"}.get(language, "Capital flow source unsupported")
     if "empty_stock_flow" in normalized or "missing" in normalized:
-        return "资金流数据缺失" if language == "zh" else "capital flow data unavailable"
-    return "资金流数据不可用" if language == "zh" else "capital flow unavailable"
+        return {"zh": "资金流数据缺失", "vi": "thiếu dữ liệu dòng tiền"}.get(language, "capital flow data unavailable")
+    return {"zh": "资金流数据不可用", "vi": "dữ liệu dòng tiền không khả dụng"}.get(language, "capital flow unavailable")
 
 
 def _set_decision_stability_unavailable(
@@ -1338,7 +1338,7 @@ def _set_decision_stability_unavailable(
     result.dashboard = dashboard
     dashboard["decision_stability"] = {
         "applied": False,
-        "reason": "资金流不可用，未使用资金流校准" if language == "zh" else "Capital flow unavailable; stability calibration not applied",
+        "reason": {"zh": "资金流不可用，未使用资金流校准", "vi": "Dòng tiền không khả dụng; chưa hiệu chỉnh theo dòng tiền"}.get(language, "Capital flow unavailable; stability calibration not applied"),
         "capital_flow_status": _capital_flow_status_for_stability(flow_status, language),
         "current_price": current_price,
         "support": support,
@@ -1414,7 +1414,7 @@ def _apply_hold_watch_dashboard(
     if not isinstance(core, dict):
         core = {}
         dashboard["core_conclusion"] = core
-    core["signal_type"] = "🟡持有观望" if language == "zh" else "🟡 Hold / Watch"
+    core["signal_type"] = {"zh": "🟡持有观望", "vi": "🟡 Nắm giữ / Quan sát"}.get(language, "🟡 Hold / Watch")
     core["one_sentence"] = f"{advice}：{reason}" if language == "zh" else f"{advice}: {reason}"
 
     position_advice = core.get("position_advice")
@@ -1463,12 +1463,12 @@ def _downgrade_buy_without_capital_flow(
         no_position = "空仓先不追买，等待资金流恢复、支撑确认或有效突破后再行动。"
         has_position = "持仓以关键支撑为风控线，资金流恢复前控制仓位。"
         confidence = "低"
-    else:
-        advice = "Hold and watch"
-        reason = f"{status_text}; the buy call lacks capital-flow confirmation, so treat it as watch-only."
-        no_position = "Do not chase; wait for capital-flow recovery, support confirmation, or a valid breakout."
-        has_position = "Use key support as the risk line and keep position size controlled until capital flow recovers."
-        confidence = "Low"
+    elif language == "vi":
+        advice = "Nắm giữ / Quan sát"
+        reason = f"{status_text}; khuyến nghị mua chưa được dòng tiền xác nhận, tạm coi là chỉ quan sát."
+        no_position = "Chưa mua đuổi; chờ dòng tiền hồi phục, xác nhận hỗ trợ hoặc bứt phá hợp lệ."
+        has_position = "Lấy hỗ trợ then chốt làm ngưỡng quản trị rủi ro, kiểm soát tỷ trọng đến khi dòng tiền hồi."
+        confidence = "Thấp"
 
     result.decision_type = "hold"
     result.confidence_level = confidence
@@ -1543,8 +1543,13 @@ def _set_structural_hold_wording(
             "shakeout": "흔들기 관찰",
             "hold": "보유 관찰",
         },
+        "vi": {
+            "range": "Đi ngang, quan sát",
+            "shakeout": "Rũ hàng, quan sát",
+            "hold": "Nắm giữ / Quan sát",
+        },
     }
-    advice_default = {"zh": "持有观察", "en": "Hold and watch", "ko": "보유 관찰"}.get(language, "Hold and watch")
+    advice_default = {"zh": "持有观察", "en": "Hold and watch", "ko": "보유 관찰", "vi": "Nắm giữ / Quan sát"}.get(language, "Hold and watch")
     advice = advice_map.get(language, advice_map["en"]).get(advice_key, advice_default)
     reason_templates = {
         "zh": {
@@ -1571,6 +1576,14 @@ def _set_structural_hold_wording(
             "hold_shakeout": "가격이 지지선 부근까지 눌렸지만 유출이 확인되지 않아 흔들기 관찰로 처리하는 것이 적절합니다.",
             "hold_mid_range": "가격이 지지선과 저항선 사이이고 자금 흐름이 불명확해 박스권 관망이 더 실행 가능합니다.",
         },
+        "vi": {
+            "buy_near_resistance": "Giá sát vùng kháng cự và chưa xác nhận dòng tiền lớn vào, nên không nên đuổi mua chỉ vì hồi ngắn hạn.",
+            "buy_with_outflow": "Dòng tiền lớn rút ra mâu thuẫn với kết luận mua; chờ xác nhận hỗ trợ hoặc dòng tiền quay lại.",
+            "sell_near_support": "Giá sát hỗ trợ và chưa thấy dòng tiền rút liên tục, nên không nên bán chỉ vì một phiên giảm.",
+            "sell_with_inflow": "Dòng tiền lớn vào mâu thuẫn với kết luận bán; tạm nắm giữ quan sát và theo dõi hỗ trợ có bị phá.",
+            "hold_shakeout": "Giá lùi về gần hỗ trợ nhưng chưa xác nhận dòng tiền rút, phù hợp xử lý như rũ hàng để quan sát.",
+            "hold_mid_range": "Giá nằm giữa hỗ trợ và kháng cự, dòng tiền chưa rõ, nên giữ trạng thái đi ngang quan sát.",
+        },
     }
     reason = reason_templates.get(language, reason_templates["en"]).get(reason_key, "")
     if calibrate_score:
@@ -1584,6 +1597,8 @@ def _set_structural_hold_wording(
             result.trend_prediction = "Sideways"
         elif language == "ko":
             result.trend_prediction = "횡보"
+        elif language == "vi":
+            result.trend_prediction = "Đi ngang"
 
     if language == "zh":
         no_position = "空仓先不追涨杀跌，等待支撑确认、放量突破或资金回流后再行动。"
@@ -1591,6 +1606,9 @@ def _set_structural_hold_wording(
     elif language == "ko":
         no_position = "현금 보유 시 추격·투매를 삼가고 지지 확인·대량 돌파·자금 재유입 후 행동하세요."
         has_position = "보유 시 핵심 지지선을 리스크 관리선으로 삼고, 이탈 전까지 관찰과 분할 관리 위주로 대응하세요."
+    elif language == "vi":
+        no_position = "Chưa có hàng thì đừng mua đuổi/bán tháo; chờ xác nhận hỗ trợ, bứt phá có khối lượng hoặc dòng tiền quay lại."
+        has_position = "Đang giữ hàng thì lấy hỗ trợ then chốt làm ngưỡng quản trị rủi ro; chưa thủng thì ưu tiên quan sát, chia nhỏ tỷ trọng."
     else:
         no_position = "Do not chase or panic; wait for support confirmation, breakout, or renewed inflow."
         has_position = "Use key support as the risk line and manage position size unless support fails."
