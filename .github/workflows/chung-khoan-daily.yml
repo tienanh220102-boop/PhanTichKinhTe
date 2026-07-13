@@ -7,10 +7,14 @@ name: Phân tích Chứng khoán VN (HOSE/HNX/UPCoM)
 on:
   workflow_dispatch:
     inputs:
-      stocks:
-        description: 'Danh sách mã VN (cách nhau bằng dấu phẩy, nhớ hậu tố .VN)'
+      top:
+        description: 'Số mã shortlist đưa vào phân tích LLM sâu'
         required: false
-        default: 'FPT.VN,SHS.VN,ACV.VN,VGI.VN'
+        default: '30'
+      boards:
+        description: 'Sàn quét (HOSE,HNX,UPCoM)'
+        required: false
+        default: 'HOSE,HNX,UPCoM'
       report_language:
         description: 'Ngôn ngữ báo cáo'
         required: false
@@ -25,7 +29,7 @@ concurrency:
 jobs:
   analyze-vn:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     defaults:
       run:
         working-directory: chung-khoan
@@ -56,7 +60,8 @@ jobs:
           GEMINI_MODEL_FALLBACK: 'gemini-2.5-flash-lite'
           GEMINI_REQUEST_DELAY: '3.0'
           # Cấu hình chạy
-          STOCK_LIST: ${{ github.event.inputs.stocks || 'FPT.VN,SHS.VN,ACV.VN,VGI.VN' }}
+          SCREEN_TOP: ${{ github.event.inputs.top || '30' }}
+          SCREEN_BOARDS: ${{ github.event.inputs.boards || 'HOSE,HNX,UPCoM' }}
           REPORT_LANGUAGE: ${{ github.event.inputs.report_language || 'en' }}
           REPORT_TYPE: 'simple'
           MARKET_REVIEW_ENABLED: 'false'
@@ -68,11 +73,15 @@ jobs:
         run: |
           echo "=========================================="
           echo "📈 Phân tích chứng khoán VN (HOSE/HNX/UPCoM)"
-          echo "🎯 Danh mục: $STOCK_LIST"
-          echo "🌐 Ngôn ngữ: $REPORT_LANGUAGE  | Model: $GEMINI_MODEL"
+          echo "🌐 Ngôn ngữ: $REPORT_LANGUAGE | Model: $GEMINI_MODEL"
           echo "🔑 Gemini key: $([ -n "$GEMINI_API_KEY" ] && echo '✅ có' || echo '❌ thiếu')"
           echo "=========================================="
-          python main.py --stocks "$STOCK_LIST" --no-market-review --force-run
+          echo "🔎 TẦNG 1 — Screener quét toàn thị trường (top $SCREEN_TOP, sàn $SCREEN_BOARDS)..."
+          SHORTLIST=$(python scripts/vn_screener.py --top "$SCREEN_TOP" --boards "$SCREEN_BOARDS")
+          if [ -z "$SHORTLIST" ]; then echo "❌ Screener không trả mã nào"; exit 1; fi
+          echo "🎯 Shortlist: $SHORTLIST"
+          echo "🤖 TẦNG 2 — Phân tích LLM sâu trên shortlist..."
+          python main.py --stocks "$SHORTLIST" --no-market-review --force-run
 
       - name: Tải lên báo cáo (artifact)
         uses: actions/upload-artifact@v6
