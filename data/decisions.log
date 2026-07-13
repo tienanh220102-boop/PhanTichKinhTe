@@ -15819,3 +15819,18 @@
 2026-07-13 16:31 ACCEPT [Google News CB] "Will Fed Chair Kevin Warsh address AI inflation in his congressional t" | kw:inflation
 2026-07-13 16:31 SKIP_MORNING already_sent date=2026-07-13
 2026-07-13 16:31 SKIP_EVENING already_sent date=2026-07-13
+2026-07-13 16:45 ACCEPT [MarketWatch] "A hot inflation reading this week could mean a rate hike soon, Fed’s W" | kw:inflation,rate hike
+2026-07-13 16:45 ACCEPT [The Guardian Biz] "US state attorneys general file lawsuit in effort to block Paramount m" | kw:rice
+2026-07-13 16:45 ACCEPT [CNBC Commodities] "Waller says Fed shouldn't 'fight the last war' on inflation but warns " | kw:rice,tariff,inflation
+2026-07-13 16:45 ACCEPT [Google News HH] "OPEC+ Ups Its Production Quota for August, but Fighting Resumes in the" | kw:opec
+2026-07-13 16:45 ACCEPT [Google News HH] "Crude Oil Prices Surge as US Reinstates Blockade of Iran - Barchart.co" | kw:oil,crude,rice
+2026-07-13 16:45 ACCEPT [Google News HH] "Crude Oil finds a toll booth where its ceasefire used to be - FXStreet" | kw:oil,crude
+2026-07-13 16:45 ACCEPT [Google News KL] "Gold Price Forecast Cut 14% to $4,360, But Mining Stocks Offer Compell" | kw:wti,gold,rice
+2026-07-13 16:45 ACCEPT [Google News KL] "Gold and Silver Prices Reverse After Iran-US Military Escalation | Her" | kw:gold,silver,rice
+2026-07-13 16:45 ACCEPT [Google News NS] "Wisconsin Soybean Marketing Board Election - Morning Ag Clips" | kw:soybean
+2026-07-13 16:45 ACCEPT [Google News CB] "Waller says Fed shouldn't 'fight the last war' on inflation but warns " | kw:inflation
+2026-07-13 16:45 ACCEPT [Google News CB] "Fed Official Warns of Higher Rates if Inflation Stays Elevated - The N" | kw:inflation
+2026-07-13 16:45 ACCEPT [Google News CB] "Waller Says Fed May Need to Raise Rates to Tame Core Inflation - Bloom" | kw:inflation
+2026-07-13 16:45 ACCEPT [Google News CB] "A hot inflation reading this week could mean a rate hike soon, Fed’s W" | kw:inflation,rate hike
+2026-07-13 16:45 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 16:45 SKIP_EVENING already_sent date=2026-07-13
