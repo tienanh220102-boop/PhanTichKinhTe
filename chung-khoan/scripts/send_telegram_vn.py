@@ -85,6 +85,76 @@ def read_movers_raw():
     return open(p, encoding="utf-8").read() if os.path.exists(p) else ""
 
 
+def extract_movers(md_path, section, top=6):
+    """Lấy 'MÃ +x.xx%' từ một mục của bản tin dịch chuyển giá."""
+    if not md_path or not os.path.exists(md_path):
+        return []
+    txt = open(md_path, encoding="utf-8").read()
+    rows = []
+    for b in re.split(r"\n##\s+", txt):
+        if section in b:
+            for ln in b.splitlines():
+                m = re.match(r"\|\s*([A-Z0-9]{2,5})\s*\|[^|]*\|[^|]*\|[^|]*\|\s*([+-][\d.]+%)", ln)
+                if m:
+                    rows.append(f"{m.group(1)} {m.group(2).strip()}")
+                if len(rows) >= top:
+                    break
+    return rows
+
+
+_SIGNAL_VN = {
+    "strong buy": "🟢 MUA MẠNH", "buy": "🟢 CÂN NHẮC MUA", "accumulate": "🟢 MUA DẦN",
+    "watch": "⏸️ CHỜ / QUAN SÁT", "hold": "✋ NẮM GIỮ",
+    "reduce": "🔻 GIẢM TỶ TRỌNG", "sell": "🔴 BÁN", "strong sell": "🔴 BÁN MẠNH",
+}
+_TREND_VN = {
+    "strongly bullish": "xu hướng tăng mạnh", "bullish": "xu hướng tăng",
+    "neutral": "trung tính", "sideways": "đi ngang", "volatile": "biến động mạnh",
+    "bearish": "xu hướng giảm", "strongly bearish": "xu hướng giảm mạnh",
+}
+
+
+def _vn_signal(sig_text):
+    """'Watch | Score 59 | Bullish' -> ('⏸️ CHỜ...', 59, 'xu hướng tăng')."""
+    low = sig_text.lower()
+    action = next((v for k, v in _SIGNAL_VN.items() if k in low), sig_text.split("|")[0].strip())
+    score = None
+    m = re.search(r"score\s*(\d+)", low)
+    if m:
+        score = int(m.group(1))
+    trend = ""
+    for k in sorted(_TREND_VN, key=len, reverse=True):
+        if k in low:
+            trend = _TREND_VN[k]; break
+    return action, score, trend
+
+
+def per_stock_details(md_path):
+    """Trích theo mã: câu chốt (one-liner), rủi ro chính, giá, hỗ trợ/kháng cự."""
+    details = {}
+    if not md_path or not os.path.exists(md_path):
+        return details
+    txt = open(md_path, encoding="utf-8").read()
+    for sec in re.split(r"\n##\s+", txt):
+        mtk = re.search(r"\(([A-Z0-9]{2,5})\.VN\)", sec)
+        if not mtk:
+            continue
+        tk = mtk.group(1)
+        d = {}
+        m = re.search(r"(One-line Decision|一句话决策)\**\s*[:：]\s*(.+)", sec)
+        if m:
+            d["oneliner"] = m.group(2).strip().strip("*").strip()
+        # rủi ro đầu tiên trong Risk Alerts
+        rm = re.search(r"(Risk Alerts|风险)\**.*?\n(?:[-*]\s*(.+))", sec)
+        if rm and rm.group(2) and "No specific" not in rm.group(2):
+            d["risk"] = rm.group(2).strip()
+        pm = re.search(r"(Support|支撑)\**\s*[:：]?\s*\|?\s*([\d,\.]+)", sec)
+        if pm:
+            d["support"] = pm.group(2)
+        details[tk] = d
+    return details
+
+
 def _gnews(query, n=4, days=10):
     """Tiêu đề tin tiếng Việt qua Google News RSS."""
     from email.utils import parsedate_to_datetime
@@ -146,7 +216,41 @@ def build_stock_insights(stocks, detail_n=8):
     return "\n".join(blocks)
 
 
-def gemini_brief(data_block):
+def gemini_overview(data_block):
+    """MỘT lần gọi Gemini (nhẹ) để viết đoạn tổng quan thị trường + ngành nổi bật.
+    Có retry + ưu tiên model lite để đỡ tốn quota (đang chia sẻ với nhóm khác)."""
+    if not GEMINI_KEY:
+        return None
+    prompt = (
+        "Bạn viết cho NGƯỜI MỚI chơi chứng khoán VN. Dựa HOÀN TOÀN trên dữ liệu dưới đây "
+        "(không bịa), viết 3–5 câu tiếng Việt đơn giản: (1) không khí thị trường hôm nay; "
+        "(2) nhóm NGÀNH/loại cổ phiếu nào đang nổi bật (tăng/giảm) và vì sao nếu tin có nói; "
+        "(3) một lời nhắc thận trọng ngắn. Dùng thẻ <b> cho vài từ khóa, KHÔNG dùng ** markdown, "
+        "KHÔNG liệt kê từng mã (phần đó đã có riêng).\n\n===== DỮ LIỆU =====\n" + data_block
+    )
+    models = []
+    for m in ("gemini-2.5-flash-lite", GEMINI_MODEL):
+        if m and m not in models:
+            models.append(m)
+    for model in models:
+        for attempt in range(2):
+            try:
+                url = (f"https://generativelanguage.googleapis.com/v1beta/models/{model}"
+                       f":generateContent?key={GEMINI_KEY}")
+                r = requests.post(url, json={"contents": [{"parts": [{"text": prompt}]}]}, timeout=60)
+                if r.status_code == 429:
+                    print(f"[gemini] {model} 429 (quota), thử lại/đổi model...", file=sys.stderr)
+                    time.sleep(4)
+                    continue
+                r.raise_for_status()
+                return r.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
+            except Exception as e:
+                print(f"[gemini] {model} lỗi: {e}", file=sys.stderr)
+                time.sleep(2)
+    return None
+
+
+def _unused_gemini_brief(data_block):
     if not GEMINI_KEY:
         return None
     prompt = (
@@ -210,40 +314,67 @@ def main():
 
     rep = read_latest_report()
     summary = extract_summary(rep)
-    one_liners = extract_one_liners(rep)
     movers = read_movers_raw()
     mkt_news = market_news()
     stocks = parse_stocks_from_summary(summary)
-    stock_insights = build_stock_insights(stocks) if stocks else ""
-
-    # Khối dữ liệu thô đưa cho Gemini
-    data_block = "TIN THỊ TRƯỜNG CHUNG (tiêu đề):\n" + "\n".join(f"- {t}" for t in mkt_news) + "\n\n"
-    if stock_insights:
-        data_block += ("TỪNG MÃ NỔI BẬT (tên, mã, tín hiệu kỹ thuật, tin tức riêng của mã "
-                       "— nguồn để rút insight doanh nghiệp):\n" + stock_insights + "\n\n")
-    data_block += "TOÀN BỘ KẾT QUẢ PHÂN TÍCH (mã | tín hiệu | điểm):\n" + "\n".join(summary) + "\n\n"
-    if one_liners:
-        data_block += "CÂU CHỐT KỸ THUẬT TỪNG MÃ:\n" + "\n".join(f"- {s}" for s in one_liners) + "\n\n"
-    data_block += "DỊCH CHUYỂN GIÁ NỔI BẬT:\n" + movers[:2200]
-
-    header = f"📈 <b>PHÂN TÍCH CHỨNG KHOÁN VN</b> — {datetime.now():%d/%m/%Y}\n"
-    body = gemini_brief(data_block)
+    details = per_stock_details(rep)
     u = run_url()
 
-    if body:
-        text = header + "\n" + body
-        if u:
-            text += f'\n\n📄 <a href="{u}">Xem báo cáo kỹ thuật đầy đủ</a>'
-    else:
-        # Fallback: bản rút gọn theo mẫu (khi không có Gemini)
-        lines = [header, "<i>Tự động, tham khảo — không phải khuyến nghị.</i>", "", "🎯 <b>Mã đáng chú ý</b>"]
-        lines += [html.escape(s) for s in summary[:32]]
-        lines.append("")
-        lines.append("📊 <b>Giá biến động mạnh</b> — xem báo cáo đầy đủ.")
-        if u:
-            lines.append(f'\n📄 <a href="{u}">Mở báo cáo</a>')
-        text = "\n".join(lines)
+    # Tin riêng từng mã (1 tiêu đề/mã) — nguồn insight doanh nghiệp, không cần LLM
+    news_of = {}
+    for name, tk, _sig in stocks:
+        hs = _gnews(f"{name} {tk} cổ phiếu", n=1, days=14)
+        news_of[tk] = hs[0] if hs else ""
+        time.sleep(0.15)
 
+    gainers = extract_movers(os.path.join(REPORTS, "dich-chuyen-gia.md"), "Tăng mạnh nhất", top=6)
+    losers = extract_movers(os.path.join(REPORTS, "dich-chuyen-gia.md"), "Giảm mạnh nhất", top=6)
+    surge = extract_movers(os.path.join(REPORTS, "dich-chuyen-gia.md"), "Bùng khối lượng", top=5)
+
+    # Đoạn tổng quan thị trường/ngành (1 lần gọi Gemini, có thể vắng nếu hết quota)
+    data_block = ("TIN THỊ TRƯỜNG:\n" + "\n".join(f"- {t}" for t in mkt_news) +
+                  "\n\nTĂNG MẠNH: " + ", ".join(gainers) + "\nGIẢM MẠNH: " + ", ".join(losers))
+    overview = gemini_overview(data_block)
+
+    # ---- Dựng digest giàu thông tin, ĐỘC LẬP với LLM ----
+    L = [f"📈 <b>PHÂN TÍCH CHỨNG KHOÁN VN</b> — {datetime.now():%d/%m/%Y}",
+         "<i>Tự động, tham khảo — không phải khuyến nghị.</i>", ""]
+    if overview:
+        L += ["🌐 <b>Bức tranh chung</b>", overview, ""]
+    elif mkt_news:
+        L += ["🌐 <b>Tin thị trường</b>"] + [f"• {html.escape(t)}" for t in mkt_news[:3]] + [""]
+
+    L.append("🎯 <b>Mã đáng chú ý</b> (quét toàn thị trường, chọn ra):")
+    for name, tk, sig in stocks:
+        act, score, trend = _vn_signal(sig)
+        d = details.get(tk, {})
+        head = f"\n<b>{html.escape(name)} ({tk})</b> — {act}"
+        if score is not None:
+            head += f" · điểm {score}/100"
+        if trend:
+            head += f" · {trend}"
+        L.append(head)
+        if d.get("oneliner"):
+            L.append(f"💡 {html.escape(d['oneliner'])}")
+        if d.get("risk"):
+            L.append(f"⚠️ Rủi ro: {html.escape(d['risk'])}")
+        if news_of.get(tk):
+            L.append(f"📰 {html.escape(news_of[tk])}")
+
+    L.append("\n📊 <b>Giá biến động mạnh trong ngày</b>")
+    if gainers:
+        L.append("🟢 Tăng: " + html.escape(", ".join(gainers)))
+    if losers:
+        L.append("🔴 Giảm: " + html.escape(", ".join(losers)))
+    if surge:
+        L.append("⚡ Bùng khối lượng: " + html.escape(", ".join(surge)))
+    L.append("<i>Biến động lớn thường đi kèm tin — nên tìm hiểu trước khi hành động.</i>")
+
+    L.append("\n💬 Đây là thông tin tự động, tham khảo. Người mới nên tìm hiểu kỹ, hỏi người có kinh nghiệm, không dồn hết vốn vào một mã.")
+    if u:
+        L.append(f'📄 <a href="{u}">Báo cáo kỹ thuật đầy đủ</a>')
+
+    text = "\n".join(L)
     print(text, file=sys.stderr)
     ok = send(text)
     print("[telegram] gửi " + ("OK" if ok else "THẤT BẠI"), file=sys.stderr)
