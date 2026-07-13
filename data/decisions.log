@@ -15635,3 +15635,25 @@
 2026-07-13 12:01 ACCEPT [Google News CB] "Fed Officials Are Divided On Likely Path Of Interest Rates - News Radi" | kw:interest rate
 2026-07-13 12:01 ACCEPT [Google News CB] "Gold Pressured Near Daily Low as Energy-Driven Inflation Bolsters Fed " | kw:gold,inflation,fed rate
 2026-07-13 12:01 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 12:31 ACCEPT [The Guardian Biz] "Oil price jumps 3% and UK pump prices rise as the US and Iran trade at" | kw:oil,crude,brent
+2026-07-13 12:31 ACCEPT [CNBC Commodities] "Big banks poised to report booming revenue propelled by SpaceX IPO, Ir" | kw:fuel
+2026-07-13 12:31 ACCEPT [Google News HH] "OPEC further lowers 2026 global oil demand growth forecast - Reuters" | kw:oil,opec
+2026-07-13 12:31 ACCEPT [Google News HH] "UAE Tells OPEC Its Oil Production Surged by 80% Last Month - Bloomberg" | kw:oil,opec
+2026-07-13 12:31 ACCEPT [Google News HH] "Nigeria Oil Output Hits Six-year High, Above OPEC Target - Barron's" | kw:oil,opec
+2026-07-13 12:31 ACCEPT [Google News HH] "Gold Price Today on July 13, 2026 - USA Today" | kw:gold,rice
+2026-07-13 12:31 ACCEPT [Google News HH] "UAE oil output jumped 80% in June after leaving OPEC - Investing.com" | kw:oil,opec
+2026-07-13 12:31 ACCEPT [Google News HH] "OPEC: World growth forecast remains unchanged - Breakingthenews.net" | kw:opec
+2026-07-13 12:31 ACCEPT [Google News HH] "OPEC: 2027 world oil demand growth at 1.9M bpd - Breakingthenews.net" | kw:oil,opec
+2026-07-13 12:31 ACCEPT [Google News HH] "Forecast update for crude oil -13-07-2026 - Economies.com" | kw:oil,crude,gdp
+2026-07-13 12:31 ACCEPT [Google News KL] "H.C. Wainwright cuts First Majestic Silver price target on production " | kw:silver,rice
+2026-07-13 12:31 ACCEPT [Google News KL] "Gold prices are soaring. In California, that’s fueling a risky mining " | kw:fuel,gold,rice
+2026-07-13 12:31 ACCEPT [Google News KL] "Silver Price Today: Silver Falls 2.24% on July 13, 2026 - USA Today" | kw:silver,rice
+2026-07-13 12:31 ACCEPT [Google News NS] "Sharp Increase in Rapeseed Prices - Новини аграрного бізнесу" | kw:rice
+2026-07-13 12:31 ACCEPT [Google News NS] "Olathe corn in short supply this summer as farmers cut back significan" | kw:corn
+2026-07-13 12:31 ACCEPT [Google News CB] "Ethiopian Central Bank Raises Rates for First Time in Two Years - Bloo" | kw:central bank
+2026-07-13 12:31 ACCEPT [Google News CB] "June CPI, PPI, retail sales data to impact Fed interest rate decisions" | kw:interest rate,rate decision
+2026-07-13 12:31 ACCEPT [Google News CB] "Fed’s message to Congress: We will bring down inflation ahead of Chair" | kw:inflation
+2026-07-13 12:31 ACCEPT [Google News CB] "Five Economists Vie for Croat Central Bank’s Vice Governor Posts - Blo" | kw:central bank
+2026-07-13 12:31 ACCEPT [Google News CB] "Fed officials divided on US inflation views; home prices hit all-time " | kw:rice,inflation
+2026-07-13 12:31 ACCEPT [Google News CB] "Central Bank IL Pets of the Week: Ferny & O’Nadia! - walls 102" | kw:central bank
+2026-07-13 12:31 SKIP_MORNING already_sent date=2026-07-13
