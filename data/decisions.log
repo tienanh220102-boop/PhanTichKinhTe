@@ -15318,3 +15318,13 @@
 2026-07-13 03:01 ACCEPT [Google News CB] "Fed Chair Warsh’s testimony this week may signal rate hike direction -" | kw:rate hike
 2026-07-13 03:01 ACCEPT [Google News CB] "Economists See Lower Recession Risk: Will Fed Still Hike Interest Rate" | kw:interest rate
 2026-07-13 03:01 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 03:31 ACCEPT [Google News HH] "One Chart: Pivot Points and Long/Short Position Signals for Gold, Crud" | kw:oil,crude,gold
+2026-07-13 03:31 ACCEPT [Google News HH] "Crude Oil Price Gains Positive Momentum – Analysis – 13-07-2026 - Econ" | kw:oil,crude,rice
+2026-07-13 03:31 ACCEPT [Google News HH] "Gold Price Today: Check Gold And Silver Prices Across Major Indian Cit" | kw:gold,silver,rice
+2026-07-13 03:31 ACCEPT [Google News HH] "Gold price loses its grip: World’s 50 biggest mining companies shed $2" | kw:gold,rice
+2026-07-13 03:31 ACCEPT [Google News KL] "Contango ORE Drops Gold Hedges to Boost Upside as Manh Choh Output Ram" | kw:gold
+2026-07-13 03:31 ACCEPT [Google News KL] "Geopolitical Risks and Rate Hike Expectations Put Pressure, Copper Pri" | kw:copper,rice,rate hike
+2026-07-13 03:31 ACCEPT [Google News KL] "Peter Schiff Says Conditions Ripe for a 'Huge Rally' in Gold As Iran W" | kw:gold
+2026-07-13 03:31 ACCEPT [Google News NS] "Plum Grove signs grain deal with Mid West Ports - Grain Central" | kw:wti
+2026-07-13 03:31 ACCEPT [Google News CB] "3 AI Stocks To Watch As The Fed Weighs Productivity And Interest Rates" | kw:interest rate
+2026-07-13 03:31 SKIP_MORNING already_sent date=2026-07-13
