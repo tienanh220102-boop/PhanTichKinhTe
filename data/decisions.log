@@ -15591,3 +15591,24 @@
 2026-07-13 11:01 ACCEPT [Google News CB] "BDC Dividends Face a Reckoning As Fed Rate Cuts Squeeze Earnings - 24/" | kw:fed rate,rate cut
 2026-07-13 11:01 ACCEPT [Google News CB] "GDP’s Trajectory: The View from Wall Street - Econbrowser" | kw:gdp
 2026-07-13 11:01 SKIP_MORNING already_sent date=2026-07-13
+2026-07-13 11:31 ACCEPT [OilPrice.com] "Nigeria’s Oil Production Hits Six-Year High as Middle East Risks Retur" | kw:oil,crude
+2026-07-13 11:31 ACCEPT [Google News HH] "Nigeria June Crude Oil Output Rose to Six-Year High, Regulator Says - " | kw:oil,crude
+2026-07-13 11:31 ACCEPT [Google News HH] "EUR/USD & Gold Price Outlook: Hormuz Strikes, US CPI and Dollar Streng" | kw:gold,rice
+2026-07-13 11:31 ACCEPT [Google News HH] "OPEC Fund provides US$50 million to SeABank to boost small business an" | kw:opec
+2026-07-13 11:31 ACCEPT [Google News HH] "Crude oil climbs more than 3% as U.S., Iran fight for control of Strai" | kw:oil,crude
+2026-07-13 11:31 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Gold Breaks Symmetrical Triangl" | kw:gold,silver,rice
+2026-07-13 11:31 ACCEPT [Google News KL] "Gold holds firm, silver slips as markets eye US-Iran deal, Fed meet - " | kw:gold,silver
+2026-07-13 11:31 ACCEPT [Google News KL] "Cerrado Gold Reports Strong Q2 2026 Production Results at Its Minera D" | kw:gold
+2026-07-13 11:31 ACCEPT [Google News KL] "DAILY: Macro disruptions to cause c... - Mysteel" | kw:steel
+2026-07-13 11:31 ACCEPT [Google News KL] "Silver: Why This Slide Below $60 May Matter More - DailyForex" | kw:silver
+2026-07-13 11:31 ACCEPT [Google News KL] "Gold prices fall nearly 1% even as jewellery stocks rally - MSN" | kw:gold,rice
+2026-07-13 11:31 ACCEPT [Google News KL] "Banyan Gold Continues to Delineate High-Grade in Powerline Southwest, " | kw:gold
+2026-07-13 11:31 ACCEPT [Google News KL] "Why HSBC thinks gold could fall to $3,800 - AzerNews" | kw:gold
+2026-07-13 11:31 ACCEPT [Google News KL] "Gold declines as renewed US-Iran hostilities boost Oil prices, Fed rat" | kw:oil,gold,rice
+2026-07-13 11:31 ACCEPT [Google News KL] "EUR/USD & Gold Price Outlook: Hormuz Strikes, US CPI and Dollar Streng" | kw:wti,gold,rice
+2026-07-13 11:31 ACCEPT [Google News NS] "Corn Belt Forecast Turns Milder After Weeks of Weather Model Confusion" | kw:corn
+2026-07-13 11:31 ACCEPT [Google News CB] "If the Fed Hikes Interest Rates in 2026, History Says This Is the Best" | kw:interest rate
+2026-07-13 11:31 ACCEPT [Google News CB] "Fed Officials Are Divided On Likely Path Of Interest Rates - NewsRadio" | kw:interest rate
+2026-07-13 11:31 ACCEPT [Google News CB] "European M&A proves more resilient than global peers despite ECB rate " | kw:rate hike,ecb
+2026-07-13 11:31 ACCEPT [Google News CB] "Week Ahead: Inflation Data and Fed Signals Take Center Stage - Investi" | kw:lng,inflation
+2026-07-13 11:31 SKIP_MORNING already_sent date=2026-07-13
