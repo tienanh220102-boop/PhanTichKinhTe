@@ -16295,3 +16295,23 @@
 2026-07-14 12:31 ACCEPT [Google News CB] "RS2 Financial Services GmbH Selected to Participate in ECB Digital Eur" | kw:ecb
 2026-07-14 12:31 ACCEPT [Google News CB] "Inflation Is Still Above Target. Fed Governor Christopher Waller Says " | kw:inflation,rate hike
 2026-07-14 12:31 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 12:44 ACCEPT [MarketWatch] "Consumer prices fall for first time since 2020 pandemic, but fight vs." | kw:gas,rice,inflation
+2026-07-14 12:44 ACCEPT [BBC Business] "US inflation rate eases to 3.5% as gasoline prices fall" | kw:gas,rice,inflation
+2026-07-14 12:44 ACCEPT [CNBC Commodities] "Warsh promises inflation will be a 'thing of the past,' cites benefits" | kw:inflation,central bank,monetary policy
+2026-07-14 12:44 ACCEPT [CNBC Economy] "Consumer prices rose 3.5% annually in June, less than expected as ener" | kw:rice
+2026-07-14 12:45 ACCEPT [Google News HH] "OPEC trims oil demand forecast - Semafor" | kw:oil,opec
+2026-07-14 12:45 ACCEPT [Google News HH] "Crude Oil Rebound Faces a Bigger Test Than Rising Middle East Tensions" | kw:oil,crude
+2026-07-14 12:45 ACCEPT [Google News KL] "Gold Recovers as Investors Look Ahead to US Inflation and Fed Signals " | kw:gold,inflation
+2026-07-14 12:45 ACCEPT [Google News KL] "Is it time to buy the gold miners? - investingLive" | kw:gold
+2026-07-14 12:45 ACCEPT [Google News KL] "Sibanye Gold (NYSE:SBSW) Given New $12.00 Price Target at BMO Capital " | kw:gold,rice
+2026-07-14 12:45 ACCEPT [Google News NS] "China's Record Soybean Buying Sparks New Hopes for U.S. Farm Income - " | kw:soybean
+2026-07-14 12:45 ACCEPT [Google News NS] "Mysteel hog market daily: National live hog prices were mostly lower i" | kw:steel,rice
+2026-07-14 12:45 ACCEPT [Google News CB] "Warsh Tells Congress the Fed Has ‘No Tolerance’ for High Inflation - W" | kw:inflation
+2026-07-14 12:45 ACCEPT [Google News CB] "Fed's Warsh stays mum on rate plans, pledges price stability - Axios" | kw:rice
+2026-07-14 12:45 ACCEPT [Google News CB] "Warsh Says Fed Has ‘No Tolerance’ for Elevated Inflation - Bloomberg.c" | kw:inflation
+2026-07-14 12:45 ACCEPT [Google News CB] "Warsh to Reiterate Fed’s Pledge to Get Inflation Down - The New York T" | kw:inflation
+2026-07-14 12:45 ACCEPT [Google News CB] "Warsh's statement to Congress: Fed has 'no tolerance for persistently " | kw:inflation
+2026-07-14 12:45 ACCEPT [Google News CB] "Warsh promises inflation will be a 'thing of the past,' cites benefits" | kw:inflation
+2026-07-14 12:45 ACCEPT [Google News CB] "Warsh says Fed has 'no tolerance' for high inflation but provides no h" | kw:inflation
+2026-07-14 12:45 ACCEPT [Google News CB] "U.S. June CPI fell 0.4%, likely cooling move toward Fed rate hikes - C" | kw:fed rate,rate hike
+2026-07-14 12:45 SKIP_MORNING already_sent date=2026-07-14
