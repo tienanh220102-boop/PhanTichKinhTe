@@ -16202,3 +16202,18 @@
 2026-07-14 09:01 ACCEPT [Google News CB] "LIVE: SCIO briefing on H1 monetary policy, financial statistics - Chin" | kw:monetary policy
 2026-07-14 09:01 ACCEPT [Google News CB] "Global interest rate 'great reset' storm sweeps Japan: JGB yields hit " | kw:interest rate
 2026-07-14 09:01 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 09:21 ACCEPT [MarketWatch] "Oil prices see largest two-day percentage gain in four months on U.S.-" | kw:oil,crude,brent
+2026-07-14 09:21 ACCEPT [MarketWatch] "‘Impeccably designed’: You can rent Orlando Bloom’s former Beverly Hil" | kw:rice
+2026-07-14 09:21 ACCEPT [Google News HH] "OPEC Cuts 2026 Demand Growth Forecast Again, But Raises Its 2027 Outlo" | kw:oil,opec
+2026-07-14 09:21 ACCEPT [Google News HH] "OPEC cuts 2026 oil demand forecast, raises 2027 outlook amid tensions " | kw:oil,opec
+2026-07-14 09:21 ACCEPT [Google News HH] "Crude Oil Rebound Faces a Bigger Test Than Rising Middle East Tensions" | kw:oil,crude
+2026-07-14 09:21 ACCEPT [Google News HH] "OPEC Cuts 2026 Demand Growth Forecast Again, But Raises Its 2027 Outlo" | kw:oil,opec
+2026-07-14 09:21 ACCEPT [Google News HH] "$Crude Oil Futures (AUG6) (CLmain.US)$$Brent Last Day Financial Future" | kw:oil,crude,brent
+2026-07-14 09:21 ACCEPT [Google News HH] "Crude oil prices hit one-month high amid escalation in the Strait of H" | kw:oil,crude,rice
+2026-07-14 09:21 ACCEPT [ECB Press] "ECB selects 36 payment service providers to join digital euro pilot" | kw:ecb
+2026-07-14 09:21 ACCEPT [Google News CB] "ECB selects 36 payment service providers to join digital euro pilot - " | kw:central bank,ecb
+2026-07-14 09:21 ACCEPT [Google News CB] "ECB picks 36 payment service providers for digital euro pilot - Reuter" | kw:ecb
+2026-07-14 09:21 ACCEPT [Google News CB] "All Eyes On June CPI: Will A Cooler Inflation Reading Temper Fed Rate " | kw:inflation,fed rate,rate hike
+2026-07-14 09:21 ACCEPT [Google News CB] "Gold recovers from two-week low ahead of US inflation figures - CNBC" | kw:gold,inflation
+2026-07-14 09:21 ACCEPT [Google News CB] "Thai central bank chief says baht moves in line with region - TradingV" | kw:central bank
+2026-07-14 09:21 SKIP_MORNING already_sent date=2026-07-14
