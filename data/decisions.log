@@ -16064,3 +16064,8 @@
 2026-07-14 05:31 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Eyes on USCPI and Kevin Warsh T" | kw:gold,silver,rice
 2026-07-14 05:31 ACCEPT [Google News CB] "Where Next for Bank of England Interest Rates? - Morningstar" | kw:interest rate,bank of england
 2026-07-14 05:31 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 06:01 ACCEPT [Al Jazeera] "Iran war live: US launches more attacks; UAE says 1 killed in tanker s" | kw:oil
+2026-07-14 06:01 ACCEPT [OilPrice.com] "Oil Prices Have Jumped 12% Since Friday as War Risks Return" | kw:oil,crude,brent
+2026-07-14 06:01 ACCEPT [Google News HH] "WTI Crude Oil futures rallied 8% as 10-Year yields hit 4.60%. - CME Gr" | kw:oil,crude,wti
+2026-07-14 06:01 ACCEPT [Google News HH] "Palm extends gains on stronger rival edible oils, crude oil - TradingV" | kw:oil,crude
+2026-07-14 06:01 SKIP_MORNING already_sent date=2026-07-14
