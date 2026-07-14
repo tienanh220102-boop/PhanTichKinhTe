@@ -16057,3 +16057,10 @@
 2026-07-14 05:01 ACCEPT [Google News KL] "Gold price in Philippines: Rates on July 14 - FXStreet" | kw:gold,rice
 2026-07-14 05:01 ACCEPT [Google News KL] "Why Is Silver So Hard to Mine? The Primary Supply Problem Explained - " | kw:gold,silver
 2026-07-14 05:01 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 05:31 ACCEPT [Google News HH] "$Crude Oil Futures (AUG6) (CLmain.US)$$Brent Last Day Financ... - Moom" | kw:oil,crude,brent
+2026-07-14 05:31 ACCEPT [Google News HH] "Markets turn cautious as renewed US-Iran conflict revives crude oil co" | kw:oil,crude
+2026-07-14 05:31 ACCEPT [Google News KL] "Gold Price Prediction 2026: Where Will Gold Land After the Historic Co" | kw:gold,rice
+2026-07-14 05:31 ACCEPT [Google News KL] "Why Scarcity Is Moving Beyond Gold Ounces to Build-Ready Projects - Cr" | kw:gold
+2026-07-14 05:31 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Eyes on USCPI and Kevin Warsh T" | kw:gold,silver,rice
+2026-07-14 05:31 ACCEPT [Google News CB] "Where Next for Bank of England Interest Rates? - Morningstar" | kw:interest rate,bank of england
+2026-07-14 05:31 SKIP_MORNING already_sent date=2026-07-14
