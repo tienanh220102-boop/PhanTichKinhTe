@@ -15998,3 +15998,5 @@
 2026-07-14 01:01 ACCEPT [Google News CB] "Goldman Sachs drops new warning on interest rate hikes - thestreet.com" | kw:gold,interest rate,rate hike
 2026-07-14 01:01 ACCEPT [Google News CB] "Watch Stocks & Bonds Fall as Oil Jump Fuels Fed-Hike Bets | The Close " | kw:oil,fuel
 2026-07-14 01:01 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 01:31 ACCEPT [Google News KL] "Gold prices drop as yields rise, oil surges on Middle East tensions - " | kw:oil,gold,rice
+2026-07-14 01:31 SKIP_MORNING already_sent date=2026-07-14
