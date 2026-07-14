@@ -16258,3 +16258,7 @@
 2026-07-14 11:01 ACCEPT [Google News CB] "AI build-out seen to drive inflation - The Arkansas Democrat-Gazette" | kw:inflation
 2026-07-14 11:01 ACCEPT [Google News CB] "Fed's Warsh heads to Congress after tentative steps away from Trump - " | kw:wti
 2026-07-14 11:01 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 11:02 ACCEPT [Google News HH] "Commodity Currencies Rise As Crude Oil Prices Surge - RTTNews" | kw:oil,crude,rice
+2026-07-14 11:02 ACCEPT [Google News HH] "From Small Commodities to Global Reach - 人大重阳网" | kw:commodities
+2026-07-14 11:02 ACCEPT [Google News CB] "ECB picks 36 payment service providers for digital euro pilot - Yahoo " | kw:ecb
+2026-07-14 11:02 SKIP_MORNING already_sent date=2026-07-14
