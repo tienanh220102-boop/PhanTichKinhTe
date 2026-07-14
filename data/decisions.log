@@ -16157,3 +16157,8 @@
 2026-07-14 07:01 ACCEPT [Google News CB] "Federal Reserve faces Congress as Warsh presents monetary policy repor" | kw:monetary policy,federal reserve
 2026-07-14 07:01 ACCEPT [Google News CB] "US CPI Preview: Will the Fed Actually Hike Rates on a Hot Inflation Re" | kw:inflation
 2026-07-14 07:01 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 07:04 ACCEPT [Google News KL] "Silver Fell 3.8% Today. Gold Fell 2.9%. The Gap Has a Name. - GoldSilv" | kw:gold,silver
+2026-07-14 07:04 ACCEPT [Google News NS] "Pricing grain? Don’t bet the bin on drought and China - Farm Progress" | kw:drought
+2026-07-14 07:04 ACCEPT [Google News CB] "Guiding Monetary Policy during a Productivity Boom: Evidence from the " | kw:monetary policy,federal reserve
+2026-07-14 07:04 ACCEPT [Google News CB] "US Fed rate-hike bets mount before US inflation data and Fed chair tes" | kw:inflation,fed rate
+2026-07-14 07:04 SKIP_MORNING already_sent date=2026-07-14
