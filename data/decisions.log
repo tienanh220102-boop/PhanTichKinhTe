@@ -16282,3 +16282,16 @@
 2026-07-14 12:01 ACCEPT [Google News CB] "CPI Report Today: Fed Has 'Little Reason' To Raise Rates, Says Wharton" | kw:oil,rice
 2026-07-14 12:01 ACCEPT [Google News CB] "Inflation Is Still Above Target. Fed Governor Christopher Waller Says " | kw:inflation,rate hike
 2026-07-14 12:01 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 12:31 ACCEPT [Google News HH] "Gold Price Today on July 14, 2026 - USA Today" | kw:gold,rice
+2026-07-14 12:31 ACCEPT [Google News HH] "Bestselling Angola Reform Book; Crude Oil Power, Turnaround and Transf" | kw:oil,crude
+2026-07-14 12:31 ACCEPT [Google News HH] "Asian Oil Importers Pivot to U.S. Supplies as Hormuz Risks Intensify -" | kw:oil,crude,rice
+2026-07-14 12:31 ACCEPT [Google News KL] "Silver prices today, Tuesday, July 14, 2026: Prices fall to Dec. '25 l" | kw:silver,rice
+2026-07-14 12:31 ACCEPT [Google News KL] "Gold bounces off two-week low, markets await US inflation data - Reute" | kw:gold,inflation
+2026-07-14 12:31 ACCEPT [Google News KL] "Gold prices today, Tuesday, July 14, 2026: Iran crisis drives prices l" | kw:gold,rice
+2026-07-14 12:31 ACCEPT [Google News KL] "Gold: The Edge of the Precipice Is Drawing Ever Closer - Investing.com" | kw:gold
+2026-07-14 12:31 ACCEPT [Google News CB] "Polish Rate Hike More Likely Than Cut, MPC’s Zarzecki Says - Bloomberg" | kw:rate hike
+2026-07-14 12:31 ACCEPT [Google News CB] "Takaichi Govt to Affirm BOJ Independence in Key Policy Guidelines - ni" | kw:boj
+2026-07-14 12:31 ACCEPT [Google News CB] "ECB picks firms including Deutsche Bank, Revolut for digital euro pilo" | kw:ecb
+2026-07-14 12:31 ACCEPT [Google News CB] "RS2 Financial Services GmbH Selected to Participate in ECB Digital Eur" | kw:ecb
+2026-07-14 12:31 ACCEPT [Google News CB] "Inflation Is Still Above Target. Fed Governor Christopher Waller Says " | kw:inflation,rate hike
+2026-07-14 12:31 SKIP_MORNING already_sent date=2026-07-14
