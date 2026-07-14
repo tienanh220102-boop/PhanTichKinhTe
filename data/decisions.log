@@ -16413,3 +16413,20 @@
 2026-07-14 15:01 ACCEPT [Google News CB] "Fed chair Kevin Warsh testifies on monetary policy in House hearing - " | kw:monetary policy
 2026-07-14 15:01 SKIP_MORNING already_sent date=2026-07-14
 2026-07-14 15:01 SKIP_EVENING already_sent date=2026-07-14
+2026-07-14 15:31 ACCEPT [MarketWatch] "Your Social Security check could go up by $74 a month next year" | kw:inflation
+2026-07-14 15:31 ACCEPT [Al Jazeera] "Even if the Iran war ends, the next fossil fuel shock is already on it" | kw:fuel
+2026-07-14 15:31 ACCEPT [CNBC Commodities] "Warsh pledges Fed policy 'regime change' to rid inflation 'tax' on Ame" | kw:inflation,central bank,monetary policy
+2026-07-14 15:31 ACCEPT [OilPrice.com] "U.S. Gasoline Prices Rise for First Time Since May as Iran Ceasefire C" | kw:gas,rice
+2026-07-14 15:31 ACCEPT [Google News HH] "The crude oil assay for Johan Sverdrup has been updated - Equinor" | kw:oil,crude
+2026-07-14 15:31 ACCEPT [Google News HH] "Angola's Upstream Reform Program and Investment Pipeline Examined in C" | kw:oil,crude
+2026-07-14 15:31 ACCEPT [Google News HH] "Nigeria's Dangote begins pricing local fuel sales in dollars, citing c" | kw:crude,fuel
+2026-07-14 15:31 ACCEPT [Google News HH] "Bestselling Angola Reform Book; Crude Oil Power, Turnaround and Transf" | kw:oil,crude
+2026-07-14 15:31 ACCEPT [Google News HH] "Brent, WTI Crude Oil Futures Jump Early Tuesday as US Air Strikes on I" | kw:oil,crude,brent
+2026-07-14 15:31 ACCEPT [Google News HH] "SPDR Gold Trust sees $15B outflows since March amid gold price drop - " | kw:gold,rice
+2026-07-14 15:31 ACCEPT [Google News CB] "Fed Chair Kevin Warsh says central bank has 'no tolerance' for elevate" | kw:inflation,central bank
+2026-07-14 15:31 ACCEPT [Google News CB] "Fed Chairman Warsh promises inflation will be a ‘thing of the past,’ c" | kw:inflation
+2026-07-14 15:31 ACCEPT [Google News CB] "ECB selects 36 payment providers for digital euro pilot as the project" | kw:ecb
+2026-07-14 15:31 ACCEPT [Google News CB] "Kevin Warsh says Fed has ‘no tolerance’ for inflation in first testimo" | kw:inflation
+2026-07-14 15:31 ACCEPT [Google News CB] "Warsh vows to tackle inflation in first testimony as Fed chairman - Ya" | kw:inflation
+2026-07-14 15:31 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 15:31 SKIP_EVENING already_sent date=2026-07-14
