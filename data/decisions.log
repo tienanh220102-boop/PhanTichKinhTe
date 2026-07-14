@@ -16333,3 +16333,22 @@
 2026-07-14 13:01 ACCEPT [Google News CB] "Warsh says Fed has 'no tolerance' for high inflation but provides no h" | kw:inflation
 2026-07-14 13:01 SKIP_MORNING already_sent date=2026-07-14
 2026-07-14 13:02 SENT_EVENING articles=20 date=2026-07-14 force=False
+2026-07-14 13:31 ACCEPT [MarketWatch] "Consumer prices fall for first time since early days of COVID pandemic" | kw:gas,rice,inflation
+2026-07-14 13:31 ACCEPT [Google News HH] "$Crude Oil Futures (AUG6) (CLmain.US)$ It’s already stretched out for " | kw:oil,crude
+2026-07-14 13:31 ACCEPT [Google News HH] "UAE Reports 80% Oil Output Surge as OPEC Cuts 2026 Demand Growth Forec" | kw:oil,opec
+2026-07-14 13:31 ACCEPT [Google News HH] "China's Crude Oil Imports Crash to Decade Low as Hormuz Crisis Bites -" | kw:oil,crude,rice
+2026-07-14 13:31 ACCEPT [Google News KL] "Current price of gold as of July 14, 2026 - Fortune" | kw:gold,rice
+2026-07-14 13:31 ACCEPT [Google News KL] "Rise Gold Provides Details on Upcoming Tungsten and Gold Drilling Prog" | kw:gold
+2026-07-14 13:31 ACCEPT [Google News KL] "Gold and silver rally as CPI cools Fed-rate pressure - Kitco AM Report" | kw:gold,silver
+2026-07-14 13:31 ACCEPT [Google News KL] "Silver Down 52% From All-Time High as Hormuz Oil Shock Fuels Fed Hike " | kw:oil,fuel,silver
+2026-07-14 13:31 ACCEPT [Google News KL] "Gold bounces from two-week low, markets await U.S. inflation data - CN" | kw:gold,inflation
+2026-07-14 13:31 ACCEPT [Google News CB] "Conversations with the Fed: Unboxing the New Economics of Trade - Fede" | kw:federal reserve
+2026-07-14 13:31 ACCEPT [Google News CB] "Warsh to say Fed has 'no tolerance' for high inflation but provides no" | kw:inflation
+2026-07-14 13:31 ACCEPT [Google News CB] "Revolut, Deutsche Bank and Stripe Join ECB Digital Euro Test - Bitcoin" | kw:ecb
+2026-07-14 13:31 ACCEPT [Google News CB] "Inflation slowed to 3.5% in June, giving Fed breathing room - American" | kw:inflation
+2026-07-14 13:31 ACCEPT [Google News CB] "News | What the higher-for-longer interest rate era means for hotels -" | kw:interest rate
+2026-07-14 13:31 ACCEPT [Google News CB] "Consumer prices rose 3.5% annually in June, less than expected as ener" | kw:rice
+2026-07-14 13:31 ACCEPT [Google News CB] "June CPI data sparks market reversal, easing Fed rate hike concerns as" | kw:fed rate,rate hike,easing
+2026-07-14 13:31 ACCEPT [Google News CB] "ECB selects 36 PSP European countries for the digital euro pilot - Ass" | kw:ecb
+2026-07-14 13:31 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 13:31 SKIP_EVENING already_sent date=2026-07-14
