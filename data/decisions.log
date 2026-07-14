@@ -16032,3 +16032,16 @@
 2026-07-14 04:01 ACCEPT [Google News HH] "OPEC Lowers 2026 Global Oil Demand Outlook, Raises 2027 Estimate - Moo" | kw:oil,opec
 2026-07-14 04:01 ACCEPT [Google News KL] "Gold Price Trend Forecast: June CPI Plus Fed Chair Congressional Testi" | kw:gold,rice
 2026-07-14 04:01 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 04:31 ACCEPT [Al Jazeera] "Oil prices hit 1-month high as US-Iran attacks dim Strait of Hormuz ou" | kw:oil,crude,brent
+2026-07-14 04:31 ACCEPT [Google News HH] "UAE Oil Output Climbs After Leaving OPEC - RealClearEnergy" | kw:oil,opec
+2026-07-14 04:31 ACCEPT [Google News HH] "Commodities Tracker: June 2026 - Seeking Alpha" | kw:commodities
+2026-07-14 04:31 ACCEPT [Google News HH] "Iran crude output as reported by OPEC (June update) (Report) - IranOil" | kw:oil,crude,opec
+2026-07-14 04:31 ACCEPT [Google News HH] "Cattle prices extend slide as crude oil climbs - MSN" | kw:oil,crude,rice
+2026-07-14 04:31 ACCEPT [Google News KL] "Gold price in Malaysia: Rates on July 14 - FXStreet" | kw:gold,rice
+2026-07-14 04:31 ACCEPT [Google News KL] "Gold Prices Tumble as Fed’s Waller Stirs Rate Hike Fears - CryptoRank" | kw:gold,rice,rate hike
+2026-07-14 04:31 ACCEPT [Google News KL] "Gold, silver prices today, 14 July: Check retail rates of 24K, 22K gol" | kw:gold,silver,rice
+2026-07-14 04:31 ACCEPT [RT Business] "Western banks sue German firm over Russia pullout – FT" | kw:gas,sanction
+2026-07-14 04:31 ACCEPT [Google News CB] "Fourth Australian interest rate rise more likely if Trump’s Iran confl" | kw:interest rate
+2026-07-14 04:31 ACCEPT [Google News CB] "US consumer inflation likely increased at a slow pace in June as gasol" | kw:gas,rice,inflation
+2026-07-14 04:31 ACCEPT [Google News CB] "South Korea central bank to raise rates for first time in over three y" | kw:central bank
+2026-07-14 04:31 SKIP_MORNING already_sent date=2026-07-14
