@@ -16352,3 +16352,20 @@
 2026-07-14 13:31 ACCEPT [Google News CB] "ECB selects 36 PSP European countries for the digital euro pilot - Ass" | kw:ecb
 2026-07-14 13:31 SKIP_MORNING already_sent date=2026-07-14
 2026-07-14 13:31 SKIP_EVENING already_sent date=2026-07-14
+2026-07-14 14:01 ACCEPT [MarketWatch] "Jamie Dimon says ‘booming’ markets and a ‘fine’ consumer fueled JPMorg" | kw:fuel
+2026-07-14 14:01 ACCEPT [OilPrice.com] "Iran Ceasefire Collapse Sends UK Borrowing Costs to Five-Month High" | kw:basis point
+2026-07-14 14:01 ACCEPT [Google News HH] "CIO Update: Once again, overweighting commodities - RankiaPro" | kw:commodities
+2026-07-14 14:01 ACCEPT [Google News KL] "Is now a good time to invest in gold? - Yahoo Finance" | kw:gold
+2026-07-14 14:01 ACCEPT [Google News KL] "XAU/USD Analysis 14/07: Gold Tests Crucial $4,000 Support - DailyForex" | kw:gold
+2026-07-14 14:01 ACCEPT [Google News NS] "Global Weather Concerns and China Demand Are Spiking Corn, Soybean, an" | kw:wheat,corn,soybean
+2026-07-14 14:01 ACCEPT [Google News CB] "Inflation eased in June, helping Fed's Warsh delay potential rate hike" | kw:inflation,rate hike
+2026-07-14 14:01 ACCEPT [Google News CB] "Warsh to say Fed has ‘no tolerance’ for high inflation but provides no" | kw:inflation
+2026-07-14 14:01 ACCEPT [Google News CB] "Fed chair says central bank has ‘no tolerance’ for persistently high i" | kw:inflation,central bank
+2026-07-14 14:01 ACCEPT [Google News CB] "Can mortgage rates fall without another Fed rate cut? Here's what expe" | kw:fed rate,rate cut
+2026-07-14 14:01 ACCEPT [Google News CB] "Traders expect Fed to skip July rate hike as inflation cools - Reuters" | kw:inflation,rate hike
+2026-07-14 14:01 ACCEPT [Google News CB] "Fed chair Kevin Warsh testifies on monetary policy in House hearing - " | kw:monetary policy
+2026-07-14 14:01 ACCEPT [Google News CB] "ECB selects 36 payment providers for digital euro pilot as the project" | kw:ecb
+2026-07-14 14:01 ACCEPT [Google News CB] "Benign CPI inflation takes Fed’s July rate rise off the table - Financ" | kw:inflation
+2026-07-14 14:01 ACCEPT [Google News CB] "European Central Bank taps 36 payment providers for yearlong digital e" | kw:central bank
+2026-07-14 14:01 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 14:01 SKIP_EVENING already_sent date=2026-07-14
