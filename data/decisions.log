@@ -16262,3 +16262,12 @@
 2026-07-14 11:02 ACCEPT [Google News HH] "From Small Commodities to Global Reach - 人大重阳网" | kw:commodities
 2026-07-14 11:02 ACCEPT [Google News CB] "ECB picks 36 payment service providers for digital euro pilot - Yahoo " | kw:ecb
 2026-07-14 11:02 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 11:31 ACCEPT [Google News NS] "U.S. House Democratic Women’s Caucus Urges USDA to Reinstate Women Ous" | kw:soybean
+2026-07-14 11:31 ACCEPT [Google News NS] "Trading activity in Ukraine's soybean market remains seasonally slow -" | kw:soybean
+2026-07-14 11:31 ACCEPT [Google News NS] "Heat and drought take their toll on European grains - DCA Market Intel" | kw:drought
+2026-07-14 11:31 ACCEPT [Google News NS] "Wheat prices continue to rise on Kazakhstan's domestic market, while e" | kw:wheat,rice
+2026-07-14 11:31 ACCEPT [Google News NS] "China Soybean Imports Hit Record June High on Strong Brazil Supplies -" | kw:soybean
+2026-07-14 11:31 ACCEPT [Google News CB] "Oil price jumps as US-Iran clashes raise odds of interest rate rises -" | kw:oil,rice,interest rate
+2026-07-14 11:31 ACCEPT [Google News CB] "ECB recruits digital euro critics for pilot - Financial Times" | kw:ecb
+2026-07-14 11:31 ACCEPT [Google News CB] "ECB picks Croatia's Corvus Pay, RBA to join digital euro pilot - SeeNe" | kw:ecb
+2026-07-14 11:31 SKIP_MORNING already_sent date=2026-07-14
