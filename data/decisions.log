@@ -16019,3 +16019,9 @@
 2026-07-14 03:02 ACCEPT [Google News NS] "Russian wheat export prices up - Business Recorder" | kw:wheat,rice
 2026-07-14 03:02 ACCEPT [Google News CB] "BTC, XRP, ETH slip ahead of inflation report and Warsh testimony - Coi" | kw:inflation
 2026-07-14 03:02 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 03:31 ACCEPT [Google News HH] "China’s Crude Oil Imports Plunge to Lowest in Nearly a Decade - Bloomb" | kw:oil,crude
+2026-07-14 03:31 ACCEPT [Google News HH] "OPEC lowers global oil demand growth forecasts for 2026 - bastillepost" | kw:oil,opec
+2026-07-14 03:31 ACCEPT [Google News KL] "Gold prices fell below $4000 per ounce due to the escalation around th" | kw:gold,rice,gdp
+2026-07-14 03:31 ACCEPT [Google News KL] "Gold Fell 1.4% on an Iran Strike. One Number Tomorrow Morning Could Ch" | kw:gold,silver
+2026-07-14 03:31 ACCEPT [Google News NS] "Wheat crackdown pushes prices down in Sindh - Dawn" | kw:wheat,rice
+2026-07-14 03:31 SKIP_MORNING already_sent date=2026-07-14
