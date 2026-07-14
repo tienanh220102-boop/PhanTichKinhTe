@@ -15977,3 +15977,9 @@
 2026-07-13 23:31 ACCEPT [Google News CB] "Contradictory Signals From BOJ and Takaichi Government Rattle Bond, Cu" | kw:boj
 2026-07-13 23:31 ACCEPT [Google News CB] "Fed should be ready to hike rates if inflation stays high: Waller | Da" | kw:inflation
 2026-07-13 23:44 ACCEPT [Google News CB] "Waller, eyeing incoming inflation data, says Federal Reserve ‘at a cro" | kw:inflation,federal reserve
+2026-07-14 00:01 ACCEPT [Google News HH] "Crude oil soars more than 9% as Trump reimposes Hormuz blockade, resum" | kw:oil,crude
+2026-07-14 00:01 ACCEPT [Google News KL] "Goldsky Resources Delivers Major Barsele Gold Project Win - Streetwise" | kw:gold
+2026-07-14 00:01 ACCEPT [Google News KL] "Gold’s Price Is a Distraction, Here’s the Real Story - NAI500" | kw:gold,rice
+2026-07-14 00:01 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-07-14 00:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
+2026-07-14 00:02 SENT_MORNING articles=20 date=2026-07-14 force=False
