@@ -16369,3 +16369,21 @@
 2026-07-14 14:01 ACCEPT [Google News CB] "European Central Bank taps 36 payment providers for yearlong digital e" | kw:central bank
 2026-07-14 14:01 SKIP_MORNING already_sent date=2026-07-14
 2026-07-14 14:01 SKIP_EVENING already_sent date=2026-07-14
+2026-07-14 14:31 ACCEPT [The Guardian Biz] "Oil, gas and UK government borrowing costs prices jump as Middle East " | kw:oil,crude,gas
+2026-07-14 14:31 ACCEPT [CNBC Commodities] "Earnings season plays: Profit expectations are growing for these stock" | kw:rice
+2026-07-14 14:31 ACCEPT [CNBC Commodities] "Watch Fed Chairman Kevin Warsh testify live to House Financial Service" | kw:inflation
+2026-07-14 14:31 ACCEPT [OilPrice.com] "Oil Jumps Above $87 as Russia-Ukraine Black Sea Attacks Escalate" | kw:oil,shipping
+2026-07-14 14:31 ACCEPT [Google News HH] "Nigeria's oil production rose 25,000 bpd to 1.56mbpd in June- OPEC - C" | kw:oil,opec
+2026-07-14 14:31 ACCEPT [Google News HH] "Bestselling Angola Reform Book; Crude Oil Power, Turnaround and Transf" | kw:oil,crude
+2026-07-14 14:31 ACCEPT [Google News KL] "Commodity Markets Rotate in 2026 as Lithium and Oil Lead, Gold Cools -" | kw:oil,gold,commodity
+2026-07-14 14:31 ACCEPT [Google News KL] "Silver Price Edges Higher Near $58 as Markets Await US CPI Data - Cryp" | kw:silver,rice
+2026-07-14 14:31 ACCEPT [Google News KL] "Gold Prices Dip Below $4,100, but ETF Inflows Keep the Bull Market Ali" | kw:gold,rice
+2026-07-14 14:31 ACCEPT [Google News NS] "Todd Hubbs: USDA Reports and Global Uncertainty Keep Wheat Markets on " | kw:wheat
+2026-07-14 14:31 ACCEPT [Google News NS] "Will China's Record Soybean Imports Boost U.S. Farm Prices? - Agrolata" | kw:soybean,rice
+2026-07-14 14:31 ACCEPT [Google News NS] "Purchasing prices for grain in Ukraine have increased - Новини аграрно" | kw:rice
+2026-07-14 14:31 ACCEPT [Google News NS] "Wheat price ‘dangerously close to cost of production’ - The Weekly Tim" | kw:wheat,rice
+2026-07-14 14:31 ACCEPT [Google News CB] "Warsh to Reiterate Fed’s Pledge to Get Inflation Down - The New York T" | kw:inflation
+2026-07-14 14:31 ACCEPT [Google News CB] "Traders expect Fed to skip July rate hike as inflation cools - WTVB" | kw:lng,inflation,rate hike
+2026-07-14 14:31 ACCEPT [Google News CB] "ECB picks 36 payment service providers for digital euro pilots to star" | kw:ecb
+2026-07-14 14:31 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 14:31 SKIP_EVENING already_sent date=2026-07-14
