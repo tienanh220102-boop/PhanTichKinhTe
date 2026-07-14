@@ -16050,3 +16050,10 @@
 2026-07-14 04:42 ACCEPT [Google News KL] "Genesis says $12.6b gold merger built for tough times - AFR" | kw:gold
 2026-07-14 04:42 ACCEPT [Google News KL] "Gold Price Today: Yellow Metal Jumps To Rs 1.4 Lakh On MCX Amid US-Ira" | kw:gold,rice,rate hike
 2026-07-14 04:42 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 05:01 ACCEPT [Google News HH] "WTI Crude Oil futures rose on geopolitical tensions. - CME Group" | kw:oil,crude,wti
+2026-07-14 05:01 ACCEPT [Google News HH] "Update: US Equity Indexes Drop, Crude Oil Surges as Iran Tensions Inte" | kw:oil,crude
+2026-07-14 05:01 ACCEPT [Google News HH] "Iranian heavy oil price at over $90 in June: OPEC data - IranOilGas" | kw:oil,opec,gas
+2026-07-14 05:01 ACCEPT [Google News KL] "Gold prices fell below $4000 per ounce due to the escalation around th" | kw:gold,rice
+2026-07-14 05:01 ACCEPT [Google News KL] "Gold price in Philippines: Rates on July 14 - FXStreet" | kw:gold,rice
+2026-07-14 05:01 ACCEPT [Google News KL] "Why Is Silver So Hard to Mine? The Primary Supply Problem Explained - " | kw:gold,silver
+2026-07-14 05:01 SKIP_MORNING already_sent date=2026-07-14
