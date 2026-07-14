@@ -16450,3 +16450,11 @@
 2026-07-14 16:01 ACCEPT [Google News CB] "Consumer prices rose 3.5% annually in June, less than expected as ener" | kw:rice
 2026-07-14 16:01 SKIP_MORNING already_sent date=2026-07-14
 2026-07-14 16:01 SKIP_EVENING already_sent date=2026-07-14
+2026-07-14 16:08 ACCEPT [BBC Business] "Gas prices drive down US inflation - but will it last?" | kw:gas,rice,inflation
+2026-07-14 16:08 ACCEPT [NASDAQ Commod] "Analyst Favorites: Kinross Gold Ranks As a Top Metals Pick" | kw:gold
+2026-07-14 16:08 ACCEPT [Google News NS] "Corn and Soybeans in the Red | Tuesday, July 14, 2026 - Successful Far" | kw:corn,soybean
+2026-07-14 16:08 ACCEPT [Google News CB] "Warsh Reiterates Fed’s Pledge to Get Inflation Down but Doesn’t Specif" | kw:inflation
+2026-07-14 16:08 ACCEPT [Google News CB] "Warsh to say Fed has ‘no tolerance’ for high inflation but provides no" | kw:inflation
+2026-07-14 16:08 ACCEPT [Google News CB] "Warsh to say Fed has ‘no tolerance’ for high inflation but provides no" | kw:inflation
+2026-07-14 16:08 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 16:08 SKIP_EVENING already_sent date=2026-07-14
