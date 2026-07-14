@@ -16025,3 +16025,10 @@
 2026-07-14 03:31 ACCEPT [Google News KL] "Gold Fell 1.4% on an Iran Strike. One Number Tomorrow Morning Could Ch" | kw:gold,silver
 2026-07-14 03:31 ACCEPT [Google News NS] "Wheat crackdown pushes prices down in Sindh - Dawn" | kw:wheat,rice
 2026-07-14 03:31 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 04:01 ACCEPT [Al Jazeera] "Oil hits 1-month high as US-Iran fighting clouds Strait of Hormuz outl" | kw:oil,crude,brent
+2026-07-14 04:01 ACCEPT [Google News HH] "China’s crude oil imports hit decade-low amid Iran conflict - Crypto B" | kw:oil,crude
+2026-07-14 04:01 ACCEPT [Google News HH] "Commodity Corner: Crude oil surges over 2% on Strait of Hormuz tension" | kw:oil,crude,corn
+2026-07-14 04:01 ACCEPT [Google News HH] "China's June crude oil imports fall 41.3% from a year earlier - Tradin" | kw:oil,crude
+2026-07-14 04:01 ACCEPT [Google News HH] "OPEC Lowers 2026 Global Oil Demand Outlook, Raises 2027 Estimate - Moo" | kw:oil,opec
+2026-07-14 04:01 ACCEPT [Google News KL] "Gold Price Trend Forecast: June CPI Plus Fed Chair Congressional Testi" | kw:gold,rice
+2026-07-14 04:01 SKIP_MORNING already_sent date=2026-07-14
