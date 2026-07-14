@@ -16081,3 +16081,79 @@
 2026-07-14 06:31 ACCEPT [Google News CB] "Gold Holds Drop as Mideast Risks, Waller Remarks Boost Headwinds - Blo" | kw:gold
 2026-07-14 06:31 ACCEPT [Google News CB] "Federal Reserve faces Congress as Warsh presents monetary policy repor" | kw:monetary policy,federal reserve
 2026-07-14 06:31 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 07:01 ACCEPT [MarketWatch] "SpaceX’s stock threatens to fall below the IPO price. Do investors fac" | kw:rice
+2026-07-14 07:01 ACCEPT [BBC Business] "Pressure builds on Europe's biggest port to be greener" | kw:fuel
+2026-07-14 07:01 ACCEPT [BBC Business] "Interest rates may need to rise this year, says Bank of England econom" | kw:inflation,interest rate,bank of england
+2026-07-14 07:01 ACCEPT [BBC Business] "Is Germany looking again at coal-powered electricity?" | kw:gas,fuel
+2026-07-14 07:01 ACCEPT [CNBC Commodities] "Waller says Fed shouldn't 'fight the last war' on inflation but warns " | kw:rice,tariff,inflation
+2026-07-14 07:01 ACCEPT [CNBC Commodities] "Big banks poised to report booming revenue propelled by SpaceX IPO, Ir" | kw:fuel
+2026-07-14 07:01 ACCEPT [CNBC Commodities] "Kevin Warsh names members of his Federal Reserve task forces, includin" | kw:federal reserve
+2026-07-14 07:01 ACCEPT [CNBC Commodities] "Prediction markets spark insider trading concerns. Here's how Goldman " | kw:gold
+2026-07-14 07:01 ACCEPT [CNBC Commodities] "Goldman Sachs wins $70 billion in asset management deals with Verizon," | kw:gold
+2026-07-14 07:01 ACCEPT [CNBC Commodities] "Fed officials were split on direction of interest rates at last meetin" | kw:interest rate,federal reserve
+2026-07-14 07:01 ACCEPT [CNBC Commodities] "Citadel's hedge funds post broad first-half gains, top performing stra" | kw:quantitative
+2026-07-14 07:01 ACCEPT [CNBC Economy] "UK economy shrank 0.1% in April as Iran conflict weighed on growth" | kw:gdp
+2026-07-14 07:01 ACCEPT [CNBC Economy] "Wholesale prices rose 1.1% in May, more than expected, on surge in ene" | kw:rice
+2026-07-14 07:01 ACCEPT [OilPrice.com] "America Extends Its Lead Over Russia and Saudi Arabia in Oil Output" | kw:oil,opec
+2026-07-14 07:01 ACCEPT [Mining.com] "US Vanadium awarded gov’t offtake contract for National Defense Stockp" | kw:petroleum
+2026-07-14 07:01 ACCEPT [Mining.com] "India to invest in foreign uranium mines" | kw:fuel
+2026-07-14 07:01 ACCEPT [Mining.com] "Ex-US Navy commander quits NovaRed copper firm over Noem hire" | kw:copper
+2026-07-14 07:01 ACCEPT [Mining.com] "Fortuna bets $71M on Latin America gold growth" | kw:gold
+2026-07-14 07:01 ACCEPT [Mining.com] "BHP strike threat lifts iron ore price for best week since May" | kw:steel,iron,rice
+2026-07-14 07:01 ACCEPT [Mining.com] "Deep-sea mining threatens 60% of vent species: IUCN" | kw:easing
+2026-07-14 07:01 ACCEPT [Mining.com] "Royalty juniors seek higher value in metals rally" | kw:rice
+2026-07-14 07:01 ACCEPT [Mining.com] "Gold, critical minerals gain trust premium as money, supply chains fra" | kw:gold,supply chain,central bank
+2026-07-14 07:01 ACCEPT [EIA Energy] "U.S. commercial crude oil inventories have decreased in June" | kw:oil,crude,gas
+2026-07-14 07:01 ACCEPT [EIA Energy] "U.S. natural gas storage capacity increased slightly in 2025" | kw:gas
+2026-07-14 07:01 ACCEPT [EIA Energy] "California natural gas prices reach historic lows in early 2026" | kw:gas,rice
+2026-07-14 07:01 ACCEPT [NASDAQ Commod] "See How Worthington Steel Ranks Among Analysts' Top Metals Picks" | kw:steel
+2026-07-14 07:01 ACCEPT [NASDAQ Commod] "Oil Set For Weekly Gain Amid Iran War Concerns" | kw:oil,rice
+2026-07-14 07:01 ACCEPT [NASDAQ Commod] "Gold Soars As Signs Of U.S.-Iran Deal Grow After Trump's Remarks" | kw:gold,rice
+2026-07-14 07:01 ACCEPT [Google News HH] "OPEC lowers oil demand growth forecasts for 2026 - chinadailyasia.com" | kw:oil,opec
+2026-07-14 07:01 ACCEPT [Google News HH] "What is next for commodities? - UBS" | kw:commodities
+2026-07-14 07:01 ACCEPT [Google News HH] "Crude Oil Rebound Faces a Bigger Test Than Rising Middle East Tensions" | kw:oil,crude
+2026-07-14 07:01 ACCEPT [Google News HH] "Where to invest in currencies and commodities in 2026? - RankiaPro" | kw:commodities
+2026-07-14 07:01 ACCEPT [Google News HH] "OPEC Cuts 2026 Global Oil Demand Growth Forecast for Third Straight Mo" | kw:oil,opec,gas
+2026-07-14 07:01 ACCEPT [Google News HH] "Palm extends gains on stronger rival edible oils, crude oil - TradingV" | kw:oil,crude
+2026-07-14 07:01 ACCEPT [Google News HH] "Weekly data: Oil and Gold – Price review for the week ahead - FXStreet" | kw:oil,gold,rice
+2026-07-14 07:01 ACCEPT [Google News HH] "Opec Recognizes Erosion of Demand But Remains Upbeat - Energy Intellig" | kw:opec
+2026-07-14 07:01 ACCEPT [Google News HH] "The Commodities Feed: The battle over Hormuz lifts oil prices - ING TH" | kw:oil,rice,commodities
+2026-07-14 07:01 ACCEPT [Google News HH] "U.S. Stocks Move Notably Lower Amid Surging Crude Oil Prices - RTTNews" | kw:oil,crude,rice
+2026-07-14 07:01 ACCEPT [Google News HH] "Trump plays the blockade card again! Will crude oil prices only rise a" | kw:oil,crude,rice
+2026-07-14 07:01 ACCEPT [Google News HH] "Gold forecast and tracker: Where will prices land in 2026? - Yahoo Fin" | kw:gold,rice
+2026-07-14 07:01 ACCEPT [Google News HH] "China’s Crude Oil Imports Plunge to Lowest in Nearly a Decade - Bloomb" | kw:oil,crude
+2026-07-14 07:01 ACCEPT [Google News KL] "Silver Price Today | Silver Spot Price Charts - SD Bullion" | kw:silver,rice
+2026-07-14 07:01 ACCEPT [Google News KL] "Second Drill Rig Arrives at American Pacific Mining's Madison Copper-G" | kw:gold,copper
+2026-07-14 07:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD trades higher around $58 in countdown t" | kw:silver,rice
+2026-07-14 07:01 ACCEPT [Google News KL] "Gold Price Today: Gold Falls 2.43% on July 13, 2026 - USA Today" | kw:gold,rice
+2026-07-14 07:01 ACCEPT [Google News KL] "‘I thought they stole it’: How bearish gold market paved way for $12.6" | kw:gold
+2026-07-14 07:01 ACCEPT [Google News KL] "Gold is becoming the reserve asset of the new multipolar world – Sprot" | kw:gold
+2026-07-14 07:01 ACCEPT [Google News KL] "Gold Price Forecast: XAU/USD looks to US CPI and Warsh’s testimony for" | kw:gold,rice
+2026-07-14 07:01 ACCEPT [Google News KL] "Watch Gold Drops Below $4,000 as Fed Rate Hike Bets Surge - Bloomberg." | kw:gold,fed rate,rate hike
+2026-07-14 07:01 ACCEPT [Google News KL] "ACG Metals beats oxide production target as gold price surges 64% - Pr" | kw:gold,rice
+2026-07-14 07:01 ACCEPT [Google News NS] "Corn yield swing of 10% could mean $4.45 or $3.40 fall futures - Farm " | kw:corn
+2026-07-14 07:01 ACCEPT [Google News NS] "USDA Daily Oilseed and Grain Report: Canola, Sunflower, Millet, Flaxse" | kw:oil,rice
+2026-07-14 07:01 ACCEPT [Google News NS] "Business - Ukraine strikes halt shipping on key wheat route as Russian" | kw:fuel,wheat,shipping
+2026-07-14 07:01 ACCEPT [Google News NS] "Soybean prices need weather problems and stronger Chinese demand - Ukr" | kw:soybean,rice
+2026-07-14 07:01 ACCEPT [Google News NS] "Poor Harvest and Low Prices Put Grain Producers under Pressure - Hunga" | kw:rice,harvest
+2026-07-14 07:01 ACCEPT [RT Business] "Germany to hit its industry with more energy tariffs" | kw:gas,tariff
+2026-07-14 07:01 ACCEPT [RT Business] "US LNG exporter cashes in on Iran war" | kw:lng,rice
+2026-07-14 07:01 ACCEPT [RT Business] "US issues energy threat to EU" | kw:gas,lng
+2026-07-14 07:01 ACCEPT [RT Business] "Bank of Japan lifts rates to highest level since 1995" | kw:fuel,inflation,interest rate
+2026-07-14 07:01 ACCEPT [RT Business] "Russian SMEs growing on stronger supply chains to giants" | kw:supply chain,easing
+2026-07-14 07:01 ACCEPT [Fed Monetary] "Federal Open Market Committee reaffirms its "Statement on Longer-Run G" | kw:monetary policy
+2026-07-14 07:01 ACCEPT [ECB Press] "Philip R. Lane: AI and monetary policy" | kw:monetary policy
+2026-07-14 07:01 ACCEPT [ECB Press] "ECB publishes indicative operational calendars for 2027" | kw:ecb
+2026-07-14 07:01 ACCEPT [ECB Press] "Isabel Schnabel: Is inflation back?" | kw:inflation
+2026-07-14 07:01 ACCEPT [Google News CB] "WATCH LIVE: Fed chair Kevin Warsh testifies on monetary policy in Hous" | kw:monetary policy
+2026-07-14 07:01 ACCEPT [Google News CB] "Fed's Waller says rate hike may be needed if core inflation stays hot " | kw:inflation,rate hike
+2026-07-14 07:01 ACCEPT [Google News CB] "A July rate hike from the Fed? The odds are rising - CNBC" | kw:rate hike
+2026-07-14 07:01 ACCEPT [Google News CB] "Fourth Australian interest rate rise more likely if Trump’s Iran confl" | kw:interest rate
+2026-07-14 07:01 ACCEPT [Google News CB] "Japan to clarify central bank independence in final economic blueprint" | kw:central bank
+2026-07-14 07:01 ACCEPT [Google News CB] "Can mortgage rates survive hawkish Fed talk during inflation week? - H" | kw:inflation
+2026-07-14 07:01 ACCEPT [Google News CB] "Gold Holds Drop as Mideast Risks, Waller Remarks Boost Headwinds - Blo" | kw:gold
+2026-07-14 07:01 ACCEPT [Google News CB] "Japan to clarify central bank independence in final economic blueprint" | kw:central bank
+2026-07-14 07:01 ACCEPT [Google News CB] "Congress Must Ask: Who Is Kevin Warsh as Chair of the Federal Reserve?" | kw:federal reserve
+2026-07-14 07:01 ACCEPT [Google News CB] "Federal Reserve faces Congress as Warsh presents monetary policy repor" | kw:monetary policy,federal reserve
+2026-07-14 07:01 ACCEPT [Google News CB] "US CPI Preview: Will the Fed Actually Hike Rates on a Hot Inflation Re" | kw:inflation
+2026-07-14 07:01 SKIP_MORNING already_sent date=2026-07-14
