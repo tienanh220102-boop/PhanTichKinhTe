@@ -16271,3 +16271,14 @@
 2026-07-14 11:31 ACCEPT [Google News CB] "ECB recruits digital euro critics for pilot - Financial Times" | kw:ecb
 2026-07-14 11:31 ACCEPT [Google News CB] "ECB picks Croatia's Corvus Pay, RBA to join digital euro pilot - SeeNe" | kw:ecb
 2026-07-14 11:31 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 12:01 ACCEPT [OilPrice.com] "Iran Says It Will Continue Exporting Oil Despite Canceled U.S. Waiver" | kw:oil
+2026-07-14 12:01 ACCEPT [Google News HH] "Crude Oil Extends Rally Toward $81 - TradingView" | kw:oil,crude
+2026-07-14 12:01 ACCEPT [Google News HH] "United Arab Emirates Tells OPEC Its Oil Production Surged by 80% Last " | kw:oil,opec
+2026-07-14 12:01 ACCEPT [Google News NS] "What’s your grain sold percentage? - Farm Progress" | kw:wti
+2026-07-14 12:01 ACCEPT [Google News NS] "U.S. farmers pay 68% more for corn seed than Brazilian competitors - F" | kw:corn
+2026-07-14 12:01 ACCEPT [Google News NS] "Crop progress: Corn, soybean quality take a small step up - Farm Progr" | kw:corn,soybean
+2026-07-14 12:01 ACCEPT [RT Business] "EU buying record Russian LNG volumes with total ban looming – FT" | kw:lng
+2026-07-14 12:01 ACCEPT [Google News CB] "ECB picks 36 payment providers to test digital euro ahead of 2027 pilo" | kw:ecb
+2026-07-14 12:01 ACCEPT [Google News CB] "CPI Report Today: Fed Has 'Little Reason' To Raise Rates, Says Wharton" | kw:oil,rice
+2026-07-14 12:01 ACCEPT [Google News CB] "Inflation Is Still Above Target. Fed Governor Christopher Waller Says " | kw:inflation,rate hike
+2026-07-14 12:01 SKIP_MORNING already_sent date=2026-07-14
