@@ -15990,3 +15990,11 @@
 2026-07-14 00:31 ACCEPT [Google News NS] "Commodity markets daily recap - St Joseph Post" | kw:commodity
 2026-07-14 00:31 ACCEPT [Google News NS] "Corn prices in Ukraine have risen to $212–214/t - UkrAgroConsult" | kw:corn,rice
 2026-07-14 00:31 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 01:01 ACCEPT [The Guardian Biz] "Oil prices leap and stocks fall as Trump reinstates Hormuz blockade on" | kw:oil,crude,brent
+2026-07-14 01:01 ACCEPT [Google News HH] "Crude Oil Prices Decline in June 2026: OPEC Report Highlights - News a" | kw:oil,crude,opec
+2026-07-14 01:01 ACCEPT [Google News HH] "Crude Oil Hits 4-week High - TradingView" | kw:oil,crude
+2026-07-14 01:01 ACCEPT [Google News CB] "Fed Rate-Hike Bets Mount Before Inflation Data, Warsh Testimony - Bloo" | kw:inflation,fed rate
+2026-07-14 01:01 ACCEPT [Google News CB] "South Korea central bank to raise rates for first time in over three y" | kw:central bank
+2026-07-14 01:01 ACCEPT [Google News CB] "Goldman Sachs drops new warning on interest rate hikes - thestreet.com" | kw:gold,interest rate,rate hike
+2026-07-14 01:01 ACCEPT [Google News CB] "Watch Stocks & Bonds Fall as Oil Jump Fuels Fed-Hike Bets | The Close " | kw:oil,fuel
+2026-07-14 01:01 SKIP_MORNING already_sent date=2026-07-14
