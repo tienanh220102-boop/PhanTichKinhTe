@@ -16520,3 +16520,10 @@
 2026-07-14 19:01 ACCEPT [Google News KL] "Current price of silver as of Tuesday, July 14, 2026 - Fortune" | kw:silver,rice
 2026-07-14 19:01 ACCEPT [Google News CB] "Federal Reserve chair Warsh touts ‘sea change’ in thinking at first he" | kw:federal reserve
 2026-07-14 19:01 ACCEPT [Google News CB] "June CPI Signals Cooling Inflation, but Fed Expected to Hold Steady - " | kw:inflation
+2026-07-14 19:31 ACCEPT [MarketWatch] "Global oil prices notch back-to-back rise, remain ‘tethered to the Hor" | kw:oil,rice
+2026-07-14 19:31 ACCEPT [MarketWatch] "Brace for $4 gas again: How U.S.-Iran tensions are threatening to end " | kw:gas,rice,inflation
+2026-07-14 19:31 ACCEPT [Google News HH] "Crude Oil Prices Rise as US-Iran Hostilities Continue - Barchart.com" | kw:oil,crude,rice
+2026-07-14 19:31 ACCEPT [Google News HH] "Crude Oil Price Analysis: Why the Strait of Hormuz Closure May Not Lif" | kw:oil,crude,brent
+2026-07-14 19:31 ACCEPT [Google News KL] "Gold Prices May Be Overreacting to Current Market Conditions - GuruFoc" | kw:gold,rice
+2026-07-14 19:31 ACCEPT [Google News CB] "Fed chair says central bank has ‘no tolerance’ for persistently high i" | kw:inflation,central bank
+2026-07-14 19:31 ACCEPT [Google News CB] "Fed Chair Warsh condemns inflation while dodging on hikes - Semafor" | kw:inflation
