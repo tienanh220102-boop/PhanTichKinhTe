@@ -16069,3 +16069,15 @@
 2026-07-14 06:01 ACCEPT [Google News HH] "WTI Crude Oil futures rallied 8% as 10-Year yields hit 4.60%. - CME Gr" | kw:oil,crude,wti
 2026-07-14 06:01 ACCEPT [Google News HH] "Palm extends gains on stronger rival edible oils, crude oil - TradingV" | kw:oil,crude
 2026-07-14 06:01 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 06:31 ACCEPT [Al Jazeera] "Iran war live: US launches more attacks; 1 killed in Iranian strike on" | kw:oil
+2026-07-14 06:31 ACCEPT [Google News HH] "The United States produced more crude oil than any other country in 20" | kw:oil,crude
+2026-07-14 06:31 ACCEPT [Google News HH] "OPEC lowers oil demand growth forecasts for 2026 - chinadailyasia.com" | kw:oil,opec
+2026-07-14 06:31 ACCEPT [Google News HH] "(07/14/26) Commodities: What the Resumption of War Means for Resource " | kw:rice,commodities
+2026-07-14 06:31 ACCEPT [Google News HH] "Gold price prediction today: Will gold prices continue to fall? Check " | kw:gold,rice
+2026-07-14 06:31 ACCEPT [Google News KL] "Copper price delays the decline– Forecast today – 14-7-2026 - Economie" | kw:copper,rice
+2026-07-14 06:31 ACCEPT [Google News NS] "Mysteel Survey: China Soybean and r... - Mysteel" | kw:steel,soybean
+2026-07-14 06:31 ACCEPT [Google News NS] "US Corn and Soybean Ratings Rise as Heat Wave Threatens Yields - Agrol" | kw:corn,soybean
+2026-07-14 06:31 ACCEPT [Google News CB] "Japan to clarify central bank independence in final economic blueprint" | kw:central bank
+2026-07-14 06:31 ACCEPT [Google News CB] "Gold Holds Drop as Mideast Risks, Waller Remarks Boost Headwinds - Blo" | kw:gold
+2026-07-14 06:31 ACCEPT [Google News CB] "Federal Reserve faces Congress as Warsh presents monetary policy repor" | kw:monetary policy,federal reserve
+2026-07-14 06:31 SKIP_MORNING already_sent date=2026-07-14
