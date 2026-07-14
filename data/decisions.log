@@ -16045,3 +16045,8 @@
 2026-07-14 04:31 ACCEPT [Google News CB] "US consumer inflation likely increased at a slow pace in June as gasol" | kw:gas,rice,inflation
 2026-07-14 04:31 ACCEPT [Google News CB] "South Korea central bank to raise rates for first time in over three y" | kw:central bank
 2026-07-14 04:31 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 04:42 ACCEPT [Google News HH] "Commodities: Oil Surges As U.S. Reinstates Blockade On Iran - Seeking " | kw:oil,commodities
+2026-07-14 04:42 ACCEPT [Google News HH] "Gold price in India: Rates on July 14 - FXStreet" | kw:wti,gold,rice
+2026-07-14 04:42 ACCEPT [Google News KL] "Genesis says $12.6b gold merger built for tough times - AFR" | kw:gold
+2026-07-14 04:42 ACCEPT [Google News KL] "Gold Price Today: Yellow Metal Jumps To Rs 1.4 Lakh On MCX Amid US-Ira" | kw:gold,rice,rate hike
+2026-07-14 04:42 SKIP_MORNING already_sent date=2026-07-14
