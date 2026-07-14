@@ -16003,3 +16003,6 @@
 2026-07-14 01:42 ACCEPT [Al Jazeera] "Record El Niño threatens to unleash floods across East Africa and Asia" | kw:flood
 2026-07-14 01:42 ACCEPT [Google News CB] "Fed’s Waller issues stark warning on inflation, interest rates - thest" | kw:inflation,interest rate
 2026-07-14 01:42 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 02:01 ACCEPT [Al Jazeera] "Trump demands payment to protect Gulf nations from Iranian attacks" | kw:oil
+2026-07-14 02:01 ACCEPT [Google News KL] "Gold Prices Decline Amid Rising Tensions and Fed Rate Hike Specu - Gur" | kw:gold,rice,fed rate
+2026-07-14 02:01 SKIP_MORNING already_sent date=2026-07-14
