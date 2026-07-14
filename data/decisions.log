@@ -16223,3 +16223,16 @@
 2026-07-14 09:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD holds above $58.00 despite ongoing bear" | kw:silver,rice
 2026-07-14 09:31 ACCEPT [Google News CB] "ECB recruits digital euro critics for pilot - Financial Times" | kw:ecb
 2026-07-14 09:31 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 10:01 ACCEPT [The Guardian Biz] "US refunds $81bn in Trump tariffs after supreme court ruled them illeg" | kw:oil,rice,tariff
+2026-07-14 10:01 ACCEPT [NASDAQ Commod] "Oil Prices Scale One-month High On Hormuz Tensions" | kw:oil,rice
+2026-07-14 10:01 ACCEPT [Google News HH] "Commodity Currencies Rise As Crude Oil Prices Surge - RTTNews" | kw:oil,crude,rice
+2026-07-14 10:01 ACCEPT [Google News HH] "Brent Crude Oil Futures Surge 3.9% to $86.56, WTI Crude Oil Futures Ju" | kw:oil,crude,brent
+2026-07-14 10:01 ACCEPT [Google News HH] "Iran Sneaks 12 Million Barrels Past Renewed U.S. Oil Blockade - Crude " | kw:oil,crude,rice
+2026-07-14 10:01 ACCEPT [Google News HH] "China cuts crude oil imports to decade low amid Gulf conflict and weak" | kw:oil,crude
+2026-07-14 10:01 ACCEPT [Google News KL] "Silver price today: rises on July 14 - FXStreet" | kw:silver,rice
+2026-07-14 10:01 ACCEPT [Google News KL] "[SMM Nickel Intermediate Products Daily Review] July 14 MHP, high-grad" | kw:nickel,rice
+2026-07-14 10:01 ACCEPT [Google News KL] "Inventory and copper prices both rise, forcing suppliers to cut prices" | kw:copper,rice
+2026-07-14 10:01 ACCEPT [Google News NS] "Corn prices in Ukraine have risen to $212–214/t - UkrAgroConsult" | kw:corn,rice
+2026-07-14 10:01 ACCEPT [Google News CB] "Pricey Stocks Charge Into CPI, Earnings and Fed, All in One Day - Bloo" | kw:rice
+2026-07-14 10:01 ACCEPT [Google News CB] "ECB Digital Euro Trial Enlists Firms from Revolut to UniCredit - Bloom" | kw:ecb
+2026-07-14 10:01 SKIP_MORNING already_sent date=2026-07-14
