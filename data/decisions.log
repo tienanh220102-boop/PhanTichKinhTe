@@ -16315,3 +16315,21 @@
 2026-07-14 12:45 ACCEPT [Google News CB] "Warsh says Fed has 'no tolerance' for high inflation but provides no h" | kw:inflation
 2026-07-14 12:45 ACCEPT [Google News CB] "U.S. June CPI fell 0.4%, likely cooling move toward Fed rate hikes - C" | kw:fed rate,rate hike
 2026-07-14 12:45 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 13:01 ACCEPT [The Guardian Biz] "Inflation cools to 3.5% in June in relief brought by brief US-Iran dea" | kw:oil,gas,rice
+2026-07-14 13:01 ACCEPT [The Guardian Biz] "Oil, gas and UK government borrowing costs prices jump as Middle East " | kw:oil,crude,gas
+2026-07-14 13:01 ACCEPT [OilPrice.com] "Pakistan Races for Emergency LNG as Strait of Hormuz Traffic Stalls" | kw:lng
+2026-07-14 13:01 ACCEPT [EIA Energy] "Global liquefied natural gas trade volumes reached record high in 2025" | kw:gas,lng
+2026-07-14 13:01 ACCEPT [Google News HH] "Crude Oil Rebound Faces a Bigger Test Than Rising Middle East Tensions" | kw:oil,crude
+2026-07-14 13:01 ACCEPT [Google News HH] "Angola's Upstream Reform Program and Investment Pipeline Examined in C" | kw:oil,crude
+2026-07-14 13:01 ACCEPT [Google News HH] "PropXBT Launches Multi-Asset Simulated Trading Platform Featuring Cryp" | kw:commodities
+2026-07-14 13:01 ACCEPT [Google News KL] "Silver prices hit Dec. ’25 lows amid Iran tensions, Trump reinstates b" | kw:silver,rice
+2026-07-14 13:01 ACCEPT [Google News KL] "Gold prices surging higher to test resistance at $4,100 following shar" | kw:gold,rice,inflation
+2026-07-14 13:01 ACCEPT [Google News KL] "Silver prices surge over 3% to $59.52 amid US-Iran tensions - Crypto B" | kw:silver,rice
+2026-07-14 13:01 ACCEPT [Google News KL] "CopAur Files Technical Report for the Preliminary Economic Assessment " | kw:gold
+2026-07-14 13:01 ACCEPT [Google News NS] "Trading activity in Ukraine's soybean market remains seasonally slow -" | kw:soybean
+2026-07-14 13:01 ACCEPT [Google News CB] "Warsh says Fed has ‘no tolerance’ for high inflation but provides no h" | kw:inflation
+2026-07-14 13:01 ACCEPT [Google News CB] "Fed chair Kevin Warsh promises to defeat five years of elevated inflat" | kw:inflation
+2026-07-14 13:01 ACCEPT [Google News CB] "Takaichi Govt to Affirm BOJ Independence in Key Policy Guidelines - ni" | kw:boj
+2026-07-14 13:01 ACCEPT [Google News CB] "Warsh says Fed has 'no tolerance' for high inflation but provides no h" | kw:inflation
+2026-07-14 13:01 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 13:02 SENT_EVENING articles=20 date=2026-07-14 force=False
