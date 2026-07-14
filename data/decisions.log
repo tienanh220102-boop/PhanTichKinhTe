@@ -16236,3 +16236,15 @@
 2026-07-14 10:01 ACCEPT [Google News CB] "Pricey Stocks Charge Into CPI, Earnings and Fed, All in One Day - Bloo" | kw:rice
 2026-07-14 10:01 ACCEPT [Google News CB] "ECB Digital Euro Trial Enlists Firms from Revolut to UniCredit - Bloom" | kw:ecb
 2026-07-14 10:01 SKIP_MORNING already_sent date=2026-07-14
+2026-07-14 10:31 ACCEPT [MarketWatch] "Ericsson ends up on the wrong side of memory-chip price spike. The sto" | kw:rice
+2026-07-14 10:31 ACCEPT [NASDAQ Commod] "Gold Rebounds As Dollar Dips Ahead Of Inflation Test" | kw:gold,inflation
+2026-07-14 10:31 ACCEPT [Google News HH] "gold price outlook July 2026 Archives - GoldSilver" | kw:gold,silver,rice
+2026-07-14 10:31 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD rebounds above $4,000 with US CPI in focu" | kw:gold,rice
+2026-07-14 10:31 ACCEPT [Google News KL] "[SMM Nickel Midday Review] Nickel prices rebounded slightly on July 14" | kw:nickel,rice
+2026-07-14 10:31 ACCEPT [Google News KL] "Gold and Silver Price Forecast: Will US CPI Trigger a Break Below Key " | kw:gold,silver,rice
+2026-07-14 10:31 ACCEPT [Google News KL] "Gold price reduced again in Bangladesh market within 24 hours - New Ag" | kw:gold,rice
+2026-07-14 10:31 ACCEPT [Google News NS] "Iowa Corn Silking Jumps Ahead Following Hot, Dry Week - Successful Far" | kw:corn
+2026-07-14 10:31 ACCEPT [Google News CB] "2-year Treasury yield nears 5-month high as Fed cut hopes fade - MSN" | kw:treasury
+2026-07-14 10:31 ACCEPT [Google News CB] "Warsh gets first Capitol Hill grilling as Federal Reserve chair - Sema" | kw:federal reserve
+2026-07-14 10:31 ACCEPT [Google News CB] "July 2026 Trading Outlook: Fiscal Flows, And Fed Interest Rates (NYSEA" | kw:interest rate
+2026-07-14 10:31 SKIP_MORNING already_sent date=2026-07-14
