@@ -16785,3 +16785,10 @@
 2026-07-15 06:31 SKIP_MORNING already_sent date=2026-07-15
 2026-07-15 06:35 ACCEPT [Google News KL] "Copper price hovers near the barrier– Forecast today – 15-7-2026 - Eco" | kw:copper,rice
 2026-07-15 06:35 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 07:01 ACCEPT [OilPrice.com] "China’s Refinery Runs Crash to Pandemic Lows as Crude Imports Collapse" | kw:crude,fuel
+2026-07-15 07:01 ACCEPT [Google News HH] "Iraq PM Presses for Fair OPEC Share Amid Washington Investment Push - " | kw:oil,opec,gas
+2026-07-15 07:01 ACCEPT [Google News HH] "$Crude Oil Futures (SEP6) (CLmain.US)$$Brent Last Day Financ... - Moom" | kw:oil,crude,brent
+2026-07-15 07:01 ACCEPT [Google News HH] "Palm oil futures rise on stronger crude oil and soybean oil prices - U" | kw:oil,crude,soybean
+2026-07-15 07:01 ACCEPT [Google News HH] "Crude Oil Futures Rally Gathers Pace as US-Iran Conflict Deepens - HDF" | kw:oil,crude
+2026-07-15 07:01 ACCEPT [Google News CB] "ECB picks 36 PSPs for digital euro pilot due to start next year - Elec" | kw:ecb
+2026-07-15 07:01 SKIP_MORNING already_sent date=2026-07-15
