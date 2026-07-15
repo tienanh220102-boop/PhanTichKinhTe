@@ -16845,3 +16845,19 @@
 2026-07-15 10:01 ACCEPT [Google News CB] "ECB should hold interest rates despite oil price surge, says Bundesban" | kw:oil,rice,interest rate
 2026-07-15 10:01 ACCEPT [Google News CB] "Gold Falls 0.5% as $80 Oil Tops $80, Reviving Inflation and Fed Rate C" | kw:oil,gold,inflation
 2026-07-15 10:01 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 10:31 ACCEPT [BBC Business] "Several flights diverted after plane blocks Gatwick runway" | kw:fuel
+2026-07-15 10:31 ACCEPT [Google News HH] "Crude Oil: Emotions are running high - FXStreet" | kw:oil,crude
+2026-07-15 10:31 ACCEPT [Google News HH] "OPEC Chief Highlights Baku’s Historic Role as Birthplace of Global Oil" | kw:oil,opec
+2026-07-15 10:31 ACCEPT [Google News HH] "Brent Crude Oil Futures Climb 0.6% to $85.22, WTI Crude Oil Futures Ri" | kw:oil,crude,brent
+2026-07-15 10:31 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD hovers above $4,000, weighed by risk-off " | kw:gold,rice
+2026-07-15 10:31 ACCEPT [Google News KL] "Current price of silver as of Wednesday, July 15, 2026 - Fortune" | kw:silver,rice
+2026-07-15 10:31 ACCEPT [Google News KL] "Gold dips as Mideast tensions fuel inflation worries, cloud rate outlo" | kw:fuel,gold,inflation
+2026-07-15 10:31 ACCEPT [Google News KL] "Cabral Gold Begins Ore Stacking at Cuiú Cuiú Towards Q4 2026 Commercia" | kw:gold
+2026-07-15 10:31 ACCEPT [Google News KL] "As of June 30, LME nickel Open Tonnage stood at 265,044 mt, up 2,448 m" | kw:nickel
+2026-07-15 10:31 ACCEPT [Google News KL] "Silver slips as Iran tensions weigh despite softer US inflation data -" | kw:silver,inflation
+2026-07-15 10:31 ACCEPT [Google News NS] "Farmers Market Hosting Annual Corn Festival | July 14, 2026 | News 19 " | kw:corn
+2026-07-15 10:31 ACCEPT [Google News NS] "Local wheat prices have risen at Moldova’s “sea gate” - logos-pres.md" | kw:wheat,rice
+2026-07-15 10:31 ACCEPT [Google News CB] "Trade Tensions Have Weakened European Credit Dynamics, ECB Says - Bloo" | kw:ecb
+2026-07-15 10:31 ACCEPT [Google News CB] "A familiar designer helps Wisconsin Bike Fed create new license plate " | kw:wti
+2026-07-15 10:31 ACCEPT [Google News CB] "Gold extends losses as oil rally keeps Fed rate outlook in focus - Inv" | kw:oil,gold,fed rate
+2026-07-15 10:31 SKIP_MORNING already_sent date=2026-07-15
