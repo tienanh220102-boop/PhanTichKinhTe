@@ -16686,3 +16686,19 @@
 2026-07-15 01:31 ACCEPT [Google News CB] "Warsh tells Congress the Fed has 'no tolerance for persistently elevat" | kw:inflation
 2026-07-15 01:31 ACCEPT [Google News CB] "Inflation slows to 3.5% as Warsh pledges to achieve Fed’s 2% target - " | kw:inflation
 2026-07-15 01:31 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 02:01 ACCEPT [Mining.com] "SuperCritical lands US Gov’t licence for seawater uranium" | kw:fuel
+2026-07-15 02:01 ACCEPT [Mining.com] "Genesis boss says Vault merger is the perfect pairing" | kw:gold
+2026-07-15 02:01 ACCEPT [Mining.com] "Stormlands AI remodels Bralorne, results show higher NPV" | kw:commodity
+2026-07-15 02:01 ACCEPT [Mining.com] "Codelco chair puts profit ahead of copper output" | kw:copper
+2026-07-15 02:01 ACCEPT [Mining.com] "Ex-US Navy commander quits NovaRed copper firm over Noem hire" | kw:copper
+2026-07-15 02:01 ACCEPT [Mining.com] "Flynn: US billions for rare earths ‘missing the mark’" | kw:supply chain
+2026-07-15 02:01 ACCEPT [Google News HH] "Crude Oil Prices Rise as US-Iran Hostilities Continue - Yahoo Finance" | kw:oil,crude,rice
+2026-07-15 02:01 ACCEPT [Google News HH] "Crude Oil Trading Alert: Oil prices continue to rise, supported by coo" | kw:oil,crude,rice
+2026-07-15 02:01 ACCEPT [Google News HH] "Oil Price Theme Lifts ETFs, Shipping Stocks - 조선일보" | kw:oil,rice,shipping
+2026-07-15 02:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD hovers near $58.50 amid market caution " | kw:silver,rice
+2026-07-15 02:01 ACCEPT [Google News KL] "Gold Prices Prioritize U.S. Rates Over Geopolitical Tensions - 조선일보" | kw:gold,rice
+2026-07-15 02:01 ACCEPT [Google News KL] "BofA Sees ‘Golden Opportunity’ in Gold Miners Despite Lowering Price O" | kw:gold,rice
+2026-07-15 02:01 ACCEPT [Google News NS] "Farmers Market Hosting Annual Corn Festival | July 14, 2026 | News 19 " | kw:corn
+2026-07-15 02:01 ACCEPT [Google News CB] "Dollar struggles as softer inflation dims Fed hike bets - Reuters" | kw:inflation
+2026-07-15 02:01 ACCEPT [Google News CB] "BOJ’s 2016 Negative Rate Shock Shows Split Board Hitting Limit - Bloom" | kw:boj
+2026-07-15 02:01 SKIP_MORNING already_sent date=2026-07-15
