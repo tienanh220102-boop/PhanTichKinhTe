@@ -16910,3 +16910,9 @@
 2026-07-15 12:31 ACCEPT [Google News NS] "Russian wheat exports constrained following Ukrainian attacks - Kpler" | kw:wheat
 2026-07-15 12:31 ACCEPT [Google News CB] "Buffett says Trump's pick of Kevin Warsh for Fed chair was 'good choic" | kw:gdp
 2026-07-15 12:31 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 12:48 ACCEPT [MarketWatch] "Wholesale prices show first drop in almost a year on lower gas prices," | kw:gas,rice,inflation
+2026-07-15 12:48 ACCEPT [CNBC Economy] "Wholesale prices unexpectedly declined 0.3% in June on big drop in gas" | kw:gas,rice
+2026-07-15 12:48 ACCEPT [Google News HH] "Oil News: Crude Oil Futures Pause as Traders Await Trump’s Next Move -" | kw:oil,crude
+2026-07-15 12:48 ACCEPT [Google News KL] "Silver Price Today on July 15, 2026 - USA Today" | kw:silver,rice
+2026-07-15 12:48 ACCEPT [Google News NS] "Global conflicts could raise fuel costs again, boost wheat market vola" | kw:fuel,wheat
+2026-07-15 12:48 SKIP_MORNING already_sent date=2026-07-15
