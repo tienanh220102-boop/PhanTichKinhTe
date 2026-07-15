@@ -16616,3 +16616,7 @@
 2026-07-15 00:31 ACCEPT [Google News NS] "Jodia Bazaar shuts down over flour price row - The Express Tribune" | kw:rice
 2026-07-15 00:31 ACCEPT [Google News CB] "Fed Chair Warsh testifies on inflation before Congress - KBTX News 3" | kw:inflation
 2026-07-15 00:31 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 01:01 ACCEPT [Google News HH] "US backs revival of Iraq-Syria crude oil pipeline in multibillion-doll" | kw:oil,crude
+2026-07-15 01:01 ACCEPT [Google News HH] "Crude Oil Prices Climb as US-Iran Truce Collapses - TradingView" | kw:oil,crude,rice
+2026-07-15 01:01 ACCEPT [Google News KL] "CPM Group Precious Metals Update: Gold, Silver, Platinum, Palladium An" | kw:gold,silver
+2026-07-15 01:01 SKIP_MORNING already_sent date=2026-07-15
