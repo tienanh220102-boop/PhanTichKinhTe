@@ -16985,3 +16985,13 @@
 2026-07-15 14:42 ACCEPT [Google News KL] "Gold Market Gains Momentum After Softer PPI Data in June 2026 - News a" | kw:gold
 2026-07-15 14:42 SKIP_MORNING already_sent date=2026-07-15
 2026-07-15 14:42 SKIP_EVENING already_sent date=2026-07-15
+2026-07-15 15:01 ACCEPT [MarketWatch] "You are missing the bond deal of the decade — and it is guaranteed to " | kw:inflation
+2026-07-15 15:01 ACCEPT [MarketWatch] "Buying a house is getting easier by one measure. Here’s why it doesn’t" | kw:rice
+2026-07-15 15:01 ACCEPT [OilPrice.com] "Russia’s Oil Export Surge Runs Into a 135 Million-Barrel Traffic Jam" | kw:oil,crude
+2026-07-15 15:01 ACCEPT [NASDAQ Commod] "U.S. Crude Oil Inventories Dip Less Than Expected" | kw:oil,crude
+2026-07-15 15:01 ACCEPT [NASDAQ Commod] "The Future of Metals Investing: How Tokenized Commodities Are Changing" | kw:commodity,commodities
+2026-07-15 15:01 ACCEPT [Google News HH] "Crude Oil Inventories Fall Less Than Expected, Impacting Market Sentim" | kw:oil,crude
+2026-07-15 15:01 ACCEPT [Google News NS] "Heat dome adds risk to U.S. crop potential as corn enters critical pol" | kw:corn
+2026-07-15 15:01 ACCEPT [Google News CB] "Bank of Canada holds interest rate again amid signs of economic recove" | kw:interest rate
+2026-07-15 15:01 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 15:01 SKIP_EVENING already_sent date=2026-07-15
