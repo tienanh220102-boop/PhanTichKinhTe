@@ -16775,3 +16775,11 @@
 2026-07-15 06:01 ACCEPT [Google News CB] "Dollar struggles after softer inflation blunts Fed hike bets - Reuters" | kw:inflation
 2026-07-15 06:01 ACCEPT [Google News CB] "Bond Traders Pare Bets on July Fed Rate Hike After CPI Decline - Bloom" | kw:fed rate,rate hike
 2026-07-15 06:01 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 06:31 ACCEPT [Google News HH] "WTI Crude Oil Price Forecast: Oil Near $80 as US-Iran Tensions Offset " | kw:oil,crude,opec
+2026-07-15 06:31 ACCEPT [Google News HH] "IEA Raises Concerns Over EU Methane Rules’ Impact on Oil Imports - Egy" | kw:oil,gas
+2026-07-15 06:31 ACCEPT [Google News KL] "Silver Price Forecasts: XAG/USD holds below $59.00 despite US Dollar’s" | kw:wti,silver,rice
+2026-07-15 06:31 ACCEPT [Google News KL] "Gold, silver prices today: Check retail rates of 24K, 22K gold, 18K, 9" | kw:gold,silver,rice
+2026-07-15 06:31 ACCEPT [Google News KL] "[SMM Nickel Sulphate Daily Review] July 15, Market Transactions Sluggi" | kw:nickel,rice
+2026-07-15 06:31 ACCEPT [Google News KL] "RIO: Company Updates Guidance Due to Rising Gold Prices - GuruFocus" | kw:gold,rice
+2026-07-15 06:31 ACCEPT [Google News CB] "US freezes $131M in Iran-linked crypto tied to central bank - Crypto N" | kw:central bank
+2026-07-15 06:31 SKIP_MORNING already_sent date=2026-07-15
