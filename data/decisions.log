@@ -16595,3 +16595,15 @@
 2026-07-14 23:31 ACCEPT [Google News HH] "OPEC Lowers 2026 Oil Demand Outlook by 190,000 bpd Amid Supply Recover" | kw:oil,opec
 2026-07-14 23:31 ACCEPT [Google News KL] "Gold climbs to near $4,050 on softer US CPI - FXStreet" | kw:gold
 2026-07-14 23:31 ACCEPT [Google News CB] "The Fed has a serious inflation problem on its hands, says Fmr. Richmo" | kw:inflation
+2026-07-15 00:01 ACCEPT [OilPrice.com] "The Next Oil Rally May Depend On China, Not The Middle East" | kw:oil,crude
+2026-07-15 00:01 ACCEPT [Mining.com] "British Columbia issues environmental assessment for Vitreo’s $300M si" | kw:iron
+2026-07-15 00:01 ACCEPT [Google News HH] "Crude Oil Prices Climb as US-Iran Truce Collapses - Yahoo Finance" | kw:oil,crude,rice
+2026-07-15 00:01 ACCEPT [Google News KL] "Gold ETFs as an Inflation Hedge: The Best Funds to Own in 2026 - ETF.c" | kw:gold,inflation
+2026-07-15 00:01 ACCEPT [Google News KL] "Pan American Silver (PAAS) Outpaces Stock Market Gains: What You Shoul" | kw:silver
+2026-07-15 00:01 ACCEPT [Google News KL] "Gold steadies at $4,050 as US inflation data tempers Fed rate hike exp" | kw:gold,inflation,fed rate
+2026-07-15 00:01 ACCEPT [Google News NS] "Corn Slipping Lower on Tuesday Morning, as Crop Ratings Improve - Trad" | kw:corn
+2026-07-15 00:01 ACCEPT [Google News CB] "Fed Chair Warsh testifies on inflation before Congress - localnewslive" | kw:inflation
+2026-07-15 00:01 ACCEPT [Google News CB] "Kuroda's negative rate surprise shocked his own BOJ board, minutes sho" | kw:boj
+2026-07-15 00:01 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-07-15 00:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
+2026-07-15 00:02 SENT_MORNING articles=20 date=2026-07-15 force=False
