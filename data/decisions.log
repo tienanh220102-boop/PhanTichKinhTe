@@ -16783,3 +16783,5 @@
 2026-07-15 06:31 ACCEPT [Google News KL] "RIO: Company Updates Guidance Due to Rising Gold Prices - GuruFocus" | kw:gold,rice
 2026-07-15 06:31 ACCEPT [Google News CB] "US freezes $131M in Iran-linked crypto tied to central bank - Crypto N" | kw:central bank
 2026-07-15 06:31 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 06:35 ACCEPT [Google News KL] "Copper price hovers near the barrier– Forecast today – 15-7-2026 - Eco" | kw:copper,rice
+2026-07-15 06:35 SKIP_MORNING already_sent date=2026-07-15
