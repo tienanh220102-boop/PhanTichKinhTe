@@ -16702,3 +16702,19 @@
 2026-07-15 02:01 ACCEPT [Google News CB] "Dollar struggles as softer inflation dims Fed hike bets - Reuters" | kw:inflation
 2026-07-15 02:01 ACCEPT [Google News CB] "BOJ’s 2016 Negative Rate Shock Shows Split Board Hitting Limit - Bloom" | kw:boj
 2026-07-15 02:01 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 02:31 ACCEPT [BBC Business] "China economic growth falls sharply, missing target" | kw:oil,rice
+2026-07-15 02:31 ACCEPT [CNBC Economy] "China posts slowest GDP growth since 2022 at 4.3%, missing expectation" | kw:gdp
+2026-07-15 02:31 ACCEPT [Google News HH] "Crude oil settles at $79.34, up $1.20. Bias remains to the upside from" | kw:oil,crude
+2026-07-15 02:31 ACCEPT [Google News HH] "Commodities intraday targets/key levels - TradingView" | kw:commodities
+2026-07-15 02:31 ACCEPT [Google News HH] "Crude Oil Futures Fluctuate Amid Geopolitical Tensions - GuruFocus" | kw:oil,crude
+2026-07-15 02:31 ACCEPT [Google News KL] "Gold is becoming the reserve asset of the new multipolar world – Sprot" | kw:gold
+2026-07-15 02:31 ACCEPT [Google News KL] "Lundin Gold Stock: The Scarcity Value Of A Self-Funding Tier 1 Mine (O" | kw:gold
+2026-07-15 02:31 ACCEPT [Google News KL] "U.S. inflation cooled unexpectedly in June, prompting a rebound in gol" | kw:gold,rice,inflation
+2026-07-15 02:31 ACCEPT [Google News KL] "Gold climbs to near $4,050 on softer US CPI - TMGM trading" | kw:gold
+2026-07-15 02:31 ACCEPT [Google News NS] "China Soybean Imports Hit Record June High on Strong Brazil Supplies -" | kw:soybean
+2026-07-15 02:31 ACCEPT [Google News NS] "Heat, dryness drive corn market concerns across US and Western Europe " | kw:corn
+2026-07-15 02:31 ACCEPT [Google News CB] "Fed Chair Warsh testifies on inflation before Congress - Live 5 News" | kw:inflation
+2026-07-15 02:31 ACCEPT [Google News CB] "Dollar struggles as softer inflation dims Fed hike bets - CNBC" | kw:inflation
+2026-07-15 02:31 ACCEPT [Google News CB] "Many BOJ Policymakers Worried over Negative Rate Policy: Transcripts -" | kw:boj
+2026-07-15 02:31 ACCEPT [Google News CB] "New Fed chair Kevin Warsh testifies before Congress - FOX5 Vegas" | kw:gas
+2026-07-15 02:31 SKIP_MORNING already_sent date=2026-07-15
