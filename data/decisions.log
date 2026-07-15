@@ -16874,3 +16874,12 @@
 2026-07-15 11:06 ACCEPT [Google News HH] "Guavy 3.0 Expands Global Market Sentiment Intelligence Beyond Crypto t" | kw:commodities
 2026-07-15 11:06 ACCEPT [Google News HH] "Gold, Silver Futures Fall Pre-Bell as Escalation of Strikes Between US" | kw:oil,crude,gold
 2026-07-15 11:06 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 11:31 ACCEPT [CNBC Commodities] "Morgan Stanley earnings are out – Here are the numbers" | kw:gold
+2026-07-15 11:31 ACCEPT [NASDAQ Commod] "Gold Drifts Lower Amid Iran War Concerns" | kw:gold,rice
+2026-07-15 11:31 ACCEPT [Google News HH] "Analysts See Weekly Decline in U.S. Crude Oil Stockpiles - Moomoo" | kw:oil,crude
+2026-07-15 11:31 ACCEPT [Google News KL] "Gold dips as Mideast tensions fuel inflation worries, cloud rate outlo" | kw:fuel,gold,inflation
+2026-07-15 11:31 ACCEPT [Google News KL] "Gold’s $4,000 Test Exposes a Split Bullion Market as Silver Demand Cra" | kw:gold,silver
+2026-07-15 11:31 ACCEPT [Google News KL] "Gold slips as rising oil prices revive inflation concerns - Yahoo Fina" | kw:oil,gold,rice
+2026-07-15 11:31 ACCEPT [Google News KL] "USD/JPY & Silver Outlook: Dollar Holds, Silver Weakens - FOREX.com" | kw:silver
+2026-07-15 11:31 ACCEPT [Google News CB] "ECB’s Kocher sees currently no second-round effects from Iran war, but" | kw:ecb
+2026-07-15 11:31 SKIP_MORNING already_sent date=2026-07-15
