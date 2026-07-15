@@ -16883,3 +16883,14 @@
 2026-07-15 11:31 ACCEPT [Google News KL] "USD/JPY & Silver Outlook: Dollar Holds, Silver Weakens - FOREX.com" | kw:silver
 2026-07-15 11:31 ACCEPT [Google News CB] "ECB’s Kocher sees currently no second-round effects from Iran war, but" | kw:ecb
 2026-07-15 11:31 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 12:01 ACCEPT [CNBC Commodities] "Morgan Stanley posts record quarterly revenue and profit as equities t" | kw:gold
+2026-07-15 12:01 ACCEPT [CNBC Economy] "Renewed Hormuz hostilities drive ECB rates rethink amid ‘extremely vol" | kw:central bank,interest rate,rate decision
+2026-07-15 12:01 ACCEPT [Google News HH] "Guavy 3.0 Expands Global Market Sentiment Intelligence Beyond Crypto t" | kw:commodities
+2026-07-15 12:01 ACCEPT [Google News KL] "Gold prices today, Wednesday, July 15, 2026: Gold prices not advancing" | kw:gold,rice
+2026-07-15 12:01 ACCEPT [Google News NS] "Initial 2025 FSA Yields and ARC-CO for Corn, Soybeans, and Wheat - Suc" | kw:wheat,corn,soybean
+2026-07-15 12:01 ACCEPT [Google News NS] "Soybean marketing board election opens - Antigo Daily Journal" | kw:soybean
+2026-07-15 12:01 ACCEPT [Google News NS] "Active harvest progress in Ukraine and subdued demand continue to weig" | kw:wheat,rice,harvest
+2026-07-15 12:01 ACCEPT [Google News CB] "Renewed Hormuz hostilities drive ECB rates rethink amid ‘extremely vol" | kw:ecb
+2026-07-15 12:01 ACCEPT [Google News CB] "Despite Falling Oil Prices, There's Now a 73% Chance of an Interest Ra" | kw:oil,rice,interest rate
+2026-07-15 12:01 ACCEPT [Google News CB] "Dollar steadies as Middle East escalation counters soft US inflation -" | kw:inflation
+2026-07-15 12:01 SKIP_MORNING already_sent date=2026-07-15
