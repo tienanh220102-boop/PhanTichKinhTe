@@ -16620,3 +16620,13 @@
 2026-07-15 01:01 ACCEPT [Google News HH] "Crude Oil Prices Climb as US-Iran Truce Collapses - TradingView" | kw:oil,crude,rice
 2026-07-15 01:01 ACCEPT [Google News KL] "CPM Group Precious Metals Update: Gold, Silver, Platinum, Palladium An" | kw:gold,silver
 2026-07-15 01:01 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 01:28 ACCEPT [Google News HH] "Jambalaya on the Bayou – Crude Oil Balances in Louisiana’s Refining Re" | kw:oil,crude
+2026-07-15 01:28 ACCEPT [Google News HH] "Crude oil pipeline between Iraq, Syria to be revived with US assistanc" | kw:oil,crude
+2026-07-15 01:28 ACCEPT [Google News HH] "Crude Oil Futures Fluctuate Amid Geopolitical Tensions - GuruFocus" | kw:oil,crude
+2026-07-15 01:28 ACCEPT [Google News KL] "Gold Prices Surge on June CPI Report: Rate Hike Expectations Unwind - " | kw:gold,rice,rate hike
+2026-07-15 01:28 ACCEPT [Google News KL] "Corporations hoard cash, raising gold demand amid market uncertainty: " | kw:gold
+2026-07-15 01:28 ACCEPT [Google News KL] "Gold Surges 1.6% as June CPI Misses Expectations, Rate Hike Bets Unwou" | kw:gold,rate hike
+2026-07-15 01:28 ACCEPT [Google News NS] "Farmers Market Hosting Annual Corn Festival | July 14, 2026 | News 19 " | kw:corn
+2026-07-15 01:28 ACCEPT [Google News CB] "Fed Chair Warsh testifies on inflation before Congress - WTAP" | kw:inflation
+2026-07-15 01:28 ACCEPT [Google News CB] "Asia FX Talk - US inflation decline softens Fed rate hike expectations" | kw:inflation,fed rate,rate hike
+2026-07-15 01:28 SKIP_MORNING already_sent date=2026-07-15
