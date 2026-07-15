@@ -16958,3 +16958,21 @@
 2026-07-15 14:01 ACCEPT [Google News CB] "Here's Why the Latest Inflation Data Was Good News for Fed Chair Kevin" | kw:inflation
 2026-07-15 14:01 SKIP_MORNING already_sent date=2026-07-15
 2026-07-15 14:01 SKIP_EVENING already_sent date=2026-07-15
+2026-07-15 14:31 ACCEPT [BBC Business] "EasyJet passengers stuck on tarmac for hours when plane couldn't refue" | kw:fuel
+2026-07-15 14:31 ACCEPT [Mining.com] "Antofagasta banks on stronger second-half to hit copper goal" | kw:gas,copper
+2026-07-15 14:31 ACCEPT [Google News HH] "Gold Price Analysis – Can Gold Hold $4,000 Support Amid Death Cross Ri" | kw:gold,rice
+2026-07-15 14:31 ACCEPT [Google News HH] "UNIMOT transports South American crude to PCK refinery - Hydrocarbon E" | kw:crude
+2026-07-15 14:31 ACCEPT [Google News HH] "Crude oil becomes more expensive due to concerns about supply via the " | kw:oil,crude
+2026-07-15 14:31 ACCEPT [Google News KL] "Spot gold turns positive after June producer price report, last up 0.2" | kw:gold,rice
+2026-07-15 14:31 ACCEPT [Google News KL] "Silver Price Analysis – Silver Stalls as $60 Level Acts as Magnet - FX" | kw:silver,rice
+2026-07-15 14:31 ACCEPT [Google News KL] "Gold holding steady as Bank of Canada leaves rates unchanged - KITCO" | kw:gold
+2026-07-15 14:31 ACCEPT [Google News KL] "Experts outline gold allocation rules amid price dip - MSN" | kw:gold,rice
+2026-07-15 14:31 ACCEPT [Google News KL] "PPI declined, U.S. Treasury yields rose, and gold prices stabilized ab" | kw:gold,rice,treasury
+2026-07-15 14:31 ACCEPT [Google News NS] "USDA: Supply and Demand Report Supports Positive Price Bias for the 20" | kw:rice
+2026-07-15 14:31 ACCEPT [Google News NS] "Black Sea region continues to set prices in the global wheat market - " | kw:wheat,rice
+2026-07-15 14:31 ACCEPT [Google News NS] "5 threats to soybeans during excessive heat - Farm Progress" | kw:soybean
+2026-07-15 14:31 ACCEPT [Google News CB] "Warsh Testimony Leaves the Fed Rate Path Guessing Game Unresolved - St" | kw:fed rate
+2026-07-15 14:31 ACCEPT [Google News CB] "Fed chair Kevin Warsh testifies on monetary policy in Senate Banking h" | kw:monetary policy
+2026-07-15 14:31 ACCEPT [Google News CB] "Fed Rate Hikes Dead? Producer Prices Fall by Largest Amount Since Pand" | kw:rice,fed rate,rate hike
+2026-07-15 14:31 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 14:31 SKIP_EVENING already_sent date=2026-07-15
