@@ -17007,3 +17007,23 @@
 2026-07-15 15:31 ACCEPT [Google News CB] "Bank of Canada holds key interest rate at 2.25% - CBC" | kw:interest rate
 2026-07-15 15:31 SKIP_MORNING already_sent date=2026-07-15
 2026-07-15 15:31 SKIP_EVENING already_sent date=2026-07-15
+2026-07-15 16:01 ACCEPT [MarketWatch] "Copper is shadowing the AI hyperscaler stocks — but wait for a dip bef" | kw:copper,rice
+2026-07-15 16:01 ACCEPT [Google News HH] "Crude Oil Prices Erase Early Gains on a Bearish EIA Inventory Report -" | kw:oil,crude,rice
+2026-07-15 16:01 ACCEPT [Google News HH] "Brent, WTI Crude Oil Futures Rise Pre-Bell as Trump Warns Iran of More" | kw:oil,crude,brent
+2026-07-15 16:01 ACCEPT [Google News HH] "Countering illegal refining of crude oil | Security forces destroy pri" | kw:oil,crude
+2026-07-15 16:01 ACCEPT [Google News HH] "Oil Surge Drives Crude, Shipping Stocks Up - 조선일보" | kw:oil,crude,shipping
+2026-07-15 16:01 ACCEPT [Google News KL] "Silver's stubborn supply deficits and rising industrial and monetary d" | kw:silver
+2026-07-15 16:01 ACCEPT [Google News KL] "Silver prices drop over 2% amid US-Iran tensions, Fed policy concerns " | kw:silver,rice
+2026-07-15 16:01 ACCEPT [Google News KL] "Gold (XAUUSD) Price Forecast: Soft PPI Underpins Gold, Oil Caps Gold R" | kw:oil,gold,rice
+2026-07-15 16:01 ACCEPT [Google News NS] "First Thing Today | Surging wheat prices lead grain rally overnight - " | kw:wheat,rice
+2026-07-15 16:01 ACCEPT [Google News NS] "Geopolitical Tensions, Labor Reform, and Tight Wheat Supplies Keep Ag " | kw:wheat
+2026-07-15 16:01 ACCEPT [Google News NS] "Bayer and RAGT partner to commercialize hybrid wheat by early 2030s - " | kw:wheat
+2026-07-15 16:01 ACCEPT [Google News CB] "Inflation slows to 3.5% as Warsh pledges to achieve Fed’s 2% target - " | kw:inflation
+2026-07-15 16:01 ACCEPT [Google News CB] "Fed’s Williams: “Unquestionably too-high” inflation may soon subside -" | kw:inflation
+2026-07-15 16:01 ACCEPT [Google News CB] "Watch Bond Traders Pare Bets on July Fed Rate Hike After CPI Decline -" | kw:fed rate,rate hike
+2026-07-15 16:01 ACCEPT [Google News CB] "Can AI withstand possible rate hikes from the Fed? - Yahoo Finance" | kw:rate hike
+2026-07-15 16:01 ACCEPT [Google News CB] "Incoming UK budget office head sees higher interest rates and weaker g" | kw:interest rate
+2026-07-15 16:01 ACCEPT [Google News CB] "Here's Why the Latest Inflation Data Was Good News for Fed Chair Kevin" | kw:inflation
+2026-07-15 16:01 ACCEPT [Google News CB] "Dollar Slips as Favorable PPI Reduces Fed Rate Hike Chances - Barchart" | kw:fed rate,rate hike
+2026-07-15 16:01 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 16:01 SKIP_EVENING already_sent date=2026-07-15
