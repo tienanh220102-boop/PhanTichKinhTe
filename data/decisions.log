@@ -16736,3 +16736,8 @@
 2026-07-15 04:01 ACCEPT [Google News NS] "U.S. Grain/Oilseed Review: A mixed market - Farmtario" | kw:oil
 2026-07-15 04:01 ACCEPT [Google News CB] "Fed Chair Warsh testifies on inflation before Congress - WAVE News" | kw:inflation
 2026-07-15 04:01 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 04:26 ACCEPT [Google News HH] "US supporting efforts to revive Iraq-Syria crude oil pipeline, US offi" | kw:oil,crude
+2026-07-15 04:26 ACCEPT [Google News HH] "China’s Crude Oil Imports Plunge to Near-Decade Low - Caixin Global" | kw:oil,crude
+2026-07-15 04:26 ACCEPT [Google News HH] "Gold Price Falls Below $4,100 as Iran Strikes and CPI Report Collide -" | kw:gold,rice
+2026-07-15 04:26 ACCEPT [Google News CB] "News Wrap: Fed Chair Warsh pledges inflation will be 'thing of the pas" | kw:inflation,gdp
+2026-07-15 04:26 SKIP_MORNING already_sent date=2026-07-15
