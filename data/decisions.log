@@ -16741,3 +16741,5 @@
 2026-07-15 04:26 ACCEPT [Google News HH] "Gold Price Falls Below $4,100 as Iran Strikes and CPI Report Collide -" | kw:gold,rice
 2026-07-15 04:26 ACCEPT [Google News CB] "News Wrap: Fed Chair Warsh pledges inflation will be 'thing of the pas" | kw:inflation,gdp
 2026-07-15 04:26 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 04:31 ACCEPT [Google News CB] "Fed’s Warsh Promises Congress a Hard Line on Inflation Amid Looming Ri" | kw:inflation
+2026-07-15 04:31 SKIP_MORNING already_sent date=2026-07-15
