@@ -16753,3 +16753,15 @@
 2026-07-15 05:01 ACCEPT [Google News KL] "Gold prices gain - VnExpress International" | kw:gold,rice
 2026-07-15 05:01 ACCEPT [Google News CB] "Fed has 'no tolerance' for high inflation, Warsh says - LiveNOW from F" | kw:inflation
 2026-07-15 05:01 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 05:31 ACCEPT [Google News HH] "CFTC blocks CME from launching 24/7 crude oil futures trading pending " | kw:oil,crude
+2026-07-15 05:31 ACCEPT [Google News HH] "Gold price in Philippines: Rates on July 15 - FXStreet" | kw:gold,rice
+2026-07-15 05:31 ACCEPT [Google News HH] "ANZ Cuts Year-End Gold Price Forecast To $4,600/Oz - TradingView" | kw:gold,rice
+2026-07-15 05:31 ACCEPT [Google News HH] "Explained: You can use crypto to trade commodities 24/7 - CNBC TV18 - " | kw:commodities
+2026-07-15 05:31 ACCEPT [Google News HH] "Gold price prediction today: Where are gold & silver headed? Check Jul" | kw:gold,silver,rice
+2026-07-15 05:31 ACCEPT [Google News KL] "Silver Price Forecast: Soft US Inflation Data Boosts XAG/USD, But Down" | kw:silver,rice,inflation
+2026-07-15 05:31 ACCEPT [Google News KL] "Gold prices retreat 0.8 percent to $4,030 as oil oil rally revives inf" | kw:oil,gold,rice
+2026-07-15 05:31 ACCEPT [Google News NS] "Iran’s IRIB reports US strike hit wheat storage silo in Hoveyzeh as cr" | kw:wheat
+2026-07-15 05:31 ACCEPT [Google News CB] "BTC, ETH, SOL price news: Bitcoin tops $64,000 as Fed rate-hike expect" | kw:rice,fed rate
+2026-07-15 05:31 ACCEPT [Google News CB] "Dollar struggles after softer inflation blunts Fed hike bets - Euronex" | kw:inflation
+2026-07-15 05:31 ACCEPT [Google News CB] "ECB’s AI banking push could help ‘laggards’ close resilience gaps - Th" | kw:ecb
+2026-07-15 05:31 SKIP_MORNING already_sent date=2026-07-15
