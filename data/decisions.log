@@ -16808,3 +16808,7 @@
 2026-07-15 08:01 ACCEPT [Google News CB] "ECB Will Stay Vigilant as Iran War Flares Up Again, Nagel Says - Bloom" | kw:ecb
 2026-07-15 08:01 ACCEPT [Google News CB] "Inflation Outlook Turns Uncertain As Fed Signals Possible Policy Shift" | kw:inflation
 2026-07-15 08:01 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 08:31 ACCEPT [Al Jazeera] "US attacks Iran as IRGC claims strikes on US military sites in Gulf" | kw:oil,rice
+2026-07-15 08:31 ACCEPT [Google News HH] "Iraq in talks with Opec to increase oil output quota - Arabian Gulf Bu" | kw:oil,opec
+2026-07-15 08:31 ACCEPT [Google News CB] "ECB policymakers take measured tone on price risks but urge vigilance " | kw:rice,ecb
+2026-07-15 08:31 SKIP_MORNING already_sent date=2026-07-15
