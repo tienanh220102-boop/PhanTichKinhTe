@@ -16731,3 +16731,8 @@
 2026-07-15 03:31 ACCEPT [Google News KL] "Gold Prices Now Driven by U.S. Rates, Not U.S.-Iran Tensions - 조선일보" | kw:gold,rice
 2026-07-15 03:31 ACCEPT [Google News CB] "Rupee finds support from cooling Fed hike bets, unrelenting crude surg" | kw:crude
 2026-07-15 03:31 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 04:01 ACCEPT [Google News KL] "Gold slips as oil rally keeps inflation, rate outlook on investors' ra" | kw:oil,gold,inflation
+2026-07-15 04:01 ACCEPT [Google News KL] "Gold Price Forecast: XAU/USD remains a ‘sell-on-rise’ trade amid US-Ir" | kw:gold,rice
+2026-07-15 04:01 ACCEPT [Google News NS] "U.S. Grain/Oilseed Review: A mixed market - Farmtario" | kw:oil
+2026-07-15 04:01 ACCEPT [Google News CB] "Fed Chair Warsh testifies on inflation before Congress - WAVE News" | kw:inflation
+2026-07-15 04:01 SKIP_MORNING already_sent date=2026-07-15
