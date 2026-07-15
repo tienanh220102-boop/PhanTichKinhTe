@@ -16815,3 +16815,14 @@
 2026-07-15 09:01 ACCEPT [MarketWatch] "Still struggling to find a buyer, actress Aubrey Plaza cuts price of $" | kw:rice
 2026-07-15 09:01 ACCEPT [OilPrice.com] "U.S. Gasoline Prices Could Hit $4 Per Gallon Within Days" | kw:oil,crude,gas
 2026-07-15 09:02 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 09:05 ACCEPT [Google News HH] "Gold Price Trend Forecast: Why Did Gold Prices Fall After US CPI Coole" | kw:gold,rice
+2026-07-15 09:05 ACCEPT [Google News HH] "Brent Crude Oil: from Ceasefire to Crossfire — What’s Next? - Action F" | kw:oil,crude,brent
+2026-07-15 09:05 ACCEPT [Google News KL] "Gold holds above $4,000 amid US inflation, Fed rate hike concerns - Cr" | kw:gold,inflation,fed rate
+2026-07-15 09:05 ACCEPT [Google News KL] "Silver and Copper Are Outpacing Gold in 2026 and After Following Indus" | kw:gold,silver,copper
+2026-07-15 09:05 ACCEPT [Google News KL] "Silver Balances Industrial Demand and Inflation as Markets Digest US C" | kw:silver,inflation
+2026-07-15 09:05 ACCEPT [Google News NS] "Wheat Futures (WHEAT-F) Is up by 2.25% on Jul 15: Is the Demand Outloo" | kw:wheat
+2026-07-15 09:05 ACCEPT [Google News CB] "Warsh says Fed has 'no tolerance' for high inflation but provides no h" | kw:inflation
+2026-07-15 09:05 ACCEPT [Google News CB] "ECB Resolve Is to Keep Price Expectations Anchored, Panetta Says - Blo" | kw:rice,ecb
+2026-07-15 09:05 ACCEPT [Google News CB] "BOJ’s 2016 Negative Rate Shock Shows Split Board Hitting Limit - Bloom" | kw:boj
+2026-07-15 09:05 ACCEPT [Google News CB] "Cooling inflation eases pressure on Fed as oil prices jump as US and I" | kw:oil,rice,inflation
+2026-07-15 09:05 SKIP_MORNING already_sent date=2026-07-15
