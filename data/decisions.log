@@ -16928,3 +16928,19 @@
 2026-07-15 13:01 ACCEPT [Google News CB] "New York Fed President Williams says inflation has peaked, rates 'well" | kw:inflation
 2026-07-15 13:01 SKIP_MORNING already_sent date=2026-07-15
 2026-07-15 13:02 SENT_EVENING articles=20 date=2026-07-15 force=False
+2026-07-15 13:31 ACCEPT [OilPrice.com] "Japan Trade Chief Says Hormuz Is Off-Limits as Hostilities Reignite" | kw:shipping
+2026-07-15 13:31 ACCEPT [EIA Energy] "Petroleum markets responded to disruptions in the Middle East in the s" | kw:oil,crude,petroleum
+2026-07-15 13:31 ACCEPT [EIA Energy] "Global liquefied natural gas trade volumes reached record high in 2025" | kw:gas,lng
+2026-07-15 13:31 ACCEPT [Google News HH] "Petroleum markets responded to disruptions in the Middle East in the s" | kw:petroleum
+2026-07-15 13:31 ACCEPT [Google News HH] "Oil News: Crude Oil Futures Pause as Traders Await Trump’s Next Move -" | kw:oil,crude
+2026-07-15 13:31 ACCEPT [Google News KL] "Experts: Gold's Pullback Fuels Bullish Outlook - Investing News Networ" | kw:fuel,gold
+2026-07-15 13:31 ACCEPT [Google News KL] "Current price of gold as of July 15, 2026 - Fortune" | kw:gold,rice
+2026-07-15 13:31 ACCEPT [Google News KL] "Gold finding its footing as US producer prices fall in June - KITCO" | kw:gold,rice
+2026-07-15 13:31 ACCEPT [Google News KL] "EU bans Sudan gold imports to disrupt civil war funding - Crypto Brief" | kw:gold
+2026-07-15 13:31 ACCEPT [Google News NS] "USDA AMS Grain Bids: Corn, Soybeans, Wheat Futures and Regional Prices" | kw:wheat,corn,soybean
+2026-07-15 13:31 ACCEPT [Google News CB] "NY Fed's John Williams says inflation has peaked, backs steady rates -" | kw:inflation
+2026-07-15 13:31 ACCEPT [Google News CB] "Trade Tensions Have Weakened European Credit Dynamics, ECB Says - Bloo" | kw:ecb
+2026-07-15 13:31 ACCEPT [Google News CB] "US inflation surprise offers Warsh only brief relief - Reuters" | kw:inflation
+2026-07-15 13:31 ACCEPT [Google News CB] "Precious Metals Weekly Front Desk Presentation 071526: Fed on alert; c" | kw:silver,copper
+2026-07-15 13:31 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 13:31 SKIP_EVENING already_sent date=2026-07-15
