@@ -16792,3 +16792,10 @@
 2026-07-15 07:01 ACCEPT [Google News HH] "Crude Oil Futures Rally Gathers Pace as US-Iran Conflict Deepens - HDF" | kw:oil,crude
 2026-07-15 07:01 ACCEPT [Google News CB] "ECB picks 36 PSPs for digital euro pilot due to start next year - Elec" | kw:ecb
 2026-07-15 07:01 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 07:31 ACCEPT [Al Jazeera] "India’s ethanol rush prompts anger among vehicle owners, questions for" | kw:gas,fuel
+2026-07-15 07:31 ACCEPT [Google News HH] "Dax futures under pressure, crude oil higher - marketscreener.com" | kw:oil,crude
+2026-07-15 07:31 ACCEPT [Google News HH] "Natural Gas and Oil Forecast: OPEC Cuts Demand Outlook Can WTI Clear $" | kw:oil,opec,gas
+2026-07-15 07:31 ACCEPT [Google News HH] "Crude oil futures rally gathers pace as US-Iran conflict deepens - Dec" | kw:oil,crude
+2026-07-15 07:31 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Is $4,000 Gold’s Next Bounce or" | kw:gold,silver,rice
+2026-07-15 07:31 ACCEPT [Google News CB] "Japan’s bid to bring money home faces fiscal and BOJ reality check - T" | kw:boj
+2026-07-15 07:31 SKIP_MORNING already_sent date=2026-07-15
