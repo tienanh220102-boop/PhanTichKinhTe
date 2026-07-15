@@ -16861,3 +16861,13 @@
 2026-07-15 10:31 ACCEPT [Google News CB] "A familiar designer helps Wisconsin Bike Fed create new license plate " | kw:wti
 2026-07-15 10:31 ACCEPT [Google News CB] "Gold extends losses as oil rally keeps Fed rate outlook in focus - Inv" | kw:oil,gold,fed rate
 2026-07-15 10:31 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 11:01 ACCEPT [CNBC Economy] "Renewed Hormuz hostilities drive ECB rates rethin amid ‘extremely vola" | kw:central bank,interest rate,rate decision
+2026-07-15 11:01 ACCEPT [OilPrice.com] "Ukraine Intensifies Attacks on Russian Tankers in the Black Sea" | kw:oil,gas
+2026-07-15 11:01 ACCEPT [OilPrice.com] "Oil Prices Climb for Fourth Day as Iran Threatens New Energy Chokepoin" | kw:oil,crude,brent
+2026-07-15 11:01 ACCEPT [Google News HH] "WTI Oil Holds Below $80 Amid Middle East Tension - DailyForex" | kw:oil,wti
+2026-07-15 11:01 ACCEPT [Google News KL] "Cerrado Gold Elects to Revise Timing for Completion of the Mont Sorcie" | kw:gold
+2026-07-15 11:01 ACCEPT [Google News CB] "Renewed Hormuz hostilities drive ECB rates rethin amid ‘extremely vola" | kw:ecb
+2026-07-15 11:01 ACCEPT [Google News CB] "Fed Chair Warsh testifies on inflation before Congress - ABC7 WWSB" | kw:inflation
+2026-07-15 11:01 ACCEPT [Google News CB] "Will the Stock Market Fall if the Fed Gets Inflation Wrong? - tastyliv" | kw:inflation
+2026-07-15 11:01 ACCEPT [Google News CB] "Next Israel government must halt rise in debt burden, central bank chi" | kw:central bank
+2026-07-15 11:01 SKIP_MORNING already_sent date=2026-07-15
