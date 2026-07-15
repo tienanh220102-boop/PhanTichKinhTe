@@ -17038,3 +17038,15 @@
 2026-07-15 16:14 ACCEPT [Google News CB] "US money market funds turn defensive with Fed rate outlook uncertain -" | kw:fed rate
 2026-07-15 16:14 SKIP_MORNING already_sent date=2026-07-15
 2026-07-15 16:14 SKIP_EVENING already_sent date=2026-07-15
+2026-07-15 16:31 ACCEPT [MarketWatch] "America’s oil refiners could more than triple profits as Iran war spar" | kw:oil
+2026-07-15 16:31 ACCEPT [BBC Business] "British Steel nationalisation takes step closer" | kw:steel
+2026-07-15 16:31 ACCEPT [CNBC Commodities] "Fed Chairman Kevin Warsh's testimony to Senate banking committee hits " | kw:central bank,interest rate
+2026-07-15 16:31 ACCEPT [Google News HH] "OPEC Inaugurates a New Charter of Cooperation Technical Committee in B" | kw:opec
+2026-07-15 16:31 ACCEPT [Google News KL] "Gold Reaches the WGC's $4,100 Target as Oil Above $80 Offsets Softer U" | kw:oil,gold,inflation
+2026-07-15 16:31 ACCEPT [Google News KL] "Copper is shadowing the hyperscaler stocks — but wait for a dip before" | kw:copper
+2026-07-15 16:31 ACCEPT [Google News NS] "KTIC 840 AM/98.3 FM/98.7 FM - Wheat rallies over 30 cents as Black Sea" | kw:wheat
+2026-07-15 16:31 ACCEPT [Google News NS] "Russian attacks cut Ukraine grain exports by one third through Black S" | kw:wti
+2026-07-15 16:31 ACCEPT [Google News CB] "US money market funds turn defensive with Fed rate outlook uncertain -" | kw:fed rate
+2026-07-15 16:31 ACCEPT [Google News CB] "Canada central bank holds key rate steady, says economy improving - Ya" | kw:central bank
+2026-07-15 16:31 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 16:31 SKIP_EVENING already_sent date=2026-07-15
