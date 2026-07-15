@@ -16607,3 +16607,12 @@
 2026-07-15 00:01 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
 2026-07-15 00:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
 2026-07-15 00:02 SENT_MORNING articles=20 date=2026-07-15 force=False
+2026-07-15 00:31 ACCEPT [Google News HH] "Crude Oil ETFs, Shipping Stocks Surge Amid Middle East Tensions - 조선일보" | kw:oil,crude,shipping
+2026-07-15 00:31 ACCEPT [Google News HH] "Gas Prices Expected To Rise With Renewed US/Iran War - JAM'N 107.5" | kw:gas,rice
+2026-07-15 00:31 ACCEPT [Google News KL] "Rio Tinto Iron Ore Shipments Rise; Copper Cost Guidance Lowered - WSJ" | kw:copper,iron
+2026-07-15 00:31 ACCEPT [Google News KL] "Gold Prices Pivot to U.S. Rates as Inflation Concerns Ease - 조선일보" | kw:gold,rice,inflation
+2026-07-15 00:31 ACCEPT [Google News KL] "Cooler CPI Ignites Gold Rally as Rate Hike Bets Evaporate - KITCO" | kw:gold,rate hike
+2026-07-15 00:31 ACCEPT [Google News NS] "Asian feed millers prepare to use more corn following escalation of Bl" | kw:corn
+2026-07-15 00:31 ACCEPT [Google News NS] "Jodia Bazaar shuts down over flour price row - The Express Tribune" | kw:rice
+2026-07-15 00:31 ACCEPT [Google News CB] "Fed Chair Warsh testifies on inflation before Congress - KBTX News 3" | kw:inflation
+2026-07-15 00:31 SKIP_MORNING already_sent date=2026-07-15
