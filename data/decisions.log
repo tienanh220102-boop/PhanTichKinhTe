@@ -16894,3 +16894,19 @@
 2026-07-15 12:01 ACCEPT [Google News CB] "Despite Falling Oil Prices, There's Now a 73% Chance of an Interest Ra" | kw:oil,rice,interest rate
 2026-07-15 12:01 ACCEPT [Google News CB] "Dollar steadies as Middle East escalation counters soft US inflation -" | kw:inflation
 2026-07-15 12:01 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 12:31 ACCEPT [Al Jazeera] "India-UK trade deal comes into effect: What’s cheaper in each country " | kw:tariff
+2026-07-15 12:31 ACCEPT [Google News HH] "WTI Crude Oil futures rallied toward 50-day moving average - CME Group" | kw:oil,crude,wti
+2026-07-15 12:31 ACCEPT [Google News HH] "USDA Signs Agreement Mobilizing $235 Million in American Commodities f" | kw:commodities
+2026-07-15 12:31 ACCEPT [Google News HH] "Guavy 3.0 Expands Global Market Sentiment Intelligence Beyond Crypto t" | kw:commodities
+2026-07-15 12:31 ACCEPT [Google News HH] "Gold Price Today on July 15, 2026 - USA Today" | kw:gold,rice
+2026-07-15 12:31 ACCEPT [Google News HH] "Trump-promoted Freedom Fuel stations linked to Ravens coach and commod" | kw:fuel,commodities
+2026-07-15 12:31 ACCEPT [Google News HH] "Iraq calls for higher OPEC quota to reach 7m bpd output - Quantum Comm" | kw:opec,commodity
+2026-07-15 12:31 ACCEPT [Google News HH] "UN says Sudan resources fuel civil war - Arab News" | kw:fuel
+2026-07-15 12:31 ACCEPT [Google News HH] "Forecast update for crude oil -15-07-2026 - Economies.com" | kw:oil,crude
+2026-07-15 12:31 ACCEPT [Google News KL] "Gold and Silver Enter a High Stakes Waiting Game - StoneX" | kw:gold,silver
+2026-07-15 12:31 ACCEPT [Google News KL] "Silver prices today, Wednesday, July 15, 2026: Stuck below $60 as Iran" | kw:silver,rice
+2026-07-15 12:31 ACCEPT [Google News KL] "Gold weakens as higher oil prices reinforce expectations for elevated " | kw:oil,gold,rice
+2026-07-15 12:31 ACCEPT [Google News NS] "Bayer makes big move into largely untapped hybrid wheat market - AGDAI" | kw:wheat
+2026-07-15 12:31 ACCEPT [Google News NS] "Russian wheat exports constrained following Ukrainian attacks - Kpler" | kw:wheat
+2026-07-15 12:31 ACCEPT [Google News CB] "Buffett says Trump's pick of Kevin Warsh for Fed chair was 'good choic" | kw:gdp
+2026-07-15 12:31 SKIP_MORNING already_sent date=2026-07-15
