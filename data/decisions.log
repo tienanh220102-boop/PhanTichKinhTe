@@ -17050,3 +17050,14 @@
 2026-07-15 16:31 ACCEPT [Google News CB] "Canada central bank holds key rate steady, says economy improving - Ya" | kw:central bank
 2026-07-15 16:31 SKIP_MORNING already_sent date=2026-07-15
 2026-07-15 16:31 SKIP_EVENING already_sent date=2026-07-15
+2026-07-15 17:01 ACCEPT [OilPrice.com] "Five Ways China Is Shielding Itself as the Hormuz Cease-Fire Collapses" | kw:crude,brent
+2026-07-15 17:01 ACCEPT [Google News HH] "U.S. Crude Inventories Fall 1.7 Million Barrels As Iran Tensions Rattl" | kw:oil,crude,rice
+2026-07-15 17:01 ACCEPT [Google News HH] "TSX up 14 Points at Midday With Commodities The Worst Performers - mar" | kw:commodities
+2026-07-15 17:01 ACCEPT [Google News HH] "Sudan's resources, growing war economy fueling conflict: UN | Daily Sa" | kw:fuel
+2026-07-15 17:01 ACCEPT [Google News KL] "Mexico Silver Producer Clears Debt Amid Gold Price Strength - Streetwi" | kw:gold,silver,rice
+2026-07-15 17:01 ACCEPT [Google News KL] "Gold and Silver Trading Drops as 'Bad Inflation' Hits China GDP - Bull" | kw:gold,silver,inflation
+2026-07-15 17:01 ACCEPT [Google News KL] "Gold and Silver Price Prediction: Analyst Sees More Downside - Coinped" | kw:gold,silver,rice
+2026-07-15 17:01 ACCEPT [Google News NS] "Corn Futures (CORN-F) Surges on Jul 15: Key Factors to Watch - Trading" | kw:corn
+2026-07-15 17:01 ACCEPT [Google News NS] "USDA report says U.S. soybean production expected to reach record high" | kw:soybean
+2026-07-15 17:01 ACCEPT [Google News CB] "The Dynamics of Ample Reserves - Philadelphia Federal Reserve Bank" | kw:federal reserve
+2026-07-15 17:01 ACCEPT [Google News CB] "US PPI Lands Soft, Fed Rate Hike Odds Lower as Bitcoin Price Reclaims " | kw:rice,fed rate,rate hike
