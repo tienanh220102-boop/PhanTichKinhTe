@@ -16944,3 +16944,17 @@
 2026-07-15 13:31 ACCEPT [Google News CB] "Precious Metals Weekly Front Desk Presentation 071526: Fed on alert; c" | kw:silver,copper
 2026-07-15 13:31 SKIP_MORNING already_sent date=2026-07-15
 2026-07-15 13:31 SKIP_EVENING already_sent date=2026-07-15
+2026-07-15 14:01 ACCEPT [CNBC Commodities] "Watch Fed Chairman Kevin Warsh testify live before Senate banking comm" | kw:central bank
+2026-07-15 14:01 ACCEPT [OilPrice.com] "New U.S. Sanctions Bill Targets Russia's Oil Exports and Shadow Fleet" | kw:oil,tariff,sanction
+2026-07-15 14:01 ACCEPT [Google News HH] "Natural gas price on July 16, 2026 at 5:00 PM EDT - Robinhood" | kw:gas,rice
+2026-07-15 14:01 ACCEPT [Google News KL] "Gold gains after US PPI data, focus on Middle East tensions - Reuters" | kw:gold
+2026-07-15 14:01 ACCEPT [Google News KL] "Gold steadies above $4,000 as PPI cools, yields rise - Kitco AM Report" | kw:gold
+2026-07-15 14:01 ACCEPT [Google News KL] "Spot gold shoots above $4,060/oz after New York manufacturing index su" | kw:gold
+2026-07-15 14:01 ACCEPT [Google News KL] "Gold rises on US PPI data, Middle East tensions boost safe-haven deman" | kw:gold
+2026-07-15 14:01 ACCEPT [Google News NS] "Corn Rebounds as Wheat Strength Supports Early Trade - TradingPedia" | kw:wheat,corn
+2026-07-15 14:01 ACCEPT [Google News CB] "ECB Selects 36 Banks for Digital Euro Pilot — Testing Begins in 2027 -" | kw:ecb
+2026-07-15 14:01 ACCEPT [Google News CB] "Warsh Testimony Leaves the Fed Rate Path Guessing Game Unresolved - St" | kw:fed rate
+2026-07-15 14:01 ACCEPT [Google News CB] "Warsh tells Congress the Fed has 'no tolerance' for high inflation - S" | kw:lng,inflation
+2026-07-15 14:01 ACCEPT [Google News CB] "Here's Why the Latest Inflation Data Was Good News for Fed Chair Kevin" | kw:inflation
+2026-07-15 14:01 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 14:01 SKIP_EVENING already_sent date=2026-07-15
