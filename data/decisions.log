@@ -16832,3 +16832,16 @@
 2026-07-15 09:31 ACCEPT [Google News CB] "Japan Adds BOJ Autonomy Footnote to Revised Fiscal Policy Draft - Bloo" | kw:lng,boj
 2026-07-15 09:31 ACCEPT [Google News CB] "BTC, ETH, SOL price news: Bitcoin nears $65,000 as Fed rate-hike expec" | kw:rice,fed rate
 2026-07-15 09:31 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 10:01 ACCEPT [OilPrice.com] "Brent Futures Flip to Backwardation as Middle East Supply Risks Return" | kw:oil,crude,brent
+2026-07-15 10:01 ACCEPT [NASDAQ Commod] "Oil Extends Gains As Trump Ramps Up Threats Against Iran" | kw:oil,rice
+2026-07-15 10:01 ACCEPT [Google News HH] "Gold Price Declines As US-Iran Tensions Escalate Ahead Of US PPI Repor" | kw:gold,rice
+2026-07-15 10:01 ACCEPT [Google News HH] "Natural Gas and Oil Forecast: OPEC Cuts Demand Outlook – Can WTI Clear" | kw:oil,opec,gas
+2026-07-15 10:01 ACCEPT [Google News KL] "Silver price today: falls on July 15 - FXStreet" | kw:silver,rice
+2026-07-15 10:01 ACCEPT [Google News KL] "silver price July 2026 Archives - GoldSilver" | kw:gold,silver,rice
+2026-07-15 10:01 ACCEPT [Google News KL] "Here is why Kinross Gold Corporation (KGC) is among the 12 Strong Buy " | kw:gold
+2026-07-15 10:01 ACCEPT [Google News KL] "[SMM Nickel Midday Review] On July 15, nickel prices consolidated lowe" | kw:nickel,rice,inflation
+2026-07-15 10:01 ACCEPT [Google News CB] "ECB Selects 36 Payment Service Providers for Digital Euro Pilot - Mark" | kw:ecb
+2026-07-15 10:01 ACCEPT [Google News CB] "Next Israel Government Must Halt Rise in Debt Burden, Central Bank Chi" | kw:central bank
+2026-07-15 10:01 ACCEPT [Google News CB] "ECB should hold interest rates despite oil price surge, says Bundesban" | kw:oil,rice,interest rate
+2026-07-15 10:01 ACCEPT [Google News CB] "Gold Falls 0.5% as $80 Oil Tops $80, Reviving Inflation and Fed Rate C" | kw:oil,gold,inflation
+2026-07-15 10:01 SKIP_MORNING already_sent date=2026-07-15
