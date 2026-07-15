@@ -17027,3 +17027,14 @@
 2026-07-15 16:01 ACCEPT [Google News CB] "Dollar Slips as Favorable PPI Reduces Fed Rate Hike Chances - Barchart" | kw:fed rate,rate hike
 2026-07-15 16:01 SKIP_MORNING already_sent date=2026-07-15
 2026-07-15 16:01 SKIP_EVENING already_sent date=2026-07-15
+2026-07-15 16:13 ACCEPT [BBC Business] "Steel nationalisation takes step closer" | kw:steel
+2026-07-15 16:14 ACCEPT [Google News HH] "U.S. Crude Oil Stockpiles Post Weekly Withdrawal - WSJ" | kw:oil,crude
+2026-07-15 16:14 ACCEPT [Google News HH] "Crude Oil Moves Lower; US Producer Prices Fall 0.3% In June - Benzinga" | kw:oil,crude,rice
+2026-07-15 16:14 ACCEPT [Google News HH] "The refined fuel shortage, not oil prices, is what matters - Washingto" | kw:oil,fuel,rice
+2026-07-15 16:14 ACCEPT [Google News KL] "Gold Exchange Universe Launches Eight Real-Time Precious - GlobeNewswi" | kw:gold
+2026-07-15 16:14 ACCEPT [Google News NS] "Wheat Skyrockets as Black Sea Exports Threatened, Pulling up Corn and " | kw:wheat,corn,soybean
+2026-07-15 16:14 ACCEPT [Google News CB] "PPI data lowers market odds of interest rate increases this year - Axi" | kw:interest rate
+2026-07-15 16:14 ACCEPT [Google News CB] "Warsh: AI spending may lift prices without fueling lasting inflation -" | kw:fuel,rice,inflation
+2026-07-15 16:14 ACCEPT [Google News CB] "US money market funds turn defensive with Fed rate outlook uncertain -" | kw:fed rate
+2026-07-15 16:14 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 16:14 SKIP_EVENING already_sent date=2026-07-15
