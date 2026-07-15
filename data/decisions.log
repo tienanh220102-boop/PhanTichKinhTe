@@ -16765,3 +16765,13 @@
 2026-07-15 05:31 ACCEPT [Google News CB] "Dollar struggles after softer inflation blunts Fed hike bets - Euronex" | kw:inflation
 2026-07-15 05:31 ACCEPT [Google News CB] "ECB’s AI banking push could help ‘laggards’ close resilience gaps - Th" | kw:ecb
 2026-07-15 05:31 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 06:01 ACCEPT [Google News HH] "Gold price in Saudi Arabia: Rates on July 15 - FXStreet" | kw:gold,rice
+2026-07-15 06:01 ACCEPT [Google News HH] "Brent Crude Oil Futures North Sea MI Sep '26 Futures Price History - B" | kw:oil,crude,brent
+2026-07-15 06:01 ACCEPT [Google News KL] "Copper Futures and Spot Price Fluctuations and the Current Status of t" | kw:copper,rice
+2026-07-15 06:01 ACCEPT [Google News KL] "Gold Prices Rally Above $4,060 as Inflation Data Fuels Fed Policy Shif" | kw:fuel,gold,rice
+2026-07-15 06:01 ACCEPT [Google News KL] "Gold and Fed Policy: When the System Picks Winners - GoldSilver" | kw:gold,silver
+2026-07-15 06:01 ACCEPT [Google News KL] "Here’s Why B2Gold (BTG) Is One of the Most Undervalued Stocks Under $5" | kw:gold
+2026-07-15 06:01 ACCEPT [Google News NS] "Tug-of-War Between Bulls and Bears Drives China Soybean Meal Prices Up" | kw:soybean,rice
+2026-07-15 06:01 ACCEPT [Google News CB] "Dollar struggles after softer inflation blunts Fed hike bets - Reuters" | kw:inflation
+2026-07-15 06:01 ACCEPT [Google News CB] "Bond Traders Pare Bets on July Fed Rate Hike After CPI Decline - Bloom" | kw:fed rate,rate hike
+2026-07-15 06:01 SKIP_MORNING already_sent date=2026-07-15
