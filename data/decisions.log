@@ -16995,3 +16995,15 @@
 2026-07-15 15:01 ACCEPT [Google News CB] "Bank of Canada holds interest rate again amid signs of economic recove" | kw:interest rate
 2026-07-15 15:01 SKIP_MORNING already_sent date=2026-07-15
 2026-07-15 15:01 SKIP_EVENING already_sent date=2026-07-15
+2026-07-15 15:31 ACCEPT [OilPrice.com] "U.S. Crude Inventories Fall 1.7 Million Barrels As Iran Tensions Rattl" | kw:oil,crude
+2026-07-15 15:31 ACCEPT [Mining.com] "Bessent says Fort Knox gold intact amid debt debate" | kw:fuel,gold,treasury
+2026-07-15 15:31 ACCEPT [Google News HH] "It’s Time to Buy Commodities, This Pro Says. Why Copper Could Be a Sta" | kw:copper,commodities
+2026-07-15 15:31 ACCEPT [Google News HH] "Mystery Freedom Fuel stations that sold discounted gasoline tied to NF" | kw:gas,fuel,commodities
+2026-07-15 15:31 ACCEPT [Google News HH] "US EIA CRUDE OIL INVENTORIES -1.7 MLN BARRELS IN LATEST WEEK FROM PREV" | kw:oil,crude
+2026-07-15 15:31 ACCEPT [Google News HH] "U.S. Crude Oil Stockpiles Post Weekly Withdrawal - marketscreener.com" | kw:oil,crude
+2026-07-15 15:31 ACCEPT [Google News KL] "Mineros Delivers Strategic Gold Reserve Policy in Colombia Operations " | kw:gold
+2026-07-15 15:31 ACCEPT [Google News NS] "Wheat Surges on Black Sea Region Concerns | Wednesday, July 15, 2026 -" | kw:wheat
+2026-07-15 15:31 ACCEPT [Google News CB] "The Bank of Canada holds its interest rate on July 15 - TD Stories" | kw:interest rate
+2026-07-15 15:31 ACCEPT [Google News CB] "Bank of Canada holds key interest rate at 2.25% - CBC" | kw:interest rate
+2026-07-15 15:31 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 15:31 SKIP_EVENING already_sent date=2026-07-15
