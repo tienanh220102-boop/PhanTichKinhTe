@@ -16723,3 +16723,11 @@
 2026-07-15 03:01 ACCEPT [Google News CB] "BOJ’s 2016 negative rate shock shows split board hitting limit - The J" | kw:boj
 2026-07-15 03:01 ACCEPT [Google News CB] "Japan’s Bid to Bring Money Home Faces Fiscal, BOJ Reality Check - Bloo" | kw:boj
 2026-07-15 03:01 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 03:31 ACCEPT [NASDAQ Commod] "Yvonne Blaszczyk: Gold to US$6,000 by Year End, Silver to US$100" | kw:gold,silver,rice
+2026-07-15 03:31 ACCEPT [Google News HH] "Oil ETFs, Shipping Stocks Surge on Middle East Tensions - 조선일보" | kw:oil,shipping
+2026-07-15 03:31 ACCEPT [Google News HH] "Crude Oil Trading Alert: Oil prices continue to rise, supported by coo" | kw:oil,crude,rice
+2026-07-15 03:31 ACCEPT [Google News KL] "Gold slips as oil rally keeps inflation, rate outlook on investors' ra" | kw:oil,gold,inflation
+2026-07-15 03:31 ACCEPT [Google News KL] "Gold and Silver Price Forecast: Softer CPI Fuels Rebound as Oil Raises" | kw:oil,fuel,gold
+2026-07-15 03:31 ACCEPT [Google News KL] "Gold Prices Now Driven by U.S. Rates, Not U.S.-Iran Tensions - 조선일보" | kw:gold,rice
+2026-07-15 03:31 ACCEPT [Google News CB] "Rupee finds support from cooling Fed hike bets, unrelenting crude surg" | kw:crude
+2026-07-15 03:31 SKIP_MORNING already_sent date=2026-07-15
