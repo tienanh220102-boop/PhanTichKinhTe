@@ -16976,3 +16976,12 @@
 2026-07-15 14:31 ACCEPT [Google News CB] "Fed Rate Hikes Dead? Producer Prices Fall by Largest Amount Since Pand" | kw:rice,fed rate,rate hike
 2026-07-15 14:31 SKIP_MORNING already_sent date=2026-07-15
 2026-07-15 14:31 SKIP_EVENING already_sent date=2026-07-15
+2026-07-15 14:42 ACCEPT [Al Jazeera] "Legal challenge says Trump ICC sanctions tread on US citizens’ rights" | kw:sanction
+2026-07-15 14:42 ACCEPT [Google News HH] "Weekly EIA crude oil inventory -1.692 million vs -2.594 million estima" | kw:oil,crude
+2026-07-15 14:42 ACCEPT [Google News HH] "Crude Oil Inventories Fall Less Than Expected, Impacting Market Sentim" | kw:oil,crude
+2026-07-15 14:42 ACCEPT [Google News HH] "UNIMOT transports South American crude to PCK refinery - Hydrocarbon E" | kw:crude
+2026-07-15 14:42 ACCEPT [Google News HH] "Oil and Brent Crude Oil Forecasts – Middle East Risk Appetite Drives C" | kw:oil,crude,brent
+2026-07-15 14:42 ACCEPT [Google News KL] "Gold Prices Rise on Strong Empire State Manufacturing Survey | July 20" | kw:gold,rice
+2026-07-15 14:42 ACCEPT [Google News KL] "Gold Market Gains Momentum After Softer PPI Data in June 2026 - News a" | kw:gold
+2026-07-15 14:42 SKIP_MORNING already_sent date=2026-07-15
+2026-07-15 14:42 SKIP_EVENING already_sent date=2026-07-15
