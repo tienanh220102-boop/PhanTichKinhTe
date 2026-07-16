@@ -17455,3 +17455,9 @@
 2026-07-16 10:50 ACCEPT [Google News KL] "Silver Price For Today, 15 July 2026 - Forbes" | kw:silver,rice
 2026-07-16 10:50 ACCEPT [Google News KL] "Saudi gold prices edge lower as Fed cut bets and central bank buying u" | kw:gold,rice,central bank
 2026-07-16 10:50 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 11:01 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD stays below 20-day EMA, sees further down" | kw:gold,rice
+2026-07-16 11:01 ACCEPT [Google News NS] "Bayer and RAGT Hybrid Wheat Licensing Agreement: Key Details and Marke" | kw:wheat
+2026-07-16 11:01 ACCEPT [Google News NS] "Wheat futures hit two-year high 🔼 Russian exports at risk - XTB.com" | kw:wheat
+2026-07-16 11:01 ACCEPT [Google News CB] "Dollar near one-month low as concerns over oil prices remain subdued -" | kw:oil,rice
+2026-07-16 11:01 ACCEPT [Google News CB] "The Fed’s Warsh and Bank of Korea’s Shin Ponder AI’s Impact on Inflati" | kw:inflation
+2026-07-16 11:01 SKIP_MORNING already_sent date=2026-07-16
