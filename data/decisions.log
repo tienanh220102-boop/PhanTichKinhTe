@@ -17356,3 +17356,13 @@
 2026-07-16 05:31 ACCEPT [Google News CB] "South Korea’s central bank raises rate for 1st time in 3-1/2 years - A" | kw:central bank
 2026-07-16 05:31 ACCEPT [Google News CB] "Nickel Hits Three-Week High on Indonesia Supply Risks, Fed View - Bloo" | kw:nickel
 2026-07-16 05:31 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 06:01 ACCEPT [OilPrice.com] "U.S. Strikes Iran-Linked Tanker Near Kharg Island" | kw:oil,sanction
+2026-07-16 06:01 ACCEPT [Google News HH] "Oil Rises for Fourth Day as Hormuz Ship Attacks Threaten Supply - Hart" | kw:oil
+2026-07-16 06:01 ACCEPT [Google News HH] "Gold price in Philippines: Rates on July 16 - FXStreet" | kw:gold,rice
+2026-07-16 06:01 ACCEPT [Google News KL] "Tight Regional Spot Supply Pushes Prices Up Continuously [SMM Shandong" | kw:copper,rice
+2026-07-16 06:01 ACCEPT [Google News KL] "Gold Exchange Universe Launches Eight Real-Time Precious Metals Rate B" | kw:gold,silver
+2026-07-16 06:01 ACCEPT [Google News KL] "Gold, Silver Prices On July 16: Check Rates In Mumbai, Delhi, Bengalur" | kw:gold,silver,rice
+2026-07-16 06:01 ACCEPT [Google News CB] "Fed's Williams: "Unquestionably too-high" inflation may soon subside -" | kw:inflation
+2026-07-16 06:01 ACCEPT [Google News CB] "South Korea's central bank hikes rate for 1st time since 2023 to curb " | kw:inflation,central bank
+2026-07-16 06:01 ACCEPT [Google News CB] "South Korea Interest Rate - The Killeen Daily Herald" | kw:interest rate
+2026-07-16 06:01 SKIP_MORNING already_sent date=2026-07-16
