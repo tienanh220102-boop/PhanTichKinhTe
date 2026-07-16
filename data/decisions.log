@@ -17416,3 +17416,14 @@
 2026-07-16 09:01 ACCEPT [Google News KL] "Why Is Gold Price Falling Today? - Sahi" | kw:gold,rice
 2026-07-16 09:01 ACCEPT [Google News CB] "Kevin Warsh says the Fed is determined to bring rising prices under co" | kw:rice
 2026-07-16 09:01 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 09:31 ACCEPT [MarketWatch] "Alec and Hilaria Baldwin pull $19 million Hamptons home off the market" | kw:rice
+2026-07-16 09:31 ACCEPT [Google News HH] "Turning children into commodities - wng.org" | kw:commodities
+2026-07-16 09:31 ACCEPT [Google News HH] "Gold Price Forecast: Rising Oil Revives Inflation Risks as Gold Tests " | kw:oil,gold,rice
+2026-07-16 09:31 ACCEPT [Google News KL] "Africa's largest gold producer alters 20-year-old mining laws to give " | kw:gold
+2026-07-16 09:31 ACCEPT [Google News NS] "Keeping an Eye on December Corn - Southeast AgNET" | kw:corn
+2026-07-16 09:31 ACCEPT [Google News NS] "Precise timing spurs successful soybean desiccation - Farm Progress" | kw:soybean
+2026-07-16 09:31 ACCEPT [Google News NS] "Black Sea becomes the main risk factor for the global wheat market - U" | kw:wheat
+2026-07-16 09:31 ACCEPT [Google News CB] "Europa Nostra discusses cultural personalities that could be featured " | kw:central bank
+2026-07-16 09:31 ACCEPT [Google News CB] "Fed chair Warsh sidesteps Senate questions on inflation, AI, contact w" | kw:inflation
+2026-07-16 09:31 ACCEPT [Google News CB] "Can Kevin Warsh’s Fed force 5 reimagine monetary policymaking? - The E" | kw:monetary policy
+2026-07-16 09:31 SKIP_MORNING already_sent date=2026-07-16
