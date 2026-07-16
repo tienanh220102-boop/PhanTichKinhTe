@@ -17305,3 +17305,9 @@
 2026-07-16 02:31 ACCEPT [Google News CB] "BOK hikes rates for first time in 3-1/2 years to combat inflation, won" | kw:inflation
 2026-07-16 02:31 ACCEPT [Google News CB] "Gold slips as oil-driven inflation fears keep Fed outlook in focus - I" | kw:oil,gold,inflation
 2026-07-16 02:31 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 03:01 ACCEPT [Google News HH] "Wave of price hikes expected in Japan beyond summer due to high crude " | kw:oil,crude,rice
+2026-07-16 03:01 ACCEPT [Google News HH] "Crude Oil Prices Erase Early Gains on a Bearish EIA Inventory Report -" | kw:oil,crude,rice
+2026-07-16 03:01 ACCEPT [Google News HH] "Crude Oil Prices Move Higher on the Prospects of Tighter Global Suppli" | kw:oil,crude,rice
+2026-07-16 03:01 ACCEPT [Google News HH] "Crude Oil Price is Fluctuating Positively with Upside Potential Remain" | kw:oil,crude,rice
+2026-07-16 03:01 ACCEPT [Google News CB] "Dollar near one-month low as cooling inflation curbs Fed hike bets - E" | kw:inflation
+2026-07-16 03:01 SKIP_MORNING already_sent date=2026-07-16
