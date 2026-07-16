@@ -17327,3 +17327,16 @@
 2026-07-16 04:01 ACCEPT [Google News KL] "Gold Price Forecast: XAU/USD sellers to retain control whilst below 21" | kw:gold,rice
 2026-07-16 04:01 ACCEPT [Google News CB] "South Korea Interest Rate - WV News" | kw:interest rate
 2026-07-16 04:01 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 04:31 ACCEPT [Google News HH] "Currency Check: Rupee opens flat at 96.25/$ amid elevated crude oil pr" | kw:oil,crude,rice
+2026-07-16 04:31 ACCEPT [Google News HH] "Crude Oil Trading Alert: Oil prices rebounded to a near one-month high" | kw:oil,crude,rice
+2026-07-16 04:31 ACCEPT [Google News HH] "Crude Oil Inventories Fall Less Than Expected, Impacting Market Sentim" | kw:oil,crude
+2026-07-16 04:31 ACCEPT [Google News HH] "Nigeria Crude Oil Output Reaches 1.56 Million bpd, Highest Since April" | kw:oil,crude
+2026-07-16 04:31 ACCEPT [Google News KL] "Mako Mining Announces Q2 2026 Production Results with Record Gold Sold" | kw:gold
+2026-07-16 04:31 ACCEPT [Google News KL] "Gold declines as Iran tensions fuel inflation risks, revive Fed hike b" | kw:fuel,gold,inflation
+2026-07-16 04:31 ACCEPT [Google News NS] "US Organic Grain Market Imbalance: Rising Demand and Tightening Suppli" | kw:tightening
+2026-07-16 04:31 ACCEPT [Google News NS] "Gulf Coast Grain Export Bids: Corn, Soybeans, and Wheat Prices – July " | kw:wheat,corn,soybean
+2026-07-16 04:31 ACCEPT [Google News NS] "USDA AMS Grain Bids: Corn, Soybeans, Wheat Futures and Regional Prices" | kw:wheat,corn,soybean
+2026-07-16 04:31 ACCEPT [Google News NS] "Brazil Soybean Production 2025-26: Conab Forecasts 180.6M Tonnes, Up 5" | kw:wti,soybean
+2026-07-16 04:31 ACCEPT [Google News CB] "BOJ may face pressure to ramp up bond-buying if yields spike, ex-centr" | kw:central bank,boj
+2026-07-16 04:31 ACCEPT [Google News CB] "South Korean central bank raises rates as economy shows strength - Nik" | kw:central bank
+2026-07-16 04:31 SKIP_MORNING already_sent date=2026-07-16
