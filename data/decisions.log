@@ -17475,3 +17475,11 @@
 2026-07-16 11:31 ACCEPT [Google News CB] "Japan household inflation expectations rise, build case for BOJ rate h" | kw:inflation,rate hike,boj
 2026-07-16 11:31 ACCEPT [Google News CB] "Gold remains in the red as oil-driven inflation fears keep Fed outlook" | kw:oil,gold,inflation
 2026-07-16 11:31 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 12:01 ACCEPT [Google News HH] "Kuwait Crude Oil Price Falls by Nearly $3 per Barrel - Fana News -" | kw:oil,crude,rice
+2026-07-16 12:01 ACCEPT [Google News HH] "Forecast update for crude oil -16-07-2026 - Economies.com" | kw:oil,crude
+2026-07-16 12:01 ACCEPT [Google News HH] "WTI Crude Oil Holds $79 as Middle East Risks Rise; What’s Holding Oil " | kw:oil,crude,wti
+2026-07-16 12:01 ACCEPT [Google News KL] "Gold eases as Middle East tensions revive inflation concerns - Reuters" | kw:gold,inflation
+2026-07-16 12:01 ACCEPT [Google News KL] "Gold prices drop in Baghdad, stabilize in Erbil - Shafaq News | Latest" | kw:gold,rice
+2026-07-16 12:01 ACCEPT [Google News KL] "Gold bears retain control as Iran tensions fuel inflation fears and re" | kw:fuel,gold,inflation
+2026-07-16 12:01 ACCEPT [Google News KL] "Gold Price Forecast: XAU Near $4,030 Has Every Reason to Rally; So Why" | kw:gold,rice
+2026-07-16 12:01 SKIP_MORNING already_sent date=2026-07-16
