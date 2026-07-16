@@ -17400,3 +17400,11 @@
 2026-07-16 08:01 ACCEPT [Google News NS] "Why record grain harvests may not lead to lower feed costs - DairyRepo" | kw:harvest
 2026-07-16 08:01 ACCEPT [Google News CB] "Dollar at one-month low as cooling inflation offsets oil price risks -" | kw:oil,rice,inflation
 2026-07-16 08:01 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 08:31 ACCEPT [Al Jazeera] "‘Escaping Beijing’: Why some young Chinese are quitting the capital" | kw:rice
+2026-07-16 08:31 ACCEPT [OilPrice.com] "India Hikes Diesel and Jet Fuel Export Tax" | kw:fuel
+2026-07-16 08:31 ACCEPT [Google News KL] "Will gold prices extend their record-breaking run? - DW.com" | kw:gold,rice
+2026-07-16 08:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD falls toward $56.50 after pulling back " | kw:silver,rice
+2026-07-16 08:31 ACCEPT [Google News CB] "Chicago Tonight | Chicago Fed President Austan Goolsbee on Inflation, " | kw:inflation
+2026-07-16 08:31 ACCEPT [Google News CB] "Gold extends losses as oil-driven inflation fears keep Fed outlook in " | kw:oil,gold,inflation
+2026-07-16 08:31 ACCEPT [Google News CB] "Bank of Korea picks a fight with US Fed’s AI inflation call - Asia Tim" | kw:inflation
+2026-07-16 08:31 SKIP_MORNING already_sent date=2026-07-16
