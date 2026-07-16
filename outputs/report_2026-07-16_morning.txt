@@ -1,0 +1,99 @@
+[BẢNG SỐ LIỆU]
+               Giá   Phiên  5 phiên
+WTI          80.18   +1.1%    +9.1%
+Brent        85.49   +0.9%    +9.6%
+Khí TN       2.908   +0.1%    -9.5%
+Vàng      4,064.90   +0.1%    -0.1%
+Bạc          58.14   -1.1%    -0.0%
+Đồng         6.383   +0.8%    +5.4%
+Ngô         469.25   +8.2%    +7.9%
+Lúa mì      677.75   +7.4%   +13.1%
+Đậu t.    1,201.75   -0.5%    +0.6%
+DXY         100.45   -0.5%    -0.6%
+
+📊 Khối lượng giao dịch cao bất thường (dòng tiền đang chú ý): Brent 1.8× bình thường, Bạc 4.0× bình thường
+
+[LIÊN THỊ TRƯỜNG]
+  Brent−WTI: $5.31 (1 tháng trước: $2.45) — spread rộng = cung WTI dồi dào tương đối
+  Vàng/Bạc: 69.9 (1 tháng trước: 62.1) — tỷ lệ cao = bạc rẻ tương đối so với vàng
+  Đồng/Vàng (×1000): 1.57 (1 tháng trước: 1.53) — tăng = risk-on/kỳ vọng tăng trưởng
+
+[VỊ THẾ QUỸ ĐẦU CƠ — CFTC COT tuần 2026-07-07]
+  Lúa mì (SRW): NET SHORT -49,730 (Δ tuần: +5,274)
+  Ngô: NET LONG +100,980 (Δ tuần: +36,803)
+  Đậu tương: NET LONG +112,807 (Δ tuần: +36,180)
+  Dầu WTI: NET LONG +9,203 (Δ tuần: +2,398)
+  Bạc: NET LONG +28,015 (Δ tuần: +647)
+  Đồng: NET LONG +64,272 (Δ tuần: -516)
+  Vàng XAU: NET LONG +194,246 (Δ tuần: +227)
+→ NET LONG = quỹ đặt cược giá tăng; Δ dương = dòng tiền đầu cơ đang vào
+
+**BÁO CÁO PHÂN TÍCH PHIÊN SÁNG (07:00 VN) - 2026-07-16**
+
+---
+
+🔀 ĐỐI CHIẾU NGUỒN TIN
+*   Tin tức về dầu mỏ cho thấy sự leo thang căng thẳng Mỹ-Iran, với việc Trump cảnh báo Iran về các cuộc tấn công tiếp theo, có khả năng hỗ trợ giá dầu. Tuy nhiên, một số nguồn khác lại tập trung vào sự kiện UAE rời OPEC+ làm giảm thị phần sản xuất của nhóm.
+*   Đối với vàng và bạc, có sự mâu thuẫn giữa các nguồn: một số cho rằng CPI Mỹ yếu hơn đã thúc đẩy vàng tăng, trong khi các nguồn khác lại nhấn mạnh rủi ro lạm phát từ giá dầu tăng cao và dự báo vàng có thể giảm.
+
+🌍 VĨ MÔ & TIN TỨC NỔI BẬT
+*   Đồng USD đang suy yếu (DXY giảm 0.48%), điều này thường hỗ trợ giá các hàng hóa được định giá bằng USD như vàng và dầu mỏ.
+*   Lợi suất trái phiếu chính phủ Mỹ kỳ hạn 10 năm (Real Yield 10Y TIPS) ở mức 2.33%, cho thấy chi phí cơ hội nắm giữ tài sản không sinh lời như vàng đang tăng lên.
+*   Lạm phát tại Mỹ (CPI) đang ở mức 332.568 (tháng 6/2026), và dữ liệu CPI yếu hơn gần đây có thể ảnh hưởng đến kỳ vọng về chính sách tiền tệ của Fed.
+
+🛢️ NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên
+Xu hướng: WTI SIDEWAY | Brent SIDEWAY | Khí TN SIDEWAY
+Thiên hướng KT: WTI Trung tính | Brent Trung tính | Khí TN Trung tính
+Ngưỡng giá: WTI 73.01–81.27 | Brent 76.69–87.54 | Khí TN 2.847–3.244
+Phân tích:
+*   Giá dầu WTI và Brent đều ghi nhận mức tăng trong phiên (+1.06% và +0.90%) và tăng mạnh trong 5 phiên gần đây (+9.1% và +9.6%), cho thấy động lực tăng giá đang được củng cố.
+*   Căng thẳng địa chính trị giữa Mỹ và Iran leo thang là yếu tố hỗ trợ chính cho giá dầu, làm dấy lên lo ngại về gián đoạn nguồn cung.
+*   Khí tự nhiên có biến động nhẹ (+0.14%) trong phiên nhưng lại giảm 9.5% trong 5 phiên gần đây, cho thấy sự phân hóa trong nhóm năng lượng.
+Rủi ro:
+*   Rủi ro gián đoạn nguồn cung từ các sự kiện địa chính trị ở Trung Đông.
+*   Khả năng điều chỉnh giảm của giá dầu nếu căng thẳng hạ nhiệt hoặc nguồn cung được đảm bảo.
+
+🥇 KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc
+Xu hướng: Vàng GIẢM | Bạc GIẢM
+Thiên hướng KT: Vàng Nghiêng giảm | Bạc Nghiêng giảm
+Ngưỡng giá: Vàng 3,985.90–4,130.60 | Bạc 57.51–60.50
+Phân tích:
+*   Giá vàng tăng nhẹ (+0.09%) trong phiên nhưng lại giảm nhẹ (-0.15%) trong 5 phiên gần đây, cho thấy xu hướng giảm trung hạn vẫn đang chiếm ưu thế.
+*   Giá bạc giảm mạnh (-1.08%) trong phiên, kéo dài đà giảm nhẹ trong 5 phiên, cho thấy áp lực bán đang gia tăng đối với kim loại quý này.
+*   Tỷ lệ Vàng/Bạc tăng lên 69.9, cho thấy bạc đang tương đối rẻ so với vàng, có thể là tín hiệu tiềm năng cho sự phục hồi của bạc trong tương lai.
+Rủi ro:
+*   Đồng USD yếu đi có thể hỗ trợ giá vàng, nhưng lợi suất trái phiếu Mỹ cao lại gây áp lực.
+*   Các yếu tố lạm phát và tâm lý thị trường có thể tạo ra biến động bất ngờ cho cả vàng và bạc.
+
+🌾 NÔNG SẢN — Ngô, Đậu tương, Lúa mì
+Xu hướng: Ngô SIDEWAY | Lúa mì SIDEWAY | Đậu tương SIDEWAY
+Thiên hướng KT: Ngô Trung tính | Lúa mì Trung tính | Đậu tương Trung tính
+Ngưỡng giá: Ngô 427.75–471.00 | Lúa mì 606.50–682.75 | Đậu tương 1,179.75–1,210.00
+Phân tích:
+*   Ngô và Lúa mì có phiên tăng mạnh (+8.18% và +7.37%) và cũng ghi nhận mức tăng đáng kể trong 5 phiên gần đây (+7.9% và +13.1%), cho thấy động lực tăng giá mạnh mẽ.
+*   Đậu tương có phiên giảm nhẹ (-0.46%) nhưng vẫn giữ mức tăng nhẹ (+0.56%) trong 5 phiên, cho thấy sự ổn định hơn so với ngô và lúa mì.
+*   Vị thế của các quỹ đầu cơ cho thấy sự lạc quan với Ngô và Đậu tương (NET LONG cao), trong khi Lúa mì có vị thế SHORT giảm dần, cho thấy sự thay đổi trong kỳ vọng của các quỹ.
+Rủi ro:
+*   Thời tiết bất lợi trong giai đoạn thụ phấn của ngô có thể gây biến động mạnh.
+*   Thu hoạch lúa mì ở Bắc Bán Cầu có thể tạo áp lực nguồn cung.
+
+🔩 KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken
+Xu hướng: Đồng SIDEWAY
+Thiên hướng KT: Đồng Trung tính
+Ngưỡng giá: Đồng 6.216–6.388
+Phân tích:
+*   Đồng ghi nhận mức tăng (+0.84%) trong phiên và tăng 5.4% trong 5 phiên gần đây, cho thấy xu hướng tăng giá đang được củng cố.
+*   Tỷ lệ Đồng/Vàng tăng cho thấy tâm lý thị trường đang nghiêng về "risk-on" (ưa thích rủi ro), kỳ vọng tăng trưởng kinh tế.
+*   Các quỹ đầu cơ vẫn giữ vị thế NET LONG lớn đối với Đồng, mặc dù có sự giảm nhẹ trong tuần qua.
+Rủi ro:
+*   Nhu cầu từ Trung Quốc có thể bị ảnh hưởng bởi các yếu tố kinh tế vĩ mô.
+*   Các yếu tố địa chính trị có thể tác động đến chuỗi cung ứng và giá kim loại công nghiệp.
+
+📋 KHUYẾN NGHỊ PHIÊN
+*   **Dầu WTI/Brent:** Theo dõi sát các diễn biến căng thẳng địa chính trị. Nếu giá vượt kháng cự $81.27 (WTI) / $87.54 (Brent) với khối lượng lớn, có thể xem xét vị thế mua ngắn hạn.
+*   **Ngô/Lúa mì:** Tiếp tục theo dõi diễn biến thời tiết và báo cáo mùa vụ. Nếu giá tiếp tục đà tăng và vượt ngưỡng kháng cự quan trọng, có thể xem xét vị thế mua.
+
+⚠️ THEO DÕI PHIÊN
+*   Các thông tin mới nhất về căng thẳng Mỹ-Iran và tác động đến nguồn cung dầu mỏ.
+*   Báo cáo thời tiết và tình hình mùa vụ tại các vùng trồng trọt chính của Ngô và Lúa mì.
+*   Dữ liệu kinh tế vĩ mô của Mỹ và các nền kinh tế lớn khác, đặc biệt là các chỉ số liên quan đến lạm phát và tăng trưởng.

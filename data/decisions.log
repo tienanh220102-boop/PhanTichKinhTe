@@ -17271,3 +17271,10 @@
 2026-07-15 23:28 ACCEPT [Google News NS] "USDA report says U.S. soybean production expected to reach record high" | kw:soybean
 2026-07-15 23:28 ACCEPT [Google News CB] "Nearly half of Japanese firms hurt by BOJ interest rate hikes - Reuter" | kw:interest rate,rate hike,boj
 2026-07-15 23:31 ACCEPT [Google News NS] "Wheat futures SKYROCKET, pulling corn and beans higher in Wednesday's " | kw:wheat,corn
+2026-07-16 00:01 ACCEPT [MarketWatch] "The trucking market is tighter than it’s been in years — but investors" | kw:fuel
+2026-07-16 00:01 ACCEPT [Google News HH] "AI Boom Sends U.S. Electricity Demand to New High - Crude Oil Prices T" | kw:oil,crude,rice
+2026-07-16 00:01 ACCEPT [Google News NS] "Black Sea conflict weighs on wheat after Sea of Azov attacks - The Wes" | kw:wheat
+2026-07-16 00:01 ACCEPT [Google News CB] "Chicago Fed President Talks Inflation, Central Bank Changes - WTTW New" | kw:inflation,central bank
+2026-07-16 00:02 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
+2026-07-16 00:02 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
+2026-07-16 00:03 SENT_MORNING articles=20 date=2026-07-16 force=False
