@@ -17618,3 +17618,11 @@
 2026-07-16 16:10 ACCEPT [Google News NS] "December Corn Chart Provides a Wealth of Technical Information - DTN P" | kw:corn
 2026-07-16 16:10 SKIP_MORNING already_sent date=2026-07-16
 2026-07-16 16:10 SKIP_EVENING already_sent date=2026-07-16
+2026-07-16 16:31 ACCEPT [MarketWatch] "Is SpaceX’s stock a bust because it fell below $135? Look what happene" | kw:rice
+2026-07-16 16:31 ACCEPT [OilPrice.com] "Iraq Shuts Down Khor Mor Gas Field Amid Security Threats" | kw:gas,easing
+2026-07-16 16:31 ACCEPT [Google News HH] "AAA: Arkansas gas prices rise 8 cents as Strait of Hormuz instability " | kw:oil,crude,gas
+2026-07-16 16:31 ACCEPT [Google News HH] "US-Iran ceasefire collapse drives crude oil prices higher this week - " | kw:oil,crude,rice
+2026-07-16 16:31 ACCEPT [Google News KL] "Gold prices can go lower, but Bank of America suggests buying the dip " | kw:gold,rice
+2026-07-16 16:31 ACCEPT [Google News CB] "The US sanctioned 4 of Iran's central bank crypto wallets. Here's why." | kw:sanction,central bank
+2026-07-16 16:31 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 16:31 SKIP_EVENING already_sent date=2026-07-16
