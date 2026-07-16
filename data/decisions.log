@@ -17601,3 +17601,15 @@
 2026-07-16 15:31 ACCEPT [Google News CB] "Bond Traders Bail on Fed Hike Wagers on Softer Inflation Outlook - Blo" | kw:inflation
 2026-07-16 15:31 SKIP_MORNING already_sent date=2026-07-16
 2026-07-16 15:31 SKIP_EVENING already_sent date=2026-07-16
+2026-07-16 16:01 ACCEPT [OilPrice.com] "Iran Instructs Houthis to Prepare Red Sea Shipping Attacks" | kw:shipping
+2026-07-16 16:01 ACCEPT [Google News HH] "Six defendants plead guilty to conspiracy to steal crude oil in the Pe" | kw:oil,crude
+2026-07-16 16:01 ACCEPT [Google News HH] "Crude Oil Prices Weaken on Dollar Strength - Barchart" | kw:oil,crude,rice
+2026-07-16 16:01 ACCEPT [Google News HH] "USDA Signs Agreement Mobilizing $235M in American Commodities for East" | kw:commodities
+2026-07-16 16:01 ACCEPT [Google News HH] "Crude Oil watches the Houthis aim at the last export route that still " | kw:oil,crude
+2026-07-16 16:01 ACCEPT [Google News HH] "Middle East conflict strengthens vegetable oil market’s dependence on " | kw:oil,crude,rice
+2026-07-16 16:01 ACCEPT [Google News HH] "Brent Crude Oil Futures North Sea Morning MM Sep '26 Futures Price His" | kw:oil,crude,brent
+2026-07-16 16:01 ACCEPT [Google News NS] "Dr. Todd Hubbs Says Strong Prices Create Marketing Opportunities - Okl" | kw:rice
+2026-07-16 16:01 ACCEPT [Google News NS] "Corn Down Less Than 3¢ | Thursday, July 16, 2026 - Successful Farming" | kw:corn
+2026-07-16 16:01 ACCEPT [Google News NS] "Wheat surges as war, weather and short covering collide - Saxo" | kw:wheat
+2026-07-16 16:01 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 16:01 SKIP_EVENING already_sent date=2026-07-16
