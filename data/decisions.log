@@ -17323,3 +17323,7 @@
 2026-07-16 03:56 ACCEPT [Google News KL] "After the contract rollover, copper prices pulled back significantly, " | kw:copper,rice
 2026-07-16 03:56 ACCEPT [Google News CB] "South Korea's central bank hikes rate for 1st time since 2023 to curb " | kw:inflation,central bank
 2026-07-16 03:56 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 04:01 ACCEPT [Google News KL] "Gold-silver ratio steadies near 69 as bullion prices ease - MSN" | kw:gold,silver,rice
+2026-07-16 04:01 ACCEPT [Google News KL] "Gold Price Forecast: XAU/USD sellers to retain control whilst below 21" | kw:gold,rice
+2026-07-16 04:01 ACCEPT [Google News CB] "South Korea Interest Rate - WV News" | kw:interest rate
+2026-07-16 04:01 SKIP_MORNING already_sent date=2026-07-16
