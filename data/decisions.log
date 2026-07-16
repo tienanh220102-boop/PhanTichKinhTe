@@ -17378,3 +17378,6 @@
 2026-07-16 06:31 ACCEPT [Google News CB] "Dollar near one-month low as cooling inflation curbs Fed hike bets - C" | kw:inflation
 2026-07-16 06:31 ACCEPT [Google News CB] "South Korea Interest Rate - dailyrecordnews.com" | kw:interest rate
 2026-07-16 06:31 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 07:01 ACCEPT [BBC Business] "British Steel taken into public ownership to protect 'vital' UK supply" | kw:steel
+2026-07-16 07:01 ACCEPT [Google News KL] "Fidelity to boost gold holdings, eyes long-term price rise - Crypto Br" | kw:gold,rice
+2026-07-16 07:01 SKIP_MORNING already_sent date=2026-07-16
