@@ -17381,3 +17381,13 @@
 2026-07-16 07:01 ACCEPT [BBC Business] "British Steel taken into public ownership to protect 'vital' UK supply" | kw:steel
 2026-07-16 07:01 ACCEPT [Google News KL] "Fidelity to boost gold holdings, eyes long-term price rise - Crypto Br" | kw:gold,rice
 2026-07-16 07:01 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 07:31 ACCEPT [Google News HH] "US crude oil inventories down 0.4% in week ending July 10 - Anadolu Aj" | kw:oil,crude
+2026-07-16 07:31 ACCEPT [Google News HH] "EIA reports a drop in US crude oil stocks - engine.online" | kw:oil,crude
+2026-07-16 07:31 ACCEPT [Google News HH] "Natural Gas and Oil Forecast: OPEC Cuts Demand Can WTI Finally Break A" | kw:oil,opec,gas
+2026-07-16 07:31 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Retail Sales Loom Will Gold Hol" | kw:gold,silver,rice
+2026-07-16 07:31 ACCEPT [Google News KL] "Gold struggles near daily low; seems vulnerable as Mideast tensions li" | kw:gold
+2026-07-16 07:31 ACCEPT [Google News KL] "Gold steadies as soft US inflation tempers Fed hike bets - MSN" | kw:gold,inflation
+2026-07-16 07:31 ACCEPT [Google News KL] "Copper price prefers the positivity– Forecast today – 16-7-2026 - Econ" | kw:copper,rice
+2026-07-16 07:31 ACCEPT [Google News NS] "Bayer Accelerates Hybrid Wheat Push with RAGT Partnership - ChemAnalys" | kw:wheat
+2026-07-16 07:31 ACCEPT [Google News CB] "Inflation Dynamics under Global Supply Chain Disruptions in a Small Op" | kw:supply chain,inflation,monetary policy
+2026-07-16 07:31 SKIP_MORNING already_sent date=2026-07-16
