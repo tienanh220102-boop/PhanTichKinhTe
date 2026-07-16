@@ -17483,3 +17483,7 @@
 2026-07-16 12:01 ACCEPT [Google News KL] "Gold bears retain control as Iran tensions fuel inflation fears and re" | kw:fuel,gold,inflation
 2026-07-16 12:01 ACCEPT [Google News KL] "Gold Price Forecast: XAU Near $4,030 Has Every Reason to Rally; So Why" | kw:gold,rice
 2026-07-16 12:01 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 12:14 ACCEPT [Google News HH] "commodities cycle Archives - GoldSilver" | kw:gold,silver,commodities
+2026-07-16 12:14 ACCEPT [Google News KL] "New Pacific Metals Reports Results of Updated Carangas Preliminary Eco" | kw:gas,silver
+2026-07-16 12:14 ACCEPT [Google News KL] "Silver Chloride Market Forecast Points Higher Toward 2035, Driven by S" | kw:silver
+2026-07-16 12:14 SKIP_MORNING already_sent date=2026-07-16
