@@ -17319,3 +17319,7 @@
 2026-07-16 03:31 ACCEPT [Google News CB] "South Korea Interest Rate - The Killeen Daily Herald" | kw:gdp,interest rate
 2026-07-16 03:31 ACCEPT [Google News CB] "BOJ may face pressure to ramp up bond-buying if yields spike, ex-centr" | kw:central bank,boj
 2026-07-16 03:31 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 03:56 ACCEPT [Google News HH] "The Commodities Feed: Renewed US-Iran tensions unnerve oil market - IN" | kw:oil,commodities
+2026-07-16 03:56 ACCEPT [Google News KL] "After the contract rollover, copper prices pulled back significantly, " | kw:copper,rice
+2026-07-16 03:56 ACCEPT [Google News CB] "South Korea's central bank hikes rate for 1st time since 2023 to curb " | kw:inflation,central bank
+2026-07-16 03:56 SKIP_MORNING already_sent date=2026-07-16
