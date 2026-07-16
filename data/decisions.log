@@ -17286,3 +17286,6 @@
 2026-07-16 00:55 ACCEPT [Google News CB] "Gold Steadies as Soft Inflation, War Risk Cloud Fed Rate Outlook - Blo" | kw:gold,inflation,fed rate
 2026-07-16 00:55 SKIP_MORNING already_sent date=2026-07-16
 2026-07-16 01:01 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 01:31 ACCEPT [Google News KL] "US PPI Slows More Than Expected, Weakening Rate Hike Expectations; Geo" | kw:copper,rice,rate hike
+2026-07-16 01:31 ACCEPT [Google News CB] "BOK hikes rates for first time in 3-1/2 years to combat inflation, won" | kw:inflation
+2026-07-16 01:31 SKIP_MORNING already_sent date=2026-07-16
