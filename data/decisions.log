@@ -17411,3 +17411,8 @@
 2026-07-16 08:39 ACCEPT [Google News NS] "Markets Desk Update: Wheat futures showing strength - The Western Prod" | kw:wheat
 2026-07-16 08:39 ACCEPT [Google News CB] "Fed Chair Kevin Warsh Just Drove a Dagger Through Wall Street's Heart " | kw:inflation
 2026-07-16 08:39 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 09:01 ACCEPT [Google News HH] "OPEC cuts 2026 oil demand forecast amid rising output and Middle East " | kw:oil,opec,wti
+2026-07-16 09:01 ACCEPT [Google News KL] "Silver extends losses as rising oil prices offset cooling US inflation" | kw:oil,silver,rice
+2026-07-16 09:01 ACCEPT [Google News KL] "Why Is Gold Price Falling Today? - Sahi" | kw:gold,rice
+2026-07-16 09:01 ACCEPT [Google News CB] "Kevin Warsh says the Fed is determined to bring rising prices under co" | kw:rice
+2026-07-16 09:01 SKIP_MORNING already_sent date=2026-07-16
