@@ -17613,3 +17613,8 @@
 2026-07-16 16:01 ACCEPT [Google News NS] "Wheat surges as war, weather and short covering collide - Saxo" | kw:wheat
 2026-07-16 16:01 SKIP_MORNING already_sent date=2026-07-16
 2026-07-16 16:01 SKIP_EVENING already_sent date=2026-07-16
+2026-07-16 16:10 ACCEPT [Google News HH] "Crude Oil Carrier Market Overview, Key Trends, and Insights on Leading" | kw:oil,crude
+2026-07-16 16:10 ACCEPT [Google News HH] "XAU technical analysis: Support test dominates as gold price trades fl" | kw:gold,rice
+2026-07-16 16:10 ACCEPT [Google News NS] "December Corn Chart Provides a Wealth of Technical Information - DTN P" | kw:corn
+2026-07-16 16:10 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 16:10 SKIP_EVENING already_sent date=2026-07-16
