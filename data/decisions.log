@@ -17282,3 +17282,6 @@
 2026-07-16 00:31 ACCEPT [Al Jazeera] "Tuchel defends tactics after Argentina send England packing from World" | kw:rice
 2026-07-16 00:31 ACCEPT [Google News KL] "Ora Banda delivers record gold quarter as ‘DRIVE to 300’ expansion gat" | kw:gold
 2026-07-16 00:31 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 00:55 ACCEPT [Google News NS] "Gulf Coast Grain Export Bids: Corn, Soybeans, and Wheat Prices – July " | kw:wheat,corn,soybean
+2026-07-16 00:55 ACCEPT [Google News CB] "Gold Steadies as Soft Inflation, War Risk Cloud Fed Rate Outlook - Blo" | kw:gold,inflation,fed rate
+2026-07-16 00:55 SKIP_MORNING already_sent date=2026-07-16
