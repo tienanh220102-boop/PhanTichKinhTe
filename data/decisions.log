@@ -17289,3 +17289,7 @@
 2026-07-16 01:31 ACCEPT [Google News KL] "US PPI Slows More Than Expected, Weakening Rate Hike Expectations; Geo" | kw:copper,rice,rate hike
 2026-07-16 01:31 ACCEPT [Google News CB] "BOK hikes rates for first time in 3-1/2 years to combat inflation, won" | kw:inflation
 2026-07-16 01:31 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 02:01 ACCEPT [Google News HH] "Crude Oil Trading Alert: Oil prices have rebounded to a nearly one-mon" | kw:oil,crude,rice
+2026-07-16 02:01 ACCEPT [Google News HH] "Commodities intraday targets/key levels - TradingView" | kw:commodities
+2026-07-16 02:01 ACCEPT [Google News CB] "Macroeconomic Divergence And Monetary Policy Inertia In China – Analys" | kw:monetary policy
+2026-07-16 02:01 SKIP_MORNING already_sent date=2026-07-16
