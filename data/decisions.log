@@ -17461,3 +17461,17 @@
 2026-07-16 11:01 ACCEPT [Google News CB] "Dollar near one-month low as concerns over oil prices remain subdued -" | kw:oil,rice
 2026-07-16 11:01 ACCEPT [Google News CB] "The Fed’s Warsh and Bank of Korea’s Shin Ponder AI’s Impact on Inflati" | kw:inflation
 2026-07-16 11:01 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 11:31 ACCEPT [OilPrice.com] "Pakistan Pays Highest Spot LNG Price in Four Years as Qatar Supply Fal" | kw:gas,lng,rice
+2026-07-16 11:31 ACCEPT [Google News HH] "Gold Price Forecast: Rising Oil Revives Inflation Risks as Gold Tests " | kw:oil,gold,rice
+2026-07-16 11:31 ACCEPT [Google News HH] "UAE Oil Output Surges to 3.818 Million bpd in June 2026 After OPEC Exi" | kw:oil,opec
+2026-07-16 11:31 ACCEPT [Google News HH] "Oil prices remain skewed to the upside heading into the weekend as US-" | kw:oil,rice
+2026-07-16 11:31 ACCEPT [Google News HH] "Crude oil loading suspended at Iraqi terminals after drone hits tanker" | kw:oil,crude
+2026-07-16 11:31 ACCEPT [Google News KL] "Silver price today: Silver falls, according to FXStreet data - TMGM tr" | kw:silver,rice
+2026-07-16 11:31 ACCEPT [Google News KL] "Gold declines further as rising oil prices cloud the Federal Reserve o" | kw:oil,gold,rice
+2026-07-16 11:31 ACCEPT [Google News KL] "Saudi gold prices edge lower as Fed cut bets and central bank buying u" | kw:gold,rice,central bank
+2026-07-16 11:31 ACCEPT [Google News NS] "Wheat Prices Surge on Black Sea Export Corridor Risks | Mid-July 2026 " | kw:wheat,rice
+2026-07-16 11:31 ACCEPT [Google News NS] "Wheat futures hit two-year high 🔼 Russian exports at risk - XTB.com" | kw:wheat
+2026-07-16 11:31 ACCEPT [Google News CB] "ECB to hold rates now but energy price resurgence points to September " | kw:rice,ecb
+2026-07-16 11:31 ACCEPT [Google News CB] "Japan household inflation expectations rise, build case for BOJ rate h" | kw:inflation,rate hike,boj
+2026-07-16 11:31 ACCEPT [Google News CB] "Gold remains in the red as oil-driven inflation fears keep Fed outlook" | kw:oil,gold,inflation
+2026-07-16 11:31 SKIP_MORNING already_sent date=2026-07-16
