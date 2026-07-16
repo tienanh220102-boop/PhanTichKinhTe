@@ -17391,3 +17391,12 @@
 2026-07-16 07:31 ACCEPT [Google News NS] "Bayer Accelerates Hybrid Wheat Push with RAGT Partnership - ChemAnalys" | kw:wheat
 2026-07-16 07:31 ACCEPT [Google News CB] "Inflation Dynamics under Global Supply Chain Disruptions in a Small Op" | kw:supply chain,inflation,monetary policy
 2026-07-16 07:31 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 08:01 ACCEPT [Google News HH] "Russia struggles to deliver crude oil amid 135 million barrel backlog " | kw:oil,crude
+2026-07-16 08:01 ACCEPT [Google News HH] "Crude Oil Futures Rise on Strong Spot Demand - Rediff MoneyWiz" | kw:oil,crude
+2026-07-16 08:01 ACCEPT [Google News HH] "SunSirs: Imports of Commodities Such as Energy Reached 1.429 Billion T" | kw:commodities
+2026-07-16 08:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD tumbles to near $57 as inflation projec" | kw:silver,rice,inflation
+2026-07-16 08:01 ACCEPT [Google News KL] "Gold ETF and Mining Stock ETF Performance Diverge, Investors Face Dile" | kw:gold
+2026-07-16 08:01 ACCEPT [Google News KL] "Gold steadies as soft US inflation tempers Fed hike bets - MSN" | kw:gold,inflation
+2026-07-16 08:01 ACCEPT [Google News NS] "Why record grain harvests may not lead to lower feed costs - DairyRepo" | kw:harvest
+2026-07-16 08:01 ACCEPT [Google News CB] "Dollar at one-month low as cooling inflation offsets oil price risks -" | kw:oil,rice,inflation
+2026-07-16 08:01 SKIP_MORNING already_sent date=2026-07-16
