@@ -17572,3 +17572,20 @@
 2026-07-16 14:31 ACCEPT [Google News NS] "Wheat markets respond to Sea of Azov attacks - Country Guide" | kw:wheat
 2026-07-16 14:31 SKIP_MORNING already_sent date=2026-07-16
 2026-07-16 14:31 SKIP_EVENING already_sent date=2026-07-16
+2026-07-16 15:01 ACCEPT [Al Jazeera] "World Cup: Why is there a third-place playoff between France and Engla" | kw:gold
+2026-07-16 15:01 ACCEPT [CNBC Commodities] "Short sellers load up against SpaceX as stock retreats back to IPO pri" | kw:rice
+2026-07-16 15:01 ACCEPT [OilPrice.com] "Could Somalia See The World's Next Major Oil Discovery?" | kw:oil
+2026-07-16 15:01 ACCEPT [NASDAQ Commod] "WGC: Global Gold ETF Flows Remain Positive in H1 2026" | kw:gold,rice
+2026-07-16 15:01 ACCEPT [Google News KL] "Current price of gold as of July 16, 2026 - Fortune" | kw:gold,rice
+2026-07-16 15:01 ACCEPT [Google News KL] "Nickel price hits three-week high on Indonesia supply risks, Fed view " | kw:nickel,rice
+2026-07-16 15:01 ACCEPT [Google News KL] "Aztec Hits 155m of Gold-Silver Doubles Zone Depth & Expands Tombstone " | kw:gold,silver
+2026-07-16 15:01 ACCEPT [Google News KL] "Earnings call transcript: TRX Gold misses Q3 2026 estimates as stock f" | kw:gold
+2026-07-16 15:01 ACCEPT [Google News KL] "Silver futures dip as traders cut positions - MSN" | kw:silver
+2026-07-16 15:01 ACCEPT [Google News KL] "The Bull Case For Gold.com (GOLD) Could Change Following Inflation-Dri" | kw:gold,inflation
+2026-07-16 15:01 ACCEPT [Google News NS] "Kansas farmer leads U.S. Wheat Associates - Farm Progress" | kw:wheat
+2026-07-16 15:01 ACCEPT [Google News NS] "Wheat markets respond to Sea of Azov attacks - Grainews" | kw:wheat
+2026-07-16 15:01 ACCEPT [Google News NS] "EU Cereals Market Prices: Wheat, Maize, Barley & Durum (6–12 July 2026" | kw:wheat,rice
+2026-07-16 15:01 ACCEPT [Google News CB] "Over 90 Pct Anticipate Higher Prices 1 Year Later: BOJ Survey - nippon" | kw:rice,boj
+2026-07-16 15:01 ACCEPT [Google News CB] "ECB to hold rates now but energy price resurgence points to September " | kw:rice,ecb
+2026-07-16 15:01 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 15:01 SKIP_EVENING already_sent date=2026-07-16
