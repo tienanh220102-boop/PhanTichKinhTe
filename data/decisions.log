@@ -17589,3 +17589,15 @@
 2026-07-16 15:01 ACCEPT [Google News CB] "ECB to hold rates now but energy price resurgence points to September " | kw:rice,ecb
 2026-07-16 15:01 SKIP_MORNING already_sent date=2026-07-16
 2026-07-16 15:01 SKIP_EVENING already_sent date=2026-07-16
+2026-07-16 15:31 ACCEPT [Google News HH] "The Cushing Hub in Oklahoma saw a slight return of crude oil stocks - " | kw:oil,crude
+2026-07-16 15:31 ACCEPT [Google News HH] "Wells Fargo upgrades commodities outlook amid rate cut expectations - " | kw:commodities,rate cut
+2026-07-16 15:31 ACCEPT [Google News HH] "Gold Price Forecast: Waiting for a Trigger, Ready to Slide - FXEmpire" | kw:gold,rice
+2026-07-16 15:31 ACCEPT [Google News HH] "TotalEnergies Expects Earnings Boost From War-Fueled Price Rally -- Co" | kw:fuel,wti,rice
+2026-07-16 15:31 ACCEPT [Google News KL] "Gold and Silver Prices Hit New 8-Month Lows as Dollar, Oil Rise - Bull" | kw:oil,gold,silver
+2026-07-16 15:31 ACCEPT [Google News KL] "Gold falls 2% as escalating Middle East tensions reinforce U.S. rate-h" | kw:gold
+2026-07-16 15:31 ACCEPT [Google News NS] "Madison County Corn Festival returns Saturday with free roasted corn, " | kw:corn
+2026-07-16 15:31 ACCEPT [Google News CB] "Kevin Warsh says the Fed is determined to bring rising prices under co" | kw:rice
+2026-07-16 15:31 ACCEPT [Google News CB] "Nigeria central bank chief signals caution on easing next week - Reute" | kw:central bank,easing
+2026-07-16 15:31 ACCEPT [Google News CB] "Bond Traders Bail on Fed Hike Wagers on Softer Inflation Outlook - Blo" | kw:inflation
+2026-07-16 15:31 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 15:31 SKIP_EVENING already_sent date=2026-07-16
