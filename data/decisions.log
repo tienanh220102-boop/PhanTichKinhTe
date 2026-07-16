@@ -17695,15 +17695,12 @@
 2026-07-16 19:31 ACCEPT [Google News HH] "US reviewing crude storage limits after Cushing OK inventory drained b" | kw:crude
 2026-07-16 19:31 ACCEPT [Google News HH] "India Is Becoming the World's Refining Swing Producer - Crude Oil Pric" | kw:oil,crude,rice
 2026-07-16 19:31 ACCEPT [Google News KL] "What Is Tether Gold (XAUt) and How Does It Work? - Changelly" | kw:gold
-2026-07-16 20:00 ACCEPT [OilPrice.com] "Yemen's Houthis Threaten New Oil Shock as Civil War Reignites" | kw:oil
-2026-07-16 20:00 ACCEPT [Google News HH] "Six plead guilty in Permian Basin crude oil theft conspiracy - NBC 5 D" | kw:oil,crude
-2026-07-16 20:00 ACCEPT [Google News HH] "EIA explains why Cushing Hub oil levels are critical - Oklahoma Energy" | kw:oil
-2026-07-16 20:00 ACCEPT [Google News HH] "Broad commodities ETFs rally 24.4% in Q1 2026, gaining investor intere" | kw:commodities
-2026-07-16 20:00 ACCEPT [Google News KL] "Red Lake Gold Developer Delivers High-Grade Madsen Hits - Streetwise R" | kw:gold
-2026-07-16 20:00 ACCEPT [Google News KL] "Gold prices have moved back below the $4000 level. What are the charts" | kw:gold,rice
-2026-07-16 20:00 ACCEPT [Google News KL] "Silver's Mexico problem: A fifth of supply, reviewed every year - FXSt" | kw:silver
-2026-07-16 20:00 ACCEPT [Google News CB] "Fed’s Logan calls for ‘modestly higher’ interest rates - whbl.com" | kw:interest rate
-2026-07-16 20:00 ACCEPT [Google News CB] "Should the Fed aim to 'modestly' raise interest rates? - Yahoo Finance" | kw:interest rate
-2026-07-16 20:00 ACCEPT [Google News CB] "Fed’s Logan Favors Modestly Higher Rates to Lower Inflation - Bloomber" | kw:inflation
-2026-07-16 20:00 ACCEPT [Google News CB] "Fed’s Logan Favors Modestly Higher Rates to Lower Inflation (1) - Bloo" | kw:inflation
-2026-07-16 20:00 ACCEPT [Google News CB] "Inflation Fell More Than Expected In June, But a Fed Member Said Inter" | kw:inflation,interest rate
+2026-07-16 20:01 ACCEPT [OilPrice.com] "Yemen's Houthis Threaten New Oil Shock as Civil War Reignites" | kw:oil
+2026-07-16 20:01 ACCEPT [Google News HH] "Six plead guilty in Permian Basin crude oil theft conspiracy - NBC 5 D" | kw:oil,crude
+2026-07-16 20:01 ACCEPT [Google News HH] "EIA explains why Cushing Hub oil levels are critical - Oklahoma Energy" | kw:oil
+2026-07-16 20:01 ACCEPT [Google News KL] "Red Lake Gold Developer Delivers High-Grade Madsen Hits - Streetwise R" | kw:gold
+2026-07-16 20:01 ACCEPT [Google News KL] "Silver's Mexico problem: A fifth of supply, reviewed every year - FXSt" | kw:silver
+2026-07-16 20:01 ACCEPT [Google News CB] "Should the Fed aim to 'modestly' raise interest rates? - Yahoo Finance" | kw:interest rate
+2026-07-16 20:01 ACCEPT [Google News CB] "Fed’s Logan Favors Modestly Higher Rates to Lower Inflation - Bloomber" | kw:inflation
+2026-07-16 20:01 ACCEPT [Google News CB] "Fed’s Logan Favors Modestly Higher Rates to Lower Inflation (1) - Bloo" | kw:inflation
+2026-07-16 20:01 ACCEPT [Google News CB] "Inflation Fell More Than Expected In June, But a Fed Member Said Inter" | kw:inflation,interest rate
