@@ -17346,3 +17346,13 @@
 2026-07-16 05:01 ACCEPT [Google News CB] "Buffett says Trump's pick of Kevin Warsh for Fed chair was 'good choic" | kw:gdp
 2026-07-16 05:01 ACCEPT [Google News CB] "Gold falls as Mideast escalation dims hopes of easing inflation - CNBC" | kw:gold,inflation,easing
 2026-07-16 05:01 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 05:31 ACCEPT [BBC Business] "Government brings British Steel under public ownership" | kw:steel
+2026-07-16 05:31 ACCEPT [Google News HH] "Gold price in Saudi Arabia: Rates on July 16 - FXStreet" | kw:gold,rice
+2026-07-16 05:31 ACCEPT [Google News HH] "E&E News: Mystery Freedom Fuel stations that sold discounted gas tied " | kw:gas,fuel,commodities
+2026-07-16 05:31 ACCEPT [Google News HH] "Caixin Futures: Ongoing Geopolitical Tensions Continue to Drive Up Cru" | kw:oil,crude,fuel
+2026-07-16 05:31 ACCEPT [Google News KL] "Gold prices fall to $4,033.12 as energy-driven inflation fears raise F" | kw:gold,rice,inflation
+2026-07-16 05:31 ACCEPT [Google News CB] "South Korea’s central bank hikes rate for 1st time since 2023 to curb " | kw:inflation,central bank
+2026-07-16 05:31 ACCEPT [Google News CB] "More Japanese households see prices rising, BOJ survey shows - Yahoo F" | kw:rice,boj
+2026-07-16 05:31 ACCEPT [Google News CB] "South Korea’s central bank raises rate for 1st time in 3-1/2 years - A" | kw:central bank
+2026-07-16 05:31 ACCEPT [Google News CB] "Nickel Hits Three-Week High on Indonesia Supply Risks, Fed View - Bloo" | kw:nickel
+2026-07-16 05:31 SKIP_MORNING already_sent date=2026-07-16
