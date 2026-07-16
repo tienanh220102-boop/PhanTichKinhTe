@@ -17408,3 +17408,6 @@
 2026-07-16 08:31 ACCEPT [Google News CB] "Gold extends losses as oil-driven inflation fears keep Fed outlook in " | kw:oil,gold,inflation
 2026-07-16 08:31 ACCEPT [Google News CB] "Bank of Korea picks a fight with US Fed’s AI inflation call - Asia Tim" | kw:inflation
 2026-07-16 08:31 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 08:39 ACCEPT [Google News NS] "Markets Desk Update: Wheat futures showing strength - The Western Prod" | kw:wheat
+2026-07-16 08:39 ACCEPT [Google News CB] "Fed Chair Kevin Warsh Just Drove a Dagger Through Wall Street's Heart " | kw:inflation
+2026-07-16 08:39 SKIP_MORNING already_sent date=2026-07-16
