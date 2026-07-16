@@ -17499,3 +17499,18 @@
 2026-07-16 12:31 ACCEPT [Google News NS] "The Surprise Behind Today’s Soybean Prices - Market Monitor - Farms.co" | kw:soybean,rice
 2026-07-16 12:31 ACCEPT [Google News NS] "Wheat futures SKYROCKET, pulling corn and beans higher in Wednesday's " | kw:wheat,corn
 2026-07-16 12:31 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 13:01 ACCEPT [MarketWatch] "Retail sales get boost from car buyers and Amazon Prime Day. Economy h" | kw:inflation
+2026-07-16 13:01 ACCEPT [MarketWatch] "Japan tried tightening the way Kevin Warsh suggested. Here’s how it wo" | kw:interest rate,tightening
+2026-07-16 13:01 ACCEPT [Google News HH] "Gold price struggling as U.S. retail sales rise 0.2% in June - KITCO" | kw:gold,rice,gdp
+2026-07-16 13:01 ACCEPT [Google News HH] "Omani Crude Oil Price Reaches $76.36 a Barrel - Fana News -" | kw:oil,crude,rice
+2026-07-16 13:01 ACCEPT [Google News HH] "Crude oil loading suspended at all Iraqi terminals after drone inciden" | kw:oil,crude
+2026-07-16 13:01 ACCEPT [Google News KL] "Silver prices today, Thursday, July 16, 2026: Prices can't crack $60 a" | kw:silver,rice
+2026-07-16 13:01 ACCEPT [Google News KL] "Southern Copper (SCCO) Is Up 8.6% After Copper Rally And Analyst Upgra" | kw:copper
+2026-07-16 13:01 ACCEPT [Google News KL] "Gold prices today in Saudi Arabia are under pressure with 21-karat gol" | kw:gold,rice
+2026-07-16 13:01 ACCEPT [Google News KL] "Gold steadies as soft US inflation tempers Fed hike bets - MSN" | kw:gold,inflation
+2026-07-16 13:01 ACCEPT [Google News CB] "Macroscope | Silence isn’t golden for a world looking to Kevin Warsh’s" | kw:gold
+2026-07-16 13:01 ACCEPT [Google News CB] "Can the Fed lower inflation? 5 takeaways from Warsh on Capitol Hill - " | kw:inflation
+2026-07-16 13:01 ACCEPT [Google News CB] "The Fed has to hike interest rates this year, says SMBC's Joe Lavorgna" | kw:interest rate
+2026-07-16 13:01 ACCEPT [Google News CB] "Over 90 Pct Anticipate Higher Prices 1 Year Later: BOJ Survey - nippon" | kw:rice,boj
+2026-07-16 13:01 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 13:02 SENT_EVENING articles=20 date=2026-07-16 force=False
