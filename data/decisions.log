@@ -17514,3 +17514,21 @@
 2026-07-16 13:01 ACCEPT [Google News CB] "Over 90 Pct Anticipate Higher Prices 1 Year Later: BOJ Survey - nippon" | kw:rice,boj
 2026-07-16 13:01 SKIP_MORNING already_sent date=2026-07-16
 2026-07-16 13:02 SENT_EVENING articles=20 date=2026-07-16 force=False
+2026-07-16 13:31 ACCEPT [MarketWatch] "Oil is facing a supply crunch — and the war in Iran isn’t the only pro" | kw:oil
+2026-07-16 13:31 ACCEPT [Al Jazeera] "Powerful storm floods hundreds of homes in Russia’s urals" | kw:flood
+2026-07-16 13:31 ACCEPT [EIA Energy] "What are tank bottoms?" | kw:oil,crude,petroleum
+2026-07-16 13:31 ACCEPT [Google News HH] "OPEC+ nations agree roadmap to strengthen global oil cooperation - Ane" | kw:oil,opec,gdp
+2026-07-16 13:31 ACCEPT [Google News HH] "United Arab Emirates says it will permanently leave OPEC on May 1 - AO" | kw:opec
+2026-07-16 13:31 ACCEPT [Google News HH] "OPEC Cuts 2026 Oil Demand Growth to 780k bpd - quasa.io" | kw:oil,opec
+2026-07-16 13:31 ACCEPT [Google News KL] "Current price of gold as of July 16, 2026 - Fortune" | kw:gold,rice
+2026-07-16 13:31 ACCEPT [Google News KL] "New Pacific Metals Reports Results of Updated Carangas Preliminary Eco" | kw:gas,silver
+2026-07-16 13:31 ACCEPT [Google News KL] "VIZSLA COPPER DRILLS 304.8 METERS OF 0.48% CUEQ AT THE THIRA DISCOVERY" | kw:copper
+2026-07-16 13:31 ACCEPT [Google News KL] "Silver futures slip to ₹2.19 lakh as spot rates hold - MSN" | kw:silver
+2026-07-16 13:31 ACCEPT [Google News KL] "Silver Price Pullback Tests Key Support Level - Intellectia AI" | kw:silver,rice
+2026-07-16 13:31 ACCEPT [Google News KL] "BofA warns gold prices could fall further as 1980, 2011 peak patterns " | kw:gold,rice
+2026-07-16 13:31 ACCEPT [Google News NS] "Problems with shipping in the Black Sea will increase pressure on the " | kw:shipping
+2026-07-16 13:31 ACCEPT [Google News NS] "Black Sea Turmoil: Grain Exports Under Siege - Devdiscourse" | kw:oil
+2026-07-16 13:31 ACCEPT [Google News CB] "ECB to hold rates now but energy price resurgence points to September " | kw:rice,ecb
+2026-07-16 13:31 ACCEPT [Google News CB] "Navigating the Fed’s new playbook: How CFOs can manage unpredictable i" | kw:wti,interest rate
+2026-07-16 13:31 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 13:31 SKIP_EVENING already_sent date=2026-07-16
