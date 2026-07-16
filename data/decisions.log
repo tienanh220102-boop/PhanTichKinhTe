@@ -17437,3 +17437,10 @@
 2026-07-16 10:01 ACCEPT [Google News CB] "Fed chair Warsh sidesteps Senate questions on inflation, AI, contact w" | kw:inflation
 2026-07-16 10:01 ACCEPT [Google News CB] "Dollar falls after cooling producer prices, Middle East escalation in " | kw:rice
 2026-07-16 10:01 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 10:31 ACCEPT [OilPrice.com] "TotalEnergies Sees Stronger Q2 Profit as Refining and Oil Trading Surg" | kw:oil,fuel,rice
+2026-07-16 10:31 ACCEPT [Google News HH] "Crude Oil Loading Suspended at All Iraqi Terminals after Drone Inciden" | kw:oil,crude
+2026-07-16 10:31 ACCEPT [Google News HH] "Gold Price Forecast: Rising Oil Revives Inflation Risks as Gold Tests " | kw:oil,gold,rice
+2026-07-16 10:31 ACCEPT [Google News HH] "Oil Prices Today, July 16, 2026: Crude Oil Price Eases to $84.8 After " | kw:oil,crude,rice
+2026-07-16 10:31 ACCEPT [Google News CB] "U.S. adds four Iran central bank crypto wallets to sanctions, Tether f" | kw:sanction,central bank
+2026-07-16 10:31 ACCEPT [Google News CB] "Fed Chair Kevin Warsh: ‘Prices are too high.’ Will there be a rate cut" | kw:rice,rate cut
+2026-07-16 10:31 SKIP_MORNING already_sent date=2026-07-16
