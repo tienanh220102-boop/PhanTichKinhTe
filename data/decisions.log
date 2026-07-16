@@ -17366,3 +17366,6 @@
 2026-07-16 06:01 ACCEPT [Google News CB] "South Korea's central bank hikes rate for 1st time since 2023 to curb " | kw:inflation,central bank
 2026-07-16 06:01 ACCEPT [Google News CB] "South Korea Interest Rate - The Killeen Daily Herald" | kw:interest rate
 2026-07-16 06:01 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 06:12 ACCEPT [Google News CB] "BOJ may face pressure to ramp up bond-buying if yields spike, ex-centr" | kw:central bank,boj
+2026-07-16 06:12 ACCEPT [Google News CB] "Lagarde Watchers Cast Aside Doubts to Say She’ll Finish ECB Term - Blo" | kw:ecb
+2026-07-16 06:12 SKIP_MORNING already_sent date=2026-07-16
