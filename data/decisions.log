@@ -17427,3 +17427,13 @@
 2026-07-16 09:31 ACCEPT [Google News CB] "Fed chair Warsh sidesteps Senate questions on inflation, AI, contact w" | kw:inflation
 2026-07-16 09:31 ACCEPT [Google News CB] "Can Kevin Warsh’s Fed force 5 reimagine monetary policymaking? - The E" | kw:monetary policy
 2026-07-16 09:31 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 10:01 ACCEPT [Google News HH] "Crude oil loading suspended at all Iraqi terminals after drone inciden" | kw:oil,crude
+2026-07-16 10:01 ACCEPT [Google News HH] "Brent Crude Oil Futures Fall 1% to $84.07, WTI Crude Oil Futures Slide" | kw:oil,crude,brent
+2026-07-16 10:01 ACCEPT [Google News HH] "Oil prices remain skewed to the upside heading into the weekend as US-" | kw:oil,rice
+2026-07-16 10:01 ACCEPT [Google News HH] "Crude Oil Has Every Reason to Spike—So What’s Holding It Back? - FXLea" | kw:oil,crude
+2026-07-16 10:01 ACCEPT [Google News KL] "Current price of silver as of Thursday, July 16, 2026 - Fortune" | kw:silver,rice
+2026-07-16 10:01 ACCEPT [Google News KL] "Gold Price Slump and Strong Dollar Cap Copper Gains Despite Improved A" | kw:gold,copper,rice
+2026-07-16 10:01 ACCEPT [Google News KL] "Silver price today: falls on July 16 - FXStreet" | kw:silver,rice
+2026-07-16 10:01 ACCEPT [Google News CB] "Fed chair Warsh sidesteps Senate questions on inflation, AI, contact w" | kw:inflation
+2026-07-16 10:01 ACCEPT [Google News CB] "Dollar falls after cooling producer prices, Middle East escalation in " | kw:rice
+2026-07-16 10:01 SKIP_MORNING already_sent date=2026-07-16
