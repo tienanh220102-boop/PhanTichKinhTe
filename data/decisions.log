@@ -17444,3 +17444,14 @@
 2026-07-16 10:31 ACCEPT [Google News CB] "U.S. adds four Iran central bank crypto wallets to sanctions, Tether f" | kw:sanction,central bank
 2026-07-16 10:31 ACCEPT [Google News CB] "Fed Chair Kevin Warsh: ‘Prices are too high.’ Will there be a rate cut" | kw:rice,rate cut
 2026-07-16 10:31 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 10:50 ACCEPT [NASDAQ Commod] "Gold Edges Lower On Oil-led Inflation Concerns" | kw:oil,gold,rice
+2026-07-16 10:50 ACCEPT [NASDAQ Commod] "Oil Prices Dip But Stay Close To One-month Highs" | kw:oil,rice
+2026-07-16 10:50 ACCEPT [Google News HH] "Crude oil loading suspended at all Iraqi terminals after drone inciden" | kw:oil,crude
+2026-07-16 10:50 ACCEPT [Google News HH] "EIA: petroleum markets responded to disruptions in the Middle East in " | kw:petroleum
+2026-07-16 10:50 ACCEPT [Google News HH] "Crude oil loading suspended in Iraq after drone incident - Middle East" | kw:oil,crude
+2026-07-16 10:50 ACCEPT [Google News HH] "Iraq suspends crude oil flows after drone crashes into tanker, sending" | kw:oil,crude
+2026-07-16 10:50 ACCEPT [Google News HH] "21-Karat Gold Price at JD82.8 per Gram in Local Market - Fana News -" | kw:gold,rice
+2026-07-16 10:50 ACCEPT [Google News KL] "The Bull Case For Gold.com (GOLD) Could Change Following Inflation-Dri" | kw:gold,inflation
+2026-07-16 10:50 ACCEPT [Google News KL] "Silver Price For Today, 15 July 2026 - Forbes" | kw:silver,rice
+2026-07-16 10:50 ACCEPT [Google News KL] "Saudi gold prices edge lower as Fed cut bets and central bank buying u" | kw:gold,rice,central bank
+2026-07-16 10:50 SKIP_MORNING already_sent date=2026-07-16
