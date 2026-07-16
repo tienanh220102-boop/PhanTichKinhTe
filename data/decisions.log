@@ -17553,20 +17553,22 @@
 2026-07-16 14:01 ACCEPT [Google News CB] "EU drafts plan to double electrification rate, cut oil and gas use - R" | kw:oil,gas
 2026-07-16 14:01 SKIP_MORNING already_sent date=2026-07-16
 2026-07-16 14:01 SKIP_EVENING already_sent date=2026-07-16
-2026-07-16 14:30 ACCEPT [Google News HH] "Six defendants plead guilty to conspiracy to steal crude oil in the Pe" | kw:oil,crude
-2026-07-16 14:30 ACCEPT [Google News HH] "Gold Price Analysis – Gold Tests $4,000 Support Amid Death Cross Threa" | kw:gold,rice
-2026-07-16 14:30 ACCEPT [Google News HH] "Crude Oil Price Forecast – Oil Hovers Near Major Moving Averages - FXE" | kw:oil,crude,rice
-2026-07-16 14:30 ACCEPT [Google News HH] "US stocks today: AI stocks drop again; crude oil prices continue to cl" | kw:oil,crude,rice
-2026-07-16 14:30 ACCEPT [Google News HH] "Silver has seen a sharper rally than gold in the last year. So, is thi" | kw:gold,silver
-2026-07-16 14:30 ACCEPT [Google News KL] "Current price of gold as of July 16, 2026 - Fortune" | kw:gold,rice
-2026-07-16 14:30 ACCEPT [Google News KL] "Disappointing U.S. pending home sales unable to push gold prices highe" | kw:lng,gold,rice
-2026-07-16 14:30 ACCEPT [Google News KL] "SPDR Gold Shares ETF sees $14B outflows since March 1 amid cost concer" | kw:gold
-2026-07-16 14:30 ACCEPT [Google News KL] "Silver prices dip as MCX futures slide 0.42% - MSN" | kw:silver,rice
-2026-07-16 14:30 ACCEPT [Google News KL] "Gold and Silver Prices Decline Sharply as Firmer Yields and Dollar Off" | kw:gold,silver,rice
-2026-07-16 14:30 ACCEPT [Google News NS] "OSU’s New Purple Wheat Featured During International Korean Baking Wor" | kw:wheat
-2026-07-16 14:30 ACCEPT [Google News NS] "Soybean Market Update: Chicago Futures Up 5.97%, Brazilian Real at R$ " | kw:soybean
-2026-07-16 14:30 ACCEPT [Google News NS] "Brazilian Corn Market Analysis: Mixed Regional Prices and Strong Expor" | kw:corn,rice
-2026-07-16 14:30 ACCEPT [Google News NS] "Wheat markets respond to Sea of Azov attacks - Country Guide" | kw:wheat
-2026-07-16 14:30 ACCEPT [Google News CB] "Over 90 Pct Anticipate Higher Prices 1 Year Later: BOJ Survey - nippon" | kw:rice,boj
-2026-07-16 14:30 SKIP_MORNING already_sent date=2026-07-16
-2026-07-16 14:30 SKIP_EVENING already_sent date=2026-07-16
+2026-07-16 14:31 ACCEPT [Google News HH] "Six defendants plead guilty to conspiracy to steal crude oil in the Pe" | kw:oil,crude
+2026-07-16 14:31 ACCEPT [Google News HH] "$Crude Oil Futures (SEP6) (CLmain.US)$ - Moomoo" | kw:oil,crude
+2026-07-16 14:31 ACCEPT [Google News HH] "Crude oil spill - LAist" | kw:oil,crude
+2026-07-16 14:31 ACCEPT [Google News HH] "Gold Price Analysis – Gold Tests $4,000 Support Amid Death Cross Threa" | kw:gold,rice
+2026-07-16 14:31 ACCEPT [Google News HH] "Crude Oil Price Forecast – Oil Hovers Near Major Moving Averages - FXE" | kw:oil,crude,rice
+2026-07-16 14:31 ACCEPT [Google News HH] "US stocks today: AI stocks drop again; crude oil prices continue to cl" | kw:oil,crude,rice
+2026-07-16 14:31 ACCEPT [Google News HH] "Silver has seen a sharper rally than gold in the last year. So, is thi" | kw:gold,silver
+2026-07-16 14:31 ACCEPT [Google News HH] "Oil futures: Crude edges up as market eyes Hormuz - Quantum Commodity " | kw:oil,crude,commodity
+2026-07-16 14:31 ACCEPT [Google News KL] "Disappointing U.S. pending home sales unable to push gold prices highe" | kw:lng,gold,rice
+2026-07-16 14:31 ACCEPT [Google News KL] "SPDR Gold Shares ETF sees $14B outflows since March 1 amid cost concer" | kw:gold
+2026-07-16 14:31 ACCEPT [Google News KL] "Silver prices dip as MCX futures slide 0.42% - MSN" | kw:silver,rice
+2026-07-16 14:31 ACCEPT [Google News KL] "Gold and Silver Prices Decline Sharply as Firmer Yields and Dollar Off" | kw:gold,silver,rice
+2026-07-16 14:31 ACCEPT [Google News NS] "July weather directing corn market - AgUpdate" | kw:corn
+2026-07-16 14:31 ACCEPT [Google News NS] "OSU’s New Purple Wheat Featured During International Korean Baking Wor" | kw:wheat
+2026-07-16 14:31 ACCEPT [Google News NS] "Soybean Market Update: Chicago Futures Up 5.97%, Brazilian Real at R$ " | kw:soybean
+2026-07-16 14:31 ACCEPT [Google News NS] "Brazilian Corn Market Analysis: Mixed Regional Prices and Strong Expor" | kw:corn,rice
+2026-07-16 14:31 ACCEPT [Google News NS] "Wheat markets respond to Sea of Azov attacks - Country Guide" | kw:wheat
+2026-07-16 14:31 SKIP_MORNING already_sent date=2026-07-16
+2026-07-16 14:31 SKIP_EVENING already_sent date=2026-07-16
