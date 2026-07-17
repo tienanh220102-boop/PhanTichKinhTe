@@ -18027,3 +18027,18 @@
 2026-07-17 12:02 ACCEPT [Google News KL] "BHP results: 10 things the copper concentrates market needs to know - " | kw:copper
 2026-07-17 12:02 ACCEPT [Google News CB] "Interest Rate Divergence Fuels Sterling Strength - StoneX" | kw:fuel,interest rate
 2026-07-17 12:02 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 12:31 ACCEPT [MarketWatch] "Oil prices are up 13% in a week — and could head for more than $100 a " | kw:oil,crude,brent
+2026-07-17 12:31 ACCEPT [OilPrice.com] "China Seeks Long-Term LNG Deals Beyond the Strait of Hormuz" | kw:gas,lng
+2026-07-17 12:31 ACCEPT [Google News HH] "Gold Price Today: Gold Falls 1.56% on July 17, 2026 - USA Today" | kw:gold,rice
+2026-07-17 12:31 ACCEPT [Google News HH] "Gold Price Drops Below $4,000 Again: High-Rally Chasers Trapped in Dil" | kw:gold,rice
+2026-07-17 12:31 ACCEPT [Google News HH] "South Korea Bets on Red Sea Route as Hormuz Disruptions Persist - Crud" | kw:oil,crude,rice
+2026-07-17 12:31 ACCEPT [Google News HH] "Forecast update for crude oil -17-07-2026 - Economies.com" | kw:oil,crude
+2026-07-17 12:31 ACCEPT [Google News HH] "Kazakhstan's crude, condensate output holds at record high - Quantum C" | kw:crude,commodity
+2026-07-17 12:31 ACCEPT [Google News HH] "Global Commodities Roundup: Market Talk - Moomoo" | kw:commodities
+2026-07-17 12:31 ACCEPT [Google News HH] "Gold Price Declines Rs 800, Silver Drops Rs 2,000 in India - Rediff Mo" | kw:gold,silver,rice
+2026-07-17 12:31 ACCEPT [Google News HH] "IEA Predicts First Decrease in Global Oil Demand Since 2020 - Crude Oi" | kw:oil,crude,rice
+2026-07-17 12:31 ACCEPT [Google News KL] "Gold prices today, Friday, July 17, 2026: Gold nosedives to Nov. '25 l" | kw:gold,rice
+2026-07-17 12:31 ACCEPT [Google News KL] "As Gold Prices Soar, Communities Pay the Price in Poisoned Rivers, Van" | kw:lng,gold,rice
+2026-07-17 12:31 ACCEPT [Google News KL] "Why Gold Keeps Finding Buyers Near $4,000 - DailyForex" | kw:gold
+2026-07-17 12:31 ACCEPT [Google News CB] "European Central Bank: September hike risk assessed – Societe Generale" | kw:central bank
+2026-07-17 12:31 SKIP_MORNING already_sent date=2026-07-17
