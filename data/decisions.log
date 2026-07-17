@@ -17903,3 +17903,10 @@
 2026-07-17 05:31 ACCEPT [Google News HH] "Brent crude oil fell by about $0.8 in the short term, hitting a low of" | kw:oil,crude,brent
 2026-07-17 05:31 ACCEPT [Google News CB] "Back to square one: Five questions for the ECB - Reuters" | kw:ecb
 2026-07-17 05:31 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 06:01 ACCEPT [Al Jazeera] "Texas floods ravage through southwestern areas of state" | kw:flood
+2026-07-17 06:01 ACCEPT [OilPrice.com] "Oil Prices Set for Biggest Weekly Surge Since April as Iran War Escala" | kw:oil,crude,rice
+2026-07-17 06:01 ACCEPT [Google News KL] "Gold Rate Today, July 17, 2026: Gold Gold Prices Slide Rs 300 per 10 g" | kw:gold,rice
+2026-07-17 06:01 ACCEPT [Google News KL] "Gold Price Forecast: XAU/USD Slips Below $4,000—Why Isn't Gold Acting " | kw:gold,rice
+2026-07-17 06:01 ACCEPT [Google News KL] "Gold prices hold at $3,986.84 but slide 3.4 percent in biggest weekly " | kw:oil,gold,silver
+2026-07-17 06:01 ACCEPT [Google News CB] "Back to square one: Five questions for the ECB - Euronext Markets: Rea" | kw:ecb
+2026-07-17 06:01 SKIP_MORNING already_sent date=2026-07-17
