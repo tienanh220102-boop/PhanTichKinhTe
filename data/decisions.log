@@ -17999,3 +17999,9 @@
 2026-07-17 10:39 ACCEPT [Google News NS] "Marmara Wheat Prices Rise $3/mt on Kerch Strait, Azov Sea Strikes | Ju" | kw:wheat,rice
 2026-07-17 10:39 ACCEPT [Google News CB] "BoJ to leave interest rates in July policy meeting - Kyodo - FXStreet" | kw:interest rate,boj
 2026-07-17 10:39 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 11:01 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD hovers below $4,000 with the YTD low at h" | kw:gold,rice
+2026-07-17 11:01 ACCEPT [Google News KL] "Gold clearing framework gives Hong Kong regional leverage, global edge" | kw:gold
+2026-07-17 11:01 ACCEPT [Google News NS] "Black Sea Shipping Attacks Could Tighten Wheat and Oil Supply Fast - S" | kw:oil,wheat,shipping
+2026-07-17 11:01 ACCEPT [Google News CB] "Fed is laser-focused on inflation drop, Warsh says - Washington Examin" | kw:inflation
+2026-07-17 11:01 ACCEPT [Google News CB] "Indonesia central bank says it is monitoring banking liquidity - Reute" | kw:central bank
+2026-07-17 11:01 SKIP_MORNING already_sent date=2026-07-17
