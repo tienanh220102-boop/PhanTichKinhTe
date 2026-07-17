@@ -18112,3 +18112,12 @@
 2026-07-17 15:31 ACCEPT [Google News CB] "Global FX: Divergent central bank paths and Oil – Wells Fargo - FXStre" | kw:oil,central bank
 2026-07-17 15:31 SKIP_MORNING already_sent date=2026-07-17
 2026-07-17 15:31 SKIP_EVENING already_sent date=2026-07-17
+2026-07-17 15:53 ACCEPT [Google News HH] "Crude Oil Prices Soar as the US and Iran Escalate Attacks - Barchart.c" | kw:oil,crude,rice
+2026-07-17 15:53 ACCEPT [Google News HH] "Crude Oil Price Analysis – Crude Oil Tests 50-Day EMA as Middle East R" | kw:oil,crude,rice
+2026-07-17 15:53 ACCEPT [Google News NS] "Russia's Grain Crisis Shakes Global Wheat Trade, Opens Door for Americ" | kw:wheat
+2026-07-17 15:53 ACCEPT [Google News NS] "Certified Soybean Seed: Paraguay Sector Raises Alarm - SeedWorld" | kw:soybean
+2026-07-17 15:53 ACCEPT [Google News CB] "Hammack sees no conflict in Fed’s goals, inflation her worry - Crain's" | kw:inflation
+2026-07-17 15:53 ACCEPT [Google News CB] "Hammack Sees No Conflict in Fed’s Goals, Inflation Her Worry - Bloombe" | kw:inflation
+2026-07-17 15:53 ACCEPT [Google News CB] "Fed Faces Mixed Signals as Inflation Slows and Energy Risks Return - Y" | kw:inflation
+2026-07-17 15:53 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 15:53 SKIP_EVENING already_sent date=2026-07-17
