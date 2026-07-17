@@ -17896,3 +17896,10 @@
 2026-07-17 05:01 ACCEPT [Google News KL] "Gold prices fall - VnExpress International" | kw:gold,rice
 2026-07-17 05:01 ACCEPT [Google News CB] "ECB Set to Wait for September to Hike One Last Time, Poll Shows - Bloo" | kw:ecb
 2026-07-17 05:01 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 05:31 ACCEPT [Google News HH] "South Korea and UAE sign crude oil supply security agreement covering " | kw:oil,crude
+2026-07-17 05:31 ACCEPT [Google News HH] "$Crude Oil Futures (SEP6) (CLmain.US)$$Brent Last Day Financ... - Moom" | kw:oil,crude,brent
+2026-07-17 05:31 ACCEPT [Google News HH] "Gold price in Philippines: Rates on July 17 - FXStreet" | kw:gold,rice
+2026-07-17 05:31 ACCEPT [Google News HH] "U.S. Energy Information Administration data: U.S. daily crude oil proc" | kw:oil,crude
+2026-07-17 05:31 ACCEPT [Google News HH] "Brent crude oil fell by about $0.8 in the short term, hitting a low of" | kw:oil,crude,brent
+2026-07-17 05:31 ACCEPT [Google News CB] "Back to square one: Five questions for the ECB - Reuters" | kw:ecb
+2026-07-17 05:31 SKIP_MORNING already_sent date=2026-07-17
