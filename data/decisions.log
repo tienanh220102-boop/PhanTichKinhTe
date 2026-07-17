@@ -17957,3 +17957,14 @@
 2026-07-17 09:01 ACCEPT [Google News CB] "European Central Bank: September hike still on table – Commerzbank - F" | kw:central bank
 2026-07-17 09:01 ACCEPT [Google News CB] "Euro Slides as Dollar Gains on Fed Rate Outlook - TradingPedia" | kw:fed rate
 2026-07-17 09:01 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 09:31 ACCEPT [OilPrice.com] "Libya Declares Major Oil Discovery Commercial as Production Revival Ga" | kw:oil,opec
+2026-07-17 09:31 ACCEPT [Google News HH] "Hormuz Reopening Could be OPEC’s Undoing: Bousso - EnergyNow.com" | kw:opec
+2026-07-17 09:31 ACCEPT [Google News HH] "National average gas price nears $4 a gallon, AAA says - WRNJ Radio" | kw:gas,rice
+2026-07-17 09:31 ACCEPT [Google News HH] "Dakota Gold Price Target Raised to $10.75/Share From $10.50 by HC Wain" | kw:gold,rice
+2026-07-17 09:31 ACCEPT [Google News HH] "Brent crude oil set for highest weekly gain since April on Iran - Mont" | kw:oil,crude,brent
+2026-07-17 09:31 ACCEPT [Google News KL] "Inside Cartier's Transitional Year: Three New Gold Zones and a Septemb" | kw:gold
+2026-07-17 09:31 ACCEPT [Google News KL] "Silver price heads for weekly loss as Middle East tensions lift yields" | kw:silver,rice
+2026-07-17 09:31 ACCEPT [Google News CB] "Cooler Inflation May Not Be Enough to Stave Off Fed Rate Increases - T" | kw:inflation,fed rate
+2026-07-17 09:31 ACCEPT [Google News CB] "The ECB Holds Next Week — but Is a September Hike Locked In? - Yahoo F" | kw:ecb
+2026-07-17 09:31 ACCEPT [Google News CB] "Editorial: Why Canada can’t escape America’s central bank - Canadian A" | kw:central bank
+2026-07-17 09:31 SKIP_MORNING already_sent date=2026-07-17
