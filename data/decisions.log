@@ -18127,3 +18127,12 @@
 2026-07-17 16:01 ACCEPT [Google News CB] "Week Ahead for FX, Bonds: U.S., European PMI Data, ECB Decision in Foc" | kw:ecb
 2026-07-17 16:01 SKIP_MORNING already_sent date=2026-07-17
 2026-07-17 16:01 SKIP_EVENING already_sent date=2026-07-17
+2026-07-17 16:31 ACCEPT [OilPrice.com] "Oil Markets Ignore Mounting Risks at Their Own Peril" | kw:oil,fuel,rice
+2026-07-17 16:31 ACCEPT [Google News HH] "Broaden commodity exposure - UBS" | kw:commodity
+2026-07-17 16:31 ACCEPT [Google News HH] "Crude Oil & Gold Forecast: Key Levels to Watch - FOREX.com" | kw:oil,crude,gold
+2026-07-17 16:31 ACCEPT [Google News KL] "Gold remains under pressure as U.S. housing starts rise 19% in June - " | kw:gold
+2026-07-17 16:31 ACCEPT [Google News KL] "Gold Has Further To Fall, Warns Bank Of America - The Globe and Mail" | kw:gold
+2026-07-17 16:31 ACCEPT [Google News NS] "USDA Daily Grain Bids Report: July 17, 2026 – Cash Prices, Basis Level" | kw:rice
+2026-07-17 16:31 ACCEPT [Google News CB] "Hammack sees no conflict in Fed’s goals, inflation her worry - Crain's" | kw:inflation
+2026-07-17 16:31 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 16:31 SKIP_EVENING already_sent date=2026-07-17
