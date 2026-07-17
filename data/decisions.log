@@ -17917,3 +17917,9 @@
 2026-07-17 06:31 ACCEPT [Google News NS] "Escalating Wars Fuel Oil, Grain Surge and U.S. Rate Hike Prospects - 조" | kw:oil,fuel,rate hike
 2026-07-17 06:31 ACCEPT [Google News NS] "Wheat prices have reached a two-year high due to attacks by Russia - U" | kw:wheat,rice
 2026-07-17 06:31 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 07:01 ACCEPT [Google News HH] "Palworld - How to Farm Crude Oil (1.0 Update) - IGN Nordic" | kw:oil,crude
+2026-07-17 07:01 ACCEPT [Google News KL] "Gold price prediction: Is it time to buy gold on dips? Check July 17, " | kw:gold,rice
+2026-07-17 07:01 ACCEPT [Google News NS] "Growing Soy's Industrial Markets - Iowa Soybean Association" | kw:soybean
+2026-07-17 07:01 ACCEPT [Google News CB] "Rupee flat as central bank intervention halts slide, oil prices remain" | kw:oil,rice,central bank
+2026-07-17 07:01 ACCEPT [Google News CB] "Japan’s Katayama says no change in stance that BoJ decides specific mo" | kw:monetary policy,boj
+2026-07-17 07:01 SKIP_MORNING already_sent date=2026-07-17
