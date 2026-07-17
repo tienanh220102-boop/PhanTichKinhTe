@@ -17849,3 +17849,6 @@
 2026-07-17 01:01 ACCEPT [Google News HH] "Enterprise value to EBIT forward of E-Commodities Holdings Limited – S" | kw:commodities
 2026-07-17 01:01 ACCEPT [Google News CB] "Fed report to Congress sees 'stepped up' inflation in the spring - inv" | kw:inflation
 2026-07-17 01:01 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 01:31 ACCEPT [Google News KL] "Will gold prices extend their record-breaking run? - dw.com" | kw:gold,rice
+2026-07-17 01:31 ACCEPT [Google News KL] "Gold Prices Plunge Sharply: Is Investors' "Faith in Gold" Still Reliab" | kw:gold,rice
+2026-07-17 01:31 SKIP_MORNING already_sent date=2026-07-17
