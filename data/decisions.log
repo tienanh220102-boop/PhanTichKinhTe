@@ -18005,3 +18005,17 @@
 2026-07-17 11:01 ACCEPT [Google News CB] "Fed is laser-focused on inflation drop, Warsh says - Washington Examin" | kw:inflation
 2026-07-17 11:01 ACCEPT [Google News CB] "Indonesia central bank says it is monitoring banking liquidity - Reute" | kw:central bank
 2026-07-17 11:01 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 11:31 ACCEPT [OilPrice.com] "South Korea Bets on Red Sea Route as Hormuz Disruptions Persist" | kw:oil,crude,easing
+2026-07-17 11:31 ACCEPT [Google News HH] "AAA: Arkansas gas prices rise 8 cents as Strait of Hormuz instability " | kw:oil,crude,gas
+2026-07-17 11:31 ACCEPT [Google News HH] "Gas prices climb as crude oil approaches $80 per barrel - KWKT - FOX 4" | kw:oil,crude,gas
+2026-07-17 11:31 ACCEPT [Google News HH] "Global Commodities Roundup: Market Talk - Moomoo" | kw:lng,commodities
+2026-07-17 11:31 ACCEPT [Google News HH] "Enterprise value to revenue forward of E-Commodities Holdings Limited " | kw:commodities
+2026-07-17 11:31 ACCEPT [Google News HH] "Commodities weekly: war, weather and backwardation drive returns - Sax" | kw:commodities
+2026-07-17 11:31 ACCEPT [Google News KL] "Goldman sees central bank demand providing a floor for gold prices - I" | kw:gold,rice,central bank
+2026-07-17 11:31 ACCEPT [Google News KL] "Gold Funds Have Dipped. Are They Still a Good Hedge in This Market? - " | kw:gold
+2026-07-17 11:31 ACCEPT [Google News KL] "BHP Group (NYSE: BHP) hits record 265 Mt iron ore and 2 Mt copper - St" | kw:copper,iron
+2026-07-17 11:31 ACCEPT [Google News NS] "Corn Growers Urge DOJ Investigation Into ‘Collusive’ Fertilizer Indust" | kw:corn
+2026-07-17 11:31 ACCEPT [Google News CB] "Weak guardrails risk undermining BoJ’s climate lending scheme, warns t" | kw:central bank,boj
+2026-07-17 11:31 ACCEPT [Google News CB] "Fed is laser-focused on inflation drop, Warsh says - Washington Examin" | kw:inflation
+2026-07-17 11:31 ACCEPT [Google News CB] "Manufacturing surges as Fed weighs inflation risks - MSN" | kw:inflation
+2026-07-17 11:31 SKIP_MORNING already_sent date=2026-07-17
