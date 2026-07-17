@@ -17857,3 +17857,9 @@
 2026-07-17 02:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD falls to near $55.50 amid interest rate" | kw:silver,rice,interest rate
 2026-07-17 02:01 ACCEPT [Google News CB] "JGBs hold steady as investors weigh inflation, central bank signals - " | kw:inflation,central bank
 2026-07-17 02:01 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 02:31 ACCEPT [Al Jazeera] "How three Ivorian firms are competing with global brands" | kw:fuel
+2026-07-17 02:31 ACCEPT [Google News HH] "Dollar Strength Sparks Long Liquidation in Crude Oil Futures - Yahoo F" | kw:oil,crude
+2026-07-17 02:31 ACCEPT [Google News KL] "Copper Price Surge Drives Cathode-Scrap Spread Expansion; Supply Side " | kw:copper,rice
+2026-07-17 02:31 ACCEPT [Google News KL] "Gold Prices Plunge Sharply: Is Investors' "Faith in Gold" Still Reliab" | kw:gold,rice
+2026-07-17 02:31 ACCEPT [Google News CB] "Japan to leave monetary policy tools to BOJ in economic blueprint, Kyo" | kw:monetary policy,boj
+2026-07-17 02:31 SKIP_MORNING already_sent date=2026-07-17
