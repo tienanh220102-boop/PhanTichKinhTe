@@ -17979,3 +17979,17 @@
 2026-07-17 10:01 ACCEPT [Google News NS] "Ukrainian farmers have halted grain sales due to a collapse in purchas" | kw:rice
 2026-07-17 10:01 ACCEPT [Google News NS] "The Surprise Behind Today’s Soybean Prices - Market Monitor - Farms.co" | kw:soybean,rice
 2026-07-17 10:01 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 10:31 ACCEPT [MarketWatch] "SpaceX postponed a crucial launch — now its stock is set to slide even" | kw:rice
+2026-07-17 10:31 ACCEPT [OilPrice.com] "Japan's LNG Giant Weighs U.S. IPO to Accelerate Global Expansion" | kw:lng
+2026-07-17 10:31 ACCEPT [NASDAQ Commod] "Gold Headed For Significant Weekly Loss On Inflation Concerns" | kw:oil,gold,rice
+2026-07-17 10:31 ACCEPT [Google News HH] "$Crude Oil Futures (SEP6) (CLmain.US)$$Brent Last Day Financ... - Moom" | kw:oil,crude,brent
+2026-07-17 10:31 ACCEPT [Google News HH] "Brent, WTI Crude Oil Futures Jump Pre-Bell as Iran Strikes US Bases in" | kw:oil,crude,brent
+2026-07-17 10:31 ACCEPT [Google News HH] "Kuwait Crude Oil Price Falls by $3.64 per Barrel - Fana News -" | kw:oil,crude,rice
+2026-07-17 10:31 ACCEPT [Google News KL] "Silver price today: falls on July 17 - FXStreet" | kw:silver,rice
+2026-07-17 10:31 ACCEPT [Google News KL] "China’s resources deals turn gold mines into – gold mines - South Chin" | kw:gold
+2026-07-17 10:31 ACCEPT [Google News KL] "This week (July 10 – July 16), SMM copper wire and cable enterprise op" | kw:copper
+2026-07-17 10:31 ACCEPT [Google News KL] "Gold bulls seem hesitant as US-Iran tensions and Fed hike bets underpi" | kw:gold
+2026-07-17 10:31 ACCEPT [Google News NS] "Kazakhstan bans wheat imports for six months to curb inflows of Russia" | kw:wheat
+2026-07-17 10:31 ACCEPT [Google News CB] "Fed Chair Warsh Sidesteps Queries on Inflation, AI & Trump - Woodall's" | kw:inflation
+2026-07-17 10:31 ACCEPT [Google News CB] "Former Fed Economist Claudia Sahm Says Kevin Warsh Is 'Unanchored From" | kw:inflation
+2026-07-17 10:31 SKIP_MORNING already_sent date=2026-07-17
