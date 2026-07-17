@@ -18084,3 +18084,14 @@
 2026-07-17 14:10 ACCEPT [Google News CB] "Silver Hits Multi-Month Low on Fed Rate Outlook - TradingView" | kw:silver,fed rate
 2026-07-17 14:10 SKIP_MORNING already_sent date=2026-07-17
 2026-07-17 14:10 SKIP_EVENING already_sent date=2026-07-17
+2026-07-17 14:31 ACCEPT [BBC Business] "Why are UK fuel prices rising again?" | kw:fuel,rice
+2026-07-17 14:31 ACCEPT [Google News HH] "WTI Crude Oil: Elliott Wave Analysis and Forecast for 17.07.26–24.07.2" | kw:oil,crude,wti
+2026-07-17 14:31 ACCEPT [Google News HH] "Geopolitical Risk Premium Returns as Crude Posts Biggest Weekly Gain i" | kw:oil,crude,rice
+2026-07-17 14:31 ACCEPT [Google News HH] "Iraq’s Crude Oil Shipments Surge in First Half of July - Sunsirs" | kw:oil,crude,gdp
+2026-07-17 14:31 ACCEPT [Google News HH] "Gold Price Approaches $4,000 After Better-Than-Expected U.S. Consumer " | kw:wti,gold,rice
+2026-07-17 14:31 ACCEPT [Google News HH] "US-Iran Conflict Escalates, International Oil Prices Surge Over 3%: WT" | kw:oil,crude,wti
+2026-07-17 14:31 ACCEPT [Google News KL] "Silver Price Analysis – Silver Marks Fresh Lows as High Rates Punish B" | kw:silver,rice
+2026-07-17 14:31 ACCEPT [Google News NS] "Three Factors Drive Surge in International Wheat Prices - Sunsirs" | kw:wheat,rice
+2026-07-17 14:31 ACCEPT [Google News CB] "Fed’s Hammack Sees No Conflict in Mandate, Inflation Her Worry - Bloom" | kw:inflation
+2026-07-17 14:31 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 14:31 SKIP_EVENING already_sent date=2026-07-17
