@@ -18070,3 +18070,12 @@
 2026-07-17 13:31 ACCEPT [Google News CB] "EU imposes sanctions on Russian executive, five companies over drones " | kw:lng,sanction
 2026-07-17 13:31 SKIP_MORNING already_sent date=2026-07-17
 2026-07-17 13:31 SKIP_EVENING already_sent date=2026-07-17
+2026-07-17 14:01 ACCEPT [MarketWatch] "End of an era for this long-term bond bull as inflation takes hold and" | kw:inflation
+2026-07-17 14:01 ACCEPT [Google News HH] "Gold Price Analysis – Gold Barely Hangs On as Death Cross Threatens Su" | kw:gold,rice
+2026-07-17 14:01 ACCEPT [Google News HH] "Price to sales forward of E-Commodities Holdings Limited – SWB:WWY1 - " | kw:rice,commodities
+2026-07-17 14:01 ACCEPT [Google News HH] "Commodities weekly: war, weather and backwardation drive returns - Sax" | kw:commodities
+2026-07-17 14:01 ACCEPT [Google News CB] "Euro area monthly balance of payments: May 2026 - European Central Ban" | kw:central bank
+2026-07-17 14:01 ACCEPT [Google News CB] "South African rand eases ahead of inflation reading and central bank m" | kw:inflation,central bank
+2026-07-17 14:01 ACCEPT [Google News CB] "Injury replacements trial tweaked by ECB after consultation - Cricinfo" | kw:ecb
+2026-07-17 14:01 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 14:01 SKIP_EVENING already_sent date=2026-07-17
