@@ -18051,3 +18051,22 @@
 2026-07-17 13:01 ACCEPT [Google News CB] "How have interest rate expectations changed after this week's events? " | kw:interest rate
 2026-07-17 13:01 SKIP_MORNING already_sent date=2026-07-17
 2026-07-17 13:02 SENT_EVENING articles=20 date=2026-07-17 force=False
+2026-07-17 13:31 ACCEPT [CNBC Economy] "Import prices post surprise gain as costs of goods from China hit high" | kw:rice
+2026-07-17 13:31 ACCEPT [OilPrice.com] "Geopolitical Risk Premium Returns as Crude Posts Biggest Weekly Gain i" | kw:oil,crude,wti
+2026-07-17 13:31 ACCEPT [OilPrice.com] "Baghdad Bets on Syria and Turkey Pipelines to Secure Oil Exports" | kw:oil,crude
+2026-07-17 13:31 ACCEPT [OilPrice.com] "Iran Expands Oil Chokepoint Threat as Houthis Eye Red Sea Shipping" | kw:oil,shipping
+2026-07-17 13:31 ACCEPT [OilPrice.com] "China to Hike Retail Gasoline and Diesel Prices as Oil Jumps 12% in a " | kw:oil,crude,gas
+2026-07-17 13:31 ACCEPT [Google News HH] "Gold price falls Rs 800 to 3-week low; silver drops Rs 2,000 - Trading" | kw:gold,silver,rice
+2026-07-17 13:31 ACCEPT [Google News HH] "Price to earnings forward of E-Commodities Holdings Limited – SWB:WWY1" | kw:rice,commodities
+2026-07-17 13:31 ACCEPT [Google News HH] "Your Gas Bill Just Got More Expensive in Texas - Amarillo Country Radi" | kw:gas
+2026-07-17 13:31 ACCEPT [Google News HH] "Iraq's crude oil loadings in the first half of July more than doubled " | kw:oil,crude
+2026-07-17 13:31 ACCEPT [Google News KL] "Current price of gold: Month Day, Year - Fortune" | kw:gold,rice
+2026-07-17 13:31 ACCEPT [Google News KL] "Gold steadies, silver weakens as yields cap inflation-data relief - Ki" | kw:gold,silver,inflation
+2026-07-17 13:31 ACCEPT [Google News KL] "Gold set for biggest weekly drop in six weeks on oil surge - MSN" | kw:oil,gold
+2026-07-17 13:31 ACCEPT [Google News KL] "Gold Prices Stay Below $4,000 as Housing Permits Fall in June 2026 - N" | kw:gold,rice
+2026-07-17 13:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD Near $54 Despite Supply Deficit - FXLea" | kw:silver,rice
+2026-07-17 13:31 ACCEPT [Google News KL] "Gold Price Near $3,900: Will the Psychological Level Hold? - equiti.co" | kw:gold,rice
+2026-07-17 13:31 ACCEPT [Google News CB] "Fed Chair Warsh vows to fight inflation even as new CPI report shows 3" | kw:inflation
+2026-07-17 13:31 ACCEPT [Google News CB] "EU imposes sanctions on Russian executive, five companies over drones " | kw:lng,sanction
+2026-07-17 13:31 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 13:31 SKIP_EVENING already_sent date=2026-07-17
