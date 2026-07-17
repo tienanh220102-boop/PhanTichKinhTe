@@ -17923,3 +17923,10 @@
 2026-07-17 07:01 ACCEPT [Google News CB] "Rupee flat as central bank intervention halts slide, oil prices remain" | kw:oil,rice,central bank
 2026-07-17 07:01 ACCEPT [Google News CB] "Japan’s Katayama says no change in stance that BoJ decides specific mo" | kw:monetary policy,boj
 2026-07-17 07:01 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 07:31 ACCEPT [OilPrice.com] "Pakistan Plans Fresh LNG Purchases Amid Strait of Hormuz Shutdown" | kw:lng
+2026-07-17 07:31 ACCEPT [Google News KL] "Gold price breaks below $4,000 as bond yields overpower safe-haven dem" | kw:gold,rice
+2026-07-17 07:31 ACCEPT [Google News NS] "Kazakhstan Bans Wheat Imports for Six Months to Protect Domestic Grain" | kw:wheat
+2026-07-17 07:31 ACCEPT [Google News CB] "10-Year Treasury Note futures fell on crude and hawkish Fed. - CME Gro" | kw:crude,treasury
+2026-07-17 07:31 ACCEPT [Google News CB] "Industrial Metals Decline as Traders Weigh Fed Rate Outlook - Bloomber" | kw:fed rate
+2026-07-17 07:31 ACCEPT [Google News CB] "Gold Holds Above $4,000 Amid Fed Rate Pressure - TradingPedia" | kw:gold,fed rate
+2026-07-17 07:31 SKIP_MORNING already_sent date=2026-07-17
