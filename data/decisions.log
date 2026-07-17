@@ -17910,3 +17910,5 @@
 2026-07-17 06:01 ACCEPT [Google News KL] "Gold prices hold at $3,986.84 but slide 3.4 percent in biggest weekly " | kw:oil,gold,silver
 2026-07-17 06:01 ACCEPT [Google News CB] "Back to square one: Five questions for the ECB - Euronext Markets: Rea" | kw:ecb
 2026-07-17 06:01 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 06:13 ACCEPT [Google News KL] "$55: New YTD low for Silver price - FXStreet" | kw:silver,rice
+2026-07-17 06:13 SKIP_MORNING already_sent date=2026-07-17
