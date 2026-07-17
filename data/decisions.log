@@ -17993,3 +17993,9 @@
 2026-07-17 10:31 ACCEPT [Google News CB] "Fed Chair Warsh Sidesteps Queries on Inflation, AI & Trump - Woodall's" | kw:inflation
 2026-07-17 10:31 ACCEPT [Google News CB] "Former Fed Economist Claudia Sahm Says Kevin Warsh Is 'Unanchored From" | kw:inflation
 2026-07-17 10:31 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 10:39 ACCEPT [Google News HH] "Commodities weekly: war, weather and backwardation drive returns - Sax" | kw:commodities
+2026-07-17 10:39 ACCEPT [Google News HH] "International oil prices saw a slight decline on July 16. At the close" | kw:oil,crude,rice
+2026-07-17 10:39 ACCEPT [Google News KL] "Copper Prices Hit One-Week Low Amid US-Iran Tensions and Supply Concer" | kw:copper,rice
+2026-07-17 10:39 ACCEPT [Google News NS] "Marmara Wheat Prices Rise $3/mt on Kerch Strait, Azov Sea Strikes | Ju" | kw:wheat,rice
+2026-07-17 10:39 ACCEPT [Google News CB] "BoJ to leave interest rates in July policy meeting - Kyodo - FXStreet" | kw:interest rate,boj
+2026-07-17 10:39 SKIP_MORNING already_sent date=2026-07-17
