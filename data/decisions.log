@@ -17868,3 +17868,8 @@
 2026-07-17 03:01 ACCEPT [Google News HH] "Commodities Roundup: Oil Falls, Nickel Rises, Gold Slips - Sunsirs" | kw:oil,gold,nickel
 2026-07-17 03:01 ACCEPT [Google News CB] "Fed Vice Chair Signals Possible Rate Increases if Inflation Remains St" | kw:inflation
 2026-07-17 03:01 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 03:31 ACCEPT [Al Jazeera] "IEA chief warns Strait of Hormuz crisis threatens global energy securi" | kw:oil
+2026-07-17 03:31 ACCEPT [Google News HH] "Crude Oil Trading Alert: With the Strait of Hormuz closed and Red Sea " | kw:oil,crude,rice
+2026-07-17 03:31 ACCEPT [Google News HH] "Fed’s Jefferson: Middle East conflict to have limited impact on US oil" | kw:oil
+2026-07-17 03:31 ACCEPT [Google News KL] "Crypto’s biggest bull signal isn’t price – It’s tokenized gold flows i" | kw:gold,rice
+2026-07-17 03:31 SKIP_MORNING already_sent date=2026-07-17
