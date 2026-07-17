@@ -17852,3 +17852,8 @@
 2026-07-17 01:31 ACCEPT [Google News KL] "Will gold prices extend their record-breaking run? - dw.com" | kw:gold,rice
 2026-07-17 01:31 ACCEPT [Google News KL] "Gold Prices Plunge Sharply: Is Investors' "Faith in Gold" Still Reliab" | kw:gold,rice
 2026-07-17 01:31 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 02:01 ACCEPT [Google News HH] "Crude oil prices hold above US$79 as Middle East conflict fuels weekly" | kw:oil,crude,fuel
+2026-07-17 02:01 ACCEPT [Google News KL] "Manufacturing Just Had Its Best Month of 2026. Gold Just Had One of It" | kw:gold,silver
+2026-07-17 02:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD falls to near $55.50 amid interest rate" | kw:silver,rice,interest rate
+2026-07-17 02:01 ACCEPT [Google News CB] "JGBs hold steady as investors weigh inflation, central bank signals - " | kw:inflation,central bank
+2026-07-17 02:01 SKIP_MORNING already_sent date=2026-07-17
