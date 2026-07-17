@@ -17968,3 +17968,14 @@
 2026-07-17 09:31 ACCEPT [Google News CB] "The ECB Holds Next Week — but Is a September Hike Locked In? - Yahoo F" | kw:ecb
 2026-07-17 09:31 ACCEPT [Google News CB] "Editorial: Why Canada can’t escape America’s central bank - Canadian A" | kw:central bank
 2026-07-17 09:31 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 10:01 ACCEPT [BBC Business] "Why has British Steel been nationalised?" | kw:steel
+2026-07-17 10:01 ACCEPT [NASDAQ Commod] "Oil Headed For Sharp Weekly Gain As Middle East Conflict Escalates" | kw:oil,rice
+2026-07-17 10:01 ACCEPT [Google News HH] "WTI Crude Oil Futures Jump 2% to $80.49, Brent Crude Oil Futures Advan" | kw:oil,crude,brent
+2026-07-17 10:01 ACCEPT [Google News HH] "Indian Imports of Russian Crude Oil Expected to Surpass Five Million B" | kw:oil,crude,wti
+2026-07-17 10:01 ACCEPT [Google News HH] "IEA chief warns of energy security risks if Hormuz oil flows fail to r" | kw:oil
+2026-07-17 10:01 ACCEPT [Google News KL] "Current price of silver as of Friday, July 17, 2026 - Fortune" | kw:silver,rice
+2026-07-17 10:01 ACCEPT [Google News KL] "Silver price on track for weekly decline as Middle East tensions fuel " | kw:fuel,silver,rice
+2026-07-17 10:01 ACCEPT [Google News KL] "Technical analysis of the DAX 40, AUD/USD and copper price as they ret" | kw:copper,rice
+2026-07-17 10:01 ACCEPT [Google News NS] "Ukrainian farmers have halted grain sales due to a collapse in purchas" | kw:rice
+2026-07-17 10:01 ACCEPT [Google News NS] "The Surprise Behind Today’s Soybean Prices - Market Monitor - Farms.co" | kw:soybean,rice
+2026-07-17 10:01 SKIP_MORNING already_sent date=2026-07-17
