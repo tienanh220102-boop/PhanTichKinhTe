@@ -18042,3 +18042,12 @@
 2026-07-17 12:31 ACCEPT [Google News KL] "Why Gold Keeps Finding Buyers Near $4,000 - DailyForex" | kw:gold
 2026-07-17 12:31 ACCEPT [Google News CB] "European Central Bank: September hike risk assessed – Societe Generale" | kw:central bank
 2026-07-17 12:31 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 13:01 ACCEPT [Google News HH] "Strait of Hormuz closure: Why crude oil prices haven’t spiralled out o" | kw:oil,crude,rice
+2026-07-17 13:01 ACCEPT [Google News KL] "Silver prices today, Friday, July 17, 2026: Silver prices hit 8-month " | kw:silver,rice
+2026-07-17 13:01 ACCEPT [Google News NS] "ADM, General Mills, Walmart Regenerative Agriculture Partnership on 40" | kw:wheat
+2026-07-17 13:01 ACCEPT [Google News NS] "Turkey's grain market is on hold as it awaits a record harvest and a r" | kw:shipping,harvest
+2026-07-17 13:01 ACCEPT [Google News CB] "European Central Bank warns stablecoin growth may erode bank deposits " | kw:central bank
+2026-07-17 13:01 ACCEPT [Google News CB] "Stablecoin growth will erode bank deposits, says ECB’s Cipollone - Tra" | kw:ecb
+2026-07-17 13:01 ACCEPT [Google News CB] "How have interest rate expectations changed after this week's events? " | kw:interest rate
+2026-07-17 13:01 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 13:02 SENT_EVENING articles=20 date=2026-07-17 force=False
