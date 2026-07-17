@@ -17837,3 +17837,10 @@
 2026-07-17 00:31 ACCEPT [Google News CB] "Watch Jefferson Suggests Fed Hike Rates If Inflation Doesn't Cool - Bl" | kw:inflation
 2026-07-17 00:31 ACCEPT [Google News CB] "3 Large Cap U.S. Financial Stocks Linked To Fed Policy And Inflation -" | kw:inflation
 2026-07-17 00:31 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 00:57 ACCEPT [Google News KL] "Monster storm bears down on Chile’s copper mines as Iran flare-up ratt" | kw:copper
+2026-07-17 00:57 ACCEPT [Google News KL] "Metals Show Mixed Performance, LME Lead, LME Nickel, and SHFE Lead Ris" | kw:gold,silver,nickel
+2026-07-17 00:57 ACCEPT [Google News NS] "French Wheat Prices Surge to All-Time High Amid Black Sea Tensions and" | kw:wheat,rice
+2026-07-17 00:57 ACCEPT [Google News CB] "Fed’s Jefferson Says Policy Well Positioned If Inflation Cools - Bloom" | kw:inflation
+2026-07-17 00:57 ACCEPT [Google News CB] "Fed's Logan Says Rates Should Rise to Fight Inflation - Moomoo" | kw:inflation
+2026-07-17 00:57 ACCEPT [Google News CB] "Fed. Circ. Revives Commerce's Korean Steel Duty Findings - Law360" | kw:wti,steel
+2026-07-17 00:57 SKIP_MORNING already_sent date=2026-07-17
