@@ -17863,3 +17863,8 @@
 2026-07-17 02:31 ACCEPT [Google News KL] "Gold Prices Plunge Sharply: Is Investors' "Faith in Gold" Still Reliab" | kw:gold,rice
 2026-07-17 02:31 ACCEPT [Google News CB] "Japan to leave monetary policy tools to BOJ in economic blueprint, Kyo" | kw:monetary policy,boj
 2026-07-17 02:31 SKIP_MORNING already_sent date=2026-07-17
+2026-07-17 03:01 ACCEPT [BBC Business] "China hits out at British Steel nationalisation" | kw:steel
+2026-07-17 03:01 ACCEPT [Google News HH] "Türkiye and Iraq near 12-month deal to keep Kirkuk-Ceyhan crude oil pi" | kw:oil,crude
+2026-07-17 03:01 ACCEPT [Google News HH] "Commodities Roundup: Oil Falls, Nickel Rises, Gold Slips - Sunsirs" | kw:oil,gold,nickel
+2026-07-17 03:01 ACCEPT [Google News CB] "Fed Vice Chair Signals Possible Rate Increases if Inflation Remains St" | kw:inflation
+2026-07-17 03:01 SKIP_MORNING already_sent date=2026-07-17
