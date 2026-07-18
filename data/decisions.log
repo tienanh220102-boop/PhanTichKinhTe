@@ -18533,3 +18533,8 @@
 2026-07-18 16:45 ACCEPT [Google News NS] "Canadian wheat prices hit two-year high on futures rally - S&P Global" | kw:wheat,rice
 2026-07-18 16:45 SKIP_MORNING already_sent date=2026-07-18
 2026-07-18 16:45 SKIP_EVENING already_sent date=2026-07-18
+2026-07-18 17:01 ACCEPT [OilPrice.com] "U.S. Scientists Tap Seawater to Break China's Rare Earth Monopoly" | kw:nickel,supply chain
+2026-07-18 17:01 ACCEPT [Google News HH] "OPEC+ Agrees to Boost Oil Output When Strait of Hormuz Reopens - Energ" | kw:oil,opec
+2026-07-18 17:01 ACCEPT [Google News HH] "Intercontinental Exchange: For the week ending July 14, Brent crude oi" | kw:oil,crude,brent
+2026-07-18 17:01 ACCEPT [Google News NS] "Bayer licenses RAGT genetics for hybrid wheat expansion - High Plains " | kw:wheat
+2026-07-18 17:01 ACCEPT [Google News CB] "Iraqi PM: 'We welcome the understanding reached between the Central Ba" | kw:treasury,central bank
