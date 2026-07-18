@@ -337,73 +337,39 @@ def main():
         print("[telegram] Thiếu TELEGRAM_TOKEN/TELEGRAM_CHAT — bỏ qua gửi.", file=sys.stderr)
         return 0
 
-    rep = read_latest_report()
-    summary = extract_summary(rep)
-    movers = read_movers_raw()
-    mkt_news = market_news()
-    stocks = parse_stocks_from_summary(summary)
-    details = per_stock_details(rep)
     u = run_url()
-
-    # Tin riêng từng mã (1 tiêu đề/mã) — nguồn insight doanh nghiệp, không cần LLM
-    news_of = {}
-    for name, tk, _sig in stocks:
-        hs = _gnews(f"{name} {tk} cổ phiếu", n=1, days=14)
-        news_of[tk] = hs[0] if hs else ""
-        time.sleep(0.15)
-
+    mkt_news = market_news()  # Google News RSS — keyless
     gainers = extract_movers(os.path.join(REPORTS, "dich-chuyen-gia.md"), "Tăng mạnh nhất", top=6)
     losers = extract_movers(os.path.join(REPORTS, "dich-chuyen-gia.md"), "Giảm mạnh nhất", top=6)
     surge = extract_movers(os.path.join(REPORTS, "dich-chuyen-gia.md"), "Bùng khối lượng", top=5)
 
-    # Đoạn tổng quan thị trường/ngành (1 lần gọi Gemini, có thể vắng nếu hết quota)
-    data_block = ("TIN THỊ TRƯỜNG:\n" + "\n".join(f"- {t}" for t in mkt_news) +
-                  "\n\nTĂNG MẠNH: " + ", ".join(gainers) + "\nGIẢM MẠNH: " + ", ".join(losers))
-    overview = gemini_overview(data_block)
-
-    # ---- Dựng digest giàu thông tin, ĐỘC LẬP với LLM ----
+    # ---- Bản tin HOÀN TOÀN KEYLESS (không LLM/Gemini): tin thị trường + dịch chuyển giá
+    #      + phần TOP-DOWN định lượng. Luôn có nội dung, không phụ thuộc quota. ----
     L = [f"📈 <b>PHÂN TÍCH CHỨNG KHOÁN VN</b> — {datetime.now():%d/%m/%Y}",
          "<i>Tự động, tham khảo — không phải khuyến nghị.</i>", ""]
-    if overview:
-        L += ["🌐 <b>Bức tranh chung</b>", overview, ""]
-    elif mkt_news:
-        L += ["🌐 <b>Tin thị trường</b>"] + [f"• {html.escape(t)}" for t in mkt_news[:3]] + [""]
+    if mkt_news:
+        L += ["🌐 <b>Tin thị trường</b>"] + [f"• {html.escape(t)}" for t in mkt_news[:4]] + [""]
 
-    L.append("🎯 <b>Mã đáng chú ý</b> (quét toàn thị trường, chọn ra):")
-    for name, tk, sig in stocks:
-        act, score, trend = _vn_signal(sig)
-        d = details.get(tk, {})
-        head = f"\n<b>{html.escape(name)} ({tk})</b> — {act}"
-        if score is not None:
-            head += f" · điểm {score}/100"
-        if trend:
-            head += f" · {trend}"
-        L.append(head)
-        if d.get("oneliner"):
-            L.append(f"💡 {html.escape(d['oneliner'])}")
-        if d.get("risk"):
-            L.append(f"⚠️ Rủi ro: {html.escape(d['risk'])}")
-        if news_of.get(tk):
-            L.append(f"📰 {html.escape(news_of[tk])}")
+    if gainers or losers or surge:
+        L.append("📊 <b>Giá biến động mạnh trong ngày</b>")
+        if gainers:
+            L.append("🟢 Tăng: " + html.escape(", ".join(gainers)))
+        if losers:
+            L.append("🔴 Giảm: " + html.escape(", ".join(losers)))
+        if surge:
+            L.append("⚡ Bùng khối lượng: " + html.escape(", ".join(surge)))
+        L.append("<i>Biến động lớn thường đi kèm tin — nên tìm hiểu trước khi hành động.</i>")
 
-    L.append("\n📊 <b>Giá biến động mạnh trong ngày</b>")
-    if gainers:
-        L.append("🟢 Tăng: " + html.escape(", ".join(gainers)))
-    if losers:
-        L.append("🔴 Giảm: " + html.escape(", ".join(losers)))
-    if surge:
-        L.append("⚡ Bùng khối lượng: " + html.escape(", ".join(surge)))
-    L.append("<i>Biến động lớn thường đi kèm tin — nên tìm hiểu trước khi hành động.</i>")
-
-    L.append("\n💬 Đây là thông tin tự động, tham khảo. Người mới nên tìm hiểu kỹ, hỏi người có kinh nghiệm, không dồn hết vốn vào một mã.")
-    if u:
-        L.append(f'📄 <a href="{u}">Báo cáo kỹ thuật đầy đủ</a>')
-
-    # ---- Nối phần TOP-DOWN (định lượng, keyless) vào CÙNG một bản tin ----
+    # ---- Phần TOP-DOWN (định lượng theo CFA: nhịp/ngành/định giá/sự kiện) ----
     td = read_topdown_digest()
     if td:
         L.append("\n" + "━" * 18)
         L.append(td)
+
+    L.append("\n💬 Thông tin tự động, tham khảo. Người mới nên tìm hiểu kỹ, hỏi người có "
+             "kinh nghiệm, không dồn hết vốn vào một mã.")
+    if u:
+        L.append(f'📄 <a href="{u}">Báo cáo đầy đủ (artifact)</a>')
 
     text = "\n".join(L)
     print(text, file=sys.stderr)

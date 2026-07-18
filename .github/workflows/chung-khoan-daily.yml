@@ -11,20 +11,14 @@ on:
     - cron: '15 8 * * 1-5'   # 15:15 VN — sau khi đóng cửa (tổng kết ngày)
   workflow_dispatch:
     inputs:
-      top:
-        description: 'Số mã shortlist đưa vào phân tích LLM sâu'
-        required: false
-        default: '30'
       boards:
         description: 'Sàn quét (HOSE,HNX,UPCoM)'
         required: false
         default: 'HOSE,HNX,UPCoM'
-      report_language:
-        description: 'Ngôn ngữ báo cáo'
+      drill:
+        description: 'Số mã top-down định giá sâu'
         required: false
-        default: 'vi'
-        type: choice
-        options: [vi, en, zh]
+        default: '20'
 
 concurrency:
   group: chung-khoan-analysis
@@ -56,39 +50,21 @@ jobs:
       - name: Tạo thư mục
         run: mkdir -p data logs reports
 
-      - name: Chạy phân tích chứng khoán VN
+      # Bản tin "dịch chuyển giá" (top tăng/giảm/bùng khối lượng) — screener KEYLESS.
+      # ĐÃ BỎ tầng LLM (Gemini): tránh phụ thuộc quota, luôn có nội dung, không hallucinate.
+      # Phân tích chiều sâu giờ do bước TOP-DOWN (định lượng CFA, keyless) đảm nhiệm.
+      - name: Bản tin dịch chuyển giá (screener, keyless)
+        if: always()
         env:
-          # LLM — dùng lại secret GEMINI_API_KEY đã có sẵn của repo
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-2.5-flash' }}
-          GEMINI_MODEL_FALLBACK: 'gemini-2.5-flash-lite'
-          GEMINI_REQUEST_DELAY: '3.0'
-          # Cấu hình chạy. Lịch tự động dùng số mã vừa quota Gemini free (10);
-          # chạy tay mặc định 30 (có thể chỉnh qua input top).
-          SCREEN_TOP: ${{ github.event.inputs.top || (github.event_name == 'schedule' && '10' || '30') }}
           SCREEN_BOARDS: ${{ github.event.inputs.boards || 'HOSE,HNX,UPCoM' }}
-          REPORT_LANGUAGE: ${{ github.event.inputs.report_language || 'vi' }}
-          REPORT_TYPE: 'simple'
-          MARKET_REVIEW_ENABLED: 'false'
-          MARKET_REVIEW_REGION: 'vn'
-          TRADING_DAY_CHECK_ENABLED: 'false'
-          SINGLE_STOCK_NOTIFY: 'false'
           LOG_LEVEL: 'INFO'
-          MAX_WORKERS: '1'
         run: |
-          echo "=========================================="
-          echo "📈 Phân tích chứng khoán VN (HOSE/HNX/UPCoM)"
-          echo "🌐 Ngôn ngữ: $REPORT_LANGUAGE | Model: $GEMINI_MODEL"
-          echo "🔑 Gemini key: $([ -n "$GEMINI_API_KEY" ] && echo '✅ có' || echo '❌ thiếu')"
-          echo "=========================================="
-          echo "🔎 TẦNG 1 — Screener quét toàn thị trường (top $SCREEN_TOP, sàn $SCREEN_BOARDS)..."
+          echo "🔎 Screener quét toàn thị trường (sàn $SCREEN_BOARDS) → dịch chuyển giá..."
           mkdir -p reports
-          SHORTLIST=$(python scripts/vn_screener.py --top "$SCREEN_TOP" --boards "$SCREEN_BOARDS" --movers-out reports/dich-chuyen-gia.md)
-          if [ -z "$SHORTLIST" ]; then echo "❌ Screener không trả mã nào"; exit 1; fi
-          echo "🎯 Shortlist: $SHORTLIST"
-          echo ""; echo "===== 📊 DỊCH CHUYỂN GIÁ NỔI BẬT TRONG NGÀY ====="; cat reports/dich-chuyen-gia.md; echo "================================================="
-          echo "🤖 TẦNG 2 — Phân tích LLM sâu trên shortlist..."
-          python main.py --stocks "$SHORTLIST" --no-market-review --force-run
+          python scripts/vn_screener.py --top 30 --boards "$SCREEN_BOARDS" \
+            --movers-out reports/dich-chuyen-gia.md \
+            || echo "⚠️ Screener lỗi (bỏ qua — top-down vẫn chạy)"
+          echo "===== 📊 DỊCH CHUYỂN GIÁ ====="; cat reports/dich-chuyen-gia.md 2>/dev/null || true
 
       # ---- Phân tích TOP-DOWN (định lượng, keyless, độc lập với screener+LLM) ----
       # Nền CFA L2: nhịp thị trường → ngành → định giá mã (percentile/justified P/B/CAMELS)
@@ -99,7 +75,7 @@ jobs:
         working-directory: chung-khoan/topdown
         env:
           TD_LIQUID: '120'
-          TD_DRILL: ${{ github.event_name == 'schedule' && '15' || '20' }}
+          TD_DRILL: ${{ github.event.inputs.drill || (github.event_name == 'schedule' && '15' || '20') }}
         run: |
           echo "🧭 Top-down: liquid $TD_LIQUID, drill $TD_DRILL (keyless, không LLM)"
           mkdir -p ../reports
@@ -107,13 +83,13 @@ jobs:
             --digest-out ../reports/topdown_digest.txt
 
       # Một bản tin Telegram duy nhất: digest LLM screener + phần top-down nối vào cuối.
-      - name: Gửi digest Telegram (gộp LLM screener + top-down)
+      # Một bản tin Telegram DUY NHẤT, hoàn toàn keyless: tin thị trường + dịch chuyển giá
+      # + phần top-down định lượng. Không dùng Gemini.
+      - name: Gửi digest Telegram (keyless)
         if: always()
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT: ${{ secrets.TELEGRAM_CHAT }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-2.5-flash' }}
         run: python scripts/send_telegram_vn.py
 
       - name: Tải lên báo cáo (artifact)
