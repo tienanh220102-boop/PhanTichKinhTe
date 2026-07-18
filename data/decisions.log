@@ -18508,3 +18508,9 @@
 2026-07-18 14:44 ACCEPT [Google News CB] "Fed's Logan: It's much too soon to think about cutting interest rates " | kw:interest rate
 2026-07-18 14:44 SKIP_MORNING already_sent date=2026-07-18
 2026-07-18 14:44 SKIP_EVENING already_sent date=2026-07-18
+2026-07-18 15:01 ACCEPT [Al Jazeera] "Iraq signs 48 deals with US companies during PM’s visit to Washington" | kw:oil,crude
+2026-07-18 15:01 ACCEPT [OilPrice.com] "Oil and Gas Employment Hits a 2026 Low Even as Production Sets Records" | kw:oil,gas
+2026-07-18 15:01 ACCEPT [Google News HH] "The Shanghai International Energy Exchange crude oil futures closed th" | kw:oil,crude,gold
+2026-07-18 15:01 ACCEPT [Google News KL] "Gold prices decline - The Daily Star" | kw:gold,rice
+2026-07-18 15:01 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 15:01 SKIP_EVENING already_sent date=2026-07-18
