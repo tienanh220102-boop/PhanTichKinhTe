@@ -254,20 +254,27 @@ class VNReport:
         neg_all = []
         for s in stocks:
             for n in s.get("tin_tiêu_cực", []):
-                neg_all.append((s["symbol"], n))
-        neg_all.sort(key=lambda x: (x[1].get("ngày") or dt.date.min), reverse=True)
+                neg_all.append((s["symbol"], "cty", n))
+            for n in s.get("tin_lãnh_đạo", []):
+                neg_all.append((s["symbol"], "ld", n))
+        neg_all.sort(key=lambda x: (x[2].get("ngày") or dt.date.min), reverse=True)
         if neg_all:
             L.append("")
             L.append("🚨 TIN TIÊU CỰC / PHỐT (báo chí — cần kiểm chứng):")
-            for sym_, n in neg_all[:6]:
+            for sym_, kind, n in neg_all[:8]:
                 dd = n["ngày"].strftime("%d/%m") if n.get("ngày") else "?"
-                L.append(f"• {sym_}: [{dd}] {n['tiêu_đề']} ({n.get('nguồn') or '?'})")
+                if kind == "ld":
+                    tag = "" if n.get("khớp_công_ty") else " [chỉ khớp tên]"
+                    L.append(f"• {sym_} — 👤 {n.get('lãnh_đạo')} ({n.get('chức') or '?'}): "
+                             f"[{dd}] {n['tiêu_đề']}{tag}")
+                else:
+                    L.append(f"• {sym_}: [{dd}] {n['tiêu_đề']} ({n.get('nguồn') or '?'})")
 
         # 3) ⚠️ Rủi ro ĐỊNH GIÁ/TÀI CHÍNH (loại trừ tin tiêu cực đã nêu ở trên)
         risky = []
         for s in stocks:
-            qf = [f for f in s.get("cờ_rủi_ro", [])
-                  if not str(f).startswith("🚨 TIN TIÊU CỰC")]
+            # loại mọi cờ 🚨 (tin tiêu cực cty + lãnh đạo) — đã nêu ở mục phốt phía trên
+            qf = [f for f in s.get("cờ_rủi_ro", []) if not str(f).startswith("🚨")]
             if qf:
                 risky.append((s, qf[0]))
         if risky:
@@ -364,7 +371,8 @@ class VNReport:
         sec_txt = f" · {sec_l1 or '?'} › {sec_l2 or '?'}"
         rec: Dict[str, object] = {"symbol": sym, "tên": name, "ngành": sec_l1,
                                   "tóm_tắt": None, "cờ_rủi_ro": [], "sự_kiện": [],
-                                  "tin": [], "tin_báo_chí": [], "tin_tiêu_cực": []}
+                                  "tin": [], "tin_báo_chí": [], "tin_tiêu_cực": [],
+                                  "tin_lãnh_đạo": []}
         lines = [f"### {sym}{sec_txt}\n"]
         try:
             a = self.val.assess(sym)
@@ -436,6 +444,28 @@ class VNReport:
                     lines.append("")
             except Exception as e:  # noqa: BLE001
                 lines.append(f"_Lấy tin báo chí lỗi: {e}_\n")
+
+            # Tin PHÁP LÝ theo TÊN lãnh đạo đương nhiệm (bắt cả tin không nhắc công ty)
+            try:
+                officers = self.ev.get_officers(sym)
+                ld = self.news.leader_scan(officers, symbol=sym)
+                rec["tin_lãnh_đạo"] = ld
+                for n in ld:
+                    d = n["ngày"].strftime("%d/%m") if n.get("ngày") else "?"
+                    conf = "" if n.get("khớp_công_ty") else " [chỉ khớp tên — dễ trùng]"
+                    rec["cờ_rủi_ro"].insert(
+                        0, f"🚨 LÃNH ĐẠO — {n['lãnh_đạo']} ({n.get('chức') or '?'}) [{d}]: "
+                           f"{n['tiêu_đề']} (nguồn: {n.get('nguồn') or '?'}){conf} — cần kiểm chứng")
+                if ld:
+                    lines.append("Tin pháp lý liên quan lãnh đạo (đương nhiệm, cần kiểm chứng):")
+                    for n in ld:
+                        d = n["ngày"].strftime("%d/%m") if n.get("ngày") else "?"
+                        tag = "" if n.get("khớp_công_ty") else " (chỉ khớp tên)"
+                        lines.append(f"- 🚨 [{d}] {n['lãnh_đạo']} ({n.get('chức') or '?'}): "
+                                     f"{n['tiêu_đề']}{tag}")
+                    lines.append("")
+            except Exception as e:  # noqa: BLE001
+                lines.append(f"_Dò tin lãnh đạo lỗi: {e}_\n")
         return "\n".join(lines), rec
 
 

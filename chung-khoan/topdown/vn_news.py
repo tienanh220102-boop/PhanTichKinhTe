@@ -205,6 +205,55 @@ class VNNews:
         return chosen
 
 
+    def leader_scan(self, officers: List[Dict[str, object]], symbol: str = "",
+                    days: int = 45, roles_top: int = 4, per_leader: int = 1
+                    ) -> List[Dict[str, object]]:
+        """Dò tin PHÁP LÝ/tiêu cực theo TÊN lãnh đạo (bắt cả tin KHÔNG nhắc công ty —
+        vd 'ông X bị khởi tố'). Chỉ giữ tin MỨC 3 (tiêu cực), yêu cầu tên khớp trong tiêu đề.
+
+        CẢNH BÁO trùng tên: tìm theo tên người có thể dính người khác cùng tên → mọi tin đều
+        gắn nhãn 'cần kiểm chứng'; nếu tiêu đề cũng nhắc mã thì độ tin cao hơn (khớp_công_ty=True).
+        Chỉ quét `roles_top` lãnh đạo cao nhất (Chủ tịch/TGĐ/Phó TGĐ) để giới hạn số lần gọi.
+        """
+        symbol = symbol.upper().strip()
+        out: List[Dict[str, object]] = []
+        today = dt.date.today()
+        cutoff = today - dt.timedelta(days=days)
+        for off in (officers or [])[:roles_top]:
+            name = (off.get("tên") or "").strip()
+            if len(name.split()) < 2:   # cần họ + tên để bớt trùng
+                continue
+            raw = self._rss(f'"{name}"', n=15)
+            time.sleep(self.pause)
+            cand = []
+            for it in raw:
+                d = it["ngày"]
+                if d is None or d < cutoff or d > today:
+                    continue
+                low = it["tiêu_đề"].lower()
+                if name.lower() not in low:      # phải nhắc ĐÚNG tên
+                    continue
+                lvl, lab = _impact(it["tiêu_đề"])
+                if lvl != 3:                     # chỉ quan tâm tin tiêu cực
+                    continue
+                cand.append({**it, "tác_động": 3, "nhãn": lab, "số_nguồn": 1,
+                             "lãnh_đạo": name, "chức": off.get("chức"),
+                             "khớp_công_ty": bool(symbol and re.search(
+                                 rf"\b{re.escape(symbol.lower())}\b", low))})
+            cand.sort(key=lambda x: x["ngày"], reverse=True)
+            seen, k = set(), 0
+            for it in cand:
+                if it["tiêu_đề"] in seen:
+                    continue
+                seen.add(it["tiêu_đề"])
+                out.append(it)
+                k += 1
+                if k >= per_leader:
+                    break
+        out.sort(key=lambda x: x["ngày"], reverse=True)
+        return out
+
+
 def fmt_news(n: Dict[str, object]) -> str:
     """Một dòng tin: [ngày] m/mark tiêu đề (nguồn ×số_nguồn)."""
     d = n["ngày"].strftime("%d/%m") if n.get("ngày") else "?"

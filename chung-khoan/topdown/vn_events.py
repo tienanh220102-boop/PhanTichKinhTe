@@ -72,6 +72,25 @@ _CORE_CODES = "DIV,ISS,AGME,AGMR,EGME,MA,NLIS,MOVE,SUSP,RETU"
 _ALL_CODES = _CORE_CODES + ",DDIND,DDINS,DDRP,AIS,OTHE"
 
 
+# Vai trò lãnh đạo → hạng ưu tiên (nhỏ = quan trọng/tác động lớn hơn khi dính pháp lý).
+# THỨ TỰ QUAN TRỌNG: đặt cụm 'phó ...' TRƯỚC để khớp đúng (không để 'phó chủ tịch' rơi vào
+# 'chủ tịch'); Chủ tịch=0, TGĐ=1 để CEO không bị Phó Chủ tịch đẩy xuống.
+_LEADER_ROLES = [
+    ("phó chủ tịch", 2), ("chủ tịch", 0),
+    ("phó tổng giám đốc", 3), ("phó tổng", 3), ("tổng giám đốc", 1),
+    ("thành viên hội đồng", 4), ("giám đốc", 3),
+    ("ban kiểm soát", 5), ("kế toán trưởng", 6),
+]
+
+
+def _role_rank(pos: str) -> int:
+    low = (pos or "").lower()
+    for kw, r in _LEADER_ROLES:
+        if kw in low:
+            return r
+    return 9
+
+
 def _parse_date(s: object) -> Optional[dt.date]:
     """ISO 'YYYY-MM-DDTHH:MM:SS' hoặc 'YYYY-MM-DD' -> date; None nếu hỏng."""
     if not s or not isinstance(s, str):
@@ -198,7 +217,31 @@ class VCIEvents:
         out.sort(key=lambda x: x["ngày"], reverse=True)
         return out
 
-    # ---- 3. Tóm tắt gọn cho báo cáo ----
+    # ---- 3. Lãnh đạo ĐƯƠNG NHIỆM (để dò tin pháp lý theo tên người) ----
+    def get_officers(self, symbol: str, max_n: int = 6) -> List[Dict[str, object]]:
+        """Lãnh đạo ĐƯƠNG NHIỆM từ VCI /shareholder: [{tên, chức, rank}], ưu tiên vai trò cao.
+
+        LƯU Ý: chỉ có người ĐƯƠNG NHIỆM — CỰU lãnh đạo (đã rời) KHÔNG xuất hiện ở nguồn này.
+        """
+        symbol = symbol.upper().strip()
+        data = self._get(f"/v1/company/{symbol}/shareholder", {})
+        out, seen = [], set()
+        for it in data or []:
+            if str(it.get("ownerType", "")).upper() != "INDIVIDUAL":
+                continue
+            nm = (it.get("ownerName") or "").strip()
+            pos = (it.get("positionName") or "").strip()
+            if not nm or not pos or nm in seen:
+                continue
+            rank = _role_rank(pos)
+            if rank >= 9:  # không phải vai trò lãnh đạo rõ ràng → bỏ
+                continue
+            seen.add(nm)
+            out.append({"tên": nm, "chức": pos, "rank": rank})
+        out.sort(key=lambda x: x["rank"])
+        return out[:max_n]
+
+    # ---- 4. Tóm tắt gọn cho báo cáo ----
     def recent(self, symbol: str, days_events: int = 120, days_news: int = 30,
                max_events: int = 4, max_news: int = 4) -> Dict[str, object]:
         """Bản gọn dùng cho báo cáo: sự kiện quan trọng (bỏ nhiễu nội bộ) + tin mới nhất."""
