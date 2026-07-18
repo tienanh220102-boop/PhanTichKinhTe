@@ -18301,3 +18301,10 @@
 2026-07-18 03:01 ACCEPT [Google News KL] "Gold Price Floor 'Holds' as AI Tech Slump Escalates - BullionVault" | kw:gold,rice
 2026-07-18 03:01 ACCEPT [Google News CB] "Indonesia central bank says it is monitoring banking liquidity - whbl." | kw:central bank
 2026-07-18 03:01 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 03:31 ACCEPT [Google News HH] "U.S. Crude Oil Inventories Fall 564,000 Barrels; SPR Hits 43-Year Low " | kw:oil,crude
+2026-07-18 03:31 ACCEPT [Google News HH] "Gold drops below $4,000 as US.-Iran strikes lift crude oil, sparking r" | kw:oil,crude,gold
+2026-07-18 03:31 ACCEPT [Google News NS] "Canada Markets Blog: December Corn Chart Provides a Wealth of Technica" | kw:corn
+2026-07-18 03:31 ACCEPT [Google News CB] "BOJ likely to raise growth forecast and stand pat, sources say - The J" | kw:boj
+2026-07-18 03:31 ACCEPT [Google News CB] "Trump eases Fed rate cut push as inflation tops 4% - MSN" | kw:inflation,fed rate,rate cut
+2026-07-18 03:31 ACCEPT [Google News CB] "Hammack: Stubborn Inflation May Prompt Fed to Hike Rates Aga - Briefs " | kw:inflation
+2026-07-18 03:31 SKIP_MORNING already_sent date=2026-07-18
