@@ -18289,3 +18289,8 @@
 2026-07-18 01:42 ACCEPT [Google News KL] "Avanti Gold Clarifies Facts for Shareholders and Continues to Deliver " | kw:gold
 2026-07-18 01:42 ACCEPT [Google News NS] "Closing Market Update: Wars drive up grain, oilseed futures | July 17," | kw:oil
 2026-07-18 01:42 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 02:01 ACCEPT [Google News HH] "Escalation of US-Iran Hostilities Pushes Crude Oil Sharply Higher - Ya" | kw:oil,crude
+2026-07-18 02:01 ACCEPT [Google News HH] "Iraq, Syria sign deal in Washington to revive crude oil pipeline - A N" | kw:oil,crude
+2026-07-18 02:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG hits fresh YTD low, bears eye $54 breakdown" | kw:silver,rice
+2026-07-18 02:01 ACCEPT [Google News NS] "Commodity markets daily recap - St Joseph Post" | kw:commodity
+2026-07-18 02:01 SKIP_MORNING already_sent date=2026-07-18
