@@ -18461,3 +18461,7 @@
 2026-07-18 12:11 ACCEPT [Google News KL] "BofA sees lost year taking shape for gold - thestreet.com" | kw:gold
 2026-07-18 12:11 ACCEPT [Google News KL] "Gold heads for steep weekly loss as Fed hike fears grow - MSN" | kw:gold
 2026-07-18 12:11 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 12:31 ACCEPT [Google News KL] "Infographic: Domestic and global gold prices both rise on July 18 - Nh" | kw:gold,rice
+2026-07-18 12:31 ACCEPT [Google News NS] "CIF/FOB Gulf Grain-Corn barge basis bids flat to lower - Bitget" | kw:corn
+2026-07-18 12:31 ACCEPT [Google News NS] "Bangladesh’s wheat imports surge to all-time high - The Daily Star" | kw:wheat
+2026-07-18 12:31 SKIP_MORNING already_sent date=2026-07-18
