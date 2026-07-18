@@ -18437,3 +18437,10 @@
 2026-07-18 11:01 ACCEPT [Google News KL] "Gold steadies near $4,000 as chip selloff hits equities - Kitco PM Rep" | kw:gold
 2026-07-18 11:01 ACCEPT [Google News NS] "Corn Festival highlights People's Patch - Axios" | kw:corn
 2026-07-18 11:01 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 11:27 ACCEPT [Google News KL] "Gold prices inch up - VnExpress International" | kw:gold,rice
+2026-07-18 11:27 ACCEPT [Google News NS] "After the Bell | Bullish weekly closes in soybean and wheat futures - " | kw:wheat,soybean
+2026-07-18 11:27 ACCEPT [Google News NS] "A family of farmers in Cherkasy region harvests early crop of sugar co" | kw:corn,sugar,harvest
+2026-07-18 11:28 ACCEPT [Google News CB] "The unanswered questions as new Fed chief vows to end US inflation - T" | kw:inflation
+2026-07-18 11:28 ACCEPT [Google News CB] "Fed’s Warsh drops fresh clues on interest-rate path, inflation - thest" | kw:inflation
+2026-07-18 11:28 ACCEPT [Google News CB] "There's no 'excuse' for rate hike, Hassett says. Does the Fed agree? -" | kw:rate hike
+2026-07-18 11:28 SKIP_MORNING already_sent date=2026-07-18
