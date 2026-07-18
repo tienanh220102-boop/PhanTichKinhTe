@@ -18521,3 +18521,8 @@
 2026-07-18 15:31 SKIP_EVENING already_sent date=2026-07-18
 2026-07-18 15:45 SKIP_MORNING already_sent date=2026-07-18
 2026-07-18 15:45 SKIP_EVENING already_sent date=2026-07-18
+2026-07-18 16:01 ACCEPT [Google News HH] "Trump Welcomes United Arab Emirates Exit From OPEC - EnergyNow" | kw:opec
+2026-07-18 16:01 ACCEPT [Google News HH] "Nigeria oil output don reach 74-month high, pass OPEC quota - TRT Afri" | kw:oil,opec
+2026-07-18 16:01 ACCEPT [Google News KL] "As risk-off sentiment recedes and gold prices pull back, can Chifeng G" | kw:gold,rice
+2026-07-18 16:01 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 16:01 SKIP_EVENING already_sent date=2026-07-18
