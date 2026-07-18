@@ -36,6 +36,7 @@ from vn_data import ensure_utf8_stdout
 from vn_topdown import VNTopDown
 from vn_valuation import VNValuation
 from vn_events import VCIEvents, fmt_event
+from vn_news import VNNews, fmt_news
 
 logger = logging.getLogger(__name__)
 
@@ -120,6 +121,7 @@ class VNReport:
         # dùng chung client fundamentals/sectors giữa top-down và valuation (đỡ handshake lại)
         self.val = VNValuation(fx=self.td.fx, sx=self.td.sx)
         self.ev = VCIEvents()
+        self.news = VNNews()
         self.sector_level = sector_level
         # gom dữ liệu có cấu trúc để tái dùng cho digest Telegram (điền trong build())
         self.data: Dict[str, object] = {}
@@ -128,7 +130,7 @@ class VNReport:
               boards: Optional[List[str]] = None, with_peers: bool = False,
               symbols: Optional[List[str]] = None,
               max_per_sector: Optional[int] = None,
-              with_events: bool = True) -> str:
+              with_events: bool = True, with_news: bool = True) -> str:
         today = dt.date.today().isoformat()
         self.data = {"ngày": today, "nhịp": {}, "ngành_trọng_điểm": [], "mã": []}
         parts: List[str] = []
@@ -210,7 +212,7 @@ class VNReport:
 
         for i, sym in enumerate(drill_syms, 1):
             logger.info("4/4 Định giá %d/%d: %s", i, len(drill_syms), sym)
-            md, rec = self._assess_block(sym, smap, with_peers, with_events)
+            md, rec = self._assess_block(sym, smap, with_peers, with_events, with_news)
             parts.append(md)
             self.data["mã"].append(rec)
 
@@ -246,13 +248,33 @@ class VNReport:
             L.append(f"🏭 Ngành trọng điểm: {', '.join(focus)}")
 
         stocks = d.get("mã") or []
-        # 2) Cảnh báo rủi ro (mã có cờ) — cho người mới biết chỗ nào cần né
-        risky = [s for s in stocks if s.get("cờ_rủi_ro")]
+
+        # 2) 🚨 TIN TIÊU CỰC / PHỐT (ƯU TIÊN CAO NHẤT) — gom mọi mã, sắp MỚI→CŨ.
+        #    Phốt (khởi tố/bắt/điều tra/thao túng/phạt) ảnh hưởng nặng tài chính DN.
+        neg_all = []
+        for s in stocks:
+            for n in s.get("tin_tiêu_cực", []):
+                neg_all.append((s["symbol"], n))
+        neg_all.sort(key=lambda x: (x[1].get("ngày") or dt.date.min), reverse=True)
+        if neg_all:
+            L.append("")
+            L.append("🚨 TIN TIÊU CỰC / PHỐT (báo chí — cần kiểm chứng):")
+            for sym_, n in neg_all[:6]:
+                dd = n["ngày"].strftime("%d/%m") if n.get("ngày") else "?"
+                L.append(f"• {sym_}: [{dd}] {n['tiêu_đề']} ({n.get('nguồn') or '?'})")
+
+        # 3) ⚠️ Rủi ro ĐỊNH GIÁ/TÀI CHÍNH (loại trừ tin tiêu cực đã nêu ở trên)
+        risky = []
+        for s in stocks:
+            qf = [f for f in s.get("cờ_rủi_ro", [])
+                  if not str(f).startswith("🚨 TIN TIÊU CỰC")]
+            if qf:
+                risky.append((s, qf[0]))
         if risky:
             L.append("")
-            L.append("⚠️ Cần thận trọng:")
-            for s in risky[:5]:
-                L.append(f"• {s['symbol']} ({s.get('ngành') or '?'}): {s['cờ_rủi_ro'][0]}")
+            L.append("⚠️ Cần thận trọng (định giá/tài chính):")
+            for s, flag in risky[:5]:
+                L.append(f"• {s['symbol']} ({s.get('ngành') or '?'}): {flag}")
 
         # 3) Định giá nghiêng RẺ (cơ hội đáng soi) — không phải khuyến nghị
         cheap = [s for s in stocks if s.get("tóm_tắt") and "RẺ" in s["tóm_tắt"]
@@ -333,7 +355,7 @@ class VNReport:
 
     # ---- khối định giá cho một mã: trả (markdown, record có cấu trúc) ----
     def _assess_block(self, sym: str, smap: pd.DataFrame, with_peers: bool,
-                      with_events: bool):
+                      with_events: bool, with_news: bool = True):
         sec_row = smap[smap["symbol"] == sym]
         sec_l1 = sec_l2 = name = None
         if not sec_row.empty:
@@ -341,7 +363,8 @@ class VNReport:
             sec_l1, sec_l2, name = r.get("icb_l1"), r.get("icb_l2"), r.get("name")
         sec_txt = f" · {sec_l1 or '?'} › {sec_l2 or '?'}"
         rec: Dict[str, object] = {"symbol": sym, "tên": name, "ngành": sec_l1,
-                                  "tóm_tắt": None, "cờ_rủi_ro": [], "sự_kiện": [], "tin": []}
+                                  "tóm_tắt": None, "cờ_rủi_ro": [], "sự_kiện": [],
+                                  "tin": [], "tin_báo_chí": [], "tin_tiêu_cực": []}
         lines = [f"### {sym}{sec_txt}\n"]
         try:
             a = self.val.assess(sym)
@@ -393,6 +416,26 @@ class VNReport:
                     lines.append("")
             except Exception as e:  # noqa: BLE001
                 lines.append(f"_Lấy sự kiện lỗi: {e}_\n")
+
+        # ---- Tin BÁO CHÍ ngoài (Google News) — bắt "phốt": khởi tố/điều tra/phạt... ----
+        if with_news:
+            try:
+                curated = self.news.curate(sym, name)
+                rec["tin_báo_chí"] = curated
+                neg = [n for n in curated if n.get("tác_động") == 3]
+                rec["tin_tiêu_cực"] = neg
+                # tin tiêu cực = cờ rủi ro CAO, đưa lên đầu danh sách cờ
+                for n in neg:
+                    d = n["ngày"].strftime("%d/%m") if n.get("ngày") else "?"
+                    rec["cờ_rủi_ro"].insert(0, f"🚨 TIN TIÊU CỰC [{d}]: {n['tiêu_đề']} "
+                                            f"(nguồn: {n.get('nguồn') or '?'}) — cần kiểm chứng")
+                if curated:
+                    lines.append("Tin báo chí gần đây (mới→cũ, đã lọc trùng):")
+                    for n in curated:
+                        lines.append(f"- {fmt_news(n)}")
+                    lines.append("")
+            except Exception as e:  # noqa: BLE001
+                lines.append(f"_Lấy tin báo chí lỗi: {e}_\n")
         return "\n".join(lines), rec
 
 
@@ -412,7 +455,9 @@ def main():
     ap.add_argument("--peers", action="store_true",
                     help="Bật so sánh peer ngành cho mỗi mã (tốn nhiều API hơn)")
     ap.add_argument("--no-events", action="store_true",
-                    help="Tắt phần sự kiện & tin doanh nghiệp (mặc định: bật)")
+                    help="Tắt phần sự kiện & tin DN chính thức (mặc định: bật)")
+    ap.add_argument("--no-news", action="store_true",
+                    help="Tắt phần tin báo chí ngoài / dò phốt (mặc định: bật)")
     ap.add_argument("--telegram", action="store_true",
                     help="Gửi digest tất định qua Telegram (cần TELEGRAM_TOKEN/TELEGRAM_CHAT)")
     ap.add_argument("--digest-out", type=str, default=None,
@@ -431,7 +476,8 @@ def main():
     rep = VNReport(sector_level=args.sector_level)
     md = rep.build(liquid_top=args.liquid, drill=args.drill, boards=boards,
                    with_peers=args.peers, symbols=symbols,
-                   max_per_sector=args.per_sector, with_events=not args.no_events)
+                   max_per_sector=args.per_sector, with_events=not args.no_events,
+                   with_news=not args.no_news)
 
     REPORTS_DIR.mkdir(exist_ok=True)
     out_path = Path(args.out) if args.out else REPORTS_DIR / f"{dt.date.today().isoformat()}_phantich.md"

@@ -338,17 +338,16 @@ def main():
         return 0
 
     u = run_url()
-    mkt_news = market_news()  # Google News RSS — keyless
     gainers = extract_movers(os.path.join(REPORTS, "dich-chuyen-gia.md"), "Tăng mạnh nhất", top=6)
     losers = extract_movers(os.path.join(REPORTS, "dich-chuyen-gia.md"), "Giảm mạnh nhất", top=6)
     surge = extract_movers(os.path.join(REPORTS, "dich-chuyen-gia.md"), "Bùng khối lượng", top=5)
 
-    # ---- Bản tin HOÀN TOÀN KEYLESS (không LLM/Gemini): tin thị trường + dịch chuyển giá
-    #      + phần TOP-DOWN định lượng. Luôn có nội dung, không phụ thuộc quota. ----
+    # ---- Bản tin HOÀN TOÀN KEYLESS (không LLM/Gemini). ----
+    # ĐÃ BỎ khối "tin thị trường" (headline Google thô): các tiêu đề trái ngược nhau, lẫn
+    # ngày, không rút ra kết luận. Nhận định thị trường giờ do phần TOP-DOWN (số liệu VN-Index
+    # thật: trend/RSI/%biến động) đảm nhiệm — tất định, không tự mâu thuẫn.
     L = [f"📈 <b>PHÂN TÍCH CHỨNG KHOÁN VN</b> — {datetime.now():%d/%m/%Y}",
          "<i>Tự động, tham khảo — không phải khuyến nghị.</i>", ""]
-    if mkt_news:
-        L += ["🌐 <b>Tin thị trường</b>"] + [f"• {html.escape(t)}" for t in mkt_news[:4]] + [""]
 
     if gainers or losers or surge:
         L.append("📊 <b>Giá biến động mạnh trong ngày</b>")
