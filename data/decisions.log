@@ -18526,3 +18526,7 @@
 2026-07-18 16:01 ACCEPT [Google News KL] "As risk-off sentiment recedes and gold prices pull back, can Chifeng G" | kw:gold,rice
 2026-07-18 16:01 SKIP_MORNING already_sent date=2026-07-18
 2026-07-18 16:01 SKIP_EVENING already_sent date=2026-07-18
+2026-07-18 16:31 ACCEPT [Google News HH] "Crude Oil Perpetual Futures Jump: Technicals Points to More Gains as U" | kw:oil,crude
+2026-07-18 16:31 ACCEPT [Google News KL] "Weekly Review: Gold loses shine as Fed jitters outweigh safe-haven sup" | kw:gold
+2026-07-18 16:31 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 16:31 SKIP_EVENING already_sent date=2026-07-18
