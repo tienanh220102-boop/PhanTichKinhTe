@@ -18266,3 +18266,6 @@
 2026-07-17 23:43 ACCEPT [Google News NS] "Russia’s grain market: Growing risks of fuel, logistics and contract e" | kw:fuel
 2026-07-17 23:43 ACCEPT [Google News NS] "Why Did Corn and Wheat Prices Suddenly Reverse Lower? - Agrolatam" | kw:wheat,corn,rice
 2026-07-17 23:43 ACCEPT [Google News NS] "Unusually hot weather in France is boosting corn futures - logos-pres." | kw:lng,corn
+2026-07-18 00:01 ACCEPT [Google News NS] "Closing Market Update: Wars drive up grain, oilseed futures | July 17," | kw:oil
+2026-07-18 00:02 DIRECTION_FIX Copper: "tăng 0,59%" → "giảm 0,59%"
+2026-07-18 00:02 SENT_MORNING articles=20 date=2026-07-18 force=False
