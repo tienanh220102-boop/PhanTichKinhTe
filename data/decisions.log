@@ -18446,3 +18446,12 @@
 2026-07-18 11:28 SKIP_MORNING already_sent date=2026-07-18
 2026-07-18 11:31 ACCEPT [Google News CB] "Will the Fed hike interest rates this month? - MarketWatch" | kw:interest rate
 2026-07-18 11:31 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 12:01 ACCEPT [Al Jazeera] "India’s salt workers: The human cost of the world’s most popular seaso" | kw:supply chain
+2026-07-18 12:01 ACCEPT [CNBC Commodities] "'WarshGPT': How Wall Street is adapting to the Fed's new era of commun" | kw:central bank
+2026-07-18 12:01 ACCEPT [Google News HH] "Brent crude oil prices have surged past $88 per barrel, with intraday " | kw:oil,crude,brent
+2026-07-18 12:01 ACCEPT [Google News KL] "India's Vikram-1 launch | Iran attacks | Iraq-US deals | Gold prices f" | kw:gold,rice
+2026-07-18 12:01 ACCEPT [Google News NS] "Corn Turning Higher at Midday - Barchart.com" | kw:corn
+2026-07-18 12:01 ACCEPT [Google News NS] "Wheat Bulls Starting Friday Morning with Gains - Barchart.com" | kw:wheat
+2026-07-18 12:01 ACCEPT [Google News NS] "Fertilizer Shock Pushes U.S. Corn Farmers to the Brink of a New Farm C" | kw:corn
+2026-07-18 12:01 ACCEPT [Google News CB] "Fed rate-hike voices swell before July decision, rates still seen on h" | kw:fed rate
+2026-07-18 12:01 SKIP_MORNING already_sent date=2026-07-18
