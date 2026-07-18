@@ -18421,3 +18421,8 @@
 2026-07-18 09:31 ACCEPT [Google News HH] "China’s Commodity Imports Show Hormuz Impact as Oil Slides, Metals Ris" | kw:oil,commodity
 2026-07-18 09:31 ACCEPT [Google News NS] "Updated Grain Prices in Ukraine Announced - Новини аграрного бізнесу" | kw:rice
 2026-07-18 09:31 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 10:01 ACCEPT [Google News HH] "US Dollar Weekly Decline, Crude Oil Weekly Surge, Base Metals: Domesti" | kw:oil,crude
+2026-07-18 10:01 ACCEPT [Google News KL] "The over-the-counter gold price has surpassed the $4,000 per ounce mar" | kw:gold,rice
+2026-07-18 10:01 ACCEPT [Google News NS] "Wheat currently dealing with a weather market - AgUpdate" | kw:wheat
+2026-07-18 10:01 ACCEPT [Google News NS] "Russia's grain harvest reached 21 million tons - АПК-Інформ" | kw:harvest
+2026-07-18 10:01 SKIP_MORNING already_sent date=2026-07-18
