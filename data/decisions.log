@@ -18429,3 +18429,7 @@
 2026-07-18 10:10 ACCEPT [Google News KL] "Gold steadies in Baghdad and Erbil markets - Shafaq News | Latest brea" | kw:gold
 2026-07-18 10:10 ACCEPT [Google News KL] "Gold heads for steep weekly loss as Fed hike fears grow - MSN" | kw:wti,gold
 2026-07-18 10:11 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 10:31 ACCEPT [Google News KL] "Newmont Stock Leads 3 Large Cap Value Picks For Inflation Worried Inve" | kw:inflation
+2026-07-18 10:31 ACCEPT [Google News NS] "Moldova targets 1.55m tonnes harvest amid low grain prices - Moldova 1" | kw:rice,harvest
+2026-07-18 10:31 ACCEPT [Google News CB] "Fed officials split on rate hike as inflation risks persist - MSN" | kw:inflation,rate hike
+2026-07-18 10:31 SKIP_MORNING already_sent date=2026-07-18
