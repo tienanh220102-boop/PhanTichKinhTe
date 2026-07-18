@@ -18295,3 +18295,9 @@
 2026-07-18 02:01 ACCEPT [Google News NS] "Commodity markets daily recap - St Joseph Post" | kw:commodity
 2026-07-18 02:01 SKIP_MORNING already_sent date=2026-07-18
 2026-07-18 02:31 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 03:01 ACCEPT [Google News HH] "Gold Fell 3.4% This Week. The Long-Term Case Didn’t. - GoldSilver" | kw:gold,silver
+2026-07-18 03:01 ACCEPT [Google News HH] "gold price recovery Archives - GoldSilver" | kw:gold,silver,rice
+2026-07-18 03:01 ACCEPT [Google News KL] "Teucrium Launches TPMT, a New Physical Gold ETF With a 0.24% Fee - Yah" | kw:gold
+2026-07-18 03:01 ACCEPT [Google News KL] "Gold Price Floor 'Holds' as AI Tech Slump Escalates - BullionVault" | kw:gold,rice
+2026-07-18 03:01 ACCEPT [Google News CB] "Indonesia central bank says it is monitoring banking liquidity - whbl." | kw:central bank
+2026-07-18 03:01 SKIP_MORNING already_sent date=2026-07-18
