@@ -18426,3 +18426,6 @@
 2026-07-18 10:01 ACCEPT [Google News NS] "Wheat currently dealing with a weather market - AgUpdate" | kw:wheat
 2026-07-18 10:01 ACCEPT [Google News NS] "Russia's grain harvest reached 21 million tons - АПК-Інформ" | kw:harvest
 2026-07-18 10:01 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 10:10 ACCEPT [Google News KL] "Gold steadies in Baghdad and Erbil markets - Shafaq News | Latest brea" | kw:gold
+2026-07-18 10:10 ACCEPT [Google News KL] "Gold heads for steep weekly loss as Fed hike fears grow - MSN" | kw:wti,gold
+2026-07-18 10:11 SKIP_MORNING already_sent date=2026-07-18
