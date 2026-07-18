@@ -18377,3 +18377,7 @@
 2026-07-18 05:01 ACCEPT [Google News HH] "Iran-US Tensions Keep Crude Oil, Global Markets On Edge. Here's Why - " | kw:oil,crude
 2026-07-18 05:01 ACCEPT [Google News CB] "BOJ may raise 2026 growth forecast, set to hold rates steady as inflat" | kw:inflation,boj
 2026-07-18 05:01 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 05:31 ACCEPT [Google News NS] "Wheat futures rallied 45.5 cents amid new soybean flash sales. - CME G" | kw:wheat,soybean
+2026-07-18 05:31 ACCEPT [Google News CB] "Inside Phoenix’s cash fortress: The Fed center that processes 2 millio" | kw:wti
+2026-07-18 05:31 ACCEPT [Google News CB] "Indonesia central bank says it is monitoring banking liquidity - 104.1" | kw:central bank
+2026-07-18 05:31 SKIP_MORNING already_sent date=2026-07-18
