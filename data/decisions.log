@@ -18465,3 +18465,9 @@
 2026-07-18 12:31 ACCEPT [Google News NS] "CIF/FOB Gulf Grain-Corn barge basis bids flat to lower - Bitget" | kw:corn
 2026-07-18 12:31 ACCEPT [Google News NS] "Bangladesh’s wheat imports surge to all-time high - The Daily Star" | kw:wheat
 2026-07-18 12:31 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 13:01 ACCEPT [MarketWatch] "Your Social Security check could go up by $74 a month next year" | kw:inflation
+2026-07-18 13:01 ACCEPT [Google News HH] "NFL Coach And Commodities Trader Linked To Mystery Freedom Fuel Networ" | kw:gas,fuel,commodities
+2026-07-18 13:01 ACCEPT [Google News HH] "US Dollar Weekly Decline, Crude Oil Weekly Surge, Base Metals: Domesti" | kw:oil,crude,silver
+2026-07-18 13:01 ACCEPT [Google News KL] "Gold prices rebound in Pakistan as global rates recover - The Express " | kw:gold,rice
+2026-07-18 13:01 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 13:02 SENT_EVENING articles=20 date=2026-07-18 force=False
