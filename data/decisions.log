@@ -18370,3 +18370,7 @@
 2026-07-18 04:31 ACCEPT [Google News HH] "July 17 US Market Update: Support and Resistance - Support and Resista" | kw:oil,crude,gas
 2026-07-18 04:31 ACCEPT [Google News KL] "Gold Price Drops Below $4,000 Again: High-Rally Chasers Trapped in Dil" | kw:gold,rice
 2026-07-18 04:31 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 04:40 ACCEPT [Google News HH] "Crude oil spill - LAist" | kw:oil,crude
+2026-07-18 04:40 ACCEPT [Google News HH] "Escalation of US-Iran Hostilities Pushes Crude Oil Sharply Higher - Tr" | kw:oil,crude
+2026-07-18 04:40 ACCEPT [Google News KL] "Hong Kong Just Ran Its First Gold Settlement. The Banks Who Did It Als" | kw:gold,silver
+2026-07-18 04:40 SKIP_MORNING already_sent date=2026-07-18
