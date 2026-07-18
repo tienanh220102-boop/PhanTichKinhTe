@@ -90,7 +90,24 @@ jobs:
           echo "🤖 TẦNG 2 — Phân tích LLM sâu trên shortlist..."
           python main.py --stocks "$SHORTLIST" --no-market-review --force-run
 
-      - name: Gửi digest sang Telegram
+      # ---- Phân tích TOP-DOWN (định lượng, keyless, độc lập với screener+LLM) ----
+      # Nền CFA L2: nhịp thị trường → ngành → định giá mã (percentile/justified P/B/CAMELS)
+      # + sự kiện DN (cổ tức/ĐHCĐ/KQKD). Không dùng Gemini → không đụng quota LLM.
+      # CHẠY TRƯỚC bước Telegram để nối digest vào CÙNG MỘT bản tin (ghi ra ../reports/).
+      - name: Phân tích top-down (keyless)
+        if: always()
+        working-directory: chung-khoan/topdown
+        env:
+          TD_LIQUID: '120'
+          TD_DRILL: ${{ github.event_name == 'schedule' && '15' || '20' }}
+        run: |
+          echo "🧭 Top-down: liquid $TD_LIQUID, drill $TD_DRILL (keyless, không LLM)"
+          mkdir -p ../reports
+          python vn_report.py --liquid "$TD_LIQUID" --drill "$TD_DRILL" \
+            --digest-out ../reports/topdown_digest.txt
+
+      # Một bản tin Telegram duy nhất: digest LLM screener + phần top-down nối vào cuối.
+      - name: Gửi digest Telegram (gộp LLM screener + top-down)
         if: always()
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
@@ -98,21 +115,6 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-2.5-flash' }}
         run: python scripts/send_telegram_vn.py
-
-      # ---- Phân tích TOP-DOWN (định lượng, keyless, độc lập với screener+LLM) ----
-      # Nền CFA L2: nhịp thị trường → ngành → định giá mã (percentile/justified P/B/CAMELS)
-      # + sự kiện DN (cổ tức/ĐHCĐ/KQKD). Không dùng Gemini → không đụng quota LLM.
-      - name: Phân tích top-down + digest Telegram (keyless)
-        if: always()
-        working-directory: chung-khoan/topdown
-        env:
-          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-          TELEGRAM_CHAT: ${{ secrets.TELEGRAM_CHAT }}
-          TD_LIQUID: '120'
-          TD_DRILL: ${{ github.event_name == 'schedule' && '15' || '20' }}
-        run: |
-          echo "🧭 Top-down: liquid $TD_LIQUID, drill $TD_DRILL (keyless, không LLM)"
-          python vn_report.py --liquid "$TD_LIQUID" --drill "$TD_DRILL" --telegram
 
       - name: Tải lên báo cáo (artifact)
         uses: actions/upload-artifact@v6

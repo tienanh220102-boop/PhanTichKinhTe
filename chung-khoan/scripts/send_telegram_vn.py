@@ -85,6 +85,24 @@ def read_movers_raw():
     return open(p, encoding="utf-8").read() if os.path.exists(p) else ""
 
 
+def read_topdown_digest():
+    """Digest top-down (định lượng, keyless) do vn_report.py ghi ra reports/topdown_digest.txt.
+
+    Là TEXT THUẦN, có ký tự < > & (vd 'P/B>1', 'ROE < r') → phải HTML-escape cho
+    parse_mode=HTML; in đậm dòng tiêu đề đầu. Trả '' nếu chưa có file.
+    """
+    p = os.path.join(REPORTS, "topdown_digest.txt")
+    if not os.path.exists(p):
+        return ""
+    raw = open(p, encoding="utf-8").read().strip()
+    if not raw:
+        return ""
+    lines = [html.escape(ln) for ln in raw.split("\n")]
+    if lines:
+        lines[0] = f"<b>{lines[0]}</b>"
+    return "\n".join(lines)
+
+
 def extract_movers(md_path, section, top=6):
     """Lấy 'MÃ +x.xx%' từ một mục của bản tin dịch chuyển giá."""
     if not md_path or not os.path.exists(md_path):
@@ -380,6 +398,12 @@ def main():
     L.append("\n💬 Đây là thông tin tự động, tham khảo. Người mới nên tìm hiểu kỹ, hỏi người có kinh nghiệm, không dồn hết vốn vào một mã.")
     if u:
         L.append(f'📄 <a href="{u}">Báo cáo kỹ thuật đầy đủ</a>')
+
+    # ---- Nối phần TOP-DOWN (định lượng, keyless) vào CÙNG một bản tin ----
+    td = read_topdown_digest()
+    if td:
+        L.append("\n" + "━" * 18)
+        L.append(td)
 
     text = "\n".join(L)
     print(text, file=sys.stderr)

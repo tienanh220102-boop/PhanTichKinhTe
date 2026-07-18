@@ -442,7 +442,9 @@ def main():
     # Digest Telegram (tất định, keyless)
     digest = rep.digest()
     if args.digest_out:
-        Path(args.digest_out).write_text(digest, encoding="utf-8")
+        dp = Path(args.digest_out)
+        dp.parent.mkdir(parents=True, exist_ok=True)
+        dp.write_text(digest, encoding="utf-8")
         print("Đã lưu digest:", args.digest_out)
     if args.telegram:
         from vn_telegram import send_message
