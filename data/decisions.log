@@ -18406,3 +18406,6 @@
 2026-07-18 08:01 ACCEPT [Google News NS] "Brazil Soybean Export Prices Reach Highest Level Since December 2023 |" | kw:soybean,rice
 2026-07-18 08:01 ACCEPT [Google News CB] "Tech selloff weighs on European shares ahead of ECB meeting next week " | kw:ecb
 2026-07-18 08:01 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 08:31 ACCEPT [Google News KL] "Will the price of gold continue to rise: Every prediction carries a ce" | kw:gold,rice
+2026-07-18 08:31 ACCEPT [Google News NS] "Large harvests do not guarantee a global grain surplus — Karen Braun -" | kw:lng,harvest
+2026-07-18 08:31 SKIP_MORNING already_sent date=2026-07-18
