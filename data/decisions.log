@@ -18393,3 +18393,6 @@
 2026-07-18 06:31 ACCEPT [Google News KL] "China gold demand at decade low: WGC signals price and project risks f" | kw:gold,rice
 2026-07-18 06:31 SKIP_MORNING already_sent date=2026-07-18
 2026-07-18 06:54 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 07:01 ACCEPT [Google News HH] "Crude Oil Prices Jump Nearly 5% After US-Iran Hostilities Resume - Bri" | kw:oil,crude,rice
+2026-07-18 07:01 ACCEPT [Google News KL] "Gold, silver prices rise amid global economic uncertainty - AzerNews" | kw:gold,silver,rice
+2026-07-18 07:01 SKIP_MORNING already_sent date=2026-07-18
