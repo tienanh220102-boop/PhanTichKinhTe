@@ -18269,3 +18269,6 @@
 2026-07-18 00:01 ACCEPT [Google News NS] "Closing Market Update: Wars drive up grain, oilseed futures | July 17," | kw:oil
 2026-07-18 00:02 DIRECTION_FIX Copper: "tăng 0,59%" → "giảm 0,59%"
 2026-07-18 00:02 SENT_MORNING articles=20 date=2026-07-18 force=False
+2026-07-18 00:31 ACCEPT [Google News HH] "Gold price prediction: Why is Gold rate crashing to biggest weekly los" | kw:wti,gold,rice
+2026-07-18 00:31 ACCEPT [Google News CB] "Fed. Circ. Won't Review Reversal In $18M Penile Implant Case - Law360" | kw:lng
+2026-07-18 00:31 SKIP_MORNING already_sent date=2026-07-18
