@@ -18374,3 +18374,6 @@
 2026-07-18 04:40 ACCEPT [Google News HH] "Escalation of US-Iran Hostilities Pushes Crude Oil Sharply Higher - Tr" | kw:oil,crude
 2026-07-18 04:40 ACCEPT [Google News KL] "Hong Kong Just Ran Its First Gold Settlement. The Banks Who Did It Als" | kw:gold,silver
 2026-07-18 04:40 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 05:01 ACCEPT [Google News HH] "Iran-US Tensions Keep Crude Oil, Global Markets On Edge. Here's Why - " | kw:oil,crude
+2026-07-18 05:01 ACCEPT [Google News CB] "BOJ may raise 2026 growth forecast, set to hold rates steady as inflat" | kw:inflation,boj
+2026-07-18 05:01 SKIP_MORNING already_sent date=2026-07-18
