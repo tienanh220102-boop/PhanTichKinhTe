@@ -18501,3 +18501,10 @@
 2026-07-18 14:31 ACCEPT [Google News NS] "Crops Analysis | Wheat continues to notch gains on geopolitical tensio" | kw:wheat
 2026-07-18 14:31 SKIP_MORNING already_sent date=2026-07-18
 2026-07-18 14:31 SKIP_EVENING already_sent date=2026-07-18
+2026-07-18 14:44 ACCEPT [Google News HH] "Iraq, Syria sign deal in Washington to revive crude oil pipeline - Ana" | kw:oil,crude
+2026-07-18 14:44 ACCEPT [Google News HH] "$Crude Oil Futures (SEP6) (CLmain.US)$$Brent Last Day Financ... - Moom" | kw:oil,crude,brent
+2026-07-18 14:44 ACCEPT [Google News KL] "Tether Gold Price Prediction 2026, 2027, 2030 & Beyond: Yearly Forecas" | kw:gold,rice
+2026-07-18 14:44 ACCEPT [Google News KL] "Gold's Returns Are Shining: Is It Better to Invest With a Physical Gol" | kw:gold
+2026-07-18 14:44 ACCEPT [Google News CB] "Fed's Logan: It's much too soon to think about cutting interest rates " | kw:interest rate
+2026-07-18 14:44 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 14:44 SKIP_EVENING already_sent date=2026-07-18
