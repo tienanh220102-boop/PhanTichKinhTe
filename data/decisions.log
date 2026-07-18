@@ -18418,3 +18418,6 @@
 2026-07-18 09:01 ACCEPT [Google News KL] "Robert Kiyosaki and Jim Rogers Give Moonshot Prediction for Gold and S" | kw:gold,silver
 2026-07-18 09:01 ACCEPT [Google News CB] "Fed Officials Signal Inflation Crackdown Ahead of Next Interest Rate M" | kw:inflation,interest rate
 2026-07-18 09:01 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 09:31 ACCEPT [Google News HH] "China’s Commodity Imports Show Hormuz Impact as Oil Slides, Metals Ris" | kw:oil,commodity
+2026-07-18 09:31 ACCEPT [Google News NS] "Updated Grain Prices in Ukraine Announced - Новини аграрного бізнесу" | kw:rice
+2026-07-18 09:31 SKIP_MORNING already_sent date=2026-07-18
