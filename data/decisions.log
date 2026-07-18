@@ -18279,3 +18279,8 @@
 2026-07-18 01:01 ACCEPT [Google News CB] "Indonesia central bank says it is monitoring banking liquidity - 104.1" | kw:central bank
 2026-07-18 01:01 ACCEPT [Google News CB] "Cleveland Fed president warns rates may need to rise to curb persisten" | kw:inflation
 2026-07-18 01:01 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 01:31 ACCEPT [Google News HH] "Brent crude oil price on July 24, 2026 at 5:00 PM EDT - Robinhood" | kw:oil,crude,brent
+2026-07-18 01:31 ACCEPT [Google News HH] "Cushing Crude Oil Storage Falls Below 20 Million Barrels: EIA Reports " | kw:oil,crude
+2026-07-18 01:31 ACCEPT [Google News HH] "Iraq and Syria agree to revive defunct crude oil pipeline - thenationa" | kw:oil,crude
+2026-07-18 01:31 ACCEPT [Google News KL] "Top Stock Market Highlights of the Week: Sheng Siong, PayPal, Netflix " | kw:gold,rice
+2026-07-18 01:31 SKIP_MORNING already_sent date=2026-07-18
