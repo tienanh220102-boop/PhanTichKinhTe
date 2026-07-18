@@ -99,6 +99,21 @@ jobs:
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-2.5-flash' }}
         run: python scripts/send_telegram_vn.py
 
+      # ---- Phân tích TOP-DOWN (định lượng, keyless, độc lập với screener+LLM) ----
+      # Nền CFA L2: nhịp thị trường → ngành → định giá mã (percentile/justified P/B/CAMELS)
+      # + sự kiện DN (cổ tức/ĐHCĐ/KQKD). Không dùng Gemini → không đụng quota LLM.
+      - name: Phân tích top-down + digest Telegram (keyless)
+        if: always()
+        working-directory: chung-khoan/topdown
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT: ${{ secrets.TELEGRAM_CHAT }}
+          TD_LIQUID: '120'
+          TD_DRILL: ${{ github.event_name == 'schedule' && '15' || '20' }}
+        run: |
+          echo "🧭 Top-down: liquid $TD_LIQUID, drill $TD_DRILL (keyless, không LLM)"
+          python vn_report.py --liquid "$TD_LIQUID" --drill "$TD_DRILL" --telegram
+
       - name: Tải lên báo cáo (artifact)
         uses: actions/upload-artifact@v6
         if: always()
@@ -107,6 +122,7 @@ jobs:
           path: |
             chung-khoan/reports/
             chung-khoan/logs/
+            chung-khoan/topdown/reports/
           retention-days: 30
 
       - name: Hiển thị kết quả
