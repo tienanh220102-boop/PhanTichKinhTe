@@ -18471,3 +18471,12 @@
 2026-07-18 13:01 ACCEPT [Google News KL] "Gold prices rebound in Pakistan as global rates recover - The Express " | kw:gold,rice
 2026-07-18 13:01 SKIP_MORNING already_sent date=2026-07-18
 2026-07-18 13:02 SENT_EVENING articles=20 date=2026-07-18 force=False
+2026-07-18 13:31 ACCEPT [Google News HH] "Iraq, Syria sign deal in Washington to revive crude oil pipeline - Ana" | kw:oil,crude
+2026-07-18 13:31 ACCEPT [Google News HH] "Iraq, Syria ink deal in US to revive crude oil pipeline that could byp" | kw:oil,crude
+2026-07-18 13:31 ACCEPT [Google News HH] "UAE Oil Break Exposes Deepening Saudi Rift as Gulf Power Shifts - Ener" | kw:oil
+2026-07-18 13:31 ACCEPT [Google News KL] "As risk-off sentiment recedes and gold prices pull back, can Chifeng G" | kw:gold,rice
+2026-07-18 13:31 ACCEPT [Google News KL] "Gold loses shine as Fed jitters outweigh safe-haven demand - The New I" | kw:gold
+2026-07-18 13:31 ACCEPT [Google News KL] "Jewellery Purchases and Gold ETF Flows Improve Since Mid-June - Deccan" | kw:gold
+2026-07-18 13:31 ACCEPT [Google News NS] "Feed barley prices continue to decline in Ukraine – APK-Inform - АПК-І" | kw:rice
+2026-07-18 13:31 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 13:31 SKIP_EVENING already_sent date=2026-07-18
