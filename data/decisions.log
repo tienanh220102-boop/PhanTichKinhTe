@@ -18455,3 +18455,9 @@
 2026-07-18 12:01 ACCEPT [Google News NS] "Fertilizer Shock Pushes U.S. Corn Farmers to the Brink of a New Farm C" | kw:corn
 2026-07-18 12:01 ACCEPT [Google News CB] "Fed rate-hike voices swell before July decision, rates still seen on h" | kw:fed rate
 2026-07-18 12:01 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 12:11 ACCEPT [MarketWatch] "Forget gasoline: Why the price surge in this under-the-radar fuel is t" | kw:gas,fuel,rice
+2026-07-18 12:11 ACCEPT [Google News HH] "According to data released by the Intercontinental Exchange (ICE), as " | kw:oil,crude,brent
+2026-07-18 12:11 ACCEPT [Google News HH] "NY Crude Oil Reclaims $80 for First Time in a Month as U.S.-Iran Tensi" | kw:oil,crude
+2026-07-18 12:11 ACCEPT [Google News KL] "BofA sees lost year taking shape for gold - thestreet.com" | kw:gold
+2026-07-18 12:11 ACCEPT [Google News KL] "Gold heads for steep weekly loss as Fed hike fears grow - MSN" | kw:gold
+2026-07-18 12:11 SKIP_MORNING already_sent date=2026-07-18
