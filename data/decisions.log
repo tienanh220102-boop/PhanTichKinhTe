@@ -18367,3 +18367,6 @@
 2026-07-18 04:01 ACCEPT [Google News CB] "Fed Officials Signal Inflation Crackdown Ahead of Next Rate Meeting - " | kw:inflation
 2026-07-18 04:01 ACCEPT [Google News CB] "Cooler inflation may not be enough to stave off Fed rate increases - T" | kw:inflation,fed rate
 2026-07-18 04:01 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 04:31 ACCEPT [Google News HH] "July 17 US Market Update: Support and Resistance - Support and Resista" | kw:oil,crude,gas
+2026-07-18 04:31 ACCEPT [Google News KL] "Gold Price Drops Below $4,000 Again: High-Rally Chasers Trapped in Dil" | kw:gold,rice
+2026-07-18 04:31 SKIP_MORNING already_sent date=2026-07-18
