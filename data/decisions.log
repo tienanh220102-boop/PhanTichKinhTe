@@ -18488,3 +18488,16 @@
 2026-07-18 13:55 SKIP_EVENING already_sent date=2026-07-18
 2026-07-18 14:01 SKIP_MORNING already_sent date=2026-07-18
 2026-07-18 14:01 SKIP_EVENING already_sent date=2026-07-18
+2026-07-18 14:30 ACCEPT [Al Jazeera] "China warns UK over British Steel nationalisation, demands fair resolu" | kw:steel
+2026-07-18 14:31 ACCEPT [Google News HH] "Syria and Iraq sign two memoranda of understanding to revive Kirkuk–Ba" | kw:oil,crude
+2026-07-18 14:31 ACCEPT [Google News HH] "Global Commodities Roundup: Market Talk - Moomoo" | kw:commodities
+2026-07-18 14:31 ACCEPT [Google News HH] "Brent crude oil futures just reached the $88.00 per barrel mark, now q" | kw:oil,crude,brent
+2026-07-18 14:31 ACCEPT [Google News HH] "Gold price declines by Rs 5,300 per tola in a week; silver loses Rs 31" | kw:gold,silver,rice
+2026-07-18 14:31 ACCEPT [Google News KL] "Gold Prices Are Falling Below $4,000/Oz, But I Keep Buying Because Of " | kw:gold,rice
+2026-07-18 14:31 ACCEPT [Google News KL] "Gold prices fall again as Bajus cuts rates for 2nd time this week - Th" | kw:gold,rice
+2026-07-18 14:31 ACCEPT [Google News KL] "Gold Price Today in Lucknow – 18K, 22K & 24K Rate | 18 July 2026 - The" | kw:gold,rice
+2026-07-18 14:31 ACCEPT [Google News KL] "NB Power Commercial Energy Savings Programs Webinar Current Silver Pri" | kw:silver,rice
+2026-07-18 14:31 ACCEPT [Google News KL] "Fußballzitat #33: Berti Vogts Gold Price May 11 2026 (rjwntDclEZ) - Ms" | kw:gold,rice
+2026-07-18 14:31 ACCEPT [Google News NS] "Crops Analysis | Wheat continues to notch gains on geopolitical tensio" | kw:wheat
+2026-07-18 14:31 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 14:31 SKIP_EVENING already_sent date=2026-07-18
