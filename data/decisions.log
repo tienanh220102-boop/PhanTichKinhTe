@@ -18530,3 +18530,6 @@
 2026-07-18 16:31 ACCEPT [Google News KL] "Weekly Review: Gold loses shine as Fed jitters outweigh safe-haven sup" | kw:gold
 2026-07-18 16:31 SKIP_MORNING already_sent date=2026-07-18
 2026-07-18 16:31 SKIP_EVENING already_sent date=2026-07-18
+2026-07-18 16:45 ACCEPT [Google News NS] "Canadian wheat prices hit two-year high on futures rally - S&P Global" | kw:wheat,rice
+2026-07-18 16:45 SKIP_MORNING already_sent date=2026-07-18
+2026-07-18 16:45 SKIP_EVENING already_sent date=2026-07-18
