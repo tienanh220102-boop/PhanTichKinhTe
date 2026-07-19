@@ -18640,3 +18640,8 @@
 2026-07-19 00:31 ACCEPT [Google News NS] "US soybeans up as soyoil soars; Black Sea tensions lift wheat, corn - " | kw:oil,wheat,corn
 2026-07-19 00:31 ACCEPT [Google News CB] "Lehmann cool on England job, suggests ECB has identified McCullum succ" | kw:ecb
 2026-07-19 00:31 SKIP_MORNING already_sent date=2026-07-19
+2026-07-19 01:01 ACCEPT [Google News HH] "Goldman Sachs Raises Q4 Brent, WTI Crude Price Forecast Amid Longer Ho" | kw:crude,brent,wti
+2026-07-19 01:01 ACCEPT [Google News HH] "Australia VS Bangladesh | T20 Match | Real Cricket 22 | Game Play Gold" | kw:gold,rice
+2026-07-19 01:01 ACCEPT [Google News NS] "Wheat set for third weekly gain on Black Sea export concerns - Busines" | kw:wheat
+2026-07-19 01:01 ACCEPT [Google News CB] "Will the Fed hike interest rates this month? - Forex Factory" | kw:interest rate
+2026-07-19 01:01 SKIP_MORNING already_sent date=2026-07-19
