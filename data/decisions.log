@@ -18679,3 +18679,6 @@
 2026-07-19 04:01 ACCEPT [Google News CB] "Crypto Market Analysis For This Week: US-Iran Tensions, Fed Rate Cuts," | kw:fed rate,rate cut
 2026-07-19 04:01 ACCEPT [Google News CB] "The Interest Rate Narrative Has Flipped | Presented By CME Group Getaf" | kw:interest rate
 2026-07-19 04:01 SKIP_MORNING already_sent date=2026-07-19
+2026-07-19 04:31 ACCEPT [Google News HH] "Iran Exports $6 Billion Oil to China Amid U.S. Sanctions Relief - 조선일보" | kw:oil,sanction
+2026-07-19 04:31 ACCEPT [Google News KL] "Bison Encounter Silver Price Today (8arLsy7Fug) - Mshale" | kw:silver,rice
+2026-07-19 04:31 SKIP_MORNING already_sent date=2026-07-19
