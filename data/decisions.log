@@ -18737,3 +18737,13 @@
 2026-07-19 08:31 SKIP_MORNING already_sent date=2026-07-19
 2026-07-19 09:01 ACCEPT [Google News CB] "Interest Rate Forecast: Fed Rate Hike Risks Support US Dollar as EURUS" | kw:fed rate,interest rate,rate hike
 2026-07-19 09:01 SKIP_MORNING already_sent date=2026-07-19
+2026-07-19 09:31 ACCEPT [BBC Business] "Is Burnham promising a new dawn for North Sea oil and gas?" | kw:oil,gas
+2026-07-19 09:31 ACCEPT [Google News HH] "Canada Post Considers Eliminating Daily Mail Deliveries Gold Price In " | kw:gold,rice
+2026-07-19 09:31 ACCEPT [Google News KL] "Gold prices retreat in Baghdad and Erbil markets - Shafaq News | Lates" | kw:gold,rice
+2026-07-19 09:31 ACCEPT [Google News KL] "Gold, silver prices increase in domestic market - OnlineKhabar English" | kw:gold,silver,rice
+2026-07-19 09:31 ACCEPT [Google News KL] "Silver Rate Today In Surat Live, Latest Silver Price - NDTV Profit" | kw:silver,rice
+2026-07-19 09:31 ACCEPT [Google News KL] "Toronto To New Delhi Flight Route By Air Canada AC42 | 🇨🇦➡️🇮🇳 Flight S" | kw:silver,rice
+2026-07-19 09:31 ACCEPT [Google News NS] "The Wheat Rally Could Just be Getting Started - The Globe and Mail" | kw:wheat
+2026-07-19 09:31 ACCEPT [Google News NS] "Moldovan Grain Exports in June: Volumes, Destinations, and Prices - lo" | kw:rice
+2026-07-19 09:31 ACCEPT [Google News CB] "Range-bound trading or the ECB Governing Council meeting will be in fo" | kw:ecb
+2026-07-19 09:31 SKIP_MORNING already_sent date=2026-07-19
