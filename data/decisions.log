@@ -18747,3 +18747,9 @@
 2026-07-19 09:31 ACCEPT [Google News NS] "Moldovan Grain Exports in June: Volumes, Destinations, and Prices - lo" | kw:rice
 2026-07-19 09:31 ACCEPT [Google News CB] "Range-bound trading or the ECB Governing Council meeting will be in fo" | kw:ecb
 2026-07-19 09:31 SKIP_MORNING already_sent date=2026-07-19
+2026-07-19 09:45 ACCEPT [Google News HH] "Q1 Earnings, West Asia Tensions, Crude Oil to Drive Market Movement Th" | kw:oil,crude
+2026-07-19 09:45 ACCEPT [Google News KL] "Gold prices retreat in Baghdad and Erbil markets - Shafaq News | Lates" | kw:gold,rice
+2026-07-19 09:45 ACCEPT [Google News KL] "Silver price fluctuation 19.7: Closing a week of sharp decline - Laodo" | kw:silver,rice
+2026-07-19 09:45 ACCEPT [Google News KL] "Gold prices fluctuate sharply, which factors buyers need to monitor ne" | kw:gold,rice
+2026-07-19 09:45 ACCEPT [Google News CB] "Live Bank Of Canada Interest Rate Announcement Today Bury Local Electi" | kw:interest rate
+2026-07-19 09:45 SKIP_MORNING already_sent date=2026-07-19
