@@ -18627,3 +18627,12 @@
 2026-07-18 23:31 ACCEPT [Google News CB] "If Interest Rates Climb, This Financial ETF Could Be a Big Winner - 24" | kw:interest rate
 2026-07-18 23:43 ACCEPT [Al Jazeera] "Kylian Mbappe breaks all-time World Cup scoring record with 22nd goal" | kw:gold
 2026-07-18 23:43 ACCEPT [Google News CB] "Kevin Warsh reinforces inflation-first stance amid rising oil prices -" | kw:oil,rice,inflation
+2026-07-19 00:01 ACCEPT [Google News HH] "New York crude oil over-the-counter trading prices surpassed the $82 m" | kw:oil,crude,rice
+2026-07-19 00:01 ACCEPT [Google News HH] "Rising Conflict Driving Crude Oil, Fuel Prices Higher | CTV National N" | kw:oil,crude,fuel
+2026-07-19 00:01 ACCEPT [Google News HH] "COMMENTARY: Compounding Errors and Narrow Self-Interest Threaten Globa" | kw:fuel
+2026-07-19 00:01 ACCEPT [Google News HH] "Thousands Gather For May Day March At MacArthur Park Gold Price In Ind" | kw:gold,rice
+2026-07-19 00:01 ACCEPT [Google News KL] "Micro Silver Futures (Jul 2027) Trade Ideas — COMEX_MINI:SILN2027 - Tr" | kw:silver
+2026-07-19 00:01 ACCEPT [Google News NS] "Madison County Farmers Market hosts annual Corn Festival - WHNT.com" | kw:corn
+2026-07-19 00:01 ACCEPT [Google News CB] "Markets await decisions from the Fed, China, and the Bank of Japan; th" | kw:bank of japan
+2026-07-19 00:01 ACCEPT [Google News CB] "Lehmann cool on England job, suggests ECB has identified McCullum succ" | kw:wti,ecb
+2026-07-19 00:02 SENT_MORNING articles=20 date=2026-07-19 force=False
