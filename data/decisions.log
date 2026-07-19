@@ -18730,3 +18730,8 @@
 2026-07-19 08:01 ACCEPT [Google News KL] "Gold, silver prices increase in domestic market - myRepublica" | kw:wti,gold,silver
 2026-07-19 08:01 ACCEPT [Google News NS] "US soybeans up as soyoil soars; Black Sea tensions lift wheat, corn - " | kw:oil,wheat,corn
 2026-07-19 08:01 SKIP_MORNING already_sent date=2026-07-19
+2026-07-19 08:31 ACCEPT [Google News HH] "Brent and WTI crude oil prices target $100 as analysts warn of a forev" | kw:oil,crude,brent
+2026-07-19 08:31 ACCEPT [Google News HH] "Gold Rate Today In Chennai, Check Live 22 And 24 Carat Gold Price - ND" | kw:gold,rice
+2026-07-19 08:31 ACCEPT [Google News KL] "Gold, silver prices increase in domestic market - myRepublica" | kw:gold,silver,rice
+2026-07-19 08:31 ACCEPT [Google News CB] "U.S. Economic Data, Earnings Season, and ECB Decision Top Next Week's " | kw:ecb
+2026-07-19 08:31 SKIP_MORNING already_sent date=2026-07-19
