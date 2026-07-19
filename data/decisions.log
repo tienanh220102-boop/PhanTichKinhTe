@@ -18656,3 +18656,5 @@
 2026-07-19 01:50 SKIP_MORNING already_sent date=2026-07-19
 2026-07-19 02:01 ACCEPT [Google News HH] "Crude Oil WTI Futures Live Chart - Investing.com India" | kw:oil,crude,wti
 2026-07-19 02:01 SKIP_MORNING already_sent date=2026-07-19
+2026-07-19 02:31 ACCEPT [Google News CB] "Key events next week: ECB interest rate decision; earnings reports fro" | kw:interest rate,rate decision,ecb
+2026-07-19 02:31 SKIP_MORNING already_sent date=2026-07-19
