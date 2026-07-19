@@ -37,6 +37,7 @@ from vn_topdown import VNTopDown
 from vn_valuation import VNValuation
 from vn_events import VCIEvents, fmt_event
 from vn_news import VNNews, fmt_news
+from vn_health import VNHealth
 
 logger = logging.getLogger(__name__)
 
@@ -122,6 +123,7 @@ class VNReport:
         self.val = VNValuation(fx=self.td.fx, sx=self.td.sx)
         self.ev = VCIEvents()
         self.news = VNNews()
+        self.health = VNHealth(fx=self.td.fx)
         self.sector_level = sector_level
         # gom dữ liệu có cấu trúc để tái dùng cho digest Telegram (điền trong build())
         self.data: Dict[str, object] = {}
@@ -275,7 +277,9 @@ class VNReport:
             # loại mọi cờ 🚨 (tin tiêu cực cty + lãnh đạo) — đã nêu ở mục phốt phía trên
             qf = [f for f in s.get("cờ_rủi_ro", []) if not str(f).startswith("🚨")]
             if qf:
-                risky.append((s, qf[0]))
+                # ưu tiên hiện cờ dòng tiền/sức khỏe (🔻) nếu có, rồi mới tới cờ định giá
+                pick = next((f for f in qf if str(f).startswith("🔻")), qf[0])
+                risky.append((s, pick))
         if risky:
             L.append("")
             L.append("⚠️ Cần thận trọng (định giá/tài chính):")
@@ -364,9 +368,11 @@ class VNReport:
                       with_events: bool, with_news: bool = True):
         sec_row = smap[smap["symbol"] == sym]
         sec_l1 = sec_l2 = name = None
+        is_bank = False
         if not sec_row.empty:
             r = sec_row.iloc[0]
             sec_l1, sec_l2, name = r.get("icb_l1"), r.get("icb_l2"), r.get("name")
+            is_bank = bool(r.get("is_bank"))
         sec_txt = f" · {sec_l1 or '?'} › {sec_l2 or '?'}"
         rec: Dict[str, object] = {"symbol": sym, "tên": name, "ngành": sec_l1,
                                   "tóm_tắt": None, "cờ_rủi_ro": [], "sự_kiện": [],
@@ -384,15 +390,21 @@ class VNReport:
 
         rec["tóm_tắt"] = a["tóm_tắt"]
         rec["cờ_rủi_ro"] = list(a.get("cờ_rủi_ro", []))
+        # + Sức khỏe tài chính/dòng tiền (cờ 🔻, gộp vào ⚠️). Bank → bỏ qua (dùng CAMELS).
+        try:
+            hflags = self.health.scan(sym, is_bank=is_bank)
+            rec["cờ_rủi_ro"].extend(hflags)
+        except Exception as e:  # noqa: BLE001
+            logger.warning("health.scan %s lỗi: %s", sym, e)
         lines.append(f"**Tóm tắt:** {a['tóm_tắt']}\n")
         if a.get("nhận_định"):
             lines.append("Nhận định:")
             for n in a["nhận_định"]:
                 lines.append(f"- {n}")
             lines.append("")
-        if a.get("cờ_rủi_ro"):
+        if rec["cờ_rủi_ro"]:
             lines.append("⚠️ Cờ rủi ro:")
-            for f in a["cờ_rủi_ro"]:
+            for f in rec["cờ_rủi_ro"]:
                 lines.append(f"- {f}")
             lines.append("")
 
