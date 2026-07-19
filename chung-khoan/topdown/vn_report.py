@@ -296,27 +296,33 @@ class VNReport:
                 nm = f" — {s['tên']}" if s.get("tên") else ""
                 L.append(f"• {s['symbol']}{nm} ({s.get('ngành') or '?'})")
 
-        # 4) Sự kiện nổi bật: cổ tức sắp GDKHQ + KQKD
+        # 4) Kết quả kinh doanh — TỐT/XẤU BẰNG SỐ (từ BCTC), thay tiêu đề tin mơ hồ.
+        #    (Tin công bố VCI như 'ký hợp đồng kiểm toán' là thủ tục, không tốt/xấu → bỏ.)
+        notable = [(s["symbol"], s["kinh_doanh"]) for s in stocks
+                   if s.get("kinh_doanh") and any(k in s["kinh_doanh"]["nhãn"]
+                                                  for k in ("TỐT", "XẤU", "thoát lỗ"))]
+        if notable:
+            # xấu (lỗ/giảm) lên trước để cảnh báo, rồi tới tốt
+            def _sev(m):
+                return 0 if "XẤU" in m["nhãn"] else (1 if "thoát" in m["nhãn"] else 2)
+            notable.sort(key=lambda x: _sev(x[1]))
+            L.append("")
+            L.append("📊 Kết quả kinh doanh cả năm gần nhất (từ BCTC):")
+            for sym_, m in notable[:8]:
+                L.append(f"• {sym_}: {m['nhãn']} — {m['chi_tiết']}")
+
+        # 5) Cổ tức sắp chốt quyền (sự kiện rõ ràng có lợi cho cổ đông)
         today = dt.date.today()
-        div_lines, kq_lines = [], []
+        div_lines = []
         for s in stocks:
             for e in s.get("sự_kiện", []):
                 if e.get("code") == "DIV" and e.get("GDKHQ") and e["GDKHQ"] >= today:
                     vps = f" {e['giá_trị_cp']:,.0f}đ/cp" if e.get("giá_trị_cp") else ""
                     div_lines.append(f"• {s['symbol']}: cổ tức{vps}, GDKHQ {e['GDKHQ'].strftime('%d/%m')}")
-            for n in s.get("tin", []):
-                t = n.get("tiêu_đề", "")
-                if any(k in t.lower() for k in ("kết quả kinh doanh", "kqkd", "lợi nhuận",
-                                                "trúng thầu", "trúng gói", "ký hợp đồng")):
-                    kq_lines.append(f"• [{n['ngày'].strftime('%d/%m')}] {t}")
         if div_lines:
             L.append("")
             L.append("💰 Cổ tức sắp chốt quyền:")
             L.extend(div_lines[:6])
-        if kq_lines:
-            L.append("")
-            L.append("📰 KQKD / hợp đồng đáng chú ý:")
-            L.extend(kq_lines[:6])
 
         L.append("")
         L.append("_Công cụ hỗ trợ đọc theo khung CFA, KHÔNG phải khuyến nghị mua/bán._")
@@ -377,7 +383,7 @@ class VNReport:
         rec: Dict[str, object] = {"symbol": sym, "tên": name, "ngành": sec_l1,
                                   "tóm_tắt": None, "cờ_rủi_ro": [], "sự_kiện": [],
                                   "tin": [], "tin_báo_chí": [], "tin_tiêu_cực": [],
-                                  "tin_lãnh_đạo": []}
+                                  "tin_lãnh_đạo": [], "kinh_doanh": None}
         lines = [f"### {sym}{sec_txt}\n"]
         try:
             a = self.val.assess(sym)
@@ -396,7 +402,14 @@ class VNReport:
             rec["cờ_rủi_ro"].extend(hflags)
         except Exception as e:  # noqa: BLE001
             logger.warning("health.scan %s lỗi: %s", sym, e)
+        try:
+            rec["kinh_doanh"] = self.health.momentum(sym, is_bank=is_bank)
+        except Exception as e:  # noqa: BLE001
+            logger.warning("momentum %s lỗi: %s", sym, e)
         lines.append(f"**Tóm tắt:** {a['tóm_tắt']}\n")
+        kd = rec.get("kinh_doanh")
+        if kd:
+            lines.append(f"**Kinh doanh (cả năm {kd['năm']}):** {kd['nhãn']} — {kd['chi_tiết']}\n")
         if a.get("nhận_định"):
             lines.append("Nhận định:")
             for n in a["nhận_định"]:

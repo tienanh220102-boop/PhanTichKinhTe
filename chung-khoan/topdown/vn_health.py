@@ -74,6 +74,60 @@ class VNHealth:
         out.sort(key=lambda t: t[0])
         return out
 
+    def momentum(self, symbol: str, is_bank: bool = False) -> Optional[Dict[str, object]]:
+        """Kết quả kinh doanh CẢ NĂM gần nhất — tốt/xấu bằng SỐ (thay tiêu đề tin mơ hồ).
+
+        Dùng số cả năm (đã verify sạch: tổng 4 quý = năm) thay vì quý (VCI quý nhập nhằng
+        quý/lũy kế → dễ tính YoY SAI). Trả {năm, dt_yoy, ln_yoy, nhãn, chi_tiết} hoặc None.
+        Ngân hàng: 'Doanh thu thuần'=0 → chỉ dùng tăng trưởng lợi nhuận.
+        """
+        symbol = symbol.upper().strip()
+        try:
+            inc = self.fx.get_statement(symbol, "INCOME_STATEMENT", "year")
+        except Exception:  # noqa: BLE001
+            return None
+        rev = self._series(inc, C_REV)
+        ni = self._series(inc, C_NI)
+        if len(ni) < 2:
+            return None
+        (_, n_prev), (yr, n_last) = ni[-2], ni[-1]
+        ln_yoy = (n_last / n_prev - 1) if n_prev not in (0, None) and n_prev > 0 else None
+        chuyen_lo = n_last < 0 <= n_prev
+        dt_yoy = None
+        if not is_bank and len(rev) >= 2:
+            (_, r_prev), (_, r_last) = rev[-2], rev[-1]
+            if r_prev and r_prev > 0:
+                dt_yoy = r_last / r_prev - 1
+
+        thoat_lo = (n_prev is not None and n_prev < 0 <= n_last)  # năm trước lỗ, nay có lãi
+        # nhãn tốt/xấu dựa trên lợi nhuận (yếu tố chính)
+        if chuyen_lo or n_last < 0:
+            nhan = "🔴 XẤU (lỗ)"
+        elif thoat_lo:
+            nhan = "🟢 thoát lỗ"
+        elif ln_yoy is None:
+            nhan = "⚪ chưa rõ"
+        elif ln_yoy >= 0.10:
+            nhan = "🟢 TỐT"
+        elif ln_yoy <= -0.10:
+            nhan = "🔴 XẤU"
+        else:
+            nhan = "⚪ đi ngang"
+
+        bits = []
+        if dt_yoy is not None:
+            bits.append(f"doanh thu {dt_yoy:+.0%}")
+        if chuyen_lo:
+            bits.append(f"LN chuyển lỗ ({_t(n_last)})")
+        elif thoat_lo:
+            bits.append(f"LN thoát lỗ ({_t(n_last)})")
+        elif ln_yoy is not None:
+            bits.append(f"lợi nhuận {ln_yoy:+.0%}")
+        elif n_last < 0:
+            bits.append(f"vẫn lỗ ({_t(n_last)})")
+        return {"năm": yr, "dt_yoy": dt_yoy, "ln_yoy": ln_yoy, "chuyển_lỗ": chuyen_lo,
+                "nhãn": nhan, "chi_tiết": ", ".join(bits)}
+
     def scan(self, symbol: str, is_bank: bool = False,
              ratios: Optional[pd.DataFrame] = None) -> List[str]:
         """Trả danh sách cờ đỏ (chuỗi có bằng chứng số). Rỗng nếu khỏe / thiếu dữ liệu.
