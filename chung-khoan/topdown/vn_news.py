@@ -206,16 +206,22 @@ class VNNews:
 
 
     def leader_scan(self, officers: List[Dict[str, object]], symbol: str = "",
+                    company_name: Optional[str] = None,
                     days: int = 45, roles_top: int = 4, per_leader: int = 1
                     ) -> List[Dict[str, object]]:
-        """Dò tin PHÁP LÝ/tiêu cực theo TÊN lãnh đạo (bắt cả tin KHÔNG nhắc công ty —
-        vd 'ông X bị khởi tố'). Chỉ giữ tin MỨC 3 (tiêu cực), yêu cầu tên khớp trong tiêu đề.
+        """Dò tin PHÁP LÝ/tiêu cực theo TÊN lãnh đạo. Chỉ giữ tin MỨC 3 (tiêu cực).
 
-        CẢNH BÁO trùng tên: tìm theo tên người có thể dính người khác cùng tên → mọi tin đều
-        gắn nhãn 'cần kiểm chứng'; nếu tiêu đề cũng nhắc mã thì độ tin cao hơn (khớp_công_ty=True).
-        Chỉ quét `roles_top` lãnh đạo cao nhất (Chủ tịch/TGĐ/Phó TGĐ) để giới hạn số lần gọi.
+        XÁC MINH DANH TÍNH (chống trùng tên): tin phải VỪA khớp tên lãnh đạo VỪA nhắc CÔNG TY
+        (mã hoặc tên đặc trưng) — tức chứng minh được đúng người. Tin chỉ khớp tên mà KHÔNG
+        có công ty để xác minh thì BỎ, không nêu (theo yêu cầu: không xác minh được thì thôi).
+        Chỉ quét `roles_top` lãnh đạo cao nhất để giới hạn số lần gọi.
+
+        GIỚI HẠN: chỉ xác minh bằng công ty HIỆN TẠI (mã/tên đang xét). 'Công ty cũ' của người
+        đó không có dữ liệu để đối chiếu → nếu tin chỉ nhắc công ty cũ sẽ không tự xác minh được.
         """
         symbol = symbol.upper().strip()
+        # token đặc trưng của tên công ty (để đối chiếu ngoài mã)
+        name_toks = [w for w in _tokens(company_name)] if company_name else []
         out: List[Dict[str, object]] = []
         today = dt.date.today()
         cutoff = today - dt.timedelta(days=days)
@@ -236,10 +242,14 @@ class VNNews:
                 lvl, lab = _impact(it["tiêu_đề"])
                 if lvl != 3:                     # chỉ quan tâm tin tiêu cực
                     continue
+                # XÁC MINH: tiêu đề phải có mã hoặc token tên công ty → đúng người
+                verified = bool(symbol and re.search(rf"\b{re.escape(symbol.lower())}\b", low))
+                if not verified and name_toks:
+                    verified = any(w in low for w in name_toks)
+                if not verified:
+                    continue                     # không xác minh được là ai → BỎ
                 cand.append({**it, "tác_động": 3, "nhãn": lab, "số_nguồn": 1,
-                             "lãnh_đạo": name, "chức": off.get("chức"),
-                             "khớp_công_ty": bool(symbol and re.search(
-                                 rf"\b{re.escape(symbol.lower())}\b", low))})
+                             "lãnh_đạo": name, "chức": off.get("chức")})
             cand.sort(key=lambda x: x["ngày"], reverse=True)
             seen, k = set(), 0
             for it in cand:

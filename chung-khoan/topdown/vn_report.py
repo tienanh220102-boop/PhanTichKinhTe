@@ -264,9 +264,8 @@ class VNReport:
             for sym_, kind, n in neg_all[:8]:
                 dd = n["ngày"].strftime("%d/%m") if n.get("ngày") else "?"
                 if kind == "ld":
-                    tag = "" if n.get("khớp_công_ty") else " [chỉ khớp tên]"
                     L.append(f"• {sym_} — 👤 {n.get('lãnh_đạo')} ({n.get('chức') or '?'}): "
-                             f"[{dd}] {n['tiêu_đề']}{tag}")
+                             f"[{dd}] {n['tiêu_đề']}")
                 else:
                     L.append(f"• {sym_}: [{dd}] {n['tiêu_đề']} ({n.get('nguồn') or '?'})")
 
@@ -448,21 +447,19 @@ class VNReport:
             # Tin PHÁP LÝ theo TÊN lãnh đạo đương nhiệm (bắt cả tin không nhắc công ty)
             try:
                 officers = self.ev.get_officers(sym)
-                ld = self.news.leader_scan(officers, symbol=sym)
+                ld = self.news.leader_scan(officers, symbol=sym, company_name=name)
                 rec["tin_lãnh_đạo"] = ld
                 for n in ld:
                     d = n["ngày"].strftime("%d/%m") if n.get("ngày") else "?"
-                    conf = "" if n.get("khớp_công_ty") else " [chỉ khớp tên — dễ trùng]"
                     rec["cờ_rủi_ro"].insert(
                         0, f"🚨 LÃNH ĐẠO — {n['lãnh_đạo']} ({n.get('chức') or '?'}) [{d}]: "
-                           f"{n['tiêu_đề']} (nguồn: {n.get('nguồn') or '?'}){conf} — cần kiểm chứng")
+                           f"{n['tiêu_đề']} (nguồn: {n.get('nguồn') or '?'}) — cần kiểm chứng")
                 if ld:
-                    lines.append("Tin pháp lý liên quan lãnh đạo (đương nhiệm, cần kiểm chứng):")
+                    lines.append("Tin pháp lý liên quan lãnh đạo (đã xác minh qua tên công ty):")
                     for n in ld:
                         d = n["ngày"].strftime("%d/%m") if n.get("ngày") else "?"
-                        tag = "" if n.get("khớp_công_ty") else " (chỉ khớp tên)"
                         lines.append(f"- 🚨 [{d}] {n['lãnh_đạo']} ({n.get('chức') or '?'}): "
-                                     f"{n['tiêu_đề']}{tag}")
+                                     f"{n['tiêu_đề']}")
                     lines.append("")
             except Exception as e:  # noqa: BLE001
                 lines.append(f"_Dò tin lãnh đạo lỗi: {e}_\n")
