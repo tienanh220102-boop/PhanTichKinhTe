@@ -18759,3 +18759,11 @@
 2026-07-19 10:31 ACCEPT [Google News NS] "Canadian Pacific Kansas City (TSX:CP) Set Grain Records, Is The Stock " | kw:rice
 2026-07-19 10:31 ACCEPT [Google News CB] "Although interest rate hikes have begun in earnest this year, lending " | kw:wti,interest rate,rate hike
 2026-07-19 10:31 SKIP_MORNING already_sent date=2026-07-19
+2026-07-19 11:01 ACCEPT [Google News KL] "Gold Prices Stumble... Even With China Buying, a 'Gold Rush' Is Unlike" | kw:gold,rice
+2026-07-19 11:01 ACCEPT [Google News KL] "Gold prices surge following sharp drop in US inflation - MSN" | kw:gold,rice,inflation
+2026-07-19 11:01 ACCEPT [Google News NS] "Madison County Farmers Market Hosts Corn Festival | July 18, 2026 | Ne" | kw:corn
+2026-07-19 11:01 ACCEPT [Google News NS] "Price to sales forward of South Dakota Soybean Processors, LLC – OTC:S" | kw:soybean,rice
+2026-07-19 11:01 ACCEPT [Google News CB] "Fed's Cook says she is prepared to act soon if inflation does not begi" | kw:inflation
+2026-07-19 11:01 ACCEPT [Google News CB] "Expectations of a Delay in European Interest Rate Hike Amid War Risk P" | kw:interest rate,rate hike
+2026-07-19 11:01 ACCEPT [Google News CB] "Central bank replaces lending cap with targeted reserve policy - Capit" | kw:central bank
+2026-07-19 11:01 SKIP_MORNING already_sent date=2026-07-19
