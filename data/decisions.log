@@ -18801,3 +18801,7 @@
 2026-07-19 13:01 SKIP_MORNING already_sent date=2026-07-19
 2026-07-19 13:02 DIRECTION_FIX Copper: "tăng 0.51%" → "giảm 0.51%"
 2026-07-19 13:02 SENT_EVENING articles=20 date=2026-07-19 force=False
+2026-07-19 13:31 ACCEPT [Google News CB] "Markets brace for European, Turkish central banks' rate decisions | Da" | kw:central bank,rate decision
+2026-07-19 13:31 ACCEPT [Google News CB] "Fed Chair Kevin Warsh Just Hammered Home the 2 Words That'll Define Hi" | kw:central bank
+2026-07-19 13:31 SKIP_MORNING already_sent date=2026-07-19
+2026-07-19 13:31 SKIP_EVENING already_sent date=2026-07-19
