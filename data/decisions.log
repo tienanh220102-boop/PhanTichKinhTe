@@ -18636,3 +18636,7 @@
 2026-07-19 00:01 ACCEPT [Google News CB] "Markets await decisions from the Fed, China, and the Bank of Japan; th" | kw:bank of japan
 2026-07-19 00:01 ACCEPT [Google News CB] "Lehmann cool on England job, suggests ECB has identified McCullum succ" | kw:wti,ecb
 2026-07-19 00:02 SENT_MORNING articles=20 date=2026-07-19 force=False
+2026-07-19 00:31 ACCEPT [Google News NS] "The Wheat Rally Could Just be Getting Started - Barchart.com" | kw:wheat
+2026-07-19 00:31 ACCEPT [Google News NS] "US soybeans up as soyoil soars; Black Sea tensions lift wheat, corn - " | kw:oil,wheat,corn
+2026-07-19 00:31 ACCEPT [Google News CB] "Lehmann cool on England job, suggests ECB has identified McCullum succ" | kw:ecb
+2026-07-19 00:31 SKIP_MORNING already_sent date=2026-07-19
