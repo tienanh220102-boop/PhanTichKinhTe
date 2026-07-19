@@ -18661,3 +18661,9 @@
 2026-07-19 03:01 ACCEPT [Google News HH] "Hormuz Reopening Could be OPEC’s Undoing: Bousso - EnergyNow" | kw:opec
 2026-07-19 03:01 ACCEPT [Google News KL] "Rising global debt ultimate driver for gold prices: World Gold Council" | kw:gold,rice
 2026-07-19 03:01 SKIP_MORNING already_sent date=2026-07-19
+2026-07-19 03:31 ACCEPT [Google News HH] "Iran Exports 9 Trillion Won Worth of Crude Oil During Truce; Likely Bo" | kw:oil,crude
+2026-07-19 03:31 ACCEPT [Google News HH] "OPEC Lowers Second-Quarter Global Oil Demand Forecast on Iran War - En" | kw:oil,opec
+2026-07-19 03:31 ACCEPT [Google News HH] "Global crude oil prices surged | Akashvani News - News On AIR" | kw:oil,crude,rice
+2026-07-19 03:31 ACCEPT [Google News KL] "Rising global debt ultimate driver for gold prices: World Gold Council" | kw:gold,rice
+2026-07-19 03:31 ACCEPT [Google News KL] "Gold Dips Below US$4,000, Pressure To Persist On The Yellow Metal - Bu" | kw:gold
+2026-07-19 03:31 SKIP_MORNING already_sent date=2026-07-19
