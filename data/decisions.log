@@ -18873,3 +18873,10 @@
 2026-07-19 16:46 SKIP_MORNING already_sent date=2026-07-19
 2026-07-19 16:46 SKIP_EVENING already_sent date=2026-07-19
 2026-07-19 17:01 ACCEPT [Google News KL] "Capital gains tax on gold, digital currencies from next year - The Dai" | kw:gold
+2026-07-19 17:31 ACCEPT [Google News HH] "Pairs in Focus – WTI Crude Oil, Gold, Silver, CAC 40, Natural Gas, USD" | kw:oil,crude,gas
+2026-07-19 17:31 ACCEPT [Google News HH] "Brent Crude Oil Singapore Trade at Marker Futures (Dec 2026) Trade Ide" | kw:oil,crude,brent
+2026-07-19 17:31 ACCEPT [Google News HH] "Can Agriculture Replace Crude? Experts reveal path to Nigeria’s export" | kw:crude
+2026-07-19 17:31 ACCEPT [Google News KL] "Gold Is The Constant—What Is The Signal In Its Substantial Decline? - " | kw:gold
+2026-07-19 17:31 ACCEPT [Google News KL] "Kinross Gold stock trades steadily as higher gold prices support recen" | kw:gold,rice
+2026-07-19 17:31 ACCEPT [Google News KL] "OGC stock trades steady as OceanaGold focuses on cash flow and guidanc" | kw:gold
+2026-07-19 17:31 ACCEPT [Google News CB] "Federal Reserve Chairman Kevin Warsh agrees inflation fight continues " | kw:inflation,federal reserve
