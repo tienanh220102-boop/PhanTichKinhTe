@@ -18844,3 +18844,9 @@
 2026-07-19 15:01 ACCEPT [Google News CB] "Week Ahead: ECB and CBRT Meetings; China LPR; Japan, U.K., Canada and " | kw:tariff,ecb
 2026-07-19 15:01 SKIP_MORNING already_sent date=2026-07-19
 2026-07-19 15:01 SKIP_EVENING already_sent date=2026-07-19
+2026-07-19 15:31 ACCEPT [Google News HH] "WTI Crude Oil Holds Above $80 Amid Middle East Strain - DailyForex" | kw:oil,crude,wti
+2026-07-19 15:31 ACCEPT [Google News KL] "World Silver Oxide Battery Recycling - Market Analysis, Forecast, Size" | kw:silver
+2026-07-19 15:31 ACCEPT [Google News KL] "Hedging On And Investing In The Interdependence Of Oil And Gold (Techn" | kw:oil,gold
+2026-07-19 15:31 ACCEPT [Google News CB] "Fed’s preferred inflation gauge set for downward revision - Seeking Al" | kw:inflation
+2026-07-19 15:31 SKIP_MORNING already_sent date=2026-07-19
+2026-07-19 15:31 SKIP_EVENING already_sent date=2026-07-19
