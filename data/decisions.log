@@ -18794,3 +18794,5 @@
 2026-07-19 12:11 ACCEPT [Google News NS] "Lagos residents decry soaring corn prices - Peoples Gazette Nigeria" | kw:corn,rice
 2026-07-19 12:11 ACCEPT [Google News CB] "Week Ahead: ECB Interest Rate Decision Looms; Alphabet, Tesla, Intel E" | kw:interest rate,rate decision,ecb
 2026-07-19 12:11 SKIP_MORNING already_sent date=2026-07-19
+2026-07-19 12:31 ACCEPT [Google News CB] "Chainlink embedded in central bank projects across five countries - Cr" | kw:central bank
+2026-07-19 12:31 SKIP_MORNING already_sent date=2026-07-19
