@@ -18810,3 +18810,12 @@
 2026-07-19 13:59 ACCEPT [Google News CB] "Why Inflation May Suddenly Look Better Even Though Everything Still Co" | kw:inflation
 2026-07-19 13:59 SKIP_MORNING already_sent date=2026-07-19
 2026-07-19 13:59 SKIP_EVENING already_sent date=2026-07-19
+2026-07-19 14:01 ACCEPT [Google News HH] "Brent Crude Oil London Trade at Marker Futures (Dec 2026) Trade Ideas " | kw:oil,crude,brent
+2026-07-19 14:01 ACCEPT [Google News KL] "Gold prices rise slightly in India, silver stable - MSN" | kw:gold,silver,rice
+2026-07-19 14:01 ACCEPT [Google News KL] "Silver's Supply-Deficit Puzzle Deepens as Oversold Reading and Fed Unc" | kw:silver
+2026-07-19 14:01 ACCEPT [Google News NS] "The Wheat Rally Could Just be Getting Started - The Globe and Mail" | kw:wheat
+2026-07-19 14:01 ACCEPT [Google News NS] "US Soybean Prices Rebound Following Private Export Sales To China And " | kw:soybean,rice
+2026-07-19 14:01 ACCEPT [Google News CB] "U.S. Economic Data, Earnings Season, and ECB Decision Top Next Week's " | kw:ecb
+2026-07-19 14:01 ACCEPT [Google News CB] "Next week’s macro outlook: accelerating earnings season and the Europe" | kw:central bank,interest rate,rate decision
+2026-07-19 14:01 SKIP_MORNING already_sent date=2026-07-19
+2026-07-19 14:01 SKIP_EVENING already_sent date=2026-07-19
