@@ -18667,3 +18667,15 @@
 2026-07-19 03:31 ACCEPT [Google News KL] "Rising global debt ultimate driver for gold prices: World Gold Council" | kw:gold,rice
 2026-07-19 03:31 ACCEPT [Google News KL] "Gold Dips Below US$4,000, Pressure To Persist On The Yellow Metal - Bu" | kw:gold
 2026-07-19 03:31 SKIP_MORNING already_sent date=2026-07-19
+2026-07-19 04:01 ACCEPT [Google News HH] "New York crude oil OTC trading surpassed the 83 USD mark, with an intr" | kw:oil,crude,wti
+2026-07-19 04:01 ACCEPT [Google News HH] "After the Maritime Blockade Was Lifted... Where Did Iran Sell $9 Billi" | kw:oil,crude
+2026-07-19 04:01 ACCEPT [Google News KL] "Freeport-McMoRan stock trades steady as copper prices and recent earni" | kw:copper,rice
+2026-07-19 04:01 ACCEPT [Google News KL] "Gold, silver prices fall as global bullion weakens; 24K gold slips bel" | kw:gold,silver,rice
+2026-07-19 04:01 ACCEPT [Google News KL] "Gold price declines by Rs 5,300 per tola in a week; silver loses Rs 31" | kw:gold,silver,rice
+2026-07-19 04:01 ACCEPT [Google News NS] "Global wheat stocks drop as US, EU face sharp harvest declines - fooda" | kw:wheat,harvest
+2026-07-19 04:01 ACCEPT [Google News CB] "Bank Of Canada Holds Key Interest Rate Steady At 2.25% In Soft Economy" | kw:interest rate
+2026-07-19 04:01 ACCEPT [Google News CB] "Uncertainty Looms Over BoC's First Interest Rate Decision Of 2026 Yasi" | kw:interest rate,rate decision
+2026-07-19 04:01 ACCEPT [Google News CB] "Former Fed Official Points to Need for Rate Hike This Year, Skeptical " | kw:rate cut,rate hike
+2026-07-19 04:01 ACCEPT [Google News CB] "Crypto Market Analysis For This Week: US-Iran Tensions, Fed Rate Cuts," | kw:fed rate,rate cut
+2026-07-19 04:01 ACCEPT [Google News CB] "The Interest Rate Narrative Has Flipped | Presented By CME Group Getaf" | kw:interest rate
+2026-07-19 04:01 SKIP_MORNING already_sent date=2026-07-19
