@@ -18717,3 +18717,10 @@
 2026-07-19 07:01 ACCEPT [Google News NS] "Prices expose problems in phosphorus programs - Farm Progress" | kw:rice
 2026-07-19 07:01 ACCEPT [Google News NS] "From roadside sales to direct buyers: Minister sees bigger potential f" | kw:corn
 2026-07-19 07:01 SKIP_MORNING already_sent date=2026-07-19
+2026-07-19 07:31 ACCEPT [Google News HH] "How the 1960 election and OPEC shaped New Mexico's oil industry - Albu" | kw:oil,opec
+2026-07-19 07:31 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD Clings to $4,000 as Oil Shock Rewrites th" | kw:oil,gold,rice
+2026-07-19 07:31 ACCEPT [Google News HH] "Q1 Earnings, West Asia Tensions, Crude Oil to Drive Market Movement Th" | kw:oil,crude
+2026-07-19 07:31 ACCEPT [Google News HH] "OPEC cut 2026 oil demand forecast due to changing situation in Hormuz " | kw:oil,opec
+2026-07-19 07:31 ACCEPT [Google News HH] "WTI Crude Oil (USOIL) Ends the Week Above $82; Can Middle East Risks P" | kw:oil,crude,wti
+2026-07-19 07:31 ACCEPT [Google News KL] "Gold Rate Today In Ahmedabad, Check Live 22 And 24 Carat Gold Price - " | kw:gold,rice
+2026-07-19 07:31 SKIP_MORNING already_sent date=2026-07-19
