@@ -18850,3 +18850,7 @@
 2026-07-19 15:31 ACCEPT [Google News CB] "Fed’s preferred inflation gauge set for downward revision - Seeking Al" | kw:inflation
 2026-07-19 15:31 SKIP_MORNING already_sent date=2026-07-19
 2026-07-19 15:31 SKIP_EVENING already_sent date=2026-07-19
+2026-07-19 15:51 ACCEPT [Google News HH] "China's crude oil refining activity drops amid new industrial dynamics" | kw:oil,crude
+2026-07-19 15:51 ACCEPT [Google News KL] "Silver Price Forecast: Silver Eyes $50 After Breaking Below $60 - FXEm" | kw:silver,rice
+2026-07-19 15:51 SKIP_MORNING already_sent date=2026-07-19
+2026-07-19 15:51 SKIP_EVENING already_sent date=2026-07-19
