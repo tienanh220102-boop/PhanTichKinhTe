@@ -18754,3 +18754,8 @@
 2026-07-19 09:45 ACCEPT [Google News CB] "Live Bank Of Canada Interest Rate Announcement Today Bury Local Electi" | kw:interest rate
 2026-07-19 09:45 SKIP_MORNING already_sent date=2026-07-19
 2026-07-19 10:01 SKIP_MORNING already_sent date=2026-07-19
+2026-07-19 10:31 ACCEPT [Google News HH] "Markets to track Q1 earnings, West Asia developments, crude oil this w" | kw:oil,crude
+2026-07-19 10:31 ACCEPT [Google News NS] "Vintage Tribune: How 2 men got rich cornering the onion market - Chica" | kw:corn
+2026-07-19 10:31 ACCEPT [Google News NS] "Canadian Pacific Kansas City (TSX:CP) Set Grain Records, Is The Stock " | kw:rice
+2026-07-19 10:31 ACCEPT [Google News CB] "Although interest rate hikes have begun in earnest this year, lending " | kw:wti,interest rate,rate hike
+2026-07-19 10:31 SKIP_MORNING already_sent date=2026-07-19
