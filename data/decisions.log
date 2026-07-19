@@ -18771,3 +18771,13 @@
 2026-07-19 11:05 ACCEPT [Google News NS] "Russia’s shipping suspension sparks fears of major grain trade disrupt" | kw:shipping
 2026-07-19 11:05 ACCEPT [Google News CB] "Central Bank set to meet for rate decision this week - Hürriyet Daily " | kw:central bank,rate decision
 2026-07-19 11:05 SKIP_MORNING already_sent date=2026-07-19
+2026-07-19 11:31 ACCEPT [Google News HH] "India bought record $5.14 billion worth of Russian crude oil in June -" | kw:oil,crude
+2026-07-19 11:31 ACCEPT [Google News NS] "Canadian Pacific Kansas City (TSX:CP) Set Grain Records, Is The Stock " | kw:rice
+2026-07-19 11:31 ACCEPT [Google News NS] "Corn Futures Rise as Crude Oil Prices Surge Past 80 Dollars - sekberne" | kw:oil,crude,corn
+2026-07-19 11:31 ACCEPT [Google News NS] "Wheat Prices Rally Across All Exchanges Triggered by Black Sea Conflic" | kw:wheat,rice
+2026-07-19 11:31 ACCEPT [Google News NS] "Soybean Futures rebound on Detik Finance as Export Sales Surge - sekbe" | kw:soybean
+2026-07-19 11:31 ACCEPT [Google News CB] "How will the ECB respond to the latest rise in oil prices? - Financial" | kw:oil,rice,ecb
+2026-07-19 11:31 ACCEPT [Google News CB] "3 Interest Rate Sensitive Stocks Investors Are Watching As Fed Rate Si" | kw:fed rate,interest rate
+2026-07-19 11:31 ACCEPT [Google News CB] "Bureau of Economic Analysis overhauls PCE price index methodology, pot" | kw:rice,inflation
+2026-07-19 11:31 ACCEPT [Google News CB] "Beyond interest rates: a central bank for the future - Cyprus Mail" | kw:central bank,interest rate
+2026-07-19 11:31 SKIP_MORNING already_sent date=2026-07-19
