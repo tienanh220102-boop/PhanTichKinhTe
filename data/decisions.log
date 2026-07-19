@@ -18701,3 +18701,10 @@
 2026-07-19 06:01 ACCEPT [Google News CB] "Markets price Fed hikes as analysts warn cuts still possible - MSN" | kw:rice
 2026-07-19 06:01 ACCEPT [Google News CB] "Kevin Warsh's Fed era: How Wall Street is turning to AI to decode the " | kw:central bank
 2026-07-19 06:01 SKIP_MORNING already_sent date=2026-07-19
+2026-07-19 06:31 ACCEPT [Google News HH] "Brent and WTI crude oil prices target $100 as analysts warn of a forev" | kw:oil,crude,brent
+2026-07-19 06:31 ACCEPT [Google News KL] "Gold prices slide as Fed stance, energy costs weigh - MSN" | kw:gold,rice
+2026-07-19 06:31 ACCEPT [Google News KL] "Gold, silver prices rise in domestic market - Khabarhub" | kw:gold,silver,rice
+2026-07-19 06:31 ACCEPT [Google News KL] "Silver Rate Today In Udaipur Live, Latest Silver Price - NDTV Profit" | kw:silver,rice
+2026-07-19 06:31 ACCEPT [Google News KL] "Gold, Silver Rate Today July 19: Gold getting costly? Check 18, 22, 24" | kw:gold,silver,rice
+2026-07-19 06:31 ACCEPT [Google News CB] "Super Central Bank Week Meets Tech Titan Earnings: ECB Rate Decision, " | kw:central bank,rate decision,ecb
+2026-07-19 06:31 SKIP_MORNING already_sent date=2026-07-19
