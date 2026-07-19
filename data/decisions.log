@@ -18724,3 +18724,5 @@
 2026-07-19 07:31 ACCEPT [Google News HH] "WTI Crude Oil (USOIL) Ends the Week Above $82; Can Middle East Risks P" | kw:oil,crude,wti
 2026-07-19 07:31 ACCEPT [Google News KL] "Gold Rate Today In Ahmedabad, Check Live 22 And 24 Carat Gold Price - " | kw:gold,rice
 2026-07-19 07:31 SKIP_MORNING already_sent date=2026-07-19
+2026-07-19 07:38 ACCEPT [Google News CB] "Bank Of Canada Interest Rate Announcement JAN 24th, 2024 Ocean Koi (9Y" | kw:interest rate
+2026-07-19 07:38 SKIP_MORNING already_sent date=2026-07-19
