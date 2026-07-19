@@ -18726,3 +18726,7 @@
 2026-07-19 07:31 SKIP_MORNING already_sent date=2026-07-19
 2026-07-19 07:38 ACCEPT [Google News CB] "Bank Of Canada Interest Rate Announcement JAN 24th, 2024 Ocean Koi (9Y" | kw:interest rate
 2026-07-19 07:38 SKIP_MORNING already_sent date=2026-07-19
+2026-07-19 08:01 ACCEPT [Al Jazeera] "Russia launches largest ballistic missile attack on Kyiv since start o" | kw:shortage
+2026-07-19 08:01 ACCEPT [Google News KL] "Gold, silver prices increase in domestic market - myRepublica" | kw:wti,gold,silver
+2026-07-19 08:01 ACCEPT [Google News NS] "US soybeans up as soyoil soars; Black Sea tensions lift wheat, corn - " | kw:oil,wheat,corn
+2026-07-19 08:01 SKIP_MORNING already_sent date=2026-07-19
