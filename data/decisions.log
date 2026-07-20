@@ -19067,3 +19067,15 @@
 2026-07-20 02:01 ACCEPT [Google News CB] "China’s central bank pumps 398.5 billion yuan into markets via reverse" | kw:central bank
 2026-07-20 02:01 ACCEPT [Google News CB] "China PBoC Interest Rate Decision meets expectations (3%) - TMGM tradi" | kw:interest rate,rate decision,pboc
 2026-07-20 02:01 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 02:31 ACCEPT [Google News HH] "Oil News: Crude Oil Futures Gap Higher as Hormuz Traffic Dries Up - FX" | kw:oil,crude,wti
+2026-07-20 02:31 ACCEPT [Google News HH] "Canadian Dollar edges higher to near 1.4000 as crude oil gains - FXStr" | kw:oil,crude
+2026-07-20 02:31 ACCEPT [Google News HH] "Wti Crude Oil Surges on U.s.–Iran Tensions as Stocks Fall - Action For" | kw:oil,crude,wti
+2026-07-20 02:31 ACCEPT [Google News HH] "Daily Brief Energy/Materials: Lynas Corp Ltd, Base Oil, Crude Oil, Dee" | kw:oil,crude
+2026-07-20 02:31 ACCEPT [Google News HH] "Oil Price Today (July 20): Crude oil jumps 3%, crosses $90 as US and I" | kw:oil,crude,rice
+2026-07-20 02:31 ACCEPT [Google News HH] "Bright Smart Securities & Commodities (SEHK:1428) Stock Faces Scrutiny" | kw:commodities
+2026-07-20 02:31 ACCEPT [Google News HH] "OPEC: Inflation risks persist despite Nigeria’s rising oil output - Th" | kw:oil,opec,inflation
+2026-07-20 02:31 ACCEPT [Google News KL] "Gold Is The Constant: What Is The Signal In Its Substantial Decline? -" | kw:gold
+2026-07-20 02:31 ACCEPT [Google News KL] "Gold, Silver Rate Today July 20: Gold trading up? Check 18, 22, 24 car" | kw:gold,silver,rice
+2026-07-20 02:31 ACCEPT [Google News CB] "Gold slips as oil prices advance, Fed rate-hike voices grow - TradingV" | kw:oil,gold,rice
+2026-07-20 02:31 ACCEPT [Google News CB] "Gold slips below $4,000 as Iran conflict stokes Fed inflation concerns" | kw:gold,inflation
+2026-07-20 02:31 SKIP_MORNING already_sent date=2026-07-20
