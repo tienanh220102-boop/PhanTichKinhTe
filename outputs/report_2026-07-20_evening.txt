@@ -1,0 +1,98 @@
+[BẢNG SỐ LIỆU]
+               Giá   Phiên  5 phiên
+WTI          81.97   -0.6%    +4.9%
+Brent        88.57   +0.5%    +6.3%
+Khí TN       2.890   -0.7%    -0.2%
+Vàng      4,014.10   +0.0%    +0.4%
+Bạc          57.05   +1.8%    -1.0%
+Đồng         6.346   +2.0%    +1.8%
+Ngô         475.75   +7.0%    +8.7%
+Lúa mì      682.75   +0.0%    +8.9%
+Đậu t.    1,222.00   +1.4%    +1.7%
+DXY         100.86   +0.1%    -0.4%
+
+📊 Khối lượng giao dịch cao bất thường (dòng tiền đang chú ý): Bạc 9.4× bình thường, Lúa mì 4.5× bình thường
+
+[LIÊN THỊ TRƯỜNG]
+  Brent−WTI: $6.60 (1 tháng trước: $2.76) — spread rộng = cung WTI dồi dào tương đối
+  Vàng/Bạc: 70.4 (1 tháng trước: 61.7) — tỷ lệ cao = bạc rẻ tương đối so với vàng
+  Đồng/Vàng (×1000): 1.58 (1 tháng trước: 1.49) — tăng = risk-on/kỳ vọng tăng trưởng
+
+[VỊ THẾ QUỸ ĐẦU CƠ — CFTC COT tuần 2026-07-14]
+  Lúa mì (SRW): NET SHORT -16,339 (Δ tuần: +33,391)
+  Ngô: NET LONG +131,463 (Δ tuần: +30,483)
+  Đậu tương: NET LONG +125,403 (Δ tuần: +12,596)
+  Dầu WTI: NET LONG +16,854 (Δ tuần: +7,651)
+  Bạc: NET LONG +25,074 (Δ tuần: -2,941)
+  Đồng: NET LONG +64,385 (Δ tuần: +113)
+  Vàng XAU: NET LONG +186,682 (Δ tuần: -7,564)
+→ NET LONG = quỹ đặt cược giá tăng; Δ dương = dòng tiền đầu cơ đang vào
+
+Dưới đây là báo cáo phân tích thị trường hàng hóa toàn cầu cho phiên Mỹ ngày 2026-07-20:
+
+---
+
+🔀 ĐỐI CHIẾU NGUỒN TIN
+• Không phát hiện xung đột đáng kể giữa các nguồn trong phiên này.
+
+🌍 VĨ MÔ & TIN TỨC NỔI BẬT
+• Thị trường đang định giá khả năng Ngân hàng Trung ương Châu Âu (ECB) sẽ tăng lãi suất hai lần vào đầu năm 2027 do lo ngại lạm phát.
+• Các lo ngại về lạm phát do giá dầu tăng cao đang gia tăng, cùng với những ý kiến ủng hộ việc Cục Dự trữ Liên bang (Fed) tăng lãi suất.
+• Đồng USD có xu hướng tăng nhẹ trong phiên, tạo áp lực lên các hàng hóa định giá bằng USD.
+
+🛢️ NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên
+Xu hướng: WTI SIDEWAY | Brent SIDEWAY | Khí TN SIDEWAY
+Thiên hướng KT: WTI Trung tính | Brent Trung tính | Khí TN Trung tính
+Ngưỡng giá: WTI 77.84–84.60 | Brent 83.04–91.43 | Khí TN 2.823–2.968
+Phân tích:
+• Giá dầu Brent tăng 0,53% trong phiên và tăng mạnh 6,33% trong 5 phiên, vượt mốc 90 USD/thùng. Đà tăng được thúc đẩy bởi căng thẳng leo thang giữa Mỹ và Iran, cùng cảnh báo về một "cuộc chiến vĩnh viễn" có thể đẩy giá dầu lên 100 USD/thùng.
+• Giá dầu WTI giảm nhẹ 0,63% trong phiên nhưng vẫn tăng 4,90% trong 5 phiên. Các quỹ đầu cơ lớn đang đặt cược giá dầu WTI tăng, với vị thế mua ròng tăng thêm 7.651 hợp đồng trong tuần qua.
+• Giá khí tự nhiên giảm nhẹ 0,72% trong phiên và giảm 0,24% trong 5 phiên, dao động trong biên độ bình thường mà không có driver rõ rệt từ tin tức.
+Rủi ro:
+• Căng thẳng địa chính trị ở Trung Đông có thể tiếp tục gây biến động mạnh cho giá dầu.
+• Sự chênh lệch giá giữa Brent và WTI đang ở mức cao ($6.60), cho thấy nguồn cung WTI tương đối dồi dào hơn, có thể hạn chế đà tăng của WTI so với Brent.
+
+🥇 KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc
+Xu hướng: Vàng GIẢM | Bạc GIẢM
+Thiên hướng KT: Vàng Nghiêng giảm | Bạc Nghiêng giảm
+Ngưỡng giá: Vàng 3,964.20–4,091.20 | Bạc 55.02–59.60
+Phân tích:
+• Giá vàng đi ngang trong phiên (+0,03%) nhưng tăng 0,43% trong 5 phiên, trong khi bạc tăng 1,80% trong phiên nhưng giảm 1,02% trong 5 phiên. Cả hai kim loại quý vẫn đang trong xu hướng giảm trung hạn.
+• Vàng nhận được hỗ trợ từ lo ngại lạm phát do giá dầu tăng và căng thẳng ở Hormuz, nhưng đồng thời chịu áp lực khi đồng USD tăng nhẹ và các ý kiến ủng hộ Fed tăng lãi suất gia tăng.
+• Tỷ lệ Vàng/Bạc ở mức 70.4, cao hơn đáng kể so với tháng trước (61.7), cho thấy bạc đang rẻ tương đối so với vàng.
+Rủi ro:
+• Kỳ vọng tăng lãi suất từ các ngân hàng trung ương lớn như ECB và Fed có thể tiếp tục gây áp lực lên giá vàng và bạc.
+• Dòng tiền đầu cơ vào vàng và bạc đang có xu hướng giảm nhẹ trong tuần qua, cho thấy tâm lý thận trọng.
+
+🌾 NÔNG SẢN — Ngô, Đậu tương, Lúa mì
+Xu hướng: Ngô SIDEWAY | Lúa mì SIDEWAY | Đậu tương SIDEWAY
+Thiên hướng KT: Ngô Trung tính | Lúa mì Trung tính | Đậu tương Trung tính
+Ngưỡng giá: Ngô 432.50–475.75 | Lúa mì 615.30–698.25 | Đậu tương 1,185.00–1,222.25
+Phân tích:
+• Ngô tăng mạnh 6,97% trong phiên và 8,68% trong 5 phiên, đạt mức đã tăng nóng. Lúa mì đi ngang trong phiên nhưng tăng 8,89% trong 5 phiên, cũng ở mức đã tăng nóng. Đậu tương tăng 1,45% trong phiên và 1,66% trong 5 phiên.
+• Các quỹ đầu cơ lớn đang đặt cược giá ngô và đậu tương tăng mạnh, với vị thế mua ròng tăng đáng kể trong tuần qua. Vị thế bán ròng lúa mì cũng giảm mạnh, cho thấy dòng tiền đang chuyển sang kỳ vọng tăng giá.
+• Tháng 7 là thời điểm đỉnh điểm thụ phấn của ngô tại Mỹ, khiến thị trường nông sản nhạy cảm với thời tiết.
+Rủi ro:
+• Giá ngô và lúa mì đã tăng nóng, có thể dễ điều chỉnh trong ngắn hạn.
+• Bất kỳ thay đổi nào trong dự báo thời tiết tại các vùng trồng trọt chính của Mỹ có thể gây biến động mạnh cho giá nông sản.
+
+🔩 KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken
+Xu hướng: Đồng SIDEWAY
+Thiên hướng KT: Đồng Trung tính
+Ngưỡng giá: Đồng 6.188–6.387
+Phân tích:
+• Giá đồng tăng mạnh 2,03% trong phiên và 1,82% trong 5 phiên, cho thấy tâm lý thị trường đang nghiêng về "ưa rủi ro" và kỳ vọng tăng trưởng kinh tế.
+• Các quỹ đầu cơ lớn đang đặt cược giá đồng tăng, với vị thế mua ròng duy trì ở mức cao.
+• Nhu cầu đồng thường tăng cao trong mùa xây dựng và nhu cầu điều hòa ở Trung Quốc vào tháng 7.
+Rủi ro:
+• Sự tăng trưởng kinh tế toàn cầu chậm lại hoặc các chính sách thắt chặt tiền tệ có thể ảnh hưởng tiêu cực đến nhu cầu đồng.
+
+📋 KHUYẾN NGHỊ PHIÊN
+• Dầu Brent: Có thể xem xét mua nếu giá điều chỉnh về vùng 88.00-88.50, cắt lỗ dưới 87.50, mục tiêu 90.00-91.00.
+• Ngô: Cần thận trọng với vị thế mua mới do giá đã tăng nóng, có thể chờ tín hiệu điều chỉnh về vùng 460-465 cent/bushel để xem xét.
+• Bạc: Có thể xem xét mua nếu giá duy trì trên 56.50, cắt lỗ dưới 55.00, mục tiêu 58.00-59.00 do bạc đang rẻ tương đối so với vàng.
+
+⚠️ THEO DÕI PHIÊN
+• Diễn biến căng thẳng địa chính trị ở Trung Đông, đặc biệt là giữa Mỹ và Iran.
+• Các báo cáo thời tiết mới nhất tại các vùng trồng trọt chính của Mỹ đối với nông sản.
+• Bất kỳ phát biểu nào từ các quan chức ngân hàng trung ương lớn về chính sách tiền tệ.

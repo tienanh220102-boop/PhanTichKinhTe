@@ -19374,3 +19374,6 @@
 2026-07-20 12:31 ACCEPT [Google News CB] "Romanian central bank unanimously voted to hold rates at July 8 meetin" | kw:central bank
 2026-07-20 12:31 ACCEPT [Google News CB] "ECB survey signals easing wage and cost growth expectations in Eurozon" | kw:ecb,easing
 2026-07-20 12:31 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 13:01 ACCEPT [MarketWatch] "Oil prices reverse lower after report of new Iran cease-fire proposal" | kw:oil,rice
+2026-07-20 13:01 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 13:02 SENT_EVENING articles=20 date=2026-07-20 force=False
