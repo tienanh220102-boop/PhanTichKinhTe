@@ -19039,3 +19039,17 @@
 2026-07-20 01:01 ACCEPT [Google News CB] "Gold Falls on Escalating Middle East Conflict - TradingView" | kw:gold
 2026-07-20 01:01 ACCEPT [Google News CB] "Oil Above $90 Tests The AI Trade’s Nerves - Finimize" | kw:oil
 2026-07-20 01:01 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 01:31 ACCEPT [MarketWatch] "Oil prices surge, stock futures inch higher as fighting between U.S. a" | kw:oil,rice
+2026-07-20 01:31 ACCEPT [OilPrice.com] "Europe Was Supposed to Run Out of Jet Fuel by June. It Didn’t" | kw:fuel,rice,shortage
+2026-07-20 01:31 ACCEPT [Google News HH] "Oil News: Crude Oil Futures Gap Higher as Hormuz Traffic Dries Up - FX" | kw:oil,crude
+2026-07-20 01:31 ACCEPT [Google News HH] "Commodities intraday targets/key levels - TradingView" | kw:commodities
+2026-07-20 01:31 ACCEPT [Google News HH] "Why lower oil prices won't lead to lower inflation just yet - investin" | kw:oil,rice,inflation
+2026-07-20 01:31 ACCEPT [Google News HH] "Brent Crude Oil Prices Extend Rally Above $90 as Middle East Conflict " | kw:oil,crude,brent
+2026-07-20 01:31 ACCEPT [Google News HH] "Commodity Support and Resistance Levels for Precious Metals, Energy, a" | kw:commodity
+2026-07-20 01:31 ACCEPT [Google News KL] "China Nickel Market Review Weekly 2... - Mysteel" | kw:steel,nickel
+2026-07-20 01:31 ACCEPT [Google News KL] "Goldman Sachs note hints China's real gold accumulation may be much mo" | kw:gold
+2026-07-20 01:31 ACCEPT [Google News CB] "Rupiah Set for Reprieve as Analysts See Central Bank Support - Bloombe" | kw:central bank
+2026-07-20 01:31 ACCEPT [Google News CB] "ECB decision, Alphabet and Tesla earnings | Week of 20 Jul - ig.com" | kw:ecb
+2026-07-20 01:31 ACCEPT [Google News CB] "China's central bank keeps rates steady - Breakingthenews.net" | kw:central bank
+2026-07-20 01:31 ACCEPT [Google News CB] "Gold Falls Below $4,000 as Fed Rate-Hike Fears Outweigh Escalating US-" | kw:gold,fed rate
+2026-07-20 01:31 SKIP_MORNING already_sent date=2026-07-20
