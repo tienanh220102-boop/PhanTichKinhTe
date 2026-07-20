@@ -19015,3 +19015,11 @@
 2026-07-19 23:31 ACCEPT [Google News HH] "Gold prices in the new week are under pressure from oil and interest r" | kw:oil,gold,rice
 2026-07-19 23:31 ACCEPT [Google News KL] "Copper Hits Multi-Month Highs as Chile's Mines Fail to Keep Up With AI" | kw:copper
 2026-07-19 23:31 ACCEPT [Google News CB] "Wall Street eyes AI earnings as inflation signals shift Fed outlook - " | kw:inflation
+2026-07-20 00:01 ACCEPT [Google News HH] "Gold Price Drops Amid U.S.-Iran Tensions and Expectations of Fed Rate " | kw:gold,rice,fed rate
+2026-07-20 00:01 ACCEPT [Google News HH] "Bright Smart Securities & Commodities (SEHK:1428) Stock Faces Scrutiny" | kw:lng,commodities
+2026-07-20 00:01 ACCEPT [Google News HH] "Gold Rate Today In Ambur, Check Live 22 And 24 Carat Gold Price - NDTV" | kw:gold,rice
+2026-07-20 00:01 ACCEPT [Google News KL] "DOREX WEEKLY GOLD MARKET UPDATE – w/e 17.07.26 Gold isn't the story - " | kw:gold
+2026-07-20 00:01 ACCEPT [Google News NS] "Wheat disappears after crackdown - The Express Tribune" | kw:wheat
+2026-07-20 00:01 ACCEPT [Google News NS] "World Autonomous Harvesting Systems - Market Analysis, Forecast, Size," | kw:harvest
+2026-07-20 00:01 ACCEPT [Google News CB] "Will the Fed Hike Interest Rates This Month? - Moomoo" | kw:interest rate
+2026-07-20 00:02 SENT_MORNING articles=20 date=2026-07-20 force=False
