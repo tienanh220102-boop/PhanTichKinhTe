@@ -19412,3 +19412,21 @@
 2026-07-20 14:01 ACCEPT [Google News CB] "ECB’s Cipollone argues digital euro will shield banks from stablecoin " | kw:ecb
 2026-07-20 14:01 SKIP_MORNING already_sent date=2026-07-20
 2026-07-20 14:01 SKIP_EVENING already_sent date=2026-07-20
+2026-07-20 14:31 ACCEPT [MarketWatch] "Global oil prices reverse to below $87 a barrel after report of new Ir" | kw:oil,rice
+2026-07-20 14:31 ACCEPT [OilPrice.com] "U.S. Gasoline Prices Climb Back Above $4 Per Gallon" | kw:oil,crude,gas
+2026-07-20 14:31 ACCEPT [Google News HH] "Crude Oil Hits Gold, But Comex Trading Most Bullish Since Record Price" | kw:oil,crude,gold
+2026-07-20 14:31 ACCEPT [Google News HH] "Gold Price Analysis – Gold Defends $4,000 Support Level as Death Cross" | kw:gold,rice
+2026-07-20 14:31 ACCEPT [Google News HH] "The gold price correction has not yet ended—could $3,500 become a key " | kw:gold,rice
+2026-07-20 14:31 ACCEPT [Google News KL] "Gold gains capped as markets ignore positive data over Hormuz worries," | kw:gold,silver
+2026-07-20 14:31 ACCEPT [Google News KL] "Silver Price Analysis – Silver Sees Bottom Fishing Despite Death Cross" | kw:silver,rice
+2026-07-20 14:31 ACCEPT [Google News KL] "Gold SWOT: Genesis Minerals’ Billion-Dollar Merger Pushes Stock Higher" | kw:gold
+2026-07-20 14:31 ACCEPT [Google News NS] "Wheat Futures Rally on Global Supply Concerns - TradingPedia" | kw:wheat
+2026-07-20 14:31 ACCEPT [Google News CB] "Forget the Fed and Oil Prices: The Real Recession Risk Is the $39.5 Tr" | kw:oil,rice
+2026-07-20 14:31 ACCEPT [Google News CB] "Gold little changed as investors weigh US-Iran developments, Fed signa" | kw:gold
+2026-07-20 14:31 ACCEPT [Google News CB] "Forget the Fed and Oil Prices: The Real Recession Risk Is the $39.5 Tr" | kw:oil,rice
+2026-07-20 14:31 ACCEPT [Google News CB] "Gold steady as investors gauge U.S.-Iran risks and Fed signals - CNBC" | kw:gold
+2026-07-20 14:31 ACCEPT [Google News CB] "Russian central bank will keep key rate on hold as fuel prices spur in" | kw:fuel,rice,inflation
+2026-07-20 14:31 ACCEPT [Google News CB] "Gold little changed as investors weigh US-Iran developments, Fed signa" | kw:gold
+2026-07-20 14:31 ACCEPT [Google News CB] "US Dollar Gains as Oil Prices Strengthen the Case for Fed Tightening -" | kw:oil,rice,tightening
+2026-07-20 14:31 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 14:31 SKIP_EVENING already_sent date=2026-07-20
