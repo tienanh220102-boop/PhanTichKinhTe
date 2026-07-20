@@ -19146,3 +19146,19 @@
 2026-07-20 05:01 ACCEPT [Google News KL] "Gold Tumbles Below $4,000 as China's Gold ETFs Shed Over CNY 80 Billio" | kw:gold
 2026-07-20 05:01 ACCEPT [Google News KL] "Gold hovers near $4,000 as US-Iran tensions lift oil and bolster Fed h" | kw:oil,gold
 2026-07-20 05:01 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 05:31 ACCEPT [Google News HH] "Gold price in Philippines: Rates on July 20 - FXStreet" | kw:gold,rice
+2026-07-20 05:31 ACCEPT [Google News HH] "Gold price in Saudi Arabia: Rates on July 20 - FXStreet" | kw:gold,rice
+2026-07-20 05:31 ACCEPT [Google News HH] "U.S. crude oil jumped more than 3% at the start of trading on Monday, " | kw:oil,crude
+2026-07-20 05:31 ACCEPT [Google News HH] "South32 Logs Lower Output for Most Commodities in FY26 - marketscreene" | kw:commodities
+2026-07-20 05:31 ACCEPT [Google News HH] "UAE’s exit from OPEC: What comes next? - The Daily Star" | kw:opec
+2026-07-20 05:31 ACCEPT [Google News KL] "Gold Price on 19 July 2026 - Gold Price" | kw:gold,rice
+2026-07-20 05:31 ACCEPT [Google News KL] "Gold slips as oil prices advance, Fed rate-hike voices grow - CNBC" | kw:oil,gold,rice
+2026-07-20 05:31 ACCEPT [Google News KL] "Gold steady as markets assess Middle East escalation, Fed hike bets - " | kw:gold
+2026-07-20 05:31 ACCEPT [Google News KL] "Gold Can Make Up For Lost Time, Though Risks Remain (NYSEARCA:GLD) - S" | kw:gold,gdp
+2026-07-20 05:31 ACCEPT [Google News KL] "DAILY: Macro disruptions weigh on s... - Mysteel" | kw:steel
+2026-07-20 05:31 ACCEPT [Google News KL] "Gold prices rise to $4,024.61 as oil-driven inflation concerns persist" | kw:oil,gold,rice
+2026-07-20 05:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD Rebounds Toward $57 as Bulls Eye Trendl" | kw:silver,rice
+2026-07-20 05:31 ACCEPT [Google News KL] "Gold price nears breaking point as Fed fears threaten brutal collapse " | kw:gold,rice
+2026-07-20 05:31 ACCEPT [Google News CB] "Eurozone inflation confirmed at 2.8%: Will it be enough for the ECB to" | kw:inflation,ecb
+2026-07-20 05:31 ACCEPT [Google News CB] "Rate hikes are imminent! Warsh and the bond market agree: the Fed’s fi" | kw:inflation,rate hike
+2026-07-20 05:31 SKIP_MORNING already_sent date=2026-07-20
