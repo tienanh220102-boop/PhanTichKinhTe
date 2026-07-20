@@ -19332,3 +19332,10 @@
 2026-07-20 11:19 ACCEPT [Google News CB] "Sri Lanka's central bank likely to hold rates to control inflation - T" | kw:lng,inflation,central bank
 2026-07-20 11:19 ACCEPT [Google News CB] "The European Central Bank monitors the increase in borrowing costs for" | kw:central bank
 2026-07-20 11:19 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 11:31 ACCEPT [MarketWatch] "Scared of the AI trade? Here are three investment themes Goldman Sachs" | kw:gold
+2026-07-20 11:31 ACCEPT [Google News HH] "Gold (XAU/USD) Price Forecast for Today, Tomorrow, Next Week, and the " | kw:gold,rice
+2026-07-20 11:31 ACCEPT [Google News HH] "EIA: what are tank bottoms? - Hydrocarbon Engineering" | kw:wti
+2026-07-20 11:31 ACCEPT [Google News HH] "Crude oil futures rise 2.5% on firm demand, global cues - ET EnergyWor" | kw:oil,crude
+2026-07-20 11:31 ACCEPT [Google News KL] "TRX Gold Q3 2026 Earnings Call: Complete Transcript - Benzinga" | kw:gold
+2026-07-20 11:31 ACCEPT [Google News CB] "Eurozone inflation at 2.8%: Will it be enough for the ECB to pause? - " | kw:inflation,ecb
+2026-07-20 11:31 SKIP_MORNING already_sent date=2026-07-20
