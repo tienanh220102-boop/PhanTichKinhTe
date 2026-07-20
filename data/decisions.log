@@ -19377,3 +19377,19 @@
 2026-07-20 13:01 ACCEPT [MarketWatch] "Oil prices reverse lower after report of new Iran cease-fire proposal" | kw:oil,rice
 2026-07-20 13:01 SKIP_MORNING already_sent date=2026-07-20
 2026-07-20 13:02 SENT_EVENING articles=20 date=2026-07-20 force=False
+2026-07-20 13:22 ACCEPT [OilPrice.com] "Brent Briefly Breaks $90 After Fresh Iran War Escalation" | kw:crude,brent,wti
+2026-07-20 13:23 ACCEPT [Google News HH] "Why This Waterway Matters to Oil Markets for OANDA:BCOUSD by Kelly_Car" | kw:oil
+2026-07-20 13:23 ACCEPT [Google News KL] "Copper Price Rally Powers Hudbay Minerals (HBM) in Q2 - Yahoo Finance " | kw:copper,rice
+2026-07-20 13:23 ACCEPT [Google News KL] "Gold softens, silver rebounds as Fed-rate risk limits metals - Kitco A" | kw:gold,silver
+2026-07-20 13:23 ACCEPT [Google News KL] "Current price of gold as of July 20, 2026 - Fortune" | kw:gold,rice
+2026-07-20 13:23 ACCEPT [Google News KL] "German copper scrap prices continue to climb - EUWID Recycling and Was" | kw:copper,rice
+2026-07-20 13:23 ACCEPT [Google News KL] "Maple Gold Accelerates Growth Strategy with Senior Executive Appointme" | kw:gold
+2026-07-20 13:23 ACCEPT [Google News KL] "Gold Rebounds Rs 1,400; Silver Declines Amid Geopolitical Risks - Redi" | kw:gold,silver
+2026-07-20 13:23 ACCEPT [Google News NS] "Global grain stocks tighten despite large harvest expectations - The M" | kw:harvest
+2026-07-20 13:23 ACCEPT [Google News NS] "Corn Rallying Again Out of the Weekend - Barchart.com" | kw:corn
+2026-07-20 13:23 ACCEPT [Google News CB] "Lacalle: Another Fed Rate Hike Would Be a Serious Mistake - Hedgeye" | kw:fed rate,rate hike
+2026-07-20 13:23 ACCEPT [Google News CB] "Gas Tops $4 Again, Oil Hits $82. Here’s Why the Fed Has a Big Problem " | kw:oil,gas
+2026-07-20 13:23 ACCEPT [Google News CB] "Aluyi: Geopolitics to shape Nigeria's monetary policy decisons - CNBC " | kw:monetary policy
+2026-07-20 13:23 ACCEPT [Google News CB] "ECB's Q2 SAFE survey shows inflation and wage growth expectations easi" | kw:inflation,ecb,easing
+2026-07-20 13:23 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 13:23 SKIP_EVENING already_sent date=2026-07-20
