@@ -19459,3 +19459,16 @@
 2026-07-20 15:31 ACCEPT [Google News KL] "Silver prices today, Monday, July 20, 2026: Silver ticks up after viol" | kw:silver,rice
 2026-07-20 15:31 SKIP_MORNING already_sent date=2026-07-20
 2026-07-20 15:31 SKIP_EVENING already_sent date=2026-07-20
+2026-07-20 16:01 ACCEPT [MarketWatch] "Global oil prices dip below $87 a barrel after new Iran cease-fire pro" | kw:oil,rice
+2026-07-20 16:01 ACCEPT [OilPrice.com] "New UK Prime Minister Set to Back North Sea Oil and Gas Projects" | kw:oil,gas
+2026-07-20 16:01 ACCEPT [Google News HH] "US wholesale: Week 30 ‘market pulse’ updates available on key seafood " | kw:commodities
+2026-07-20 16:01 ACCEPT [Google News HH] "Gas Prices Top $4 a Gallon Again -- Commodities Roundup - marketscreen" | kw:gas,rice,commodities
+2026-07-20 16:01 ACCEPT [Google News HH] "Marquis Holdings Publishes Inaugural Quarterly Outlook on Bulk Commodi" | kw:commodities
+2026-07-20 16:01 ACCEPT [Google News HH] "Marula Mining Appoints Kwemvelo as External Commodities Trading Desk -" | kw:commodities
+2026-07-20 16:01 ACCEPT [Google News KL] "Gold prices today, Monday, July 20, 2026: Gold holds above $4,000 desp" | kw:gold,rice
+2026-07-20 16:01 ACCEPT [Google News NS] "Is USDA Finally Fixing the Data System Behind Crop Prices? - Agrolatam" | kw:rice
+2026-07-20 16:01 ACCEPT [Google News NS] "Russian wheat export prices rise sharply amid escalating hostilities i" | kw:wheat,rice
+2026-07-20 16:01 ACCEPT [Google News CB] "Could AI-Driven Inflation Lead to Fed Rate Hikes? - Investopedia" | kw:inflation,fed rate,rate hike
+2026-07-20 16:01 ACCEPT [Google News CB] "Inflation Slowed in June, but These 4 Words From Kevin Warsh Suggest I" | kw:inflation,interest rate,rate hike
+2026-07-20 16:01 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 16:01 SKIP_EVENING already_sent date=2026-07-20
