@@ -19127,3 +19127,18 @@
 2026-07-20 04:31 ACCEPT [Google News NS] "Wheat prices in Ukraine started to rise after a long decline - Новини " | kw:wheat,rice
 2026-07-20 04:31 ACCEPT [Google News CB] "Ukraine Hits Russia’s Top Online Retailer, Says Warehouses Fed Drone S" | kw:supply chain
 2026-07-20 04:31 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 04:59 ACCEPT [Google News HH] "Crude oil at $100 per barrel is back on the agenda: Kpler - CNBC" | kw:oil,crude
+2026-07-20 04:59 ACCEPT [Google News HH] "Gold price in India: Rates on July 20 - FXStreet" | kw:gold,rice
+2026-07-20 04:59 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD Defends $4,000 as Oil Surge and Fed Bets " | kw:oil,gold,rice
+2026-07-20 04:59 ACCEPT [Google News HH] "Markets open lower amid weak global cues, rising crude oil prices - DD" | kw:oil,crude,rice
+2026-07-20 04:59 ACCEPT [Google News KL] "Gold and Silver Price Forecast: Bearish Momentum Builds Near Support -" | kw:gold,silver,rice
+2026-07-20 04:59 ACCEPT [Google News KL] "[SMM Nickel Midday Review] On July 20, nickel prices edged down, and t" | kw:nickel,rice
+2026-07-20 04:59 ACCEPT [Google News KL] "Gold and silver price today, July 20: Check rates of 24K, 22K gold in " | kw:gold,silver,rice
+2026-07-20 04:59 ACCEPT [Google News KL] "Micro Silver (XAGUSD-M) Volatility Intensified on Jul 20: What to Watc" | kw:silver
+2026-07-20 04:59 ACCEPT [Google News NS] "U.S. stock bulls retreat overnight, gold and silver positions experien" | kw:gold,silver,corn
+2026-07-20 04:59 ACCEPT [Google News CB] "Fed Chair Kevin Warsh Vowed to End 5 Years of High Inflation in First " | kw:inflation
+2026-07-20 04:59 ACCEPT [Google News CB] "Fed Chair Kevin Warsh Vowed to End 5 Years of High Inflation in First " | kw:inflation
+2026-07-20 04:59 ACCEPT [Google News CB] "High funding demand pushing up interest rates: Vienam central bank gov" | kw:central bank,interest rate
+2026-07-20 04:59 ACCEPT [Google News CB] "Gold slips as oil prices advance, Fed rate-hike voices grow - TradingV" | kw:oil,gold,rice
+2026-07-20 04:59 ACCEPT [Google News CB] "EUR/USD steady near 1.1430 as Middle East tensions lift dollar; ECB me" | kw:ecb
+2026-07-20 04:59 SKIP_MORNING already_sent date=2026-07-20
