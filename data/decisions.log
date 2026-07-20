@@ -19224,3 +19224,13 @@
 2026-07-20 08:01 ACCEPT [Google News CB] "South African rand steady as investors await central bank guidance - T" | kw:central bank
 2026-07-20 08:01 ACCEPT [Google News CB] "Euro holds early recovery against US Dollar, focus is on ECB policy - " | kw:ecb
 2026-07-20 08:01 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 08:07 ACCEPT [Google News HH] "| Indian polyester raw material prices rebound on stronger crude oil -" | kw:oil,crude,rice
+2026-07-20 08:07 ACCEPT [Google News HH] "Crude Oil Prices Rise Nearly 3% Amidst US-Iran Tensions in Strait of H" | kw:oil,crude,rice
+2026-07-20 08:07 ACCEPT [Google News KL] "Silver price rebound turns dangerous as $57.50 resistance hardens - In" | kw:silver,rice
+2026-07-20 08:07 ACCEPT [Google News NS] "Wheat leads grain rally on war and weather risks - FarmWeekNow" | kw:wheat
+2026-07-20 08:07 ACCEPT [Google News CB] "Cleveland Fed: Business activity up, but high fuel costs are increasin" | kw:fuel,rice,easing
+2026-07-20 08:07 ACCEPT [Google News CB] "ECB survey sees moderating wage demands, selling price growth - Yahoo!" | kw:rice,ecb
+2026-07-20 08:07 ACCEPT [Google News CB] "Back to square one: Five questions for the ECB By Reuters - Investing." | kw:ecb
+2026-07-20 08:07 ACCEPT [Google News CB] "Gold Holds Steady as Fed Rate Worries Override Iran Tensions - Briefs " | kw:gold,fed rate
+2026-07-20 08:07 ACCEPT [Google News CB] "Gold Holds Near $4,000 as Fed, Mideast Risks Steady Prices - TradingPe" | kw:gold,rice
+2026-07-20 08:07 SKIP_MORNING already_sent date=2026-07-20
