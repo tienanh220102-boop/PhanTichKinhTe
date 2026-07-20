@@ -19197,3 +19197,19 @@
 2026-07-20 07:01 ACCEPT [Google News CB] "Euro Holds Steady as Oil Surges Ahead of ECB Decision - TradingView" | kw:oil,ecb
 2026-07-20 07:01 ACCEPT [Google News CB] "EUR/USD steady near 1.1430 as Middle East tensions lift dollar; ECB me" | kw:ecb
 2026-07-20 07:01 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 07:30 ACCEPT [OilPrice.com] "LNG Shipments Through Strait of Hormuz Grind to a Halt as Conflict Esc" | kw:oil,gas,lng
+2026-07-20 07:31 ACCEPT [Google News HH] "Forex Today 20/07: Crude Oil Rises as Middle - DailyForex" | kw:oil,crude,lng
+2026-07-20 07:31 ACCEPT [Google News HH] "Top professor explains why WTI crude oil price could surge soon - Inve" | kw:oil,crude,wti
+2026-07-20 07:31 ACCEPT [Google News KL] "Silver: Rate Pressures Vs. Middle East Risk - What’s Next? - Investing" | kw:silver
+2026-07-20 07:31 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Middle East Risks Support Gold " | kw:gold,silver,rice
+2026-07-20 07:31 ACCEPT [Google News KL] "Copper price is affected by the contradiction of the indicators– Forec" | kw:lng,copper,rice
+2026-07-20 07:31 ACCEPT [Google News NS] "Well-timed rain pushes soybeans through July heat - Farm Progress" | kw:soybean
+2026-07-20 07:31 ACCEPT [Google News NS] "Hail and tornadoes rip through the Corn Belt - Farm Progress" | kw:corn
+2026-07-20 07:31 ACCEPT [Google News NS] "Sunflower and Soybean Prices Remain High in Ukraine - Новини аграрного" | kw:soybean,rice
+2026-07-20 07:31 ACCEPT [Google News CB] "Eurozone inflation at 2.8%: Will it be enough for the ECB to pause? - " | kw:inflation,ecb
+2026-07-20 07:31 ACCEPT [Google News CB] "South African rand steady as investors await central bank guidance - R" | kw:central bank
+2026-07-20 07:31 ACCEPT [Google News CB] "European shares edge lower ahead of ECB meeting, US tech earnings; oil" | kw:oil,ecb
+2026-07-20 07:31 ACCEPT [Google News CB] "Gold eases as markets assess Middle East escalation, Fed hike bets - T" | kw:gold
+2026-07-20 07:31 ACCEPT [Google News CB] "Bund Yields Climb Ahead of ECB Decision - TradingView" | kw:ecb
+2026-07-20 07:31 ACCEPT [Google News CB] "Dollar drifts as US-Iran conflict intensifies, Brent hits $90 - WKZO" | kw:brent
+2026-07-20 07:31 SKIP_MORNING already_sent date=2026-07-20
