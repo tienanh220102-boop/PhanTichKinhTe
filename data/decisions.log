@@ -19446,3 +19446,13 @@
 2026-07-20 15:01 ACCEPT [Google News CB] "Indian central bank's capital flow measures draw over $20 billion in f" | kw:central bank
 2026-07-20 15:01 SKIP_MORNING already_sent date=2026-07-20
 2026-07-20 15:01 SKIP_EVENING already_sent date=2026-07-20
+2026-07-20 15:25 ACCEPT [OilPrice.com] "Drone Strike Halts Exports at Strategic Black Sea Oil Terminal" | kw:oil,crude
+2026-07-20 15:25 ACCEPT [Google News KL] "Pandora Should Fare Better Than Peers in High Silver Price Environment" | kw:silver,iron,rice
+2026-07-20 15:25 ACCEPT [Google News KL] "Is Gold’s Bull Market Over? Three Reasons the Fundamentals Say No - FX" | kw:gold
+2026-07-20 15:25 ACCEPT [Google News NS] "Global wheat market issues worth monitoring - Wandile Sihlobo | Substa" | kw:wheat
+2026-07-20 15:25 ACCEPT [Google News NS] "GRAINS-Wheat reaches two-year high due to Black Sea supply concerns, t" | kw:wheat
+2026-07-20 15:25 ACCEPT [Google News NS] "Wheat hits two-year highs on Black Sea shipping concerns - Investing.c" | kw:wheat,shipping
+2026-07-20 15:25 ACCEPT [Google News NS] "Wheat hits two-year highs on Black Sea shipping concerns By Investing." | kw:wheat,shipping
+2026-07-20 15:25 ACCEPT [Google News CB] "Russian central bank will keep key rate on hold as fuel prices spur in" | kw:fuel,rice,inflation
+2026-07-20 15:25 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 15:25 SKIP_EVENING already_sent date=2026-07-20
