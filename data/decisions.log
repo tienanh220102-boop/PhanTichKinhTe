@@ -19284,3 +19284,20 @@
 2026-07-20 10:01 ACCEPT [Google News CB] "Euro holds steady vs Japanese Yen ahead of ECB, BoJ meetings - FXStree" | kw:ecb,boj
 2026-07-20 10:01 ACCEPT [Google News CB] "Japanese Yen: BoJ expectations skewed to upside – BBH - FXStreet" | kw:boj
 2026-07-20 10:01 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 10:30 ACCEPT [Al Jazeera] "Police attack Cockroach activists as thousands march on Indian parliam" | kw:gas
+2026-07-20 10:31 ACCEPT [NASDAQ Commod] "Gold Holds Steady As Oil Dips On US-Iran Peace Hopes" | kw:oil,gold
+2026-07-20 10:31 ACCEPT [Google News HH] "Crude oil hits one-month high amid renewed US-Iran fighting - Hürriyet" | kw:oil,crude
+2026-07-20 10:31 ACCEPT [Google News HH] "Crude prices hit one-month high - EnergyWatch" | kw:crude,rice
+2026-07-20 10:31 ACCEPT [Google News HH] "Volatility rocks energy markets after Brent crude oil hits 90 dollars " | kw:oil,crude,brent
+2026-07-20 10:31 ACCEPT [Google News HH] "| Indian polyester raw material prices rebound on stronger crude oil -" | kw:oil,crude,rice
+2026-07-20 10:31 ACCEPT [Google News HH] "China's imports of Saudi crude sink to near eight-year low in June - Q" | kw:crude,commodity
+2026-07-20 10:31 ACCEPT [Google News KL] "Gold holds near $4,000 as Fed rate expectations offset safe-haven dema" | kw:gold,fed rate
+2026-07-20 10:31 ACCEPT [Google News KL] "China imports at nine-month high buoy copper prices - TradingView" | kw:copper,rice
+2026-07-20 10:31 ACCEPT [Google News KL] "Copper billet imports continued to rise both YoY and MoM in June, with" | kw:copper,rice
+2026-07-20 10:31 ACCEPT [Google News NS] "Fastmarkets to launch price assessment for Soybean CFR China (Pacific " | kw:lng,soybean,rice
+2026-07-20 10:31 ACCEPT [Google News NS] "Extreme Weather Raises Commodity Market Risks - Oz Arab Media" | kw:commodity
+2026-07-20 10:31 ACCEPT [Google News NS] "It was supposed to be shipped, but remained in Poland: Ukrainian grain" | kw:fuel
+2026-07-20 10:31 ACCEPT [Google News CB] "Gold trades near $4,000 as Middle East conflict and Fed policy outlook" | kw:gold
+2026-07-20 10:31 ACCEPT [Google News CB] "Markets price in two ECB rate hikes by early 2027 on inflation concern" | kw:rice,inflation,rate hike
+2026-07-20 10:31 ACCEPT [Google News CB] "Cash reserves in Iraq’s central bank decline sharply - Iraqi News" | kw:central bank
+2026-07-20 10:31 SKIP_MORNING already_sent date=2026-07-20
