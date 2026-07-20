@@ -19258,3 +19258,16 @@
 2026-07-20 09:01 ACCEPT [Google News CB] "ECB survey sees moderating wage demands, selling price growth - SRN Ne" | kw:rice,ecb
 2026-07-20 09:01 ACCEPT [Google News CB] "ECB to Hold Rates Steady as Rebound in Energy Prices Threatens to Revi" | kw:rice,inflation,ecb
 2026-07-20 09:01 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 09:31 ACCEPT [Google News HH] "Commodity Currencies Rise As Crude Oil Prices Climb - RTTNews" | kw:oil,crude,rice
+2026-07-20 09:31 ACCEPT [Google News HH] "Refined oil products are recovering much more slowly than crude oil—co" | kw:oil,crude
+2026-07-20 09:31 ACCEPT [Google News HH] "Nomura Adjusts Laopu Gold's Price Target to HK$905 From HK$1,114, Keep" | kw:gold,rice
+2026-07-20 09:31 ACCEPT [Google News HH] "Crude Oil Market Has Already Used Its Spare Tire - Investing.com Canad" | kw:oil,crude
+2026-07-20 09:31 ACCEPT [Google News KL] "Gold Prices May Face Short-Term Corrections Amid Long-Term Optimism (G" | kw:gold,rice
+2026-07-20 09:31 ACCEPT [Google News KL] "Copper billet imports continued to rise both YoY and MoM in June, with" | kw:copper,rice
+2026-07-20 09:31 ACCEPT [Google News NS] "French wheat crop sheds 7.6% after heatwave hit yields, Argus says - B" | kw:wheat
+2026-07-20 09:31 ACCEPT [Google News NS] "China's June US soybean imports fall 21%, Brazil shipments rise 14% - " | kw:soybean
+2026-07-20 09:31 ACCEPT [Google News CB] "Survey on the Access to Finance of Enterprises: lending conditions tig" | kw:central bank
+2026-07-20 09:31 ACCEPT [Google News CB] "U.S. regulatory developments and earnings, ECB rate decision: Crypto W" | kw:rate decision,ecb
+2026-07-20 09:31 ACCEPT [Google News CB] "Eurozone bond yields rise as higher oil prices reinforce expectations " | kw:oil,rice,ecb
+2026-07-20 09:31 ACCEPT [Google News CB] "Australian Dollar rises against Japanese Yen due to RBA-BoJ rate diffe" | kw:boj
+2026-07-20 09:31 SKIP_MORNING already_sent date=2026-07-20
