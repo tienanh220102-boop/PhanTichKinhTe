@@ -19543,3 +19543,12 @@
 2026-07-20 16:31 ACCEPT [Google News CB] "ECB to Hold Rates Steady as Rebound in Energy Prices Threatens to Revi" | kw:rice,inflation,ecb
 2026-07-20 16:31 SKIP_MORNING already_sent date=2026-07-20
 2026-07-20 16:31 SKIP_EVENING already_sent date=2026-07-20
+2026-07-20 16:51 ACCEPT [Google News HH] "Sugar Prices Slip on Dollar Strength and Crude Oil Weakness - Barchart" | kw:oil,crude,rice
+2026-07-20 16:51 ACCEPT [Google News KL] "Current price of gold as of July 20, 2026 - Fortune" | kw:gold,rice
+2026-07-20 16:51 ACCEPT [Google News KL] "Silver Price Today: Silver Rises 2.03% on July 20, 2026 - USA Today" | kw:silver,rice
+2026-07-20 16:51 ACCEPT [Google News KL] "Why Gold Miners Could Be the Market's Biggest Comeback Story - MarketB" | kw:gold
+2026-07-20 16:51 ACCEPT [Google News NS] "Ahad Cheema chairs meeting to review national wheat stocks, supply str" | kw:wheat
+2026-07-20 16:52 ACCEPT [Google News CB] "ECB Joins US Banks in Warning Stablecoins Could Drain Deposits - PYMNT" | kw:ecb
+2026-07-20 16:52 ACCEPT [Google News CB] "Treasury walks a tightrope on US debt by relying on short-term rates t" | kw:treasury
+2026-07-20 16:52 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 16:52 SKIP_EVENING already_sent date=2026-07-20
