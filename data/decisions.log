@@ -19023,3 +19023,19 @@
 2026-07-20 00:01 ACCEPT [Google News NS] "World Autonomous Harvesting Systems - Market Analysis, Forecast, Size," | kw:harvest
 2026-07-20 00:01 ACCEPT [Google News CB] "Will the Fed Hike Interest Rates This Month? - Moomoo" | kw:interest rate
 2026-07-20 00:02 SENT_MORNING articles=20 date=2026-07-20 force=False
+2026-07-20 01:01 ACCEPT [Google News HH] "NY Crude Oil Recovers to $85 Level for First Time in a Month on Supply" | kw:oil,crude
+2026-07-20 01:01 ACCEPT [Google News HH] "Gold Price Forecast: Positive Signals as XAU/USD Holds Above $4,000 De" | kw:gold,rice
+2026-07-20 01:01 ACCEPT [Google News HH] "LOOKING TO CANADA FOR OIL: Canada’s Irving Turns to Newfoundland for O" | kw:oil
+2026-07-20 01:01 ACCEPT [Google News KL] "Gold prices fall as US-Iran tensions rise, Fed rate hike anticipated -" | kw:gold,rice,fed rate
+2026-07-20 01:01 ACCEPT [Google News KL] "Gold falls toward $4,000 as US-Iran hostilities boosts Fed rate hike b" | kw:gold,fed rate,rate hike
+2026-07-20 01:01 ACCEPT [Google News KL] "Gold declines as Federal Reserve faces pressure to raise rates amid US" | kw:gold,federal reserve
+2026-07-20 01:01 ACCEPT [Google News KL] "Maranoa Gold Mining Set for Commencement Following REZ, Rembrandt JV -" | kw:gold
+2026-07-20 01:01 ACCEPT [Google News NS] "Indonesia boosts corn reserves to secure food supply - avinews.com" | kw:corn
+2026-07-20 01:01 ACCEPT [Google News NS] "Corn groups urge swift federal investigation into fertilizer industry " | kw:corn
+2026-07-20 01:01 ACCEPT [Google News NS] "Russian strike on cargo ship in Black Sea kills five, threatening glob" | kw:commodity
+2026-07-20 01:01 ACCEPT [Google News CB] "Georgia’s central bank strikes deal with five of the country’s biggest" | kw:central bank
+2026-07-20 01:01 ACCEPT [Google News CB] "Post-Covid inflation was a monetary phenomenon - Global Policy Journal" | kw:inflation
+2026-07-20 01:01 ACCEPT [Google News CB] "Week Ahead for FX, Bonds : U.S., European PMI Data, ECB Decision in Fo" | kw:ecb
+2026-07-20 01:01 ACCEPT [Google News CB] "Gold Falls on Escalating Middle East Conflict - TradingView" | kw:gold
+2026-07-20 01:01 ACCEPT [Google News CB] "Oil Above $90 Tests The AI Trade’s Nerves - Finimize" | kw:oil
+2026-07-20 01:01 SKIP_MORNING already_sent date=2026-07-20
