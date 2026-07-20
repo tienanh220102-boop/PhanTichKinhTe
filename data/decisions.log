@@ -19121,3 +19121,9 @@
 2026-07-20 04:01 ACCEPT [Google News CB] "Bond market bets on Fed hikes despite softer inflation - MSN" | kw:inflation
 2026-07-20 04:01 ACCEPT [Google News CB] "Central Bank Issues Rare Policy Statement Explicitly Encouraging Resid" | kw:central bank
 2026-07-20 04:01 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 04:31 ACCEPT [Google News HH] "Crude oil rises, metals show mixed performance, SHFE tin, alumina, and" | kw:oil,crude,wti
+2026-07-20 04:31 ACCEPT [Google News KL] "Gold price drops by Tk2,683 per bhori in Bangladesh - The Business Sta" | kw:gold,rice
+2026-07-20 04:31 ACCEPT [Google News NS] "Corn Hits Over 7-Week High - TradingView" | kw:corn
+2026-07-20 04:31 ACCEPT [Google News NS] "Wheat prices in Ukraine started to rise after a long decline - Новини " | kw:wheat,rice
+2026-07-20 04:31 ACCEPT [Google News CB] "Ukraine Hits Russia’s Top Online Retailer, Says Warehouses Fed Drone S" | kw:supply chain
+2026-07-20 04:31 SKIP_MORNING already_sent date=2026-07-20
