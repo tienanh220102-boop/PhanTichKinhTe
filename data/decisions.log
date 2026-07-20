@@ -19162,3 +19162,14 @@
 2026-07-20 05:31 ACCEPT [Google News CB] "Eurozone inflation confirmed at 2.8%: Will it be enough for the ECB to" | kw:inflation,ecb
 2026-07-20 05:31 ACCEPT [Google News CB] "Rate hikes are imminent! Warsh and the bond market agree: the Fed’s fi" | kw:inflation,rate hike
 2026-07-20 05:31 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 06:01 ACCEPT [OilPrice.com] "Gulf Oil Exports Briefly Recovered to Pre-War Levels Before Latest Esc" | kw:oil,crude
+2026-07-20 06:01 ACCEPT [Google News HH] "US-Iran Tensions: Crude Oil and Safe Havens - Bitget" | kw:oil,crude
+2026-07-20 06:01 ACCEPT [Google News HH] "Crude Oil West Texas (Sep 2026) Trade Ideas — CMCMARKETS:USCRUDEOILU20" | kw:oil,crude
+2026-07-20 06:01 ACCEPT [Google News HH] "Stock markets tumble in early trade dragged by HDFC Bank, spike in cru" | kw:oil,crude,rice
+2026-07-20 06:01 ACCEPT [Google News KL] "Gold price in United Arab Emirates: Rates on July 20 - FXStreet" | kw:gold,rice
+2026-07-20 06:01 ACCEPT [Google News KL] "Copper Prices and Inventories Both Decline, Suppliers Actively Hold Pr" | kw:copper,rice
+2026-07-20 06:01 ACCEPT [Google News NS] "Enterprise value to revenue forward of South Dakota Soybean Processors" | kw:soybean
+2026-07-20 06:01 ACCEPT [Google News CB] "Eurozone inflation confirmed at 2.8%: Will it be enough for the ECB to" | kw:inflation,ecb
+2026-07-20 06:01 ACCEPT [Google News CB] "Gold steadies as investors weigh Fed outlook against escalating U.S.-I" | kw:gold
+2026-07-20 06:01 ACCEPT [Google News CB] "New Zealand Dollar edges higher above 0.5850 as softer US inflation da" | kw:inflation,fed rate,rate hike
+2026-07-20 06:01 SKIP_MORNING already_sent date=2026-07-20
