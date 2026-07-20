@@ -19109,3 +19109,15 @@
 2026-07-20 03:31 ACCEPT [Google News CB] "Singapore central bank to issue quarterly monetary policy statement on" | kw:central bank,monetary policy
 2026-07-20 03:31 ACCEPT [Google News CB] "Rate hikes are imminent! Warsh and the bond market agree: the Fed’s fi" | kw:inflation,rate hike
 2026-07-20 03:31 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 04:01 ACCEPT [Google News HH] "Crude oil futures jump as US-Iran conflict continues - bastillepost.co" | kw:oil,crude
+2026-07-20 04:01 ACCEPT [Google News HH] "Crude Oil Price Forecast: Worsening US-Iran Tensions Support Oil Price" | kw:oil,crude,brent
+2026-07-20 04:01 ACCEPT [Google News HH] "Crude Oil Trading Alert: Geopolitical tensions drive oil prices to gap" | kw:oil,crude,rice
+2026-07-20 04:01 ACCEPT [Google News HH] "Brent Crude Oil shows signs of easing – Analysis – 20-07-2026 - Econom" | kw:oil,crude,brent
+2026-07-20 04:01 ACCEPT [Google News HH] "Gold Price Today: MCX Gold Climbs To Rs 1.41 Lakh Amid US-Iran Tension" | kw:gold,rice
+2026-07-20 04:01 ACCEPT [Google News KL] "Gold steadies near $4,000 as Iran conflict keeps Fed inflation fears i" | kw:gold,inflation
+2026-07-20 04:01 ACCEPT [Google News KL] "AI’s power buildout is pushing copper to record highs — can the rally " | kw:copper
+2026-07-20 04:01 ACCEPT [Google News KL] "Silver price fluctuations on July 20th: Turn around to increase - Laod" | kw:silver,rice
+2026-07-20 04:01 ACCEPT [Google News KL] "Brent surpasses $90 as US-Iran conflict fuels fresh oil price rally - " | kw:oil,fuel,brent
+2026-07-20 04:01 ACCEPT [Google News CB] "Bond market bets on Fed hikes despite softer inflation - MSN" | kw:inflation
+2026-07-20 04:01 ACCEPT [Google News CB] "Central Bank Issues Rare Policy Statement Explicitly Encouraging Resid" | kw:central bank
+2026-07-20 04:01 SKIP_MORNING already_sent date=2026-07-20
