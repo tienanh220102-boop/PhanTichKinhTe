@@ -19472,3 +19472,74 @@
 2026-07-20 16:01 ACCEPT [Google News CB] "Inflation Slowed in June, but These 4 Words From Kevin Warsh Suggest I" | kw:inflation,interest rate,rate hike
 2026-07-20 16:01 SKIP_MORNING already_sent date=2026-07-20
 2026-07-20 16:01 SKIP_EVENING already_sent date=2026-07-20
+2026-07-20 16:31 ACCEPT [MarketWatch] "Iren’s stock surges as the neocloud lands $2.8 billion worth of new de" | kw:easing
+2026-07-20 16:31 ACCEPT [MarketWatch] "Global oil prices dip below $87 a barrel after new Iran ceasefire prop" | kw:oil,rice
+2026-07-20 16:31 ACCEPT [BBC Business] "West Africa signs off $25bn mega gas-pipeline plan" | kw:gas
+2026-07-20 16:31 ACCEPT [BBC Business] "Chinese firm seeks compensation over British Steel nationalisation" | kw:steel
+2026-07-20 16:31 ACCEPT [BBC Business] "Wealthy AI workers send San Francisco house prices soaring" | kw:rice
+2026-07-20 16:31 ACCEPT [BBC Business] "Do you know your 'sweat score'? The rise of hydration tech" | kw:flood
+2026-07-20 16:31 ACCEPT [The Guardian Biz] "Why a modest US interest rate rise won’t change much for most business" | kw:interest rate,federal reserve
+2026-07-20 16:31 ACCEPT [The Guardian Biz] "China ‘strongly dissatisfied’ with nationalisation of British Steel" | kw:steel
+2026-07-20 16:31 ACCEPT [Al Jazeera] "At least 25 killed as floods and landslides hit northern India" | kw:flood
+2026-07-20 16:31 ACCEPT [CNBC Commodities] "'WarshGPT': How Wall Street is adapting to the Fed's new era of commun" | kw:central bank
+2026-07-20 16:31 ACCEPT [CNBC Commodities] "Short sellers load up against SpaceX as stock drops below IPO price" | kw:rice
+2026-07-20 16:31 ACCEPT [CNBC Commodities] "Warren Buffett on the market today: 'It's tough to find values when ev" | kw:easing
+2026-07-20 16:31 ACCEPT [CNBC Commodities] "Warsh pledges Fed policy 'regime change' to rid inflation 'tax' on Ame" | kw:inflation,central bank,monetary policy
+2026-07-20 16:31 ACCEPT [CNBC Commodities] "Kalshi traders think gas prices will stay higher for longer as U.S.-Ir" | kw:gas,rice
+2026-07-20 16:31 ACCEPT [CNBC Economy] "Import prices post surprise gain as costs of goods from China hit high" | kw:rice
+2026-07-20 16:31 ACCEPT [CNBC Economy] "Christine Lagarde leaves door open to early ECB exit, as she mulls Fre" | kw:central bank,ecb
+2026-07-20 16:31 ACCEPT [CNBC Economy] "World Cup could boost the June jobs report by 40,000, Goldman estimate" | kw:gold
+2026-07-20 16:31 ACCEPT [CNBC Economy] "U.S. issues sweeping Iran oil sanctions waivers, unlocking billions in" | kw:oil,sanction
+2026-07-20 16:31 ACCEPT [OilPrice.com] "Houthis Declare Naval Blockade on Saudi Arabia as Red Sea Crisis Deepe" | kw:embargo
+2026-07-20 16:31 ACCEPT [OilPrice.com] "Drone Strike Halts Exports at Strategic Black Sea Oil Terminal" | kw:oil,crude
+2026-07-20 16:31 ACCEPT [EIA Energy] "Global liquefied natural gas trade volumes reached record high in 2025" | kw:gas,lng
+2026-07-20 16:31 ACCEPT [EIA Energy] "The United States produced more crude oil than any other country in 20" | kw:oil,crude
+2026-07-20 16:31 ACCEPT [EIA Energy] "The 250-year history of U.S. energy consumption" | kw:petroleum
+2026-07-20 16:31 ACCEPT [EIA Energy] "UAE's exit from OPEC+ reduced the group's share of crude oil productio" | kw:oil,crude,opec
+2026-07-20 16:31 ACCEPT [NASDAQ Commod] "Oil Prices Slip In Volatile Trade" | kw:oil,rice,shipping
+2026-07-20 16:31 ACCEPT [NASDAQ Commod] "Craig Parry: The World Needs More Copper, but New Mines Aren't Coming " | kw:copper,commodities
+2026-07-20 16:31 ACCEPT [Google News HH] "Crude Oil Prices Whipsaw On Iran Diplomacy Hopes, Houthi Threat - Inve" | kw:oil,crude,rice
+2026-07-20 16:31 ACCEPT [Google News HH] "Eaglon Prime Highlights Rising Client Interest in Precious Metals and " | kw:commodities
+2026-07-20 16:31 ACCEPT [Google News HH] "Brent crude oil price on July 21, 2026 at 5:00 PM EDT - Robinhood" | kw:oil,crude,brent
+2026-07-20 16:31 ACCEPT [Google News HH] "Georgia gas prices rise nearly 20 cents in one week as national averag" | kw:gas,rice
+2026-07-20 16:31 ACCEPT [Google News HH] "Commodity Currencies Rise As Crude Oil Prices Climb - RTTNews" | kw:oil,crude,rice
+2026-07-20 16:31 ACCEPT [Google News HH] "Hormuz disruptions: India’s crude oil imports from Russia remain near " | kw:oil,crude
+2026-07-20 16:31 ACCEPT [Google News HH] "Crude Oil Tops $90 as US-Iran Clashes Escalate - Briefs Finance" | kw:oil,crude
+2026-07-20 16:31 ACCEPT [Google News HH] "EIA: what are tank bottoms? - Hydrocarbon Engineering" | kw:wti
+2026-07-20 16:31 ACCEPT [Google News HH] "Gold Price on 19 July 2026 - Gold Price" | kw:gold,rice
+2026-07-20 16:31 ACCEPT [Google News HH] "US gas prices hit $4 a gallon amid Iran tensions - Crypto Briefing" | kw:gas,rice
+2026-07-20 16:31 ACCEPT [Google News HH] "Volatility rocks energy markets after Brent crude oil hits 90 dollars " | kw:oil,crude,brent
+2026-07-20 16:31 ACCEPT [Google News HH] "Marula Mining Appoints Kwemvelo as External Commodities Trading Desk -" | kw:commodities
+2026-07-20 16:31 ACCEPT [Google News KL] "China imports at nine-month high buoy copper prices - Reuters" | kw:copper,rice
+2026-07-20 16:31 ACCEPT [Google News KL] "Silver Price Analysis – Silver Sees Bottom Fishing Despite Death Cross" | kw:silver,rice
+2026-07-20 16:31 ACCEPT [Google News KL] "Gold price prediction today: Why are gold prices under pressure? Check" | kw:gold,rice
+2026-07-20 16:31 ACCEPT [Google News KL] "Gold gains capped as markets ignore positive data over Hormuz worries," | kw:gold,silver
+2026-07-20 16:31 ACCEPT [Google News KL] "Silver prices today, Monday, July 20, 2026: Silver ticks up after viol" | kw:silver,rice
+2026-07-20 16:31 ACCEPT [Google News KL] "Copper Price Rally Powers Hudbay Minerals (HBM) in Q2 - Yahoo Finance" | kw:copper,rice
+2026-07-20 16:31 ACCEPT [Google News KL] "Gold (XAUUSD) Price Forecast: Passive Gold Buyers Face a Hawkish Fed T" | kw:gold,rice
+2026-07-20 16:31 ACCEPT [Google News KL] "Is Gold’s Bull Market Over? Three Reasons the Fundamentals Say No - FX" | kw:gold
+2026-07-20 16:31 ACCEPT [Google News KL] "The loudest weekend of the war, and Gold still wouldn't rally - FXStre" | kw:gold
+2026-07-20 16:31 ACCEPT [Google News KL] "Gold price in United Arab Emirates: Rates on July 20 - FXStreet" | kw:gold,rice
+2026-07-20 16:31 ACCEPT [Google News NS] "Wheat Rally and Heat Risks Drive Commodity Market Outlook - Farms.com" | kw:wheat,commodity
+2026-07-20 16:31 ACCEPT [Google News NS] "Wheat hits two-year highs on Black Sea shipping concerns By Investing." | kw:wheat,shipping
+2026-07-20 16:31 ACCEPT [Google News NS] "Pakistan’s Punjab launches $72 million wheat silo initiative to curb p" | kw:wheat,harvest
+2026-07-20 16:31 ACCEPT [Google News NS] "Sweet corn gone! - Madison Courier" | kw:corn
+2026-07-20 16:31 ACCEPT [Google News NS] "Sunflower and Soybean Prices Remain High in Ukraine - Новини аграрного" | kw:soybean,rice
+2026-07-20 16:31 ACCEPT [Google News NS] "Attacks on Russian ships in the Sea of Azov have driven up global whea" | kw:wheat,rice
+2026-07-20 16:31 ACCEPT [Google News NS] "U.S. farmers pay 68% more for corn seed than Brazilian competitors - F" | kw:corn
+2026-07-20 16:31 ACCEPT [Google News NS] "Successful Visit to Washington, D.C., for Wisconsin Corn - Morning Ag " | kw:corn
+2026-07-20 16:31 ACCEPT [Google News NS] "Corn Rallying Again Out of the Weekend - Barchart.com" | kw:corn
+2026-07-20 16:31 ACCEPT [RT Business] "Western banks sue German firm over Russia pullout – FT" | kw:gas,sanction
+2026-07-20 16:31 ACCEPT [RT Business] "US extends Russian oil waiver" | kw:oil,sanction,treasury
+2026-07-20 16:31 ACCEPT [Fed Monetary] "Federal Reserve announces the leadership and objectives of its task fo" | kw:monetary policy,federal reserve
+2026-07-20 16:31 ACCEPT [Fed Monetary] "Federal Reserve issues FOMC statement" | kw:federal reserve,fomc
+2026-07-20 16:31 ACCEPT [Fed Monetary] "Federal Reserve Board and Federal Open Market Committee release econom" | kw:federal reserve,fomc
+2026-07-20 16:31 ACCEPT [Google News CB] "Climate risks push prudential transition plans to the top of central b" | kw:central bank
+2026-07-20 16:31 ACCEPT [Google News CB] "Gold Holds Above the World Gold Council's $4,000 Threshold as Rising F" | kw:gold,fed rate
+2026-07-20 16:31 ACCEPT [Google News CB] "Bank of America CEO: Expect the Fed to raise rates to fight off inflat" | kw:inflation
+2026-07-20 16:31 ACCEPT [Google News CB] "ECB survey sees moderating wage demands, selling price growth - Reuter" | kw:wti,rice,ecb
+2026-07-20 16:31 ACCEPT [Google News CB] "South African rand steady as investors await central bank guidance - R" | kw:central bank
+2026-07-20 16:31 ACCEPT [Google News CB] "Forget the Fed and Oil Prices: The Real Recession Risk Is the $39.5 Tr" | kw:oil,rice
+2026-07-20 16:31 ACCEPT [Google News CB] "ECB to Hold Rates Steady as Rebound in Energy Prices Threatens to Revi" | kw:rice,inflation,ecb
+2026-07-20 16:31 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 16:31 SKIP_EVENING already_sent date=2026-07-20
