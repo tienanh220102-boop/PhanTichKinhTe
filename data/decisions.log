@@ -19456,3 +19456,6 @@
 2026-07-20 15:25 ACCEPT [Google News CB] "Russian central bank will keep key rate on hold as fuel prices spur in" | kw:fuel,rice,inflation
 2026-07-20 15:25 SKIP_MORNING already_sent date=2026-07-20
 2026-07-20 15:25 SKIP_EVENING already_sent date=2026-07-20
+2026-07-20 15:31 ACCEPT [Google News KL] "Silver prices today, Monday, July 20, 2026: Silver ticks up after viol" | kw:silver,rice
+2026-07-20 15:31 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 15:31 SKIP_EVENING already_sent date=2026-07-20
