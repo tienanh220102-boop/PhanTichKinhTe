@@ -19173,3 +19173,15 @@
 2026-07-20 06:01 ACCEPT [Google News CB] "Gold steadies as investors weigh Fed outlook against escalating U.S.-I" | kw:gold
 2026-07-20 06:01 ACCEPT [Google News CB] "New Zealand Dollar edges higher above 0.5850 as softer US inflation da" | kw:inflation,fed rate,rate hike
 2026-07-20 06:01 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 06:31 ACCEPT [Google News HH] "Ethylene Prices Rebound as Volatility Grips Market - Fibre2Fashion" | kw:rice
+2026-07-20 06:31 ACCEPT [Google News KL] "Silver Rises as Mideast Risks Stoke Inflation Fears - TradingPedia" | kw:silver,inflation
+2026-07-20 06:31 ACCEPT [Google News KL] "Silver price rebound turns dangerous as $57.50 resistance hardens - In" | kw:silver,rice
+2026-07-20 06:31 ACCEPT [Google News KL] "Gold price nears breaking point as Fed fears threaten brutal collapse " | kw:gold,rice
+2026-07-20 06:31 ACCEPT [Google News KL] "Is Orezone Gold (TSX:ORE) Undervalued Following Strong Production And " | kw:gold
+2026-07-20 06:31 ACCEPT [Google News NS] "From 'Super El Niño' to Europe’s extreme heatwave: How this year's wea" | kw:commodity
+2026-07-20 06:31 ACCEPT [Google News NS] "Canadian wheat prices hit their highest level in more than two years -" | kw:wheat,rice
+2026-07-20 06:31 ACCEPT [Google News CB] "ECB to Hold Rates Steady as Rebound in Energy Prices Threatens to Revi" | kw:rice,inflation,ecb
+2026-07-20 06:31 ACCEPT [Google News CB] "Eurozone inflation confirmed at 2.8%: Will it be enough for the ECB to" | kw:inflation,ecb
+2026-07-20 06:31 ACCEPT [Google News CB] "Weekly Recap: Higher Q2 profit outlook and ECB digital‑euro pilot - Tr" | kw:ecb
+2026-07-20 06:31 ACCEPT [Google News CB] "Gold steady as markets assess Middle East escalation, Fed hike bets - " | kw:gold
+2026-07-20 06:31 SKIP_MORNING already_sent date=2026-07-20
