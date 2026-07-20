@@ -19234,3 +19234,14 @@
 2026-07-20 08:07 ACCEPT [Google News CB] "Gold Holds Steady as Fed Rate Worries Override Iran Tensions - Briefs " | kw:gold,fed rate
 2026-07-20 08:07 ACCEPT [Google News CB] "Gold Holds Near $4,000 as Fed, Mideast Risks Steady Prices - TradingPe" | kw:gold,rice
 2026-07-20 08:07 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 08:30 ACCEPT [MarketWatch] "Oil prices climb as U.S. and Iran continue to fight" | kw:oil,rice
+2026-07-20 08:30 ACCEPT [OilPrice.com] "China’s Fuel Oil Exports Hit 2026 High as Shipping Demand Rebounds" | kw:oil,gas,fuel
+2026-07-20 08:31 ACCEPT [Google News HH] "WTI Crude Oil Surges on U.S.–Iran Tensions as Stocks Fall - Action For" | kw:oil,crude,wti
+2026-07-20 08:31 ACCEPT [Google News KL] "Silver price rebound turns dangerous as $57.50 resistance hardens - Tr" | kw:silver,rice
+2026-07-20 08:31 ACCEPT [Google News NS] "Successful Visit to Washington, D.C., for Wisconsin Corn - Morning Ag " | kw:corn
+2026-07-20 08:31 ACCEPT [Google News CB] "ECB survey sees moderating wage demands, selling price growth - Reuter" | kw:wti,rice,ecb
+2026-07-20 08:31 ACCEPT [Google News CB] "Back to square one: Five questions for the ECB - TradingView" | kw:ecb
+2026-07-20 08:31 ACCEPT [Google News CB] "Markets price in two ECB rate hikes by early 2027 as Brent tops $90 - " | kw:brent,rice,rate hike
+2026-07-20 08:31 ACCEPT [Google News CB] "ECB's Q2 SAFE survey shows inflation and wage growth expectations easi" | kw:inflation,ecb,easing
+2026-07-20 08:31 ACCEPT [Google News CB] "ECB's SAFE survey predicts slowdown in growth in selling prices and no" | kw:rice,ecb
+2026-07-20 08:31 SKIP_MORNING already_sent date=2026-07-20
