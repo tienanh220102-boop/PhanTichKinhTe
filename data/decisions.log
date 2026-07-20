@@ -19245,3 +19245,16 @@
 2026-07-20 08:31 ACCEPT [Google News CB] "ECB's Q2 SAFE survey shows inflation and wage growth expectations easi" | kw:inflation,ecb,easing
 2026-07-20 08:31 ACCEPT [Google News CB] "ECB's SAFE survey predicts slowdown in growth in selling prices and no" | kw:rice,ecb
 2026-07-20 08:31 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 09:01 ACCEPT [Google News HH] "Black Sea Petroleum shifts entirely to non-Russian crude - Oil & Gas M" | kw:oil,crude,petroleum
+2026-07-20 09:01 ACCEPT [Google News HH] "Crude oil futures rise on spot demand - PSU Watch" | kw:oil,crude
+2026-07-20 09:01 ACCEPT [Google News HH] "Crude Oil Futures Rise 2.5% on Strong Spot Demand - Rediff MoneyWiz" | kw:oil,crude
+2026-07-20 09:01 ACCEPT [Google News KL] "Silver Forecast: XAG/USD bulls eye wedge breakout above $57.25 - FXStr" | kw:silver
+2026-07-20 09:01 ACCEPT [Google News KL] "Silver prices in Egypt slightly down on July 19th - Zawya" | kw:silver,rice
+2026-07-20 09:01 ACCEPT [Google News KL] "Gold prices slide in Baghdad and Erbil - Shafaq News | Latest breaking" | kw:gold,rice
+2026-07-20 09:01 ACCEPT [Google News KL] "Gold demand in China at decade low in June, WGC says - Indonesian Mini" | kw:gold
+2026-07-20 09:01 ACCEPT [Google News KL] "Weekly Gold Market Outlook and Price Prediction Analysis (July 20-26, " | kw:gold,rice
+2026-07-20 09:01 ACCEPT [Google News KL] "Gold falls toward $4,000 as US-Iran hostilities boosts Fed rate hike b" | kw:gold,fed rate,rate hike
+2026-07-20 09:01 ACCEPT [Google News CB] "ECB survey sees moderating wage demands, selling price growth - Eurone" | kw:rice,ecb
+2026-07-20 09:01 ACCEPT [Google News CB] "ECB survey sees moderating wage demands, selling price growth - SRN Ne" | kw:rice,ecb
+2026-07-20 09:01 ACCEPT [Google News CB] "ECB to Hold Rates Steady as Rebound in Energy Prices Threatens to Revi" | kw:rice,inflation,ecb
+2026-07-20 09:01 SKIP_MORNING already_sent date=2026-07-20
