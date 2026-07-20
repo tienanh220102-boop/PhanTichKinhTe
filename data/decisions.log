@@ -19094,3 +19094,18 @@
 2026-07-20 03:01 ACCEPT [Google News NS] "‘Transparent wheat policy vital for food security’ - Business Recorder" | kw:wheat
 2026-07-20 03:01 ACCEPT [Google News CB] "United States Dollar Index struggles to lure buyers despite Iran tensi" | kw:dollar index
 2026-07-20 03:01 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 03:31 ACCEPT [Google News HH] "Palm oil rises tracking Dalian rival oils, crude oil prices - TradingV" | kw:oil,crude,rice
+2026-07-20 03:31 ACCEPT [Google News HH] "Gold Price Holds Above $4,000: Will Oil Surge Push It Lower? - BeInCry" | kw:oil,gold,rice
+2026-07-20 03:31 ACCEPT [Google News HH] "Irving sets two-month Saint John refinery turnaround - Quantum Commodi" | kw:commodity
+2026-07-20 03:31 ACCEPT [Google News HH] "Trump claims oil, gas, eggs, drug prices dropping fast despite mixed d" | kw:oil,gas,rice
+2026-07-20 03:31 ACCEPT [Google News HH] "Soybeans and corn extend gains amid US-Iran tensions, rising energy co" | kw:corn,soybean
+2026-07-20 03:31 ACCEPT [Google News HH] "Gold Price Forecast: Positive Signals as XAU/USD Holds Above $4,000 De" | kw:gold,rice
+2026-07-20 03:31 ACCEPT [Google News HH] "Crude Oil Price Extends Its Rally – Analysis – 20-07-2026 - Economies." | kw:oil,crude,rice
+2026-07-20 03:31 ACCEPT [Google News KL] "ASX giant falls short on copper guidance - Morningstar Australia" | kw:copper
+2026-07-20 03:31 ACCEPT [Google News KL] "Niveles De Alertas Por Vaguada Y Onda Tropical. 26 /05/ 26 Silver Pric" | kw:silver,rice
+2026-07-20 03:31 ACCEPT [Google News KL] "Gold slips as oil prices surge past $90, Fed rate-hike voices grow - B" | kw:oil,gold,rice
+2026-07-20 03:31 ACCEPT [Google News KL] "Silver Mines (ASX:SVL) Pulls Back — Precious Metals Explorer Loses Gro" | kw:silver
+2026-07-20 03:31 ACCEPT [Google News NS] "Attacks on Russian ships in the Sea of Azov have driven up global whea" | kw:wheat,rice
+2026-07-20 03:31 ACCEPT [Google News CB] "Singapore central bank to issue quarterly monetary policy statement on" | kw:central bank,monetary policy
+2026-07-20 03:31 ACCEPT [Google News CB] "Rate hikes are imminent! Warsh and the bond market agree: the Fed’s fi" | kw:inflation,rate hike
+2026-07-20 03:31 SKIP_MORNING already_sent date=2026-07-20
