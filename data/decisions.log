@@ -19325,3 +19325,10 @@
 2026-07-20 11:01 ACCEPT [Google News CB] "Treasury Yields Fell As Traders Priced Out A Fed Hike - Finimize" | kw:rice,treasury
 2026-07-20 11:01 ACCEPT [Google News CB] "Croatian Central Bank warns of rising interest rate and property marke" | kw:central bank,interest rate
 2026-07-20 11:01 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 11:19 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD nears the tip of a triangle formation at " | kw:gold,rice
+2026-07-20 11:19 ACCEPT [Google News KL] "Gold Pullback: Why the Long-Term Investment Case Remains Intact - VanE" | kw:gold
+2026-07-20 11:19 ACCEPT [Google News KL] "Mining Alpha EP4 | Gold Hasn’t Moved. Sentiment Has Collapsed. The Gap" | kw:gold
+2026-07-20 11:19 ACCEPT [Google News KL] "Cerrado Gold Announces 100% Repurchase of Stream Agreements Over Its M" | kw:gold
+2026-07-20 11:19 ACCEPT [Google News CB] "Sri Lanka's central bank likely to hold rates to control inflation - T" | kw:lng,inflation,central bank
+2026-07-20 11:19 ACCEPT [Google News CB] "The European Central Bank monitors the increase in borrowing costs for" | kw:central bank
+2026-07-20 11:19 SKIP_MORNING already_sent date=2026-07-20
