@@ -19079,3 +19079,18 @@
 2026-07-20 02:31 ACCEPT [Google News CB] "Gold slips as oil prices advance, Fed rate-hike voices grow - TradingV" | kw:oil,gold,rice
 2026-07-20 02:31 ACCEPT [Google News CB] "Gold slips below $4,000 as Iran conflict stokes Fed inflation concerns" | kw:gold,inflation
 2026-07-20 02:31 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 03:01 ACCEPT [MarketWatch] "Oil prices rise, stock futures flat as fighting between U.S. and Iran " | kw:oil,rice
+2026-07-20 03:01 ACCEPT [Al Jazeera] "Mbappe takes home second Golden Boot, Spain sweeps World Cup awards" | kw:gold
+2026-07-20 03:01 ACCEPT [Google News HH] "Palm Oil Opens Higher As Crude Oil Jumps - Finimize" | kw:oil,crude
+2026-07-20 03:01 ACCEPT [Google News HH] "Crude oil futures jump as US-Iran conflict continues - 巴士的報" | kw:oil,crude
+2026-07-20 03:01 ACCEPT [Google News HH] "CPC halts Black Sea loadings after tanker drone attacks - Quantum Comm" | kw:commodity
+2026-07-20 03:01 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD keeps sight on $3,950 as the Iran war esc" | kw:gold,rice
+2026-07-20 03:01 ACCEPT [Google News HH] "An uncertain world needs food, fuel, forex buffers - The Indian Expres" | kw:fuel
+2026-07-20 03:01 ACCEPT [Google News KL] "Why is Silver gaining despite rising Fed rate hike bets? - FXStreet" | kw:wti,silver,fed rate
+2026-07-20 03:01 ACCEPT [Google News KL] "Gold and silver extend losses as strong dollar and Fed policy weigh - " | kw:gold,silver
+2026-07-20 03:01 ACCEPT [Google News KL] "Rising Tensions Between U.S. and Iran Push Oil Prices Above $90 Again " | kw:oil,rice
+2026-07-20 03:01 ACCEPT [Google News KL] "Predictive Discovery (ASX:PDI) Advances — West African Gold Developer " | kw:gold
+2026-07-20 03:01 ACCEPT [Google News NS] "Kazakhstan Wheat Ban Raises Risk of Renewed Trade Spat With Russia - T" | kw:wheat
+2026-07-20 03:01 ACCEPT [Google News NS] "‘Transparent wheat policy vital for food security’ - Business Recorder" | kw:wheat
+2026-07-20 03:01 ACCEPT [Google News CB] "United States Dollar Index struggles to lure buyers despite Iran tensi" | kw:dollar index
+2026-07-20 03:01 SKIP_MORNING already_sent date=2026-07-20
