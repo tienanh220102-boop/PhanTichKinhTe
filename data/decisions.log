@@ -19142,3 +19142,7 @@
 2026-07-20 04:59 ACCEPT [Google News CB] "Gold slips as oil prices advance, Fed rate-hike voices grow - TradingV" | kw:oil,gold,rice
 2026-07-20 04:59 ACCEPT [Google News CB] "EUR/USD steady near 1.1430 as Middle East tensions lift dollar; ECB me" | kw:ecb
 2026-07-20 04:59 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 05:01 ACCEPT [Google News KL] "Gold slips as oil prices advance, Fed rate-hike voices grow - CNBC" | kw:oil,gold,rice
+2026-07-20 05:01 ACCEPT [Google News KL] "Gold Tumbles Below $4,000 as China's Gold ETFs Shed Over CNY 80 Billio" | kw:gold
+2026-07-20 05:01 ACCEPT [Google News KL] "Gold hovers near $4,000 as US-Iran tensions lift oil and bolster Fed h" | kw:oil,gold
+2026-07-20 05:01 SKIP_MORNING already_sent date=2026-07-20
