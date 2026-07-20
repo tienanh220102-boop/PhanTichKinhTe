@@ -19053,3 +19053,17 @@
 2026-07-20 01:31 ACCEPT [Google News CB] "China's central bank keeps rates steady - Breakingthenews.net" | kw:central bank
 2026-07-20 01:31 ACCEPT [Google News CB] "Gold Falls Below $4,000 as Fed Rate-Hike Fears Outweigh Escalating US-" | kw:gold,fed rate
 2026-07-20 01:31 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 02:01 ACCEPT [Google News HH] "What is China's next surprise for oil markets? Lower imports, higher f" | kw:oil,fuel
+2026-07-20 02:01 ACCEPT [Google News HH] "Crude Oil Trading Alert: Geopolitical tensions drive oil prices to gap" | kw:oil,crude,rice
+2026-07-20 02:01 ACCEPT [Google News HH] "Brent crude oil tops $90 as US, Iran intensify attacks - BusinessLine" | kw:oil,crude,brent
+2026-07-20 02:01 ACCEPT [Google News KL] "Gold Falls as US-Iran Hostilities Keep Rate Hike Bets on Table - Bloom" | kw:gold,rate hike
+2026-07-20 02:01 ACCEPT [Google News KL] "Gold Prices Decline Amid High Rate Expectations - GuruFocus" | kw:gold,rice
+2026-07-20 02:01 ACCEPT [Google News KL] "LME Copper Slightly Drops While SHFE Copper Edges Up; Middle East Conf" | kw:copper,rice
+2026-07-20 02:01 ACCEPT [Google News KL] "A tough start for ASX gold IPOs, but watch this shift - Mining.com.au" | kw:gold
+2026-07-20 02:01 ACCEPT [Google News KL] "Gold slips as oil prices advance, Fed rate-hike voices grow - The Edge" | kw:oil,gold,rice
+2026-07-20 02:01 ACCEPT [Google News KL] "Gold slips as oil prices advance, Fed rate-hike voices grow - MSN" | kw:oil,gold,rice
+2026-07-20 02:01 ACCEPT [Google News CB] "Gold slips as oil prices advance, Fed rate-hike voices grow - Reuters" | kw:oil,gold,rice
+2026-07-20 02:01 ACCEPT [Google News CB] "Gold steadies near $4,000 as Iran conflict keeps Fed inflation fears i" | kw:gold,inflation
+2026-07-20 02:01 ACCEPT [Google News CB] "China’s central bank pumps 398.5 billion yuan into markets via reverse" | kw:central bank
+2026-07-20 02:01 ACCEPT [Google News CB] "China PBoC Interest Rate Decision meets expectations (3%) - TMGM tradi" | kw:interest rate,rate decision,pboc
+2026-07-20 02:01 SKIP_MORNING already_sent date=2026-07-20
