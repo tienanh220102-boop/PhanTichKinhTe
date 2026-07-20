@@ -19271,3 +19271,16 @@
 2026-07-20 09:31 ACCEPT [Google News CB] "Eurozone bond yields rise as higher oil prices reinforce expectations " | kw:oil,rice,ecb
 2026-07-20 09:31 ACCEPT [Google News CB] "Australian Dollar rises against Japanese Yen due to RBA-BoJ rate diffe" | kw:boj
 2026-07-20 09:31 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 10:01 ACCEPT [MarketWatch] "Inflation is broadening out, says Goldman economist" | kw:gold,rice,inflation
+2026-07-20 10:01 ACCEPT [OilPrice.com] "Tankers Fear Hormuz Transit as Iran Stops Vessels" | kw:oil,easing
+2026-07-20 10:01 ACCEPT [NASDAQ Commod] "Oil Prices Slip In Volatile Trade" | kw:oil,rice,shipping
+2026-07-20 10:01 ACCEPT [Google News HH] "Gold prices continue to drop - VnExpress International" | kw:gold,rice
+2026-07-20 10:01 ACCEPT [Google News KL] "Current price of silver as of Monday, July 20, 2026 - Fortune" | kw:silver,rice
+2026-07-20 10:01 ACCEPT [Google News KL] "Silver price today: rises on July 20 - FXStreet" | kw:silver,rice
+2026-07-20 10:01 ACCEPT [Google News KL] "Silver Futures Climb to Rs 2.18 Lakh/kg - Rediff MoneyWiz" | kw:silver
+2026-07-20 10:01 ACCEPT [Google News NS] "Agricultural Products Industries Bulk Commodity Intelligence (July 20," | kw:commodity
+2026-07-20 10:01 ACCEPT [Google News NS] ""Logistics and demand bottlenecks" are putting pressure on the price o" | kw:rice
+2026-07-20 10:01 ACCEPT [Google News CB] "The Federal Reserve Needs to Tighten Monetary Policy - Bloomberg.com" | kw:monetary policy,federal reserve
+2026-07-20 10:01 ACCEPT [Google News CB] "Euro holds steady vs Japanese Yen ahead of ECB, BoJ meetings - FXStree" | kw:ecb,boj
+2026-07-20 10:01 ACCEPT [Google News CB] "Japanese Yen: BoJ expectations skewed to upside – BBH - FXStreet" | kw:boj
+2026-07-20 10:01 SKIP_MORNING already_sent date=2026-07-20
