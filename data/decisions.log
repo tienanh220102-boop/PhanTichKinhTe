@@ -19393,3 +19393,12 @@
 2026-07-20 13:23 ACCEPT [Google News CB] "ECB's Q2 SAFE survey shows inflation and wage growth expectations easi" | kw:inflation,ecb,easing
 2026-07-20 13:23 SKIP_MORNING already_sent date=2026-07-20
 2026-07-20 13:23 SKIP_EVENING already_sent date=2026-07-20
+2026-07-20 13:31 ACCEPT [Google News HH] "Crude oil hits one-month high amid renewed US-Iran fighting - Hürriyet" | kw:oil,crude
+2026-07-20 13:31 ACCEPT [Google News HH] "Crude Oil Trading on MCX Explained - Contracts, Prices & Factors - ICI" | kw:oil,crude,rice
+2026-07-20 13:31 ACCEPT [Google News KL] "Silver Price For Today, 20 July 2026 - Forbes" | kw:silver,rice
+2026-07-20 13:31 ACCEPT [Google News NS] "Ahead of the Open | Corn, soybeans gap higher - Pro Farmer" | kw:corn,soybean
+2026-07-20 13:31 ACCEPT [Google News CB] "Bank of America CEO: Expect the Fed to raise rates to fight off inflat" | kw:inflation
+2026-07-20 13:31 ACCEPT [Google News CB] "Fed Divisions: Will the $700 Billion AI Boom Reduce Inflation or Trigg" | kw:inflation
+2026-07-20 13:31 ACCEPT [Google News CB] "European Central Bank: Oil risks support a September rate hike – Comme" | kw:oil,central bank,rate hike
+2026-07-20 13:31 SKIP_MORNING already_sent date=2026-07-20
+2026-07-20 13:31 SKIP_EVENING already_sent date=2026-07-20
