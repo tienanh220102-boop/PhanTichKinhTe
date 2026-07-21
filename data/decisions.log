@@ -1,18 +1,3 @@
-2026-06-12 18:01 ACCEPT [Mining.com] "Conflict coltan from Congo linked to Sony, Microsoft, Nvidia supply ch" | kw:supply chain
-2026-06-12 18:01 ACCEPT [Mining.com] "Indonesia raids gold company in $1.4B laundering probe" | kw:gold
-2026-06-12 18:01 ACCEPT [Mining.com] "Illegal mining gangs implicated in South Africa massacre that killed 1" | kw:gold
-2026-06-12 18:01 ACCEPT [Mining.com] "Central Asia Metals’ copper-zinc production outpaces last year" | kw:copper,zinc,rice
-2026-06-12 18:01 ACCEPT [Mining.com] "Ero Copper sees resource growth potential in Brazil" | kw:copper
-2026-06-12 18:01 ACCEPT [Mining.com] "Meteorite may have ‘rained gold’ on Australia" | kw:gold
-2026-06-12 18:01 ACCEPT [Mining.com] "Larvotto Resources inks gold offtake deal with Glencore" | kw:gold
-2026-06-12 18:01 ACCEPT [Mining.com] "Debt cycle points to stronger case for gold price: Sprott" | kw:gold,rice
-2026-06-12 18:58 ACCEPT [Al Jazeera] "Venezuela hits out at Trinidad and Tobago in oil spill spat" | kw:oil,iron
-2026-06-12 20:01 ACCEPT [MarketWatch] "Global oil prices end at 3-month low after Pakistan says a U.S.-Iran p" | kw:oil,crude,brent
-2026-06-12 20:01 ACCEPT [Al Jazeera] "Putin admits Ukraine attacks hitting Russian economy, society" | kw:fuel
-2026-06-12 20:01 ACCEPT [OilPrice.com] "The Hidden Supply Chain Behind Every SpaceX Launch" | kw:gas,supply chain
-2026-06-12 20:31 ACCEPT [MarketWatch] "Is it too late to buy SpaceX’s stock? Here’s how Tesla’s did after one" | kw:gold
-2026-06-12 20:31 ACCEPT [BBC Business] "UK vows to phase out Russian diesel and jet fuel imports by new year" | kw:fuel,sanction
-2026-06-12 20:31 ACCEPT [Al Jazeera] "Clashes break out at DRC rally against presidential term-limit change" | kw:gas
 2026-06-12 23:01 ACCEPT [OilPrice.com] "The Oil Market Could Be Weeks From a Breaking Point" | kw:oil,rice
 2026-06-12 23:31 ACCEPT [Mining.com] "Silver stockpile drawdown risk is misunderstood" | kw:silver
 2026-06-12 23:31 ACCEPT [Mining.com] "Mining’s next boom is off the map: Arctic ice, abyssal plains and aste" | kw:rice
@@ -20013,3 +19998,9 @@
 2026-07-21 17:01 ACCEPT [Google News CB] "Spain backs Hernández de Cos in first-ever bid for the ECB presidency," | kw:ecb
 2026-07-21 17:01 ACCEPT [Google News CB] "Structural shifts demand a new central banking mindset - The Hill" | kw:central bank
 2026-07-21 17:01 ACCEPT [Google News CB] "Germany European Central Bank - Dayton Daily News" | kw:central bank
+2026-07-21 17:31 ACCEPT [MarketWatch] "Oil prices may fall, but gasoline prices won’t. Look at the trap we’re" | kw:oil,gas,rice
+2026-07-21 17:31 ACCEPT [Google News HH] "Houthi Threats Ignite New Oil Price Surge - Crude Oil Prices Today | O" | kw:oil,crude,rice
+2026-07-21 17:31 ACCEPT [Google News HH] "How to Get Crude Oil: Palworld 1.0 - Palworld Guide - IGN" | kw:oil,crude
+2026-07-21 17:31 ACCEPT [Google News KL] "Is It Better to Play the Historic Gold Rally With a Physical Gold or M" | kw:gold
+2026-07-21 17:31 ACCEPT [Google News NS] "Local sweet corn hits market - KEYC News Now" | kw:corn
+2026-07-21 17:31 ACCEPT [Google News CB] "Warsh's First Test: Fed Chair Faces Inflation Scrutiny - Legis1" | kw:inflation
