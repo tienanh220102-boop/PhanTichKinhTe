@@ -1,13 +1,3 @@
-2026-06-12 01:30 ACCEPT [MarketWatch] "Adobe is losing another top executive, and investors don’t like it" | kw:rice
-2026-06-12 01:30 ACCEPT [BBC Business] "Why the economics makes this the craziest world cup ever" | kw:rice,trade war
-2026-06-12 01:30 ACCEPT [BBC Business] "India's 'blue gold' starts a new drinks industry" | kw:gold
-2026-06-12 01:30 ACCEPT [BBC Business] "Trump says 'I love the inflation' as US prices rise at fastest rate in" | kw:rice,inflation
-2026-06-12 01:30 ACCEPT [BBC Business] "Dozens of crisis payments handed out by council" | kw:oil
-2026-06-12 01:30 ACCEPT [The Guardian Biz] "SpaceX heads for record $1.78tn float amid fears it is overvalued" | kw:rice
-2026-06-12 01:30 ACCEPT [The Guardian Biz] "AI wealth boom sending San Francisco home prices surging: ‘It’s ridicu" | kw:rice
-2026-06-12 01:30 ACCEPT [The Guardian Biz] "What Albania teaches us about Kushner's real estate tactics – video ex" | kw:iron
-2026-06-12 01:30 ACCEPT [Al Jazeera] "Trump administration sanctions Cuba’s national oil company, blasts Cas" | kw:oil,sanction
-2026-06-12 01:30 ACCEPT [CNBC Commodities] "Gold slumps to 6-month low even as inflation fears rise. Here's why bu" | kw:gold,rice,inflation
 2026-06-12 01:30 ACCEPT [OilPrice.com] "U.S. To Build Its First Ever Floating LNG Export Terminal" | kw:gas,lng
 2026-06-12 01:30 ACCEPT [OilPrice.com] "Rotterdam's Growing Oil Storage Fraud Problem Is Costing Traders Milli" | kw:oil
 2026-06-12 01:30 ACCEPT [OilPrice.com] "Iraq's Energy Sector Faces Its Most Important Test in Decades" | kw:oil,opec
@@ -20008,3 +19998,16 @@
 2026-07-21 15:31 ACCEPT [Google News CB] "Belarusian ruble faces volatility amid Russian currency shifts and rat" | kw:lng,rate decision
 2026-07-21 15:31 SKIP_MORNING already_sent date=2026-07-21
 2026-07-21 15:31 SKIP_EVENING already_sent date=2026-07-21
+2026-07-21 16:01 ACCEPT [BBC Business] "Lindt's Easter chocolate sales fall after price hike" | kw:rice
+2026-07-21 16:01 ACCEPT [OilPrice.com] "Houthi Threats Ignite New Oil Price Surge" | kw:oil,crude,brent
+2026-07-21 16:01 ACCEPT [Google News HH] "$Crude Oil Futures (SEP6) (CLmain.US)$ oil momentum is extremely too s" | kw:oil,crude
+2026-07-21 16:01 ACCEPT [Google News HH] "Crude Oil Prices Rally on Global Supply Risks - Barchart.com" | kw:oil,crude,rice
+2026-07-21 16:01 ACCEPT [Google News HH] "Saudi Arabia's crude oil exports fall to 3.434 million barrels per day" | kw:oil,crude
+2026-07-21 16:01 ACCEPT [Google News KL] "Silver prices today, Tuesday, July 21, 2026: Silver ticks up near $60 " | kw:silver,rice
+2026-07-21 16:01 ACCEPT [Google News KL] "Copper Price Rebound Lifts FCX; This Stock Is Actionable - Investor's " | kw:copper,rice
+2026-07-21 16:01 ACCEPT [Google News KL] "Gold prices today, Tuesday, July 21, 2026: Gold hovers above $4,000 ah" | kw:gold,rice
+2026-07-21 16:01 ACCEPT [Google News KL] "Radius Gold Provides Updates On Jonco And Tierra Roja Properties - Inv" | kw:gold
+2026-07-21 16:01 ACCEPT [Google News NS] "Corn and Beans See Profit Taking on Weather, Ratings: Can Cattle Conti" | kw:corn
+2026-07-21 16:01 ACCEPT [Google News NS] "Soybeans, Corn Rally and Make Fresh Highs Monday: Cattle Finally Bounc" | kw:corn,soybean
+2026-07-21 16:01 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 16:01 SKIP_EVENING already_sent date=2026-07-21
