@@ -302,11 +302,58 @@ class VNDeepDive:
         self._distress(dd, S, ratios)
         self._valuation(dd, symbol)
 
+        self._recent_quarters(dd, symbol)
         self._make_verdict(dd)
         self._conclusion(dd)
         self._investment_view(dd)
         self._price_anchors(dd, ratios)
         return dd
+
+    def _recent_quarters(self, dd: DeepDive, symbol: str) -> None:
+        """Đọc số QUÝ (độc lập) để bắt turnaround/suy giảm gần đây mà số NĂM chưa phản ánh —
+        vá lỗi 'hệ chỉ nhìn quá khứ theo năm' (đã làm MSR 2025 nhìn xấu dù 2026 bật). GUARDRAIL:
+        đòi 2 quý xác nhận (giảm nhiễu 1 quý lẻ như FPT 2026Q1); chỉ nêu tín hiệu, không cờ đỏ."""
+        try:
+            q = self.fx.get_statement(symbol, "INCOME_STATEMENT", "quarter")
+        except Exception:  # noqa: BLE001
+            return
+        if q is None or q.empty or "lengthReport" not in q.columns or I_NI not in q.columns:
+            return
+        ni_col = q[I_NI]
+        if isinstance(ni_col, pd.DataFrame):
+            ni_col = ni_col.iloc[:, 0]
+        rows = []
+        for y, lr, ni in zip(q["yearReport"], q["lengthReport"], ni_col):
+            try:
+                rows.append((int(y), int(lr), float(ni)))
+            except (TypeError, ValueError):
+                continue
+        rows = [r for r in rows if not np.isnan(r[2])]
+        rows.sort(key=lambda x: (x[0], x[1]))
+        if len(rows) < 6:
+            return
+        (y1, q1, ni1), (y0, q0, ni0) = rows[-1], rows[-2]
+        same = [r[2] for r in rows if r[0] == y1 - 1 and r[1] == q1]  # cùng kỳ năm trước
+        ni_prevyr = same[0] if same else None
+        older = [r[2] for r in rows[-6:-2]]           # 4 quý trước 2 quý gần nhất
+        older_losses = sum(1 for x in older if x < 0)
+        sec = dd.sections.get("business")
+        # TURNAROUND: 2 quý liền có lãi sau chuỗi lỗ → số năm chưa phản ánh
+        if ni1 > 0 and ni0 > 0 and older_losses >= 2:
+            dd.metrics["recent_turn"] = "up"
+            if sec:
+                sec.lines.append(
+                    f"🟢 Diễn biến gần đây (theo quý): 2 quý liền có lãi (Q{q0}/{y0} {_t(ni0)}, "
+                    f"Q{q1}/{y1} {_t(ni1)}) sau chuỗi lỗ — khúc ngoặt mà số liệu NĂM chưa phản ánh.")
+        # SUY GIẢM sớm: quý gần nhất tụt mạnh so cùng kỳ VÀ so quý trước (2 tín hiệu)
+        elif (ni_prevyr is not None and ni_prevyr > 0 and ni1 < 0.5 * ni_prevyr
+              and ni1 < ni0):
+            dd.metrics["recent_turn"] = "down"
+            if sec:
+                sec.lines.append(
+                    f"🔴 Diễn biến gần đây (theo quý): Q{q1}/{y1} lãi {_t(ni1)} tụt mạnh so cùng kỳ "
+                    f"năm trước ({_t(ni_prevyr)}) và so quý liền trước — cảnh báo sớm, số năm chưa "
+                    f"phản ánh. *(1 quý có thể nhiễu — chờ quý sau xác nhận.)*")
 
     def _price_anchors(self, dd: DeepDive, ratios) -> None:
         """Lưu neo định giá (P/E, P/B lịch sử) để dựng khung giá kịch bản. P/B ổn định hơn cho
@@ -1258,6 +1305,12 @@ class VNDeepDive:
         bear = [self._strip_icon(x) for x in dd.red_flags]
         if vs == "đắt":
             bear.append("Định giá cao so với lịch sử — kỳ vọng đã phản ánh vào giá")
+        # tín hiệu QUÝ gần nhất (số năm chưa phản ánh)
+        if m.get("recent_turn") == "up":
+            bull.append("Turnaround đang diễn ra ở các quý gần nhất (2 quý liền có lãi sau lỗ) — "
+                        "số liệu năm chưa phản ánh")
+        elif m.get("recent_turn") == "down":
+            bear.append("Các quý gần nhất đang suy giảm mạnh — cảnh báo sớm số năm chưa phản ánh")
         dd.bull = bull
         dd.bear = bear
 

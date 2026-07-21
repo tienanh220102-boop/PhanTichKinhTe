@@ -76,6 +76,23 @@ mục tự nạp) — không LLM, không bịa.
   drag VinFast −19k quá thấp so số SEC thật).
 - Cite nguồn ngoài (SEC/US GAAP) khi mượn số ngoài hệ VN, và nêu khác biệt chuẩn kế toán.
 
+## LỖI HỆ THỐNG — bản đồ (audit /goal so-sánh-chéo-phủ-lỗi)
+Hệ này là **BỘ LỌC SỨC KHỎE nhìn quá khứ (BCTC năm)** — cần nhưng KHÔNG đủ để quyết định;
+catalyst/thời điểm luôn nằm ngoài BCTC → BẮT BUỘC cross-check nguồn ngoài.
+
+**Đã vá vào code (tất định):** giá snapshot→cảnh báo tự in; Beneish false-positive→đối chiếu CFO
+3 năm ≥80% thì hạ ghi chú; cờ cổ tức→ngưỡng ≥10% lãi ròng; "phụ thuộc vốn góp"→đòi FCF âm;
+"cấu trúc đơn giản"→dùng danh sách công ty con; CCC BĐS vô lý→watchdog DIO>900; "nghi phải
+thu"→bóc tách+DSO; **số năm bỏ sót turnaround→đọc thêm số QUÝ** (bắt MSR Q4/25→Q1/26 bật).
+
+**Giới hạn cấu trúc (KHÔNG vá code được — phải cross-check ngoài):** mù với quý mới nhất/giá
+hàng hóa/chính sách/backlog/tin M&A; rating-target Vietcap cũng snapshot; Beneish/Altman
+calibrate Mỹ; định giá percentile so chính lịch sử mã → value-trap ở đáy chu kỳ; không thấy
+quản trị/bên liên quan thật (trong thuyết minh).
+
+**Quy trình chuẩn:** (1) chạy hệ lọc → (2) cross-check nguồn ngoài cho catalyst/thời điểm →
+(3) lỗi hệ lộ ra thì vá vào CODE không vào trí nhớ. Xem [[feedback_effort_triage]].
+
 ## Checklist trước khi xuất báo cáo
 - [ ] Có mục **Phạm vi & giả định** (nguồn, r/g, KHÔNG cover gì) ngay đầu?
 - [ ] Executive summary (Kết luận nhanh) đủ verdict + cờ + điểm cộng?
