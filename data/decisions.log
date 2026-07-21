@@ -19701,3 +19701,9 @@
 2026-07-21 03:01 ACCEPT [Google News NS] "Soybeans, Corn Rally and Make Fresh Highs Monday: Cattle Correct - AgW" | kw:corn,soybean
 2026-07-21 03:01 ACCEPT [Google News CB] "New Zealand Central Bank Governor Has Time to Balance a Tricky Economy" | kw:central bank
 2026-07-21 03:01 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 03:31 ACCEPT [Google News HH] "Palm falls on weaker Dalian rivals, crude oil - TradingView" | kw:oil,crude,gdp
+2026-07-21 03:31 ACCEPT [Google News HH] "Crude Oil Futures Extend Gains on Middle East Supply Fears, Briefly Hi" | kw:oil,crude,gold
+2026-07-21 03:31 ACCEPT [Google News KL] "Gold rises above $4,000 as traders track Middle East tensions, Fed rat" | kw:gold,fed rate
+2026-07-21 03:31 ACCEPT [Google News CB] "Back to square one: Five questions for the ECB - MSN" | kw:ecb
+2026-07-21 03:31 ACCEPT [Google News CB] "Analysts: Interest rate trends are the core pricing driver; gold and s" | kw:gold,silver,interest rate
+2026-07-21 03:31 SKIP_MORNING already_sent date=2026-07-21
