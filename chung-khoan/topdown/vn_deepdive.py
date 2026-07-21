@@ -295,23 +295,53 @@ class VNDeepDive:
                 prof = cut[:cut.rfind(".") + 1] if "." in cut else cut + "…"
             sec.lines.append(f"**Bản chất kinh doanh:** {prof}")
 
+        # DANH SÁCH công ty con & liên kết (CafeF) — lấy TRƯỚC để dùng khi diễn giải thiểu số
+        gs = None
+        if self.group is not None:
+            try:
+                gs = self.group.get_structure(dd.symbol, self._listed_universe())
+            except Exception:  # noqa: BLE001
+                gs = None
+        # có công ty con sở hữu MỘT PHẦN đáng kể (20–95%, vốn ≥1000 tỷ)? → tập đoàn phức tạp
+        partial_subs = []
+        if gs is not None and not gs.error:
+            partial_subs = [a for a in gs.subsidiaries
+                            if a.ownership is not None and 20 <= a.ownership <= 95
+                            and (a.capital or 0) >= 1000]
+
         ni, minor, parent = S["ni"], S["minor"], S["ni_parent"]
         assoc, jv = S["inv_assoc"], S["jv"]
         yrs = sorted(ni)
         y1 = yrs[-1] if yrs else None
         minor_pct = None
+        minor_neg = False
         if y1 is not None:
             ni1 = ni.get(y1); mi1 = minor.get(y1); par1 = parent.get(y1)
             minor_pct = _safe_div(mi1, ni1) if (ni1 and ni1 > 0 and mi1 is not None) else None
+            minor_neg = mi1 is not None and mi1 < 0
             if minor_pct is not None and mi1 and mi1 > 0:
                 sec.lines.append(
                     f"Lãi ròng hợp nhất {y1} {_t(ni1)}, trong đó **cổ đông công ty mẹ (cổ đông "
                     f"của mã {dd.symbol}) hưởng {_t(par1)}** và cổ đông thiểu số (đối tác trong "
                     f"các công ty con chưa sở hữu 100%) hưởng {_t(mi1)} ≈ {minor_pct*100:.0f}%.")
-            elif par1 is not None:
+            elif minor_neg and par1 is not None:
+                # thiểu số ÂM: công ty con chưa sở hữu 100% đang LỖ, phần lỗ do thiểu số gánh bớt
                 sec.lines.append(
-                    f"Lãi ròng hợp nhất {y1} {_t(ni1)}, gần như trọn vẹn thuộc cổ đông công ty "
-                    f"mẹ ({_t(par1)}) — công ty con hầu như sở hữu 100%, cấu trúc đơn giản.")
+                    f"Lãi ròng hợp nhất {y1} {_t(ni1)}, nhưng phần thuộc **cổ đông công ty mẹ "
+                    f"({_t(par1)}) lại CAO HƠN** tổng hợp nhất — nghĩa là một số công ty con chưa "
+                    f"sở hữu 100% đang LỖ, và phần lỗ đó cổ đông thiểu số gánh bớt "
+                    f"({_t(mi1)}). Đây là dấu hiệu tập đoàn có mảng lỗ lớn (thường là mảng mới).")
+            elif par1 is not None:
+                simple = not partial_subs
+                if simple:
+                    sec.lines.append(
+                        f"Lãi ròng hợp nhất {y1} {_t(ni1)}, gần như trọn vẹn thuộc cổ đông công "
+                        f"ty mẹ ({_t(par1)}) — công ty con hầu như sở hữu 100%, cấu trúc đơn giản.")
+                else:
+                    sec.lines.append(
+                        f"Lãi ròng hợp nhất {y1} {_t(ni1)}; phần cổ đông công ty mẹ {_t(par1)}. "
+                        f"Cổ đông thiểu số ròng gần 0 nhưng tập đoàn VẪN có nhiều công ty con sở "
+                        f"hữu một phần (xem bảng) — có thể do lãi/lỗ các công ty con bù trừ nhau.")
         # đầu tư công ty liên kết + lãi từ đó
         if y1 is not None and assoc.get(y1) and assoc[y1] > 0:
             line = f"Đầu tư vào công ty liên kết cuối {y1}: {_t(assoc[y1])}"
@@ -319,13 +349,6 @@ class VNDeepDive:
                 line += f"; lãi/lỗ từ liên doanh–liên kết trong năm: {_t(jv[y1])}"
             sec.lines.append(line + " (những công ty tập đoàn có ảnh hưởng nhưng KHÔNG kiểm soát).")
 
-        # DANH SÁCH công ty con & liên kết (CafeF) — tên + tỷ lệ sở hữu + mã niêm yết
-        gs = None
-        if self.group is not None:
-            try:
-                gs = self.group.get_structure(dd.symbol, self._listed_universe())
-            except Exception:  # noqa: BLE001
-                gs = None
         if gs is not None and not gs.error and (gs.subsidiaries or gs.associates):
             sec.lines.append(
                 f"Theo dữ liệu CafeF, tập đoàn gồm **{len(gs.subsidiaries)} công ty con** "
@@ -362,6 +385,17 @@ class VNDeepDive:
                 sec.flags.append(
                     f"🔻 Cổ đông thiểu số hưởng {minor_pct*100:.0f}% lãi ròng {y1} (>30%) — phần "
                     f"lớn lợi nhuận 'đẹp' trên báo cáo không chảy về túi cổ đông {dd.symbol}.")
+        elif minor_neg:
+            exp.append(
+                "Cảnh báo đọc số: đừng mừng vội khi thấy 'lãi công ty mẹ' cao hơn lãi hợp nhất. "
+                "Điều đó xảy ra vì có công ty con đang LỖ mà tập đoàn không sở hữu 100% — cổ đông "
+                "thiểu số gánh bớt phần lỗ. Cần tách xem mảng nào đang lỗ (thường là mảng đầu tư "
+                "mới, đốt tiền) trước khi kết luận tập đoàn khỏe.")
+        elif partial_subs:
+            exp.append(
+                "Đây là tập đoàn có cấu trúc PHỨC TẠP (nhiều công ty con sở hữu một phần, xem "
+                "bảng), dù phần lãi thuộc cổ đông thiểu số năm nay ròng gần 0 — nhiều khả năng do "
+                "lãi ở công ty con này bù cho lỗ ở công ty con khác. Không nên coi là 'đơn giản'.")
         elif minor_pct is not None:
             exp.append(
                 f"Cấu trúc sở hữu đơn giản: gần như toàn bộ lợi nhuận thuộc cổ đông {dd.symbol}, "
