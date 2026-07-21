@@ -19690,3 +19690,9 @@
 2026-07-21 02:01 ACCEPT [Google News HH] "Sugar Prices Slip on Dollar Strength and Crude Oil Weakness - TradingV" | kw:oil,crude,rice
 2026-07-21 02:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD bulls flirt with descending trend-line " | kw:silver,rice
 2026-07-21 02:01 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 02:31 ACCEPT [Google News HH] "Crude oil prices rose sharply before retreating, facing a directional " | kw:oil,crude,rice
+2026-07-21 02:31 ACCEPT [Google News HH] "South Korea says 90% of September crude oil needs secured - TradingVie" | kw:oil,crude
+2026-07-21 02:31 ACCEPT [Google News HH] "Iranian crude flows to Singapore up sharply in July on brief US sancti" | kw:crude,sanction
+2026-07-21 02:31 ACCEPT [Google News KL] "Gold Prices May Face Short-Term Corrections Amid Long-Term Optimism (G" | kw:gold,rice
+2026-07-21 02:31 ACCEPT [Google News CB] "Gold rises above $4,000 as traders track Middle East tensions, Fed rat" | kw:gold,fed rate
+2026-07-21 02:31 SKIP_MORNING already_sent date=2026-07-21
