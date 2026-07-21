@@ -19739,3 +19739,15 @@
 2026-07-21 05:31 ACCEPT [Google News KL] "Gold prices rise 0.92 percent above $4,049 as as lower oil eases Fed r" | kw:oil,gold,rice
 2026-07-21 05:31 ACCEPT [Google News CB] "Czech central bank's Michl warns against joining Eurozone too early, F" | kw:central bank
 2026-07-21 05:31 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 06:01 ACCEPT [OilPrice.com] "Goldman Warns Oil Could Hit $120 as Middle East War Drags On" | kw:oil,crude,gold
+2026-07-21 06:01 ACCEPT [Google News HH] "Government Secures 90% of September Crude Oil Amid Tensions - 조선일보" | kw:oil,crude
+2026-07-21 06:01 ACCEPT [Google News HH] "Crude Oil Swings on Hormuz Tensions as Trump Pledge Lifts War Premium " | kw:oil,crude
+2026-07-21 06:01 ACCEPT [Google News HH] "Korea's crude oil supply stable despite uncertainties: industry minist" | kw:oil,crude
+2026-07-21 06:01 ACCEPT [Google News KL] "Gold rises 1% as hopes for US-Iran diplomacy pause oil rally - Reuters" | kw:oil,gold
+2026-07-21 06:01 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Is Gold Ready for $4,100 as Sil" | kw:gold,silver,rice
+2026-07-21 06:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD surges to near $58.20 as oil price rall" | kw:oil,silver,rice
+2026-07-21 06:01 ACCEPT [Google News KL] "Iran strikes Amazon in Bahrain, silver prices climb nearly 3% - Crypto" | kw:silver,rice
+2026-07-21 06:01 ACCEPT [Google News KL] "Gold Price Forecast: Can XAU/USD Hold Above $4,000 as Fed and Middle E" | kw:gold,rice
+2026-07-21 06:01 ACCEPT [Google News NS] "Tennessee looks abroad to grow markets for soybeans, corn - WKRN News " | kw:corn,soybean
+2026-07-21 06:01 ACCEPT [Google News CB] "DRC: Central Bank reduces its key rate by 100 basis points - Financial" | kw:central bank,basis point
+2026-07-21 06:01 SKIP_MORNING already_sent date=2026-07-21
