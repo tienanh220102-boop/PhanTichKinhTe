@@ -19721,3 +19721,10 @@
 2026-07-21 04:31 ACCEPT [Google News CB] "Fed signals possible rate hike as bond ETF inflows surge - MSN" | kw:rate hike
 2026-07-21 04:31 ACCEPT [Google News CB] "Czech central bank chief warns against joining Eurozone too early - Fi" | kw:central bank
 2026-07-21 04:31 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 05:01 ACCEPT [Google News HH] "Commodities: Oil Stabilises Despite Houthis’ Red Sea Threat - Seeking " | kw:oil,commodities
+2026-07-21 05:01 ACCEPT [Google News HH] "Gold price in India: Rates on July 21 - FXStreet" | kw:gold,rice
+2026-07-21 05:01 ACCEPT [Google News HH] "Morning Market Notes: Thus Far Our "Almost All-Out War" NYMEX Crude Oi" | kw:oil,crude,rice
+2026-07-21 05:01 ACCEPT [Google News KL] "Gold rises as hopes for US-Iran diplomacy pause oil rally - Reuters" | kw:oil,gold
+2026-07-21 05:01 ACCEPT [Google News CB] "Palladium Falls as Oil, Fed Bets Weigh - TradingView" | kw:oil
+2026-07-21 05:01 ACCEPT [Google News CB] "FX strategists eye ECB hawkishness as Middle East risk lifts euro case" | kw:ecb
+2026-07-21 05:01 SKIP_MORNING already_sent date=2026-07-21
