@@ -1,8 +1,3 @@
-2026-06-14 07:31 SKIP_MORNING already_sent date=2026-06-14
-2026-06-14 08:01 SKIP_MORNING already_sent date=2026-06-14
-2026-06-14 08:31 SKIP_MORNING already_sent date=2026-06-14
-2026-06-14 09:01 SKIP_MORNING already_sent date=2026-06-14
-2026-06-14 09:31 SKIP_MORNING already_sent date=2026-06-14
 2026-06-14 10:02 SKIP_MORNING already_sent date=2026-06-14
 2026-06-14 10:31 SKIP_MORNING already_sent date=2026-06-14
 2026-06-14 11:01 SKIP_MORNING already_sent date=2026-06-14
@@ -20003,3 +19998,9 @@
 2026-07-21 21:31 ACCEPT [Google News HH] "Crude Oil Price Forecast: Breakout or Pullback Next? - FXEmpire" | kw:oil,crude,rice
 2026-07-21 21:31 ACCEPT [Google News HH] "Norway's Oil Output Beats Forecasts as Hormuz Traffic Stays Near Crisi" | kw:oil,crude,rice
 2026-07-21 21:31 ACCEPT [Google News CB] "VRP: Preferred ETF Mitigating Interest Rate Risk (NYSEARCA:VRP) - Seek" | kw:interest rate
+2026-07-21 21:56 ACCEPT [Google News KL] "Hudbay Minerals stock jumps as copper rally boosts sentiment around it" | kw:copper,quantitative
+2026-07-21 21:56 ACCEPT [Google News NS] "Corn, Wheat Rally Resumes: Soybeans Consolidate After New Highs for th" | kw:wheat,corn,soybean
+2026-07-21 21:56 ACCEPT [Google News NS] "Corn Rallies as Trade Tensions and Weather Risks Shake U.S. Grain Mark" | kw:corn
+2026-07-21 21:56 ACCEPT [Google News NS] "Soybeans Close Down 3½¢ | Tuesday, July 21, 2026 - Successful Farming" | kw:soybean
+2026-07-21 21:56 ACCEPT [Google News NS] "Brazil on Course for Record Wheat Import Dependence - Agrolatam" | kw:wheat
+2026-07-21 21:56 ACCEPT [Google News NS] "Tennessee looks abroad to grow markets for soybeans, corn - WKRN News " | kw:corn,soybean
