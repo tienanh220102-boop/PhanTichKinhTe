@@ -1,6 +1,3 @@
-2026-06-14 12:31 SKIP_MORNING already_sent date=2026-06-14
-2026-06-14 13:01 SKIP_MORNING already_sent date=2026-06-14
-2026-06-14 13:01 SENT_EVENING articles=14 date=2026-06-14
 2026-06-14 13:31 SKIP_MORNING already_sent date=2026-06-14
 2026-06-14 13:31 SKIP_EVENING already_sent date=2026-06-14
 2026-06-14 14:01 SKIP_MORNING already_sent date=2026-06-14
@@ -20001,3 +19998,4 @@
 2026-07-21 22:01 ACCEPT [OilPrice.com] "Fossil Fuels Still Generate 57% of the World's Electricity" | kw:oil,gas,fuel
 2026-07-21 22:01 ACCEPT [Google News NS] "Daily Grain Prices in Western Canada - Farmtario" | kw:rice
 2026-07-21 22:01 ACCEPT [Google News CB] "Preview: ECB set to hold rates in July, hints of September hike expect" | kw:ecb
+2026-07-21 22:31 ACCEPT [Google News NS] "Daily Grain Prices in Western Canada - Canadian Cattlemen" | kw:rice
