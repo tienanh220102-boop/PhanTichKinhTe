@@ -1,10 +1,3 @@
-2026-06-14 05:01 SKIP_MORNING already_sent date=2026-06-14
-2026-06-14 05:31 SKIP_MORNING already_sent date=2026-06-14
-2026-06-14 06:01 SKIP_MORNING already_sent date=2026-06-14
-2026-06-14 06:27 SKIP_MORNING already_sent date=2026-06-14
-2026-06-14 06:31 SKIP_MORNING already_sent date=2026-06-14
-2026-06-14 07:01 ACCEPT [Al Jazeera] "Smiles all around as Morocco, Brazil share spoils and Knicks make hist" | kw:oil
-2026-06-14 07:01 SKIP_MORNING already_sent date=2026-06-14
 2026-06-14 07:31 SKIP_MORNING already_sent date=2026-06-14
 2026-06-14 08:01 SKIP_MORNING already_sent date=2026-06-14
 2026-06-14 08:31 SKIP_MORNING already_sent date=2026-06-14
@@ -20005,3 +19998,8 @@
 2026-07-21 21:01 ACCEPT [Google News HH] "Goldman Sachs Warns: Crude Oil Prices May Surpass $120 - India News Ne" | kw:oil,crude,gold
 2026-07-21 21:01 ACCEPT [Google News KL] "Copper price nearing US record as premium doubles, Shanghai stockpiles" | kw:copper,rice
 2026-07-21 21:01 ACCEPT [Google News CB] "Germany European Central Bank - Idaho State Journal" | kw:central bank
+2026-07-21 21:31 ACCEPT [OilPrice.com] "US Crude Oil Inventories Build As Hormuz Shipping Headache Drags On" | kw:oil,crude,petroleum
+2026-07-21 21:31 ACCEPT [Google News HH] "US Crude Oil Inventories Build As Hormuz Shipping Headache Drags On - " | kw:oil,crude,rice
+2026-07-21 21:31 ACCEPT [Google News HH] "Crude Oil Price Forecast: Breakout or Pullback Next? - FXEmpire" | kw:oil,crude,rice
+2026-07-21 21:31 ACCEPT [Google News HH] "Norway's Oil Output Beats Forecasts as Hormuz Traffic Stays Near Crisi" | kw:oil,crude,rice
+2026-07-21 21:31 ACCEPT [Google News CB] "VRP: Preferred ETF Mitigating Interest Rate Risk (NYSEARCA:VRP) - Seek" | kw:interest rate
