@@ -19667,3 +19667,5 @@
 2026-07-20 23:49 ACCEPT [Google News HH] "Crude oil prices haven't climbed as much as some expected in five mont" | kw:oil,crude,rice
 2026-07-20 23:49 ACCEPT [Google News KL] "Pan American Silver (PAAS) Ascends While Market Falls: Some Facts to N" | kw:silver
 2026-07-20 23:49 ACCEPT [Google News NS] "Local sweet corn hits market - KEYC News Now" | kw:corn
+2026-07-21 00:01 ACCEPT [OilPrice.com] "Higher-For-Longer Oil Scenario Is Here To Stay" | kw:oil,rice
+2026-07-21 00:02 SENT_MORNING articles=20 date=2026-07-21 force=False
