@@ -94,6 +94,12 @@ def _px(v) -> str:
     return f"{v:,.0f} đ"
 
 
+# Cảnh báo BẮT BUỘC mỗi khi hiện giá: dữ liệu VCI là ẢNH CHỤP, không real-time.
+# Đặt trong code (tất định) thay vì trông chờ trí nhớ — chênh vài % đủ đổi điểm vào/ra.
+_PRICE_CAVEAT = ("Giá là ảnh chụp từ VCI (giá tham chiếu/đóng cửa gần nhất, KHÔNG real-time) — "
+                 "đối chiếu bảng giá LIVE trước khi ra quyết định.")
+
+
 def _header_stats_md(dd: DeepDive) -> str:
     i = dd.info or {}
     bits = []
@@ -108,7 +114,12 @@ def _header_stats_md(dd: DeepDive) -> str:
         tgt = f", giá mục tiêu {_px(i.get('target'))}" if i.get("target") else ""
         upt = f" ({up*100:+.0f}%)" if isinstance(up, (int, float)) else ""
         bits.append(f"**Khuyến nghị Vietcap: {r}**{tgt}{upt}")
-    return "> " + " · ".join(bits) if bits else ""
+    if not bits:
+        return ""
+    line = "> " + " · ".join(bits)
+    if i.get("price") is not None:
+        line += f"\n>\n> ⚠️ *{_PRICE_CAVEAT}*"
+    return line
 
 
 def _header_stats_html(dd: DeepDive) -> str:
@@ -129,7 +140,12 @@ def _header_stats_html(dd: DeepDive) -> str:
         upt = f" {up*100:+.0f}%" if isinstance(up, (int, float)) else ""
         tgt = f" · MT {_px(i.get('target'))}" if i.get("target") else ""
         chips.append(f"<span class='chip badge {cls}'>Vietcap: {html.escape(r)}{tgt}{upt}</span>")
-    return "<div class='stats'>" + "".join(chips) + "</div>" if chips else ""
+    if not chips:
+        return ""
+    out = "<div class='stats'>" + "".join(chips) + "</div>"
+    if i.get("price") is not None:
+        out += f"<div class='note' style='margin:-12px 0 18px'>⚠️ {html.escape(_PRICE_CAVEAT)}</div>"
+    return out
 
 
 def _vietcap_reco(dd: DeepDive) -> str:

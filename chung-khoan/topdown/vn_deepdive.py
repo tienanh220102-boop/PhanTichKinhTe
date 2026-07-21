@@ -653,9 +653,19 @@ class VNDeepDive:
                 f"Beneish M-score {mscore:+.2f} (ngưỡng −1.78; cao hơn → khả năng bóp lợi nhuận "
                 f"cao). *Mô hình hiệu chỉnh cho thị trường Mỹ — chỉ dùng làm cờ tham khảo.*")
             if mscore > -1.78:
-                sec.flags.append(
-                    f"🔻 Beneish M-score {mscore:+.2f} > −1.78 — mô hình xếp vào nhóm CÓ khả năng "
-                    f"thao túng lợi nhuận (tham khảo, cần kiểm chứng thuyết minh).")
+                # SO SÁNH CHÉO: Beneish (thống kê accrual/tăng trưởng) vs dòng tiền thực. Nếu CFO
+                # 3 năm mạnh (≥80% lãi ròng) thì cash BÁC BỎ nghi ngờ thao túng → nhiễu mô hình
+                # (bị kích bởi tăng trưởng/biên nhảy), KHÔNG tính cờ đỏ. Vá false-positive DDV/BCC.
+                cfo_ni = dd.metrics.get("cfo_ni_3y")
+                if cfo_ni is not None and cfo_ni >= 0.8:
+                    sec.lines.append(
+                        f"*Đối chiếu: Beneish vượt ngưỡng NHƯNG dòng tiền 3 năm bằng {cfo_ni*100:.0f}% "
+                        f"lãi ròng — tiền thực bác bỏ nghi ngờ thao túng; coi là nhiễu mô hình (do "
+                        f"tăng trưởng/biên nhảy), KHÔNG tính cờ đỏ.*")
+                else:
+                    sec.flags.append(
+                        f"🔻 Beneish M-score {mscore:+.2f} > −1.78 — mô hình xếp vào nhóm CÓ khả năng "
+                        f"thao túng lợi nhuận (tham khảo, cần kiểm chứng thuyết minh).")
             dd._beneish_comps = comps  # lưu để render bảng
 
         sec.explain = [

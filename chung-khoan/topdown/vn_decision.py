@@ -176,7 +176,10 @@ def render_decision(dd: DeepDive, years: int = 2) -> str:
                  f"(hiện {sp['pb_now']:.2f}, giá trị sổ sách ~{_px(sp['bvps'])}/cp) áp lên giá trị sổ "
                  f"sách hiện tại — dùng P/B vì với mã chu kỳ, P/E méo khi lợi nhuận dao động. Đây là "
                  f"KHUNG THAM CHIẾU theo bội số, KHÔNG phải dự báo chắc chắn; giá trị sổ sách còn tăng "
-                 f"theo lợi nhuận giữ lại nên vùng giá thực có thể cao hơn.</p></div>")
+                 f"theo lợi nhuận giữ lại nên vùng giá thực có thể cao hơn.</p>"
+                 f"<p class='line'>⚠️ <b>% lợi nhuận tính từ giá {_px(sp['price'])} — là ẢNH CHỤP VCI "
+                 f"(không real-time).</b> Giá mục tiêu (cột giữa) không đổi theo giá thị trường; nhưng "
+                 f"% lời/lỗ đổi theo điểm mua thực. Lấy giá LIVE trên bảng để tính lại trước khi hành động.</p></div>")
     else:
         P.append("<div class='card note'>Không đủ dữ liệu định giá lịch sử để dựng khung giá.</div>")
 
