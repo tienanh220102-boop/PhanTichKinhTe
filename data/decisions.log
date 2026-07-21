@@ -19880,3 +19880,15 @@
 2026-07-21 12:06 ACCEPT [Google News KL] "Gold holds above $4,000 as traders weigh Iran developments, Fed outloo" | kw:gold
 2026-07-21 12:06 ACCEPT [Google News CB] "Gold holds above $4,000 as investors monitor Middle East diplomacy and" | kw:gold
 2026-07-21 12:06 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 12:31 ACCEPT [Google News HH] "Gold Price Today: Gold Rises 1.58% on July 21, 2026 - USA Today" | kw:gold,rice
+2026-07-21 12:31 ACCEPT [Google News HH] "How to Get Crude Oil: Palworld 1.0 - IGN" | kw:oil,crude
+2026-07-21 12:31 ACCEPT [Google News HH] "China cuts Iranian crude oil imports by 40% amid US pressure - Crypto " | kw:oil,crude
+2026-07-21 12:31 ACCEPT [Google News HH] "Middle East Conflict Sends Dow Jones (DJIA) To 3-Week Low As Crude Oil" | kw:oil,crude,inflation
+2026-07-21 12:31 ACCEPT [Google News HH] "Forecast update for crude oil -21-07-2026 - Economies.com" | kw:oil,crude
+2026-07-21 12:31 ACCEPT [Google News KL] "Silver Price Today: Silver Rises 5.10% on July 21, 2026 - USA Today" | kw:silver,rice
+2026-07-21 12:31 ACCEPT [Google News KL] "IAUI: Why Long-Term Gold Bulls Should Consider This 12% Yielder (BATS:" | kw:gold
+2026-07-21 12:31 ACCEPT [Google News KL] "Hecla Mining (NYSE:HL) trails silver with 29% price gap, challenging Q" | kw:silver,rice
+2026-07-21 12:31 ACCEPT [Google News NS] "Grain market review: Rice - World-Grain.com" | kw:rice
+2026-07-21 12:31 ACCEPT [Google News NS] "Russian wheat export prices rose sharply - АПК-Інформ" | kw:wheat,rice
+2026-07-21 12:31 ACCEPT [Google News CB] "Fed to hold rates this year despite high inflation, but economists cit" | kw:inflation
+2026-07-21 12:31 SKIP_MORNING already_sent date=2026-07-21
