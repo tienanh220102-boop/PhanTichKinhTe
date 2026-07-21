@@ -1,72 +1,3 @@
-2026-06-12 01:42 ACCEPT [Mining.com] "Conflict coltan from Congo linked to Sony, Microsoft, Nvidia supply ch" | kw:supply chain
-2026-06-12 01:42 ACCEPT [Mining.com] "Indonesia raids gold company in $1.4B laundering probe" | kw:gold
-2026-06-12 01:42 ACCEPT [Mining.com] "Canada risks losing critical minerals infrastructure race, PwC warns" | kw:gdp
-2026-06-12 01:43 SKIP_MORNING already_sent date=2026-06-12
-2026-06-12 06:26 ACCEPT [BBC Business] "Why the economics make this the craziest World Cup ever" | kw:rice,trade war
-2026-06-12 06:26 ACCEPT [OilPrice.com] "Goldman Sachs Cuts 2027 Oil Price Estimate on Demand Uncertainty" | kw:oil,crude,opec
-2026-06-12 06:26 SKIP_MORNING already_sent date=2026-06-12
-2026-06-12 06:52 SKIP_MORNING already_sent date=2026-06-12
-2026-06-12 10:47 ACCEPT [The Guardian Biz] "Elon Musk on track to become world’s first trillionaire today as Space" | kw:rice
-2026-06-12 10:47 ACCEPT [The Guardian Biz] "Has the US really carried out a secret mission to get oil through Horm" | kw:oil
-2026-06-12 10:47 ACCEPT [Al Jazeera] "Family mourn Indian sailor killed in US strike on oil tanker" | kw:oil
-2026-06-12 10:47 ACCEPT [Al Jazeera] "Is Israel’s ‘buffer zone’ inside Lebanon an attempt to grab gas reserv" | kw:gas
-2026-06-12 10:47 ACCEPT [OilPrice.com] "India Set to Miss Budget Deficit Target as Oil Shock Strains Public Fi" | kw:oil,crude
-2026-06-12 10:47 ACCEPT [OilPrice.com] "Oil Prices Tumble 4% on Iran Peace Optimism" | kw:oil,crude,brent
-2026-06-12 10:47 ACCEPT [OilPrice.com] "India Caps Fuel Sales to Avoid Shortages" | kw:gas,fuel,shortage
-2026-06-12 10:47 SKIP_MORNING already_sent date=2026-06-12
-2026-06-12 13:58 ACCEPT [MarketWatch] "Global oil prices drop to $88 a barrel on hopes for an Iran peace deal" | kw:oil,crude,brent
-2026-06-12 13:58 ACCEPT [MarketWatch] "If an Iran peace deal is agreed, these are the assets investors should" | kw:rice,inflation
-2026-06-12 13:58 ACCEPT [MarketWatch] "JPMorgan says investors are overlooking the upside to Wall Street bank" | kw:gold
-2026-06-12 13:58 ACCEPT [BBC Business] "UK signals it may block payout to British Steel owner" | kw:steel
-2026-06-12 13:58 ACCEPT [The Guardian Biz] "SpaceX makes $1.77tn stock market debut with Elon Musk likely to becom" | kw:rice
-2026-06-12 13:58 ACCEPT [OilPrice.com] "Russian Governors Rush to Deny Fuel Crisis as Rationing Spreads" | kw:fuel,shortage
-2026-06-12 13:58 ACCEPT [OilPrice.com] "Norway Pitches Arctic Resources as Key to EU Energy Security" | kw:oil,gas,lng
-2026-06-12 13:58 ACCEPT [OilPrice.com] "India Accuses West of Double Standards Over U.S. Russia Oil Sanctions" | kw:oil,sanction
-2026-06-12 13:58 ACCEPT [OilPrice.com] "Oil Prices Slide as Traders Bet on Diplomacy" | kw:oil,crude,wti
-2026-06-12 13:58 ACCEPT [OilPrice.com] "Oil Market Volatility Masks a Shifting Reality in the Middle East" | kw:oil
-2026-06-12 13:59 SKIP_MORNING already_sent date=2026-06-12
-2026-06-12 13:59 SENT_EVENING articles=20 date=2026-06-12
-2026-06-12 14:14 ACCEPT [MarketWatch] "These are the assets investors should buy if a peace deal with Iran ha" | kw:rice,inflation
-2026-06-12 14:14 SKIP_MORNING already_sent date=2026-06-12
-2026-06-12 14:14 SKIP_EVENING already_sent date=2026-06-12
-2026-06-12 14:31 ACCEPT [OilPrice.com] "Nigeria's Crude Oil Production Hits 15-Month High" | kw:oil,crude,opec
-2026-06-12 14:31 SKIP_MORNING already_sent date=2026-06-12
-2026-06-12 14:31 SKIP_EVENING already_sent date=2026-06-12
-2026-06-12 15:01 SKIP_MORNING already_sent date=2026-06-12
-2026-06-12 15:01 SKIP_EVENING already_sent date=2026-06-12
-2026-06-12 15:31 ACCEPT [OilPrice.com] "Europe Wary Of Too Much Dependence on U.S. LNG" | kw:gas,lng
-2026-06-12 15:31 SKIP_MORNING already_sent date=2026-06-12
-2026-06-12 15:31 SKIP_EVENING already_sent date=2026-06-12
-2026-06-12 16:01 ACCEPT [OilPrice.com] "A War of Words Sends Brent Crude to a Two-Month Low" | kw:oil,crude,fuel
-2026-06-12 16:01 SKIP_MORNING already_sent date=2026-06-12
-2026-06-12 16:01 SKIP_EVENING already_sent date=2026-06-12
-2026-06-12 16:30 ACCEPT [The Guardian Biz] "US consumer sentiment improves in June due to easing gas prices" | kw:gas,rice,inflation
-2026-06-12 16:30 ACCEPT [OilPrice.com] "U.S. Military Helping Move 7 Million Bpd Out of Persian Gulf, Wright S" | kw:oil,crude,brent
-2026-06-12 16:31 SKIP_MORNING already_sent date=2026-06-12
-2026-06-12 16:31 SKIP_EVENING already_sent date=2026-06-12
-2026-06-12 16:45 ACCEPT [Mining.com] "Triple Flag buys gold stream on Ravenswood mine for $440M" | kw:gold
-2026-06-12 16:45 ACCEPT [Mining.com] "China’s gold market cools amid ETF outflows: report" | kw:gold
-2026-06-12 16:45 ACCEPT [Mining.com] "Norsk Hydro hit by second aluminum supply crisis" | kw:oil,aluminum
-2026-06-12 16:45 SKIP_MORNING already_sent date=2026-06-12
-2026-06-12 16:45 SKIP_EVENING already_sent date=2026-06-12
-2026-06-12 17:01 ACCEPT [MarketWatch] "U.S. oil prices drop to $84 a barrel after Pakistan says a U.S.-Iran p" | kw:oil,crude,brent
-2026-06-12 17:30 ACCEPT [OilPrice.com] "Pace of US Oil Drilling Inches Up" | kw:oil,gas
-2026-06-12 18:01 ACCEPT [BBC Business] "India's 'blue gold' starts a new drinks industry" | kw:gold
-2026-06-12 18:01 ACCEPT [BBC Business] "Trump says 'I love the inflation' as US prices rise at fastest rate in" | kw:rice,inflation
-2026-06-12 18:01 ACCEPT [BBC Business] "The threat to summer holidays looming from jet fuel shortages" | kw:fuel,shortage
-2026-06-12 18:01 ACCEPT [The Guardian Biz] "US consumer sentiment improves in June due to easing gas prices" | kw:gas,rice,inflation
-2026-06-12 18:01 ACCEPT [The Guardian Biz] "AI wealth boom sending San Francisco home prices surging: ‘It’s ridicu" | kw:rice
-2026-06-12 18:01 ACCEPT [The Guardian Biz] "China’s BYD aims to be world’s biggest car firm within five years" | kw:oil,rice
-2026-06-12 18:01 ACCEPT [The Guardian Biz] "Has the US really carried out a secret mission to get oil through Horm" | kw:oil
-2026-06-12 18:01 ACCEPT [The Guardian Biz] "What Albania teaches us about Kushner's real estate tactics – video ex" | kw:iron
-2026-06-12 18:01 ACCEPT [CNBC Commodities] "Gold slumps to 6-month low even as inflation fears rise. Here's why bu" | kw:gold,rice,inflation
-2026-06-12 18:01 ACCEPT [OilPrice.com] "Nigeria's Crude Oil Production Hits 15-Month High" | kw:oil,crude,opec
-2026-06-12 18:01 ACCEPT [OilPrice.com] "Russian Governors Rush to Deny Fuel Crisis as Rationing Spreads" | kw:fuel,shortage
-2026-06-12 18:01 ACCEPT [OilPrice.com] "Oil Market Volatility Masks a Shifting Reality in the Middle East" | kw:oil
-2026-06-12 18:01 ACCEPT [OilPrice.com] "India Set to Miss Budget Deficit Target as Oil Shock Strains Public Fi" | kw:oil,crude
-2026-06-12 18:01 ACCEPT [Mining.com] "Glencore to resume emissions spending at Quebec smelter" | kw:iron
-2026-06-12 18:01 ACCEPT [Mining.com] "PeaceGold, SigraFi sign responsible artisanal gold supply deal in DRC" | kw:gold
-2026-06-12 18:01 ACCEPT [Mining.com] "Op-Ed: Volatility in markets has not changed positive outlook for gold" | kw:gold
 2026-06-12 18:01 ACCEPT [Mining.com] "Conflict coltan from Congo linked to Sony, Microsoft, Nvidia supply ch" | kw:supply chain
 2026-06-12 18:01 ACCEPT [Mining.com] "Indonesia raids gold company in $1.4B laundering probe" | kw:gold
 2026-06-12 18:01 ACCEPT [Mining.com] "Illegal mining gangs implicated in South Africa massacre that killed 1" | kw:gold
@@ -20067,3 +19998,18 @@
 2026-07-21 16:31 ACCEPT [Google News CB] "Dr. Copper prescribes a hard pill for Fed (CPER:NYSEARCA) - Seeking Al" | kw:copper
 2026-07-21 16:31 SKIP_MORNING already_sent date=2026-07-21
 2026-07-21 16:31 SKIP_EVENING already_sent date=2026-07-21
+2026-07-21 17:01 ACCEPT [MarketWatch] "An oil lifeline is under threat, and markets have yet to price in the " | kw:oil,rice
+2026-07-21 17:01 ACCEPT [Al Jazeera] "Steep rise in civilian casualties in Russia-Ukraine war, UN says" | kw:easing
+2026-07-21 17:01 ACCEPT [OilPrice.com] "Why Kyrgyz Citizens Are Turning Against China's Growing Footprint" | kw:easing
+2026-07-21 17:01 ACCEPT [Google News HH] "Gold Price Today: Gold Rises 2.04% on July 21, 2026 - USA Today" | kw:gold,rice
+2026-07-21 17:01 ACCEPT [Google News HH] "Crude Oil Analysis: Brent Targets $100 as Refining Margin Hits Record " | kw:oil,crude,brent
+2026-07-21 17:01 ACCEPT [Google News HH] "Saudi Arabia’s crude oil exports drop in May - Investing.com" | kw:oil,crude
+2026-07-21 17:01 ACCEPT [Google News KL] "Silver Price Today: Silver Rises 5.15% on July 21, 2026 - USA Today" | kw:silver,rice
+2026-07-21 17:01 ACCEPT [Google News KL] "Silver Price Breaks Out of 2-Month Channel, Eyeing $68 Fibonacci Targe" | kw:silver,rice
+2026-07-21 17:01 ACCEPT [Google News KL] "i-80 Gold Announces Details for Q2 2026 Results Release and Conference" | kw:gold
+2026-07-21 17:01 ACCEPT [Google News KL] "Getchell Gold sees $905M value for Fondaway Canyon - Mining.com" | kw:gold
+2026-07-21 17:01 ACCEPT [Google News NS] "China Soybean Buying Boosts Market Optimism as Traders Watch Black Sea" | kw:soybean
+2026-07-21 17:01 ACCEPT [Google News NS] "World wheat hits a two-year high—Russia’s farmers are the only ones no" | kw:wheat
+2026-07-21 17:01 ACCEPT [Google News CB] "Spain backs Hernández de Cos in first-ever bid for the ECB presidency," | kw:ecb
+2026-07-21 17:01 ACCEPT [Google News CB] "Structural shifts demand a new central banking mindset - The Hill" | kw:central bank
+2026-07-21 17:01 ACCEPT [Google News CB] "Germany European Central Bank - Dayton Daily News" | kw:central bank
