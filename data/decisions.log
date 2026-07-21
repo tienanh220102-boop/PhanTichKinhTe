@@ -1,19 +1,3 @@
-2026-06-13 11:31 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 12:01 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 12:20 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 12:30 ACCEPT [MarketWatch] "The rich keep spending money on ‘unapologetic luxury’ — and it’s raisi" | kw:rice,inflation
-2026-06-13 12:31 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 13:01 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 13:02 SENT_EVENING articles=20 date=2026-06-13
-2026-06-13 13:31 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 13:31 SKIP_EVENING already_sent date=2026-06-13
-2026-06-13 14:01 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 14:01 SKIP_EVENING already_sent date=2026-06-13
-2026-06-13 14:31 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 14:31 SKIP_EVENING already_sent date=2026-06-13
-2026-06-13 14:35 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 14:35 SKIP_EVENING already_sent date=2026-06-13
-2026-06-13 15:01 ACCEPT [OilPrice.com] "Rising Energy Bills Are Fueling a Global Home Battery Boom" | kw:oil,gas,fuel
 2026-06-13 15:01 SKIP_MORNING already_sent date=2026-06-13
 2026-06-13 15:01 SKIP_EVENING already_sent date=2026-06-13
 2026-06-13 15:31 SKIP_MORNING already_sent date=2026-06-13
@@ -20014,3 +19998,8 @@
 2026-07-21 19:01 ACCEPT [Google News CB] "Spain backs Hernández de Cos in first-ever bid for the ECB presidency " | kw:ecb
 2026-07-21 19:01 ACCEPT [Google News CB] "Daylight saving time may become permanent - ECB Publishing, Inc." | kw:ecb
 2026-07-21 19:01 ACCEPT [Google News CB] "Structural shifts demand a new central banking mindset - The Hill" | kw:central bank
+2026-07-21 19:04 ACCEPT [Al Jazeera] "Netherlands to sanction trade with illegal Israeli settlements" | kw:sanction
+2026-07-21 19:05 ACCEPT [Google News HH] "This Commodities ETF Could Be a Second Half Star - ETF Database" | kw:commodities
+2026-07-21 19:05 ACCEPT [Google News KL] "Silver Price Jumps Over 5% As Buyers Regain Control - Seeking Alpha" | kw:silver,rice
+2026-07-21 19:05 ACCEPT [Google News KL] "Gold Price Forecast: XAU/USD Attempts Descending Triangle Breakout Nea" | kw:gold,rice
+2026-07-21 19:05 ACCEPT [Google News CB] "Lulu’s Law seeks to protect beachgoers - ECB Publishing, Inc." | kw:lng,ecb
