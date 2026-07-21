@@ -1,4 +1,3 @@
-2026-06-14 13:31 SKIP_MORNING already_sent date=2026-06-14
 2026-06-14 13:31 SKIP_EVENING already_sent date=2026-06-14
 2026-06-14 14:01 SKIP_MORNING already_sent date=2026-06-14
 2026-06-14 14:01 SKIP_EVENING already_sent date=2026-06-14
@@ -19999,3 +19998,10 @@
 2026-07-21 22:01 ACCEPT [Google News NS] "Daily Grain Prices in Western Canada - Farmtario" | kw:rice
 2026-07-21 22:01 ACCEPT [Google News CB] "Preview: ECB set to hold rates in July, hints of September hike expect" | kw:ecb
 2026-07-21 22:31 ACCEPT [Google News NS] "Daily Grain Prices in Western Canada - Canadian Cattlemen" | kw:rice
+2026-07-21 22:50 ACCEPT [Google News HH] "Rudi Fronk: Gold Price to Retake Highs, Bull Run Still Early - Investi" | kw:gold,rice
+2026-07-21 22:50 ACCEPT [Google News HH] "Gulf tensions threaten oil supply as Strait of Hormuz closure looms - " | kw:oil
+2026-07-21 22:50 ACCEPT [Google News KL] "Higher copper prices push Grupo Mexico quarterly profit up 79% - Reute" | kw:copper,rice
+2026-07-21 22:50 ACCEPT [Google News KL] "Gold rallies as buyers ignore higher yields, oil shock - Kitco PM Repo" | kw:oil,gold
+2026-07-21 22:50 ACCEPT [Google News NS] "CME feeder cattle futures slump on hot weather, grain prices - livemin" | kw:rice
+2026-07-21 22:50 ACCEPT [Google News NS] "Brazil on Course for Record Wheat Import Dependence - Agrolatam" | kw:wheat
+2026-07-21 22:50 ACCEPT [Google News NS] "Corn futures price outlook: Buyer support at USX466.01 in focus - Trad" | kw:corn,rice
