@@ -19813,3 +19813,18 @@
 2026-07-21 09:31 ACCEPT [Google News CB] "Ctrl Alt receives MiFID approval from Central Bank of Ireland - Asset " | kw:central bank
 2026-07-21 09:31 ACCEPT [Google News CB] "JustMarkets Analyzes How Central Bank Policy Influences the Currency M" | kw:central bank
 2026-07-21 09:31 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 10:01 ACCEPT [BBC Business] "Thames Water lenders offer 'golden share' to head off nationalisation" | kw:gold
+2026-07-21 10:01 ACCEPT [OilPrice.com] "Pakistan Shells Out Record Sums for Spot LNG as Qatar Supply Falters" | kw:gas,lng
+2026-07-21 10:01 ACCEPT [NASDAQ Commod] "Oil Prices Ease On US-Iran Truce Hopes" | kw:oil,rice
+2026-07-21 10:01 ACCEPT [Google News HH] "Gold price rebounds as US-Iran conflict revives safe-haven demand - FX" | kw:gold,rice
+2026-07-21 10:01 ACCEPT [Google News HH] "Escalating Confrontation Drives Up Risk Premiums; Crude Oil Hits a Mor" | kw:oil,crude
+2026-07-21 10:01 ACCEPT [Google News KL] "Gold Prices Have Tanked. Buying the Dip Makes Sense. - WSJ" | kw:wti,gold,rice
+2026-07-21 10:01 ACCEPT [Google News KL] "Silver price today: rises on July 21 - FXStreet" | kw:silver,rice
+2026-07-21 10:01 ACCEPT [Google News KL] "Technical Challenges Limiting Conductive Ink Development Beyond Silver" | kw:silver
+2026-07-21 10:01 ACCEPT [Google News KL] "West Red Lake Gold's Madsen Ramp-Up Beats Its Own Mill Capacity, Targe" | kw:gold
+2026-07-21 10:01 ACCEPT [Google News KL] "Gold prices climb in Baghdad and Erbil - Shafaq News | Latest breaking" | kw:gold,rice
+2026-07-21 10:01 ACCEPT [Google News NS] "Syngenta sues BASF over Ridivex corn herbicide patent - AGDAILY" | kw:corn
+2026-07-21 10:01 ACCEPT [Google News NS] "Corn, soybeans decline as US crop ratings top expectations - Business " | kw:corn,soybean
+2026-07-21 10:01 ACCEPT [Google News NS] "Grain SA deeply disappointed by JSE decision to reject soybean Multipl" | kw:soybean
+2026-07-21 10:01 ACCEPT [Google News CB] "Kevin Warsh's Inflation Testimony Came as Traders Priced an 86% Chance" | kw:rice,inflation,fed rate
+2026-07-21 10:01 SKIP_MORNING already_sent date=2026-07-21
