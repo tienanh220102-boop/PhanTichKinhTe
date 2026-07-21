@@ -1,9 +1,3 @@
-2026-06-12 23:01 ACCEPT [OilPrice.com] "The Oil Market Could Be Weeks From a Breaking Point" | kw:oil,rice
-2026-06-12 23:31 ACCEPT [Mining.com] "Silver stockpile drawdown risk is misunderstood" | kw:silver
-2026-06-12 23:31 ACCEPT [Mining.com] "Mining’s next boom is off the map: Arctic ice, abyssal plains and aste" | kw:rice
-2026-06-12 23:31 ACCEPT [Mining.com] "Hertha Metals targets rare-earth magnet supply gap with Texas high-pur" | kw:iron
-2026-06-13 00:02 SENT_MORNING articles=20 date=2026-06-13
-2026-06-13 00:14 SKIP_MORNING already_sent date=2026-06-13
 2026-06-13 00:31 SKIP_MORNING already_sent date=2026-06-13
 2026-06-13 01:01 SKIP_MORNING already_sent date=2026-06-13
 2026-06-13 01:31 SKIP_MORNING already_sent date=2026-06-13
@@ -20004,3 +19998,7 @@
 2026-07-21 17:31 ACCEPT [Google News KL] "Is It Better to Play the Historic Gold Rally With a Physical Gold or M" | kw:gold
 2026-07-21 17:31 ACCEPT [Google News NS] "Local sweet corn hits market - KEYC News Now" | kw:corn
 2026-07-21 17:31 ACCEPT [Google News CB] "Warsh's First Test: Fed Chair Faces Inflation Scrutiny - Legis1" | kw:inflation
+2026-07-21 17:50 ACCEPT [BBC Business] "Carney looking at 'all options' as Trump announces 50% tariffs on Cana" | kw:tariff
+2026-07-21 17:50 ACCEPT [Al Jazeera] "Rescuers search for survivors amid risk of fresh floods in Afghanistan" | kw:flood
+2026-07-21 17:50 ACCEPT [Al Jazeera] "Where will LeBron James go next? NBA star ‘not rushed’ to make a decis" | kw:gold
+2026-07-21 17:50 ACCEPT [Al Jazeera] "Saudi Arabia slams Houthi blockade: How will rest of the world be impa" | kw:oil
