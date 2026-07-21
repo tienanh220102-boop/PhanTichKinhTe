@@ -1,14 +1,3 @@
-2026-06-13 02:31 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 03:01 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 03:31 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 04:01 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 04:31 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 04:57 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 05:01 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 05:31 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 06:01 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 06:31 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 07:01 SKIP_MORNING already_sent date=2026-06-13
 2026-06-13 07:31 SKIP_MORNING already_sent date=2026-06-13
 2026-06-13 08:01 ACCEPT [Al Jazeera] "‘A dream come true’: Fans revel as US win World Cup opener on home soi" | kw:oil
 2026-06-13 08:01 SKIP_MORNING already_sent date=2026-06-13
@@ -20009,3 +19998,15 @@
 2026-07-21 18:01 ACCEPT [Google News CB] "Capital One Sheds Suit Alleging Unlawful Interest Rate Charges - Bloom" | kw:interest rate
 2026-07-21 18:01 ACCEPT [Google News CB] "Cleveland Fed: Business activity up, but high fuel costs are increasin" | kw:fuel,rice,easing
 2026-07-21 18:01 ACCEPT [Google News CB] "Planners affirm approval of Lamont Truck Stop - ECB Publishing, Inc." | kw:ecb
+2026-07-21 18:31 ACCEPT [MarketWatch] "Trump looks set to roll out a new set of tariffs. Will markets care?" | kw:tariff
+2026-07-21 18:31 ACCEPT [Al Jazeera] "Liverpool FC in talks to sell minority stake to Mittal-backed consorti" | kw:steel
+2026-07-21 18:31 ACCEPT [NASDAQ Commod] "Gold Soars Amid Efforts To Resolve U.S.-Iran Conflict, Brisk Central B" | kw:gold,rice,central bank
+2026-07-21 18:31 ACCEPT [Google News HH] "Crude Oil Spikes Above $91: What It Means for Bitcoin (BTC) - CryptoRa" | kw:oil,crude
+2026-07-21 18:31 ACCEPT [Google News HH] "Sugar Prices Settle Higher on Crude Oil Strength - Barchart.com" | kw:oil,crude,rice
+2026-07-21 18:31 ACCEPT [Google News KL] "Copper price nearing US record as premium doubles, Shanghai stockpiles" | kw:copper,rice
+2026-07-21 18:31 ACCEPT [Google News KL] "Silver, Gold Climb as Middle East Mediation Hopes Lift Metals - Mexico" | kw:gold,silver
+2026-07-21 18:31 ACCEPT [Google News KL] "If Silver’s Future Is Bullish, The SILJ ETF Offers Value (NYSEARCA:SIL" | kw:silver
+2026-07-21 18:31 ACCEPT [Google News NS] "Local sweet corn hits market - KEYC News Now" | kw:corn
+2026-07-21 18:31 ACCEPT [Google News NS] "Tennessee looks abroad to grow markets for soybeans, corn - WATE 6 On " | kw:corn,soybean
+2026-07-21 18:31 ACCEPT [Google News CB] "Central Bank Cuts Benchmark Rate to 16 Percent Despite Rising Inflatio" | kw:inflation,central bank
+2026-07-21 18:31 ACCEPT [Google News CB] "Fed rate hike in 2026 likely, Polymarket assigns 64% probability - Cry" | kw:fed rate,rate hike
