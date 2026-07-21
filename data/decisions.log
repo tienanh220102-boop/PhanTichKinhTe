@@ -19768,3 +19768,8 @@
 2026-07-21 07:31 ACCEPT [Google News KL] "Gold price tops $4,040: is a fresh run toward $4,100 now taking shape?" | kw:gold,rice
 2026-07-21 07:31 ACCEPT [Google News CB] "Gold jumps to nearly one-week top as Iran diplomacy hopes undermine US" | kw:gold
 2026-07-21 07:31 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 07:45 ACCEPT [Google News KL] "Gold Prices Stabilize Amid Geopolitical Tensions and Inflation C - Gur" | kw:gold,rice,inflation
+2026-07-21 07:45 ACCEPT [Google News KL] "Getchell Gold Corp. Announces $1 Billion NPV Preliminary Economic Asse" | kw:gold
+2026-07-21 07:45 ACCEPT [Google News CB] "Trade tensions, Fed rate outlook push oil prices lower - Anadolu Ajans" | kw:oil,rice,fed rate
+2026-07-21 07:45 ACCEPT [Google News CB] "Spain Is Set to Back Hernandez De Cos for ECB Helm, Report Says - Bloo" | kw:ecb
+2026-07-21 07:45 SKIP_MORNING already_sent date=2026-07-21
