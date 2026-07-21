@@ -19906,3 +19906,29 @@
 2026-07-21 13:01 ACCEPT [Google News CB] "Cabinet approves Japan economic blueprint with BOJ independence stress" | kw:boj
 2026-07-21 13:01 SKIP_MORNING already_sent date=2026-07-21
 2026-07-21 13:02 SENT_EVENING articles=20 date=2026-07-21 force=False
+2026-07-21 13:31 ACCEPT [OilPrice.com] "Ryanair Profit Falls 36% as Unhedged Jet Fuel Costs Double" | kw:fuel,rice
+2026-07-21 13:31 ACCEPT [Google News HH] "CHART OF THE DAY: WTI Crude Oil Goes Bullish Trade & Trend - Hedgeye" | kw:oil,crude,wti
+2026-07-21 13:31 ACCEPT [Google News HH] "VIVAKOR EXPANDS PHYSICAL CRUDE OIL MARKETING PLATFORM TO OVER $700 MIL" | kw:oil,crude
+2026-07-21 13:31 ACCEPT [Google News HH] "Crude Oil Price Outlook: 1973 Oil Embargo vs 2026 Hormuz Crisis - FORE" | kw:oil,crude,rice
+2026-07-21 13:31 ACCEPT [Google News HH] "Four Crude Deals Are Set to Market 300,000 Barrels Monthly for Vivakor" | kw:crude
+2026-07-21 13:31 ACCEPT [Google News HH] "Saudi Arabia’s crude oil exports drop in May - Investing.com" | kw:oil,crude
+2026-07-21 13:31 ACCEPT [Google News HH] "🚨𝗕𝗥𝗘𝗔𝗞𝗜𝗡𝗚: Brent Crude Oil hits $91 per barrel. - Moomoo" | kw:oil,crude,brent
+2026-07-21 13:31 ACCEPT [Google News HH] "Crude Oil Price Outlook: 1973 Oil Embargo vs 2026 Hormuz Crisis - FORE" | kw:oil,crude,rice
+2026-07-21 13:31 ACCEPT [Google News HH] "Nasdaq Leads Higher as Commodities Rally - Investing.com" | kw:commodities
+2026-07-21 13:31 ACCEPT [Google News HH] "Government Secures 90% September Crude, Considers Reserve Swap - 조선일보" | kw:crude
+2026-07-21 13:31 ACCEPT [Google News HH] "Crude Oil Price Outlook: 1973 Oil Embargo vs 2026 Hormuz Crisis - FORE" | kw:oil,crude,rice
+2026-07-21 13:31 ACCEPT [Google News HH] "Vivakor expands crude oil marketing to $709M an... - Pluang" | kw:oil,crude
+2026-07-21 13:31 ACCEPT [Google News KL] "Current price of gold as of July 21, 2026 - Fortune" | kw:gold,rice
+2026-07-21 13:31 ACCEPT [Google News KL] "Copper prices touch one-month high as China market tightens (CPER:NYSE" | kw:copper,rice
+2026-07-21 13:31 ACCEPT [Google News KL] "UBS lowers silver buy-the-dip range. Here’s the new buy zone - Investi" | kw:silver
+2026-07-21 13:31 ACCEPT [Google News KL] "Spot silver rises 5% to $59.20 amid potential market recovery - Crypto" | kw:silver
+2026-07-21 13:31 ACCEPT [Google News NS] "Mysteel soybean and relatives marke... - Mysteel" | kw:steel,soybean
+2026-07-21 13:31 ACCEPT [Google News CB] "Fed to hold rates this year despite high inflation, but economists cit" | kw:inflation
+2026-07-21 13:31 ACCEPT [Google News CB] "July ECB meeting: Experts predict a pause before september - RankiaPro" | kw:ecb
+2026-07-21 13:31 ACCEPT [Google News CB] "Spain backs Hernández de Cos in first-ever bid for the ECB presidency " | kw:ecb
+2026-07-21 13:31 ACCEPT [Google News CB] "Nigeria’s central bank rate unchanged, as expected - CNBC Africa" | kw:central bank
+2026-07-21 13:31 ACCEPT [Google News CB] "Russian central bank says household inflation expectations rise sharpl" | kw:inflation,central bank
+2026-07-21 13:31 ACCEPT [Google News CB] "Fed to hold rates this year despite high inflation, but economists cit" | kw:inflation
+2026-07-21 13:31 ACCEPT [Google News CB] "European Central Bank moves digital euro project into next legislative" | kw:central bank
+2026-07-21 13:31 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 13:31 SKIP_EVENING already_sent date=2026-07-21
