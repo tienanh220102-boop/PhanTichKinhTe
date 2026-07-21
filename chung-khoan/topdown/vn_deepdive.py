@@ -157,10 +157,24 @@ class VNDeepDive:
     """Sinh báo cáo forensic một mã. Dùng lại VCIFundamentals (và tùy chọn sectors/valuation)."""
 
     def __init__(self, fx: Optional[VCIFundamentals] = None,
-                 sectors=None, valuation=None):
+                 sectors=None, valuation=None, group=None):
         self.fx = fx or VCIFundamentals()
         self.sectors = sectors        # VCISectors (tùy chọn — để biết ngành + is_bank)
         self.valuation = valuation    # VNValuation (tùy chọn — nhận định đắt/rẻ)
+        self.group = group            # VNGroup (tùy chọn — danh sách công ty con/liên kết)
+        self._listed_cache: Optional[set] = None
+
+    def _listed_universe(self) -> set:
+        """Tập mã sàn (để đánh dấu công ty con niêm yết). Cache trong phiên."""
+        if self._listed_cache is None:
+            self._listed_cache = set()
+            if self.sectors is not None:
+                try:
+                    m = self.sectors.get_industry_map()
+                    self._listed_cache = {str(s).upper() for s in m["symbol"]}
+                except Exception:  # noqa: BLE001
+                    pass
+        return self._listed_cache
 
     # ---- lấy chuỗi theo năm ----
     @staticmethod
@@ -305,6 +319,36 @@ class VNDeepDive:
                 line += f"; lãi/lỗ từ liên doanh–liên kết trong năm: {_t(jv[y1])}"
             sec.lines.append(line + " (những công ty tập đoàn có ảnh hưởng nhưng KHÔNG kiểm soát).")
 
+        # DANH SÁCH công ty con & liên kết (CafeF) — tên + tỷ lệ sở hữu + mã niêm yết
+        gs = None
+        if self.group is not None:
+            try:
+                gs = self.group.get_structure(dd.symbol, self._listed_universe())
+            except Exception:  # noqa: BLE001
+                gs = None
+        if gs is not None and not gs.error and (gs.subsidiaries or gs.associates):
+            sec.lines.append(
+                f"Theo dữ liệu CafeF, tập đoàn gồm **{len(gs.subsidiaries)} công ty con** "
+                f"(kiểm soát) và **{len(gs.associates)} công ty liên kết**"
+                + (f", trong đó {gs.n_listed_subs} công ty con đang NIÊM YẾT — có thể phân tích "
+                   f"sâu riêng bằng chính báo cáo này" if gs.n_listed_subs else "") + ".")
+            rows = []
+            for a in gs.subsidiaries[:10]:
+                own = f"{a.ownership:.1f}%" if a.ownership is not None else "n/a*"
+                rows.append({"Loại": "Con", "Công ty": a.name, "Sở hữu": own,
+                             "Vốn ĐL (tỷ)": f"{a.capital:,.0f}" if a.capital else "—",
+                             "Niêm yết": a.code if a.is_listed else "—"})
+            for a in gs.associates[:6]:
+                own = f"{a.ownership:.1f}%" if a.ownership is not None else "n/a*"
+                rows.append({"Loại": "Liên kết", "Công ty": a.name, "Sở hữu": own,
+                             "Vốn ĐL (tỷ)": f"{a.capital:,.0f}" if a.capital else "—",
+                             "Niêm yết": a.code if a.is_listed else "—"})
+            if rows:
+                sec.table = pd.DataFrame(rows)
+            if any(a.ownership_bad for a in gs.subsidiaries + gs.associates):
+                sec.lines.append("*(n/a\\*: nguồn CafeF ghi tỷ lệ sở hữu vô lý cho một số công "
+                                 "ty — đã bỏ qua thay vì hiển thị số sai.)*")
+
         # diễn giải cho người mới
         exp = []
         if minor_pct is not None and minor_pct > 0.10:
@@ -322,10 +366,17 @@ class VNDeepDive:
             exp.append(
                 f"Cấu trúc sở hữu đơn giản: gần như toàn bộ lợi nhuận thuộc cổ đông {dd.symbol}, "
                 f"không bị chia sẻ nhiều cho đối tác thiểu số.")
+        if gs is not None and gs.n_listed_subs:
+            listed = [a for a in gs.subsidiaries if a.is_listed][:3]
+            exp.append(
+                "Mẹo: " + ", ".join(f"{a.code} ({a.name})" for a in listed) + " là công ty con "
+                "ĐANG NIÊM YẾT — bạn có thể chạy báo cáo forensic riêng cho từng mã đó để xem sức "
+                "khỏe từng mảng của tập đoàn.")
         exp.append(
-            "Lưu ý dữ liệu: danh sách CHI TIẾT từng công ty con và đóng góp doanh thu theo mảng "
-            "nằm trong thuyết minh báo cáo tài chính (bản kiểm toán), API dữ liệu này không có. "
-            "Ở đây suy ra cấu trúc tập đoàn gián tiếp qua cổ đông thiểu số và đầu tư liên kết.")
+            "Lưu ý dữ liệu: bảng trên cho biết TÊN và TỶ LỆ SỞ HỮU công ty con (nguồn CafeF), "
+            "nhưng ĐÓNG GÓP lợi nhuận/doanh thu của TỪNG công ty con chỉ có trong thuyết minh báo "
+            "cáo tài chính (bản kiểm toán) — không nguồn API nào bóc sẵn. Với công ty con đã niêm "
+            "yết thì xem trực tiếp báo cáo của mã đó; còn lại chỉ định tính qua tỷ lệ sở hữu.")
         sec.explain = exp
         dd.sections["group"] = sec
 

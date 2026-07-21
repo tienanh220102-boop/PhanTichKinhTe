@@ -104,11 +104,6 @@ def render_markdown(dd: DeepDive) -> str:
         out.append(f"## {sec.title}")
         for ln in sec.lines:
             out.append(ln + "  ")
-        if sec.explain:
-            out.append("")
-            for ex in sec.explain:
-                out.append(f"> 💡 {ex}")
-            out.append("")
         if sec.table is not None and not sec.table.empty:
             out.append("")
             out.append(_df_to_md(sec.table))
@@ -121,6 +116,11 @@ def render_markdown(dd: DeepDive) -> str:
             out.append("| " + " | ".join("---" for _ in comp) + " |")
             out.append("| " + " | ".join(f"{v:.2f}" if v is not None else "—"
                                           for v in comp.values()) + " |")
+        if sec.explain:
+            out.append("")
+            for ex in sec.explain:
+                out.append(f"> 💡 {ex}")
+            out.append("")
         out.append("")
 
     out.append("---")
@@ -318,18 +318,17 @@ def render_html(dd: DeepDive) -> str:
             P.append(_line_html(ln))
         if sec.table is not None and not sec.table.empty:
             P.append(_df_to_html(sec.table))
+        if key == "quality" and getattr(dd, "_beneish_comps", None):
+            comp = dd._beneish_comps
+            P.append("<p class='note'>Thành phần Beneish M-score (chỉ số &gt;1 ở DSRI/SGI/AQI/TATA "
+                     "nghiêng về hướng nghi ngờ):</p>")
+            P.append(_df_to_html(pd.DataFrame({k: [f"{v:.2f}" if v is not None else "—"]
+                                               for k, v in comp.items()})))
         if sec.explain:
             P.append("<div class='explain'><span class='lbl'>💡 Đọc hiểu</span>")
             for ex in sec.explain:
                 P.append(_line_html(ex))
             P.append("</div>")
-        if key == "quality" and getattr(dd, "_beneish_comps", None):
-            comp = dd._beneish_comps
-            dfc = pd.DataFrame([comp])
-            P.append("<p class='note'>Thành phần Beneish M-score (chỉ số &gt;1 ở DSRI/SGI/AQI/TATA "
-                     "nghiêng về hướng nghi ngờ):</p>")
-            P.append(_df_to_html(pd.DataFrame({k: [f"{v:.2f}" if v is not None else "—"]
-                                               for k, v in comp.items()})))
         P.append("</div>")
 
     P.append("<div class='foot'>Báo cáo tất định, sinh tự động từ báo cáo tài chính công bố (VCI). "
@@ -397,9 +396,9 @@ def telegram_summary(dd: DeepDive) -> str:
 # ============================================================================
 # Build + CLI
 # ============================================================================
-def build(symbol: str, with_valuation: bool = True) -> DeepDive:
+def build(symbol: str, with_valuation: bool = True, with_group: bool = True) -> DeepDive:
     fx = VCIFundamentals()
-    sectors = valuation = None
+    sectors = valuation = group = None
     try:
         from vn_sectors import VCISectors
         sectors = VCISectors()
@@ -411,7 +410,13 @@ def build(symbol: str, with_valuation: bool = True) -> DeepDive:
             valuation = VNValuation(fx=fx, sx=sectors)
         except Exception as e:  # noqa: BLE001
             logger.warning("Không nạp được vn_valuation: %s", e)
-    engine = VNDeepDive(fx=fx, sectors=sectors, valuation=valuation)
+    if with_group:
+        try:
+            from vn_group import VNGroup
+            group = VNGroup()
+        except Exception as e:  # noqa: BLE001
+            logger.warning("Không nạp được vn_group: %s", e)
+    engine = VNDeepDive(fx=fx, sectors=sectors, valuation=valuation, group=group)
     return engine.analyze(symbol)
 
 
@@ -422,6 +427,7 @@ def main() -> None:
     ap.add_argument("--no-html", action="store_true", help="Không xuất HTML")
     ap.add_argument("--no-md", action="store_true", help="Không xuất Markdown")
     ap.add_argument("--no-valuation", action="store_true", help="Bỏ tầng định giá (nhanh hơn)")
+    ap.add_argument("--no-group", action="store_true", help="Bỏ danh sách công ty con (CafeF)")
     ap.add_argument("--telegram", action="store_true", help="Gửi tóm tắt gọn qua Telegram")
     ap.add_argument("--out", default=REPORTS_DIR, help="Thư mục xuất")
     args = ap.parse_args()
@@ -429,7 +435,7 @@ def main() -> None:
     logging.basicConfig(level=logging.WARNING)
     sym = args.symbol.upper().strip()
     print(f"⏳ Đang soi báo cáo tài chính {sym} ...")
-    dd = build(sym, with_valuation=not args.no_valuation)
+    dd = build(sym, with_valuation=not args.no_valuation, with_group=not args.no_group)
     if dd.error:
         print(f"❌ Lỗi: {dd.error}")
         return
