@@ -19684,3 +19684,6 @@
 2026-07-21 01:31 ACCEPT [Google News HH] "Why are gasoline prices rising faster than oil prices? Blame it on the" | kw:oil,gas,rice
 2026-07-21 01:31 ACCEPT [Google News CB] "Climate change: Why the ECB refuses to create a lower interest rate fo" | kw:interest rate,ecb
 2026-07-21 01:31 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 01:50 ACCEPT [Google News HH] "With The U.S.-Iran Deal Collapsing, How Exposed Are Oil Markets Right " | kw:oil,crude,rice
+2026-07-21 01:50 ACCEPT [Google News KL] "Silver Forecast: XAG/USD bulls await descending trend-line breakout - " | kw:silver
+2026-07-21 01:50 SKIP_MORNING already_sent date=2026-07-21
