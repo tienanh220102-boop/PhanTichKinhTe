@@ -1,11 +1,3 @@
-2026-06-13 16:01 SKIP_EVENING already_sent date=2026-06-13
-2026-06-13 16:09 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 16:09 SKIP_EVENING already_sent date=2026-06-13
-2026-06-13 16:31 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 16:31 SKIP_EVENING already_sent date=2026-06-13
-2026-06-13 17:31 ACCEPT [OilPrice.com] "UK Sets January 2027 Deadline for Ban on Fuel Made From Russian Crude" | kw:oil,crude,fuel
-2026-06-13 17:31 ACCEPT [Mining.com] "Hertha Metals targets rare earth magnet supply gap with Texas high-pur" | kw:iron
-2026-06-13 19:01 ACCEPT [MarketWatch] "The great gold myth: Why the precious metal isn’t the war hedge we’re " | kw:gold
 2026-06-13 19:01 ACCEPT [MarketWatch] "A powerful inflation storm is brewing — and your portfolio isn’t ready" | kw:rice,commodity,inflation
 2026-06-13 19:01 ACCEPT [OilPrice.com] "The Promise and Peril of Jamaica’s Offshore Oil Ambitions" | kw:oil
 2026-06-13 21:01 ACCEPT [OilPrice.com] "Fuel Tax Changes Hit Six States As Energy Inflation Accelerates" | kw:oil,crude,fuel
@@ -20006,3 +19998,13 @@
 2026-07-21 19:31 ACCEPT [Google News NS] "Ukraine shut a quarter of Russia’s grain exports—the world’s wheat mon" | kw:wheat
 2026-07-21 19:31 ACCEPT [Google News NS] "9 places to find fresh corn on the cob across Vancouver Island this su" | kw:corn
 2026-07-21 19:31 ACCEPT [Google News CB] "Capital One Sheds Suit Alleging Unlawful Interest Rate Charges - Bloom" | kw:interest rate
+2026-07-21 20:01 ACCEPT [Al Jazeera] "Rescuers search for flood survivors in Afghanistan" | kw:flood
+2026-07-21 20:01 ACCEPT [OilPrice.com] "Norway's Oil Output Beats Forecasts as Hormuz Traffic Stays Near Crisi" | kw:oil,crude
+2026-07-21 20:01 ACCEPT [NASDAQ Commod] "Crude Oil Surges Amid Supply Concerns After U.S. Continues Attacks On " | kw:oil,crude,rice
+2026-07-21 20:01 ACCEPT [Google News HH] "Inside Washington's Quiet Bid to Break China's Grip on Iraq - Crude Oi" | kw:oil,crude,rice
+2026-07-21 20:01 ACCEPT [Google News HH] "Vivakor Expands Physical Crude Oil Marketing - Moomoo" | kw:oil,crude
+2026-07-21 20:01 ACCEPT [Google News KL] "Beyond GLD: The 0.40% Fee Drag That Is Slowly Bleeding Your Gold Retur" | kw:gold
+2026-07-21 20:01 ACCEPT [Google News NS] "Crops Analysis | December corn notches close above key resistance - Pr" | kw:corn
+2026-07-21 20:01 ACCEPT [Google News NS] "From Farmers Markets to Meijer Shelves: Mr. G’s Kettle Corn Pops and G" | kw:corn
+2026-07-21 20:01 ACCEPT [Google News CB] "The euro area bank lending survey - Second quarter of 2026 - European " | kw:central bank
+2026-07-21 20:01 ACCEPT [Google News CB] "Bank of America CEO warns inflation will back Fed into a corner - thes" | kw:corn,inflation
