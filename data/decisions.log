@@ -19855,3 +19855,16 @@
 2026-07-21 11:01 ACCEPT [Google News CB] "July ECB Cheat Sheet: No lull in sight - ING Think" | kw:ecb
 2026-07-21 11:01 ACCEPT [Google News CB] "EUR/USD stays rangebound ahead of ECB policy announcement as traders a" | kw:ecb
 2026-07-21 11:01 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 11:31 ACCEPT [MarketWatch] "China has been buying the gold dip, and these analysts say a comeback " | kw:gold
+2026-07-21 11:31 ACCEPT [OilPrice.com] "UK Scraps 5% VAT on Electricity" | kw:rice
+2026-07-21 11:31 ACCEPT [Google News HH] "Palm falls, tracking weaker Dalian rivals, crude oil - TradingView" | kw:oil,crude
+2026-07-21 11:31 ACCEPT [Google News HH] "Saudi Arabia’s crude oil exports drop in May By Investing.com - Invest" | kw:oil,crude
+2026-07-21 11:31 ACCEPT [Google News HH] "Saudi Arabia’s crude oil exports drop in May By Investing.com - Invest" | kw:oil,crude,wti
+2026-07-21 11:31 ACCEPT [Google News HH] "Norway oil, gas output rebounds above forecasts in June - Quantum Comm" | kw:oil,gas,commodity
+2026-07-21 11:31 ACCEPT [Google News KL] "Why Rising Bond Yields Matter More to Gold Than Investors Realize - St" | kw:gold
+2026-07-21 11:31 ACCEPT [Google News KL] "Gold prices climb in Baghdad and Erbil - Shafaq News | Latest breaking" | kw:gold,rice
+2026-07-21 11:31 ACCEPT [Google News KL] "Gold rises 2% amid US-Iran talks hinting at Middle East de-escalation " | kw:gold
+2026-07-21 11:31 ACCEPT [Google News NS] "Russian wheat export prices rose sharply - АПК-Інформ" | kw:wheat,rice
+2026-07-21 11:31 ACCEPT [Google News NS] "Redirecting wheat exports to Ukraine's western border makes little eco" | kw:wheat
+2026-07-21 11:31 ACCEPT [Google News CB] "China's central bank raises relending quota to support disaster-strick" | kw:central bank
+2026-07-21 11:31 SKIP_MORNING already_sent date=2026-07-21
