@@ -1,5 +1,3 @@
-2026-06-14 15:01 SKIP_MORNING already_sent date=2026-06-14
-2026-06-14 15:01 SKIP_EVENING already_sent date=2026-06-14
 2026-06-14 15:31 ACCEPT [The Guardian Biz] "Me, worry? For US small businesses, Trump’s tariffs are now a non-issu" | kw:tariff
 2026-06-14 15:31 ACCEPT [OilPrice.com] "Fiji Blocks Controversial Australian-Backed Waste Incinerator Project" | kw:iron
 2026-06-14 15:31 SKIP_MORNING already_sent date=2026-06-14
@@ -20000,3 +19998,6 @@
 2026-07-21 22:50 ACCEPT [Google News NS] "Corn futures price outlook: Buyer support at USX466.01 in focus - Trad" | kw:corn,rice
 2026-07-21 23:01 ACCEPT [Google News HH] "Rising Crude Oil Prices Support Sugar - Yahoo Finance" | kw:oil,crude,rice
 2026-07-21 23:01 ACCEPT [Google News HH] "Crude Oil Prices Rally on Global Supply Risks - Yahoo Finance" | kw:oil,crude,rice
+2026-07-21 23:31 ACCEPT [Google News KL] "Grupo Mexico’s Copper Windfall Lifted Profit 79% - Finimize" | kw:copper
+2026-07-21 23:31 ACCEPT [Google News KL] "Gold rebounds above $4,050 as safe-haven demand intensified on persist" | kw:gold
+2026-07-21 23:31 ACCEPT [Google News CB] "If interest rates rise, do we have to worry about credit defaults? - K" | kw:interest rate
