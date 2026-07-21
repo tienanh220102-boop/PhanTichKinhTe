@@ -19773,3 +19773,10 @@
 2026-07-21 07:45 ACCEPT [Google News CB] "Trade tensions, Fed rate outlook push oil prices lower - Anadolu Ajans" | kw:oil,rice,fed rate
 2026-07-21 07:45 ACCEPT [Google News CB] "Spain Is Set to Back Hernandez De Cos for ECB Helm, Report Says - Bloo" | kw:ecb
 2026-07-21 07:45 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 08:01 ACCEPT [MarketWatch] "Jamie Dimon says he wouldn’t buy Treasurys. ‘I don’t understand the up" | kw:treasury
+2026-07-21 08:01 ACCEPT [Google News HH] "ICE cotton edges higher on weather concerns, stronger crude oil - Fibr" | kw:oil,crude,cotton
+2026-07-21 08:01 ACCEPT [Google News HH] "Gold Price Trend Forecast: Expectations of Easing US-Iran Tensions Boo" | kw:gold,rice,easing
+2026-07-21 08:01 ACCEPT [Google News CB] "Euro Holds Near $1.14 as ECB Meeting Looms - TradingView" | kw:ecb
+2026-07-21 08:01 ACCEPT [Google News CB] "Kevin Warsh's Inflation Testimony Came as Traders Priced an 86% Chance" | kw:rice,inflation,fed rate
+2026-07-21 08:01 ACCEPT [Google News CB] "Bund Yields Steady Ahead of ECB Meeting - TradingView" | kw:ecb
+2026-07-21 08:01 SKIP_MORNING already_sent date=2026-07-21
