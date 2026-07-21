@@ -10,22 +10,30 @@
   có hộp **"💡 Đọc hiểu"** giải thích bằng lời, và luôn quy số ra "tỷ đồng", "%", "số ngày".
 - Không giả định người đọc biết mã, biết ngành. Nêu bản chất kinh doanh trước khi mổ số.
 
-## 1. Cấu trúc bắt buộc (thứ tự cố định)
-1. **Tiêu đề + dòng nguồn** — mã, tên, ngành, ngày lập, nguồn dữ liệu.
-2. **Phạm vi & giả định** — báo cáo này LÀM gì, dựa nguồn nào, giả định gì (r, g), và **KHÔNG
-   cover gì** (thuyết minh/bên liên quan, cơ cấu mảng, vĩ mô, dự phóng tương lai). → tạo ethos
-   (uy tín) + chống hiểu sai. Đặt NGAY sau tiêu đề.
-3. **Kết luận nhanh (executive summary)** — verdict + cờ đỏ + điểm cộng. Người đọc lướt là hiểu.
-4. **Thân báo cáo** — 7 phần (kinh doanh gì/cấu trúc → bức tranh KD → chất lượng LN → dòng tiền
-   → cân đối → cảnh báo → định giá). Mỗi phần: số liệu + bảng + hộp 💡.
-5. **Tổng hợp & điều cần theo dõi (true conclusion)** — chốt đánh đổi, nêu 1–2 thứ quan trọng
-   nhất phải theo dõi, và điều gì sẽ làm ĐỔI đánh giá. **Điều cần theo dõi phải CỤ THỂ, có số**
-   (vd "huy động ròng 104k tỷ vốn ngoài để bù đầu tư"), không phải câu checklist chung chung.
-   Cách làm: mỗi mục thân báo cáo tự sinh `watch_item` data-driven (vd `_cashflow` phát hiện phụ
-   thuộc vốn ngoài); conclusion ưu tiên các item cụ thể đó, chỉ bổ sung câu chung khi thiếu.
-   GUARD false-positive: chỉ gắn "phụ thuộc vốn" khi FCF âm thật (FPT nhận 1.196 tỷ ESOP nhưng
-   FCF dương → KHÔNG phải phụ thuộc).
-6. **Ghi chú cuối** — disclaimer: không phải khuyến nghị, cần đối chiếu thuyết minh/kiểm toán.
+## 1. Cấu trúc bắt buộc — FORM MEMO ĐẦU TƯ (đọc từ trên xuống hiểu được câu chuyện)
+Báo cáo phải đọc như một MEMO có mạch, KHÔNG phải checklist kiểm toán rời rạc. Trên = câu
+chuyện & quyết định; dưới = bằng chứng chi tiết.
+1. **Header** — mã · tên · ngành · **giá · vốn hóa · khuyến nghị Vietcap (rating/target/upside)**
+   lấy từ `company_info` (có nguồn, KHÔNG tự chế rating).
+2. **Luận điểm đầu tư** — đoạn văn mạch lạc: DN là gì → quy mô/tăng trưởng → chất lượng lợi
+   nhuận → tài chính/tự nuôi → cấu trúc tập đoàn → định giá → "Ròng lại: …" (through-line).
+3. **Góc nhìn đầu tư** — ✅ Điểm hấp dẫn (bull) / ⚠️ Điều khiến e ngại (bear).
+4. **Điều rút ra cho doanh nghiệp** — hàm ý "so-what": financials NGHĨA LÀ GÌ, DN phải làm gì.
+   KHÔNG lặp số thô; nói hệ quả/hành động.
+5. **Góc nhìn nhà đầu tư** — (a) khuyến nghị Vietcap có nguồn; (b) theo khẩu vị NĐT (tăng trưởng/
+   giá trị/cổ tức/thận trọng); (c) 3 kịch bản bull/base/bear = ĐIỀU KIỆN, KHÔNG dự phóng số.
+6. **Mấu chốt cần theo dõi** — thay cho "định hướng tương lai": KHÔNG suy đoán/dự phóng (chốt với
+   user 21/07), chỉ nêu điều cần theo dõi CỤ THỂ có số (data-driven watch_items).
+7. **Phạm vi & giả định** — LÀM gì, nguồn, r/g, KHÔNG cover gì (ethos + chống hiểu sai).
+8. **── Phân tích chi tiết (bằng chứng) ──** — 8 mục silo (cấu trúc → … → tổng hợp) mỗi mục có
+   số + bảng + hộp 💡.
+9. **Disclaimer** cuối: không khuyến nghị, đối chiếu thuyết minh/kiểm toán.
+
+GUARD false-positive (bài học): watch/cờ "phụ thuộc vốn" chỉ khi FCF âm thật (FPT ESOP + FCF
+dương → không gắn); cờ "cổ tức tài trợ bằng vay" chỉ khi cổ tức TRỌNG YẾU ≥10% lãi ròng (HPG 37
+tỷ = tượng trưng → không gắn); lens tăng trưởng: ≥20% rất hấp dẫn, 10–20% ổn định, <10% chậm.
+Lớp diễn giải (luận điểm/takeaway/lens/scenario) sinh deterministic từ `dd.metrics` (số chốt các
+mục tự nạp) — không LLM, không bịa.
 
 ## 2. Nguyên tắc viết (từ sách)
 - **Executive summary lên đầu**, dài 1/10–1/20 báo cáo; người đọc skip thẳng xuống đây.

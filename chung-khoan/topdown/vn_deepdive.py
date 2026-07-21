@@ -149,6 +149,14 @@ class DeepDive:
     red_flags: List[str] = field(default_factory=list)
     positives: List[str] = field(default_factory=list)
     watch_items: List[str] = field(default_factory=list)   # điều cần theo dõi CỤ THỂ (data-driven)
+    metrics: Dict[str, object] = field(default_factory=dict)  # số chốt để dựng luận điểm
+    thesis: str = ""           # luận điểm đầu tư (đoạn văn mạch lạc)
+    bull: List[str] = field(default_factory=list)   # điểm hấp dẫn
+    bear: List[str] = field(default_factory=list)   # điều khiến e ngại
+    takeaways: List[str] = field(default_factory=list)   # điều rút ra cho DN (hàm ý)
+    lenses: List[str] = field(default_factory=list)      # góc nhìn theo loại NĐT
+    scenarios: List[str] = field(default_factory=list)   # kịch bản bull/base/bear
+    info: Dict[str, object] = field(default_factory=dict)  # giá/vốn hóa/rating Vietcap
     verdict: str = ""
     profile: str = ""          # mô tả bản chất kinh doanh (từ VCI)
     error: Optional[str] = None
@@ -236,6 +244,17 @@ class VNDeepDive:
                        set(self._series(bal, B_TA)) | set(self._series(cf, CF_CFO)))
         dd = DeepDive(symbol, name or symbol, is_bank, sector, years)
         dd.profile = _strip_html(info.get("profile") or info.get("enProfile") or "")
+        # giá/vốn hóa + khuyến nghị Vietcap (có nguồn) để dựng header + góc nhìn
+        if info:
+            price = info.get("currentPrice"); div = info.get("dividendPerShareTsr")
+            dd.info = {
+                "price": price, "marketcap": info.get("marketCap"),
+                "rating": info.get("rating"), "target": info.get("targetPrice"),
+                "upside": info.get("upsideToTargetPercent"),
+                "div_ps": div, "proj_tsr": info.get("projectedTSRPercentage"),
+                "analyst": info.get("analyst"),
+                "div_yield": (_safe_div(div, price) if (div is not None and price) else None),
+            }
 
         if is_bank:
             dd.sections["bank"] = Section(
@@ -282,6 +301,7 @@ class VNDeepDive:
 
         self._make_verdict(dd)
         self._conclusion(dd)
+        self._investment_view(dd)
         return dd
 
     # ------------------------------------------------------------------
@@ -374,6 +394,15 @@ class VNDeepDive:
                 sec.lines.append("*(n/a\\*: nguồn CafeF ghi tỷ lệ sở hữu vô lý cho một số công "
                                  "ty — đã bỏ qua thay vì hiển thị số sai.)*")
 
+        # phân loại cấu trúc để dựng luận điểm
+        dd.metrics["group_kind"] = ("conglomerate" if (minor_pct is not None and minor_pct > 0.10)
+                                    else "loss_subs" if minor_neg
+                                    else "complex" if partial_subs
+                                    else "simple")
+        if gs is not None and not gs.error:
+            dd.metrics["n_subs"] = len(gs.subsidiaries)
+            dd.metrics["n_listed_subs"] = gs.n_listed_subs
+
         # diễn giải cho người mới
         exp = []
         if minor_pct is not None and minor_pct > 0.10:
@@ -447,6 +476,7 @@ class VNDeepDive:
         rev_g = _safe_div(rev.get(y1), rev.get(y0))
         rev_g = (rev_g - 1) if rev_g else None
         gm0, gm1 = _safe_div(gross.get(y0), rev.get(y0)), _safe_div(gross.get(y1), rev.get(y1))
+        dd.metrics.update({"năm": y1, "rev": rev.get(y1), "rev_g": rev_g, "gm": gm1})
         sec.lines.append(
             f"Doanh thu {y1}: {_t(rev.get(y1))}, tăng trưởng {_pct(rev_g)} so {y0}. "
             f"Biên lợi nhuận gộp {gm1*100:.1f}% "
@@ -464,6 +494,7 @@ class VNDeepDive:
                        if v is not None)
         share = _safe_div(noncore1, pretax1)
         if share is not None and pretax1 and pretax1 > 0:
+            dd.metrics["noncore_share"] = share
             sec.lines.append(
                 f"Cơ cấu lợi nhuận {y1}: LN thuần từ hoạt động kinh doanh cốt lõi "
                 f"{_t(op.get(y1))}; thu nhập ngoài cốt lõi (lãi tài chính + thu nhập khác + "
@@ -511,6 +542,7 @@ class VNDeepDive:
             sni = sum(ni[y] for y in last3); scfo = sum(cfo[y] for y in last3)
             if sni > 0:
                 cover = scfo / sni
+                dd.metrics["cfo_ni_3y"] = cover
                 sec.lines.append(
                     f"Dòng tiền so lợi nhuận (3 năm {last3[0]}–{last3[-1]}): CFO cộng dồn "
                     f"{_t(scfo)} = {cover*100:.0f}% lãi ròng cộng dồn {_t(sni)}.")
@@ -687,10 +719,12 @@ class VNDeepDive:
                           "(soi ROIC)." if (ratio > 1.5 and fcf1 is not None and fcf1 < 0) else "")
                 sec.lines.append(
                     f"Capex {_t(abs(cx1))} so khấu hao {_t(dep1)} = {ratio:.1f}x → {trạng}.{caveat}")
-        # cổ tức có được tài trợ bằng tiền thật không? (chỉ khi cổ tức ĐÁNG KỂ ≥1 tỷ)
-        if div.get(y1) is not None and fcf1 is not None:
-            dv = abs(div[y1])
-            if dv >= 1e9 and fcf1 < 0:
+        # cổ tức có được tài trợ bằng tiền thật không? — chỉ cờ khi cổ tức TRỌNG YẾU
+        # (≥10% lãi ròng); cổ tức tượng trưng (vd HPG 37 tỷ) không đáng gắn cờ.
+        if div.get(y1) is not None and fcf1 is not None and fcf1 < 0:
+            dv = abs(div[y1]); ni1 = S["ni"].get(y1)
+            material = dv >= 1e9 and (ni1 is None or ni1 <= 0 or dv >= 0.10 * abs(ni1))
+            if material:
                 sec.flags.append(
                     f"🔻 Chi trả cổ tức {_t(dv)} {y1} trong khi FCF ÂM ({_t(fcf1)}) — cổ tức "
                     f"phải tài trợ bằng vay/tiền tích lũy, không bền nếu kéo dài.")
@@ -715,6 +749,8 @@ class VNDeepDive:
             ext_raised = net_new_debt + (sh if (sh and sh > 0) else 0)
             depends = (cff1 is not None and cff1 > 0 and fcf1 is not None and fcf1 < 0
                        and ext_raised > 0)
+            dd.metrics["funding_depends"] = depends
+            dd.metrics["ext_raised"] = ext_raised
             line = f"Cách tập đoàn tài trợ {y1}: {', '.join(parts)}."
             if depends:
                 line += (" Dòng tiền kinh doanh CHƯA đủ tự nuôi đầu tư nên phải huy động vốn bên "
@@ -761,6 +797,7 @@ class VNDeepDive:
         total_debt = (st_debt.get(y1, 0) or 0) + (lt_debt.get(y1, 0) or 0)
         cash_like = (cash.get(y1, 0) or 0) + (st_inv.get(y1, 0) or 0)
         net_debt = total_debt - cash_like
+        dd.metrics.update({"de": de, "net_debt": net_debt})
         sec.lines.append(
             f"Cuối {y1}: tổng tài sản {_t(ta.get(y1))}, nợ phải trả {_t(liab.get(y1))} "
             f"(D/E {de:.2f} lần)" + (f", tỷ lệ thanh toán hiện hành {cr:.2f}" if cr else "") + ".")
@@ -778,6 +815,7 @@ class VNDeepDive:
         if op1 is not None and int1 is not None and abs(int1) > 1e9:
             cov = _safe_div(op1, abs(int1))
             if cov is not None:
+                dd.metrics["coverage"] = cov
                 sec.lines.append(
                     f"Độ phủ lãi vay {y1}: LN từ HĐKD / lãi vay = {cov:.1f} lần.")
                 if cov < 2:
@@ -971,6 +1009,15 @@ class VNDeepDive:
                 sec.lines.append(f"⚠️ {flag}")
         if not sec.lines:
             sec.lines.append("Không đủ dữ liệu định giá.")
+        # stance đắt/rẻ để dựng luận điểm
+        txt = " ".join(sec.lines)
+        n_dat = txt.count("ĐẮT"); n_re = txt.count("RẺ")
+        if n_dat and not n_re:
+            dd.metrics["val_stance"] = "đắt"
+        elif n_re and not n_dat:
+            dd.metrics["val_stance"] = "rẻ"
+        elif n_dat or n_re:
+            dd.metrics["val_stance"] = "trái chiều"
         dd.sections["valuation"] = sec
 
     # ------------------------------------------------------------------
@@ -1065,6 +1112,207 @@ class VNDeepDive:
         sec.lines.append(
             "*Đây là phân tích dữ kiện từ báo cáo đã công bố, KHÔNG phải khuyến nghị mua/bán.*")
         dd.sections["conclusion"] = sec
+
+    # ------------------------------------------------------------------
+    # LUẬN ĐIỂM ĐẦU TƯ — đoạn văn mạch lạc + bản hai mặt (đặt LÊN ĐẦU báo cáo)
+    # ------------------------------------------------------------------
+    def _investment_view(self, dd: DeepDive) -> None:
+        if dd.is_bank:
+            dd.thesis = ("Đây là ngân hàng — sức khỏe đánh giá bằng khung CAMELS (NIM/NPL/CAR/"
+                         "LDR/CASA), không áp forensic doanh nghiệp thường. Xem tầng định giá riêng.")
+            return
+        m = dd.metrics
+        p: List[str] = []
+        # 1. định danh + bản chất
+        ident = dd.name or dd.symbol
+        if dd.sector:
+            ident += f" — doanh nghiệp ngành {dd.sector.lower()}"
+        p.append(ident + ".")
+        # 2. quy mô & tăng trưởng
+        if m.get("rev") is not None:
+            s = f"Doanh thu {m.get('năm')} {_t(m['rev'])}"
+            if m.get("rev_g") is not None:
+                s += f", tăng trưởng {_pct(m['rev_g'])}"
+            if m.get("gm") is not None:
+                s += f"; biên lợi nhuận gộp {m['gm']*100:.0f}%"
+            p.append(s + ".")
+        # 3. chất lượng lợi nhuận (lãi có ra tiền không) — cốt lõi
+        c = m.get("cfo_ni_3y")
+        if c is not None:
+            if c >= 0.9:
+                p.append(f"Lợi nhuận ra tiền thật — dòng tiền kinh doanh 3 năm bằng {c*100:.0f}% "
+                         f"lãi ròng.")
+            elif c < 0.5:
+                p.append(f"Chất lượng lợi nhuận đáng ngại — dòng tiền kinh doanh 3 năm chỉ bằng "
+                         f"{c*100:.0f}% lãi ròng, phần lớn lợi nhuận nằm 'trên giấy'.")
+            else:
+                p.append(f"Dòng tiền kinh doanh 3 năm bằng {c*100:.0f}% lãi ròng.")
+        ns = m.get("noncore_share")
+        if ns is not None and ns > 0.40:
+            p.append(f"Đáng chú ý: khoảng {ns*100:.0f}% lãi trước thuế đến từ ngoài hoạt động cốt "
+                     f"lõi (tài chính/đánh giá lại/khác) — cần dè chừng tính bền vững.")
+        # 4. tài chính & khả năng tự nuôi
+        fin = []
+        if m.get("de") is not None:
+            fin.append(f"đòn bẩy D/E {m['de']:.1f} lần")
+        if m.get("coverage") is not None and m["coverage"] < 2:
+            fin.append(f"độ phủ lãi vay mỏng ({m['coverage']:.1f} lần)")
+        if m.get("funding_depends"):
+            fin.append(f"phụ thuộc vốn huy động bên ngoài (~{_t(m.get('ext_raised'))}/năm)")
+        elif m.get("net_debt") is not None and m["net_debt"] < 0:
+            fin.append("tiền ròng dương, không áp lực nợ")
+        if fin:
+            p.append("Về tài chính: " + ", ".join(fin) + ".")
+        # 5. cấu trúc tập đoàn (nếu đáng nói)
+        gk = m.get("group_kind")
+        if gk == "loss_subs":
+            p.append("Là tập đoàn có mảng công ty con đang lỗ lớn — lãi công ty mẹ cao hơn lãi hợp "
+                     "nhất, cần tách xem mảng nào đốt tiền.")
+        elif gk == "conglomerate":
+            p.append("Là tập đoàn mà một phần đáng kể lợi nhuận thuộc về cổ đông thiểu số.")
+        # 6. định giá
+        vs = m.get("val_stance")
+        if vs:
+            p.append(f"Định giá hiện {vs} so với lịch sử.")
+        # 7. through-line — bức tranh ròng
+        n = len(dd.red_flags)
+        if n == 0:
+            net = "Ròng lại: nền tảng lành mạnh, chưa lộ cờ đỏ forensic nào"
+        elif n <= 2:
+            net = f"Ròng lại: về cơ bản ổn nhưng có {n} điểm cần lưu ý"
+        else:
+            net = (f"Ròng lại: bức tranh có {n} cờ đỏ đáng kể — chất lượng lợi nhuận/dòng tiền/cân "
+                   f"đối cần soi kỹ trước khi tin con số lợi nhuận")
+        if vs == "đắt":
+            net += ", trong khi thị trường đang trả giá cao"
+        elif vs == "rẻ" and n == 0:
+            net += " và giá đang thấp so với lịch sử"
+        p.append(net + ".")
+        dd.thesis = " ".join(p)
+
+        # bản hai mặt — điểm hấp dẫn (bull) vs điều e ngại (bear)
+        bull = [self._strip_icon(x) for x in dd.positives]
+        if vs == "rẻ":
+            bull.append("Định giá thấp so với lịch sử (dư địa nếu chất lượng giữ được)")
+        if m.get("rev_g") is not None and m["rev_g"] >= 0.15 and (c is None or c >= 0.5):
+            bull.append(f"Doanh thu tăng trưởng mạnh ({_pct(m['rev_g'])})")
+        bear = [self._strip_icon(x) for x in dd.red_flags]
+        if vs == "đắt":
+            bear.append("Định giá cao so với lịch sử — kỳ vọng đã phản ánh vào giá")
+        dd.bull = bull
+        dd.bear = bear
+
+        self._takeaways(dd, m, c, ns, vs)
+        self._lenses(dd, m, c, ns, vs)
+        self._scenarios(dd, m, c, ns, vs)
+
+    def _takeaways(self, dd, m, c, ns, vs) -> None:
+        """Điều rút ra cho DN — hàm ý 'so-what', không lặp lại số thô."""
+        t: List[str] = []
+        if m.get("funding_depends"):
+            t.append("Doanh nghiệp buộc phải duy trì khả năng huy động vốn liên tục để vận hành — "
+                     "mọi cú siết tín dụng hay tăng lãi suất đều đe dọa trực tiếp mô hình; ưu tiên "
+                     "hàng đầu là giữ dòng vốn và kéo dài kỳ hạn nợ.")
+        if m.get("group_kind") == "loss_subs":
+            t.append("Vận mệnh nhóm phụ thuộc vào việc mảng công ty con đang lỗ có thu hẹp lỗ được "
+                     "không; mảng cốt lõi đang phải gánh cho phần còn lại.")
+        if ns is not None and ns > 0.40:
+            t.append("Lợi nhuận công bố phụ thuộc lớn vào khoản ngoài cốt lõi (tài chính/đánh giá "
+                     "lại) → chất lượng lãi mong manh, khó xem là bền và khó ngoại suy.")
+        if c is not None and c < 0.5:
+            t.append("Lãi ghi sổ chưa chuyển thành tiền — bài toán cốt lõi là cải thiện thu tiền "
+                     "về (vốn lưu động, tiến độ bán hàng/thu nợ), không phải tăng lãi trên giấy.")
+        de = m.get("de"); cov = m.get("coverage")
+        if de is not None and de > 3 and cov is not None and cov < 2:
+            t.append("Đòn bẩy cao đi kèm biên trả lãi mỏng khiến DN nhạy cảm với lãi suất — giảm "
+                     "nợ/tăng vốn chủ là hướng lành mạnh hóa bảng cân đối.")
+        if not dd.red_flags and vs == "rẻ":
+            t.append("Nền tảng lành mạnh mà định giá thấp → thị trường có thể đang định giá thấp; "
+                     "việc cần làm là kiểm chứng chất lượng có duy trì được qua các kỳ tới.")
+        if not t:
+            t.append("Bức tranh tài chính cân bằng — chưa có hàm ý cấp bách nào nổi lên; theo dõi "
+                     "để chất lượng hiện tại được duy trì.")
+        dd.takeaways = t
+
+    def _lenses(self, dd, m, c, ns, vs) -> None:
+        """Góc nhìn theo loại nhà đầu tư — mỗi loại một dòng, suy từ metrics."""
+        L: List[str] = []
+        rg = m.get("rev_g")
+        # tăng trưởng
+        if rg is not None:
+            caveat = ", nhưng cần lãi cốt lõi đi kèm" if (ns and ns > 0.4) else ""
+            if rg >= 0.20:
+                L.append(f"**Nhà đầu tư tăng trưởng:** rất hấp dẫn — doanh thu tăng {rg*100:.0f}%"
+                         + caveat + ".")
+            elif rg >= 0.10:
+                L.append(f"**Nhà đầu tư tăng trưởng:** hấp dẫn — tăng trưởng ổn định {rg*100:.0f}%"
+                         + caveat + ".")
+            elif rg >= 0:
+                L.append(f"**Nhà đầu tư tăng trưởng:** trung bình — tăng trưởng chậm ({rg*100:.0f}%).")
+            else:
+                L.append(f"**Nhà đầu tư tăng trưởng:** không phù hợp — doanh thu giảm ({rg*100:.0f}%).")
+        # giá trị
+        if vs == "rẻ":
+            L.append("**Nhà đầu tư giá trị:** đáng chú ý — định giá thấp so với lịch sử (miễn "
+                     "tránh được bẫy giá trị).")
+        elif vs == "đắt":
+            L.append("**Nhà đầu tư giá trị:** không hấp dẫn — định giá cao.")
+        elif vs:
+            L.append("**Nhà đầu tư giá trị:** trung tính — định giá quanh mức lịch sử.")
+        # cổ tức
+        dy = dd.info.get("div_yield")
+        if dy is not None:
+            if dy >= 0.04 and not m.get("funding_depends"):
+                L.append(f"**Nhà đầu tư cổ tức:** phù hợp — suất cổ tức ~{dy*100:.1f}% và không "
+                         f"phải vay để trả.")
+            elif dy > 0:
+                L.append(f"**Nhà đầu tư cổ tức:** suất ~{dy*100:.1f}% nhưng cần soi cổ tức có được "
+                         f"tài trợ bằng tiền thật không.")
+            else:
+                L.append("**Nhà đầu tư cổ tức:** không phù hợp — hầu như không chia cổ tức.")
+        # thận trọng
+        n = len(dd.red_flags); de = m.get("de")
+        if n == 0 and (de is None or de < 1.5):
+            L.append("**Nhà đầu tư thận trọng:** chấp nhận được — ít cờ đỏ, đòn bẩy thấp.")
+        elif n >= 3 or (de is not None and de > 3):
+            L.append("**Nhà đầu tư thận trọng:** nên tránh — nhiều cờ đỏ hoặc đòn bẩy cao.")
+        else:
+            L.append("**Nhà đầu tư thận trọng:** cân nhắc kỹ — có một vài rủi ro cần theo dõi.")
+        dd.lenses = L
+
+    def _scenarios(self, dd, m, c, ns, vs) -> None:
+        """Kịch bản bull/base/bear = ĐIỀU KIỆN (không phải dự phóng số)."""
+        S: List[str] = []
+        bull_if = []
+        if m.get("group_kind") == "loss_subs":
+            bull_if.append("mảng công ty con đang lỗ thu hẹp lỗ / có lãi")
+        if ns is not None and ns > 0.4:
+            bull_if.append("lợi nhuận cốt lõi tự đứng vững, bớt lệ thuộc khoản một lần")
+        if m.get("funding_depends"):
+            bull_if.append("tiếp tục huy động vốn với chi phí hợp lý và giãn được kỳ hạn nợ")
+        if c is not None and c < 0.5:
+            bull_if.append("dòng tiền kinh doanh cải thiện, bám sát lợi nhuận")
+        if not bull_if and vs == "rẻ":
+            bull_if.append("chất lượng lợi nhuận duy trì để thị trường định giá lại")
+        if not bull_if:
+            bull_if.append("giữ được đà tăng trưởng và biên lợi nhuận hiện tại")
+        S.append("🟢 **Lạc quan (bull):** nếu " + "; ".join(bull_if) + ".")
+        S.append("⚪ **Cơ sở (base):** xu hướng hiện tại tiếp diễn — "
+                 + ("tăng trưởng nhưng rủi ro chưa được giải quyết"
+                    if dd.red_flags else "nền tảng ổn định, chưa có biến lớn") + ".")
+        bear_if = []
+        if m.get("funding_depends"):
+            bear_if.append("tín dụng siết / lãi suất tăng khiến khó tái cấp vốn")
+        if m.get("group_kind") == "loss_subs":
+            bear_if.append("mảng lỗ tiếp tục đốt tiền, bào mòn vốn")
+        if m.get("coverage") is not None and m["coverage"] < 2:
+            bear_if.append("lợi nhuận không đủ trả lãi kéo dài")
+        if ns is not None and ns > 0.4:
+            bear_if.append("khoản thu nhập ngoài cốt lõi không lặp lại, lãi thật lộ ra thấp")
+        if not bear_if:
+            bear_if.append("nhu cầu suy yếu làm giảm doanh thu và biên lợi nhuận")
+        S.append("🔴 **Bi quan (bear):** nếu " + "; ".join(bear_if) + ".")
+        dd.scenarios = S
 
 
 if __name__ == "__main__":

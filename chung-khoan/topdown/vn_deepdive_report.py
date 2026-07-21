@@ -81,37 +81,137 @@ _SCOPE = [
 ]
 
 
+_RATING_VI = {
+    "BUY": "MUA", "SELL": "BÁN", "HOLD": "NẮM GIỮ", "M-PF": "TRUNG LẬP (Market Perform)",
+    "O-PF": "KHẢ QUAN (Outperform)", "U-PF": "KÉM KHẢ QUAN (Underperform)",
+    "MARKET PERFORM": "TRUNG LẬP", "OUTPERFORM": "KHẢ QUAN", "UNDERPERFORM": "KÉM KHẢ QUAN",
+}
+
+
+def _px(v) -> str:
+    if v is None:
+        return "n/a"
+    return f"{v:,.0f} đ"
+
+
+def _header_stats_md(dd: DeepDive) -> str:
+    i = dd.info or {}
+    bits = []
+    if i.get("price") is not None:
+        bits.append(f"Giá {_px(i['price'])}")
+    if i.get("marketcap") is not None:
+        bits.append(f"vốn hóa {_t(i['marketcap'])}")
+    rating = i.get("rating")
+    if rating:
+        r = _RATING_VI.get(str(rating).upper(), str(rating))
+        up = i.get("upside")
+        tgt = f", giá mục tiêu {_px(i.get('target'))}" if i.get("target") else ""
+        upt = f" ({up*100:+.0f}%)" if isinstance(up, (int, float)) else ""
+        bits.append(f"**Khuyến nghị Vietcap: {r}**{tgt}{upt}")
+    return "> " + " · ".join(bits) if bits else ""
+
+
+def _header_stats_html(dd: DeepDive) -> str:
+    i = dd.info or {}
+    if not i:
+        return ""
+    chips = []
+    if i.get("price") is not None:
+        chips.append(f"<span class='chip'>Giá {_px(i['price'])}</span>")
+    if i.get("marketcap") is not None:
+        chips.append(f"<span class='chip'>Vốn hóa {_t(i['marketcap'])}</span>")
+    rating = i.get("rating")
+    if rating:
+        r = _RATING_VI.get(str(rating).upper(), str(rating))
+        up = i.get("upside")
+        cls = ("b-red" if str(rating).upper() in ("SELL", "U-PF", "UNDERPERFORM") else
+               "b-green" if str(rating).upper() in ("BUY", "O-PF", "OUTPERFORM") else "b-amber")
+        upt = f" {up*100:+.0f}%" if isinstance(up, (int, float)) else ""
+        tgt = f" · MT {_px(i.get('target'))}" if i.get("target") else ""
+        chips.append(f"<span class='chip badge {cls}'>Vietcap: {html.escape(r)}{tgt}{upt}</span>")
+    return "<div class='stats'>" + "".join(chips) + "</div>" if chips else ""
+
+
+def _vietcap_reco(dd: DeepDive) -> str:
+    i = dd.info or {}
+    rating = i.get("rating")
+    if not rating:
+        return ""
+    r = _RATING_VI.get(str(rating).upper(), str(rating))
+    up = i.get("upside")
+    upt = f" — tiềm năng {up*100:+.0f}% so giá hiện tại {_px(i.get('price'))}" \
+        if isinstance(up, (int, float)) else ""
+    who = f" (chuyên viên {i['analyst']})" if i.get("analyst") else ""
+    return (f"**Khuyến nghị giới phân tích (Vietcap):** {r}, giá mục tiêu "
+            f"{_px(i.get('target'))}{upt}.{who} *Đây là quan điểm của Vietcap, tham khảo — độc "
+            f"lập với phần forensic ở trên.*")
+
+
 def render_markdown(dd: DeepDive) -> str:
     today = _dt.date.today().isoformat()
     out: List[str] = []
     title = f"{dd.symbol}" + (f" — {dd.name}" if dd.name and dd.name != dd.symbol else "")
-    out.append(f"# Báo cáo phân tích chuyên sâu: {title}")
+    out.append(f"# Báo cáo phân tích đầu tư: {title}")
     out.append(f"> Ngành: {dd.sector or 'n/a'} · Lập ngày {today} · Nguồn: BCTC VCI (Vietcap)")
+    out.append(_header_stats_md(dd))
     out.append("")
     if dd.error:
         out.append(f"**Lỗi tải dữ liệu:** {dd.error}")
         return "\n".join(out)
 
-    # Phạm vi & giả định (ethos + chống hiểu sai) — trước executive summary
+    # ---- MEMO ĐẦU TƯ (đọc phần này là nắm được câu chuyện) ----
+    # 1. Luận điểm đầu tư — đoạn văn mạch lạc
+    if dd.thesis:
+        out.append("## Luận điểm đầu tư")
+        out.append(dd.thesis)
+        out.append("")
+    # 2. Góc nhìn hai mặt
+    out.append("## Góc nhìn đầu tư")
+    out.append("**✅ Điểm hấp dẫn**")
+    for b in (dd.bull or ["(chưa nổi bật)"]):
+        out.append(f"- {b}")
+    out.append("")
+    out.append("**⚠️ Điều khiến e ngại**")
+    for b in (dd.bear or ["Không phát hiện cờ đỏ forensic nào từ dữ liệu."]):
+        out.append(f"- {b}")
+    out.append("")
+    # 3. Điều rút ra cho doanh nghiệp (hàm ý)
+    if dd.takeaways:
+        out.append("## Điều rút ra cho doanh nghiệp")
+        for tk in dd.takeaways:
+            out.append(f"- {tk}")
+        out.append("")
+    # 4. Góc nhìn nhà đầu tư: khuyến nghị Vietcap + loại NĐT + kịch bản
+    out.append("## Góc nhìn nhà đầu tư")
+    reco = _vietcap_reco(dd)
+    if reco:
+        out.append(reco)
+        out.append("")
+    if dd.lenses:
+        out.append("**Theo khẩu vị nhà đầu tư:**")
+        for ln in dd.lenses:
+            out.append(f"- {ln}")
+        out.append("")
+    if dd.scenarios:
+        out.append("**Ba kịch bản (điều kiện, không phải dự phóng):**")
+        for sc in dd.scenarios:
+            out.append(f"- {sc}")
+        out.append("")
+    # 5. Mấu chốt cần theo dõi (thay cho 'định hướng tương lai' — không suy đoán)
+    if dd.watch_items:
+        out.append("## Mấu chốt cần theo dõi")
+        for w in dd.watch_items[:3]:
+            out.append(f"- {w}")
+        out.append("")
+
+    # 6. Phạm vi & giả định (đọc để hiểu báo cáo dựa trên gì)
     out.append("## Phạm vi & giả định")
     for s in _SCOPE:
         out.append(f"- {s}")
     out.append("")
-
-    # Kết luận đặt LÊN ĐẦU (form chuyên gia: executive summary)
-    out.append("## Kết luận nhanh")
-    out.append(dd.verdict)
+    out.append("---")
+    out.append("## Phân tích chi tiết (bằng chứng cho luận điểm trên)")
     out.append("")
-    if dd.red_flags:
-        out.append("**🔻 Cờ đỏ forensic:**")
-        for f in dd.red_flags:
-            out.append(f"- {f}")
-        out.append("")
-    if dd.positives:
-        out.append("**✅ Điểm cộng:**")
-        for p in dd.positives:
-            out.append(f"- {p}")
-        out.append("")
 
     # Các phần theo thứ tự
     order = ["group", "business", "quality", "cashflow", "balance", "distress", "valuation", "conclusion", "bank"]
@@ -184,6 +284,17 @@ h2{font-size:1.25rem;margin:34px 0 12px;padding-bottom:6px;border-bottom:2px sol
   padding:9px 13px;border-radius:6px;margin:7px 0;font-size:.94rem;}
 .note{color:var(--mut);font-size:.86rem;}
 p.line{margin:8px 0;}
+.stats{display:flex;flex-wrap:wrap;gap:8px;margin:-8px 0 20px;}
+.chip{display:inline-block;padding:4px 12px;border-radius:20px;background:var(--th);
+  font-size:.85rem;font-weight:600;border:1px solid var(--line);}
+.thesis{font-size:1.05rem;line-height:1.7;border-left:4px solid var(--accent);}
+.bullbear{display:flex;gap:16px;flex-wrap:wrap;margin:16px 0;}
+.bb{flex:1;min-width:260px;border:1px solid var(--line);border-radius:12px;padding:14px 18px;}
+.bb h4{margin:0 0 8px;font-size:1rem;}
+.bb ul{margin:0;padding-left:20px;}
+.bb li{margin:6px 0;font-size:.92rem;}
+.bb-bull{background:var(--greenbg);}
+.bb-bear{background:var(--redbg);}
 .explain{background:var(--th);border-left:4px solid var(--accent);border-radius:6px;
   padding:11px 15px;margin:12px 0;font-size:.9rem;}
 .explain .lbl{font-weight:700;color:var(--accent);}
@@ -285,13 +396,17 @@ def _df_to_html(df: pd.DataFrame) -> str:
     return f"<div class='tblwrap'><table><thead><tr>{th}</tr></thead><tbody>{''.join(rows)}</tbody></table></div>"
 
 
-def _line_html(ln: str) -> str:
-    """Thoát HTML rồi khôi phục **đậm** → <strong>, *nghiêng* → <em>."""
+def _md_inline(ln: str) -> str:
+    """Thoát HTML rồi khôi phục **đậm** → <strong>, *nghiêng* → <em> (không bọc <p>)."""
     import re as _re
     esc = html.escape(ln)
     esc = _re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", esc)
     esc = _re.sub(r"\*(.+?)\*", r"<em>\1</em>", esc)
-    return f"<p class='line'>{esc}</p>"
+    return esc
+
+
+def _line_html(ln: str) -> str:
+    return f"<p class='line'>{_md_inline(ln)}</p>"
 
 
 def render_html(dd: DeepDive) -> str:
@@ -306,30 +421,67 @@ def render_html(dd: DeepDive) -> str:
     P.append("<div class='wrap'>")
     P.append(f"<h1>{html.escape(title)} {badge}</h1>")
     P.append(f"<div class='sub'>Ngành: {html.escape(dd.sector or 'n/a')} · Lập ngày {today} · "
-             f"Nguồn: BCTC VCI (Vietcap) · Báo cáo forensic tất định</div>")
+             f"Nguồn: BCTC VCI (Vietcap)</div>")
+    P.append(_header_stats_html(dd))
     if dd.error:
         P.append(f"<div class='flag'>Lỗi tải dữ liệu: {html.escape(dd.error)}</div></div>")
         return _html_shell(title, "".join(P))
 
-    # Phạm vi & giả định (ethos) — trước executive summary
+    # ---- MEMO ĐẦU TƯ ----
+    # 1. Luận điểm đầu tư (đoạn văn nổi bật)
+    if dd.thesis:
+        P.append("<h2>Luận điểm đầu tư</h2>")
+        P.append(f"<div class='card thesis'>{html.escape(dd.thesis)}</div>")
+    # 2. Góc nhìn hai mặt (bull / bear cạnh nhau)
+    P.append("<h2>Góc nhìn đầu tư</h2>")
+    P.append("<div class='bullbear'>")
+    P.append("<div class='bb bb-bull'><h4>✅ Điểm hấp dẫn</h4>")
+    if dd.bull:
+        P.append("<ul>" + "".join(f"<li>{html.escape(b)}</li>" for b in dd.bull) + "</ul>")
+    else:
+        P.append("<p class='note'>(chưa nổi bật)</p>")
+    P.append("</div>")
+    P.append("<div class='bb bb-bear'><h4>⚠️ Điều khiến e ngại</h4>")
+    if dd.bear:
+        P.append("<ul>" + "".join(f"<li>{html.escape(b)}</li>" for b in dd.bear) + "</ul>")
+    else:
+        P.append("<p class='note'>Không phát hiện cờ đỏ forensic nào.</p>")
+    P.append("</div></div>")
+    # 3. Điều rút ra cho doanh nghiệp
+    if dd.takeaways:
+        P.append("<h2>Điều rút ra cho doanh nghiệp</h2>")
+        P.append("<div class='card'><ul>" +
+                 "".join(f"<li>{html.escape(t)}</li>" for t in dd.takeaways) + "</ul></div>")
+    # 4. Góc nhìn nhà đầu tư
+    P.append("<h2>Góc nhìn nhà đầu tư</h2>")
+    reco = _vietcap_reco(dd)
+    if reco:
+        P.append("<div class='explain'>" + _line_html(reco) + "</div>")
+    if dd.lenses:
+        P.append("<div class='card'><strong>Theo khẩu vị nhà đầu tư</strong><ul>" +
+                 "".join(f"<li>{_md_inline(ln)}</li>" for ln in dd.lenses) + "</ul></div>")
+    if dd.scenarios:
+        P.append("<div class='card'><strong>Ba kịch bản (điều kiện, không phải dự phóng)</strong>"
+                 + "".join(_line_html(sc) for sc in dd.scenarios) + "</div>")
+    # 5. Mấu chốt cần theo dõi
+    if dd.watch_items:
+        P.append("<h2>Mấu chốt cần theo dõi</h2>")
+        P.append("<div class='card'><ul>" +
+                 "".join(f"<li>{html.escape(w)}</li>" for w in dd.watch_items[:3]) + "</ul></div>")
+
+    # 6. Phạm vi & giả định
     P.append("<div class='explain'><span class='lbl'>Phạm vi &amp; giả định</span>")
     for s in _SCOPE:
         P.append(_line_html(s))
     P.append("</div>")
 
-    # Executive summary
-    P.append("<div class='card'>")
-    P.append(f"<div class='verdict'>{html.escape(dd.verdict)}</div>")
-    for f in dd.red_flags:
-        P.append(f"<div class='flag'>{html.escape(f)}</div>")
-    for p in dd.positives:
-        P.append(f"<div class='pos'>{html.escape(p)}</div>")
-    P.append("</div>")
-
-    # Biểu đồ tổng quan (nếu có dữ liệu business + quality)
+    # Biểu đồ tổng quan
     charts = _overview_charts(dd)
     if charts:
         P.append("<div class='card charts'>" + charts + "</div>")
+
+    P.append("<h2 style='border-top:3px solid var(--accent);padding-top:16px;margin-top:38px'>"
+             "Phân tích chi tiết <span class='note'>(bằng chứng cho luận điểm trên)</span></h2>")
 
     order = ["group", "business", "quality", "cashflow", "balance", "distress", "valuation", "conclusion", "bank"]
     for key in order:
