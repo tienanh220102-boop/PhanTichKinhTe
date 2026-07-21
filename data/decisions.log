@@ -19846,3 +19846,12 @@
 2026-07-21 10:31 ACCEPT [Google News CB] "July 2026 euro area bank lending survey - European Central Bank" | kw:central bank
 2026-07-21 10:31 ACCEPT [Google News CB] "Top CD rates hit 4.94% as Fed weighs next move - MSN" | kw:wti
 2026-07-21 10:31 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 11:01 ACCEPT [MarketWatch] "Adobe stock has been crushed by AI fears. Now Morgan Stanley has cut i" | kw:rice
+2026-07-21 11:01 ACCEPT [Google News HH] "Crude Oil Rises Further - TradingView" | kw:oil,crude
+2026-07-21 11:01 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD attempts Descending Triangle breakout nea" | kw:wti,gold,rice
+2026-07-21 11:01 ACCEPT [Google News KL] "Stock Market at Risk: Spooky Signals in Bonds and Gold Prices - tastyl" | kw:gold,rice
+2026-07-21 11:01 ACCEPT [Google News KL] "Chinese Supply Strains Keep Copper Prices Elevated - TradingPedia" | kw:copper,rice
+2026-07-21 11:01 ACCEPT [Google News NS] "Concerns about Black Sea wheat supply - DCA Market Intelligence" | kw:wheat
+2026-07-21 11:01 ACCEPT [Google News CB] "July ECB Cheat Sheet: No lull in sight - ING Think" | kw:ecb
+2026-07-21 11:01 ACCEPT [Google News CB] "EUR/USD stays rangebound ahead of ECB policy announcement as traders a" | kw:ecb
+2026-07-21 11:01 SKIP_MORNING already_sent date=2026-07-21
