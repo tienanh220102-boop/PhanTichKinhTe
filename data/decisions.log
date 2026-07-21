@@ -19828,3 +19828,12 @@
 2026-07-21 10:01 ACCEPT [Google News NS] "Grain SA deeply disappointed by JSE decision to reject soybean Multipl" | kw:soybean
 2026-07-21 10:01 ACCEPT [Google News CB] "Kevin Warsh's Inflation Testimony Came as Traders Priced an 86% Chance" | kw:rice,inflation,fed rate
 2026-07-21 10:01 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 10:16 ACCEPT [NASDAQ Commod] "Gold Prices Jump Amid US-Iran Ceasefire Hopes" | kw:gold,rice
+2026-07-21 10:16 ACCEPT [Google News HH] "Crude Oil: No room for error - FXStreet" | kw:oil,crude
+2026-07-21 10:16 ACCEPT [Google News HH] "Crude oil gains nearly 1 pc to Rs 8,014/barrel in futures trade - The " | kw:oil,crude
+2026-07-21 10:16 ACCEPT [Google News KL] "Attention Investors: How The Iran War Could Affect The Price Of Gold -" | kw:gold,rice
+2026-07-21 10:16 ACCEPT [Google News KL] "Blackrock Silver Engages Global Frontier Advisors to Advance U.S. Crit" | kw:silver
+2026-07-21 10:16 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD Eyes $59.50 as AI Demand and Supply Def" | kw:silver,rice
+2026-07-21 10:16 ACCEPT [Google News CB] "Czech central bank chief warns against early euro adoption - TVP World" | kw:central bank
+2026-07-21 10:16 ACCEPT [Google News CB] "EUR/USD Holds Near Four-Day Low Amid ECB Focus - TradingPedia" | kw:ecb
+2026-07-21 10:16 SKIP_MORNING already_sent date=2026-07-21
