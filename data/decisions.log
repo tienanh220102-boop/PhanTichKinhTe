@@ -19877,3 +19877,6 @@
 2026-07-21 12:01 ACCEPT [Google News NS] "Ukrainian wheat prices continued to decline last week - APK-Inform - А" | kw:wheat,rice
 2026-07-21 12:01 ACCEPT [Google News NS] "Military Risks Drive New Wheat Price Trends - UkrAgroConsult" | kw:wheat,rice
 2026-07-21 12:01 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 12:06 ACCEPT [Google News KL] "Gold holds above $4,000 as traders weigh Iran developments, Fed outloo" | kw:gold
+2026-07-21 12:06 ACCEPT [Google News CB] "Gold holds above $4,000 as investors monitor Middle East diplomacy and" | kw:gold
+2026-07-21 12:06 SKIP_MORNING already_sent date=2026-07-21
