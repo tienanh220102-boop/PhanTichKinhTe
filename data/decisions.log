@@ -1,6 +1,3 @@
-2026-06-14 04:31 ACCEPT [Al Jazeera] "Knicks clinch first NBA title in 53 years with win over Spurs in Game " | kw:drought
-2026-06-14 04:31 SKIP_MORNING already_sent date=2026-06-14
-2026-06-14 05:01 ACCEPT [Al Jazeera] "Knicks clinch first NBA title in 53 years, as Brunson shines against S" | kw:drought
 2026-06-14 05:01 SKIP_MORNING already_sent date=2026-06-14
 2026-06-14 05:31 SKIP_MORNING already_sent date=2026-06-14
 2026-06-14 06:01 SKIP_MORNING already_sent date=2026-06-14
@@ -20001,3 +19998,10 @@
 2026-07-21 20:40 ACCEPT [NASDAQ Commod] "Centerra Gold (CGAU) Shares Cross Above 200 DMA" | kw:gold
 2026-07-21 20:40 ACCEPT [Google News HH] "Crude oil futures settle at $84.91 - investingLive" | kw:oil,crude
 2026-07-21 20:41 ACCEPT [Google News CB] "Fed Monetary Tightening: Interest Rate Outlook & Inflation - Funds Soc" | kw:inflation,interest rate,tightening
+2026-07-21 21:01 ACCEPT [Al Jazeera] "Carney says he and Trump have agreed to ‘intensify’ trade negotiations" | kw:tariff
+2026-07-21 21:01 ACCEPT [Google News HH] "Dollar Edges Higher as Crude Oil Prices and Bond Yields Climb - Barcha" | kw:oil,crude,rice
+2026-07-21 21:01 ACCEPT [Google News HH] "Oil: Private inventory survey shows a headline crude oil build vs. dra" | kw:oil,crude
+2026-07-21 21:01 ACCEPT [Google News HH] "Canadian Financial Close: Loonie down, crude oil climbs - The Western " | kw:oil,crude
+2026-07-21 21:01 ACCEPT [Google News HH] "Goldman Sachs Warns: Crude Oil Prices May Surpass $120 - India News Ne" | kw:oil,crude,gold
+2026-07-21 21:01 ACCEPT [Google News KL] "Copper price nearing US record as premium doubles, Shanghai stockpiles" | kw:copper,rice
+2026-07-21 21:01 ACCEPT [Google News CB] "Germany European Central Bank - Idaho State Journal" | kw:central bank
