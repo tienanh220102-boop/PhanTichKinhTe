@@ -19892,3 +19892,17 @@
 2026-07-21 12:31 ACCEPT [Google News NS] "Russian wheat export prices rose sharply - АПК-Інформ" | kw:wheat,rice
 2026-07-21 12:31 ACCEPT [Google News CB] "Fed to hold rates this year despite high inflation, but economists cit" | kw:inflation
 2026-07-21 12:31 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 13:01 ACCEPT [Al Jazeera] "Iran war: Look beyond stocks to understand state of economy, experts s" | kw:inflation,treasury,basis point
+2026-07-21 13:01 ACCEPT [Google News HH] "Saudi Crude Flow From Red Sea Hit Record Before Houthi Warning - Bloom" | kw:crude
+2026-07-21 13:01 ACCEPT [Google News HH] "China's crude oil imports drop by 5 million barrels per day, sending s" | kw:oil,crude
+2026-07-21 13:01 ACCEPT [Google News HH] "China cuts Iranian crude oil imports by 40% amid weak demand - Crypto " | kw:oil,crude
+2026-07-21 13:01 ACCEPT [Google News HH] "Forex& Commodities Forecasts – Energy Inflation Fears Keep Yields Elev" | kw:commodities,inflation
+2026-07-21 13:01 ACCEPT [Google News HH] "Gold Price Jumps on Fresh Diplomatic Efforts to Ease Tensions in the M" | kw:gold,rice
+2026-07-21 13:01 ACCEPT [Google News KL] "Trifecta Gold Secures Multi-Year Permit and Announces Commencement of " | kw:gold
+2026-07-21 13:01 ACCEPT [Google News KL] "China’s gold buying spree hints at potential price rebound amid US pol" | kw:gold,rice
+2026-07-21 13:01 ACCEPT [Google News KL] "Kuya Silver Achieves Record Q2 Production at Bethania Mine, Increasing" | kw:silver,easing
+2026-07-21 13:01 ACCEPT [Google News CB] "Fed to hold rates this year despite high inflation, but economists cit" | kw:inflation
+2026-07-21 13:01 ACCEPT [Google News CB] "Spain backs Hernández de Cos in first-ever bid for the ECB presidency " | kw:ecb
+2026-07-21 13:01 ACCEPT [Google News CB] "Cabinet approves Japan economic blueprint with BOJ independence stress" | kw:boj
+2026-07-21 13:01 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 13:02 SENT_EVENING articles=20 date=2026-07-21 force=False
