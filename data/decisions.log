@@ -19728,3 +19728,10 @@
 2026-07-21 05:01 ACCEPT [Google News CB] "Palladium Falls as Oil, Fed Bets Weigh - TradingView" | kw:oil
 2026-07-21 05:01 ACCEPT [Google News CB] "FX strategists eye ECB hawkishness as Middle East risk lifts euro case" | kw:ecb
 2026-07-21 05:01 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 05:13 ACCEPT [Google News HH] "OPEC+’s Upcoming August Meeting: Fuel Considerations due to Hormuz Vol" | kw:opec,fuel
+2026-07-21 05:13 ACCEPT [Google News HH] "Gold price in Philippines: Rates on July 21 - FXStreet" | kw:gold,rice
+2026-07-21 05:13 ACCEPT [Google News HH] "Iran’s crude oil OSPs for August 2026 - IranOilGas" | kw:oil,crude,gas
+2026-07-21 05:13 ACCEPT [Google News HH] "$120 crude oil scare is back & India has plenty at stake - The Economi" | kw:oil,crude
+2026-07-21 05:13 ACCEPT [Google News HH] "S. Korea's crude oil supply stable despite uncertainties: industry min" | kw:oil,crude
+2026-07-21 05:13 ACCEPT [Google News NS] "Govt says wheat stocks stable, more supply available if needed - Metti" | kw:wheat
+2026-07-21 05:13 SKIP_MORNING already_sent date=2026-07-21
