@@ -19735,3 +19735,7 @@
 2026-07-21 05:13 ACCEPT [Google News HH] "S. Korea's crude oil supply stable despite uncertainties: industry min" | kw:oil,crude
 2026-07-21 05:13 ACCEPT [Google News NS] "Govt says wheat stocks stable, more supply available if needed - Metti" | kw:wheat
 2026-07-21 05:13 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 05:31 ACCEPT [Google News HH] "Government Secures 90% Crude Oil, Readies Reserve Swap Amid Tensions -" | kw:oil,crude
+2026-07-21 05:31 ACCEPT [Google News KL] "Gold prices rise 0.92 percent above $4,049 as as lower oil eases Fed r" | kw:oil,gold,rice
+2026-07-21 05:31 ACCEPT [Google News CB] "Czech central bank's Michl warns against joining Eurozone too early, F" | kw:central bank
+2026-07-21 05:31 SKIP_MORNING already_sent date=2026-07-21
