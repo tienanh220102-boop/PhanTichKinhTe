@@ -280,13 +280,14 @@ class VNDeepDive:
         self._valuation(dd, symbol)
 
         self._make_verdict(dd)
+        self._conclusion(dd)
         return dd
 
     # ------------------------------------------------------------------
     # 0. CẤU TRÚC TẬP ĐOÀN & BẢN CHẤT KINH DOANH
     # ------------------------------------------------------------------
     def _group_structure(self, dd: DeepDive, S: dict) -> None:
-        sec = Section("1. Doanh nghiệp này kinh doanh gì & cấu trúc tập đoàn")
+        sec = Section("1. Doanh nghiệp kinh doanh gì & cấu trúc sở hữu tập đoàn")
         # bản chất kinh doanh (mô tả)
         if dd.profile:
             prof = dd.profile
@@ -418,7 +419,7 @@ class VNDeepDive:
     # 2. BỨC TRANH KINH DOANH — tách lợi nhuận CỐT LÕI khỏi khoản một lần
     # ------------------------------------------------------------------
     def _business_picture(self, dd: DeepDive, S: dict) -> None:
-        sec = Section("2. Bức tranh kinh doanh thực")
+        sec = Section("2. Bức tranh kinh doanh: tăng trưởng, biên lợi nhuận & chất lượng cốt lõi")
         rev, gross, op = S["rev"], S["gross"], S["op"]
         yrs = sorted(rev)
         if len(yrs) < 2:
@@ -477,22 +478,19 @@ class VNDeepDive:
         om1 = _safe_div(op.get(y1), rev.get(y1))
         om_txt = f"{om1*100:.0f} đồng" if om1 else "…"
         sec.explain = [
-            f"Cách đọc: 'biên lợi nhuận gộp' cho biết cứ 100 đồng doanh thu thì còn lại bao nhiêu "
-            f"sau khi trừ giá vốn (nguyên vật liệu, giá mua hàng) — ở đây khoảng {gm_txt}. 'Biên "
-            f"lợi nhuận từ hoạt động kinh doanh' là sau khi trừ thêm chi phí bán hàng và quản lý — "
-            f"còn khoảng {om_txt}. Biên càng cao và càng ổn định qua các năm → lợi thế cạnh tranh "
-            f"càng bền.",
-            "Vì sao tách 'lợi nhuận cốt lõi': lãi từ bán hàng/dịch vụ chính lặp lại được năm này "
-            "qua năm khác; còn lãi tài chính (gửi tiền, chênh lệch tỷ giá), bán tài sản hay đánh "
-            "giá lại thường chỉ đến MỘT LẦN. Công ty nào lãi chủ yếu nhờ khoản một lần thì con số "
-            "đẹp năm nay khó lặp lại năm sau — dễ 'nhìn tưởng tốt'."]
+            f"Biên gộp = lãi còn lại trên mỗi 100 đồng doanh thu sau giá vốn (~{gm_txt}); biên "
+            f"hoạt động kinh doanh là sau khi trừ thêm chi phí bán hàng, quản lý (~{om_txt}). Biên "
+            f"cao và ổn định nhiều năm → lợi thế cạnh tranh bền.",
+            "Tách 'lợi nhuận cốt lõi' vì lãi bán hàng/dịch vụ lặp lại được, còn lãi tài chính, bán "
+            "tài sản hay đánh giá lại thường chỉ đến một lần — công ty lãi chủ yếu nhờ khoản một "
+            "lần thì con số đẹp năm nay khó lặp lại."]
         dd.sections["business"] = sec
 
     # ------------------------------------------------------------------
     # 2. CHẤT LƯỢNG LỢI NHUẬN — accruals, NI vs CFO, phải thu/tồn kho, Beneish
     # ------------------------------------------------------------------
     def _earnings_quality(self, dd: DeepDive, S: dict) -> None:
-        sec = Section("3. Chất lượng lợi nhuận & dấu hiệu làm đẹp")
+        sec = Section("3. Chất lượng lợi nhuận: lãi có ra tiền không & dấu hiệu làm đẹp sổ")
         ni, cfo, ta = S["ni"], S["cfo"], S["ta"]
         yrs = sorted(set(ni) & set(cfo))
 
@@ -579,16 +577,12 @@ class VNDeepDive:
             dd._beneish_comps = comps  # lưu để render bảng
 
         sec.explain = [
-            "Đây là phần quan trọng nhất. 'Lợi nhuận' trên báo cáo là con số kế toán — có thể ghi "
-            "nhận doanh thu trước khi thu được tiền. 'Dòng tiền từ kinh doanh (CFO)' mới là tiền "
-            "thật chảy về. Một công ty khỏe thì hai con số này đi cùng nhau; nếu lãi cao mà tiền "
-            "thật thu về ít (CFO thấp hơn nhiều so với lãi) thì lợi nhuận phần lớn nằm 'trên giấy' "
-            "— gọi là accruals cao — và thường sẽ đảo chiều ở các năm sau.",
-            "Thủ thuật làm đẹp hay gặp: đẩy hàng cho đại lý cuối năm để ghi doanh thu (phải thu "
-            "phình to hơn doanh thu), giữ hàng tồn kho không trích giảm giá, hoặc vốn hóa chi phí "
-            "(đưa chi phí vào tài sản thay vì trừ vào lãi). Beneish M-score là một công thức thống "
-            "kê gộp 8 dấu hiệu như vậy để ước lượng khả năng công ty 'bóp số' — chỉ là cờ tham "
-            "khảo, không phải bằng chứng."]
+            "Phần quan trọng nhất. Lợi nhuận là con số kế toán (có thể ghi doanh thu trước khi thu "
+            "tiền); CFO mới là tiền thật về. Lãi cao mà CFO thấp hơn nhiều = lợi nhuận 'trên giấy' "
+            "(accruals cao), thường đảo chiều các năm sau.",
+            "Thủ thuật làm đẹp hay gặp: đẩy hàng cuối năm để ghi doanh thu (phải thu phình), giữ "
+            "tồn kho không trích giảm giá, vốn hóa chi phí. Beneish M-score gộp 8 dấu hiệu như vậy "
+            "— chỉ là cờ tham khảo, không phải bằng chứng."]
         dd.sections["quality"] = sec
 
     def _beneish(self, S: dict) -> Optional[Tuple[float, Dict[str, float]]]:
@@ -660,7 +654,7 @@ class VNDeepDive:
     # 3. DÒNG TIỀN — cơ cấu CFO/CFI/CFF, FCF, capex vs khấu hao, cổ tức
     # ------------------------------------------------------------------
     def _cashflow(self, dd: DeepDive, S: dict) -> None:
-        sec = Section("4. Phân tích dòng tiền")
+        sec = Section("4. Dòng tiền: nguồn tiền thật, đầu tư và khả năng tự nuôi")
         cfo, cfi, cff = S["cfo"], S["cfi"], S["cff"]
         capex, dep, div = S["capex"], S["dep"], S["div_paid"]
         yrs = sorted(cfo)
@@ -706,21 +700,19 @@ class VNDeepDive:
                 f"🔻 CFO ÂM {_t(c1)} năm {y1}{extra} — hoạt động kinh doanh không tạo tiền.")
 
         sec.explain = [
-            "Doanh nghiệp có 3 'ống' tiền: (1) CFO — tiền từ bán hàng/dịch vụ, NÊN dương và lớn; "
-            "(2) CFI — tiền cho đầu tư, thường ÂM vì bỏ tiền mua máy móc/nhà xưởng (capex); "
-            "(3) CFF — tiền vay/trả nợ và trả cổ tức. Sức khỏe tốt = tiền kiếm từ kinh doanh (CFO) "
-            "đủ nuôi đầu tư và trả bớt nợ, không phải liên tục đi vay để sống.",
-            "'Dòng tiền tự do (FCF)' = CFO trừ đi tiền đầu tư tài sản. Đây là tiền THẬT còn dư để "
-            "trả cổ tức, mua lại cổ phiếu hoặc giảm nợ. FCF âm không phải lúc nào cũng xấu: nếu do "
-            "công ty đang xây nhà máy mới để lớn hơn (capex lớn) thì là đầu tư cho tương lai; "
-            "nhưng nếu FCF âm vì bản thân kinh doanh không ra tiền (CFO âm) thì mới đáng lo."]
+            "Ba 'ống' tiền: CFO (từ kinh doanh, nên dương và lớn), CFI (đầu tư, thường âm vì mua "
+            "sắm tài sản), CFF (vay/trả nợ, cổ tức). Khỏe = CFO đủ nuôi đầu tư và trả bớt nợ, "
+            "không phải liên tục đi vay để sống.",
+            "FCF (dòng tiền tự do) = CFO trừ đầu tư tài sản — tiền thật còn dư để trả cổ tức/giảm "
+            "nợ. FCF âm do capex lớn (xây thêm nhà máy) là đầu tư tương lai; FCF âm vì CFO âm mới "
+            "đáng lo."]
         dd.sections["cashflow"] = sec
 
     # ------------------------------------------------------------------
     # 4. CÂN ĐỐI KẾ TOÁN — đòn bẩy, thanh khoản, chất lượng tài sản, chu kỳ vốn lưu động
     # ------------------------------------------------------------------
     def _balance_sheet(self, dd: DeepDive, S: dict) -> None:
-        sec = Section("5. Cân đối kế toán & chu kỳ vốn lưu động")
+        sec = Section("5. Cân đối kế toán: đòn bẩy, thanh khoản & chu kỳ vốn lưu động")
         ta, liab, equity = S["ta"], S["liab"], S["equity"]
         cl, ca = S["cl"], S["ca"]
         st_debt, lt_debt = S["st_debt"], S["lt_debt"]
@@ -801,22 +793,19 @@ class VNDeepDive:
                         f"({first['Năm']}→{y1}) — vốn lưu động bị chôn nhiều hơn.")
 
         sec.explain = [
-            "Bảng cân đối cho biết công ty có gì (tài sản) và nợ ai bao nhiêu. 'D/E' (nợ trên vốn "
-            "chủ) đo mức vay mượn: càng cao càng rủi ro khi lãi suất tăng hoặc kinh doanh xấu. "
-            "'Tỷ lệ thanh toán hiện hành' (tài sản ngắn hạn / nợ ngắn hạn) nên ≥1 để đủ sức trả "
-            "các khoản đến hạn trong năm. 'Nợ ròng' = nợ vay trừ tiền mặt; nếu âm nghĩa là tiền "
-            "còn nhiều hơn nợ — rất an toàn.",
-            "'Chu kỳ chuyển hóa tiền mặt (CCC)' đo số ngày tiền bị 'kẹt' trong vận hành: từ lúc bỏ "
-            "tiền mua/làm hàng, bán chịu cho khách, đến lúc thu được tiền về, trừ đi số ngày công "
-            "ty được nợ nhà cung cấp. Càng ngắn càng tốt (tiền quay vòng nhanh); kéo dài ra qua "
-            "các năm là dấu hiệu vốn bị chôn vào hàng tồn hoặc khách chậm trả."]
+            "D/E (nợ trên vốn chủ) đo mức vay mượn — càng cao càng rủi ro khi lãi suất tăng hay "
+            "kinh doanh xấu. Thanh toán hiện hành (tài sản ngắn hạn/nợ ngắn hạn) nên ≥1. Nợ ròng "
+            "âm = tiền nhiều hơn nợ, rất an toàn.",
+            "CCC (chu kỳ tiền mặt) = số ngày tiền bị kẹt trong vận hành (mua/làm hàng → bán chịu → "
+            "thu tiền, trừ số ngày được nợ nhà cung cấp). Càng ngắn càng tốt; kéo dài qua các năm "
+            "= vốn bị chôn vào hàng tồn hoặc khách chậm trả."]
         dd.sections["balance"] = sec
 
     # ------------------------------------------------------------------
     # 5. ĐIỂM CẢNH BÁO — Altman Z'' (thị trường mới nổi) + Piotroski F
     # ------------------------------------------------------------------
     def _distress(self, dd: DeepDive, S: dict, ratios: pd.DataFrame) -> None:
-        sec = Section("6. Điểm cảnh báo kiệt quệ & sức khỏe cơ bản")
+        sec = Section("6. Cảnh báo kiệt quệ & sức khỏe cơ bản (Altman Z, Piotroski F)")
         z = self._altman_z(S)
         if z is not None:
             zscore, zone = z
@@ -844,14 +833,12 @@ class VNDeepDive:
                 dd.positives.append(f"✅ Piotroski F-score {fscore}/9 — nhiều mặt cơ bản đang cải thiện.")
 
         sec.explain = [
-            "Hai điểm số này gói nhiều chỉ số thành một con số cho dễ so sánh. 'Altman Z' ước lượng "
-            "nguy cơ công ty rơi vào kiệt quệ tài chính (mất khả năng trả nợ) trong 1–2 năm tới — "
-            "điểm càng cao càng an toàn. 'Piotroski F' (0–9) đếm xem công ty năm nay CẢI THIỆN được "
-            "bao nhiêu mặt so với năm trước (sinh lời, giảm nợ, hiệu quả).",
-            "Lưu ý: cả hai công thức được xây từ dữ liệu doanh nghiệp Mỹ nên khi áp cho Việt Nam "
-            "chỉ nên coi là cờ tham khảo. Đặc biệt Altman Z hay 'chấm an toàn' nhầm cho doanh "
-            "nghiệp bất động sản (tài sản lớn) — vì vậy phải đọc cùng phần dòng tiền ở trên, không "
-            "tin mỗi điểm số."]
+            "Altman Z ước lượng nguy cơ kiệt quệ tài chính (mất khả năng trả nợ) 1–2 năm tới — cao "
+            "là an toàn. Piotroski F (0–9) đếm số mặt công ty cải thiện so năm trước (sinh lời, "
+            "giảm nợ, hiệu quả).",
+            "Cả hai xây từ dữ liệu doanh nghiệp Mỹ → chỉ là cờ tham khảo. Altman Z hay chấm 'an "
+            "toàn' nhầm cho bất động sản (tài sản lớn) — phải đọc cùng phần dòng tiền, đừng tin mỗi "
+            "điểm số."]
         dd.sections["distress"] = sec
 
     def _altman_z(self, S: dict) -> Optional[Tuple[float, str]]:
@@ -941,7 +928,7 @@ class VNDeepDive:
             return
         if not a:
             return
-        sec = Section("7. Định giá")
+        sec = Section("7. Định giá: đắt hay rẻ so với lịch sử và nội tại")
         for nd in (a.get("nhận_định") or []):
             sec.lines.append(str(nd))
         for flag in (a.get("cờ_rủi_ro") or []):
@@ -968,6 +955,73 @@ class VNDeepDive:
         else:
             dd.verdict = (f"⚠️ {n} cờ đỏ forensic — chất lượng lợi nhuận/dòng tiền/cân đối có vấn "
                           f"đề đáng kể. Thận trọng, đọc kỹ thuyết minh trước khi định giá.")
+
+    # ------------------------------------------------------------------
+    # 8. TỔNG HỢP & ĐIỀU CẦN THEO DÕI (true conclusion — chốt đánh đổi)
+    # ------------------------------------------------------------------
+    @staticmethod
+    def _strip_icon(s: str) -> str:
+        for ic in ("🔻", "✅", "⚠️", "🚨"):
+            s = s.replace(ic, "")
+        return s.strip().rstrip(".").strip()   # bỏ dấu chấm cuối để không thành ".;" khi nối
+
+    def _conclusion(self, dd: DeepDive) -> None:
+        if dd.is_bank:
+            return
+        sec = Section("8. Tổng hợp & điều cần theo dõi")
+        # định giá đắt/rẻ (quét mục định giá)
+        val_stance = ""
+        vsec = dd.sections.get("valuation")
+        if vsec:
+            txt = " ".join(vsec.lines)
+            if "ĐẮT" in txt and "RẺ" not in txt:
+                val_stance = "định giá đang ĐẮT so với lịch sử"
+            elif "RẺ" in txt and "ĐẮT" not in txt:
+                val_stance = "định giá đang RẺ so với lịch sử"
+            elif "RẺ" in txt or "ĐẮT" in txt:
+                val_stance = "định giá trái chiều giữa các thước đo"
+
+        # bức tranh tổng thể: gộp điểm tựa + rủi ro + định giá
+        n = len(dd.red_flags)
+        picture = []
+        if dd.positives:
+            picture.append("Điểm tựa: " + "; ".join(self._strip_icon(p) for p in dd.positives[:2]) + ".")
+        if n == 0:
+            picture.append("Không có cờ đỏ forensic nào nổi lên từ dữ liệu.")
+        else:
+            picture.append(f"Rủi ro nổi bật ({n} cờ): " +
+                           "; ".join(self._strip_icon(f) for f in dd.red_flags[:2]) +
+                           ("; …" if n > 2 else "") + ".")
+        if val_stance:
+            picture.append("Về giá: " + val_stance + ".")
+        sec.lines.append(" ".join(picture))
+
+        # điều cần theo dõi (rút từ cờ nặng nhất) + điều làm đổi đánh giá
+        watch = []
+        joined = " ".join(dd.red_flags)
+        if "CFO ÂM" in joined or "không ra tiền" in joined or "accruals" in joined:
+            watch.append("dòng tiền kinh doanh (CFO) các quý tới có dương và bám sát lợi nhuận không")
+        if "cổ tức" in joined.lower() and "FCF ÂM" in joined:
+            watch.append("cổ tức có còn tài trợ bằng vay khi dòng tiền tự do âm không")
+        if "lãi vay" in joined:
+            watch.append("khả năng trả lãi và lịch đáo hạn nợ (báo cáo này chưa có lịch đáo hạn)")
+        if "ngoài hoạt động cốt lõi" in joined or "ngoài cốt lõi" in joined:
+            watch.append("khoản thu nhập ngoài cốt lõi có lặp lại được không hay chỉ một lần")
+        if "tồn kho" in joined.lower() or "Chu kỳ tiền mặt" in joined:
+            watch.append("tồn kho và tốc độ bán hàng — vốn có bị chôn thêm không")
+        if "thiểu số" in joined or "công ty con chưa sở hữu 100% đang LỖ" in joined:
+            watch.append("mảng công ty con nào đang lỗ và có xu hướng thu hẹp lỗ không")
+        if not watch:
+            watch.append("dòng tiền và biên lợi nhuận có giữ được ổn định qua các kỳ không")
+        sec.lines.append("**Điều cần theo dõi:** " + "; ".join(watch[:3]) + ".")
+
+        sec.lines.append(
+            "**Điều có thể làm đổi đánh giá:** đọc thuyết minh báo cáo tài chính (nội dung khoản "
+            "phi cốt lõi, giao dịch bên liên quan, lịch đáo hạn nợ) và bản kiểm toán — những thứ "
+            "nằm ngoài dữ liệu tự động ở đây.")
+        sec.lines.append(
+            "*Đây là phân tích dữ kiện từ báo cáo đã công bố, KHÔNG phải khuyến nghị mua/bán.*")
+        dd.sections["conclusion"] = sec
 
 
 if __name__ == "__main__":

@@ -69,6 +69,18 @@ def _df_to_md(df: pd.DataFrame) -> str:
 # ============================================================================
 # Markdown
 # ============================================================================
+_SCOPE = [
+    "**Báo cáo này làm gì:** đọc báo cáo tài chính nhiều năm đã công bố để soi chất lượng lợi "
+    "nhuận, dòng tiền, cân đối kế toán, cấu trúc tập đoàn và định giá — phát hiện dấu hiệu 'làm "
+    "đẹp sổ'.",
+    "**Nguồn dữ liệu:** báo cáo tài chính & tỷ số từ VCI (Vietcap); danh sách công ty con từ CafeF.",
+    "**Giả định định giá:** chi phí vốn chủ r≈13%, tăng trưởng dài hạn g≈5% (điều chỉnh được).",
+    "**KHÔNG bao gồm:** nội dung thuyết minh (giao dịch bên liên quan, chi tiết khoản mục), đóng "
+    "góp lợi nhuận của từng công ty con, lịch đáo hạn nợ, yếu tố vĩ mô/ngành, và dự phóng tương "
+    "lai. Điểm số Beneish/Altman hiệu chỉnh cho thị trường Mỹ → chỉ là cờ tham khảo.",
+]
+
+
 def render_markdown(dd: DeepDive) -> str:
     today = _dt.date.today().isoformat()
     out: List[str] = []
@@ -79,6 +91,12 @@ def render_markdown(dd: DeepDive) -> str:
     if dd.error:
         out.append(f"**Lỗi tải dữ liệu:** {dd.error}")
         return "\n".join(out)
+
+    # Phạm vi & giả định (ethos + chống hiểu sai) — trước executive summary
+    out.append("## Phạm vi & giả định")
+    for s in _SCOPE:
+        out.append(f"- {s}")
+    out.append("")
 
     # Kết luận đặt LÊN ĐẦU (form chuyên gia: executive summary)
     out.append("## Kết luận nhanh")
@@ -96,7 +114,7 @@ def render_markdown(dd: DeepDive) -> str:
         out.append("")
 
     # Các phần theo thứ tự
-    order = ["group", "business", "quality", "cashflow", "balance", "distress", "valuation", "bank"]
+    order = ["group", "business", "quality", "cashflow", "balance", "distress", "valuation", "conclusion", "bank"]
     for key in order:
         sec = dd.sections.get(key)
         if not sec:
@@ -293,6 +311,12 @@ def render_html(dd: DeepDive) -> str:
         P.append(f"<div class='flag'>Lỗi tải dữ liệu: {html.escape(dd.error)}</div></div>")
         return _html_shell(title, "".join(P))
 
+    # Phạm vi & giả định (ethos) — trước executive summary
+    P.append("<div class='explain'><span class='lbl'>Phạm vi &amp; giả định</span>")
+    for s in _SCOPE:
+        P.append(_line_html(s))
+    P.append("</div>")
+
     # Executive summary
     P.append("<div class='card'>")
     P.append(f"<div class='verdict'>{html.escape(dd.verdict)}</div>")
@@ -307,7 +331,7 @@ def render_html(dd: DeepDive) -> str:
     if charts:
         P.append("<div class='card charts'>" + charts + "</div>")
 
-    order = ["group", "business", "quality", "cashflow", "balance", "distress", "valuation", "bank"]
+    order = ["group", "business", "quality", "cashflow", "balance", "distress", "valuation", "conclusion", "bank"]
     for key in order:
         sec = dd.sections.get(key)
         if not sec:
