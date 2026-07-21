@@ -19868,3 +19868,12 @@
 2026-07-21 11:31 ACCEPT [Google News NS] "Redirecting wheat exports to Ukraine's western border makes little eco" | kw:wheat
 2026-07-21 11:31 ACCEPT [Google News CB] "China's central bank raises relending quota to support disaster-strick" | kw:central bank
 2026-07-21 11:31 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 12:01 ACCEPT [OilPrice.com] "Oil Prices Top $90 as Kuwaiti Tanker Hit in Strait of Hormuz" | kw:oil,brent,rice
+2026-07-21 12:01 ACCEPT [Google News HH] "Goldman sees Brent above $120/b if Hormuz disruption persists - Quantu" | kw:brent,gold,commodity
+2026-07-21 12:01 ACCEPT [Google News HH] "Gold Price Forecast: Goldman Sachs Says Central Bank Buying Provides P" | kw:gold,rice,central bank
+2026-07-21 12:01 ACCEPT [Google News KL] "China’s gold buying spree signals potential price rebound amid dollar " | kw:gold,rice
+2026-07-21 12:01 ACCEPT [Google News KL] "Gold, Silver, Platinum, and Palladium Rebound, Precious Metals Sector " | kw:gold,silver
+2026-07-21 12:01 ACCEPT [Google News NS] "TN Joins U.S. Soybean Export Council and U.S. Grains Council to Expand" | kw:soybean
+2026-07-21 12:01 ACCEPT [Google News NS] "Ukrainian wheat prices continued to decline last week - APK-Inform - А" | kw:wheat,rice
+2026-07-21 12:01 ACCEPT [Google News NS] "Military Risks Drive New Wheat Price Trends - UkrAgroConsult" | kw:wheat,rice
+2026-07-21 12:01 SKIP_MORNING already_sent date=2026-07-21
