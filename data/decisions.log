@@ -1,8 +1,3 @@
-2026-06-13 15:01 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 15:01 SKIP_EVENING already_sent date=2026-06-13
-2026-06-13 15:31 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 15:31 SKIP_EVENING already_sent date=2026-06-13
-2026-06-13 16:01 SKIP_MORNING already_sent date=2026-06-13
 2026-06-13 16:01 SKIP_EVENING already_sent date=2026-06-13
 2026-06-13 16:09 SKIP_MORNING already_sent date=2026-06-13
 2026-06-13 16:09 SKIP_EVENING already_sent date=2026-06-13
@@ -20003,3 +19998,11 @@
 2026-07-21 19:05 ACCEPT [Google News KL] "Silver Price Jumps Over 5% As Buyers Regain Control - Seeking Alpha" | kw:silver,rice
 2026-07-21 19:05 ACCEPT [Google News KL] "Gold Price Forecast: XAU/USD Attempts Descending Triangle Breakout Nea" | kw:gold,rice
 2026-07-21 19:05 ACCEPT [Google News CB] "Lulu’s Law seeks to protect beachgoers - ECB Publishing, Inc." | kw:lng,ecb
+2026-07-21 19:31 ACCEPT [Google News HH] "Bessent Says China’s Iranian Oil Purchases Have Decreased- Fox Busines" | kw:oil
+2026-07-21 19:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG to break resistance trendline, eyes on $60 " | kw:silver,rice
+2026-07-21 19:31 ACCEPT [Google News KL] "Central bank gold demand has ‘very long runway’ as East/West market sp" | kw:gold,central bank
+2026-07-21 19:31 ACCEPT [Google News KL] "Gold's risk/reward has flipped in investors' favor despite rate hike f" | kw:gold,rate hike
+2026-07-21 19:31 ACCEPT [Google News NS] "After the Bell | Crude extends to multi-week high as geopolitical tens" | kw:crude
+2026-07-21 19:31 ACCEPT [Google News NS] "Ukraine shut a quarter of Russia’s grain exports—the world’s wheat mon" | kw:wheat
+2026-07-21 19:31 ACCEPT [Google News NS] "9 places to find fresh corn on the cob across Vancouver Island this su" | kw:corn
+2026-07-21 19:31 ACCEPT [Google News CB] "Capital One Sheds Suit Alleging Unlawful Interest Rate Charges - Bloom" | kw:interest rate
