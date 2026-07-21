@@ -1,16 +1,3 @@
-2026-06-12 01:30 ACCEPT [OilPrice.com] "U.S. To Build Its First Ever Floating LNG Export Terminal" | kw:gas,lng
-2026-06-12 01:30 ACCEPT [OilPrice.com] "Rotterdam's Growing Oil Storage Fraud Problem Is Costing Traders Milli" | kw:oil
-2026-06-12 01:30 ACCEPT [OilPrice.com] "Iraq's Energy Sector Faces Its Most Important Test in Decades" | kw:oil,opec
-2026-06-12 01:30 ACCEPT [OilPrice.com] "Big Tech's Private Power Plants Will Drive Up Your Energy Bill, Expert" | kw:rice
-2026-06-12 01:30 ACCEPT [OilPrice.com] "The Reliability Crisis Utilities Don't Want to Talk About" | kw:shortage
-2026-06-12 01:30 ACCEPT [OilPrice.com] "9 Billion BOE on the Table as Kazakhstan Opens Biggest Licensing Round" | kw:oil
-2026-06-12 01:30 ACCEPT [OilPrice.com] "OPEC Sees Oil Demand Growth Outpacing Supply Through 2027" | kw:oil,crude,opec
-2026-06-12 01:30 ACCEPT [OilPrice.com] "Britain’s Electric Vehicle Market Is Booming as Fuel Prices Climb" | kw:oil,fuel,rice
-2026-06-12 01:30 ACCEPT [OilPrice.com] "Oil Held the Biggest IPO Record. Tonight It Loses the Crown." | kw:oil,crude,petroleum
-2026-06-12 01:30 ACCEPT [OilPrice.com] "Why Power Prices Are Rising Faster in Deregulated States" | kw:gas,rice
-2026-06-12 01:30 ACCEPT [OilPrice.com] "Why Household Batteries Are Becoming Strategic Assets" | kw:oil,crude,petroleum
-2026-06-12 01:30 ACCEPT [OilPrice.com] "China Is Learning to Use Less Oil—and That's a Bigger Deal Than It Sou" | kw:oil,gas,fuel
-2026-06-12 01:30 ACCEPT [OilPrice.com] "Guyana’s Oil Boom Gets a Major Boost From $100 Crude" | kw:oil,crude,petroleum
 2026-06-12 01:30 WB_CONTEXT refreshed
 2026-06-12 01:30 SENT_MORNING articles=20 date=2026-06-12
 2026-06-12 01:34 SKIP_MORNING already_sent date=2026-06-12
@@ -20011,3 +19998,13 @@
 2026-07-21 16:01 ACCEPT [Google News NS] "Soybeans, Corn Rally and Make Fresh Highs Monday: Cattle Finally Bounc" | kw:corn,soybean
 2026-07-21 16:01 SKIP_MORNING already_sent date=2026-07-21
 2026-07-21 16:01 SKIP_EVENING already_sent date=2026-07-21
+2026-07-21 16:16 ACCEPT [Al Jazeera] "US eyes new tariffs as existing trade duties near expiration" | kw:tariff
+2026-07-21 16:16 ACCEPT [Google News HH] "Brent crude oil price on July 22, 2026 at 5:00 PM EDT - Robinhood" | kw:oil,crude,brent
+2026-07-21 16:16 ACCEPT [Google News HH] "Crude Oil Spikes Above $91: What It Means for Bitcoin (BTC) - CryptoPo" | kw:oil,crude
+2026-07-21 16:16 ACCEPT [Google News KL] "Gold headed toward $3,500 and silver toward $50 before the next run, C" | kw:gold,silver
+2026-07-21 16:16 ACCEPT [Google News KL] "Gold prices steady above $4,000 ahead of Fed meeting - Crypto Briefing" | kw:gold,rice
+2026-07-21 16:16 ACCEPT [Google News KL] "Gold Price Forecast: Gold Rebounds From $4,000 Amid Market Uncertainty" | kw:gold,rice
+2026-07-21 16:16 ACCEPT [Google News CB] "Monetary Policy Radar preview: ECB’s July meeting - Financial Times" | kw:monetary policy,ecb
+2026-07-21 16:16 ACCEPT [Google News CB] "Germany European Central Bank - GazetteXtra" | kw:central bank
+2026-07-21 16:16 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 16:16 SKIP_EVENING already_sent date=2026-07-21
