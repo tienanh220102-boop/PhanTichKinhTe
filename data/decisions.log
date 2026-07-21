@@ -19763,3 +19763,8 @@
 2026-07-21 07:01 ACCEPT [Google News KL] "Gold, silver, platinum, and palladium rebound; precious metals sector " | kw:gold,silver
 2026-07-21 07:01 ACCEPT [Google News CB] "US Dollar: Fed inflation framework questions – Commerzbank - FXStreet" | kw:inflation
 2026-07-21 07:01 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 07:31 ACCEPT [Google News KL] "Gold prices rise nearly 2% to $4,080/oz amid Treasury yield surge - Cr" | kw:gold,rice,treasury
+2026-07-21 07:31 ACCEPT [Google News KL] "Copper price is unchanged– Forecast today – 21-7-2026 - Economies.com" | kw:copper,rice
+2026-07-21 07:31 ACCEPT [Google News KL] "Gold price tops $4,040: is a fresh run toward $4,100 now taking shape?" | kw:gold,rice
+2026-07-21 07:31 ACCEPT [Google News CB] "Gold jumps to nearly one-week top as Iran diplomacy hopes undermine US" | kw:gold
+2026-07-21 07:31 SKIP_MORNING already_sent date=2026-07-21
