@@ -19,7 +19,12 @@
 4. **Thân báo cáo** — 7 phần (kinh doanh gì/cấu trúc → bức tranh KD → chất lượng LN → dòng tiền
    → cân đối → cảnh báo → định giá). Mỗi phần: số liệu + bảng + hộp 💡.
 5. **Tổng hợp & điều cần theo dõi (true conclusion)** — chốt đánh đổi, nêu 1–2 thứ quan trọng
-   nhất phải theo dõi, và điều gì sẽ làm ĐỔI đánh giá. KHÔNG thêm số liệu mới ở đây.
+   nhất phải theo dõi, và điều gì sẽ làm ĐỔI đánh giá. **Điều cần theo dõi phải CỤ THỂ, có số**
+   (vd "huy động ròng 104k tỷ vốn ngoài để bù đầu tư"), không phải câu checklist chung chung.
+   Cách làm: mỗi mục thân báo cáo tự sinh `watch_item` data-driven (vd `_cashflow` phát hiện phụ
+   thuộc vốn ngoài); conclusion ưu tiên các item cụ thể đó, chỉ bổ sung câu chung khi thiếu.
+   GUARD false-positive: chỉ gắn "phụ thuộc vốn" khi FCF âm thật (FPT nhận 1.196 tỷ ESOP nhưng
+   FCF dương → KHÔNG phải phụ thuộc).
 6. **Ghi chú cuối** — disclaimer: không phải khuyến nghị, cần đối chiếu thuyết minh/kiểm toán.
 
 ## 2. Nguyên tắc viết (từ sách)

@@ -148,6 +148,7 @@ class DeepDive:
     sections: Dict[str, Section] = field(default_factory=dict)
     red_flags: List[str] = field(default_factory=list)
     positives: List[str] = field(default_factory=list)
+    watch_items: List[str] = field(default_factory=list)   # điều cần theo dõi CỤ THỂ (data-driven)
     verdict: str = ""
     profile: str = ""          # mô tả bản chất kinh doanh (từ VCI)
     error: Optional[str] = None
@@ -657,6 +658,7 @@ class VNDeepDive:
         sec = Section("4. Dòng tiền: nguồn tiền thật, đầu tư và khả năng tự nuôi")
         cfo, cfi, cff = S["cfo"], S["cfi"], S["cff"]
         capex, dep, div = S["capex"], S["dep"], S["div_paid"]
+        debt_in, debt_out, share_issue = S["debt_in"], S["debt_out"], S["share_issue"]
         yrs = sorted(cfo)
         rows = []
         for y in yrs:
@@ -698,6 +700,38 @@ class VNDeepDive:
             extra = f" dù lãi ròng dương ({_t(ni1)})" if (ni1 and ni1 > 0) else ""
             sec.flags.append(
                 f"🔻 CFO ÂM {_t(c1)} năm {y1}{extra} — hoạt động kinh doanh không tạo tiền.")
+
+        # --- CẤU TRÚC TÀI TRỢ: tập đoàn sống bằng gì? (vay mới vs vốn góp chủ sở hữu) ---
+        di = debt_in.get(y1); do = debt_out.get(y1); sh = share_issue.get(y1)
+        cff1 = cff.get(y1)
+        if di is not None:
+            net_new_debt = di + (do or 0)            # do lưu âm (trả gốc)
+            parts = [f"vay mới {_t(di)}"]
+            if do:
+                parts.append(f"trả gốc {_t(abs(do))}")
+            parts.append(f"vay ròng {_t(net_new_debt)}")
+            if sh and sh > 0:
+                parts.append(f"nhận vốn góp chủ sở hữu {_t(sh)}")
+            ext_raised = net_new_debt + (sh if (sh and sh > 0) else 0)
+            depends = (cff1 is not None and cff1 > 0 and fcf1 is not None and fcf1 < 0
+                       and ext_raised > 0)
+            line = f"Cách tập đoàn tài trợ {y1}: {', '.join(parts)}."
+            if depends:
+                line += (" Dòng tiền kinh doanh CHƯA đủ tự nuôi đầu tư nên phải huy động vốn bên "
+                         "ngoài để bù — nguồn sống phụ thuộc thị trường vốn và các bên rót vốn.")
+                dd.watch_items.append(
+                    f"Khả năng tiếp tục vay & tái cấp vốn: năm {y1} tập đoàn huy động ròng "
+                    f"{_t(ext_raised)} vốn bên ngoài (chủ yếu {_t(net_new_debt)} nợ vay mới) để bù "
+                    f"dòng tiền đầu tư. Cần theo dõi lãi suất, lịch đáo hạn nợ, và các khoản BƠM "
+                    f"VỐN từ chủ sở hữu/bên liên quan (thường nằm trong thuyết minh giao dịch liên "
+                    f"quan, không hiện đủ trên báo cáo hợp nhất).")
+            elif (fcf1 is not None and fcf1 < 0 and sh and sh > 0
+                  and abs(fcf1) > 0 and sh > 0.5 * abs(fcf1)):
+                # FCF âm VÀ vốn góp chủ sở hữu là nguồn bù chính → phụ thuộc thật sự
+                dd.watch_items.append(
+                    f"Phụ thuộc vốn góp chủ sở hữu: năm {y1} nhận {_t(sh)} vốn góp để bù dòng tiền "
+                    f"tự do âm ({_t(fcf1)}) — theo dõi cổ đông/bên liên quan có tiếp tục rót vốn không.")
+            sec.lines.append(line)
 
         sec.explain = [
             "Ba 'ống' tiền: CFO (từ kinh doanh, nên dương và lớn), CFI (đầu tư, thường âm vì mua "
@@ -996,24 +1030,33 @@ class VNDeepDive:
             picture.append("Về giá: " + val_stance + ".")
         sec.lines.append(" ".join(picture))
 
-        # điều cần theo dõi (rút từ cờ nặng nhất) + điều làm đổi đánh giá
-        watch = []
-        joined = " ".join(dd.red_flags)
-        if "CFO ÂM" in joined or "không ra tiền" in joined or "accruals" in joined:
-            watch.append("dòng tiền kinh doanh (CFO) các quý tới có dương và bám sát lợi nhuận không")
-        if "cổ tức" in joined.lower() and "FCF ÂM" in joined:
-            watch.append("cổ tức có còn tài trợ bằng vay khi dòng tiền tự do âm không")
-        if "lãi vay" in joined:
-            watch.append("khả năng trả lãi và lịch đáo hạn nợ (báo cáo này chưa có lịch đáo hạn)")
-        if "ngoài hoạt động cốt lõi" in joined or "ngoài cốt lõi" in joined:
-            watch.append("khoản thu nhập ngoài cốt lõi có lặp lại được không hay chỉ một lần")
-        if "tồn kho" in joined.lower() or "Chu kỳ tiền mặt" in joined:
-            watch.append("tồn kho và tốc độ bán hàng — vốn có bị chôn thêm không")
-        if "thiểu số" in joined or "công ty con chưa sở hữu 100% đang LỖ" in joined:
-            watch.append("mảng công ty con nào đang lỗ và có xu hướng thu hẹp lỗ không")
+        # điều cần theo dõi: ưu tiên watch_items CỤ THỂ (data-driven) do các mục sinh ra,
+        # rồi bổ sung watch chung rút từ cờ nếu còn thiếu.
+        watch = list(dd.watch_items)                # cụ thể, có số (vd cấu trúc tài trợ)
+        jlow = " ".join(dd.red_flags).lower()       # so khớp không phân biệt hoa/thường
+        generic = []
+        if "cfo âm" in jlow or "không ra tiền" in jlow or "accruals" in jlow:
+            generic.append("dòng tiền kinh doanh (CFO) các quý tới có dương và bám sát lợi nhuận không")
+        if "cốt lõi" in jlow:
+            generic.append("khoản thu nhập ngoài cốt lõi có lặp lại được không hay chỉ một lần")
+        if "tồn kho" in jlow or "chu kỳ tiền mặt" in jlow:
+            generic.append("tồn kho và tốc độ bán hàng — vốn có bị chôn thêm không")
+        if "thiểu số" in jlow or "công ty con chưa sở hữu 100% đang lỗ" in jlow:
+            generic.append("mảng công ty con nào đang lỗ và có thu hẹp lỗ không")
+        # chỉ thêm generic nếu chưa được watch cụ thể phủ, và tổng ≤3
+        for g in generic:
+            if len(watch) >= 3:
+                break
+            watch.append(g)
         if not watch:
             watch.append("dòng tiền và biên lợi nhuận có giữ được ổn định qua các kỳ không")
-        sec.lines.append("**Điều cần theo dõi:** " + "; ".join(watch[:3]) + ".")
+        if len(watch) == 1:
+            sec.lines.append("**Điều cần theo dõi:** " + watch[0] +
+                             ("" if watch[0].endswith(".") else "."))
+        else:
+            sec.lines.append("**Điều cần theo dõi:**")
+            for w in watch[:3]:
+                sec.lines.append("- " + w + ("" if w.endswith(".") else "."))
 
         sec.lines.append(
             "**Điều có thể làm đổi đánh giá:** đọc thuyết minh báo cáo tài chính (nội dung khoản "
