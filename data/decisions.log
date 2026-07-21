@@ -19792,3 +19792,12 @@
 2026-07-21 08:31 ACCEPT [Google News CB] "Liberia central bank cuts main interest rate to 16% - TradingView" | kw:central bank,interest rate
 2026-07-21 08:31 ACCEPT [Google News CB] "Gold rises above $4,000 as Middle East diplomacy tempers Fed inflation" | kw:gold,inflation
 2026-07-21 08:31 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 09:01 ACCEPT [OilPrice.com] "ADNOC Approves $6.2 Billion Gas Project in Abu Dhabi" | kw:oil,petroleum,gas
+2026-07-21 09:01 ACCEPT [Google News HH] "State Department Announces Iraq-Syria Crude Oil Pipeline - The Preside" | kw:oil,crude
+2026-07-21 09:01 ACCEPT [Google News HH] "Gold Price Rises Supported by Increased Buying Amid Lower Prices - وكا" | kw:gold,rice
+2026-07-21 09:01 ACCEPT [Google News KL] "Getchell Gold Corp. Announces $1 Billion NPV Preliminary Economic Asse" | kw:gold
+2026-07-21 09:01 ACCEPT [Google News KL] "Silver Price Forecasts: XAG/USD reaches $59.00 amid hopes of new US-Ir" | kw:silver,rice
+2026-07-21 09:01 ACCEPT [Google News KL] "Copper: China tightness underpins prices – ING - FXStreet" | kw:copper,rice
+2026-07-21 09:01 ACCEPT [Google News CB] "UnionPay International Signs Strategic MoUs with the Central Bank of t" | kw:central bank
+2026-07-21 09:01 ACCEPT [Google News CB] "A more relaxed ECB in the wake of the CPI figures - The Corner .eu" | kw:corn,ecb
+2026-07-21 09:01 SKIP_MORNING already_sent date=2026-07-21
