@@ -19687,3 +19687,6 @@
 2026-07-21 01:50 ACCEPT [Google News HH] "With The U.S.-Iran Deal Collapsing, How Exposed Are Oil Markets Right " | kw:oil,crude,rice
 2026-07-21 01:50 ACCEPT [Google News KL] "Silver Forecast: XAG/USD bulls await descending trend-line breakout - " | kw:silver
 2026-07-21 01:50 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 02:01 ACCEPT [Google News HH] "Sugar Prices Slip on Dollar Strength and Crude Oil Weakness - TradingV" | kw:oil,crude,rice
+2026-07-21 02:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD bulls flirt with descending trend-line " | kw:silver,rice
+2026-07-21 02:01 SKIP_MORNING already_sent date=2026-07-21
