@@ -61,6 +61,12 @@ mục tự nạp) — không LLM, không bịa.
 - **Tập đoàn**: soi cổ đông thiểu số (lãi hợp nhất có thật thuộc cổ đông mã không), công ty con
   niêm yết thì drill riêng. Thiểu số ÂM = công ty con đang lỗ (đừng mừng khi "lãi mẹ > hợp nhất").
 - Ngân hàng → nhánh CAMELS, không áp forensic doanh nghiệp thường.
+- **ĐIỀU TRA khi dữ liệu cho phép — KHÔNG để "nghi" chung chung.** Cờ nào chạm nghi ngờ mà data
+  còn bóc sâu được thì phải bóc: vd "phải thu phình" → tách phải thu KHÁCH HÀNG (bán chịu) vs
+  trả trước người bán vs phải thu khác + tính DSO (số ngày thu tiền) → kết luận CÓ BẰNG CHỨNG
+  ("bán chịu +152% vs doanh thu +12%, DSO 11→26 ngày") thay vì "nghi ghi nhận sớm". Chỉ để lại
+  cho thuyết minh phần thật sự cần nguồn ngoài (quá hạn/tập trung khách hàng). Hiệu chỉnh mức
+  tuyệt đối: DSO vẫn thấp (<45 ngày) → "điểm theo dõi", đừng báo động (HPG DSO 26 vẫn lành mạnh).
 
 ## 5. Trung thực & giới hạn (bài học thực chiến)
 - **Xác minh danh tính trước khi chạy** (mã VFS sàn VN = Chứng khoán Nhất Việt, KHÔNG phải VinFast).

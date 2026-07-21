@@ -63,7 +63,9 @@ B_CA = "TÀI SẢN NGẮN HẠN"
 B_CASH = "Tiền và tương đương tiền"
 B_ST_INVEST = "Đầu tư ngắn hạn"
 B_RECV = "Các khoản phải thu"                      # phải thu ngắn hạn (tổng)
-B_RECV_TRADE = "Phải thu khách hàng"              # phải thu thương mại
+B_RECV_TRADE = "Phải thu khách hàng"              # phải thu thương mại (bán chịu)
+B_PREPAY = "Trả trước người bán"                   # ứng trước cho nhà cung cấp (không liên quan DT)
+B_RECV_OTHER = "Phải thu khác"                     # phải thu khác (không liên quan DT)
 B_INV = "Hàng tồn kho, ròng"
 B_PPE_NET = "GTCL TSCĐ hữu hình"                   # giá trị còn lại TSCĐ hữu hình
 B_TA = "TỔNG CỘNG TÀI SẢN"
@@ -279,6 +281,7 @@ class VNDeepDive:
             "ca": self._series(bal, B_CA), "cash": self._series(bal, B_CASH),
             "st_inv": self._series(bal, B_ST_INVEST), "recv": self._series(bal, B_RECV),
             "recv_trade": self._series(bal, B_RECV_TRADE), "inv": self._series(bal, B_INV),
+            "prepay": self._series(bal, B_PREPAY), "recv_other": self._series(bal, B_RECV_OTHER),
             "ppe": self._series(bal, B_PPE_NET), "ta": self._series(bal, B_TA),
             "liab": self._series(bal, B_LIAB), "cl": self._series(bal, B_CL),
             "st_debt": self._series(bal, B_ST_DEBT), "payable": self._series(bal, B_PAYABLE),
@@ -569,21 +572,50 @@ class VNDeepDive:
                         f"🔻 Accruals cao {accr*100:+.1f}% (>10%) {y1} — phần lớn lợi nhuận là "
                         f"dồn tích kế toán, không phải tiền; dễ đảo chiều.")
 
-        # --- 2c. Phải thu / tồn kho phình nhanh hơn doanh thu ---
-        rev = S["rev"]; recv = S["recv"]; inv = S["inv"]
-        ys = sorted(set(rev) & set(recv))
+        # --- 2c. ĐIỀU TRA phải thu: phình do đâu? có phải bán chịu không? DSO bao nhiêu? ---
+        rev = S["rev"]; recv_tot = S["recv"]; recv_trade = S["recv_trade"]
+        prepay = S["prepay"]; recv_other = S["recv_other"]; inv = S["inv"]
+        ys = sorted(set(rev) & set(recv_trade))
         if len(ys) >= 2:
             y0, y1 = ys[-2], ys[-1]
             g_rev = _safe_div(rev[y1], rev[y0])
-            g_recv = _safe_div(recv[y1], recv[y0])
-            if g_rev and g_recv:
-                g_rev -= 1; g_recv -= 1
+            g_rev = (g_rev - 1) if g_rev else None
+            g_trade = _safe_div(recv_trade[y1], recv_trade[y0])
+            g_trade = (g_trade - 1) if g_trade else None
+            # số ngày thu tiền bình quân trên phải thu KHÁCH HÀNG
+            dso0 = _safe_div(recv_trade.get(y0), rev.get(y0))
+            dso1 = _safe_div(recv_trade.get(y1), rev.get(y1))
+            dso0 = dso0 * DAYS if dso0 is not None else None
+            dso1 = dso1 * DAYS if dso1 is not None else None
+            # bóc tách tổng phải thu: khách hàng vs trả trước NCC vs khác
+            if recv_tot.get(y1):
+                comp = []
+                for nm, d in (("khách hàng", recv_trade), ("trả trước người bán", prepay),
+                              ("phải thu khác", recv_other)):
+                    if d.get(y1):
+                        comp.append(f"{nm} {_t(d[y1])}")
+                if comp:
+                    sec.lines.append(f"Cơ cấu phải thu {y1} ({_t(recv_tot[y1])}): " + ", ".join(comp) + ".")
+            if g_trade is not None and g_rev is not None:
                 sec.lines.append(
-                    f"Phải thu {y1} thay đổi {_pct(g_recv)} trong khi doanh thu thay đổi {_pct(g_rev)}.")
-                if g_recv - g_rev > 0.20 and g_recv > 0.15:
+                    f"Phải thu khách hàng {y1} {_pct(g_trade)} so doanh thu {_pct(g_rev)}"
+                    + (f"; số ngày thu tiền (DSO) {dso0:.0f}→{dso1:.0f} ngày"
+                       if (dso0 and dso1) else "") + ".")
+                # KẾT LUẬN có bằng chứng (không còn 'nghi' chung chung)
+                if g_trade - g_rev > 0.20 and g_trade > 0.15:
+                    dso_txt = (f"số ngày thu tiền tăng từ {dso0:.0f} lên {dso1:.0f} ngày"
+                               if (dso0 and dso1) else "vòng quay thu tiền chậm lại")
+                    # hiệu chỉnh mức tuyệt đối: DSO vẫn thấp thì theo dõi, không báo động
+                    if dso1 is not None and dso1 < 45:
+                        tail = (f"Tuy vậy DSO {dso1:.0f} ngày vẫn ở mức thấp — đây là điểm THEO DÕI "
+                                f"(tốc độ chứ chưa phải mức nguy hiểm), soi tiếp các kỳ sau.")
+                    else:
+                        tail = ("Công ty đang nới tay bán chịu để đẩy doanh số — lợi nhuận ghi nhận "
+                                "nhưng tiền chưa về; đối chiếu thuyết minh xem có khoản phải thu "
+                                "lớn/quá hạn/dồn vào ít khách hàng không.")
                     sec.flags.append(
-                        f"🔻 Phải thu phình nhanh hơn doanh thu ({_pct(g_recv)} vs {_pct(g_rev)}) "
-                        f"{y1} — nghi ghi nhận doanh thu sớm / nới điều khoản bán chịu.")
+                        f"🔻 Bán chịu tăng nhanh hơn bán hàng: phải thu KHÁCH HÀNG {_pct(g_trade)} "
+                        f"vs doanh thu {_pct(g_rev)} ({y1}), {dso_txt}. {tail}")
         ys = sorted(set(rev) & set(inv))
         if len(ys) >= 2:
             y0, y1 = ys[-2], ys[-1]
