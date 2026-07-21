@@ -19751,3 +19751,9 @@
 2026-07-21 06:01 ACCEPT [Google News NS] "Tennessee looks abroad to grow markets for soybeans, corn - WKRN News " | kw:corn,soybean
 2026-07-21 06:01 ACCEPT [Google News CB] "DRC: Central Bank reduces its key rate by 100 basis points - Financial" | kw:central bank,basis point
 2026-07-21 06:01 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 06:31 ACCEPT [OilPrice.com] "Oil Reverses Gains on Renewed Hope of Peace in Iran" | kw:oil,crude,brent
+2026-07-21 06:31 ACCEPT [Google News HH] "Palm falls tracking weaker Dalian rivals, crude oil - TradingView" | kw:oil,crude
+2026-07-21 06:31 ACCEPT [Google News KL] "Gold price tops $4,040: is a fresh run toward $4,100 now taking shape?" | kw:gold,rice
+2026-07-21 06:31 ACCEPT [Google News NS] "Punjab seeks 1 million tonnes, Sindh up to 700,000 tonnes from federal" | kw:wheat,federal reserve
+2026-07-21 06:31 ACCEPT [Google News CB] "Inflation fears are back in the spotlight as the Middle East conflict " | kw:oil,rice,inflation
+2026-07-21 06:31 SKIP_MORNING already_sent date=2026-07-21
