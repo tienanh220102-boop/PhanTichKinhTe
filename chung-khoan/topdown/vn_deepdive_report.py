@@ -163,6 +163,31 @@ def _vietcap_reco(dd: DeepDive) -> str:
             f"lập với phần forensic ở trên.*")
 
 
+def _crosscheck_items(dd: DeepDive) -> List[str]:
+    """Danh sách thứ PHẢI cross-check ngoài — thứ hệ (đọc BCTC năm) KHÔNG tự thấy. Theo ngành."""
+    sec = (dd.sector or "").lower()
+    items = [
+        "Giá LIVE trên bảng — số trong báo cáo là ảnh chụp VCI, KHÔNG real-time.",
+        "Tin/công bố gần nhất của DN trên HNX/HOSE + trang IR (nghị quyết, giao dịch bên liên quan, phát hành).",
+        "Số liệu QUÝ mới nhất — báo cáo này dựa trên số NĂM, có thể sau khúc ngoặt.",
+    ]
+    if any(k in sec for k in ("thép", "tài nguyên", "nguyên vật liệu", "hàng hóa", "khoáng", "hóa chất")):
+        items.append("Giá hàng hóa liên quan + chính sách xuất nhập khẩu (vd tungsten ↔ kiểm soát của Trung Quốc).")
+    if "dầu" in sec:
+        items.append("Giá dầu + cước vận tải/biên lọc hóa dầu.")
+    if any(k in sec for k in ("xây dựng", "công nghiệp", "hạ tầng")):
+        items.append("Backlog/đơn hàng trúng thầu + tốc độ giải ngân đầu tư công (nguồn: công bố trúng thầu, ĐHCĐ).")
+    if "bất động sản" in sec:
+        items.append("Sức khỏe thị trường BĐS + pháp lý/tiến độ bán các dự án chính (thuyết minh + tin dự án).")
+    if "ngân hàng" in sec:
+        items.append("Chất lượng tài sản thực (NPL, nợ tái cơ cấu), lãi suất, tăng trưởng tín dụng.")
+    if dd.metrics.get("recent_turn") in ("up", "up_unconfirmed"):
+        items.append("XÁC MINH turnaround quý gần nhất: lãi từ hoạt động cốt lõi/catalyst THẬT, hay khoản một lần/tái cơ cấu?")
+    if dd.metrics.get("val_stance") == "rẻ":
+        items.append("Kiểm value-trap: rẻ vì thị trường bỏ quên, hay rẻ vì triển vọng xấu kéo dài?")
+    return items
+
+
 def render_markdown(dd: DeepDive) -> str:
     today = _dt.date.today().isoformat()
     out: List[str] = []
@@ -218,6 +243,15 @@ def render_markdown(dd: DeepDive) -> str:
         out.append("## Mấu chốt cần theo dõi")
         for w in dd.watch_items[:3]:
             out.append(f"- {w}")
+        out.append("")
+
+    # 5b. CROSS-CHECK BẮT BUỘC — thứ hệ không tự thấy (research ngoài là bắt buộc, không tùy chọn)
+    cc = _crosscheck_items(dd)
+    if cc:
+        out.append("## 🔍 Cross-check bắt buộc trước khi quyết định")
+        out.append("*Hệ này đọc BCTC quá khứ — MÙ với những thứ dưới đây. Phải tự kiểm nguồn ngoài:*")
+        for c in cc:
+            out.append(f"- [ ] {c}")
         out.append("")
 
     # 6. Phạm vi & giả định (đọc để hiểu báo cáo dựa trên gì)
@@ -484,6 +518,14 @@ def render_html(dd: DeepDive) -> str:
         P.append("<h2>Mấu chốt cần theo dõi</h2>")
         P.append("<div class='card'><ul>" +
                  "".join(f"<li>{html.escape(w)}</li>" for w in dd.watch_items[:3]) + "</ul></div>")
+
+    # 5b. Cross-check bắt buộc
+    cc = _crosscheck_items(dd)
+    if cc:
+        P.append("<h2>🔍 Cross-check bắt buộc trước khi quyết định</h2>")
+        P.append("<div class='bb bb-bear'><p class='note' style='margin:0 0 8px'>Hệ này đọc BCTC "
+                 "quá khứ — MÙ với những thứ dưới đây. Phải tự kiểm nguồn ngoài:</p><ul>"
+                 + "".join(f"<li>{html.escape(c)}</li>" for c in cc) + "</ul></div>")
 
     # 6. Phạm vi & giả định
     P.append("<div class='explain'><span class='lbl'>Phạm vi &amp; giả định</span>")

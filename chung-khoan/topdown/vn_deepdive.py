@@ -338,13 +338,19 @@ class VNDeepDive:
         older = [r[2] for r in rows[-6:-2]]           # 4 quý trước 2 quý gần nhất
         older_losses = sum(1 for x in older if x < 0)
         sec = dd.sections.get("business")
-        # TURNAROUND: 2 quý liền có lãi sau chuỗi lỗ → số năm chưa phản ánh
+        # TURNAROUND: 2 quý liền có lãi sau chuỗi lỗ → số năm chưa phản ánh.
+        # BÀI HỌC (cross-check NVL vs MSR): mã VỪA THOÁT LỖ thì tỷ số CFO 3 năm bị méo/không tính
+        # được (3 năm lỗ) → hệ tài chính VỀ BẢN CHẤT không phân biệt được turnaround THẬT (MSR nhờ
+        # tungsten) vs lãi TRÊN GIẤY (NVL tái cơ cấu). KHÔNG cố tự phân loại — LUÔN buộc cross-check.
         if ni1 > 0 and ni0 > 0 and older_losses >= 2:
-            dd.metrics["recent_turn"] = "up"
+            dd.metrics["recent_turn"] = "up_unconfirmed"
             if sec:
                 sec.lines.append(
-                    f"🟢 Diễn biến gần đây (theo quý): 2 quý liền có lãi (Q{q0}/{y0} {_t(ni0)}, "
-                    f"Q{q1}/{y1} {_t(ni1)}) sau chuỗi lỗ — khúc ngoặt mà số liệu NĂM chưa phản ánh.")
+                    f"🟡 Diễn biến gần đây (theo quý): 2 quý liền có lãi (Q{q0}/{y0} {_t(ni0)}, "
+                    f"Q{q1}/{y1} {_t(ni1)}) sau chuỗi lỗ — hệ bắt được khúc ngoặt mà số NĂM chưa "
+                    f"phản ánh, NHƯNG không tự biết là turnaround tiền thật (kiểu MSR nhờ tungsten) "
+                    f"hay lãi trên giấy (kiểu NVL tái cơ cấu). **BẮT BUỘC cross-check ngoài: lãi "
+                    f"quý đến từ hoạt động cốt lõi/catalyst thật, hay khoản một lần?**")
         # SUY GIẢM sớm: quý gần nhất tụt mạnh so cùng kỳ VÀ so quý trước (2 tín hiệu)
         elif (ni_prevyr is not None and ni_prevyr > 0 and ni1 < 0.5 * ni_prevyr
               and ni1 < ni0):
@@ -1306,10 +1312,14 @@ class VNDeepDive:
         if vs == "đắt":
             bear.append("Định giá cao so với lịch sử — kỳ vọng đã phản ánh vào giá")
         # tín hiệu QUÝ gần nhất (số năm chưa phản ánh)
-        if m.get("recent_turn") == "up":
+        rt = m.get("recent_turn")
+        if rt == "up":
             bull.append("Turnaround đang diễn ra ở các quý gần nhất (2 quý liền có lãi sau lỗ) — "
                         "số liệu năm chưa phản ánh")
-        elif m.get("recent_turn") == "down":
+        elif rt == "up_unconfirmed":
+            bull.append("Các quý gần nhất đã có lãi trở lại (sau chuỗi lỗ) — NHƯNG cần cross-check "
+                        "ngoài xem là turnaround tiền thật hay lãi trên giấy (dòng tiền chưa xác nhận)")
+        elif rt == "down":
             bear.append("Các quý gần nhất đang suy giảm mạnh — cảnh báo sớm số năm chưa phản ánh")
         dd.bull = bull
         dd.bear = bear
