@@ -305,7 +305,24 @@ class VNDeepDive:
         self._make_verdict(dd)
         self._conclusion(dd)
         self._investment_view(dd)
+        self._price_anchors(dd, ratios)
         return dd
+
+    def _price_anchors(self, dd: DeepDive, ratios) -> None:
+        """Lưu neo định giá (P/E, P/B lịch sử) để dựng khung giá kịch bản. P/B ổn định hơn cho
+        mã chu kỳ (P/E méo khi lợi nhuận dao động)."""
+        price = (dd.info or {}).get("price")
+        if ratios is None or ratios.empty or not price:
+            return
+        pe = [float(x) for x in ratios.get("pe", []) if pd.notna(x) and float(x) > 0]
+        pb = [float(x) for x in ratios.get("pb", []) if pd.notna(x) and float(x) > 0]
+        if pe:
+            dd.metrics.update({"pe_now": pe[-1], "pe_lo": float(np.percentile(pe, 20)),
+                               "pe_med": float(np.median(pe))})
+        if pb:
+            dd.metrics.update({"pb_now": pb[-1], "pb_lo": min(pb),
+                               "pb_med": float(np.median(pb)), "pb_hi": float(np.percentile(pb, 80)),
+                               "bvps": price / pb[-1]})
 
     # ------------------------------------------------------------------
     # 0. CẤU TRÚC TẬP ĐOÀN & BẢN CHẤT KINH DOANH
