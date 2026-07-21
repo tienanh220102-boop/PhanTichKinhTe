@@ -19669,3 +19669,6 @@
 2026-07-20 23:49 ACCEPT [Google News NS] "Local sweet corn hits market - KEYC News Now" | kw:corn
 2026-07-21 00:01 ACCEPT [OilPrice.com] "Higher-For-Longer Oil Scenario Is Here To Stay" | kw:oil,rice
 2026-07-21 00:02 SENT_MORNING articles=20 date=2026-07-21 force=False
+2026-07-21 00:31 ACCEPT [Google News CB] "At SIEPR, the Fed’s Philip Jefferson reflects on the central bank’s “d" | kw:central bank
+2026-07-21 00:31 ACCEPT [Google News CB] "Preview - ECB seen holding at 2.25% as Middle East conflict clouds out" | kw:wti,ecb
+2026-07-21 00:31 SKIP_MORNING already_sent date=2026-07-21
