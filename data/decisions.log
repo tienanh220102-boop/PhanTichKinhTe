@@ -1,15 +1,3 @@
-2026-06-13 07:31 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 08:01 ACCEPT [Al Jazeera] "‘A dream come true’: Fans revel as US win World Cup opener on home soi" | kw:oil
-2026-06-13 08:01 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 08:19 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 08:31 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 09:01 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 09:31 ACCEPT [Al Jazeera] "Molokhia cigarettes: Gaza’s toxic alternative to tobacco" | kw:rice
-2026-06-13 09:31 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 10:01 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 10:31 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 10:43 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 11:01 SKIP_MORNING already_sent date=2026-06-13
 2026-06-13 11:31 SKIP_MORNING already_sent date=2026-06-13
 2026-06-13 12:01 SKIP_MORNING already_sent date=2026-06-13
 2026-06-13 12:20 SKIP_MORNING already_sent date=2026-06-13
@@ -20010,3 +19998,19 @@
 2026-07-21 18:31 ACCEPT [Google News NS] "Tennessee looks abroad to grow markets for soybeans, corn - WATE 6 On " | kw:corn,soybean
 2026-07-21 18:31 ACCEPT [Google News CB] "Central Bank Cuts Benchmark Rate to 16 Percent Despite Rising Inflatio" | kw:inflation,central bank
 2026-07-21 18:31 ACCEPT [Google News CB] "Fed rate hike in 2026 likely, Polymarket assigns 64% probability - Cry" | kw:fed rate,rate hike
+2026-07-21 19:01 ACCEPT [CNBC Commodities] "Goldman Sachs creates private markets platform as rich investors seek " | kw:gold
+2026-07-21 19:01 ACCEPT [OilPrice.com] "Kazakhstan Suspends Major Oil Exports as Black Sea Risks Escalate" | kw:oil,crude
+2026-07-21 19:01 ACCEPT [OilPrice.com] "India Pulls Back From Iraqi Oil as Hormuz Turns Too Dangerous" | kw:oil,crude,easing
+2026-07-21 19:01 ACCEPT [Google News HH] "This Commodities ETF Could Be a Second Half Star - ETF Trends" | kw:commodities
+2026-07-21 19:01 ACCEPT [Google News HH] "Crude Oil Surges 2%; 3M Shares Gain After Q2 Results - Benzinga" | kw:oil,crude
+2026-07-21 19:01 ACCEPT [Google News HH] "Gold price rallies amid Gulf war strikes, strong US Dollar - FXStreet" | kw:gold,rice
+2026-07-21 19:01 ACCEPT [Google News HH] "August WTI Crude Oil Contract Closes Up $1.68, or 2%; Settles at $84.9" | kw:oil,crude,wti
+2026-07-21 19:01 ACCEPT [Google News KL] "Silver Price Breaks Out of 2-Month Channel, Eyeing $68 Fibonacci Targe" | kw:silver,rice
+2026-07-21 19:01 ACCEPT [Google News KL] "Silver price jumps 5%, gold attracts bargain hunters above $4,000 - Mi" | kw:gold,silver,rice
+2026-07-21 19:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD surges as Middle East hostilities boost" | kw:silver,rice
+2026-07-21 19:01 ACCEPT [Google News KL] "Why Southern Copper (SCCO) Stock Is Up Today - Quiver Quantitative" | kw:copper,quantitative
+2026-07-21 19:01 ACCEPT [Google News CB] "Washington judge corners Kalshi, setting up another state-fed showdown" | kw:corn
+2026-07-21 19:01 ACCEPT [Google News CB] "Ctrl Alt gets authorisation from Central Bank of Ireland - FinTech Glo" | kw:central bank
+2026-07-21 19:01 ACCEPT [Google News CB] "Spain backs Hernández de Cos in first-ever bid for the ECB presidency " | kw:ecb
+2026-07-21 19:01 ACCEPT [Google News CB] "Daylight saving time may become permanent - ECB Publishing, Inc." | kw:ecb
+2026-07-21 19:01 ACCEPT [Google News CB] "Structural shifts demand a new central banking mindset - The Hill" | kw:central bank
