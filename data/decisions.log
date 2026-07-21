@@ -19837,3 +19837,12 @@
 2026-07-21 10:16 ACCEPT [Google News CB] "Czech central bank chief warns against early euro adoption - TVP World" | kw:central bank
 2026-07-21 10:16 ACCEPT [Google News CB] "EUR/USD Holds Near Four-Day Low Amid ECB Focus - TradingPedia" | kw:ecb
 2026-07-21 10:16 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 10:30 ACCEPT [CNBC Commodities] "Jamie Dimon says markets underestimate risks and he wouldn't buy stock" | kw:rice,tariff,treasury
+2026-07-21 10:30 ACCEPT [OilPrice.com] "India Keeps Buying Russian Oil at Near-Record Pace Despite Expired Wai" | kw:oil,crude
+2026-07-21 10:31 ACCEPT [Google News HH] "Gold Price Forecast: Gold Rebounds From $4,000 Amid Market Uncertainty" | kw:gold,rice
+2026-07-21 10:31 ACCEPT [Google News HH] "Houthi Red Sea blockade could trigger surge in crude oil prices - Busi" | kw:oil,crude,rice
+2026-07-21 10:31 ACCEPT [Google News KL] "Current price of silver as of Tuesday, July 21, 2026 - Fortune" | kw:silver,rice
+2026-07-21 10:31 ACCEPT [Google News NS] "Stock market quotes for wheat increased by 6-10% in a week amid restri" | kw:wheat
+2026-07-21 10:31 ACCEPT [Google News CB] "July 2026 euro area bank lending survey - European Central Bank" | kw:central bank
+2026-07-21 10:31 ACCEPT [Google News CB] "Top CD rates hit 4.94% as Fed weighs next move - MSN" | kw:wti
+2026-07-21 10:31 SKIP_MORNING already_sent date=2026-07-21
