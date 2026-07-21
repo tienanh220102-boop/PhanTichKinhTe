@@ -19696,3 +19696,8 @@
 2026-07-21 02:31 ACCEPT [Google News KL] "Gold Prices May Face Short-Term Corrections Amid Long-Term Optimism (G" | kw:gold,rice
 2026-07-21 02:31 ACCEPT [Google News CB] "Gold rises above $4,000 as traders track Middle East tensions, Fed rat" | kw:gold,fed rate
 2026-07-21 02:31 SKIP_MORNING already_sent date=2026-07-21
+2026-07-21 03:01 ACCEPT [Google News HH] "ADNOC, XRG, and Mitsui sign strategic collaboration agreement covering" | kw:oil,crude,lng
+2026-07-21 03:01 ACCEPT [Google News HH] "Oil Price Today (July 21): Crude oil dips below $90 on hopes of 10-day" | kw:oil,crude,rice
+2026-07-21 03:01 ACCEPT [Google News NS] "Soybeans, Corn Rally and Make Fresh Highs Monday: Cattle Correct - AgW" | kw:corn,soybean
+2026-07-21 03:01 ACCEPT [Google News CB] "New Zealand Central Bank Governor Has Time to Balance a Tricky Economy" | kw:central bank
+2026-07-21 03:01 SKIP_MORNING already_sent date=2026-07-21
