@@ -166,6 +166,18 @@ class VCIFundamentals:
             df = df.rename(columns={c: cmap.get(c, c) for c in df.columns})
         return df
 
+    # ---- 2b. Hồ sơ công ty (tên, ngành, mô tả bản chất kinh doanh) ----
+    def company_info(self, symbol: str) -> Dict[str, object]:
+        """Hồ sơ công ty từ /v1/company/{sym}: tên VN/EN, ngành, vốn hóa, rating, và
+        `profile`/`enProfile` = mô tả BẢN CHẤT KINH DOANH (HTML). Rỗng nếu lỗi."""
+        symbol = symbol.upper().strip()
+        try:
+            data = self._get(f"/v1/company/{symbol}")
+        except Exception as e:  # noqa: BLE001
+            logger.warning("company_info %s lỗi: %s", symbol, e)
+            return {}
+        return data if isinstance(data, dict) else {}
+
     # ---- 3. Snapshot gọn cho watchlist ----
     def snapshot(self, symbol: str, period: str = "year") -> Dict[str, object]:
         """Một dict gọn: các tỷ số định giá/chất lượng của KỲ GẦN NHẤT (mặc định: năm)."""

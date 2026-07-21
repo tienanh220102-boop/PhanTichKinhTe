@@ -96,7 +96,7 @@ def render_markdown(dd: DeepDive) -> str:
         out.append("")
 
     # Các phần theo thứ tự
-    order = ["business", "quality", "cashflow", "balance", "distress", "valuation", "bank"]
+    order = ["group", "business", "quality", "cashflow", "balance", "distress", "valuation", "bank"]
     for key in order:
         sec = dd.sections.get(key)
         if not sec:
@@ -104,6 +104,11 @@ def render_markdown(dd: DeepDive) -> str:
         out.append(f"## {sec.title}")
         for ln in sec.lines:
             out.append(ln + "  ")
+        if sec.explain:
+            out.append("")
+            for ex in sec.explain:
+                out.append(f"> 💡 {ex}")
+            out.append("")
         if sec.table is not None and not sec.table.empty:
             out.append("")
             out.append(_df_to_md(sec.table))
@@ -161,6 +166,10 @@ h2{font-size:1.25rem;margin:34px 0 12px;padding-bottom:6px;border-bottom:2px sol
   padding:9px 13px;border-radius:6px;margin:7px 0;font-size:.94rem;}
 .note{color:var(--mut);font-size:.86rem;}
 p.line{margin:8px 0;}
+.explain{background:var(--th);border-left:4px solid var(--accent);border-radius:6px;
+  padding:11px 15px;margin:12px 0;font-size:.9rem;}
+.explain .lbl{font-weight:700;color:var(--accent);}
+.explain p{margin:6px 0;}
 table{border-collapse:collapse;width:100%;font-size:.87rem;margin:12px 0;}
 .tblwrap{overflow-x:auto;}
 th,td{padding:7px 10px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap;}
@@ -259,15 +268,11 @@ def _df_to_html(df: pd.DataFrame) -> str:
 
 
 def _line_html(ln: str) -> str:
-    """Diễn giải: *...* → <em>, thoát HTML."""
+    """Thoát HTML rồi khôi phục **đậm** → <strong>, *nghiêng* → <em>."""
+    import re as _re
     esc = html.escape(ln)
-    # khôi phục nhấn mạnh *...*
-    parts = esc.split("*")
-    if len(parts) >= 3:
-        rebuilt = parts[0]
-        for i in range(1, len(parts)):
-            rebuilt += ("<em>" if i % 2 == 1 else "</em>") + parts[i]
-        esc = rebuilt
+    esc = _re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", esc)
+    esc = _re.sub(r"\*(.+?)\*", r"<em>\1</em>", esc)
     return f"<p class='line'>{esc}</p>"
 
 
@@ -302,7 +307,7 @@ def render_html(dd: DeepDive) -> str:
     if charts:
         P.append("<div class='card charts'>" + charts + "</div>")
 
-    order = ["business", "quality", "cashflow", "balance", "distress", "valuation", "bank"]
+    order = ["group", "business", "quality", "cashflow", "balance", "distress", "valuation", "bank"]
     for key in order:
         sec = dd.sections.get(key)
         if not sec:
@@ -313,6 +318,11 @@ def render_html(dd: DeepDive) -> str:
             P.append(_line_html(ln))
         if sec.table is not None and not sec.table.empty:
             P.append(_df_to_html(sec.table))
+        if sec.explain:
+            P.append("<div class='explain'><span class='lbl'>💡 Đọc hiểu</span>")
+            for ex in sec.explain:
+                P.append(_line_html(ex))
+            P.append("</div>")
         if key == "quality" and getattr(dd, "_beneish_comps", None):
             comp = dd._beneish_comps
             dfc = pd.DataFrame([comp])
