@@ -1,7 +1,3 @@
-2026-06-13 00:31 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 01:01 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 01:31 SKIP_MORNING already_sent date=2026-06-13
-2026-06-13 02:01 SKIP_MORNING already_sent date=2026-06-13
 2026-06-13 02:31 SKIP_MORNING already_sent date=2026-06-13
 2026-06-13 03:01 SKIP_MORNING already_sent date=2026-06-13
 2026-06-13 03:31 SKIP_MORNING already_sent date=2026-06-13
@@ -20002,3 +19998,14 @@
 2026-07-21 17:50 ACCEPT [Al Jazeera] "Rescuers search for survivors amid risk of fresh floods in Afghanistan" | kw:flood
 2026-07-21 17:50 ACCEPT [Al Jazeera] "Where will LeBron James go next? NBA star ‘not rushed’ to make a decis" | kw:gold
 2026-07-21 17:50 ACCEPT [Al Jazeera] "Saudi Arabia slams Houthi blockade: How will rest of the world be impa" | kw:oil
+2026-07-21 18:01 ACCEPT [MarketWatch] "Your healthcare could now cost $185,500 in retirement — and that doesn" | kw:rice
+2026-07-21 18:01 ACCEPT [OilPrice.com] "U.S. Says China Has Slashed Iranian Oil Purchases by 40%" | kw:oil,crude,sanction
+2026-07-21 18:01 ACCEPT [Google News HH] "Opec-Plus: Brief Hormuz Opening Spurs Production Rebound - Energy Inte" | kw:opec
+2026-07-21 18:01 ACCEPT [Google News HH] "Non-Opec-Plus: Output Leaps Higher on UAE Surge - Energy Intelligence" | kw:opec
+2026-07-21 18:01 ACCEPT [Google News HH] "Analysts See Decline in U.S. Crude Oil Inventories - marketscreener.co" | kw:oil,crude
+2026-07-21 18:01 ACCEPT [Google News KL] "Silver (XAUUSD:CUR) Price Jumps Over 5% As Buyers Regain Control - See" | kw:silver,rice
+2026-07-21 18:01 ACCEPT [Google News KL] "Despite Middle East escalation, interest rates remain the key price dr" | kw:gold,silver,rice
+2026-07-21 18:01 ACCEPT [Google News KL] "Silver nears $60 on strong industrial demand, supply constraints - Cry" | kw:silver
+2026-07-21 18:01 ACCEPT [Google News CB] "Capital One Sheds Suit Alleging Unlawful Interest Rate Charges - Bloom" | kw:interest rate
+2026-07-21 18:01 ACCEPT [Google News CB] "Cleveland Fed: Business activity up, but high fuel costs are increasin" | kw:fuel,rice,easing
+2026-07-21 18:01 ACCEPT [Google News CB] "Planners affirm approval of Lamont Truck Stop - ECB Publishing, Inc." | kw:ecb
