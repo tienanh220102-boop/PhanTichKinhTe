@@ -1,9 +1,3 @@
-2026-06-15 05:31 ACCEPT [BBC Business] "Oil prices slide after US-Iran deal announced" | kw:oil,rice
-2026-06-15 05:31 SKIP_MORNING already_sent date=2026-06-15
-2026-06-15 06:01 SKIP_MORNING already_sent date=2026-06-15
-2026-06-15 06:31 ACCEPT [OilPrice.com] "LNG Tanker Heads for Hormuz Amid News of Reopening" | kw:gas,lng
-2026-06-15 06:31 SKIP_MORNING already_sent date=2026-06-15
-2026-06-15 07:01 ACCEPT [Al Jazeera] "Starbucks Korea to shut stores for history lessons after ‘Tank Day’ fu" | kw:coffee
 2026-06-15 07:01 ACCEPT [Al Jazeera] "Gaethje shocks Topuria to win UFC lightweight title at White House eve" | kw:corn
 2026-06-15 07:01 ACCEPT [Al Jazeera] "Stock markets soar, oil falls as US and Iran announce framework to end" | kw:oil
 2026-06-15 07:01 SKIP_MORNING already_sent date=2026-06-15
@@ -20004,3 +19998,14 @@
 2026-07-22 02:31 ACCEPT [Google News KL] "The Fed Meets July 29. Gold Says Hold Is Already Priced In. Silver Say" | kw:gold,silver,rice
 2026-07-22 02:31 ACCEPT [Google News KL] "Gold rebounds above $4,050 as safe-haven demand intensified on persist" | kw:gold
 2026-07-22 02:31 SKIP_MORNING already_sent date=2026-07-22
+2026-07-22 03:01 ACCEPT [Google News HH] "Commodity Catchup: How to Protect Against Inflation, Own it - Global X" | kw:commodity,inflation
+2026-07-22 03:01 ACCEPT [Google News HH] "TSX rebounds as key Canadian commodities escape new US tariffs - Reute" | kw:commodities,tariff
+2026-07-22 03:01 ACCEPT [Google News HH] "7-21-26 Bob Linneman with Kluis Commodities - Radio 570 WNAX" | kw:commodities
+2026-07-22 03:01 ACCEPT [Google News HH] "California beach alert follows crude-oil clumps that left surfer 'head" | kw:oil,crude
+2026-07-22 03:01 ACCEPT [Google News HH] "Crude Oil Price Outlook: 1973 Oil Embargo vs 2026 Hormuz Crisis - FORE" | kw:oil,crude,rice
+2026-07-22 03:01 ACCEPT [Google News HH] "Elliott Wave Analysis: WTI Crude Oil (Cl) 5‑Swing Rally from July Low " | kw:oil,crude,wti
+2026-07-22 03:01 ACCEPT [Google News KL] "Horizon Gold Defines Path to 2028 Production for Gum Creek Project - T" | kw:gold
+2026-07-22 03:01 ACCEPT [Google News NS] "Could highest yielding soft wheat be the next market leader? - Farmers" | kw:wheat
+2026-07-22 03:01 ACCEPT [Google News CB] "Japan's oil-driven import surge widens trade gap, complicates BOJ hold" | kw:oil,boj
+2026-07-22 03:01 ACCEPT [Google News CB] "Did Rising Value-Stock Interest and Fed Easing Hopes Just Shift Invesc" | kw:easing
+2026-07-22 03:01 SKIP_MORNING already_sent date=2026-07-22
