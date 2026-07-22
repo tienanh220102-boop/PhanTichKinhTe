@@ -1,12 +1,3 @@
-2026-06-16 10:01 ACCEPT [Google News KL] "[SMM Analysis] June Nickel Sulphate Market Analysis: Price Under Press" | kw:nickel,rice
-2026-06-16 10:01 ACCEPT [Google News NS] "USDA raises Ukraine wheat forecast, boosts export outlook - mezha.net" | kw:wheat
-2026-06-16 10:01 ACCEPT [Google News CB] "Fed set to make interest rate decision as inflation hits 3-year high -" | kw:inflation,interest rate,rate decision
-2026-06-16 10:01 ACCEPT [Google News CB] "Dollar drifts, no respite for yen after BOJ hikes rates as expected - " | kw:boj
-2026-06-16 10:01 ACCEPT [Google News CB] "Treasury yields fall ahead of Kevin Warsh's first Fed meeting - CNBC" | kw:treasury
-2026-06-16 10:01 ACCEPT [Google News CB] "UBS expects no Fed easing this year; sees hawkish tone in June meeting" | kw:easing
-2026-06-16 10:01 ACCEPT [Google News CB] "Israel finance minister calls for steep interest rate cuts with inflat" | kw:inflation,interest rate,rate cut
-2026-06-16 10:01 ACCEPT [Google News CB] "Asian shares are mostly higher and Japan's Nikkei tops 70,000 before B" | kw:rate hike,boj
-2026-06-16 10:01 ACCEPT [Google News CB] "Nikkei 225 Strength Challenges the BOJ Tightening Narrative - StoneX" | kw:boj,tightening
 2026-06-16 10:01 ACCEPT [Google News CB] "Global shares are mostly higher and Japan's Nikkei tops 70,000 before " | kw:rate hike,boj
 2026-06-16 10:01 ACCEPT [Google News CB] "Kevin Warsh's Fed debut comes at a pivotal moment for global monetary " | kw:wti,monetary policy
 2026-06-16 10:01 SKIP_MORNING already_sent date=2026-06-16
@@ -20007,3 +19998,9 @@
 2026-07-22 21:31 ACCEPT [Google News KL] "Earnings call transcript: Southern Copper tops Q2 2026 estimates as sh" | kw:copper
 2026-07-22 21:31 ACCEPT [Google News CB] "Trump's Expiring Global Tariff Is Valid, US Tells Fed. Circ. - Law360" | kw:tariff
 2026-07-22 21:31 ACCEPT [Google News CB] "The Village Academy is the newest school in Jefferson County - ECB Pub" | kw:ecb
+2026-07-22 21:34 ACCEPT [Google News KL] "Gold, silver prices bounce as US-Iran war spreads - The Northern Miner" | kw:gold,silver,rice
+2026-07-22 21:34 ACCEPT [Google News KL] "Southern Copper Q2 Earnings Call Highlights - MarketBeat" | kw:copper
+2026-07-22 21:34 ACCEPT [Google News KL] "Novagold to Take Full Ownership of Donlin Gold in Buyout - Investing N" | kw:gold
+2026-07-22 21:34 ACCEPT [Google News NS] "Temporary Trump tariffs set to expire Friday - Brownfield Ag News" | kw:tariff
+2026-07-22 21:34 ACCEPT [Google News NS] "Myanmar corn trade hit as Thailand’s CP Group suspends purchases - NP " | kw:corn
+2026-07-22 21:34 ACCEPT [Google News CB] "A 10% Credit Card Interest Rate Cap Could Hurt the Communities It Seek" | kw:interest rate
