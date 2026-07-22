@@ -1,18 +1,3 @@
-2026-06-16 02:05 ACCEPT [Google News NS] "CM orders crackdown on wheat hoarding - The Express Tribune" | kw:wheat
-2026-06-16 02:05 ACCEPT [Google News NS] "Afex: Grain prices to remain elevated in coming months - CNBC Africa" | kw:rice
-2026-06-16 02:07 SENT_MORNING articles=20 date=2026-06-16 force=True
-2026-06-16 02:31 ACCEPT [Google News HH] "Gold price holds gain as Trump touts reopening of Hormuz this week - M" | kw:gold,rice
-2026-06-16 02:31 ACCEPT [Google News HH] "U.S. crude oil stocks hit historic low since 1983 - Qazinform" | kw:oil,crude
-2026-06-16 02:31 ACCEPT [Google News HH] "Semitruck rollover causes crude oil spill near state Route 191; spill " | kw:oil,crude
-2026-06-16 02:31 ACCEPT [Google News KL] "Silver Price Today | Silver Spot Price Charts - SD Bullion" | kw:silver,rice
-2026-06-16 02:31 ACCEPT [Google News KL] "Gold prices steady with focus on Iran accord, central bank meetings - " | kw:gold,rice
-2026-06-16 02:31 ACCEPT [Google News KL] "Gold Price Forecast & Predictions for 2026, 2027, 2028–2030, 2040 and " | kw:gold,rice
-2026-06-16 02:31 ACCEPT [Google News NS] "Soybean Planting Surge Signals Big Stakes for the 2026 Farm Economy - " | kw:soybean
-2026-06-16 02:31 ACCEPT [RT Business] "Russian SMEs growing on stronger supply chains to giants" | kw:supply chain
-2026-06-16 02:31 ACCEPT [RT Business] "Americans spending more because they are ‘optimistic’? Economists chal" | kw:inflation
-2026-06-16 02:31 ACCEPT [RT Business] "Gas at $4: Understanding America’s strange obsession" | kw:gas,fuel,rice
-2026-06-16 02:31 ACCEPT [RT Business] "Defying Western pressure: Russia and China deepen economic partnership" | kw:sanction
-2026-06-16 02:31 ACCEPT [RT Business] "US extends Russian oil waiver" | kw:oil,sanction,treasury
 2026-06-16 02:31 ACCEPT [RT Business] "Potato futures are soaring – should the world be worried?" | kw:fuel,rice
 2026-06-16 02:31 ACCEPT [RT Business] "Japanese auto giant takes historic hit amid EV pullback" | kw:tariff
 2026-06-16 02:31 ACCEPT [RT Business] "EU buys record volumes of Russian LNG – report" | kw:gas,lng
@@ -20013,3 +19998,19 @@
 2026-07-22 13:31 ACCEPT [Google News CB] "SpaceX ends its losing streak, oil prices jump, the Fed's AI red flags" | kw:oil,rice
 2026-07-22 13:31 SKIP_MORNING already_sent date=2026-07-22
 2026-07-22 13:31 SKIP_EVENING already_sent date=2026-07-22
+2026-07-22 14:01 ACCEPT [OilPrice.com] "The Hormuz Crisis Is Driving a Geopolitical Shift Across Asia" | kw:easing
+2026-07-22 14:01 ACCEPT [Google News HH] "U.S. Stocks May Move Back To The Downside Amid Surging Crude Oil Price" | kw:oil,crude,rice
+2026-07-22 14:01 ACCEPT [Google News HH] "$Crude Oil Futures (SEP6) (CLmain.US)$ $Brent Last Day Financial Futur" | kw:oil,crude,brent
+2026-07-22 14:01 ACCEPT [Google News HH] "FUJAIRAH DATA: Oil product stocks drop for first time in five weeks - " | kw:oil
+2026-07-22 14:01 ACCEPT [Google News HH] "Pakistan Scrambles for Oil Alternatives as Hormuz, Red Sea Risks Mount" | kw:oil,crude,rice
+2026-07-22 14:01 ACCEPT [Google News HH] "Trump Threatens To Destroy Bridges, Power Plants Every Time Iran Attac" | kw:oil,crude,rice
+2026-07-22 14:01 ACCEPT [Google News KL] "Gold firms to two-week peak on softer dollar; Fed outlook in focus - R" | kw:gold
+2026-07-22 14:01 ACCEPT [Google News KL] "Silver Price Analysis – Silver Stalls Near $60 Resistance as Death Cro" | kw:silver,rice
+2026-07-22 14:01 ACCEPT [Google News KL] "Gold rallies above $4,120 as buyers test resistance - Kitco AM Report " | kw:gold
+2026-07-22 14:01 ACCEPT [Google News KL] "[SMM Analysis] Copper Prices Remain Elevated as Global Copper Scrap Pa" | kw:copper,rice
+2026-07-22 14:01 ACCEPT [Google News NS] "Grain SA criticises JSE decision to scrap soybean pricing model - busi" | kw:soybean
+2026-07-22 14:01 ACCEPT [Google News CB] "India's central bank sold $6 billion in May to defend oil-hit rupee, d" | kw:oil,central bank
+2026-07-22 14:01 ACCEPT [Google News CB] "Ctrl Alt secures Mifid authorisation from the Irish central bank - SRP" | kw:wti,central bank
+2026-07-22 14:01 ACCEPT [Google News CB] "BOJ on alert to price risks that may lead to faster rate hikes, source" | kw:rice,rate hike,boj
+2026-07-22 14:01 SKIP_MORNING already_sent date=2026-07-22
+2026-07-22 14:01 SKIP_EVENING already_sent date=2026-07-22
