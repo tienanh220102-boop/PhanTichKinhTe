@@ -1122,24 +1122,92 @@ class VNDeepDive:
             return
         if not a:
             return
-        sec = Section("7. Định giá: đắt hay rẻ so với lịch sử và nội tại")
+        sec = Section("7. Định giá: đắt hay rẻ — so lịch sử, CHU KỲ và so ngành")
+        # --- 7a. So với lịch sử & nội tại (m23 percentile + m24 justified P/B) ---
         for nd in (a.get("nhận_định") or []):
             sec.lines.append(str(nd))
         for flag in (a.get("cờ_rủi_ro") or []):
             # cờ định giá đưa vào phần này nhưng KHÔNG nhân đôi vào tổng cờ forensic
             if str(flag) not in sec.lines:
                 sec.lines.append(f"⚠️ {flag}")
+
+        # --- 7b + 7c. Chuẩn hóa chu kỳ + so peer chuẩn hóa (chỉ phi ngân hàng) ---
+        # Khử ẢO GIÁC lãi đỉnh/đáy: bội số spot rẻ có thể vì lãi đang ở đỉnh (rẻ ảo). Đây là
+        # thước đo ĐÁNG TIN HƠN spot cho DN chu kỳ → dùng để chốt stance.
+        cyc_stance = None
+        if not dd.is_bank:
+            try:
+                nc = self.valuation.normalized_cycle(symbol)
+            except Exception:  # noqa: BLE001
+                nc = None
+            if nc and nc.get("đủ_dữ_liệu"):
+                dd.metrics["cycle"] = {k: nc.get(k) for k in
+                                       ("chu_kỳ", "pe_spot", "pe_chuẩn", "roe_chuẩn",
+                                        "biên_hiện_tại", "biên_mid", "justified_pb_chuẩn")}
+                st = nc["chu_kỳ"]; pes, pen = nc["pe_spot"], nc["pe_chuẩn"]
+                sec.lines.append(
+                    f"Chu kỳ: biên hiện tại {_pct(nc['biên_hiện_tại'])} vs mid-cycle "
+                    f"{_pct(nc['biên_mid'])} → đang ở {st}. P/E spot {pes} → "
+                    f"P/E CHUẨN HÓA {pen} (đưa biên về mid-cycle).")
+                if pes and pen:
+                    if st == "ĐỈNH" and pen > pes * 1.15:
+                        sec.lines.append(
+                            f"⚠️ P/E spot {pes} RẺ ẢO — lãi đang ở ĐỈNH biên; chuẩn hóa về mid-cycle "
+                            f"P/E thực ~{pen} (đắt hơn nhiều so với vẻ ngoài).")
+                    elif st == "ĐÁY" and pen < pes * 0.85:
+                        sec.lines.append(
+                            f"P/E spot {pes} bị lãi ĐÁY chu kỳ thổi cao; chuẩn hóa về mid-cycle "
+                            f"P/E ~{pen} — rẻ hơn vẻ ngoài NẾU biên hồi phục.")
+                for cf in nc.get("cờ", []):
+                    if f"⚠️ {cf}" not in sec.lines:
+                        sec.lines.append(f"⚠️ {cf}")
+            try:
+                pc = self.valuation.cycle_peer_compare(symbol)
+            except Exception:  # noqa: BLE001
+                pc = None
+            if pc and pc.get("nhận_định"):
+                sec.lines.append(f"— So ngành {pc.get('ngành','')} "
+                                 f"({pc.get('số_peer_dùng',0)} peer, đã chuẩn hóa chu kỳ):")
+                for nd in pc["nhận_định"]:
+                    sec.lines.append(f"  • {nd}")
+                joined = " ".join(pc["nhận_định"])
+                if "RẺ CƠ HỘI" in joined:
+                    cyc_stance = "rẻ CƠ HỘI — chiết khấu vượt mức chất lượng ngành (đã chuẩn hóa chu kỳ)"
+                elif "RẺ ĐÁNG ĐỜI" in joined:
+                    cyc_stance = "rẻ nhưng ĐÁNG ĐỜI — do ROE/biên mỏng (đã chuẩn hóa chu kỳ)"
+                elif "RẺ hơn ngành" in joined and "ĐẮT hơn ngành" not in joined:
+                    cyc_stance = "rẻ hơn ngành (đã chuẩn hóa chu kỳ)"
+                elif "ĐẮT hơn ngành" in joined and "RẺ hơn ngành" not in joined:
+                    cyc_stance = "đắt hơn ngành (đã chuẩn hóa chu kỳ)"
+
         if not sec.lines:
             sec.lines.append("Không đủ dữ liệu định giá.")
-        # stance đắt/rẻ để dựng luận điểm
-        txt = " ".join(sec.lines)
-        n_dat = txt.count("ĐẮT"); n_re = txt.count("RẺ")
-        if n_dat and not n_re:
-            dd.metrics["val_stance"] = "đắt"
-        elif n_re and not n_dat:
-            dd.metrics["val_stance"] = "rẻ"
-        elif n_dat or n_re:
-            dd.metrics["val_stance"] = "trái chiều"
+
+        # --- stance để dựng luận điểm: ƯU TIÊN đọc CHU KỲ+PEER (đáng tin hơn spot) ---
+        if cyc_stance:
+            dd.metrics["val_stance"] = ("rẻ" if cyc_stance.startswith("rẻ") else
+                                        "đắt" if cyc_stance.startswith("đắt") else "trái chiều")
+            dd.metrics["val_basis"] = "chu kỳ & so ngành"
+            dd.metrics["val_stance_detail"] = cyc_stance
+        else:
+            txt = " ".join(sec.lines)
+            n_dat = txt.count("ĐẮT"); n_re = txt.count("RẺ")
+            if n_dat and not n_re:
+                dd.metrics["val_stance"] = "đắt"
+            elif n_re and not n_dat:
+                dd.metrics["val_stance"] = "rẻ"
+            elif n_dat or n_re:
+                dd.metrics["val_stance"] = "trái chiều"
+            dd.metrics["val_basis"] = "lịch sử"
+
+        sec.explain = [
+            "Bội số 'rẻ' so với CHÍNH lịch sử mã dễ đánh lừa với DN CHU KỲ (xây dựng, thép, đầu tư "
+            "công): lúc lãi đỉnh P/E thấp giả, lúc lãi đáy P/E cao giả. Chuẩn hóa chu kỳ đưa biên "
+            "lợi nhuận về trung vị nhiều năm (mid-cycle) rồi đọc lại bội số — mới biết rẻ THẬT.",
+            "Rẻ CƠ HỘI = định giá thấp hơn mức chất lượng (ROE) của nó đáng được → có thể bị bỏ "
+            "quên. Rẻ ĐÁNG ĐỜI = thấp vì ROE/biên mỏng, thị trường định giá đúng. Cầu P/B–ROE "
+            "(justified P/B từ ROE chuẩn hóa) tách hai cái đó.",
+        ]
         dd.sections["valuation"] = sec
 
     # ------------------------------------------------------------------
@@ -1172,17 +1240,19 @@ class VNDeepDive:
         if dd.is_bank:
             return
         sec = Section("8. Tổng hợp & điều cần theo dõi")
-        # định giá đắt/rẻ (quét mục định giá)
+        # định giá đắt/rẻ — ưu tiên stance đã chốt (chu kỳ+peer nếu có), nêu rõ CƠ SỞ
         val_stance = ""
-        vsec = dd.sections.get("valuation")
-        if vsec:
-            txt = " ".join(vsec.lines)
-            if "ĐẮT" in txt and "RẺ" not in txt:
-                val_stance = "định giá đang ĐẮT so với lịch sử"
-            elif "RẺ" in txt and "ĐẮT" not in txt:
-                val_stance = "định giá đang RẺ so với lịch sử"
-            elif "RẺ" in txt or "ĐẮT" in txt:
-                val_stance = "định giá trái chiều giữa các thước đo"
+        detail = dd.metrics.get("val_stance_detail")
+        vs0 = dd.metrics.get("val_stance")
+        basis0 = dd.metrics.get("val_basis", "lịch sử")
+        if detail:
+            val_stance = "định giá " + detail
+        elif vs0 == "đắt":
+            val_stance = f"định giá đang ĐẮT so với {basis0}"
+        elif vs0 == "rẻ":
+            val_stance = f"định giá đang RẺ so với {basis0}"
+        elif vs0 == "trái chiều":
+            val_stance = "định giá trái chiều giữa các thước đo"
 
         # bức tranh tổng thể: gộp điểm tựa + rủi ro + định giá
         n = len(dd.red_flags)
@@ -1295,7 +1365,9 @@ class VNDeepDive:
         # 6. định giá
         vs = m.get("val_stance")
         if vs:
-            p.append(f"Định giá hiện {vs} so với lịch sử.")
+            basis = m.get("val_basis", "lịch sử")
+            detail = m.get("val_stance_detail")
+            p.append(f"Định giá hiện {detail}." if detail else f"Định giá hiện {vs} so với {basis}.")
         # 7. through-line — bức tranh ròng
         n = len(dd.red_flags)
         if n == 0:
@@ -1308,19 +1380,20 @@ class VNDeepDive:
         if vs == "đắt":
             net += ", trong khi thị trường đang trả giá cao"
         elif vs == "rẻ" and n == 0:
-            net += " và giá đang thấp so với lịch sử"
+            net += f" và giá đang thấp so với {m.get('val_basis', 'lịch sử')}"
         p.append(net + ".")
         dd.thesis = " ".join(p)
 
         # bản hai mặt — điểm hấp dẫn (bull) vs điều e ngại (bear)
+        _basis = m.get("val_basis", "lịch sử")
         bull = [self._strip_icon(x) for x in dd.positives]
         if vs == "rẻ":
-            bull.append("Định giá thấp so với lịch sử (dư địa nếu chất lượng giữ được)")
+            bull.append(f"Định giá thấp so với {_basis} (dư địa nếu chất lượng giữ được)")
         if m.get("rev_g") is not None and m["rev_g"] >= 0.15 and (c is None or c >= 0.5):
             bull.append(f"Doanh thu tăng trưởng mạnh ({_pct(m['rev_g'])})")
         bear = [self._strip_icon(x) for x in dd.red_flags]
         if vs == "đắt":
-            bear.append("Định giá cao so với lịch sử — kỳ vọng đã phản ánh vào giá")
+            bear.append(f"Định giá cao so với {_basis} — kỳ vọng đã phản ánh vào giá")
         # tín hiệu QUÝ gần nhất (số năm chưa phản ánh)
         rt = m.get("recent_turn")
         if rt == "up":
@@ -1385,8 +1458,8 @@ class VNDeepDive:
                 L.append(f"**Nhà đầu tư tăng trưởng:** không phù hợp — doanh thu giảm ({rg*100:.0f}%).")
         # giá trị
         if vs == "rẻ":
-            L.append("**Nhà đầu tư giá trị:** đáng chú ý — định giá thấp so với lịch sử (miễn "
-                     "tránh được bẫy giá trị).")
+            L.append(f"**Nhà đầu tư giá trị:** đáng chú ý — định giá thấp so với "
+                     f"{m.get('val_basis', 'lịch sử')} (miễn tránh được bẫy giá trị).")
         elif vs == "đắt":
             L.append("**Nhà đầu tư giá trị:** không hấp dẫn — định giá cao.")
         elif vs:

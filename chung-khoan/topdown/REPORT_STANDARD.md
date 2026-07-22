@@ -61,6 +61,16 @@ mục tự nạp) — không LLM, không bịa.
 - **Tập đoàn**: soi cổ đông thiểu số (lãi hợp nhất có thật thuộc cổ đông mã không), công ty con
   niêm yết thì drill riêng. Thiểu số ÂM = công ty con đang lỗ (đừng mừng khi "lãi mẹ > hợp nhất").
 - Ngân hàng → nhánh CAMELS, không áp forensic doanh nghiệp thường.
+- **Định giá phải CHUẨN HÓA CHU KỲ + SO PEER, không chỉ so chính lịch sử mã** (mục 7). Bội số
+  spot rẻ có thể là ẢO khi lãi đang ở đỉnh biên (P/E thấp giả) — luôn đưa biên về mid-cycle
+  (trung vị nhiều năm) rồi đọc lại: `P/E_chuẩn = P/E_spot × (biên_ht / biên_trung_vị)`. Phân biệt
+  **rẻ CƠ HỘI** (chiết khấu vượt mức chất lượng ROE → bị bỏ quên) vs **rẻ ĐÁNG ĐỜI** (P/B thấp
+  tương xứng ROE/biên mỏng) bằng cầu P/B–ROE (justified P/B từ ROE chuẩn hóa) so với median ngành.
+  Stance đắt/rẻ của memo LẤY TỪ đọc chu kỳ+peer (đáng tin hơn spot cho DN chu kỳ), ghi rõ CƠ SỞ
+  ("so với chu kỳ & so ngành", không nói trơ "so với lịch sử"). Verify: VCG P/E spot 2.6 (đỉnh
+  biên 25.7% vs mid 8.8%) → cờ RẺ ẢO, chuẩn hóa 7.6; LCG đáy biên → rẻ hơn ngành −30% nhưng P/B
+  khớp chất lượng. GIỚI HẠN ghi rõ: median giả định cấu trúc KD không đổi; biên có thể bị khoản
+  phi cốt lõi thổi (đọc kèm cờ "lãi ngoài cốt lõi").
 - **ĐIỀU TRA khi dữ liệu cho phép — KHÔNG để "nghi" chung chung.** Cờ nào chạm nghi ngờ mà data
   còn bóc sâu được thì phải bóc: vd "phải thu phình" → tách phải thu KHÁCH HÀNG (bán chịu) vs
   trả trước người bán vs phải thu khác + tính DSO (số ngày thu tiền) → kết luận CÓ BẰNG CHỨNG
@@ -88,8 +98,8 @@ thu"→bóc tách+DSO; **số năm bỏ sót turnaround→đọc thêm số QUÝ
 
 **Giới hạn cấu trúc (KHÔNG vá code được — phải cross-check ngoài):** mù với quý mới nhất/giá
 hàng hóa/chính sách/backlog/tin M&A; rating-target Vietcap cũng snapshot; Beneish/Altman
-calibrate Mỹ; định giá percentile so chính lịch sử mã → value-trap ở đáy chu kỳ; không thấy
-quản trị/bên liên quan thật (trong thuyết minh).
+calibrate Mỹ; ~~định giá percentile so chính lịch sử mã → value-trap ở đáy chu kỳ~~ ✅ đã vá
+(chuẩn hóa chu kỳ + so peer, mục 4); không thấy quản trị/bên liên quan thật (trong thuyết minh).
 
 **Quy trình chuẩn:** (1) chạy hệ lọc → (2) cross-check nguồn ngoài cho catalyst/thời điểm →
 (3) lỗi hệ lộ ra thì vá vào CODE không vào trí nhớ. Xem [[feedback_effort_triage]].
