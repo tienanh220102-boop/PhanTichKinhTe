@@ -1,19 +1,3 @@
-2026-06-16 04:31 ACCEPT [Google News NS] "Wheat Closes with Mixed Trade on Monday - Barchart.com" | kw:lng,wheat
-2026-06-16 04:31 ACCEPT [RT Business] "Why the ECB may be forced to raise rates despite weak EU economy" | kw:central bank,interest rate,ecb
-2026-06-16 04:31 ACCEPT [RT Business] "EU ‘not competitive’ – Belgian central bank chief" | kw:central bank
-2026-06-16 04:31 ACCEPT [Fed Monetary] "Federal Reserve issues FOMC statement" | kw:federal reserve,fomc
-2026-06-16 04:31 ACCEPT [Fed Monetary] "Federal Reserve issues FOMC statement" | kw:federal reserve,fomc
-2026-06-16 04:31 ACCEPT [Fed Monetary] "Federal Reserve Board and Federal Open Market Committee release econom" | kw:federal reserve,fomc
-2026-06-16 04:31 ACCEPT [Fed Monetary] "Federal Reserve issues FOMC statement" | kw:federal reserve,fomc
-2026-06-16 04:31 ACCEPT [Fed Monetary] "Federal Open Market Committee reaffirms its "Statement on Longer-Run G" | kw:monetary policy
-2026-06-16 04:31 ACCEPT [Fed Monetary] "Federal Reserve issues FOMC statement" | kw:federal reserve,fomc
-2026-06-16 04:31 ACCEPT [Fed Monetary] "Federal Reserve Board and Federal Open Market Committee release econom" | kw:federal reserve,fomc
-2026-06-16 04:31 ACCEPT [ECB Press] "Carbon emissions of ECB and Eurosystem portfolios continue to decline" | kw:ecb
-2026-06-16 04:31 ACCEPT [ECB Press] "Decisions taken by the Governing Council of the ECB (in addition to de" | kw:interest rate,ecb
-2026-06-16 04:31 ACCEPT [ECB Press] "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)" | kw:monetary policy
-2026-06-16 04:31 ACCEPT [ECB Press] "Monetary policy decisions" | kw:monetary policy
-2026-06-16 04:31 ACCEPT [ECB Press] "ECB announces main milestones for roll-out of Integrated Reporting Fra" | kw:ecb
-2026-06-16 04:31 ACCEPT [ECB Press] "ECB Consumer Expectations Survey results – April 2026" | kw:ecb
 2026-06-16 04:31 ACCEPT [ECB Press] "Isabel Schnabel: From money market funds to stablecoins: lessons for c" | kw:central bank
 2026-06-16 04:31 ACCEPT [Google News CB] "Japan raises interest rate to highest since 1995 - BBC" | kw:interest rate
 2026-06-16 04:31 ACCEPT [Google News CB] "BOJ raises interest rates to 31-year high in widely expected move - Re" | kw:interest rate,boj
@@ -20014,3 +19998,90 @@
 2026-07-22 15:31 ACCEPT [Google News CB] "Japanese Yen struggles near four-decade lows despite hawkish BoJ signa" | kw:boj
 2026-07-22 15:31 SKIP_MORNING already_sent date=2026-07-22
 2026-07-22 15:31 SKIP_EVENING already_sent date=2026-07-22
+2026-07-22 16:01 ACCEPT [MarketWatch] "Fed’s favorite inflation tracker is getting an overhaul — just as the " | kw:inflation,central bank,interest rate
+2026-07-22 16:01 ACCEPT [BBC Business] "Three reasons why UK electricity prices are so high" | kw:rice
+2026-07-22 16:01 ACCEPT [BBC Business] "Carney looking at 'all options' as Trump announces 50% tariffs on Cana" | kw:tariff
+2026-07-22 16:01 ACCEPT [BBC Business] "What's happening to UK interest rates and what does it mean for mortga" | kw:interest rate,bank of england
+2026-07-22 16:01 ACCEPT [Al Jazeera] "Iran war’s $37bn price tag: Why does the Pentagon want $67bn more?" | kw:rice
+2026-07-22 16:01 ACCEPT [CNBC Commodities] "Goldman Sachs creates private markets platform as rich investors seek " | kw:gold
+2026-07-22 16:01 ACCEPT [CNBC Commodities] "New York Fed President Williams says inflation has peaked, rates 'well" | kw:rice,inflation
+2026-07-22 16:01 ACCEPT [CNBC Commodities] "The AI boom just found two new winners: Goldman Sachs and JPMorgan Cha" | kw:gold
+2026-07-22 16:01 ACCEPT [CNBC Commodities] "Watch: Fed Chairman Kevin Warsh testifies to House Financial Services " | kw:inflation
+2026-07-22 16:01 ACCEPT [CNBC Commodities] "A July rate hike from the Fed? The odds are rising" | kw:oil,rice,rate hike
+2026-07-22 16:01 ACCEPT [CNBC Economy] "Kevin Warsh has homed in on three key phrases. How Fed watchers interp" | kw:inflation
+2026-07-22 16:01 ACCEPT [CNBC Economy] "Trump plans generic drug tariffs from 2028 with two-year delay testing" | kw:tariff
+2026-07-22 16:01 ACCEPT [CNBC Economy] "China consumer price growth weakens in June while producer inflation r" | kw:rice,inflation,easing
+2026-07-22 16:01 ACCEPT [CNBC Economy] "Shipping rebounds in Strait of Hormuz one week after U.S.-Iran deal – " | kw:shipping
+2026-07-22 16:01 ACCEPT [OilPrice.com] "LNG Supply Crisis Pushes Buyers Toward Coal and Oil" | kw:oil,gas,lng
+2026-07-22 16:01 ACCEPT [OilPrice.com] "Iran War Escalation Threatens Global Fuel Supply Recovery" | kw:crude,fuel,flood
+2026-07-22 16:01 ACCEPT [OilPrice.com] "Japan’s Power Prices Soar to 3.5-Year High" | kw:fuel,rice
+2026-07-22 16:01 ACCEPT [OilPrice.com] "U.S.-Iran Conflict Threatens Long-Term Energy Shock Across Asia" | kw:oil
+2026-07-22 16:01 ACCEPT [OilPrice.com] "Oil Prices Climb as U.S.-Iran Conflict Shows No Signs of Slowing" | kw:oil,crude,brent
+2026-07-22 16:01 ACCEPT [OilPrice.com] "Fossil Fuels Still Generate 57% of the World's Electricity" | kw:oil,gas,fuel
+2026-07-22 16:01 ACCEPT [EIA Energy] "Global liquefied natural gas trade volumes reached record high in 2025" | kw:gas,lng
+2026-07-22 16:01 ACCEPT [EIA Energy] "U.S. exports of crude oil and petroleum products reached record in Apr" | kw:oil,crude,petroleum
+2026-07-22 16:01 ACCEPT [EIA Energy] "Permian natural gas production increased faster than crude oil" | kw:oil,crude,gas
+2026-07-22 16:01 ACCEPT [EIA Energy] "Solar generation in CAISO surpassed natural gas in the first five mont" | kw:gas
+2026-07-22 16:01 ACCEPT [EIA Energy] "U.S. jet fuel production rises after prices doubled in March" | kw:oil,crude,fuel
+2026-07-22 16:01 ACCEPT [NASDAQ Commod] "U.S. Crude Oil Inventories Unexpectedly Increase" | kw:oil,crude
+2026-07-22 16:01 ACCEPT [NASDAQ Commod] "Oil Prices Extend Rally As Mideast Tensions Escalate" | kw:oil,rice
+2026-07-22 16:01 ACCEPT [NASDAQ Commod] "Crude Oil Surges Amid Supply Concerns After U.S. Continues Attacks On " | kw:oil,crude,rice
+2026-07-22 16:01 ACCEPT [NASDAQ Commod] "See How Centerra Gold Ranks Among Analysts' Top Metals Picks" | kw:gold
+2026-07-22 16:01 ACCEPT [NASDAQ Commod] "Oil Prices Ease On US-Iran Truce Hopes" | kw:oil,rice
+2026-07-22 16:01 ACCEPT [Google News HH] "Gold prices today, Wednesday, July 22: Renewed safe-haven demand pushe" | kw:gold,rice
+2026-07-22 16:01 ACCEPT [Google News HH] "The Winners And Losers During Oil's Worst Traffic Jam In Years - Inves" | kw:oil
+2026-07-22 16:01 ACCEPT [Google News HH] "U.S. Stocks May Move Back To The Downside Amid Surging Crude Oil Price" | kw:oil,crude,rice
+2026-07-22 16:01 ACCEPT [Google News HH] "WTI Crude Oil futures rose on Middle East choke point risks. - CME Gro" | kw:oil,crude,wti
+2026-07-22 16:01 ACCEPT [Google News HH] "Gold Hit a Two-Week High This Morning. Three Forces Arrived at Once. -" | kw:gold,silver
+2026-07-22 16:01 ACCEPT [Google News HH] "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next " | kw:oil,crude,rice
+2026-07-22 16:01 ACCEPT [Google News HH] "US Crude Oil Stocks Unexpectedly Rise: EIA - TradingView" | kw:oil,crude
+2026-07-22 16:01 ACCEPT [Google News HH] "Crude oil extends gains as hopes fade for peace talks, Rubio says Iran" | kw:oil,crude
+2026-07-22 16:01 ACCEPT [Google News HH] "China produces record amount of crude oil - chinadailyasia.com" | kw:oil,crude
+2026-07-22 16:01 ACCEPT [Google News HH] "Gold Price Today: Gold Rises 2.84% on July 22, 2026 - USA Today" | kw:gold,rice
+2026-07-22 16:01 ACCEPT [Google News HH] "Crude Oil Rallies as Global Supply Risks Intensify - Barchart.com" | kw:oil,crude
+2026-07-22 16:01 ACCEPT [Google News HH] "WTI Crude Oil 22/07: Geopolitics, Momentum and Risk - DailyForex" | kw:oil,crude,wti
+2026-07-22 16:01 ACCEPT [Google News HH] "LatAm assets rise on commodities strength; Brazil in focus - TradingVi" | kw:commodities
+2026-07-22 16:01 ACCEPT [Google News HH] "Crude Oil Rises for 4th Session - TradingView" | kw:oil,crude
+2026-07-22 16:01 ACCEPT [Google News HH] "FUJAIRAH DATA: Oil product stocks drop for first time in five weeks - " | kw:oil
+2026-07-22 16:01 ACCEPT [Google News HH] "Brent Crude oil hovers near $95 as Rubio vows U.S. will ‘continue to p" | kw:oil,crude,brent
+2026-07-22 16:01 ACCEPT [Google News KL] "Gold Snaps Iran War Downtrend as Oil and Real Rates Jump - BullionVaul" | kw:oil,gold
+2026-07-22 16:01 ACCEPT [Google News KL] "Gold’s long-term investment case is strong, and miners offer greatest " | kw:gold
+2026-07-22 16:01 ACCEPT [Google News KL] "TRX Gold Corporation: Record Quarter Reinforces $2.40 Target as Buckre" | kw:gold
+2026-07-22 16:01 ACCEPT [Google News KL] "Silver prices today, Wednesday, July 22, 2026: Silver rises as investo" | kw:silver,rice,inflation
+2026-07-22 16:01 ACCEPT [Google News KL] "Gold waits for no one - KITCO" | kw:gold
+2026-07-22 16:01 ACCEPT [Google News KL] "Silver price edges higher as geopolitical tensions offset inflation co" | kw:silver,rice,inflation
+2026-07-22 16:01 ACCEPT [Google News KL] "Copper price nearing US record as premium doubles, Shanghai stockpiles" | kw:copper,rice
+2026-07-22 16:01 ACCEPT [Google News KL] "Gold Price: The Bottom is Confirmed, But Where is the Ceiling? - Bitge" | kw:gold,rice
+2026-07-22 16:01 ACCEPT [Google News KL] "Gold (XAUUSD) Price Forecast: Can Gold Hold Its Rally Before the Fed? " | kw:gold,rice
+2026-07-22 16:01 ACCEPT [Google News KL] "Rudi Fronk: Gold Price to Retake Highs, Bull Run Still Early - Investi" | kw:gold,rice
+2026-07-22 16:01 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Fed and ECB Meetings Can Gold R" | kw:gold,silver,rice
+2026-07-22 16:01 ACCEPT [Google News NS] "Will Black Sea tensions keep driving wheat and corn prices higher? - A" | kw:wheat,corn,rice
+2026-07-22 16:01 ACCEPT [Google News NS] "Price increases across most food and beverage categories are tightenin" | kw:rice,tightening
+2026-07-22 16:01 ACCEPT [Google News NS] "Corn Rallies as Trade Tensions and Weather Risks Shake U.S. Grain Mark" | kw:corn
+2026-07-22 16:01 ACCEPT [Google News NS] "Indiana Ethanol Expansion Adds Major Local Corn Demand - RFD-TV" | kw:corn
+2026-07-22 16:01 ACCEPT [Google News NS] "Daily Grain Prices in Western Canada - Canadian Cattlemen" | kw:rice
+2026-07-22 16:01 ACCEPT [Google News NS] "The blockade of the Sea of Azov has driven up wheat prices in Romania." | kw:wheat,rice
+2026-07-22 16:01 ACCEPT [Google News NS] "9 places to find fresh corn on the cob across Vancouver Island this su" | kw:corn
+2026-07-22 16:01 ACCEPT [Google News NS] "United Soybean Board selects Courtney Knupp as incoming CEO - Feedstuf" | kw:soybean
+2026-07-22 16:01 ACCEPT [Google News NS] "Spring Wheat Tour Gets Underway in North Dakota - RFD-TV" | kw:wheat
+2026-07-22 16:01 ACCEPT [Google News NS] "Black Sea shipping disruptions reshape Ukraine’s wheat and corn trade " | kw:wheat,corn,shipping
+2026-07-22 16:01 ACCEPT [RT Business] "Western banks sue German firm over Russia pullout – FT" | kw:gas,sanction
+2026-07-22 16:01 ACCEPT [RT Business] "US LNG exporter cashes in on Iran war" | kw:lng,rice
+2026-07-22 16:01 ACCEPT [RT Business] "EU facing winter gas shock – FT" | kw:gas,lng
+2026-07-22 16:01 ACCEPT [RT Business] "US issues energy threat to EU" | kw:gas,lng
+2026-07-22 16:01 ACCEPT [RT Business] "Bank of Japan lifts rates to highest level since 1995" | kw:fuel,inflation,interest rate
+2026-07-22 16:01 ACCEPT [Fed Monetary] "Federal Reserve issues FOMC statement" | kw:federal reserve,fomc
+2026-07-22 16:01 ACCEPT [Fed Monetary] "Federal Reserve Board and Federal Open Market Committee release econom" | kw:federal reserve,fomc
+2026-07-22 16:01 ACCEPT [ECB Press] "ECB appoints Boris Kisselevsky as Director General Secretariat" | kw:ecb
+2026-07-22 16:01 ACCEPT [ECB Press] "ECB publishes indicative operational calendars for 2027" | kw:ecb
+2026-07-22 16:01 ACCEPT [Google News CB] "U.S. 10-year Treasury yield edges higher as traders reassess Fed rate " | kw:fed rate,treasury,rate hike
+2026-07-22 16:01 ACCEPT [Google News CB] "July ECB Cheat Sheet: No lull in sight - ING Think" | kw:ecb
+2026-07-22 16:01 ACCEPT [Google News CB] "Fed’s favorite inflation tracker is getting an overhaul — just as the " | kw:inflation,central bank,rate hike
+2026-07-22 16:01 ACCEPT [Google News CB] "Bank of America Says the Fed Should Raise Rates Now: 4 Dividend Inflat" | kw:inflation
+2026-07-22 16:01 ACCEPT [Google News CB] "'Inflation Is a Choice': Cracking Fed Chair Kevin Warsh's Code Before " | kw:inflation
+2026-07-22 16:01 ACCEPT [Google News CB] "Turkey Rates to Stay Put as Middle East War Impedes Disinflation - Blo" | kw:inflation
+2026-07-22 16:01 ACCEPT [Google News CB] "Euro Technical Outlook: EUR/USD Poised for Breakout Ahead of ECB - FOR" | kw:ecb
+2026-07-22 16:01 ACCEPT [Google News CB] "Ghana central bank holds main interest rate at 14% - TradingView" | kw:central bank,interest rate
+2026-07-22 16:01 ACCEPT [Google News CB] "No July hike? Why the Fed has time on its side despite oil surge (USO:" | kw:oil
+2026-07-22 16:01 SKIP_MORNING already_sent date=2026-07-22
+2026-07-22 16:01 SKIP_EVENING already_sent date=2026-07-22
