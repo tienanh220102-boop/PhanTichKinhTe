@@ -1,12 +1,3 @@
-2026-06-16 02:05 ACCEPT [Google News HH] "Phillips 66 falls as crude oil drops sharply on U.S.-Iran deal optimis" | kw:oil,crude
-2026-06-16 02:05 ACCEPT [Google News HH] "Commodities intraday targets/key levels - TradingView" | kw:commodities
-2026-06-16 02:05 ACCEPT [Google News HH] "Petrobras ADRs slide as crude oil drops on Middle East de-escalation h" | kw:oil,crude
-2026-06-16 02:05 ACCEPT [Google News HH] "Crude Oil Futures Drop Nearly 5% Amid U.S.-Iran Deal - GuruFocus" | kw:oil,crude
-2026-06-16 02:05 ACCEPT [Google News HH] "Gold price jumps after US and Iran reach deal to reopen Hormuz Strait " | kw:gold,rice
-2026-06-16 02:05 ACCEPT [Google News HH] "Sugar Prices Undercut as Crude Oil Sinks - Yahoo Finance" | kw:oil,crude,rice
-2026-06-16 02:05 ACCEPT [Google News HH] "Here’s when energy experts say gas prices could return to normal after" | kw:gas,rice
-2026-06-16 02:05 ACCEPT [Google News HH] "Crude oil futures drop after Trump promises an Iran deal will be signe" | kw:oil,crude
-2026-06-16 02:05 ACCEPT [Google News HH] "UBS sees gold price falling further, but remains long-term bullish - M" | kw:gold,rice
 2026-06-16 02:05 ACCEPT [Google News HH] "Crude oil sets the topside risk with the run lower today - investingLi" | kw:oil,crude
 2026-06-16 02:05 ACCEPT [Google News HH] "Georgia gas prices continue to fall as crude oil stays below $100 - Co" | kw:oil,crude,gas
 2026-06-16 02:05 ACCEPT [Google News HH] "US Equity Indexes Soar, Crude Oil Sinks as Iran Agreement Poised to Re" | kw:oil,crude
@@ -20007,3 +19998,14 @@
 2026-07-22 10:31 ACCEPT [Google News CB] "BOJ on alert to price risks that may lead to faster rate hikes, source" | kw:rice,rate hike,boj
 2026-07-22 10:31 ACCEPT [Google News CB] "Morning Brief: Donald Trump Prepares Fresh Tariffs; BOJ Seen Open to F" | kw:tariff,inflation,rate hike
 2026-07-22 10:31 SKIP_MORNING already_sent date=2026-07-22
+2026-07-22 11:01 ACCEPT [BBC Business] "Some food prices have fallen – but inflation expected to rise from her" | kw:rice,inflation
+2026-07-22 11:01 ACCEPT [NASDAQ Commod] "Gold Holds Near Two-week High" | kw:gold,rice,federal reserve
+2026-07-22 11:01 ACCEPT [Google News HH] "DEP: Crude Oil Gathering Pipeline Failure In Conventional Oil Well Fie" | kw:oil,crude,iron
+2026-07-22 11:01 ACCEPT [Google News HH] "$Crude Oil Futures (SEP6) (CLmain.US)$ Trump did a great job by collec" | kw:oil,crude
+2026-07-22 11:01 ACCEPT [Google News KL] "Gold climbs to two-week high as investors watch Middle East conflict -" | kw:gold
+2026-07-22 11:01 ACCEPT [Google News KL] "Silver: 50 Years of Boom and Bust - Investing.com" | kw:silver
+2026-07-22 11:01 ACCEPT [Google News KL] "Copper Vs. Nasdaq 100: Is a 15-Year Market Regime Ending? - Investing." | kw:copper
+2026-07-22 11:01 ACCEPT [Google News KL] "GoldMining’s São Jorge study models 51,250 ounces yearly - Stock Titan" | kw:gold
+2026-07-22 11:01 ACCEPT [Google News CB] "BOJ on alert to price risks that may lead to faster rate hikes, source" | kw:rice,rate hike,boj
+2026-07-22 11:01 ACCEPT [Google News CB] "Oil pressures a reluctant ECB to raise interest rates again this Thurs" | kw:oil,interest rate,ecb
+2026-07-22 11:01 SKIP_MORNING already_sent date=2026-07-22
