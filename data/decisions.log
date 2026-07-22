@@ -1,14 +1,3 @@
-2026-06-16 02:05 ACCEPT [Google News HH] "Crude oil sets the topside risk with the run lower today - investingLi" | kw:oil,crude
-2026-06-16 02:05 ACCEPT [Google News HH] "Georgia gas prices continue to fall as crude oil stays below $100 - Co" | kw:oil,crude,gas
-2026-06-16 02:05 ACCEPT [Google News HH] "US Equity Indexes Soar, Crude Oil Sinks as Iran Agreement Poised to Re" | kw:oil,crude
-2026-06-16 02:05 ACCEPT [Google News HH] "UBS sees gold price falling, but still long-term bullish - The Norther" | kw:gold,rice
-2026-06-16 02:05 ACCEPT [Google News HH] "Crude oil futures drop after Trump promises an Iran deal will be signe" | kw:oil,crude
-2026-06-16 02:05 ACCEPT [Google News HH] "Crude oil prices drop to three-month low after Trump announces Iran de" | kw:oil,crude,rice
-2026-06-16 02:05 ACCEPT [Google News HH] "US wholesale: Week 25 ‘market pulse’ updates available on key seafood " | kw:commodities
-2026-06-16 02:05 ACCEPT [Google News HH] "Crude Oil Continues to Decline, Metals Show Mixed Performance, LME Alu" | kw:oil,crude,gold
-2026-06-16 02:05 ACCEPT [Google News HH] "Oil News: Crude Oil Analysis: Hormuz Deal Sends Futures Into Key Value" | kw:oil,crude
-2026-06-16 02:05 ACCEPT [Google News HH] "Citi Shifts Oil Forecasts Down, Upgrades 0–3-Month Gold Price Forecast" | kw:oil,gold,rice
-2026-06-16 02:05 ACCEPT [Google News HH] "Elon Musk Grok AI Predicts Staggering Gold Price by End of 2026 - Cryp" | kw:gold,rice
 2026-06-16 02:05 ACCEPT [Google News HH] "Watch This is what brings about a lower price for crude oil - FNC - FO" | kw:oil,crude,rice
 2026-06-16 02:05 ACCEPT [Google News KL] "Current price of silver as of Monday, June 15, 2026 - Fortune" | kw:silver,rice
 2026-06-16 02:05 ACCEPT [Google News KL] "Silver Price Outlook June 2026: The Correction Was the Setup - GoldSil" | kw:lng,gold,silver
@@ -20009,3 +19998,25 @@
 2026-07-22 11:01 ACCEPT [Google News CB] "BOJ on alert to price risks that may lead to faster rate hikes, source" | kw:rice,rate hike,boj
 2026-07-22 11:01 ACCEPT [Google News CB] "Oil pressures a reluctant ECB to raise interest rates again this Thurs" | kw:oil,interest rate,ecb
 2026-07-22 11:01 SKIP_MORNING already_sent date=2026-07-22
+2026-07-22 11:31 ACCEPT [MarketWatch] "Bond-market weakness makes a strong investment case for this unloved s" | kw:treasury
+2026-07-22 11:31 ACCEPT [MarketWatch] "Oil prices climb to six-week high as hopes of de-escalation in Iran di" | kw:oil,crude,brent
+2026-07-22 11:31 ACCEPT [MarketWatch] "The Treasury market is on the verge of a worrying milestone not seen s" | kw:treasury
+2026-07-22 11:31 ACCEPT [MarketWatch] "Artificial intelligence will drive an unprecedented natural-gas defici" | kw:gas,shortage
+2026-07-22 11:31 ACCEPT [BBC Business] "What's happening to UK interest rates and what does it mean for mortga" | kw:interest rate,bank of england
+2026-07-22 11:31 ACCEPT [Al Jazeera] "Baulking at shipping sanctions, Greece balances Ukraine aid, fear of R" | kw:lng,sanction,shipping
+2026-07-22 11:31 ACCEPT [OilPrice.com] "Oil Jumps Nearly 4% as Houthis Threaten Red Sea Blockade" | kw:oil,crude,brent
+2026-07-22 11:31 ACCEPT [Google News HH] "WTI Crude Oil 22/07: Geopolitics, Momentum and Risk - DailyForex" | kw:oil,crude,wti
+2026-07-22 11:31 ACCEPT [Google News HH] "Palworld 1.0: Find Crude Oil, best farming methods - Video Games Chron" | kw:oil,crude
+2026-07-22 11:31 ACCEPT [Google News HH] "Sensex Slides 720 Points, Nifty Slips Below 24,000 as Oil Surge, US Ta" | kw:oil,tariff
+2026-07-22 11:31 ACCEPT [Google News HH] "Gold Price Forecast: Strong recovery might face roadblock as oil price" | kw:oil,gold,rice
+2026-07-22 11:31 ACCEPT [Google News HH] "Crude Oil Tops $95 On Escalating Tensions In The Middle East - MarketF" | kw:oil,crude
+2026-07-22 11:31 ACCEPT [Google News HH] "Why Has Trump Suddenly Targeted Iran’s ‘Gao Shan’? Crude Oil Markets A" | kw:oil,crude
+2026-07-22 11:31 ACCEPT [Google News KL] "Silver price edges higher as safe-haven demand offsets inflation fears" | kw:silver,rice,inflation
+2026-07-22 11:31 ACCEPT [Google News KL] "Thai gold prices surge 1,100 baht after 27 revisions in volatile tradi" | kw:gold,rice
+2026-07-22 11:31 ACCEPT [Google News CB] "BOJ Is Said Open to Faster Rate Hike Pace as Yen Adds Risks - Bloomber" | kw:rate hike,boj
+2026-07-22 11:31 ACCEPT [Google News CB] "Turkey Rates to Stay Put as Middle East War Impedes Disinflation - Blo" | kw:inflation
+2026-07-22 11:31 ACCEPT [Google News CB] "BOJ on alert to price risks that may lead to faster rate hikes, source" | kw:rice,rate hike,boj
+2026-07-22 11:31 ACCEPT [Google News CB] "US Dollar Price Forecast: Fed and ECB Rate Decisions – Are GBP/USD and" | kw:rice,rate decision,ecb
+2026-07-22 11:31 ACCEPT [Google News CB] "Japan’s imports hit record high as oil prices surge, complicating BOJ " | kw:oil,rice,boj
+2026-07-22 11:31 ACCEPT [Google News CB] "ECB remains cautious in rate decision amid Middle East risks - Anadolu" | kw:rate decision,ecb
+2026-07-22 11:31 SKIP_MORNING already_sent date=2026-07-22
