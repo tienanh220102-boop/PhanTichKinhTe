@@ -1,7 +1,3 @@
-2026-06-15 15:31 SKIP_EVENING already_sent date=2026-06-15
-2026-06-15 16:01 ACCEPT [OilPrice.com] "Russia Eases Environmental Rules for Domestic Fuel amid Shortages" | kw:gas,fuel,iron
-2026-06-15 16:01 SKIP_MORNING already_sent date=2026-06-15
-2026-06-15 16:01 SKIP_EVENING already_sent date=2026-06-15
 2026-06-15 16:31 ACCEPT [MarketWatch] "Here are 20 growth stocks you can buy at ‘value’ prices" | kw:rice
 2026-06-15 16:31 SKIP_MORNING already_sent date=2026-06-15
 2026-06-15 16:31 SKIP_EVENING already_sent date=2026-06-15
@@ -20002,3 +19998,15 @@
 2026-07-22 06:01 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Fed and ECB Meetings Can Gold R" | kw:gold,silver,rice
 2026-07-22 06:01 ACCEPT [Google News CB] "Gold futures rose on safe-haven demand despite Fed hike fears. - CME G" | kw:gold
 2026-07-22 06:01 SKIP_MORNING already_sent date=2026-07-22
+2026-07-22 06:30 ACCEPT [BBC Business] "Lower fuel prices help drive inflation down to 2.6%" | kw:fuel,rice,inflation
+2026-07-22 06:30 ACCEPT [BBC Business] "Inflation falls slightly to 2.6%" | kw:inflation
+2026-07-22 06:30 ACCEPT [CNBC Economy] "Trump plans generic drug tariffs from 2028 with two-year delay testing" | kw:tariff
+2026-07-22 06:30 ACCEPT [OilPrice.com] "U.S.-Iran Conflict Threatens Long-Term Energy Shock Across Asia" | kw:oil
+2026-07-22 06:31 ACCEPT [Google News HH] "Commodities: Oil Moves Higher As Supply Risks Build - Seeking Alpha" | kw:oil,commodities
+2026-07-22 06:31 ACCEPT [Google News KL] "Silver price jumps for fourth day as $60 breakout comes into focus - I" | kw:silver,rice
+2026-07-22 06:31 ACCEPT [Google News KL] "Copper price achieves some gains– Forecast today – 22-7-2026 - Economi" | kw:copper,rice
+2026-07-22 06:31 ACCEPT [Google News CB] "Gold hits two-week high as Fed outlook, Mideast conflict stay in focus" | kw:gold
+2026-07-22 06:31 ACCEPT [Google News CB] "Germany European Central Bank - dailyrecordnews.com" | kw:central bank
+2026-07-22 06:31 ACCEPT [Google News CB] "Germany European Central Bank - Idaho State Journal" | kw:central bank
+2026-07-22 06:31 ACCEPT [Google News CB] "Germany European Central Bank - The Herald Journal" | kw:central bank
+2026-07-22 06:31 SKIP_MORNING already_sent date=2026-07-22
