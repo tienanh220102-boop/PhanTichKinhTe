@@ -1,8 +1,3 @@
-2026-06-15 15:01 SKIP_MORNING already_sent date=2026-06-15
-2026-06-15 15:01 SKIP_EVENING already_sent date=2026-06-15
-2026-06-15 15:31 ACCEPT [MarketWatch] "Rocket Lab’s stock rebounds, as one analyst says the SpaceX-fueled sel" | kw:fuel
-2026-06-15 15:31 ACCEPT [OilPrice.com] "The $42 Trillion Oil Opportunity Hiding in Plain Sight" | kw:oil,crude,rice
-2026-06-15 15:31 SKIP_MORNING already_sent date=2026-06-15
 2026-06-15 15:31 SKIP_EVENING already_sent date=2026-06-15
 2026-06-15 16:01 ACCEPT [OilPrice.com] "Russia Eases Environmental Rules for Domestic Fuel amid Shortages" | kw:gas,fuel,iron
 2026-06-15 16:01 SKIP_MORNING already_sent date=2026-06-15
@@ -20003,3 +19998,7 @@
 2026-07-22 05:31 ACCEPT [Google News HH] "Sensex Tanks 589 pts, Nifty Crashes Below 24,050 On Rising Crude Oil P" | kw:oil,crude,rice
 2026-07-22 05:31 ACCEPT [Google News CB] "We expect no rate hike this month by the Fed, but with hawish message " | kw:inflation,rate hike
 2026-07-22 05:31 SKIP_MORNING already_sent date=2026-07-22
+2026-07-22 06:01 ACCEPT [Google News HH] "China produces record amount of crude oil - China Daily" | kw:oil,crude
+2026-07-22 06:01 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Fed and ECB Meetings Can Gold R" | kw:gold,silver,rice
+2026-07-22 06:01 ACCEPT [Google News CB] "Gold futures rose on safe-haven demand despite Fed hike fears. - CME G" | kw:gold
+2026-07-22 06:01 SKIP_MORNING already_sent date=2026-07-22
