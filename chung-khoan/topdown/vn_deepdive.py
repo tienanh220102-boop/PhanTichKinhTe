@@ -481,7 +481,12 @@ class VNDeepDive:
         roic_early = sum(early) / len(early)
         roic_late = sum(late) / len(late)
         roic_now = roic[win[-1]]
-        r = getattr(self.valuation, "r", 0.13) if self.valuation else 0.13
+        r = 0.13
+        if self.valuation is not None:
+            try:
+                r = self.valuation._rg_for(symbol)[0]  # r theo ngành (nếu có)
+            except Exception:  # noqa: BLE001
+                r = getattr(self.valuation, "r", 0.13)
 
         def cum(key, signed=False):
             s = S.get(key, {}) or {}

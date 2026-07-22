@@ -74,7 +74,9 @@ _SCOPE = [
     "nhuận, dòng tiền, cân đối kế toán, cấu trúc tập đoàn và định giá — phát hiện dấu hiệu 'làm "
     "đẹp sổ'.",
     "**Nguồn dữ liệu:** báo cáo tài chính & tỷ số từ VCI (Vietcap); danh sách công ty con từ CafeF.",
-    "**Giả định định giá:** chi phí vốn chủ r≈13%, tăng trưởng dài hạn g≈5% (điều chỉnh được).",
+    "**Giả định định giá:** chi phí vốn chủ r và tăng trưởng dài hạn g đặt THEO NGÀNH (vd tiện "
+    "ích r≈11.5%, ngân hàng r≈13%/g≈4%, thép r≈15%, CNTT r≈13.5%/g≈7%) — mặc định 13%/5% khi "
+    "thiếu ngành; đều là giả định, điều chỉnh được.",
     "**KHÔNG bao gồm:** nội dung thuyết minh (giao dịch bên liên quan, chi tiết khoản mục), đóng "
     "góp lợi nhuận của từng công ty con, lịch đáo hạn nợ, yếu tố vĩ mô/ngành, và dự phóng tương "
     "lai. Điểm số Beneish/Altman hiệu chỉnh cho thị trường Mỹ → chỉ là cờ tham khảo.",

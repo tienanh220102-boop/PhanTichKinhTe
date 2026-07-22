@@ -33,6 +33,24 @@ logger = logging.getLogger(__name__)
 DEFAULT_COST_OF_EQUITY = 0.13   # r ≈ rf(TPCP VN) + ERP + country premium (m18); ~13% cho equity VN
 DEFAULT_LONG_RUN_GROWTH = 0.05  # g dài hạn ~ tăng trưởng GDP danh nghĩa thận trọng (m09)
 
+# r/g THEO NGÀNH (ICB L1) — GIẢ ĐỊNH, không phải sự thật. Spread khiêm tốn (tránh false
+# precision): r cao hơn cho ngành CHU KỲ/beta cao (thép, dầu, BĐS/tài chính), thấp hơn cho
+# phòng thủ (tiện ích, tiêu dùng, y tế); g cao hơn cho ngành tăng trưởng cấu trúc (CNTT, y tế).
+# Cơ sở: chênh lệch beta/độ ổn định dòng tiền giữa các ngành. Chỉnh được; thiếu ngành → default.
+SECTOR_RG = {
+    "Ngân hàng":            (0.130, 0.040),
+    "Tài chính":            (0.145, 0.050),   # chứng khoán/bảo hiểm — beta cao
+    "Tiện ích Cộng đồng":   (0.115, 0.040),   # điện/nước — dòng tiền ổn định, phòng thủ
+    "Hàng Tiêu dùng":       (0.120, 0.050),
+    "Dược phẩm và Y tế":    (0.120, 0.060),   # phòng thủ + tăng trưởng cấu trúc
+    "Dịch vụ Tiêu dùng":    (0.130, 0.055),
+    "Công nghệ Thông tin":  (0.135, 0.070),   # tăng trưởng cao
+    "Viễn thông":           (0.125, 0.050),
+    "Công nghiệp":          (0.140, 0.050),   # gồm xây dựng — chu kỳ
+    "Nguyên vật liệu":      (0.150, 0.050),   # thép/hóa chất — chu kỳ mạnh
+    "Dầu khí":              (0.150, 0.045),   # hàng hóa biến động
+}
+
 # --- Guardrail: khoảng hợp lệ để loại số rác (watchdog) ---
 _SANE = {
     "pe": (0.0, 300.0), "pb": (0.0, 50.0), "ps": (0.0, 100.0),
@@ -123,6 +141,21 @@ class VNValuation:
         self.sx = sx or VCISectors()
         self.r = cost_of_equity
         self.g = long_run_growth
+        self._explicit_rg = (cost_of_equity != DEFAULT_COST_OF_EQUITY
+                             or long_run_growth != DEFAULT_LONG_RUN_GROWTH)
+
+    def _rg_for(self, symbol: str) -> tuple:
+        """(r, g) THEO NGÀNH ICB L1 của mã. Nếu user truyền r/g tường minh khi khởi tạo → tôn
+        trọng (dùng chung cho mọi mã). Thiếu ngành/không map → default self.r/self.g."""
+        if self._explicit_rg:
+            return self.r, self.g
+        try:
+            sec = self.sx.sector_of(symbol)
+            if sec.get("is_bank"):
+                return SECTOR_RG.get("Ngân hàng", (self.r, self.g))
+            return SECTOR_RG.get(sec.get("icb_l1"), (self.r, self.g))
+        except Exception:  # noqa: BLE001
+            return self.r, self.g
 
     @staticmethod
     def _is_bank(row: Dict[str, object]) -> bool:
@@ -146,12 +179,13 @@ class VNValuation:
         # (TTM hiện tại) cho định giá hiện thời. (Sửa: filter cũ `quarter==0` luôn rỗng.)
         annual = _annual_rows(ratios)
         latest = ratios.iloc[-1].to_dict()
+        r, g = self._rg_for(symbol)  # r/g theo ngành (m18/m24), fallback default
 
         out: Dict[str, object] = {
             "symbol": symbol,
             "kỳ": f"{latest.get('yearReport')}",
             "loại": "Ngân hàng" if self._is_bank(latest) else "Phi ngân hàng",
-            "giả_định": {"r (cost of equity)": self.r, "g (dài hạn)": self.g},
+            "giả_định": {"r (cost of equity)": r, "g (dài hạn)": g, "theo_ngành": not self._explicit_rg},
             "bằng_chứng": {},
             "nhận_định": [],
             "cờ_rủi_ro": [],
@@ -181,11 +215,11 @@ class VNValuation:
                          + (f" (pct {pct})" if pct is not None else ""))
 
         # ---- 2. Justified P/B vs thực tế (m24) — dùng cho MỌI mã có ROE & P/B ----
-        if roe is not None and pb is not None and (self.r - self.g) > 0:
-            justified_pb = (roe - self.g) / (self.r - self.g)
+        if roe is not None and pb is not None and (r - g) > 0:
+            justified_pb = (roe - g) / (r - g)
             ev["justified_P/B (m24)"] = {
                 "công thức": "(ROE − g)/(r − g)",
-                "ROE": round(roe, 4), "r": self.r, "g": self.g,
+                "ROE": round(roe, 4), "r": r, "g": g,
                 "justified": round(justified_pb, 2), "thực_tế": round(pb, 2),
             }
             if justified_pb > 0:
@@ -197,8 +231,8 @@ class VNValuation:
                 notes.append(f"Justified P/B ≈ {justified_pb:.2f} vs thực tế {pb:.2f} "
                              f"({gap:+.0%}) → {dv}")
             # Nguyên tắc cốt tử m24: P/B>1 hợp lý chỉ khi ROE > r
-            if pb > 1 and roe < self.r:
-                flags.append(f"P/B>1 ({pb:.2f}) nhưng ROE ({roe:.1%}) < r ({self.r:.0%}) "
+            if pb > 1 and roe < r:
+                flags.append(f"P/B>1 ({pb:.2f}) nhưng ROE ({roe:.1%}) < r ({r:.0%}) "
                              f"→ định giá khó biện minh (m24)")
 
         # ---- 3. Cờ chất lượng / value-trap (m14) ----
@@ -365,8 +399,12 @@ class VNValuation:
         return rev, eq
 
     def _cycle_metrics(self, df: pd.DataFrame, revenue_cur: Optional[float] = None,
-                       equity_cur: Optional[float] = None, min_years: int = 4) -> Dict[str, object]:
-        """Metrics chuẩn hóa chu kỳ từ df ratios (thuần; fallback năm lỗ cần revenue/equity)."""
+                       equity_cur: Optional[float] = None, min_years: int = 4,
+                       r: Optional[float] = None, g: Optional[float] = None) -> Dict[str, object]:
+        """Metrics chuẩn hóa chu kỳ từ df ratios (thuần; fallback năm lỗ cần revenue/equity).
+        r/g mặc định theo self (chỉnh được để dùng r/g theo ngành)."""
+        r = self.r if r is None else r
+        g = self.g if g is None else g
         ann = _annual_rows(df)
         margins = pd.to_numeric(ann.get("afterTaxProfitMargin", pd.Series(dtype=float)),
                                 errors="coerce").dropna()
@@ -418,11 +456,11 @@ class VNValuation:
             cyc = "giữa"
 
         jpb_n = None
-        if roe_n is not None and (self.r - self.g) > 0:
-            if roe_n > self.g:
-                jpb_n = (roe_n - self.g) / (self.r - self.g)
+        if roe_n is not None and (r - g) > 0:
+            if roe_n > g:
+                jpb_n = (roe_n - g) / (r - g)
             else:
-                res["cờ"].append(f"ROE chuẩn hóa ({roe_n:.1%}) ≤ g ({self.g:.0%}) → "
+                res["cờ"].append(f"ROE chuẩn hóa ({roe_n:.1%}) ≤ g ({g:.0%}) → "
                                  "justified P/B không áp dụng (không tạo giá trị trên vốn)")
 
         res.update({
@@ -462,7 +500,8 @@ class VNValuation:
             need_fb = True
         if need_fb:
             rev, eq = self._latest_revenue_equity(symbol)
-        res = self._cycle_metrics(df, revenue_cur=rev, equity_cur=eq, min_years=min_years)
+        r, g = self._rg_for(symbol)
+        res = self._cycle_metrics(df, revenue_cur=rev, equity_cur=eq, min_years=min_years, r=r, g=g)
         res["symbol"] = symbol
         return res
 
@@ -537,6 +576,7 @@ class VNValuation:
         if not me.get("đủ_dữ_liệu"):
             return {"symbol": symbol, "note": f"mã đích thiếu dữ liệu chuẩn hóa: {me.get('note')}"}
         floor = min_mcap_ty * 1e9
+        r, g = self._rg_for(symbol)  # peer cùng ngành → dùng chung r/g của mã đích
         peers = self.sx.peers(symbol, level=level, same_exchange=same_exchange)[:max_peers]
         pe_norm_vals, roe_norm_vals, jpb_vals, pb_vals = [], [], [], []
         used = skipped = 0
@@ -551,7 +591,7 @@ class VNValuation:
             if mc is not None and mc < floor:
                 skipped += 1
                 continue
-            m = self._cycle_metrics(dfp)  # peer: không fallback năm lỗ
+            m = self._cycle_metrics(dfp, r=r, g=g)  # peer: không fallback năm lỗ
             if not m.get("đủ_dữ_liệu") or m.get("pe_chuẩn") is None:
                 skipped += 1
                 continue
