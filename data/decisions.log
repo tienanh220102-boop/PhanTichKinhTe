@@ -1,12 +1,3 @@
-2026-06-16 11:01 ACCEPT [Google News KL] "Gold prices today, Tuesday, June 16: Prices firming ahead of Fed meeti" | kw:gold,rice
-2026-06-16 11:01 ACCEPT [Google News KL] "Silver price forecast: can XAG/USD rebound as Fed rate bets shift? - C" | kw:silver,rice,fed rate
-2026-06-16 11:01 ACCEPT [Google News KL] "Gold Investors Are Likely Confused - Investing.com" | kw:gold
-2026-06-16 11:01 ACCEPT [Google News NS] "India's rice stocks climb to record high; wheat inventories at five-ye" | kw:wheat,rice
-2026-06-16 11:01 ACCEPT [Google News NS] "Markets Slip as Corn Hits New Lows While Wheat Shows Strength - Farms." | kw:wheat,corn
-2026-06-16 11:01 ACCEPT [Google News NS] "Market Plus with Mark Gold - Farms.com" | kw:gold
-2026-06-16 11:01 ACCEPT [Google News CB] "The Evolution of Milton Friedman’s Legacy for Monetary Policy - promar" | kw:monetary policy
-2026-06-16 11:01 ACCEPT [Google News CB] "The Prospect of a Quieter Fed Could Roil Bond Prices - Bloomberg" | kw:oil,rice
-2026-06-16 11:01 ACCEPT [Google News CB] "Nikkei 225 Strength Challenges the BOJ Tightening Narrative - StoneX" | kw:boj,tightening
 2026-06-16 11:01 ACCEPT [Google News CB] "Bank of Japan raises rates to 31-year high, flags more to come - Reute" | kw:bank of japan
 2026-06-16 11:01 SKIP_MORNING already_sent date=2026-06-16
 2026-06-16 11:31 ACCEPT [MarketWatch] "SpaceX overtakes Amazon as America’s fifth-largest company via overnig" | kw:rice
@@ -20007,3 +19998,4 @@
 2026-07-22 22:54 ACCEPT [Google News NS] "Ag in Motion 2026 video: Canola, wheat futures climbing - The Western " | kw:wheat
 2026-07-22 22:54 ACCEPT [Google News NS] "Daily Grain Prices in Western Canada - Canadian Cattlemen" | kw:rice
 2026-07-22 22:54 ACCEPT [Google News CB] "The Fed Follows Interest Rates, It's Not A Leader (BATS:GOVZ) - Seekin" | kw:interest rate
+2026-07-22 23:01 ACCEPT [OilPrice.com] "New Pipelines Set To Ease Permian Natural Gas Glut" | kw:oil,crude,gas
