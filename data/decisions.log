@@ -1,20 +1,3 @@
-2026-06-16 02:05 ACCEPT [EIA Energy] "U.S. natural gas storage capacity increased slightly in 2025" | kw:gas
-2026-06-16 02:05 ACCEPT [EIA Energy] "California natural gas prices reach historic lows in early 2026" | kw:gas,rice
-2026-06-16 02:05 ACCEPT [EIA Energy] "Natural gas for power generation flat this summer, record high expecte" | kw:gas
-2026-06-16 02:05 ACCEPT [EIA Energy] "The United States is a major energy exporter and importer, especially " | kw:petroleum
-2026-06-16 02:05 ACCEPT [EIA Energy] "Most planned natural gas pipeline capacity additions in 2026 and 2027 " | kw:gas
-2026-06-16 02:05 ACCEPT [EIA Energy] "The regional differences in gasoline prices this Memorial Day" | kw:gas,fuel,rice
-2026-06-16 02:05 ACCEPT [EIA Energy] "Coal remains competitive for power generation in the central United St" | kw:gas,fuel,rice
-2026-06-16 02:05 ACCEPT [EIA Energy] "U.S. industrial natural gas consumption expected to hit records in 202" | kw:gas
-2026-06-16 02:05 ACCEPT [EIA Energy] "The United States set record energy production in 2025, again" | kw:oil,crude,gas
-2026-06-16 02:05 ACCEPT [EIA Energy] "One-fifth of U.S. renewable diesel and SAF production was exported in " | kw:fuel
-2026-06-16 02:05 ACCEPT [NASDAQ Commod] "WPM Makes Bullish Cross Above Critical Moving Average" | kw:wheat
-2026-06-16 02:05 ACCEPT [NASDAQ Commod] "Crude Oil Nosedives As U.S., Iran Agree To Sign Preliminary Deal On Fr" | kw:oil,crude,rice
-2026-06-16 02:05 ACCEPT [NASDAQ Commod] "Gold Soars After U.S., Iran Confirm Reaching An Agreement To End Hosti" | kw:oil,crude,gold
-2026-06-16 02:05 ACCEPT [NASDAQ Commod] "Analyst Favorites: Gold Fields Ranks As a Top Metals Pick" | kw:gold
-2026-06-16 02:05 ACCEPT [NASDAQ Commod] "Gold Hovers Near One-week High As Geopolitical Tensions Ease" | kw:gold,rice,inflation
-2026-06-16 02:05 ACCEPT [NASDAQ Commod] "Oil Prices Hit Three-month Low On US-Iran Deal" | kw:oil,rice
-2026-06-16 02:05 ACCEPT [NASDAQ Commod] "Steve Barton: Gold, Silver Price Drop — What Happened, What I'm Buying" | kw:gold,silver,rice
 2026-06-16 02:05 ACCEPT [NASDAQ Commod] "Top 5 ASX Copper Stocks in 2026" | kw:copper,rice,supply chain
 2026-06-16 02:05 ACCEPT [NASDAQ Commod] "Crude Oil Plunges Amid Prospects Of U.S.-Iran Deal, Reopening Of Hormu" | kw:oil,crude,rice
 2026-06-16 02:05 ACCEPT [NASDAQ Commod] "Gold Surges As Optimism On U.S.-Iran Deal Increases" | kw:gold,rice
@@ -20015,3 +19998,17 @@
 2026-07-22 09:31 ACCEPT [Google News CB] "Federal Reserve Board Concludes Meeting - Southeast AgNET" | kw:federal reserve
 2026-07-22 09:31 ACCEPT [Google News CB] "Economists Warn Tight US Labor Market Could Keep Fed Rates Elevated - " | kw:fed rate
 2026-07-22 09:31 SKIP_MORNING already_sent date=2026-07-22
+2026-07-22 10:01 ACCEPT [MarketWatch] "Goldman Sachs and Morgan Stanley had a monster quarter. Analysts say t" | kw:gold
+2026-07-22 10:01 ACCEPT [NASDAQ Commod] "Oil Prices Extend Rally As Mideast Tensions Escalate" | kw:oil,rice
+2026-07-22 10:01 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD holds gains above $4,100 undaunted by ris" | kw:gold,rice,gdp
+2026-07-22 10:01 ACCEPT [Google News HH] "Gold Price Forecast: 3 scenarios that could define the rest of 2026 - " | kw:gold,rice
+2026-07-22 10:01 ACCEPT [Google News KL] "Silver price today: rises on July 22 - FXStreet" | kw:silver,rice
+2026-07-22 10:01 ACCEPT [Google News KL] "China's Scrap Crackdown and Chile Storms Tighten Copper Supply: Watch " | kw:copper
+2026-07-22 10:01 ACCEPT [Google News KL] "[SMM Nickel Intermediate Product Daily Review] July 22, MHP Nickel and" | kw:lng,nickel,rice
+2026-07-22 10:01 ACCEPT [Google News KL] "Gold extends gains for third day as silver jumps 4% - MSN" | kw:gold,silver
+2026-07-22 10:01 ACCEPT [Google News KL] "[SMM Nickel Midday Comment] On July 22, base metals collectively stren" | kw:nickel,rice
+2026-07-22 10:01 ACCEPT [Google News CB] "South African Inflation Jumps on Eve of Interest Rate Verdict - Bloomb" | kw:inflation,interest rate
+2026-07-22 10:01 ACCEPT [Google News CB] "Payments statistics: second half of 2025 - European Central Bank" | kw:central bank
+2026-07-22 10:01 ACCEPT [Google News CB] "Forint weakens after Hungary’s central bank cuts rates - Investing.com" | kw:central bank
+2026-07-22 10:01 ACCEPT [Google News CB] "Yen Tries to Recover on BOJ Hike Bets - TradingView" | kw:boj
+2026-07-22 10:01 SKIP_MORNING already_sent date=2026-07-22
