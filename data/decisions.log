@@ -1,13 +1,3 @@
-2026-06-15 20:01 ACCEPT [OilPrice.com] "Venezuela’s Oil Exports Hit Seven-Year High as Global Buyers Return" | kw:oil,crude
-2026-06-15 21:01 ACCEPT [OilPrice.com] "U.S. Average Gasoline Prices Slide Below $4 Per Gallon" | kw:petroleum,gas,rice
-2026-06-15 21:31 ACCEPT [The Guardian Biz] "Oil prices hit three-month low and markets reach record high amid Iran" | kw:oil,crude,gas
-2026-06-15 21:31 ACCEPT [Mining.com] "Surge Copper prefeasibility more than doubles Berg project value" | kw:copper
-2026-06-15 22:01 ACCEPT [OilPrice.com] "New Estimates Challenge Assumptions About Lost Gulf Oil Supply" | kw:oil
-2026-06-15 23:01 ACCEPT [MarketWatch] "Here’s when gas prices will come down if the U.S. deal to end the Iran" | kw:gas,rice
-2026-06-15 23:01 ACCEPT [OilPrice.com] "An Oil Deal That Ended a War Nobody Won" | kw:oil
-2026-06-15 23:31 ACCEPT [BBC Business] "Thames Water moves step closer to nationalisation after government obj" | kw:iron
-2026-06-16 00:02 GEMINI QUOTA_EXCEEDED
-2026-06-16 00:02 SKIP_MORNING quota_exceeded date=2026-06-16
 2026-06-16 00:31 GEMINI QUOTA_EXCEEDED
 2026-06-16 00:31 SKIP_MORNING quota_exceeded date=2026-06-16
 2026-06-16 01:01 ACCEPT [Al Jazeera] "US fuel prices to take ‘months’ to normalise after US-Iran deal to end" | kw:fuel,rice
@@ -20008,3 +19998,10 @@
 2026-07-22 07:31 ACCEPT [Google News KL] "Gold price hits two-week high as Middle East risks revive haven demand" | kw:gold,rice
 2026-07-22 07:31 ACCEPT [Google News CB] "Gold Approaches a Key Inflection Point With Eyes on Fed Signals - Inve" | kw:gold
 2026-07-22 07:31 SKIP_MORNING already_sent date=2026-07-22
+2026-07-22 07:45 ACCEPT [BBC Business] "Food prices rise at slowest rate in nearly two years" | kw:rice,inflation
+2026-07-22 07:45 ACCEPT [Google News HH] "Crude oil prices reach highest level in 5 weeks - Pars Today" | kw:oil,crude,rice
+2026-07-22 07:45 ACCEPT [Google News HH] "WTI Crude Oil Analysis: $85 as Ceasefire Collapse Reverses MOU Gains; " | kw:oil,crude,wti
+2026-07-22 07:45 ACCEPT [Google News KL] "Silver price jumps for fourth day as $60 breakout comes into focus - T" | kw:silver,rice
+2026-07-22 07:45 ACCEPT [Google News CB] "BOJ Is Said Open to Faster Rate Hike Pace as Yen Adds Price Risk - Blo" | kw:rice,rate hike,boj
+2026-07-22 07:45 ACCEPT [Google News CB] "Indonesia central bank keeps rates unchanged, defying hike expectation" | kw:central bank
+2026-07-22 07:45 SKIP_MORNING already_sent date=2026-07-22
