@@ -1,15 +1,3 @@
-2026-06-15 16:31 ACCEPT [MarketWatch] "Here are 20 growth stocks you can buy at ‘value’ prices" | kw:rice
-2026-06-15 16:31 SKIP_MORNING already_sent date=2026-06-15
-2026-06-15 16:31 SKIP_EVENING already_sent date=2026-06-15
-2026-06-15 17:01 ACCEPT [OilPrice.com] "Ukraine’s New Refinery Tactic Is Fueling Russia’s Gasoline Crisis" | kw:oil,gas,fuel
-2026-06-15 17:01 ACCEPT [Mining.com] "Surge Copper’s Berg pre-feasibility outlines 28-year, $4.7B mine in BC" | kw:copper
-2026-06-15 17:01 ACCEPT [Mining.com] "Montage Gold boosts Koné resources by 58%" | kw:gold
-2026-06-15 17:01 ACCEPT [Mining.com] "UBS sees gold price falling further, but remains long-term bullish" | kw:gold,rice
-2026-06-15 18:01 ACCEPT [Mining.com] "Ucore, Sumitomo team up on rare earth supply chain development" | kw:supply chain
-2026-06-15 19:02 ACCEPT [Al Jazeera] "EU fails to agree on sanctions for far-right Israeli minister Ben-Gvir" | kw:sanction
-2026-06-15 19:02 ACCEPT [Al Jazeera] "Tunisia sack boss Sabri Lamouchi after World Cup thrashing by Sweden" | kw:rice
-2026-06-15 19:02 ACCEPT [OilPrice.com] "From Hormuz to Houston: The U.S. Takeover of Global Energy Flows Ramps" | kw:oil,crude
-2026-06-15 19:02 ACCEPT [OilPrice.com] "Danish Energy Trader Eyes U.S. Gas Markets After Trading Profits Colla" | kw:gas,gold,commodities
 2026-06-15 19:02 ACCEPT [OilPrice.com] "European Gas Prices Tumble 6% On US-Iran Peace Deal" | kw:gas,rice
 2026-06-15 19:02 ACCEPT [Mining.com] "AbraSilver’s copper-gold results suggest district scale potential at L" | kw:gold,silver,copper
 2026-06-15 19:31 ACCEPT [MarketWatch] "It could take years for oil prices to return to $67 a barrel. Here’s w" | kw:oil,crude,rice
@@ -20010,3 +19998,9 @@
 2026-07-22 06:31 ACCEPT [Google News CB] "Germany European Central Bank - Idaho State Journal" | kw:central bank
 2026-07-22 06:31 ACCEPT [Google News CB] "Germany European Central Bank - The Herald Journal" | kw:central bank
 2026-07-22 06:31 SKIP_MORNING already_sent date=2026-07-22
+2026-07-22 07:01 ACCEPT [BBC Business] "Lower fuel, chocolate and beef prices help push inflation down" | kw:fuel,rice,inflation
+2026-07-22 07:01 ACCEPT [Google News HH] "Saudi crude oil exports fall for third consecutive month to lowest lev" | kw:oil,crude
+2026-07-22 07:01 ACCEPT [Google News KL] "Gold analysis today as bulls are staging a major bullish reversal from" | kw:gold
+2026-07-22 07:01 ACCEPT [Google News CB] "Germany European Central Bank - GazetteXtra" | kw:central bank
+2026-07-22 07:01 ACCEPT [Google News CB] "Gold navigates central bank credibility as markets prepare for the ECB" | kw:gold,central bank,ecb
+2026-07-22 07:01 SKIP_MORNING already_sent date=2026-07-22
