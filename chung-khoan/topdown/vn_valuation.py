@@ -376,6 +376,10 @@ class VNValuation:
     #   justified P/B (m24) = (ROE_chuẩn − g)/(r − g), chỉ có nghĩa khi ROE_chuẩn > g.
     # GIẢ ĐỊNH/GIỚI HẠN: coi doanh thu ở mức hiện tại, chỉ biên hồi quy về mid-cycle; median
     # nhiều năm giả định cấu trúc kinh doanh KHÔNG đổi (DN suy thoái cấu trúc → median thổi phồng).
+    # ⚠️ BÀI HỌC VALIDATION (vn_backtest_roll, 2021-24): chuẩn hóa HỮU ÍCH 1 CHIỀU — tránh ảo giác
+    # lãi ĐỈNH (đừng mua đắt vì P/E thấp ảo) thì đáng tin; NHƯNG chiều ĐÁY ("rẻ vì đáy, sẽ hồi") là
+    # BẪY: mua mã đáy-margin thua ~2 năm (p=0.015) và lọc chất lượng KHÔNG cứu (p=0.81). Cái ăn tiền
+    # nhất là RẺ (P/B) + SẠCH CỜ, không phải "bắt đáy chu kỳ". Dùng lớp này để ĐỌC, không để bắt đáy.
 
     def _latest_revenue_equity(self, symbol: str):
         """(doanh_thu_thuần, vốn_CSH) năm gần nhất — chỉ dùng cho fallback năm LỖ."""

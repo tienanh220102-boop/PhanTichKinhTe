@@ -82,8 +82,9 @@ def monitoring_plan(dd: DeepDive) -> Dict[str, List[str]]:
     if cyc:
         state = cyc.get("chu_kỳ")
         if state == "ĐÁY":
-            confirm.append("Biên lợi nhuận HỒI PHỤC về vùng mid-cycle — xác nhận luận điểm cơ hội "
-                           "chu kỳ (lãi đáy đang tạo P/E cao giả).")
+            confirm.append("Biên lợi nhuận thực sự HỒI PHỤC về mid-cycle qua vài quý — ĐIỀU KIỆN "
+                           "CẦN để 'đáy chu kỳ' thành cơ hội. (Backtest 2021-24: mua đáy-margin khi "
+                           "CHƯA thấy hồi thường THUA ~2 năm — đợi bằng chứng hồi, đừng đoán.)")
         elif state == "ĐỈNH":
             warn.append("Biên lợi nhuận CO về mid-cycle (lãi hiện ở ĐỈNH, khó duy trì) — lợi nhuận "
                         "và P/E spot sẽ xấu đi dù giá không đổi.")
@@ -173,8 +174,10 @@ def render_decision(dd: DeepDive, years: int = 2) -> str:
         elif st == "ĐÁY" and pen < pes * 0.85:
             P.append(f"<div class='card note'>🔄 <b>Đang ở ĐÁY chu kỳ biên "
                      f"({bh:.1f}% vs mid-cycle {bm:.1f}%).</b> P/E spot {pes} bị lãi đáy thổi cao; "
-                     f"chuẩn hóa mid-cycle P/E ~{pen} — <b>rẻ hơn vẻ ngoài NẾU biên hồi phục.</b> "
-                     f"Đây là cược phục hồi biên, không phải tăng trưởng chắc chắn.</div>")
+                     f"chuẩn hóa mid-cycle P/E ~{pen} — rẻ hơn vẻ ngoài NẾU biên hồi phục. "
+                     f"⚠️ <b>NHƯNG 'đáy' KHÔNG phải lý do mua:</b> backtest 2021-24 cho thấy mua "
+                     f"mã đáy-margin chờ hồi phục thường THUA ~2 năm, và lọc chất lượng KHÔNG cứu "
+                     f"được. Chỉ vào khi có BẰNG CHỨNG biên đang hồi thật (vài quý), đừng đoán 'sẽ hồi'.</div>")
     if sp:
         rows = [
             ("🔴 Bi quan (bear)", sp["bear"], sp["bear_ret"], sp["bear_pb"],

@@ -71,6 +71,13 @@ mục tự nạp) — không LLM, không bịa.
   biên 25.7% vs mid 8.8%) → cờ RẺ ẢO, chuẩn hóa 7.6; LCG đáy biên → rẻ hơn ngành −30% nhưng P/B
   khớp chất lượng. GIỚI HẠN ghi rõ: median giả định cấu trúc KD không đổi; biên có thể bị khoản
   phi cốt lõi thổi (đọc kèm cờ "lãi ngoài cốt lõi").
+  **⚠️ VALIDATION (vn_backtest_roll 2021-24) — chuẩn hóa chu kỳ HỮU ÍCH 1 CHIỀU:** tránh ảo giác
+  lãi ĐỈNH (P/E thấp ảo → đừng mua đắt) là đáng tin; NHƯNG chiều ĐÁY ("rẻ vì đáy, sẽ hồi") là
+  BẪY — mua mã đáy-margin thua ~2 năm (p=0.015), lọc chất lượng KHÔNG cứu (p=0.81). Báo cáo PHẢI
+  kèm caveat này ở phần đáy chu kỳ; chỉ coi đáy là cơ hội khi có BẰNG CHỨNG biên hồi thật (vài
+  quý), không đoán. Cái ăn tiền robust nhất qua mọi năm: RẺ (P/B) + SẠCH CỜ (cheap+clean =
+  "rẻ cơ hội" thắng cheap+flagged = bẫy, +14.8% dương cả 3 năm). Đây là "vòng lặp tự cải thiện":
+  validation → sửa NGÔN NGỮ công cụ, không chỉ thêm tính năng.
 - **Đọc theo QUÝ, không chỉ theo NĂM** (mục 8). Số năm làm mượt đà bào mòn: xu hướng biên
   ròng/gộp + DSO theo ~8 quý lộ khúc suy yếu trước số năm. Quý VCI = số RỜI RẠC ở cột
   `lengthReport` (1-4), verify bằng tổng 4 quý = năm (LCG 2025: 428+731+565+1276≈3.002 tỷ).

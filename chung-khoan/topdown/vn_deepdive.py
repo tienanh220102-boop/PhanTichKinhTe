@@ -1345,7 +1345,9 @@ class VNDeepDive:
                     elif st == "ĐÁY" and pen < pes * 0.85:
                         sec.lines.append(
                             f"P/E spot {pes} bị lãi ĐÁY chu kỳ thổi cao; chuẩn hóa về mid-cycle "
-                            f"P/E ~{pen} — rẻ hơn vẻ ngoài NẾU biên hồi phục.")
+                            f"P/E ~{pen} (RẺ nếu biên hồi phục). ⚠️ NHƯNG backtest (2021-24) cho "
+                            f"thấy mua mã ĐÁY biên chờ hồi phục THƯỜNG THUA ~2 năm — đừng coi 'đáy' "
+                            f"là lý do mua; chờ BẰNG CHỨNG biên đang hồi thật, không chỉ 'sẽ hồi'.")
                 for cf in nc.get("cờ", []):
                     if f"⚠️ {cf}" not in sec.lines:
                         sec.lines.append(f"⚠️ {cf}")
