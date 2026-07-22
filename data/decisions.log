@@ -1,14 +1,3 @@
-2026-06-15 07:01 ACCEPT [Al Jazeera] "Gaethje shocks Topuria to win UFC lightweight title at White House eve" | kw:corn
-2026-06-15 07:01 ACCEPT [Al Jazeera] "Stock markets soar, oil falls as US and Iran announce framework to end" | kw:oil
-2026-06-15 07:01 SKIP_MORNING already_sent date=2026-06-15
-2026-06-15 07:31 SKIP_MORNING already_sent date=2026-06-15
-2026-06-15 08:01 ACCEPT [BBC Business] "Oil prices fall and shares jump after US-Iran deal announced" | kw:oil,rice
-2026-06-15 08:01 SKIP_MORNING already_sent date=2026-06-15
-2026-06-15 08:31 ACCEPT [Al Jazeera] "Starbucks Korea to shut stores for history training after ‘Tank Day’ f" | kw:coffee
-2026-06-15 08:31 ACCEPT [OilPrice.com] "Australian Regulator Clears LNG Strike" | kw:lng
-2026-06-15 08:31 SKIP_MORNING already_sent date=2026-06-15
-2026-06-15 08:51 SKIP_MORNING already_sent date=2026-06-15
-2026-06-15 09:01 SKIP_MORNING already_sent date=2026-06-15
 2026-06-15 09:31 ACCEPT [MarketWatch] "Oil prices decline after U.S.-Iran agree to framework of peace deal" | kw:oil,crude,brent
 2026-06-15 09:31 ACCEPT [Al Jazeera] "How Trump is relaunching a tariff war citing ‘forced labour’ concerns" | kw:tariff
 2026-06-15 09:31 ACCEPT [OilPrice.com] "U.S.-Iran Deal Doesn’t Mean a Swift Return of Oil and Gas Flows" | kw:oil,gas
@@ -20009,3 +19998,12 @@
 2026-07-22 03:01 ACCEPT [Google News CB] "Japan's oil-driven import surge widens trade gap, complicates BOJ hold" | kw:oil,boj
 2026-07-22 03:01 ACCEPT [Google News CB] "Did Rising Value-Stock Interest and Fed Easing Hopes Just Shift Invesc" | kw:easing
 2026-07-22 03:01 SKIP_MORNING already_sent date=2026-07-22
+2026-07-22 03:31 ACCEPT [OilPrice.com] "Oil Prices Climb as U.S.-Iran Conflict Shows No Signs of Slowing" | kw:oil,crude,brent
+2026-07-22 03:31 ACCEPT [Google News HH] "Sugar Prices Settle Higher on Crude Oil Strength - Yahoo Finance" | kw:oil,crude,rice
+2026-07-22 03:31 ACCEPT [Google News KL] "Gold and Silver Price Forecast: Gold Eyes $4,200 as Silver Gains Momen" | kw:gold,silver,rice
+2026-07-22 03:31 ACCEPT [Google News KL] "Copper's wild ride: What price volatility says about other metals - th" | kw:copper,rice
+2026-07-22 03:31 ACCEPT [Google News KL] "Why Silver is advancing despite rising oil prices, inflation fears? - " | kw:oil,silver,rice
+2026-07-22 03:31 ACCEPT [Google News KL] "Why gold is no longer recovering in the way many had predicted - thena" | kw:gold
+2026-07-22 03:31 ACCEPT [Google News NS] "Wheat Pulls up Corn: Soybeans Consolidate After New Highs for the Year" | kw:wheat,corn,soybean
+2026-07-22 03:31 ACCEPT [Google News CB] "Canon Notches Another Fed. Circ. Win In Inkjet Patent Fight - Law360" | kw:lng,gdp
+2026-07-22 03:31 SKIP_MORNING already_sent date=2026-07-22
