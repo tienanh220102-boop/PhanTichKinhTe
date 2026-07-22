@@ -43,6 +43,14 @@ C_REV = "Doanh thu thuần"
 C_NI = "Lãi/(lỗ) thuần sau thuế"
 
 
+def _num(v) -> Optional[float]:
+    try:
+        f = float(v)
+        return f if not np.isnan(f) else None
+    except (TypeError, ValueError):
+        return None
+
+
 def _series_upto(df: pd.DataFrame, col: str, year: int) -> Dict[int, float]:
     if df is None or df.empty or "yearReport" not in df.columns or col not in df.columns:
         return {}
@@ -60,8 +68,24 @@ def _series_upto(df: pd.DataFrame, col: str, year: int) -> Dict[int, float]:
     return out
 
 
+def _annual_upto(ratios: pd.DataFrame, year: int) -> pd.DataFrame:
+    """Dòng SỐ CẢ NĂM (RATIO_YEAR) với yearReport ≤ year, sắp tăng dần. (Sửa filter quarter==0
+    cũ luôn rỗng — cùng bug đã vá ở vn_valuation.)"""
+    if ratios is None or ratios.empty or "yearReport" not in ratios.columns:
+        return pd.DataFrame()
+    r = ratios
+    if "ratioType" in r.columns:
+        a = r[r["ratioType"] == "RATIO_YEAR"]
+        r = a if not a.empty else r
+    elif "quarter" in r.columns:
+        r = r[pd.to_numeric(r["quarter"], errors="coerce") == 5]
+    r = r[pd.to_numeric(r["yearReport"], errors="coerce") <= year]
+    return r.sort_values("yearReport") if not r.empty else pd.DataFrame()
+
+
 def score_point_in_time(fx: VCIFundamentals, sym: str, is_bank: bool) -> Optional[dict]:
-    """Chấm điểm forensic CHỈ bằng số ≤ CUTOFF_YEAR. Trả {cfo_ni_3y, n_flags, clean}."""
+    """Chấm điểm CHỈ bằng số ≤ CUTOFF_YEAR. Trả cờ forensic + tín hiệu định giá/chất lượng/chu kỳ
+    (point-in-time, lookahead sạch) để backtest xem tín hiệu MỚI có dự báo lợi nhuận không."""
     if is_bank:
         return None
     try:
@@ -94,18 +118,36 @@ def score_point_in_time(fx: VCIFundamentals, sym: str, is_bank: bool) -> Optiona
         flags += 1
     if sni <= 0:
         flags += 1
-    # cờ 4: đòn bẩy cao + thanh khoản yếu (từ ratios ≤ cutoff)
-    try:
-        rr = ratios[ratios.get("yearReport") <= CUTOFF_YEAR] if "yearReport" in ratios else ratios
-        annual = rr[rr.get("quarter").fillna(0) == 0] if "quarter" in rr else rr
-        if not annual.empty:
-            row = annual.iloc[-1]
+    # cờ 4: đòn bẩy cao + thanh khoản yếu (RATIO_YEAR ≤ cutoff — đã sửa filter)
+    annual = _annual_upto(ratios, CUTOFF_YEAR)
+    if not annual.empty:
+        row = annual.iloc[-1]
+        try:
             de = float(row.get("debtToEquity")); cur = float(row.get("currentRatio"))
             if de > 2 and cur < 1:
                 flags += 1
-    except Exception:  # noqa: BLE001
-        pass
-    return {"cfo_ni_3y": cfo_ni, "n_flags": flags, "clean": flags == 0}
+        except (TypeError, ValueError):
+            pass
+
+    # ---- TÍN HIỆU MỚI (point-in-time ≤ cutoff) ----
+    pb = pe = roic_mean = roic_trend = cyc_pos = None
+    if not annual.empty:
+        row = annual.iloc[-1]  # RATIO_YEAR 2022 (định giá cuối 2022, công khai giữa 2023)
+        pb = _num(row.get("pb")); pe = _num(row.get("pe"))
+        roic_s = pd.to_numeric(annual.get("roic", pd.Series(dtype=float)), errors="coerce").dropna()
+        roic_s = roic_s[(roic_s > -1) & (roic_s < 2)]
+        if len(roic_s) >= 3:
+            roic_mean = float(roic_s.mean())
+            half = max(1, len(roic_s) // 2)
+            roic_trend = float(roic_s.iloc[-half:].mean() - roic_s.iloc[:half].mean())
+        mar_s = pd.to_numeric(annual.get("afterTaxProfitMargin", pd.Series(dtype=float)),
+                              errors="coerce").dropna()
+        mar_s = mar_s[mar_s != 0]
+        if len(mar_s) >= 4 and mar_s.median() > 0:
+            cyc_pos = float(mar_s.iloc[-1] / mar_s.median())  # <0.9 đáy, >1.15 đỉnh
+    return {"cfo_ni_3y": cfo_ni, "n_flags": flags, "clean": flags == 0,
+            "pb": pb, "pe": pe, "roic_mean": roic_mean, "roic_trend": roic_trend,
+            "cyc_pos": cyc_pos}
 
 
 def _price_at(df: pd.DataFrame, target: Optional[pd.Timestamp]) -> Optional[float]:
@@ -176,28 +218,69 @@ def run() -> None:
     print("\nC) BASELINE (toàn bộ mã — proxy thị trường):")
     summarize("  Tất cả", df)
 
-    # --- PERMUTATION TEST: spread "sạch vượt ≥2 cờ" là thật hay ngẫu nhiên? ---
-    print(f"\n{'='*66}\nPERMUTATION TEST — spread có thật hay may rủi? (10.000 lần xáo nhãn)\n{'='*66}")
+    # ---- TÍN HIỆU MỚI (cái ta THÊM cả phiên — có dự báo 2 năm không?) ----
+    pb_med = df["pb"].dropna().median()
+    print(f"\nD) ĐỊNH GIÁ RẺ theo P/B ≤{CUTOFF_YEAR} (median ngành {pb_med:.2f}):")
+    summarize("  Rẻ (P/B ≤ median)", df[df["pb"] <= pb_med])
+    summarize("  Đắt (P/B > median)", df[df["pb"] > pb_med])
+    print("\nE) CHẤT LƯỢNG — ROIC bình quân ≤cutoff (chi phí vốn ~13%):")
+    summarize("  ROIC ≥ 13% (trên hurdle)", df[df["roic_mean"] >= 0.13])
+    summarize("  ROIC < 13%", df[(df["roic_mean"].notna()) & (df["roic_mean"] < 0.13)])
+    summarize("  ROIC xu hướng TĂNG", df[df["roic_trend"] > 0.01])
+    summarize("  ROIC xu hướng GIẢM", df[df["roic_trend"] < -0.01])
+    print("\nF) CHU KỲ — biên 2022 vs trung vị (đáy có mean-revert thắng không?):")
+    summarize("  ĐÁY biên (cyc<0.9)", df[df["cyc_pos"] < 0.9])
+    summarize("  ĐỈNH biên (cyc>1.15)", df[df["cyc_pos"] > 1.15])
+    print("\nG) TỔ HỢP 'MUA' = rẻ + sạch cờ + ROIC≥10% (luận điểm hệ khuyến nghị):")
+    buy = df[(df["pb"] <= pb_med) & (df["n_flags"] == 0) & (df["roic_mean"] >= 0.10)]
+    summarize("  Nhóm MUA", buy)
+    summarize("  Phần còn lại", df.drop(buy.index))
+
+    # --- PERMUTATION TEST tổng quát: mỗi tín hiệu có thật hay may rủi? ---
+    print(f"\n{'='*66}\nPERMUTATION TEST — tín hiệu có THẬT hay may rủi? (10.000 lần xáo nhãn)\n"
+          f"{'='*66}\nH0: nhãn không liên quan lợi nhuận. p<0.05 = khó là ngẫu nhiên.\n")
     rng = np.random.default_rng(42)
-    clean_mask = (df["n_flags"] == 0).values
-    n_clean = int(clean_mask.sum())
-    for name in HORIZONS:
-        r = df[name].values.astype(float)
-        ok = ~np.isnan(r)
-        rr = r[ok]; cm = clean_mask[ok]
-        if cm.sum() < 5 or (~cm).sum() < 5:
-            continue
-        actual = np.median(rr[cm]) - np.median(rr[~cm])   # sạch − (1 và ≥2 cờ gộp)
-        n_c = int(cm.sum())
-        null = np.empty(10000)
-        for i in range(10000):
-            idx = rng.permutation(len(rr))
-            null[i] = np.median(rr[idx[:n_c]]) - np.median(rr[idx[n_c:]])
-        p = float(np.mean(np.abs(null) >= abs(actual)))
-        verdict = "✓ khó là ngẫu nhiên" if p < 0.05 else ("~ ranh giới" if p < 0.15 else "✗ CÓ THỂ chỉ là may")
-        print(f"  {name:16}: spread sạch−cờ = {actual*100:+5.1f}%  | p = {p:.3f}  {verdict}")
-    print("\n(p<0.05: spread khó giải thích bằng ngẫu nhiên → tín hiệu đáng tin hơn.")
-    print(" p cao: một kỳ + small-n chưa tách được tín hiệu khỏi nhiễu — CHƯA kết luận được.)")
+    sig_2y = {"n": 0, "total": 0}   # đếm tín hiệu có ý nghĩa ở mốc 2 năm
+    horizon_2y = [h for h in HORIZONS if h.startswith("2")]
+
+    def perm(label: str, mask: np.ndarray) -> None:
+        line = f"  {label:26}"
+        for name in HORIZONS:
+            r = df[name].values.astype(float)
+            ok = ~np.isnan(r) & ~pd.isna(mask)
+            rr = r[ok]; cm = mask[ok].astype(bool)
+            if cm.sum() < 5 or (~cm).sum() < 5:
+                line += f" | {name.split()[0]}: n/a"; continue
+            actual = np.median(rr[cm]) - np.median(rr[~cm])
+            n_c = int(cm.sum())
+            null = np.empty(10000)
+            for i in range(10000):
+                idx = rng.permutation(len(rr))
+                null[i] = np.median(rr[idx[:n_c]]) - np.median(rr[idx[n_c:]])
+            p = float(np.mean(np.abs(null) >= abs(actual)))
+            mark = "✓" if p < 0.05 else ("~" if p < 0.15 else "✗")
+            line += f" | {name.split()[0]}: {actual*100:+4.0f}% p={p:.2f}{mark}"
+            if name in horizon_2y:
+                sig_2y["total"] += 1
+                if p < 0.05:
+                    sig_2y["n"] += 1
+        print(line)
+
+    perm("Sạch cờ vs có cờ", (df["n_flags"] == 0).values)
+    perm("Rẻ P/B vs đắt", (df["pb"] <= pb_med).values)
+    perm("ROIC≥13% vs <13%", (df["roic_mean"] >= 0.13).values)
+    perm("ROIC tăng vs giảm", np.where(df["roic_trend"].notna(),
+                                       (df["roic_trend"] > 0).values, np.nan))
+    perm("Đáy biên vs còn lại", (df["cyc_pos"] < 0.9).values)
+    perm("Tổ hợp MUA vs còn lại", df.index.isin(buy.index))
+
+    print("\n✓ p<0.05 khó là ngẫu nhiên · ~ ranh giới (0.05–0.15) · ✗ chưa tách được khỏi nhiễu.")
+    print("ĐỌC KỸ: một kỳ vào lệnh + small-n + survivorship bias → p cao KHÔNG có nghĩa tín hiệu")
+    print("vô dụng, mà là DỮ LIỆU CHƯA ĐỦ để chứng minh. Cột '2' (2 năm) là horizon user quan tâm.")
+    print(f"\n>>> KẾT LUẬN mốc 2 NĂM: {sig_2y['n']}/{sig_2y['total']} tín hiệu đạt p<0.05. "
+          + ("KHÔNG tín hiệu nào tách được khỏi may rủi ở 2 năm — hệ nên dùng như BỘ LỌC PHÒNG "
+             "THỦ (tránh mã cờ, mạnh ở 1 năm), KHÔNG phải máy 'chọn mã thắng 2 năm'."
+             if sig_2y['n'] == 0 else "có tín hiệu đạt ý nghĩa — nhưng vẫn 1 kỳ, cần thêm kỳ."))
 
 
 if __name__ == "__main__":
