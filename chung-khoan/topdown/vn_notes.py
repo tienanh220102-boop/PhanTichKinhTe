@@ -24,6 +24,7 @@ Chạy:  python vn_notes.py LCG --year 2024
 from __future__ import annotations
 
 import argparse
+import datetime as _dt
 import os
 import re
 import sys
@@ -241,17 +242,30 @@ def extract_notes(symbol: str, year: int, pdf_path: str) -> Notes:
     return nt
 
 
-def analyze_notes(symbol: str, year: int = 2024, exchange: Optional[str] = None,
+def _candidate_years() -> List[int]:
+    """Năm BCTN thử theo thứ tự MỚI→CŨ. BCTN năm Y công bố ~tháng 4 năm Y+1 → năm mới nhất
+    thường có = năm trước. (7/2026: FY2025 đã ra; FY2026 chưa vì năm chưa hết.)"""
+    y = _dt.date.today().year
+    return [y - 1, y - 2, y - 3]
+
+
+def analyze_notes(symbol: str, year: Optional[int] = None, exchange: Optional[str] = None,
                   pdf_path: Optional[str] = None) -> Notes:
+    """year=None → tự lấy năm MỚI NHẤT có trên CDN (thử năm trước → lùi dần)."""
     symbol = symbol.upper().strip()
-    if not pdf_path:
-        pdf_path = fetch_bctn(symbol, year=year, exchange=exchange)
-    if not pdf_path or not os.path.exists(pdf_path):
-        nt = Notes(symbol=symbol, year=year)
-        nt.error = (f"Không tải được BCTN {symbol} {year} từ CDN Vietstock (404 mọi sàn). "
-                    "Tải tay PDF BCTC kiểm toán từ trang IR/HOSE rồi dùng --pdf.")
-        return nt
-    return extract_notes(symbol, year, pdf_path)
+    if pdf_path:
+        return extract_notes(symbol, year or _candidate_years()[0], pdf_path)
+    years = [year] if year else _candidate_years()
+    tried = []
+    for yr in years:
+        p = fetch_bctn(symbol, year=yr, exchange=exchange)
+        tried.append(yr)
+        if p and os.path.exists(p):
+            return extract_notes(symbol, yr, p)
+    nt = Notes(symbol=symbol, year=years[0])
+    nt.error = (f"Không tải được BCTN {symbol} (thử năm {tried}) từ CDN Vietstock (404). "
+                "Tải tay PDF BCTC kiểm toán từ trang IR/HOSE/CafeF rồi dùng --pdf.")
+    return nt
 
 
 # ============================================================================
@@ -302,7 +316,8 @@ def main() -> None:
     ensure_utf8_stdout()
     ap = argparse.ArgumentParser(description="Đọc thuyết minh BCTC (bên liên quan + mục ẩn).")
     ap.add_argument("symbol")
-    ap.add_argument("--year", type=int, default=2024)
+    ap.add_argument("--year", type=int, default=None,
+                    help="Năm BCTN (mặc định: tự lấy năm mới nhất có trên CDN)")
     ap.add_argument("--exchange", default=None, help="HOSE/HNX/UPCOM (mặc định: thử lần lượt)")
     ap.add_argument("--pdf", default=None, help="Dùng PDF đã tải sẵn thay vì tải từ CDN")
     ap.add_argument("--md-out", default=None, help="Xuất Markdown ra file")

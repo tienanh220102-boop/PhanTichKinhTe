@@ -264,7 +264,7 @@ def render_markdown(dd: DeepDive) -> str:
     out.append("")
 
     # Các phần theo thứ tự
-    order = ["group", "business", "quality", "cashflow", "balance", "distress", "valuation", "quarterly", "management", "conclusion", "bank"]
+    order = ["group", "business", "quality", "cashflow", "balance", "distress", "valuation", "quarterly", "management", "conclusion", "notes", "bank"]
     for key in order:
         sec = dd.sections.get(key)
         if not sec:
@@ -541,7 +541,7 @@ def render_html(dd: DeepDive) -> str:
     P.append("<h2 style='border-top:3px solid var(--accent);padding-top:16px;margin-top:38px'>"
              "Phân tích chi tiết <span class='note'>(bằng chứng cho luận điểm trên)</span></h2>")
 
-    order = ["group", "business", "quality", "cashflow", "balance", "distress", "valuation", "quarterly", "management", "conclusion", "bank"]
+    order = ["group", "business", "quality", "cashflow", "balance", "distress", "valuation", "quarterly", "management", "conclusion", "notes", "bank"]
     for key in order:
         sec = dd.sections.get(key)
         if not sec:
@@ -630,7 +630,8 @@ def telegram_summary(dd: DeepDive) -> str:
 # ============================================================================
 # Build + CLI
 # ============================================================================
-def build(symbol: str, with_valuation: bool = True, with_group: bool = True) -> DeepDive:
+def build(symbol: str, with_valuation: bool = True, with_group: bool = True,
+          with_notes: bool = False, notes_year: Optional[int] = None) -> DeepDive:
     fx = VCIFundamentals()
     sectors = valuation = group = None
     try:
@@ -651,7 +652,52 @@ def build(symbol: str, with_valuation: bool = True, with_group: bool = True) -> 
         except Exception as e:  # noqa: BLE001
             logger.warning("Không nạp được vn_group: %s", e)
     engine = VNDeepDive(fx=fx, sectors=sectors, valuation=valuation, group=group)
-    return engine.analyze(symbol)
+    dd = engine.analyze(symbol)
+    if with_notes and not dd.error:
+        _add_notes_section(dd, symbol, notes_year)
+    return dd
+
+
+def _add_notes_section(dd: DeepDive, symbol: str, year: int) -> None:
+    """Làm giàu dd bằng mục THUYẾT MINH (bên liên quan + mục ẩn) từ vn_notes — tải PDF BCTN."""
+    from vn_deepdive import Section
+    sec = Section("📎 Thuyết minh BCTC (nguồn PDF kiểm toán ngoài): bên liên quan & mục ẩn")
+    try:
+        from vn_notes import analyze_notes, _t as _tn
+        nt = analyze_notes(symbol, year=year)  # year=None → tự lấy năm mới nhất
+    except Exception as e:  # noqa: BLE001
+        sec.lines.append(f"Không đọc được thuyết minh (lỗi tải/parse): {e}")
+        dd.sections["notes"] = sec
+        return
+    if nt.error:
+        sec.lines.append(nt.error)
+        dd.sections["notes"] = sec
+        return
+    sec.lines.append(f"Nguồn: BCTN {nt.year} ({nt.n_pages} trang, CDN Vietstock, năm mới nhất "
+                     "có sẵn). Số bóc tự động — đối chiếu PDF trước khi dùng vào quyết định.")
+    present = [f"{lbl} (tr {pg[:5]})" for lbl, pg in nt.present.items()]
+    if present:
+        sec.lines.append("Mục thuyết minh dò được: " + "; ".join(present) + ".")
+    for lbl in ("tuổi nợ / quá hạn phải thu", "tập trung khách hàng"):
+        if lbl not in nt.present:
+            sec.lines.append(f"⚠️ Không thấy thuyết minh '{lbl}' trong BCTN này "
+                             "(có thể DN không công bố, hoặc chỉ có ở BCTC kiểm toán riêng).")
+    if nt.related_parties:
+        rp_total = sum(rp.amount_end or 0 for rp in nt.related_parties)
+        sec.lines.append(f"🔗 Mạng lưới {len(nt.rp_entities)} bên liên quan; tổng số dư bóc được "
+                         f"~{_tn(rp_total)} — soi mức phụ thuộc & giao dịch nội bộ.")
+        rows = [{"Bên liên quan": rp.name[:42], "Nội dung": rp.note[:34],
+                 "Số dư cuối năm": _tn(rp.amount_end), "Khoản mục": rp.category[:34]}
+                for rp in nt.related_parties[:20]]
+        sec.table = pd.DataFrame(rows)
+    elif "bên liên quan" in nt.present:
+        sec.lines.append(f"Có mục bên liên quan (tr {nt.present['bên liên quan'][:5]}) nhưng "
+                         "layout không bóc được số tự động — đọc trực tiếp PDF trang đó.")
+    sec.explain = [
+        "Thuyết minh là nơi ẩn thứ bảng số VCI không có: bên liên quan (giao dịch/phụ thuộc nội "
+        "bộ), tuổi nợ phải thu, tập trung khách hàng, lịch đáo hạn trái phiếu, đóng góp từng mảng. "
+        "Bên liên quan lớn = rủi ro chuyển giá/phụ thuộc; đối chiếu với danh sách công ty con (mục 1)."]
+    dd.sections["notes"] = sec
 
 
 def main() -> None:
@@ -662,6 +708,10 @@ def main() -> None:
     ap.add_argument("--no-md", action="store_true", help="Không xuất Markdown")
     ap.add_argument("--no-valuation", action="store_true", help="Bỏ tầng định giá (nhanh hơn)")
     ap.add_argument("--no-group", action="store_true", help="Bỏ danh sách công ty con (CafeF)")
+    ap.add_argument("--notes", action="store_true",
+                    help="Đọc THUYẾT MINH (bên liên quan + mục ẩn) từ PDF BCTN — tải ~8-10MB, chậm")
+    ap.add_argument("--notes-year", type=int, default=None,
+                    help="Năm BCTN cho --notes (mặc định: tự lấy năm mới nhất có)")
     ap.add_argument("--telegram", action="store_true", help="Gửi tóm tắt gọn qua Telegram")
     ap.add_argument("--out", default=REPORTS_DIR, help="Thư mục xuất")
     args = ap.parse_args()
@@ -669,7 +719,8 @@ def main() -> None:
     logging.basicConfig(level=logging.WARNING)
     sym = args.symbol.upper().strip()
     print(f"⏳ Đang soi báo cáo tài chính {sym} ...")
-    dd = build(sym, with_valuation=not args.no_valuation, with_group=not args.no_group)
+    dd = build(sym, with_valuation=not args.no_valuation, with_group=not args.no_group,
+               with_notes=args.notes, notes_year=args.notes_year)
     if dd.error:
         print(f"❌ Lỗi: {dd.error}")
         return
