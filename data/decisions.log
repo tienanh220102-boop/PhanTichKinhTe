@@ -1,13 +1,3 @@
-2026-06-16 09:31 ACCEPT [MarketWatch] "The peace deal is in the price: Goldman Sachs lowers its oil-price tar" | kw:oil,gold,rice
-2026-06-16 09:31 ACCEPT [Google News HH] "China’s independent refiners step up crude inquiries after US-Iran pea" | kw:crude
-2026-06-16 09:31 ACCEPT [Google News HH] "SunSirs: Progress in US-Iran Talks Drags Crude Oil Prices Down Over 3%" | kw:oil,crude,rice
-2026-06-16 09:31 ACCEPT [Google News HH] "Crude oil futures fall amid weak global trends - Deccan Herald" | kw:oil,crude
-2026-06-16 09:31 ACCEPT [Google News KL] "UBS Cuts Near-Term Gold Forecast to $3,850–$4,000 per Ounce | Market A" | kw:gold
-2026-06-16 09:31 ACCEPT [Google News CB] "Japan raises interest rate to highest for 31 years - BBC" | kw:interest rate
-2026-06-16 09:31 ACCEPT [Google News CB] "Fed set to make interest rate decision as inflation hits 3-year high -" | kw:inflation,interest rate,rate decision
-2026-06-16 09:31 ACCEPT [Google News CB] "Bank of Japan raises its key interest rate to a three-decade high - Eu" | kw:interest rate,bank of japan
-2026-06-16 09:31 SKIP_MORNING already_sent date=2026-06-16
-2026-06-16 10:01 ACCEPT [OilPrice.com] "World's Largest Tanker Operator Cautions Against Hormuz Rush" | kw:oil,gas
 2026-06-16 10:01 ACCEPT [NASDAQ Commod] "Oil Prices Extend Decline As Supply Concerns Ease" | kw:oil,rice,easing
 2026-06-16 10:01 ACCEPT [Google News HH] "The Commodities Feed: Oil falls further - ING Think" | kw:oil,commodities
 2026-06-16 10:01 ACCEPT [Google News HH] "CBOE Volatility Index Steady Pre-Bell as Crude Oil Futures Extend Decl" | kw:oil,crude,treasury
@@ -20008,3 +19998,11 @@
 2026-07-22 20:31 ACCEPT [Google News NS] "Weather and Black Sea Tensions Send Corn, Soybeans and Wheat Prices Sh" | kw:wheat,corn,soybean
 2026-07-22 20:31 ACCEPT [Google News NS] "U.S. Wheat Sees Major Growth Opportunities, Continued Challenges in Su" | kw:wheat
 2026-07-22 20:31 ACCEPT [Google News NS] "Daily Grain Prices in Western Canada - Manitoba Co-operator" | kw:rice
+2026-07-22 21:01 ACCEPT [CNBC Commodities] "John Paulson says we are in the early stages of a long-term bull marke" | kw:gold,central bank
+2026-07-22 21:01 ACCEPT [Google News HH] "Stocks Settle Lower as Crude Oil Prices Jump - Barchart.com" | kw:oil,crude,rice
+2026-07-22 21:01 ACCEPT [Google News HH] "Canadian Financial Close: Loonie virtually unchanged, crude oil higher" | kw:oil,crude
+2026-07-22 21:01 ACCEPT [Google News KL] "Gold rallies as buyers test $4,160, oil lifts yields - Kitco PM Report" | kw:oil,gold
+2026-07-22 21:01 ACCEPT [Google News KL] "Gold Is About to Trade 24/7. A Prediction Market Just Filed to Make It" | kw:gold,silver
+2026-07-22 21:01 ACCEPT [Google News NS] "Daily Grain Prices in Western Canada - Alberta Farmer Express" | kw:rice
+2026-07-22 21:01 ACCEPT [Google News NS] "Brazil widens lead in China’s soybean market as US shipments fall desp" | kw:soybean
+2026-07-22 21:01 ACCEPT [Google News CB] "Gold firms to two-week peak on softer dollar, Fed outlook in focus - R" | kw:gold
