@@ -1,13 +1,3 @@
-2026-06-15 11:01 SKIP_MORNING already_sent date=2026-06-15
-2026-06-15 11:31 ACCEPT [MarketWatch] "The stock market is poised to go crazy if Warsh gives it the go-ahead," | kw:inflation
-2026-06-15 11:31 ACCEPT [OilPrice.com] "China’s Return to the Oil Market Could Boost Inflation" | kw:oil,crude,inflation
-2026-06-15 11:31 SKIP_MORNING already_sent date=2026-06-15
-2026-06-15 12:01 ACCEPT [Al Jazeera] "‘Island surrounded by war’: Crimeans panic amid Ukrainian attacks" | kw:fuel,shortage
-2026-06-15 12:01 SKIP_MORNING already_sent date=2026-06-15
-2026-06-15 12:31 ACCEPT [MarketWatch] "Oil prices slump to three-month lows after U.S. and Iran agree to fram" | kw:oil,crude,brent
-2026-06-15 12:31 ACCEPT [MarketWatch] "Gold’s correction could lead to a rebound. Barclays recommends these s" | kw:gold,rice
-2026-06-15 12:31 ACCEPT [OilPrice.com] "90% of Global Businesses Expect to Electrify Operations by 2035" | kw:fuel,rice
-2026-06-15 12:31 SKIP_MORNING already_sent date=2026-06-15
 2026-06-15 13:01 ACCEPT [BBC Business] "What's happening to UK petrol and diesel prices now the US and Iran ha" | kw:fuel,rice
 2026-06-15 13:01 ACCEPT [The Guardian Biz] "Oil prices hit three-month low and markets rally amid Iran deal breakt" | kw:oil,crude,brent
 2026-06-15 13:01 SKIP_MORNING already_sent date=2026-06-15
@@ -20008,3 +19998,7 @@
 2026-07-22 04:01 ACCEPT [Google News NS] "Indiana Ethanol Expansion Adds Major Local Corn Demand - RFD-TV" | kw:corn
 2026-07-22 04:01 ACCEPT [Google News CB] "Japan's oil-driven import surge widens trade gap, complicates BOJ hold" | kw:oil,boj
 2026-07-22 04:01 SKIP_MORNING already_sent date=2026-07-22
+2026-07-22 04:30 ACCEPT [Al Jazeera] "More than 140 dead, missing on refugee boat stranded off Mauritania" | kw:fuel
+2026-07-22 04:31 ACCEPT [Google News HH] "Crude Oil Price Approaches Our Price Target – Analysis – 22-07-2026 - " | kw:oil,crude,rice
+2026-07-22 04:31 ACCEPT [Google News CB] "Gold hits two-week high as Fed outlook, Middle East conflict stay in f" | kw:gold
+2026-07-22 04:31 SKIP_MORNING already_sent date=2026-07-22
