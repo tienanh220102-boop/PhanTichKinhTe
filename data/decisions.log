@@ -1,8 +1,3 @@
-2026-06-16 02:05 ACCEPT [Google News NS] "Rain in the Plains Make Grain, So Bears Are in Control of Corn, Soybea" | kw:wheat,corn,soybean
-2026-06-16 02:05 ACCEPT [Google News NS] "Markets Slip as Corn Hits New Lows While Wheat Shows Strength - Farms." | kw:wheat,corn
-2026-06-16 02:05 ACCEPT [Google News NS] "Wheat growers struggle with negative margins, market volatility - Tri-" | kw:wheat
-2026-06-16 02:05 ACCEPT [Google News NS] "Corn and Soybeans Close Up 2¢ | Monday, June 15, 2026 - Successful Far" | kw:corn,soybean
-2026-06-16 02:05 ACCEPT [Google News NS] "Could U.S. Soybean Yields Surprise Markets in 2026? - Agrolatam" | kw:soybean
 2026-06-16 02:05 ACCEPT [Google News NS] "Crops Analysis | Cotton scores third consecutive up day - Pro Farmer" | kw:cotton
 2026-06-16 02:05 ACCEPT [Google News NS] "Corn Bounces Off Lows - Can $4.50 Open the Door for More Relief? - Bar" | kw:corn
 2026-06-16 02:05 ACCEPT [Google News NS] "Corn Growers Need USMCA - Western Ag Network" | kw:corn
@@ -20003,3 +19998,17 @@
 2026-07-22 12:31 ACCEPT [Google News HH] "Gold Price Today: Gold Rises 2.84% on July 22, 2026 - USA Today" | kw:gold,rice
 2026-07-22 12:31 ACCEPT [Google News CB] "Russia Passes Crypto Law to Legalize Trading Under Tight Central Bank " | kw:central bank
 2026-07-22 12:31 SKIP_MORNING already_sent date=2026-07-22
+2026-07-22 13:01 ACCEPT [Al Jazeera] "Can the Suez save Asian oil consumers after Houthis shut Bab al-Mandeb" | kw:oil,crude
+2026-07-22 13:01 ACCEPT [Google News HH] "Crude Oil Rises for 4th Session - TradingView" | kw:oil,crude
+2026-07-22 13:01 ACCEPT [Google News HH] "Brent Crude oil hovers near $95 as Rubio vows U.S. will ‘continue to p" | kw:oil,crude,brent
+2026-07-22 13:01 ACCEPT [Google News HH] "Crude Oil Futures Surge Over 2% Amid Rising Tensions in the Midd - Gur" | kw:oil,crude
+2026-07-22 13:01 ACCEPT [Google News KL] "Copper Rally Tests Supply Tightness as Tariff Positioning Pushes the C" | kw:copper,tariff
+2026-07-22 13:01 ACCEPT [Google News KL] "New Zealand's Gold and Antimony Renaissance Is Attracting Serious Capi" | kw:gold
+2026-07-22 13:01 ACCEPT [Google News NS] "Pure Hedge - Livestock and Grain - The Globe and Mail" | kw:wti
+2026-07-22 13:01 ACCEPT [Google News NS] "Brazil widens lead in China’s soybean market as US shipments fall desp" | kw:soybean
+2026-07-22 13:01 ACCEPT [Google News CB] "Bank of America Says the Fed Should Raise Rates Now: 4 Dividend Inflat" | kw:inflation
+2026-07-22 13:01 ACCEPT [Google News CB] "U.S. 10-year Treasury yield flat as traders reassess Fed rate hike bet" | kw:fed rate,treasury,rate hike
+2026-07-22 13:01 ACCEPT [Google News CB] "Euro and sterling hold firm ahead of ECB call as Bank Indonesia holds " | kw:ecb
+2026-07-22 13:01 ACCEPT [Google News CB] "US Dollar Price Forecast: Fed and ECB Rate Decisions – Are GBP/USD and" | kw:rice,rate decision,ecb
+2026-07-22 13:01 SKIP_MORNING already_sent date=2026-07-22
+2026-07-22 13:02 SENT_EVENING articles=20 date=2026-07-22 force=False
