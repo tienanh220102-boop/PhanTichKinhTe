@@ -1,19 +1,3 @@
-2026-06-16 02:31 ACCEPT [RT Business] "Potato futures are soaring – should the world be worried?" | kw:fuel,rice
-2026-06-16 02:31 ACCEPT [RT Business] "Japanese auto giant takes historic hit amid EV pullback" | kw:tariff
-2026-06-16 02:31 ACCEPT [RT Business] "EU buys record volumes of Russian LNG – report" | kw:gas,lng
-2026-06-16 02:31 ACCEPT [RT Business] "Russian economy on solid footing despite slowdown – deputy PM" | kw:sanction
-2026-06-16 02:31 ACCEPT [RT Business] "Netflix sued for spying on children" | kw:harvest
-2026-06-16 02:31 ACCEPT [RT Business] "Oil trader pockets reported $125 mn on suspiciously well-timed Iran be" | kw:oil
-2026-06-16 02:31 ACCEPT [RT Business] "Putin envoy names ‘first victim’ of historic energy crisis" | kw:oil,rice
-2026-06-16 02:31 ACCEPT [RT Business] "OPEC+ makes first output decision after UAE exit – Reuters" | kw:opec
-2026-06-16 02:31 ACCEPT [RT Business] "Kuwait exports zero barrels of oil for first time in 35 years – monito" | kw:oil,crude
-2026-06-16 02:31 ACCEPT [RT Business] "Oil prices now determined by Trump’s mood – Fico" | kw:oil,rice
-2026-06-16 02:31 ACCEPT [RT Business] "Middle East war to drive 24% surge in energy costs – World Bank" | kw:fuel,rice,commodity
-2026-06-16 02:31 ACCEPT [RT Business] "OPEC loses key member: Will the oil bloc survive?" | kw:oil,opec
-2026-06-16 02:31 ACCEPT [RT Business] "Key OPEC member to leave bloc" | kw:oil,opec
-2026-06-16 02:32 SENT_MORNING articles=20 date=2026-06-16 force=True
-2026-06-16 02:52 ACCEPT [Google News KL] "Gold Price Today: Gold Rises 2.87% on June 15, 2026 - USA Today" | kw:gold,rice
-2026-06-16 02:52 SKIP_MORNING already_sent date=2026-06-16
 2026-06-16 03:01 ACCEPT [Google News KL] "Top gold-mining stocks by Quant rating as gold prices recover (GLD:NYS" | kw:gold,rice
 2026-06-16 03:01 ACCEPT [Google News KL] "A2GOLD COMPLETES ACQUISITION OF DISTRICT-SCALE TAYLOR SILVER-GOLD PROJ" | kw:gold,silver
 2026-06-16 03:01 ACCEPT [Google News KL] "Newmont Refreshes Its C-Suite As Gold Prices Stay High - Finimize" | kw:gold,rice
@@ -20014,3 +19998,16 @@
 2026-07-22 14:01 ACCEPT [Google News CB] "BOJ on alert to price risks that may lead to faster rate hikes, source" | kw:rice,rate hike,boj
 2026-07-22 14:01 SKIP_MORNING already_sent date=2026-07-22
 2026-07-22 14:01 SKIP_EVENING already_sent date=2026-07-22
+2026-07-22 14:31 ACCEPT [MarketWatch] "Global oil prices rise above $95 a barrel for the first time in 6 week" | kw:oil,rice
+2026-07-22 14:31 ACCEPT [OilPrice.com] "Europe Heads Into Winter With Its Weakest Gas Cushion In 15 Years" | kw:gas
+2026-07-22 14:31 ACCEPT [Google News HH] "Stock Indexes Retreat as Crude Oil and Bond Yields Climb - Barchart.co" | kw:oil,crude
+2026-07-22 14:31 ACCEPT [Google News HH] "Gold Price Analysis – Gold Rallies Near $4,200 Resistance Despite Risi" | kw:gold,rice
+2026-07-22 14:31 ACCEPT [Google News HH] "The Commodities Feed: Oil moves higher as supply risks build - ING Thi" | kw:oil,commodities,gdp
+2026-07-22 14:31 ACCEPT [Google News HH] "Crude Oil Price Analysis – Brent Eyes $100 Resistance as Middle East W" | kw:oil,crude,brent
+2026-07-22 14:31 ACCEPT [Google News KL] "TRX Gold Corporation: Record Quarter Reinforces $2.40 Target as Buckre" | kw:gold
+2026-07-22 14:31 ACCEPT [Google News KL] "Supply squeeze, material costs up: Nickel Q2 2026 Price Review - Bench" | kw:nickel,rice
+2026-07-22 14:31 ACCEPT [Google News KL] "Gold: The Bull Case (NYSEARCA:GLD) - Seeking Alpha" | kw:gold
+2026-07-22 14:31 ACCEPT [Google News KL] "[SMM Analysis] Copper Prices Remain Elevated, but Why Has Overseas Cop" | kw:copper,rice
+2026-07-22 14:31 ACCEPT [Google News NS] "United Soybean Board selects Courtney Knupp as incoming CEO - Feedstuf" | kw:soybean
+2026-07-22 14:31 SKIP_MORNING already_sent date=2026-07-22
+2026-07-22 14:31 SKIP_EVENING already_sent date=2026-07-22
