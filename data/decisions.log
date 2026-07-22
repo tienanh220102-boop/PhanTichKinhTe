@@ -1,11 +1,3 @@
-2026-06-16 10:01 ACCEPT [NASDAQ Commod] "Oil Prices Extend Decline As Supply Concerns Ease" | kw:oil,rice,easing
-2026-06-16 10:01 ACCEPT [Google News HH] "The Commodities Feed: Oil falls further - ING Think" | kw:oil,commodities
-2026-06-16 10:01 ACCEPT [Google News HH] "CBOE Volatility Index Steady Pre-Bell as Crude Oil Futures Extend Decl" | kw:oil,crude,treasury
-2026-06-16 10:01 ACCEPT [Google News HH] "WTI, Brent Crude Oil Futures Extend Slide Pre-Bell as Trump Says Next " | kw:oil,crude,brent
-2026-06-16 10:01 ACCEPT [Google News KL] "Silver price today: rises on June 16 - FXStreet" | kw:silver,rice
-2026-06-16 10:01 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Truce Stability vs Inflation Pr" | kw:gold,silver,rice
-2026-06-16 10:01 ACCEPT [Google News KL] "Air Jordan 10 'Double Nickel': Price And Where To Buy - Yahoo" | kw:nickel,rice
-2026-06-16 10:01 ACCEPT [Google News KL] "Has Gold Hit Bottom? Barclays, Citi Both Bullish on Gold, Gold Price W" | kw:gold,rice
 2026-06-16 10:01 ACCEPT [Google News KL] "[SMM Analysis] June Nickel Sulphate Market Analysis: Price Under Press" | kw:nickel,rice
 2026-06-16 10:01 ACCEPT [Google News NS] "USDA raises Ukraine wheat forecast, boosts export outlook - mezha.net" | kw:wheat
 2026-06-16 10:01 ACCEPT [Google News CB] "Fed set to make interest rate decision as inflation hits 3-year high -" | kw:inflation,interest rate,rate decision
@@ -20006,3 +19998,12 @@
 2026-07-22 21:01 ACCEPT [Google News NS] "Daily Grain Prices in Western Canada - Alberta Farmer Express" | kw:rice
 2026-07-22 21:01 ACCEPT [Google News NS] "Brazil widens lead in China’s soybean market as US shipments fall desp" | kw:soybean
 2026-07-22 21:01 ACCEPT [Google News CB] "Gold firms to two-week peak on softer dollar, Fed outlook in focus - R" | kw:gold
+2026-07-22 21:31 ACCEPT [Google News HH] "Crude Oil Prices Jump, Stocks Still Holding Up For Now - FOREX.com" | kw:oil,crude,rice
+2026-07-22 21:31 ACCEPT [Google News HH] "Global Commodities Roundup: Market Talk - Moomoo" | kw:commodities
+2026-07-22 21:31 ACCEPT [Google News HH] "If uncertainty surrounding the procurement of crude oil-derived produc" | kw:oil,crude,rice
+2026-07-22 21:31 ACCEPT [Google News HH] "U.S. equity markets declined on the 22nd, weighed down by rising crude" | kw:oil,crude,rice
+2026-07-22 21:31 ACCEPT [Google News HH] "US Equity Indexes Fall as Treasury Yields, Crude Oil Gains Reflect Con" | kw:oil,crude,treasury
+2026-07-22 21:31 ACCEPT [Google News KL] "The Metals Selloff Is Creating New Winners And Losers - Crude Oil Pric" | kw:oil,crude,rice
+2026-07-22 21:31 ACCEPT [Google News KL] "Earnings call transcript: Southern Copper tops Q2 2026 estimates as sh" | kw:copper
+2026-07-22 21:31 ACCEPT [Google News CB] "Trump's Expiring Global Tariff Is Valid, US Tells Fed. Circ. - Law360" | kw:tariff
+2026-07-22 21:31 ACCEPT [Google News CB] "The Village Academy is the newest school in Jefferson County - ECB Pub" | kw:ecb
