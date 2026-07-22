@@ -264,7 +264,7 @@ def render_markdown(dd: DeepDive) -> str:
     out.append("")
 
     # Các phần theo thứ tự
-    order = ["group", "business", "quality", "cashflow", "balance", "distress", "valuation", "conclusion", "bank"]
+    order = ["group", "business", "quality", "cashflow", "balance", "distress", "valuation", "quarterly", "management", "conclusion", "bank"]
     for key in order:
         sec = dd.sections.get(key)
         if not sec:
@@ -541,7 +541,7 @@ def render_html(dd: DeepDive) -> str:
     P.append("<h2 style='border-top:3px solid var(--accent);padding-top:16px;margin-top:38px'>"
              "Phân tích chi tiết <span class='note'>(bằng chứng cho luận điểm trên)</span></h2>")
 
-    order = ["group", "business", "quality", "cashflow", "balance", "distress", "valuation", "conclusion", "bank"]
+    order = ["group", "business", "quality", "cashflow", "balance", "distress", "valuation", "quarterly", "management", "conclusion", "bank"]
     for key in order:
         sec = dd.sections.get(key)
         if not sec:

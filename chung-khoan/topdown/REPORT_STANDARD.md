@@ -71,6 +71,15 @@ mục tự nạp) — không LLM, không bịa.
   biên 25.7% vs mid 8.8%) → cờ RẺ ẢO, chuẩn hóa 7.6; LCG đáy biên → rẻ hơn ngành −30% nhưng P/B
   khớp chất lượng. GIỚI HẠN ghi rõ: median giả định cấu trúc KD không đổi; biên có thể bị khoản
   phi cốt lõi thổi (đọc kèm cờ "lãi ngoài cốt lõi").
+- **Đọc theo QUÝ, không chỉ theo NĂM** (mục 8). Số năm làm mượt đà bào mòn: xu hướng biên
+  ròng/gộp + DSO theo ~8 quý lộ khúc suy yếu trước số năm. Quý VCI = số RỜI RẠC ở cột
+  `lengthReport` (1-4), verify bằng tổng 4 quý = năm (LCG 2025: 428+731+565+1276≈3.002 tỷ).
+  DSO theo quý = phải thu KH / doanh thu TTM(4 quý) × 365 (khử mùa vụ).
+- **Track record ban lãnh đạo = ROIC theo thời gian + phân bổ vốn** (mục 9). ROIC bền trên chi
+  phí vốn (~13%) = dùng vốn giỏi; ROIC tụt dưới chi phí vốn DÙ rót nhiều vốn (capex + đầu tư
+  sang đơn vị khác + đầu tư liên kết) = phân bổ vốn ĐỐT giá trị dù doanh thu vẫn tăng. Cờ khi
+  ROIC giảm + dưới hurdle + deployed >20% vốn CSH. Verify: LCG ROIC 13%→5% (2019→2025) sau khi
+  rót ~2.000 tỷ đa dạng hóa điện/BĐS → cờ đúng; FPT ROIC 15%→19% → điểm tựa.
 - **ĐIỀU TRA khi dữ liệu cho phép — KHÔNG để "nghi" chung chung.** Cờ nào chạm nghi ngờ mà data
   còn bóc sâu được thì phải bóc: vd "phải thu phình" → tách phải thu KHÁCH HÀNG (bán chịu) vs
   trả trước người bán vs phải thu khác + tính DSO (số ngày thu tiền) → kết luận CÓ BẰNG CHỨNG

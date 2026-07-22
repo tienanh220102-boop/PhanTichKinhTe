@@ -91,6 +91,7 @@ CF_DEBT_IN = "Tiền thu được các khoản đi vay"
 CF_DEBT_OUT = "Tiền trả nợ gốc vay"                                          # lưu ÂM
 CF_SHARE_ISSUE = "Tiền thu từ phát hành cổ phiếu, nhận vốn góp của chủ sở hữu"
 CF_SHARE_BUY = "Tiền chi trả vốn góp cho các chủ sở hữu, mua lại cổ phiếu của doanh nghiệp đã phát hành"
+CF_INVEST_OTHER = "Tiền chi đầu tư góp vốn vào đơn vị khác"   # rót vốn vào DN khác (đa dạng hóa/M&A) — lưu ÂM
 
 DAYS = 365.0
 
@@ -292,6 +293,7 @@ class VNDeepDive:
             "cff": self._series(cf, CF_CFF), "div_paid": self._series(cf, CF_DIV_PAID),
             "debt_in": self._series(cf, CF_DEBT_IN), "debt_out": self._series(cf, CF_DEBT_OUT),
             "share_issue": self._series(cf, CF_SHARE_ISSUE), "share_buy": self._series(cf, CF_SHARE_BUY),
+            "invest_other": self._series(cf, CF_INVEST_OTHER),
         }
 
         self._group_structure(dd, S)
@@ -303,6 +305,8 @@ class VNDeepDive:
         self._valuation(dd, symbol)
 
         self._recent_quarters(dd, symbol)
+        self._quarterly_trends(dd, symbol)
+        self._management_track(dd, symbol, S, ratios)
         self._make_verdict(dd)
         self._conclusion(dd)
         self._investment_view(dd)
@@ -360,6 +364,185 @@ class VNDeepDive:
                     f"🔴 Diễn biến gần đây (theo quý): Q{q1}/{y1} lãi {_t(ni1)} tụt mạnh so cùng kỳ "
                     f"năm trước ({_t(ni_prevyr)}) và so quý liền trước — cảnh báo sớm, số năm chưa "
                     f"phản ánh. *(1 quý có thể nhiễu — chờ quý sau xác nhận.)*")
+
+    # ------------------------------------------------------------------
+    # 8. DIỄN BIẾN THEO QUÝ — xu hướng biên & DSO (số năm làm mượt, quý lộ đà)
+    # ------------------------------------------------------------------
+    @staticmethod
+    def _qseries(df, col) -> Dict[tuple, float]:
+        """Chuỗi theo (năm, quý) từ báo cáo QUÝ; quý nằm ở cột lengthReport (1-4), số RỜI RẠC."""
+        if df is None or df.empty or "lengthReport" not in df.columns or col not in df.columns:
+            return {}
+        s = df[col]
+        if isinstance(s, pd.DataFrame):
+            s = s.iloc[:, 0]
+        out: Dict[tuple, float] = {}
+        for y, lr, v in zip(df["yearReport"], df["lengthReport"], s):
+            try:
+                out[(int(y), int(lr))] = float(v)
+            except (TypeError, ValueError):
+                continue
+        return out
+
+    def _quarterly_trends(self, dd: DeepDive, symbol: str) -> None:
+        """Biên gộp/ròng + DSO theo QUÝ (~8 quý). Số năm làm mượt đà bào mòn/cải thiện; quý lộ ra."""
+        if dd.is_bank:
+            return
+        try:
+            qi = self.fx.get_statement(symbol, "INCOME_STATEMENT", "quarter")
+            qb = self.fx.get_statement(symbol, "BALANCE_SHEET", "quarter")
+        except Exception:  # noqa: BLE001
+            return
+        rev = self._qseries(qi, I_REV); ni = self._qseries(qi, I_NI); gross = self._qseries(qi, I_GROSS)
+        recv = self._qseries(qb, B_RECV_TRADE) or self._qseries(qb, B_RECV)
+        keys = sorted(rev.keys())
+        used = [k for k in keys if rev.get(k) and rev[k] > 0]
+        if len(used) < 5:
+            return
+        rows, nm_seq, dso_seq = [], [], []
+        for i, k in enumerate(keys):
+            r = rev.get(k)
+            if not r or r <= 0:
+                continue
+            gm = _safe_div(gross.get(k), r); nm = _safe_div(ni.get(k), r)
+            # DSO = phải thu KH / doanh thu TTM (4 quý) × 365 (khử mùa vụ)
+            win4 = keys[max(0, i - 3):i + 1]
+            ttm = sum(rev.get(kk, 0) for kk in win4) if len(win4) == 4 else None
+            dso = (recv.get(k) / ttm * 365) if (ttm and ttm > 0 and recv.get(k) is not None) else None
+            rows.append({"Quý": f"Q{k[1]}/{k[0]}", "Doanh thu (tỷ)": round(r / 1e9),
+                         "Biên gộp": f"{gm*100:.1f}%" if gm is not None else "—",
+                         "Biên ròng": f"{nm*100:.1f}%" if nm is not None else "—",
+                         "DSO (ngày)": round(dso) if dso is not None else None})
+            nm_seq.append(nm if nm is not None else np.nan)
+            dso_seq.append(dso if dso is not None else np.nan)
+        if len(rows) < 4:
+            return
+        sec = Section("8. Diễn biến theo quý: xu hướng biên lợi nhuận & số ngày thu tiền (DSO)")
+        sec.table = pd.DataFrame(rows[-8:])
+        # xu hướng biên ròng: 4 quý gần vs 4 quý liền trước
+        nm_arr = np.array(nm_seq, dtype=float)
+        if np.sum(~np.isnan(nm_arr)) >= 6:
+            last4 = np.nanmean(nm_arr[-4:]); prev4 = np.nanmean(nm_arr[-8:-4])
+            if not np.isnan(last4) and not np.isnan(prev4):
+                d = last4 - prev4
+                word = ("CO DẦN 🔻" if d < -0.01 else "cải thiện" if d > 0.01 else "đi ngang")
+                sec.lines.append(f"Biên ròng 4 quý gần nhất bình quân {last4*100:.1f}% vs 4 quý trước "
+                                 f"{prev4*100:.1f}% → {word}.")
+                if d < -0.01:
+                    dd.metrics["margin_trend_q"] = "down"
+        # xu hướng DSO: quý gần nhất vs 4 quý trước
+        dso_arr = np.array(dso_seq, dtype=float)
+        valid_dso = dso_arr[~np.isnan(dso_arr)]
+        if len(valid_dso) >= 5:
+            dnow = valid_dso[-1]; dprev = valid_dso[-5] if len(valid_dso) >= 5 else valid_dso[0]
+            if dprev > 0:
+                chg = dnow / dprev - 1
+                if chg > 0.2 and dnow > 90:
+                    sec.lines.append(f"DSO tăng từ ~{dprev:.0f} lên ~{dnow:.0f} ngày (+{chg*100:.0f}%) "
+                                     f"qua ~1 năm — tiền bị chôn ở phải thu lâu hơn, theo dõi chất lượng thu tiền.")
+                elif chg < -0.15:
+                    sec.lines.append(f"DSO giảm từ ~{dprev:.0f} xuống ~{dnow:.0f} ngày — thu tiền nhanh lên.")
+                else:
+                    sec.lines.append(f"DSO đi ngang quanh ~{dnow:.0f} ngày.")
+        if not sec.lines:
+            sec.lines.append("Không đủ dữ liệu quý để kết luận xu hướng.")
+        sec.explain = [
+            "Báo cáo NĂM làm mượt: một năm biên tốt che khúc suy yếu ở quý cuối. Đọc theo QUÝ thấy "
+            "ĐÀ thật — biên đang co lại hay mở ra, DSO (số ngày thu tiền) đang phình hay rút. Biên "
+            "ròng co dần + DSO phình = cảnh báo sớm chất lượng lợi nhuận, thường lộ trước số năm."]
+        dd.sections["quarterly"] = sec
+
+    # ------------------------------------------------------------------
+    # 9. TRACK RECORD BAN LÃNH ĐẠO — ROIC theo thời gian & phân bổ vốn
+    # ------------------------------------------------------------------
+    def _management_track(self, dd: DeepDive, symbol: str, S: Dict, ratios) -> None:
+        """Ban lãnh đạo tạo hay ĐỐT giá trị: ROIC qua các năm + lịch sử phân bổ vốn (capex, rót
+        vốn sang mảng mới, cổ tức, pha loãng). Suất sinh lời trên vốn giảm dưới chi phí vốn dù rót
+        nhiều vốn = phân bổ vốn hủy giá trị (vd đa dạng hóa không hiệu quả)."""
+        if dd.is_bank:
+            return
+        roic: Dict[int, float] = {}
+        if ratios is not None and not ratios.empty and "roic" in ratios.columns:
+            ann = ratios[ratios["ratioType"] == "RATIO_YEAR"] if "ratioType" in ratios.columns else ratios
+            for y, v in zip(ann.get("yearReport", []), ann.get("roic", [])):
+                try:
+                    fv = float(v)
+                    if -1 < fv < 2:  # guardrail số rác
+                        roic[int(y)] = fv
+                except (TypeError, ValueError):
+                    continue
+        if len(roic) < 4:
+            return
+        years = sorted(roic)
+        win = years[-7:]
+        half = max(1, len(win) // 2)
+        early = [roic[y] for y in win[:half]]
+        late = [roic[y] for y in win[-half:]]
+        roic_early = sum(early) / len(early)
+        roic_late = sum(late) / len(late)
+        roic_now = roic[win[-1]]
+        r = getattr(self.valuation, "r", 0.13) if self.valuation else 0.13
+
+        def cum(key, signed=False):
+            s = S.get(key, {}) or {}
+            vals = [s.get(y) for y in win if s.get(y) is not None]
+            return sum(v if signed else abs(v) for v in vals)
+
+        capex = cum("capex"); invest_other = cum("invest_other")
+        div = cum("div_paid"); equity_raised = cum("share_issue", signed=True)
+        assoc = S.get("inv_assoc", {}) or {}
+        a_win = [y for y in win if assoc.get(y) is not None]
+        assoc_growth = (assoc[a_win[-1]] - assoc[a_win[0]]) if len(a_win) >= 2 else 0.0
+        equity_now = None
+        eq = S.get("equity", {}) or {}
+        if eq:
+            ey = [y for y in win if eq.get(y) is not None]
+            equity_now = eq[ey[-1]] if ey else None
+        deployed = capex + invest_other + max(0.0, assoc_growth)
+
+        sec = Section("9. Track record ban lãnh đạo: suất sinh lời trên vốn (ROIC) & phân bổ vốn")
+        sec.table = pd.DataFrame([{"Năm": y, "ROIC": f"{roic[y]*100:.1f}%"} for y in win])
+        trend = ("GIẢM 🔻" if roic_late < roic_early - 0.015 else
+                 "TĂNG" if roic_late > roic_early + 0.015 else "đi ngang")
+        sec.lines.append(f"ROIC bình quân {win[0]}–{win[half-1]}: {roic_early*100:.1f}% → "
+                         f"{win[-half]}–{win[-1]}: {roic_late*100:.1f}% ({trend}). "
+                         f"So chi phí vốn ~{r*100:.0f}%: ROIC hiện {roic_now*100:.1f}% "
+                         f"{'DƯỚI' if roic_now < r else 'trên'} chi phí vốn.")
+        alloc = [f"chi {_t(capex)} mua sắm/xây dựng TSCĐ (capex)"]
+        if invest_other > 0:
+            alloc.append(f"{_t(invest_other)} rót vốn sang đơn vị khác")
+        if assoc_growth > 0:
+            alloc.append(f"đầu tư liên kết tăng {_t(assoc_growth)}")
+        if div > 0:
+            alloc.append(f"trả cổ tức {_t(div)}")
+        if equity_raised > 0:
+            alloc.append(f"huy động thêm {_t(equity_raised)} vốn cổ phần (pha loãng)")
+        sec.lines.append(f"Phân bổ vốn {win[0]}–{win[-1]}: " + "; ".join(alloc) + ".")
+
+        big_deploy = equity_now is not None and deployed > 0.20 * equity_now
+        below_hurdle = sum(1 for y in win if roic[y] < r) >= max(2, len(win) - 2)
+        if roic_late < r and roic_late < roic_early - 0.02 and big_deploy:
+            sec.flags.append(
+                f"🔻 Phân bổ vốn CHƯA tạo giá trị: rót ~{_t(deployed)} vào capex/đầu tư nhưng ROIC "
+                f"giảm còn {roic_late*100:.1f}% (< chi phí vốn ~{r*100:.0f}%) — vốn mở rộng chưa "
+                f"đẻ ra suất sinh lời tương xứng (vd đa dạng hóa/dự án mới chưa hiệu quả).")
+            dd.metrics["capital_allocation"] = "destroying"
+        elif below_hurdle and trend != "TĂNG":
+            sec.lines.append(f"⚠️ ROIC nhiều năm dưới chi phí vốn (~{r*100:.0f}%) — đồng vốn sinh lời "
+                             f"kém hơn kỳ vọng của cổ đông; cần lý do tăng trưởng bù lại.")
+            dd.metrics["capital_allocation"] = "below_hurdle"
+        elif roic_late >= r and roic_late >= roic_early - 0.005:
+            dd.positives.append(f"✅ Phân bổ vốn kỷ luật: ROIC giữ {roic_late*100:.1f}% ≥ chi phí "
+                                f"vốn ~{r*100:.0f}% qua chu kỳ.")
+            dd.metrics["capital_allocation"] = "creating"
+        sec.explain = [
+            "ROIC = suất sinh lời trên đồng vốn thực bỏ vào kinh doanh. Đây là thước đo ban lãnh "
+            "đạo dùng tiền GIỎI hay không: ROIC bền trên chi phí vốn (~13%) = mỗi đồng tái đầu tư "
+            "sinh thêm giá trị; ROIC tụt dưới chi phí vốn dù rót nhiều vốn (đa dạng hóa, dự án mới) "
+            "= đang ĐỐT giá trị dù doanh thu có thể vẫn tăng.",
+            "Lịch sử phân bổ vốn cho thấy tiền đi đâu: capex (mở rộng cốt lõi), rót sang đơn vị "
+            "khác (đa dạng hóa), cổ tức/mua lại CP (trả lại cổ đông), phát hành CP (pha loãng)."]
+        dd.sections["management"] = sec
 
     def _price_anchors(self, dd: DeepDive, ratios) -> None:
         """Lưu neo định giá (P/E, P/B lịch sử) để dựng khung giá kịch bản. P/B ổn định hơn cho
@@ -1239,7 +1422,7 @@ class VNDeepDive:
     def _conclusion(self, dd: DeepDive) -> None:
         if dd.is_bank:
             return
-        sec = Section("8. Tổng hợp & điều cần theo dõi")
+        sec = Section("10. Tổng hợp & điều cần theo dõi")
         # định giá đắt/rẻ — ưu tiên stance đã chốt (chu kỳ+peer nếu có), nêu rõ CƠ SỞ
         val_stance = ""
         detail = dd.metrics.get("val_stance_detail")
