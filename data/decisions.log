@@ -1,11 +1,3 @@
-2026-06-14 16:17 SKIP_EVENING already_sent date=2026-06-14
-2026-06-14 16:31 SKIP_MORNING already_sent date=2026-06-14
-2026-06-14 16:31 SKIP_EVENING already_sent date=2026-06-14
-2026-06-14 19:01 ACCEPT [OilPrice.com] "Alaska’s Untapped Oil Wealth Is Still Struggling to Find Investors" | kw:oil,gas,iron
-2026-06-14 21:01 ACCEPT [OilPrice.com] "Nuclear Drives “All of the Above” Trend in Energy Security" | kw:gas
-2026-06-14 22:01 ACCEPT [MarketWatch] "Trump says U.S. has reached peace deal with Iran" | kw:oil
-2026-06-14 22:31 ACCEPT [MarketWatch] "Stock futures soar, oil prices fall as Trump says U.S. has reached pea" | kw:oil,rice
-2026-06-14 23:01 ACCEPT [MarketWatch] "Stock futures jump, oil prices fall as Trump says U.S. has reached pea" | kw:oil,rice
 2026-06-14 23:01 ACCEPT [Al Jazeera] "US-Iran ceasefire deal announced, Trump says Strait of Hormuz reopenin" | kw:shipping
 2026-06-14 23:31 ACCEPT [BBC Business] "Millions of people can get discounts on their bills - here's how" | kw:tariff
 2026-06-15 00:01 ACCEPT [BBC Business] "Oil prices slide after Pakistan announces deal between US and Iran" | kw:oil,rice
@@ -20006,3 +19998,6 @@
 2026-07-22 00:02 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
 2026-07-22 00:02 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
 2026-07-22 00:02 SENT_MORNING articles=20 date=2026-07-22 force=False
+2026-07-22 00:31 ACCEPT [Google News HH] "BREAKING NEWS: Japan's crude oil imports from Middle East plunge 26.4%" | kw:oil,crude
+2026-07-22 00:31 ACCEPT [Google News KL] "Canadian stocks rise 1% as gold prices climb despite US tariff threat " | kw:gold,rice,tariff
+2026-07-22 00:31 SKIP_MORNING already_sent date=2026-07-22
