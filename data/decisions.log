@@ -1,5 +1,3 @@
-2026-06-15 02:51 SKIP_MORNING already_sent date=2026-06-15
-2026-06-15 03:01 SKIP_MORNING already_sent date=2026-06-15
 2026-06-15 03:31 SKIP_MORNING already_sent date=2026-06-15
 2026-06-15 04:01 SKIP_MORNING already_sent date=2026-06-15
 2026-06-15 04:31 SKIP_MORNING already_sent date=2026-06-15
@@ -20000,3 +19998,7 @@
 2026-07-22 01:31 SKIP_MORNING already_sent date=2026-07-22
 2026-07-22 01:49 ACCEPT [Google News KL] "LME copper rose nearly 2%, SHFE copper rose over 1.6%, and tight suppl" | kw:copper,rice
 2026-07-22 01:49 SKIP_MORNING already_sent date=2026-07-22
+2026-07-22 02:01 ACCEPT [Google News HH] "Crude Oil vs Brent Oil Spread c1 News - Investing.com" | kw:oil,crude,brent
+2026-07-22 02:01 ACCEPT [Google News KL] "Gold Trading Alert: Ceasefire Hopes in the Middle East Boost Gold Pric" | kw:gold,rice
+2026-07-22 02:01 ACCEPT [Google News CB] "Gold nears two-week high as Fed outlook, Middle East conflict stay in " | kw:gold
+2026-07-22 02:01 SKIP_MORNING already_sent date=2026-07-22
