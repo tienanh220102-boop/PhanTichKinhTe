@@ -1,11 +1,3 @@
-2026-06-15 14:31 SKIP_MORNING already_sent date=2026-06-15
-2026-06-15 14:31 SKIP_EVENING already_sent date=2026-06-15
-2026-06-15 14:57 ACCEPT [MarketWatch] "20 growth stocks priced as value stocks" | kw:rice
-2026-06-15 14:57 ACCEPT [BBC Business] "How could the US-Iran deal affect oil prices and the cost of food?" | kw:oil,rice
-2026-06-15 14:57 SKIP_MORNING already_sent date=2026-06-15
-2026-06-15 14:57 SKIP_EVENING already_sent date=2026-06-15
-2026-06-15 15:01 ACCEPT [MarketWatch] "Here’s when gas prices will go down now that there’s a deal to end the" | kw:gas,rice
-2026-06-15 15:01 ACCEPT [The Guardian Biz] "Oil and gas unlikely to return to prewar prices for months even if Hor" | kw:oil,crude,gas
 2026-06-15 15:01 SKIP_MORNING already_sent date=2026-06-15
 2026-06-15 15:01 SKIP_EVENING already_sent date=2026-06-15
 2026-06-15 15:31 ACCEPT [MarketWatch] "Rocket Lab’s stock rebounds, as one analyst says the SpaceX-fueled sel" | kw:fuel
@@ -20006,3 +19998,8 @@
 2026-07-22 05:11 ACCEPT [Google News KL] "Gold rallies to over two-week high, eyes $4,150 as traders track US-Ir" | kw:gold
 2026-07-22 05:11 ACCEPT [Google News CB] "[Interest Rates & Bond Market] Futures declined; the long-term interes" | kw:interest rate
 2026-07-22 05:11 SKIP_MORNING already_sent date=2026-07-22
+2026-07-22 05:31 ACCEPT [Google News HH] "Elliott Wave analysis: WTI Crude Oil (CL) five‑swing rally from July l" | kw:oil,crude,wti
+2026-07-22 05:31 ACCEPT [Google News HH] "Oil and Gold: Price review for the week ahead - FXStreet" | kw:oil,gold,rice
+2026-07-22 05:31 ACCEPT [Google News HH] "Sensex Tanks 589 pts, Nifty Crashes Below 24,050 On Rising Crude Oil P" | kw:oil,crude,rice
+2026-07-22 05:31 ACCEPT [Google News CB] "We expect no rate hike this month by the Fed, but with hawish message " | kw:inflation,rate hike
+2026-07-22 05:31 SKIP_MORNING already_sent date=2026-07-22
