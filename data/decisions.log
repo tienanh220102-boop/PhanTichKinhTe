@@ -1,9 +1,3 @@
-2026-06-16 10:01 ACCEPT [Google News CB] "Global shares are mostly higher and Japan's Nikkei tops 70,000 before " | kw:rate hike,boj
-2026-06-16 10:01 ACCEPT [Google News CB] "Kevin Warsh's Fed debut comes at a pivotal moment for global monetary " | kw:wti,monetary policy
-2026-06-16 10:01 SKIP_MORNING already_sent date=2026-06-16
-2026-06-16 10:31 ACCEPT [MarketWatch] "Overnight price spike sees SpaceX overtake Amazon as America’s fifth-l" | kw:rice
-2026-06-16 10:31 ACCEPT [Google News HH] "Trump says oil tankers pass Hormuz after deal, but visible traffic sti" | kw:oil
-2026-06-16 10:31 ACCEPT [Google News HH] "Gold, Silver Futures Rise Early Tuesday as Crude Oil Drops After Trump" | kw:oil,crude,gold
 2026-06-16 10:31 ACCEPT [Google News HH] "Gold price forecast: can bullion hit $4,500 as Citi turns more bullish" | kw:gold,rice
 2026-06-16 10:31 ACCEPT [Google News HH] "WTI, Brent Crude Oil Futures Extend Slide Pre-Bell as Trump Says Next " | kw:oil,crude,brent
 2026-06-16 10:31 ACCEPT [Google News HH] "ICE cotton rises on weaker dollar, optimism from easing crude oil - Fi" | kw:oil,crude,cotton
@@ -20004,3 +19998,9 @@
 2026-07-22 21:34 ACCEPT [Google News NS] "Temporary Trump tariffs set to expire Friday - Brownfield Ag News" | kw:tariff
 2026-07-22 21:34 ACCEPT [Google News NS] "Myanmar corn trade hit as Thailand’s CP Group suspends purchases - NP " | kw:corn
 2026-07-22 21:34 ACCEPT [Google News CB] "A 10% Credit Card Interest Rate Cap Could Hurt the Communities It Seek" | kw:interest rate
+2026-07-22 22:01 ACCEPT [OilPrice.com] "Houthi Red Sea Blockade Could Shatter Hopes for Lower Oil Prices" | kw:oil,crude,rice
+2026-07-22 22:01 ACCEPT [Google News HH] "El Niño's Impact on Global Commodity Markets - Funds Society" | kw:commodity
+2026-07-22 22:01 ACCEPT [Google News HH] "U.S. Commercial Crude Oil Stockpiles Post Weekly Build - Moomoo" | kw:oil,crude
+2026-07-22 22:01 ACCEPT [Google News NS] "CBOT review: Wheat rallies amid Black Sea logistics issues - The Weste" | kw:wheat
+2026-07-22 22:01 ACCEPT [Google News NS] "Three New Moroccan Durum Wheat Varieties Take On Drought and Extreme H" | kw:wheat,drought
+2026-07-22 22:01 ACCEPT [Google News CB] "U.S. 10-year Treasury yield rises as traders reassess Fed rate hike be" | kw:fed rate,treasury,rate hike
