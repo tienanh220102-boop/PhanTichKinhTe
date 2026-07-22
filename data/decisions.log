@@ -1,14 +1,3 @@
-2026-06-16 07:01 ACCEPT [Google News CB] "BOJ likely to have a tightening bias for the foreseeable future: Analy" | kw:boj,tightening
-2026-06-16 07:01 ACCEPT [Google News CB] "Japanese Yen gives up some gains against Euro as BoJ hikes rates by 25" | kw:boj
-2026-06-16 07:01 ACCEPT [Google News CB] "USD/JPY Outlook: BOJ sticks to the script as Nikkei rips to record hig" | kw:boj
-2026-06-16 07:01 ACCEPT [Google News CB] "Australia central bank holds rates, warns hikes might not be over - Ya" | kw:central bank
-2026-06-16 07:01 ACCEPT [Google News CB] "Asian shares are mostly higher and Japan's Nikkei tops 70,000 before B" | kw:rate hike,boj
-2026-06-16 07:01 ACCEPT [Google News CB] "BREAKING NEWS: BOJ to hike rate to stably achieve 2% inflation target:" | kw:inflation,boj
-2026-06-16 07:01 SKIP_MORNING already_sent date=2026-06-16
-2026-06-16 07:31 ACCEPT [OilPrice.com] "ConocoPhillips Set to Become First U.S. Major to Sign Post-War Syria G" | kw:gas
-2026-06-16 07:31 ACCEPT [Google News HH] "When Gold’s Price “Goes Up,” You’re Reading It Backward - GoldSilver" | kw:gold,silver,rice
-2026-06-16 07:31 ACCEPT [Google News HH] "ICE cotton rises on weaker dollar, optimism from easing crude oil - Fi" | kw:oil,crude,cotton
-2026-06-16 07:31 ACCEPT [Google News HH] "Trump Says Iran Deal Is 'All Signed,' But Key Questions Remain As Stra" | kw:oil,crude
 2026-06-16 07:31 ACCEPT [Google News KL] "Gold edges higher as US-Iran peace deal eases rate hike concerns - Reu" | kw:gold,rate hike
 2026-06-16 07:31 ACCEPT [Google News KL] "Brent, gold and silver forecasts shift as oil outlook weakens and meta" | kw:oil,brent,gold
 2026-06-16 07:31 ACCEPT [Google News CB] "BoJ hikes interest rate by 25 bps to 1% as expected - FXStreet" | kw:interest rate,boj
@@ -20009,3 +19998,4 @@
 2026-07-22 17:01 ACCEPT [Google News KL] "Mexico’s Grupo Mexico Q2 Profit Soars on Higher Copper Prices - ChemAn" | kw:copper,rice
 2026-07-22 17:01 ACCEPT [Google News NS] "Prairie Wheat Weekly: Spring wheat bids climb higher - Grainews" | kw:wheat
 2026-07-22 17:01 ACCEPT [Google News CB] "Warsh, Kashkari lead the charge as Fed hawks dominate FOMC consensus -" | kw:fomc
+2026-07-22 17:30 ACCEPT [OilPrice.com] "GE Vernova Raises Outlook As AI Power Boom Masks Wind Weakness" | kw:gas
