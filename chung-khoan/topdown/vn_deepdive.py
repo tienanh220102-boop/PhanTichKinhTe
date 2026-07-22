@@ -666,6 +666,7 @@ class VNDeepDive:
                         comp.append(f"{nm} {_t(d[y1])}")
                 if comp:
                     sec.lines.append(f"Cơ cấu phải thu {y1} ({_t(recv_tot[y1])}): " + ", ".join(comp) + ".")
+            growth_flagged = False
             if g_trade is not None and g_rev is not None:
                 sec.lines.append(
                     f"Phải thu khách hàng {y1} {_pct(g_trade)} so doanh thu {_pct(g_rev)}"
@@ -673,6 +674,7 @@ class VNDeepDive:
                        if (dso0 and dso1) else "") + ".")
                 # KẾT LUẬN có bằng chứng (không còn 'nghi' chung chung)
                 if g_trade - g_rev > 0.20 and g_trade > 0.15:
+                    growth_flagged = True
                     dso_txt = (f"số ngày thu tiền tăng từ {dso0:.0f} lên {dso1:.0f} ngày"
                                if (dso0 and dso1) else "vòng quay thu tiền chậm lại")
                     # hiệu chỉnh mức tuyệt đối: DSO vẫn thấp thì theo dõi, không báo động
@@ -686,6 +688,14 @@ class VNDeepDive:
                     sec.flags.append(
                         f"🔻 Bán chịu tăng nhanh hơn bán hàng: phải thu KHÁCH HÀNG {_pct(g_trade)} "
                         f"vs doanh thu {_pct(g_rev)} ({y1}), {dso_txt}. {tail}")
+            # LEVEL check — phải thu ở MỨC cao (vốn kẹt), KHÔNG chỉ tốc độ. Vá lỗi lọt LCG (DSO 244
+            # ngày, 0 cờ vì không phình nhanh hơn doanh thu). Chỉ báo khi tốc-độ chưa bắt.
+            if dso1 is not None and dso1 > 150 and not growth_flagged:
+                sev = "RẤT cao" if dso1 > 220 else "cao"
+                sec.flags.append(
+                    f"🔻 Phải thu ở mức {sev}: DSO {dso1:.0f} ngày ≈ {dso1/DAYS*100:.0f}% doanh thu "
+                    f"cả năm kẹt ở phải thu khách hàng {y1} — vốn bị chôn, rủi ro thu tiền / thanh "
+                    f"toán chậm (đặc biệt với nhà thầu vốn ngân sách). Soi tuổi nợ + mức tập trung khách hàng.")
         ys = sorted(set(rev) & set(inv))
         if len(ys) >= 2:
             y0, y1 = ys[-2], ys[-1]

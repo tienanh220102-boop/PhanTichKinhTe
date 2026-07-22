@@ -83,7 +83,8 @@ catalyst/thời điểm luôn nằm ngoài BCTC → BẮT BUỘC cross-check ngu
 **Đã vá vào code (tất định):** giá snapshot→cảnh báo tự in; Beneish false-positive→đối chiếu CFO
 3 năm ≥80% thì hạ ghi chú; cờ cổ tức→ngưỡng ≥10% lãi ròng; "phụ thuộc vốn góp"→đòi FCF âm;
 "cấu trúc đơn giản"→dùng danh sách công ty con; CCC BĐS vô lý→watchdog DIO>900; "nghi phải
-thu"→bóc tách+DSO; **số năm bỏ sót turnaround→đọc thêm số QUÝ** (bắt MSR Q4/25→Q1/26 bật).
+thu"→bóc tách+DSO; **số năm bỏ sót turnaround→đọc thêm số QUÝ** (bắt MSR Q4/25→Q1/26 bật);
+**phải thu chỉ bắt TỐC ĐỘ, bỏ sót MỨC→thêm cờ DSO tuyệt đối >150 ngày** (vá lọt LCG DSO 244).
 
 **Giới hạn cấu trúc (KHÔNG vá code được — phải cross-check ngoài):** mù với quý mới nhất/giá
 hàng hóa/chính sách/backlog/tin M&A; rating-target Vietcap cũng snapshot; Beneish/Altman
