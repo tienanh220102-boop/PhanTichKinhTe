@@ -1,12 +1,3 @@
-2026-06-16 10:31 ACCEPT [Google News KL] "Gold firms as US-Iran deal cools rate hike bets ahead of Fed meeting -" | kw:gold,rate hike
-2026-06-16 10:31 ACCEPT [Google News KL] "[SMM Analysis] June Nickel Sulphate Market Analysis: Price Under Press" | kw:nickel,rice
-2026-06-16 10:31 ACCEPT [Google News CB] "Kevin Warsh's first Fed press conference looms as inflation surge make" | kw:inflation,rate cut,easing
-2026-06-16 10:31 ACCEPT [Google News CB] "EIB chief Calvino rules herself out of ECB running - Reuters" | kw:ecb
-2026-06-16 10:31 ACCEPT [Google News CB] "Dollar drifts, no respite for yen after BOJ hikes rates as expected - " | kw:boj
-2026-06-16 10:31 ACCEPT [Google News CB] "Warsh’s debut Fed press conference may reveal his strategy for inflati" | kw:inflation
-2026-06-16 10:31 ACCEPT [Google News CB] "Bank of Japan raises its key interest rate to a three-decade high of 1" | kw:inflation,interest rate,bank of japan
-2026-06-16 10:31 SKIP_MORNING already_sent date=2026-06-16
-2026-06-16 11:01 ACCEPT [NASDAQ Commod] "Gold Inches Higher As Oil Extends Slide On Iran Deal" | kw:oil,gold,rice
 2026-06-16 11:01 ACCEPT [Google News KL] "Gold prices today, Tuesday, June 16: Prices firming ahead of Fed meeti" | kw:gold,rice
 2026-06-16 11:01 ACCEPT [Google News KL] "Silver price forecast: can XAG/USD rebound as Fed rate bets shift? - C" | kw:silver,rice,fed rate
 2026-06-16 11:01 ACCEPT [Google News KL] "Gold Investors Are Likely Confused - Investing.com" | kw:gold
@@ -20007,3 +19998,12 @@
 2026-07-22 22:31 ACCEPT [Google News NS] "CBOT review: Wheat rallies amid Black Sea logistics issues - Canadian " | kw:wheat
 2026-07-22 22:31 ACCEPT [Google News CB] "What “anchored inflation expectations” mean for the Fed - marketplace." | kw:inflation
 2026-07-22 22:31 ACCEPT [Google News CB] "ECB to pause rate hikes but signal that more may be needed - Reuters" | kw:rate hike,ecb
+2026-07-22 22:54 ACCEPT [Al Jazeera] "Yemen’s Houthis claim attack on two Saudi oil tankers" | kw:oil,embargo
+2026-07-22 22:54 ACCEPT [Al Jazeera] "US launches new strikes as Iran warns of regional turmoil" | kw:oil
+2026-07-22 22:54 ACCEPT [OilPrice.com] "Equinor CEO: Europe May Miss Winter Gas Storage Goal" | kw:gas,lng
+2026-07-22 22:54 ACCEPT [Google News NS] "Midweek Cash Markets | Cash prices firmly higher in soybeans and wheat" | kw:wheat,soybean,rice
+2026-07-22 22:54 ACCEPT [Google News NS] "Why Are Corn, Soybean and Wheat Prices Surging Again? - Agrolatam" | kw:wheat,corn,soybean
+2026-07-22 22:54 ACCEPT [Google News NS] "Crops Analysis | Chicago wheat surges above $7.00 mark - Pro Farmer" | kw:wheat
+2026-07-22 22:54 ACCEPT [Google News NS] "Ag in Motion 2026 video: Canola, wheat futures climbing - The Western " | kw:wheat
+2026-07-22 22:54 ACCEPT [Google News NS] "Daily Grain Prices in Western Canada - Canadian Cattlemen" | kw:rice
+2026-07-22 22:54 ACCEPT [Google News CB] "The Fed Follows Interest Rates, It's Not A Leader (BATS:GOVZ) - Seekin" | kw:interest rate
