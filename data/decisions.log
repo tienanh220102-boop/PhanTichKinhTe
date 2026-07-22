@@ -1,9 +1,3 @@
-2026-06-15 01:02 SKIP_MORNING already_sent date=2026-06-15
-2026-06-15 01:31 ACCEPT [Al Jazeera] "Zimbabwe’s climate migrants fear eviction as crackdown intensifies" | kw:drought
-2026-06-15 01:31 ACCEPT [OilPrice.com] "Oil Prices Plunge as U.S. and Iran Reach Deal to Reopen Strait of Horm" | kw:oil,crude,brent
-2026-06-15 01:31 SKIP_MORNING already_sent date=2026-06-15
-2026-06-15 02:01 SKIP_MORNING already_sent date=2026-06-15
-2026-06-15 02:31 SKIP_MORNING already_sent date=2026-06-15
 2026-06-15 02:51 SKIP_MORNING already_sent date=2026-06-15
 2026-06-15 03:01 SKIP_MORNING already_sent date=2026-06-15
 2026-06-15 03:31 SKIP_MORNING already_sent date=2026-06-15
@@ -20004,3 +19998,5 @@
 2026-07-22 01:31 ACCEPT [Google News NS] "Commodity markets daily recap - St Joseph Post" | kw:commodity
 2026-07-22 01:31 ACCEPT [Google News NS] "Wheat prices in Moldova rise due to logistics disruptions in the Azov " | kw:wheat,rice
 2026-07-22 01:31 SKIP_MORNING already_sent date=2026-07-22
+2026-07-22 01:49 ACCEPT [Google News KL] "LME copper rose nearly 2%, SHFE copper rose over 1.6%, and tight suppl" | kw:copper,rice
+2026-07-22 01:49 SKIP_MORNING already_sent date=2026-07-22
