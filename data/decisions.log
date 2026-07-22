@@ -1,14 +1,3 @@
-2026-06-16 02:05 ACCEPT [Google News KL] "IRNA: Dollar and Gold Prices Plunge Following Iran-U.S. Agreement - Ir" | kw:gold,rice
-2026-06-16 02:05 ACCEPT [Google News KL] "Gold, silver prices steady as traders eye global cues - MSN" | kw:gold,silver,rice
-2026-06-16 02:05 ACCEPT [Google News KL] "Gold rallies above $4,350 as oil prices tumble, but analysts say recov" | kw:oil,gold,rice
-2026-06-16 02:05 ACCEPT [Google News KL] "Oil and Gold: Price review for the week ahead - FXStreet" | kw:oil,gold,rice
-2026-06-16 02:05 ACCEPT [Google News KL] "Gold Price Forecasts: Analysts Weigh In on Potential Rally and Risks |" | kw:gold,rice
-2026-06-16 02:05 ACCEPT [Google News KL] "/C O R R E C T I O N -- Kootenay Silver Inc./ - PR Newswire" | kw:silver
-2026-06-16 02:05 ACCEPT [Google News KL] "Gold Trading Alert: Gold price soars past $4,300! Unexpected ceasefire" | kw:gold,rice
-2026-06-16 02:05 ACCEPT [Google News KL] "Gold Prices Surge Amid US-Iran Agreement, Influencing Market Tre - Gur" | kw:gold,rice
-2026-06-16 02:05 ACCEPT [Google News KL] "Gold steady as investors await details of US-Iran peace deal - Yahoo N" | kw:gold
-2026-06-16 02:05 ACCEPT [Google News KL] "Space trade hype sends gold price crashing back to earth - AFR" | kw:gold,rice
-2026-06-16 02:05 ACCEPT [Google News KL] "Torex Gold: From Capex-Heavy To Free Cash Powerhouse (OTCMKTS:TORXF) -" | kw:gold
 2026-06-16 02:05 ACCEPT [Google News KL] "Barclays sees gold hitting $4,900 as Iran-driven correction fades - in" | kw:wti,gold
 2026-06-16 02:05 ACCEPT [Google News NS] "Storms, flooding test corn and soybean farmers - Farm Progress" | kw:corn,soybean,flood
 2026-06-16 02:05 ACCEPT [Google News NS] "USW Summer Board Meeting to Highlight Market Challenges, Export Succes" | kw:wheat
@@ -20009,3 +19998,6 @@
 2026-07-22 12:01 ACCEPT [Google News CB] "Euro holds near five-week highs against Yen despite BoJ tightening rum" | kw:boj,tightening
 2026-07-22 12:01 ACCEPT [Google News CB] "Japanese Yen: Hawkish BoJ signals versus Fed risk – Rabobank - FXStree" | kw:boj
 2026-07-22 12:01 SKIP_MORNING already_sent date=2026-07-22
+2026-07-22 12:10 ACCEPT [Google News HH] "Nifty, Sensex decline for third day on higher crude oil prices, sellin" | kw:oil,crude,rice
+2026-07-22 12:10 ACCEPT [Google News CB] "“Battle of the Counties” tournament coming - ECB Publishing, Inc." | kw:lng,ecb
+2026-07-22 12:10 SKIP_MORNING already_sent date=2026-07-22
