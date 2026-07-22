@@ -1,11 +1,3 @@
-2026-06-16 06:31 ACCEPT [Google News NS] "Grain Markets Feeling Some Pressure as South American Harvests a Big C" | kw:harvest
-2026-06-16 06:31 ACCEPT [Google News NS] "Ukrainian corn is losing ground in export markets - UA.NEWS" | kw:corn
-2026-06-16 06:31 ACCEPT [Google News CB] "Australia’s Central Bank Holds Interest Rates, Warns More Hikes May Co" | kw:central bank,interest rate
-2026-06-16 06:31 ACCEPT [Google News CB] "All eyes turn to Fed chair Kevin Warsh and his first moves on interest" | kw:interest rate
-2026-06-16 06:31 ACCEPT [Google News CB] "ECB hikes interest rates for first time since 2023 - Euractiv" | kw:interest rate,ecb
-2026-06-16 06:31 ACCEPT [Google News CB] "Australia Central Bank Holds Rates, Warns Hikes Might Not Be Over - U." | kw:central bank
-2026-06-16 06:31 ACCEPT [Google News CB] "Bullock Speech: RBA Governor addresses press conference after pausing " | kw:interest rate,rate hike
-2026-06-16 06:31 ACCEPT [Google News CB] "Crypto Overview: Bitcoin weighs BOJ hikes interest rate to 1%, Uniswap" | kw:interest rate,boj
 2026-06-16 06:31 ACCEPT [Google News CB] "The Fed should stop making excuses for inflation - AFR" | kw:inflation
 2026-06-16 06:31 SKIP_MORNING already_sent date=2026-06-16
 2026-06-16 07:01 ACCEPT [Google News HH] "Petrobras ADRs Slide as Crude Oil Drops on Middle East De-escalation H" | kw:oil,crude
@@ -20006,3 +19998,16 @@
 2026-07-22 16:15 ACCEPT [Google News CB] "‘Inflation Is a Choice’: Cracking Fed Chair Kevin Warsh’s Code Before " | kw:inflation
 2026-07-22 16:15 SKIP_MORNING already_sent date=2026-07-22
 2026-07-22 16:15 SKIP_EVENING already_sent date=2026-07-22
+2026-07-22 16:31 ACCEPT [MarketWatch] "Global oil prices hold gains after topping $95 a barrel for the first " | kw:oil,rice
+2026-07-22 16:31 ACCEPT [Google News HH] "Crude Oil Prices Jump, Stocks Still Holding Up For Now - FOREX.com" | kw:oil,crude,rice
+2026-07-22 16:31 ACCEPT [Google News HH] "US Oil, Product Inventories See Builds Across the Board - Crude Oil Pr" | kw:oil,crude,rice
+2026-07-22 16:31 ACCEPT [Google News HH] "Nasdaq, Bitcoin Forecast: Crude Oil Surge Toward $90 Threatens Market " | kw:oil,crude
+2026-07-22 16:31 ACCEPT [Google News HH] "US Equity Indexes Mixed Amid Higher Crude Oil Prices, Treasury Yields " | kw:oil,crude,rice
+2026-07-22 16:31 ACCEPT [Google News KL] "Supply squeeze and elevated raw material costs lift prices: Nickel Q2 " | kw:nickel,rice
+2026-07-22 16:31 ACCEPT [Google News KL] "Rising economic fears weakening inflation’s stranglehold on gold price" | kw:gold,rice,inflation
+2026-07-22 16:31 ACCEPT [Google News KL] "Southern Copper Corp Stock (SCCO) Moved Up by 3.83% on Jul 22: What Si" | kw:copper
+2026-07-22 16:31 ACCEPT [Google News CB] "Why the ECB Will Probably Hold Rates Steady Despite Iran Inflation Fea" | kw:inflation,ecb
+2026-07-22 16:31 ACCEPT [Google News CB] "Euro Technical Outlook: EUR/USD Poised for Breakout Ahead of ECB - FOR" | kw:ecb
+2026-07-22 16:31 ACCEPT [Google News CB] "Fed revamps inflation tracker amid potential rate hikes - Crypto Brief" | kw:inflation,rate hike
+2026-07-22 16:31 SKIP_MORNING already_sent date=2026-07-22
+2026-07-22 16:31 SKIP_EVENING already_sent date=2026-07-22
