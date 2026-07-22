@@ -1,7 +1,3 @@
-2026-06-15 13:01 ACCEPT [BBC Business] "What's happening to UK petrol and diesel prices now the US and Iran ha" | kw:fuel,rice
-2026-06-15 13:01 ACCEPT [The Guardian Biz] "Oil prices hit three-month low and markets rally amid Iran deal breakt" | kw:oil,crude,brent
-2026-06-15 13:01 SKIP_MORNING already_sent date=2026-06-15
-2026-06-15 13:02 SENT_EVENING articles=20 date=2026-06-15
 2026-06-15 13:31 ACCEPT [OilPrice.com] "First LNG Tanker Clears Hormuz After U.S.-Iran Deal Announcement" | kw:lng
 2026-06-15 13:31 SKIP_MORNING already_sent date=2026-06-15
 2026-06-15 13:31 SKIP_EVENING already_sent date=2026-06-15
@@ -20002,3 +19998,11 @@
 2026-07-22 04:31 ACCEPT [Google News HH] "Crude Oil Price Approaches Our Price Target – Analysis – 22-07-2026 - " | kw:oil,crude,rice
 2026-07-22 04:31 ACCEPT [Google News CB] "Gold hits two-week high as Fed outlook, Middle East conflict stay in f" | kw:gold
 2026-07-22 04:31 SKIP_MORNING already_sent date=2026-07-22
+2026-07-22 05:01 ACCEPT [Google News HH] "Commodities: Oil Moves Higher As Supply Risks Build - Seeking Alpha" | kw:oil,commodities
+2026-07-22 05:01 ACCEPT [Google News HH] "Gold price in India: Rates on July 22 - FXStreet" | kw:gold,rice
+2026-07-22 05:01 ACCEPT [Google News HH] "Markets decline in early trade on higher crude oil prices, selling in " | kw:oil,crude,rice
+2026-07-22 05:01 ACCEPT [Google News HH] "Insurers cut prices to attract low-risk oil and gas projects: FT - Tra" | kw:oil,gas,rice
+2026-07-22 05:01 ACCEPT [Google News KL] "Gold's Long-Term Target at $6,000? Wells Fargo Sees $500 Downside Risk" | kw:gold
+2026-07-22 05:01 ACCEPT [Google News CB] "Gold hits two-week high as Fed outlook, Middle East conflict stay in f" | kw:gold
+2026-07-22 05:01 ACCEPT [Google News CB] "Japan imports jump to record high on oil price surge, complicating BOJ" | kw:oil,rice,boj
+2026-07-22 05:01 SKIP_MORNING already_sent date=2026-07-22
