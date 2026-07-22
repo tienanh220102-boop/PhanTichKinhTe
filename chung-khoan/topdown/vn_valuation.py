@@ -75,6 +75,31 @@ def _pct_rank(series: pd.Series, value: float) -> Optional[float]:
     return round(float((s < value).mean()) * 100, 1)
 
 
+def _annual_rows(df: pd.DataFrame) -> pd.DataFrame:
+    """Chỉ giữ dòng SỐ CẢ NĂM (RATIO_YEAR), loại các dòng TTM theo quý.
+
+    VCI trả mỗi năm 5 dòng: quarter 1-4 = TTM theo quý (ratioType RATIO_TTM) dùng giá
+    tại các thời điểm khác nhau; quarter 5 = số cả năm (RATIO_YEAR). Percentile lịch sử
+    và biên mid-cycle PHẢI dùng số NĂM — trộn TTM-quý vào làm méo phân phối (giá khác kỳ).
+
+    LƯU Ý: quarter KHÔNG bao giờ = 0 ở nguồn này (nên filter cũ `quarter==0` luôn rỗng).
+    """
+    if "ratioType" in df.columns:
+        a = df[df["ratioType"] == "RATIO_YEAR"]
+        if not a.empty:
+            return a.reset_index(drop=True)
+    if "quarter" in df.columns:
+        a = df[pd.to_numeric(df["quarter"], errors="coerce") == 5]
+        if not a.empty:
+            return a.reset_index(drop=True)
+    return df
+
+
+def _fmt_pct(v: Optional[float]) -> str:
+    """Định dạng % gọn, chịu None."""
+    return f"{v:.1%}" if isinstance(v, (int, float)) else "n/a"
+
+
 def _verdict_from_pct(pct: Optional[float]) -> str:
     if pct is None:
         return "không đủ lịch sử"
@@ -117,11 +142,10 @@ class VNValuation:
         if ratios.empty:
             return {"symbol": symbol, "error": "không có dữ liệu ratio"}
 
-        # Chuỗi năm (quarter rỗng/0) để tính percentile lịch sử
-        annual = ratios[ratios.get("quarter").fillna(0) == 0] if "quarter" in ratios else ratios
-        if annual.empty:
-            annual = ratios
-        latest = annual.iloc[-1].to_dict()
+        # Chuỗi SỐ CẢ NĂM (RATIO_YEAR) cho percentile lịch sử; latest = dòng mới nhất
+        # (TTM hiện tại) cho định giá hiện thời. (Sửa: filter cũ `quarter==0` luôn rỗng.)
+        annual = _annual_rows(ratios)
+        latest = ratios.iloc[-1].to_dict()
 
         out: Dict[str, object] = {
             "symbol": symbol,
@@ -309,6 +333,274 @@ class VNValuation:
                     f"{label} {mine:.2f} vs median ngành {med:.2f} ({disc:+.0%}) → {verdict}")
         return out
 
+    # ================= CHUẨN HÓA CHU KỲ (mid-cycle) — phân biệt rẻ-cơ-hội vs rẻ-đáng-đời =========
+    # Bội số SPOT méo nặng với mã CHU KỲ (xây dựng, đầu tư công, thép): P/E thấp trên lãi ĐỈNH
+    # trông "rẻ" nhưng ảo; P/E cao trên lãi ĐÁY trông "đắt" nhưng có thể là cơ hội. Chuẩn hóa =
+    # đưa biên về mid-cycle (trung vị nhiều năm) rồi đọc lại bội số.
+    #   P/E_chuẩn = P/E_spot × (biên_hiện_tại / biên_mid)   [doanh thu triệt tiêu]
+    #   ROE_chuẩn = ROE_spot × (biên_mid / biên_hiện_tại)
+    #   justified P/B (m24) = (ROE_chuẩn − g)/(r − g), chỉ có nghĩa khi ROE_chuẩn > g.
+    # GIẢ ĐỊNH/GIỚI HẠN: coi doanh thu ở mức hiện tại, chỉ biên hồi quy về mid-cycle; median
+    # nhiều năm giả định cấu trúc kinh doanh KHÔNG đổi (DN suy thoái cấu trúc → median thổi phồng).
+
+    def _latest_revenue_equity(self, symbol: str):
+        """(doanh_thu_thuần, vốn_CSH) năm gần nhất — chỉ dùng cho fallback năm LỖ."""
+        rev = eq = None
+        try:
+            inc = self.fx.get_statement(symbol, "INCOME_STATEMENT")
+            if not inc.empty and "Doanh thu thuần" in inc.columns:
+                if "yearReport" in inc.columns:
+                    inc = inc.sort_values("yearReport")
+                rev = float(pd.to_numeric(inc["Doanh thu thuần"], errors="coerce").dropna().iloc[-1])
+        except Exception:  # noqa: BLE001
+            pass
+        try:
+            bs = self.fx.get_statement(symbol, "BALANCE_SHEET")
+            if not bs.empty and "Vốn chủ sở hữu" in bs.columns:
+                if "yearReport" in bs.columns:
+                    bs = bs.sort_values("yearReport")
+                eq = float(pd.to_numeric(bs["Vốn chủ sở hữu"], errors="coerce").dropna().iloc[-1])
+        except Exception:  # noqa: BLE001
+            pass
+        return rev, eq
+
+    def _cycle_metrics(self, df: pd.DataFrame, revenue_cur: Optional[float] = None,
+                       equity_cur: Optional[float] = None, min_years: int = 4) -> Dict[str, object]:
+        """Metrics chuẩn hóa chu kỳ từ df ratios (thuần; fallback năm lỗ cần revenue/equity)."""
+        ann = _annual_rows(df)
+        margins = pd.to_numeric(ann.get("afterTaxProfitMargin", pd.Series(dtype=float)),
+                                errors="coerce").dropna()
+        margins = margins[margins != 0]
+        res: Dict[str, object] = {"đủ_dữ_liệu": False, "cờ": []}
+        if len(margins) < min_years:
+            res["note"] = f"chỉ {len(margins)} năm biên (< {min_years}) → chưa đủ để chuẩn hóa chu kỳ"
+            return res
+        med_m = float(margins.median())
+        cur = df.iloc[-1].to_dict()
+        pe_s = _clean(cur, "pe")
+        pb_s = _clean(cur, "pb")
+        roe_s = _clean(cur, "roe")
+        mcap = _mcap(cur)
+        try:
+            mar_c = float(cur.get("afterTaxProfitMargin"))
+        except (TypeError, ValueError):
+            mar_c = None
+        if med_m <= 0:
+            res["note"] = f"biên trung vị ≤ 0 ({med_m:.1%}) → lỗ xuyên chu kỳ, chuẩn hóa vô nghĩa"
+            res["cờ"].append("lỗ xuyên chu kỳ")
+            return res
+
+        pe_n = roe_n = None
+        method = "tỷ lệ biên"
+        if mar_c is not None and mar_c > 0:
+            if pe_s is not None:
+                pe_n = pe_s * (mar_c / med_m)
+            if roe_s is not None:
+                roe_n = roe_s * (med_m / mar_c)
+        else:
+            method = "lãi chuẩn hóa từ doanh thu (năm lỗ)"
+            if revenue_cur and mcap:
+                ln_norm = med_m * revenue_cur
+                if ln_norm > 0:
+                    pe_n = mcap / ln_norm
+                    if equity_cur and equity_cur > 0:
+                        roe_n = ln_norm / equity_cur
+            if pe_n is None:
+                res["cờ"].append("biên hiện tại ≤0 (đang lỗ) & thiếu doanh thu → chưa chuẩn hóa được")
+
+        if mar_c is None:
+            cyc = "?"
+        elif mar_c > med_m * 1.15:
+            cyc = "ĐỈNH"
+        elif mar_c < med_m * 0.85:
+            cyc = "ĐÁY"
+        else:
+            cyc = "giữa"
+
+        jpb_n = None
+        if roe_n is not None and (self.r - self.g) > 0:
+            if roe_n > self.g:
+                jpb_n = (roe_n - self.g) / (self.r - self.g)
+            else:
+                res["cờ"].append(f"ROE chuẩn hóa ({roe_n:.1%}) ≤ g ({self.g:.0%}) → "
+                                 "justified P/B không áp dụng (không tạo giá trị trên vốn)")
+
+        res.update({
+            "đủ_dữ_liệu": pe_n is not None,
+            "n_năm": int(len(margins)),
+            "biên_hiện_tại": round(mar_c, 4) if mar_c is not None else None,
+            "biên_mid": round(med_m, 4),
+            "chu_kỳ": cyc,
+            "pe_spot": round(pe_s, 2) if pe_s is not None else None,
+            "pe_chuẩn": round(pe_n, 2) if pe_n is not None else None,
+            "pb": round(pb_s, 2) if pb_s is not None else None,
+            "roe_spot": round(roe_s, 4) if roe_s is not None else None,
+            "roe_chuẩn": round(roe_n, 4) if roe_n is not None else None,
+            "justified_pb_chuẩn": round(jpb_n, 2) if jpb_n is not None else None,
+            "phương_pháp": method,
+        })
+        return res
+
+    def normalized_cycle(self, symbol: str, min_years: int = 4) -> Dict[str, object]:
+        """Chuẩn hóa chu kỳ cho MỘT mã phi ngân hàng → P/E & ROE mid-cycle + justified P/B.
+
+        Bank → bỏ qua (dùng CAMELS + P/B-ROE ở assess, m13). Năm lỗ → tự lấy doanh thu +
+        vốn CSH để tính lãi chuẩn hóa trực tiếp.
+        """
+        symbol = symbol.upper().strip()
+        sec = self.sx.sector_of(symbol)
+        if sec.get("is_bank"):
+            return {"symbol": symbol, "đủ_dữ_liệu": False,
+                    "note": "ngân hàng — đọc bằng CAMELS + P/B-ROE (m13), không chuẩn hóa biên"}
+        df = self.fx.get_ratios(symbol)
+        if df.empty:
+            return {"symbol": symbol, "đủ_dữ_liệu": False, "note": "không có dữ liệu ratio"}
+        rev = eq = None
+        try:
+            need_fb = float(df.iloc[-1].get("afterTaxProfitMargin")) <= 0
+        except (TypeError, ValueError):
+            need_fb = True
+        if need_fb:
+            rev, eq = self._latest_revenue_equity(symbol)
+        res = self._cycle_metrics(df, revenue_cur=rev, equity_cur=eq, min_years=min_years)
+        res["symbol"] = symbol
+        return res
+
+    @staticmethod
+    def _pb_quality_split(pb_a, jpb_a, pb_b, jpb_b) -> Optional[Dict[str, float]]:
+        """Phân rã chiết khấu P/B của A so B: phần 'đáng đời' (do ROE) vs phần 'dư' (cơ hội/rủi ro ẩn).
+
+        chênh_thực = P/B_A/P/B_B − 1 ; chênh_hợp_lý = jP/B_A/jP/B_B − 1 (từ ROE chuẩn hóa).
+        dư = thực − hợp_lý: âm ⇒ A rẻ HƠN mức chất lượng cho phép (rẻ cơ hội); ~0 ⇒ rẻ đáng đời.
+        """
+        if not (pb_a and pb_b and jpb_a and jpb_b) or pb_b <= 0 or jpb_a <= 0 or jpb_b <= 0:
+            return None
+        actual = pb_a / pb_b - 1
+        justified = jpb_a / jpb_b - 1
+        return {"chênh_pb_thực": actual, "chênh_pb_hợp_lý": justified, "dư": actual - justified}
+
+    def compare_pair(self, a: str, b: str) -> Dict[str, object]:
+        """So TRỰC TIẾP hai mã sau chuẩn hóa chu kỳ — trả lời 'vì sao A rẻ hơn B'."""
+        a = a.upper().strip(); b = b.upper().strip()
+        na = self.normalized_cycle(a)
+        nb = self.normalized_cycle(b)
+        out: Dict[str, object] = {"cặp": f"{a} vs {b}", a: na, b: nb, "diễn_giải": []}
+        d: List[str] = out["diễn_giải"]
+        if not (na.get("đủ_dữ_liệu") and nb.get("đủ_dữ_liệu")):
+            d.append(f"Thiếu dữ liệu chuẩn hóa ({a}: {na.get('note','ok') if not na.get('đủ_dữ_liệu') else 'ok'}; "
+                     f"{b}: {nb.get('note','ok') if not nb.get('đủ_dữ_liệu') else 'ok'}) → không so được chu kỳ.")
+            return out
+        d.append(f"Chu kỳ: {a} đang ở biên {na['chu_kỳ']} ({na['biên_hiện_tại']:.1%} vs mid {na['biên_mid']:.1%}); "
+                 f"{b} ở biên {nb['chu_kỳ']} ({nb['biên_hiện_tại']:.1%} vs mid {nb['biên_mid']:.1%}).")
+        d.append(f"P/E spot: {a} {na['pe_spot']} vs {b} {nb['pe_spot']} → "
+                 f"P/E CHUẨN HÓA: {a} {na['pe_chuẩn']} vs {b} {nb['pe_chuẩn']}.")
+        # phát hiện đảo thứ hạng khi chuẩn hóa
+        if na['pe_spot'] and nb['pe_spot'] and na['pe_chuẩn'] and nb['pe_chuẩn']:
+            spot_cheaper = a if na['pe_spot'] < nb['pe_spot'] else b
+            norm_cheaper = a if na['pe_chuẩn'] < nb['pe_chuẩn'] else b
+            if spot_cheaper != norm_cheaper:
+                cyc_sc = na["chu_kỳ"] if spot_cheaper == a else nb["chu_kỳ"]
+                d.append(f"⚠️ ĐẢO CHIỀU: spot cho thấy {spot_cheaper} rẻ hơn, nhưng sau chuẩn hóa "
+                         f"{norm_cheaper} mới thực rẻ hơn — bội số spot của {spot_cheaper} bị méo bởi biên "
+                         f"{'đỉnh' if cyc_sc == 'ĐỈNH' else 'đáy' if cyc_sc == 'ĐÁY' else 'chu kỳ'}.")
+        # cầu P/B ↔ ROE chuẩn hóa
+        d.append(f"P/B: {a} {na['pb']} vs {b} {nb['pb']}; ROE chuẩn hóa: {a} "
+                 f"{_fmt_pct(na['roe_chuẩn'])} vs {b} {_fmt_pct(nb['roe_chuẩn'])}; "
+                 f"justified P/B: {a} {na['justified_pb_chuẩn']} vs {b} {nb['justified_pb_chuẩn']}.")
+        split = self._pb_quality_split(na['pb'], na['justified_pb_chuẩn'],
+                                       nb['pb'], nb['justified_pb_chuẩn'])
+        if split:
+            thuc, hop_ly, du = split["chênh_pb_thực"], split["chênh_pb_hợp_lý"], split["dư"]
+            verdict = ("RẺ CƠ HỘI — chiết khấu vượt mức chất lượng (bị bỏ quên)" if du < -0.05 else
+                       "RẺ ĐÁNG ĐỜI — chiết khấu do ROE thấp hơn, đúng mức" if du > 0.05 else
+                       "chiết khấu khớp đúng chênh lệch chất lượng")
+            d.append(f"{a} có P/B {thuc:+.0%} so {b}; chất lượng (justified P/B từ ROE chuẩn hóa) "
+                     f"chênh {hop_ly:+.0%}. Phần dư {du:+.0%} → {verdict}.")
+        else:
+            d.append("Không phân rã được cầu P/B–ROE (justified P/B ≤ 0 ở ít nhất một mã — ROE chuẩn hóa ≤ g).")
+        return out
+
+    def cycle_peer_compare(self, symbol: str, level: str = "icb_l2", max_peers: int = 30,
+                           min_valid: int = 4, same_exchange: bool = True,
+                           min_mcap_ty: float = 500.0) -> Dict[str, object]:
+        """So mã với PEER cùng ngành TRÊN BỘI SỐ CHUẨN HÓA CHU KỲ (không phải spot).
+
+        Trả P/E chuẩn hóa của mã vs MEDIAN peer + cầu P/B–ROE chuẩn hóa → verdict
+        rẻ-cơ-hội / rẻ-đáng-đời / không-rẻ so với ngành. Peer dùng phương pháp tỷ lệ biên
+        (nhẹ, 1 call/mã); peer năm lỗ hoặc thiếu năm bị BỎ khỏi median (ghi rõ số bỏ).
+        """
+        symbol = symbol.upper().strip()
+        sec = self.sx.sector_of(symbol)
+        if sec.get("is_bank"):
+            return {"symbol": symbol, "note": "ngân hàng — không áp chuẩn hóa biên (m13 CAMELS)"}
+        me = self.normalized_cycle(symbol)
+        if not me.get("đủ_dữ_liệu"):
+            return {"symbol": symbol, "note": f"mã đích thiếu dữ liệu chuẩn hóa: {me.get('note')}"}
+        floor = min_mcap_ty * 1e9
+        peers = self.sx.peers(symbol, level=level, same_exchange=same_exchange)[:max_peers]
+        pe_norm_vals, roe_norm_vals, jpb_vals, pb_vals = [], [], [], []
+        used = skipped = 0
+        for p in peers:
+            try:
+                dfp = self.fx.get_ratios(p)
+            except Exception:  # noqa: BLE001
+                continue
+            if dfp.empty:
+                continue
+            mc = _mcap(dfp.iloc[-1].to_dict())
+            if mc is not None and mc < floor:
+                skipped += 1
+                continue
+            m = self._cycle_metrics(dfp)  # peer: không fallback năm lỗ
+            if not m.get("đủ_dữ_liệu") or m.get("pe_chuẩn") is None:
+                skipped += 1
+                continue
+            pe_norm_vals.append(m["pe_chuẩn"])
+            if m.get("pb") is not None:
+                pb_vals.append(m["pb"])
+            if m.get("roe_chuẩn") is not None:
+                roe_norm_vals.append(m["roe_chuẩn"])
+            if m.get("justified_pb_chuẩn") is not None:
+                jpb_vals.append(m["justified_pb_chuẩn"])
+            used += 1
+
+        out: Dict[str, object] = {
+            "symbol": symbol, "ngành": f"{sec.get('icb_l2')} ({level})",
+            "chu_kỳ_mã": me["chu_kỳ"], "số_peer_dùng": used, "bỏ_qua": skipped,
+            "mã": {"pe_spot": me["pe_spot"], "pe_chuẩn": me["pe_chuẩn"], "pb": me["pb"],
+                    "roe_chuẩn": me["roe_chuẩn"], "justified_pb_chuẩn": me["justified_pb_chuẩn"]},
+            "nhận_định": [],
+        }
+        n: List[str] = out["nhận_định"]
+        if used < min_valid:
+            n.append(f"Chỉ {used} peer đủ chuẩn hóa (< {min_valid}) → so peer chuẩn hóa không đáng tin.")
+            return out
+        med_pe_n = float(np.median(pe_norm_vals))
+        med_jpb = float(np.median(jpb_vals)) if jpb_vals else None
+        out["median_ngành"] = {"pe_chuẩn": round(med_pe_n, 2),
+                                "justified_pb_chuẩn": round(med_jpb, 2) if med_jpb else None,
+                                "n_pe": len(pe_norm_vals), "n_jpb": len(jpb_vals)}
+        disc_pe = me["pe_chuẩn"] / med_pe_n - 1 if med_pe_n > 0 else None
+        if disc_pe is not None:
+            v = ("RẺ hơn ngành" if disc_pe < -0.15 else
+                 "ĐẮT hơn ngành" if disc_pe > 0.15 else "ngang ngành")
+            n.append(f"P/E chuẩn hóa {me['pe_chuẩn']} vs median ngành {med_pe_n:.1f} "
+                     f"({disc_pe:+.0%}) → {v} (đã khử méo đỉnh/đáy chu kỳ).")
+        # so P/B mã với median P/B ngành, phân rã theo justified P/B ngành
+        if pb_vals and me.get("pb"):
+            med_pb = float(np.median(pb_vals))
+            if med_jpb and me.get("justified_pb_chuẩn"):
+                sp = self._pb_quality_split(me["pb"], me["justified_pb_chuẩn"], med_pb, med_jpb)
+                if sp:
+                    du = sp["dư"]
+                    verdict = ("RẺ CƠ HỘI — chiết khấu P/B vượt mức chất lượng ngành (bị bỏ quên)"
+                               if du < -0.05 else
+                               "RẺ ĐÁNG ĐỜI — P/B thấp tương xứng ROE chuẩn hóa thấp" if du > 0.05 else
+                               "P/B khớp đúng chất lượng ngành")
+                    n.append(f"P/B {me['pb']} vs median ngành {med_pb:.2f} ({sp['chênh_pb_thực']:+.0%}); "
+                             f"chất lượng chênh {sp['chênh_pb_hợp_lý']:+.0%}; dư {du:+.0%} → {verdict}.")
+        return out
+
     @staticmethod
     def _summarize(out: Dict, is_bank: bool, roe: Optional[float], pb: Optional[float]) -> str:
         n_flag = len(out["cờ_rủi_ro"])
@@ -343,13 +635,59 @@ def _print_assessment(a: Dict[str, object]) -> None:
           f"g={a['giả_định']['g (dài hạn)']:.0%})")
 
 
+def _print_cycle(c: Dict[str, object]) -> None:
+    if not c.get("đủ_dữ_liệu"):
+        print(f"  {c.get('symbol','?')}: (không chuẩn hóa được) {c.get('note','')}")
+        return
+    print(f"  {c['symbol']} [{c['chu_kỳ']}]: P/E {c['pe_spot']}→{c['pe_chuẩn']} (chuẩn hóa) | "
+          f"P/B {c['pb']} | ROE chuẩn {_fmt_pct(c['roe_chuẩn'])} | "
+          f"justified P/B {c['justified_pb_chuẩn']} | biên {_fmt_pct(c['biên_hiện_tại'])}"
+          f" vs mid {_fmt_pct(c['biên_mid'])}")
+    for f in c.get("cờ", []):
+        print(f"      ⚠ {f}")
+
+
 if __name__ == "__main__":
+    import argparse
     ensure_utf8_stdout()
     logging.basicConfig(level=logging.WARNING)
+    ap = argparse.ArgumentParser(description="Định giá + chuẩn hóa chu kỳ (m23/m24)")
+    ap.add_argument("--pair", nargs=2, metavar=("A", "B"),
+                    help="So trực tiếp 2 mã sau chuẩn hóa chu kỳ (vd --pair LCG VCG)")
+    ap.add_argument("--cycle", nargs="+", metavar="SYM", help="Chuẩn hóa chu kỳ cho các mã")
+    ap.add_argument("--peer", metavar="SYM", help="So peer ngành trên bội số CHUẨN HÓA")
+    args = ap.parse_args()
     v = VNValuation()
-    for sym in ("FPT", "VCB"):
-        _print_assessment(v.assess(sym))
-        pc = v.peer_compare(sym)
-        print(f"  So peer ngành ({pc['ngành']}, {pc['số_peer_dùng']} peer):")
-        for n in pc["nhận_định_peer"]:
-            print(f"    ◦ {n}")
+
+    if args.pair:
+        res = v.compare_pair(*args.pair)
+        print(f"\n{'='*66}\nVÌ SAO {args.pair[0]} RẺ HƠN {args.pair[1]}? (chuẩn hóa chu kỳ)\n{'='*66}")
+        for line in res["diễn_giải"]:
+            print(f"  {line}")
+    if args.cycle:
+        print(f"\n{'='*66}\nCHUẨN HÓA CHU KỲ\n{'='*66}")
+        for sym in args.cycle:
+            _print_cycle(v.normalized_cycle(sym))
+    if args.peer:
+        pc = v.cycle_peer_compare(args.peer)
+        print(f"\n{'='*66}\nSO PEER CHUẨN HÓA — {args.peer} ({pc.get('ngành','?')})\n{'='*66}")
+        if pc.get("note"):
+            print(f"  {pc['note']}")
+        for line in pc.get("nhận_định", []):
+            print(f"  ◦ {line}")
+
+    if not (args.pair or args.cycle or args.peer):
+        # demo mặc định: assess (kiểm không regress) + câu hỏi LCG vs VCG
+        for sym in ("FPT", "VCB"):
+            _print_assessment(v.assess(sym))
+            pc = v.peer_compare(sym)
+            print(f"  So peer ngành ({pc['ngành']}, {pc['số_peer_dùng']} peer):")
+            for n in pc["nhận_định_peer"]:
+                print(f"    ◦ {n}")
+        print(f"\n{'='*66}\nDEMO chuẩn hóa chu kỳ: LCG/VCG/HHV\n{'='*66}")
+        for sym in ("LCG", "VCG", "HHV"):
+            _print_cycle(v.normalized_cycle(sym))
+        res = v.compare_pair("LCG", "VCG")
+        print(f"\nVÌ SAO LCG RẺ HƠN VCG?")
+        for line in res["diễn_giải"]:
+            print(f"  {line}")
