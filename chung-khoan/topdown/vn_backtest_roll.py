@@ -19,6 +19,7 @@ trừ phí. Không phải bằng chứng cuối cùng, nhưng mạnh hơn 1-kỳ
 from __future__ import annotations
 
 import logging
+import os
 from typing import Dict, List, Optional
 
 import numpy as np
@@ -50,7 +51,13 @@ def _ret(px: pd.DataFrame, y0: int, dyears: int) -> Optional[float]:
     return None
 
 
-def collect() -> pd.DataFrame:
+_CACHE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "reports", "bt_roll_cache.csv")
+
+
+def collect(use_cache: bool = True) -> pd.DataFrame:
+    if use_cache and os.path.exists(_CACHE):
+        logger.warning("Nạp cache %s (xóa để tải mới)", _CACHE)
+        return pd.read_csv(_CACHE)
     fx = VCIFundamentals(); sx = VCISectors(); dc = VCIClient(); td = VNTopDown()
     uni = td.liquid_universe(top=TOP_UNIVERSE)
     syms = list(uni["symbol"])
@@ -77,7 +84,13 @@ def collect() -> pd.DataFrame:
             if r1 is None and r2 is None:
                 continue
             rows.append({"sym": s, "entry": y, **sc, "ret1": r1, "ret2": r2})
-    return pd.DataFrame(rows)
+    df = pd.DataFrame(rows)
+    try:
+        os.makedirs(os.path.dirname(_CACHE), exist_ok=True)
+        df.to_csv(_CACHE, index=False)
+    except Exception:  # noqa: BLE001
+        pass
+    return df
 
 
 def _block_perm(df: pd.DataFrame, mask: np.ndarray, retcol: str,
@@ -110,6 +123,44 @@ def _block_perm(df: pd.DataFrame, mask: np.ndarray, retcol: str,
         null[i] = np.mean(sps)
     p = float(np.mean(np.abs(null) >= abs(actual)))
     return actual, p, len(years), per_year
+
+
+def _one(label: str, sub: pd.DataFrame, mask: np.ndarray, rng: np.random.Generator,
+         ret: str = "ret2") -> None:
+    res = _block_perm(sub, mask, ret, rng)
+    if res is None:
+        print(f"  {label:40}: không đủ năm/nhóm hợp lệ"); return
+    a, p, ny, py = res
+    mark = "✓" if p < 0.05 else ("~" if p < 0.15 else "✗")
+    spreads = " ".join(f"{y}:{sp*100:+.0f}%" for y, sp, _, _ in py)
+    print(f"  {label:40}: TB {a*100:+5.1f}% p={p:.3f}{mark} ({ny}n) [{spreads}]")
+
+
+def deep_value(df: pd.DataFrame, rng: np.random.Generator) -> None:
+    """Câu hỏi quyết định: SỰ TINH VI (chuẩn hóa chu kỳ + chất lượng) có ăn tiền hơn 'rẻ+sạch'
+    đơn giản không? Nếu KHÔNG → nên bỏ bớt phức tạp. Tất cả ở horizon 2 NĂM (ret2)."""
+    df = df.copy()
+    df["pe_norm"] = np.where((df["pe"] > 0) & (df["cyc_pos"] > 0), df["pe"] * df["cyc_pos"], np.nan)
+    df["cheap"] = df.groupby("entry")["pb"].transform(
+        lambda s: s <= s.median() if s.notna().any() else False)
+    cn = df.groupby("entry")["pe_norm"].transform(
+        lambda s: s <= s.median() if s.notna().any() else False)
+    df["cheap_norm"] = cn & df["pe_norm"].notna()
+
+    print(f"\n{'='*70}\nDEEP-DIVE: sự tinh vi có ĂN TIỀN hơn 'rẻ + sạch' đơn giản? (2 NĂM)\n{'='*70}")
+    print("Q1 — Chuẩn hóa chu kỳ có HƠN rẻ P/B đơn giản không?")
+    _one("Rẻ P/B (đơn giản, baseline)", df, df["cheap"].values, rng)
+    _one("Rẻ P/E CHUẨN HÓA chu kỳ", df, df["cheap_norm"].values, rng)
+    print("\nQ2 — TRONG nhóm rẻ, chất lượng có tách 'rẻ cơ hội' khỏi 'bẫy giá trị'?")
+    cheap = df[df["cheap"]].reset_index(drop=True)
+    _one("(trong rẻ) sạch cờ vs có cờ", cheap, (cheap["n_flags"] == 0).values, rng)
+    _one("(trong rẻ) ROIC≥10% vs <10%", cheap, (cheap["roic_mean"] >= 0.10).values, rng)
+    print("\nQ3 — Chất lượng có CỨU tín hiệu đáy-margin (đang thua −22%) không?")
+    trough = df[df["cyc_pos"] < 0.9].reset_index(drop=True)
+    _one("(trong đáy biên) sạch cờ vs có cờ", trough, (trough["n_flags"] == 0).values, rng)
+    _one("(trong đáy biên) rẻ vs đắt", trough, (trough["cheap"]).values, rng)
+    print("\nĐỌC: nếu 'chuẩn hóa' ≈ 'rẻ đơn giản' → phức tạp KHÔNG ăn tiền thêm. Nếu chất lượng")
+    print("tách được trong nhóm rẻ/đáy → cầu P/B-ROE có ích. Vẫn small-n, đọc spread từng năm.")
 
 
 def run() -> None:
@@ -163,6 +214,8 @@ def run() -> None:
     print("ĐỌC: spread từng năm cho thấy tín hiệu có NHẤT QUÁN không (thắng cả năm sập lẫn năm")
     print("hồi?), hay chỉ đúng 1 năm rồi trung bình ra dương. Nhất quán + p thấp = đáng tin hơn.")
     print("Caveat: survivorship bias (chống phát hiện), cửa sổ 2-năm chồng lấn, chưa trừ phí.")
+
+    deep_value(df, rng)
 
 
 if __name__ == "__main__":
