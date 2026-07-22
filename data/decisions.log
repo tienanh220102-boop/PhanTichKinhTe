@@ -1,17 +1,3 @@
-2026-06-16 02:05 ACCEPT [Google News NS] "Crops Analysis | Cotton scores third consecutive up day - Pro Farmer" | kw:cotton
-2026-06-16 02:05 ACCEPT [Google News NS] "Corn Bounces Off Lows - Can $4.50 Open the Door for More Relief? - Bar" | kw:corn
-2026-06-16 02:05 ACCEPT [Google News NS] "Corn Growers Need USMCA - Western Ag Network" | kw:corn
-2026-06-16 02:05 ACCEPT [Google News NS] "USDA Grain Bids Report June 15, 2026: Cash Prices, Basis Levels, and E" | kw:rice
-2026-06-16 02:05 ACCEPT [Google News NS] "Nibulon ranks seventh among Ukraine exporters - World-Grain.com" | kw:gdp
-2026-06-16 02:05 ACCEPT [Google News NS] "IMO sets carbon footprint for Brazilian corn ethanol and opens shippin" | kw:fuel,corn,shipping
-2026-06-16 02:05 ACCEPT [Google News NS] "Peace Deal Shakes Agriculture Markets as Grain Prices Slide - Agrolata" | kw:rice
-2026-06-16 02:05 ACCEPT [Google News NS] "Corn, soybeans slip after USDA raises stock estimates - agronews.com" | kw:corn,soybean
-2026-06-16 02:05 ACCEPT [Google News NS] "Weaponized waterways unsettle grain freight - World-Grain.com" | kw:freight
-2026-06-16 02:05 ACCEPT [Google News NS] "Corn hits nine-month low as US–Iran peace deal pressures grain markets" | kw:corn
-2026-06-16 02:05 ACCEPT [Google News NS] "North Korea’s grain stores look more stable, but a good harvest deserv" | kw:harvest
-2026-06-16 02:05 ACCEPT [Google News NS] "USDA Chief Economist Provides Forecast for Winter Wheat Production - S" | kw:wheat
-2026-06-16 02:05 ACCEPT [Google News NS] "India's Ethanol Boom Could Open New Markets for U.S. Corn - StoneX" | kw:corn
-2026-06-16 02:05 ACCEPT [Google News NS] "Global market pressures on Ukrainian soybean export prices – APK-Infor" | kw:soybean,rice
 2026-06-16 02:05 ACCEPT [Google News NS] "CM orders crackdown on wheat hoarding - The Express Tribune" | kw:wheat
 2026-06-16 02:05 ACCEPT [Google News NS] "Afex: Grain prices to remain elevated in coming months - CNBC Africa" | kw:rice
 2026-06-16 02:07 SENT_MORNING articles=20 date=2026-06-16 force=True
@@ -20012,3 +19998,18 @@
 2026-07-22 13:01 ACCEPT [Google News CB] "US Dollar Price Forecast: Fed and ECB Rate Decisions – Are GBP/USD and" | kw:rice,rate decision,ecb
 2026-07-22 13:01 SKIP_MORNING already_sent date=2026-07-22
 2026-07-22 13:02 SENT_EVENING articles=20 date=2026-07-22 force=False
+2026-07-22 13:31 ACCEPT [OilPrice.com] "Iran War Escalation Threatens Global Fuel Supply Recovery" | kw:crude,fuel,flood
+2026-07-22 13:31 ACCEPT [Google News HH] "U.S. Stocks May Move Back To The Downside Amid Surging Crude Oil Price" | kw:oil,crude,rice
+2026-07-22 13:31 ACCEPT [Google News HH] "Making commodities creative - Newsbug.info" | kw:commodities
+2026-07-22 13:31 ACCEPT [Google News HH] "VIVAKOR EXPANDS PHYSICAL CRUDE OIL MARKETING PLATFORM TO OVER $700 MIL" | kw:oil,crude
+2026-07-22 13:31 ACCEPT [Google News HH] "Crude Oil rally weighs on stocks as Dollar strengthens [video] - FXStr" | kw:oil,crude
+2026-07-22 13:31 ACCEPT [Google News HH] "Oil prices extend gains as disruptions in the Strait of Hormuz and the" | kw:oil,rice
+2026-07-22 13:31 ACCEPT [Google News KL] "Current price of gold as of July 22, 2026 - Fortune" | kw:gold,rice
+2026-07-22 13:31 ACCEPT [Google News KL] "Gold extends gains for third day as silver jumps 4% - MSN" | kw:gold,silver
+2026-07-22 13:31 ACCEPT [Google News NS] "Will Black Sea tensions keep driving wheat and corn prices higher? - A" | kw:wheat,corn,rice
+2026-07-22 13:31 ACCEPT [Google News NS] "Price increases across most food and beverage categories are tightenin" | kw:rice,tightening
+2026-07-22 13:31 ACCEPT [Google News CB] "WEEKLY WEBCAST: Fed Rate Hike Still On The Table - Yardeni QuickTakes" | kw:fed rate,rate hike
+2026-07-22 13:31 ACCEPT [Google News CB] "South Africa inflation surge sets stage for another rate hike - WTVB" | kw:inflation,rate hike
+2026-07-22 13:31 ACCEPT [Google News CB] "SpaceX ends its losing streak, oil prices jump, the Fed's AI red flags" | kw:oil,rice
+2026-07-22 13:31 SKIP_MORNING already_sent date=2026-07-22
+2026-07-22 13:31 SKIP_EVENING already_sent date=2026-07-22
