@@ -83,9 +83,9 @@ def _annual_upto(ratios: pd.DataFrame, year: int) -> pd.DataFrame:
     return r.sort_values("yearReport") if not r.empty else pd.DataFrame()
 
 
-def score_point_in_time(fx: VCIFundamentals, sym: str, is_bank: bool) -> Optional[dict]:
-    """Chấm điểm CHỈ bằng số ≤ CUTOFF_YEAR. Trả cờ forensic + tín hiệu định giá/chất lượng/chu kỳ
-    (point-in-time, lookahead sạch) để backtest xem tín hiệu MỚI có dự báo lợi nhuận không."""
+def score_point_in_time(fx: VCIFundamentals, sym: str, is_bank: bool,
+                        cutoff: int = CUTOFF_YEAR) -> Optional[dict]:
+    """Fetch (1 lần) + chấm điểm point-in-time ≤ cutoff. Dùng cho backtest 1-kỳ."""
     if is_bank:
         return None
     try:
@@ -94,9 +94,16 @@ def score_point_in_time(fx: VCIFundamentals, sym: str, is_bank: bool) -> Optiona
         ratios = fx.get_ratios(sym)
     except Exception:  # noqa: BLE001
         return None
-    cfo = _series_upto(cf, C_CFO, CUTOFF_YEAR)
-    ni = _series_upto(inc, C_NI, CUTOFF_YEAR)
-    rev = _series_upto(inc, C_REV, CUTOFF_YEAR)
+    return _score_from_frames(inc, cf, ratios, cutoff)
+
+
+def _score_from_frames(inc: pd.DataFrame, cf: pd.DataFrame, ratios: pd.DataFrame,
+                       cutoff: int) -> Optional[dict]:
+    """Chấm điểm từ 3 báo cáo ĐÃ tải, filter ≤ cutoff (dùng lại cho rolling: fetch 1 lần/mã,
+    chấm nhiều năm vào lệnh). Trả cờ forensic + tín hiệu định giá/chất lượng/chu kỳ."""
+    cfo = _series_upto(cf, C_CFO, cutoff)
+    ni = _series_upto(inc, C_NI, cutoff)
+    rev = _series_upto(inc, C_REV, cutoff)
     common = sorted(set(cfo) & set(ni))
     if len(common) < 3:
         return None
@@ -119,7 +126,7 @@ def score_point_in_time(fx: VCIFundamentals, sym: str, is_bank: bool) -> Optiona
     if sni <= 0:
         flags += 1
     # cờ 4: đòn bẩy cao + thanh khoản yếu (RATIO_YEAR ≤ cutoff — đã sửa filter)
-    annual = _annual_upto(ratios, CUTOFF_YEAR)
+    annual = _annual_upto(ratios, cutoff)
     if not annual.empty:
         row = annual.iloc[-1]
         try:
@@ -132,7 +139,7 @@ def score_point_in_time(fx: VCIFundamentals, sym: str, is_bank: bool) -> Optiona
     # ---- TÍN HIỆU MỚI (point-in-time ≤ cutoff) ----
     pb = pe = roic_mean = roic_trend = cyc_pos = None
     if not annual.empty:
-        row = annual.iloc[-1]  # RATIO_YEAR 2022 (định giá cuối 2022, công khai giữa 2023)
+        row = annual.iloc[-1]  # RATIO_YEAR năm cutoff (định giá cuối năm đó, công khai năm sau)
         pb = _num(row.get("pb")); pe = _num(row.get("pe"))
         roic_s = pd.to_numeric(annual.get("roic", pd.Series(dtype=float)), errors="coerce").dropna()
         roic_s = roic_s[(roic_s > -1) & (roic_s < 2)]
