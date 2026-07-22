@@ -176,6 +176,29 @@ def run() -> None:
     print("\nC) BASELINE (toàn bộ mã — proxy thị trường):")
     summarize("  Tất cả", df)
 
+    # --- PERMUTATION TEST: spread "sạch vượt ≥2 cờ" là thật hay ngẫu nhiên? ---
+    print(f"\n{'='*66}\nPERMUTATION TEST — spread có thật hay may rủi? (10.000 lần xáo nhãn)\n{'='*66}")
+    rng = np.random.default_rng(42)
+    clean_mask = (df["n_flags"] == 0).values
+    n_clean = int(clean_mask.sum())
+    for name in HORIZONS:
+        r = df[name].values.astype(float)
+        ok = ~np.isnan(r)
+        rr = r[ok]; cm = clean_mask[ok]
+        if cm.sum() < 5 or (~cm).sum() < 5:
+            continue
+        actual = np.median(rr[cm]) - np.median(rr[~cm])   # sạch − (1 và ≥2 cờ gộp)
+        n_c = int(cm.sum())
+        null = np.empty(10000)
+        for i in range(10000):
+            idx = rng.permutation(len(rr))
+            null[i] = np.median(rr[idx[:n_c]]) - np.median(rr[idx[n_c:]])
+        p = float(np.mean(np.abs(null) >= abs(actual)))
+        verdict = "✓ khó là ngẫu nhiên" if p < 0.05 else ("~ ranh giới" if p < 0.15 else "✗ CÓ THỂ chỉ là may")
+        print(f"  {name:16}: spread sạch−cờ = {actual*100:+5.1f}%  | p = {p:.3f}  {verdict}")
+    print("\n(p<0.05: spread khó giải thích bằng ngẫu nhiên → tín hiệu đáng tin hơn.")
+    print(" p cao: một kỳ + small-n chưa tách được tín hiệu khỏi nhiễu — CHƯA kết luận được.)")
+
 
 if __name__ == "__main__":
     run()
