@@ -77,6 +77,17 @@ def monitoring_plan(dd: DeepDive) -> Dict[str, List[str]]:
     if m.get("val_stance") == "rẻ":
         confirm.append("Định giá được thị trường nhận ra dần (P/B nhích về trung vị lịch sử).")
 
+    # XÁC NHẬN / CẢNH BÁO theo CHU KỲ biên (mid-cycle) — cốt lõi với DN chu kỳ
+    cyc = m.get("cycle")
+    if cyc:
+        state = cyc.get("chu_kỳ")
+        if state == "ĐÁY":
+            confirm.append("Biên lợi nhuận HỒI PHỤC về vùng mid-cycle — xác nhận luận điểm cơ hội "
+                           "chu kỳ (lãi đáy đang tạo P/E cao giả).")
+        elif state == "ĐỈNH":
+            warn.append("Biên lợi nhuận CO về mid-cycle (lãi hiện ở ĐỈNH, khó duy trì) — lợi nhuận "
+                        "và P/E spot sẽ xấu đi dù giá không đổi.")
+
     # CẢNH BÁO — điều kiện nên xem lại / cân nhắc thoát (rút từ cờ + mấu chốt)
     jl = " ".join(dd.red_flags).lower()
     if "cfo" in jl or "không ra tiền" in jl or (m.get("cfo_ni_3y") or 1) < 0.6:
@@ -149,6 +160,21 @@ def render_decision(dd: DeepDive, years: int = 2) -> str:
 
     # 2. Khung giá tham chiếu
     P.append(f"<h2>2. Khung giá tham chiếu ({years} năm)</h2>")
+    # Cảnh báo CHU KỲ trước khi đọc khung giá — chống mua vì P/E thấp ẢO (đỉnh) / bỏ lỡ (đáy)
+    cyc = dd.metrics.get("cycle")
+    if cyc and cyc.get("pe_spot") and cyc.get("pe_chuẩn"):
+        st = cyc.get("chu_kỳ"); pes, pen = cyc["pe_spot"], cyc["pe_chuẩn"]
+        bh, bm = (cyc.get("biên_hiện_tại") or 0) * 100, (cyc.get("biên_mid") or 0) * 100
+        if st == "ĐỈNH" and pen > pes * 1.15:
+            P.append(f"<div class='card note'>⚠️ <b>Cảnh báo chu kỳ — lãi đang ở ĐỈNH biên "
+                     f"({bh:.1f}% vs mid-cycle {bm:.1f}%).</b> P/E spot {pes} trông rẻ nhưng là ẢO: "
+                     f"chuẩn hóa về mid-cycle P/E thực ~{pen}. <b>Đừng mua chỉ vì P/E thấp</b> — dùng "
+                     f"khung P/B bên dưới và chờ xác nhận biên bền, vì lợi nhuận đỉnh khó duy trì.</div>")
+        elif st == "ĐÁY" and pen < pes * 0.85:
+            P.append(f"<div class='card note'>🔄 <b>Đang ở ĐÁY chu kỳ biên "
+                     f"({bh:.1f}% vs mid-cycle {bm:.1f}%).</b> P/E spot {pes} bị lãi đáy thổi cao; "
+                     f"chuẩn hóa mid-cycle P/E ~{pen} — <b>rẻ hơn vẻ ngoài NẾU biên hồi phục.</b> "
+                     f"Đây là cược phục hồi biên, không phải tăng trưởng chắc chắn.</div>")
     if sp:
         rows = [
             ("🔴 Bi quan (bear)", sp["bear"], sp["bear_ret"], sp["bear_pb"],
