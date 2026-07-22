@@ -1,13 +1,3 @@
-2026-06-16 07:31 ACCEPT [Google News KL] "Brent, gold and silver forecasts shift as oil outlook weakens and meta" | kw:oil,brent,gold
-2026-06-16 07:31 ACCEPT [Google News CB] "BoJ hikes interest rate by 25 bps to 1% as expected - FXStreet" | kw:interest rate,boj
-2026-06-16 07:31 ACCEPT [Google News CB] "Warsh’s debut Fed press conference may reveal his strategy for inflati" | kw:inflation
-2026-06-16 07:31 ACCEPT [Google News CB] "USD/JPY Outlook: BOJ sticks to the script as Nikkei rips to record hig" | kw:boj
-2026-06-16 07:31 ACCEPT [Google News CB] "Watch Bank of Japan Raises Benchmark Interest Rate to 1% - Bloomberg.c" | kw:wti,interest rate,bank of japan
-2026-06-16 07:31 ACCEPT [Google News CB] "BREAKING NEWS: BOJ to monitor currency moves' impact on prices: deputy" | kw:rice,boj
-2026-06-16 07:31 ACCEPT [Google News CB] "Watch Stock Rally Cools Ahead of BOJ, RBA Decisions | The Asia Trade 6" | kw:boj
-2026-06-16 07:31 ACCEPT [Google News CB] "Asian shares are mostly higher and Japan's Nikkei tops 70,000 before B" | kw:rate hike,boj
-2026-06-16 07:31 SKIP_MORNING already_sent date=2026-06-16
-2026-06-16 08:01 ACCEPT [Google News HH] "The Commodities Feed: Oil falls further - ING THINK economic and finan" | kw:oil,commodities
 2026-06-16 08:01 ACCEPT [Google News HH] "Barclays Maintains $100/Bbl Forecast For Brent Crude Oil In 2026 - Tra" | kw:oil,crude,brent
 2026-06-16 08:01 ACCEPT [Google News HH] "ICE cotton rises on weaker dollar, optimism from easing crude oil - Fi" | kw:oil,crude,cotton
 2026-06-16 08:01 ACCEPT [Google News HH] "US-Iran peace deal: Signing to take place on Friday, crude oil prices " | kw:oil,crude,rice
@@ -20008,3 +19998,9 @@
 2026-07-22 17:47 ACCEPT [Google News KL] "Newmont earnings preview: Buy ratings intact; gold prices, buybacks ke" | kw:gold,rice
 2026-07-22 17:47 ACCEPT [Google News NS] "Prairie Wheat Weekly: Spring wheat bids climb higher - Country Guide" | kw:wheat
 2026-07-22 17:47 ACCEPT [Google News CB] "Interest Rate Predictions for the Next 5 Years: 2026-2030 - Norada Rea" | kw:interest rate
+2026-07-22 18:01 ACCEPT [Google News HH] "U.S. crude oil inventories increase by 2.0 million barrels - Oil & Gas" | kw:oil,crude,gas
+2026-07-22 18:01 ACCEPT [Google News HH] "U.S. Equity Futures Slide As Brent Crude Oil Prices Surge On Stalled U" | kw:oil,crude,brent
+2026-07-22 18:01 ACCEPT [Google News HH] "Crude Oil Holds Near 6-Week High - TradingView" | kw:oil,crude
+2026-07-22 18:01 ACCEPT [Google News HH] "Crude Oil Prices Jump, Stocks Still Holding Up For Now - FOREX.com" | kw:oil,crude,rice
+2026-07-22 18:01 ACCEPT [Google News NS] "From Kansas Fields to Global Markets: Millershaski Brings Perspective " | kw:wheat
+2026-07-22 18:01 ACCEPT [Google News CB] "Euro Technical Outlook: EUR/USD Poised for Breakout Ahead of ECB - FOR" | kw:ecb
