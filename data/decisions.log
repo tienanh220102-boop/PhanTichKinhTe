@@ -1,14 +1,3 @@
-2026-06-16 02:02 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
-2026-06-16 02:02 SENT_MORNING articles=20 date=2026-06-16 force=True
-2026-06-16 02:05 ACCEPT [CNBC Economy] "UK economy shrank 0.1% in April as Iran conflict weighed on growth" | kw:gdp
-2026-06-16 02:05 ACCEPT [CNBC Economy] "Wholesale prices rose 1.1% in May, more than expected, on surge in ene" | kw:rice
-2026-06-16 02:05 ACCEPT [CNBC Economy] "ECB hikes interest rates for first time since 2023 as Iran war ramps u" | kw:inflation
-2026-06-16 02:05 ACCEPT [CNBC Economy] "Consumer prices rose 4.2% annually in May, highest in three years" | kw:rice
-2026-06-16 02:05 ACCEPT [CNBC Economy] "Energy prices take center stage as the ECB prepares to decide on rates" | kw:rice,inflation
-2026-06-16 02:05 ACCEPT [CNBC Economy] "The May inflation numbers are due out Wednesday morning. Here's what t" | kw:rice,inflation
-2026-06-16 02:05 ACCEPT [CNBC Economy] "Household worries over finances hit highest level since July 2022, New" | kw:inflation
-2026-06-16 02:05 ACCEPT [CNBC Economy] "U.S. proposes fresh tariffs on 60 economies over forced labor trade pr" | kw:tariff
-2026-06-16 02:05 ACCEPT [CNBC Economy] "Inflation hits 3.2% in the euro zone as Iran war pushes energy costs h" | kw:inflation
 2026-06-16 02:05 ACCEPT [CNBC Economy] "Iran war cost: Average U.S. household paying $450 more on gas and ener" | kw:gas
 2026-06-16 02:05 ACCEPT [CNBC Economy] "How the ‘double scar’ of past inflation woes and geopolitical shocks a" | kw:rice,inflation
 2026-06-16 02:05 ACCEPT [CNBC Economy] "Core inflation hit an annual rate of 3.3% in April, as expected, Fed’s" | kw:rice,inflation
@@ -20009,3 +19998,16 @@
 2026-07-22 08:31 ACCEPT [Google News CB] "Indonesia central bank keeps rates unchanged, defying hike expectation" | kw:central bank
 2026-07-22 08:31 ACCEPT [Google News CB] "Euro retreats from one-month top amid JPY intervention risks, BoJ bets" | kw:ecb,boj
 2026-07-22 08:31 SKIP_MORNING already_sent date=2026-07-22
+2026-07-22 09:01 ACCEPT [Google News HH] "China produces record amount of crude oil - chinadailyasia.com" | kw:oil,crude
+2026-07-22 09:01 ACCEPT [Google News HH] "Crude Oil WTI is up by 4% - TradingView" | kw:oil,crude,wti
+2026-07-22 09:01 ACCEPT [Google News HH] "Crude Oil Rises for 4th Session - TradingView" | kw:oil,crude
+2026-07-22 09:01 ACCEPT [Google News HH] "2.16 million tons! China's crude oil production hits a record high in " | kw:oil,crude
+2026-07-22 09:01 ACCEPT [Google News HH] "Gold price in Saudi Arabia: Rates on July 22 - FXStreet" | kw:gold,rice
+2026-07-22 09:01 ACCEPT [Google News NS] "Grain SA criticises JSE decision to scrap soybean pricing model - IOL" | kw:soybean
+2026-07-22 09:01 ACCEPT [Google News CB] "BOJ on alert to price risks that may lead to faster rate hikes, source" | kw:rice,rate hike,boj
+2026-07-22 09:01 ACCEPT [Google News CB] "BOJ said to be open to faster rate hike pace, Bloomberg News reports -" | kw:rate hike,boj
+2026-07-22 09:01 ACCEPT [Google News CB] "BoJ officials see recent Yen weakness as upside inflation risk, open t" | kw:inflation,boj
+2026-07-22 09:01 ACCEPT [Google News CB] "Payments statistics: second half of 2025 - European Central Bank" | kw:central bank
+2026-07-22 09:01 ACCEPT [Google News CB] "JustMarkets Analyzes How Central Bank Policy Influences the Currency M" | kw:central bank
+2026-07-22 09:01 ACCEPT [Google News CB] "Euro Strengthens as ECB Hawks Support Gains - TradingPedia" | kw:ecb
+2026-07-22 09:01 SKIP_MORNING already_sent date=2026-07-22
