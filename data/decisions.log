@@ -1,21 +1,3 @@
-2026-06-17 12:01 ACCEPT [Google News HH] "Gold price in Pakistan: Rates on June 17 - FXStreet" | kw:gold,rice
-2026-06-17 12:01 ACCEPT [Google News KL] "Nasdaq & Silver Price Outlook: Cautious Optimism Ahead of the FOMC - F" | kw:silver,rice,fomc
-2026-06-17 12:01 ACCEPT [Google News KL] "Miner repays 1,448.7 oz gold loan early amid lower prices, discount - " | kw:gold,rice
-2026-06-17 12:01 ACCEPT [Google News KL] "DXY, Gold Price Forecast: Will Kevin Warsh's First FOMC Halt or Suppor" | kw:gold,rice,fomc
-2026-06-17 12:01 ACCEPT [Google News KL] "Falco Resources Announces Updated Feasibility Study for Horne 5 Projec" | kw:gold,rice
-2026-06-17 12:01 ACCEPT [Google News KL] "Gold price tumbles Rs 4,800 to Rs 1.54 lakh per 10g, silver drops Rs 5" | kw:gold,silver,rice
-2026-06-17 12:01 ACCEPT [Google News KL] "Silver price remains under pressure as Fed decision, US-Iran truce sha" | kw:silver,rice
-2026-06-17 12:01 ACCEPT [Google News NS] "Is China back in the market for US Soybeans? - The Globe and Mail" | kw:soybean
-2026-06-17 12:01 ACCEPT [Google News CB] "Rate cuts likely off the table as Fed confronts inflation and global h" | kw:inflation,rate cut
-2026-06-17 12:01 ACCEPT [Google News CB] "Kevin Warsh’s first meeting as Fed chairman could reveal a new vision " | kw:central bank
-2026-06-17 12:01 ACCEPT [Google News CB] "Treasury yields inch higher as investors await Fed interest rates deci" | kw:treasury,interest rate
-2026-06-17 12:01 ACCEPT [Google News CB] "India's central bank not in favour of offshore settlement for sovereig" | kw:central bank
-2026-06-17 12:01 ACCEPT [Google News CB] "Kevin Warsh faces first major Fed test as interest rate decision looms" | kw:interest rate,rate decision
-2026-06-17 12:01 ACCEPT [Google News CB] "Wall Street braces for Federal Reserve's interest rate announcement to" | kw:interest rate,federal reserve
-2026-06-17 12:01 SKIP_MORNING already_sent date=2026-06-17
-2026-06-17 12:31 ACCEPT [MarketWatch] "Former Goldman CEO Lloyd Blankfein says he trades every day and doesn’" | kw:gold
-2026-06-17 12:31 ACCEPT [OilPrice.com] "ECB: Iran Peace Deal Won't Erase Europe's Energy Price Shock" | kw:rice,inflation,central bank
-2026-06-17 12:31 ACCEPT [Google News HH] "Gold Price Forecast: Risk-On Signals Clash with Stock Valuations - FXE" | kw:gold,rice
 2026-06-17 12:31 ACCEPT [Google News HH] "UAE’s post-OPEC oil output to surpass 5 million bpd in 2027, IEA says " | kw:oil,opec
 2026-06-17 12:31 ACCEPT [Google News HH] "Iran crude oil tankers exit US blockade zone: tracking site - Mehr New" | kw:oil,crude
 2026-06-17 12:31 ACCEPT [Google News KL] "Silver Price Today on June 17, 2026 - USA Today" | kw:silver,rice
@@ -20016,3 +19998,13 @@
 2026-07-23 17:31 ACCEPT [Google News CB] "Treasury Trespasses Into Fed's Monetary Policy - Yahoo Finance" | kw:treasury,monetary policy
 2026-07-23 17:31 ACCEPT [Google News CB] "South Africa keeps key rate on hold despite inflation hitting two-year" | kw:inflation
 2026-07-23 17:31 ACCEPT [Google News CB] "ECB will discuss raising banks’ minimum reserves, Lagarde says - WSAU" | kw:ecb
+2026-07-23 17:53 ACCEPT [MarketWatch] "Still waiting for the free $1,000 to hit your ‘Trump account’? Here’s " | kw:treasury
+2026-07-23 17:53 ACCEPT [Google News HH] "Dow Falls Over 500 Points, Trump's Latest Iran Threat Sends Crude Oil " | kw:oil,crude,rice
+2026-07-23 17:53 ACCEPT [Google News HH] "OPEC+ likely to again raise oil output targets from September, sources" | kw:oil,opec
+2026-07-23 17:53 ACCEPT [Google News HH] "Crude Oil Rises Sharply; T-Mobile Shares Fall Following Q2 Results - B" | kw:oil,crude
+2026-07-23 17:53 ACCEPT [Google News KL] "Copper price pulls back from record territory as war jitters trump ear" | kw:copper,rice
+2026-07-23 17:53 ACCEPT [Google News KL] "Argentina Silver Project Extends High-Grade Zones Ahead of PFS - Stree" | kw:silver
+2026-07-23 17:53 ACCEPT [Google News KL] "Teck Resources rises as Q2 profit triples on record copper prices (TEC" | kw:lng,copper,rice
+2026-07-23 17:53 ACCEPT [Google News NS] "Todd Hubbs Analyzes Black Sea Conflict Impact on Wheat Market Rally - " | kw:wheat
+2026-07-23 17:53 ACCEPT [Google News NS] "That Dreaded Corn Yield Debate Is Back - DTN Progressive Farmer" | kw:corn
+2026-07-23 17:53 ACCEPT [Google News CB] "ECB will discuss raising banks’ minimum reserves, Lagarde says - The M" | kw:ecb
