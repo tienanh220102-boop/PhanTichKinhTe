@@ -1,12 +1,3 @@
-2026-06-16 14:31 ACCEPT [Google News KL] "Gold rises over 1% as US-Iran peace deal optimism eases rate hike bets" | kw:gold,rate hike
-2026-06-16 14:31 ACCEPT [Google News NS] "December corn futures settle at $4.40 as drought concerns clash with a" | kw:corn,drought
-2026-06-16 14:31 ACCEPT [Google News CB] "ECB’s Lane Says Inflation Is in the Pipeline Despite Iran Deal - Bloom" | kw:inflation,ecb
-2026-06-16 14:31 SKIP_MORNING already_sent date=2026-06-16
-2026-06-16 14:31 SKIP_EVENING already_sent date=2026-06-16
-2026-06-16 15:01 ACCEPT [Google News HH] "UAE’s Adnoc Hires Oil Veteran to Lead Trading Unit’s Expansion - Bloom" | kw:oil
-2026-06-16 15:01 ACCEPT [Google News HH] "Crude oil prices fall again, while US stocks drift near their all-time" | kw:oil,crude,rice
-2026-06-16 15:01 ACCEPT [Google News HH] "Brent crude oil falls below $80 for the first time in three months! U." | kw:oil,crude,brent
-2026-06-16 15:01 ACCEPT [Google News KL] "Gold could find a safe-haven bid as U.S. housing construction drops 15" | kw:gold
 2026-06-16 15:01 ACCEPT [Google News KL] "Barclays sees gold pullback as ‘reset’, keeps bullish outlook - Mining" | kw:gold
 2026-06-16 15:01 ACCEPT [Google News KL] "Liberty Gold: A Permitting Arbitrage In A Scarce U.S. Oxide Gold Marke" | kw:gold
 2026-06-16 15:01 ACCEPT [Google News NS] "Will winter wheat weakly wilt weekly? - MSN" | kw:wheat
@@ -20007,3 +19998,7 @@
 2026-07-23 05:21 ACCEPT [Google News CB] "Probability of a rate hike rises above 30%! Fed decision countdown beg" | kw:rate hike
 2026-07-23 05:21 ACCEPT [Google News CB] "Global Market Outlook: Oil Prices, ECB Policy, Tech Earnings Update - " | kw:oil,rice,ecb
 2026-07-23 05:21 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 05:31 ACCEPT [Google News KL] "Gold prices fall from two-week highs to $4,126.7 as investor focus rem" | kw:gold,rice
+2026-07-23 05:31 ACCEPT [Google News NS] "Feedgrain Focus: Prices kick again, growers hold in dry week - Grain C" | kw:rice
+2026-07-23 05:31 ACCEPT [Google News CB] "Indian central bank likely intervenes as rupee nears record low, trade" | kw:central bank
+2026-07-23 05:31 SKIP_MORNING already_sent date=2026-07-23
