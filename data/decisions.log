@@ -1,9 +1,3 @@
-2026-06-16 17:31 ACCEPT [Google News HH] "CHARTED: Oil Trade Through the Strait of Hormuz by Country – Visual Ca" | kw:oil
-2026-06-16 17:31 ACCEPT [Google News HH] "Michigan commodities trader pleads guilty to wire fraud in $2.7M schem" | kw:commodities
-2026-06-16 17:31 ACCEPT [Google News HH] "Crude oil prices fall again, while US stocks drift near their all-time" | kw:oil,crude,rice
-2026-06-16 17:31 ACCEPT [Google News HH] "Oil News: War Premium Evaporates but Inventory Damage Remains - FXEmpi" | kw:oil
-2026-06-16 17:31 ACCEPT [Google News HH] "WTI Crude (Oil) Plunge Update (NASDAQ:MU) - Seeking Alpha" | kw:oil,crude,wti
-2026-06-16 17:31 ACCEPT [Google News KL] "StoneX Natural Resource Summit 4.0: Copper’s Strategic Importance - St" | kw:copper
 2026-06-16 17:31 ACCEPT [Google News KL] "Arizona Gold & Silver Receives Approval for Expansion and Exploration " | kw:gold,silver
 2026-06-16 17:31 ACCEPT [Google News KL] "Gold Price Outlook 2026: Barclays Sees Rebound After Iran Conflict Sel" | kw:gold,rice
 2026-06-16 17:31 ACCEPT [Google News KL] "UBS (AMUB) offers gold-linked barrier notes; capped upside, 8% conditi" | kw:gold
@@ -20004,3 +19998,15 @@
 2026-07-23 09:01 ACCEPT [Google News CB] "Marcos Confident Philippine Central Bank to Act on Weak Peso, Official" | kw:central bank
 2026-07-23 09:01 ACCEPT [Google News CB] "German Bond Yields Hit 15-Year High as Oil Spikes Before ECB - Bloombe" | kw:oil,ecb
 2026-07-23 09:01 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 09:31 ACCEPT [OilPrice.com] "TotalEnergies Profit Soars 68% as Oil Price Surge Lifts Earnings" | kw:oil,rice
+2026-07-23 09:31 ACCEPT [OilPrice.com] "Oil Prices Climb Toward $100 as Red Sea Risks Rise" | kw:oil,crude,brent
+2026-07-23 09:31 ACCEPT [Google News HH] "Crude Oil rally weighs on stocks as Dollar strengthens [video] - Barch" | kw:oil,crude
+2026-07-23 09:31 ACCEPT [Google News HH] "Crude Oil Rises for 5th Session - TradingView" | kw:oil,crude
+2026-07-23 09:31 ACCEPT [Google News HH] "Should You Buy Plains All American Stock Now That Crude Oil Prices Are" | kw:oil,crude,rice
+2026-07-23 09:31 ACCEPT [Google News KL] "Gold slips 1% as oil rally brings Fed rate hikes into focus - Reuters" | kw:oil,gold,fed rate
+2026-07-23 09:31 ACCEPT [Google News KL] "Local Gold Prices Drop on Thursday... - jordannews.jo" | kw:gold,rice
+2026-07-23 09:31 ACCEPT [Google News KL] "Silver Prices Consolidate and Hold Steady, Spot Silver Trades near Par" | kw:silver,rice
+2026-07-23 09:31 ACCEPT [Google News KL] "Gold prices extend slide at 6-week bottom - VnExpress International" | kw:gold,rice
+2026-07-23 09:31 ACCEPT [Google News NS] "Canola prices jump $44 a tonne at Geelong - The Weekly Times" | kw:rice,gdp
+2026-07-23 09:31 ACCEPT [Google News CB] "European shares lower as oil gains, ECB decision in focus (EUR:USD:) -" | kw:oil,ecb
+2026-07-23 09:31 SKIP_MORNING already_sent date=2026-07-23
