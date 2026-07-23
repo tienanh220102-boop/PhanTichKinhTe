@@ -1,20 +1,3 @@
-2026-06-17 11:31 ACCEPT [Google News KL] "DXY, Gold Price Forecast: Will Kevin Warsh's First FOMC Halt or Suppor" | kw:gold,rice,fomc
-2026-06-17 11:31 ACCEPT [Google News KL] "Copper’s structural deficit has returned, but this time it’s different" | kw:copper
-2026-06-17 11:31 ACCEPT [Google News KL] "Gold Price Forecast: Risk-On Signals Clash with Stock Valuations - FXE" | kw:gold,rice
-2026-06-17 11:31 ACCEPT [Google News KL] "Up nearly 8% in a week! Gold prices experience "roller coaster" trend " | kw:gold,rice
-2026-06-17 11:31 ACCEPT [Google News KL] "Gold Price Forecast: Risk-On Signals Clash with Stock Valuations - FXE" | kw:gold,rice
-2026-06-17 11:31 ACCEPT [Google News KL] "Gold trades sideways as Fed decision looms, US-Iran deal caps moves - " | kw:gold,gdp
-2026-06-17 11:31 ACCEPT [Google News NS] "First Thing Today | Grain markets firmer despite price-bearish weather" | kw:rice
-2026-06-17 11:31 ACCEPT [Google News NS] "Why even the Middle East conflict has failed to stop a slide in wheat " | kw:wti,wheat,rice
-2026-06-17 11:31 ACCEPT [Google News CB] "Warsh to face spotlight as Federal Reserve likely to leave interest ra" | kw:interest rate,federal reserve
-2026-06-17 11:31 ACCEPT [Google News CB] "Warsh takes the helm: What to watch as the Fed weighs its rate decisio" | kw:rate decision
-2026-06-17 11:31 ACCEPT [Google News CB] "S&P 500, Nasdaq futures rise ahead of Fed rate decision - qz.com" | kw:fed rate,rate decision
-2026-06-17 11:31 ACCEPT [Google News CB] "Rate cuts likely off the table as Fed confronts inflation and global h" | kw:inflation,rate cut
-2026-06-17 11:31 ACCEPT [Google News CB] "Three Fed signals that could make the bitcoin (BTC) price pop: Crypto " | kw:rice
-2026-06-17 11:31 SKIP_MORNING already_sent date=2026-06-17
-2026-06-17 12:01 ACCEPT [MarketWatch] "Former Goldman CEO Lloyd Blankfein says he trades every day and doesn’" | kw:gold
-2026-06-17 12:01 ACCEPT [The Guardian Biz] "SpaceX overtakes Amazon to become world’s fifth most valuable company" | kw:rice
-2026-06-17 12:01 ACCEPT [Google News HH] "When will the gold price rise above $4,900 again? - Bitget" | kw:gold,rice
 2026-06-17 12:01 ACCEPT [Google News HH] "Gold price in Pakistan: Rates on June 17 - FXStreet" | kw:gold,rice
 2026-06-17 12:01 ACCEPT [Google News KL] "Nasdaq & Silver Price Outlook: Cautious Optimism Ahead of the FOMC - F" | kw:silver,rice,fomc
 2026-06-17 12:01 ACCEPT [Google News KL] "Miner repays 1,448.7 oz gold loan early amid lower prices, discount - " | kw:gold,rice
@@ -20015,3 +19998,21 @@
 2026-07-23 17:01 ACCEPT [Google News CB] "ECB holds rates at 2.25% as the reignited Iran war keeps a second hike" | kw:ecb
 2026-07-23 17:01 ACCEPT [Google News CB] "EUR/USD Breaks Bear Flag After ECB - FOREX.com" | kw:ecb
 2026-07-23 17:01 ACCEPT [Google News CB] "ECB will discuss raising banks' minimum reserves, Lagarde says - Euron" | kw:ecb
+2026-07-23 17:31 ACCEPT [MarketWatch] "The rising cost of capital for companies today is starting to spook th" | kw:oil
+2026-07-23 17:31 ACCEPT [MarketWatch] "The Treasury market is flashing a warning sign for home buyers. Are 7%" | kw:treasury
+2026-07-23 17:31 ACCEPT [Al Jazeera] "Oil surges past $100 in a first since May as Middle East conflicts rag" | kw:oil,rice
+2026-07-23 17:31 ACCEPT [CNBC Commodities] "Odds of Federal Reserve rate hike surge as oil prices rip higher" | kw:oil,rice,interest rate
+2026-07-23 17:31 ACCEPT [Google News HH] "Crude Oil Price Surge Drags Cryptos Further - RTTNews" | kw:oil,crude,rice
+2026-07-23 17:31 ACCEPT [Google News HH] "ICE canola weekly: Rallying futures watching crude oil - Grainews" | kw:oil,crude
+2026-07-23 17:31 ACCEPT [Google News HH] "Gold price opens below $4,100 amid inflation concerns and safe-haven d" | kw:gold,rice,inflation
+2026-07-23 17:31 ACCEPT [Google News KL] "Teck delivers solid second quarter amid record copper prices - Yahoo! " | kw:copper,rice
+2026-07-23 17:31 ACCEPT [Google News KL] "Gold crashes from $5,500 to $4,160 since the Iran conflict began, but " | kw:gold
+2026-07-23 17:31 ACCEPT [Google News KL] "FCX's Q2 Earnings and Revenues Top Estimates on Higher Metal Prices - " | kw:rice
+2026-07-23 17:31 ACCEPT [Google News KL] "Lake Fork Silver Series Rod Review: Premium Performance Without a Prem" | kw:silver,rice
+2026-07-23 17:31 ACCEPT [Google News KL] "TECK.A: Record copper prices and strong margins drove robust Q2 2026 r" | kw:copper,rice
+2026-07-23 17:31 ACCEPT [Google News NS] "New Sorghum Futures Target Basis Risk Against Corn - RFD-TV" | kw:corn
+2026-07-23 17:31 ACCEPT [Google News CB] "Odds of Federal Reserve rate hike surge as oil prices rip higher - CNB" | kw:oil,rice,rate hike
+2026-07-23 17:31 ACCEPT [Google News CB] "Watch US Treasury Yields Rise to 2026 Highs With Oil Sparking Fed Bets" | kw:oil,treasury
+2026-07-23 17:31 ACCEPT [Google News CB] "Treasury Trespasses Into Fed's Monetary Policy - Yahoo Finance" | kw:treasury,monetary policy
+2026-07-23 17:31 ACCEPT [Google News CB] "South Africa keeps key rate on hold despite inflation hitting two-year" | kw:inflation
+2026-07-23 17:31 ACCEPT [Google News CB] "ECB will discuss raising banks’ minimum reserves, Lagarde says - WSAU" | kw:ecb
