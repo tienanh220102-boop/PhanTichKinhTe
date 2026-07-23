@@ -1,13 +1,3 @@
-2026-06-16 17:01 ACCEPT [Google News HH] "Citi revamps oil price target as Hormuz fears ease - thestreet.com" | kw:oil,rice
-2026-06-16 17:01 ACCEPT [Google News HH] "⚫Brent Crude Oil Below $80! - XTB.com" | kw:oil,crude,brent
-2026-06-16 17:01 ACCEPT [Google News HH] "Crude oil prices hit lowest point in three months - marketscreener.com" | kw:oil,crude,rice
-2026-06-16 17:01 ACCEPT [Google News HH] "Oil News: War Premium Evaporates but Inventory Damage Remains - FXEmpi" | kw:oil
-2026-06-16 17:01 ACCEPT [Google News NS] "Illinois bets on biodiesel by expanding the market for domestic soybea" | kw:soybean
-2026-06-16 17:01 ACCEPT [Google News NS] "Will Corn Prices Rebound This Summer? History Says No - Agrolatam" | kw:corn,rice
-2026-06-16 17:01 ACCEPT [Google News CB] "Where markets think Fed chairman Warsh is taking interest rates - CNBC" | kw:interest rate
-2026-06-16 17:01 ACCEPT [Google News CB] "Price pressures may linger due to damaged energy assets, ECB's Makhlou" | kw:rice,ecb
-2026-06-16 17:01 ACCEPT [Google News CB] "The New Fed Chair Hinted at Rate Cuts. Wall Street Is Betting He Does " | kw:rate cut
-2026-06-16 17:31 ACCEPT [BBC Business] "Struggling Pizza Hut chain to be sold for $2.7bn" | kw:easing
 2026-06-16 17:31 ACCEPT [Google News HH] "CHARTED: Oil Trade Through the Strait of Hormuz by Country – Visual Ca" | kw:oil
 2026-06-16 17:31 ACCEPT [Google News HH] "Michigan commodities trader pleads guilty to wire fraud in $2.7M schem" | kw:commodities
 2026-06-16 17:31 ACCEPT [Google News HH] "Crude oil prices fall again, while US stocks drift near their all-time" | kw:oil,crude,rice
@@ -20008,3 +19998,9 @@
 2026-07-23 08:31 ACCEPT [Google News CB] "Alphabet, Tesla, IBM report; ECB decision ahead - what’s moving market" | kw:ecb
 2026-07-23 08:31 ACCEPT [Google News CB] "Fed Chair Kevin Warsh Just Threw Cold Water on Investors Who Thought t" | kw:inflation
 2026-07-23 08:31 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 09:01 ACCEPT [Google News HH] "US crude oil inventories up 0.5% in week ending July 17 - Anadolu Ajan" | kw:oil,crude
+2026-07-23 09:01 ACCEPT [Google News KL] "Indonesia shouldn’t bet its nickel future on China’s EVs alone - Asia " | kw:nickel
+2026-07-23 09:01 ACCEPT [Google News CB] "Fed Chair Kevin Warsh Just Threw Cold Water on Investors Who Thought t" | kw:inflation
+2026-07-23 09:01 ACCEPT [Google News CB] "Marcos Confident Philippine Central Bank to Act on Weak Peso, Official" | kw:central bank
+2026-07-23 09:01 ACCEPT [Google News CB] "German Bond Yields Hit 15-Year High as Oil Spikes Before ECB - Bloombe" | kw:oil,ecb
+2026-07-23 09:01 SKIP_MORNING already_sent date=2026-07-23
