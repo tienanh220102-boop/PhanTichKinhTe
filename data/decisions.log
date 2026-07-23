@@ -1,29 +1,3 @@
-2026-06-17 06:31 SKIP_MORNING already_sent date=2026-06-17
-2026-06-17 07:01 ACCEPT [Google News HH] "brent Crude Oil Prices Sink Below $80 As US-Iran Ceasefire Deal Reshap" | kw:oil,crude,brent
-2026-06-17 07:01 ACCEPT [Google News KL] "Copper price continues to hold below resistance – Forecast today – 17-" | kw:copper,rice
-2026-06-17 07:01 ACCEPT [Google News NS] "Updated wheat prices announced in Ukraine - Новини аграрного бізнесу" | kw:wheat,rice
-2026-06-17 07:01 ACCEPT [Google News CB] "Dollar on guard ahead of first Fed decision under Warsh - Reuters" | kw:gdp
-2026-06-17 07:01 ACCEPT [Google News CB] "Gold extends gains as rate-hike bets ease ahead of Fed verdict - CNBC" | kw:gold
-2026-06-17 07:01 SKIP_MORNING already_sent date=2026-06-17
-2026-06-17 07:31 ACCEPT [BBC Business] "Inflation unexpectedly steady as food price rises slow" | kw:rice,inflation
-2026-06-17 07:31 ACCEPT [OilPrice.com] "China Bets on Ultra-Deep Shale Gas to Boost Energy Security" | kw:oil,opec,gas
-2026-06-17 07:31 ACCEPT [Google News HH] "S&P 500 Rally Pauses Before Fed, Nikkei 225 Eyeing 70,000, Crude Oil P" | kw:oil,crude
-2026-06-17 07:31 ACCEPT [Google News HH] "Goldman Sachs lowers Q4 Brent crude oil price forecast to $80 per barr" | kw:oil,crude,brent
-2026-06-17 07:31 ACCEPT [Google News KL] "Data Centres, Mine Disruptions, and Tariff Policy: Inside the 2026 Cop" | kw:copper,tariff
-2026-06-17 07:31 ACCEPT [Google News NS] "Canada Know-Risk Market Outlook | Corn Outlook - StoneX" | kw:corn
-2026-06-17 07:31 ACCEPT [Google News CB] "BoE to incorporate climate risks into collateral framework - Green Cen" | kw:central bank
-2026-06-17 07:31 ACCEPT [Google News CB] "UK Inflation Unexpectedly Holds Steady Ahead Of BOE Interest Rate Deci" | kw:inflation,interest rate,rate decision
-2026-06-17 07:31 ACCEPT [Google News CB] "BOJ Deputy Governor Uchida’s comments at news conference By Reuters - " | kw:boj
-2026-06-17 07:31 ACCEPT [Google News CB] "Fed rate cut unlikely; would be 'like throwing oil on the fire' of inf" | kw:oil,inflation,fed rate
-2026-06-17 07:31 ACCEPT [Google News CB] "One more ECB hike seen in September before rates plateau through 2027 " | kw:ecb
-2026-06-17 07:31 ACCEPT [Google News CB] "Dollar eases slightly a day ahead of Fed rate decision; Yen weakens af" | kw:fed rate,rate decision,boj
-2026-06-17 07:31 SKIP_MORNING already_sent date=2026-06-17
-2026-06-17 08:01 ACCEPT [BBC Business] "Japan raids ice cream giants over price-fixing allegations" | kw:rice
-2026-06-17 08:01 ACCEPT [Al Jazeera] "Oil prices continue slide amid hopes for peace, opening of Strait of H" | kw:oil,crude,brent
-2026-06-17 08:01 ACCEPT [Google News HH] "Gold, Silver and Crude Oil Outlook: Key Levels and Market Movers - Inv" | kw:oil,crude,gold
-2026-06-17 08:01 ACCEPT [Google News HH] "Brent Crude Oil: Decline Amid US–Iran Ceasefire - Action Forex" | kw:oil,crude,brent
-2026-06-17 08:01 ACCEPT [Google News HH] "Nikkei ends record near 70,000 as crude oil prices decline - 毎日新聞" | kw:oil,crude,rice
-2026-06-17 08:01 ACCEPT [Google News KL] "Silver Prices Reclaim 200 SMA - Investing.com" | kw:silver,rice
 2026-06-17 08:01 ACCEPT [Google News NS] "Corn nears $4.35: Will weather or acreage report bring relief? - Farm " | kw:corn
 2026-06-17 08:01 ACCEPT [ECB Press] "New data release: ECB wage tracker points to stable negotiated wage pr" | kw:ecb
 2026-06-17 08:01 ACCEPT [Google News CB] "Gold steady as US-Iran deal details emerge, Fed verdict awaited - Reut" | kw:gold
@@ -20024,3 +19998,29 @@
 2026-07-23 14:01 ACCEPT [Google News CB] "ECB: September Hike 50% Probability? - Continuum Economics" | kw:ecb
 2026-07-23 14:01 SKIP_MORNING already_sent date=2026-07-23
 2026-07-23 14:01 SKIP_EVENING already_sent date=2026-07-23
+2026-07-23 14:31 ACCEPT [MarketWatch] "Global oil prices top $100 after Houthis claim strikes on Saudi Arabia" | kw:oil,crude,brent
+2026-07-23 14:31 ACCEPT [Al Jazeera] "How shipping insurance rates are rising, as Hormuz, Bab al-Mandeb shut" | kw:shipping
+2026-07-23 14:31 ACCEPT [OilPrice.com] "India’s Fuel Exports Set to Soar in July as Refining Margins Jump" | kw:petroleum,fuel,commodity
+2026-07-23 14:31 ACCEPT [Google News HH] "JGL Commodities to acquire Saskatchewan grain terminal - World-Grain.c" | kw:commodities
+2026-07-23 14:31 ACCEPT [Google News HH] "Stocks Fall as Crude Oil Prices Soar and Alphabet Sparks AI Spending C" | kw:oil,crude,rice
+2026-07-23 14:31 ACCEPT [Google News HH] "BRENT CRUDE OIL BRIEFLY TOPS $100 A BARREL, CURRENTLY +6.05% AT $99.76" | kw:oil,crude,lng
+2026-07-23 14:31 ACCEPT [Google News HH] "Analysis-US investors rethink bonds' role as inflation reshapes portfo" | kw:inflation
+2026-07-23 14:31 ACCEPT [Google News HH] "Precision Trading with Simplify Commodities Strategy No K-1 Etf (HARD)" | kw:commodities
+2026-07-23 14:31 ACCEPT [Google News KL] "High gold prices prove boon for Central Asia, though “fundamentals not" | kw:gold,rice
+2026-07-23 14:31 ACCEPT [Google News KL] "Gold drops 2% to $4,046.92 as stronger US dollar impacts precious meta" | kw:gold
+2026-07-23 14:31 ACCEPT [Google News KL] "Want to stay ahead of the markets instead of reacting after the headli" | kw:gold,silver,inflation
+2026-07-23 14:31 ACCEPT [Google News KL] "Gold Holds Above $4,130 as Geopolitical Risks Support Demand - Trading" | kw:gold
+2026-07-23 14:31 ACCEPT [Google News KL] "Spot silver drops nearly 3% to $57.95/oz amid economic concerns - Cryp" | kw:silver
+2026-07-23 14:31 ACCEPT [Google News NS] "U.S. Wheat Trade Team Builds Market Confidence in Brazilian Customers " | kw:wheat
+2026-07-23 14:31 ACCEPT [Google News NS] "Watson Goes Big In the Corn Market - Barchart.com" | kw:corn
+2026-07-23 14:31 ACCEPT [Google News NS] "€250 per tonne within reach in the wheat market - DCA Market Intellige" | kw:wheat
+2026-07-23 14:31 ACCEPT [ECB Press] "ECB reveals shortlisted designs for new banknotes and launches public " | kw:ecb
+2026-07-23 14:31 ACCEPT [Google News CB] "VIEW ECB leaves rates on hold, but keeps door open to further rate hik" | kw:rate hike,ecb
+2026-07-23 14:31 ACCEPT [Google News CB] "Instant View: ECB leaves rates on hold, but keeps door open to further" | kw:rate hike,ecb
+2026-07-23 14:31 ACCEPT [Google News CB] "Watch ECB Keeps Interest Rates Unchanged - Bloomberg.com" | kw:interest rate,ecb
+2026-07-23 14:31 ACCEPT [Google News CB] "ECB Officials Are Ready to Raise Interest Rates in September - Bloombe" | kw:interest rate,ecb
+2026-07-23 14:31 ACCEPT [Google News CB] "ECB keeps rates unchanged but September hike stays in play - Yahoo Fin" | kw:ecb
+2026-07-23 14:31 ACCEPT [Google News CB] "Turkey’s central bank keeps policy rate at 37 percent - Turkish Minute" | kw:central bank,policy rate
+2026-07-23 14:31 ACCEPT [Google News CB] "ECB hostage to oil prices? Lagarde leaves door open for a September hi" | kw:oil,rice,ecb
+2026-07-23 14:31 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 14:31 SKIP_EVENING already_sent date=2026-07-23
