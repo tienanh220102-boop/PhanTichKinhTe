@@ -1,16 +1,3 @@
-2026-06-17 13:31 ACCEPT [Google News CB] "Warsh-led Fed expected to leave interest rates unchanged - Reuters" | kw:interest rate
-2026-06-17 13:31 ACCEPT [Google News CB] "China’s Central Bank Hints at Shift That Aligns It More With Fed - Blo" | kw:central bank
-2026-06-17 13:31 ACCEPT [Google News CB] "Repeat of 2022 inflation woes less likely but not excluded, ECB's Slei" | kw:inflation,ecb
-2026-06-17 13:31 ACCEPT [Google News CB] "ECB Officials Say Peace in Iran Isn’t Enough to Fix Energy Shock - Blo" | kw:ecb
-2026-06-17 13:31 ACCEPT [Google News CB] "UK Inflation Unexpectedly Holds Steady Ahead Of BOE Decision - Bloombe" | kw:inflation
-2026-06-17 13:31 ACCEPT [Google News CB] "How the Fed's next interest rate decision could impact you - CBS News" | kw:interest rate,rate decision
-2026-06-17 13:31 ACCEPT [Google News CB] "ECB’s Lagarde Warns AI Is Huge Risk for Financial Stability - Bloomber" | kw:ecb
-2026-06-17 13:31 ACCEPT [Google News CB] "Brazil Central Bank Set to Brave Inflation Minefield With Interest Rat" | kw:inflation,central bank,interest rate
-2026-06-17 13:31 ACCEPT [Google News CB] "As oil roundtrips, AI booms, and US consumers spend, economists' Fed o" | kw:oil
-2026-06-17 13:31 ACCEPT [Google News CB] "LIVE: Fed Chair Kevin Warsh speaks after his first interest rate decis" | kw:interest rate,rate decision
-2026-06-17 13:31 SKIP_MORNING already_sent date=2026-06-17
-2026-06-17 13:31 SKIP_EVENING already_sent date=2026-06-17
-2026-06-17 14:01 ACCEPT [OilPrice.com] "Falling Murban and Dubai Prices Open Arbitrage to U.S. and Europe" | kw:oil,crude,rice
 2026-06-17 14:01 ACCEPT [Google News HH] "Crude Oil Price Analysis – Crude Oil Trying to Bounce on Wednesday - F" | kw:oil,crude,rice
 2026-06-17 14:01 ACCEPT [Google News HH] "Where does India get its crude oil from — and what happens if it stops" | kw:oil,crude
 2026-06-17 14:01 ACCEPT [Google News HH] "Brent crude oil price steadies at three-month low - grafa.com" | kw:oil,crude,brent
@@ -20011,3 +19998,11 @@
 2026-07-23 20:01 ACCEPT [Google News NS] "Ukrainian soybean prices fall by UAH 2,000 per ton over the past month" | kw:soybean,rice
 2026-07-23 20:01 ACCEPT [Google News CB] "South Central Bank Named Presenting Partner of the 107th Kentucky Open" | kw:central bank
 2026-07-23 20:01 ACCEPT [Google News CB] "Fed will likely hold rates at July meeting and through 2026, but Iran " | kw:tariff
+2026-07-23 20:31 ACCEPT [Google News HH] "Opinion: Implementing a new plan for Idaho's commodities and products " | kw:commodities
+2026-07-23 20:31 ACCEPT [Google News HH] "Fuel costs on the rise as latest geopolitical turmoil drives up crude " | kw:oil,crude,fuel
+2026-07-23 20:31 ACCEPT [Google News HH] "U.S. Stocks Plunge On Negative Reaction To Tesla, Alphabet Earnings, S" | kw:oil,crude
+2026-07-23 20:31 ACCEPT [Google News KL] "Newmont beats second-quarter profit estimates on higher gold prices - " | kw:gold,rice
+2026-07-23 20:31 ACCEPT [Google News KL] "Teck delivers solid second quarter amid record copper prices - Yahoo F" | kw:copper,rice
+2026-07-23 20:31 ACCEPT [Google News KL] "Is Avino (TSX:ASM) Revealing a Strategic Shift Through Its Changing Si" | kw:gold,silver
+2026-07-23 20:31 ACCEPT [Google News NS] "Brazilian Trade Team Visit Leads to First U.S. Soft Red Winter Wheat P" | kw:wheat
+2026-07-23 20:31 ACCEPT [Google News NS] "Daily Grain Prices in Western Canada - The Western Producer" | kw:rice
