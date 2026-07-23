@@ -1,9 +1,3 @@
-2026-06-16 13:23 ACCEPT [Google News HH] "Gold Price Analysis 16/06: Will XAU/USD Break $4500? - Daily Forex" | kw:gold,rice
-2026-06-16 13:23 ACCEPT [Google News KL] "GDX climbs 59% amid gold price recovery - MSN" | kw:gold,rice
-2026-06-16 13:23 ACCEPT [Google News KL] "Higher-for-Longer Rates Constrain New Copper Supply Despite Prices Hol" | kw:copper,rice
-2026-06-16 13:23 ACCEPT [Google News NS] "Corn Futures Ease After Rebound as Crop Conditions Firm - TradingPedia" | kw:corn
-2026-06-16 13:23 ACCEPT [Google News CB] "Brazil central bank to cut interest rates by another 25 basis points o" | kw:central bank,interest rate,basis point
-2026-06-16 13:23 ACCEPT [Google News CB] "Dollar steady, no respite for yen after BOJ hikes rates as expected - " | kw:boj
 2026-06-16 13:23 ACCEPT [Google News CB] "ECB’s Escriva Says Energy Disruption Will Persist Despite Deal - Bloom" | kw:ecb
 2026-06-16 13:23 SKIP_MORNING already_sent date=2026-06-16
 2026-06-16 13:23 SKIP_EVENING already_sent date=2026-06-16
@@ -20004,3 +19998,6 @@
 2026-07-23 03:31 ACCEPT [Google News CB] "Euro advances ahead of ECB policy decision - FXStreet" | kw:ecb
 2026-07-23 03:31 ACCEPT [Google News CB] "Nikkei Rises With Chip Stocks, But BOJ Bets Cap Gains - Finimize" | kw:boj
 2026-07-23 03:31 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 04:01 ACCEPT [Al Jazeera] "Iran war live: US kills 2, wounds 11; Houthis attack 2 Saudi oil tanke" | kw:oil
+2026-07-23 04:01 ACCEPT [OilPrice.com] "Brent Breaks $96 as U.S. Strikes Iran for 12th Consecutive Night" | kw:oil,crude,brent
+2026-07-23 04:01 SKIP_MORNING already_sent date=2026-07-23
