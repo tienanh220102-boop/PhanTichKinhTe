@@ -1,8 +1,3 @@
-2026-06-16 11:31 ACCEPT [Google News NS] "Corn Bounces Off Lows - Can $4.50 Open the Door for More Relief? - Bar" | kw:corn
-2026-06-16 11:31 SKIP_MORNING already_sent date=2026-06-16
-2026-06-16 12:01 ACCEPT [MarketWatch] "A veteran investor is kicking Tesla out of the ‘Magnificent Seven’ — r" | kw:rice
-2026-06-16 12:01 ACCEPT [The Guardian Biz] "Oil price hits lowest since early March despite doubts over how quickl" | kw:oil,rice
-2026-06-16 12:01 ACCEPT [The Guardian Biz] "Bank of Japan raises interest rates to 31-year high … of 1%" | kw:inflation,interest rate,boj
 2026-06-16 12:01 ACCEPT [The Guardian Biz] "EV prices in UK and EU not likely to dive due to Chinese rivalry, says" | kw:rice
 2026-06-16 12:01 ACCEPT [Google News HH] "RANKED: The Top Crude Oil Producers in 2025 – Visual Capitalist – See " | kw:oil,crude
 2026-06-16 12:01 ACCEPT [Google News HH] "Crude Oil WTI Futures Chart - Investing.com" | kw:oil,crude,wti
@@ -20003,3 +19998,9 @@
 2026-07-23 00:01 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
 2026-07-23 00:01 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
 2026-07-23 00:02 SENT_MORNING articles=20 date=2026-07-23 force=False
+2026-07-23 00:31 ACCEPT [Al Jazeera] "Iran war live: US launches new attacks; Houthis attack 2 Saudi oil tan" | kw:oil
+2026-07-23 00:31 ACCEPT [Google News HH] "Crude Oil Prices Surge to ~$88/bbl Amid Middle East Tensions - GuruFoc" | kw:oil,crude,rice
+2026-07-23 00:31 ACCEPT [Google News KL] "Gold Price Forecast: 3 scenarios that could define the rest of 2026 - " | kw:gold,rice
+2026-07-23 00:31 ACCEPT [Google News KL] "Billionaire investor Paulson: Gold's rally has only begun, in early st" | kw:gold
+2026-07-23 00:31 ACCEPT [Google News NS] "Daily Grain Prices in Western Canada - The Western Producer" | kw:rice
+2026-07-23 00:31 SKIP_MORNING already_sent date=2026-07-23
