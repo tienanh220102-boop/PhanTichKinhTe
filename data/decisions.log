@@ -1,7 +1,3 @@
-2026-06-16 15:01 SKIP_MORNING already_sent date=2026-06-16
-2026-06-16 15:01 SKIP_EVENING already_sent date=2026-06-16
-2026-06-16 15:31 ACCEPT [Al Jazeera] "FBI says it foiled ‘planned attacks’ targeting White House UFC event" | kw:oil
-2026-06-16 15:31 ACCEPT [Google News HH] "Crude oil prices fall again, while US stocks drift near their all-time" | kw:oil,crude,rice
 2026-06-16 15:31 ACCEPT [Google News HH] "Crude oil down sharply and tests a swing area target. - investingLive" | kw:oil,crude
 2026-06-16 15:31 ACCEPT [Google News HH] "WTI Crude Oil (USO) Prices Drop to Two-Month Lows - GuruFocus" | kw:oil,crude,wti
 2026-06-16 15:31 ACCEPT [Google News HH] "Crude oil prices fall again, while US stocks drift near their all-time" | kw:oil,crude,rice
@@ -20002,3 +19998,23 @@
 2026-07-23 06:01 ACCEPT [Google News HH] "$Crude Oil Futures (SEP6) (CLmain.US)$$Brent Last Day Financial Future" | kw:oil,crude,gas
 2026-07-23 06:01 ACCEPT [Google News CB] "When Monetary Policy Surprises Stop Translating - Seeking Alpha" | kw:monetary policy
 2026-07-23 06:01 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 06:31 ACCEPT [Al Jazeera] "Between hope and fear: Yemenis react to Houthi blockade on Saudi Arabi" | kw:shortage,embargo
+2026-07-23 06:31 ACCEPT [OilPrice.com] "Two Saudi Oil Tankers Targeted as Houthi Blockade Disrupts Red Sea Shi" | kw:oil,crude,shipping
+2026-07-23 06:31 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD at Critical Juncture as Middle East Confl" | kw:gold,rice
+2026-07-23 06:31 ACCEPT [Google News HH] "EIA reports a rise in US crude oil stocks - engine.online" | kw:oil,crude,lng
+2026-07-23 06:31 ACCEPT [Google News HH] "Enterprise value to EBITDA forward of Aelea Commodities Limited – BSE:" | kw:commodities
+2026-07-23 06:31 ACCEPT [Google News HH] "Crude Oil Rallies as Global Supply Risks Intensify - TradingView" | kw:oil,crude
+2026-07-23 06:31 ACCEPT [Google News KL] "Gold price in Saudi Arabia: Rates on July 23 - FXStreet" | kw:gold,rice
+2026-07-23 06:31 ACCEPT [Google News KL] "Silver price rebounds from last week’s drop: can $65 come into view? -" | kw:silver,rice
+2026-07-23 06:31 ACCEPT [Google News CB] "The ECB is under pressure to hike rates again - The Economist" | kw:ecb
+2026-07-23 06:31 ACCEPT [Google News CB] "Kevin Warsh’s Federal Reserve May Follow This Economist’s Road Map - B" | kw:federal reserve
+2026-07-23 06:31 ACCEPT [Google News CB] "South African rand steady ahead of key central bank decision - Reuters" | kw:central bank
+2026-07-23 06:31 ACCEPT [Google News CB] "Gold off two-week peak as oil advances; Fed meeting in focus - CNBC" | kw:oil,gold
+2026-07-23 06:31 ACCEPT [Google News CB] "Asian stocks rise as AI capex ramps up, oil at six-week highs - Reuter" | kw:oil
+2026-07-23 06:31 ACCEPT [Google News CB] "Watch ECB Likely to Keep Rates Unchanged in July - Bloomberg.com" | kw:ecb
+2026-07-23 06:31 ACCEPT [Google News CB] "BOJ expected to raise interest rates again by end of the year - poll -" | kw:interest rate,boj
+2026-07-23 06:31 ACCEPT [Google News CB] "China’s Central Bank Sets Slightly Stronger Yuan Fix - TradingPedia" | kw:central bank
+2026-07-23 06:31 ACCEPT [Google News CB] "South African rand steady ahead of key central bank decision - Trading" | kw:central bank
+2026-07-23 06:31 ACCEPT [Google News CB] "Japanese Yen firms on intervention risks, eyes FOMC and BoJ meetings -" | kw:fomc,boj
+2026-07-23 06:31 ACCEPT [Google News CB] "Euro Edges Up As ECB Weighs A Hawkish Hold - Finimize" | kw:ecb
+2026-07-23 06:31 SKIP_MORNING already_sent date=2026-07-23
