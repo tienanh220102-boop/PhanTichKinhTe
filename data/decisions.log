@@ -1,11 +1,3 @@
-2026-06-17 13:01 ACCEPT [Google News KL] "Gold prices stabilize as Iran deal eases inflation jitters; Fed decisi" | kw:gold,rice,inflation
-2026-06-17 13:01 ACCEPT [Google News CB] "Fed Likely Holding Interest Rates Steady In Kevin Warsh’s First Meetin" | kw:interest rate
-2026-06-17 13:01 ACCEPT [Google News CB] "NYSE Content Update: Fed to Deliver First Rate Decision Under Chair Ke" | kw:rate decision
-2026-06-17 13:01 SKIP_MORNING already_sent date=2026-06-17
-2026-06-17 13:02 SENT_EVENING articles=20 date=2026-06-17 force=False
-2026-06-17 13:31 ACCEPT [Google News HH] "Oil Supply Could Far Outstrip Demand Growth if Middle East Peace Deal " | kw:oil,commodities
-2026-06-17 13:31 ACCEPT [Google News HH] "Wartime risk premium fades as Middle East tensions ease, stabilizing o" | kw:oil,rice
-2026-06-17 13:31 ACCEPT [Google News HH] "21-Karat Gold Price at JD88.8 in Local Market - Fana News -" | kw:gold,rice
 2026-06-17 13:31 ACCEPT [Google News KL] "Current price of silver as of Wednesday, June 17, 2026 - Fortune" | kw:silver,rice
 2026-06-17 13:31 ACCEPT [Google News KL] "Nasdaq & Silver Price Outlook: Cautious Optimism Ahead of the FOMC - F" | kw:silver,rice,fomc
 2026-06-17 13:31 ACCEPT [Google News KL] "Gold holds above $4,330, silver nears $70 as traders await Warsh’s fir" | kw:gold,silver
@@ -20006,3 +19998,12 @@
 2026-07-23 19:01 ACCEPT [Google News HH] "187,000 Jobless Claims. The Lowest of 2026. Here Is What It Means for " | kw:gold,silver
 2026-07-23 19:01 ACCEPT [ECB Press] "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)" | kw:monetary policy
 2026-07-23 19:01 ACCEPT [Google News CB] "ECB keeps interest rates unchanged amid Iran war inflation - dw.com" | kw:inflation,interest rate,ecb
+2026-07-23 19:30 ACCEPT [MarketWatch] "Global oil tops $100, settles at 2-month high after Houthis strike Sau" | kw:oil,crude,brent
+2026-07-23 19:31 ACCEPT [Google News HH] "Commodities Beat Tech This Decade, and Wall Street Still Won't Buy In " | kw:oil,crude,rice
+2026-07-23 19:31 ACCEPT [Google News HH] "Fuel costs on the rise as latest geopolitical turmoil drives up crude " | kw:oil,crude,fuel
+2026-07-23 19:31 ACCEPT [Google News HH] "September WTI Crude Oil Contract Closes Up $5.36, or 6.2%; Settles at " | kw:oil,crude,wti
+2026-07-23 19:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG lower highs structure holds, bears eye $55 " | kw:silver,rice
+2026-07-23 19:31 ACCEPT [Google News NS] "After the Bell | Corn and soybeans edge higher - Pro Farmer" | kw:corn,soybean
+2026-07-23 19:31 ACCEPT [Google News CB] "Exclusive-ECB considering several options to mitigate losses, sources " | kw:ecb
+2026-07-23 19:31 ACCEPT [Google News CB] "Charles Payne dissects market sentiment and Fed rate hike probabilitie" | kw:fed rate,rate hike
+2026-07-23 19:31 ACCEPT [Google News CB] "Dollar hits new 40-year high versus yen, euro softer after ECB stands " | kw:ecb
