@@ -1,5 +1,3 @@
-2026-06-17 15:01 ACCEPT [OilPrice.com] "US Crude Oil, Gasoline Inventories Still Falling: EIA" | kw:oil,crude,gas
-2026-06-17 15:01 ACCEPT [Google News HH] "US Crude Oil, Gasoline Inventories Still Falling EIA - Crude Oil Price" | kw:oil,crude,gas
 2026-06-17 15:01 ACCEPT [Google News HH] "Crude Oil Inventories Drop More Than Expected, Impacting Prices - Inve" | kw:oil,crude,rice
 2026-06-17 15:01 ACCEPT [Google News HH] "US EIA CRUDE OIL INVENTORIES -8.3 MLN BARRELS IN LATEST WEEK FROM PREV" | kw:oil,crude
 2026-06-17 15:01 ACCEPT [Google News HH] "US crude oil stockpiles drop 8.3 million barrels last week By Investin" | kw:oil,crude
@@ -20000,3 +19998,11 @@
 2026-07-23 21:57 ACCEPT [Google News CB] "South Africa central bank surprises with rate hold, says policy tight " | kw:central bank
 2026-07-23 22:01 ACCEPT [MarketWatch] "AMD’s rivalry with Nvidia is increasingly moving into a new realm" | kw:easing
 2026-07-23 22:01 ACCEPT [OilPrice.com] "OPEC+ Set to Raise Output Again—Even as Members Can't Pump It" | kw:opec
+2026-07-23 22:31 ACCEPT [Al Jazeera] "US war on Iran: The $110 billion price tag" | kw:rice
+2026-07-23 22:31 ACCEPT [Google News HH] "Stocks Fall Sharply as Crude Oil Prices Soar and Alphabet Sparks AI Sp" | kw:oil,crude,rice
+2026-07-23 22:31 ACCEPT [Google News HH] "Eurostat Crude Oil Supply Dataset NRG_CB_COSM Updated July 21, 2026 - " | kw:oil,crude
+2026-07-23 22:31 ACCEPT [Google News KL] "Newmont beats second-quarter profit estimates on higher gold prices By" | kw:gold,rice
+2026-07-23 22:31 ACCEPT [Google News KL] "Gold falls as oil spike, higher yields pressure metals - Kitco PM Repo" | kw:oil,gold
+2026-07-23 22:31 ACCEPT [Google News NS] "Corn Rallies, Soybeans Make Contract Highs on Weather, China Demand: W" | kw:wheat,corn,soybean
+2026-07-23 22:31 ACCEPT [Google News CB] "US warns against excessive yen volatility, calls for BOJ rate hikes - " | kw:rate hike,boj
+2026-07-23 22:31 ACCEPT [Google News CB] "Q3 Macroeconomic Update: Elevated Inflation and Solid Labor Market Ris" | kw:inflation
