@@ -1,10 +1,3 @@
-2026-06-16 13:01 ACCEPT [Google News NS] "Illinois bets on biodiesel: Expanding the market for domestic soybeans" | kw:soybean
-2026-06-16 13:01 ACCEPT [Google News NS] "Corn prices continue to decline in Ukraine – APK-Inform - АПК-Інформ" | kw:corn,rice
-2026-06-16 13:01 ACCEPT [Google News CB] "All eyes turn to Fed chair Kevin Warsh and his first moves on interest" | kw:interest rate
-2026-06-16 13:01 ACCEPT [Google News CB] "Dollar steady, no respite for yen after BOJ hikes rates as expected - " | kw:boj
-2026-06-16 13:01 ACCEPT [Google News CB] "Kevin Warsh's Fed debut comes at a pivotal moment for global monetary " | kw:monetary policy
-2026-06-16 13:01 ACCEPT [Google News CB] "Gold Edges Higher as Markets Assess Iran Agreement and Central Bank De" | kw:gold,central bank
-2026-06-16 13:01 ACCEPT [Google News CB] "ECB’s Escriva Says Energy Disruption Will Persist Despite Deal - Bloom" | kw:ecb
 2026-06-16 13:01 SKIP_MORNING already_sent date=2026-06-16
 2026-06-16 13:02 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
 2026-06-16 13:02 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
@@ -20005,3 +19998,11 @@
 2026-07-23 02:31 ACCEPT [Google News NS] "Global grain prices soar, wheat hits two-year highs amid supply chain " | kw:wheat,rice,supply chain
 2026-07-23 02:31 ACCEPT [Google News CB] "ECB to pause rate hikes but signal that more may be needed - 104.1 WIK" | kw:rate hike,ecb
 2026-07-23 02:31 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 03:01 ACCEPT [Google News HH] "U.S. commercial crude oil and refined product inventories both rose la" | kw:oil,crude
+2026-07-23 03:01 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD is at a critical juncture as Middle East " | kw:lng,gold,rice
+2026-07-23 03:01 ACCEPT [Google News HH] "ICE Canada Weekly Outlook : Rallying Futures Watching Crude Oil - mark" | kw:oil,crude
+2026-07-23 03:01 ACCEPT [Google News HH] "WTI Crude Oil Powers Ahead, Putting $90 Back on the Radar - ActionFore" | kw:oil,crude,wti
+2026-07-23 03:01 ACCEPT [Google News KL] "Austral Gold’s Guanaco Plan Puts A Price Tag On Four Years - Finimize" | kw:lng,gold,rice
+2026-07-23 03:01 ACCEPT [Google News KL] "Hedge Fund Billionaire Paulson Says Gold Bull Run Only Just Beginning " | kw:gold
+2026-07-23 03:01 ACCEPT [Google News CB] "Welch: time to end interest rates on fed. student loans – ABC22 & FOX4" | kw:interest rate
+2026-07-23 03:01 SKIP_MORNING already_sent date=2026-07-23
