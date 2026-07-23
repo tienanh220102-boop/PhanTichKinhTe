@@ -1,0 +1,95 @@
+[BẢNG SỐ LIỆU]
+               Giá   Phiên  5 phiên
+WTI          87.74   +3.3%   +10.2%
+Brent        95.37   +4.8%   +12.3%
+Khí TN       2.942   +2.7%    +0.6%
+Vàng      4,132.10   +1.5%    +2.2%
+Bạc          59.96   +1.9%    +5.0%
+Đồng         6.481   -0.5%    +3.0%
+Ngô         484.25   +7.0%    +8.2%
+Lúa mì      706.25   +4.2%    +4.2%
+Đậu t.    1,238.25   +1.5%    +3.0%
+DXY         101.12   -0.1%    +0.6%
+
+📊 Khối lượng giao dịch cao bất thường (dòng tiền đang chú ý): Bạc 5.3× bình thường, Lúa mì 2.9× bình thường
+
+[LIÊN THỊ TRƯỜNG]
+  Brent−WTI: $7.63 (1 tháng trước: $3.08) — spread rộng = cung WTI dồi dào tương đối
+  Vàng/Bạc: 68.9 (1 tháng trước: 63.8) — tỷ lệ cao = bạc rẻ tương đối so với vàng
+  Đồng/Vàng (×1000): 1.57 (1 tháng trước: 1.52) — tăng = risk-on/kỳ vọng tăng trưởng
+
+[VỊ THẾ QUỸ ĐẦU CƠ — CFTC COT tuần 2026-07-14]
+  Lúa mì (SRW): NET SHORT -16,339 (Δ tuần: +33,391)
+  Ngô: NET LONG +131,463 (Δ tuần: +30,483)
+  Đậu tương: NET LONG +125,403 (Δ tuần: +12,596)
+  Dầu WTI: NET LONG +16,854 (Δ tuần: +7,651)
+  Bạc: NET LONG +25,074 (Δ tuần: -2,941)
+  Đồng: NET LONG +64,385 (Δ tuần: +113)
+  Vàng XAU: NET LONG +186,682 (Δ tuần: -7,564)
+→ NET LONG = quỹ đặt cược giá tăng; Δ dương = dòng tiền đầu cơ đang vào
+
+🔀 ĐỐI CHIẾU NGUỒN TIN
+• Nguồn tin về giá dầu Brent và WTI cho thấy sự tăng giá mạnh mẽ, với các dự báo lạc quan từ Goldman Sachs về mức 120 USD/thùng vào Q4 2026. Tuy nhiên, một số nguồn cũng đề cập đến việc giá dầu tăng có thể gây áp lực lên thị trường chứng khoán Mỹ.
+• Các nguồn tin về nông sản (ngô, đậu tương, lúa mì) đều chỉ ra xu hướng tăng giá mạnh mẽ, được thúc đẩy bởi yếu tố thời tiết và căng thẳng Biển Đen. Có sự quan tâm đặc biệt đến vai trò của Brazil trong thị trường đậu tương và cảnh báo về sự dịch chuyển thị trường đối với Hoa Kỳ.
+• Đối với vàng và bạc, các nguồn tin cho thấy sự phục hồi giá, được hỗ trợ bởi đồng USD yếu đi và căng thẳng địa chính trị leo thang ở Trung Đông.
+
+🌍 VĨ MÔ & TIN TỨC NỔI BẬT
+• Đồng USD đang có xu hướng suy yếu nhẹ, điều này thường hỗ trợ giá các hàng hóa như vàng và bạc.
+• Lợi suất trái phiếu Kho bạc Mỹ kỳ hạn 10 năm đang có xu hướng tăng, cho thấy kỳ vọng về lãi suất có thể duy trì ở mức cao hoặc tăng thêm, điều này có thể gây áp lực lên một số loại hàng hóa.
+• Tâm lý thị trường đang có sự phân hóa, với giá dầu tăng mạnh cho thấy kỳ vọng về nhu cầu và rủi ro nguồn cung, trong khi thị trường chứng khoán Mỹ có dấu hiệu suy giảm.
+
+🛢️ NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên
+Xu hướng: WTI SIDEWAY | Brent SIDEWAY | Khí TN GIẢM
+Thiên hướng KT: WTI Trung tính | Brent Trung tính | Khí TN Nghiêng giảm
+Ngưỡng giá: WTI 78.58–88.40 | Brent 83.71–95.86 | Khí TN 2.823–2.968
+Phân tích:
+• Dầu WTI và Brent ghi nhận mức tăng mạnh mẽ trong phiên (+3.33% và +4.79%) và 5 phiên gần nhất (+10.23% và +12.27%), cho thấy động lực tăng giá rõ rệt. Giá dầu đang nằm trên đường MA20, cho thấy xu hướng tăng ngắn hạn. Các quỹ đầu cơ đang có vị thế mua ròng (NET LONG) đối với dầu WTI.
+• Giá khí tự nhiên có xu hướng giảm trong trung hạn (dưới MA20) và thiên hướng kỹ thuật nghiêng về giảm, mặc dù có mức tăng nhẹ trong phiên (+2.69%).
+Rủi ro:
+• Rủi ro gián đoạn nguồn cung năng lượng từ các khu vực căng thẳng địa chính trị, đặc biệt là ở Trung Đông, có thể tiếp tục đẩy giá dầu lên cao.
+• Mùa bão ở Vịnh Mexico có thể gây ảnh hưởng đến sản xuất dầu khí.
+
+🥇 KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc
+Xu hướng: Vàng SIDEWAY | Bạc SIDEWAY
+Thiên hướng KT: Vàng Trung tính | Bạc Trung tính
+Ngưỡng giá: Vàng 4,062.28–4,134.40 | Bạc 58.81–60.09
+Phân tích:
+• Vàng và Bạc đều có xu hướng tăng trong phiên (+1.50% và +1.91%) và 5 phiên gần nhất (+2.18% và +4.99%). Giá của cả hai kim loại quý đều nằm trên đường MA20, cho thấy xu hướng tăng ngắn hạn.
+• Tỷ lệ Vàng/Bạc đang ở mức cao (68.9), cho thấy bạc đang tương đối rẻ so với vàng, có thể thu hút dòng tiền đầu cơ vào bạc.
+• Các quỹ đầu cơ đang có vị thế mua ròng lớn đối với vàng, mặc dù có sự giảm nhẹ trong tuần gần nhất.
+Rủi ro:
+• Sự phục hồi của đồng USD hoặc lợi suất trái phiếu Kho bạc Mỹ có thể gây áp lực lên giá vàng và bạc.
+• Căng thẳng địa chính trị leo thang có thể tiếp tục hỗ trợ giá vàng như một tài sản trú ẩn an toàn.
+
+🌾 NÔNG SẢN — Ngô, Đậu tương, Lúa mì
+Xu hướng: Ngô SIDEWAY | Lúa mì TĂNG | Đậu tương TĂNG
+Thiên hướng KT: Ngô Trung tính | Lúa mì Tăng — đã nóng | Đậu tương Tăng — đã nóng
+Ngưỡng giá: Ngô 436.00–486.50 | Lúa mì 665.25–708.25 | Đậu tương 1,186.75–1,240.75
+Phân tích:
+• Ngô, Lúa mì và Đậu tương đều ghi nhận mức tăng giá mạnh mẽ trong phiên (+6.96%, +4.17%, +1.54%) và 5 phiên gần nhất (+8.21%, +4.24%, +2.99%). Giá của cả ba loại nông sản đều nằm trên đường MA20, cho thấy xu hướng tăng mạnh mẽ.
+• Các quỹ đầu cơ đang có vị thế mua ròng lớn đối với Ngô và Đậu tương, với xu hướng tăng vị thế trong tuần gần nhất. Lúa mì cũng có vị thế mua ròng lớn.
+• Yếu tố thời tiết và căng thẳng Biển Đen đang là động lực chính thúc đẩy giá nông sản tăng.
+Rủi ro:
+• Thời tiết thuận lợi hơn trong giai đoạn tới có thể làm giảm bớt áp lực tăng giá.
+• Sự thay đổi trong tình hình căng thẳng tại Biển Đen có thể ảnh hưởng đến nguồn cung và giá cả.
+
+🔩 KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken
+Xu hướng: Đồng SIDEWAY
+Thiên hướng KT: Đồng Trung tính
+Ngưỡng giá: Đồng 6.210–6.521
+Phân tích:
+• Đồng có mức giảm nhẹ trong phiên (-0.47%) nhưng vẫn ghi nhận mức tăng 2.97% trong 5 phiên gần nhất. Giá đồng đang nằm trên đường MA20, cho thấy xu hướng tăng ngắn hạn.
+• Tín hiệu "Đồng/Vàng (×1000)" tăng lên 1.57 cho thấy tâm lý thị trường đang "ưa rủi ro" (risk-on), hỗ trợ cho đồng.
+• Các quỹ đầu cơ đang có vị thế mua ròng lớn đối với đồng.
+Rủi ro:
+• Sự suy giảm của nhu cầu công nghiệp toàn cầu, đặc biệt là từ Trung Quốc, có thể gây áp lực lên giá đồng.
+• Biến động của các yếu tố vĩ mô như lãi suất và đồng USD có thể ảnh hưởng đến giá kim loại công nghiệp.
+
+📋 KHUYẾN NGHỊ PHIÊN
+• Mua Ngô với mục tiêu 490¢/bushel, cắt lỗ tại 475¢/bushel, dựa trên xu hướng tăng mạnh và vị thế mua ròng của các quỹ.
+• Theo dõi sát diễn biến giá dầu Brent quanh ngưỡng 95 USD/thùng, có thể cân nhắc mua vào nếu có tín hiệu tích lũy và vượt kháng cự, với mục tiêu 100 USD/thùng.
+
+⚠️ THEO DÕI PHIÊN
+• Báo cáo dữ liệu kinh tế quan trọng của Mỹ và các thông tin liên quan đến chính sách tiền tệ của Cục Dự trữ Liên bang Mỹ (Fed).
+• Diễn biến căng thẳng địa chính trị tại Trung Đông và các tác động tiềm tàng đến nguồn cung năng lượng.
+• Dự báo thời tiết chi tiết cho các vùng trồng trọt chính của Mỹ và các khu vực sản xuất nông sản quan trọng khác.
