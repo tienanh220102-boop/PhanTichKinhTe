@@ -1,12 +1,3 @@
-2026-06-17 11:01 ACCEPT [MarketWatch] "An oil bull’s ‘insane’ bet: Why this veteran trader is buying energy s" | kw:oil,rice
-2026-06-17 11:01 ACCEPT [Google News HH] "US Crude Oil Inventories Drop 8.33M Barrels: API Data Misses Expectati" | kw:oil,crude
-2026-06-17 11:01 ACCEPT [Google News HH] "Iran Resumes Crude Oil Exports Following U.S. Blockade Agreement - tov" | kw:oil,crude
-2026-06-17 11:01 ACCEPT [Google News KL] "Gold prices today, Wednesday, June 17: Prices hold ahead of Fed decisi" | kw:gold,rice
-2026-06-17 11:01 ACCEPT [Google News KL] "Gold little changed as markets eye Warsh's Fed debut, US-Iran deal det" | kw:gold
-2026-06-17 11:01 ACCEPT [Google News KL] "DXY, Gold Price Forecast: Will Kevin Warsh's First FOMC Halt or Suppor" | kw:gold,rice,fomc
-2026-06-17 11:01 ACCEPT [Google News KL] "Gold Price Forecast: Risk-On Signals Clash with Stock Valuations - FXE" | kw:gold,rice
-2026-06-17 11:01 ACCEPT [Google News KL] "DXY, Gold Price Forecast: Will Kevin Warsh's First FOMC Halt or Suppor" | kw:gold,rice,fomc
-2026-06-17 11:01 ACCEPT [Google News NS] "Rising corn prices in Paris give wheat support - DCA Market Intelligen" | kw:wheat,corn,rice
 2026-06-17 11:01 ACCEPT [Google News CB] "Russian central bank says household inflation expectations fall to 12." | kw:inflation,central bank
 2026-06-17 11:01 ACCEPT [Google News CB] "Kevin Warsh’s first meeting as Fed chairman could reveal a new vision " | kw:central bank
 2026-06-17 11:01 SKIP_MORNING already_sent date=2026-06-17
@@ -20007,3 +19998,12 @@
 2026-07-23 16:20 ACCEPT [Google News CB] "ECB Keeps Interest Rates On Hold, Avoids Rattling Markets - Seeking Al" | kw:interest rate,ecb
 2026-07-23 16:20 SKIP_MORNING already_sent date=2026-07-23
 2026-07-23 16:20 SKIP_EVENING already_sent date=2026-07-23
+2026-07-23 16:31 ACCEPT [Google News HH] "Dow Falls Over 500 Points, Trump's Latest Iran Threat Sends Crude Oil " | kw:oil,crude,rice
+2026-07-23 16:31 ACCEPT [Google News HH] "Oil Prices Hit $100 a Barrel While Tech Selloff Deepens -- Commodities" | kw:oil,rice,commodities
+2026-07-23 16:31 ACCEPT [Google News KL] "Gold plummets 20% from $5,500 high since Iran war began — but experts " | kw:gold
+2026-07-23 16:31 ACCEPT [Google News KL] "Teck profits swell on surging copper prices - The Globe and Mail" | kw:copper,rice
+2026-07-23 16:31 ACCEPT [Google News CB] "South Africa central bank surprises with rate hold, says policy tight " | kw:central bank
+2026-07-23 16:31 ACCEPT [Google News CB] "Webster-Santander merger clears European Central Bank, awaits Federal " | kw:central bank,federal reserve
+2026-07-23 16:31 ACCEPT [Google News CB] "ECB Presents 10 Design Options for New Euro-Area Banknotes - Bloomberg" | kw:ecb
+2026-07-23 16:31 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 16:31 SKIP_EVENING already_sent date=2026-07-23
