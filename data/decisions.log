@@ -1,12 +1,3 @@
-2026-06-17 11:01 ACCEPT [Google News CB] "Russian central bank says household inflation expectations fall to 12." | kw:inflation,central bank
-2026-06-17 11:01 ACCEPT [Google News CB] "Kevin Warsh’s first meeting as Fed chairman could reveal a new vision " | kw:central bank
-2026-06-17 11:01 SKIP_MORNING already_sent date=2026-06-17
-2026-06-17 11:31 ACCEPT [MarketWatch] "Former Goldman CEO Lloyd Blankfein calls day trading his ‘music’ — and" | kw:gold
-2026-06-17 11:31 ACCEPT [MarketWatch] "An oil bull’s ‘insane’ bet: Why this veteran trader is buying energy s" | kw:oil,crude,rice
-2026-06-17 11:31 ACCEPT [OilPrice.com] "First Iranian Oil Moves Past U.S. Blockade Ahead of Deal Signing" | kw:oil,crude
-2026-06-17 11:31 ACCEPT [Google News HH] "Nigeria Capitalizes on Hormuz Crisis with New Crude Oil Grades - energ" | kw:oil,crude
-2026-06-17 11:31 ACCEPT [Google News HH] "Local Gold Price: 21-Karat Reaches 88.8 Dinars... - jordannews.jo" | kw:gold,rice
-2026-06-17 11:31 ACCEPT [Google News KL] "Silver prices today, Wednesday, June 17, 2026: Up 9.9% since last week" | kw:silver,rice
 2026-06-17 11:31 ACCEPT [Google News KL] "DXY, Gold Price Forecast: Will Kevin Warsh's First FOMC Halt or Suppor" | kw:gold,rice,fomc
 2026-06-17 11:31 ACCEPT [Google News KL] "Copper’s structural deficit has returned, but this time it’s different" | kw:copper
 2026-06-17 11:31 ACCEPT [Google News KL] "Gold Price Forecast: Risk-On Signals Clash with Stock Valuations - FXE" | kw:gold,rice
@@ -20007,3 +19998,20 @@
 2026-07-23 16:31 ACCEPT [Google News CB] "ECB Presents 10 Design Options for New Euro-Area Banknotes - Bloomberg" | kw:ecb
 2026-07-23 16:31 SKIP_MORNING already_sent date=2026-07-23
 2026-07-23 16:31 SKIP_EVENING already_sent date=2026-07-23
+2026-07-23 17:01 ACCEPT [MarketWatch] "Global oil tops $100 after Houthis strike Saudi tankers and Trump thre" | kw:oil,crude,brent
+2026-07-23 17:01 ACCEPT [CNBC Commodities] "Shortsighted stock market can no longer brush off war: 'It's too hard " | kw:oil,rice
+2026-07-23 17:01 ACCEPT [Google News HH] "Arkansas gas prices jump nearly 25 cents a gallon in one week, AAA say" | kw:gas,rice
+2026-07-23 17:01 ACCEPT [Google News HH] "The end of easy waivers: Hotter Commodities - Fastmarkets" | kw:wti,commodities
+2026-07-23 17:01 ACCEPT [Google News HH] "Gold price retreats from two-week high as oil nears $100, silver down " | kw:oil,gold,silver
+2026-07-23 17:01 ACCEPT [Google News HH] "Duration Risk And Commodities: Hedging With KMLM (NYSEARCA:KMLM) - See" | kw:commodities
+2026-07-23 17:01 ACCEPT [Google News HH] "OPEC+ likely to raise oil output targets from September again, sources" | kw:oil,opec
+2026-07-23 17:01 ACCEPT [Google News HH] "Cushing Hub dropped to critical level of held oil - Oklahoma Energy To" | kw:oil
+2026-07-23 17:01 ACCEPT [Google News HH] "ICE canola weekly: Rallying futures watching crude oil - Farmtario" | kw:oil,crude
+2026-07-23 17:01 ACCEPT [Google News HH] "Nymex Overview : Crude-Oil Futures Jump as Houthi Attacks Stoke Supply" | kw:oil,crude
+2026-07-23 17:01 ACCEPT [Google News KL] "Silver Price Today: Silver Falls 2.18% on July 23, 2026 - USA Today" | kw:silver,rice
+2026-07-23 17:01 ACCEPT [Google News KL] "Gold overtakes US treasuries in central bank foreign exchange reserves" | kw:gold,central bank
+2026-07-23 17:01 ACCEPT [Google News KL] "Teck delivers solid second quarter amid record copper prices - Financi" | kw:copper,rice
+2026-07-23 17:01 ACCEPT [Google News CB] "ECB will discuss raising banks' minimum reserves, Lagarde says - Reute" | kw:ecb
+2026-07-23 17:01 ACCEPT [Google News CB] "ECB holds rates at 2.25% as the reignited Iran war keeps a second hike" | kw:ecb
+2026-07-23 17:01 ACCEPT [Google News CB] "EUR/USD Breaks Bear Flag After ECB - FOREX.com" | kw:ecb
+2026-07-23 17:01 ACCEPT [Google News CB] "ECB will discuss raising banks' minimum reserves, Lagarde says - Euron" | kw:ecb
