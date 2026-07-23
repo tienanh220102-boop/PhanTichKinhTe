@@ -1,10 +1,3 @@
-2026-06-16 21:24 ACCEPT [Google News KL] "What's Driving The Price Of Gold (undefined:GLD) - Seeking Alpha" | kw:gold,rice
-2026-06-16 21:24 ACCEPT [Google News KL] "BHP: Copper And Iron Price Outlooks Aren't Supportive (NYSE:BHP) - See" | kw:copper,iron,rice
-2026-06-16 21:24 ACCEPT [Google News KL] "SOMA GOLD APPOINTS MR. WYLIE HUI AS CFO - Investing News Network" | kw:gold
-2026-06-16 21:24 ACCEPT [Google News NS] "Wheat prices continue to decline in Ukraine - АПК-Інформ" | kw:wheat,rice
-2026-06-16 21:24 ACCEPT [Google News CB] "ECB’s Makhlouf Sees Lingering Price Pressures Despite Iran Deal - Bloo" | kw:rice,ecb
-2026-06-16 21:24 ACCEPT [Google News CB] "Bond Options Traders Split on Fed Rate Path as Warsh Era Begins - Bloo" | kw:fed rate
-2026-06-16 21:31 ACCEPT [Google News HH] "US Crude Oil Inventories Down Again, Losing 52 Million Barrels in 9 We" | kw:oil,crude,rice
 2026-06-16 22:01 ACCEPT [OilPrice.com] "Taiwan’s Energy Crisis Shows the Cost of Import Dependence" | kw:fuel,rice,shortage
 2026-06-16 22:01 ACCEPT [Google News HH] "CME : July WTI Crude Oil futures sink to lowest close since March. - m" | kw:oil,crude,wti
 2026-06-16 22:01 ACCEPT [Google News HH] "Tether Signs MoU With Dubai Multi Commodities Centre - TradingView" | kw:commodities
@@ -20005,3 +19998,24 @@
 2026-07-23 12:08 ACCEPT [Google News CB] "“Good People” takes the MOH stage July 31 – Aug. 9 - ECB Publishing, I" | kw:ecb
 2026-07-23 12:08 ACCEPT [Google News CB] "County manager makes good on promise to spruce up A-Building - ECB Pub" | kw:ecb
 2026-07-23 12:08 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 12:31 ACCEPT [OilPrice.com] "U.S. Refinery Utilization Hits 96.2% as Fuel Markets Tighten Worldwide" | kw:fuel
+2026-07-23 12:31 ACCEPT [Google News HH] "Gold Price Today on July 23, 2026 - USA Today" | kw:wti,gold,rice
+2026-07-23 12:31 ACCEPT [Google News HH] "Enterprise value to EBIT forward of Aelea Commodities Limited – BSE:AC" | kw:commodities
+2026-07-23 12:31 ACCEPT [Google News HH] "Kuwait Crude Oil Price Rises by USD 7.32/Barrel - Fana News -" | kw:oil,crude,rice
+2026-07-23 12:31 ACCEPT [Google News KL] "Freeport-McMoRan beats quarterly profit estimates on higher copper pri" | kw:copper,rice
+2026-07-23 12:31 ACCEPT [Google News KL] "Silver Price Today on July 23, 2026 - USA Today" | kw:silver,rice
+2026-07-23 12:31 ACCEPT [Google News NS] "United Soybean Board Announces Courtney Knupp as Incoming CEO - Mornin" | kw:soybean
+2026-07-23 12:31 ACCEPT [Google News NS] "Higher wheat prices for Canadian farmers in July - Manitoba Co-operato" | kw:wheat,rice
+2026-07-23 12:31 ACCEPT [ECB Press] "Monetary policy decisions" | kw:monetary policy
+2026-07-23 12:31 ACCEPT [Google News CB] "Monetary policy decisions - European Central Bank" | kw:central bank,monetary policy
+2026-07-23 12:31 ACCEPT [Google News CB] "ECB keeps rates on hold, leaves room for more hikes - Reuters" | kw:ecb
+2026-07-23 12:31 ACCEPT [Google News CB] "ECB Keeps Rate Steady to Gauge Iran War’s Impact on Inflation - Bloomb" | kw:inflation,ecb
+2026-07-23 12:31 ACCEPT [Google News CB] "ECB holds rates at 2.25% as the reignited Iran war keeps a second hike" | kw:ecb
+2026-07-23 12:31 ACCEPT [Google News CB] "Europe's central bank holds rate steady amid swings in oil prices - KS" | kw:oil,rice,central bank
+2026-07-23 12:31 ACCEPT [Google News CB] "ECB holds interest rates at 2.25% - Financial Times" | kw:interest rate,ecb
+2026-07-23 12:31 ACCEPT [Google News CB] "Reigniting Inflation Heaps Pressure on European Central Bank - WSJ" | kw:inflation,central bank
+2026-07-23 12:31 ACCEPT [Google News CB] "Europe's central bank holds rate steady amid swings in oil prices - Te" | kw:oil,rice,central bank
+2026-07-23 12:31 ACCEPT [Google News CB] "ECB keeps interest rates on hold, avoids rattling markets - ING Think" | kw:interest rate,ecb
+2026-07-23 12:31 ACCEPT [Google News CB] "7 Things To Watch For After The Fed Announces July Interest Rate Decis" | kw:interest rate,rate decision
+2026-07-23 12:31 ACCEPT [Google News CB] "Turkey central bank keeps key interest rate at 37% - TradingView" | kw:wti,central bank,interest rate
+2026-07-23 12:31 SKIP_MORNING already_sent date=2026-07-23
