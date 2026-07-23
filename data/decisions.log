@@ -1,6 +1,3 @@
-2026-06-16 13:01 ACCEPT [Google News KL] "Silver Price Analysis – Silver Continues to See Buyers Underneath - FX" | kw:silver,rice
-2026-06-16 13:01 ACCEPT [Google News KL] "Fed Fears? Gold, Silver Prices See No Major Breakout Despite Oil Slump" | kw:oil,gold,silver
-2026-06-16 13:01 ACCEPT [Google News KL] "Gold and silver steady in India amid global uncertainty - MSN" | kw:gold,silver
 2026-06-16 13:01 ACCEPT [Google News NS] "Illinois bets on biodiesel: Expanding the market for domestic soybeans" | kw:soybean
 2026-06-16 13:01 ACCEPT [Google News NS] "Corn prices continue to decline in Ukraine – APK-Inform - АПК-Інформ" | kw:corn,rice
 2026-06-16 13:01 ACCEPT [Google News CB] "All eyes turn to Fed chair Kevin Warsh and his first moves on interest" | kw:interest rate
@@ -20001,3 +19998,10 @@
 2026-07-23 02:01 ACCEPT [Google News HH] "Global Refiners Are Cutting Out Oil Traders To Buy Venezuelan Crude Di" | kw:oil,crude,rice
 2026-07-23 02:01 ACCEPT [Google News KL] "Quebec Gold-Silver Project Advances Key Equipment Milestones - Streetw" | kw:gold,silver
 2026-07-23 02:01 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 02:31 ACCEPT [OilPrice.com] "Brent Nears $96 as U.S. Strikes Iran for 12th Consecutive Night" | kw:oil,crude,brent
+2026-07-23 02:31 ACCEPT [Google News HH] "Escalating Global Supply Risks Underpin Crude Oil Prices - Yahoo Finan" | kw:oil,crude,rice
+2026-07-23 02:31 ACCEPT [Google News HH] "Houthi threat to Saudi port traffic adds fresh Red Sea shipping risk: " | kw:shipping
+2026-07-23 02:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD bulls have the upper hand above $59.00 " | kw:silver,rice
+2026-07-23 02:31 ACCEPT [Google News NS] "Global grain prices soar, wheat hits two-year highs amid supply chain " | kw:wheat,rice,supply chain
+2026-07-23 02:31 ACCEPT [Google News CB] "ECB to pause rate hikes but signal that more may be needed - 104.1 WIK" | kw:rate hike,ecb
+2026-07-23 02:31 SKIP_MORNING already_sent date=2026-07-23
