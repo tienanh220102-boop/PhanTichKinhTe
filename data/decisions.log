@@ -1,11 +1,3 @@
-2026-06-16 13:01 SKIP_MORNING already_sent date=2026-06-16
-2026-06-16 13:02 GEMINI ERROR gemini-2.5-flash This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.
-2026-06-16 13:02 GEMINI FALLBACK gemini-2.5-flash->gemini-2.5-flash-lite code=ERR
-2026-06-16 13:02 SENT_EVENING articles=20 date=2026-06-16 force=False
-2026-06-16 13:23 ACCEPT [EIA Energy] "Solar generation in CAISO surpassed natural gas in the first five mont" | kw:gas
-2026-06-16 13:23 ACCEPT [Google News HH] "UAE’s Adnoc Hires Oil Veteran to Lead Trading Unit’s Expansion - Bloom" | kw:oil
-2026-06-16 13:23 ACCEPT [Google News HH] "Crude Oil WTI is down by 4.01% - TradingView" | kw:oil,crude,wti
-2026-06-16 13:23 ACCEPT [Google News HH] "Crude Oil Price Analysis – Oil Continues to Fall as Peace Likely - FXE" | kw:oil,crude,lng
 2026-06-16 13:23 ACCEPT [Google News HH] "Gold Price Analysis 16/06: Will XAU/USD Break $4500? - Daily Forex" | kw:gold,rice
 2026-06-16 13:23 ACCEPT [Google News KL] "GDX climbs 59% amid gold price recovery - MSN" | kw:gold,rice
 2026-06-16 13:23 ACCEPT [Google News KL] "Higher-for-Longer Rates Constrain New Copper Supply Despite Prices Hol" | kw:copper,rice
@@ -20006,3 +19998,9 @@
 2026-07-23 03:01 ACCEPT [Google News KL] "Hedge Fund Billionaire Paulson Says Gold Bull Run Only Just Beginning " | kw:gold
 2026-07-23 03:01 ACCEPT [Google News CB] "Welch: time to end interest rates on fed. student loans – ABC22 & FOX4" | kw:interest rate
 2026-07-23 03:01 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 03:31 ACCEPT [Google News HH] "WTI Crude Oil Powers Ahead, Putting $90 Back on the Radar - Action For" | kw:oil,crude,wti
+2026-07-23 03:31 ACCEPT [Google News KL] "Vietnam dong, gold rates - July 23 - TradingView" | kw:gold
+2026-07-23 03:31 ACCEPT [Google News KL] "[Live] Copper and Aluminum Wire and Cable Market Outlook, Analysis of " | kw:copper,aluminum
+2026-07-23 03:31 ACCEPT [Google News CB] "Euro advances ahead of ECB policy decision - FXStreet" | kw:ecb
+2026-07-23 03:31 ACCEPT [Google News CB] "Nikkei Rises With Chip Stocks, But BOJ Bets Cap Gains - Finimize" | kw:boj
+2026-07-23 03:31 SKIP_MORNING already_sent date=2026-07-23
