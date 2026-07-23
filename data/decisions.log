@@ -1,12 +1,3 @@
-2026-06-17 13:31 ACCEPT [Google News KL] "Current price of silver as of Wednesday, June 17, 2026 - Fortune" | kw:silver,rice
-2026-06-17 13:31 ACCEPT [Google News KL] "Nasdaq & Silver Price Outlook: Cautious Optimism Ahead of the FOMC - F" | kw:silver,rice,fomc
-2026-06-17 13:31 ACCEPT [Google News KL] "Gold holds above $4,330, silver nears $70 as traders await Warsh’s fir" | kw:gold,silver
-2026-06-17 13:31 ACCEPT [Google News KL] "Current price of gold as of June 17, 2026 - Fortune" | kw:gold,rice
-2026-06-17 13:31 ACCEPT [Google News KL] "Silver Price Analysis – Silver Continues to Hang Around Crucial Big Fi" | kw:silver,rice
-2026-06-17 13:31 ACCEPT [Google News KL] "Gold rebound ahead? Barclays sees prices climbing toward $4,900 - Cryp" | kw:gold,rice
-2026-06-17 13:31 ACCEPT [Google News KL] "Gold Price Tumbles Rs 4,800, Silver Drops Rs 5,300 - Rediff MoneyWiz" | kw:gold,silver,rice
-2026-06-17 13:31 ACCEPT [Google News KL] "Gold, Silver Prices In Red Amid Fed Pivot Fears: Should You Buy On Dip" | kw:gold,silver,rice
-2026-06-17 13:31 ACCEPT [Google News NS] "Ohio reports crown rot in corn, frost damage to wheat - Farm Progress" | kw:wheat,corn
 2026-06-17 13:31 ACCEPT [Google News CB] "Warsh-led Fed expected to leave interest rates unchanged - Reuters" | kw:interest rate
 2026-06-17 13:31 ACCEPT [Google News CB] "China’s Central Bank Hints at Shift That Aligns It More With Fed - Blo" | kw:central bank
 2026-06-17 13:31 ACCEPT [Google News CB] "Repeat of 2022 inflation woes less likely but not excluded, ECB's Slei" | kw:inflation,ecb
@@ -20007,3 +19998,16 @@
 2026-07-23 19:31 ACCEPT [Google News CB] "Exclusive-ECB considering several options to mitigate losses, sources " | kw:ecb
 2026-07-23 19:31 ACCEPT [Google News CB] "Charles Payne dissects market sentiment and Fed rate hike probabilitie" | kw:fed rate,rate hike
 2026-07-23 19:31 ACCEPT [Google News CB] "Dollar hits new 40-year high versus yen, euro softer after ECB stands " | kw:ecb
+2026-07-23 20:01 ACCEPT [MarketWatch] "A ‘generational buying opportunity’ guarantees inflation plus 3% a yea" | kw:inflation
+2026-07-23 20:01 ACCEPT [MarketWatch] "Imax’s CEO says it’s time to hike prices as tickets to ‘The Odyssey’ r" | kw:rice
+2026-07-23 20:01 ACCEPT [BBC Business] "Help for electricity bills as crude oil hits $100" | kw:oil,crude
+2026-07-23 20:01 ACCEPT [Al Jazeera] "Resumption of oil exports: Will Yemen recover its economic lifeline?" | kw:oil,iron
+2026-07-23 20:01 ACCEPT [OilPrice.com] "Insurers Flock to Oil Projects Outside the Middle East" | kw:oil,gas,inflation
+2026-07-23 20:01 ACCEPT [Google News HH] "Crude oil futures settled at $92.19 up $5.36 or 6.17% - investingLive" | kw:oil,crude
+2026-07-23 20:01 ACCEPT [Google News HH] "Crude Oil Soars - TradingView" | kw:oil,crude
+2026-07-23 20:01 ACCEPT [Google News HH] "US Equity Indexes Slump, Crude Oil Soars as Iran-Backed Houthis Hit Ta" | kw:oil,crude
+2026-07-23 20:01 ACCEPT [Google News KL] "Gold crashes from $5,500 to $4,160 since the Iran conflict began, but " | kw:gold
+2026-07-23 20:01 ACCEPT [Google News NS] "Morning Comments - The Andersons Trade Group" | kw:lng
+2026-07-23 20:01 ACCEPT [Google News NS] "Ukrainian soybean prices fall by UAH 2,000 per ton over the past month" | kw:soybean,rice
+2026-07-23 20:01 ACCEPT [Google News CB] "South Central Bank Named Presenting Partner of the 107th Kentucky Open" | kw:central bank
+2026-07-23 20:01 ACCEPT [Google News CB] "Fed will likely hold rates at July meeting and through 2026, but Iran " | kw:tariff
