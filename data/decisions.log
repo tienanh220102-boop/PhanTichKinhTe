@@ -1,21 +1,3 @@
-2026-06-17 10:12 ACCEPT [Google News CB] "China’s Central Bank Hints at Shift That Aligns It More With Fed - Blo" | kw:central bank
-2026-06-17 10:12 ACCEPT [Google News CB] "China’s central bank is closely monitoring stablecoins in cross-border" | kw:lng,central bank
-2026-06-17 10:12 SKIP_MORNING already_sent date=2026-06-17
-2026-06-17 10:31 ACCEPT [OilPrice.com] "Global Gas Markets Get Another Boost as Australian LNG Strike Ends" | kw:gas,lng
-2026-06-17 10:31 ACCEPT [NASDAQ Commod] "Gold Prices Little Changed Ahead Of Fed Verdict" | kw:gold,rice,rate decision
-2026-06-17 10:31 ACCEPT [NASDAQ Commod] "Oil Prices Little Changed Near Three-month Lows" | kw:oil,rice
-2026-06-17 10:31 ACCEPT [Google News HH] "Explainer: Why a strong El Niño leaves tropical commodities acutely ex" | kw:commodities
-2026-06-17 10:31 ACCEPT [Google News HH] "FTSE 100 Live: London stocks flat as defence rally offset by commoditi" | kw:commodities
-2026-06-17 10:31 ACCEPT [Google News HH] "DXY, Gold Price Forecast: Will Kevin Warsh's First FOMC Halt or Suppor" | kw:gold,rice,fomc
-2026-06-17 10:31 ACCEPT [Google News HH] "Crude oil prices fall to three-month low on hopes of opening Strait of" | kw:oil,crude,rice
-2026-06-17 10:31 ACCEPT [Google News HH] "WTI Crude Oil Futures Slip 0.2% to $75.92, Brent Crude Futures Edge 0." | kw:oil,crude,brent
-2026-06-17 10:31 ACCEPT [Google News HH] "May Trade Deficit Returns as Crude Oil Import Costs Hit Record High - " | kw:oil,crude
-2026-06-17 10:31 ACCEPT [Google News KL] "Gold little changed as markets eye Warsh's Fed debut, US-Iran deal det" | kw:gold
-2026-06-17 10:31 ACCEPT [Google News NS] "World wheat prices falling due to new harvest, expected reopening of S" | kw:wheat,rice,harvest
-2026-06-17 10:31 ACCEPT [Google News CB] "Warsh to face spotlight as Federal Reserve likely to leave interest ra" | kw:interest rate,federal reserve
-2026-06-17 10:31 ACCEPT [Google News CB] "Warsh-led Fed expected to hold interest rates steady By Reuters - Inve" | kw:interest rate
-2026-06-17 10:31 ACCEPT [Google News CB] "Fed Policy Favors Funded Uranium Companies as Term Prices Reach US$91." | kw:rice
-2026-06-17 10:31 SKIP_MORNING already_sent date=2026-06-17
 2026-06-17 11:01 ACCEPT [MarketWatch] "An oil bull’s ‘insane’ bet: Why this veteran trader is buying energy s" | kw:oil,rice
 2026-06-17 11:01 ACCEPT [Google News HH] "US Crude Oil Inventories Drop 8.33M Barrels: API Data Misses Expectati" | kw:oil,crude
 2026-06-17 11:01 ACCEPT [Google News HH] "Iran Resumes Crude Oil Exports Following U.S. Blockade Agreement - tov" | kw:oil,crude
@@ -20016,3 +19998,12 @@
 2026-07-23 16:01 ACCEPT [Google News CB] "Gold slips 2% as oil rally brings Fed rate hikes into focus - CNBC" | kw:oil,gold,fed rate
 2026-07-23 16:01 SKIP_MORNING already_sent date=2026-07-23
 2026-07-23 16:01 SKIP_EVENING already_sent date=2026-07-23
+2026-07-23 16:20 ACCEPT [Google News HH] "Oil prices jump back above $100 per barrel - upi.com" | kw:oil,rice
+2026-07-23 16:20 ACCEPT [Google News HH] "Dow Falls Over 500 Points, Trump's Latest Iran Threat Sends Crude Oil " | kw:oil,crude,rice
+2026-07-23 16:20 ACCEPT [Google News HH] "Crude Oil Price Surge Drags Cryptos Further - RTTNews" | kw:oil,crude,rice
+2026-07-23 16:20 ACCEPT [Google News HH] "CME Group fines prop trading firm Optimus Commodities - FX News Group" | kw:commodities
+2026-07-23 16:20 ACCEPT [Google News CB] "Beethoven or birds? ECB unveils new banknote designs - Reuters" | kw:ecb
+2026-07-23 16:20 ACCEPT [Google News CB] "ECB Leaves Rates Unchanged Amid High Uncertainty, September Hike Likel" | kw:ecb
+2026-07-23 16:20 ACCEPT [Google News CB] "ECB Keeps Interest Rates On Hold, Avoids Rattling Markets - Seeking Al" | kw:interest rate,ecb
+2026-07-23 16:20 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 16:20 SKIP_EVENING already_sent date=2026-07-23
