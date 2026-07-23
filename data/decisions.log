@@ -1,23 +1,3 @@
-2026-06-16 19:31 ACCEPT [Google News CB] "Kevin Warsh set to lead his first Federal Reserve interest rate meetin" | kw:interest rate,federal reserve
-2026-06-16 19:31 ACCEPT [Google News CB] "Treasury yields slide as Fed begins monetary policy meeting - CNBC" | kw:treasury,monetary policy
-2026-06-16 20:01 ACCEPT [Google News HH] "Crude oil prices fall again, while US stocks drift near their all-time" | kw:oil,crude,rice
-2026-06-16 20:01 ACCEPT [Google News HH] "ADNOC taps industry veteran to lead trading arm expansion - World Oil" | kw:oil
-2026-06-16 20:01 ACCEPT [Google News KL] "GoldMining's Sao Jorge Project Emerges as Key Asset in Rising Gold Mar" | kw:gold
-2026-06-16 20:01 ACCEPT [Google News NS] "USDA Raises Ukraine Wheat Export Forecast for 2026/27 Marketing Year -" | kw:wheat
-2026-06-16 20:01 ACCEPT [Google News NS] "Morocco to Build 8-Million-Quintal Wheat Reserve to Secure Food Supply" | kw:wheat
-2026-06-16 20:01 ACCEPT [Google News CB] "El Paso border leaders seek clarity ahead of investment - Federal Rese" | kw:wti,federal reserve
-2026-06-16 20:01 ACCEPT [Google News CB] "Will a 2026 Fed Interest Rate Increase Help or Hurt Retirees? - The Mo" | kw:interest rate
-2026-06-16 20:31 ACCEPT [Google News HH] "Oil News: War Premium Evaporates but Inventory Damage Remains - FXEmpi" | kw:oil
-2026-06-16 20:31 ACCEPT [Google News KL] "Gold Price Short-term Outlook: XAU/USD Bulls Fight to Confirm Major Lo" | kw:gold,rice
-2026-06-16 20:31 ACCEPT [Google News KL] "WGC: Central Banks Plan to Boost Gold Allocations as US Dollar Outlook" | kw:gold,central bank
-2026-06-16 20:31 ACCEPT [Google News NS] "Why Did Grain Prices Fall So Quickly After Spring’s Rally? - Successfu" | kw:rice
-2026-06-16 20:31 ACCEPT [Google News NS] "Illinois bets on biodiesel: Expanding the market for domestic soybeans" | kw:soybean
-2026-06-16 20:31 ACCEPT [Google News NS] "Soybeans and corn rally to finish the day higher - Brownfield Ag News" | kw:corn,soybean
-2026-06-16 21:01 ACCEPT [MarketWatch] "Most people now get their news from social media. But many say they di" | kw:easing
-2026-06-16 21:01 ACCEPT [OilPrice.com] "Egypt Clears $6 Billion in Energy Debt and Opens Door to a New Gas Boo" | kw:oil,petroleum,gas
-2026-06-16 21:01 ACCEPT [OilPrice.com] "AI Power Hunger Sparks Push for Energy Efficiency" | kw:fuel,iron,inflation
-2026-06-16 21:01 ACCEPT [Google News HH] "Mich. Trader Admits $2.7M Commodities Investor Fraud Scam - Law360" | kw:commodities
-2026-06-16 21:01 ACCEPT [Google News HH] "ICE canola futures drop as Middle East deal cuts crude oil - Investing" | kw:oil,crude
 2026-06-16 21:01 ACCEPT [Google News HH] "US Equity Markets End Mixed as Dow Hits Record High Amid Lower Crude O" | kw:oil,crude,rice
 2026-06-16 21:01 ACCEPT [Google News HH] "API Crude Oil Stock Change for Jun/12 in the United States is -8.330M," | kw:oil,crude
 2026-06-16 21:01 ACCEPT [Google News KL] "Silver price forecast: $60 price risk before the next move higher - KI" | kw:lng,silver,rice
@@ -20018,3 +19998,20 @@
 2026-07-23 11:31 ACCEPT [Google News CB] "The ECB is under pressure to raise rates again - The Economist" | kw:ecb
 2026-07-23 11:31 ACCEPT [Google News CB] "Gold Pulls Back as Markets Await ECB and Reassess Fed Expectations - I" | kw:lng,gold,ecb
 2026-07-23 11:31 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 12:01 ACCEPT [The Guardian Biz] "Oil prices near $100 a barrel after US attacks Iran and Houthis hit ta" | kw:oil,rice
+2026-07-23 12:01 ACCEPT [Al Jazeera] "Why a North Sea oilfield is emerging as British PM Burnham’s big test" | kw:oil
+2026-07-23 12:01 ACCEPT [Google News HH] "EIA: commercial crude oil inventories increased by 2 million barrels -" | kw:oil,crude
+2026-07-23 12:01 ACCEPT [Google News HH] "WTI crude oil hits $90 for the first time in six weeks - investingLive" | kw:oil,crude,wti
+2026-07-23 12:01 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD pulls back below $4,100 weighed by higher" | kw:gold,rice
+2026-07-23 12:01 ACCEPT [Google News KL] "Copper prices surge sharply, exacerbating the off-season drag, and ope" | kw:copper,rice
+2026-07-23 12:01 ACCEPT [Google News KL] "Mexico Gold Producer GORO Emerges After Strategic Merger - Streetwise " | kw:gold
+2026-07-23 12:01 ACCEPT [Google News KL] "Scott Bessent confirms US gold reserves at Fort Knox are present and a" | kw:gold
+2026-07-23 12:01 ACCEPT [Google News KL] "Copper Prices High, Secondary Copper Rod Enterprises Primarily Adopt a" | kw:copper,rice
+2026-07-23 12:01 ACCEPT [Google News KL] "Gold falls as Middle East tensions lift Oil prices, Fed rate hike bets" | kw:oil,gold,rice
+2026-07-23 12:01 ACCEPT [Google News KL] "Austral Gold Announces Updated Guanaco Technical Report - TMX Newsfile" | kw:gold
+2026-07-23 12:01 ACCEPT [Google News NS] "Pasta on the Plains: A new Kansas-grown wheat could soon be in your bo" | kw:wheat
+2026-07-23 12:01 ACCEPT [Google News NS] "Rabobank Expects Brazil’s 2026/27 Soybean Crop to Fall Amid Pause in A" | kw:soybean
+2026-07-23 12:01 ACCEPT [Google News CB] "Markets eye Alphabet, Tesla and IBM earnings as ECB prepares policy an" | kw:ecb
+2026-07-23 12:01 ACCEPT [Google News CB] "ECB set to hold interest rates in July, will Lagarde hint at September" | kw:interest rate,ecb
+2026-07-23 12:01 ACCEPT [Google News CB] "Gold Pulls Back as Markets Await ECB and Reassess Fed Expectations - I" | kw:gold,ecb
+2026-07-23 12:01 SKIP_MORNING already_sent date=2026-07-23
