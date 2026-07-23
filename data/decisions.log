@@ -1,6 +1,3 @@
-2026-06-16 13:23 ACCEPT [Google News CB] "ECB’s Escriva Says Energy Disruption Will Persist Despite Deal - Bloom" | kw:ecb
-2026-06-16 13:23 SKIP_MORNING already_sent date=2026-06-16
-2026-06-16 13:23 SKIP_EVENING already_sent date=2026-06-16
 2026-06-16 13:31 ACCEPT [OilPrice.com] "Dubai and Murban Crude Signal End of Middle East Supply Crunch" | kw:oil,crude
 2026-06-16 13:31 ACCEPT [Google News KL] "Gold, silver firm as U.S.-Iran deal cools crude - Kitco AM Report - KI" | kw:crude,gold,silver
 2026-06-16 13:31 ACCEPT [Google News KL] "Current price of gold as of June 16, 2026 - Fortune" | kw:gold,rice
@@ -20001,3 +19998,23 @@
 2026-07-23 04:01 ACCEPT [Al Jazeera] "Iran war live: US kills 2, wounds 11; Houthis attack 2 Saudi oil tanke" | kw:oil
 2026-07-23 04:01 ACCEPT [OilPrice.com] "Brent Breaks $96 as U.S. Strikes Iran for 12th Consecutive Night" | kw:oil,crude,brent
 2026-07-23 04:01 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 04:31 ACCEPT [Google News HH] "MIDDLE EAST CRUDE MOC PERFORMANCE: 500,000 barrels change hands for Ju" | kw:crude
+2026-07-23 04:31 ACCEPT [Google News HH] "$Crude Oil Futures (SEP6) (CLmain.US)$$Brent Last Day Financial Future" | kw:oil,crude,brent
+2026-07-23 04:31 ACCEPT [Google News HH] "$Crude Oil Futures (SEP6) (CLmain.US)$ $Brent Last Day Financial Futur" | kw:oil,crude,brent
+2026-07-23 04:31 ACCEPT [Google News HH] "Escalating Global Supply Risks Underpin Crude Oil Prices - TradingView" | kw:oil,crude,rice
+2026-07-23 04:31 ACCEPT [Google News KL] "Overnight copper prices drifted lower, high copper prices suppressed d" | kw:copper,rice
+2026-07-23 04:31 ACCEPT [Google News KL] "Gold, silver prices today, 23 July: Check retail rates of 24K, 22K gol" | kw:gold,silver,rice
+2026-07-23 04:31 ACCEPT [Google News KL] "Gold prices plummet to 6-week low - VnExpress International" | kw:gold,rice
+2026-07-23 04:31 ACCEPT [Google News KL] "Gold holds gains on dip-buying amid Middle East tensions, oil price su" | kw:oil,gold,rice
+2026-07-23 04:31 ACCEPT [Google News KL] "Copper prices rose and suppressed demand, spot price first rose then f" | kw:copper,rice
+2026-07-23 04:31 ACCEPT [Google News KL] "Silver Struggles to Breach Its Current Resistance –Analysis – 23-07-20" | kw:silver
+2026-07-23 04:31 ACCEPT [Google News NS] "Triple Headwinds Lift International Wheat Markets - Sunsirs" | kw:wheat
+2026-07-23 04:31 ACCEPT [Google News CB] "BOJ to raise rates again by December as weak yen revives inflation ris" | kw:inflation,boj
+2026-07-23 04:31 ACCEPT [Google News CB] "ECB Is Set to Pause Rate Hikes to Gauge War Risk - Bloomberg.com" | kw:rate hike,ecb
+2026-07-23 04:31 ACCEPT [Google News CB] "House Republicans Urge Fed To Speed Up Bank M&A Reviews - Law360" | kw:wti
+2026-07-23 04:31 ACCEPT [Google News CB] "Indian central bank likely intervenes as rupee nears record low, trade" | kw:central bank
+2026-07-23 04:31 ACCEPT [Google News CB] "Half of Economists Still See BOJ Waiting Until December to Hike - Bloo" | kw:boj
+2026-07-23 04:31 ACCEPT [Google News CB] "Indian central bank likely intervenes as rupee nears record low, trade" | kw:central bank
+2026-07-23 04:31 ACCEPT [Google News CB] "Japan 10-Year Yield Rises on BOJ Rate Hike Bets - TradingView" | kw:rate hike,boj
+2026-07-23 04:31 ACCEPT [Google News CB] "Indian central bank likely intervenes as rupee nears record low, trade" | kw:central bank
+2026-07-23 04:31 SKIP_MORNING already_sent date=2026-07-23
