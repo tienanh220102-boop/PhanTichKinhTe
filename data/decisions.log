@@ -1,17 +1,3 @@
-2026-06-16 19:01 ACCEPT [Google News CB] "Fed Chair Warsh expected to withhold 'dot' from central bank's interes" | kw:central bank,interest rate
-2026-06-16 19:01 ACCEPT [Google News CB] "Kevin Warsh faces first major test as Federal Reserve chair - Northeas" | kw:federal reserve
-2026-06-16 19:01 ACCEPT [Google News CB] "Fed's watchdog warns of central bank foreign travel risks, calls for r" | kw:central bank
-2026-06-16 19:01 ACCEPT [Google News CB] "The Strait of Hormuz, Inflation, and Interest Rates: What Will Warsh’s" | kw:inflation,interest rate
-2026-06-16 19:31 ACCEPT [MarketWatch] "Global oil prices end below $80 for the first time since the Iran war " | kw:oil,rice,shipping
-2026-06-16 19:31 ACCEPT [MarketWatch] "Central banks plan to keep buying more gold. Here’s an interesting ste" | kw:gold,rice,central bank
-2026-06-16 19:31 ACCEPT [OilPrice.com] "Norway Moves to Extend the Life of Europe’s Most Important Oil Field" | kw:oil,crude
-2026-06-16 19:31 ACCEPT [Google News HH] "Markets brace for crucial Fed decision as crude oil tumbles. - CME Gro" | kw:oil,crude
-2026-06-16 19:31 ACCEPT [Google News HH] "Crude oil prices fall again, while US stocks drift near their all-time" | kw:oil,crude,rice
-2026-06-16 19:31 ACCEPT [Google News HH] "Gold Price Short-term Outlook: XAU/USD Bulls Fight to Confirm Major Lo" | kw:gold,rice
-2026-06-16 19:31 ACCEPT [Google News KL] "Gold Price Short-term Outlook: XAU/USD Bulls Fight to Confirm Major Lo" | kw:gold,rice
-2026-06-16 19:31 ACCEPT [Google News KL] "Mining & Metals: Price, Grade and Processing Determine Our Future - Th" | kw:rice
-2026-06-16 19:31 ACCEPT [Google News NS] "Amaggi Buys 40% Of Fs And Fully Enters The Corn Ethanol Market - Globa" | kw:lng,corn
-2026-06-16 19:31 ACCEPT [Google News CB] "Fed Chair Warsh expected to withhold 'dot' from central bank's interes" | kw:central bank,interest rate
 2026-06-16 19:31 ACCEPT [Google News CB] "Kevin Warsh set to lead his first Federal Reserve interest rate meetin" | kw:interest rate,federal reserve
 2026-06-16 19:31 ACCEPT [Google News CB] "Treasury yields slide as Fed begins monetary policy meeting - CNBC" | kw:treasury,monetary policy
 2026-06-16 20:01 ACCEPT [Google News HH] "Crude oil prices fall again, while US stocks drift near their all-time" | kw:oil,crude,rice
@@ -20012,3 +19998,23 @@
 2026-07-23 11:01 ACCEPT [Google News CB] "‘Second-round effects’ may become the ECB’s key phrase: How will Lagar" | kw:ecb
 2026-07-23 11:01 ACCEPT [Google News CB] "Euro Rises As Traders Await ECB Policy Decision - RTTNews" | kw:ecb
 2026-07-23 11:01 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 11:31 ACCEPT [MarketWatch] "Oil nears $100 a barrel after Houthis claim strikes on Saudi Arabian t" | kw:oil,crude,brent
+2026-07-23 11:31 ACCEPT [MarketWatch] "AI stocks are echoing a 1990s market split. JPMorgan warns the next fe" | kw:rice
+2026-07-23 11:31 ACCEPT [OilPrice.com] "Chinese Tankers Push Through Bab el-Mandeb Despite Houthi Blockade Thr" | kw:crude,shipping
+2026-07-23 11:31 ACCEPT [Google News HH] "Price to book forward of Aelea Commodities Limited – BSE:ACLD - Tradin" | kw:rice,commodities
+2026-07-23 11:31 ACCEPT [Google News HH] "Saudi Aramco negotiates rerouting crude oil around Africa as Houthi at" | kw:oil,crude
+2026-07-23 11:31 ACCEPT [Google News HH] "Forecast update for crude oil -23-07-2026 - Economies.com" | kw:oil,crude
+2026-07-23 11:31 ACCEPT [Google News KL] "Man Who Called 2008 Crash Says Now Is the Time to "Invest in Early-Sta" | kw:gold
+2026-07-23 11:31 ACCEPT [Google News KL] "Gold Price Forecast: UBS Expects Bullion To Reach $5,200 By Mid-2027 -" | kw:gold,rice
+2026-07-23 11:31 ACCEPT [Google News NS] "Farmers should be ‘businessmen’ who respond to market demand, not just" | kw:wheat,rice
+2026-07-23 11:31 ACCEPT [Google News CB] "Turkish Central Bank Keeps Key Interest Rate on Hold - WSJ" | kw:central bank,interest rate
+2026-07-23 11:31 ACCEPT [Google News CB] "London's FTSE 100 muted as miners offset energy gains, ECB decision in" | kw:ecb
+2026-07-23 11:31 ACCEPT [Google News CB] "Market Talk: 'Pause but not peak' from the ECB - Reuters" | kw:ecb
+2026-07-23 11:31 ACCEPT [Google News CB] "Alphabet, Tesla and IBM earnings in focus as investors await ECB rate " | kw:rate decision,ecb
+2026-07-23 11:31 ACCEPT [Google News CB] "Global markets enjoy tech, artificial intelligence gains ahead of majo" | kw:interest rate,rate decision
+2026-07-23 11:31 ACCEPT [Google News CB] "Gold steadies near two-week high as investors monitor Fed outlook and " | kw:oil,gold,rice
+2026-07-23 11:31 ACCEPT [Google News CB] "Türkiye’s central bank holds policy rate at 37% for 4th consecutive me" | kw:central bank,policy rate
+2026-07-23 11:31 ACCEPT [Google News CB] "Statement from Turkey’s central bank following policy meeting - Tradin" | kw:central bank
+2026-07-23 11:31 ACCEPT [Google News CB] "The ECB is under pressure to raise rates again - The Economist" | kw:ecb
+2026-07-23 11:31 ACCEPT [Google News CB] "Gold Pulls Back as Markets Await ECB and Reassess Fed Expectations - I" | kw:lng,gold,ecb
+2026-07-23 11:31 SKIP_MORNING already_sent date=2026-07-23
