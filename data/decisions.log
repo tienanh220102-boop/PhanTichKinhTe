@@ -1,29 +1,3 @@
-2026-06-17 08:01 ACCEPT [Google News NS] "Corn nears $4.35: Will weather or acreage report bring relief? - Farm " | kw:corn
-2026-06-17 08:01 ACCEPT [ECB Press] "New data release: ECB wage tracker points to stable negotiated wage pr" | kw:ecb
-2026-06-17 08:01 ACCEPT [Google News CB] "Gold steady as US-Iran deal details emerge, Fed verdict awaited - Reut" | kw:gold
-2026-06-17 08:01 ACCEPT [Google News CB] "ECB’s Simkus signals at least one more rate hike amid inflation pressu" | kw:inflation,rate hike,ecb
-2026-06-17 08:01 ACCEPT [Google News CB] "Silver Navigates Fed Decision as Industrial Participation Meets Moneta" | kw:silver,monetary policy
-2026-06-17 08:01 ACCEPT [Google News CB] "BOJ has to remain vigilant to maintain monetary normalization, says an" | kw:boj
-2026-06-17 08:01 SKIP_MORNING already_sent date=2026-06-17
-2026-06-17 08:31 ACCEPT [OilPrice.com] "China’s Gasoline Car Market Is Crashing as Fuel Prices Surge" | kw:oil,gas,fuel
-2026-06-17 08:31 ACCEPT [Google News HH] "Badawi: Egypt’s Total Crude Oil Production Exceeds 540,000 bbl/d - Egy" | kw:oil,crude,gas
-2026-06-17 08:31 ACCEPT [Google News HH] "The New Gulf Energy Order Implications of the UAE’s OPEC Exit - Egypt " | kw:oil,opec,gas
-2026-06-17 08:31 ACCEPT [Google News HH] "Crude Oil Futures Decline Amid Weak Global Cues - Rediff MoneyWiz" | kw:oil,crude
-2026-06-17 08:31 ACCEPT [Google News HH] "Crude Oil Futures Decline Amid Weak Global Cues - HDFC Sky" | kw:oil,crude
-2026-06-17 08:31 ACCEPT [Google News KL] "Gold extends gains for 5th day as Iran deal eases inflation jitters; F" | kw:gold,inflation
-2026-06-17 08:31 ACCEPT [Google News KL] "Gold Forex Forecast 17/06: Test the 200 Day EMA (Video) - Daily Forex" | kw:gold
-2026-06-17 08:31 ACCEPT [Google News CB] "New data release: ECB wage tracker points to stable negotiated wage pr" | kw:central bank,ecb
-2026-06-17 08:31 ACCEPT [Google News CB] "BOJ deputy's brief moment at the helm reveals deeper inflation anxiety" | kw:inflation,boj
-2026-06-17 08:31 ACCEPT [Google News CB] "UK Inflation Unexpectedly Holds Steady Ahead Of BOE Decision - Bloombe" | kw:inflation
-2026-06-17 08:31 ACCEPT [Google News CB] "UK Inflation Unexpectedly Holds Steady Ahead Of BOE Interest Rate Deci" | kw:inflation,interest rate,rate decision
-2026-06-17 08:31 ACCEPT [Google News CB] "Fed Rate Decision Today: What To Expect From Kevin Warsh’s First FOMC " | kw:fed rate,rate decision,fomc
-2026-06-17 08:31 ACCEPT [Google News CB] "FOMC trading playbook: How a hawkish Fed could impact Nasdaq 100, Gold" | kw:gold,fomc
-2026-06-17 08:31 ACCEPT [Google News CB] "ECB policymaker Simkus: Sees at least one more rate hike to cap inflat" | kw:inflation,rate hike,ecb
-2026-06-17 08:31 SKIP_MORNING already_sent date=2026-06-17
-2026-06-17 09:01 ACCEPT [Al Jazeera] "G7 leaders to boost Ukraine air defences, tighten sanctions on Russia" | kw:sanction
-2026-06-17 09:01 ACCEPT [Google News HH] "Crude oil risk premium set to persist for months, if not longer - The " | kw:oil,crude,corn
-2026-06-17 09:01 ACCEPT [Google News HH] "Despite Gold Price Correction and Executive Reshuffle, Newmont Posts I" | kw:gold,rice
-2026-06-17 09:01 ACCEPT [Google News CB] "Inflation and Kevin Warsh take center stage at the Federal Reserve’s i" | kw:inflation,interest rate,federal reserve
 2026-06-17 09:01 ACCEPT [Google News CB] "ECB wage tracker shows muted pay pressure despite war inflation - Reut" | kw:inflation,ecb
 2026-06-17 09:01 ACCEPT [Google News CB] "Oil Below $80, Stock Futures Rise Before Warsh’s First Fed Meeting - W" | kw:oil
 2026-06-17 09:01 ACCEPT [Google News CB] "China central bank's deepening control on short-term rates sparks deba" | kw:central bank
@@ -20024,3 +19998,13 @@
 2026-07-23 14:31 ACCEPT [Google News CB] "ECB hostage to oil prices? Lagarde leaves door open for a September hi" | kw:oil,rice,ecb
 2026-07-23 14:31 SKIP_MORNING already_sent date=2026-07-23
 2026-07-23 14:31 SKIP_EVENING already_sent date=2026-07-23
+2026-07-23 14:39 ACCEPT [Google News HH] "Brent Crude Oil Price Hits $100 as Middle East Tensions Fuel Supply Fe" | kw:oil,crude,fuel
+2026-07-23 14:39 ACCEPT [Google News KL] "FCX Stock Falls Amid Soft Q3 Outlook As Copper Price Slips - Investor'" | kw:copper,rice
+2026-07-23 14:39 ACCEPT [Google News KL] "Silver Prices Near $59: Is a Global Supply Crunch Fueling the Next Bul" | kw:fuel,silver,rice
+2026-07-23 14:39 ACCEPT [Google News KL] "Freeport profit rises in Q2 as copper prices offset lower Grasberg out" | kw:copper,rice
+2026-07-23 14:39 ACCEPT [Google News KL] "Teck Resources tops profit estimates on stronger copper production and" | kw:copper,rice
+2026-07-23 14:39 ACCEPT [Google News CB] "ECB reveals shortlisted designs for new banknotes and launches public " | kw:central bank,ecb
+2026-07-23 14:39 ACCEPT [Google News CB] "Instant View: ECB leaves rates on hold, but keeps door open to further" | kw:rate hike,ecb
+2026-07-23 14:39 ACCEPT [Google News CB] "Pound steady as investors eye oil prices, ECB decision - Reuters" | kw:oil,rice,ecb
+2026-07-23 14:39 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 14:39 SKIP_EVENING already_sent date=2026-07-23
