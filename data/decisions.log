@@ -1,23 +1,3 @@
-2026-06-17 06:01 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Truce Stability vs FOMC Decisio" | kw:gold,silver,rice
-2026-06-17 06:01 ACCEPT [Google News KL] "Gold and Silver Price Forecast: Fed Decision Looms as Peace Hopes Lift" | kw:gold,silver,rice
-2026-06-17 06:01 ACCEPT [Google News KL] "Gold prices rise 0.3 percent to $4,341 for fifth straight session as F" | kw:gold,rice
-2026-06-17 06:01 ACCEPT [Google News KL] "Silver Price Prediction: $72 Breakout Blueprint Primed as Warsh Opens " | kw:silver,rice
-2026-06-17 06:01 ACCEPT [Google News KL] "Gold Price Forecast: $4,375 Resistance Breakout Visualized as Warsh De" | kw:gold,rice,fomc
-2026-06-17 06:01 ACCEPT [Google News NS] "Record rice stocks, five-year-high wheat reserves strengthen India's f" | kw:wheat,rice
-2026-06-17 06:01 ACCEPT [Google News CB] "Chile Holds Rates at 4.5%, Sees More Balanced Inflation Risk - Bloombe" | kw:inflation
-2026-06-17 06:01 ACCEPT [Google News CB] "Fed’s Kevin Warsh Killed the Rate Cut: Hike Odds Now Sit at 66% - Yaho" | kw:rate cut
-2026-06-17 06:01 SKIP_MORNING already_sent date=2026-06-17
-2026-06-17 06:31 ACCEPT [BBC Business] "Inflation remains at 2.8%, slightly lower than expected" | kw:inflation
-2026-06-17 06:31 ACCEPT [Al Jazeera] "Analysts predict no US petrol price drop until 2027" | kw:gas,rice
-2026-06-17 06:31 ACCEPT [CNBC Economy] "UK inflation holds steady at 2.8% in May" | kw:inflation
-2026-06-17 06:31 ACCEPT [Google News HH] "G7 Leaders Agree to Cooperate in Crude Oil Transportation - nippon.com" | kw:oil,crude
-2026-06-17 06:31 ACCEPT [Google News HH] "Gold Price on 16 June 2026 - Gold Price" | kw:gold,rice
-2026-06-17 06:31 ACCEPT [Google News HH] "AI Computation Rights to Trade Like Crude Oil in New Futures Market - " | kw:oil,crude
-2026-06-17 06:31 ACCEPT [Google News HH] "Chartbook: US Chart Crude Oil Futures: Extending break of 80 - Continu" | kw:oil,crude
-2026-06-17 06:31 ACCEPT [Google News HH] "Gold price prediction today: Why gold prices will continue to find sup" | kw:gold,rice
-2026-06-17 06:31 ACCEPT [Google News CB] "Warsh to face spotlight as Federal Reserve likely to leave interest ra" | kw:interest rate,federal reserve
-2026-06-17 06:31 ACCEPT [Google News CB] "EDITORIAL: BOJ must carry on with interest rate hikes while weighing r" | kw:interest rate,rate hike,boj
-2026-06-17 06:31 ACCEPT [Google News CB] "UK inflation holds steady at 2.8% in May - CNBC" | kw:inflation
 2026-06-17 06:31 SKIP_MORNING already_sent date=2026-06-17
 2026-06-17 07:01 ACCEPT [Google News HH] "brent Crude Oil Prices Sink Below $80 As US-Iran Ceasefire Deal Reshap" | kw:oil,crude,brent
 2026-06-17 07:01 ACCEPT [Google News KL] "Copper price continues to hold below resistance – Forecast today – 17-" | kw:copper,rice
@@ -20018,3 +19998,29 @@
 2026-07-23 13:31 ACCEPT [Google News CB] "Europe's central bank holds rates steady amid swings in oil prices - O" | kw:oil,rice,central bank
 2026-07-23 13:31 SKIP_MORNING already_sent date=2026-07-23
 2026-07-23 13:31 SKIP_EVENING already_sent date=2026-07-23
+2026-07-23 14:01 ACCEPT [BBC Business] "Oil prices hit $100 for the first time since May" | kw:oil,crude,brent
+2026-07-23 14:01 ACCEPT [BBC Business] "Help for electricity bills as crude oil nears $100" | kw:oil,crude
+2026-07-23 14:01 ACCEPT [Google News HH] "Electricity bills to be subsidised as crude oil nears $100 - Yahoo New" | kw:oil,crude
+2026-07-23 14:01 ACCEPT [Google News HH] "Crude Oil Extends Gains for 5th Session - TradingView" | kw:oil,crude
+2026-07-23 14:01 ACCEPT [Google News HH] "Brent crude oil crosses $100 a barrel after Houthi forces attack Saudi" | kw:oil,crude,brent
+2026-07-23 14:01 ACCEPT [Google News HH] "Iran war disrupts supply routes, drives crude oil above $100 per barre" | kw:oil,crude
+2026-07-23 14:01 ACCEPT [Google News HH] "Help for electricity bills as crude oil nears $100 - AOL.com" | kw:oil,crude
+2026-07-23 14:01 ACCEPT [Google News HH] "Surging crude oil prices intensify inflation concerns! U.S. Treasury y" | kw:oil,crude,rice
+2026-07-23 14:01 ACCEPT [Google News KL] "Gold falls 2% as Middle East tensions fuel inflation fears, rate-hike " | kw:fuel,gold,inflation
+2026-07-23 14:01 ACCEPT [Google News KL] "Freeport-McMoRan Earnings Beat Estimates on Rising Copper Prices - Bar" | kw:copper,rice
+2026-07-23 14:01 ACCEPT [Google News KL] "Current price of gold as of July 23, 2026 - Fortune" | kw:gold,rice
+2026-07-23 14:01 ACCEPT [Google News NS] "Corn commentary: Futures extend gains on dry weather in US, slightly l" | kw:corn
+2026-07-23 14:01 ACCEPT [Google News CB] "European Central Bank holds interest rates at 2.25% after debating ris" | kw:central bank,interest rate
+2026-07-23 14:01 ACCEPT [Google News CB] "Traders see September rate hike as European Central Bank mulls energy " | kw:rice,central bank,rate hike
+2026-07-23 14:01 ACCEPT [Google News CB] "ECB keeps interest rates unchanged amid Iran war inflation - DW.com" | kw:inflation,interest rate,ecb
+2026-07-23 14:01 ACCEPT [Google News CB] "Europe’s central bank holds rate steady amid swings in oil prices - WT" | kw:oil,rice,central bank
+2026-07-23 14:01 ACCEPT [Google News CB] "ECB Keeps Rates Steady After Some Officials Considered Hike - Bloomber" | kw:ecb
+2026-07-23 14:01 ACCEPT [Google News CB] "Lagarde Says She’s Staying at the ECB at Least Until Year End - Bloomb" | kw:ecb
+2026-07-23 14:01 ACCEPT [Google News CB] "European Central Bank (ECB) Monetary Policy Decision Summary - Quartr" | kw:central bank,monetary policy,ecb
+2026-07-23 14:01 ACCEPT [Google News CB] "ECB Press Conference: Lagarde speaks on policy outlook after leaving k" | kw:ecb
+2026-07-23 14:01 ACCEPT [Google News CB] "ECB keeps interest rate unchanged amidst uncertainty and rising oil pr" | kw:oil,rice,interest rate
+2026-07-23 14:01 ACCEPT [Google News CB] "ECB Bancorp (ECBK) Q2 2026 earnings summary - Quartr" | kw:ecb
+2026-07-23 14:01 ACCEPT [Google News CB] "Oil price surge reignites inflation worries as ECB holds rates - Reute" | kw:oil,rice,inflation
+2026-07-23 14:01 ACCEPT [Google News CB] "ECB: September Hike 50% Probability? - Continuum Economics" | kw:ecb
+2026-07-23 14:01 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 14:01 SKIP_EVENING already_sent date=2026-07-23
