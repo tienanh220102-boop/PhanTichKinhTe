@@ -1,11 +1,3 @@
-2026-06-16 14:31 ACCEPT [MarketWatch] "Tesla booted from the ‘Magnificent Seven’ by a top fund manager. Here " | kw:rice
-2026-06-16 14:31 ACCEPT [MarketWatch] "I’m 20, and I’ll be watching Kevin Warsh and the Fed this week. Here’s" | kw:rate decision
-2026-06-16 14:31 ACCEPT [The Guardian Biz] "Brent crude falls to three-month low below $80 as Iranian oil tankers " | kw:oil,crude,brent
-2026-06-16 14:31 ACCEPT [CNBC Commodities] "The new oil? Inside the effort to turn AI computing power into a trade" | kw:oil,commodity
-2026-06-16 14:31 ACCEPT [OilPrice.com] "Australian LNG Strike Threatens Global Gas Supply as Qatar Recovery La" | kw:gas,lng
-2026-06-16 14:31 ACCEPT [Google News HH] "Brent crude oil falls below $80 per barrel; WTI continues to decline -" | kw:oil,crude,brent
-2026-06-16 14:31 ACCEPT [Google News HH] "Crude oil prices fall again, while US stocks drift near their all-time" | kw:oil,crude,rice
-2026-06-16 14:31 ACCEPT [Google News KL] "When will silver hit $100 again? Experts weigh in - USA Today" | kw:silver
 2026-06-16 14:31 ACCEPT [Google News KL] "Gold rises over 1% as US-Iran peace deal optimism eases rate hike bets" | kw:gold,rate hike
 2026-06-16 14:31 ACCEPT [Google News NS] "December corn futures settle at $4.40 as drought concerns clash with a" | kw:corn,drought
 2026-06-16 14:31 ACCEPT [Google News CB] "ECB’s Lane Says Inflation Is in the Pipeline Despite Iran Deal - Bloom" | kw:inflation,ecb
@@ -20006,3 +19998,12 @@
 2026-07-23 05:01 ACCEPT [Google News CB] "ECB Rate Decision Preview: Easing Inflation Provides 'Room to Wait,' w" | kw:inflation,rate decision,ecb
 2026-07-23 05:01 ACCEPT [Google News CB] "BoJ to raise rates again by December — Reuters poll - FXStreet" | kw:boj
 2026-07-23 05:01 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 05:21 ACCEPT [Google News HH] "Silver and gold prices stage a cautious rebound — but analysts see sli" | kw:gold,silver,rice
+2026-07-23 05:21 ACCEPT [Google News HH] "Vietnam's Nghi Son refinery secures crude oil to operate through end-S" | kw:oil,crude
+2026-07-23 05:21 ACCEPT [Google News HH] "Gold price in Philippines: Rates on July 23 - FXStreet" | kw:gold,rice
+2026-07-23 05:21 ACCEPT [Google News HH] "US Equity Indexes Mixed Amid Higher Crude Oil Prices, Treasury Yields " | kw:oil,crude,rice
+2026-07-23 05:21 ACCEPT [Google News KL] "Gold Is Down 26%. Silver Is Down 51%. What Does the Stacker Do Now? - " | kw:gold,silver
+2026-07-23 05:21 ACCEPT [Google News CB] "Gold off two-week peak as oil advances; Fed meeting in focus - Reuters" | kw:oil,gold
+2026-07-23 05:21 ACCEPT [Google News CB] "Probability of a rate hike rises above 30%! Fed decision countdown beg" | kw:rate hike
+2026-07-23 05:21 ACCEPT [Google News CB] "Global Market Outlook: Oil Prices, ECB Policy, Tech Earnings Update - " | kw:oil,rice,ecb
+2026-07-23 05:21 SKIP_MORNING already_sent date=2026-07-23
