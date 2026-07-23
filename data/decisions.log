@@ -1,10 +1,3 @@
-2026-06-16 13:01 ACCEPT [Google News HH] "UAE’s Adnoc Hires Oil Veteran to Lead Trading Unit’s Expansion - Bloom" | kw:oil
-2026-06-16 13:01 ACCEPT [Google News HH] "Gold, Silver and Oil: Commodities Market Alert and Key Levels - Invest" | kw:oil,gold,silver
-2026-06-16 13:01 ACCEPT [Google News HH] "Brent Crude oil drops to three-month low of $81.73 - grafa.com" | kw:oil,crude,brent
-2026-06-16 13:01 ACCEPT [Google News HH] "Gold Price Analysis – Gold Continues to Move on Rates - FXEmpire" | kw:gold,rice
-2026-06-16 13:01 ACCEPT [Google News KL] "Current price of silver as of Tuesday, June 16, 2026 - Fortune" | kw:silver,rice
-2026-06-16 13:01 ACCEPT [Google News KL] "Silver Price Today on June 16, 2026 - USA Today" | kw:silver,rice
-2026-06-16 13:01 ACCEPT [Google News KL] "Gold could attracting modes safe-haven bid as U.S. housing constructio" | kw:gold
 2026-06-16 13:01 ACCEPT [Google News KL] "Silver Price Analysis – Silver Continues to See Buyers Underneath - FX" | kw:silver,rice
 2026-06-16 13:01 ACCEPT [Google News KL] "Fed Fears? Gold, Silver Prices See No Major Breakout Despite Oil Slump" | kw:oil,gold,silver
 2026-06-16 13:01 ACCEPT [Google News KL] "Gold and silver steady in India amid global uncertainty - MSN" | kw:gold,silver
@@ -20005,3 +19998,6 @@
 2026-07-23 01:57 ACCEPT [Google News CB] "Gold off two-week peak as oil advances, Fed meeting eyed - Reuters" | kw:oil,gold
 2026-07-23 01:57 ACCEPT [Google News CB] "Enterprise value to revenue forward of ECB Bancorp, Inc. – NASDAQ:ECBK" | kw:ecb
 2026-07-23 01:57 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 02:01 ACCEPT [Google News HH] "Global Refiners Are Cutting Out Oil Traders To Buy Venezuelan Crude Di" | kw:oil,crude,rice
+2026-07-23 02:01 ACCEPT [Google News KL] "Quebec Gold-Silver Project Advances Key Equipment Milestones - Streetw" | kw:gold,silver
+2026-07-23 02:01 SKIP_MORNING already_sent date=2026-07-23
