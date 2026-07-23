@@ -1,14 +1,3 @@
-2026-06-16 16:31 ACCEPT [The Guardian Biz] "SpaceX to buy AI coding firm Anysphere for $60bn and passes Amazon val" | kw:rice
-2026-06-16 16:31 ACCEPT [OilPrice.com] "Hormuz Reopens as Traders Price Out the War Premium" | kw:oil,crude,rice
-2026-06-16 16:31 ACCEPT [Mining.com] "Barclays sees gold pullback as ‘reset’, keeps bullish outlook" | kw:gold
-2026-06-16 16:31 ACCEPT [Mining.com] "Poland bets on copper boom as Lumina eyes new mines" | kw:copper
-2026-06-16 16:31 ACCEPT [Google News HH] "Gold's Rebound Stalls as Analysts Cut Crude Oil Forecasts - BullionVau" | kw:oil,crude,gold
-2026-06-16 16:31 ACCEPT [Google News HH] "Crude Oil Down 5%; John Wiley & Sons Shares Fall After Q4 Results - Be" | kw:oil,crude
-2026-06-16 16:31 ACCEPT [Google News HH] "UAE’s Adnoc Hires Oil Veteran to Lead Trading Unit’s Expansion - Bloom" | kw:oil
-2026-06-16 16:31 ACCEPT [Google News KL] "Gold Rally Supported by US-Iran Deal & Fed Outlook, Still at Risk as H" | kw:gold
-2026-06-16 16:31 ACCEPT [Google News NS] "Corn Prices Struggle as South American Harvests Grow and U.S. Crop Con" | kw:corn,rice,harvest
-2026-06-16 16:31 ACCEPT [Google News CB] "Treasury yields are little changed as Fed begins monetary policy meeti" | kw:treasury,monetary policy
-2026-06-16 16:31 ACCEPT [Google News CB] "All eyes turn to Fed chair Kevin Warsh and his first moves on interest" | kw:interest rate
 2026-06-16 16:31 ACCEPT [Google News CB] "ECB’s Lane Says Inflation Is in the Pipeline Despite Iran Deal - Bloom" | kw:inflation,ecb
 2026-06-16 16:31 ACCEPT [Google News CB] "Banks, fintechs sue Oregon over interest rate opt-out law - American B" | kw:interest rate
 2026-06-16 16:31 ACCEPT [Google News CB] "Inside Warsh's first FOMC: Hawks on the offensive and Wall Street keen" | kw:fomc
@@ -20009,3 +19998,12 @@
 2026-07-23 07:31 ACCEPT [Google News CB] "When Monetary Policy Surprises Stop Translating - Seeking Alpha" | kw:monetary policy
 2026-07-23 07:31 ACCEPT [Google News CB] "ECB Expected to Stand Pat After June Hike - TradingView" | kw:ecb
 2026-07-23 07:31 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 07:54 ACCEPT [Al Jazeera] "Iran war live: US strike kills 2 people; Houthis attack 2 Saudi oil ta" | kw:oil
+2026-07-23 07:54 ACCEPT [Google News HH] "US crude oil inventories up 0.5% in week ending July 17 - Anadolu Ajan" | kw:oil,crude
+2026-07-23 07:54 ACCEPT [Google News HH] "Should You Buy Plains All American Stock Now That Crude Oil Prices Are" | kw:oil,crude,rice
+2026-07-23 07:54 ACCEPT [Google News HH] "Forex Today 23/07: Crude Oil Reaches 6-Week High - DailyForex" | kw:oil,crude
+2026-07-23 07:54 ACCEPT [Google News KL] "Silver Price 2026: Why the 52% Correction Could Be the Real Setup - Sh" | kw:silver,rice
+2026-07-23 07:54 ACCEPT [Google News CB] "Credit card interest rate caps would leave Delaware behind | Opinion -" | kw:interest rate
+2026-07-23 07:54 ACCEPT [Google News CB] "European stocks slide as rising yields and ECB rate call weigh on sent" | kw:ecb
+2026-07-23 07:54 ACCEPT [Google News CB] "John Paulson Sees Gold Rally in Its Early Stages as Central Bank Deman" | kw:gold,central bank
+2026-07-23 07:54 SKIP_MORNING already_sent date=2026-07-23
