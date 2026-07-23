@@ -1,12 +1,3 @@
-2026-06-16 16:31 ACCEPT [Google News CB] "ECB’s Lane Says Inflation Is in the Pipeline Despite Iran Deal - Bloom" | kw:inflation,ecb
-2026-06-16 16:31 ACCEPT [Google News CB] "Banks, fintechs sue Oregon over interest rate opt-out law - American B" | kw:interest rate
-2026-06-16 16:31 ACCEPT [Google News CB] "Inside Warsh's first FOMC: Hawks on the offensive and Wall Street keen" | kw:fomc
-2026-06-16 16:31 ACCEPT [Google News CB] "What Happens to Stocks if the Fed’s Warsh Even Hints at a Rate Hike - " | kw:rate hike
-2026-06-16 16:31 SKIP_MORNING already_sent date=2026-06-16
-2026-06-16 16:31 SKIP_EVENING already_sent date=2026-06-16
-2026-06-16 17:01 ACCEPT [MarketWatch] "Global oil prices break below $80 for the first time since the Iran wa" | kw:oil,rice,shipping
-2026-06-16 17:01 ACCEPT [OilPrice.com] "Falling Oil Prices Could Ease Pressure on India’s Trade Deficit" | kw:oil,crude,petroleum
-2026-06-16 17:01 ACCEPT [Google News HH] "Stocks Supported by Lower Crude Oil Prices and Bond Yields - Barchart." | kw:oil,crude,rice
 2026-06-16 17:01 ACCEPT [Google News HH] "Brent Crude Oil is down by 5.02% - TradingView" | kw:oil,crude,brent
 2026-06-16 17:01 ACCEPT [Google News HH] "Crude Oil sells the Iran peace deal sight unseen, WTI hits 15-week low" | kw:oil,crude,wti
 2026-06-16 17:01 ACCEPT [Google News HH] "Semitruck rollover causes crude oil spill in Indian Canyon; drinking w" | kw:oil,crude
@@ -20007,3 +19998,6 @@
 2026-07-23 07:54 ACCEPT [Google News CB] "European stocks slide as rising yields and ECB rate call weigh on sent" | kw:ecb
 2026-07-23 07:54 ACCEPT [Google News CB] "John Paulson Sees Gold Rally in Its Early Stages as Central Bank Deman" | kw:gold,central bank
 2026-07-23 07:54 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 08:01 ACCEPT [Google News HH] "Escalating Global Supply Risks Underpin Crude Oil Prices - TradingView" | kw:oil,crude,lng
+2026-07-23 08:01 ACCEPT [Google News HH] "Crude oil prices climb to six-week high with Brent above $95 amid esca" | kw:oil,crude,brent
+2026-07-23 08:01 SKIP_MORNING already_sent date=2026-07-23
