@@ -1,7 +1,3 @@
-2026-06-16 15:01 ACCEPT [Google News KL] "Barclays sees gold pullback as ‘reset’, keeps bullish outlook - Mining" | kw:gold
-2026-06-16 15:01 ACCEPT [Google News KL] "Liberty Gold: A Permitting Arbitrage In A Scarce U.S. Oxide Gold Marke" | kw:gold
-2026-06-16 15:01 ACCEPT [Google News NS] "Will winter wheat weakly wilt weekly? - MSN" | kw:wheat
-2026-06-16 15:01 ACCEPT [Google News CB] "US Federal Reserve kicks off first meeting with Warsh as chair - Franc" | kw:federal reserve
 2026-06-16 15:01 SKIP_MORNING already_sent date=2026-06-16
 2026-06-16 15:01 SKIP_EVENING already_sent date=2026-06-16
 2026-06-16 15:31 ACCEPT [Al Jazeera] "FBI says it foiled ‘planned attacks’ targeting White House UFC event" | kw:oil
@@ -20002,3 +19998,7 @@
 2026-07-23 05:31 ACCEPT [Google News NS] "Feedgrain Focus: Prices kick again, growers hold in dry week - Grain C" | kw:rice
 2026-07-23 05:31 ACCEPT [Google News CB] "Indian central bank likely intervenes as rupee nears record low, trade" | kw:central bank
 2026-07-23 05:31 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 06:01 ACCEPT [Al Jazeera] "Israel building earthen barrier in Gaza to entrench division of the en" | kw:fuel
+2026-07-23 06:01 ACCEPT [Google News HH] "$Crude Oil Futures (SEP6) (CLmain.US)$$Brent Last Day Financial Future" | kw:oil,crude,gas
+2026-07-23 06:01 ACCEPT [Google News CB] "When Monetary Policy Surprises Stop Translating - Seeking Alpha" | kw:monetary policy
+2026-07-23 06:01 SKIP_MORNING already_sent date=2026-07-23
