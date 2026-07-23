@@ -1,16 +1,3 @@
-2026-06-17 09:31 ACCEPT [Google News HH] "SunSirs: US-Iran Reconciliation Sends Crude Oil Prices Down Nearly 5%;" | kw:oil,crude,rice
-2026-06-17 09:31 ACCEPT [Google News HH] "Crude oil futures decline amid weak global cues - Deccan Herald" | kw:oil,crude
-2026-06-17 09:31 ACCEPT [Google News HH] "AI Chip Leasing Costs Enter Futures Markets Like Crude Oil, Gold - 조선일" | kw:oil,crude,gold
-2026-06-17 09:31 ACCEPT [Google News KL] "Gold prices hold gains as Iran deal eases inflation jitters; Fed eyed " | kw:gold,rice,inflation
-2026-06-17 09:31 ACCEPT [Google News KL] "Ranked: The world’s top Silver producers - FXStreet" | kw:silver
-2026-06-17 09:31 ACCEPT [Google News NS] "Computer trading whipsaws grain prices, economist warns - Farm Progres" | kw:rice
-2026-06-17 09:31 ACCEPT [Google News CB] "Treasury yields inch higher as investors await Fed interest rates deci" | kw:lng,treasury,interest rate
-2026-06-17 09:31 ACCEPT [Google News CB] "Brazil Central Bank Set to Brave Inflation Minefield With Interest Rat" | kw:inflation,central bank,interest rate
-2026-06-17 09:31 ACCEPT [Google News CB] "U.S. stock futures rise with Fed rate decision in focus - Investing.co" | kw:fed rate,rate decision
-2026-06-17 09:31 ACCEPT [Google News CB] "What to Watch at the Federal Reserve’s June Meeting - The New York Tim" | kw:federal reserve
-2026-06-17 09:31 ACCEPT [Google News CB] "Putin vs. Central Bank - The Bell" | kw:central bank
-2026-06-17 09:31 ACCEPT [Google News CB] "New Fed chief Warsh directs his first rate decision meeting - Yahoo Fi" | kw:rate decision
-2026-06-17 09:31 SKIP_MORNING already_sent date=2026-06-17
 2026-06-17 10:01 ACCEPT [Google News HH] "The UAE’s Exit from OPEC: When Politics and Oil Mix - Middle East Coun" | kw:oil,opec
 2026-06-17 10:01 ACCEPT [Google News HH] "DXY, Gold Price Forecast: Will Kevin Warsh's First FOMC Halt or Suppor" | kw:gold,rice,fomc
 2026-06-17 10:01 ACCEPT [Google News HH] "Crude Oil Prices Hold Steady as Investors Digest Supply Impacts of U.S" | kw:oil,crude,rice
@@ -20011,3 +19998,22 @@
 2026-07-23 15:01 ACCEPT [Google News CB] "Europe's central bank holds rate steady amid swings in oil prices - mo" | kw:oil,rice,central bank
 2026-07-23 15:01 SKIP_MORNING already_sent date=2026-07-23
 2026-07-23 15:01 SKIP_EVENING already_sent date=2026-07-23
+2026-07-23 15:31 ACCEPT [OilPrice.com] "Brent Tops $100 as Houthi Attacks Push Oil Rally Into Triple Digits" | kw:oil,crude,brent
+2026-07-23 15:31 ACCEPT [Google News HH] "Brent crude oil surges to $100 a barrel for first time since May after" | kw:oil,crude,brent
+2026-07-23 15:31 ACCEPT [Google News HH] "Crude Oil stops trading the headlines and starts trading the war - FXS" | kw:oil,crude
+2026-07-23 15:31 ACCEPT [Google News KL] "Analysts lift copper price outlook but geopolitical and tariff risks l" | kw:copper,rice,tariff
+2026-07-23 15:31 ACCEPT [Google News KL] "Top Silver Miners Boost Production Despite Price Slump - Investing New" | kw:silver,rice
+2026-07-23 15:31 ACCEPT [Google News KL] "Freeport-McMoRan beats quarterly profit estimates on higher copper pri" | kw:copper,rice
+2026-07-23 15:31 ACCEPT [Google News KL] "Northisle Copper and Gold: The Tailwinds Are All Present For Speculati" | kw:gold,copper
+2026-07-23 15:31 ACCEPT [Google News KL] "Gold Price Analysis: XAU/USD Faces $4,050 Triple-Top Rejection After E" | kw:gold,rice,ecb
+2026-07-23 15:31 ACCEPT [Google News NS] "Bayer, European seed company RAGT partner to launch hybrid wheat in th" | kw:wheat
+2026-07-23 15:31 ACCEPT [Google News NS] "Massive Corn Options Bet Could Accelerate Harvest Rally - RFD-TV" | kw:corn,harvest
+2026-07-23 15:31 ACCEPT [Google News NS] "That Dreaded Corn Yield Debate Is Back - DTN Progressive Farmer" | kw:corn,gdp
+2026-07-23 15:31 ACCEPT [Google News CB] "ECB Holds Rates Steady as September Hike Moves Into Focus - Morningsta" | kw:ecb
+2026-07-23 15:31 ACCEPT [Google News CB] "Lagarde Signals ECB Is Primed for Possible Move in September - Bloombe" | kw:ecb
+2026-07-23 15:31 ACCEPT [Google News CB] "ECB keeps interest rate unchanged amidst uncertainty and rising oil pr" | kw:oil,rice,interest rate
+2026-07-23 15:31 ACCEPT [Google News CB] "Dollar hits new 40-year high versus yen, euro lower after ECB decision" | kw:ecb
+2026-07-23 15:31 ACCEPT [Google News CB] "Germany European Central Bank - Journal-News.com" | kw:central bank
+2026-07-23 15:31 ACCEPT [Google News CB] "Germany European Central Bank - The Herald Journal" | kw:central bank
+2026-07-23 15:31 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 15:31 SKIP_EVENING already_sent date=2026-07-23
