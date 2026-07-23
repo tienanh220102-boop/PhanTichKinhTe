@@ -1,8 +1,3 @@
-2026-06-17 13:01 ACCEPT [MarketWatch] "High gas prices soak up more retail-sales dollars — and restaurants ar" | kw:gas,rice
-2026-06-17 13:01 ACCEPT [CNBC Commodities] "More united Fed board seen at Warsh's first meeting, according to Kals" | kw:fomc
-2026-06-17 13:01 ACCEPT [Mining.com] "Rio Tinto’s copper mine blocked: Protesters halt Oyu Tolgoi exports am" | kw:copper
-2026-06-17 13:01 ACCEPT [Google News HH] "UAE's post‑OPEC expansion push to lift oil output above 5 million bpd " | kw:oil,opec
-2026-06-17 13:01 ACCEPT [Google News HH] "Vivakor Secures One-Year Bakken Crude Oil Transaction Expected to Gene" | kw:oil,crude
 2026-06-17 13:01 ACCEPT [Google News HH] "Vivakor locks in 120,000 barrels a month in Bakken crude through June " | kw:crude
 2026-06-17 13:01 ACCEPT [Google News HH] "Brent Crude Oil Prices Sink Below $80 As US-Iran Ceasefire Deal Reshap" | kw:oil,crude,brent
 2026-06-17 13:01 ACCEPT [Google News HH] "Iran Resumes Crude Oil Exports Following U.S. Blockade Agreement - tov" | kw:oil,crude
@@ -20003,3 +19998,10 @@
 2026-07-23 18:01 ACCEPT [Google News HH] "Fuel costs on the rise as latest geopolitical turmoil drives up crude " | kw:oil,crude,fuel
 2026-07-23 18:01 ACCEPT [Google News KL] "Teck earns $854M Q2 profit on higher copper production, commodity pric" | kw:copper,rice,commodity
 2026-07-23 18:01 ACCEPT [Google News CB] "ECB will discuss raising banks’ minimum reserves, Lagarde says - KELO-" | kw:ecb
+2026-07-23 18:31 ACCEPT [MarketWatch] "Still waiting for the free $1,000 to hit your child’s ‘Trump account’?" | kw:treasury
+2026-07-23 18:31 ACCEPT [NASDAQ Commod] "Gold Slumps As Middle East Crisis Widens, U.S. Rate Hike Concerns Incr" | kw:oil,gold,rice
+2026-07-23 18:31 ACCEPT [Google News HH] "Fuel costs on the rise as latest geopolitical turmoil drives up crude " | kw:oil,crude,fuel
+2026-07-23 18:31 ACCEPT [Google News KL] "Freeport-McMoRan's Q2 profit beats expectations, helped by rising copp" | kw:copper,rice
+2026-07-23 18:31 ACCEPT [Google News KL] "comex-copper-price-ytd-july-23-2026 - Mining.com" | kw:copper,rice
+2026-07-23 18:31 ACCEPT [Google News CB] "EXCLUSIVE: ECB considering several options to mitigate losses, sources" | kw:ecb
+2026-07-23 18:31 ACCEPT [Google News CB] "ECB will discuss raising banks’ minimum reserves, Lagarde says By Reut" | kw:ecb
