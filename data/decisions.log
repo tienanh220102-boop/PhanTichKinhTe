@@ -1,23 +1,3 @@
-2026-06-16 15:31 ACCEPT [Google News HH] "Crude oil down sharply and tests a swing area target. - investingLive" | kw:oil,crude
-2026-06-16 15:31 ACCEPT [Google News HH] "WTI Crude Oil (USO) Prices Drop to Two-Month Lows - GuruFocus" | kw:oil,crude,wti
-2026-06-16 15:31 ACCEPT [Google News HH] "Crude oil prices fall again, while US stocks drift near their all-time" | kw:oil,crude,rice
-2026-06-16 15:31 ACCEPT [Google News HH] "Analysts See U.S. Crude Oil Stockpiles Extending Decline - marketscree" | kw:oil,crude
-2026-06-16 15:31 ACCEPT [Google News HH] "Brent Crude Oil Falls Below $80 on US-Iran Strait of Hormuz Reopening " | kw:oil,crude,brent
-2026-06-16 15:31 ACCEPT [Google News HH] "Crude Oil Prices Ease On US-Iran Peace Dividend - MarketForces Africa" | kw:oil,crude,rice
-2026-06-16 15:31 ACCEPT [Google News HH] "Brent crude oil futures prices fell below USD 80. - 富途牛牛" | kw:oil,crude,brent
-2026-06-16 15:31 ACCEPT [Google News KL] "Gold Holds at $4,347 While Stocks Hit All-Time Highs. Here’s Why. - Go" | kw:gold,silver
-2026-06-16 15:31 ACCEPT [Google News KL] "Why Is Silver Up Today? The Iran Deal Changed the Fed Math - GoldSilve" | kw:gold,silver
-2026-06-16 15:31 ACCEPT [Google News NS] "Hormuz shipping resumes, adding bearish tone to grain markets - Brownf" | kw:shipping
-2026-06-16 15:31 ACCEPT [Google News NS] "Soybeans Up Nearly 20¢ | Tuesday, June 16, 2026 - Successful Farming" | kw:soybean
-2026-06-16 15:31 ACCEPT [Google News CB] "ECB May Raise Key Rate Again if Evidence Supports, Chief Economist Say" | kw:ecb
-2026-06-16 15:31 ACCEPT [Google News CB] "ECB will be proactive against high inflation even after Iran deal, Lan" | kw:inflation,ecb
-2026-06-16 15:31 ACCEPT [Google News CB] "Finally, an interest rate reprieve – but a ceasefire in the Middle Eas" | kw:interest rate
-2026-06-16 15:31 ACCEPT [Google News CB] "Stocks rally as oil prices slide, easing inflation fears ahead of Fed " | kw:oil,rice,inflation
-2026-06-16 15:31 ACCEPT [Google News CB] "Oil prices fall back to $80 per barrel, while US stocks drift - AP New" | kw:oil,rice
-2026-06-16 15:31 SKIP_MORNING already_sent date=2026-06-16
-2026-06-16 15:31 SKIP_EVENING already_sent date=2026-06-16
-2026-06-16 16:01 ACCEPT [MarketWatch] "Oil may move through the Strait of Hormuz first, leaving fertilizer su" | kw:oil,crude
-2026-06-16 16:01 ACCEPT [OilPrice.com] "The $10 Billion Energy Corridor That Could Bypass Hormuz" | kw:shipping
 2026-06-16 16:01 ACCEPT [Google News HH] "Why Gas Prices Won’t Be Lower for the July 4th Holiday Even After an I" | kw:gas,rice
 2026-06-16 16:01 ACCEPT [Google News HH] "Crude Oil Prices Tumble as End of US-Iran War Set to Boost Oil Supplie" | kw:oil,crude,rice
 2026-06-16 16:01 ACCEPT [Google News HH] "Crude oil prices fall again, while US stocks drift near their all-time" | kw:oil,crude,rice
@@ -20018,3 +19998,18 @@
 2026-07-23 06:31 ACCEPT [Google News CB] "Japanese Yen firms on intervention risks, eyes FOMC and BoJ meetings -" | kw:fomc,boj
 2026-07-23 06:31 ACCEPT [Google News CB] "Euro Edges Up As ECB Weighs A Hawkish Hold - Finimize" | kw:ecb
 2026-07-23 06:31 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 07:01 ACCEPT [Google News HH] "Crude Oil Carriers Market Size | CAGR of 4.0% - Market.us" | kw:oil,crude
+2026-07-23 07:01 ACCEPT [Google News HH] "$Crude Oil Futures (SEP6) (CLmain.US)$[Share Link: $350 Crude Oil rema" | kw:oil,crude
+2026-07-23 07:01 ACCEPT [Google News HH] "Gold analysis today shows price stuck in this range - investingLive" | kw:gold,rice
+2026-07-23 07:01 ACCEPT [Google News KL] "Silver Price Outlook Turns Bullish Above Key Support - TradingPedia" | kw:silver,rice
+2026-07-23 07:01 ACCEPT [Google News KL] "Anglo flags first-half loss at diamonds, coal units; cuts copper cost " | kw:copper
+2026-07-23 07:01 ACCEPT [Google News KL] "Gold analysis today shows price stuck in this range - investingLive" | kw:gold,rice
+2026-07-23 07:01 ACCEPT [Google News KL] "Silver Price Forecasts: XAG/USD stalls below $60 as US yields rally - " | kw:silver,rice
+2026-07-23 07:01 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Gold Holds Above $4,100 Ahead o" | kw:wti,gold,silver
+2026-07-23 07:01 ACCEPT [Google News KL] "Copper price hovers near the barrier– Forecast today – 23-7-2026 - Eco" | kw:copper,rice
+2026-07-23 07:01 ACCEPT [Google News CB] "Euro heads for one-week high ahead of ECB policy decision - Reuters" | kw:ecb
+2026-07-23 07:01 ACCEPT [Google News CB] "Rates Spark: ECB ready to hike, just not today - ING Think" | kw:ecb
+2026-07-23 07:01 ACCEPT [Google News CB] "ECB to pause rate hikes but may signal that more is needed - Euronext " | kw:rate hike,ecb
+2026-07-23 07:01 ACCEPT [Google News CB] "BOJ expected to raise interest rates again by end of the year - poll -" | kw:interest rate,boj
+2026-07-23 07:01 ACCEPT [Google News CB] "Euro heads for one-week high ahead of ECB policy decision - Euronext M" | kw:ecb
+2026-07-23 07:01 SKIP_MORNING already_sent date=2026-07-23
