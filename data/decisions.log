@@ -1,14 +1,3 @@
-2026-06-16 18:01 ACCEPT [Google News HH] "Crude Oil Extends Plunge on Deal Hopes - TradingView" | kw:oil,crude
-2026-06-16 18:01 ACCEPT [Google News HH] "WTI Midland crude oil differentials rise in European market By Investi" | kw:oil,crude,wti
-2026-06-16 18:01 ACCEPT [Google News KL] "Tiger Gold Corp. Advances Quinchia Gold Project with Major Financing a" | kw:gold,inflation
-2026-06-16 18:13 ACCEPT [Google News HH] "Gold and Silver Prices Rise on June 16, 2026 as Crude Oil Falls and Fe" | kw:oil,crude,gold
-2026-06-16 18:13 ACCEPT [Google News KL] "Silver Market Momentum Opens Doors for Pacifica Silver's Claudia Proje" | kw:silver
-2026-06-16 18:13 ACCEPT [Google News KL] "Wall Street’s Gold Analysts Are Pricing in Middle-East Peace—and They " | kw:gold
-2026-06-16 18:13 ACCEPT [Google News CB] "French central bank cuts economic growth outlook as energy prices bite" | kw:rice,central bank
-2026-06-16 18:13 ACCEPT [Google News CB] "Citi Chief US Economist Defends Unpopular Fed Rate-Cut Call - Bloomber" | kw:fed rate
-2026-06-16 18:31 ACCEPT [The Guardian Biz] "SpaceX overtakes Amazon with valuation at $2.8tn" | kw:rice
-2026-06-16 18:31 ACCEPT [OilPrice.com] "Oil Prices Crash as Traders Bet the War Is Over" | kw:oil,crude,lng
-2026-06-16 18:31 ACCEPT [OilPrice.com] "Trump Deal Resumes Iran Oil Sales Immediately" | kw:oil,fuel,sanction
 2026-06-16 18:31 ACCEPT [NASDAQ Commod] "Gold Ticks Lower Amid Profit Taking Ahead Of Tomorrow's Fed Announceme" | kw:oil,crude,gold
 2026-06-16 18:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD clings to 200-day SMA as Fed takes cent" | kw:silver,rice
 2026-06-16 18:31 ACCEPT [Google News CB] "Fed's watchdog warns of central bank foreign travel risks, calls for r" | kw:central bank
@@ -20009,3 +19998,11 @@
 2026-07-23 10:01 ACCEPT [Google News CB] "Merchants Reject Old Syrian Pound as Central Bank Remains Silent - Ena" | kw:central bank
 2026-07-23 10:01 ACCEPT [Google News CB] "European Central Bank: September hike risk builds – ING - FXStreet" | kw:central bank
 2026-07-23 10:01 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 10:12 ACCEPT [NASDAQ Commod] "Oil Extends Surge On Supply Fears" | kw:oil,crude,rice
+2026-07-23 10:12 ACCEPT [Google News KL] "Teck Resources tops profit estimates on stronger copper production and" | kw:copper,rice
+2026-07-23 10:12 ACCEPT [Google News KL] "Gold prices fall in Baghdad and Erbil - Shafaq News | Latest breaking " | kw:gold,rice
+2026-07-23 10:12 ACCEPT [Google News NS] "Walsh Soybean Oil Opportunities - Pure Hedge Division - The Globe and " | kw:oil,lng,soybean
+2026-07-23 10:12 ACCEPT [Google News CB] "PHP/USD: Marcos Confident Central Bank to Act on Weak Peso, Official S" | kw:central bank
+2026-07-23 10:12 ACCEPT [Google News CB] "Gold weakens below $4,100 as inflation fears lift Fed hike bets and su" | kw:gold,inflation
+2026-07-23 10:12 ACCEPT [Google News CB] "EUR/USD, Oil Forecast: Two trades to watch - FOREX.com" | kw:oil
+2026-07-23 10:12 SKIP_MORNING already_sent date=2026-07-23
