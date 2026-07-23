@@ -1,11 +1,3 @@
-2026-06-16 18:31 ACCEPT [NASDAQ Commod] "Gold Ticks Lower Amid Profit Taking Ahead Of Tomorrow's Fed Announceme" | kw:oil,crude,gold
-2026-06-16 18:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD clings to 200-day SMA as Fed takes cent" | kw:silver,rice
-2026-06-16 18:31 ACCEPT [Google News CB] "Fed's watchdog warns of central bank foreign travel risks, calls for r" | kw:central bank
-2026-06-16 18:31 ACCEPT [Google News CB] "What Happens to Stocks If the Fed’s Warsh Even Hints at a Rate Hike - " | kw:rate hike
-2026-06-16 18:31 ACCEPT [Google News CB] "Oil prices fall below $80 per barrel, while US stocks drift - AP News" | kw:oil,rice
-2026-06-16 19:01 ACCEPT [The Guardian Biz] "SpaceX overtakes Amazon as world’s fifth biggest company" | kw:rice
-2026-06-16 19:01 ACCEPT [CNBC Commodities] "Fed Chair Warsh expected to withhold 'dot' from central bank's interes" | kw:central bank,interest rate
-2026-06-16 19:01 ACCEPT [NASDAQ Commod] "Crude Oil Nosedives On U.S.-Iran Peace Deal, U.S. Permission For Iran " | kw:oil,crude,rice
 2026-06-16 19:01 ACCEPT [Google News HH] "Crude oil futures settled at $76.05 - investingLive" | kw:oil,crude
 2026-06-16 19:01 ACCEPT [Google News HH] "Barclays still bullish on gold price, sees drop as ‘reset’ - The North" | kw:gold,rice
 2026-06-16 19:01 ACCEPT [Google News HH] "July WTI Crude Oil Contract Closes Down US$4.70, or 5.8%, Settles at U" | kw:oil,crude,wti
@@ -20006,3 +19998,11 @@
 2026-07-23 10:12 ACCEPT [Google News CB] "Gold weakens below $4,100 as inflation fears lift Fed hike bets and su" | kw:gold,inflation
 2026-07-23 10:12 ACCEPT [Google News CB] "EUR/USD, Oil Forecast: Two trades to watch - FOREX.com" | kw:oil
 2026-07-23 10:12 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 10:31 ACCEPT [Google News HH] "Brent Crude Oil is up by 5% - TradingView" | kw:oil,crude,brent
+2026-07-23 10:31 ACCEPT [Google News KL] "Current price of silver as of Thursday, July 23, 2026 - Fortune" | kw:silver,rice
+2026-07-23 10:31 ACCEPT [Google News KL] "Gold price breaks higher as US Dollar weakness fuels rally - TMGM trad" | kw:fuel,gold,rice
+2026-07-23 10:31 ACCEPT [Google News NS] "Updated grain prices announced in Ukraine - Новини аграрного бізнесу" | kw:rice
+2026-07-23 10:31 ACCEPT [Google News CB] "European stocks retreat as higher bond yields and ECB decision keep in" | kw:ecb
+2026-07-23 10:31 ACCEPT [Google News CB] "Gold Retreats as Rising Oil Prices Boost Fed Rate Hike Expectations - " | kw:oil,gold,rice
+2026-07-23 10:31 ACCEPT [Google News CB] "Rupee ends nearly flat as central bank intervention blunts oil strain " | kw:oil,central bank
+2026-07-23 10:31 SKIP_MORNING already_sent date=2026-07-23
