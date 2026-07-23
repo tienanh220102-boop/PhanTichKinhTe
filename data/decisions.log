@@ -1,15 +1,3 @@
-2026-06-16 12:01 ACCEPT [Google News KL] "WARNING! WAR & VOLATILITY! Gold Price Forecast Today | Silver Price Pr" | kw:gold,silver,rice
-2026-06-16 12:01 ACCEPT [Google News NS] "Corn, soybean crop ratings improve; wheat harvest 25% done - Farm Prog" | kw:wheat,corn,soybean
-2026-06-16 12:01 ACCEPT [Google News CB] "Fed set to make interest rate decision as inflation hits 3-year high -" | kw:inflation,interest rate,rate decision
-2026-06-16 12:01 SKIP_MORNING already_sent date=2026-06-16
-2026-06-16 12:31 ACCEPT [MarketWatch] "Chip index’s climb is giving fund managers a fear of heights, Bank of " | kw:inflation
-2026-06-16 12:31 ACCEPT [Al Jazeera] "Gaza children running out of time to treat blast-induced hearing loss" | kw:easing
-2026-06-16 12:31 ACCEPT [OilPrice.com] "Qatar Eyes Quick LNG Restart Once Hormuz Reopens" | kw:gas,lng
-2026-06-16 12:31 ACCEPT [Google News HH] "Gold Price Today on June 16, 2026 - USA Today" | kw:gold,rice
-2026-06-16 12:31 ACCEPT [Google News HH] "Crude Oil Prices Sink on Deal to Reopen Strait of Hormuz - Yahoo Finan" | kw:oil,crude,rice
-2026-06-16 12:31 ACCEPT [Google News KL] "Gold Co. Unveils Robust PEA for Massive Brazil Gold Project - Streetwi" | kw:gold
-2026-06-16 12:31 ACCEPT [Google News KL] "World Copper Busbar Assemblies - Market Analysis, Forecast, Size, Tren" | kw:copper
-2026-06-16 12:31 ACCEPT [Google News KL] "The war is 'over'—why is gold rising instead? - Moomoo" | kw:gold
 2026-06-16 12:31 ACCEPT [Google News KL] "Air Jordan 10 'Double Nickel': Price And Where To Buy - AOL.com" | kw:nickel,rice
 2026-06-16 12:31 ACCEPT [Google News NS] "India builds record grain reserves as El Nino returns: Rice stocks hit" | kw:wheat,rice
 2026-06-16 12:31 ACCEPT [Google News CB] "The Prospect of a Quieter Fed Could Roil Bond Prices - Bloomberg.com" | kw:oil,rice
@@ -20010,3 +19998,11 @@
 2026-07-23 01:01 ACCEPT [Google News NS] "Russia-Ukraine war driving price movement in grain markets - Iowa Agri" | kw:rice
 2026-07-23 01:01 ACCEPT [Google News CB] "Japanese Yen strengthens on BoJ hawkish signals, intervention risks - " | kw:boj
 2026-07-23 01:01 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 01:31 ACCEPT [Google News HH] "FACTBOX: ICE Brent holds above $90/b on Hormuz, Bab al-Mandab shipping" | kw:brent,shipping
+2026-07-23 01:31 ACCEPT [Google News HH] "Commodities intraday targets/key levels - TradingView" | kw:commodities
+2026-07-23 01:31 ACCEPT [Google News KL] "Austral Gold Announces Updated Guanaco Technical Report - ACN Newswire" | kw:gold
+2026-07-23 01:31 ACCEPT [Google News KL] "Gold Prices Hold Gains - TradingView" | kw:gold,rice
+2026-07-23 01:31 ACCEPT [Google News KL] "Horizon Gold to host Gum Creek DFS investor webinar - Yahoo Finance Au" | kw:gold
+2026-07-23 01:31 ACCEPT [Google News CB] "ECB to pause rate hikes but signal that more may be needed - WDEZ" | kw:rate hike,ecb
+2026-07-23 01:31 ACCEPT [Google News CB] "ECB likely to hold rates on Thursday but warns of possible September h" | kw:ecb
+2026-07-23 01:31 SKIP_MORNING already_sent date=2026-07-23
