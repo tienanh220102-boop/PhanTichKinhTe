@@ -1,22 +1,3 @@
-2026-06-17 10:01 ACCEPT [Google News HH] "The UAE’s Exit from OPEC: When Politics and Oil Mix - Middle East Coun" | kw:oil,opec
-2026-06-17 10:01 ACCEPT [Google News HH] "DXY, Gold Price Forecast: Will Kevin Warsh's First FOMC Halt or Suppor" | kw:gold,rice,fomc
-2026-06-17 10:01 ACCEPT [Google News HH] "Crude Oil Prices Hold Steady as Investors Digest Supply Impacts of U.S" | kw:oil,crude,rice
-2026-06-17 10:01 ACCEPT [Google News KL] "Silver price today: falls on June 17 - FXStreet" | kw:silver,rice
-2026-06-17 10:01 ACCEPT [Google News KL] "Forget GLD. The Same Gold Costs 75% Less in This Fund - 24/7 Wall St." | kw:gold
-2026-06-17 10:01 ACCEPT [Google News KL] "Silver price remains under pressure as Fed decision, US-Iran truce sha" | kw:silver,rice,gdp
-2026-06-17 10:01 ACCEPT [Google News KL] "Protesters block copper exports to China from Rio Tinto mine in Mongol" | kw:copper
-2026-06-17 10:01 ACCEPT [Google News KL] "New Survey Shows Central Banks Far From Done Buying Gold - BeInCrypto" | kw:gold,central bank
-2026-06-17 10:01 ACCEPT [Google News NS] "New wheat and triticale varieties from Nebraska fill a need - Farm Pro" | kw:wheat
-2026-06-17 10:01 ACCEPT [Google News CB] "Sweden’s Central Bank Holds Key Rate, Sees Higher Chance of a Hike Lat" | kw:central bank
-2026-06-17 10:01 ACCEPT [Google News CB] "Kevin Warsh’s first meeting as Fed chairman could reveal a new vision " | kw:central bank
-2026-06-17 10:01 ACCEPT [Google News CB] "The Fed Likely Won't Touch Interest Rates This Week. Here's Why Invest" | kw:interest rate
-2026-06-17 10:01 ACCEPT [Google News CB] "Dollar on edge ahead of Warsh's first meeting as Fed chair - Reuters" | kw:gdp
-2026-06-17 10:01 SKIP_MORNING already_sent date=2026-06-17
-2026-06-17 10:12 ACCEPT [Google News HH] "Gold Price Forecast: Risk-On Signals Clash with Stock Valuations - FXE" | kw:gold,rice
-2026-06-17 10:12 ACCEPT [Google News HH] "Iranian crude oil tankers exit U.S. blockade zone, says tracking site " | kw:oil,crude
-2026-06-17 10:12 ACCEPT [Google News KL] "Gold Price Forecast: Risk-On Signals Clash with Stock Valuations - FXE" | kw:gold,rice
-2026-06-17 10:12 ACCEPT [Google News KL] "Gold prices slip after morning gain - VnExpress International" | kw:gold,rice
-2026-06-17 10:12 ACCEPT [Google News CB] "Warsh-led Fed expected to hold interest rates steady - Reuters" | kw:interest rate
 2026-06-17 10:12 ACCEPT [Google News CB] "China’s Central Bank Hints at Shift That Aligns It More With Fed - Blo" | kw:central bank
 2026-06-17 10:12 ACCEPT [Google News CB] "China’s central bank is closely monitoring stablecoins in cross-border" | kw:lng,central bank
 2026-06-17 10:12 SKIP_MORNING already_sent date=2026-06-17
@@ -20017,3 +19998,21 @@
 2026-07-23 15:31 ACCEPT [Google News CB] "Germany European Central Bank - The Herald Journal" | kw:central bank
 2026-07-23 15:31 SKIP_MORNING already_sent date=2026-07-23
 2026-07-23 15:31 SKIP_EVENING already_sent date=2026-07-23
+2026-07-23 16:01 ACCEPT [Google News HH] "Gold prices today, Thursday, July 23, 2026: Gold price opens below $4," | kw:gold,rice,inflation
+2026-07-23 16:01 ACCEPT [Google News HH] "Stocks Fall Sharply as Crude Oil Prices Soar and Alphabet Sparks AI Sp" | kw:oil,crude,rice
+2026-07-23 16:01 ACCEPT [Google News HH] "Dow Falls Over 500 Points, Trump's Latest Iran Threat Sends Crude Oil " | kw:oil,crude,rice
+2026-07-23 16:01 ACCEPT [Google News KL] "Silver prices today, Thursday, July 23: Silver price hovers near $60, " | kw:gold,silver,rice
+2026-07-23 16:01 ACCEPT [Google News KL] "Nickel Breaks Out as Indonesia Holds Firm and Supply Tightens - Crux I" | kw:nickel
+2026-07-23 16:01 ACCEPT [Google News KL] "U.S. Gold Corp. CK Gold Feasibility Study: 8 Things You Need to Know -" | kw:lng,gold
+2026-07-23 16:01 ACCEPT [Google News KL] "Freeport-McMoRan beats quarterly profit estimates on higher copper pri" | kw:copper,rice
+2026-07-23 16:01 ACCEPT [Google News NS] "Soybeans Hit Contract Highs, Corn Rallies on Weather Concerns: Cattle " | kw:corn,soybean
+2026-07-23 16:01 ACCEPT [Google News CB] "Europe’s central bank holds rates steady amid swings in oil prices - A" | kw:oil,rice,central bank
+2026-07-23 16:01 ACCEPT [Google News CB] "Dollar hits new 40-year high versus yen, euro lower after ECB decision" | kw:ecb
+2026-07-23 16:01 ACCEPT [Google News CB] "Traders stick with ECB rate-hike bets as oil touches $100 once more - " | kw:oil,ecb
+2026-07-23 16:01 ACCEPT [Google News CB] "Oil price surge reignites inflation worries as ECB holds rates - Yahoo" | kw:oil,rice,inflation
+2026-07-23 16:01 ACCEPT [Google News CB] "EUR/USD Breaks Bear Flag After ECB - FOREX.com" | kw:ecb
+2026-07-23 16:01 ACCEPT [Google News CB] "Oil's Surge Puts the Fed's Preferred Inflation Gauge Back in Focus - S" | kw:oil,inflation
+2026-07-23 16:01 ACCEPT [Google News CB] "ECB keeps rates unchanged but September hike stays in play - Reuters" | kw:ecb
+2026-07-23 16:01 ACCEPT [Google News CB] "Gold slips 2% as oil rally brings Fed rate hikes into focus - CNBC" | kw:oil,gold,fed rate
+2026-07-23 16:01 SKIP_MORNING already_sent date=2026-07-23
+2026-07-23 16:01 SKIP_EVENING already_sent date=2026-07-23
