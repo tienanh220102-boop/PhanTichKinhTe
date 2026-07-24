@@ -1,10 +1,3 @@
-2026-06-18 11:31 ACCEPT [CNBC Economy] "Bank of England holds interest rates at 3.75% amid Iran war peace pros" | kw:monetary policy,interest rate,bank of england
-2026-06-18 11:31 ACCEPT [OilPrice.com] "India’s Energy Import Bill Jumps 82% Due to High Oil Prices" | kw:oil,crude,lng
-2026-06-18 11:31 ACCEPT [Google News KL] "Gold prices today, Thursday, June 18, 2026: Prices feeling a Fed hango" | kw:gold,rice
-2026-06-18 11:31 ACCEPT [Google News KL] "Silver Price Analysis Shows Triangle Breakout Risk Near $69.82 - Brave" | kw:silver,rice
-2026-06-18 11:31 ACCEPT [Google News KL] "gold price Fed decision 2026 Archives - GoldSilver" | kw:gold,silver,rice
-2026-06-18 11:31 ACCEPT [Google News KL] "Silver Price Prediction: $70 Breakout Blueprint Primed as Warsh Debut " | kw:silver,rice
-2026-06-18 11:31 ACCEPT [Google News NS] "First Thing Today | Wheat may have to help lift corn, beans out of the" | kw:wheat,corn,rice
 2026-06-18 11:31 ACCEPT [Google News NS] "Ethanol Expansion Strengthens Corn Demand and Rural Economies - RFD-TV" | kw:corn
 2026-06-18 11:31 ACCEPT [Google News NS] "Export prices for soybeans in Ukraine continue to decline, but domesti" | kw:soybean,rice
 2026-06-18 11:31 SKIP_MORNING already_sent date=2026-06-18
@@ -20005,3 +19998,16 @@
 2026-07-24 15:31 ACCEPT [Google News NS] "Council's in-house leisure service plan could see Corby pool creche cl" | kw:corn
 2026-07-24 15:31 SKIP_MORNING already_sent date=2026-07-24
 2026-07-24 15:31 SKIP_EVENING already_sent date=2026-07-24
+2026-07-24 16:01 ACCEPT [OilPrice.com] "How the U.S. Became the World's LNG Superpower" | kw:gas,lng
+2026-07-24 16:01 ACCEPT [Google News HH] "Stocks edge higher while crude oil prices fall for the first time in a" | kw:oil,crude,rice
+2026-07-24 16:01 ACCEPT [Google News HH] "WTI Crude Oil: Elliott Wave Analysis and Forecast for 24.07.26–31.07.2" | kw:oil,crude,wti
+2026-07-24 16:01 ACCEPT [Google News HH] "Crude Oil Price Forecast: US-Iran Conflict Continues to Push Up Oil Pr" | kw:oil,crude,brent
+2026-07-24 16:01 ACCEPT [Google News KL] "AEM vs. ORLA: Which Gold Miner Deserves a Spot in Your Portfolio? - Ya" | kw:gold
+2026-07-24 16:01 ACCEPT [Google News KL] "Gold prices hold firm above USD 4,020, with Federal Reserve rate risks" | kw:gold,rice,federal reserve
+2026-07-24 16:01 ACCEPT [Google News NS] "Wheat Falling Back in Early Friday Trade - Barchart.com" | kw:wheat
+2026-07-24 16:01 ACCEPT [Google News NS] "Hot weather at flowering could put soybean yields at risk in Ontario. " | kw:soybean
+2026-07-24 16:01 ACCEPT [Google News NS] "Black Sea and Red Sea Conflicts Escalate, Europe and U.S. Hit by Heat " | kw:wheat
+2026-07-24 16:01 ACCEPT [Google News CB] "Euro-Zone Resilience and More Inflation Seen in First Data for ECB - B" | kw:inflation,ecb
+2026-07-24 16:01 ACCEPT [Google News CB] "Russia's central bank gingerly cuts rates, caught between business com" | kw:inflation,central bank
+2026-07-24 16:01 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 16:01 SKIP_EVENING already_sent date=2026-07-24
