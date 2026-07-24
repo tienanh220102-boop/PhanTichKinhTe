@@ -1,22 +1,3 @@
-2026-06-18 10:31 ACCEPT [Google News CB] "Warsh’s Hawkish Stance Fuels US Interest-Rate Hike Bets - Bloomberg.co" | kw:fuel,rate hike
-2026-06-18 10:31 ACCEPT [Google News CB] "Taiwan central bank raises growth outlook, flags inflation concerns - " | kw:inflation,central bank
-2026-06-18 10:31 ACCEPT [Google News CB] "Swiss central bank readies for FX intervention if safe haven franc str" | kw:central bank
-2026-06-18 10:31 ACCEPT [Google News CB] "Treasury yields mixed as investors digest Warsh's first Fed meet - CNB" | kw:treasury
-2026-06-18 10:31 SKIP_MORNING already_sent date=2026-06-18
-2026-06-18 11:01 ACCEPT [MarketWatch] "Gasoline prices just fell below $4 per gallon — by the smallest possib" | kw:gas,rice
-2026-06-18 11:01 ACCEPT [Google News HH] "US crude oil inventories down 1.9% in week ending June 12 - Anadolu Aj" | kw:oil,crude
-2026-06-18 11:01 ACCEPT [Google News HH] "Crude Oil Forecast 18/06: Tests the 200 Day EMA (Video) - Daily Forex" | kw:oil,crude
-2026-06-18 11:01 ACCEPT [Google News HH] "Gold Price Analysis to Watch $4300 Support as a Key Price Event on the" | kw:gold,rice
-2026-06-18 11:01 ACCEPT [Google News HH] "Gold trading strategy 2026: How to trade XAUUSD effectively - ThinkMar" | kw:gold
-2026-06-18 11:01 ACCEPT [Google News KL] "SOMA GOLD ANNOUNCES DELIVERIES TO THE EL BAGRE GOLD COMPLEX FROM AUROR" | kw:gold
-2026-06-18 11:01 ACCEPT [Google News KL] "Silver price rises on US-Iran deal as hawkish Fed caps gains - FXStree" | kw:silver,rice
-2026-06-18 11:01 ACCEPT [Google News KL] "Silver Price Forecast: Hawkish Fed Puts $60 Support in Focus - FXEmpir" | kw:silver,rice
-2026-06-18 11:01 ACCEPT [Google News KL] "Gold Forecast 18/06: Gold Sits at the 200 Day EMA (Video) - Daily Fore" | kw:gold
-2026-06-18 11:01 ACCEPT [Google News KL] "Gold, silver prices decline in Pakistan as global rates fall - The Exp" | kw:gold,silver,rice
-2026-06-18 11:01 ACCEPT [Google News NS] "Several factors affecting soybean oil price increases - Food Business " | kw:oil,soybean,rice
-2026-06-18 11:01 ACCEPT [Google News CB] "Fed holds interest rates steady and hints at future rate hike - NPR" | kw:interest rate,rate hike
-2026-06-18 11:01 ACCEPT [Google News CB] "Bond Traders Get a Clear Message From New Fed Chief on Inflation - Blo" | kw:inflation
-2026-06-18 11:01 SKIP_MORNING already_sent date=2026-06-18
 2026-06-18 11:06 ACCEPT [BBC Business] "Interest rates kept on hold at 3.75%" | kw:interest rate
 2026-06-18 11:06 ACCEPT [Google News HH] "Crude Oil Forecast 18/06: Tests the 200 Day EMA (Video) - DailyForex" | kw:oil,crude
 2026-06-18 11:06 ACCEPT [Google News KL] "Xali Gold Private Placement Fully Subscribed - GlobeNewswire" | kw:gold
@@ -20017,3 +19998,12 @@
 2026-07-24 15:01 ACCEPT [Google News CB] "Russia's central bank gingerly cuts rates, caught between business com" | kw:inflation,central bank
 2026-07-24 15:01 SKIP_MORNING already_sent date=2026-07-24
 2026-07-24 15:01 SKIP_EVENING already_sent date=2026-07-24
+2026-07-24 15:20 ACCEPT [Google News HH] "Stocks waver while crude oil prices fall for the first time in a week " | kw:oil,crude,rice
+2026-07-24 15:20 ACCEPT [Google News HH] "Vivakor Surpasses $1 Billion in Annualized Crude Oil Transactions with" | kw:oil,crude
+2026-07-24 15:20 ACCEPT [Google News HH] "Stocks waver while crude oil prices fall for the first time in a week " | kw:oil,crude,rice
+2026-07-24 15:20 ACCEPT [Google News KL] "Spot gold spikes to $4,070/oz high as U.S. new home sales rise 1.6% in" | kw:gold
+2026-07-24 15:20 ACCEPT [Google News NS] "Five Grain Bin Mistakes That Could Cost U.S. Farmers Thousands After H" | kw:harvest
+2026-07-24 15:20 ACCEPT [Google News NS] "What might be the consequences of suspending shipping in the Sea of Az" | kw:shipping
+2026-07-24 15:20 ACCEPT [Google News CB] "Bank treasurer survey - European Central Bank" | kw:lng,central bank
+2026-07-24 15:20 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 15:20 SKIP_EVENING already_sent date=2026-07-24
