@@ -532,6 +532,64 @@ def quiet_groups(prices):
     return out
 
 
+# ── CỔNG Ý NGHĨA (user chốt 24/07): chỉ gửi khi có biến động TƯƠNG ĐỐI LỚN ──
+SIG_SESSION_PCT = 3.0    # |biến động phiên| ≥ 3%
+SIG_5D_PCT      = 7.0    # |biến động 5 phiên| ≥ 7%
+SIG_VOL_RATIO   = 2.0    # khối lượng ≥ 2× median
+_SHOCK_KW = (
+    'chiến tranh', 'tấn công', 'không kích', 'tên lửa', 'trừng phạt', 'cấm vận', 'phong tỏa',
+    'eo biển', 'hormuz', 'gián đoạn nguồn cung', 'cắt giảm sản lượng', 'tăng sản lượng',
+    'vỡ nợ', 'khủng hoảng', 'đình công', 'thảm họa', 'áp thuế', 'đánh thuế', 'nổ kho',
+)
+
+
+def _sym_group(key):
+    for g, syms in SYMBOL_GROUPS.items():
+        if any(k == key for k, _ in syms):
+            return g
+    return None
+
+
+def detect_shock_news(articles):
+    """Tin tác động mạnh (địa chính trị/nguồn cung) trong TIÊU ĐỀ → nhãn ngắn, else None."""
+    for a in (articles or [])[:MAX_ARTICLES]:
+        title = (a.get('title') or '')
+        low = title.lower()
+        for kw in _SHOCK_KW:
+            if kw in low:
+                return title[:70]
+    return None
+
+
+def compute_significance(prices, articles):
+    """(có_đáng_gửi, [lý do], {nhóm đang động}). Ngưỡng VỪA — user chốt 24/07.
+
+    Đáng gửi nếu BẤT KỲ mặt hàng nào: |phiên|≥3% HOẶC |5 phiên|≥7% HOẶC KL≥2×; hoặc có tin sốc.
+    """
+    triggers, active = [], set()
+    for key, e in (prices or {}).items():
+        if not e:
+            continue
+        vn = VN_NAMES.get(key, key)
+        c1, c5, vr = e.get('chg_pct'), e.get('chg_5d'), e.get('vol_ratio')
+        hit = None
+        if c1 is not None and abs(c1) >= SIG_SESSION_PCT:
+            hit = f'{vn} {c1:+.1f}% phiên'
+        elif c5 is not None and abs(c5) >= SIG_5D_PCT:
+            hit = f'{vn} {c5:+.1f}%/5 phiên'
+        if vr is not None and vr >= SIG_VOL_RATIO:
+            hit = (hit + f', KL {vr:.1f}×') if hit else f'{vn} KL {vr:.1f}×'
+        if hit:
+            triggers.append(hit)
+            g = _sym_group(key)
+            if g:
+                active.add(g)
+    shock = detect_shock_news(articles)
+    if shock:
+        triggers.append(f'tin sốc: {shock}')
+    return bool(triggers), triggers, active
+
+
 def build_group_signals(prices):
     """Tính sẵn theo nhóm cho prompt: {group: (xu hướng, thiên hướng KT, ngưỡng giá)}."""
     out = {}
@@ -1099,110 +1157,56 @@ def build_session_report_prompt(articles, session, date_str, month, gold_vnd_lin
     sig = build_group_signals(prices or {})
     movement_block = build_movement_facts(prices or {})
     na3 = ('N/A', 'N/A', 'N/A')
-    energy, precious = sig.get('energy', na3), sig.get('precious', na3)
-    agri, industrial = sig.get('agri', na3),   sig.get('industrial', na3)
 
-    # Noise budget: nhom bien dong < 0.5x ATR — cho phep "khong co gi de noi"
-    _GROUP_VN = {'energy': 'NĂNG LƯỢNG', 'precious': 'KIM LOẠI QUÝ',
-                 'agri': 'NÔNG SẢN', 'industrial': 'KIM LOẠI CÔNG NGHIỆP'}
-    quiet = [_GROUP_VN[g] for g in quiet_groups(prices or {}) if g in _GROUP_VN]
-    quiet_note = ''
-    if quiet:
-        quiet_note = (
-            f'\n- NHÓM DAO ĐỘNG TRONG BIÊN ĐỘ BÌNH THƯỜNG (biến động < 0.5×ATR ngày): '
-            f'{", ".join(quiet)}. Với các nhóm này, nếu KHÔNG có tin mới đáng kể, phần '
-            f'"Phân tích" chỉ cần đúng 1 câu: "Dao động trong biên độ bình thường, không có '
-            f'driver rõ rệt" — TRUNG THỰC hơn là gượng ép tìm lý do cho dao động ngẫu nhiên.'
+    # CHỉ render nhóm ĐANG BIẾN ĐỘNG MẠNH (cổng ý nghĩa) — bỏ nhóm yên để báo cáo ngắn.
+    _, triggers, active = compute_significance(prices or {}, articles)
+    _GROUP_HDR = {
+        'energy':     '🛢️ NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên',
+        'precious':   '🥇 KIM LOẠI QUÝ — Vàng, Bạc',
+        'agri':       '🌾 NÔNG SẢN — Ngô, Đậu tương, Lúa mì',
+        'industrial': '🔩 KIM LOẠI CÔNG NGHIỆP — Đồng',
+    }
+    group_blocks = []
+    for g in ('energy', 'precious', 'agri', 'industrial'):
+        if g not in active:
+            continue
+        s = sig.get(g, na3)
+        group_blocks.append(
+            f"{_GROUP_HDR[g]}\n"
+            f"Xu hướng: {s[0]}\nThiên hướng KT: {s[1]}\nNgưỡng giá: {s[2]}\n"
+            f"Phân tích:\n"
+            f"• [mặt hàng động tăng/giảm bao nhiêu % (ghi rõ phiên & 5 phiên) và VÌ SAO — gắn "
+            f"tin/USD/thời tiết-mùa vụ; quỹ lớn đặt cược gì. Dễ hiểu, không jargon]\n"
+            f"• [ý bổ sung nếu THỰC SỰ cần, không thì bỏ]\n"
+            f"Rủi ro:\n• [1 rủi ro chính cần theo dõi]"
         )
+    groups_text = '\n\n'.join(group_blocks) if group_blocks else \
+        '(Không mặt hàng nhóm nào vượt ngưỡng — chỉ do tin tức. Bỏ qua phần nhóm.)'
+    trig_line = ('Gửi vì: ' + '; '.join(triggers)) if triggers else ''
 
-    return f"""Bạn là chuyên gia phân tích thị trường hàng hóa toàn cầu với kinh nghiệm giao dịch thực tế.
+    return f"""Bạn là chuyên gia phân tích thị trường hàng hóa. Đây là báo cáo NGẮN — chỉ nói về thứ ĐÁNG NÓI.
 Dưới đây là {len(articles)} {context} ngày {date_str}:{price_note}{vnd_note}{seasonal_note}{wb_note}
 
 {movement_block}
 
 {articles_text}
 
-Hãy viết BÁO CÁO PHÂN TÍCH {session_vn} bằng TIẾNG VIỆT theo đúng cấu trúc sau (không thêm gì ngoài cấu trúc này).
-QUAN TRỌNG:
-- Các dòng "Xu hướng / Thiên hướng KT / Ngưỡng giá" ĐÃ ĐƯỢC TÍNH SẴN bằng quy tắc định lượng (giá so MA20/MA50 + RSI14) — GIỮ NGUYÊN Y HỆT, không sửa, không thêm bớt.
-- "Thiên hướng KT" là MÔ TẢ trạng thái kỹ thuật hiện tại (đang nghiêng tăng/giảm/trung tính), KHÔNG phải khuyến nghị mua/bán và KHÔNG dự báo chắc chắn hướng đi. Khi viết phần Phân tích, TUYỆT ĐỐI không diễn giải "Nghiêng giảm" thành lệnh bán hay khẳng định giá sẽ giảm tiếp — với hàng hóa, trạng thái nghiêng giảm thường đi kèm khả năng bật hồi. Khuyến nghị hành động (nếu có) chỉ đặt ở mục 📋 KHUYẾN NGHỊ PHIÊN, kèm điều kiện.
-- CHỐT SỐ LIỆU (chống đảo dấu): mọi con số % và từ hướng (tăng/giảm) PHẢI lấy ĐÚNG từ khối "MÔ TẢ BIẾN ĐỘNG ĐÃ CHỐT" ở trên. TUYỆT ĐỐI không tự tính lại, không đảo dấu. Nếu số liệu ghi "phiên +3.60% (TĂNG)" thì phải viết "tăng 3,6%", KHÔNG được viết "giảm".
-- PHÂN BIỆT 3 KHUNG THỜI GIAN, luôn ghi rõ khung khi nêu %: (1) "phiên" = 1D%; (2) "5 phiên" = 5D%; (3) "xu hướng trung hạn" = vị trí so MA20/MA50. Một mặt hàng có thể TĂNG trong phiên nhưng xu hướng trung hạn vẫn GIẢM (giá nảy lên nhưng còn dưới MA20) — đây KHÔNG phải mâu thuẫn, phải diễn giải đúng như vậy thay vì gộp làm một.
-- VIẾT CHO NGƯỜI ĐỌC KHÔNG CHUYÊN — KẾT LUẬN, KHÔNG JARGON: phần "Phân tích" và "Rủi ro" TUYỆT ĐỐI không nhắc tên chỉ báo kỹ thuật (RSI, MA20, MA50, ATR, Bollinger, Wilder, "52 tuần"...). Dùng các chỉ báo đó để RÚT RA kết luận rồi chỉ viết kết luận dễ hiểu. Quy đổi:
-  • "RSI quá bán/thấp" → "đã giảm khá sâu, có thể sắp chững lại/bật lên"
-  • "RSI quá mua/cao" → "đã tăng nóng, dễ điều chỉnh"
-  • "giá dưới MA20/MA50" → "vẫn trong xu hướng giảm ngắn/trung hạn"
-  • "giá trên MA20" → "đang trong xu hướng tăng"
-  • "ATR cao" → "biến động mạnh bất thường"
-  • vị thế COT → "các quỹ lớn đang đặt cược giá tăng/giảm"; tỷ lệ Vàng/Bạc → "bạc đang rẻ/đắt tương đối so vàng"
-  ĐƯỢC PHÉP nêu % thay đổi và mức giá (số dễ hiểu, ai cũng đọc được). KHÔNG viết chung chung "giá chịu áp lực" mà thiếu lý do/con số.
-- ĐỊNH DẠNG: phần "Phân tích" và "Rủi ro" trình bày dưới dạng GẠCH ĐẦU DÒNG (mỗi ý 1 dòng bắt đầu bằng "• "), không viết thành đoạn văn dài.
-- NGẮN GỌN: mỗi mục "Phân tích" TỐI ĐA 3 gạch đầu dòng, "Rủi ro" TỐI ĐA 2 — chọn ý quan trọng nhất, mỗi ý ≤2 câu, không liệt kê lan man. 🔀/🌍 mỗi mục ≤3 ý.
-- KHÔNG BỊA SỰ KIỆN: chỉ được nêu sự kiện địa chính trị/kinh tế (thỏa thuận, lệnh trừng phạt, quyết định OPEC/Fed...) NẾU nó xuất hiện trong các tin được cung cấp ở trên. Nếu chỉ là suy đoán hoặc tin chưa được xác nhận, BẮT BUỘC ghi rõ "(tin chưa kiểm chứng)" — tuyệt đối không trình bày như sự thật đã xảy ra.
-- Nếu tín hiệu định lượng mâu thuẫn với tin tức, nêu rõ mâu thuẫn đó trong phần Rủi ro.
-- TẦNG DỮ LIỆU: khối "TĂNG TRƯỞNG GDP" (World Bank) và ngữ cảnh mùa vụ là MẶT BẰNG —
-  chúng KHÔNG ĐỔI giữa hôm qua và hôm nay nên KHÔNG BAO GIỜ được dùng làm lý do giải thích
-  biến động trong ngày/phiên. Biến động phiên chỉ được giải thích bằng tin tức MỚI + chỉ số
-  daily (DXY, yields, VIX, COT). Mặt bằng chỉ xuất hiện ở thì "bối cảnh dài hạn", và KHÔNG
-  được viện dẫn trong mục KHUYẾN NGHỊ PHIÊN.{quiet_note}
-- ĐỘ TRỄ CHÍNH SÁCH: quyết định của Fed/NHTW tác động đồng USD, kỳ vọng và dòng tiền NGAY
-  trong phiên — nhưng tác động lên CẦU hàng hóa THỰC thì rất TRỄ (1–3 năm). Vì vậy KHÔNG
-  viết kiểu "Fed hạ lãi → cầu dầu/đồng tăng ngay"; chỉ nói tác động tức thì qua kênh USD/tâm lý.
-- ĐỐI CHIẾU NGUỒN: mỗi tin có ghi xuất xứ trong ngoặc [nguồn — góc nhìn]. "RT Business" là state media của Nga — coi tin từ đó là TÍN HIỆU LẬP TRƯỜNG của Nga (điều Nga muốn thị trường tin, nhất là về dầu khí/cấm vận/OPEC+), KHÔNG mặc định là sự thật khách quan. Khi nguồn Nga và nguồn phương Tây đưa tin TRÁI NGƯỢC về cùng chủ đề, đó chính là thông tin có giá trị — nêu rõ trong mục 🔀.
+Viết BÁO CÁO {session_vn} bằng TIẾNG VIỆT, NGẮN GỌN, theo đúng khung dưới. {trig_line}
+QUY TẮC (bắt buộc):
+- CHỈ viết về các nhóm được liệt kê bên dưới (nhóm ĐANG BIẾN ĐỘNG MẠNH). Nhóm KHÔNG có trong khung = KHÔNG nhắc tới, dù chỉ một câu. Bảng giá đầy đủ đã có sẵn phía trên, không lặp lại.
+- Dòng "Xu hướng / Thiên hướng KT / Ngưỡng giá" ĐÃ TÍNH SẴN — GIỮ NGUYÊN Y HỆT.
+- CHỐT SỐ (chống đảo dấu): mọi % và từ hướng (tăng/giảm) lấy ĐÚNG từ "MÔ TẢ BIẾN ĐỘNG ĐÃ CHỐT". Không tự tính lại, không đảo dấu. Ghi rõ khung: "phiên"=1D, "5 phiên"=5D, "xu hướng trung hạn"=theo MA (một mặt hàng có thể tăng phiên nhưng xu hướng trung hạn vẫn giảm — không mâu thuẫn).
+- KHÔNG JARGON: không nhắc RSI/MA/ATR/Bollinger/"52 tuần". Dùng chúng để RÚT KẾT LUẬN dễ hiểu ("đã tăng nóng dễ điều chỉnh", "vẫn trong xu hướng giảm", "quỹ lớn đặt cược tăng/giảm"). Được nêu % và mức giá.
+- "Thiên hướng KT" là MÔ TẢ trạng thái, KHÔNG phải lệnh mua/bán, KHÔNG dự báo chắc chắn — với hàng hóa, nghiêng giảm thường kèm khả năng bật hồi. Khuyến nghị chỉ đặt ở mục 📋 kèm điều kiện.
+- KHÔNG BỊA SỰ KIỆN: chỉ nêu sự kiện (OPEC/Fed/trừng phạt/xung đột...) NẾU có trong tin phía trên; chưa chắc thì ghi "(chưa kiểm chứng)". Nếu các nguồn TRÁI NGƯỢC về cùng chủ đề → nêu ngắn trong 🌍 (RT/Sputnik = lập trường Nga, không mặc định là sự thật).
+- KHÔNG dùng GDP/mùa vụ (mặt bằng dài hạn) để giải thích biến động PHIÊN; biến động phiên chỉ giải thích bằng tin MỚI + chỉ số daily (USD/lãi suất/tâm lý). Fed/NHTW tác động qua USD/tâm lý NGAY, nhưng lên CẦU hàng hóa thực thì rất trễ (1-3 năm) — đừng viết "Fed hạ lãi → cầu dầu tăng ngay".
+- Mỗi nhóm: Phân tích TỐI ĐA 2 gạch, Rủi ro TỐI ĐA 1. Ngắn, mỗi ý ≤2 câu.
 
-🔀 ĐỐI CHIẾU NGUỒN TIN
-[So sánh các nguồn về CÙNG một chủ đề: nếu có mâu thuẫn (ví dụ Sputnik nói nguồn cung ổn định nhưng Reuters/BBC nói gián đoạn), nêu rõ "Nguồn A nói X, nguồn B nói Y" + hàm ý cho trader (xung đột nguồn về nguồn cung dầu = biến động sắp tới). Nếu không có xung đột đáng kể, ghi đúng 1 câu: "Không phát hiện xung đột đáng kể giữa các nguồn trong phiên này."]
+🌍 VĨ MÔ (1-2 dòng: driver chính đằng sau biến động hôm nay — USD/lãi suất/tâm lý/tin lớn; nêu quyết định NHTW nếu có, phân biệt "đã quyết" vs "đồn đoán")
 
-🌍 VĨ MÔ & TIN TỨC NỔI BẬT
-[2-3 yếu tố vĩ mô quan trọng nhất, diễn đạt dễ hiểu: đồng USD mạnh/yếu, lãi suất, lạm phát, tâm lý lo ngại của thị trường... — nói tác động tới hàng hóa, KHÔNG dùng tên viết tắt khó hiểu (DXY/TIPS/breakeven...). Vd: "đồng USD yếu đi → hỗ trợ giá vàng". Nếu trong tin có QUYẾT ĐỊNH CHÍNH SÁCH của NHTW lớn (Fed/ECB/BOJ/BOE/PBOC: tăng/giảm/giữ lãi suất, đổi định hướng) → ưu tiên nêu, vì chi phối trực tiếp đồng USD, dòng tiền vào vàng và hàng hóa. Phân biệt rõ "đã quyết định" với "kỳ vọng/đồn đoán".]
+{groups_text}
 
-🛢️ NĂNG LƯỢNG — Dầu WTI/Brent, Khí tự nhiên
-Xu hướng: {energy[0]}
-Thiên hướng KT: {energy[1]}
-Ngưỡng giá: {energy[2]}
-Phân tích:
-• [dầu/khí đang tăng/giảm bao nhiêu % (phiên & 5 phiên), đang ở xu hướng gì và VÌ SAO — gắn tin tức; quỹ lớn đang đặt cược tăng hay giảm. Diễn đạt dễ hiểu, không jargon]
-• [luận điểm bổ sung nếu có]
-Rủi ro:
-• [rủi ro chính cần theo dõi, nói dễ hiểu]
-
-🥇 KIM LOẠI QUÝ — Vàng (XAU/USD), Bạc
-Xu hướng: {precious[0]}
-Thiên hướng KT: {precious[1]}
-Ngưỡng giá: {precious[2]}
-Phân tích:
-• [vàng/bạc tăng/giảm bao nhiêu % (phiên & 5 phiên), xu hướng và VÌ SAO — gắn tin tức + tác động đồng USD; bạc đang rẻ hay đắt tương đối so vàng. Nếu vàng TĂNG, phân biệt rõ lý do: vì thị trường LO LẠM PHÁT (vàng làm nơi trú ẩn) hay vì KỲ VỌNG FED NỚI LỎNG / USD YẾU (tiền rẻ chảy vào vàng) — hai lý do này khác nhau, nói rõ cái nào. Diễn đạt dễ hiểu, không jargon]
-• [luận điểm bổ sung nếu có]
-Rủi ro:
-• [rủi ro chính cần theo dõi, nói dễ hiểu]
-
-🌾 NÔNG SẢN — Ngô, Đậu tương, Lúa mì
-Xu hướng: {agri[0]}
-Thiên hướng KT: {agri[1]}
-Ngưỡng giá: {agri[2]}
-Phân tích:
-• [ngô/đậu tương/lúa mì tăng/giảm bao nhiêu % (phiên & 5 phiên), xu hướng và VÌ SAO — gắn tin tức + thời tiết/mùa vụ; quỹ lớn đang đặt cược tăng hay giảm. Diễn đạt dễ hiểu, không jargon]
-• [luận điểm bổ sung nếu có]
-Rủi ro:
-• [rủi ro chính cần theo dõi, nói dễ hiểu]
-
-🔩 KIM LOẠI CÔNG NGHIỆP — Đồng, Nhôm, Niken
-Xu hướng: {industrial[0]}
-Thiên hướng KT: {industrial[1]}
-Ngưỡng giá: {industrial[2]}
-Phân tích:
-• [đồng tăng/giảm bao nhiêu % (phiên & 5 phiên), xu hướng và VÌ SAO — gắn tin tức; tín hiệu thị trường đang "ưa rủi ro" hay "phòng thủ"; quỹ lớn đặt cược gì. Diễn đạt dễ hiểu, không jargon]
-• [luận điểm bổ sung nếu có]
-Rủi ro:
-• [rủi ro chính cần theo dõi, nói dễ hiểu]
-
-📋 KHUYẾN NGHỊ PHIÊN
-[2-3 khuyến nghị cụ thể kèm mức giá vào lệnh/cắt lỗ tham chiếu từ ngưỡng hỗ trợ-kháng cự đã tính]
-
-⚠️ THEO DÕI PHIÊN
-[2-3 sự kiện/dữ liệu quan trọng cần theo dõi trong phiên]
-
-Lưu ý: Nếu không đủ tin về một nhóm, phân tích dựa trên số liệu kỹ thuật và bối cảnh mùa vụ. Viết ngắn gọn, rõ ràng, chuyên nghiệp."""
+📋 KHUYẾN NGHỊ (1-2 dòng, CHỈ cho mặt hàng đang động, kèm mức giá tham chiếu từ ngưỡng đã tính; kèm điều kiện)"""
 
 def generate_session_report(articles, session, date_str, month, gold_vnd_line=None, price_block=None, prices=None, wb_block=None):
     if not articles:
@@ -1378,6 +1382,20 @@ def try_send_session_report(state, now_vn, session, force=False):
 
     # Fetch giá thị trường (4 nguồn) + COT + vàng nhẫn SJC
     prices, macro = build_price_snapshot()
+
+    # CỔNG Ý NGHĨA (user chốt 24/07): chỉ gửi khi có biến động TƯƠNG ĐỐI LỚN — chống spam.
+    # Ngưỡng VỪA: 1 mặt hàng ≥±3%/phiên HOẶC ≥7%/5 phiên HOẶC KL ≥2×, HOẶC tin sốc.
+    # Không đạt → bỏ qua (đánh dấu đã-xử-lý phiên để khỏi lặp), KHÔNG gọi Gemini, KHÔNG gửi.
+    significant, triggers, _active = compute_significance(prices, articles)
+    if not significant and not force:
+        _log.info('SKIP_%s quiet_market date=%s', session.upper(), today_str)
+        print(f'Thị trường yên ắng (không mặt hàng nào vượt ngưỡng, không tin sốc) → '
+              f'bỏ qua báo cáo {session_vn}.')
+        state[state_key] = today_str
+        return
+    if triggers:
+        print(f'  Đáng gửi vì: {"; ".join(triggers)}')
+
     cot_block     = build_cot_block(state)
     price_block   = format_price_for_prompt(prices, macro, cot_block) if prices or macro else None
     price_line    = format_price_for_telegram(prices, macro)
@@ -1405,10 +1423,11 @@ def try_send_session_report(state, now_vn, session, force=False):
     vol_alert   = build_volume_alert_line(prices)
     vol_html    = f'{vol_alert}\n\n' if vol_alert else ''
 
+    trig_html = f'\n📌 <b>Gửi vì:</b> {"; ".join(triggers)}' if triggers else ''
     header = (
         f'{emoji} <b>BÁO CÁO {session_vn.upper()} — {now_vn.strftime("%d/%m/%Y")}</b>\n'
         f'📰 {len(articles)}/{len(all_pending)} tin chọn lọc | '
-        f'⏱ {now_vn.strftime("%H:%M")} (Giờ VN){gold_line_html}{price_line_html}\n\n'
+        f'⏱ {now_vn.strftime("%H:%M")} (Giờ VN){gold_line_html}{price_line_html}{trig_html}\n\n'
     )
     msg = header + table_html + vol_html + text
 
