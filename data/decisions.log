@@ -1,6 +1,3 @@
-2026-06-17 16:01 ACCEPT [Google News CB] "BNY's Vincent Reinhart expects no change in Fed rates - CNBC" | kw:fed rate
-2026-06-17 16:01 SKIP_MORNING already_sent date=2026-06-17
-2026-06-17 16:01 SKIP_EVENING already_sent date=2026-06-17
 2026-06-17 16:31 ACCEPT [OilPrice.com] "Exxon Set to Supply LNG to South Africa’s First Import Terminal" | kw:lng
 2026-06-17 16:31 ACCEPT [Google News HH] "Gold Price Today on June 17, 2026 - USA Today" | kw:gold,rice
 2026-06-17 16:31 ACCEPT [Google News HH] "US crude inventories decline for tenth week to over 40-year low, EIA s" | kw:crude
@@ -20001,3 +19998,5 @@
 2026-07-24 01:52 ACCEPT [Google News HH] "Alderney electricity bills to be subsidised as barrel of crude oil nea" | kw:oil,crude
 2026-07-24 01:52 ACCEPT [Google News CB] "Singapore set to keep monetary policy steady, inflation risks mild - R" | kw:inflation,monetary policy
 2026-07-24 01:52 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 02:01 ACCEPT [Google News KL] "Investigator Silver (IVR) Noosa Mining Conference 2026 Summary - Quart" | kw:silver
+2026-07-24 02:01 SKIP_MORNING already_sent date=2026-07-24
