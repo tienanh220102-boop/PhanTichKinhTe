@@ -1,11 +1,3 @@
-2026-06-17 17:27 ACCEPT [Google News HH] "Former OPEC president and Nigerian oil minister Diezani cleared after " | kw:oil,opec
-2026-06-17 17:27 ACCEPT [Google News HH] "IEA sees huge crude oil supply overhang in store for 2027 - Upstream O" | kw:oil,crude
-2026-06-17 17:27 ACCEPT [Google News KL] "Current price of silver as of Wednesday, June 17, 2026 - fortune.com" | kw:silver,rice
-2026-06-17 17:27 ACCEPT [Google News KL] "Is Jefferies (JEF) Pairing New Long-Term Debt With Copper Optimism To " | kw:copper,gdp
-2026-06-17 17:27 ACCEPT [Google News KL] "Current price of gold as of June 17, 2026 - fortune.com" | kw:gold,rice
-2026-06-17 17:27 ACCEPT [Google News CB] "BOJ Raises Rates to 31-Year High: ETFs in Focus - Yahoo Finance" | kw:boj
-2026-06-17 17:27 ACCEPT [Google News CB] "US stocks drift ahead of the Fed’s announcement on interest rates - Sa" | kw:interest rate
-2026-06-17 17:27 ACCEPT [Google News CB] "Chile central bank trims GDP growth estimate, raises inflation forecas" | kw:inflation,gdp,central bank
 2026-06-17 17:27 ACCEPT [Google News CB] "Fed’s New Era Begins Under Warsh as Prediction Markets See Rising Odds" | kw:rate hike
 2026-06-17 17:27 ACCEPT [Google News CB] "Trump’s New Fed Chair Expected to Keep Interest Rates Steady - WJR-AM" | kw:interest rate
 2026-06-17 17:27 ACCEPT [Google News CB] "US stocks drift ahead of the Fed's announcement on interest rates - GM" | kw:interest rate
@@ -20006,3 +19998,14 @@
 2026-07-24 04:31 ACCEPT [Google News KL] "Gold, silver prices today, 24 July: Check retail rates of 24K, 22K gol" | kw:gold,silver,rice
 2026-07-24 04:31 ACCEPT [Google News CB] "Euro futures fell as ECB held rates steady. - CME Group" | kw:ecb
 2026-07-24 04:31 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 05:01 ACCEPT [Google News HH] "Oil Prices Continue to Rise as Conflict With Iran Drags On - The New Y" | kw:oil,rice
+2026-07-24 05:01 ACCEPT [Google News HH] "Commodities: Brent Tops $100/Bbl As Middle East Tensions Build - Seeki" | kw:brent,commodities
+2026-07-24 05:01 ACCEPT [Google News HH] "Gold price in India: Rates on July 24 - FXStreet" | kw:gold,rice
+2026-07-24 05:01 ACCEPT [Google News HH] "US Dollar Rally Builds Momentum, Crude Oil Holds the Key - FOREX.com" | kw:oil,crude
+2026-07-24 05:01 ACCEPT [Google News HH] "Stocks Fall as Crude Oil Prices Soar and Alphabet Sparks AI Spending C" | kw:oil,crude,rice
+2026-07-24 05:01 ACCEPT [Google News KL] "Oil Rally Lifts Fed Hike Expectations, Pressuring Gold as Markets Pric" | kw:oil,gold,rice
+2026-07-24 05:01 ACCEPT [Google News KL] "The US Has Over $1 Trillion in Gold. Washington Carries It on the Book" | kw:gold,silver
+2026-07-24 05:01 ACCEPT [Google News KL] "Chinese gold imports hit two-year high in June amid price drop - Crypt" | kw:gold,rice
+2026-07-24 05:01 ACCEPT [Google News NS] "Soybean futures rose to contract highs on China sales. - CME Group" | kw:soybean
+2026-07-24 05:01 ACCEPT [Google News CB] "Monetary Policy Radar preview: Federal Reserve’s July meeting - Financ" | kw:monetary policy,federal reserve
+2026-07-24 05:01 SKIP_MORNING already_sent date=2026-07-24
