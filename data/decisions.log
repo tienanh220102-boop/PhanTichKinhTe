@@ -1,8 +1,3 @@
-2026-06-17 16:01 ACCEPT [Google News HH] "Crude Oil Prices Jump as US Domestic Supplies Tumble - Barchart.com" | kw:oil,crude,rice
-2026-06-17 16:01 ACCEPT [Google News HH] "BREAKING: Former OPEC Head Acquitted In London Bribery Trial - Law360" | kw:opec
-2026-06-17 16:01 ACCEPT [Google News HH] "US crude stocks fall to its lowest since March 1985, EIA says - Reuter" | kw:crude
-2026-06-17 16:01 ACCEPT [Google News HH] "US Crude Oil Inventories Fall More than Expected - TradingView" | kw:oil,crude
-2026-06-17 16:01 ACCEPT [Google News HH] "Gold Price Analysis – Gold Testing 200 Day EMA Again - FXEmpire" | kw:gold,rice
 2026-06-17 16:01 ACCEPT [Google News KL] "Nasdaq & Silver Price Outlook: Cautious Optimism Ahead of the FOMC - F" | kw:silver,rice,fomc
 2026-06-17 16:01 ACCEPT [Google News KL] "No, This Is Not Gold's Cycle Top - Seeking Alpha" | kw:gold
 2026-06-17 16:01 ACCEPT [Google News NS] "Grains Rally Led by Soybeans as Export Business Confirmed: Is it China" | kw:soybean
@@ -20003,3 +19998,10 @@
 2026-07-24 01:01 ACCEPT [Google News KL] "Suriname Gold Explorer Hits 101.5 g/t at Lawatino Project - Streetwise" | kw:gold
 2026-07-24 01:01 ACCEPT [Google News CB] "Gold Declines on Stronger Dollar, Fed Rate Hike Prospects - WSJ" | kw:gold,fed rate,rate hike
 2026-07-24 01:01 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 01:30 ACCEPT [Al Jazeera] "Trump imposes new double-digit tariffs on dozens of countries" | kw:tariff
+2026-07-24 01:31 ACCEPT [Google News HH] "US Dollar Rally Builds Momentum, Crude Oil Holds the Key - FOREX.com" | kw:oil,crude,lng
+2026-07-24 01:31 ACCEPT [Google News HH] "Crude oil prices top US$100, surging to three-month high as Middle Eas" | kw:oil,crude,rice
+2026-07-24 01:31 ACCEPT [Google News KL] "Domestic and international copper prices fell sharply, as a stronger U" | kw:copper,rice
+2026-07-24 01:31 ACCEPT [Google News CB] "Japan June core inflation accelerates, stays below BOJ target - Reuter" | kw:inflation,boj
+2026-07-24 01:31 ACCEPT [Google News CB] "Dollar hits new 40-year high versus yen, euro softer after ECB stands " | kw:ecb
+2026-07-24 01:31 SKIP_MORNING already_sent date=2026-07-24
