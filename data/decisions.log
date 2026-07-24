@@ -1,11 +1,3 @@
-2026-06-17 18:31 ACCEPT [Google News CB] "Fed holds rates steady amid elevated inflation - The Washington Post" | kw:inflation
-2026-06-17 18:31 ACCEPT [Google News CB] "What the Fed rate pause could mean for mortgage interest rates now - C" | kw:fed rate,interest rate,rate pause
-2026-06-17 18:31 ACCEPT [Google News CB] "No dissents as Fed keeps interest rates unchanged for fourth straight " | kw:interest rate
-2026-06-17 18:31 ACCEPT [Google News CB] "Fed issues the first rate decision of the Kevin Warsh era - mpamag.com" | kw:rate decision
-2026-06-17 18:31 ACCEPT [Google News CB] "Fed holds interest rates steady: Here's what that means for credit car" | kw:interest rate
-2026-06-17 18:31 ACCEPT [Google News CB] "Federal Reserve holds interest rates steady amid resurgent inflation -" | kw:inflation,interest rate,federal reserve
-2026-06-17 18:31 ACCEPT [Google News CB] "Fed holds interest rates steady as inflation hits 3-year high - ABC7 L" | kw:inflation,gdp,interest rate
-2026-06-17 18:31 ACCEPT [Google News CB] "Fed Holds Interest Rates Unchanged In Kevin Warsh’s First Meeting—But " | kw:interest rate
 2026-06-17 18:31 ACCEPT [Google News CB] "Chairman Warsh drastically alters Fed rate statement. Here's what's ch" | kw:fed rate
 2026-06-17 18:31 ACCEPT [Google News CB] "US Federal Reserve makes its first interest rate decision under Warsh " | kw:interest rate,rate decision,federal reserve
 2026-06-17 18:31 ACCEPT [Google News CB] "Gold and silver futures rally as traders eye new Fed chair policy. - C" | kw:gold,silver
@@ -20006,3 +19998,9 @@
 2026-07-24 06:31 ACCEPT [Google News NS] "Feedgrain Focus: Prices keep kicking, growers hold in dry week - Grain" | kw:rice
 2026-07-24 06:31 ACCEPT [Google News CB] "Euro Climbs as Markets Weigh Fed, ECB Outlook - TradingPedia" | kw:ecb
 2026-07-24 06:31 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 07:01 ACCEPT [Google News KL] "Gold prices fall on Fed rate hike prospects; Brent crude tops $100 - C" | kw:crude,brent,gold
+2026-07-24 07:01 ACCEPT [Google News KL] "Newmont beats second-quarter profit estimates on higher gold prices - " | kw:gold,rice
+2026-07-24 07:01 ACCEPT [Google News NS] "NCGA Releases Demand Strategy for U.S. Corn’s Next 250 Years - AG INFO" | kw:corn
+2026-07-24 07:01 ACCEPT [Google News CB] "Why the Fed Picked 2 Percent as an Inflation Target - The Dispatch" | kw:inflation
+2026-07-24 07:01 ACCEPT [Google News CB] "ECB policymakers warn about growing inflation risks - Euronext Markets" | kw:inflation,ecb
+2026-07-24 07:01 SKIP_MORNING already_sent date=2026-07-24
