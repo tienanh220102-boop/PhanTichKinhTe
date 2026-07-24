@@ -1,18 +1,3 @@
-2026-06-18 02:31 ACCEPT [Google News HH] "Crude oil prices fall more than 1% as Strait of Hormuz to reopen after" | kw:oil,crude,rice
-2026-06-18 02:31 ACCEPT [Google News HH] "Crude Oil Trading Alert: Oil prices lack momentum for a rebound and ma" | kw:oil,crude,rice
-2026-06-18 02:31 ACCEPT [Google News KL] "The spot silver price fell below 69 dollars per ounce, with a daily de" | kw:silver,rice
-2026-06-18 02:31 ACCEPT [Google News KL] "Expectations of a Federal Reserve rate hike have intensified; gold pri" | kw:gold,rice,rate hike
-2026-06-18 02:31 SKIP_MORNING already_sent date=2026-06-18
-2026-06-18 03:01 ACCEPT [BBC Business] "Apple to raise prices as AI pushes up chip costs" | kw:rice
-2026-06-18 03:01 ACCEPT [Google News HH] "Institution: Raises year-end gold price target to $5,500; structural b" | kw:gold,rice
-2026-06-18 03:01 ACCEPT [Google News HH] "Tightness in US Crude Supplies Supports Crude Oil Prices - TradingView" | kw:oil,crude,rice
-2026-06-18 03:01 ACCEPT [Google News HH] "Redstone Resources Enhances Exposure to High-Demand Commodities with N" | kw:commodities
-2026-06-18 03:01 ACCEPT [Google News KL] "Gold prices rise as Iran peace deal cheer outweighs Fed rate concerns " | kw:gold,rice,fed rate
-2026-06-18 03:01 ACCEPT [Google News KL] "Barclays sees gold hitting $4,791 in 2026, $4,900 in 2027 as Iran corr" | kw:gold
-2026-06-18 03:01 ACCEPT [Google News KL] "Is Royal Gold (RGLD) Trimming Hod Maden to Sharpen Its Diversification" | kw:gold
-2026-06-18 03:01 ACCEPT [Google News NS] "Kansas City Wheat Closes Up Nearly 19¢ | Wednesday, June 17, 2026 - Su" | kw:wheat
-2026-06-18 03:01 SKIP_MORNING already_sent date=2026-06-18
-2026-06-18 03:31 ACCEPT [BBC Business] "Apple to raise prices as AI boom pushes up chip costs" | kw:rice
 2026-06-18 03:31 ACCEPT [Google News HH] "Palm Oil Falls Amid Declines in Crude Oil, Higher Production -- Market" | kw:oil,crude
 2026-06-18 03:31 ACCEPT [Google News HH] "WTI Crude Oil May Struggle to Recover as Sellers Stay Active - Action " | kw:oil,crude,wti
 2026-06-18 03:31 ACCEPT [Google News KL] "Gold, Silver Rate Today: Did 22K, 24K, 18K gold & silver price change " | kw:gold,silver,rice
@@ -20013,3 +19998,18 @@
 2026-07-24 11:02 ACCEPT [Google News NS] "Weather, war and wheat give the market bulls fuel - Agweek" | kw:fuel,wheat
 2026-07-24 11:02 ACCEPT [Google News NS] "US wheat on track for fourth weekly gain on Black Sea supply concerns " | kw:wheat
 2026-07-24 11:02 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 11:30 ACCEPT [BBC Business] "Watch: Are Trump's tariffs delivering on his objectives?" | kw:rice,tariff
+2026-07-24 11:30 ACCEPT [BBC Business] "Scotch whisky levy lifted as Trump imposes new wave of US tariffs" | kw:tariff
+2026-07-24 11:30 ACCEPT [OilPrice.com] "Saudi Crude Tanker Goes Dark to Slip Through Bab el-Mandeb" | kw:oil,crude
+2026-07-24 11:31 ACCEPT [Google News HH] "Oil Prices Remain High as Conflict With Iran Drags On - The New York T" | kw:oil,rice
+2026-07-24 11:31 ACCEPT [Google News HH] "Oil Analysis Today: Tactical Bearish Bias Takes Hold Near $90 Support " | kw:oil,ecb
+2026-07-24 11:31 ACCEPT [Google News HH] "Gold price shines light on Thailand’s pawnshop boom - Thai PBS World" | kw:gold,rice
+2026-07-24 11:31 ACCEPT [Google News KL] "Gold (XAUUSD) & Silver Price Forecast: Fed Looms Will Gold Rebound Abo" | kw:lng,gold,silver
+2026-07-24 11:31 ACCEPT [Google News KL] "Gold analysis today shows gold rebounding but $4,068 is the key recove" | kw:gold
+2026-07-24 11:31 ACCEPT [Google News KL] "Teck Resources (TSX:TECK.B) Is Up 7.3% After Record Copper-Fueled Q2 E" | kw:fuel,copper
+2026-07-24 11:31 ACCEPT [Google News CB] "Main findings from the ECB’s recent contacts with non-financial compan" | kw:central bank,ecb
+2026-07-24 11:31 ACCEPT [Google News CB] "Russian Central Bank Cuts Key Rate Despite Inflation Pickup - WSJ" | kw:inflation,central bank
+2026-07-24 11:31 ACCEPT [Google News CB] "The ECB Survey of Professional Forecasters - Third quarter of 2026 - E" | kw:central bank,ecb
+2026-07-24 11:31 ACCEPT [Google News CB] "ECB extends use of certain climate factors in Eurosystem collateral fr" | kw:ecb
+2026-07-24 11:31 ACCEPT [Google News CB] "What to Watch for at Next Week’s Federal Reserve Meeting - Investopedi" | kw:federal reserve
+2026-07-24 11:31 SKIP_MORNING already_sent date=2026-07-24
