@@ -74,8 +74,16 @@ def monitoring_plan(dd: DeepDive) -> Dict[str, List[str]]:
     confirm.append("Biên lợi nhuận gộp giữ hoặc mở rộng qua các quý (không bị bào mòn).")
     if m.get("rev_g") is not None and m["rev_g"] > 0:
         confirm.append("Doanh thu duy trì tăng trưởng dương so cùng kỳ.")
+    # "rẻ" chỉ là điểm cộng KHI nền tảng sạch (backtest: rẻ đơn thuần ~−9%/2 năm; rẻ+sạch mới thắng)
+    _nf = len(dd.red_flags); _rc = m.get("roic_late")
     if m.get("val_stance") == "rẻ":
-        confirm.append("Định giá được thị trường nhận ra dần (P/B nhích về trung vị lịch sử).")
+        if _nf == 0 or (_rc is not None and _rc >= 0.13 and _nf <= 1):
+            confirm.append("Định giá được thị trường nhận ra dần (P/B nhích về trung vị lịch sử) — "
+                           "nền tảng sạch nên 'rẻ' ở đây là cơ hội, không phải bẫy.")
+        else:
+            warn.append(f"'Rẻ' KHÔNG phải điểm cộng ở mã này ({_nf} cờ đỏ): kiểm chứng 2021-24 cho "
+                        f"thấy mua rẻ mà nền tảng bẩn thường THUA — nếu cờ không được xử lý, chiết "
+                        f"khấu có thể là ĐÚNG GIÁ chứ không phải cơ hội.")
 
     # XÁC NHẬN / CẢNH BÁO theo CHU KỲ biên (mid-cycle) — cốt lõi với DN chu kỳ
     cyc = m.get("cycle")

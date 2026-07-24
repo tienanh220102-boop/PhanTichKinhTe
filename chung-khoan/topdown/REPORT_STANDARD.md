@@ -75,9 +75,15 @@ mục tự nạp) — không LLM, không bịa.
   lãi ĐỈNH (P/E thấp ảo → đừng mua đắt) là đáng tin; NHƯNG chiều ĐÁY ("rẻ vì đáy, sẽ hồi") là
   BẪY — mua mã đáy-margin thua ~2 năm (p=0.015), lọc chất lượng KHÔNG cứu (p=0.81). Báo cáo PHẢI
   kèm caveat này ở phần đáy chu kỳ; chỉ coi đáy là cơ hội khi có BẰNG CHỨNG biên hồi thật (vài
-  quý), không đoán. Cái ăn tiền robust nhất qua mọi năm: RẺ (P/B) + SẠCH CỜ (cheap+clean =
-  "rẻ cơ hội" thắng cheap+flagged = bẫy, +14.8% dương cả 3 năm). Đây là "vòng lặp tự cải thiện":
-  validation → sửa NGÔN NGỮ công cụ, không chỉ thêm tính năng.
+  quý), không đoán.
+- **"RẺ" KHÔNG PHẢI ĐIỂM CỘNG NẾU THIẾU CHẤT LƯỢNG** (backtest v2 có mẫu gồm 221 mã ĐÃ HỦY
+  NIÊM YẾT + universe point-in-time): mua RẺ (P/B) đơn thuần là tín hiệu **ÂM −9.2%/2 năm**
+  (âm cả 3 năm); nhưng TRONG nhóm rẻ, **sạch cờ thắng có cờ +31.4% (p=0.000)** và ROIC≥10%
+  thắng +25.1%. Tín hiệu mạnh nhất: **tránh cờ đỏ +18.8%** và **ROIC≥13% +22.7%** (đều p=0.000).
+  → Báo cáo phải GATE "rẻ": rẻ+sạch = điểm hấp dẫn; rẻ+có-cờ = **cảnh báo BẪY GIÁ TRỊ**, không
+  được xếp vào mục hấp dẫn. ⚠️ Kết luận v1 ("value có edge") là ARTIFACT survivorship — luôn hỏi
+  "mẫu có gồm thứ đã CHẾT không?" trước khi tin backtest.
+  Đây là "vòng lặp tự cải thiện": validation → sửa NGÔN NGỮ công cụ, không chỉ thêm tính năng.
 - **Đọc theo QUÝ, không chỉ theo NĂM** (mục 8). Số năm làm mượt đà bào mòn: xu hướng biên
   ròng/gộp + DSO theo ~8 quý lộ khúc suy yếu trước số năm. Quý VCI = số RỜI RẠC ở cột
   `lengthReport` (1-4), verify bằng tổng 4 quý = năm (LCG 2025: 428+731+565+1276≈3.002 tỷ).

@@ -524,6 +524,7 @@ class VNDeepDive:
             alloc.append(f"huy động thêm {_t(equity_raised)} vốn cổ phần (pha loãng)")
         sec.lines.append(f"Phân bổ vốn {win[0]}–{win[-1]}: " + "; ".join(alloc) + ".")
 
+        dd.metrics["roic_late"] = roic_late          # dùng để gate "rẻ có phải điểm cộng không"
         big_deploy = equity_now is not None and deployed > 0.20 * equity_now
         below_hurdle = sum(1 for y in win if roic[y] < r) >= max(2, len(win) - 2)
         if roic_late < r and roic_late < roic_early - 0.02 and big_deploy:
@@ -1575,15 +1576,25 @@ class VNDeepDive:
         dd.thesis = " ".join(p)
 
         # bản hai mặt — điểm hấp dẫn (bull) vs điều e ngại (bear)
+        # RẺ KHÔNG TỰ ĐỘNG LÀ ĐIỂM CỘNG (backtest 2021-24, mẫu có cả mã đã hủy niêm yết): mua rẻ
+        # đơn thuần là tín hiệu ÂM (−9%/2 năm); chỉ RẺ + SẠCH CỜ mới thắng (+31% so với rẻ-mà-bẩn).
         _basis = m.get("val_basis", "lịch sử")
+        _nflag = len(dd.red_flags)
+        _roic = m.get("roic_late")
+        _quality_ok = (_nflag == 0) or (_roic is not None and _roic >= 0.13 and _nflag <= 1)
         bull = [self._strip_icon(x) for x in dd.positives]
-        if vs == "rẻ":
-            bull.append(f"Định giá thấp so với {_basis} (dư địa nếu chất lượng giữ được)")
+        if vs == "rẻ" and _quality_ok:
+            bull.append(f"Định giá thấp so với {_basis} VÀ nền tảng sạch — đây là tổ hợp được "
+                        f"kiểm chứng ủng hộ (rẻ + sạch cờ thắng rẻ-mà-có-cờ ~31%/2 năm)")
         if m.get("rev_g") is not None and m["rev_g"] >= 0.15 and (c is None or c >= 0.5):
             bull.append(f"Doanh thu tăng trưởng mạnh ({_pct(m['rev_g'])})")
         bear = [self._strip_icon(x) for x in dd.red_flags]
         if vs == "đắt":
             bear.append(f"Định giá cao so với {_basis} — kỳ vọng đã phản ánh vào giá")
+        if vs == "rẻ" and not _quality_ok:
+            bear.append(f"⚠️ NGHI BẪY GIÁ TRỊ: rẻ NHƯNG có {_nflag} cờ đỏ nền tảng. Kiểm chứng "
+                        f"2021-24 (mẫu gồm cả mã đã hủy niêm yết): mua RẺ đơn thuần là tín hiệu ÂM "
+                        f"(~−9%/2 năm); chỉ rẻ + SẠCH cờ mới thắng. 'Rẻ' ở đây KHÔNG phải lý do mua")
         # tín hiệu QUÝ gần nhất (số năm chưa phản ánh)
         rt = m.get("recent_turn")
         if rt == "up":
@@ -1646,10 +1657,17 @@ class VNDeepDive:
                 L.append(f"**Nhà đầu tư tăng trưởng:** trung bình — tăng trưởng chậm ({rg*100:.0f}%).")
             else:
                 L.append(f"**Nhà đầu tư tăng trưởng:** không phù hợp — doanh thu giảm ({rg*100:.0f}%).")
-        # giá trị
-        if vs == "rẻ":
+        # giá trị — "rẻ" phải qua CỔNG CHẤT LƯỢNG (backtest: rẻ đơn thuần là tín hiệu ÂM)
+        _nf = len(dd.red_flags); _rc = m.get("roic_late")
+        _qok = (_nf == 0) or (_rc is not None and _rc >= 0.13 and _nf <= 1)
+        if vs == "rẻ" and _qok:
             L.append(f"**Nhà đầu tư giá trị:** đáng chú ý — định giá thấp so với "
-                     f"{m.get('val_basis', 'lịch sử')} (miễn tránh được bẫy giá trị).")
+                     f"{m.get('val_basis', 'lịch sử')} VÀ nền tảng sạch (tổ hợp rẻ+sạch là thứ "
+                     f"kiểm chứng ủng hộ).")
+        elif vs == "rẻ":
+            L.append(f"**Nhà đầu tư giá trị:** THẬN TRỌNG — rẻ nhưng có {_nf} cờ đỏ. Kiểm chứng "
+                     f"cho thấy mua rẻ mà nền tảng bẩn thường THUA; cần xử lý cờ trước khi coi "
+                     f"'rẻ' là cơ hội.")
         elif vs == "đắt":
             L.append("**Nhà đầu tư giá trị:** không hấp dẫn — định giá cao.")
         elif vs:
