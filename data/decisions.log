@@ -1,16 +1,3 @@
-2026-06-17 19:01 ACCEPT [Google News HH] "U.S. crude oil inventories fell more than expected, with stocks at the" | kw:oil,crude
-2026-06-17 19:01 ACCEPT [Google News HH] "Gold price retreats as Fed holds rates, hawkish dots bite - FXStreet" | kw:gold,rice
-2026-06-17 19:01 ACCEPT [Google News HH] "July WTI Crude Oil Contract Closes Up US$0.74; Settles at US$76.69 per" | kw:oil,crude,wti
-2026-06-17 19:01 ACCEPT [Google News KL] "Lake Victoria Gold Positions Imwelo for Production as Central Banks Dr" | kw:gold,central bank
-2026-06-17 19:01 ACCEPT [Google News KL] "GoldSilver’s New Chapter: What’s Coming Next - GoldSilver" | kw:gold,silver
-2026-06-17 19:01 ACCEPT [Google News NS] "After the Bell | Winter wheat futures surge higher - Pro Farmer" | kw:wheat
-2026-06-17 19:01 ACCEPT [Google News NS] "Corn Crop Advances as Markets Eye Acreage Data and Potential for ‘Godz" | kw:corn
-2026-06-17 19:01 ACCEPT [Google News CB] "Fed holds interest rates steady as inflation hits 3-year high - ABC7 N" | kw:inflation,interest rate
-2026-06-17 19:01 ACCEPT [Google News CB] "Fed ends bias toward more easing, holds benchmark rate steady - CFO Di" | kw:easing
-2026-06-17 19:01 ACCEPT [Google News CB] "Nearly half of Fed policymakers see a 2026 rate hike in the cards - Re" | kw:rate hike
-2026-06-17 19:01 ACCEPT [Google News CB] "Fed holds US interest rates steady amid uncertainty over Iran deal - B" | kw:interest rate
-2026-06-17 19:01 ACCEPT [Google News CB] "The Fed’s latest projection see almost half of FOMC policymakers proje" | kw:rate hike,fomc
-2026-06-17 19:01 ACCEPT [Google News CB] "Fed Chairman Warsh: Appointing a task force in five areas central to c" | kw:monetary policy
 2026-06-17 19:01 ACCEPT [Google News CB] "Fed keeps interest rates unchanged, says hikes may be coming later thi" | kw:interest rate
 2026-06-17 19:01 ACCEPT [Google News CB] "Fed Chairman Kevin Warsh: This committee will deliver price stability " | kw:rice
 2026-06-17 19:31 ACCEPT [MarketWatch] "Warsh launches his push to change how the Fed operates" | kw:central bank,federal reserve
@@ -20011,3 +19998,16 @@
 2026-07-24 08:31 ACCEPT [Google News CB] "Japan’s 40-Year Yield Rises 10 Basis Points on Inflation Fears - Bloom" | kw:inflation,basis point
 2026-07-24 08:31 ACCEPT [Google News CB] "The probability of a Fed rate hike in September stands at 82%—why does" | kw:fed rate,rate hike
 2026-07-24 08:31 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 09:01 ACCEPT [Google News HH] "Gold Price Forecast: Rising Treasury Yields Could Push Gold Toward $3," | kw:gold,rice,treasury
+2026-07-24 09:01 ACCEPT [Google News KL] "Gold softens on prospects of Fed rate hikes - Reuters" | kw:gold,fed rate,rate hike
+2026-07-24 09:01 ACCEPT [Google News KL] "ASIA GOLD India gold discounts hit seven-week high as demand weakens; " | kw:gold
+2026-07-24 09:01 ACCEPT [Google News CB] "Watch ECB September Meeting Can Be a Hike or Hold, Kocher Says - Bloom" | kw:ecb
+2026-07-24 09:01 ACCEPT [Google News CB] "Euro zone firms struggle to raise consumer prices after Iran shock, EC" | kw:rice,ecb
+2026-07-24 09:01 ACCEPT [Google News CB] "ECB Says Consumer Price Expectations Fell Significantly in June - Bloo" | kw:rice,ecb
+2026-07-24 09:01 ACCEPT [Google News CB] "ECB survey shows broadly unchanged inflation outlook - The Mighty 790 " | kw:inflation,ecb
+2026-07-24 09:01 ACCEPT [Google News CB] "Chronology of Eurosystem liquidity lines - European Central Bank" | kw:central bank
+2026-07-24 09:01 ACCEPT [Google News CB] "EUREP - European Central Bank" | kw:central bank
+2026-07-24 09:01 ACCEPT [Google News CB] "ECB Officials Avoid Clear Hints on Possible Rate Hike for Now - Bloomb" | kw:rate hike,ecb
+2026-07-24 09:01 ACCEPT [Google News CB] "ECB to make new euro liquidity line available from Q4 - Reuters" | kw:ecb
+2026-07-24 09:01 ACCEPT [Google News CB] "FOMC preview: Fed to stay on hold after June’s hawkish shift - ING Thi" | kw:fomc
+2026-07-24 09:01 SKIP_MORNING already_sent date=2026-07-24
