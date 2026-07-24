@@ -1,6 +1,3 @@
-2026-06-17 18:31 ACCEPT [Google News CB] "Federal Reserve holds rates steady at Warsh’s first meeting - KARK" | kw:federal reserve
-2026-06-17 18:31 ACCEPT [Google News CB] "Kevin Warsh makes his Fed Chair debut by holding interest rates steady" | kw:interest rate
-2026-06-17 19:01 ACCEPT [BBC Business] "Fed holds US interest rates steady as uncertainty over Trump's Iran de" | kw:central bank,interest rate,federal reserve
 2026-06-17 19:01 ACCEPT [Google News HH] "U.S. crude oil inventories decrease by 8.3 million barrels - Oil & Gas" | kw:oil,crude,gas
 2026-06-17 19:01 ACCEPT [Google News HH] "Japan pays record yen price for crude oil in May after Hormuz closure " | kw:oil,crude,rice
 2026-06-17 19:01 ACCEPT [Google News HH] "Vivakor touts oil network as crude volatility lifts infrastructure dem" | kw:oil,crude
@@ -20001,3 +19998,6 @@
 2026-07-24 07:44 ACCEPT [Google News KL] "Silver price rebounds from sharp losses as markets assess Fed policy -" | kw:silver,rice
 2026-07-24 07:44 ACCEPT [Google News CB] "Indian central bank intervention blunts oil surge, shores up rupee - Y" | kw:oil,central bank
 2026-07-24 07:44 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 08:01 ACCEPT [OilPrice.com] "Global LNG Giants Target Cambodia as New Energy Market" | kw:gas,lng,fuel
+2026-07-24 08:01 ACCEPT [Google News HH] "OIL - Opec+'s slow unwind continues even as a second chokepoint closes" | kw:oil,opec
+2026-07-24 08:01 SKIP_MORNING already_sent date=2026-07-24
