@@ -1,13 +1,3 @@
-2026-06-17 15:31 ACCEPT [Google News NS] "Corn, soybean, and wheat prices need Alex Honnold to save them from th" | kw:wheat,corn,soybean
-2026-06-17 15:31 ACCEPT [Google News NS] "Will winter wheat weakly wilt weekly? - MSN" | kw:wheat
-2026-06-17 15:31 ACCEPT [Google News CB] "WATCH LIVE: New Fed chair Kevin Warsh holds first news conference afte" | kw:interest rate,rate decision
-2026-06-17 15:31 ACCEPT [Google News CB] "Chile central bank cuts 2026 GDP forecast, slightly raises inflation v" | kw:inflation,gdp,central bank
-2026-06-17 15:31 ACCEPT [Google News CB] "Warsh-led Fed expected to leave interest rates unchanged - whbl.com" | kw:interest rate
-2026-06-17 15:31 ACCEPT [Google News CB] "As oil roundtrips, AI booms, and US consumers spend, economists’ Fed o" | kw:oil
-2026-06-17 15:31 ACCEPT [Google News CB] "Repeat of 2022 inflation woes less likely but not excluded, ECB’s Slei" | kw:inflation,ecb
-2026-06-17 15:31 ACCEPT [Google News CB] "US stocks drift ahead of the Fed’s announcement on interest rates - Po" | kw:interest rate
-2026-06-17 15:31 SKIP_MORNING already_sent date=2026-06-17
-2026-06-17 15:31 SKIP_EVENING already_sent date=2026-06-17
 2026-06-17 16:01 ACCEPT [OilPrice.com] "Shipping Industry Remains Wary Despite U.S.-Iran Agreement" | kw:shipping
 2026-06-17 16:01 ACCEPT [NASDAQ Commod] "Hemlo Mining Debuts on TSX Main Board" | kw:gold
 2026-06-17 16:01 ACCEPT [Google News HH] "U.S. Crude Oil Stockpiles Fall More Than Expected - WSJ" | kw:oil,crude
@@ -20008,3 +19998,6 @@
 2026-07-24 00:01 ACCEPT [Google News CB] "Watch US Yields Hit '26 Highs, Fed Rate Hike Bets Rise - Bloomberg.com" | kw:fed rate,rate hike
 2026-07-24 00:01 ACCEPT [Google News CB] "Firm Must Share Sanctions In Door IP Suit, Fed. Circ. Says - Law360" | kw:sanction
 2026-07-24 00:02 SENT_MORNING articles=20 date=2026-07-24 force=False
+2026-07-24 00:31 ACCEPT [Google News HH] "Price to earnings forward of West Texas Intermediate Crude Oil cash – " | kw:oil,crude,wti
+2026-07-24 00:31 ACCEPT [Google News KL] "Newmont tops profit estimates on higher gold prices, sees steady outpu" | kw:gold,rice
+2026-07-24 00:31 SKIP_MORNING already_sent date=2026-07-24
