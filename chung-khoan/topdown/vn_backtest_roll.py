@@ -50,7 +50,7 @@ def _entry_date(y: int) -> pd.Timestamp:
 
 
 def _price_at_ex(df: pd.DataFrame, target: pd.Timestamp,
-                 global_last: pd.Timestamp) -> Optional[float]:
+                 global_last: pd.Timestamp) -> tuple:
     """Giá tại `target`, XỬ LÝ ĐÚNG MÃ BỊ HỦY NIÊM YẾT (chống survivorship bias).
 
     - target nằm trong chuỗi → giá gần nhất (như cũ).
@@ -59,32 +59,54 @@ def _price_at_ex(df: pd.DataFrame, target: pd.Timestamp,
       thay vì loại mã khỏi mẫu = giả vờ nó không tồn tại). THẬN TRỌNG: người giữ thật thường mất
       NHIỀU HƠN (bị đẩy xuống UPCoM/mất thanh khoản) → cách này VẪN nhẹ tay với mã xấu.
     - target > global_last (tương lai) → None.
+
+    Trả (giá, đã_hủy_niêm_yết).
     """
     if df is None or df.empty:
-        return None
+        return None, False
     df = df.sort_values("date")
     last = df["date"].iloc[-1]
     if target > global_last:
-        return None                      # tương lai — chưa có dữ liệu
+        return None, False               # tương lai — chưa có dữ liệu
     if target > last:
-        return float(df["close"].iloc[-1])   # đã hủy niêm yết → giá cuối cùng
+        return float(df["close"].iloc[-1]), True   # đã hủy → giá cuối cùng quan sát được
     diff = (df["date"] - target).abs()
     i = diff.idxmin()
     if diff.loc[i] > pd.Timedelta(days=15):
-        return None
-    return float(df.loc[i, "close"])
+        return None, False
+    return float(df.loc[i, "close"]), False
 
 
-def _ret(px: pd.DataFrame, y0: int, dyears: int,
-         global_last: Optional[pd.Timestamp] = None) -> Optional[float]:
-    if global_last is None:
-        p0 = _price_at(px, _entry_date(y0)); p1 = _price_at(px, _entry_date(y0 + dyears))
-    else:
-        p0 = _price_at_ex(px, _entry_date(y0), global_last)
-        p1 = _price_at_ex(px, _entry_date(y0 + dyears), global_last)
+def _ret(px: pd.DataFrame, y0: int, dyears: int, global_last: pd.Timestamp) -> tuple:
+    """Trả (lợi nhuận thô, thoát_do_hủy_niêm_yết). Phí & phạt hủy áp ở tầng phân tích."""
+    p0, _ = _price_at_ex(px, _entry_date(y0), global_last)
+    p1, delisted = _price_at_ex(px, _entry_date(y0 + dyears), global_last)
     if p0 and p1 and p0 > 0 and p1 > 0:
-        return p1 / p0 - 1
-    return None
+        return p1 / p0 - 1, delisted
+    return None, False
+
+
+# --- Ma sát thực tế: phí giao dịch + phạt khi thoát do HỦY NIÊM YẾT ---
+# Phí VN (khứ hồi, ước): mua ~0.15% + bán ~0.15% + thuế bán 0.1% + trượt giá ~0.2% ≈ 0.6%.
+FEE_ROUNDTRIP = 0.006
+# Mã bị hủy: "giá cuối quan sát được" VẪN NHẸ TAY (thực tế bị đẩy xuống UPCoM/mất thanh khoản,
+# nhiều trường hợp gần như mất trắng). Không có ước lượng chuẩn cho VN → CHẠY ĐỘ NHẠY thay vì
+# bịa 1 số. Lưu ý: một phần hủy niêm yết là do M&A/tự nguyện (kết cục TỐT) → phạt đồng loạt là
+# HƠI NẶNG TAY; khoảng 0-50% ôm được sự thật.
+DELIST_PENALTIES = (0.0, 0.30, 0.50)
+
+
+def apply_frictions(df: pd.DataFrame, delist_penalty: float,
+                    fee: float = FEE_ROUNDTRIP) -> pd.DataFrame:
+    """Áp phí khứ hồi + phạt hủy niêm yết lên lợi nhuận thô → cột ret1/ret2 dùng để phân tích."""
+    out = df.copy()
+    for h, dcol in (("1", "del1"), ("2", "del2")):
+        raw = pd.to_numeric(out.get(f"ret{h}_raw"), errors="coerce")
+        gross = 1.0 + raw
+        if dcol in out.columns:
+            gross = gross * np.where(out[dcol].fillna(False).astype(bool), 1.0 - delist_penalty, 1.0)
+        out[f"ret{h}"] = gross * (1.0 - fee) - 1.0
+    return out
 
 
 def pit_universe(px: Dict[str, pd.DataFrame], y: int, top: int,
@@ -177,10 +199,12 @@ def collect(use_cache: bool = True) -> pd.DataFrame:
             sc = _score_from_frames(inc, cf, ratios, cutoff=y - 1)   # số ≤ năm trước
             if sc is None:
                 continue
-            r1 = _ret(px[s], y, 1, global_last); r2 = _ret(px[s], y, 2, global_last)
+            r1, d1 = _ret(px[s], y, 1, global_last)
+            r2, d2 = _ret(px[s], y, 2, global_last)
             if r1 is None and r2 is None:
                 continue
-            rows.append({"sym": s, "entry": y, **sc, "ret1": r1, "ret2": r2})
+            rows.append({"sym": s, "entry": y, **sc,
+                         "ret1_raw": r1, "ret2_raw": r2, "del1": d1, "del2": d2})
     df = pd.DataFrame(rows)
     try:
         os.makedirs(os.path.dirname(_CACHE), exist_ok=True)
@@ -260,12 +284,48 @@ def deep_value(df: pd.DataFrame, rng: np.random.Generator) -> None:
     print("tách được trong nhóm rẻ/đáy → cầu P/B-ROE có ích. Vẫn small-n, đọc spread từng năm.")
 
 
+BASE_PENALTY = 0.30      # giả định cơ sở cho phạt hủy niêm yết (xem độ nhạy cuối báo cáo)
+
+
+def sensitivity(raw: pd.DataFrame, rng: np.random.Generator) -> None:
+    """Kết luận có ĐỔI theo giả định phạt hủy niêm yết không? (giả định lạc quan hay đảo kết luận)"""
+    print(f"\n{'='*70}\nĐỘ NHẠY — phạt khi thoát do HỦY NIÊM YẾT (2 NĂM, đã trừ phí "
+          f"{FEE_ROUNDTRIP*100:.1f}%)\n{'='*70}")
+    print(f"  {'phạt hủy':>9} | {'sạch cờ':>16} | {'rẻ P/B':>16} | {'ROIC≥13%':>16} | {'tổ hợp MUA':>16}")
+    for pen in DELIST_PENALTIES:
+        d = apply_frictions(raw, pen)
+        d["cheap"] = d.groupby("entry")["pb"].transform(
+            lambda s: s <= s.median() if s.notna().any() else False)
+        d["buy"] = d["cheap"] & (d["n_flags"] == 0) & (d["roic_mean"] >= 0.10)
+        cells = []
+        for mask in ((d["n_flags"] == 0).values, d["cheap"].values,
+                     (d["roic_mean"] >= 0.13).values, d["buy"].values):
+            res = _block_perm(d, mask, "ret2", rng)
+            cells.append(f"{res[0]*100:+5.1f}% p={res[1]:.3f}" if res else "      n/a     ")
+        print(f"  {pen*100:>8.0f}% | " + " | ".join(cells))
+    n_del = int(pd.to_numeric(raw.get("del2"), errors="coerce").fillna(0).astype(bool).sum())
+    print(f"\nKẾT LUẬN BỀN nếu dấu & ý nghĩa GIỮ NGUYÊN qua mọi mức phạt. Phạt 0% = nhẹ tay nhất")
+    print("(mã hủy thoát ở giá cuối); 50% = nặng tay (một phần hủy là M&A/tự nguyện, kết cục tốt).")
+    if n_del < 0.05 * len(raw):
+        print(f"⚠️ CHỈ {n_del}/{len(raw)} quan sát thoát do hủy → độ nhạy này KHÔNG cung cấp thông "
+              "tin (dùng TRUNG VỊ nên vài quan sát không dịch được kết quả). ĐỪNG đọc thành 'kết "
+              "luận bền vững trước survivorship'.")
+        print("   ĐÍNH CHÍNH ATTRIBUTION: cú lật 'mua rẻ' (+13.6%→−9.2%) KHÔNG do thêm mã hủy "
+              "(chỉ 6 mã: FLC/ROS/HAI/AMD/KLF/BII) mà do SỬA LOOKAHEAD UNIVERSE — 96 mã (172/525 "
+              "quan sát, 33%) từng thanh khoản cao nhưng nay TEO khỏi top-150. Universe cũ xếp theo "
+              "thanh khoản HÔM NAY = chỉ chọn mã đã SỐNG VÀ LỚN LÊN. Rủi ro lớn hơn 'chết' là 'TEO'.")
+
+
 def run() -> None:
     ensure_utf8_stdout()
     logging.basicConfig(level=logging.WARNING)
-    df = collect()
-    if df.empty:
+    raw = collect()
+    if raw.empty:
         print("Không thu được dữ liệu."); return
+    n_del2 = int(pd.to_numeric(raw.get("del2"), errors="coerce").fillna(0).astype(bool).sum())
+    df = apply_frictions(raw, BASE_PENALTY)
+    print(f"\n[Ma sát] phí khứ hồi {FEE_ROUNDTRIP*100:.1f}% + phạt hủy niêm yết "
+          f"{BASE_PENALTY*100:.0f}% (cơ sở) · {n_del2} quan sát thoát do hủy ở mốc 2 năm")
     # ngưỡng rẻ P/B theo TỪNG năm vào lệnh (P/B trôi theo thời gian)
     df["cheap"] = df.groupby("entry")["pb"].transform(
         lambda s: s <= s.median() if s.notna().any() else False)
@@ -313,6 +373,7 @@ def run() -> None:
     print("Caveat: survivorship bias (chống phát hiện), cửa sổ 2-năm chồng lấn, chưa trừ phí.")
 
     deep_value(df, rng)
+    sensitivity(raw, rng)
 
 
 if __name__ == "__main__":
