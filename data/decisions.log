@@ -1,10 +1,3 @@
-2026-06-17 16:31 ACCEPT [Google News HH] "US crude inventories decline for tenth week to over 40-year low, EIA s" | kw:crude
-2026-06-17 16:31 ACCEPT [Google News HH] "July WTI Crude Oil futures sink to lowest close since March. - CME Gro" | kw:oil,crude,wti
-2026-06-17 16:31 ACCEPT [Google News NS] "DDGS and Wheat Bran: What Does the U.S. Experience Teach the Brazilian" | kw:wheat
-2026-06-17 16:31 ACCEPT [Google News NS] "Soybeans Surge as China Optimism Fuels Markets While Corn Stalls - Agr" | kw:fuel,corn,soybean
-2026-06-17 16:31 ACCEPT [Google News CB] "This ETF May Benefit From a BOJ Rate Hike - ETF Database" | kw:rate hike,boj
-2026-06-17 16:31 ACCEPT [Google News CB] "ECB’s Lagarde Warns AI Is Huge Risk for Financial Stability - Bloomber" | kw:ecb
-2026-06-17 16:31 ACCEPT [Google News CB] "The Fed Has 2 Tools to Fight Inflation. Kevin Warsh Is About to Use th" | kw:inflation
 2026-06-17 16:31 SKIP_MORNING already_sent date=2026-06-17
 2026-06-17 16:31 SKIP_EVENING already_sent date=2026-06-17
 2026-06-17 17:01 ACCEPT [OilPrice.com] "Artificial Intelligence Is Driving a Geothermal Energy Boom" | kw:fuel
@@ -20005,3 +19998,9 @@
 2026-07-24 02:31 ACCEPT [Google News KL] "Newmont tops profit estimates on higher gold prices, sees steady outpu" | kw:gold,rice
 2026-07-24 02:31 ACCEPT [Google News NS] "Soybeans Make Contract Highs on Weather, China Demand and Corn Follows" | kw:wheat,corn,soybean
 2026-07-24 02:31 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 03:01 ACCEPT [Google News HH] "US Dollar Rally Builds Momentum, Crude Oil Holds the Key - FOREX.com" | kw:oil,crude
+2026-07-24 03:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD holds gains above $57.50 despite rising" | kw:silver,rice,fed rate
+2026-07-24 03:01 ACCEPT [Google News CB] "Homeowners Hold Much Greater Wealth Than Renters at Every Age, Federal" | kw:federal reserve
+2026-07-24 03:01 ACCEPT [Google News CB] "EXCLUSIVE: BOJ likely to keep inflation warning but expect no big buil" | kw:inflation,boj
+2026-07-24 03:01 ACCEPT [Google News CB] "Japan’s inflation picks up, keeping BOJ on path for rate hikes - The J" | kw:inflation,rate hike,boj
+2026-07-24 03:01 SKIP_MORNING already_sent date=2026-07-24
