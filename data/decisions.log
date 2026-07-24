@@ -1,10 +1,3 @@
-2026-06-17 18:31 ACCEPT [CNBC Commodities] "Chairman Warsh drastically alters Fed rate statement. Here's what's ch" | kw:fed rate
-2026-06-17 18:31 ACCEPT [CNBC Commodities] "Fed holds rates steady, pares down statement to remove cutting bias" | kw:interest rate,rate decision,federal reserve
-2026-06-17 18:31 ACCEPT [Google News HH] "Crude oil surfaced at historic Treadwell Mine. The state plans to stud" | kw:oil,crude
-2026-06-17 18:31 ACCEPT [Google News HH] "Expanding the Suite: Harbor Launches Active Commodity ETF - ETF Databa" | kw:commodity
-2026-06-17 18:31 ACCEPT [Google News HH] "Gold price whipsaws as Warsh Fed holds, hawkish dots bite - FXStreet" | kw:gold,rice
-2026-06-17 18:31 ACCEPT [Google News KL] "Here's why a gold investment makes sense right now - CBS News" | kw:gold
-2026-06-17 18:31 ACCEPT [Google News KL] "Five Signals That Say Gold’s Correction Is a Reset, Not a Reversal - G" | kw:gold,silver
 2026-06-17 18:31 ACCEPT [Google News CB] "Fed holds rates steady amid elevated inflation - The Washington Post" | kw:inflation
 2026-06-17 18:31 ACCEPT [Google News CB] "What the Fed rate pause could mean for mortgage interest rates now - C" | kw:fed rate,interest rate,rate pause
 2026-06-17 18:31 ACCEPT [Google News CB] "No dissents as Fed keeps interest rates unchanged for fourth straight " | kw:interest rate
@@ -20005,3 +19998,11 @@
 2026-07-24 06:01 ACCEPT [Google News CB] "Indian central bank intervention blunts oil surge, shores up rupee - R" | kw:oil,central bank
 2026-07-24 06:01 ACCEPT [Google News CB] "ECB considering several options to mitigate losses, sources say - Euro" | kw:ecb
 2026-07-24 06:01 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 06:30 ACCEPT [BBC Business] "US hits dozens of trading partners with new wave of tariffs" | kw:tariff
+2026-07-24 06:31 ACCEPT [Google News HH] "CIO: there are strong long-term opportunities in a global commodities " | kw:commodities
+2026-07-24 06:31 ACCEPT [Google News KL] "Marimaca Copper's Oxide Project: 6 Signals of a Low-Execution-Risk Cop" | kw:copper
+2026-07-24 06:31 ACCEPT [Google News KL] "India gold discounts hit seven-week high as demand weakens; China buyi" | kw:gold
+2026-07-24 06:31 ACCEPT [Google News KL] "Gold prices ease to $4,028.7 as inflation concerns reinforce expectati" | kw:gold,rice,inflation
+2026-07-24 06:31 ACCEPT [Google News NS] "Feedgrain Focus: Prices keep kicking, growers hold in dry week - Grain" | kw:rice
+2026-07-24 06:31 ACCEPT [Google News CB] "Euro Climbs as Markets Weigh Fed, ECB Outlook - TradingPedia" | kw:ecb
+2026-07-24 06:31 SKIP_MORNING already_sent date=2026-07-24
