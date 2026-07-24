@@ -1,6 +1,3 @@
-2026-06-18 01:31 ACCEPT [Google News HH] "Commodities intraday targets/key levels - TradingView" | kw:commodities
-2026-06-18 01:31 ACCEPT [Google News HH] "State of Global Oil Inventories Ruins Iran Peace Optimism - Crude Oil " | kw:oil,crude,rice
-2026-06-18 01:31 ACCEPT [Google News HH] "Vivakor Secures One-Year Bakken Crude Oil Transaction Expected to Gene" | kw:oil,crude
 2026-06-18 01:31 ACCEPT [Google News HH] "Crude Oil Prices On June 18: Brent Continues Retreat To $78 After Trum" | kw:oil,crude,brent
 2026-06-18 01:31 ACCEPT [Google News HH] "Gold price on June 18: Why is gold rate crashing? - The Economic Times" | kw:gold,rice
 2026-06-18 01:31 ACCEPT [Google News NS] "Illinois bets on biodiesel: Expanding the market for domestic soybeans" | kw:soybean
@@ -20001,3 +19998,16 @@
 2026-07-24 10:08 ACCEPT [ECB Press] "ECB to extend use of climate factors in Eurosystem collateral framewor" | kw:ecb
 2026-07-24 10:08 ACCEPT [Google News CB] "Economists Stick to Fed Rate Cut Call as Markets Price In Hikes - Bloo" | kw:rice,fed rate,rate cut
 2026-07-24 10:08 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 10:30 ACCEPT [MarketWatch] "China is winning the war in the Middle East, and gold and the dollar w" | kw:gold
+2026-07-24 10:30 ACCEPT [Al Jazeera] "Does this disappearing organ hold the secret of longevity?" | kw:easing
+2026-07-24 10:31 ACCEPT [Google News HH] "Oil Prices Hover Near $100 as Conflict With Iran Drags On - The New Yo" | kw:oil,rice
+2026-07-24 10:31 ACCEPT [Google News HH] "Do Agnico Eagle Mines’ (AEM) Earnings Cuts Reveal Fragility In Its Gol" | kw:gold,rice
+2026-07-24 10:31 ACCEPT [Google News HH] "GME Oman Crude Oil BALMO Future D19 ' Futures Price History - Barchart" | kw:oil,crude,rice
+2026-07-24 10:31 ACCEPT [Google News KL] "Current price of silver as of Friday, July 24, 2025 - Fortune" | kw:silver,rice
+2026-07-24 10:31 ACCEPT [Google News KL] "Shipping crisis pushes oil prices higher; gold prices constrained by 1" | kw:oil,gold,rice
+2026-07-24 10:31 ACCEPT [Google News NS] "US focuses on wheat quality as it seeks a bigger share of sub-Saharan " | kw:wheat
+2026-07-24 10:31 ACCEPT [Google News CB] "ECB Still More Likely to Hike Rates Than Hold, Simkus Says - Bloomberg" | kw:ecb
+2026-07-24 10:31 ACCEPT [Google News CB] "Taiwan central bank says it has good communications with US Treasury a" | kw:treasury,central bank
+2026-07-24 10:31 ACCEPT [Google News CB] "ECB Extends Use of Climate Factors in Collateral Framework - Bloomberg" | kw:ecb
+2026-07-24 10:31 ACCEPT [Google News CB] "Economists Stick to Fed Rate Cut Call as Markets Price In Hikes - Bloo" | kw:rice,fed rate,rate cut
+2026-07-24 10:31 SKIP_MORNING already_sent date=2026-07-24
