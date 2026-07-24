@@ -1,18 +1,3 @@
-2026-06-18 03:31 ACCEPT [Google News HH] "Palm Oil Falls Amid Declines in Crude Oil, Higher Production -- Market" | kw:oil,crude
-2026-06-18 03:31 ACCEPT [Google News HH] "WTI Crude Oil May Struggle to Recover as Sellers Stay Active - Action " | kw:oil,crude,wti
-2026-06-18 03:31 ACCEPT [Google News KL] "Gold, Silver Rate Today: Did 22K, 24K, 18K gold & silver price change " | kw:gold,silver,rice
-2026-06-18 03:31 ACCEPT [Google News KL] "$4,300 reclaimed: Gold bounces as US-Iran peace deal signing offsets F" | kw:gold
-2026-06-18 03:31 SKIP_MORNING already_sent date=2026-06-18
-2026-06-18 04:01 ACCEPT [Google News KL] "Gold retakes $4,300 as US‑Iran peace deal weighs on USD after hawkish " | kw:gold
-2026-06-18 04:01 ACCEPT [Google News NS] "Brazilian Corn Producer Prices Fall: Conab Report June 17, 2026 - News" | kw:corn,rice
-2026-06-18 04:01 SKIP_MORNING already_sent date=2026-06-18
-2026-06-18 04:31 ACCEPT [Al Jazeera] "Oil prices fall, stocks rally as US, Iran sign framework to end war" | kw:oil,crude,brent
-2026-06-18 04:31 ACCEPT [Google News HH] "Crude oil futures decline following reports of digitally signed US-Ira" | kw:oil,crude
-2026-06-18 04:31 ACCEPT [Google News KL] "Gold prices rise as Iran peace deal cheer outweighs Fed rate concerns " | kw:gold,rice,fed rate
-2026-06-18 04:31 ACCEPT [Google News KL] "Copper Price Fluctuations Constrain Order Release, Dragon Boat Festiva" | kw:copper,rice
-2026-06-18 04:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD rises above $69.00, but stays constrain" | kw:silver,rice
-2026-06-18 04:31 ACCEPT [Google News KL] "Is Royal Gold (RGLD) Trimming Hod Maden to Sharpen Its Diversification" | kw:gold
-2026-06-18 04:31 ACCEPT [Google News KL] "BHP is reportedly advancing plans to sell approximately US$1.5 billion" | kw:wti
 2026-06-18 04:31 SKIP_MORNING already_sent date=2026-06-18
 2026-06-18 05:01 ACCEPT [Google News HH] "Gold price in India: Rates on June 18 - FXStreet" | kw:gold,rice
 2026-06-18 05:01 ACCEPT [Google News HH] "Malaysian Palm Oil Slipped As Crude Oil Prices Fell - Finimize" | kw:oil,crude,lng
@@ -20013,3 +19998,11 @@
 2026-07-24 11:31 ACCEPT [Google News CB] "ECB extends use of certain climate factors in Eurosystem collateral fr" | kw:ecb
 2026-07-24 11:31 ACCEPT [Google News CB] "What to Watch for at Next Week’s Federal Reserve Meeting - Investopedi" | kw:federal reserve
 2026-07-24 11:31 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 11:59 ACCEPT [MarketWatch] "Farmers are already set for a $55 billion payday — why does Washington" | kw:fuel
+2026-07-24 11:59 ACCEPT [Google News HH] "Gold Price Forecast: Rising Treasury Yields Could Push Gold Toward $3," | kw:gold,rice,treasury
+2026-07-24 11:59 ACCEPT [Google News KL] "Scrap Gold, Silver Prices Rally; Platinum Declines Slightly – July 24," | kw:gold,silver,rice
+2026-07-24 11:59 ACCEPT [Google News CB] "Taiwan central bank says it has good communications with US Treasury a" | kw:treasury,central bank
+2026-07-24 11:59 ACCEPT [Google News CB] "ECB Officials Are Ready to Hike, They Just Won’t Admit So Publicly - B" | kw:ecb
+2026-07-24 11:59 ACCEPT [Google News CB] "Russian Central Bank Lowers Key Rate From 14.25% to 14% - The Moscow T" | kw:central bank
+2026-07-24 11:59 ACCEPT [Google News CB] "Economists Stick to Fed Rate Cut Call as Markets Price In Hikes - Yaho" | kw:rice,fed rate,gdp
+2026-07-24 11:59 SKIP_MORNING already_sent date=2026-07-24
