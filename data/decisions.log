@@ -1,8 +1,3 @@
-2026-06-17 17:01 ACCEPT [Google News HH] "Crude Oil Edges Higher; US Retail Sales Top Estimates - Aditxt (NASDAQ" | kw:oil,crude
-2026-06-17 17:01 ACCEPT [Google News HH] "EIA Reports Declining US Crude Oil Stocks Amid Increased Demand - Guru" | kw:oil,crude
-2026-06-17 17:01 ACCEPT [Google News HH] "US crude stocks fall to lowest since March 1985, EIA says - Reuters" | kw:crude
-2026-06-17 17:01 ACCEPT [Google News HH] "Why a strong El Niño leaves tropical commodities acutely exposed - CNB" | kw:commodities
-2026-06-17 17:01 ACCEPT [Google News KL] "AGX: Production growth, strong financials, and high silver prices driv" | kw:silver,rice
 2026-06-17 17:01 ACCEPT [Google News NS] "UK's Grain LNG Opens Bidding for 2029 Regasification Capacity - Pipeli" | kw:gas,lng
 2026-06-17 17:01 ACCEPT [Google News NS] "DDGS and Wheat Bran: What Does the U.S. Experience Teach the Brazilian" | kw:wheat
 2026-06-17 17:01 ACCEPT [Google News NS] "Is China back in the market for US Soybeans? - The Globe and Mail" | kw:soybean
@@ -20003,3 +19998,11 @@
 2026-07-24 03:31 ACCEPT [Google News HH] "ADNOC offers crude oil in 7th tender issued since June, sources say - " | kw:oil,crude
 2026-07-24 03:31 ACCEPT [Google News KL] "Gold Price Forecast: XAU/USD retains bearish bias heading into the Fed" | kw:gold,rice
 2026-07-24 03:31 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 04:01 ACCEPT [Google News HH] "Crude oil tops $100 a barrel as U.S. strategic petroleum reserves hit " | kw:oil,crude,petroleum
+2026-07-24 04:01 ACCEPT [Google News HH] "AAA Texas: Crude oil pushes gas prices up - MyHighPlains.com" | kw:oil,crude,gas
+2026-07-24 04:01 ACCEPT [Google News HH] "Price to sales forward of West Texas Intermediate Crude Oil cash – BLA" | kw:oil,crude,wti
+2026-07-24 04:01 ACCEPT [Google News HH] "U.S. Stocks Plunge On Negative Reaction To Tesla, Alphabet Earnings, S" | kw:oil,crude
+2026-07-24 04:01 ACCEPT [Google News CB] "Exclusive-BOJ likely to keep inflation warning but expect no big build" | kw:inflation,boj
+2026-07-24 04:01 ACCEPT [Google News CB] "Gold softens on prospects of Fed rate hikes as Brent tops $100 - Reute" | kw:brent,gold,fed rate
+2026-07-24 04:01 ACCEPT [Google News CB] "Indian central bank likely steps in to avert rupee record low as oil s" | kw:oil,central bank
+2026-07-24 04:01 SKIP_MORNING already_sent date=2026-07-24
