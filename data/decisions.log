@@ -1,16 +1,3 @@
-2026-06-18 01:31 ACCEPT [Google News HH] "Crude Oil Prices On June 18: Brent Continues Retreat To $78 After Trum" | kw:oil,crude,brent
-2026-06-18 01:31 ACCEPT [Google News HH] "Gold price on June 18: Why is gold rate crashing? - The Economic Times" | kw:gold,rice
-2026-06-18 01:31 ACCEPT [Google News NS] "Illinois bets on biodiesel: Expanding the market for domestic soybeans" | kw:soybean
-2026-06-18 01:31 ACCEPT [Google News CB] "Brazil’s Central Bank Keeps Cutting Despite Hot Prices - WSJ" | kw:rice,central bank
-2026-06-18 01:31 SKIP_MORNING already_sent date=2026-06-18
-2026-06-18 01:59 ACCEPT [Google News HH] "Gold price on June 18: Why is gold rate crashing? - The Economic Times" | kw:gold,rice
-2026-06-18 01:59 ACCEPT [Google News KL] "Full World Cup Predictions 2026 Copper Price (UA1OULg9FO) - Mshale" | kw:copper,rice
-2026-06-18 01:59 ACCEPT [Google News KL] "Gold prices rise as Iran peace deal cheer outweighs Fed rate concerns " | kw:gold,rice,fed rate
-2026-06-18 02:00 ACCEPT [Google News CB] "Gold Rises After Fed Leaves Rates Unchanged - WSJ" | kw:gold
-2026-06-18 02:00 SKIP_MORNING already_sent date=2026-06-18
-2026-06-18 02:01 ACCEPT [Google News NS] "Why Are Corn Prices Surging Despite Market Uncertainty? - Agrolatam" | kw:corn,rice
-2026-06-18 02:01 SKIP_MORNING already_sent date=2026-06-18
-2026-06-18 02:31 ACCEPT [BBC Business] "Apple to raise prices due to memory chip costs" | kw:rice
 2026-06-18 02:31 ACCEPT [Google News HH] "Crude oil prices fall more than 1% as Strait of Hormuz to reopen after" | kw:oil,crude,rice
 2026-06-18 02:31 ACCEPT [Google News HH] "Crude Oil Trading Alert: Oil prices lack momentum for a rebound and ma" | kw:oil,crude,rice
 2026-06-18 02:31 ACCEPT [Google News KL] "The spot silver price fell below 69 dollars per ounce, with a daily de" | kw:silver,rice
@@ -20011,3 +19998,18 @@
 2026-07-24 10:31 ACCEPT [Google News CB] "ECB Extends Use of Climate Factors in Collateral Framework - Bloomberg" | kw:ecb
 2026-07-24 10:31 ACCEPT [Google News CB] "Economists Stick to Fed Rate Cut Call as Markets Price In Hikes - Bloo" | kw:rice,fed rate,rate cut
 2026-07-24 10:31 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 11:01 ACCEPT [MarketWatch] "Why fixing the housing crisis for under-40s could trigger 10% Treasury" | kw:rice,inflation,treasury
+2026-07-24 11:02 ACCEPT [OilPrice.com] "WTI Explodes Higher as Middle East Shipping Risks Multiply" | kw:oil,crude,wti
+2026-07-24 11:02 ACCEPT [NASDAQ Commod] "Gold Edges Up After Selloff" | kw:oil,gold,rice
+2026-07-24 11:02 ACCEPT [NASDAQ Commod] "Oil Prices Slip From Two-month Highs" | kw:oil,rice
+2026-07-24 11:02 ACCEPT [Google News HH] "🚨𝗕𝗥𝗘𝗔𝗞𝗜𝗡𝗚: Brent Crude Oil drops below $98 per barrel. - Moomoo" | kw:oil,crude,brent
+2026-07-24 11:02 ACCEPT [Google News HH] "Gold Price Forecast: Rising Treasury Yields Could Push Gold Toward $3," | kw:gold,rice,treasury
+2026-07-24 11:02 ACCEPT [Google News HH] "Angola's Upstream Reform Program and Investment Pipeline Examined in C" | kw:oil,crude
+2026-07-24 11:02 ACCEPT [Google News HH] "OPEC Set to Raise Output AgainEven as Members Can't Pump It - Crude Oi" | kw:oil,crude,opec
+2026-07-24 11:02 ACCEPT [Google News HH] "Gold, silver regain momentum; crude oil falls below $100 a barrel - Bu" | kw:oil,crude,gold
+2026-07-24 11:02 ACCEPT [Google News KL] "Gold gains as oil pulls back, investors monitor MidEast developments -" | kw:oil,gold
+2026-07-24 11:02 ACCEPT [Google News KL] "China’s Middle East influence may impact gold, US dollar: strategist -" | kw:gold
+2026-07-24 11:02 ACCEPT [Google News NS] "Global grain market outlook: Hormuz, the Sea of Azov and China's soybe" | kw:soybean
+2026-07-24 11:02 ACCEPT [Google News NS] "Weather, war and wheat give the market bulls fuel - Agweek" | kw:fuel,wheat
+2026-07-24 11:02 ACCEPT [Google News NS] "US wheat on track for fourth weekly gain on Black Sea supply concerns " | kw:wheat
+2026-07-24 11:02 SKIP_MORNING already_sent date=2026-07-24
