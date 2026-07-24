@@ -1,10 +1,3 @@
-2026-06-17 16:01 ACCEPT [Google News KL] "Nasdaq & Silver Price Outlook: Cautious Optimism Ahead of the FOMC - F" | kw:silver,rice,fomc
-2026-06-17 16:01 ACCEPT [Google News KL] "No, This Is Not Gold's Cycle Top - Seeking Alpha" | kw:gold
-2026-06-17 16:01 ACCEPT [Google News NS] "Grains Rally Led by Soybeans as Export Business Confirmed: Is it China" | kw:soybean
-2026-06-17 16:01 ACCEPT [Google News NS] "Hasakah Farmers Decry Wheat Marketing Platform - Enab Baladi - Enab Ba" | kw:wheat
-2026-06-17 16:01 ACCEPT [Google News CB] "US stocks drift ahead of the Fed’s announcement on interest rates - Ha" | kw:interest rate
-2026-06-17 16:01 ACCEPT [Google News CB] "MetLife's Drew Matus on his expectations for Fed Chairman Kevin Warsh'" | kw:rate decision
-2026-06-17 16:01 ACCEPT [Google News CB] "Another round of severe weather expected to significantly impact produ" | kw:ecb
 2026-06-17 16:01 ACCEPT [Google News CB] "BNY's Vincent Reinhart expects no change in Fed rates - CNBC" | kw:fed rate
 2026-06-17 16:01 SKIP_MORNING already_sent date=2026-06-17
 2026-06-17 16:01 SKIP_EVENING already_sent date=2026-06-17
@@ -20005,3 +19998,6 @@
 2026-07-24 01:31 ACCEPT [Google News CB] "Japan June core inflation accelerates, stays below BOJ target - Reuter" | kw:inflation,boj
 2026-07-24 01:31 ACCEPT [Google News CB] "Dollar hits new 40-year high versus yen, euro softer after ECB stands " | kw:ecb
 2026-07-24 01:31 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 01:52 ACCEPT [Google News HH] "Alderney electricity bills to be subsidised as barrel of crude oil nea" | kw:oil,crude
+2026-07-24 01:52 ACCEPT [Google News CB] "Singapore set to keep monetary policy steady, inflation risks mild - R" | kw:inflation,monetary policy
+2026-07-24 01:52 SKIP_MORNING already_sent date=2026-07-24
