@@ -1,6 +1,3 @@
-2026-06-17 16:01 ACCEPT [OilPrice.com] "Shipping Industry Remains Wary Despite U.S.-Iran Agreement" | kw:shipping
-2026-06-17 16:01 ACCEPT [NASDAQ Commod] "Hemlo Mining Debuts on TSX Main Board" | kw:gold
-2026-06-17 16:01 ACCEPT [Google News HH] "U.S. Crude Oil Stockpiles Fall More Than Expected - WSJ" | kw:oil,crude
 2026-06-17 16:01 ACCEPT [Google News HH] "Crude Oil Prices Jump as US Domestic Supplies Tumble - Barchart.com" | kw:oil,crude,rice
 2026-06-17 16:01 ACCEPT [Google News HH] "BREAKING: Former OPEC Head Acquitted In London Bribery Trial - Law360" | kw:opec
 2026-06-17 16:01 ACCEPT [Google News HH] "US crude stocks fall to its lowest since March 1985, EIA says - Reuter" | kw:crude
@@ -20001,3 +19998,8 @@
 2026-07-24 00:31 ACCEPT [Google News HH] "Price to earnings forward of West Texas Intermediate Crude Oil cash – " | kw:oil,crude,wti
 2026-07-24 00:31 ACCEPT [Google News KL] "Newmont tops profit estimates on higher gold prices, sees steady outpu" | kw:gold,rice
 2026-07-24 00:31 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 01:01 ACCEPT [Google News HH] "U.S. Crude Oil Inventories Up 2.0 Million Barrels: EIA Weekly Report –" | kw:oil,crude
+2026-07-24 01:01 ACCEPT [Google News HH] "Crude oil surged, metals broadly fell, LME and SHFE copper and tin dro" | kw:oil,crude,silver
+2026-07-24 01:01 ACCEPT [Google News KL] "Suriname Gold Explorer Hits 101.5 g/t at Lawatino Project - Streetwise" | kw:gold
+2026-07-24 01:01 ACCEPT [Google News CB] "Gold Declines on Stronger Dollar, Fed Rate Hike Prospects - WSJ" | kw:gold,fed rate,rate hike
+2026-07-24 01:01 SKIP_MORNING already_sent date=2026-07-24
