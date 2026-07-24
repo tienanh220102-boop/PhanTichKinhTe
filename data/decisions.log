@@ -1,34 +1,3 @@
-2026-06-18 09:31 ACCEPT [Google News KL] "Gold prices fall in Baghdad, Erbil markets - Shafaq News | Latest brea" | kw:gold,rice
-2026-06-18 09:31 ACCEPT [Google News KL] "How surging gold prices led to the biggest jump on this year’s Southea" | kw:gold,rice
-2026-06-18 09:31 ACCEPT [Google News NS] "Brian Caldbeck in the US on wheat, drought and the coming harvest - Te" | kw:gas,wheat,harvest
-2026-06-18 09:31 ACCEPT [Google News CB] "Taiwan Central Bank Leaves Key Interest Rates Unchanged - WSJ" | kw:central bank,interest rate
-2026-06-18 09:31 ACCEPT [Google News CB] "Fed Stays Put on Interest Rates, Hints at Raise This Year | National N" | kw:interest rate
-2026-06-18 09:31 ACCEPT [Google News CB] "Norway’s Central Bank Holds Key Rate But Still Signals a Hike Later Th" | kw:central bank
-2026-06-18 09:31 ACCEPT [Google News CB] "Taiwan central bank leaves key rate unchanged, raises growth outlook -" | kw:central bank
-2026-06-18 09:31 SKIP_MORNING already_sent date=2026-06-18
-2026-06-18 10:01 ACCEPT [MarketWatch] "Here’s the link between Apple’s ‘unavoidable’ price hikes and all-time" | kw:rice
-2026-06-18 10:01 ACCEPT [NASDAQ Commod] "Oil Prices Tumble As US And Iran Sign Provisional Peace Deal" | kw:oil,rice,easing
-2026-06-18 10:01 ACCEPT [Google News HH] "EIA reports a massive decline in US crude oil stocks - engine.online" | kw:oil,crude
-2026-06-18 10:01 ACCEPT [Google News HH] "US crude oil inventories down 1.9% in week ending June 12 - Anadolu Aj" | kw:oil,crude
-2026-06-18 10:01 ACCEPT [Google News HH] "SunSirs: Crude Oil Prices Fall; China Domestic Refined Oil Retail Pric" | kw:oil,crude,rice
-2026-06-18 10:01 ACCEPT [Google News HH] "Gold Price Forecast: XAU/USD hesitates below $4,300 as Fed hiking bets" | kw:gold,rice
-2026-06-18 10:01 ACCEPT [Google News KL] "Silver price today: rises on June 18 - FXStreet" | kw:silver,rice
-2026-06-18 10:01 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD Edges Above $69.00, But 100-Day SMA Cap" | kw:silver,rice
-2026-06-18 10:01 ACCEPT [Google News KL] "Cabral Gold: +70% Completed Construction at Cuiu Cuiu Project Steers T" | kw:gold
-2026-06-18 10:01 ACCEPT [Google News KL] "Suppliers hold prices firm while also adjusting prices, as Shanghai sp" | kw:copper,rice
-2026-06-18 10:01 ACCEPT [Google News KL] "[SMM Secondary Copper Rod Flash] During today's midday session, the fr" | kw:copper
-2026-06-18 10:01 ACCEPT [Google News KL] "Gold Price Reaches JOD 88.30 per Gram for 21-Karat Gold in the Local M" | kw:gold,rice
-2026-06-18 10:01 ACCEPT [Google News CB] "Philippine Central Bank Hikes Rates to Get Inflation Back on Target - " | kw:inflation,central bank
-2026-06-18 10:01 ACCEPT [Google News CB] "Goldman’s Kaplan Says Fed May Hike by Fall, Sees Risk of More - Bloomb" | kw:gold
-2026-06-18 10:01 ACCEPT [Google News CB] "Swiss central bank readies for FX intervention if safe haven franc str" | kw:central bank
-2026-06-18 10:01 ACCEPT [Google News CB] "European shares edge lower on Fed rate-hike bets - Reuters" | kw:fed rate
-2026-06-18 10:01 SKIP_MORNING already_sent date=2026-06-18
-2026-06-18 10:31 ACCEPT [OilPrice.com] "More Than 60 Million Barrels of Oil Ready to Head to Asia as Hormuz Re" | kw:oil,crude
-2026-06-18 10:31 ACCEPT [NASDAQ Commod] "Gold Steadies After Steep Fall Triggered By Hawkish Fed" | kw:gold,rice,treasury
-2026-06-18 10:31 ACCEPT [Google News HH] "Commodities: Oil Falls As U.S.-Iran Sign Deal - Seeking Alpha" | kw:oil,commodities
-2026-06-18 10:31 ACCEPT [Google News KL] "Silver Price Forecast: Hawkish Fed Puts $60 Support in Focus - FXEmpir" | kw:silver,rice
-2026-06-18 10:31 ACCEPT [Google News KL] "Updated feasibility study confirms Falco's Horne 5 gold project as sub" | kw:lng,gold
-2026-06-18 10:31 ACCEPT [Google News NS] "[SMM Weekly Wrap] Supply-Demand Pattern Solid, Next Week Grain-Oriente" | kw:steel,rice
 2026-06-18 10:31 ACCEPT [Google News CB] "Warsh’s Hawkish Stance Fuels US Interest-Rate Hike Bets - Bloomberg.co" | kw:fuel,rate hike
 2026-06-18 10:31 ACCEPT [Google News CB] "Taiwan central bank raises growth outlook, flags inflation concerns - " | kw:inflation,central bank
 2026-06-18 10:31 ACCEPT [Google News CB] "Swiss central bank readies for FX intervention if safe haven franc str" | kw:central bank
@@ -20029,3 +19998,22 @@
 2026-07-24 14:31 ACCEPT [Google News CB] "Russia's central bank gingerly cuts rates, caught between business com" | kw:inflation,central bank
 2026-07-24 14:31 SKIP_MORNING already_sent date=2026-07-24
 2026-07-24 14:31 SKIP_EVENING already_sent date=2026-07-24
+2026-07-24 15:01 ACCEPT [MarketWatch] "U.S. economy had begun to speed up — until Iran peace talks failed and" | kw:oil,rice,inflation
+2026-07-24 15:01 ACCEPT [Google News HH] "Stocks waver while crude oil prices fall for the first time in a week " | kw:oil,crude,rice
+2026-07-24 15:01 ACCEPT [Google News HH] "Stocks waver while crude oil prices fall for the first time in a week " | kw:oil,crude,rice
+2026-07-24 15:01 ACCEPT [Google News HH] "Stocks edge higher while crude oil prices fall for the first time in a" | kw:oil,crude,rice
+2026-07-24 15:01 ACCEPT [Google News HH] "$Crude Oil Futures (SEP6) (CLmain.US)$ Seems like a good set up for a " | kw:oil,crude
+2026-07-24 15:01 ACCEPT [Google News HH] "Crude Oil Holds Strong Weekly Gain Despite Friday Pullback - TradingPe" | kw:oil,crude
+2026-07-24 15:01 ACCEPT [Google News HH] "Palworld 1.0 Crude Oil Farming Guide - Mobalytics" | kw:oil,crude
+2026-07-24 15:01 ACCEPT [Google News HH] "Stocks waver while crude oil prices fall for the first time in a week " | kw:oil,crude,rice
+2026-07-24 15:01 ACCEPT [Google News KL] "Gold, Silver Gain for the Week Despite Oil and Interest Rates Surging " | kw:oil,gold,silver
+2026-07-24 15:01 ACCEPT [Google News KL] "Peter Schiff sees something big in gold and silver - thestreet.com" | kw:gold,silver
+2026-07-24 15:01 ACCEPT [Google News KL] "Silver Price Forecast: AI Demand and Fed Outlook Keep XAG/USD Above Ke" | kw:silver,rice
+2026-07-24 15:01 ACCEPT [Google News KL] "Silver's Missing Crisis Trade: Why a War Keeps Pushing It Down - Inves" | kw:silver
+2026-07-24 15:01 ACCEPT [Google News CB] "Bank treasurer survey - European Central Bank" | kw:central bank
+2026-07-24 15:01 ACCEPT [Google News CB] "Why a chief economist thinks a surprise rate hike could be coming at n" | kw:rate hike
+2026-07-24 15:01 ACCEPT [Google News CB] "The ECB keeps rates at 2.25% and opens the door to raising them in Sep" | kw:ecb
+2026-07-24 15:01 ACCEPT [Google News CB] "Russia's central bank gingerly cuts rates, caught between business com" | kw:inflation,central bank
+2026-07-24 15:01 ACCEPT [Google News CB] "Russia's central bank gingerly cuts rates, caught between business com" | kw:inflation,central bank
+2026-07-24 15:01 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 15:01 SKIP_EVENING already_sent date=2026-07-24
