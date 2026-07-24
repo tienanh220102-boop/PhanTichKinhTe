@@ -1,20 +1,3 @@
-2026-06-18 05:31 ACCEPT [Google News CB] "Opinion | Kevin Warsh commits to tame the inflation beast - The Washin" | kw:lng,inflation
-2026-06-18 05:31 SKIP_MORNING already_sent date=2026-06-18
-2026-06-18 06:01 ACCEPT [OilPrice.com] "Oil Prices Slide After U.S. and Iran Sign Ceasefire Agreement" | kw:oil,crude,brent
-2026-06-18 06:01 ACCEPT [Google News HH] "Crude oil prices fall more than 1% as Hormuz set to reopen after US-Ir" | kw:oil,crude,rice
-2026-06-18 06:01 ACCEPT [Google News NS] "Feed corn prices continue to decline in Ukrainian ports – APK-Inform -" | kw:corn,rice
-2026-06-18 06:01 ACCEPT [Google News CB] "Irish Central Bank Cuts Growth Forecast as Volatility Roils Eurozone -" | kw:oil,central bank
-2026-06-18 06:01 SKIP_MORNING already_sent date=2026-06-18
-2026-06-18 06:31 ACCEPT [Google News HH] "Vivakor Highlights Strategic Value of Its Southwestern U.S. Midstream " | kw:oil,crude
-2026-06-18 06:31 ACCEPT [Google News HH] "Gold Price on 17 June 2026 - Gold Price" | kw:gold,rice
-2026-06-18 06:31 ACCEPT [Google News HH] "Adnoc taps commodities veteran Benoit Roulon to lead trading arm - Ent" | kw:commodities
-2026-06-18 06:31 ACCEPT [Google News KL] "Why Gold Is a Compelling Investment in June 2026: Price Drop, Inflatio" | kw:gold,rice,inflation
-2026-06-18 06:31 ACCEPT [Google News KL] "Gold, silver price prediction: Gold, silver prices are headed this way" | kw:gold,silver,rice
-2026-06-18 06:31 ACCEPT [Google News KL] "US Fed Keeps Rates Unchanged, Silver Edges Down and Spot Market Tradin" | kw:silver
-2026-06-18 06:31 ACCEPT [Google News NS] "Wheat Leads the Grain Rally on Wednesday - inkl" | kw:wheat
-2026-06-18 06:31 ACCEPT [Google News NS] "Chickpeas defy market slump - The Weekly Times" | kw:gdp
-2026-06-18 06:31 SKIP_MORNING already_sent date=2026-06-18
-2026-06-18 06:56 ACCEPT [Google News HH] "Saudi Aramco significantly lowered its official crude oil selling pric" | kw:oil,crude,rice
 2026-06-18 06:56 ACCEPT [Google News KL] "End-use demand was sluggish, suppliers cut prices to sell, and overall" | kw:copper,rice
 2026-06-18 06:56 ACCEPT [Google News KL] "Great Pacific Gold Announces Results of Annual General Meeting - Inves" | kw:gold
 2026-06-18 06:56 ACCEPT [Google News NS] "Global corn prices fluctuate on uncertainty ahead of US-Iran peace tal" | kw:corn,rice
@@ -20015,3 +19998,18 @@
 2026-07-24 12:31 ACCEPT [Google News CB] "ECB provides enhanced repo facility for central banks - Securities Fin" | kw:central bank,ecb
 2026-07-24 12:31 ACCEPT [Google News CB] "Hike or hold? Why the Fed's July interest rate decision is hard to pre" | kw:interest rate,rate decision
 2026-07-24 12:31 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 13:01 ACCEPT [MarketWatch] "A panicking Fed is just what the bond market needs, says Bank of Ameri" | kw:treasury
+2026-07-24 13:01 ACCEPT [BBC Business] "New figures show costs rising for pensioners" | kw:fuel,inflation
+2026-07-24 13:01 ACCEPT [EIA Energy] "Energia Costa Azul, Mexico's second LNG terminal, shipped first cargo" | kw:gas,lng
+2026-07-24 13:01 ACCEPT [Google News HH] "Why Oil Prices Are Falling After Blowing Past $100 Yesterday -- Commod" | kw:oil,rice,commodities
+2026-07-24 13:01 ACCEPT [Google News HH] "Saudi Crude Tanker Goes Dark to Slip Through Bab el-Mandeb - Crude Oil" | kw:oil,crude,rice
+2026-07-24 13:01 ACCEPT [Google News HH] "Forecast update for crude oil -24-07-2026 - Economies.com" | kw:oil,crude
+2026-07-24 13:01 ACCEPT [Google News HH] "Kuwait Crude Oil Price Rises by USD 7.68 per Barrel - Fana News -" | kw:oil,crude,rice
+2026-07-24 13:01 ACCEPT [Google News KL] "Gold inches up on oil pullback; investors monitor Mideast developments" | kw:oil,gold
+2026-07-24 13:01 ACCEPT [Google News KL] "Gold holds above $4,020 as Fed-rate risk caps rebound - Kitco AM Repor" | kw:gold
+2026-07-24 13:01 ACCEPT [Google News KL] "Gold price shines light on Thailand’s pawnshop boom - Thai PBS World" | kw:gold,rice
+2026-07-24 13:01 ACCEPT [Google News KL] "Gold Needs a Reset as Its Tailwinds Fade. Forecast as of 24.07.2026 - " | kw:gold
+2026-07-24 13:01 ACCEPT [Google News CB] "Odds of a September Fed rate hike surged to 82% as oil topped $100 a b" | kw:oil,fed rate,rate hike
+2026-07-24 13:01 ACCEPT [Google News CB] "Russian central bank cuts policy rate to 14%, as expected - Anadolu Aj" | kw:central bank,policy rate
+2026-07-24 13:01 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 13:02 SENT_EVENING articles=20 date=2026-07-24 force=False
