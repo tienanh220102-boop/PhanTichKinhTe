@@ -1,16 +1,3 @@
-2026-06-17 19:01 ACCEPT [Google News CB] "Fed keeps interest rates unchanged, says hikes may be coming later thi" | kw:interest rate
-2026-06-17 19:01 ACCEPT [Google News CB] "Fed Chairman Kevin Warsh: This committee will deliver price stability " | kw:rice
-2026-06-17 19:31 ACCEPT [MarketWatch] "Warsh launches his push to change how the Fed operates" | kw:central bank,federal reserve
-2026-06-17 19:31 ACCEPT [OilPrice.com] "How the Oil Sands Became the Lowest-Cost North American Producer" | kw:oil,rice
-2026-06-17 19:31 ACCEPT [NASDAQ Commod] "Crude Oil Advances As Concerns Over Resumption Of Oil Trade Surface" | kw:oil,crude,rice
-2026-06-17 19:31 ACCEPT [Google News HH] "Tightness in US Crude Supplies Supports Crude Oil Prices - Barchart.co" | kw:oil,crude,rice
-2026-06-17 19:31 ACCEPT [Google News HH] "UAE Oil Output Seen Topping 5 Million bpd After OPEC Exit - Pipeline a" | kw:oil,opec,gas
-2026-06-17 19:31 ACCEPT [Google News KL] "Orestone Mining Advances Captain Project with MobileMT Survey Amid Ris" | kw:gold,rice
-2026-06-17 19:31 ACCEPT [Google News KL] "Why Has Gold Declined Despite Escalating Geopolitical Tensions - Kavou" | kw:gold
-2026-06-17 19:31 ACCEPT [Google News CB] "Fed holds interest rates steady as inflation hits 3-year high - ABC7 B" | kw:inflation,interest rate
-2026-06-17 19:31 ACCEPT [Google News CB] "Fed 'dot plot': Almost half of FOMC members project at least one rate " | kw:rate hike,fomc
-2026-06-17 19:31 ACCEPT [Google News CB] "Fed holds US interest rates steady as uncertainty over Trump's Iran de" | kw:interest rate
-2026-06-17 19:31 ACCEPT [Google News CB] "Fed Stays Put on Interest Rates, Hints at Raise This Year - U.S. News " | kw:interest rate
 2026-06-17 19:31 ACCEPT [Google News CB] "In unanimous decision, Fed pol­i­cy­makers keep interest rates unchang" | kw:interest rate
 2026-06-17 19:35 ACCEPT [Google News KL] "The Fed Just Killed Its Rate Roadmap. Here’s What That Means for Gold." | kw:gold,silver
 2026-06-17 19:35 ACCEPT [Google News CB] "Federal Reserve holds interest rates steady but leaves door open to hi" | kw:interest rate,federal reserve
@@ -20011,3 +19998,18 @@
 2026-07-24 09:01 ACCEPT [Google News CB] "ECB to make new euro liquidity line available from Q4 - Reuters" | kw:ecb
 2026-07-24 09:01 ACCEPT [Google News CB] "FOMC preview: Fed to stay on hold after June’s hawkish shift - ING Thi" | kw:fomc
 2026-07-24 09:01 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 09:30 ACCEPT [BBC Business] "US hits dozens of countries with new wave of tariffs" | kw:tariff
+2026-07-24 09:31 ACCEPT [Google News HH] "National average gas price tops $4 as oil prices push pump costs highe" | kw:oil,gas,rice
+2026-07-24 09:31 ACCEPT [Google News HH] "The Commodities Feed: Brent tops $100/bbl as Middle East tensions buil" | kw:brent,commodities
+2026-07-24 09:31 ACCEPT [Google News KL] "[SMM Nickel Intermediate Products Daily Review] July 24 MHP, high-grad" | kw:nickel,rice
+2026-07-24 09:31 ACCEPT [Google News KL] "Copper price surrenders to the stability of the barrier– Forecast toda" | kw:copper,rice
+2026-07-24 09:31 ACCEPT [Google News KL] "Gold Prices Slip Amid Higher Oil Prices and Expectations of Tighter Mo" | kw:oil,gold,rice
+2026-07-24 09:31 ACCEPT [Google News CB] "Eurozone Businesses See Wages Cooling Despite Inflation Pickup, Says E" | kw:inflation,ecb
+2026-07-24 09:31 ACCEPT [Google News CB] "ECB Starts Onboarding Process for Enhanced Repo Facility - Bloomberg.c" | kw:ecb
+2026-07-24 09:31 ACCEPT [Google News CB] "Euro zone firms struggle to raise consumer prices after Iran shock, EC" | kw:rice,ecb
+2026-07-24 09:31 ACCEPT [Google News CB] "Fed chair 'an enigma:' Why July interest rate move is hard to predict " | kw:interest rate
+2026-07-24 09:31 ACCEPT [Google News CB] "Gold softens on prospects of Fed rate hikes as Brent tops $100 - CNBC" | kw:brent,gold,fed rate
+2026-07-24 09:31 ACCEPT [Google News CB] "ECB Officials Avoid Clear Hints on Possible Hike for Now - Bloomberg.c" | kw:ecb
+2026-07-24 09:31 ACCEPT [Google News CB] "ECB Says Consumer Price Expectations Fell Sharply in June - Bloomberg." | kw:rice,ecb
+2026-07-24 09:31 ACCEPT [Google News CB] "Japan’s June inflation figure poses no obstacle to BoJ tightening this" | kw:inflation,boj,tightening
+2026-07-24 09:31 SKIP_MORNING already_sent date=2026-07-24
