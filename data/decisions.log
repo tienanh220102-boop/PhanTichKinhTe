@@ -19998,3 +19998,13 @@
 2026-07-23 23:31 ACCEPT [Google News NS] "Will Heat and War Push Corn and Soybean Prices Higher? - Agrolatam" | kw:corn,soybean,rice
 2026-07-23 23:31 ACCEPT [Google News NS] "Soybean Futures Rise to $12.4 per Bushel Amid Middle East Tensions and" | kw:soybean
 2026-07-23 23:31 ACCEPT [Google News CB] "Report of the Design Contest Jury on the winning design proposals for " | kw:central bank
+2026-07-24 00:01 ACCEPT [OilPrice.com] "Lithium Prices Sink To Five-Month Lows Amid Oversupply Jitters" | kw:rice
+2026-07-24 00:01 ACCEPT [Google News HH] "US Dollar Rally Builds Momentum, Crude Oil Holds the Key - FOREX.com" | kw:oil,crude
+2026-07-24 00:01 ACCEPT [Google News HH] "Southwest and American lower profit forecasts due to fuel-price spike " | kw:fuel,rice
+2026-07-24 00:01 ACCEPT [Google News HH] "Brent Crude Oil Price Could Surge to $100 After Iran’s Red Sea Attack " | kw:oil,crude,brent
+2026-07-24 00:01 ACCEPT [Google News HH] "Crude oil prices tops US$100, surges to three-month high as Middle Eas" | kw:oil,crude,rice
+2026-07-24 00:01 ACCEPT [Google News KL] "Freeport-McMoRan (FCX) Beats In Q2 As Lower Copper Sales Outlook Tests" | kw:copper
+2026-07-24 00:01 ACCEPT [Google News CB] "Japan’s Inflation Picks Up, Keeping BOJ on Path for Rate Hikes - Bloom" | kw:inflation,rate hike,boj
+2026-07-24 00:01 ACCEPT [Google News CB] "Watch US Yields Hit '26 Highs, Fed Rate Hike Bets Rise - Bloomberg.com" | kw:fed rate,rate hike
+2026-07-24 00:01 ACCEPT [Google News CB] "Firm Must Share Sanctions In Door IP Suit, Fed. Circ. Says - Law360" | kw:sanction
+2026-07-24 00:02 SENT_MORNING articles=20 date=2026-07-24 force=False
