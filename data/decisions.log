@@ -1,8 +1,3 @@
-2026-06-18 05:31 ACCEPT [Google News HH] "Gold price in Philippines: Rates on June 18 - FXStreet" | kw:gold,rice
-2026-06-18 05:31 ACCEPT [Google News KL] "Sky's the limit for investors seeking some copper action - Reuters" | kw:copper
-2026-06-18 05:31 ACCEPT [Google News KL] "Gold prices rise over 1 percent to $4,313.18 as Fed keeps rates unchan" | kw:gold,rice
-2026-06-18 05:31 ACCEPT [Google News NS] "Illinois bets on biodiesel: Expanding the market for domestic soybeans" | kw:soybean
-2026-06-18 05:31 ACCEPT [Google News CB] "Kansas City Fed’s Connection to the Sunflower State Highlights Key Ind" | kw:federal reserve
 2026-06-18 05:31 ACCEPT [Google News CB] "Opinion | Kevin Warsh commits to tame the inflation beast - The Washin" | kw:lng,inflation
 2026-06-18 05:31 SKIP_MORNING already_sent date=2026-06-18
 2026-06-18 06:01 ACCEPT [OilPrice.com] "Oil Prices Slide After U.S. and Iran Sign Ceasefire Agreement" | kw:oil,crude,brent
@@ -20003,3 +19998,20 @@
 2026-07-24 12:01 ACCEPT [Google News KL] "Gold Price Forecast: Rising Treasury Yields Could Push Gold Toward $3," | kw:gold,rice,treasury
 2026-07-24 12:01 ACCEPT [Google News KL] "The Price Target For Gold - Seeking Alpha" | kw:gold,rice
 2026-07-24 12:01 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 12:31 ACCEPT [BBC Business] "Watch: Another day, more Trump tariffs - but are they working?" | kw:rice,tariff
+2026-07-24 12:31 ACCEPT [BBC Business] "New figures show costs rising for Jersey pensioners" | kw:fuel,inflation
+2026-07-24 12:31 ACCEPT [CNBC Economy] "Trump's new global tariff draws rebukes from trade partners over force" | kw:tariff
+2026-07-24 12:31 ACCEPT [OilPrice.com] "Hormuz Tanker Crossings Sink to Lowest Level Since May as War Risk Spi" | kw:oil,crude,rice
+2026-07-24 12:31 ACCEPT [Google News HH] "Do Agnico Eagle Mines’ (AEM) Earnings Cuts Reveal Fragility In Its Gol" | kw:gold,rice
+2026-07-24 12:31 ACCEPT [Google News HH] "Gold Price Today: Gold Falls 1.76% on July 24, 2026 - USA Today" | kw:gold,rice
+2026-07-24 12:31 ACCEPT [Google News HH] "DJ Commodity Crude Oil Analysis and Opinion - Investing.com" | kw:oil,crude,commodity
+2026-07-24 12:31 ACCEPT [Google News HH] "Velox-1X Shows Promising Oil Discovery in Western Mediterranean - Egyp" | kw:oil,gas
+2026-07-24 12:31 ACCEPT [Google News KL] "Current price of gold as of July 24, 2026 - Fortune" | kw:gold,rice
+2026-07-24 12:31 ACCEPT [Google News KL] "Gold Price Forecast: Rising Treasury Yields Could Push Gold Toward $3," | kw:lng,gold,rice
+2026-07-24 12:31 ACCEPT [Google News KL] "The Price Target For Gold - Seeking Alpha" | kw:gold,rice
+2026-07-24 12:31 ACCEPT [Google News KL] "Silver Price Forecast: XAG/USD recovers as the US Dollar eases - FXStr" | kw:silver,rice
+2026-07-24 12:31 ACCEPT [Google News KL] "Gold Price Forecast: Rising Treasury Yields Could Push Gold Toward $3," | kw:gold,rice,treasury
+2026-07-24 12:31 ACCEPT [Google News KL] "Why $100 oil is dragging gold down instead of pushing it higher - Star" | kw:oil,gold
+2026-07-24 12:31 ACCEPT [Google News CB] "ECB provides enhanced repo facility for central banks - Securities Fin" | kw:central bank,ecb
+2026-07-24 12:31 ACCEPT [Google News CB] "Hike or hold? Why the Fed's July interest rate decision is hard to pre" | kw:interest rate,rate decision
+2026-07-24 12:31 SKIP_MORNING already_sent date=2026-07-24
