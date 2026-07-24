@@ -1,9 +1,3 @@
-2026-06-17 18:31 ACCEPT [Google News CB] "Chairman Warsh drastically alters Fed rate statement. Here's what's ch" | kw:fed rate
-2026-06-17 18:31 ACCEPT [Google News CB] "US Federal Reserve makes its first interest rate decision under Warsh " | kw:interest rate,rate decision,federal reserve
-2026-06-17 18:31 ACCEPT [Google News CB] "Gold and silver futures rally as traders eye new Fed chair policy. - C" | kw:gold,silver
-2026-06-17 18:31 ACCEPT [Google News CB] "Fed pauses again as markets debate rate hikes - HousingWire" | kw:rate hike
-2026-06-17 18:31 ACCEPT [Google News CB] "Fed Holds Interest Rates Steady at New Chair’s First Meeting - Multifa" | kw:interest rate
-2026-06-17 18:31 ACCEPT [Google News CB] "In unanimous decision, Fed pol­i­cy­makers keep interest rates unchang" | kw:interest rate
 2026-06-17 18:31 ACCEPT [Google News CB] "Fed holds interest rates steady in Warsh's first meeting, with more of" | kw:interest rate
 2026-06-17 18:31 ACCEPT [Google News CB] "US stocks slip after Fed officials indicate a possible rate hike in 20" | kw:rate hike
 2026-06-17 18:31 ACCEPT [Google News CB] "Federal Reserve leaves interest rates unchanged as Warsh era begins - " | kw:interest rate,federal reserve
@@ -20004,3 +19998,6 @@
 2026-07-24 07:01 ACCEPT [Google News CB] "Why the Fed Picked 2 Percent as an Inflation Target - The Dispatch" | kw:inflation
 2026-07-24 07:01 ACCEPT [Google News CB] "ECB policymakers warn about growing inflation risks - Euronext Markets" | kw:inflation,ecb
 2026-07-24 07:01 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 07:31 ACCEPT [Google News HH] "Brent crude oil hovers near USD 100 as US mulls “massive attack” - Mon" | kw:oil,crude,brent
+2026-07-24 07:31 ACCEPT [Google News HH] "Auto, aviation stocks slide as crude oil surge raises cost concerns; N" | kw:oil,crude
+2026-07-24 07:31 SKIP_MORNING already_sent date=2026-07-24
