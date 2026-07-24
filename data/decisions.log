@@ -1,11 +1,3 @@
-2026-06-18 04:31 SKIP_MORNING already_sent date=2026-06-18
-2026-06-18 05:01 ACCEPT [Google News HH] "Gold price in India: Rates on June 18 - FXStreet" | kw:gold,rice
-2026-06-18 05:01 ACCEPT [Google News HH] "Malaysian Palm Oil Slipped As Crude Oil Prices Fell - Finimize" | kw:oil,crude,lng
-2026-06-18 05:01 ACCEPT [Google News HH] "Crude oil prices fall more than 1% as US-Iran peace deal to reopen Str" | kw:oil,crude,rice
-2026-06-18 05:01 ACCEPT [Google News KL] "Is Royal Gold (RGLD) Trimming Hod Maden to Sharpen Its Diversification" | kw:gold
-2026-06-18 05:01 ACCEPT [Google News KL] "Gold Price Today: MCX Gold Under Pressure As US-Iran Peace Deal, Fed D" | kw:gold,rice
-2026-06-18 05:01 ACCEPT [Google News NS] "Wheat markets shrug off US-Iran deal as freight, harvests take focus -" | kw:wheat,freight,harvest
-2026-06-18 05:01 SKIP_MORNING already_sent date=2026-06-18
 2026-06-18 05:31 ACCEPT [Google News HH] "Gold price in Philippines: Rates on June 18 - FXStreet" | kw:gold,rice
 2026-06-18 05:31 ACCEPT [Google News KL] "Sky's the limit for investors seeking some copper action - Reuters" | kw:copper
 2026-06-18 05:31 ACCEPT [Google News KL] "Gold prices rise over 1 percent to $4,313.18 as Fed keeps rates unchan" | kw:gold,rice
@@ -20006,3 +19998,8 @@
 2026-07-24 11:59 ACCEPT [Google News CB] "Russian Central Bank Lowers Key Rate From 14.25% to 14% - The Moscow T" | kw:central bank
 2026-07-24 11:59 ACCEPT [Google News CB] "Economists Stick to Fed Rate Cut Call as Markets Price In Hikes - Yaho" | kw:rice,fed rate,gdp
 2026-07-24 11:59 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 12:01 ACCEPT [Google News HH] "SHFE Crude Oil RMB Nov '26 Futures Price History - Barchart.com" | kw:oil,crude,rice
+2026-07-24 12:01 ACCEPT [Google News HH] "Carlyle Commodities : Silver Pony Announces Final CSE Approval, Resump" | kw:silver,commodities
+2026-07-24 12:01 ACCEPT [Google News KL] "Gold Price Forecast: Rising Treasury Yields Could Push Gold Toward $3," | kw:gold,rice,treasury
+2026-07-24 12:01 ACCEPT [Google News KL] "The Price Target For Gold - Seeking Alpha" | kw:gold,rice
+2026-07-24 12:01 SKIP_MORNING already_sent date=2026-07-24
