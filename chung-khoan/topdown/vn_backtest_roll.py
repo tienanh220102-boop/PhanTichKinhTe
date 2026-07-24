@@ -12,9 +12,16 @@ xuống khác nhau (2022 sập, 2023-25 hồi). Nếu gộp thẳng, hiệu ứn
 từng năm giữ nguyên phân phối lợi nhuận của năm đó → chỉ hỏi "TRONG mỗi năm, tín hiệu có tách
 người thắng/thua theo hướng NHẤT QUÁN không?". Đây là câu hỏi đúng cho một edge cắt ngang.
 
-CAVEAT vẫn còn: survivorship bias (chỉ mã còn niêm yết — thiên vị CHỐNG phát hiện); 4 kỳ vẫn
-ít; chồng lấn cửa sổ 2-năm (2021→23, 2022→24 dùng chung 2023) → không hoàn toàn độc lập; chưa
-trừ phí. Không phải bằng chứng cuối cùng, nhưng mạnh hơn 1-kỳ nhiều.
+ĐÃ VÁ 2 LỖI MẪU (v2):
+  1. SURVIVORSHIP BIAS — nay GỒM 221 cổ phiếu ĐÃ HỦY NIÊM YẾT (board=DELISTED của VCI, vẫn có
+     giá tới ngày hủy + fundamentals). Mã hủy giữa chừng KHÔNG bị loại: dùng giá cuối cùng quan
+     sát được làm giá thoát (vẫn NHẸ TAY vì người giữ thật thường mất nhiều hơn).
+  2. LOOKAHEAD TRONG CHỌN UNIVERSE — bản cũ xếp thanh khoản HÔM NAY rồi áp ngược về quá khứ
+     ('biết trước' mã nào sau này lớn). Nay universe tính TẠI THỜI ĐIỂM vào lệnh: GTGD bình quân
+     180 ngày TRƯỚC ngày vào (pit_universe).
+
+CAVEAT còn lại: 4 kỳ vẫn ít; cửa sổ 2-năm chồng lấn (2021→23, 2022→24 dùng chung 2023) → không
+độc lập hoàn toàn; chưa trừ phí/trượt giá. Không phải bằng chứng cuối cùng.
 """
 from __future__ import annotations
 
@@ -27,7 +34,6 @@ import pandas as pd
 
 from vn_data import VCIClient
 from vn_fundamentals import VCIFundamentals, ensure_utf8_stdout
-from vn_topdown import VNTopDown
 from vn_sectors import VCISectors
 from vn_backtest import _score_from_frames, _price_at
 
@@ -43,44 +49,135 @@ def _entry_date(y: int) -> pd.Timestamp:
     return pd.Timestamp(f"{y}-12-28")
 
 
-def _ret(px: pd.DataFrame, y0: int, dyears: int) -> Optional[float]:
-    p0 = _price_at(px, _entry_date(y0))
-    p1 = _price_at(px, _entry_date(y0 + dyears))
+def _price_at_ex(df: pd.DataFrame, target: pd.Timestamp,
+                 global_last: pd.Timestamp) -> Optional[float]:
+    """Giá tại `target`, XỬ LÝ ĐÚNG MÃ BỊ HỦY NIÊM YẾT (chống survivorship bias).
+
+    - target nằm trong chuỗi → giá gần nhất (như cũ).
+    - chuỗi KẾT THÚC trước target NHƯNG thị trường vẫn chạy (target ≤ global_last) → mã đã bị
+      HỦY/ngừng giao dịch: dùng GIÁ CUỐI CÙNG quan sát được (thua lỗ tới lúc hủy được tính vào,
+      thay vì loại mã khỏi mẫu = giả vờ nó không tồn tại). THẬN TRỌNG: người giữ thật thường mất
+      NHIỀU HƠN (bị đẩy xuống UPCoM/mất thanh khoản) → cách này VẪN nhẹ tay với mã xấu.
+    - target > global_last (tương lai) → None.
+    """
+    if df is None or df.empty:
+        return None
+    df = df.sort_values("date")
+    last = df["date"].iloc[-1]
+    if target > global_last:
+        return None                      # tương lai — chưa có dữ liệu
+    if target > last:
+        return float(df["close"].iloc[-1])   # đã hủy niêm yết → giá cuối cùng
+    diff = (df["date"] - target).abs()
+    i = diff.idxmin()
+    if diff.loc[i] > pd.Timedelta(days=15):
+        return None
+    return float(df.loc[i, "close"])
+
+
+def _ret(px: pd.DataFrame, y0: int, dyears: int,
+         global_last: Optional[pd.Timestamp] = None) -> Optional[float]:
+    if global_last is None:
+        p0 = _price_at(px, _entry_date(y0)); p1 = _price_at(px, _entry_date(y0 + dyears))
+    else:
+        p0 = _price_at_ex(px, _entry_date(y0), global_last)
+        p1 = _price_at_ex(px, _entry_date(y0 + dyears), global_last)
     if p0 and p1 and p0 > 0 and p1 > 0:
         return p1 / p0 - 1
     return None
 
 
+def pit_universe(px: Dict[str, pd.DataFrame], y: int, top: int,
+                 lookback_days: int = 180, min_sessions: int = 60) -> List[str]:
+    """Vũ trụ TẠI THỜI ĐIỂM vào lệnh: xếp theo GTGD bình quân trong ~180 ngày TRƯỚC ngày vào.
+
+    Sửa lookahead: bản cũ dùng liquid_universe() tính theo thanh khoản HÔM NAY rồi áp ngược về
+    quá khứ → 'biết trước' mã nào sau này lớn. Ở đây chỉ dùng dữ liệu có trước ngày vào lệnh.
+    """
+    end = _entry_date(y)
+    start = end - pd.Timedelta(days=lookback_days)
+    liq = []
+    for s, df in px.items():
+        if df is None or df.empty:
+            continue
+        w = df[(df["date"] > start) & (df["date"] <= end)]
+        if len(w) < min_sessions:
+            continue                      # chưa niêm yết / ngừng giao dịch quanh lúc đó
+        liq.append((s, float(w["amount"].mean())))
+    liq.sort(key=lambda x: -x[1])
+    return [s for s, _ in liq[:top]]
+
+
 _CACHE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "reports", "bt_roll_cache.csv")
 
 
+_PX_CACHE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "reports", "bt_px_cache.pkl")
+SYMBOLS_URL = "https://trading.vietcap.com.vn/api/price/symbols/getAll"
+
+
+def _all_stock_symbols() -> List[str]:
+    """MỌI mã cổ phiếu gồm ĐÃ HỦY NIÊM YẾT (board=DELISTED) — nền để khử survivorship bias."""
+    import requests
+    r = requests.get(SYMBOLS_URL, headers={"User-Agent": "Mozilla/5.0",
+                                           "Referer": "https://trading.vietcap.com.vn/"}, timeout=30)
+    data = r.json()
+    return [x["symbol"] for x in data
+            if x.get("type") == "STOCK" and x.get("symbol")]
+
+
+def fetch_all_prices(dc: VCIClient) -> Dict[str, pd.DataFrame]:
+    """Giá ~10.5 năm cho TOÀN BỘ cổ phiếu (gồm mã hủy). Cache pickle vì tải rất nặng."""
+    if os.path.exists(_PX_CACHE):
+        logger.warning("Nạp cache giá %s", _PX_CACHE)
+        return pd.read_pickle(_PX_CACHE)
+    syms = _all_stock_symbols()
+    logger.warning("Tải giá %d mã (gồm mã đã hủy) — nặng, chỉ 1 lần...", len(syms))
+    px = dc.get_ohlcv(syms, days=3900)
+    try:
+        os.makedirs(os.path.dirname(_PX_CACHE), exist_ok=True)
+        pd.to_pickle(px, _PX_CACHE)
+    except Exception:  # noqa: BLE001
+        pass
+    return px
+
+
 def collect(use_cache: bool = True) -> pd.DataFrame:
+    """Thu thập quan sát (mã × năm vào lệnh) với universe POINT-IN-TIME + mã đã hủy niêm yết."""
     if use_cache and os.path.exists(_CACHE):
         logger.warning("Nạp cache %s (xóa để tải mới)", _CACHE)
         return pd.read_csv(_CACHE)
-    fx = VCIFundamentals(); sx = VCISectors(); dc = VCIClient(); td = VNTopDown()
-    uni = td.liquid_universe(top=TOP_UNIVERSE)
-    syms = list(uni["symbol"])
+    fx = VCIFundamentals(); sx = VCISectors(); dc = VCIClient()
+    px = fetch_all_prices(dc)
+    global_last = max((df["date"].iloc[-1] for df in px.values() if df is not None and not df.empty),
+                      default=pd.Timestamp.today())
     imap = sx.get_industry_map()
     bankset = set(imap[imap["is_bank"] == True]["symbol"]) if "is_bank" in imap else set()  # noqa: E712
-    px = dc.get_ohlcv(syms, days=3900)      # ~10.5 năm, 1 lần cho cả vũ trụ
 
-    rows: List[dict] = []
-    for s in syms:
-        if s in bankset or s not in px:
-            continue
+    # vũ trụ TẠI TỪNG thời điểm vào lệnh (không dùng thanh khoản hôm nay)
+    uni_by_year = {y: pit_universe(px, y, TOP_UNIVERSE) for y in ENTRY_YEARS}
+    need = sorted({s for lst in uni_by_year.values() for s in lst} - bankset)
+    logger.warning("Universe point-in-time: %s | cần fundamentals %d mã",
+                   {y: len(v) for y, v in uni_by_year.items()}, len(need))
+
+    frames: Dict[str, tuple] = {}
+    for s in need:
         try:
-            inc = fx.get_statement(s, "INCOME_STATEMENT", "year")
-            cf = fx.get_statement(s, "CASH_FLOW", "year")
-            ratios = fx.get_ratios(s)
+            frames[s] = (fx.get_statement(s, "INCOME_STATEMENT", "year"),
+                         fx.get_statement(s, "CASH_FLOW", "year"),
+                         fx.get_ratios(s))
         except Exception:  # noqa: BLE001
             continue
-        pdf = px[s]
-        for y in ENTRY_YEARS:
+
+    rows: List[dict] = []
+    for y in ENTRY_YEARS:
+        for s in uni_by_year[y]:
+            if s in bankset or s not in frames or s not in px:
+                continue
+            inc, cf, ratios = frames[s]
             sc = _score_from_frames(inc, cf, ratios, cutoff=y - 1)   # số ≤ năm trước
             if sc is None:
                 continue
-            r1 = _ret(pdf, y, 1); r2 = _ret(pdf, y, 2)
+            r1 = _ret(px[s], y, 1, global_last); r2 = _ret(px[s], y, 2, global_last)
             if r1 is None and r2 is None:
                 continue
             rows.append({"sym": s, "entry": y, **sc, "ret1": r1, "ret2": r2})
