@@ -1,6 +1,3 @@
-2026-06-17 19:01 ACCEPT [Google News HH] "U.S. crude oil inventories decrease by 8.3 million barrels - Oil & Gas" | kw:oil,crude,gas
-2026-06-17 19:01 ACCEPT [Google News HH] "Japan pays record yen price for crude oil in May after Hormuz closure " | kw:oil,crude,rice
-2026-06-17 19:01 ACCEPT [Google News HH] "Vivakor touts oil network as crude volatility lifts infrastructure dem" | kw:oil,crude
 2026-06-17 19:01 ACCEPT [Google News HH] "U.S. crude oil inventories fell more than expected, with stocks at the" | kw:oil,crude
 2026-06-17 19:01 ACCEPT [Google News HH] "Gold price retreats as Fed holds rates, hawkish dots bite - FXStreet" | kw:gold,rice
 2026-06-17 19:01 ACCEPT [Google News HH] "July WTI Crude Oil Contract Closes Up US$0.74; Settles at US$76.69 per" | kw:oil,crude,wti
@@ -20001,3 +19998,16 @@
 2026-07-24 08:01 ACCEPT [OilPrice.com] "Global LNG Giants Target Cambodia as New Energy Market" | kw:gas,lng,fuel
 2026-07-24 08:01 ACCEPT [Google News HH] "OIL - Opec+'s slow unwind continues even as a second chokepoint closes" | kw:oil,opec
 2026-07-24 08:01 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 08:31 ACCEPT [Google News HH] "Brent Crude Oil Prices Top $100 as Conflict With Iran Drags On - The N" | kw:oil,crude,brent
+2026-07-24 08:31 ACCEPT [Google News HH] "Crude Oil Set for 10% Weekly Gain - TradingView" | kw:oil,crude
+2026-07-24 08:31 ACCEPT [Google News HH] "Kazakhstan reduces crude oil production due to the suspension of the m" | kw:oil,crude
+2026-07-24 08:31 ACCEPT [Google News HH] "Crude oil futures ease 2% to Rs 8,876/barrel on profit-booking - Decca" | kw:oil,crude
+2026-07-24 08:31 ACCEPT [Google News KL] "Silver Price Forecasts: XAG/USD edges up above $58.00 as the US Dollar" | kw:silver,rice
+2026-07-24 08:31 ACCEPT [Google News KL] "Gold Price Forecast: Oil Price Breaking $100 Fuels Inflation Concerns," | kw:oil,fuel,gold
+2026-07-24 08:31 ACCEPT [ECB Press] "ECB to start implementing enhanced repo facility for central banks" | kw:central bank,ecb
+2026-07-24 08:31 ACCEPT [ECB Press] "Results of the ECB Survey of Professional Forecasters for the third qu" | kw:ecb
+2026-07-24 08:31 ACCEPT [ECB Press] "ECB Consumer Expectations Survey results – June 2026" | kw:ecb
+2026-07-24 08:31 ACCEPT [Google News CB] "ECB survey shows broadly unchanged inflation outlook - Reuters" | kw:inflation,ecb
+2026-07-24 08:31 ACCEPT [Google News CB] "Japan’s 40-Year Yield Rises 10 Basis Points on Inflation Fears - Bloom" | kw:inflation,basis point
+2026-07-24 08:31 ACCEPT [Google News CB] "The probability of a Fed rate hike in September stands at 82%—why does" | kw:fed rate,rate hike
+2026-07-24 08:31 SKIP_MORNING already_sent date=2026-07-24
