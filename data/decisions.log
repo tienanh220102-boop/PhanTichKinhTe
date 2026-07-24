@@ -1,18 +1,3 @@
-2026-06-18 06:56 ACCEPT [Google News KL] "End-use demand was sluggish, suppliers cut prices to sell, and overall" | kw:copper,rice
-2026-06-18 06:56 ACCEPT [Google News KL] "Great Pacific Gold Announces Results of Annual General Meeting - Inves" | kw:gold
-2026-06-18 06:56 ACCEPT [Google News NS] "Global corn prices fluctuate on uncertainty ahead of US-Iran peace tal" | kw:corn,rice
-2026-06-18 06:56 ACCEPT [Google News NS] "Feedgrain Focus: Prices ease as warehousing clock ticks - Grain Centra" | kw:rice
-2026-06-18 06:56 ACCEPT [Google News CB] "Philippine Central Bank Hikes Rates Amid Inflation Risks - WSJ" | kw:inflation,central bank
-2026-06-18 06:56 SKIP_MORNING already_sent date=2026-06-18
-2026-06-18 07:01 ACCEPT [Google News CB] "Indian rupee poised to slip after hawkish Fed surprise opens door to r" | kw:rate hike
-2026-06-18 07:01 SKIP_MORNING already_sent date=2026-06-18
-2026-06-18 07:31 ACCEPT [Google News HH] "Cosmo CEO - Will Consider All Possible Options For Crude Oil Procureme" | kw:oil,crude
-2026-06-18 07:31 ACCEPT [Google News HH] "Goldman Sachs: Gulf oil producers are shifting to alternative routes; " | kw:oil,crude,gold
-2026-06-18 07:31 ACCEPT [Google News NS] "Soybean market at crossroads with USDA acreage boost - Farm Progress" | kw:soybean
-2026-06-18 07:31 ACCEPT [Google News NS] "What the Bean/Corn Ratio Says About This Year’s Planting Season - CME " | kw:corn
-2026-06-18 07:31 ACCEPT [Google News NS] "2 billion reasons to battle corn rootworm - Farm Progress" | kw:corn
-2026-06-18 07:31 SKIP_MORNING already_sent date=2026-06-18
-2026-06-18 08:01 ACCEPT [Google News HH] "Crude Oil Prices Jump as US Domestic Supplies Tumble - Barchart" | kw:oil,crude,rice
 2026-06-18 08:01 ACCEPT [Google News KL] "India gold market update: Demand cools | Post by Kavita Chacko | Insig" | kw:gold
 2026-06-18 08:01 ACCEPT [Google News KL] "Malaysian gold retailers squeezed on capital to acquire precious metal" | kw:gold
 2026-06-18 08:01 ACCEPT [Google News NS] "Corn Finally Finds Footing — Four Straight Days of Gains. Is the Low I" | kw:corn
@@ -20013,3 +19998,15 @@
 2026-07-24 13:01 ACCEPT [Google News CB] "Russian central bank cuts policy rate to 14%, as expected - Anadolu Aj" | kw:central bank,policy rate
 2026-07-24 13:01 SKIP_MORNING already_sent date=2026-07-24
 2026-07-24 13:02 SENT_EVENING articles=20 date=2026-07-24 force=False
+2026-07-24 13:31 ACCEPT [OilPrice.com] "Pakistan Transporters Threaten Nationwide Strike Over Fuel Price Hikes" | kw:fuel,rice
+2026-07-24 13:31 ACCEPT [Google News HH] "NEADA Increases Emergency LIHEAP Funding Request to $3 Billion as Crud" | kw:oil,crude
+2026-07-24 13:31 ACCEPT [Google News HH] "Gold Price Analysis – Gold Defends $4,000 Support Floor as High Rates " | kw:gold,rice
+2026-07-24 13:31 ACCEPT [Google News HH] "Vivakor adds $384 million in crude oil marketing contracts By Investin" | kw:oil,crude
+2026-07-24 13:31 ACCEPT [Google News HH] "Gas Prices Are Climbing Fast in Texas, See Your City's Price - Amarill" | kw:gas,rice
+2026-07-24 13:31 ACCEPT [Google News KL] "Silver price plummets - The Corner .eu" | kw:silver,corn,rice
+2026-07-24 13:31 ACCEPT [Google News KL] "Silver Price Analysis – Silver Treads Water Near $60 as Death Cross We" | kw:silver,rice
+2026-07-24 13:31 ACCEPT [Google News KL] "Gold prices head for weekly gains despite pressure from rising Treasur" | kw:gold,rice,treasury
+2026-07-24 13:31 ACCEPT [Google News KL] "Newmont posts Q2 earnings topper despite lower gold prices (NEM:NYSE) " | kw:gold,rice
+2026-07-24 13:31 ACCEPT [ECB Press] "Decisions taken by the Governing Council of the ECB (in addition to de" | kw:interest rate,ecb
+2026-07-24 13:31 SKIP_MORNING already_sent date=2026-07-24
+2026-07-24 13:31 SKIP_EVENING already_sent date=2026-07-24
